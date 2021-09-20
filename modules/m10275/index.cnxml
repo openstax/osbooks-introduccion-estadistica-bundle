@@ -1,0 +1,1288 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>A Confidence Interval for a  Population Standard Deviation Unknown, Small Sample Case</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10275</md:content-id>
+  <md:title>A Confidence Interval for a  Population Standard Deviation Unknown, Small Sample Case</md:title>
+  <md:abstract/>
+  <md:uuid>d782652b-a3a8-4c99-8e55-6183f12a9d07</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">En la práctica, pocas veces conocemos la <term>desviación típica</term> de la población. En el pasado, cuando el tamaño de la muestra era grande, esto no suponía un problema para los estadísticos. Utilizaron la desviación típica de la muestra <emphasis effect="italics">s</emphasis> como una estimación de <emphasis effect="italics">σ</emphasis> y procedieron como antes para calcular un <term>intervalo de confianza</term> con resultados suficientemente cercanos. Esto es lo que hicimos en el <link target-id="eip-258" document="m55461"/> arriba. La estimación puntual de la desviación típica, s, se sustituyó en la fórmula del intervalo de confianza para la desviación típica de la población. En este caso hay 80 observaciones muy por encima de las 30 sugeridas para eliminar cualquier sesgo de una muestra pequeña. Sin embargo, los estadísticos se encontraron con problemas cuando el tamaño de la muestra era pequeño. El pequeño tamaño de la muestra provocó imprecisiones en el intervalo de confianza. </para><para id="element-643">William S. Goset (1876-1937), de la fábrica de cerveza Guinness de Dublín (Irlanda), se encontró con este problema. Sus experimentos con lúpulo y cebada produjeron muy pocas muestras. La simple sustitución de <emphasis effect="italics">σ</emphasis> por <emphasis effect="italics">s</emphasis> no produjo resultados precisos cuando intentó calcular un intervalo de confianza. Se dio cuenta de que no podía utilizar una distribución normal para el cálculo; descubrió que la distribución real depende del tamaño de la muestra. Este problema lo llevó a “descubrir” lo que se llama la <term>distribución t de Student</term>. El nombre proviene del hecho de que Gosset escribió bajo el seudónimo de "Un estudiante".</para><para id="eip-254">Hasta mediados de los años 70, algunos estadísticos utilizaban la aproximación de la <term>distribución normal</term> para tamaños de muestra grandes y utilizaban la distribución t de Student solo para tamaños de muestra de un máximo de 30 observaciones. </para><para id="eip-449">Si se extrae una muestra aleatoria simple de tamaño <emphasis effect="italics">n</emphasis> de una población con media <emphasis effect="italics">μ</emphasis> y desviación típica poblacional desconocida <emphasis effect="italics">σ</emphasis> y se calcula la puntuación <emphasis effect="italics">t</emphasis> <emphasis effect="italics">t</emphasis> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mover accent="true">
+     <m:mi>x</m:mi>
+     <m:mo>-</m:mo>
+    </m:mover>
+    <m:mo>–</m:mo><m:mi>μ</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>s</m:mi>
+       <m:mrow>
+        <m:msqrt>
+         <m:mi>n</m:mi>
+        </m:msqrt>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>, entonces las puntuaciones <emphasis effect="italics">t</emphasis> siguen una <emphasis>distribución t de Student con <emphasis effect="italics">n</emphasis> – 1 grados de libertad</emphasis>. La puntuación <emphasis effect="italics">t</emphasis> tiene la misma interpretación que la puntuación <term><emphasis effect="italics">z</emphasis></term>. Mide la distancia en unidades de desviación típica <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>-</m:mo>
+ </m:mover>
+
+</m:math> es de su media <emphasis effect="italics">μ</emphasis>. Para cada tamaño de muestra <emphasis effect="italics">n</emphasis> existe una distribución t de Student diferente.</para><para id="eip-490">Los <term>grados de libertad</term>, <emphasis><emphasis effect="italics">n</emphasis> – 1</emphasis>, proceden del cálculo de la desviación típica de la muestra <emphasis><emphasis effect="italics">s</emphasis></emphasis>. Recuerde que cuando calculamos por primera vez una desviación típica de la muestra, dividimos la suma de las desviaciones al cuadrado por <emphasis effect="italics">n</emphasis> - 1, pero utilizamos <emphasis effect="italics">n</emphasis> desviaciones <m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>-</m:mo>
+  </m:mover>
+  <m:mtext>valores</m:mtext><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math> para calcular <emphasis><emphasis effect="italics">s</emphasis></emphasis>. Como la suma de las desviaciones es cero, podemos hallar la última desviación una vez que conocemos las otras <emphasis><emphasis effect="italics">n</emphasis> – 1</emphasis> desviaciones. Las otras <emphasis><emphasis effect="italics">n</emphasis> – 1</emphasis> desviaciones pueden cambiar o variar libremente. <emphasis>Llamamos al número <emphasis effect="italics">n</emphasis> - 1 los grados de libertad (degrees of freedom, df)</emphasis> en reconocimiento de que uno se pierde en los cálculos. El efecto de la pérdida de un grado de libertad es que el valor t aumenta y el intervalo de confianza aumenta su anchura.</para><list id="eip-418"><title><emphasis>Propiedades de la distribución t de Student</emphasis></title><item>La gráfica de la distribución t de Student es similar a la curva normal estándar y a infinitos grados de libertad es la distribución normal. Puede confirmarlo leyendo la línea inferior a infinitos grados de libertad para un nivel de confianza conocido, por ejemplo, en la columna 0,05, nivel de confianza del 95 %, encontramos el valor t de 1,96 a infinitos grados de libertad.</item>
+<item>La media de la distribución t de Student es cero y la distribución es simétrica respecto a cero, de nuevo como la distribución normal estándar.</item>
+<item>La distribución t de Student tiene más probabilidad en sus colas que la distribución normal estándar porque la dispersión de la distribución t es mayor que la dispersión de la normal estándar. Así, el gráfico de la distribución t de Student será más gruesa en las colas y más corta en el centro que el gráfico de la distribución normal estándar.</item>
+<item>La forma exacta de la distribución t de Student depende de los grados de libertad. A medida que aumentan los grados de libertad, el gráfico de la distribución t de Student se parece más al gráfico de la distribución normal estándar.</item>
+<item>Se supone que la población subyacente de observaciones individuales se distribuye normalmente, con una media poblacional desconocida <emphasis effect="italics">μ</emphasis> y una desviación típica poblacional desconocida <emphasis effect="italics">σ</emphasis>. Esta suposición proviene del teorema del límite central porque las observaciones individuales en este caso son las <m:math><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math> de la distribución muestral. El tamaño de la población subyacente no suele ser relevante, a menos que sea muy pequeña. Si es normal, se cumple el supuesto y no es necesario discutirlo.</item>
+</list><para id="eip-647">Se utiliza una tabla de probabilidad para la distribución t de Student para calcular los valores t en varios niveles de confianza comúnmente utilizados. La tabla muestra las puntuaciones t que corresponden al nivel de confianza (columna) y los grados de libertad (fila). Al utilizar una tabla <emphasis effect="italics">t</emphasis>, tenga en cuenta que algunas tablas están formateadas para mostrar el nivel de confianza en los títulos de las columnas, mientras que los títulos de las columnas de algunas tablas pueden mostrar solo el área correspondiente en una o ambas colas. Observe que en la parte inferior de la tabla aparecerá el valor t para infinitos grados de libertad. Matemáticamente, a medida que aumentan los grados de libertad, la distribución <emphasis effect="italics">t</emphasis>se aproxima a la distribución normal estándar. Puede encontrar los valores Z conocidos buscando en la columna alfa correspondiente y leyendo el valor en la última fila.<newline/> <newline/>Una tabla t de Student (Vea la <link document="m56641"/>) da las puntuaciones <emphasis effect="italics">t</emphasis> dados los grados de libertad y la probabilidad de cola derecha.</para>
+
+<para id="eip-90">La distribución <emphasis effect="italics">t</emphasis> de Student tiene una de las propiedades más deseables de la normal: es simétrica. Lo que hace la distribución <emphasis effect="italics">t</emphasis> de Student es extender el eje horizontal, de modo que se necesita un mayor número de desviaciones típicas para capturar la misma cantidad de probabilidad. En realidad, hay un número infinito de distribuciones <emphasis effect="italics">t</emphasis>de Student, una para cada ajuste del tamaño de la muestra. A medida que aumenta el tamaño de la muestra, la distribución <emphasis effect="italics">t</emphasis> de Student se parece cada vez más a la distribución normal. Cuando el tamaño de la muestra llega a 30, la distribución normal suele sustituirse por la t de Student porque son muy parecidas. Esta relación entre la distribución <emphasis effect="italics">t</emphasis> de Student y la distribución normal se muestra en la <link target-id="fs-id1169346248939"/>.</para><figure id="fs-id1169346248939"><media id="fs-id1169360091692" alt=""><image src="../../media/fig-ch08_02_03-f5bc.jpg" mime-type="image/png"/></media></figure><para id="eip-234">Este es otro ejemplo de una distribución que limita a otra, en este caso la distribución normal es la distribución que limita a la t de Student cuando los grados de libertad en la t de Student se acercan a infinito. Esta conclusión proviene directamente de la derivación de la distribución <emphasis effect="italics">t</emphasis> de Student realizada por el Sr. Gosset. Reconoció que el problema consistía en tener pocas observaciones y no estimar la desviación típica de la población. Sustituía la desviación típica de la muestra y obtenía resultados volátiles. Por lo tanto, creó la distribución <emphasis effect="italics">t</emphasis> de Student como una relación entre la distribución normal y la distribución chi cuadrada. La distribución chi cuadrada es a su vez un cociente de dos varianzas, en este caso la varianza de la muestra y la varianza de la población desconocida. La distribución <emphasis effect="italics">t</emphasis> de Student, por tanto, está ligada a la distribución normal, pero tiene grados de libertad que provienen de los de la distribución chi cuadrada. La solución algebraica demuestra este resultado.</para><list id="eip-243" list-type="bulleted" bullet-style="none"><title>Desarrollo de la distribución t de Student:</title><item><m:math><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>z</m:mi></m:mrow><m:mrow><m:msqrt><m:mfrac><m:mrow><m:msup><m:mi>χ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mfrac></m:msqrt></m:mrow></m:mfrac></m:math>
+  <para id="eip-id7711465">donde <emphasis effect="italics">z</emphasis> es la variable normal estándar y <emphasis effect="italics">χ</emphasis><sup>2</sup> es la distribución chi cuadrada con <emphasis effect="italics">v</emphasis> grados de libertad. <newline/>Sustituya los valores y simplifique:</para>
+</item>
+<item> <m:math><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>−</m:mo><m:mi>μ</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>σ</m:mi></m:mrow></m:mfrac></m:mrow><m:mrow><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo>
+<m:mfrac><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>−</m:mo><m:mi>μ</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>σ</m:mi></m:mrow></m:mfrac></m:mrow><m:mrow><m:msqrt><m:mrow>
+<m:mfrac><m:mrow><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mrow>
+<m:mrow><m:mrow><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac>
+<m:mo>=</m:mo>
+<m:mfrac><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>−</m:mo><m:mi>μ</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>σ</m:mi></m:mrow></m:mfrac></m:mrow><m:mrow>
+<m:mfrac><m:mi>s</m:mi><m:mi>σ</m:mi></m:mfrac>
+</m:mrow></m:mfrac>
+<m:mo>=</m:mo>
+<m:mfrac><m:mrow><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>−</m:mo><m:mi>μ</m:mi></m:mrow><m:mrow>
+<m:mfrac><m:mi>s</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac>
+</m:mrow></m:mfrac>
+</m:math>
+
+</item>
+<item>
+<m:math><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>s</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:math></item></list><para id="eip-921">Hay que replantear la fórmula de un intervalo de confianza para la media para los casos en que el tamaño de la muestra es inferior a 30 y no conocemos la desviación típica de la población, σ:</para><equation id="eip-546" class="unnumbered"><label/><m:math>
+<m:mover><m:mi>x</m:mi><m:mo>-</m:mo></m:mover>
+<m:mo>-</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>v,α</m:mi>
+</m:msub>
+<m:mo>(</m:mo>
+<m:mfrac>
+<m:mi>s</m:mi>
+<m:mrow>
+<m:msqrt><m:mi>n</m:mi></m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+<m:mo>≤</m:mo>
+<m:mi>μ</m:mi>
+<m:mo>≤</m:mo>
+<m:mover><m:mi>x</m:mi><m:mo>-</m:mo></m:mover>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>v,α</m:mi>
+</m:msub>
+<m:mo>(</m:mo>
+<m:mfrac>
+<m:mi>s</m:mi>
+<m:mrow>
+<m:msqrt><m:mi>n</m:mi></m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:math></equation><para id="eip-573">Aquí la estimación puntual de la desviación típica de la población, s ha sido sustituida por la desviación típica de la población, σ, y t<sub>ν</sub>,α ha sido sustituida por Z<sub>α</sub>. La letra griega ν (pronunciada niu) se coloca en la fórmula general en reconocimiento de que hay muchas distribuciones de Student t<sub>v</sub>, una para cada tamaño de muestra. ν es el símbolo de los grados de libertad de la distribución y depende del tamaño de la muestra. A menudo se utiliza “df” para abreviar los grados de libertad. <emphasis>Para este tipo de problema,</emphasis> los grados de libertad son ν = n-1, donde n es el tamaño de la muestra. Para buscar una probabilidad en la tabla t de Student tenemos que conocer los grados de libertad del problema.  </para><example id="fs-id1170684098224"><exercise id="eip-33"><problem id="eip-id4891760">
+<para id="eip-id7764553">El beneficio medio por acción (BPA) de 10 acciones industriales seleccionadas al azar entre las que se cotizan en el Dow-Jones Industrial Average resultó ser <m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover></m:math> = 1,85 con una desviación típica de s=0,395. Calcule un intervalo de confianza del 99 % para el BPA medio de todas las empresas industriales que cotizan en el Dow-Jones Industrial Average (DJIA).</para><equation id="eip-372" class="unnumbered"><label/><m:math>
+<m:mover><m:mi>x</m:mi><m:mo>-</m:mo></m:mover>
+<m:mo>-</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>v,α</m:mi>
+</m:msub>
+<m:mo>(</m:mo>
+<m:mfrac>
+<m:mi>s</m:mi>
+<m:mrow>
+<m:msqrt><m:mi>n</m:mi></m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+<m:mo>≤</m:mo>
+<m:mi>μ</m:mi>
+<m:mo>≤</m:mo>
+<m:mover><m:mi>x</m:mi><m:mo>-</m:mo></m:mover>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>v,α</m:mi>
+</m:msub>
+<m:mo>(</m:mo>
+<m:mfrac>
+<m:mi>s</m:mi>
+<m:mrow>
+<m:msqrt><m:mi>n</m:mi></m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:math></equation>
+</problem>
+
+<solution id="eip-451"><para id="eip-id8345389">Para ayudar a visualizar el proceso de cálculo de un intervalo de confianza, dibujamos la distribución apropiada para el problema. En este caso es la t de Student porque no conocemos la desviación típica de la población y la muestra es pequeña, menos de 30.</para><figure id="RiceInsertV"><media id="eip-id1166428771031" alt="...">
+    <image mime-type="image/jpeg" src="../../media/fig-ch08_02_02n.jpg" width="380"/>
+  </media>
+
+</figure>
+  <para id="eip-id1169756770305">Para encontrar el valor t adecuado se necesitan dos datos, el nivel de confianza deseado y los grados de libertad. La pregunta pedía un nivel de confianza del 99 %. En el gráfico esto se muestra donde (1-α), el nivel de confianza, está en el área no sombreada. Las colas, por tanto, tienen 0,005 de probabilidad cada una, α/2. Los grados de libertad para este tipo de problema son n-1= 9. En la tabla t de Student, en la fila marcada como 9 y en la columna marcada como 0,005, se halla el número de desviaciones típicas para capturar el 99 % de la probabilidad, 3,2498. A continuación, se colocan en el gráfico recordando que la t de Student es simétrica y que, por lo tanto, el valor t está tanto del lado más como del lado menos de la media.</para><para id="eip-id1169966923680">Al insertar estos valores en la fórmula se obtiene el resultado. Estos valores pueden colocarse en el gráfico para ver la relación entre la distribución de las medias muestrales, <m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover></m:math> y la distribución <emphasis effect="italics">t</emphasis> de Student.  </para><equation id="eip-id1171263782198" class="unnumbered"><label/><m:math>
+<m:mi>μ</m:mi><m:mo>=</m:mo>
+<m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover>
+<m:mo>±</m:mo>
+<m:msub><m:mi>t</m:mi><m:mi>α/2,df=n-1</m:mi></m:msub>
+
+<m:mfrac>
+<m:mrow><m:mi>s</m:mi></m:mrow><m:mrow><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mn>1,851</m:mn><m:mo>±</m:mo><m:mn>3,2498</m:mn>
+
+<m:mfrac>
+<m:mrow><m:mn>0,395</m:mn></m:mrow>
+<m:mrow><m:msqrt><m:mn>10</m:mn></m:msqrt></m:mrow>
+</m:mfrac>
+
+<m:mo>=</m:mo>
+
+<m:mn>1,8551</m:mn><m:mo>±</m:mo><m:mn>0,406</m:mn>
+
+</m:math></equation>
+<equation id="eip-id1169768034722" class="unnumbered"><label/><m:math><m:mn>1,445</m:mn><m:mo>≤</m:mo><m:mi>μ</m:mi><m:mo>≤</m:mo><m:mn>2,257</m:mn></m:math></equation><para id="eip-id1165395973931">La conclusión formal es la siguiente:</para><para id="eip-id1165395962781">Con un nivel de confianza del 99 %, el BPA medio de todas las industrias que figuran en el DJIA es de 1,44 dólares a 2,26 dólares.</para></solution>
+</exercise></example><note id="fs-idm181001040" class="statistics try">
+ <label/>
+ <title>Ejercicio</title>
+ <exercise id="eip-496"><problem id="eip-247">
+  <para id="eip-331">Usted hace un estudio sobre la hipnoterapia para determinar su eficacia a la hora de aumentar el número de horas de sueño de los sujetos cada noche. Se miden las horas de sueño de 12 sujetos con los siguientes resultados. Construya un intervalo de confianza del 95 % para la media de horas dormidas para la población (que se supone normal) de la que ha tomado los datos.</para><para id="eip-idm108202576">8,2; 9,1; 7,7; 8,6; 6,9; 11,2; 10,1; 9,9; 8,9; 9,2; 7,5; 10,5</para></problem>
+<solution id="eip-415"><label/>
+  <para id="eip-720">(8,1634, 9,8032)</para></solution>
+</exercise>
+</note>
+<section id="eip-400" class="references"><title>Referencias</title><para id="eip-idp72771968">“America’s Best Small Companies”. Forbes, 2013. Disponible en línea en http://www.forbes.com/best-small-companies/list/ (consultado el 2 de julio de 2013).</para>
+<para id="eip-idm62303392">Datos de <emphasis effect="italics">Microsoft Bookshelf</emphasis>.</para>
+<para id="eip-idm46745392">Datos de http://www.businessweek.com/.</para>
+<para id="eip-idp72771584">Datos de http://www.forbes.com/.</para>
+<para id="eip-idp90955712">“Disclosure Data Catalog: Leadership PAC and Sponsors Report, 2012”. Federal Election Commission. Disponible en línea en http://www.fec.gov/data/index.jsp (consultado el 2 de julio de 2013).</para>
+<para id="eip-idm101744816">“Human Toxome Project: Mapping the Pollution in People”. Environmental Working Group. Disponible en línea en http://www.ewg.org/sites/humantoxome/participants/participant-group.php?group=in+utero%2Fnewborn (consultado el 2 de julio de 2013).</para>
+<para id="eip-idp90954816">“Metadata Description of Leadership PAC List”. Federal Election Commission. Disponible en línea en http://www.fec.gov/finance/disclosure/metadata/metadataLeadershipPacList.shtml (consultado el 2 de julio de 2013).</para></section><section id="eip-447" class="summary">
+<title>Revisión del capítulo</title>
+<para id="eip-895">En muchos casos, el investigador no conoce la desviación típica de la población, <emphasis effect="italics">σ</emphasis>, de la medida estudiada. En estos casos, es habitual utilizar la desviación típica de la muestra, <emphasis effect="italics">s</emphasis>, como estimación de <emphasis effect="italics">σ</emphasis>. La distribución normal crea intervalos de confianza precisos cuando se conoce <emphasis effect="italics">σ</emphasis>, pero no es tan precisa cuando se utiliza <emphasis effect="italics">s</emphasis> como estimación. En este caso, la distribución t de Student es mucho mejor. Defina una puntuación t mediante la siguiente fórmula:</para>
+ <para id="eip-828"><m:math>
+ <m:mrow>
+  <m:mi>t</m:mi><m:mo>=</m:mo><m:mo> </m:mo><m:mfrac>
+   <m:mrow>
+    <m:mover accent="true">
+     <m:mi>x</m:mi>
+     <m:mo>-</m:mo>
+    </m:mover>
+    <m:mo>-</m:mo><m:mi>μ</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mfrac bevelled="true">
+     <m:mi>s</m:mi>
+     <m:mrow>
+      <m:msqrt>
+       <m:mi>n</m:mi>
+      </m:msqrt>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></para>
+
+ <para id="eip-305">La puntuación <emphasis effect="italics">t</emphasis> sigue la distribución t de Student con <emphasis effect="italics">n</emphasis> – 1 grados de libertad. El intervalo de confianza bajo esta distribución se calcula con <m:math><m:mover><m:mi>x</m:mi><m:mo>-</m:mo></m:mover><m:mo>±</m:mo>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>t</m:mi>
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>α</m:mi>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:msub>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mfrac>
+   <m:mi>s</m:mi>
+   <m:mrow>
+    <m:msqrt>
+     <m:mi>n</m:mi>
+    </m:msqrt>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> donde <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>t</m:mi>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>α</m:mi>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msub>
+
+ </m:mrow>
+</m:math> es la puntuación <emphasis effect="italics">t</emphasis> con un área a la derecha igual a <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>α</m:mi>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>, <emphasis effect="italics">s</emphasis> es la desviación típica de la muestra y <emphasis effect="italics">n</emphasis> es el tamaño de la muestra. Utilice una tabla, una calculadora o una computadora para hallar <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>t</m:mi>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>α</m:mi>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msub>
+
+ </m:mrow>
+</m:math> para una <emphasis effect="italics">α</emphasis> determinada.</para></section>
+<section id="eip-428" class="formula-review">
+<title>Revisión de la fórmula</title>
+<para id="eip-987"><emphasis effect="italics">s</emphasis> = la desviación típica de los valores de la muestra.
+</para>
+ <para id="eip-11"><m:math>
+ <m:mrow>
+  <m:mi>t</m:mi><m:mo>=</m:mo><m:mo> </m:mo><m:mfrac>
+   <m:mrow>
+    <m:mover accent="true">
+     <m:mi>x</m:mi>
+     <m:mo>-</m:mo>
+    </m:mover>
+    <m:mo>−</m:mo><m:mi>μ</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>s</m:mi>
+     <m:mrow>
+      <m:msqrt>
+       <m:mi>n</m:mi>
+      </m:msqrt>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> es la fórmula de la puntuación <emphasis effect="italics">t</emphasis> que mide la distancia de una medida con respecto a la media de la población en la distribución t de Student</para>
+<para id="eip-995"><emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> – 1; los grados de libertad para una distribución t de Student donde n representa el tamaño de la muestra</para>
+<para id="eip-288"><emphasis effect="italics">T</emphasis>~<emphasis effect="italics">t<sub>df</sub></emphasis> es la variable aleatoria, <emphasis effect="italics">T</emphasis>, tiene una distribución t de Student con <emphasis effect="italics">df</emphasis> grados de libertad</para>
+<para id="fs-idm169440128">La forma general de un intervalo de confianza para una media única, una desviación típica de la población desconocida y un tamaño de muestra inferior a 30 t de Student viene dada por <m:math>
+<m:mover><m:mi>x</m:mi><m:mo>-</m:mo></m:mover>
+<m:mo>-</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>v,α</m:mi>
+</m:msub>
+<m:mo>(</m:mo>
+<m:mfrac>
+<m:mi>s</m:mi>
+<m:mrow>
+<m:msqrt><m:mi>n</m:mi></m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+<m:mo>≤</m:mo>
+<m:mi>μ</m:mi>
+<m:mo>≤</m:mo>
+<m:mover><m:mi>x</m:mi><m:mo>-</m:mo></m:mover>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>v,α</m:mi>
+</m:msub>
+<m:mo>(</m:mo>
+<m:mfrac>
+<m:mi>s</m:mi>
+<m:mrow>
+<m:msqrt><m:mi>n</m:mi></m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:math></para></section>
+<section id="eip-568" class="practice">
+<para id="eip-517"><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios.</emphasis> Un hospital intenta reducir los tiempos de espera en la sala de emergencias. Se interesa por el tiempo que los pacientes deben esperar antes de que los llamen para examinarlos. Un comité de investigación encuestó al azar a 70 pacientes. La media muestral fue de 1,5 horas con una desviación típica de la muestra de 0,5 horas.</para>
+<exercise id="eip-761"><problem id="eip-280">
+  <para id="eip-271">Identifique lo siguiente:  </para>
+ <list id="fs-idm169488192" list-type="enumerated" number-style="lower-alpha">
+<item>
+<m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>-</m:mo>
+ </m:mover>
+
+</m:math> =_______</item>
+ <item>
+ <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>s</m:mi>
+   <m:mi>x</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math> =_______</item>
+ <item><emphasis effect="italics">n</emphasis> =_______</item>
+ <item><emphasis effect="italics">n</emphasis> – 1 =_______</item>
+</list></problem>
+</exercise><exercise id="eip-589"><problem id="eip-841">
+  <para id="eip-213">Defina las variables aleatorias <emphasis effect="italics">X</emphasis> y <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>-</m:mo>
+ </m:mover>
+
+</m:math> en palabras.</para>
+</problem>
+<solution id="eip-771">
+  <para id="eip-673"><emphasis effect="italics">X</emphasis> es el número de horas que un paciente espera en la sala de emergencias antes de que lo llamen para examinarlo. <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>-</m:mo>
+ </m:mover>
+
+</m:math> es el tiempo medio de espera de 70 pacientes en la sala de emergencias.</para></solution>
+</exercise>
+<exercise id="eip-709"><problem id="eip-983">
+  <para id="eip-555">¿Qué distribución debería utilizar para este problema?</para>
+</problem>
+</exercise><exercise id="eip-624">
+<problem id="eip-477">
+  <para id="eip-158">Construya un intervalo de confianza del 95 % para el tiempo medio de espera de la población. Indique el intervalo de confianza, dibuje el gráfico y calcule el límite de error.</para>
+</problem>
+<solution id="eip-501">
+  <para id="eip-334">CI: (1,3808, 1,6192)</para>
+ <figure id="fs-idm150372688"><media id="eip-idp2023440" alt="Se trata de una curva de distribución normal. El pico de la curva coincide con el punto 1,5 del eje horizontal. Una región central está sombreada entre los puntos 1,38 y 1,62."><image src="../../media/CNX_Stats_C08_M03_item001annoN.jpg" mime-type="image/jpeg" width="380"/></media></figure><para id="eip-idm67620928">
+<emphasis effect="italics">EBM</emphasis> = 0,12</para>
+</solution>
+</exercise>
+<exercise id="eip-469"><problem id="eip-552">
+  <para id="eip-785">Explique con oraciones completas qué significa el intervalo de confianza (confidence interval, CI).</para>
+</problem>
+</exercise><para id="eip-724"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos seis ejercicios:</emphasis> Se encuestaron ciento ocho estadounidenses para determinar el número de horas que pasan viendo televisión cada mes. Se reveló que veían un promedio de 151 horas al mes con una desviación típica de 32 horas. Supongamos que la distribución de la población subyacente es normal.</para><exercise id="eip-817"><problem id="eip-671">
+  <para id="eip-716">Identifique lo siguiente:</para>
+ <list id="fs-idm137662144" list-type="enumerated" number-style="lower-alpha"><item><m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>-</m:mo>
+ </m:mover>
+
+</m:math> =_______</item>
+<item><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>s</m:mi>
+   <m:mi>x</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math> =_______</item>
+  <item><emphasis effect="italics">n</emphasis> =_______</item>
+  <item><emphasis effect="italics">n</emphasis> – 1 =_______</item>
+</list></problem>
+<solution id="eip-123">
+ <list id="fs-idm117900288" list-type="enumerated" number-style="lower-alpha"><item>
+ <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>-</m:mo>
+ </m:mover>
+
+</m:math> = 151</item>
+<item>
+<m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>s</m:mi>
+   <m:mi>x</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math> = 32</item>
+<item><emphasis effect="italics">n</emphasis> = 108</item>
+<item><emphasis effect="italics">n</emphasis> – 1 = 107</item>
+</list></solution>
+</exercise>
+<exercise id="eip-225"><problem id="eip-586">
+  <para id="eip-675">Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</para>
+</problem>
+</exercise><exercise id="eip-810">
+<problem id="eip-816">
+  <para id="eip-629">Defina la variable aleatoria <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>-</m:mo>
+ </m:mover>
+
+</m:math> en palabras.</para>
+</problem>
+<solution id="eip-823">
+  <para id="eip-495"><m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>-</m:mo>
+ </m:mover>
+
+</m:math> es el número medio de horas que se dedican a ver la televisión al mes en una muestra de 108 estadounidenses.</para></solution>
+</exercise><exercise id="eip-72"><problem id="eip-425">
+  <para id="eip-578">¿Qué distribución debería utilizar para este problema?</para>
+</problem>
+</exercise><exercise id="eip-82"><problem id="eip-528">
+  <para id="eip-489">Construya un intervalo de confianza del 99 % para la media poblacional de horas dedicadas a ver televisión al mes. (a) Indique el intervalo de confianza, (b) dibuje el gráfico y (c) calcule el límite de error.</para>
+</problem>
+<solution id="eip-35">
+ <para id="eip-id1169812910484">CI: (142,92, 159,08)<newline/>
+
+  <figure id="fs-idm53713472"><media id="eip-idm24726752" alt="Se trata de una curva de distribución normal. El pico de la curva coincide con el punto 151 del eje horizontal. Una región central está sombreada entre los puntos 142,92 y 159,08."><image src="../../media/CNX_Stats_C08_M03_item002annoN.jpg" mime-type="image/jpeg" width="380"/></media></figure>
+<newline/><emphasis effect="italics">EBM</emphasis> = 8,08
+</para>
+</solution>
+</exercise><exercise id="eip-793"><problem id="eip-727">
+  <para id="eip-524">¿Por qué cambiaría el límite de error si el nivel de confianza se redujera al 95 %?</para>
+</problem>
+</exercise><para id="element-59"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos 13 ejercicios:</emphasis> Los datos que figuran en la <link target-id="element-181" document=""/> son el resultado de una encuesta aleatoria de 39 banderas nacionales (con reemplazo entre selecciones) de varios países. Estamos interesados en hallar un intervalo de confianza para el verdadero número medio de colores en una bandera nacional. Supongamos que <emphasis effect="italics">X</emphasis> = el número de colores de una bandera nacional.</para><table id="element-181" summary="This table presents the X values (1-5) in the first column and the frequency in the second column.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+       <thead>
+<row>
+<entry><emphasis effect="italics">X</emphasis></entry>
+<entry>Frec.</entry>
+</row>
+      </thead>
+<tbody>
+<row>
+<entry align="center">1</entry>
+<entry align="center">1</entry>
+</row>
+<row>
+<entry align="center">2</entry>
+<entry align="center">7</entry>
+</row>
+<row>
+<entry align="center">3</entry>
+<entry align="center">18</entry>
+</row>
+<row>
+<entry align="center">4</entry>
+<entry align="center">7</entry>
+</row><row>
+<entry align="center">5</entry>
+<entry align="center">6</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<exercise id="element-953"><problem id="id45583482">
+ <para id="element-234525">
+Calcule lo siguiente:
+</para>
+  <list id="list-87678" list-type="enumerated" number-style="lower-alpha">
+   <item><m:math>
+    <m:mover accent="true">
+     <m:mi>x</m:mi>
+     <m:mo>-</m:mo>
+    </m:mover>
+   </m:math> =______</item>
+   <item><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>s</m:mi>
+   <m:mi>x</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math> =______</item>
+   <item><emphasis effect="italics">n</emphasis> =______</item>
+</list>
+
+</problem>
+<solution id="id45593982">
+ <list id="list-827634" list-type="enumerated" number-style="lower-alpha">
+<item>3,26</item>
+<item>1,02</item>
+<item>39</item>
+</list>
+</solution>
+</exercise>
+ <exercise id="element-62"><problem id="id45594056">
+  <para id="element-588">Defina la variable aleatoria <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>-</m:mo>
+ </m:mover>
+
+</m:math> en palabras.</para>
+</problem>
+ </exercise><exercise id="element-212">
+<problem id="id45594158">
+  <para id="element-703">¿Cuál es el <m:math>
+    <m:mover accent="true">
+     <m:mi>x</m:mi>
+     <m:mo>-</m:mo>
+    </m:mover>
+
+   </m:math> estimado?</para>
+</problem>
+<solution id="id45594200">
+  <para id="element-760"><emphasis effect="italics">μ</emphasis></para>
+</solution>
+ </exercise>
+ <exercise id="element-704"><problem id="id45594258">
+  <para id="element-695">¿Es <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>σ</m:mi>
+   <m:mi>x</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math> conocido?</para>
+</problem>
+</exercise><exercise id="element-164"><problem id="id45594330">
+  <para id="element-339">Como resultado de su respuesta en el <link target-id="element-704" document=""/>, indique la distribución exacta que se debe usar para calcular el intervalo de confianza.</para></problem>
+<solution id="id45594350">
+ <para id="element-875"><emphasis effect="italics">t</emphasis><sub>38</sub></para>
+</solution>
+</exercise>
+<para id="element-548"><newline count="1"/><emphasis effect="italics">Construya un intervalo de confianza del 95 % para el número medio real de colores en las banderas nacionales.</emphasis></para><exercise id="element-425"><problem id="id45959436">
+  <para id="element-325">¿Cuánta superficie hay en ambas colas (combinadas)?</para>
+</problem>
+</exercise><exercise id="element-945"><problem id="id45959507">
+  <para id="element-260">¿Cuánta superficie hay en cada cola?</para>
+</problem>
+<solution id="id45959554">
+  <para id="element-697">0,025</para>
+</solution>
+</exercise>
+<exercise id="element-526"><problem id="id45959582">
+<para id="element-2354253">Calcule lo siguiente: <list id="list-76787865" list-type="enumerated" number-style="lower-alpha">
+  <item>límite inferior</item>
+  <item>límite superior</item>
+  <item>límite de error</item>
+</list></para>
+</problem>
+</exercise><exercise id="element-363"><problem id="id45959730">
+ <para id="element-434">El intervalo de confianza del 95 % es _____.</para>
+</problem>
+<solution id="id45959750">
+  <para id="element-350">(2,93, 3,59)</para>
+</solution>
+</exercise>
+ <exercise id="element-188"><problem id="id45959778">
+  <para id="element-726">Rellene los espacios en blanco del gráfico con las áreas, los límites superior e inferior del intervalo de confianza y la media muestral.</para>
+<figure id="five5"><media id="id45959805" alt="Esta es una plantilla de una curva de distribución normal con la región central sombreada para representar un intervalo de confianza. Las zonas residuales están a ambos lados de la región sombreada. Los espacios en blanco indican que los estudiantes deben etiquetar el nivel de confianza, las áreas residuales y los puntos que definen el intervalo de confianza.">
+<image src="../../media/fig-ch08_07_01-72cc.jpg" mime-type="image/jpg" width="380"/></media></figure>
+</problem>
+ </exercise><exercise id="element-499"><problem id="id45959843">
+  <para id="fs-idp7770160">Explique el significado del intervalo en una oración completa.</para>
+</problem>
+<solution id="eip-idm51678224">
+<para id="eip-idp98208704">Tenemos el 95 % de confianza en que el número medio real de colores de las banderas nacionales está entre 2,93 y 3,59 colores.</para>
+</solution>
+</exercise><exercise id="element-542"><problem id="id46274989">
+<para id="one">
+ Utilizando el mismo <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>-</m:mo>
+ </m:mover>
+
+</m:math>, <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>s</m:mi>
+   <m:mi>x</m:mi>
+  </m:msub>
+
+ </m:mrow>
+</m:math>, y el nivel de confianza, supongamos que <emphasis effect="italics">n</emphasis> fuera 69 en vez de 39. ¿El límite de error sería mayor o menor? ¿Cómo lo sabe?</para>
+</problem>
+<solution id="eip-idm61120128">
+<para id="eip-idm61119872">El límite de error sería EBM = 0,245. Este límite de error disminuye porque a medida que aumenta el tamaño de las muestras, la variabilidad disminuye y necesitamos menos longitud de intervalo para capturar la media real.</para>
+</solution></exercise><exercise id="element-939"><problem id="id46275081">
+  <para id="element-111">Utilizando el mismo <m:math>
+   <m:mover accent="true">
+    <m:mi>x</m:mi>
+    <m:mo>-</m:mo>
+   </m:mover></m:math>, <m:math>
+    <m:mrow>
+     <m:msub>
+      <m:mi>s</m:mi>
+      <m:mi>x</m:mi>
+     </m:msub>
+    </m:mrow>
+   </m:math>, y <emphasis effect="italics">n</emphasis> = 39, ¿cómo cambiaría el límite de error si el nivel de confianza se redujera al 90 %? ¿Por qué?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-idp293092128" class="free-response">
+<title>Tarea para la casa</title>
+<exercise id="exer2">
+<problem id="id6354520">
+<para id="para2">En seis bolsas de “The Flintstones® Real Fruit Snacks” había cinco bocadillos Bam-Bam. El número total de bocadillos en las seis bolsas era de 68. Queremos calcular un intervalo de confianza del 96 % para la proporción poblacional de piezas de bocadillo Bam-Bam.</para>
+ <list id="list5" list-type="enumerated" number-style="lower-alpha">
+  <item>Defina las variables aleatorias <emphasis effect="italics">X</emphasis> y <emphasis effect="italics">P</emphasis>′ con palabras.</item>
+      <item>¿Qué distribución debería utilizar para este problema? Explique su elección</item>
+  <item>Calcule <emphasis effect="italics">p</emphasis>′.</item>
+      <item>Construya un intervalo de confianza del 96 % para la proporción poblacional de piezas de bocadillo Bam-Bam por bolsa. <list id="list6" list-type="enumerated" number-style="lower-roman">
+        <item>Indique el intervalo de confianza.</item>
+      <item>Dibuje el gráfico.</item>
+   <item>Calcule el límite de error.</item>
+       </list>
+      </item>
+      <item>¿Cree que seis paquetes de bocadillos de fruta aportan suficientes datos para obtener resultados precisos? ¿Por qué o por qué no?</item>
+ </list>
+</problem>
+</exercise>
+<exercise id="exer3"><problem id="id5182442"><para id="para7">Una encuesta aleatoria sobre las inscripciones en 35 colegios comunitarios de Estados Unidos arrojó las siguientes cifras: 6.414; 1.550; 2.109; 9.350; 21.828; 4.300; 5.944; 5.722; 2.825; 2.044; 5.481; 5.200; 5.853; 2.750; 10.012; 6.357; 27.000; 9.414; 7.681; 3.200; 17.500; 9.200; 7.380; 18.314; 6.557; 13.713; 17.768; 7.493; 2.771; 2.861; 1.263; 7.285; 28.165; 5.080; 11.622. Supongamos que la población subyacente es normal. <list id="list10" list-type="enumerated" number-style="lower-alpha">
+ <item>
+  <list id="list9" list-type="enumerated" number-style="lower-roman">
+   <item><m:math>
+    <m:mover accent="true">
+     <m:mi>x</m:mi>
+     <m:mo>-</m:mo>
+    </m:mover>
+   </m:math> = __________</item>
+   <item><m:math>
+    <m:mrow>
+     <m:msub>
+      <m:mi>s</m:mi>
+      <m:mi>x</m:mi>
+     </m:msub>
+    </m:mrow>
+   </m:math> = __________</item>
+   <item><emphasis effect="italics">n</emphasis> = __________</item>
+   <item><emphasis effect="italics">n</emphasis> – 1 = __________</item>
+  </list>
+  </item>
+   <item>Defina las variables aleatorias <m:math>
+    <m:mi>X</m:mi>
+   </m:math> y <m:math>
+    <m:mover accent="true">
+     <m:mi>X</m:mi>
+     <m:mo>-</m:mo>
+    </m:mover>
+   </m:math> en palabras.</item>
+      <item>¿Qué distribución debería utilizar para este problema? Explique su elección.</item>
+      <item>Construya un intervalo de confianza del 95 % para la media poblacional de matriculación en los institutos universitarios comunitarios de Estados Unidos <list id="list11" list-type="enumerated" number-style="lower-roman"><item>Indique el intervalo de confianza.</item>
+      <item>Dibuje el gráfico.</item>
+       </list></item>
+    <item>¿Qué ocurriría con el límite de error y el intervalo de confianza si se encuestaran 500 colegios comunitarios? ¿Por qué?</item>
+ </list>
+</para>
+</problem>
+ <solution id="id6025360"><list id="list_s4" list-type="enumerated" number-style="lower-alpha">
+  <item>
+   <list id="list_s5" list-type="enumerated" number-style="lower-roman">
+    <item>8629</item>
+<item>6944</item>
+<item>35</item>
+<item>34</item>
+   </list>
+  </item>
+  <item><m:math>
+   <m:mrow>
+    <m:msub>
+     <m:mi>t</m:mi>
+     <m:mrow>
+      <m:mn>34</m:mn>
+     </m:mrow>
+    </m:msub>
+   </m:mrow>
+  </m:math>
+  </item>
+  <item><list id="list_s7" list-type="enumerated" number-style="lower-roman"><item>CI: (6244, 11.014)</item>
+<item><figure id="fs-idp12588848"><media id="mmm" alt="Se trata de una curva de distribución normal. El pico de la curva coincide con el punto 8629 del eje horizontal. Una región central está sombreada entre los puntos 6.244 y 11.014."><image src="../../media/fig-ch08_10_01.jpg" mime-type="image/jpeg" width="380"/></media></figure></item>
+  </list></item>
+<item>Se hará más pequeño</item>
+ </list>
+
+ </solution>
+</exercise>
+<exercise id="exer5"><problem id="id5647026"><para id="para8">Supongamos que una comisión estudia si hay o no pérdida de tiempo en nuestro sistema judicial. Se interesa por la cantidad media de tiempo que las personas pierden en el juzgado a la espera de que los llamen para ser jurado. El comité encuestó de forma aleatoria a 81 personas que habían prestado servicio como jurado recientemente. El tiempo de espera de las medias muestrales fue de ocho horas, con una desviación típica de la muestra de cuatro horas.</para>
+
+<list id="list13" list-type="enumerated" number-style="lower-alpha">
+  <item><list id="list12" list-type="enumerated" number-style="lower-roman">
+   <item><m:math>
+    <m:mover accent="true">
+     <m:mi>x</m:mi>
+     <m:mo>-</m:mo>
+    </m:mover>
+   </m:math> = __________</item>
+
+   <item><m:math>
+    <m:mrow>
+     <m:msub>
+      <m:mi>s</m:mi>
+      <m:mi>x</m:mi>
+     </m:msub>
+    </m:mrow>
+   </m:math> = __________</item>
+
+   <item><emphasis effect="italics">n</emphasis> = __________</item>
+
+   <item><emphasis effect="italics">n</emphasis> – 1 = __________</item>
+  </list>
+   </item>
+   <item>Defina las variables aleatorias <m:math>
+    <m:mi>X</m:mi>
+   </m:math> y <m:math>
+    <m:mover accent="true">
+     <m:mi>X</m:mi>
+     <m:mo>-</m:mo>
+    </m:mover>
+   </m:math> en palabras.</item>
+<item>¿Qué distribución debería utilizar para este problema? Explique su elección.</item>
+  <item>Construya un intervalo de confianza del 95 % para la media de tiempo perdido de la población <list id="list14" list-type="enumerated" number-style="lower-roman"><item>Indique el intervalo de confianza.</item>
+<item>Dibuje el gráfico.</item>
+   </list></item>
+<item>Explique en una oración completa qué significa el intervalo de confianza.</item>
+ </list>
+</problem>
+</exercise><exercise id="exer10"><problem id="id6300844"><para id="para21">Una compañía farmacéutica fabrica tranquilizantes. Se supone que la distribución del tiempo que duran es aproximadamente normal. Los investigadores de un hospital utilizaron el fármaco en una muestra aleatoria de nueve pacientes. El periodo efectivo del tranquilizante para cada paciente (en horas) fue el siguiente: 2,7; 2,8; 3,0; 2,3; 2,3; 2,2; 2,8; 2,1; y 2,4.</para>
+ <list id="list21" list-type="enumerated" number-style="lower-alpha">
+  <item><list id="list21a" list-type="enumerated" number-style="lower-roman">
+  <item><m:math>
+  <m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>-</m:mo>
+  </m:mover>
+ </m:math> = __________</item>
+
+  <item><m:math>
+   <m:mrow>
+    <m:msub>
+     <m:mi>s</m:mi>
+     <m:mi>x</m:mi>
+    </m:msub>
+   </m:mrow>
+  </m:math> = __________</item>
+
+  <item><emphasis effect="italics">n</emphasis> = __________</item>
+
+  <item><emphasis effect="italics">n</emphasis> – 1 = __________</item>
+ </list>
+ </item>
+  <item>Defina la variable aleatoria <m:math>
+    <m:mi>X</m:mi>
+   </m:math> en palabras.</item>
+  <item>Defina la variable aleatoria <m:math>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>-</m:mo>
+   </m:mover>
+  </m:math> en palabras.</item>
+      <item>¿Qué distribución debería utilizar para este problema? Explique su elección.</item>
+  <item>Construya un intervalo de confianza del 95 % para la duración media de la población <list id="list22_5" list-type="enumerated" number-style="lower-roman"><item>Indique el intervalo de confianza.</item>
+<item>Dibuje el gráfico.</item>
+   </list></item>
+<item>¿Qué significa tener el “95 % de confianza” en este problema?</item>
+ </list>
+</problem>
+<solution id="fs-idm131198032">
+<list id="fs-idm86189312" list-type="enumerated" number-style="lower-alpha">
+<item>
+<list id="fs-idm33946400" list-type="enumerated" number-style="lower-roman">
+<item><m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>-</m:mo>
+ </m:mover>
+ </m:math> = 2,51</item>
+<item><m:math>
+   <m:mrow>
+    <m:msub>
+     <m:mi>s</m:mi>
+     <m:mi>x</m:mi>
+    </m:msub>
+   </m:mrow>
+  </m:math> = 0,318</item>
+<item><emphasis effect="italics">n</emphasis> = 9</item>
+<item><emphasis effect="italics">n</emphasis> – 1 = 8 </item>
+</list>
+</item>
+<item>la duración efectiva de un tranquilizante</item>
+<item>la duración media efectiva de los tranquilizantes de una muestra de nueve pacientes</item>
+<item>Tenemos que utilizar una distribución t de Student, porque no conocemos la desviación típica de la población.</item>
+<item>
+<list id="fs-idm270080896" list-type="enumerated" number-style="lower-roman"><item>CI: (2,27, 2,76)</item>
+<item>Compruebe la solución del estudiante.</item>
+</list></item>
+<item>Si tomáramos una muestra de muchos grupos de nueve pacientes, el 95 % de las muestras contendrían la verdadera duración media de la población.</item>
+</list>
+</solution>
+</exercise><exercise id="exer11"><problem id="id5850872">
+<para id="para23">Supongamos que se hace una encuesta a 14 niños que están aprendiendo a montar en bicicleta para determinar cuánto tiempo han tenido que utilizar las ruedas de entrenamiento. Se reveló que las utilizaron un promedio de seis meses con una desviación típica de la muestra de tres meses. Supongamos que la distribución de la población subyacente es normal.</para>
+<list id="list23_5" list-type="enumerated" number-style="lower-alpha">
+   <item>
+    <list id="list24" list-type="enumerated" number-style="lower-roman"><item><m:math>
+      <m:mover accent="true">
+       <m:mi>x</m:mi>
+       <m:mo>-</m:mo>
+      </m:mover>
+     </m:math> = __________</item>
+     <item><m:math>
+      <m:mrow>
+       <m:msub>
+        <m:mi>s</m:mi>
+        <m:mi>x</m:mi>
+       </m:msub>
+      </m:mrow>
+     </m:math> = __________</item>
+     <item><emphasis effect="italics">n</emphasis> = __________</item>
+
+     <item><emphasis effect="italics">n</emphasis> – 1 = __________</item>
+    </list></item>
+
+   <item>Defina la variable aleatoria <m:math>
+    <m:mi>X</m:mi>
+   </m:math> en palabras.</item>
+   <item>Defina la variable aleatoria<m:math>
+    <m:mover accent="true">
+     <m:mi>X</m:mi>
+     <m:mo>-</m:mo>
+    </m:mover>
+   </m:math> en palabras.</item>
+      <item>¿Qué distribución debería utilizar para este problema? Explique su elección.</item>
+   <item>Construya un intervalo de confianza del 99 % para la media poblacional del tiempo de uso de las ruedas de entrenamiento<list id="list24_5" list-type="enumerated" number-style="lower-roman"><item>Indique el intervalo de confianza.</item>
+<item>Dibuje el gráfico.</item>
+</list></item>
+
+<item>¿Por qué cambiaría el límite de error si el nivel de confianza se redujera al 90 %?</item>
+  </list>
+ </problem>
+ </exercise><exercise id="eip-390"><problem id="eip-14">
+  <para id="eip-520">La Comisión Federal de Elecciones (Federal Election Commission, FEC) recopila información sobre los aportes y los desembolsos de los candidatos y los comités políticos en cada ciclo electoral. Un Comité de Acción Política (Political Action Committee, PAC) es un comité formado para recaudar dinero para candidatos y campañas. Un PAC de Liderazgo es un PAC formado por un político federal (senador o representante) para recaudar dinero para ayudar a las campañas de otros candidatos.</para>
+<para id="eip-idm79133520">La FEC presentó información financiera de 556 PAC de Liderazgo que operaron durante el ciclo electoral 2011-2012. La siguiente tabla muestra los ingresos totales durante este ciclo para una selección aleatoria de 30 PAC de Liderazgo.</para><table id="eip-146" summary="..">
+<tgroup cols="5"><tbody>
+  <row><entry>$46.500,00</entry>	<entry>$0</entry>	<entry>$40.966,50</entry>	<entry>$105.887,20</entry>	<entry>$5.175,00</entry></row>
+<row><entry>$29.050,00</entry>	<entry>$19.500,00</entry>	<entry>$181.557,20</entry>	<entry>$31.500,00</entry>	<entry>$149.970,80</entry></row>
+<row><entry>$2.555.363,20</entry>	<entry>$12.025,00</entry>	<entry>$409.000,00</entry>	<entry>$60.521,70</entry>	<entry>$18.000,00</entry></row>
+<row><entry>$61.810,20</entry>	<entry>$76.530,80</entry>	<entry>$119.459,20</entry>	<entry>$0</entry>	<entry>$63.520,00</entry></row>
+<row><entry>$6.500,00</entry>	<entry>$502.578,00</entry>	<entry>$705.061,10</entry>	<entry>$708.258,90</entry>	<entry>$135.810,00</entry></row>
+<row><entry>$2.000,00</entry>	<entry>$2.000,00</entry>	<entry>$0</entry>	<entry>$1.287.933,80</entry>	<entry>$219.148,30</entry></row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-idm101832672">
+<m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>-</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mi>$</m:mi><m:mn>251</m:mn><m:mo>,</m:mo><m:mn>854,23</m:mn>
+ </m:mrow>
+</m:math>
+</para>
+<para id="fs-idm60266896">
+<m:math>
+ <m:mrow>
+  <m:mi>s</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:mi>$</m:mi><m:mn>521</m:mn><m:mo>,</m:mo><m:mn>130,41</m:mn>
+ </m:mrow>
+</m:math>
+</para>
+<para id="eip-idp69132832">Utilice estos datos de la muestra para construir un intervalo de confianza del 95 % para la cantidad media de dinero recaudado por todos los PAC de liderazgo durante el ciclo electoral 2011-2012. Use la distribución t de Student.</para></problem>
+<solution id="eip-770">
+<para id="fs-idm151956208">
+<m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>-</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mi>$</m:mi><m:mn>251</m:mn><m:mo>,</m:mo><m:mn>854,23</m:mn>
+ </m:mrow>
+</m:math>
+</para>
+<para id="fs-idp3598576">
+<m:math>
+ <m:mrow>
+  <m:mi>s</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:mi>$</m:mi><m:mn>521</m:mn><m:mo>,</m:mo><m:mn>130,41</m:mn>
+ </m:mrow>
+</m:math>
+</para>
+<para id="fs-idm60939744">Observe que no se nos da la desviación típica de la población, solo la desviación típica de la muestra.</para>
+<para id="eip-idm63664256">Hay 30 medidas en la muestra, por lo que <emphasis effect="italics">n</emphasis> = 30, y <emphasis effect="italics">df</emphasis> = 30 – 1 = 29</para>
+<para id="fs-idm117819488"><emphasis effect="italics">CL</emphasis> = 0,96, por lo que <emphasis effect="italics">α</emphasis> = 1 – <emphasis effect="italics">CL</emphasis> = 1 – 0,96 = 0,04</para>
+<para id="fs-idm140901120"><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>α</m:mi>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>0,02</m:mn>
+ </m:mrow>
+ <m:mrow>
+  <m:msub>
+   <m:mi>t</m:mi>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>α</m:mi>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>t</m:mi>
+   <m:mrow>
+    <m:mn>0,02</m:mn>
+   </m:mrow>
+  </m:msub>
+
+ </m:mrow>
+</m:math> = 2,150</para>
+ <para id="eip-idp903520"><m:math>
+  <m:mrow>
+   <m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mo>=</m:mo><m:msub>
+    <m:mi>t</m:mi>
+    <m:mrow>
+     <m:mfrac>
+      <m:mi>α</m:mi>
+      <m:mn>2</m:mn>
+     </m:mfrac>
+
+    </m:mrow>
+   </m:msub>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mi>s</m:mi>
+      <m:mrow>
+       <m:msqrt>
+        <m:mi>n</m:mi>
+       </m:msqrt>
+
+      </m:mrow>
+     </m:mfrac>
+
+    </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2,150</m:mn><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>521</m:mn><m:mo>,</m:mo><m:mn>130,41</m:mn>
+       </m:mrow>
+       <m:mrow>
+        <m:msqrt>
+         <m:mrow>
+          <m:mn>30</m:mn>
+         </m:mrow>
+        </m:msqrt>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+     <m:mo>)</m:mo></m:mrow><m:mo> </m:mo><m:mo>~</m:mo><m:mo> </m:mo><m:mi>$</m:mi><m:mn>204</m:mn><m:mo>,</m:mo><m:mn>561,66</m:mn>
+  </m:mrow>
+ </m:math>
+</para>
+<para id="eip-idm139616976"><m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo stretchy="true">-</m:mo>
+  </m:mover>
+   </m:mrow>
+</m:math> – <emphasis effect="italics">EBM</emphasis> = $251.854,23 – $204.561,66 = $47.292,57</para>
+<para id="eip-idm95497616"><m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo stretchy="true">-</m:mo>
+  </m:mover>
+ </m:mrow>
+</m:math> + <emphasis effect="italics">EBM</emphasis> = $251.854,23 + $204.561,66 = $456.415,89</para>
+<para id="eip-idm43369008">Estimamos con un 96 % de confianza que la cantidad media de dinero recaudada por todos los PAC de Liderazgo durante el ciclo electoral 2011-2012 está entre 47.292,57 y 456.415,89 dólares.<newline/></para>
+</solution>
+</exercise><exercise id="eip-217"><problem id="eip-975">
+ <para id="eip-184">La revista <emphasis effect="italics">Forbes</emphasis> publicó datos sobre las mejores pequeñas compañías en 2012. Se trata de compañías que cotizan en la bolsa desde hace al menos un año, con un precio de las acciones de, al menos, 5 dólares por acción y con unos ingresos anuales entre 5 millones de dólares y 1 mil millones de dólares. En la <link target-id="eip-884" document=""/> se muestran las edades de directores generales corporativos de una muestra aleatoria de estas compañías.
+  </para>
+<table id="eip-884" summary="..">
+<tgroup cols="5"><tbody>
+  <row><entry>48</entry>	<entry>58</entry>	<entry>51</entry>	<entry>61</entry>	<entry>56</entry></row>
+<row><entry>59</entry>	<entry>74</entry>	<entry>63</entry>	<entry>53</entry>	<entry>50</entry></row>
+<row><entry>59</entry>	<entry>60</entry>	<entry>60</entry>	<entry>57</entry>	<entry>46</entry></row>
+<row><entry>55</entry>	<entry>63</entry>	<entry>57</entry>	<entry>47</entry>	<entry>55</entry></row>
+<row><entry>57</entry>	<entry>43</entry>	<entry>61</entry>	<entry>62</entry>	<entry>49</entry></row>
+<row><entry>67</entry>	<entry>67</entry>	<entry>55</entry>	<entry>55</entry>	<entry>49</entry></row>
+</tbody>
+</tgroup>
+</table>
+<para id="eip-idm30943456">Utilice estos datos de la muestra para construir un intervalo de confianza del 90 % para la edad media de los directores generales de estas pequeñas compañías principales. Use la distribución t de Student.</para>
+</problem>
+</exercise><exercise id="eip-392">
+<problem id="eip-190">
+  <para id="eip-579">Los asientos desocupados en los vuelos hacen que las aerolíneas pierdan ingresos. Supongamos que una gran compañía aérea quiere estimar su número medio de asientos desocupados por vuelo durante el año pasado. Para ello, se seleccionan al azar los registros de 225 vuelos y se anota el número de asientos no ocupados de cada uno de los vuelos de la muestra. La media muestral es de 11,6 asientos y la desviación típica de la muestra es de 4,1 asientos.</para>
+ <list id="eip-idm49907776" list-type="enumerated" number-style="lower-alpha"><item>
+ <list id="eip-idp70657312" list-type="enumerated" number-style="lower-roman">
+ <item><m:math>
+  <m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>-</m:mo>
+  </m:mover>
+ </m:math> = __________
+  </item>
+  <item><m:math>
+   <m:mrow>
+    <m:msub>
+     <m:mi>s</m:mi>
+     <m:mi>x</m:mi>
+    </m:msub>
+   </m:mrow>
+  </m:math> = __________</item>
+
+  <item><emphasis effect="italics">n</emphasis> = __________</item>
+
+  <item><emphasis effect="italics">n</emphasis> – 1 = __________</item>
+  </list>
+
+</item>
+ <item>Defina las variables aleatorias <m:math>
+  <m:mi>X</m:mi>
+ </m:math> y <m:math>
+  <m:mover accent="true">
+   <m:mi>X</m:mi>
+   <m:mo>-</m:mo>
+  </m:mover>
+ </m:math> en palabras.</item>
+<item>¿Qué distribución debería utilizar para este problema? Explique su elección.</item>
+<item>Construya un intervalo de confianza del 92 % para la media poblacional de asientos desocupados por vuelo. <list id="eip-idm535456" list-type="enumerated" number-style="lower-roman"><item>Indique el intervalo de confianza.</item>
+<item>Dibuje el gráfico.</item>
+ </list></item>
+ </list>
+</problem>
+<solution id="fs-idm33461392">
+<list id="fs-idp16278992" list-type="enumerated" number-style="lower-alpha">
+<item>
+<list id="fs-idm150491184" list-type="enumerated" number-style="lower-roman"><item><m:math>
+  <m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>-</m:mo>
+  </m:mover>
+ </m:math> = 11,6</item>
+<item><m:math>
+   <m:mrow>
+    <m:msub>
+     <m:mi>s</m:mi>
+     <m:mi>x</m:mi>
+    </m:msub>
+   </m:mrow>
+  </m:math> = 4,1</item>
+<item><emphasis effect="italics">n</emphasis> = 225</item>
+<item><emphasis effect="italics">n</emphasis> – 1 = 224</item>
+</list></item>
+<item><emphasis effect="italics">X</emphasis> es el número de asientos no ocupados en un solo vuelo. <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>-</m:mo>
+ </m:mover>
+ </m:math> es el número medio de asientos no ocupados de una muestra de 225 vuelos.</item>
+<item>Usaremos una distribución t de Student porque no conocemos la desviación típica de la población.</item>
+<item>
+<list id="fs-idm19293168" list-type="enumerated" number-style="lower-roman"><item>CI: (11,12 , 12,08)</item>
+<item>Compruebe la solución del estudiante.</item>
+</list></item>
+</list>
+</solution>
+</exercise>
+<exercise id="eip-848"><problem id="eip-idm117422496">
+<para id="eip-idp46649712">En una muestra reciente de 84 costos de venta de automóviles usados, la media muestral fue de 6.425 dólares con una desviación típica de 3.156 dólares. Supongamos que la distribución subyacente es aproximadamente normal.</para>
+ <list id="eip-idp46650288" list-type="enumerated" number-style="lower-alpha">
+<item>¿Qué distribución debería utilizar para este problema? Explique su elección.</item>
+  <item>Defina la variable aleatoria <m:math>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>-</m:mo>
+   </m:mover>
+   </m:math> en palabras.</item>
+<item>Construya un intervalo de confianza del 95 % para el costo medio poblacional de un automóvil usado <list id="eip-idp2064304" list-type="enumerated" number-style="lower-roman"><item>Indique el intervalo de confianza.</item>
+<item>Dibuje el gráfico.</item>
+ </list></item>
+<item>Explique qué significa un “intervalo de confianza del 95 %” para este estudio.</item>
+</list>
+</problem>
+</exercise><exercise id="eip-789">
+<problem id="eip-idp101366832">
+<para id="eip-idp114357168">Se seleccionaron al azar seis marcas nacionales diferentes de galletas de chocolate en el supermercado. Los gramos de grasa por porción son los siguientes: 8; 8; 10; 7; 9; 9. Supongamos que la distribución subyacente es aproximadamente normal.</para>
+<list id="eip-idp114357792" list-type="enumerated" number-style="lower-alpha">
+<item>Construya un intervalo de confianza del 90 % para la media poblacional de gramos de grasa por porción de galletas de chocolate que se venden en los supermercados <list id="eip-idm3541392" list-type="enumerated" number-style="lower-roman"><item>Indique el intervalo de confianza.</item>
+<item>Dibuje el gráfico.</item>
+</list></item>
+<item>Si se quería un límite de error menor manteniendo el mismo nivel de confianza, ¿qué se debería haber cambiado en el estudio antes de realizarlo?</item>
+<item>Va a la tienda y registra los gramos de grasa por porción de seis marcas de galletas de chocolate.</item>
+<item>Calcule la media.</item>
+<item>¿La media está dentro del intervalo que ha calculado en la parte a? ¿Esperaba que estuviese? ¿Por qué o por qué no?</item>
+</list>
+ </problem>
+  <solution id="fs-idm144387776">
+   <list id="fs-idm144387520" list-type="enumerated" number-style="lower-alpha">
+   <item>
+    <list id="fs-idm104467472" list-type="enumerated" number-style="lower-roman"><item>CI: (7,64 , 9,36)</item>
+     <item><figure id="fs-idm59520752"><media id="mmm3" alt="Se trata de una curva de distribución normal. El pico de la curva coincide con el punto 8,5 del eje horizontal. Una región central está sombreada entre los puntos 7,64 y 9,36."><image src="../../media/fig-ch08_12_01-7e54.jpg" mime-type="image/jpeg" width="380"/></media></figure></item>
+    </list></item>
+   <item>La muestra debería haber aumentado.</item>
+   <item>Las respuestas variarán.</item>
+   <item>Las respuestas variarán.</item>
+   <item>Las respuestas variarán.</item>
+   </list>
+  </solution>
+ </exercise>
+<exercise id="fs-idm170967312"><problem id="fs-idm181156640">
+<para id="fs-idm181156384">Se realizó un estudio sobre el número medio de céntimos de descuento que ofrecen los cupones, se revisó al azar un cupón por página de las secciones de cupones del número más reciente del Mercury News de San José. Se recopilaron los siguientes datos: 20¢; 75¢; 50¢; 65¢; 30¢; 55¢; 40¢; 40¢; 30¢; 55¢; $1,50; 40¢; 65¢; 40¢. Supongamos que la distribución subyacente es aproximadamente normal.</para>
+ <list id="fs-idm115727600" list-type="enumerated" number-style="lower-alpha"><item>
+   <list id="fs-idm158307360" list-type="enumerated" number-style="lower-roman">
+    <item><m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>-</m:mo>
+     </m:mover>
+    </m:math> = __________</item>
+    <item><m:math>
+     <m:mrow>
+      <m:msub>
+       <m:mi>s</m:mi>
+       <m:mi>x</m:mi>
+      </m:msub>
+     </m:mrow>
+    </m:math> = __________</item>
+    <item><emphasis effect="italics">n</emphasis> = __________</item>
+    <item><emphasis effect="italics">n</emphasis> – 1 = __________</item>
+ </list>
+  </item>
+  <item>Defina las variables aleatorias <m:math>
+   <m:mi>X</m:mi>
+  </m:math> y <m:math>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>-</m:mo>
+   </m:mover>
+  </m:math> en palabras.</item>
+ <item>¿Qué distribución debería utilizar para este problema? Explique su elección.</item>
+ <item>Construya un intervalo de confianza del 95 % para la media poblacional del valor de los cupones. <list id="fs-idm87013712" list-type="enumerated" number-style="lower-roman"><item>Indique el intervalo de confianza.</item>
+ <item>Dibuje el gráfico.</item>
+  </list></item>
+<item>Si se toman muchas muestras aleatorias con un tamaño de 14, ¿qué porcentaje de los intervalos de confianza construidos debe contener la media poblacional de los cupones? Explique por qué.</item>
+ </list></problem>
+ </exercise><para id="id7660865"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios:</emphasis> Un especialista en control de calidad de una cadena de restaurantes toma una muestra aleatoria de tamaño de 12 para comprobar la cantidad de gaseosa que se sirve en la porción de 16 oz. La media muestral es de 13,30 con una desviación típica de la muestra de 1,55. Supongamos que la población subyacente se distribuye normalmente.</para><exercise id="eeeeeeeeeeeeeeex"><problem id="id5710642">
+ <para id="para58">Calcule el intervalo de confianza del 95 % para la verdadera media poblacional de la cantidad de gaseosa servida.</para>
+<list id="list58" list-type="enumerated" number-style="lower-alpha">
+<item>(12,42, 14,18)</item>
+<item>(12,32, 14,29)</item>
+<item>(12,50, 14,10)</item>
+<item>Imposible de determinar</item></list>
+</problem>
+<solution id="id6215942">
+ <para id="solb11">b</para>
+</solution>
+</exercise></section>
+ </content>
+<glossary>
+ <definition id="degrefree">
+    <term>Grados de libertad (<emphasis effect="italics">df</emphasis>)</term>
+    <meaning id="id17799455">el número de objetos de una muestra que pueden variar libremente</meaning>
+  </definition>
+<definition id="normdist">
+    <term>Distribución normal</term>
+    <meaning id="id42733014">una variable aleatoria (RV) continua con pdf <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mtext>(</m:mtext><m:mi>x</m:mi><m:mtext>)</m:mtext><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mi>σ</m:mi><m:msqrt>
+     <m:mrow>
+      <m:mn>2</m:mn><m:mi>π</m:mi>
+     </m:mrow>
+    </m:msqrt>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:msup>
+   <m:mi>e</m:mi>
+   <m:mrow>
+    <m:mo>–</m:mo><m:msup>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mi>μ</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>/</m:mo><m:mn>2</m:mn><m:msup>
+     <m:mi>σ</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math>, donde <emphasis effect="italics">μ</emphasis> es la media de la distribución y <emphasis effect="italics">σ</emphasis> es la desviación típica, notación: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(<emphasis effect="italics">μ</emphasis>,<emphasis effect="italics">σ</emphasis>). Si <emphasis effect="italics">μ</emphasis> = 0 y <emphasis effect="italics">σ</emphasis> = 1, la RV se denomina <emphasis>distribución normal estándar</emphasis>.
+    </meaning>
+  </definition>
+<definition id="stddev">
+    <term>Desviación típica</term>
+    <meaning id="id20302532"> un número que es igual a la raíz cuadrada de la varianza y que mide lo lejos que están los valores de los datos de su media; notación: <emphasis effect="italics">s</emphasis> para la desviación típica de la muestra y <emphasis effect="italics">σ</emphasis> para la desviación típica de la población</meaning>
+  </definition>
+<definition id="studenttdist">
+    <term>Distribución <emphasis>t</emphasis> de Student</term>
+    <meaning id="id8759760">investigada y reportada por William S. Gossett en 1908 y publicada bajo el seudónimo de Student; las principales características de esta variable aleatoria (RV) son: <list id="fs-idp209408240" list-type="bulleted">
+    <item>Es continuo y asume cualquier valor real.</item>
+    <item>La pdf es simétrica respecto a su media de cero. </item>
+    <item>Se acerca a la distribución normal estándar a medida que <emphasis effect="italics">n</emphasis> es mayor.</item>
+    <item>Existe una "familia" de distribuciones t: cada representante de la familia está completamente definido por el número de grados de libertad, que depende de la aplicación para la que se utiliza la distribución t.</item>
+    </list>
+    </meaning>
+  </definition>
+</glossary>
+
+</document>

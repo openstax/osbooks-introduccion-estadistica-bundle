@@ -1,0 +1,201 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Discrete Distribution (Lucky Dice Experiment)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10443</md:content-id>
+  <md:title>Discrete Distribution (Lucky Dice Experiment)</md:title>
+  <md:abstract/>
+  <md:uuid>97be6264-4319-447a-8a6e-00526b80a16c</md:uuid>
+</metadata>
+
+<content>
+  <note id="fs-id1172782738808" class="statistics lab"><label/><title>Distribución discreta (experimento de los dados de la suerte) </title>
+<para id="id8143321">Hora de la clase: </para>
+<para id="id8332839">Nombres:</para>
+<list id="id8107935" list-type="bulleted">
+<title>Resultados del aprendizaje de los estudiantes</title>
+<item>El alumno comparará los datos empíricos y una distribución teórica para determinar si un juego de azar Tet se ajusta a una distribución discreta. </item>
+<item>El estudiante demostrará que comprende las probabilidades a largo plazo.</item>
+</list> <list id="element-254" list-type="bulleted">
+<title>Suministros</title>
+<item>un juego de "Dados de la Suerte» o tres dados normales</item>
+</list>
+
+
+
+<para id="fs-idm6846032"><title id="procedure">Procedimiento</title><newline/>Redondee las respuestas a los problemas de frecuencia relativa y probabilidad con cuatro decimales.</para><list id="list-2397564" list-type="enumerated"><item>El procedimiento experimental consiste en apostar por un objeto. A continuación, lance los tres Dados de la Suerte y cuente el número de aciertos. De acuerdo al número de aciertos se decidirá su ganancia.</item>
+<item>¿Cuál es la probabilidad teórica de que un dado coincida con el objeto?</item>
+<item>Elija un objeto para hacer una apuesta. Lance los tres dados de la suerte. Cuente el número de coincidencias. </item>
+<item>Supongamos que <emphasis effect="italics">X</emphasis> = número de aciertos. Teóricamente, <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(______,______)</item>
+<item>Supongamos que <emphasis effect="italics">Y</emphasis> = ganancia por juego. </item>
+</list>
+
+<para id="element-234597">
+<title id="OrgData2">Organice los datos</title>En la <link target-id="lab2_tbl001" document=""/>, rellene el valor de <emphasis effect="italics">y</emphasis> que corresponde a cada valor de <emphasis effect="italics">x</emphasis>. A continuación, anote el número de juegos elegidos para su clase. A continuación, calcule la frecuencia relativa.</para>
+
+
+<list id="list-23985798265" mark-suffix="." list-type="enumerated"><item>Rellene la tabla.
+<table id="lab2_tbl001" summary="">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<thead>
+<row>
+<entry>x</entry>
+<entry>y</entry>
+<entry>Frecuencia</entry>
+<entry>Frecuencia relativa</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>0</entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>1</entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>2</entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>3</entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+</item>
+<item> Calcule lo siguiente: <list id="element-640" list-type="enumerated" number-style="lower-alpha"><item><m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+ 
+</m:math> = _______</item>
+<item><emphasis effect="italics">s<sub>x</sub></emphasis> = ________</item>
+<item><m:math>
+ <m:mover accent="true">
+  <m:mi>y</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+ 
+</m:math> = _______</item>
+<item><emphasis effect="italics">s<sub>y</sub></emphasis> = _______</item>
+</list></item>
+<item>Explique qué representa la <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+ 
+</m:math>.</item>
+<item>Explique qué representa la <m:math>
+ <m:mover accent="true">
+  <m:mi>y</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+ 
+</m:math>.</item>
+<item>Con base en el experimento, <list id="list-9876876586" list-type="enumerated" number-style="lower-alpha">
+<item>¿Cuál fue la ganancia media por juego? </item>
+<item>¿Representa esto una media de victorias o derrotas por juego? </item>
+<item>¿Cómo lo sabe? Responda con oraciones completas.</item>
+</list></item>
+<item>Construya un histograma de los datos empíricos.
+<figure id="id18572910"><media id="id18596063" alt="Esta es una plantilla de gráfico en blanco. El eje x se denomina Número de juegos. El eje y se identifica como frecuencia relativa."><image src="../../media/fig-ch04_18_01-cc48.png" mime-type="image/png" width="400"/></media></figure></item></list>
+
+<para id="element-89757864587624"><title id="TheoDist2">Distribución teórica</title>Construya el gráfico de la PDF teórica para <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">“y”</emphasis> basándose en la distribución de la sección <link target-id="procedure" document="">Procedimiento</link>.</para><list id="list-529786925" list-type="enumerated">
+<item>
+<table id="lab2_tbl002" summary="This table is similar to the previous table except it only has three columns. The first column has the values of X, 0-3, the blank second column is for values of Y to be entered, and the blank third column is for values of P(X=x)=P(Y=y).">
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">y</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">y</emphasis>)</entry>
+</row>
+</thead>        
+<tbody>
+<row>
+<entry>0</entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>1</entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>2</entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>3</entry>
+<entry/>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table></item>
+<item>Calcule lo siguiente: <list id="list-82735687268357" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">μ<sub>x</sub></emphasis> = _______</item>
+<item><emphasis effect="italics">σ<sub>x</sub></emphasis> = _______</item>
+<item><emphasis effect="italics">μ<sub>x</sub></emphasis> = _______</item>      
+</list>
+</item>
+<item>Explique lo que <emphasis effect="italics">μ<sub>x</sub></emphasis> representa.</item>
+<item>Explique lo que <emphasis effect="italics">μ<sub>y</sub></emphasis> representa.</item>
+<item> Con base en la teoría, <list id="element-35" list-type="enumerated" number-style="lower-alpha">
+<item>¿Cuál era la ganancia esperada por juego? </item>
+<item>¿El beneficio esperado representó una media de ganancias o pérdidas por partido?</item>     
+<item>¿Cómo lo sabe? Responda con oraciones completas.</item>
+</list></item>
+<item>Construya un histograma de la distribución teórica.
+<figure id="id18402808"><media id="id18810469" alt="Esta es una plantilla de gráfico en blanco. El eje x se identifica como número de diamantes. El eje y está identificado como probabilidad."><image src="../../media/fig-ch04_18_02-0ca5.png" mime-type="image/png" width="400" print-width="4in"/></media>
+</figure></item></list>
+
+<para id="eip-137">
+<title>Utilizar los datos</title></para>
+
+<note id="eip-944"><label/><title>Nota</title>
+<para id="eip-idp94792224"><emphasis effect="italics">RF</emphasis> = frecuencia relativa (relative frequency, RF)</para></note>
+
+<para id="element-23525">Utilice los datos de la sección <link target-id="TheoDist2" document="">Distribución teórica</link> para calcular las siguientes respuestas. Redondee sus respuestas a cuatro decimales <list id="listular" list-type="enumerated"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 3) = _________________</item>
+<item><emphasis effect="italics">P</emphasis>(0 &lt; <emphasis effect="italics">x</emphasis> &lt; 3) = _________________</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 2) = _________________</item>
+</list></para>
+<para id="element-872568354">Utilice los datos de la sección <link target-id="OrgData2" document="">Organizar los datos</link> para calcular las siguientes respuestas. Redondee sus respuestas a cuatro decimales.</para>
+<list id="element-997" list-type="enumerated"><item><emphasis effect="italics">RF</emphasis>(x = 3) = _________________</item>
+<item><emphasis effect="italics">RF</emphasis>(0 &lt; <emphasis effect="italics">x</emphasis> &lt; 3) = _________________</item>
+<item><emphasis effect="italics">RF</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 2) = _________________</item>
+</list><para id="element-508"><title>Pregunta de debate</title>Para las preguntas 1 y 2, considere los gráficos, las probabilidades, las frecuencias relativas, las medias y las desviaciones estándar.</para><list id="list-2359768725" list-type="enumerated"><item id="q01">Sabiendo como los datos varían, describa tres similitudes entre los gráficos de las distribuciones teóricas y empíricas. Utilice oraciones completas.</item>
+
+<item id="q02">Describa las tres diferencias más significativas entre los gráficos de las distribuciones teóricas y empíricas.</item>
+
+<item id="q03">Pensando en sus respuestas a las preguntas 1 y 2, ¿parece que los datos se ajustan a la distribución teórica? Explique por qué sí o por qué no en oraciones completas.</item>
+
+<item id="q04">Supongamos que el experimento se ha repetido 500 veces. ¿Espera que la <link target-id="lab2_tbl001" document=""/> o la <link target-id="lab2_tbl002" document=""/> cambien, y cómo lo harían? ¿Por qué? ¿Por qué la otra mesa no cambiaría?</item></list></note> </content>
+
+</document>

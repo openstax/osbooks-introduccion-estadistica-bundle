@@ -1,0 +1,277 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>One-Way ANOVA</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10494</md:content-id>
+  <md:title>One-Way ANOVA</md:title>
+  <md:abstract/>
+  <md:uuid>87dcec7f-30cd-42f6-8ea9-f93f4272be2e</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-idm10364336">El propósito de una prueba de ANOVA de una vía es determinar la existencia de una diferencia estadísticamente significativa entre las medias de varios grupos. De hecho, la prueba usa <term>varianzas</term> para ayudar a determinar si las medias son iguales o no. Para realizar una prueba de ANOVA de una vía hay que cumplir cinco <emphasis>supuestos</emphasis> básicos:</para>
+<list id="list-786879" list-type="enumerated">
+<item>Se supone que cada población de la que se toma una muestra es normal.</item>
+<item>Todas las muestras se seleccionan al azar y son independientes.</item>
+<item> Se supone que las poblaciones tienen <term>desviaciones típicas iguales</term> <emphasis>(o varianzas)</emphasis>.</item>
+<item>El factor es una variable categórica.</item>
+<item>La respuesta es una variable numérica.</item>
+</list>
+<section id="fs-idm3483088">
+<title>Hipótesis nula y alternativa</title>
+<para id="me2">La hipótesis nula es simplemente que todas las medias poblacionales del grupo son iguales. La hipótesis alternativa es que, al menos, un par de medias es diferente. Por ejemplo, si hay grupos <emphasis effect="italics">k</emphasis>:</para>
+<para id="element-671"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis><sub>1</sub> = <emphasis effect="italics">μ</emphasis><sub>2</sub> = <emphasis effect="italics">μ</emphasis><sub>3</sub> = ... = <emphasis effect="italics">μ<sub>k</sub></emphasis></para>
+<para id="element-952"><emphasis effect="italics">H<sub>a</sub></emphasis>: Al menos dos de las medias del grupo <emphasis effect="italics">μ</emphasis><sub>1</sub>, <emphasis effect="italics">μ</emphasis><sub>2</sub>, <emphasis effect="italics">μ</emphasis><sub>3</sub>, ..., <emphasis effect="italics">μ<sub>k</sub></emphasis> no son iguales. Es decir, <emphasis effect="italics">μ<sub>i</sub></emphasis> ≠ <emphasis effect="italics">μ<sub>j</sub></emphasis> para algún <emphasis effect="italics">i</emphasis> ≠ <emphasis effect="italics">j</emphasis>. </para><para id="eip-969">Los gráficos, un conjunto de diagramas de caja y bigotes que representan la distribución de los valores con las medias de los grupos indicadas por una línea horizontal que atraviesa la caja, ayudan a comprender la prueba de hipótesis. En el primer gráfico (diagrama de caja y bigotes rojo), <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> = <emphasis effect="italics">μ<sub>2</sub></emphasis> = <emphasis effect="italics">μ<sub>3</sub></emphasis> y las tres poblaciones tienen la misma distribución si la hipótesis nula es verdadera. La varianza de los datos combinados es, aproximadamente, igual a la varianza de cada una de las poblaciones.</para>
+<para id="fs-idp14626496">Si la hipótesis nula es falsa, la varianza de los datos combinados es mayor, lo que se debe a las diferentes medias, como se muestra en el segundo gráfico (diagrama de caja verde).</para>
+
+<figure id="fs-idp110803872"><media id="eip-idp18347248" alt="La primera ilustración muestra tres diagramas de caja y bigotes verticales con medias iguales. La segunda ilustración muestra tres diagramas de caja y bogotes verticales con medias desiguales.">
+<image src="../../media/CNX_Stats_C13_M02_001n.jpg" mime-type="image/jpeg" width="380"/>
+</media>
+<caption>(a) <emphasis effect="italics">H<sub>0</sub></emphasis> es verdadero. Todas las medias son iguales; las diferencias se deben a la variación aleatoria. (b) <emphasis effect="italics">H<sub>0</sub></emphasis> no es verdadero. Todas las medias no son iguales; las diferencias son demasiado grandes para deberse a una variación aleatoria.</caption></figure></section>
+
+<section id="eip-60" class="summary">
+<title>Revisión del capítulo</title>
+<para id="eip-981">El análisis de varianza amplía la comparación de dos grupos a varios, cada uno de ellos un nivel de una variable categórica (factor). Las muestras de cada grupo son independientes y se deben seleccionar al azar a partir de poblaciones normales con varianzas iguales. Probamos la hipótesis nula de que las medias de la respuesta son iguales en todos los grupos versus la hipótesis alternativa de que las medias de uno o más grupos son diferentes a las de los demás. Una prueba de hipótesis de ANOVA de una vía determina si varias medias poblacionales son iguales. La distribución para la prueba es la distribución <emphasis effect="italics">F</emphasis> con dos grados de libertad diferentes.</para>
+
+<list id="fs-idm125719248" list-type="enumerated">
+<title>Supuestos:</title>
+<item>Se supone que cada población de la que se toma una muestra es normal.</item>
+<item>Todas las muestras se seleccionan al azar y son independientes.</item>
+<item>Se supone que las poblaciones tienen desviaciones típicas iguales (o varianzas).</item>
+</list>
+</section>
+
+<section id="fs-idm135442768" class="practice">
+<para id="eip-369"><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios.</emphasis> Hay cinco supuestos básicos que se deben cumplir para realizar una prueba de ANOVA de una vía. ¿Qué son?</para>
+
+<exercise id="eip-555">
+<problem id="eip-470">
+<para id="eip-917">Escriba un supuesto.</para>
+</problem>
+<solution id="eip-356">
+<para id="eip-725">Se supone que cada población de la que se toma una muestra es normal.</para>
+</solution>
+</exercise>
+
+<exercise id="eip-191">
+<problem id="eip-403">
+<para id="eip-920">Escriba otro supuesto.</para>
+</problem>
+</exercise>
+
+<exercise id="eip-194">
+<problem id="eip-35">
+<para id="eip-96">Escriba un tercer supuesto.</para>
+</problem>
+<solution id="eip-504">
+<para id="eip-339">Se supone que las poblaciones tienen desviaciones típicas iguales (o varianzas).</para>
+</solution>
+</exercise>
+
+<exercise id="eip-396">
+<problem id="eip-488">
+<para id="eip-1">Escriba un cuarto supuesto.</para>
+</problem></exercise>
+
+<exercise id="eip-922">
+<problem id="eip-459">
+<para id="eip-531">Escriba el supuesto final.</para>
+</problem>
+<solution id="eip-764">
+<para id="eip-62">La respuesta es un valor numérico.</para>
+</solution>
+</exercise>
+
+<exercise id="eip-550">
+<problem id="eip-740">
+<para id="eip-332">Indique la hipótesis nula para el ANOVA de una vía si hay cuatro grupos.</para>
+</problem>
+</exercise>
+
+<exercise id="eip-417">
+<problem id="eip-624">
+<para id="eip-291">Indique la hipótesis alternativa para el ANOVA de una vía si hay tres grupos.</para>
+</problem>
+<solution id="eip-317">
+<para id="eip-971"><emphasis effect="italics">H<sub>a</sub></emphasis>: Al menos dos de las medias del grupo <emphasis effect="italics">μ<sub>1</sub></emphasis>, <emphasis effect="italics">μ<sub>2</sub></emphasis>, <emphasis effect="italics">μ<sub>3</sub></emphasis> no son iguales.</para>
+</solution>
+</exercise>
+
+<exercise id="eip-983">
+<problem id="eip-849">
+<para id="eip-274">¿Cuándo se utiliza el ANOVA?</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-idm25046720" class="free-response">
+<title>Tarea para la casa</title>
+
+<exercise id="eip-213">
+<problem id="eip-272">
+<para id="eip-950">Se han probado tres rutas de tráfico diferentes para el tiempo medio de conducción. Las entradas de la <link target-id="eip-24" document=""/> son los tiempos de conducción en minutos en las tres rutas diferentes. 
+<table id="eip-24" summary="..">
+<tgroup cols="3">
+<thead>
+<row>
+<entry>Ruta 1</entry>
+<entry>Ruta 2</entry>
+<entry>Ruta 3</entry>
+</row>
+</thead>
+<tbody>
+<row><entry>30</entry>	<entry>27</entry>	<entry>16</entry></row>
+<row><entry>32</entry>	<entry>29</entry>	<entry>41</entry></row>
+<row><entry>27</entry>	<entry>28</entry>	<entry>22</entry></row>
+<row><entry>35</entry>	<entry>36</entry>	<entry>31</entry></row>
+</tbody>
+</tgroup>
+</table>
+</para><para id="eip-331">Indique la <emphasis effect="italics">SS</emphasis><sub>entre</sub>, la <emphasis effect="italics">SS</emphasis><sub>dentro</sub> y el estadístico <emphasis effect="italics">F</emphasis>.</para>
+</problem>
+<solution id="eip-934">
+<para id="eip-idp68682064"><emphasis effect="italics">SS</emphasis><sub>entre</sub> = 26 <newline/><emphasis effect="italics">SS</emphasis><sub>dentro</sub> = 441 <newline/><emphasis effect="italics">F</emphasis> = 0,2653</para>
+</solution>
+</exercise><exercise id="eip-230"><problem id="id47643113">
+
+
+<para id="element-577">Supongamos que un grupo está interesado en determinar si los adolescentes obtienen su licencia de conducir alrededor de la misma edad promedio en todo el país. Supongamos que se recopilan al azar los siguientes datos de cinco adolescentes de cada región del país. Los números representan la edad a la que los adolescentes obtuvieron la licencia de conducir.</para>
+
+<table id="element-25" summary="">
+<tgroup cols="6"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<thead>
+<row>
+<entry/>
+<entry>Noreste</entry>
+<entry>Sur</entry>
+<entry>Oeste</entry>
+<entry>Centro</entry>
+<entry>Este</entry>
+</row>
+</thead>
+<tbody>         
+
+<row>
+<entry/>
+<entry>16,3</entry>
+<entry>16,9</entry>
+<entry>16,4</entry>
+<entry>16,2</entry>
+<entry>17,1</entry>
+</row>
+<row>
+<entry/>
+<entry>16,1</entry>
+<entry>16,5</entry>
+<entry>16,5</entry>
+<entry>16,6</entry>
+<entry>17,2</entry>
+</row>
+<row>
+<entry/>
+<entry>16,4</entry>
+<entry>16,4</entry>
+<entry>16,6</entry>
+<entry>16,5</entry>
+<entry>16,6</entry>
+</row>
+<row>
+<entry/>
+<entry>16,5</entry>
+<entry>16,2</entry>
+<entry>16,1</entry>
+<entry>16,4</entry>
+<entry>16,8</entry>
+</row>
+<row>
+<entry>
+ <m:math>
+<m:mrow>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+<m:mo>=</m:mo>
+</m:mrow>
+</m:math> </entry>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
+</row>
+<row>
+<entry>
+ <m:math>
+<m:mrow>
+<m:msup>
+<m:mi>s</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+</m:mrow>
+</m:math> </entry>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="element-736">Plantee las hipótesis.</para>
+<para id="element-740"><emphasis effect="italics">H<sub>0</sub></emphasis>: ____________</para>
+<para id="element-571"><emphasis effect="italics">H<sub>a</sub></emphasis>: ____________    </para>
+</problem>
+</exercise>
+</section>
+ </content>
+
+
+
+  <glossary>
+  <definition id="anova">
+    <term>Análisis de varianza</term>
+    <meaning id="id1164594558494">también denominado ANOVA, es un método para comprobar si las medias de tres o más poblaciones son iguales o no. El método es aplicable si: <list id="gllist1" list-type="bulleted">
+<item>todas las poblaciones de interés se distribuyen normalmente.</item>
+<item>las poblaciones tienen desviaciones típicas iguales.</item>
+<item>las muestras (no necesariamente del mismo tamaño) se seleccionan de forma aleatoria e independiente de cada población.</item>
+</list>
+<para id="fs-idp106136800">El estadístico de prueba para el análisis de varianza es el cociente de <emphasis effect="italics">F</emphasis>.</para></meaning>
+  </definition>
+
+<definition id="fs-idp127655040">
+<term>ANOVA de una vía</term>
+<meaning id="fs-idp127655680">un método para comprobar si las medias de tres o más poblaciones son iguales o no; el método es aplicable si: <list id="fs-idm27280064" list-type="bulleted">
+<item>todas las poblaciones de interés se distribuyen normalmente.</item>
+<item>las poblaciones tienen desviaciones típicas iguales.</item>
+<item>las muestras (no necesariamente del mismo tamaño) se seleccionan de forma aleatoria e independiente de cada población.</item>
+<item>hay una variable independiente y una variable dependiente.</item>
+</list>
+<para id="fs-idp134835456">El estadístico de prueba para el análisis de varianza es el cociente de <emphasis effect="italics">F</emphasis>.</para></meaning>
+</definition>
+
+<definition id="variance">
+    <term>Varianza</term>
+  <meaning id="id3154337">media de las desviaciones al cuadrado de la media; el cuadrado de la desviación típica. Para un conjunto de datos, una desviación se puede representar como <emphasis effect="italics">x</emphasis> – <m:math>
+    <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+    </m:mover>
+  </m:math> donde <emphasis effect="italics">x</emphasis> es un valor de los datos y <m:math>
+    <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+    </m:mover>
+    
+  </m:math> es la media muestral. La varianza de la muestra es igual a la suma de los cuadrados de las desviaciones dividida entre la diferencia del tamaño de la muestra y uno.</meaning>
+  </definition>
+
+
+</glossary>
+</document>

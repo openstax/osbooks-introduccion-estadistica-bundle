@@ -1,0 +1,1515 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="appendix">
+
+<title>Mathematical Phrases, Symbols, and Formulas</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10503</md:content-id>
+  <md:title>Mathematical Phrases, Symbols, and Formulas</md:title>
+  <md:abstract/>
+  <md:uuid>845e0e59-1817-4eb9-81ad-d2e3d12c5c1b</md:uuid>
+</metadata>
+
+<content class="appendix">
+<section id="fs-id1168975964661">
+      <title>Oraciones en español escritas matemáticamente</title><table id="id7514633" summary="A mathematical translation of English phrases (for example, X is at least 4)."><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+ <colspec colnum="2" colname="c2"/> 
+<thead>
+<row>
+<entry>Cuando en español dice:</entry>
+ <entry>Interprete esto como:</entry>
+ </row>
+ </thead>
+<tbody>
+ <row>
+ <entry><emphasis effect="italics">X</emphasis> es, al menos, 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> ≥ 4 </entry>
+ </row>
+ <row>
+ <entry>El mínimo de <emphasis effect="italics">X</emphasis> es 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> ≥ 4 </entry>
+ </row>
+ <row>
+ <entry><emphasis effect="italics">X</emphasis> no es inferior a 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> ≥ 4 </entry>
+ </row>
+ <row>
+ <entry><emphasis effect="italics">X</emphasis> es mayor o igual a 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> ≥ 4 </entry>
+ </row>
+ <row>
+ <entry><emphasis effect="italics">X</emphasis> es como máximo 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> ≤ 4 </entry>
+ </row>
+ <row>
+ <entry>El máximo de <emphasis effect="italics">X</emphasis> es 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> ≤ 4 </entry>
+ </row>
+ <row>
+ <entry><emphasis effect="italics">X</emphasis> no es más que 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> ≤ 4 </entry>
+ </row>
+ <row>
+ <entry><emphasis effect="italics">X</emphasis> es menor o igual a 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> ≤ 4 </entry>
+ </row>
+ <row>
+ <entry><emphasis effect="italics">X</emphasis> no excede de 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> ≤ 4 </entry>
+ </row>
+ 
+ <row>
+ <entry><emphasis effect="italics">X</emphasis> es mayor que 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> &gt; 4 </entry>
+ </row>
+ <row>
+ <entry><emphasis effect="italics">X</emphasis> es más de 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> &gt; 4 </entry>
+ </row>
+ <row>
+ <entry><emphasis effect="italics">X</emphasis> supera a 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> &gt; 4 </entry>
+ </row>
+ 
+ <row>
+ <entry><emphasis effect="italics">X</emphasis> es inferior a 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> &lt; 4 </entry>
+ </row>
+ <row>
+ <entry>Hay menos <emphasis effect="italics">X</emphasis> que 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> &lt; 4 </entry>
+ </row>
+ 
+ <row>
+ <entry><emphasis effect="italics">X</emphasis> es 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> = 4 </entry>
+ </row>
+ <row>
+ <entry><emphasis effect="italics">X</emphasis> es igual a 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> = 4 </entry>
+ </row>
+ <row>
+ <entry><emphasis effect="italics">X</emphasis> es igual a 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> = 4 </entry>
+ </row>
+ 
+ <row>
+ <entry><emphasis effect="italics">X</emphasis> no es 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> ≠ 4 </entry>
+ </row>
+ <row>
+ <entry><emphasis effect="italics">X</emphasis> no es igual a 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> ≠ 4 </entry>
+ </row>
+ <row>
+ <entry><emphasis effect="italics">X</emphasis> no es igual a 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> ≠ 4 </entry>
+ </row>
+ <row>
+ <entry><emphasis effect="italics">X</emphasis> es diferente de 4.</entry>
+ <entry><emphasis effect="italics">X</emphasis> ≠ 4 </entry>
+ </row>
+ 
+ </tbody>
+ </tgroup>
+</table></section><section id="eip-732"><title>Fórmulas</title><section id="eip-idm676519360"><title>Fórmula 1: Factorial</title>
+<para id="fs-idp61451504"><m:math>
+<m:mi>n</m:mi>
+<m:mo>!</m:mo>
+<m:mo>=</m:mo>
+<m:mi>n</m:mi>
+<m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>–</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>–</m:mo>
+<m:mn>2</m:mn>
+<m:mo>)</m:mo>
+<m:mo>.</m:mo>
+<m:mo>.</m:mo>
+<m:mo>.</m:mo>
+<m:mo>(</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+<m:mtext/>
+</m:math></para>
+<para id="fact2">
+<m:math>
+<m:mn>0</m:mn>
+<m:mo>!</m:mo>
+<m:mo>=</m:mo>
+<m:mn>1</m:mn>
+<m:mtext/>
+</m:math><newline count="2"/>
+</para>
+</section>
+<section id="eip-idm1323712048"><title>Fórmula 2: Combinaciones</title><para id="combin"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mtable columnalign="left">
+    <m:mtr>
+     <m:mtd>
+      <m:mi>n</m:mi>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mi>r</m:mi>
+     </m:mtd>
+    </m:mtr>
+   </m:mtable>
+   
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>n</m:mi><m:mo>!</m:mo>
+   </m:mrow>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>–</m:mo><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo><m:mo>!</m:mo><m:mi>r</m:mi><m:mo>!</m:mo>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math><newline count="2"/>
+</para></section><section id="eip-idm1272586464"><title>Fórmula 3: Distribución binomial</title><para id="ruleexp1"><m:math>
+ <m:mrow>
+  <m:mi>X</m:mi><m:mspace width="2px"/><m:mo>~</m:mo><m:mspace width="2px"/><m:mi>B</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>,</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</para><para id="bindist1"><m:math>
+<m:mrow>
+<m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi>n</m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi>x</m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:msup>
+<m:mi>p</m:mi>
+<m:mi>x</m:mi>
+</m:msup>
+<m:msup>
+<m:mi>q</m:mi>
+<m:mrow>
+<m:mi>n</m:mi><m:mo>–</m:mo><m:mi>x</m:mi>
+</m:mrow>
+</m:msup>
+
+</m:mrow>
+</m:math>, para <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+<m:mo>,</m:mo>
+<m:mn>1</m:mn>
+<m:mo>,</m:mo>
+<m:mn>2</m:mn>
+<m:mo>,</m:mo>
+<m:mo>.</m:mo>
+<m:mo>.</m:mo>
+<m:mo>.</m:mo>
+<m:mo>,</m:mo>
+<m:mi>n</m:mi>
+</m:math> <newline count="2"/></para></section><section id="eip-idm772198512"><title>Fórmula 4: Distribución geométrica</title><para id="geodist1"><m:math>
+ <m:mrow>
+  <m:mi>X</m:mi><m:mspace width="2px"/><m:mo>~</m:mo><m:mspace width="2px"/><m:mi>G</m:mi><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math></para><para id="geodist2"><m:math>
+<m:mrow>
+<m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>q</m:mi>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>–</m:mo><m:mn>1</m:mn>
+</m:mrow>
+</m:msup>
+<m:mi>p</m:mi>
+</m:mrow>
+</m:math>, para <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>1</m:mn>
+<m:mo>,</m:mo>
+<m:mn>2</m:mn>
+<m:mo>,</m:mo>
+<m:mn>3</m:mn>
+<m:mo>,</m:mo>
+<m:mo>.</m:mo>
+<m:mo>.</m:mo>
+<m:mo>.</m:mo>
+</m:math> <newline count="2"/></para></section><section id="eip-idm731367056"><title>Fórmula 5: Distribución hipergeométrica</title><para id="hypgeodist1"><m:math>
+ <m:mrow>
+  <m:mi>X</m:mi><m:mspace width="2px"/><m:mo>~</m:mo><m:mspace width="2px"/><m:mi>H</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math></para><para id="element-527"><m:math>
+<m:mi>P</m:mi>
+<m:mtext>(</m:mtext>
+<m:mi>X</m:mi>
+<m:mo>=</m:mo>
+<m:mi>x</m:mi>
+<m:mtext>)</m:mtext>
+<m:mo>=</m:mo>
+
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mfrac linethickness="0">
+<m:mi>r</m:mi>
+<m:mi>x</m:mi>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mfrac linethickness="0">
+<m:mi>b</m:mi>
+<m:mrow>
+  <m:mi>n</m:mi>
+  <m:mo>–</m:mo>
+  <m:mi>x</m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:mrow>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mfrac linethickness="0">
+<m:mrow>
+<m:mi>r</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+</m:mrow>
+<m:mi>n</m:mi>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:math> <newline count="2"/></para></section><section id="eip-idm701382416"><title>Fórmula 6: Distribución de Poisson</title><para id="psndist1"><m:math>
+ <m:mrow>
+  <m:mi>X</m:mi><m:mspace width="2px"/><m:mo>~</m:mo><m:mspace width="2px"/><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>μ</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</para><para id="psndist2"><m:math>
+<m:mi>P</m:mi>
+<m:mtext>(</m:mtext>
+<m:mi>X</m:mi>
+<m:mo>=</m:mo>
+<m:mi>x</m:mi>
+<m:mtext>)</m:mtext>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi>μ</m:mi>
+<m:mi>x</m:mi>
+</m:msup>
+<m:msup>
+<m:mi>e</m:mi>
+<m:mrow>
+<m:mo>–</m:mo>
+<m:mi>μ</m:mi>
+</m:mrow>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi>x</m:mi>
+<m:mo>!</m:mo>
+</m:mrow>
+</m:mfrac>
+</m:math> <newline count="2"/></para></section><section id="eip-idm742753328"><title>Fórmula 7: Distribución uniforme</title><para id="unidist1"><m:math>
+ <m:mrow>
+  <m:mi>X</m:mi><m:mspace width="2px"/><m:mo>~</m:mo><m:mspace width="2px"/><m:mi>U</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math></para><para id="unidist2"><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mi>b</m:mi><m:mo>–</m:mo><m:mi>a</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>, <m:math>
+<m:mi>a</m:mi>
+<m:mo>&lt;</m:mo>
+<m:mi>x</m:mi>
+<m:mo>&lt;</m:mo>
+<m:mi>b</m:mi>
+</m:math> <newline count="2"/></para></section><section id="eip-idm1453705808"><title>Fórmula 8: Distribución exponencial</title><para id="expdist1"><m:math>
+ <m:mrow>
+  <m:mi>X</m:mi><m:mspace width="2px"/><m:mo>~</m:mo><m:mspace width="2px"/><m:mi>E</m:mi><m:mi>x</m:mi><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</para><para id="expdist2"><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:msup>
+   <m:mi>e</m:mi>
+   <m:mrow>
+    <m:mo>–</m:mo><m:mi>m</m:mi><m:mi>x</m:mi>
+   </m:mrow>
+  </m:msup>
+  <m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> <newline count="2"/></para><para id="normdist1"><title>Fórmula 9: Distribución normal</title><m:math>
+ <m:mrow>
+  <m:mi>X</m:mi><m:mspace width="2px"/><m:mo>~</m:mo><m:mspace width="2px"/><m:mi>N</m:mi><m:mo stretchy="false">(</m:mo><m:mi>μ</m:mi><m:mo>,</m:mo><m:msup>
+   <m:mi>σ</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math></para><para id="normdist2"><m:math>
+<m:mi>f</m:mi>
+<m:mtext>(</m:mtext>
+<m:mi>x</m:mi>
+<m:mtext>)</m:mtext>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mi>σ</m:mi>
+<m:msqrt>
+<m:mn>2</m:mn>
+<m:mi>π</m:mi>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:msup>
+<m:mi>e</m:mi>
+<m:mfrac>
+<m:msup>
+<m:mrow>
+<m:mo>–</m:mo>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+<m:mi>μ</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msup>
+<m:msup>
+<m:mrow>
+<m:mn>2</m:mn>
+<m:mi>σ</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mfrac>
+</m:msup></m:math> , <m:math>
+<m:mspace width="12pt"/><m:mo>–</m:mo><m:mi>∞</m:mi><m:mo>&lt;</m:mo><m:mi>x</m:mi>
+<m:mo>&lt;</m:mo><m:mi>∞</m:mi>
+</m:math> <newline count="2"/></para></section><section id="eip-idm1165720912"><title>Fórmula 10: Función gama</title><para id="gammafn1"><m:math>
+ <m:mrow>
+  <m:mi>Γ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>z</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:munderover>
+   <m:mrow>
+    <m:msup>
+     <m:mstyle mathsize="140%" displaystyle="true"><m:mo>∫</m:mo></m:mstyle>
+     <m:mtext>​</m:mtext>
+    </m:msup>
+    
+   </m:mrow>
+   <m:mi>∞</m:mi>
+   <m:mn>0</m:mn>
+  </m:munderover>
+  <m:msup>
+   <m:mi>x</m:mi>
+   <m:mrow>
+    <m:mi>z</m:mi><m:mo>–</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:msup>
+   <m:mi>e</m:mi>
+   <m:mrow>
+    <m:mo>–</m:mo><m:mi>x</m:mi>
+   </m:mrow>
+  </m:msup>
+  <m:mi>d</m:mi><m:mi>x</m:mi>
+ </m:mrow>
+</m:math> <m:math><m:mi>z</m:mi><m:mo>&gt;</m:mo><m:mi>0</m:mi></m:math>
+</para><para id="gammafn2">
+<m:math>
+<m:mi>Γ</m:mi>
+<m:mo>(</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:msqrt>
+<m:mi>π</m:mi>
+</m:msqrt>
+<m:mi/>
+</m:math>
+</para>
+<para id="gammafn3">
+<m:math>
+<m:mi>Γ</m:mi>
+<m:mo>(</m:mo>
+<m:mi>m</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mi>m</m:mi>
+<m:mo>!</m:mo>
+</m:math> para <m:math><m:mi>m</m:mi></m:math>, un número entero no negativo
+</para>
+<para id="gammafn4">de otro modo: <m:math>
+ <m:mrow>
+  <m:mi>Γ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>Γ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math> <newline count="2"/></para></section><section id="eip-idm682236624"><title>Fórmula 11: Distribución <emphasis effect="italics">t</emphasis> de Student</title><para id="stdtdist1"><m:math>
+ <m:mrow>
+  <m:mi>X</m:mi><m:mspace width="2px"/><m:mo>~</m:mo><m:mspace width="2px"/><m:msub>
+   <m:mi>t</m:mi>
+   <m:mrow>
+    <m:mi>d</m:mi><m:mi>f</m:mi>
+   </m:mrow>
+  </m:msub>
+  
+ </m:mrow>
+</m:math>
+</para><para id="stdtdist2"><m:math>
+<m:mi>f</m:mi>
+<m:mtext>(</m:mtext>
+<m:mi>x</m:mi>
+<m:mtext>)</m:mtext>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mrow>
+<m:mn>1</m:mn>
+<m:mo>+</m:mo>
+<m:mfrac>
+  <m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>n</m:mi>
+</m:mfrac>
+</m:mrow>
+<m:mo>)</m:mo>
+</m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mo>–</m:mo>
+<m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:msup>
+<m:mi>Γ</m:mi>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>nπ</m:mi>
+</m:msqrt>
+<m:mi>Γ</m:mi>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>n</m:mi>
+
+</m:mrow>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:mrow>
+</m:mfrac>
+</m:math>
+</para><para id="stdtdist3">
+<m:math>
+<m:mi>X</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mi>Z</m:mi>
+<m:msqrt>
+<m:mfrac>
+<m:mi>Y</m:mi>
+<m:mi>n</m:mi>
+</m:mfrac>
+</m:msqrt>
+</m:mfrac>
+</m:math>
+</para>
+<para id="stdtdist4"><m:math>
+ <m:mrow>
+  <m:mi>Z</m:mi><m:mspace width="2px"/><m:mo>~</m:mo><m:mspace width="2px"/><m:mi>N</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">),</m:mo><m:mspace width="2px"/><m:mi>Y</m:mi><m:mspace width="2px"/><m:mo>~</m:mo><m:mspace width="2px"/><m:msubsup>
+   <m:mi>Χ</m:mi>
+   <m:mrow>
+    <m:mi>d</m:mi><m:mi>f</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msubsup>
+  
+ </m:mrow>
+</m:math>, <m:math><m:mi>n</m:mi></m:math> = grados de libertad <newline count="2"/></para></section><section id="eip-idm1453739360"><title>Fórmula 12: Distribución chi-cuadrada</title><para id="chisq1"><m:math>
+ <m:mrow>
+  <m:mi>X</m:mi><m:mspace width="2px"/><m:mo>~</m:mo><m:mspace width="2px"/><m:msubsup>
+   <m:mi>Χ</m:mi>
+   <m:mrow>
+    <m:mi>d</m:mi><m:mi>f</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msubsup>
+  
+ </m:mrow>
+</m:math>
+</para><para id="chisq2"><m:math>
+<m:mi>f</m:mi>
+<m:mtext>(</m:mtext>
+<m:mi>x</m:mi>
+<m:mtext>)</m:mtext>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>–</m:mo>
+<m:mn>2</m:mn>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:msup>
+<m:msup>
+<m:mi>e</m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mo>–</m:mo>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mn>2</m:mn>
+<m:mfrac>
+<m:mi>n</m:mi>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:msup>
+<m:mi>Γ</m:mi>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mfrac>
+<m:mi>n</m:mi>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:mrow>
+</m:mfrac>
+</m:math>, <m:math><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mi>0</m:mi></m:math> , <m:math><m:mi>n</m:mi></m:math> = número entero positivo y grados de libertad <newline count="2"/></para></section><section id="eip-idm696624960"><title>Fórmula 13: Distribución F</title><para id="fdis1"><m:math>
+ <m:mrow>
+  <m:mi>X</m:mi><m:mspace width="2px"/><m:mo>~</m:mo><m:mspace width="2px"/><m:msub><m:mi>F</m:mi>
+   <m:mrow>
+    <m:mi>d</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mi>d</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+  </m:msub>
+  
+ </m:mrow>
+</m:math>
+</para><para id="fdis2"><m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mspace width="2px"/><m:mo>=</m:mo><m:mspace width="2px"/></m:mrow>
+</m:math>grados de libertad para el numerador
+</para><para id="fdis3"><m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mo stretchy="false">)</m:mo><m:mspace width="2px"/><m:mo>=</m:mo><m:mspace width="2px"/></m:mrow>
+</m:math>grados de libertad para el denominador
+</para><para id="fdis4"><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>Γ</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mi>u</m:mi><m:mo>+</m:mo><m:mi>v</m:mi>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mrow>
+    <m:mi>Γ</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac>
+     <m:mi>u</m:mi>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo stretchy="false">)</m:mo><m:mi>Γ</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac>
+     <m:mi>v</m:mi>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+  </m:mfrac>
+  <m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mfrac>
+     <m:mi>u</m:mi>
+     <m:mi>v</m:mi>
+    </m:mfrac>
+    <m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>u</m:mi>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    
+   </m:mrow>
+  </m:msup>
+  <m:msup>
+   <m:mi>x</m:mi>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mfrac>
+     <m:mi>u</m:mi>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>–</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+  </m:msup>
+  <m:mo stretchy="false">[</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac>
+   <m:mi>u</m:mi>
+   <m:mi>v</m:mi>
+  </m:mfrac>
+  <m:mo stretchy="false">)</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mrow>
+    <m:mo>–</m:mo><m:mn>0,5</m:mn><m:mo stretchy="false">(</m:mo><m:mi>u</m:mi><m:mo>+</m:mo><m:mi>v</m:mi><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+  </m:msup>
+  <m:mo stretchy="false">]</m:mo>
+ </m:mrow>
+</m:math></para><para id="fdis5">
+<m:math>
+<m:mi>X</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:msub>
+<m:mi>Y</m:mi>
+<m:mi>u</m:mi>
+</m:msub>
+<m:msub>
+<m:mi>W</m:mi>
+<m:mi>v</m:mi>
+</m:msub>
+</m:mfrac>
+</m:math>, <m:math><m:mi>Y</m:mi></m:math>, <m:math><m:mi>W</m:mi></m:math> son chi-cuadrado
+</para></section></section><section id="eip-663"><title>Símbolos y su significado</title><table id="id7923354" summary="Symbols together with how they are pronounced are shown in a table."><title>Símbolos y su significado</title>
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <thead>
+          <row>
+            <entry>Capítulo (1er uso)</entry>
+            <entry>Símbolo</entry>
+            <entry>Habla</entry>
+            <entry>Significado</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Muestreo y datos</entry>
+            <entry><m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mtable>
+     <m:mtr>
+      <m:mtd>
+       <m:mrow>
+        <m:mtext>  </m:mtext>
+       </m:mrow>
+      </m:mtd>
+     </m:mtr>
+     <m:mtr>
+      <m:mtd>
+       <m:mrow>
+        <m:mtext>      </m:mtext>
+       </m:mrow>
+      </m:mtd>
+     </m:mtr>
+     
+    </m:mtable>
+   </m:mrow>
+  </m:msqrt>
+  
+ </m:mrow>
+</m:math>
+</entry>
+            <entry>La raíz cuadrada de</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Muestreo y datos</entry>
+            <entry><m:math>
+ <m:mi>π</m:mi>
+</m:math>
+</entry>
+            <entry>Pi</entry>
+            <entry>3,14159... (un número específico)</entry>
+          </row>
+          <row>
+            <entry>Estadística descriptiva</entry>
+            <entry><emphasis effect="italics">Q</emphasis><sub>1</sub></entry>
+            <entry>Cuartil uno</entry>
+            <entry>el primer cuartil</entry>
+          </row>
+          <row>
+            <entry>Estadística descriptiva</entry>
+            <entry><emphasis effect="italics">Q</emphasis><sub>2</sub></entry>
+            <entry>Cuartil dos</entry>
+            <entry>el segundo cuartil</entry>
+          </row>
+          <row>
+            <entry>Estadística descriptiva</entry>
+            <entry><emphasis effect="italics">Q</emphasis><sub>3</sub></entry>
+            <entry>Cuartil tres</entry>
+            <entry>el tercer cuartil</entry>
+          </row>
+          <row>
+            <entry>Estadística descriptiva</entry>
+            <entry><emphasis effect="italics">IQR</emphasis></entry>
+            <entry>rango intercuartil</entry>
+            <entry><emphasis effect="italics">Q</emphasis><sub>3</sub> – <emphasis effect="italics">Q</emphasis><sub>1</sub> = <emphasis effect="italics">IQR</emphasis></entry>
+          </row>
+          <row>
+            <entry>Estadística descriptiva</entry>
+            <entry><m:math><m:mover>
+    <m:mi>x</m:mi>
+    <m:mo>¯</m:mo>
+  </m:mover>
+</m:math></entry>
+            <entry>barra de x</entry>
+            <entry>media muestral</entry>
+          </row>
+          <row>
+            <entry>Estadística descriptiva</entry>
+            <entry><m:math><m:mi>μ</m:mi></m:math></entry>
+            <entry>mu</entry>
+            <entry>media de la población</entry>
+          </row>
+          <row>
+            <entry>Estadística descriptiva</entry>
+            <entry><emphasis effect="itelics">s</emphasis> <emphasis effect="italics">s<sub>x</sub></emphasis> <emphasis effect="italics">sx</emphasis></entry>
+            <entry>s</entry>
+            <entry>desviación típica de la muestra</entry>
+          </row>
+
+
+          <row>
+            <entry>Estadística descriptiva</entry>
+            <entry><m:math><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:math> <m:math><m:msubsup><m:mi>s</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup> </m:math></entry>
+            <entry>s al cuadrado</entry>
+            <entry>varianza de la muestra</entry>
+          </row>
+          <row>
+            <entry>Estadística descriptiva</entry>
+            <entry><m:math><m:mi>σ</m:mi></m:math> <m:math><m:msub><m:mi>σ</m:mi><m:mi>x</m:mi></m:msub></m:math> <emphasis effect="italics">σx</emphasis></entry>
+            <entry>sigma</entry>
+            <entry>desviación típica de la población</entry>
+          </row>
+          <row>
+
+
+            <entry>Estadística descriptiva</entry>
+            <entry><m:math><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup></m:math> <m:math><m:msubsup><m:mi>σ</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup> </m:math></entry>
+            <entry>sigma al cuadrado</entry>
+            <entry>varianza de la población</entry>
+          </row>
+
+
+          <row>
+            <entry>Estadística descriptiva</entry>
+            <entry><m:math><m:mi>Σ</m:mi></m:math></entry>
+            <entry>sigma mayúscula</entry>
+            <entry>suma</entry>
+          </row>
+
+          <row>
+            <entry>Temas de probabilidad</entry>
+            <entry><m:math>
+<m:mo>{</m:mo>
+  <m:mo>}</m:mo>
+</m:math></entry>
+            <entry>corchetes</entry>
+            <entry>notación de conjunto</entry>
+          </row>
+          <row>
+            <entry>Temas de probabilidad</entry>
+            <entry><m:math><m:mi>S</m:mi></m:math></entry>
+            <entry>S</entry>
+            <entry>espacio muestral</entry>
+          </row>
+          <row>
+            <entry>Temas de probabilidad</entry>
+            <entry><m:math><m:mi>A</m:mi></m:math></entry>
+            <entry>Evento A</entry>
+            <entry>evento A</entry>
+          </row>
+          <row>
+            <entry>Temas de probabilidad</entry>
+            <entry><m:math>
+<m:mi>P</m:mi>
+  <m:mrow>
+    <m:mo>(</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math></entry>
+            <entry>probabilidad de A</entry>
+            <entry>probabilidad de que ocurra A</entry>
+          </row>
+          <row>
+            <entry>Temas de probabilidad</entry>
+            <entry><m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mtext mathvariant="italic">A</m:mtext><m:mtext>|</m:mtext><m:mtext mathvariant="italic">B</m:mtext><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</entry>
+            <entry>probabilidad de A dado que B</entry>
+            <entry>probabilidad de que ocurra A dado que ha ocurrido B</entry>
+          </row>
+          <row>
+            <entry>Temas de probabilidad</entry>
+            <entry><m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mtext> O </m:mtext><m:mi>B</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</entry>
+            <entry>probabilidad de A o B</entry>
+            <entry>probabilidad de que se produzca A o B o ambos</entry>
+          </row>
+          <row>
+            <entry>Temas de probabilidad</entry>
+            <entry><m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mtext> Y </m:mtext><m:mi>B</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</entry>
+            <entry>probabilidad de A y B</entry>
+            <entry>probabilidad de que ocurran tanto A como B (al mismo tiempo)</entry>
+          </row>
+          <row>
+            <entry>Temas de probabilidad</entry>
+            <entry><emphasis effect="italics">A</emphasis>′</entry>
+            <entry>A prima, complemento de A</entry>
+            <entry>complemento de A, no A</entry>
+          </row>
+          <row>
+            <entry>Temas de probabilidad</entry>
+            <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>')</entry>
+            <entry>probabilidad de complemento de A </entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Temas de probabilidad</entry>
+            <entry><emphasis effect="italics">G</emphasis><sub>1</sub></entry>
+            <entry>verde en la primera selección</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Temas de probabilidad</entry>
+            <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">G</emphasis><sub>1</sub>)</entry>
+            <entry>probabilidad de verde en la primera selección </entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Variables aleatorias discretas</entry>
+            <entry><emphasis effect="italics">PDF</emphasis></entry>
+            <entry>función de distribución de probabilidad </entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Variables aleatorias discretas</entry>
+            <entry><emphasis effect="italics">X</emphasis></entry>
+            <entry>X</entry>
+            <entry>la variable aleatoria X</entry>
+          </row>
+          <row>
+            <entry>Variables aleatorias discretas</entry>
+            <entry><emphasis effect="italics">X</emphasis> ~</entry>
+            <entry>la distribución de X</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Variables aleatorias discretas</entry>
+            <entry><emphasis effect="italics">B</emphasis></entry>
+            <entry>distribución binomial</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Variables aleatorias discretas</entry>
+            <entry><emphasis effect="italics">G</emphasis></entry>
+            <entry>distribución geométrica</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Variables aleatorias discretas</entry>
+            <entry><emphasis effect="italics">H</emphasis></entry>
+            <entry>distribución hipergeométrica</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Variables aleatorias discretas</entry>
+            <entry><emphasis effect="italics">P</emphasis></entry>
+            <entry>Distribución de Poisson</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Variables aleatorias discretas</entry>
+            <entry><m:math><m:mi>λ</m:mi></m:math></entry>
+            <entry>Lambda</entry>
+            <entry>promedio de la distribución de Poisson</entry>
+          </row>
+          <row>
+            <entry>Variables aleatorias discretas</entry>
+            <entry><m:math>
+ <m:mrow>
+    <m:mrow>
+      <m:mi/>
+    </m:mrow>
+    <m:mo>≥</m:mo>
+    <m:mrow>
+      <m:mi/>
+    </m:mrow>
+  </m:mrow>
+</m:math></entry>
+            <entry>mayor que o igual a</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Variables aleatorias discretas</entry>
+            <entry><m:math>
+ <m:mrow>
+    <m:mrow>
+      <m:mi/>
+    </m:mrow>
+    <m:mo>≤</m:mo>
+    <m:mrow>
+      <m:mi/>
+    </m:mrow>
+  </m:mrow>
+</m:math></entry>
+            <entry>menor que o igual a</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Variables aleatorias discretas</entry>
+            <entry>=</entry>
+            <entry>igual a </entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Variables aleatorias discretas</entry>
+            <entry>≠</entry>
+            <entry>no es igual a</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Variables aleatorias continuas</entry>
+            <entry><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+            <entry><emphasis effect="italics">f</emphasis> de <emphasis effect="italics">x</emphasis></entry>
+            <entry>función de <emphasis effect="italics">x</emphasis></entry>
+          </row>
+          <row>
+            <entry>Variables aleatorias continuas</entry>
+            <entry><emphasis effect="italics">pdf</emphasis></entry>
+            <entry>probabilidad de función de densidad </entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Variables aleatorias continuas</entry>
+            <entry><emphasis effect="italics">U</emphasis></entry>
+            <entry>distribución uniforme</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Variables aleatorias continuas</entry>
+            <entry><emphasis effect="italics">Exp</emphasis></entry>
+            <entry>distribución exponencial</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Variables aleatorias continuas</entry>
+            <entry><emphasis effect="italics">k</emphasis></entry>
+            <entry><emphasis effect="italics">k</emphasis></entry>
+            <entry>valor crítico</entry>
+          </row>
+          <row>
+            <entry>Variables aleatorias continuas</entry>
+            <entry><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) =</entry>
+            <entry><emphasis effect="italics">f</emphasis> de <emphasis effect="italics">x</emphasis> es igual a</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Variables aleatorias continuas</entry>
+            <entry><emphasis effect="italics">m</emphasis></entry>
+            <entry><emphasis effect="italics">m</emphasis></entry>
+            <entry>tasa de decaimiento (para la dist. exp.)</entry>
+          </row>
+    
+          <row>
+            <entry>La distribución normal</entry>
+            <entry><emphasis effect="italics">N</emphasis></entry>
+            <entry>distribución normal</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>La distribución normal</entry>
+            <entry><emphasis effect="italics">z</emphasis></entry>
+            <entry>puntuación <emphasis effect="italics">z</emphasis></entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>La distribución normal</entry>
+            <entry><emphasis effect="italics">Z</emphasis></entry>
+            <entry>dist. normal estándar</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>El teorema del límite central</entry>
+            <entry><emphasis effect="italics">CLT</emphasis></entry>
+            <entry>Teorema del límite central</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>El teorema del límite central</entry>
+            <entry><m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover></m:math>
+</entry>
+<entry>Barra de <emphasis effect="italics">X</emphasis></entry>
+            <entry>la variable aleatoria de la barra de <emphasis effect="italics">X</emphasis></entry>
+          </row>
+          <row>
+            <entry>El teorema del límite central</entry>
+            <entry><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>μ</m:mi>
+   <m:mi>x</m:mi>
+  </m:msub>
+  
+ </m:mrow>
+</m:math></entry>
+            <entry>media de <emphasis effect="italics">X</emphasis></entry>
+            <entry>el promedio de <emphasis effect="italics">X</emphasis></entry>
+          </row>
+          <row>
+            <entry>El teorema del límite central</entry>
+            <entry><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>μ</m:mi>
+   <m:mover accent="true">
+    <m:mi>x</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+   
+  </m:msub>
+  
+ </m:mrow>
+</m:math>
+</entry>
+            <entry>media de barra <emphasis effect="italics">x</emphasis></entry>
+            <entry>el promedio de barra <emphasis effect="italics">x</emphasis></entry>
+          </row>
+          <row>
+            <entry>El teorema del límite central</entry>
+            <entry><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>σ</m:mi>
+   <m:mi>x</m:mi>
+  </m:msub>
+  
+ </m:mrow>
+</m:math>
+</entry>
+            <entry>desviación típica de <emphasis effect="italics">X</emphasis></entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>El teorema del límite central</entry>
+            <entry><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>σ</m:mi>
+   <m:mover accent="true">
+    <m:mi>x</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+   
+  </m:msub>
+  
+ </m:mrow>
+</m:math></entry>
+            <entry>desviación típica de barra <emphasis effect="italics">X</emphasis> </entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>El teorema del límite central</entry>
+            <entry><m:math><m:mi>Σ</m:mi><m:mi>X</m:mi></m:math></entry>
+            <entry>suma de <emphasis effect="italics">X</emphasis></entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>El teorema del límite central</entry>
+            <entry><m:math><m:mi>Σ</m:mi><m:mi>x</m:mi></m:math></entry>
+            <entry>suma de <emphasis effect="italics">x</emphasis></entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Intervalos de confianza</entry>
+            <entry><emphasis effect="italics">CL</emphasis></entry>
+            <entry>nivel de confianza</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Intervalos de confianza</entry>
+            <entry><emphasis effect="italics">CI</emphasis></entry>
+            <entry>intervalo de confianza</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Intervalos de confianza</entry>
+            <entry><emphasis effect="italics">EBM</emphasis></entry>
+            <entry>límite de error para una media</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Intervalos de confianza</entry>
+            <entry><emphasis effect="italics">EBP</emphasis></entry>
+            <entry>límite de error para una proporción </entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Intervalos de confianza</entry>
+            <entry><emphasis effect="italics">t</emphasis></entry>
+            <entry>Distribución <emphasis effect="italics">t</emphasis> de Student</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Intervalos de confianza</entry>
+            <entry><emphasis effect="italics">df</emphasis></entry>
+            <entry>grados de libertad</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Intervalos de confianza</entry>
+            <entry><m:math>
+ <m:msub>
+    <m:mi>t</m:mi>
+    <m:mfrac>
+      <m:mi>α</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:msub>
+</m:math></entry>
+            <entry>t de Student con área <emphasis effect="italics">a</emphasis>/2 en la cola derecha </entry>
+            <entry>igual</entry>
+          </row>
+
+
+          <row>
+            <entry>Intervalos de confianza</entry>
+            <entry><m:math>
+ <m:mrow>
+  <m:mi>p</m:mi><m:mo>′</m:mo>
+ </m:mrow>
+</m:math>; <m:math><m:mover>
+    <m:mi>p</m:mi>
+    <m:mo>^</m:mo>
+  </m:mover>
+</m:math>
+</entry>
+            <entry><emphasis effect="italics">p</emphasis> prima; estimador de <emphasis effect="italics">p</emphasis></entry>
+            <entry>proporción de aciertos de la muestra</entry>
+          </row>
+
+
+          
+
+
+          <row>
+            <entry>Intervalos de confianza</entry>
+            <entry><m:math>
+ <m:mrow>
+  <m:mi>q</m:mi><m:mo>′</m:mo>
+ </m:mrow>
+</m:math>; <m:math><m:mover>
+    <m:mi>q</m:mi>
+    <m:mo>^</m:mo>
+  </m:mover>
+</m:math></entry>
+            <entry><emphasis effect="italics">q</emphasis> prima; estimador de <emphasis effect="italics">q</emphasis></entry>
+            <entry>proporción de fallos de la muestra</entry>
+          </row>
+
+
+          <row>
+            <entry>Prueba de hipótesis</entry>
+            <entry><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>H</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  
+ </m:mrow>
+</m:math></entry>
+            <entry><emphasis effect="italics">H</emphasis>-nada, <emphasis effect="italics">H</emphasis>-sub 0</entry>
+            <entry>hipótesis nula</entry>
+          </row>
+          <row>
+            <entry>Prueba de hipótesis</entry>
+            <entry><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>H</m:mi>
+   <m:mi>a</m:mi>
+  </m:msub>
+  
+ </m:mrow>
+</m:math></entry>
+            <entry><emphasis effect="italics">H-a</emphasis>, <emphasis effect="italics">H</emphasis>-sub <emphasis effect="italics">a</emphasis></entry>
+            <entry>hipótesis alterna</entry>
+          </row>
+          <row>
+            <entry>Prueba de hipótesis</entry>
+            <entry><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>H</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  
+ </m:mrow>
+</m:math></entry>
+            <entry><emphasis effect="italics">H</emphasis>-1, <emphasis effect="italics">H</emphasis>-sub 1</entry>
+            <entry>hipótesis alterna</entry>
+          </row>
+          <row>
+            <entry>Prueba de hipótesis</entry>
+            <entry><m:math><m:mi>α</m:mi></m:math></entry>
+            <entry>alfa</entry>
+            <entry>probabilidad de error tipo I</entry>
+          </row>
+          <row>
+            <entry>Prueba de hipótesis</entry>
+            <entry><m:math>
+ <m:mi>β</m:mi>
+</m:math></entry>
+            <entry>beta</entry>
+            <entry>probabilidad de error tipo II</entry>
+          </row>
+          <row>
+            <entry>Prueba de hipótesis</entry>
+            <entry><m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mrow>
+    <m:mi>X</m:mi><m:mn>1</m:mn>
+   </m:mrow>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover>
+  <m:mo>–</m:mo><m:mover accent="true">
+   <m:mrow>
+    <m:mi>X</m:mi><m:mn>2</m:mn>
+   </m:mrow>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover>
+  
+ </m:mrow>
+</m:math></entry>
+            <entry>Barra de <emphasis effect="italics">X</emphasis>1 menos barra de <emphasis effect="italics">X</emphasis>2</entry>
+            <entry>diferencia en las medias muestrales</entry>
+          </row>
+          <row>
+            <entry>Prueba de hipótesis</entry>
+            <entry><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>μ</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>–</m:mo><m:msub>
+   <m:mi>μ</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  
+ </m:mrow>
+</m:math></entry>
+            <entry><emphasis effect="italics">mu</emphasis>-1 menos <emphasis effect="italics">mu</emphasis>-2</entry>
+            <entry>diferencia de medias de la población</entry>
+          </row>
+          <row>
+            <entry>Prueba de hipótesis</entry>
+            <entry><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:msup>
+    <m:mi>P</m:mi>
+    <m:mo>′</m:mo>
+   </m:msup>
+   
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>–</m:mo><m:msub>
+   <m:msup>
+    <m:mi>P</m:mi>
+    <m:mo>′</m:mo>
+   </m:msup>
+   
+   <m:mn>2</m:mn>
+  </m:msub>
+  
+ </m:mrow>
+</m:math></entry>
+            <entry><emphasis effect="italics">P</emphasis>1-primo menos <emphasis effect="italics">P</emphasis>2-primo</entry>
+            <entry>diferencia en las proporciones de la muestra</entry>
+          </row>
+          <row>
+            <entry>Prueba de hipótesis</entry>
+            <entry><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>p</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>–</m:mo><m:msub>
+   <m:mi>p</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  
+ </m:mrow>
+</m:math></entry>
+            <entry><emphasis effect="italics">p</emphasis>1 menos <emphasis effect="italics">p</emphasis>2</entry>
+            <entry>diferencia en las proporciones de la población</entry>
+          </row>
+          <row>
+            <entry>Distribución chi-cuadrada</entry>
+            <entry><m:math>
+<m:msup>
+    <m:mi>Χ</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+</m:math></entry>
+            <entry><emphasis effect="italics">Ky</emphasis>-cuadrado</entry>
+            <entry>chi-cuadrado</entry>
+          </row>
+          <row>
+            <entry>Distribución chi-cuadrada</entry>
+            <entry><m:math><m:mi>O</m:mi></m:math></entry>
+            <entry>Observado</entry>
+            <entry>Frecuencia observada</entry>
+          </row>
+          <row>
+            <entry>Distribución chi-cuadrada</entry>
+            <entry><m:math><m:mi>E</m:mi></m:math></entry>
+            <entry>Esperado</entry>
+            <entry>Frecuencia esperada</entry>
+          </row>
+          <row>
+            <entry>Regresión lineal y correlación</entry>
+            <entry><emphasis effect="italics">y</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis></entry>
+            <entry><emphasis effect="italics">y</emphasis> es igual a a más <emphasis effect="italics">b–x</emphasis></entry>
+            <entry>ecuación de una línea</entry>
+          </row>
+
+
+          <row>
+            <entry>Regresión lineal y correlación</entry>
+            <entry><m:math><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:math></entry>
+            <entry>estimador de <emphasis effect="italics">y</emphasis></entry>
+            <entry>valor estimado de <emphasis effect="italics">y</emphasis></entry>
+          </row>
+
+
+          <row>
+            <entry>Regresión lineal y correlación</entry>
+            <entry><m:math><m:mi>r</m:mi></m:math></entry>
+            <entry>coeficiente de correlación</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Regresión lineal y correlación</entry>
+            <entry><m:math><m:mi>ε</m:mi></m:math></entry>
+            <entry>error</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Regresión lineal y correlación</entry>
+            <entry><emphasis effect="italics">SSE</emphasis></entry>
+            <entry>Suma de errores al cuadrado</entry>
+            <entry>igual</entry>
+          </row>
+          <row>
+            <entry>Regresión lineal y correlación</entry>
+            <entry>1,9<emphasis effect="italics">s</emphasis></entry>
+            <entry>1,9 veces <emphasis effect="italics">s</emphasis></entry>
+            <entry>valor de corte para los valores atípicos</entry>
+          </row>
+          <row>
+            <entry>Distribución <emphasis effect="italics">F</emphasis> y ANOVA</entry>
+            <entry><emphasis effect="italics">F</emphasis></entry>
+            <entry>Cociente de <emphasis effect="italics">F</emphasis></entry>
+            <entry>Cociente de <emphasis effect="italics">F</emphasis></entry>
+          </row>
+        </tbody>
+
+</tgroup>
+</table></section>
+   </content>
+</document>

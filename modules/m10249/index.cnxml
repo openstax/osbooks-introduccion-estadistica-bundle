@@ -1,0 +1,567 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Sigma Notation and Calculating the Arithmetic Mean</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10249</md:content-id>
+  <md:title>Sigma Notation and Calculating the Arithmetic Mean</md:title>
+  <md:abstract/>
+  <md:uuid>fc802139-2942-46b0-aba1-c712441d4080</md:uuid>
+</metadata>
+
+<content>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-948"><title>Fórmula de la media de la población</title><equation id="eip-id2068065" class="unnumbered"><label/><m:math>
+<m:mi>μ</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac><m:mn>1</m:mn><m:mi>N</m:mi></m:mfrac>
+<m:munderover><m:mo>∑</m:mo>
+<m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow>
+<m:mi>N</m:mi>
+</m:munderover>
+<m:msub><m:mi>x</m:mi><m:mi>i</m:mi></m:msub>
+</m:math></equation></para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-405"><title>Fórmula de la media de la muestra</title><equation id="eip-id1170728866591" class="unnumbered"><label/><m:math>
+<m:mover>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+<m:mo>=</m:mo>
+<m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac>
+<m:munderover><m:mo>∑</m:mo>
+<m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow>
+<m:mi>n</m:mi>
+</m:munderover>
+<m:msub><m:mi>x</m:mi><m:mi>i</m:mi></m:msub>
+</m:math></equation></para><para id="eip-275">Esta unidad está aquí para recordarte el material que una vez estudió y dijo en su momento "¡estoy seguro de que nunca necesitaré esto!"</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-21">Estas son las fórmulas de la media poblacional y de la media muestral. La letra griega μ es el símbolo de la media poblacional y <m:math><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:math> es el símbolo de la media muestral. Ambas fórmulas tienen un símbolo matemático que nos indica cómo hacer los cálculos. Se llama notación Sigma porque el símbolo es la letra griega mayúscula sigma: Σ. Como todos los símbolos matemáticos nos dice lo que hay que hacer: igual que el signo más nos dice que hay que sumar y la x nos dice que hay que multiplicar. Se denominan operadores matemáticos. El símbolo Σ nos dice que hay que añadir una lista específica de números. </para><para id="eip-489">Supongamos que tenemos una muestra de animales del refugio de animales local y nos interesa su edad media. Si enumeramos cada valor, u observación, en una columna, se puede dar a cada uno un número de índice. El primer número será el número 1 y el segundo el número 2 y así sucesivamente. </para><table id="eip-471" summary="A table with 11 rows and 2 columns. Animal with the age: 1-9; 2-1; 3-8.5; 4-10.5; 5-10; 6-8.5; 7-12; 8-8; 9-1; 10-9.5">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><emphasis>Animal</emphasis></entry>
+    <entry><emphasis>Edad</emphasis></entry>
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry>9</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>1</entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>8,5</entry>
+  </row>
+  <row>
+    <entry>4</entry>
+    <entry>10,5</entry>
+  </row>
+  <row>
+    <entry>5</entry>
+    <entry>10</entry>
+  </row>
+  <row>
+    <entry>6</entry>
+    <entry>8,5</entry>
+  </row>
+  <row>
+    <entry>7</entry>
+    <entry>12</entry>
+  </row>
+  <row>
+    <entry>8</entry>
+    <entry>8</entry>
+  </row>
+  <row>
+    <entry>9</entry>
+    <entry>1</entry>
+  </row>
+  <row>
+    <entry>10</entry>
+    <entry>9,5</entry>
+  </row>
+</tbody>
+
+
+
+
+</tgroup>
+</table><para id="eip-178">Cada observación representa un animal concreto de la muestra. Purr es el animal número uno y es un gato de 9 años, Toto es el animal número 2 y es un cachorro de 1 año y así sucesivamente.</para><para id="eip-299">Para calcular la media, la fórmula nos dice que debemos sumar todos estos números, las edades en este caso, y luego dividir la suma entre 10, el número total de animales de la muestra.</para><para id="eip-270">El animal número uno, el gato Purr, se designa como X<sub>1</sub>, el animal número 2, Toto, se designa como X<sub>2</sub> y así sucesivamente hasta Dundee que es el animal número 10 y se designa como X<sub>10</sub>.</para><para id="eip-284">La i de la fórmula nos indica cuál de las observaciones hay que sumar. En este caso es de X<sub>1</sub> a X<sub>10</sub> que son todos. Sabemos cuáles hay que añadir por la notación de indexación, la i = 1 y la n o N mayúscula de la población. Para este ejemplo la notación de indexación sería i = 1 y por tratarse de una muestra utilizamos una n pequeña en la parte superior del Σ que sería 10.</para><para id="eip-310">La desviación típica requiere el mismo operador matemático, por lo que sería útil recordar este conocimiento de su pasado. </para><para id="eip-932">La suma de las edades es de 78 y, dividiendo entre 10, la edad media de la muestra es de 7,8 años.</para>
+
+<section id="fs-idm379716000" class="practice"><exercise id="eip-51"><problem id="eip-707">
+  <para id="eip-517">
+    Un grupo de 10 niños están en una búsqueda del tesoro para encontrar rocas de diferentes colores. Los resultados se muestran en la <link target-id="eip-58"/>. La columna de la derecha muestra el número de colores de las piedras que tiene cada niño. ¿Cuál es el número medio de piedras?
+<table id="eip-58" summary=".">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><emphasis>Niño</emphasis></entry>
+    <entry><emphasis>Colores de las piedras</emphasis></entry>
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry>5</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>5</entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>6</entry>
+  </row>
+  <row>
+    <entry>4</entry>
+    <entry>2</entry>
+  </row>
+  <row>
+    <entry>5</entry>
+    <entry>4</entry>
+  </row>
+  <row>
+    <entry>6</entry>
+    <entry>3</entry>
+  </row>
+  <row>
+    <entry>7</entry>
+    <entry>7</entry>
+  </row>
+  <row>
+    <entry>8</entry>
+    <entry>2</entry>
+  </row>
+  <row>
+    <entry>9</entry>
+    <entry>1</entry>
+  </row>
+  <row>
+    <entry>10</entry>
+    <entry>10</entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table></para>
+</problem>
+
+</exercise><exercise id="eip-745"><problem id="eip-9">
+  <para id="eip-503">Se mide a un grupo de niños para determinar la estatura media del grupo. Los resultados se encuentran en la <link target-id="eip-619"/>. ¿Cuál es la estatura media del grupo con una precisión de una centésima de pulgada?</para>
+<table id="eip-619" summary="---">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><emphasis>Niño</emphasis></entry>
+    <entry><emphasis>Estatura en pulgadas</emphasis></entry>
+  </row>
+  <row>
+    <entry>Adam</entry>
+    <entry>45,21</entry>
+  </row>
+  <row>
+    <entry>Betty</entry>
+    <entry>39,45</entry>
+  </row>
+  <row>
+    <entry>Charlie</entry>
+    <entry>43,78</entry>
+  </row>
+  <row>
+    <entry>Donna</entry>
+    <entry>48,76</entry>
+  </row>
+  <row>
+    <entry>Earl</entry>
+    <entry>37,39</entry>
+  </row>
+  <row>
+    <entry>Fran</entry>
+    <entry>39,90</entry>
+  </row>
+  <row>
+    <entry>George</entry>
+    <entry>45,56</entry>
+  </row>
+  <row>
+    <entry>Heather</entry>
+    <entry>46,24</entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table></problem>
+
+<solution id="eip-922">
+  <para id="eip-623">39,48 in.</para>
+</solution>
+</exercise><exercise id="eip-638"><problem id="eip-487">
+  <para id="eip-996">Una persona compara los precios de cinco automóviles. Los resultados están en la <link target-id="eip-743"/>. ¿Cuál es el precio medio de los automóviles que la persona ha considerado?
+  </para>
+<table id="eip-743" summary="---">
+<tgroup cols="1"><tbody>
+  <row>
+    <entry><emphasis>Precio</emphasis></entry>
+  </row>
+  <row>
+    <entry>$20.987</entry>
+  </row>
+  <row>
+    <entry>$22.008</entry>
+  </row>
+  <row>
+    <entry>$19.998</entry>
+  </row>
+  <row>
+    <entry>$23.433</entry>
+  </row>
+  <row>
+    <entry>$21.444</entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table></problem>
+
+<solution id="eip-468">
+  <para id="eip-898">
+   $21.574
+  </para>
+</solution>
+</exercise><exercise id="eip-969"><problem id="eip-580">
+  <para id="eip-254">
+    Un servicio de protección al cliente ha obtenido 8 bolsas de caramelos que supuestamente contienen 16 onzas de caramelos cada una. Los caramelos se pesan para determinar si el peso medio es al menos las 16 onzas declaradas. Los resultados figuran en la <link target-id="eip-14"/>. ¿Cuál es el peso medio de una bolsa de caramelos en la muestra?
+  </para>
+<table id="eip-14" summary="---">
+<tgroup cols="1"><tbody>
+  <row>
+    <entry><emphasis>Peso en onzas</emphasis></entry>
+  </row>
+  <row>
+    <entry>15,65</entry>
+  </row>
+  <row>
+    <entry>16,09</entry>
+  </row>
+  <row>
+    <entry>16,01</entry>
+  </row>
+  <row>
+    <entry>15,99</entry>
+  </row>
+  <row>
+    <entry>16,02</entry>
+  </row>
+  <row>
+    <entry>16,00</entry>
+  </row>
+  <row>
+    <entry>15,98</entry>
+  </row>
+  <row>
+    <entry>16,08</entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table></problem>
+
+<solution id="eip-800">
+  <para id="eip-668">
+    15,98 onzas
+  </para>
+</solution>
+</exercise><exercise id="eip-508"><problem id="eip-698">
+  <para id="eip-790">
+    Un profesor registra las notas de una clase de 70, 72, 79, 81, 82, 82, 83, 90 y 95. ¿Cuál es la media de estas calificaciones?
+  </para>
+</problem>
+
+<solution id="eip-692">
+  <para id="eip-999">
+81,56
+  </para>
+</solution>
+</exercise><exercise id="eip-720"><problem id="eip-793">
+  <para id="eip-636">
+Se hace una encuesta a una familia para ver la media del número de horas al día que el televisor está encendido. Los resultados, empezando por el domingo, son 6, 3, 2, 3, 1, 3 y 7 horas. ¿Cuál es el número medio de horas que la familia ha tenido la televisión encendida, redondeando al número entero más cercano?
+  </para>
+</problem>
+
+<solution id="eip-789">
+  <para id="eip-913">
+    4 horas
+  </para>
+</solution>
+</exercise><exercise id="eip-187"><problem id="eip-20">
+  <para id="eip-100">
+Una ciudad recibió las siguientes precipitaciones en un año reciente. ¿Cuál es el número medio de pulgadas de lluvia que recibe la ciudad mensualmente, con una precisión de una centésima de pulgada? Utilice <link target-id="eip-696"/>.  </para>
+
+<table id="eip-696" summary="---">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><emphasis>Mes</emphasis></entry>
+    <entry><emphasis>Precipitaciones en pulgadas</emphasis></entry>
+  </row>
+  <row>
+    <entry>Enero</entry>
+    <entry>2,21</entry>
+  </row>
+  <row>
+    <entry>Febrero</entry>
+    <entry>3,12</entry>
+  </row>
+  <row>
+    <entry>Marzo</entry>
+    <entry>4,11</entry>
+  </row>
+  <row>
+    <entry>Abril</entry>
+    <entry>2,09</entry>
+  </row>
+  <row>
+    <entry>May</entry>
+    <entry>0,99</entry>
+  </row>
+  <row>
+    <entry>Junio</entry>
+    <entry>1,08</entry>
+  </row>
+  <row>
+    <entry>Julio</entry>
+    <entry>2,99</entry>
+  </row>
+  <row>
+    <entry>Agosto</entry>
+    <entry>0,08</entry>
+  </row>
+  <row>
+    <entry>Septiembre</entry>
+    <entry>0,52</entry>
+  </row>
+  <row>
+    <entry>Octubre</entry>
+    <entry>1,89</entry>
+  </row>
+  <row>
+    <entry>Noviembre</entry>
+    <entry>2,00</entry>
+  </row>
+  <row>
+    <entry>Diciembre</entry>
+    <entry>3,06</entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table></problem>
+
+<solution id="eip-818">
+  <para id="eip-318">
+2,01 pulgadas  </para>
+</solution>
+</exercise>
+<exercise id="eip-175"><problem id="eip-6">
+  <para id="eip-192">
+Un equipo de fútbol anotó los siguientes puntos en sus primeros 8 partidos de la nueva temporada. Empezando por el juego 1 y en orden los resultados son 14, 14, 24, 21, 7, 0, 38 y 28. ¿Cuál es el número medio de puntos que el equipo anotó en estos ocho partidos?
+  </para>
+</problem>
+
+<solution id="eip-56">
+  <para id="eip-186">
+18,25  </para>
+</solution>
+</exercise></section><section id="fs-idm1671441216" class="free-response"><title>Tarea para la casa</title>
+
+<exercise id="fs-idm596700928"><problem id="fs-idm463656864">
+  <para id="fs-idm413391120">Se elige una muestra de 10 precios de una población de 100 artículos similares. Los valores obtenidos de la muestra, y los valores para la población, figuran en la <link target-id="eip-idm729318752"/> y en la <link target-id="eip-idm409530992"/> respectivamente.
+  </para><list id="fs-idm404995664" list-type="enumerated" number-style="lower-alpha">
+<item>¿La media de la muestra está a menos de 1 dólar de la media de la población?</item>
+<item>¿Cuál es la diferencia entre las medias de la muestra y de la población?</item></list>
+<table id="eip-idm729318752" summary="---">
+<tgroup cols="1"><tbody>
+  <row>
+    <entry><emphasis>Precios de la muestra</emphasis></entry>
+  </row>
+  <row>
+    <entry>$21</entry>
+  </row>
+  <row>
+    <entry>$23</entry>
+  </row>
+  <row>
+    <entry>$21</entry>
+  </row>
+  <row>
+    <entry>$24</entry>
+  </row>
+  <row>
+    <entry>$22</entry>
+  </row>
+  <row>
+    <entry>$22</entry>
+  </row>
+  <row>
+    <entry>$25</entry>
+  </row>
+  <row>
+    <entry>$21</entry>
+  </row>
+  <row>
+    <entry>$20</entry>
+  </row>
+  <row>
+    <entry>$24</entry>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table><table id="eip-idm409530992" summary="---">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><emphasis>Precios de la población</emphasis></entry>
+    <entry><emphasis>Frecuencia</emphasis></entry>
+  </row>
+  <row>
+    <entry>$20</entry>
+    <entry>20</entry>
+  </row>
+  <row>
+    <entry>$21</entry>
+    <entry>35</entry>
+  </row>
+  <row>
+    <entry>$22</entry>
+    <entry>15</entry>
+  </row>
+  <row>
+    <entry>$23</entry>
+    <entry>10</entry>
+  </row>
+  <row>
+    <entry>$24</entry>
+    <entry>18</entry>
+  </row>
+  <row>
+    <entry>$25</entry>
+    <entry>2</entry>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table></problem>
+
+<solution id="fs-idm391154720">
+  <list id="fs-idm572432736" list-type="enumerated" number-style="lower-alpha">
+<item>Sí</item>
+<item>La muestra es 0,5 más alta.</item></list>
+</solution>
+</exercise><exercise id="fs-idm412528960"><problem id="fs-idm598213584">
+<para id="fs-idm338066656">Al principio del curso escolar se realiza una prueba estandarizada a diez personas, cuyos resultados se recogen en la <link target-id="eip-222"/>. Al final del año se volvió a examinar a las mismas personas.</para><list id="fs-idm303378928" list-type="enumerated" number-style="lower-alpha">
+<item>¿Cuál es la mejora media?</item>
+<item>¿Importa si se restan las medias o si se restan los valores individuales?</item>
+</list>
+<table id="eip-222" summary="---">
+<tgroup cols="3"><tbody>
+  <row>
+    <entry><emphasis>Estudiante</emphasis></entry>
+    <entry><emphasis>Puntuación inicial</emphasis></entry>
+    <entry><emphasis>Puntuación final</emphasis></entry>
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry>1100</entry>
+    <entry>1120</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>980</entry>
+    <entry>1030</entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>1200</entry>
+    <entry>1208</entry>
+  </row>
+  <row>
+    <entry>4</entry>
+    <entry>998</entry>
+    <entry>1000</entry>
+  </row>
+  <row>
+    <entry>5</entry>
+    <entry>893</entry>
+    <entry>948</entry>
+  </row>
+  <row>
+    <entry>6</entry>
+    <entry>1015</entry>
+    <entry>1030</entry>
+  </row>
+  <row>
+    <entry>7</entry>
+    <entry>1217</entry>
+    <entry>1224</entry>
+  </row>
+  <row>
+    <entry>8</entry>
+    <entry>1232</entry>
+    <entry>1245</entry>
+  </row>
+  <row>
+    <entry>9</entry>
+    <entry>967</entry>
+    <entry>988</entry>
+  </row>
+  <row>
+    <entry>10</entry>
+    <entry>988</entry>
+    <entry>997</entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table></problem>
+
+<solution id="fs-idm386061328">
+<list id="fs-idm337106784" list-type="enumerated" number-style="lower-alpha"><item>20</item><item>No</item></list>
+</solution>
+</exercise><exercise id="fs-idm470311408"><problem id="fs-idm289435504">
+  <para id="fs-idm611310032">
+    Una clase pequeña de 7 alumnos tiene una nota media de 82 en un examen. Si seis de las notas son 80, 82,86, 90, 90 y 95, ¿cuál es la otra nota?
+  </para>
+</problem>
+
+<solution id="fs-idm424179024">
+  <para id="fs-idm576039152">
+    51
+  </para>
+</solution>
+</exercise><exercise id="fs-idm995780112"><problem id="fs-idm377468544">
+  <para id="fs-idm1001012112">
+Una clase de 20 alumnos tiene una nota media de 80 en un examen. Diecinueve de los estudiantes tienen una nota media entre 79 y 82, ambas inclusive.</para><list id="fs-idm468963424" list-type="enumerated" number-style="lower-alpha">
+<item>¿Cuál es la nota más baja posible de otro estudiante?</item>
+<item>¿Cuál es la nota más alta posible de otro estudiante?</item></list>
+</problem>
+
+<solution id="fs-idm331435440">
+  <list id="fs-idm594906912" list-type="enumerated" number-style="lower-alpha">
+<item>42</item>
+<item>99</item></list>
+</solution>
+</exercise><exercise id="fs-idm617219696"><problem id="fs-idm404453792">
+  <para id="fs-idm708974480">
+   Si la media de 20 precios es de 10,39 dólares, y se muestrean 5 de los artículos con una media de 10,99 dólares, ¿cuál es la media de los otros 15 precios?
+  </para>
+</problem>
+
+<solution id="fs-idm394816336">
+  <para id="fs-idm408493440">
+    $10,19
+  </para>
+</solution>
+</exercise>
+</section>
+
+ </content>
+</document>

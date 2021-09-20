@@ -1,0 +1,308 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Testing the Significance of the Correlation Coefficient</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10488</md:content-id>
+  <md:title>Testing the Significance of the Correlation Coefficient</md:title>
+  <md:abstract/>
+  <md:uuid>cc5778d9-93fb-44ff-92d3-f4945719a37a</md:uuid>
+</metadata>
+
+<content>
+<para id="eip-298">El coeficiente de correlación, <emphasis effect="italics">r</emphasis>, nos indica la fuerza y la dirección de la relación lineal entre la <emphasis effect="italics">x</emphasis> y la <emphasis effect="italics">y</emphasis>. Sin embargo, la fiabilidad del modelo lineal también depende del número de puntos de datos observados en la muestra. Tenemos que observar tanto el valor del coeficiente de correlación <emphasis effect="italics">r</emphasis> como el tamaño de la muestra <emphasis effect="italics">n</emphasis>, conjuntamente.</para>
+
+<para id="element-3884">Realizamos una prueba de hipótesis de la <emphasis>"significación del coeficiente de correlación"</emphasis> para decidir si la relación lineal en los datos de la muestra es lo suficientemente fuerte como para utilizarla para modelar la relación en la población.</para>
+
+<para id="eip-413">Los datos de la muestra se utilizan para calcular <emphasis effect="italics">r</emphasis>, el coeficiente de correlación de la muestra. Si tuviéramos los datos de toda la población, podríamos hallar el coeficiente de correlación de la población. Pero como solo tenemos datos de la muestra, no podemos calcular el coeficiente de correlación de la población. El coeficiente de correlación de la muestra, <emphasis effect="italics">r</emphasis>, es nuestra estimación del coeficiente de correlación de la población desconocido.</para>
+
+<list id="eip-560" list-type="labeled-item">
+<item>El símbolo del coeficiente de correlación de la población es <emphasis effect="italics">ρ</emphasis>, la letra griega "rho".</item>
+<item><emphasis effect="italics">ρ</emphasis> = coeficiente de correlación de la población (desconocido)</item>
+<item><emphasis effect="italics">r</emphasis> = coeficiente de correlación de la muestra (conocido; calculado a partir de los datos de la muestra)</item>
+</list>
+
+<para id="eip-137">La prueba de hipótesis nos permite decidir si el valor del coeficiente de correlación de la población <emphasis effect="italics">ρ</emphasis> es “cercano a cero” o “significativamente diferente de cero”. Lo decidimos en función del coeficiente de correlación de la muestra <emphasis effect="italics">r</emphasis> y del tamaño de la muestra <emphasis effect="italics">n</emphasis>.</para>
+
+<para id="fs-idm38597088"><title>Si la prueba concluye que el coeficiente de correlación es significativamente diferente de cero, decimos que el coeficiente de correlación es "significativo".</title><list id="eip-9">
+<item>Conclusión: Hay pruebas suficientes para concluir que existe una relación lineal significativa entre la <emphasis effect="italics">x</emphasis> y la <emphasis effect="italics">y</emphasis> porque el coeficiente de correlación es significativamente diferente de cero.</item>
+<item>Lo que significa la conclusión: Existe una relación lineal significativa entre la <emphasis effect="italics">x</emphasis> y la <emphasis effect="italics">y</emphasis>. Podemos utilizar la línea de regresión para modelar la relación lineal entre la <emphasis effect="italics">x</emphasis> y la <emphasis effect="italics">y</emphasis> en la población.</item>
+</list></para>
+
+<para id="fs-idp40539792"><title>Si la prueba concluye que el coeficiente de correlación no es significativamente diferente de cero (está cerca de cero), decimos que el coeficiente de correlación es “no significativo”.</title><list id="eip-663">
+<item>Conclusión: "No hay pruebas suficientes para concluir que existe una relación lineal significativa entre la <emphasis effect="italics">x</emphasis> y la <emphasis effect="italics">y</emphasis> porque el coeficiente de correlación no es significativamente diferente de cero".</item>
+<item>Lo que significa la conclusión: No existe una relación lineal significativa entre la <emphasis effect="italics">x</emphasis> y la <emphasis effect="italics">y</emphasis>. Por lo tanto, NO podemos utilizar la línea de regresión para modelar una relación lineal entre la <emphasis effect="italics">x</emphasis> y la <emphasis effect="italics">y</emphasis> en la población.</item>
+</list></para>
+
+<note id="eip-939">
+<label/>
+<title>Nota</title>
+<list id="eip-id1164926616686">
+<item>Si <emphasis effect="italics">r</emphasis> es significativo y el diagrama de dispersión muestra una tendencia lineal, la línea puede utilizarse para predecir el valor de la <emphasis effect="italics">y</emphasis> para los valores de la <emphasis effect="italics">x</emphasis> que están dentro del dominio de los valores observados de la <emphasis effect="italics">x</emphasis>.</item>
+<item>Si <emphasis effect="italics">r</emphasis> es despreciable O si el diagrama de dispersión no muestra ninguna tendencia lineal, la línea no debería utilizarse para la predicción.</item>
+<item>Si <emphasis effect="italics">r</emphasis> es significativo y si el diagrama de dispersión muestra una tendencia lineal, puede que la línea NO sea apropiada o fiable para la predicción FUERA del dominio de los valores de la <emphasis effect="italics">x</emphasis> observados en los datos.</item>
+</list>
+</note>
+
+
+<section id="fs-idm115676240">
+<title>COMPROBACIÓN DE LA HIPÓTESIS</title>
+<list id="eip-375"><item><emphasis> Hipótesis nula: <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">ρ</emphasis> = 0 </emphasis></item>
+<item><emphasis>Hipótesis alternativa: <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">ρ</emphasis> ≠ 0</emphasis></item>
+</list>
+
+<para id="eip-422"><title>SIGNIFICADO DE LAS HIPÓTESIS EN PALABRAS:</title></para><list id="eip-761"><item><emphasis>Hipótesis nula <emphasis effect="italics">H<sub>0</sub></emphasis>:</emphasis> El coeficiente de correlación de la población NO ES significativamente diferente de cero. NO HAY ninguna relación lineal significativa (correlación) entre la <emphasis effect="italics">x</emphasis> y la <emphasis effect="italics">y</emphasis> en la población.</item>
+<item><emphasis>Hipótesis alternativa <emphasis effect="italics">H<sub>a</sub></emphasis>:</emphasis> El coeficiente de correlación de la población ES significativamente DIFERENTE de cero. EXISTE UNA RELACIÓN LINEAL SIGNIFICATIVA (correlación) entre la <emphasis effect="italics">x</emphasis> y la <emphasis effect="italics">y</emphasis> en la población.</item>
+</list><para id="fs-idm162949504"><title>SACAR UNA CONCLUSIÓN:</title>Hay dos métodos para tomar la decisión. Los dos métodos son equivalentes y dan el mismo resultado.</para>
+<list id="eip-40" list-type="bulleted">
+<item><emphasis>Método 1: Utilizar el valor <emphasis effect="italics">p</emphasis></emphasis></item>
+<item><emphasis>Método 2: Utilizar una tabla de valores críticos</emphasis></item>
+</list>
+<para id="eip-870">En este capítulo de este libro de texto, utilizaremos siempre un nivel de significación del 5 %, <emphasis effect="italics">α</emphasis> = 0,05</para>
+
+<note id="eip-128"><label/><title>Nota</title>
+<para id="fs-idp138109680">Con el método del valor <emphasis effect="italics">p</emphasis>, puede elegir cualquier nivel de significación apropiado que desee; no está limitado a utilizar <emphasis effect="italics">α</emphasis> = 0,05. Sin embargo, la tabla de valores críticos proporcionada en este libro de texto supone que estamos utilizando un nivel de significación del 5 %, <emphasis effect="italics">α</emphasis> = 0,05. (Si quisiéramos utilizar un nivel de significación diferente al 5 % con el método del valor crítico, necesitaríamos diferentes tablas de valores críticos que no se proporcionan en este libro de texto).</para>
+</note><section id="fs-idp18638240"><title>MÉTODO 1: Utilizar un valor <emphasis effect="italics">p</emphasis>para tomar una decisión</title><note id="fs-idp16405840" class="statistics calculator">
+<label/>
+<para id="fs-idp82841104">Para calcular el valor <emphasis effect="italics">p</emphasis> con la función LinRegTTEST:<newline/> En la pantalla de entrada de LinRegTTEST, en la línea que pide <emphasis effect="italics">β</emphasis> o <emphasis effect="italics">ρ</emphasis>, resalte "<emphasis>≠ 0</emphasis>"<newline/> La pantalla de salida muestra el valor p en la línea que dice "p =".<newline/> (La mayoría de los programas informáticos de estadística pueden calcular el valor <emphasis effect="italics">p</emphasis>).
+</para></note>
+
+<list id="eip-297">
+<title>Si el valor <emphasis effect="italics">p</emphasis> es inferior al nivel de significación(<emphasis effect="italics">α</emphasis> = 0,05):</title>
+<item>Decisión: rechazar la hipótesis nula.</item>
+<item>Conclusión: "Hay pruebas suficientes para concluir que existe una relación lineal significativa entre la <emphasis effect="italics">x</emphasis> y la <emphasis effect="italics">y</emphasis> porque el coeficiente de correlación es significativamente diferente de cero".</item>
+</list> <list id="eip-981">
+<title>Si el valor <emphasis effect="italics">p</emphasis> NO es inferior al nivel de significación (<emphasis effect="italics">α</emphasis> = 0,05)</title>
+<item>Decisión: NO RECHAZAR la hipótesis nula.</item>
+<item>Conclusión: "No hay pruebas suficientes para concluir que existe una relación lineal significativa entre la <emphasis effect="italics">x</emphasis> y la <emphasis effect="italics">y</emphasis> porque el coeficiente de correlación NO es significativamente diferente de cero".</item>
+</list> <list id="eip-335" list-type="labeled-item">
+<title>Notas de cálculo:</title>
+<item>Utilizará la tecnología para calcular el valor <emphasis effect="italics">p</emphasis>. A continuación se describen los cálculos para estimar los estadísticos de prueba y el valor <emphasis effect="italics">p</emphasis>:</item>
+<item>El valor <emphasis effect="italics">p</emphasis> se calcula mediante una distribución <emphasis effect="italics">t</emphasis> con <emphasis effect="italics">n</emphasis> - 2 grados de libertad.</item>
+<item>  La fórmula para el estadístico de prueba es <m:math>
+ <m:mrow>
+  <m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>r</m:mi><m:msqrt>
+     <m:mrow>
+      <m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+     </m:mrow>
+    </m:msqrt>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msqrt>
+     <m:mrow>
+      <m:mn>1</m:mn><m:mo>−</m:mo><m:msup>
+       <m:mi>r</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    </m:msqrt>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>. El valor del estadístico de prueba, <emphasis effect="italics">t</emphasis>, se muestra en la salida de la computadora o de la calculadora junto con el valor <emphasis effect="italics">p</emphasis>. El estadístico de prueba <emphasis effect="italics">t</emphasis> tiene el mismo signo que el coeficiente de correlación <emphasis effect="italics">r</emphasis>.</item>
+<item>El valor <emphasis effect="italics">p</emphasis> es el área combinada en ambas colas.</item>
+</list>
+
+<para id="fs-idp203218208" class="finger">Otra manera de calcular el valor <emphasis effect="italics">p</emphasis> <emphasis>(p)</emphasis> dado por LinRegTTest es el comando 2*tcdf(abs(t),10^99, n-2) en 2nd DISTR.</para>
+
+<list id="eip-76"><title>EJEMPLO DE TERCER EXAMEN vs. EXAMEN FINAL: método del valor <emphasis effect="italics">p</emphasis></title><item>Considere el <link document="m47117" target-id="element-22">ejemplo del tercer examen/examen final</link>.</item>
+<item>La línea de mejor ajuste es: ŷ = -173,51 + 4,83<emphasis effect="italics">x</emphasis> con <emphasis effect="italics">r</emphasis> = 0,6631 y hay <emphasis effect="italics">n</emphasis> = 11 puntos de datos.</item>
+<item>¿Se puede utilizar la línea de regresión para la predicción? <emphasis>Dada la puntuación del tercer examen (valor <emphasis effect="italics">x</emphasis>), ¿podemos utilizar la línea para predecir la puntuación del examen final (valor <emphasis effect="italics">y</emphasis> predicho)?</emphasis></item></list><para id="eip-714"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">ρ</emphasis> = 0</para><para id="eip-222"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">ρ</emphasis> ≠ 0</para><para id="eip-719"><emphasis effect="italics">α</emphasis> = 0,05</para>
+
+<list id="eip-933" list-type="bulleted"><item>El valor <emphasis effect="italics">p</emphasis> es de 0,026 (a partir de la prueba LinRegTT en su calculadora o del programa informático).</item>
+<item>El valor <emphasis effect="italics">p</emphasis>, 0,026, es inferior al nivel de significación de <emphasis effect="italics">α</emphasis> = 0,05.</item>
+<item>Decisión: Rechazar la hipótesis nula <emphasis effect="italics">H<sub>0</sub></emphasis></item>
+ <item>Conclusión: Hay pruebas suficientes para concluir que existe una relación lineal significativa entre la nota del tercer examen (<emphasis effect="italics">x</emphasis>) y la nota del examen final (<emphasis effect="italics">y</emphasis>) porque el coeficiente de correlación es significativamente diferente de cero.</item>
+</list><para id="eip-385"><emphasis>Como <emphasis effect="italics">r</emphasis> es significativa y el diagrama de dispersión muestra una tendencia lineal, la línea de regresión se puede usar para predecir calificaciones del examen final.</emphasis></para>
+</section><section id="fs-idp201258800">
+<title>MÉTODO 2: Utilizar una tabla de valores críticos para tomar una decisión.</title>
+<para id="fs-idm167281024">Los <link document="m47107" target-id="eip-idm31993488">valores críticos al 95 % de la tabla de coeficientes de correlación de la muestra</link> pueden utilizarse para dar una buena idea de si el valor calculado de <emphasis><m:math><m:mi>r</m:mi></m:math> es significativo o no lo es</emphasis>. Compare <emphasis effect="italics">r</emphasis> con el valor crítico apropiado de la tabla. Si <emphasis effect="italics">r</emphasis> no está entre los valores críticos positivos y negativos, el coeficiente de correlación es significativo. Si <emphasis effect="italics">r</emphasis> es significativo, entonces puede utilizar la línea para la predicción.</para><example id="element-684">
+<para id="element-798">Suponga que ha calculado <emphasis effect="italics">r</emphasis> = 0,801 utilizando <emphasis effect="italics">n</emphasis> = 10 puntos de datos. <emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> - 2 = 10 - 2 = 8. Los valores críticos asociados a <emphasis effect="italics">df</emphasis> = 8 son -0,632 y + 0,632. Si <emphasis effect="italics">r</emphasis> &lt; valor crítico negativo o <emphasis effect="italics">r</emphasis> &gt; valor crítico positivo, entonces <emphasis effect="italics">r</emphasis> es significativo. Como <emphasis effect="italics">r</emphasis> = 0,801 y 0,801 &gt; 0,632, <emphasis effect="italics">r</emphasis> es significativo y la línea puede utilizarse para la predicción. Si ve este ejemplo en una línea numérica, le ayudará.</para>
+<figure id="id1165447908809"><media id="id1165447908813" alt="Línea numérica horizontal con valores de -1, -0,632, 0, 0,632, 0,801 y 1. Una línea discontinua sobre los valores -0,632, 0 y 0,632 indica valores despreciables."><image src="../../media/fig-ch12_07_01.jpg" mime-type="image/jpeg" width="380"/></media><caption><emphasis effect="italics">r</emphasis> es despreciable entre -0,632 y +0,632. <emphasis effect="italics">r</emphasis> = 0,801 &gt; +0,632. Por lo tanto, <emphasis effect="italics">r</emphasis> es significativo.</caption></figure>
+</example>
+
+<note id="fs-idp24557360" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+
+<exercise id="eip-97">
+<problem id="eip-646">
+<para id="eip-154">
+    Para una línea de mejor ajuste dada, ha calculado que <emphasis effect="italics">r</emphasis> = 0,6501 utilizando <emphasis effect="italics">n</emphasis> = 12 puntos de datos y el valor crítico es 0,576. ¿Se puede utilizar la línea para la predicción? ¿Por qué sí o por qué no?</para>
+	</problem>
+</exercise>
+
+</note>
+
+<example id="element-358">
+<para id="element-206">Suponga que ha calculado <emphasis effect="italics">r</emphasis> = -0,624 con 14 puntos de datos. <emphasis effect="italics">df</emphasis> = 14 - 2 = 12. Los valores críticos son -0,532 y 0,532. Dado que -0,624 &lt; -0,532, <emphasis effect="italics">r</emphasis> es significativo y la línea puede utilizarse para la predicción.</para><figure id="id1165447908929"><media id="id1165447908933" alt="Línea numérica horizontal con valores de -0,624, -0,532 y 0,532."><image src="../../media/fig-ch12_07_02.jpg" mime-type="image/jpeg" width="380"/></media><caption>r = -0,624 &lt; -0,532. Por lo tanto, <emphasis effect="italics">r</emphasis> es significativo.</caption></figure></example>
+
+<note id="fs-idp165498288" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+
+<exercise id="eip-847">
+<problem id="eip-834">
+<para id="eip-262">
+Para una línea de mejor ajuste dada, se calcula que <emphasis effect="italics">r</emphasis> = 0,5204 utilizando <emphasis effect="italics">n</emphasis> = 9 puntos de datos, y el valor crítico es 0,666. ¿Se puede utilizar la línea para la predicción? ¿Por qué sí o por qué no?</para>
+</problem>
+</exercise>
+</note>
+
+
+<example id="element-719">
+<para id="element-446">Suponga que ha calculado <emphasis effect="italics">r</emphasis> = 0,776 y <emphasis effect="italics">n</emphasis> = 6. <emphasis effect="italics">df</emphasis> = 6 - 2 = 4. Los valores críticos son −0,811 y 0,811. Dado que -0,811 &lt; 0,776 &lt; 0,811, <emphasis effect="italics">r</emphasis> es despreciable, por lo que la línea no debería utilizarse para la predicción.</para><figure id="linrgs_facts5"><media id="id1165447912701" alt="Línea numérica horizontal con valores −0,924, −0,532 y 0,532."><image src="../../media/fig-ch12_07_03.jpg" mime-type="image/jpeg" width="380"/></media><caption>-0,811 &lt; <emphasis effect="italics">r</emphasis> = 0,776 &lt; 0,811. Por lo tanto, <emphasis effect="italics">r</emphasis> es despreciable.</caption>
+</figure>
+</example>
+
+<note id="fs-idp121877392" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+<exercise id="eip-610">
+<problem id="eip-276">
+<para id="eip-396">Para una línea de mejor ajuste dada, se calcula que <emphasis effect="italics">r</emphasis> = -0,7204 utilizando <emphasis effect="italics">n</emphasis> = 8 puntos de datos, y el valor crítico es = 0,707. ¿Se puede utilizar la línea para la predicción? ¿Por qué sí o por qué no?</para></problem>
+</exercise>
+</note></section>
+</section>
+
+
+<section id="fs-idm89842304"><title>EJEMPLO DE TERCER EXAMEN vs. EXAMEN FINAL: método del valor crítico</title><para id="eip-666">Considere el <link document="m47117" target-id="element-22">ejemplo del tercer examen/examen final</link>. La línea de mejor ajuste es: <emphasis effect="italics">ŷ</emphasis> = -173,51+4,83<emphasis effect="italics">x</emphasis> con <emphasis effect="italics">r</emphasis> = 0,6631 y hay <emphasis effect="italics">n</emphasis> = 11 puntos de datos. ¿Se puede utilizar la línea de regresión para la predicción? <emphasis>Dada la puntuación del tercer examen (<emphasis effect="italics">valor x</emphasis>), ¿podemos utilizar la línea para predecir la puntuación del examen final (valor <emphasis effect="italics">y</emphasis> predicho)?</emphasis>
+</para><list id="eip-830" list-type="labeled-item">
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">ρ</emphasis> = 0</item>
+<item> <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">ρ</emphasis> ≠ 0 </item>
+<item><emphasis effect="italics">α</emphasis> = 0,05</item>
+</list> <list id="eip-557" list-type="bulleted" bullet-style="bullet"><item>Utilice la tabla del "valor crítico al 95 %" para <emphasis effect="italics">r</emphasis> con <emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> - 2 = 11 - 2 = 9.</item>
+<item>Los valores críticos son -0,602 y +0,602</item>
+<item>Dado que 0,6631 &gt; 0,602, <emphasis effect="italics">r</emphasis> es significativo.</item>
+<item>Decisión: rechazar la hipótesis nula.</item>
+<item>Conclusión: Hay pruebas suficientes para concluir que existe una relación lineal significativa entre la calificación del tercer examen (<emphasis effect="italics">x</emphasis>) y la calificación del examen final (<emphasis effect="italics">y</emphasis>) porque el coeficiente de correlación es significativamente distinto de cero.</item>
+</list><para id="eip-138"><emphasis>Como <emphasis effect="italics">r</emphasis> es significativo y el diagrama de dispersión muestra una tendencia lineal, la línea de regresión se puede usar para predecir calificaciones del examen final.</emphasis></para>
+
+<example id="element-433"><para id="element-294">Supongamos que ha calculado los siguientes coeficientes de correlación. Con la tabla del final del capítulo, determine si <emphasis effect="italics">r</emphasis> es significativo y la línea de mejor ajuste asociada a cada <emphasis effect="italics">r</emphasis> puede utilizarse para predecir un valor de <emphasis effect="italics">y</emphasis>. Si le sirve, dibuje una línea numérica.</para>
+
+<list id="element-467" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">r</emphasis> = -0,567 y el tamaño de la muestra, <emphasis effect="italics">n</emphasis>, es 19. Los <emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> - 2 = 17. El valor crítico es -0,456. -0,567 &lt; -0,456 por lo que <emphasis effect="italics">r</emphasis> es significativo.</item>
+<item><emphasis effect="italics">r</emphasis> = 0,708 y el tamaño de la muestra, <emphasis effect="italics">n</emphasis>, es nueve. Los <emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> - 2 = 7. El valor crítico es 0,666. 0,708 &gt; 0,666 por lo que <emphasis effect="italics">r</emphasis> es significativo.</item>
+<item><emphasis effect="italics">r</emphasis> = 0,134 y el tamaño de la muestra, <emphasis effect="italics">n</emphasis>, es 14. Los <emphasis effect="italics">df</emphasis> = 14 - 2 = 12. El valor crítico es 0,532. 0,134 está entre -0,532 y 0,532 por lo que <emphasis effect="italics">r</emphasis> es despreciable.</item>
+<item><emphasis effect="italics">r</emphasis> = 0 y el tamaño de la muestra, <emphasis effect="italics">n</emphasis>, es cinco. No importa cuáles sean los dfs, <emphasis effect="italics">r</emphasis> = 0 está entre los dos valores críticos, por lo que <emphasis effect="italics">r</emphasis> es despreciable.</item>
+</list></example><note id="fs-idp56886288" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+
+<exercise id="eip-316">
+<problem id="eip-112">
+  <para id="eip-483">Para una línea de mejor ajuste dada, se calcula que <emphasis effect="italics">r</emphasis> = 0 utilizando <emphasis effect="italics">n</emphasis> = 100 puntos de datos. ¿Se puede utilizar la línea para la predicción? ¿Por qué sí o por qué no?</para>
+</problem>
+</exercise>
+
+</note>
+</section><section id="eip-570">
+<title>Supuestos para comprobar la significación del coeficiente de correlación</title>
+<para id="eip-485">La comprobación de la significación del coeficiente de correlación requiere que se cumplan ciertos supuestos sobre los datos. La premisa de esta prueba es que los datos son una muestra de puntos observados tomados de una población mayor. No hemos examinado a toda la población porque no es posible ni factible hacerlo. Estamos examinando la muestra para sacar una conclusión sobre si la relación lineal que vemos entre <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">y</emphasis> en los datos de la muestra proporciona una evidencia lo suficientemente contundente como para que podamos concluir que existe una relación lineal entre <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">y</emphasis> en la población.</para>
+<para id="eip-953">La ecuación de la línea de regresión que calculamos a partir de los datos de la muestra da la línea de mejor ajuste para nuestra muestra particular. Queremos utilizar esta línea de mejor ajuste para la muestra como una estimación de la línea de mejor ajuste para la población. Examinar el diagrama de dispersión y comprobar la importancia del coeficiente de correlación nos permite</para>
+
+<list id="eip-873" list-type="bulleted"><title>Los supuestos en los que se basa la prueba de significación son:</title><item>Existe una relación lineal en la población que modela el valor promedio de la <emphasis effect="italics">y</emphasis> para valores variables de la <emphasis effect="italics">x</emphasis>. En otras palabras, el valor esperado de la <emphasis effect="italics">y</emphasis> para cada valor en particular se encuentra en una línea recta en la población. (No conocemos la ecuación para la línea en la población. Nuestra línea de regresión de la muestra es nuestra mejor estimación de esta línea en la población).</item>
+
+<item> Los valores de la <emphasis effect="italics">y</emphasis> para cualquier valor en particular de la <emphasis effect="italics">x</emphasis> se distribuyen normalmente alrededor de la línea. Esto implica que hay más valores de la <emphasis effect="italics">y</emphasis> dispersos cerca de la línea que los que están más lejos. El supuesto (1) implica que estas distribuciones normales están centradas en la línea: las medias de estas distribuciones normales de los valores de la <emphasis effect="italics">y</emphasis> se encuentran en la línea.</item>
+
+<item> Las desviaciones típicas de los valores de la <emphasis effect="italics">y</emphasis> de la población en torno a la línea son iguales para cada valor de la <emphasis effect="italics">x</emphasis>. En otras palabras, cada una de estas distribuciones normales de los valores de la <emphasis effect="italics">y</emphasis> tiene la misma forma y dispersión sobre la línea.</item>
+
+<item>Los errores residuales son mutuamente independientes (sin patrón).</item>
+
+<item>Los datos proceden de una muestra aleatoria bien diseñada o de un experimento aleatorio.</item>
+</list><figure id="linrgs_facts_normal"><media id="id9999999999999" alt="El gráfico de la izquierda muestra tres conjuntos de puntos. Cada conjunto cae en una línea vertical. Los puntos de cada conjunto se distribuyen normalmente a lo largo de la línea: están densamente comprimidos en el centro y más repartidos en la parte superior e inferior. Una línea de regresión descendente pasa por la media de cada conjunto. El gráfico de la derecha muestra la misma línea de regresión trazada. Se muestra una curva normal vertical para cada línea.">
+<image src="../../media/fig-ch12_07_04.jpg" mime-type="image/jpeg" width="380"/>
+</media>
+
+<caption>Los valores de la <emphasis effect="italics">y</emphasis> para cada valor de la <emphasis effect="italics">x</emphasis> se distribuyen normalmente alrededor de la línea con la misma desviación típica. Para cada valor de la <emphasis effect="italics">x</emphasis>, la media de los valores de la <emphasis effect="italics">y</emphasis> se encuentra en la línea de regresión. Hay más valores de la <emphasis effect="italics">y</emphasis> cerca de la línea que los que están dispersos más lejos.
+</caption></figure>
+
+</section>
+
+
+<section id="eip-724" class="summary"><title>Revisión del capítulo</title><para id="eip-idp150994848">La regresión lineal es un procedimiento para ajustar una línea recta de la forma <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis> a los datos. Las condiciones para la regresión son:</para>
+
+<list id="eip-idm157640544" list-type="bulleted" bullet-style="open-circle">
+<item><emphasis>Lineal</emphasis> En la población, existe una relación lineal que modela el valor promedio de la <emphasis effect="italics">y</emphasis> para distintos valores de la <emphasis effect="italics">x</emphasis>.</item>
+<item><emphasis>Independiente</emphasis> Se supone que los residuales son independientes.</item>
+<item><emphasis>Normal</emphasis> Los valores de la <emphasis effect="italics">y</emphasis> se distribuyen normalmente para cualquier valor de la <emphasis effect="italics">x</emphasis>.</item>
+<item><emphasis>Varianza igual</emphasis> La desviación típica de los valores de la <emphasis effect="italics">y</emphasis> es igual para cada valor de la <emphasis effect="italics">x</emphasis>.</item>
+<item><emphasis>Aleatoria</emphasis> Los datos proceden de una muestra aleatoria bien diseñada o de un experimento aleatorio.</item></list>
+
+<para id="eip-idp46255472">La pendiente <emphasis><emphasis effect="italics">b</emphasis></emphasis> y la intersección <emphasis><emphasis effect="italics">a</emphasis></emphasis> de la línea de mínimos cuadrados estiman la pendiente <emphasis effect="italics">β</emphasis> y la intersección <emphasis effect="italics">α</emphasis> de la línea de regresión de la población (verdadera). Para estimar la desviación típica de la población de <emphasis effect="italics">y</emphasis>, <emphasis effect="italics">σ</emphasis>, utilice la desviación típica de los residuales, <emphasis effect="italics">s</emphasis>. <m:math>
+ <m:mrow>
+  <m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mi>S</m:mi><m:mi>E</m:mi><m:mi>E</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math>. La variable <emphasis effect="italics">ρ</emphasis> (rho) es el coeficiente de correlación de la población. Para comprobar la hipótesis nula <emphasis effect="italics">H</emphasis><sub>0</sub>: <emphasis effect="italics">ρ</emphasis> = <emphasis effect="italics">valor hipotetizado</emphasis>, utilice una prueba t de regresión lineal. La hipótesis nula más común es <emphasis effect="italics">H</emphasis><sub>0</sub>: <emphasis effect="italics">ρ</emphasis> = 0, que indica que no existe una relación lineal entre la <emphasis effect="italics">x</emphasis> y la <emphasis effect="italics">y</emphasis> en la población. La función LinRegTTest de la calculadora TI-83, 83+, 84, 84+ puede realizar esta prueba (STATS TESTS LinRegTTest).</para></section><section id="eip-896" class="formula-review">
+<title>Revisión de la fórmula</title>
+<para id="eip-388">Línea de mínimos cuadrados o línea de mejor ajuste: </para>
+<para id="eip-64"><m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>y</m:mi>
+   <m:mo>^</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi>
+ </m:mrow>
+</m:math></para><para id="eip-716">donde </para>
+<para id="eip-574"><emphasis effect="italics">a</emphasis> = intersección en <emphasis effect="italics">y</emphasis></para><para id="eip-41"><emphasis effect="italics">b</emphasis> = pendiente</para>
+<para id="eip-484">Desviación típica de los residuales: </para>
+<para id="eip-496"><m:math>
+ <m:mrow>
+  <m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mi>S</m:mi><m:mi>E</m:mi><m:mi>E</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msqrt>
+   <m:mi>.</m:mi>
+ </m:mrow>
+</m:math></para><para id="eip-463">donde</para>
+<para id="eip-814">SSE = suma de errores al cuadrado</para>
+<para id="eip-799"><emphasis effect="italics">n</emphasis> = el número de puntos de datos</para>
+</section>
+
+<section id="eip-142" class="practice">
+<exercise id="eip-552"><problem id="eip-226">
+  <para id="eip-707">
+Al comprobar la significación del coeficiente de correlación, ¿cuál es la hipótesis nula?
+  </para>
+</problem></exercise><exercise id="eip-592"><problem id="eip-798">
+  <para id="eip-725">
+Al comprobar la significación del coeficiente de correlación, ¿cuál es la hipótesis alternativa?
+  </para>
+</problem>
+
+<solution id="eip-840">
+  <para id="eip-880"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">ρ</emphasis> ≠ 0</para></solution>
+</exercise><exercise id="eip-59"><problem id="eip-960">
+  <para id="eip-596">
+Si el nivel de significación es 0,05 y el valor <emphasis effect="italics">p</emphasis>es 0,04, ¿qué conclusión puede sacar?
+  </para>
+</problem></exercise></section>
+
+ </content>
+</document>

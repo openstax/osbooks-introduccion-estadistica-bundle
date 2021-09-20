@@ -1,0 +1,123 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="introduction">
+  <title>Introduction</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10449</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>fefa7cbb-a6eb-4ebe-bd5b-1bac50801d08</md:uuid>
+</metadata>
+
+<content>
+  <figure id="fs-idp3364000" class="splash"><media id="fs-idp63701744" alt="Esta foto muestra muchos pares de zapatos diferentes de varios colores. Los zapatos parecen estar colgados de una pared por los cordones.">
+<image mime-type="image/jpg" src="../../media/CNX_Stats_C06_CON.jpg" width="500"/>
+</media>
+<caption>Si le pregunta a un número suficiente de personas por su talla de calzado, comprobará que los datos representados en el gráfico tienen la forma de una curva de campana y se pueden describir como normalmente distribuidos (crédito: Ömer Ünlϋ).</caption></figure><note id="fs-idp2636240" class="chapter-objectives"><label/><title>Objetivos del capítulo</title>
+<para id="element-864">Al final de este capítulo el estudiante podrá:</para>
+<list id="list4253">
+<item>Reconocer la distribución de probabilidad normal y aplicarla adecuadamente.</item>
+<item>Reconocer la distribución de probabilidad normal estándar y aplicarla adecuadamente.</item>
+<item>Comparar las probabilidades normales convirtiendo a la distribución normal estándar.</item>
+</list>
+</note><para id="intro001">La normal, una distribución continua, es la más importante de todas las distribuciones. Su uso está muy extendido y su abuso aun más. Su gráfico tiene forma de campana. La curva de campana se ve en casi todas las disciplinas. Algunas de ellas son psicología, negocios, economía, ciencias, enfermería y, por supuesto, matemáticas. Algunos de sus instructores pueden utilizar la distribución normal para ayudar a determinar su calificación. La mayoría de las calificaciones de coeficiente intelectual (Intelligence Quotient, IQ) se distribuyen normalmente. A menudo, los precios de los inmuebles se ajustan a una distribución normal. La distribución normal es muy importante, pero no se puede aplicar a todo en el mundo real.</para>
+<para id="element-299">En este capítulo, estudiará la distribución normal, la distribución normal estándar y las aplicaciones asociadas a ellas.</para>
+<para id="element-915">La distribución normal tiene dos parámetros (dos medidas numéricas descriptivas): la media (<emphasis effect="italics">μ</emphasis>) y la desviación típica (<emphasis effect="italics">σ</emphasis>). Si <emphasis effect="italics">X</emphasis> es una cantidad a medir que tiene una distribución normal con media (<emphasis effect="italics">μ</emphasis>) y desviación típica (<emphasis effect="italics">σ</emphasis>), la designamos escribiendo </para><figure id="fs-idm13606720"><media id="id42732641" alt="Este diagrama muestra una curva en forma de campana con la letra griega minúscula mu en el centro del eje x. Tiene la etiqueta Normal: la X mayúscula es similar a N (μ, σ) ">
+<image src="../../media/fig-ch_06_01_01.jpg" mime-type="image/jpg" width="450"/></media></figure><para id="element-979">La función de densidad de probabilidad es una función bastante complicada. <emphasis>No la memorice</emphasis>. No es necesario.</para>
+<para id="element-687"><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mi>σ</m:mi><m:mo>⋅</m:mo><m:msqrt>
+     <m:mrow>
+      <m:mn>2</m:mn><m:mo>⋅</m:mo><m:mi>π</m:mi>
+     </m:mrow>
+    </m:msqrt>
+    
+   </m:mrow>
+  </m:mfrac>
+  <m:mo> </m:mo><m:mo>⋅</m:mo><m:msup>
+   <m:mrow>
+    <m:mtext> e</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>⋅</m:mo><m:msup>
+     <m:mrow>
+      <m:mo stretchy="true">(</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>μ</m:mi>
+       </m:mrow>
+       <m:mi>σ</m:mi>
+      </m:mfrac>
+      <m:mo stretchy="true">)</m:mo>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    
+   </m:mrow>
+  </m:msup>
+  
+ </m:mrow>
+</m:math></para><para id="element-750">La función de distribución acumulativa es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">x</emphasis>). Se calcula con una calculadora o una computadora, o se busca en una tabla. La tecnología ha hecho que las tablas queden prácticamente obsoletas. Por ese motivo, así como por el hecho de que existen varios formatos de tabla, no incluimos las instrucciones de la tabla.</para>
+
+<para id="element-396">La curva es simétrica respecto a una línea vertical que pasa por la media, <emphasis effect="italics">μ</emphasis>. En teoría, la media es la misma que la mediana, porque el gráfico es simétrico con respecto a <emphasis effect="italics">μ</emphasis>. Como indica la notación, la distribución normal solo depende de la media y de la desviación típica. Dado que el área bajo la curva debe ser igual a uno, un cambio en la desviación estándar, <emphasis effect="italics">σ</emphasis>, provoca un cambio en la forma de la curva; la curva se vuelve más gorda o delgada dependiendo de <emphasis effect="italics">σ</emphasis>. Un cambio en <emphasis effect="italics">μ</emphasis> hace que el gráfico se desplace a la izquierda o a la derecha. Esto significa que hay un número infinito de distribuciones de probabilidad normales. Una de las más interesantes es la llamada <emphasis>distribución normal estándar</emphasis>.</para><note id="fs-idp30947824" class="statistics collab"><label/><title>Actividad colaborativa en el aula</title>
+<para id="element-450">Su instructor registrará las estaturas de los hombres y las mujeres de su clase, por separado. Dibuje histogramas de sus datos. A continuación, dibuje una curva suave a través de cada histograma. ¿Cada curva tiene una forma de campana? ¿Cree que si hubiera registrado 200 valores de datos para hombres y 200 para mujeres, las curvas tendrían forma de campana? Calcule la media de cada conjunto de datos. Escriba las medias en el eje de <emphasis effect="italics">x</emphasis> del gráfico correspondiente debajo del pico. Sombree el área aproximada que representa la probabilidad de que un hombre elegido aleatoriamente sea más alto que 72 pulgadas. Sombree el área aproximada que representa la probabilidad de que una mujer elegida aleatoriamente tenga menos de 60 pulgadas. Si el área total bajo cada curva es uno, ¿parece que alguna de las probabilidades es superior a 0,5?</para>
+</note>
+<section id="fs-idm30369536" class="formula-review"><title>Revisión de la fórmula</title><para id="fs-idp6996576"><emphasis effect="italics">X</emphasis> ∼ <emphasis effect="italics">N</emphasis>(<emphasis effect="italics">μ</emphasis>, <emphasis effect="italics">σ</emphasis>)</para><para id="fs-idp6873424">
+<list list-type="labeled-item" display="inline">
+<item><emphasis effect="italics">μ</emphasis> = la media</item>
+<item><emphasis effect="italics">σ</emphasis> = la desviación típica</item>
+</list></para>
+</section> </content>
+
+<glossary>
+<definition id="normdist">
+<term>Distribución normal</term>
+<meaning id="id42733014">una variable aleatoria continua (RV) con pdf <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mi>σ</m:mi><m:msqrt>
+     <m:mrow>
+      <m:mn>2</m:mn><m:mi>π</m:mi>
+     </m:mrow>
+    </m:msqrt>
+    
+   </m:mrow>
+  </m:mfrac>
+  <m:msup>
+   <m:mrow>
+    <m:mtext> e</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mo>–</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>–</m:mo><m:mtext> </m:mtext><m:mo>μ</m:mo><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mrow>
+        <m:mn>2</m:mn><m:msup>
+         <m:mi>σ</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        
+       </m:mrow>
+      </m:mfrac>
+      
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    
+   </m:mrow>
+  </m:msup>
+  
+ </m:mrow>
+</m:math>, donde <emphasis effect="italics">μ</emphasis> es la media de la distribución y <emphasis effect="italics">σ</emphasis> es la desviación típica; notación: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(<emphasis effect="italics">μ</emphasis>, <emphasis effect="italics">σ</emphasis>). Si <emphasis effect="italics">μ</emphasis> = 0 y <emphasis effect="italics">σ</emphasis> = 1, la variable aleatoria (random variable, RV) se denomina <emphasis>distribución normal estándar</emphasis>.</meaning>
+</definition>
+</glossary>
+</document>

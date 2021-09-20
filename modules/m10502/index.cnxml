@@ -1,0 +1,143 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="appendix">
+
+<title>Solution Sheets</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10502</md:content-id>
+  <md:title>Solution Sheets</md:title>
+  <md:abstract/>
+  <md:uuid>b96cd191-475a-46e7-b74a-09d6650f0005</md:uuid>
+</metadata>
+
+<content class="appendix"><section id="fs-id1168979367091">
+    <title>Pruebas de hipótesis con una muestra </title><para id="id46712476">Hora de clases: __________________________<newline/> Nombre: _____________________________________</para><list id="id46712495" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: _______</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: _______</item>
+<item>En palabras, indique <emphasis>CLARAMENTE</emphasis> qué representa su variable aleatoria <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+ 
+</m:math> o <m:math>
+ <m:msup>
+  <m:mi>P</m:mi>
+  <m:mo>′</m:mo>
+ </m:msup>
+ 
+</m:math>.</item>
+<item>Indique la distribución que se utilizará para la prueba.</item>
+<item>¿Cuál es el estadístico de prueba?</item>
+<item>¿Cuál es el valor <emphasis effect="italics">p</emphasis>? En una o dos frases completas, explique qué significa el valor <emphasis effect="italics">p</emphasis> en este problema. </item>
+<item>Use la información anterior para dibujar una imagen de esta situación. DE FORMA CLARA, identifique y escale el eje horizontal y sombree la(s) región(es) correspondiente(s) al valor <emphasis effect="italics">p</emphasis>.
+<figure id="id13552252"><media id="id13552256" alt="Esta es la curva de frecuencia de una distribución normal con los ejes horizontal y vertical en blanco.">
+<image src="../../media/CNX_Stats_Appendix_ART_Figure_14.1.jpg" mime-type="image/png" width="380"/>
+</media></figure></item>
+<item>Indique la decisión correcta ("rechazar" o "no rechazar" la hipótesis nula), la razón para ello y escriba una conclusión adecuada, utilizando <emphasis>frases completas</emphasis>. <list id="list1" list-type="enumerated" number-style="lower-roman">
+<item>Alfa: _______</item>
+<item>Decisión: _______</item>
+<item>Motivo de la decisión: _______</item>
+<item>Conclusión: _______</item></list></item>
+
+<item>Construya un intervalo de confianza del 95 % para la media o la proporción verdaderas. Incluya un esquema del gráfico de la situación. Identifique la estimación puntual y los límites inferior y superior del intervalo de confianza.<figure id="id13552369"><media id="id13552374" alt="Esta es la curva de frecuencia de una distribución normal con los ejes horizontal y vertical en blanco.">
+<image src="../../media/CNX_Stats_Appendix_ART_Figure_14.2.jpg" mime-type="image/png" width="380"/>
+</media></figure></item>
+    </list></section><section id="eip-422"><title>Prueba de hipótesis con dos muestras </title><para id="eip-id1165747001060">Hora de clases: __________________________<newline/> Nombre: _____________________________________</para><list id="eip-id1165746505302" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: _______</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: _______</item>
+<item>En palabras, indique <emphasis>claramente</emphasis> qué representa su variable aleatoria <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+   
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>–</m:mo><m:msub>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+   
+   <m:mn>2</m:mn>
+  </m:msub>
+  
+ </m:mrow>
+</m:math>, <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:msup>
+    <m:mi>P</m:mi>
+    <m:mo>′</m:mo>
+   </m:msup>
+   
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>–</m:mo><m:msub>
+   <m:msup>
+    <m:mi>P</m:mi>
+    <m:mo>′</m:mo>
+   </m:msup>
+   
+   <m:mn>2</m:mn>
+  </m:msub>
+  
+ </m:mrow>
+</m:math> o <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+   
+   <m:mi>d</m:mi>
+  </m:msub>
+  
+ </m:mrow>
+</m:math>.</item>
+<item>Indique la distribución que se utilizará para la prueba. </item>
+<item>¿Cuál es el estadístico de prueba? </item>
+<item>¿Cuál es el valor <emphasis effect="italics">p</emphasis>? En una o dos frases completas, explique qué significa el valor p en este problema.</item>
+<item>Use la información anterior para dibujar una imagen de esta situación. Rotule y escale <emphasis>CLARAMENTE</emphasis> el eje horizontal y sombree la(s) región(es) correspondiente(s) al valor <emphasis effect="italics">p</emphasis>. <figure id="id13017561"><media id="id13017566" alt="Esta es la curva de frecuencia de una distribución normal con los ejes horizontal y vertical en blanco."><image src="../../media/CNX_Stats_Appendix_ART_Figure_14.3.jpg" mime-type="image/png" width="380"/></media></figure></item>
+<item>Indique la decisión correcta ("rechazar" o "no rechazar" la hipótesis nula), la razón para ello y escriba una conclusión adecuada, utilizando <emphasis>frases completas</emphasis> <list id="eip-id1165749453228" list-type="enumerated" number-style="lower-alpha">
+<item>Alfa: _______</item>
+<item>Decisión: _______</item>
+<item>Motivo de la decisión: _______</item>
+<item>Conclusión: _______</item>
+</list>
+</item>
+<item>Explique con frases completas cómo ha determinado qué distribución utilizar.</item>
+</list></section><section id="eip-494"><title>La distribución chi-cuadrado</title><para id="id4294030">Hora de clases: __________________________<newline/> Nombre: ____________________________________</para><list id="id8612793" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: _______</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: _______</item>
+<item>¿Cuáles son los grados de libertad? </item>
+<item>Indique la distribución que se utilizará para la prueba. </item>
+<item>¿Cuál es el estadístico de prueba? </item>
+<item>¿Cuál es el valor <emphasis effect="italics">p</emphasis>? En una o dos oraciones completas explique qué significa el valor <emphasis effect="italics">p</emphasis> para este problema. </item>
+<item>Use la información anterior para dibujar una imagen de esta situación. Identifique y escale <emphasis>claramente</emphasis> el eje horizontal y sombree la(s) región(es) correspondiente(s) al valor <emphasis effect="italics">p</emphasis>. 
+<figure id="id10146455"><media id="id10146460" alt="Se trata de una curva de frecuencias asimétrica a la derecha con los ejes horizontal y vertical en blanco."><image src="../../media/CNX_Stats_Appendix_ART_Figure_14.4.jpg" mime-type="image/png" width="380"/>
+</media>
+</figure></item>
+<item>Indique la decisión correcta ("rechazar" o "no rechazar" la hipótesis nula) y escriba las conclusiones adecuadas, utilizando <emphasis>frases completas. </emphasis> <list id="list1232523432" list-type="enumerated" number-style="lower-roman">
+<item>Alfa: _______</item>
+<item>Decisión: _______</item>
+<item>Motivo de la decisión: _______</item>
+<item>Conclusión: _______</item></list></item>
+</list></section><section id="eip-893"><title>Distribución F y ANOVA de una vía</title><para id="eip-id1172364029192">Hora de clases: __________________________<newline/> Nombre: ____________________________________</para><list id="id3582263" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: _______</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: _______</item>
+<item><emphasis effect="italics">df</emphasis>(<emphasis effect="italics">n</emphasis>) = ______ <emphasis effect="italics">df</emphasis>(<emphasis effect="italics">d</emphasis>) = _______</item>
+<item>Indique la distribución que se utilizará para la prueba. </item>
+<item>¿Cuál es el estadístico de prueba?</item>
+<item>¿Cuál es el valor <emphasis effect="italics">p</emphasis>?  </item>
+<item>Use la información anterior para dibujar una imagen de esta situación. Identifique y escale <emphasis>claramente</emphasis> el eje horizontal y sombree la(s) región(es) correspondiente(s) al valor <emphasis effect="italics">p</emphasis>.
+<figure id="element-123123"><media id="id27331291" alt="Esta es una línea numérica sin marcar.">
+<image src="../../media/CNX_Stats_Appendix_ART_Figure_14.5.jpg" mime-type="image/png" width="350"/></media>
+</figure></item>
+<item>Indique la decisión correcta ("rechazar" o "no rechazar" la hipótesis nula) y escriba las conclusiones adecuadas, utilizando <emphasis>frases completas</emphasis> <list id="list12345" list-type="enumerated" number-style="lower-alpha">
+<item>Alfa: _______</item>
+<item>Decisión: _______</item>
+<item>Motivo de la decisión: _______</item>
+<item>Conclusión: _______</item></list></item>
+</list></section> </content>
+</document>

@@ -1,0 +1,925 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Geometric Distribution</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10261</md:content-id>
+  <md:title>Geometric Distribution</md:title>
+  <md:abstract/>
+  <md:uuid>5a3b5e63-e8e1-4a56-b51a-23c75becc428</md:uuid>
+</metadata>
+
+<content>
+<para id="element-456">La función de densidad de probabilidad geométrica se basa en lo que hemos aprendido de la distribución binomial. En este caso, el experimento continúa hasta que se produce un éxito o un fracaso, en lugar de un número determinado de ensayos. Hay tres características principales de un experimento geométrico.</para><list id="geometricexperiment" list-type="enumerated"><item>Hay uno o más ensayos de Bernoulli con todos los fallos excepto el último, que es un acierto. En otras palabras, sigue repitiendo lo que está haciendo hasta el primer acierto. Entonces se detiene. Por ejemplo, se lanza un dardo a una diana hasta dar en ella. La primera vez que logra dar en la diana es un “acierto”, así que deja de lanzar el dardo. Puede que le lleve seis intentos hasta que acierte en la diana. Puede pensar en las pruebas como fallo, fallo, fallo, fallo, acierto, PARAR.</item>
+<item>En teoría, el número de pruebas podría ser eterno.</item>
+<item>La probabilidad, <emphasis effect="italics">p</emphasis>, de un acierto y la probabilidad, <emphasis effect="italics">q</emphasis>, de un fallo es igual para cada ensayo. <emphasis effect="italics">p</emphasis> + <emphasis effect="italics">q</emphasis> = 1 y <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="italics">p</emphasis>. Por ejemplo, la probabilidad de sacar un tres al lanzar un dado imparcial es <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+ </m:mrow>
+</m:math> Esto es cierto sin importar cuántas veces se lance el dado. Supongamos que quiere saber la probabilidad de obtener el primer tres en la quinta lanzada. En las lanzadas del uno al cuatro, no se obtiene un lado con un tres. La probabilidad de cada una de las lanzadas es <emphasis effect="italics">q</emphasis> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mtext>5</m:mtext>
+   <m:mtext>6</m:mtext>
+  </m:mfrac>
+ </m:mrow>
+</m:math>, la probabilidad de un fallo. La probabilidad de obtener un tres en la quinta lanzada es <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>5</m:mn>
+     <m:mn>6</m:mn>
+    </m:mfrac>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>5</m:mn>
+     <m:mn>6</m:mn>
+    </m:mfrac>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>5</m:mn>
+     <m:mn>6</m:mn>
+    </m:mfrac>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>5</m:mn>
+     <m:mn>6</m:mn>
+    </m:mfrac>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>6</m:mn>
+    </m:mfrac>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> = 0,0804</item>
+<item><emphasis effect="italics">X</emphasis> = el número de ensayos independientes hasta el primer acierto.</item>
+
+</list><example id="element-328">
+<para id="element-341">Participa en un juego de azar que puede ganar o perder (no hay otras posibilidades) <emphasis>hasta</emphasis> que pierde. Su probabilidad de perder es <emphasis effect="italics">p</emphasis> = 0,57. ¿Cuál es la probabilidad de que se necesiten cinco jugadas para perder? Supongamos que <emphasis effect="italics">X</emphasis> = el número de partidas que juega hasta que pierde (incluye la partida perdida). Entonces <emphasis effect="italics">X</emphasis> toma los valores 1, 2, 3, ... (podría seguir indefinidamente). La pregunta de probabilidad es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 5).</para></example>
+
+<note id="fs-idm23905008" class="statistics try"><label/><title>Ejercicio</title>
+
+<exercise id="fs-idm107886512">
+<problem id="fs-idm74999200">
+<para id="fs-idm66653104">Se lanzan dardos a un tablero hasta dar con la zona central. Su probabilidad de acertar el área central es <emphasis effect="italics">p</emphasis> = 0,17. Quiere hallar la probabilidad de que se necesiten ocho lanzamientos hasta que acierte al centro. ¿Qué valores toma <emphasis effect="italics">X</emphasis>?</para></problem>
+<solution id="fs-idm10485872" class="solutions">
+<label/>
+<para id="fs-idm13712944">1, 2, 3, 4, … <emphasis effect="italics">n</emphasis>. Puede continuar indefinidamente.</para>
+</solution>
+</exercise>
+</note><example id="element-15">
+<para id="element-320">Una ingeniera de seguridad considera que el 35 % de los accidentes laborales en su planta se deben a que los empleados no siguen las instrucciones. Decide mirar los informes de accidentes (seleccionados al azar y sustituidos en la pila después de la lectura) <emphasis>hasta que</emphasis> encuentra uno que muestra un accidente causado por el incumplimiento de las instrucciones por parte de los empleados. En promedio, ¿cuántos informes <emphasis>tendría</emphasis> que mirar la ingeniera de seguridad hasta hallar un informe que muestre un accidente causado por el incumplimiento de las instrucciones por parte de los empleados? ¿Cuál es la probabilidad de que la ingeniera de seguridad tenga que examinar al menos tres informes hasta hallar un informe que muestre un accidente causado por el incumplimiento de las instrucciones por parte de los empleados?</para><para id="element-112">Supongamos que <emphasis effect="italics">X</emphasis> = el número de accidentes que la ingeniera de seguridad debe examinar <emphasis>hasta</emphasis> hallar un informe que muestre un accidente causado por el incumplimiento de las instrucciones por parte de los empleados. <emphasis effect="italics">X</emphasis> toma los valores 1, 2, 3, .... La primera pregunta le pide que calcule el <emphasis>valor esperado</emphasis> o la media. La segunda pregunta le pide que calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 3). (“Al menos” se traduce en un símbolo “mayor o igual que”).</para></example>
+
+
+<note id="fs-idm100368272" class="statistics try"><label/><title>Ejercicio</title>
+
+
+<exercise id="fs-idm110743488"><problem id="fs-idm112214080">
+<para id="fs-idm122054272">Una instructora considera que el 15 % de los estudiantes obtienen menos de una C en su examen final. Decide revisar los exámenes finales (seleccionados al azar y sustituidos en el montón después de la lectura) hasta que halle uno que muestre una calificación inferior a C. Queremos saber la probabilidad de que la instructora tenga que examinar, al menos, diez exámenes hasta que halle uno con una calificación inferior a C. ¿Cuál es la pregunta de probabilidad enunciada matemáticamente?</para></problem>
+<solution id="eip-idp78025216" class="solutions">
+<label/>
+<para id="fs-idm44116544"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 10)</para>
+</solution>
+</exercise></note><example id="element-616">
+<para id="element-741">Supongamos que busca a un estudiante de su instituto universitario que vive a menos de ocho millas de usted. Sabe que el 55 % de los 25.000 estudiantes viven a menos de ocho millas de usted. Contacta al azar con estudiantes del instituto universitario <emphasis>hasta que</emphasis> uno diga que vive a menos de ocho millas de usted. ¿Cuál es la probabilidad de que tenga que contactar cuatro personas?</para><para id="element-724">Este es un problema geométrico porque puede tener varios fallos antes de tener el único acierto que desea. Además, la probabilidad de éxito es aproximadamente la misma cada vez que pregunta a un estudiante si vive a menos de ocho kilómetros de usted. No hay un número definido de ensayos (número de veces que le pregunta a un estudiante).<newline count="2"/></para><exercise id="element-823">
+<problem id="id27319141">
+  <para id="element-4422">a. Supongamos que <emphasis effect="italics">X</emphasis> = el número de ____________ a los que debe preguntar ____________ uno dice que sí.</para></problem>
+<solution id="id27319163">
+  <para id="element-153">a. Supongamos que <emphasis effect="italics">X</emphasis> = el número de <emphasis>estudiantes</emphasis> a los que debe preguntar <emphasis>hasta que</emphasis> uno diga que sí<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-766"><problem id="id27319211">
+<para id="element-789">b. ¿Qué valores toma <emphasis effect="italics">X</emphasis>?</para>
+</problem>
+<solution id="id27319232">
+<para id="element-140">b. 1, 2, 3, ..., (número total de estudiantes)<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-208"><problem id="id27319259">
+  <para id="element-884">c. ¿Qué son <emphasis effect="italics">p</emphasis> y <emphasis effect="italics">q</emphasis>?</para></problem>
+
+<solution id="id27319284">
+  <para id="fs-idm85251472">c. <emphasis effect="italics">p</emphasis> = 0,55; <emphasis effect="italics">q</emphasis> = 0,45<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-413"><problem id="id27319331">
+  <para id="element-458">d. La pregunta de probabilidad es <emphasis effect="italics">P</emphasis>(_______).</para></problem>
+<solution id="id27319348">
+  <para id="element-996">d. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 4)</para></solution>
+</exercise></example>
+
+
+<section id="element-125">
+<title>Notación para la Geometría: G = Función de distribución de probabilidad geométrica</title>
+<para id="element-156"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">G</emphasis>(<emphasis effect="italics">p</emphasis>)</para><para id="element-953">Lea como “X es <emphasis effect="italics">una</emphasis> variable aleatoria con una <term>distribución geométrica”</term>. El parámetro es <emphasis effect="italics">p</emphasis>; <emphasis effect="italics">p</emphasis> = la probabilidad de acierto de cada ensayo.</para><para id="eip-282">La pdf geométrica nos dice la probabilidad de que la primera ocurrencia de acierto requiera x número de ensayos independientes, cada uno con probabilidad de acierto p. Si la probabilidad de éxito en cada ensayo es <emphasis effect="italics">p</emphasis>, entonces la probabilidad de que el ensayo <emphasis effect="italics">x</emphasis>ésimo (de x ensayos) sea el primer acierto es:</para><para id="eip-775"><equation id="eip-id1167217541451" class="unnumbered"><label/><m:math><m:mtext>P</m:mtext><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mi>p</m:mi><m:msup><m:mo>)</m:mo><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mi>p</m:mi></m:math></equation></para><para id="eip-187">para <emphasis effect="italics">x</emphasis> = 1, 2, 3, ....<newline/> El valor esperado de X, la media de esta distribución, es 1/p. Esto nos dice cuántos ensayos tenemos que esperar hasta obtener el primer acierto incluido en el recuento el ensayo que resulta en acierto. La forma anterior de la distribución geométrica se utiliza para modelar el número de ensayos hasta el primer acierto. El número de ensayos incluye el que es un acierto: x = todos los ensayos, incluido el que es un acierto. Esto se puede ver en la composición de la fórmula. Si X = número de ensayos incluido el acierto, entonces debemos multiplicar la probabilidad de fracaso, (1-p), por el número de fracasos, es decir, X-1.</para><para id="eip-133">Por el contrario, la siguiente forma de la distribución geométrica se utiliza para modelar el número de fallos hasta el primer éxito:</para><para id="eip-958"><equation id="eip-id1168965331778" class="unnumbered"><label/><m:math><m:mtext>P</m:mtext><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mi>p</m:mi><m:msup><m:mo>)</m:mo><m:mi>x</m:mi></m:msup><m:mi>p</m:mi></m:math></equation></para><para id="eip-114">para <emphasis effect="italics">x</emphasis> = 0, 1, 2, 3, ....<newline/> En este caso el ensayo que es un éxito no se cuenta como un ensayo en la fórmula: x = número de fracasos. El valor esperado, la media, de esta distribución es <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>p</m:mi></m:mrow></m:mfrac></m:math> Esto nos indica cuántos fracasos debemos esperar antes de tener un acierto. En cualquier caso, la secuencia de probabilidades es una secuencia geométrica.</para></section>
+<example id="element-340">
+<para id="element-38">Supongamos que la probabilidad de un componente informático defectuoso es de 0,02. Los componentes se seleccionan al azar. Calcule la probabilidad de que el primer defecto sea causado por el séptimo componente probado. ¿Cuántos componentes espera probar hasta que se halle uno defectuoso?</para><para id="element-20">Supongamos que <emphasis effect="italics">X</emphasis> = el número de componentes informáticos probados hasta que se encuentra el primer defecto.</para>
+<para id="element-857"><emphasis effect="italics">X</emphasis> toma los valores 1, 2, 3, ... donde <emphasis effect="italics">p</emphasis> = 0,02. <emphasis effect="italics">X</emphasis> ~ G(0,02)</para>
+
+<para id="element-826">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 7). Respuesta: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 7) = (1 – 0,02)<sup>7-1</sup> × 0,02 = 0,0177.</para><para id="element-833">La probabilidad de que el séptimo componente sea el primer defecto es de 0,0177.</para>
+<para id="element-223">El gráfico de <emphasis effect="italics">X</emphasis> ~ G(0,02) es:</para>
+
+<figure id="fs-idp26519760"><media id="id26371923" display="block" alt="Este gráfico muestra una distribución de probabilidad geométrica. Consiste en barras que alcanzan su pico máximo a la izquierda y tienen una pendiente descendente con cada barra sucesiva a la derecha. Los valores del eje x cuentan el número de componentes informáticos probados hasta que se encuentra el defecto. El eje y está escalado de 0 a 0,02 en incrementos de 0,005.">
+<image src="../../media/fig-ch04_06_01N.jpg" mime-type="image/jpg" width="420"/></media></figure><para id="fs-idm44019328">El eje <emphasis effect="italics">y</emphasis>contiene la probabilidad de <emphasis effect="italics">x</emphasis>, donde <emphasis effect="italics">X</emphasis> = el número de componentes informáticos probados. Observe que las probabilidades disminuyen en un incremento común. Este incremento es la misma proporción entre cada número y se llama progresión geométrica y de ahí el nombre de esta función de densidad de probabilidad. </para><para id="element-785">El número de componentes que se espera probar hasta encontrar el primer componente defectuoso es la media, <m:math>
+ <m:mrow>
+  <m:mi>μ</m:mi><m:mtext> = 50</m:mtext>
+ </m:mrow>
+</m:math></para><para id="element-261">La fórmula de la media de la variable aleatoria definida como el número de fallos hasta el primer acierto es <emphasis effect="italics">μ</emphasis> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>p</m:mi>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mn>0,02</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> = 50</para><para id="eip-647">Vea el <link target-id="fs-idm65101072"/> para un ejemplo en el que la variable aleatoria geométrica se define como el número de ensayos hasta el primer acierto. El valor esperado de esta fórmula para la geométrica será diferente de esta versión de la distribución.</para><para id="element-782">La fórmula de la varianza es <emphasis effect="italics">σ</emphasis><sup>2</sup> = <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mi>p</m:mi>
+    </m:mfrac>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mi>p</m:mi>
+    </m:mfrac>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> = <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:mn>0,02</m:mn>
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:mn>0,02</m:mn>
+     </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> = 2.450</para><para id="element-443">La desviación típica es <emphasis effect="italics">σ</emphasis> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mi>p</m:mi>
+      </m:mfrac>
+      
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mi>p</m:mi>
+      </m:mfrac>
+      <m:mo>−</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  </m:msqrt>
+  
+ </m:mrow>
+</m:math> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mrow>
+        <m:mn>0.</m:mn><m:mtext>02</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+      
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mrow>
+        <m:mn>0.</m:mn><m:mtext>02</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+      <m:mo>−</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  </m:msqrt>
+  
+ </m:mrow>
+</m:math> = 49,5</para></example> 
+
+<example id="fs-idm65101072">
+<exercise id="fs-idm83790480">
+<problem id="fs-idm65243344">
+<para id="fs-idm113071296">El riesgo de desarrollar cáncer de páncreas a lo largo de la vida es de alrededor de uno de cada 78 (1,28 %). Supongamos que <emphasis effect="italics">X</emphasis> = el número de personas a las que se pregunta antes de que una diga que tiene cáncer de páncreas. La variable aleatoria <emphasis effect="italics">X</emphasis>, en este caso, incluye solo el número de ensayos que fueron un fracaso y no cuenta el ensayo que fue un acierto para hallar una persona que tuviera la enfermedad. La fórmula adecuada para esta variable aleatoria es la segunda presentada anteriormente. Entonces <emphasis effect="italics">X</emphasis> es una variable aleatoria discreta con una distribución geométrica: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">G</emphasis><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:mn>78</m:mn>
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> o <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">G</emphasis>(0,0128).</para><list id="fs-idm128110288" list-type="enumerated" number-style="lower-alpha"><item>¿Cuál es la probabilidad de que se pregunte a 9 personas antes de que una diga que tiene cáncer de páncreas? Esto es preguntar: ¿cuál es la probabilidad de que pregunte a 9 personas sin acierto y la décima persona sea un acierto?</item>
+<item>¿Cuál es la probabilidad de que tenga que preguntar a 20 personas?</item>
+<item>Calcule (i) la media y (ii) la desviación típica de <emphasis effect="italics">X</emphasis>.</item>
+</list></problem>
+
+<solution id="fs-idp19888080">
+<list id="fs-idm133938784" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 9) = (1 – 0,0128)<sup>9</sup> · 0,0128 = 0,0114</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 20) = (1 – 0,0128)<sup>19</sup> · 0,0128 =0,01</item>
+<item>
+<list id="eip-idm162329472" list-type="enumerated" number-style="lower-roman"><item>Media = <emphasis effect="italics">μ</emphasis> = <m:math>
+<m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow><m:mi>p</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>0,0128</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>0,0128</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>77,12</m:mn></m:math>
+</item>
+
+
+
+
+<item>Desviación típica = <emphasis effect="italics">σ</emphasis> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>1</m:mn><m:mo>−</m:mo><m:mi>p</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mi>p</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow>
+  </m:msqrt>
+  
+ </m:mrow>
+</m:math> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>1</m:mn><m:mo>−</m:mo><m:mn>0,0128</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mn>0,0128</m:mn>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow>
+  </m:msqrt>
+  
+ </m:mrow>
+</m:math> ≈ 77,62</item>
+</list></item>
+</list></solution>
+</exercise>
+</example>
+
+
+<note id="fs-idm45764336" class="statistics try"><label/><title>Ejercicio</title>
+<exercise id="eip-271"><problem id="fs-idm130962416">
+
+<para id="fs-idm153911248">La tasa de alfabetización de un país mide la proporción de personas mayores de 15 años que saben leer y escribir. La tasa de alfabetización de las mujeres en las Colonias Unidas de la Independencia era del 12 %. Supongamos que <emphasis effect="italics">X</emphasis> = el número de mujeres a las que se pregunta hasta que una dice que sabe leer y escribir.</para><list id="fs-idm111769216" list-type="enumerated" number-style="lower-alpha"><item>¿Cuál es la distribución de probabilidad de <emphasis effect="italics">X</emphasis>?</item>
+<item>¿Cuál es la probabilidad de que les pregunte a cinco mujeres antes de que una diga que sabe leer y escribir?</item>
+<item>¿Cuál es la probabilidad de que tenga que preguntarles a diez mujeres?</item>
+
+</list></problem>
+<solution id="fs-idm105467344" class="solutions">
+<label/>
+<list id="fs-idm93090880" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">G</emphasis>(0,12)</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 5) = 0,0720</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 10) = 0,0380</item>
+
+
+</list></solution>
+</exercise></note><example id="eip-430"><para id="eip-946">
+  Un jugador de béisbol tiene una media de bateo de 0,320. Esta es la probabilidad general de que consiga un batazo imparable cada vez que esté al bate. 
+</para><exercise id="eip-914"><problem id="eip-617">
+  <para id="eip-151">
+    ¿Cuál es la probabilidad de que consiga su primer batazo imparable en el tercer chance al bate?
+  </para>
+</problem>
+
+<solution id="eip-45">
+  <para id="eip-358"><emphasis effect="italics">P</emphasis> (<emphasis effect="italics">x</emphasis>=3) = (1-0,32)<sup>3-1</sup> × 0,32 = 0,1480
+  </para></solution>
+</exercise><para id="eip-512">En este caso, la secuencia es de fracaso, acierto, fracaso. </para><exercise id="eip-417"><problem id="eip-720">
+  <para id="eip-934">
+    ¿Cuántos turnos de bateo espera que necesite el bateador antes de conseguir un batazo imparable?
+  </para>
+</problem>
+
+<solution id="eip-15">
+  <para id="eip-923">
+    <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>p</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>0,320</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3,125</m:mn><m:mo>≈</m:mo><m:mn>3</m:mn></m:math>
+  </para>
+</solution>
+</exercise><para id="eip-584">Es simplemente el valor esperado de los aciertos y, por tanto, la media de la distribución. </para>
+</example><example id="eip-633"><exercise id="eip-425"><problem id="eip-814">
+  <para id="eip-163">
+    Hay un 80 % de posibilidades de que un perro dálmata tenga 13 manchas negras. Vas a una exposición canina y cuentas las manchas de los dálmatas. ¿Cuál es la probabilidad de que revises las manchas de 3 perros antes de encontrar uno que tenga 13 manchas negras?
+  </para>
+</problem>
+
+<solution id="eip-690">
+  <para id="eip-186"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>=3) = (1 – 0,80)<sup>3</sup> × 0,80 = 0,0064
+  </para></solution>
+</exercise><para id="eip-id1171903708004"/></example><section id="fs-idp2191840" class="references"><title>Referencias</title><para id="fs-idm46068128">“Millennials: A Portrait of Generation Next”, PewResearchCenter. Disponible en línea en http://www.pewsocialtrends.org/files/2010/10/millennials-confident-connected-open-to-change.pdf (consultado el 15 de mayo de 2013).</para>
+<para id="fs-idm5218624">“Millennials: Confident. Connected. Open to Change”. Executive Summary by PewResearch Social &amp; Demographic Trends, 2013. Disponible en línea en http://www.pewsocialtrends.org/2010/02/24/millennials-confident-connected-open-to-change/ (consultado el 15 de mayo de 2013).</para>
+<para id="fs-idm40376512">“Prevalence of HIV, total (% of populations ages 15-49),” The World Bank, 2013. Disponible en línea en http://data.worldbank.org/indicator/SH.DYN.AIDS.ZS?order=wbapi_data_value_2011+wbapi_data_value+wbapi_data_value-last&amp;sort=desc (consultado el 15 de mayo de 2013).</para>
+<para id="eip-idp23364672">Pryor, John H., Linda DeAngelo, Laura Palucki Blake, Sylvia Hurtado, Serge Tran. <emphasis effect="italics">The American Freshman: National Norms Fall 2011.</emphasis> Los Ángeles: Cooperative Institutional Research Program at the Higher Education Research Institute at UCLA, 2011. También disponible en línea en http://heri.ucla.edu/PDFs/pubs/TFS/Norms/Monographs/TheAmericanFreshman2011.pdf (consultado el 15 de mayo de 2013).</para><para id="fs-idm55727728">“Summary of the National Risk and Vulnerability Assessment 2007/8: A profile of Afghanistan,” The European Union and ICON-Institute. Disponible en línea en http://ec.europa.eu/europeaid/where/asia/documents/afgh_brochure_summary_en.pdf (consultado el 15 de mayo de 2013).</para>
+<para id="eip-idm91058144">“The World FactBook”, Central Intelligence Agency. Disponible en línea en https://www.cia.gov/library/publications/the-world-factbook/geos/af.html (consultado el 15 de mayo de 2013).</para>
+<para id="fs-idp46849200">“UNICEF reports on Female Literacy Centers in Afghanistan established to teach women and girls basic resading [sic] and writing skills,” UNICEF Television. Video disponible en línea en http://www.unicefusa.org/assets/video/afghan-female-literacy-centers.html (consultado el 15 de mayo de 2013).</para>
+</section><section id="fs-idm56939568" class="summary">
+<title>Revisión del capítulo</title>
+<para id="fs-idm65648304">Hay tres características de un experimento geométrico:</para><list id="fs-idm122082272" list-type="enumerated"><item>Hay uno o más ensayos de Bernoulli con todos los fallos excepto el último, que es un acierto.</item>
+<item>En teoría, el número de pruebas podría ser eterno. Debe haber, al menos, un ensayo.</item>
+<item>La probabilidad, <emphasis effect="italics">p</emphasis>, de un acierto y la probabilidad, <emphasis effect="italics">q</emphasis>, de un fallo son iguales para cada ensayo.</item>
+</list><para id="fs-idm7912656">En un experimento geométrico defina la variable aleatoria discreta <emphasis effect="italics">X</emphasis> como el número de ensayos independientes hasta el primer acierto. Decimos que X tiene una distribución geométrica y escribimos <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">G</emphasis>(<emphasis effect="italics">p</emphasis>) donde <emphasis effect="italics">p</emphasis> es la probabilidad de acierto en un solo ensayo.</para><para id="fs-idm148033936">La media de la distribución geométrica <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">G</emphasis>(<emphasis effect="italics">p</emphasis>) es <emphasis effect="italics">μ</emphasis> = <m:math>
+ <m:mn>1</m:mn><m:mo>/</m:mo><m:mi>p</m:mi></m:math> donde x = número de ensayos hasta el primer acierto de la fórmula <m:math>
+ <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+  <m:mo>=</m:mo>
+ <m:msup>
+  <m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+  <m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow>
+ </m:msup>
+ <m:mi>p</m:mi>
+</m:math> donde el número de pruebas es hasta el primer acierto incluido.</para><para id="eip-11">Una formulación alternativa de la distribución geométrica plantea la siguiente pregunta: ¿cuál es la probabilidad de <emphasis effect="italics">x</emphasis> fracasos hasta el primer acierto? En esta formulación no se cuenta el ensayo que generó el primer acierto. La fórmula para esta presentación de la geométrica es: <equation id="eip-id1169342857230"> <m:math><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>p</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi></m:msup></m:math></equation>
+<newline/>El valor esperado en esta forma de la distribución geométrica es <equation id="eip-id1169356248910" class="unnumbered"><label/><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>p</m:mi></m:mrow><m:mrow><m:mi>p</m:mi></m:mrow></m:mfrac></m:math></equation><newline/>La forma más fácil de mantener estas dos formas de la distribución geométrica es recordar que <emphasis effect="italics">p</emphasis> es la probabilidad de acierto y (1-p) es la probabilidad de fracaso. En la fórmula los exponentes simplemente cuentan el número de aciertos y el número de fallos del resultado deseado del experimento. Por supuesto, la suma de estos dos números debe dar el número de ensayos del experimento.</para></section>
+
+<section id="fs-idm130503328" class="formula-review">
+<title>Revisión de la fórmula</title>
+<para id="eip-948"><m:math><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>p</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math></para><para id="fs-idm60068096"><emphasis effect="italics">X</emphasis> ~ G(<emphasis effect="italics">p</emphasis>) significa que la variable aleatoria discreta <emphasis effect="italics">X</emphasis> tiene una distribución de probabilidad geométrica con probabilidad de acierto en un único ensayo <emphasis effect="italics">p</emphasis>.</para><para id="fs-idm109639600"><emphasis effect="italics">X</emphasis> = el número de ensayos independientes hasta el primer acierto</para><para id="fs-idm108518832"><emphasis effect="italics">X</emphasis> toma los valores <emphasis effect="italics">x</emphasis> = 1, 2, 3, ...</para>
+<para id="fs-idm78000128"><emphasis effect="italics">p</emphasis> = la probabilidad de acierto de cualquier ensayo</para>
+<para id="fs-idm186439648"><emphasis effect="italics">q</emphasis> = la probabilidad de fallo para cualquier ensayo <emphasis effect="italics">p</emphasis> + <emphasis effect="italics">q</emphasis> = 1 <newline/><emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="italics">p</emphasis></para><para id="fs-idp5555584">La media es <emphasis effect="italics">μ</emphasis> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>p</m:mi>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>.</para>
+<para id="fs-idm128106384">La desviación típica es <emphasis effect="italics">σ</emphasis> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>1</m:mn><m:mtext> </m:mtext><m:mo>–</m:mo><m:mtext> </m:mtext><m:mi>p</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mi>p</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow>
+  </m:msqrt>
+  
+ </m:mrow>
+</m:math> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mi>p</m:mi>
+    </m:mfrac>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mi>p</m:mi>
+      </m:mfrac>
+      <m:mo>−</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  </m:msqrt>
+  
+ </m:mrow>
+</m:math>.</para></section>
+
+
+
+
+<section id="fs-idm146411072" class="practice">
+<para id="element-668"><emphasis effect="italics">Use la siguiente información para responder los próximos seis ejercicios:</emphasis> El Instituto de Investigación de la Educación Superior de la Universidad de California en Los Ángeles (University of California, Los Angeles, UCLA) recopiló datos de 203.967 estudiantes de primer año a tiempo completo de 270 institutos universitarios de cuatro años en EE. UU. El 71,3 % de esos estudiantes respondieron que sí, que creen que las parejas del mismo sexo deberían tener derecho a un estado civil legal. Supongamos que selecciona al azar a un estudiante de primer año del estudio hasta que halle uno que responda “sí”. Le interesa el número de estudiantes de primer año a los que debe preguntar.</para><exercise id="exerciseone">
+<problem id="id26789513">
+<para id="prob_1">Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</para></problem>
+<solution id="fs-idm9960432">
+<para id="fs-idp19160256"><emphasis effect="italics">X</emphasis> = el número de estudiantes de primer año seleccionados del estudio hasta que uno respondió “sí” a que las parejas del mismo sexo deberían tener derecho a un estado civil legal.</para></solution>
+</exercise>
+
+
+<exercise id="exercisetwo"><problem id="id26749070">
+<para id="prob_2"><emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</para>
+</problem>
+
+<!-- <solution id="id26594865">
+<para id="element-88723458234"><emphasis effect="italics">G</emphasis>(0.713)</para></solution> --></exercise><exercise id="exercisethree">
+<problem id="id26750261">
+<para id="prob_3">¿Qué valores toma la variable aleatoria <emphasis effect="italics">X</emphasis>?</para></problem>
+<solution id="id26604547">
+<para id="element-88758234234">1,2,…</para>
+</solution>
+</exercise>
+
+<exercise id="exercisefour"><problem id="id26576458">
+<para id="prob_4">Construya la Función de Distribución de Probabilidad (PDF). Deténgase en <emphasis effect="italics">x</emphasis> = 6.</para>
+
+<table id="element-222" summary="The table will list the number of freshmen asked if they plan to work full time while in college and respective probabilities.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+  <row>
+    <entry><emphasis effect="italics">x</emphasis></entry>
+    <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+  </row>
+</thead>
+<tbody>
+  
+  <row>
+    <entry>1</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>4</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>5</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>6</entry>
+    <entry/>
+  </row>
+</tbody>
+</tgroup>
+</table></problem>
+
+<!-- <solution id="fs-idp46519888">
+<table id="fs-idm3793312" summary="">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+  <row>
+    <entry><emphasis effect="italics">x</emphasis></entry>
+    <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>1</entry>
+    <entry>0.7130</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>0.2046</entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>0.0587</entry>
+  </row>
+  <row>
+    <entry>4</entry>
+    <entry>0.0169</entry>
+  </row>
+  <row>
+    <entry>5</entry>
+    <entry>0.0048</entry>
+  </row>
+  <row>
+    <entry>6</entry>
+    <entry>0.0014</entry>
+  </row>
+</tbody>
+</tgroup>
+</table>
+</solution> -->
+</exercise><exercise id="exercisefive">
+<problem id="id26788653">
+<para id="prob_5">En promedio (<emphasis effect="italics">μ</emphasis>), ¿a cuántos estudiantes de primer año tendría que preguntarles hasta hallar uno que responda “sí”?</para></problem>
+<solution id="id25897948">
+<para id="element-88758232434">1,4</para></solution>
+</exercise>
+
+
+<exercise id="exercisesix"><problem id="id26586606">
+<para id="prob_6">¿Cuál es la probabilidad de que tenga que preguntarles a menos de tres estudiantes de primer año?</para>
+</problem>
+
+<!-- <solution id="id26615988">
+<para id="element-88765358234234">0.9176</para></solution> -->
+</exercise></section>
+
+<section id="fs-idm13601184" class="free-response">
+<title>TAREA PARA LA CASA</title>
+
+<exercise id="element-589"><problem id="id10157340">
+  <para id="element-573">Una consumidora que quiera comprar un Miata rojo de segunda mano llamará a los concesionarios hasta que halle uno que tenga ese automóvil. Calcula que la probabilidad de que cualquier concesionario independiente tenga el automóvil será del 28 %. Nos interesa el número de concesionarios a los que debe llamar.</para>
+<list id="element-657" list-type="enumerated" number-style="lower-alpha">
+<item>Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</item>
+<item>Enumere los valores que puede tomar <emphasis effect="italics">X</emphasis>.</item>
+<item>Describa la distribución de <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>En promedio, ¿a cuántos concesionarios tendríamos que llamar hasta hallar uno que tenga el automóvil?</item>
+<item>Calcule la probabilidad de que tenga que llamar como máximo a cuatro concesionarios.</item>
+<item>Calcule la probabilidad de que deba llamar a tres o cuatro concesionarios.</item></list></problem>
+
+<!-- <solution id="id18672601">
+  <list id="element-621" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> = the number of dealers she calls until she finds one with a used red Miata.</item>
+<item>1, 2, 3,...</item>
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">G</emphasis>(0.28)</item>
+<item>3.57</item>
+<item>0.7313</item>
+<item>0.2497</item></list></solution> --></exercise><exercise id="element-888"><problem id="id18972697">
+  <para id="element-593">Supongamos que la probabilidad de que un adulto en Estados Unidos vea el supertazón es del 40 %. Cada persona se considera independiente. Nos interesa saber el número de adultos en Estados Unidos que debemos encuestar hasta hallar uno que vea el supertazón.</para>
+
+<list id="element-552" list-type="enumerated" number-style="lower-alpha"><item>Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</item>
+<item>Enumere los valores que puede tomar <emphasis effect="italics">X</emphasis>.</item>
+<item>Describa la distribución de <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>¿A cuántos adultos en Estados Unidos espera encuestar hasta hallar uno que vea el supertazón?</item>
+<item>Calcule la probabilidad de que deba preguntar a siete personas.</item>
+<item>Calcule la probabilidad de que deba preguntar a tres o cuatro personas.</item></list></problem>
+<solution id="fs-idm19603744">
+<list id="fs-idm45770752" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> = el número de adultos en Estados Unidos encuestados hasta que uno dice que verá el supertazón.</item>
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">G</emphasis>(0,40)</item>
+<item>2,5</item>
+<item>0,0187</item>
+<item>0,2304</item>
+</list></solution>
+</exercise>
+
+<exercise id="element-815"><problem id="id12943484">
+  <para id="fs-idm8041872">Se ha calculado que solo un 30 % de los residentes de California tienen suministros adecuados para terremotos. Supongamos que nos interesa saber el número de residentes de California que debemos encuestar hasta que hallemos uno que <emphasis>no</emphasis> tenga los suministros adecuados para un terremoto.
+  </para>
+<list id="element-414" list-type="enumerated" number-style="lower-alpha"><item>Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</item>
+<item>Enumere los valores que puede tomar <emphasis effect="italics">X</emphasis>.</item>
+<item>Describa la distribución de <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>¿Cuál es la probabilidad de que tengamos que encuestar a uno o a dos residentes hasta que hallemos uno que no tenga los suministros adecuados para un terremoto?</item>
+<item>¿Cuál es la probabilidad de que debamos encuestar, al menos, tres residentes de California hasta que hallemos uno que no tenga suministros adecuados para un terremoto?</item>
+<item>¿A cuántos residentes de California hay que encuestar hasta que se halle uno que <emphasis>no</emphasis> tenga los suministros adecuados para un terremoto?</item>
+<item>¿A cuántos residentes de California hay que encuestar hasta que se halle uno que <emphasis>sí</emphasis> tenga los suministros adecuados para un terremoto?</item></list>
+</problem>
+</exercise>
+
+
+<exercise id="eip-20"><problem id="eip-idm58825312">
+<para id="eip-864">En uno de sus catálogos de primavera, L. L. Bean® anunciaba calzado en 29 de las 192 páginas de su catálogo. Supongamos que tomamos al azar 20 páginas. Nos interesa el número de páginas que anuncian calzado. Cada página puede ser elegida más de una vez.</para>
+<list id="eip-idp54208176" list-type="enumerated" number-style="lower-alpha">
+<item>Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</item>
+<item>Enumere los valores que puede tomar <emphasis effect="italics">X</emphasis>.</item>
+<item>Describa la distribución de <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>¿Cuántas páginas espera que anuncien calzado?</item>
+<item>¿Es probable que las veinte anuncien calzado en ellas? ¿Por qué o por qué no?</item>
+<item>¿Cuál es la probabilidad de que menos de diez anuncien calzado en ellas?</item>
+<item>Recordatorio: Una página puede ser elegida más de una vez. Nos interesa saber el número de páginas que debemos inspeccionar aleatoriamente hasta hallar una que tenga calzado anunciado. Defina la variable aleatoria <emphasis effect="italics">X</emphasis> y dé su distribución.</item>
+<item>¿Cuál es la probabilidad de que solo tenga que inspeccionar como máximo tres páginas para hallar una que anuncie calzado en ella?</item>
+<item>¿Cuántas páginas espera tener que inspeccionar para hallar una que anuncie calzado?</item>
+</list>
+</problem>
+<solution id="eip-213"><para id="eip-id1170896063804"><newline/> <list id="eip-idp55757552" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> = el número de páginas que anuncian calzado</item>
+<item><emphasis effect="italics">X</emphasis> toma los valores 0, 1, 2, ..., 20</item>
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(20, <m:math><m:mrow><m:mfrac><m:mn>29</m:mn><m:mn>192</m:mn></m:mfrac></m:mrow></m:math>)</item>
+
+        <item>3,02</item>
+        <item>No</item>
+        <item>0,9997</item>
+<item><emphasis effect="italics">X</emphasis> = el número de páginas que debemos inspeccionar hasta hallar una que anuncie calzado. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">G</emphasis>(<m:math><m:mrow><m:mfrac><m:mn>29</m:mn><m:mn>192</m:mn></m:mfrac></m:mrow></m:math>)</item>
+     <item>0,3881</item>
+        <item>6,6207 páginas</item>
+</list></para></solution>
+</exercise><exercise id="eip-161"><problem id="eip-id1169694244259">
+  <para id="eip-id1169669735226">Suponga que está haciendo el experimento de probabilidad de lanzar un dado imparcial de seis lados. Supongamos que <emphasis effect="italics">F</emphasis> es el evento de sacar un cuatro o un cinco. Le interesa saber cuántas veces tiene que lanzar el dado para obtener el primer cuatro o cinco como resultado.</para>
+<list id="eip-id1169680850542" list-type="bulleted"><item><emphasis effect="italics">p</emphasis> = probabilidad de acierto (se produce el evento <emphasis effect="italics">F</emphasis>)</item>
+<item><emphasis effect="italics">q</emphasis> = probabilidad de fallo (el evento <emphasis effect="italics">F</emphasis> no se produce)</item>
+</list> <list id="element-28" list-type="enumerated" number-style="lower-alpha">
+<item>Escriba la descripción de la variable aleatoria <emphasis effect="italics">X</emphasis>.</item>
+<item>¿Cuáles son los valores que puede asumir <emphasis effect="italics">X</emphasis>?</item>
+<item>Calcule los valores de <emphasis effect="italics">p</emphasis> y <emphasis effect="italics">q</emphasis>.</item>
+<item>Calcule la probabilidad de que la primera ocurrencia del evento <emphasis effect="italics">F</emphasis> (sacar un cuatro o un cinco) sea en el segundo ensayo.</item>
+</list>
+</problem>
+<!-- <solution id="eip-id1169696227831">
+<list id="fs-idm139880640" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> = the number of times you need to roll the die in order to get the face four or five.</item>
+<item><emphasis effect="italics">X</emphasis> can take on the values 1, 2, 3, and so on.</item>
+<item><emphasis effect="italics">p</emphasis> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+ </m:mrow>
+</m:math> and <emphasis effect="italics">q</emphasis> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>4</m:mn>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+ </m:mrow>
+</m:math></item>
+<item>0.2222</item></list></solution> -->
+</exercise><exercise id="fs-idp102337072">
+<problem id="fs-idp1607728">
+<para id="fs-idp18025264">Ellen tiene práctica de música tres días a la semana. Practica los tres días el 85 % del tiempo, dos días el 8 % del tiempo, un día el 4 % del tiempo y ningún día el 3 % del tiempo. Se selecciona una semana al azar. ¿Qué valores toma <emphasis effect="italics">X</emphasis>?</para></problem>
+<solution id="fs-idp101197760">
+<para id="fs-idp44898224">0, 1, 2 y 3</para>
+</solution>
+</exercise>
+
+
+
+<exercise id="fs-idm51281904"><problem id="fs-idm122477648">
+<para id="fs-idm73224944">El Banco Mundial registra la prevalencia del VIH en países de todo el mundo. Según sus datos, “la prevalencia del VIH se refiere al porcentaje de personas de 15 a 49 años que están infectadas por el VIH”.<footnote id="fs-idm108474144">”Prevalence of HIV, total (% of populations ages 15-49),” The World Bank, 2013. Disponible en línea en http://data.worldbank.org/indicator/SH.DYN.AIDS.ZS?order=wbapi_data_value_2011+wbapi_data_value+wbapi_data_value-last&amp;sort=desc (consultado el 15 de mayo de 2013).</footnote> En Sudáfrica, la prevalencia del VIH es del 17,3 %. Supongamos que <emphasis effect="italics">X</emphasis> = el número de personas a quienes se les hace la prueba hasta hallar una persona infectada por el VIH.</para>
+
+<list id="fs-idm123061824" list-type="enumerated" number-style="lower-alpha"><item>Dibuje un gráfico de la distribución de la variable aleatoria discreta <emphasis effect="italics">X</emphasis>.</item>
+<item>¿Cuál es la probabilidad de que haya que hacer la prueba a 30 personas para hallar una con el VIH?</item>
+<item>¿Cuál es la probabilidad de que tenga que preguntar a diez personas?</item>
+<item>Calcule la (i) media y (ii) desviación típica de la distribución de <emphasis effect="italics">X</emphasis>.</item>
+</list></problem>
+
+<!-- <solution id="fs-idm80914272">
+<list id="fs-idm152030224" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">G</emphasis>(0.173)
+<figure id="fs-idm31509056"><media id="fs-idm111066384" alt="This graph shows a geometric probability distribution. It consists of bars that peak at the left and slope downwards with each successive bar to the right. The values on the x-axis count the number of indivuduals tested before an infected person is found. The y-axis is scaled from 0 to 0.2 in increments of 0.02." display="block">
+<image src="CNX_Stats_C04_M06_001anno.jpg" mime-type="image/jpg" width="420"/>
+</media></figure></item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 30) = geometpdf(0.173, 30) = 0.0007</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 10) = geometpdf(0.173, 10) = 0.0313</item>
+<item>
+<list id="fs-idm6942352" list-type="enumerated" number-style="lower-roman"><item>Mean = <emphasis effect="italics">&#956;</emphasis> =  <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>p</m:mi>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mn>0.173</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> &#8776; 5.7804</item>
+<item>Standard Deviation = <emphasis effect="italics">&#963;</emphasis> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>1</m:mn><m:mo>&#8722;</m:mo><m:mi>p</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mi>p</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow>
+  </m:msqrt>
+  
+ </m:mrow>
+</m:math> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>1</m:mn><m:mo>&#8722;</m:mo><m:mtext>0</m:mtext><m:mtext>.173</m:mtext>
+     </m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mn>0.173</m:mn>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow>
+  </m:msqrt>
+  
+ </m:mrow>
+</m:math> = 5.2566</item>
+</list></item>
+</list></solution> -->
+</exercise><exercise id="fs-idm43916688">
+<problem id="fs-idm111519696">
+<para id="fs-idm133743056">Según un reciente sondeo de Pew Research, el 75 % de los mileniales (personas nacidas entre 1981 y 1995) tienen un perfil en una red social. Supongamos que <emphasis effect="italics">X</emphasis> = el número de mileniales a quienes pregunta hasta hallar una persona sin perfil en una red social.</para>
+<list id="fs-idm123638336" list-type="enumerated" number-style="lower-alpha"><item>Describa la distribución de <emphasis effect="italics">X</emphasis>.</item>
+<item>Calcule (i) la media y (ii) la desviación típica de <emphasis effect="italics">X</emphasis>.</item>
+<item>¿Cuál es la probabilidad de que haya que preguntar a diez personas para hallar a una persona sin red social?</item>
+<item>¿Cuál es la probabilidad de que haya que preguntar a 20 personas para hallar a una persona sin red social?</item>
+<item>¿Cuál es la probabilidad de que tenga que preguntar a <emphasis effect="italics">un máximo de</emphasis> cinco personas?</item>
+</list></problem>
+<solution id="fs-idm146222544">
+<list id="fs-idm128890816" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">G</emphasis>(0,25)</item>
+<item>
+<list id="fs-idm102260160" list-type="enumerated" number-style="lower-roman"><item>Media = <emphasis effect="italics">μ</emphasis> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>p</m:mi>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mn>0,25</m:mn>
+   </m:mrow>
+  </m:mfrac>
+ </m:mrow>
+</m:math> = 4</item>
+<item>Desviación típica = σ = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>1</m:mn><m:mo>−</m:mo><m:mi>p</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mi>p</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow>
+  </m:msqrt>
+  
+ </m:mrow>
+</m:math> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>1</m:mn><m:mo>−</m:mo><m:mtext>0</m:mtext><m:mtext>0,25</m:mtext>
+     </m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mn>0,25</m:mn>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow>
+  </m:msqrt>
+  
+ </m:mrow>
+</m:math> ≈ 3,4641</item></list></item>
+	<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 10) = 0,0188</item>
+	<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 20) = 0,0011</item>
+  <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 5) = 0,7627</item>
+</list></solution>
+</exercise>
+</section> </content>
+
+<glossary>
+<definition id="geodist">
+    <term>Distribución geométrica</term>
+    <meaning id="id14905098">una variable aleatoria (RV) discreta que surge de los ensayos de Bernoulli; los ensayos se repiten hasta el primer acierto. La variable geométrica <emphasis effect="italics">X</emphasis> se define como el número de ensayos hasta el primer acierto. La media es <emphasis effect="italics">μ</emphasis> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>p</m:mi>
+  </m:mfrac>
+ </m:mrow>
+</m:math> y la desviación típica es <emphasis effect="italics">σ</emphasis> = <m:math display="inline">
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mi>p</m:mi>
+    </m:mfrac>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mi>p</m:mi>
+      </m:mfrac>
+      <m:mo>−</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  </m:msqrt>
+  
+ </m:mrow>
+</m:math>. La probabilidad de que se produzcan exactamente <emphasis effect="italics">x</emphasis> fallos antes del primer acierto viene dada por la fórmula <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = <emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">p</emphasis>(1 – <emphasis effect="italics">p</emphasis>)<sup><emphasis effect="italics">x</emphasis> – 1</sup> donde se quiere conocer la probabilidad para el número de ensayos hasta el primer acierto: el x-ésimo ensayo es el primer acierto <newline/> Una formulación alternativa de la distribución geométrica plantea la siguiente pregunta: ¿cuál es la probabilidad de <emphasis effect="italics">x</emphasis> fracasos hasta el primer acierto? En esta formulación no se cuenta el ensayo que generó el primer acierto. La fórmula para esta presentación de la geométrica es <m:math><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>p</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi></m:msup></m:math> <newline/>El valor esperado en esta forma de la distribución geométrica es <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>p</m:mi></m:mrow><m:mrow><m:mi>p</m:mi></m:mrow></m:mfrac></m:math> <newline/>La manera más fácil de mantener estas dos formas de la distribución geométrica es recordar que <emphasis effect="italics">p</emphasis> es la probabilidad de acierto y (1-p) es la probabilidad de fracaso. En la fórmula los exponentes simplemente cuentan el número de aciertos y el número de fallos del resultado deseado del experimento. Por supuesto, la suma de estos dos números debe dar el número de ensayos del experimento.
+</meaning>
+  </definition>
+
+<definition id="fs-idm64151840">
+<term>Experimento geométrico</term>
+<meaning id="fs-idm13336304">un experimento estadístico con las siguientes propiedades: <list id="fs-idm65008928" list-type="enumerated">
+<item>Hay uno o más ensayos de Bernoulli con todos los fallos excepto el último, que es un acierto.</item>
+<item>En teoría, el número de pruebas podría ser eterno. Debe haber, al menos, un ensayo.</item>
+<item>La probabilidad, <emphasis effect="italics">p</emphasis>, de un acierto y la probabilidad, <emphasis effect="italics">q</emphasis>, de un fallo no cambian de un ensayo a otro.</item>
+</list>
+</meaning>
+</definition>
+</glossary> 
+</document>

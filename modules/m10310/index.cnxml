@@ -1,0 +1,187 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>How to Use Microsoft Excel® for Regression Analysis</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10310</md:content-id>
+  <md:title>How to Use Microsoft Excel® for Regression Analysis</md:title>
+  <md:abstract/>
+  <md:uuid>276afd32-2a3d-4efc-8c37-e66c4f381def</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me">Esta sección de este capítulo está aquí, en reconocimiento de que lo que pedimos ahora requiere mucho más que un cálculo rápido de un cociente o una raíz cuadrada. De hecho, el uso del análisis de regresión era casi inexistente antes de mediados del siglo pasado y no se convirtió realmente en una herramienta ampliamente utilizada hasta quizás finales de los años 1960 y principios de los 1970. Incluso entonces, la capacidad de cálculo de las mayores máquinas de IBM es irrisoria para los estándares actuales. En los primeros tiempos los investigadores desarrollaban y compartían los programas. No existía ningún mercado para el llamado "software" y, desde luego, nada qué ver con las "aplicaciones", un participante en el mercado con pocos años de antigüedad.</para><para id="eip-210">Con la llegada de la computadora personal y la explosión de un mercado vital de software, tenemos un número de paquetes de regresión y análisis estadístico entre los que elegir. Cada uno tiene sus méritos. Hemos elegido Microsoft Excel por su amplia disponibilidad tanto en las universidades como en el mercado postuniversitario. Stata es una alternativa y tiene características que serán importantes para el estudio de la econometría más avanzada si decide seguir este camino. Existen paquetes aun más avanzados, pero normalmente requieren que el analista realice una cantidad significativa de programación para llevar a cabo su análisis. El objetivo de esta sección es demostrar cómo utilizar Excel para realizar una regresión y hacerlo con un ejemplo de una versión simple de una curva de demanda.</para><para id="eip-412">El primer paso para realizar una regresión con Excel es cargar el programa en el computador. Si tiene Excel, tiene las Herramientas de Análisis, aunque puede que no las tenga activadas. El programa requiere una cantidad significativa de espacio, por lo que no se carga automáticamente. </para><para id="eip-123">Para activar las Herramientas de Análisis, siga estos pasos:  </para><para id="eip-891">Presione en "Archivo" &gt; "Opciones" &gt; "Complementos" para que aparezca el menú del complemento "Herramientas". Seleccione "Herramientas de Análisis" y presione en "Aceptar" junto a "Administrar complementos de Excel" en la parte inferior de la ventana. Esto abrirá una nueva ventana en la que deberá presionar en "Herramientas de Análisis" (asegúrese de que haya una marca de verificación verde en la casilla) y luego haga clic en "Aceptar". Ahora debería haber una pestaña de Análisis bajo el menú de datos. Estos pasos se presentan en las siguientes capturas de pantalla. </para>
+<figure id="fs-id1170253380104"><media id="fs-id1170251582305" alt="..."><image mime-type="image/jpeg" src="../../media/Chapter 13 Text Screen Shots A.jpg" width="500"/></media></figure><figure id="fs-id1168942298489"><media id="fs-id1168960455349" alt="..."><image mime-type="image/jpeg" src="../../media/Chapter 13 Text Screen Shots B.jpg" width="500"/></media></figure><para id="eip-978"><figure id="eip-id8178849"><media id="eip-id8191624" alt="..."><image mime-type="image/jpeg" src="../../media/Chapter 13 Text Screen Shots C.jpg" width="500"/></media></figure><figure id="esr"><media id="eip-id1171421073930" alt="..."><image src="../../media/Chapter 13 Text Screen Shots D.jpg" mime-type="image/jpeg" width="500"/></media></figure></para><para id="eip-69">Presione en "Datos", luego en "Análisis de datos" y, a continuación, en "Regresión" y "Aceptar". ¡Enhorabuena! Ha llegado a la ventana de regresión. La ventana le pide que introduzca sus datos. Si presiona en la casilla situada junto a los rangos Y y X, podrá utilizar la función de presionar y arrastrar de Excel para seleccionar los rangos de entrada. Excel tiene una peculiaridad y es que la función de presionar y soltar requiere que las variables independientes, las variables X, estén todas juntas, es decir, que formen una sola matriz. Si sus datos están configurados con la variable Y entre dos columnas de variables X, Excel no le permitirá utilizar la función de presionar y arrastrar. A modo de ejemplo, digamos que la columna A y la columna C son variables independientes y la columna B es la variable Y, la variable dependiente. Excel no le permitirá presionar y soltar los rangos de datos. La solución es mover la columna con la variable Y a la columna A y luego puede presionar y arrastrar. El mismo problema se plantea si se quiere realizar la regresión solo con algunas de las variables X. Tendrá que configurar la matriz de manera que todas las variables X a las que quiere hacer regresiones estén en una matriz bien formada. Estos pasos se presentan en las siguientes capturas de pantalla.</para><figure id="eip-id1171421774447"><media id="eip-id1171422440810" alt="..."><image src="../../media/Chapter 13 Text Screen Shots E.jpg" mime-type="image/jpeg" width="500"/></media></figure><figure id="eip-id1171422144108"><media id="eip-id1171424731137" alt="..."><image src="../../media/Chapter 13 Text Screen Shots F.jpg" mime-type="image/jpeg" width="500"/></media></figure><para id="eip-639">Una vez que seleccione los datos para su análisis de regresión y le diga a Excel cuál es la variable dependiente (Y) y cuáles son los valores independientes (X), tiene varias opciones en cuanto a los parámetros y cómo se mostrará el resultado. Consulte la captura de pantalla de la <link target-id="eip-id1171422144108"/> en la sección "Entrada". Si marca la casilla "etiquetas" el programa colocará la entrada en la primera columna de cada variable como su nombre en el resultado. Puede introducir un nombre real, como precio o ingresos en un análisis de la demanda, en la fila uno de la hoja de cálculo de Excel para cada variable y se mostrará en el resultado. </para><para id="eip-162">El nivel de significación también puede fijarlo el analista. Esto no cambiará el valor calculado de la estadística t, llamado t stat, aunque alterará el valor p calculado para la estadística t. También modificará los límites de los intervalos de confianza de los coeficientes. Siempre se presenta un intervalo de confianza del 95 %, aunque con un cambio en este también se obtienen otros niveles de confianza para los intervalos. </para><para id="eip-667">Excel también le permitirá suprimir la intersección. Esto obliga al programa de regresión a minimizar la suma de cuadrados residual con la condición de que la línea estimada debe pasar por el origen. Esto se hace en los casos en que no hay significado en el modelo en ningún valor distinto de cero, cero para el inicio de la línea. Un ejemplo es una función de producción económica, que es la relación entre el número de unidades de un insumo, digamos horas de trabajo, y la producción. No tiene sentido una producción positiva con cero trabajadores. </para><para id="eip-501">Una vez introducidos los datos y realizadas las elecciones, presiones en Aceptar y los resultados se enviarán por defecto a una nueva hoja de trabajo independiente. El resultado de Excel se presenta de una manera típica de otros programas de paquetes de regresión. El primer bloque de información ofrece las estadísticas generales de la regresión: R múltiple, R al cuadrado, y la R al cuadrado ajustada por grados de libertad, que es la que se quiere informar. También se obtiene el error estándar (de la estimación) y el número de observaciones en la regresión.</para><para id="eip-832">El segundo bloque de información se titula ANOVA, que significa Análisis de la Varianza (ANalysis Of VAriance). Nuestro interés en esta sección es la columna marcada como F. Se trata de los valores de la estadística F calculados para la hipótesis nula de que todos los coeficientes son iguales a cero frente a la alternativa de que al menos uno de los coeficientes no es igual a cero. Esta prueba de hipótesis se presentó en 13.4 en el apartado "¿Qué tan buena es la ecuación?" La siguiente columna indica el valor p de esta prueba bajo el título "Significación F". Si el valor p es inferior, por ejemplo, a 0,05 (el valor calculado de la estadística F está en la cola), afirmamos con un 90 % de confianza que no podemos aceptar las hipótesis nulas de que todos los coeficientes son iguales a cero. Esto es bueno: significa que al menos uno de los coeficientes es significativamente diferente de cero, por lo que tiene un efecto sobre el valor de Y. </para><para id="eip-707">El último bloque de información contiene las pruebas de hipótesis para cada coeficiente. En primer lugar se enumeran los coeficientes estimados, la intersección y las pendientes, y a continuación cada error estándar (del coeficiente estimado) seguido del estadístico t (valor calculado de la estadística t de Student para la hipótesis nula de que el coeficiente es igual a cero). Comparamos el valor calculado de la estadística t y el valor crítico de la t de Student, que depende de los grados de libertad, y determinamos si tenemos suficiente evidencia para rechazar la hipótesis nula de que la variable no tiene efecto sobre Y. Recuerde que hemos establecido la hipótesis nula como el statu quo y nuestra afirmación de que sabemos qué causó el cambio de Y está en la hipótesis alternativa. Queremos rechazar el statu quo y sustituirlo por nuestra versión del mundo, la hipótesis alternativa. La siguiente columna contiene los valores p para esta prueba de hipótesis, seguidos del límite superior e inferior estimado del intervalo de confianza del parámetro de la pendiente, estimado para varios niveles de confianza fijados por nosotros al principio.  </para><section id="eip-398"><title>Estimación de la demanda de rosas</title><para id="eip-358">A continuación se muestra un ejemplo de utilización del programa Excel para realizar una regresión para un caso concreto: estimar la demanda de rosas. Tratamos de estimar una curva de demanda, que desde la teoría económica esperamos que ciertas variables afecten la cantidad de un bien que compramos. La relación entre el precio de un bien y la cantidad demandada es la curva de demanda. Además, tenemos la función de demanda, que incluye otras variables relevantes: el ingreso de la persona, el precio de los bienes sustitutivos y quizás otras variables como la estación del año o el precio de los bienes complementarios. La cantidad demandada será nuestra variable Y, y el precio de las rosas, el precio de los claveles y el ingreso serán nuestras variables independientes, las variables X.
+</para><para id="eip-701">Para todas estas variables la teoría nos indica la relación esperada. Para el precio del bien en cuestión, las rosas, la teoría predice una relación inversa, la curva de demanda con pendiente negativa. La teoría también predice la relación entre la cantidad demandada de un bien, aquí las rosas, y el precio de un sustituto, los claveles en este ejemplo. La teoría predice que esta debería ser una relación positiva o directa; a medida que el precio del sustituto baja, sustituimos las rosas por el sustituto más barato, los claveles. Una reducción en el precio del sustituto genera una reducción en la demanda del bien analizado aquí: las rosas. Que la reducción genere reducción es una relación positiva. En el caso de los bienes normales, la teoría también predice una relación positiva; a medida que nuestros ingresos aumentan, compramos más del bien, las rosas. Esperamos estos resultados porque es lo que predicen cien años de teoría e investigación económica. En esencia, estamos poniendo a prueba estas hipótesis centenarias. Los datos recogidos se determinaron con el modelo que se está probando. Esto debería ser siempre así. No se hace estadística inferencial metiendo una montaña de datos en un computador y pidiéndole a la máquina una teoría. La teoría primero, la prueba después.  
+</para><para id="eip-592">Estos datos son el promedio de precios y el ingreso per cápita en el país. La cantidad demandada es el total de ventas anuales de rosas a nivel nacional. Se trata de datos de series temporales anuales; estamos siguiendo el mercado de rosas de Estados Unidos desde 1984 hasta 2017: 33 observaciones.</para><para id="eip-703">Debido a la forma peculiar en que Excel exige que se introduzcan los datos en el paquete de regresión, es mejor tener las variables independientes, el precio de las rosas, el precio de los claveles y los ingresos, una al lado de la otra en la hoja de cálculo. Una vez introducidos los datos en la hoja de cálculo, siempre es conveniente examinarlos. Examine el rango, las medias y las desviaciones estándar. Utilice sus conocimientos de estadística descriptiva de la primera parte de este curso. En grandes conjuntos de datos no podrá "escanear" los datos. La Herramienta de Análisis facilita la obtención del rango, la media, las desviaciones estándar y demás parámetros de las distribuciones. También puede obtener rápidamente las correlaciones entre las variables. Examine los valores atípicos. Repase la historia. ¿Ha pasado algo? ¿Hubo aquí una huelga laboral, un cambio en las tasas de importación, algo que haga que estas observaciones sean inusuales? No tome los datos sin cuestionarlos. Es posible que haya una errata en alguna parte, quién sabe sin revisarla.
+</para><para id="eip-62">Vaya a la ventana de regresión, introduzca los datos, seleccione un nivel de confianza del 95 % y presione en "Aceptar". Puede incluir las etiquetas en el rango de entrada si ha puesto un título en la parte superior de cada columna. No obstante, asegúrese de presionar en la casilla "etiquetas" en la página principal de la regresión si lo hace.
+</para><para id="eip-163">El resultado de la regresión debería aparecer automáticamente en una nueva hoja de cálculo.</para><figure id="eip-idm375448256"><media id="eip-idm506631744" alt="..."><image mime-type="image/png" src="../../media/fig_13_01.png" width="500"/></media></figure><para id="eip-18">El primer resultado presentado es el R-cuadrado, una medida de la fuerza de la correlación entre Y y X<sub>1</sub>, X<sub>2</sub> y X<sub>3</sub> tomados como grupo. Nuestro R cuadrado de 0,699, ajustado por grados de libertad, significa que el 70% de la variación de Y, la demanda de rosas, puede explicarse por las variaciones de X<sub>1</sub>, X<sub>2</sub> y X<sub>3</sub>, el precio de las rosas, el precio de los claveles y los ingresos. No existe ninguna prueba estadística para determinar la "importancia" de un R<sup>2</sup>. Por supuesto, se prefiere un R<sup>2</sup> más alto, pero es realmente la importancia de los coeficientes lo que determinará el valor de la teoría que se está probando y que formará parte de cualquier debate político si se demuestra que son significativamente diferentes de cero.  
+</para><para id="eip-74">Mirando el tercer panel de resultados podemos escribir la ecuación como:
+</para><equation id="eip-259" class="unnumbered"><label/><m:math>
+<m:mi>Y</m:mi>
+<m:mo>=</m:mo>
+<m:msub><m:mi>b</m:mi><m:mn>0</m:mn></m:msub>
+<m:mo>+</m:mo>
+<m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>X</m:mi><m:mn>1</m:mn></m:msub>
+<m:mo>+</m:mo>
+<m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>X</m:mi><m:mn>2</m:mn></m:msub>
+<m:mo>+</m:mo>
+<m:msub><m:mi>b</m:mi><m:mn>3</m:mn></m:msub><m:msub><m:mi>X</m:mi><m:mn>3</m:mn></m:msub>
+<m:mo>+</m:mo>
+<m:mi>e</m:mi>
+</m:math> </equation><para id="eip-717">donde b<sub>0</sub> es la intersección, b<sub>1</sub> es el coeficiente estimado del precio de las rosas, y b<sub>2</sub> es el coeficiente estimado del precio de los claveles, b<sub>3</sub> es el efecto estimado del ingreso y e es el término de error. La ecuación está escrita en letras romanas para indicar que se trata de los valores estimados y no de los parámetros poblacionales, β.
+</para><para id="eip-106">Nuestra ecuación estimada es: </para><equation id="eip-20" class="unnumbered"><label/><m:math>
+<m:mtext>Cantidad de rosas vendidas</m:mtext>
+<m:mo>=</m:mo>
+<m:mn>183.475</m:mn>
+<m:mo>−</m:mo>
+<m:mn>1,76</m:mn><m:mspace width=".2em"/><m:mtext>Precio de las rosas</m:mtext>
+<m:mo>+</m:mo>
+<m:mn>1,33</m:mn><m:mspace width=".2em"/><m:mtext>Precio de los claveles </m:mtext>
+<m:mo>+</m:mo>
+<m:mn>3,03</m:mn><m:mspace width=".2em"/><m:mtext>Ingresos</m:mtext>
+</m:math>
+</equation><para id="eip-379">En primer lugar, observamos que los signos de los coeficientes son los esperados por la teoría. La curva de demanda tiene una pendiente descendente con signo negativo para el precio de las rosas. Además, los signos de los coeficientes del precio de los claveles y del ingreso son positivos, como cabría esperar de la teoría económica.</para><para id="eip-16">La interpretación de los coeficientes nos indica el impacto de un cambio en cada variable sobre la demanda de rosas. Es esta capacidad lo que hace que el análisis de regresión sea una herramienta tan valiosa. Los coeficientes estimados nos indican que un aumento de un dólar en el precio de las rosas provocará una reducción de 1,76 en el número de rosas compradas. El precio de los claveles parece desempeñar un papel importante en la demanda de rosas. Observamos que el aumento en el precio de los claveles en un dólar incrementaría la demanda de rosas en 1,33 unidades, ya que los consumidores sustituirían los claveles, ahora más caros. Del mismo modo, el aumento en el ingreso per cápita en un dólar supondrá un incremento de 3,03 unidades de rosas compradas. 
+</para><para id="eip-715">Estos resultados se ajustan a las predicciones de la teoría económica con respecto a las tres variables incluidas en esta estimación de la demanda de rosas. Es importante tener primero una teoría que prediga la importancia o al menos la dirección de los coeficientes. Sin ninguna teoría que poner a prueba, esta herramienta de investigación no es mucho más útil que los coeficientes de correlación que aprendimos antes.</para><para id="eip-601">Sin embargo, no podemos detenernos ahí. Primero, tenemos que comprobar si nuestros coeficientes son estadísticamente significativos con respecto a cero. Establecimos una hipótesis de:
+</para><equation id="eip-241" class="unnumbered"><label/><m:math>
+<m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
+<m:mo>:</m:mo>
+<m:msub><m:mi>β</m:mi><m:mn>1</m:mn></m:msub>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math> </equation><equation id="eip-764" class="unnumbered"><label/><m:math>
+<m:msub><m:mi>H</m:mi><m:mn>a</m:mn></m:msub>
+<m:mo>:</m:mo>
+<m:msub><m:mi>β</m:mi><m:mn>1</m:mn></m:msub>
+<m:mo>≠</m:mo>
+<m:mn>0</m:mn>
+</m:math> </equation><para id="eip-209">para los tres coeficientes en la regresión. Recordemos que no podremos decir definitivamente que nuestra b<sub>1</sub> estimada es la población real de β<sub>1</sub>, sino solo que con (1-α)% de nivel de confianza que no podemos rechazar la hipótesis nula de que nuestra β<sub>1</sub> estimada es significativamente diferente de cero. El analista afirma que el precio de las rosas influye en la cantidad demandada. De hecho, cada una de las variables incluidas tiene un impacto en la cantidad de rosas demandadas. Por consiguiente, la afirmación está en las hipótesis alternativas. Se necesitará una probabilidad muy grande, 0,95 en este caso, para derrocar la hipótesis nula, el statu quo, de que β = 0. En todas las pruebas de hipótesis de regresión la afirmación está en la alternativa y la afirmación es que la teoría ha encontrado una variable que tiene un impacto significativo en la variable Y.  
+</para><para id="eip-712">El estadístico de prueba para esta hipótesis sigue la conocida fórmula normalizadora que cuenta el número de desviaciones típicas, t, que el valor estimado del parámetro, b<sub>1</sub>, se aleja del valor hipotético, β<sub>0</sub>, que es cero en este caso:
+</para><equation id="eip-735" class="unnumbered"><label/><m:math>
+<m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub>
+<m:mo>−</m:mo>
+<m:msub><m:mi>β</m:mi><m:mn>0</m:mn></m:msub>
+</m:mrow>
+<m:msub><m:mi>S</m:mi><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:msub>
+</m:mfrac>
+</m:math>
+</equation><para id="eip-372">La computadora calcula el estadístico de prueba y lo presenta como "t stat". Puede encontrar este valor a la derecha del error estándar de la estimación del coeficiente. El error estándar del coeficiente de b<sub>1</sub> es S<sub>b<sub>1</sub></sub> en la fórmula. Para llegar a una conclusión, comparamos estadística de la prueba con el valor crítico de la t de Student con grados de libertad n-3-1 = 29 y alfa = 0,025 (nivel de significación del 5 % para una prueba de dos colas). Nuestro estadístico t para b<sub>1</sub> es aproximadamente 5,90, que es mayor que 1,96 (el valor crítico que buscamos en la tabla t), por lo que no podemos aceptar nuestra hipótesis nula de ausencia de efecto. Llegamos a la conclusión de que el precio tiene un efecto significativo porque el valor t calculado está en la cola. Realizamos la misma prueba para b<sub>2</sub> y b<sub>3</sub>. Para cada variable, comprobamos que no podemos aceptar la hipótesis nula de ausencia de relación porque los valores calculados de la estadística t están en la cola para cada caso, es decir, son mayores que el valor crítico. Se ha determinado que todas las variables de esta regresión tienen un efecto significativo en la demanda de rosas.  
+</para><para id="eip-353">Estas pruebas nos indican si un coeficiente individual es significativamente diferente de cero, pero no abordan la calidad general del modelo. Hemos visto que el R cuadrado ajustado a los grados de libertad indica que este modelo con estas tres variables explica el 70 % de la variación de la cantidad de rosas demandadas. También podemos realizar una segunda prueba del modelo en su conjunto. Se trata de la prueba F, presentada en la sección 13.4 de este capítulo. Como se trata de una regresión múltiple (más de una X), utilizamos la prueba F para determinar si nuestros coeficientes afectan colectivamente a Y. La hipótesis es:
+</para><equation id="eip-534" class="unnumbered"><label/><m:math>
+<m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
+<m:mo>:</m:mo>
+<m:msub><m:mi>β</m:mi><m:mn>1</m:mn></m:msub>
+<m:mo>=</m:mo>
+<m:msub><m:mi>β</m:mi><m:mn>2</m:mn></m:msub>
+<m:mo>=</m:mo>
+<m:mo>...</m:mo>
+<m:mo>=</m:mo>
+<m:mi>β</m:mi>
+<m:mi>i</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math></equation><equation id="eip-97" class="unnumbered"><label/><m:math>
+<m:msub><m:mi>H</m:mi><m:mn>a</m:mn></m:msub>
+<m:mo>:</m:mo>
+<m:mtext>"al menos uno de los</m:mtext><m:mspace width="0.1em"/>
+<m:msub><m:mi>β</m:mi><m:mn>i</m:mn></m:msub><m:mspace width="0.1em"/>
+<m:mtext> no es igual a 0"</m:mtext>
+</m:math>
+ </equation><para id="eip-80">En la sección ANOVA del resultado encontramos el valor calculado de la estadística F para esta hipótesis. Para este ejemplo, la estadística F es de 21,9. De nuevo, la comparación del valor calculado de la estadística F con el valor crítico, dado nuestro nivel de significación deseado y los grados de libertad, nos permitirá llegar a una conclusión. 
+</para><para id="eip-148">La mejor manera de llegar a una conclusión para esta prueba estadística es utilizar la regla de comparación del valor p. El valor p es el área de la cola, dado el estadístico F calculado. En esencia, la computadora halla el valor F en la tabla por nosotros y calcula el valor p. En el resumen del resultado bajo "significación F" se encuentra esta probabilidad. Para este ejemplo, se calcula que es de 2,6 x 10<sup>-5</sup>, es decir, 2,6 moviendo el decimal cinco lugares a la izquierda. (0,000026) Se trata de un nivel de probabilidad casi infinitesimal y ciertamente menor que nuestro nivel alfa de 0,05 para un nivel de significación del 5 por ciento.  
+</para><para id="eip-392">Al no poder aceptar las hipótesis nulas, concluimos que esta especificación de este modelo tiene validez porque al menos uno de los coeficientes estimados es significativamente diferente de cero. Como el F calculado es mayor que el F crítico, no podemos aceptar H<sub>0</sub>, lo que significa que X<sub>1</sub>, X<sub>2</sub> y X<sub>3</sub> <emphasis effect="italics">juntos</emphasis> tienen un efecto significativo sobre Y.</para><para id="eip-310">El desarrollo de la computación y del software útiles para la investigación académica y empresarial ha permitido responder preguntas que hace unos años ni siquiera podíamos formular. Los datos están disponibles en formato electrónico y pueden trasladarse para su análisis de formas y a velocidades inimaginables hace una década. La enorme magnitud de los conjuntos de datos que pueden utilizarse hoy en día para la investigación y el análisis nos permite obtener resultados de mayor calidad que en el pasado. Incluso con solo una hoja de cálculo de Excel podemos realizar una investigación de muy alto nivel. Esta sección le ofrece las herramientas para llevar a cabo algunas de estas interesantes investigaciones con el único límite de su imaginación.  
+</para></section><section id="eip-0" class="practice"><exercise id="eip-901"><problem id="eip-484">
+  <para id="eip-900">Se ha utilizado un programa computarizado de regresión múltiple para ajustar <m:math><m:msub><m:mover><m:mi>y</m:mi><m:mn>^</m:mn></m:mover><m:mi>j</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>b</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:mo>⋅</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mn>1</m:mn><m:mi>j</m:mi></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub><m:mo>⋅</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mn>2</m:mn><m:mi>j</m:mi></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>3</m:mn></m:msub><m:mo>⋅</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mn>3</m:mn><m:mi>j</m:mi></m:mrow></m:msub></m:math>.
+  </para><para id="eip-idm1945664496">Parte del resultado de la computadora incluye:</para>
+<table id="eip-idm236212336" summary="b(i) and S(b(i)) values for i = 0, 1, 2, and 3. The values of b(i) and S(b(i)) are, respectively, 8 and 1.6, 2.2 and .24, -.72 and .32, and .005 and .002.">
+<tgroup cols="3"><tbody>
+  <row>
+    <entry><emphasis>i</emphasis></entry>
+    <entry><m:math><m:msub><m:mi>b</m:mi><m:mi>i</m:mi></m:msub></m:math></entry>
+    <entry><m:math><m:msub><m:mi>S</m:mi><m:mrow><m:msub><m:mi>b</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:msub></m:math></entry>
+  </row>
+  <row>
+    <entry>0</entry>
+    <entry>8</entry>
+    <entry>1,6</entry>
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry>2,2</entry>
+    <entry>0,24</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>-0,72</entry>
+    <entry>0,32</entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>0,005</entry>
+    <entry>0,002</entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+</tgroup>
+</table><list id="eip-idm1016927424" list-type="enumerated" number-style="lower-alpha"><item>Cálculo del intervalo de confianza para <m:math><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub></m:math> se compone de _______± (un valor t de Student) (_______)</item>
+<item>El nivel de confianza de este intervalo se refleja en el valor utilizado para _______.</item>
+<item>Los grados de libertad disponibles para estimar la varianza están directamente relacionados con el valor utilizado para _______</item></list></problem>
+
+<solution id="eip-72">
+<list id="eip-idm402492608" list-type="enumerated" number-style="lower-alpha"><item>−.72, 0,32</item>
+<item>el valor t</item>
+<item>el valor t</item>
+</list></solution>
+</exercise><exercise id="eip-927"><problem id="eip-809">
+  <para id="eip-708">
+Un investigador ha utilizado un programa de regresión múltiple sobre 20 puntos de datos para obtener una ecuación de regresión con 3 variables. Parte del resultado de la computadora es:
+  </para>
+
+
+<table id="eip-idm350525312" summary="'Coefficients' and 'Standard Errors of b(i)' for variables 1, 2, and 3. The respective coefficient/standard error values are 0.45 and 0.21, 0.80 and 0.10, and 3.10 and 0.86.">
+<tgroup cols="3"><tbody>
+  <row>
+    <entry><emphasis>Variable</emphasis></entry>
+    <entry><emphasis>Coeficiente</emphasis></entry>
+    <entry><emphasis>Error estándar de <m:math><m:msub><m:mi>b</m:mi><m:mi>i</m:mi></m:msub></m:math></emphasis></entry>
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry>0,45</entry>
+    <entry>0,21</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>0,80</entry>
+    <entry>0,10</entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>3,10</entry>
+    <entry>0,86</entry>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table><list id="eip-idm587101552" list-type="enumerated" number-style="lower-alpha"><item>0,80 es una estimación de ___________.</item>
+<item>0,10 es una estimación de ___________.</item>
+<item>Asumiendo que las respuestas satisfacen el supuesto de normalidad, podemos estar seguros al 95% de que el valor de <m:math><m:msub><m:mi>β</m:mi><m:mn>2</m:mn></m:msub></m:math> está en el intervalo,_______ ± [t<sub>0,025</sub> ⋅ _______], donde t<sub>0,025</sub> es el valor crítico de la distribución <emphasis effect="italics">t</emphasis> de Student con ____ grados de libertad.</item></list></problem>
+
+<solution id="eip-239">
+<list id="eip-idm167074032" list-type="enumerated" number-style="lower-alpha"><item>El valor de la población para <m:math><m:msub><m:mi>β</m:mi><m:mn>2</m:mn></m:msub></m:math>, el cambio que se produce en Y con un cambio unitario en <m:math><m:msub><m:mi>X</m:mi><m:mn>2</m:mn></m:msub></m:math>, cuando las demás variables se mantienen constantes.</item>
+<item>El valor poblacional del error estándar de la distribución de las estimaciones de <m:math><m:msub><m:mi>β</m:mi><m:mn>2</m:mn></m:msub></m:math>.</item>
+<item>0,8, 0,1, 16 = 20 − 4.</item></list></solution>
+</exercise></section> </content>
+
+</document>

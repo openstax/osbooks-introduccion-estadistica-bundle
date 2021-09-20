@@ -1,0 +1,1063 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Stem-and-Leaf Graphs (Stemplots), Line Graphs, and Bar Graphs</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10418</md:content-id>
+  <md:title>Stem-and-Leaf Graphs (Stemplots), Line Graphs, and Bar Graphs</md:title>
+  <md:abstract/>
+  <md:uuid>a3404ca2-a8c0-4dbc-a981-94e39f274972</md:uuid>
+</metadata>
+
+<content>
+<para id="id6999853">Un gráfico sencillo, el <emphasis>gráfico de tallo y hoja</emphasis> o <emphasis>gráfico de tallo</emphasis>, procede del campo del análisis exploratorio de datos. Es una buena opción cuando los conjuntos de datos son pequeños. Para crear el gráfico, divida cada observación de datos en un tallo y una hoja. La hoja consta de un <emphasis>último dígito significativo</emphasis>. Por ejemplo, 23 tiene el tallo dos y la hoja tres. El número 432 tiene el tallo 43 y la hoja dos. Asimismo, el número 5.432 tiene el tallo 543 y la hoja dos. El decimal 9,3 tiene el tallo nueve y la hoja tres. Escriba los tallos en una línea vertical de menor a mayor. Dibuje una línea vertical a la derecha de los tallos. Luego, escriba las hojas en orden creciente junto a su correspondiente tallo.</para>
+<example id="element-696">
+<para id="element-948">En la clase de Precálculo de primavera de Susan Dean las calificaciones del primer examen fueron las siguientes (de menor a mayor): <newline/> 33; 42; 49; 49; 53; 55; 55; 61; 63; 67; 68; 68; 69; 69; 72; 73; 74; 78; 80; 83; 88; 88; 88; 90; 92; 94; 94; 94; 94; 96; 100</para><table id="element-185" summary="Table displaying stem in first column and leaf in second column for the values listed above."><title>Gráfico de tallo y hoja</title>
+<tgroup cols="2"><thead>
+<row>
+<entry>Tallo</entry>
+<entry>Hoja</entry>
+</row>
+</thead>
+
+<tbody>
+<row>
+<entry>3</entry><entry>3</entry>
+</row>
+<row>
+<entry>4</entry><entry>2 9 9</entry>
+</row>
+<row>
+<entry>5</entry><entry>3 5 5</entry>
+</row>
+<row>
+<entry>6</entry><entry>1 3 7 8 8 9 9</entry>
+</row>
+<row>
+<entry>7</entry><entry>2 3 4 8</entry>
+</row>
+<row>
+<entry>8</entry><entry>0 3 8 8 8</entry>
+</row>
+<row>
+<entry>9</entry><entry>0 2 4 4 4 4 6</entry>
+</row>
+<row>
+<entry>10</entry><entry>0</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table><para id="element-541">El gráfico de tallo muestra que la mayoría de las calificaciones fueron de 60, 70, 80 y 90. Ocho de las 31 calificaciones, es decir, aproximadamente el 26 % <m:math>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mn>8</m:mn>
+<m:mrow>
+<m:mn>31</m:mn>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:math> estaban en los 90 o 100, un número bastante alto de calificaciones con A.</para>
+</example>
+
+<note id="fs-idp6114880" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+<exercise id="fs-idp3142256">
+<problem id="fs-idm28250320">
+<para id="fs-idp29192512">Para el equipo de baloncesto de Park City los resultados de los últimos 30 partidos fueron los siguientes (de menor a mayor): <newline/> 32; 32; 33; 34; 38; 40; 42; 42; 43; 44; 46; 47; 47; 48; 48; 48; 49; 50; 50; 51; 52; 52; 52; 53; 54; 56; 57; 57; 60; 61 <newline/>Construya un diagrama de tallo para los datos.</para></problem>
+</exercise></note>
+
+
+<para id="eip-522">El diagrama de tallo es una forma rápida de representar datos gráficamente y ofrece una imagen exacta de la información. Hay que buscar un patrón general y los valores atípicos. Un <term>valor atípico</term> es una observación de datos que no se ajusta al resto de los datos. A veces se le llama <emphasis>valor extremo.</emphasis> Cuando grafique un valor atípico parecerá que no se ajusta al patrón del gráfico. Algunos valores atípicos se deben a errores (por ejemplo, anotar 50 en vez de 500), mientras que otros pueden indicar que está ocurriendo algo inusual. Para explicar los valores atípicos se necesita información de fondo, por lo que los trataremos con más detalle más adelante.</para><example id="element-798">
+<para id="element-534">Los datos son las distancias (en kilómetros) de un hogar a supermercados locales. Cree un diagrama de tallo con los datos: <newline/>1,1; 1,5; 2,3; 2,5; 2,7; 3,2; 3,3; 3,3; 3,5; 3,8; 4,0; 4,2; 4,5; 4,5; 4,7; 4,8; 5,5; 5,6; 6,5; 6,7; 12,3</para><exercise id="element-6923"><problem id="id8567884">
+<para id="fs-idp11807920">¿Los datos parecen tener alguna concentración de valores?</para>
+<note id="id8559724">
+<label/><title>NOTA</title>
+<para id="fs-idp145995424">Las hojas están a la derecha del decimal.</para>
+</note>
+</problem>
+<solution id="id8559734" print-placement="end">
+<para id="element-23523">El valor 12,3 puede ser un valor atípico. Los valores parecen concentrarse en los tres y cuatro kilómetros.</para>
+<table id="element-533" summary="This is a Stem-Leaf graph with stems 1, 2, 3, 4, 5, 6, 12 and leaves to the right of the decimal point.">
+<tgroup cols="2"><thead>
+<row>
+<entry>Tallo</entry>
+<entry>Hoja</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>1</entry><entry>1 5</entry>
+</row>
+<row>
+<entry>2</entry><entry>3 5 7</entry>
+</row>
+<row>
+<entry>3</entry><entry>2 3 3 5 8</entry>
+</row>
+<row>
+<entry>4</entry><entry>0 2 5 5 7 8</entry>
+</row>
+<row>
+<entry>5</entry><entry>5 6</entry>
+</row>
+<row>
+<entry>6</entry><entry>5 7</entry>
+</row>
+<row>
+<entry>7</entry><entry/>
+</row>
+<row>
+<entry>8</entry><entry/>
+</row>
+<row>
+<entry>9</entry><entry/>
+</row>
+<row>
+<entry>10</entry><entry/>
+</row>
+<row>
+<entry>11</entry><entry/>
+</row>
+<row>
+<entry>12</entry><entry>3</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise></example>
+
+<note id="fs-idp4001472" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+<exercise id="fs-idm40603312">
+<problem id="fs-idm28790944">
+<para id="fs-idp73770272">Los siguientes datos muestran las distancias (en millas) desde los hogares de los estudiantes de Estadística fuera del campus hasta el instituto universitario. Cree un diagrama de tallo con los datos e identifique los valores atípicos:</para>
+<para id="fs-idp20460656">0,5; 0,7; 1,1; 1,2; 1,2; 1,3; 1,3; 1,5; 1,5; 1,7; 1,7; 1,8; 1,9; 2,0; 2,2; 2,5; 2,6; 2,8; 2,8; 2,8; 3,5; 3,8; 4,4; 4,8; 4,9; 5,2; 5,5; 5,7; 5,8; 8,0
+</para></problem>
+</exercise>
+</note>
+
+
+<example id="fs-idp11879648"><exercise id="fs-idp161531440"><problem id="fs-idp99219856">
+<para id="fs-idp93832256">El <emphasis>diagrama de tallo y hoja bilateral</emphasis> permite comparar los dos conjuntos de datos en dos columnas. En el diagrama de tallo y hoja bilateral dos conjuntos de hojas comparten el mismo tallo. Las hojas están a la izquierda y a la derecha de los tallos. La <link target-id="M01_Ch02_tbl005"/> y la <link target-id="M01_Ch02_tbl006"/> muestran las edades de los presidentes en su investidura y al momento de su muerte. Construya un diagrama de tallo y hoja bilateral utilizando estos datos.</para>
+</problem>
+<solution id="fs-idp107817952">
+<table id="M01_Ch02_tbl007" summary="---">
+<tgroup cols="3"><colspec colnum="1" colname="c1" align="right"/>
+<colspec colnum="2" colname="c2" align="center"/>
+<colspec colnum="3" colname="c3" align="left"/>
+<thead>
+<row>
+<entry>Edades en la investidura</entry>
+<entry/>
+<entry>Edades al momento de la muerte</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>9 9 8 7 7 7 6 3 2</entry><entry>4</entry><entry>6 9</entry>
+</row>
+<row>
+<entry>8 7 7 7 7 6 6 6 5 5 5 5 4 4 4 4 4 2 2 1 1 1 1 1 0</entry><entry>5</entry><entry>3 6 6 7 7 8</entry>
+</row>
+<row>
+<entry>9 8 5 4 4 2 1 1 1 0</entry><entry>6</entry><entry>0 0 3 3 4 4 5 6 7 7 7 8</entry>
+</row>
+<row>
+<entry/><entry>7</entry><entry>0 0 1 1 1 4 7 8 8 9</entry>
+</row>
+<row>
+<entry/><entry>8</entry><entry>0 1 3 5 8</entry>
+</row>
+<row>
+<entry/><entry>9</entry><entry>0 0 3 3</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></solution></exercise>
+<table id="M01_Ch02_tbl005" summary="">
+<title>Edades de los presidentes en su investidura</title>
+<tgroup cols="6">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c1"/>
+<colspec colnum="3" colname="c1"/>
+<colspec colnum="4" colname="c1"/>
+<colspec colnum="5" colname="c1"/>
+<colspec colnum="6" colname="c6"/>
+<thead>
+<row><entry>Presidente</entry><entry>Edad</entry><entry>Presidente</entry><entry>Edad</entry><entry>Presidente</entry><entry>Edad</entry></row>
+</thead>
+<tbody>
+<row><entry>Washington</entry><entry>57</entry><entry>Lincoln</entry><entry>52</entry><entry>Hoover</entry><entry>54</entry></row>
+<row><entry>J. Adams</entry><entry>61</entry><entry>A. Johnson</entry><entry>56</entry><entry>F. Roosevelt</entry><entry>51</entry></row>
+<row><entry>Jefferson</entry><entry>57</entry><entry>Grant</entry><entry>46</entry><entry>Truman</entry><entry>60</entry></row>
+<row><entry>Madison</entry><entry>57</entry><entry>Hayes</entry><entry>54</entry><entry>Eisenhower</entry><entry>62</entry></row>
+<row><entry>Monroe</entry><entry>58</entry><entry>Garfield</entry><entry>49</entry><entry>Kennedy</entry><entry>43</entry></row>
+<row><entry>J. Q. Adams</entry><entry>57</entry><entry>Arthur</entry><entry>51</entry><entry>L. Johnson</entry><entry>55</entry></row>
+<row><entry>Jackson</entry><entry>61</entry><entry>Cleveland</entry><entry>47</entry><entry>Nixon</entry><entry>56</entry></row>
+<row><entry>Van Buren</entry><entry>54</entry><entry>B. Harrison</entry><entry>55</entry><entry>Ford</entry><entry>61</entry></row>
+<row><entry>W. H. Harrison</entry><entry>68</entry><entry>Cleveland</entry><entry>55</entry><entry>Carter</entry><entry>52</entry></row>
+<row><entry>Tyler</entry><entry>51</entry><entry>McKinley</entry><entry>54</entry><entry>Reagan</entry><entry>69</entry></row>
+<row><entry>Polk</entry><entry>49</entry><entry>T. Roosevelt</entry><entry>42</entry><entry>G. H. W. Bush</entry><entry>64</entry></row>
+<row><entry>Taylor</entry><entry>64</entry><entry>Taft</entry><entry>51</entry><entry>Clinton</entry><entry>47</entry></row>
+<row><entry>Fillmore</entry><entry>50</entry><entry>Wilson</entry><entry>56</entry><entry>G. W. Bush</entry><entry>54</entry></row>
+<row><entry>Pierce</entry><entry>48</entry><entry>Harding</entry><entry>55</entry><entry>Obama</entry><entry>47</entry></row>
+<row><entry>Buchanan</entry><entry>65</entry><entry>Coolidge</entry><entry>51</entry><entry/><entry/></row>
+</tbody>
+</tgroup>
+</table>
+
+
+<table id="M01_Ch02_tbl006" summary="">
+<title>Edad del presidente al momento de su muerte</title>
+<tgroup cols="6">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<thead>
+<row><entry>Presidente</entry><entry>Edad</entry><entry>Presidente</entry><entry>Edad</entry><entry>Presidente</entry><entry>Edad</entry></row>
+</thead>
+<tbody>
+<row><entry>Washington</entry><entry>67</entry><entry>Lincoln</entry><entry>56</entry><entry>Hoover</entry><entry>90</entry></row>
+<row><entry>J. Adams</entry><entry>90</entry><entry>A. Johnson</entry><entry>66</entry><entry>F. Roosevelt</entry><entry>63</entry></row>
+<row><entry>Jefferson</entry><entry>83</entry><entry>Grant</entry><entry>63</entry><entry>Truman</entry><entry>88</entry></row>
+<row><entry>Madison</entry><entry>85</entry><entry>Hayes</entry><entry>70</entry><entry>Eisenhower</entry><entry>78</entry></row>
+<row><entry>Monroe</entry><entry>73</entry><entry>Garfield</entry><entry>49</entry><entry>Kennedy</entry><entry>46</entry></row>
+<row><entry>J. Q. Adams</entry><entry>80</entry><entry>Arthur</entry><entry>56</entry><entry>L. Johnson</entry><entry>64</entry></row>
+<row><entry>Jackson</entry><entry>78</entry><entry>Cleveland</entry><entry>71</entry><entry>Nixon</entry><entry>81</entry></row>
+<row><entry>Van Buren</entry><entry>79</entry><entry>B. Harrison</entry><entry>67</entry><entry>Ford</entry><entry>93</entry></row>
+<row><entry>W. H. Harrison</entry><entry>68</entry><entry>Cleveland</entry><entry>71</entry><entry>Reagan</entry><entry>93</entry></row>
+<row><entry>Tyler</entry><entry>71</entry><entry>McKinley</entry><entry>58</entry><entry/><entry/></row>
+<row><entry>Polk</entry><entry>53</entry><entry>T. Roosevelt</entry><entry>60</entry><entry/><entry/></row>
+<row><entry>Taylor</entry><entry>65</entry><entry>Taft</entry><entry>72</entry><entry/><entry/></row>
+<row><entry>Fillmore</entry><entry>74</entry><entry>Wilson</entry><entry>67</entry><entry/><entry/></row>
+<row><entry>Pierce</entry><entry>64</entry><entry>Harding</entry><entry>57</entry><entry/><entry/></row>
+<row><entry>Buchanan</entry><entry>77</entry><entry>Coolidge</entry><entry>60</entry><entry/><entry/></row>
+</tbody>
+</tgroup>
+</table>
+</example>
+<note id="fs-idp9770768" class="statistics try">
+<label/>
+<exercise id="fs-idp35107968">
+<problem id="fs-idm2063072">
+<para id="fs-idm4586448">La tabla muestra el número de victorias y derrotas que han tenido los Atlanta Hawks en 42 temporadas. Cree un gráfico de tallo y hoja de estas victorias y derrotas.</para>
+<table id="fs-idm25873440" summary="..">
+<title/>
+<tgroup cols="6">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<thead>
+<row>
+<entry>Pérdidas</entry>
+<entry>Victorias</entry>
+<entry>Año</entry>
+<entry>Pérdidas </entry>
+<entry>Victorias</entry>
+<entry>Año</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>34</entry>
+<entry>48</entry>
+<entry>1968–1969</entry>
+<entry>41</entry>
+<entry>41</entry>
+<entry>1989–1990</entry>
+</row>
+<row>
+<entry>34</entry>
+<entry>48</entry>
+<entry>1969–1970</entry>
+<entry>39</entry>
+<entry>43</entry>
+<entry>1990–1991</entry>
+</row>
+<row>
+<entry>46</entry>
+<entry>36</entry>
+<entry>1970–1971</entry>
+<entry>44</entry>
+<entry>38</entry>
+<entry>1991–1992</entry>
+</row>
+<row>
+<entry>46</entry>
+<entry>36</entry>
+<entry>1971–1972</entry>
+<entry>39</entry>
+<entry>43</entry>
+<entry>1992–1993</entry>
+</row>
+<row>
+<entry>36</entry>
+<entry>46</entry>
+<entry>1972–1973</entry>
+<entry>25</entry>
+<entry>57</entry>
+<entry>1993–1994</entry>
+</row>
+<row>
+<entry>47</entry>
+<entry>35</entry>
+<entry>1973–1974</entry>
+<entry>40</entry>
+<entry>42</entry>
+<entry>1994–1995</entry>
+</row>
+<row>
+<entry>51</entry>
+<entry>31</entry>
+<entry>1974–1975</entry>
+<entry>36</entry>
+<entry>46</entry>
+<entry>1995–1996</entry>
+</row>
+<row>
+<entry>53</entry>
+<entry>29</entry>
+<entry>1975–1976</entry>
+<entry>26</entry>
+<entry>56</entry>
+<entry>1996–1997</entry>
+</row>
+<row>
+<entry>51</entry>
+<entry>31</entry>
+<entry>1976–1977</entry>
+<entry>32</entry>
+<entry>50</entry>
+<entry>1997–1998</entry>
+</row>
+<row>
+<entry>41</entry>
+<entry>41</entry>
+<entry>1977–1978</entry>
+<entry>19</entry>
+<entry>31</entry>
+<entry>1998–1999</entry>
+</row>
+<row>
+<entry>36</entry>
+<entry>46</entry>
+<entry>1978–1979</entry>
+<entry>54</entry>
+<entry>28</entry>
+<entry>1999–2000</entry>
+</row>
+<row>
+<entry>32</entry>
+<entry>50</entry>
+<entry>1979–1980</entry>
+<entry>57</entry>
+<entry>25</entry>
+<entry>2000–2001</entry>
+</row>
+<row>
+<entry>51</entry>
+<entry>31</entry>
+<entry>1980–1981</entry>
+<entry>49</entry>
+<entry>33</entry>
+<entry>2001–2002</entry>
+</row>
+<row>
+<entry>40</entry>
+<entry>42</entry>
+<entry>1981–1982</entry>
+<entry>47</entry>
+<entry>35</entry>
+<entry>2002–2003</entry>
+</row>
+<row>
+<entry>39</entry>
+<entry>43</entry>
+<entry>1982–1983</entry>
+<entry>54</entry>
+<entry>28</entry>
+<entry>2003–2004</entry>
+</row>
+<row>
+<entry>42</entry>
+<entry>40</entry>
+<entry>1983–1984</entry>
+<entry>69</entry>
+<entry>13</entry>
+<entry>2004–2005</entry>
+</row>
+<row>
+<entry>48</entry>
+<entry>34</entry>
+<entry>1984–1985</entry>
+<entry>56</entry>
+<entry>26</entry>
+<entry>2005–2006</entry>
+</row>
+<row>
+<entry>32</entry>
+<entry>50</entry>
+<entry>1985–1986</entry>
+<entry>52</entry>
+<entry>30</entry>
+<entry>2006–2007</entry>
+</row>
+<row>
+<entry>25</entry>
+<entry>57</entry>
+<entry>1986–1987</entry>
+<entry>45</entry>
+<entry>37</entry>
+<entry>2007–2008</entry>
+</row>
+<row>
+<entry>32</entry>
+<entry>50</entry>
+<entry>1987–1988</entry>
+<entry>35</entry>
+<entry>47</entry>
+<entry>2008–2009</entry>
+</row>
+<row>
+<entry>30</entry>
+<entry>52</entry>
+<entry>1988–1989</entry>
+<entry>29</entry>
+<entry>53</entry>
+<entry>2009–2010</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+</exercise>
+</note>
+
+<para id="eip-313">Otro tipo de gráfico que resulta útil para valores de datos específicos es el <emphasis>gráfico de líneas</emphasis>. En el gráfico de líneas en particular que se muestra en la <link target-id="example4"/>, el <emphasis>eje <emphasis effect="italics">x</emphasis></emphasis> (eje horizontal) está formado por los <emphasis>valores de los datos</emphasis> y el <emphasis>eje <emphasis effect="italics">y</emphasis></emphasis> (eje vertical) por <emphasis>puntos de frecuencia</emphasis>. Los puntos de frecuencia se conectan mediante segmentos de la línea.</para>
+
+<example id="example4">
+<para id="eip-682">En una encuesta, se preguntó a 40 madres cuántas veces a la semana hay que recordarle a un adolescente que haga sus tareas. Los resultados se muestran en la <link target-id="M01_Ch02_tbl008"/> y en la <link target-id="M01_Ch02_fig001"/>.</para><table id="M01_Ch02_tbl008" summary="The first column of the table consists of the number of times a teenager must be reminded to do his/her chores and the second column consists of frequency.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry>Número de veces que se le recuerda al adolescente</entry>
+<entry>Frecuencia</entry>
+</row>
+</thead>
+
+<tbody>
+<row>
+<entry>0</entry><entry>2</entry>
+</row>
+<row>
+<entry>1</entry><entry>5</entry>
+</row>
+<row>
+<entry>2</entry><entry>8</entry>
+</row>
+<row>
+<entry>3</entry><entry>14</entry>
+</row>
+<row>
+<entry>4</entry><entry>7</entry>
+</row>
+<row>
+<entry>5</entry><entry>4</entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+
+<figure id="M01_Ch02_fig001">
+<media id="fs-idp107902784" display="block" alt="Un gráfico de líneas que muestra en el eje x el número de veces que hay que recordarle a un adolescente que haga las tareas y en el eje y la frecuencia.">
+<image src="../../media/fig-ch_02_03_01-4ea5.jpg" mime-type="image/jpg" width="380" print-width="4in"/></media>
+</figure>
+</example>
+
+
+<note id="fs-idm28536512" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+<exercise id="fs-idm95574864"><problem id="fs-idp19862832">
+
+<para id="fs-idp28849584">En una encuesta, se preguntó a 40 personas cuántas veces al año llevaban su automóvil al taller para repararlo. Los resultados se muestran en la <link target-id="M01_Ch02_tbl009"/>. Construya un gráfico de líneas.</para>
+
+<table id="M01_Ch02_tbl009" summary="">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row><entry>Número de veces en el taller</entry><entry>Frecuencia</entry></row>
+</thead>
+<tbody>
+<row><entry>0</entry><entry>7</entry></row>
+<row><entry>1</entry><entry>10</entry></row>
+<row><entry>2</entry><entry>14</entry></row>
+<row><entry>3</entry><entry>9</entry></row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+</exercise></note>
+
+<para id="eip-136">Los <emphasis>gráficos de barras</emphasis> están formados por barras separadas entre sí. Las barras pueden ser rectángulos o recuadros rectangulares (usados en representaciones tridimensionales), y pueden ser verticales u horizontales. El <emphasis>gráfico de barras</emphasis> que se muestra en la <link target-id="example5"/> tiene los grupos de edad representados en el <emphasis>eje <emphasis effect="italics">x</emphasis></emphasis> y las proporciones en el <emphasis>eje <emphasis effect="italics">y</emphasis></emphasis>.</para><example id="example5">
+<exercise id="fs-idm7260336">
+<problem id="fs-idp99169968">
+<para id="eip-666">A finales de 2011, Facebook tenía más de 146 millones de usuarios en Estados Unidos. La <link target-id="M01_Ch02_tbl010"/> muestra tres grupos de edad, el número de usuarios en cada grupo de edad y la proporción (%) de usuarios en cada grupo de edad. Construya un gráfico de barras con estos datos.</para><table id="M01_Ch02_tbl010" summary="The information is from Facebook. The first row of the table displays age groups, the second row displays number of Facebook users and the third row displays percentages.">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>Grupos de edad</entry>
+<entry>Número de usuarios de Facebook</entry>
+<entry>Proporción (%) de usuarios de Facebook</entry>
+</row>
+</thead><tbody>
+<row>
+<entry>13–25</entry>
+<entry>65.082.280</entry>
+<entry>45%</entry>
+</row>
+<row>
+<entry>26–44</entry>
+<entry>53.300.200</entry>
+<entry>36%</entry>
+</row>
+<row>
+<entry>45–64</entry>
+<entry>27.885.100</entry>
+<entry>19%</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+<solution id="fs-idp32850832">
+<figure id="fs-idm25485824"><media id="bar_graph_Facebook" display="block" alt="Este es un gráfico de barras que coincide con los datos suministrados. El eje x muestra los grupos de edad y el eje y los porcentajes de usuarios de Facebook.">
+<image src="../../media/fig-ch02_03_02-a192.jpg" mime-type="image/jpg" width="380"/></media>
+</figure></solution>
+</exercise>
+</example>
+
+
+<note id="fs-idp2492880" class="statistics try">
+<label/><title>Ejercicio</title>
+<exercise id="fs-idm47906688">
+<problem id="fs-idm7708128">
+
+<para id="fs-idp6746384">La población de Park City se compone de niños, adultos en edad de trabajar y jubilados. La <link target-id="M01_Ch02_tbl011"/> muestra los tres grupos de edad, el número de personas de cada grupo en la ciudad y la proporción (%) de personas en cada grupo de edad. Construya un gráfico de barras que muestre las proporciones.</para>
+
+<table id="M01_Ch02_tbl011" summary="">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row><entry>Grupos de edad</entry><entry>Número de personas</entry><entry>Proporción de la población</entry></row>
+</thead>
+<tbody>
+<row><entry>Niños</entry>	<entry>67.059</entry>	<entry>19%</entry></row>
+<row><entry>Adultos en edad de trabajar</entry>	<entry>152.198</entry>	<entry>43%</entry></row>
+<row><entry>Jubilados</entry>	<entry>131.662</entry>	<entry>38%</entry></row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+</exercise>
+</note>
+
+
+<example id="eip-708">
+<exercise id="fs-idm25526448">
+<problem id="fs-idm19535184">
+<para id="eip-655">Las columnas de la <link target-id="M01_Ch02_tbl012"/> contienen la raza o el origen étnico de los estudiantes de escuelas públicas de EE. UU. para la clase de 2011, los porcentajes para la población examinada de Colocación Avanzada para esa clase y los porcentajes para la población estudiantil en general. Cree un gráfico de barras con la raza o el origen étnico de los estudiantes (datos cualitativos) en el eje <emphasis effect="italics">x</emphasis> y los porcentajes de la población de examinados de Colocación Avanzada en el eje <emphasis effect="italics">y</emphasis>.</para><table id="M01_Ch02_tbl012" summary="The table shows Race and Ethnicity in the first column, Advanced Placement Examinee Population in the second column and Overall Student Population in the third column.">
+<tgroup cols="3"><thead>
+<row>
+<entry>Raza/etnia</entry>
+<entry>Población examinada de AP</entry>
+<entry>Población estudiantil total</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>1 = asiático, asiático americano o isleño del Pacífico</entry>
+<entry>10,3%</entry>
+<entry>5,7%</entry>
+</row>
+<row>
+<entry>2 = negro o afroamericano</entry>
+<entry>9,0%</entry>
+<entry>14,7%</entry>
+</row>
+<row>
+<entry>3 = hispano o latino</entry>
+<entry>17,0%</entry>
+<entry>17,6%</entry>
+</row>
+<row>
+<entry>4 = amerindio o nativo de Alaska</entry>
+<entry>0,6%</entry>
+<entry>1,1%</entry>
+</row>
+<row>
+<entry>5 = blanco</entry>
+<entry>57,1%</entry>
+<entry>59,2%</entry>
+</row>
+<row>
+<entry>6 = No informado/otro</entry>
+<entry>6,0%</entry>
+<entry>1,7%</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+<solution id="fs-idp30402432">
+<figure id="M01_Ch02_fig003"><media id="bar_graph_Ap_Examinee" display="block" alt="Este es un gráfico de barras que coincide con los datos suministrados. El eje x muestra la raza y la etnia y el eje y los porcentajes de examinados de AP.">
+<image src="../../media/fig-ch02_03_03-f535.jpg" mime-type="image/jpg" width="380"/></media>
+</figure></solution>
+</exercise>
+</example>
+
+<note id="fs-idp41522672" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+<exercise id="fs-idm43065520">
+<problem id="fs-idp3652336">
+
+<para id="fs-idp31379616">Park City se divide en seis distritos electorales. La tabla muestra el porcentaje de la población total de votantes registrados que vive en cada distrito, así como el porcentaje total de la población entera que vive en cada distrito. Construya un gráfico de barras que muestre la población de votantes registrados por distrito.</para><table id="M01_Ch02_tbl013" summary="">
+<tgroup cols="3" align="left">
+<colspec colnum="1" colname="c1" align="center"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row><entry>Distrito</entry><entry>Población de votantes registrados</entry><entry>Población total de la ciudad</entry></row>
+</thead>
+<tbody>
+<row><entry>1</entry><entry>15,5%</entry><entry>19,4%</entry></row>
+<row><entry>2</entry><entry>12,2%</entry><entry>15,6%</entry></row>
+<row><entry>3</entry><entry>9,8%</entry><entry>9,0%</entry></row>
+<row><entry>4</entry><entry>17,4%</entry><entry>18,5%</entry></row>
+<row><entry>5</entry><entry>22,8%</entry><entry>20,7%</entry></row>
+<row><entry>6</entry><entry>22,3%</entry><entry>16,8%</entry></row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+</exercise>
+</note>
+
+<section id="fs-idm21451296" class="references">
+<title>Referencias</title>
+<para id="fs-idm29098416">Burbary, Ken. <emphasis effect="italics">Facebook Demographics Revisited–2001 Statistics,</emphasis> 2011. Disponible en línea en http://www.kenburbary.com/2011/03/facebook-demographics-revisited-2011-statistics-2/ (consultado el 21 de agosto de 2013).</para><para id="fs-idm29098160">“9th Annual AP Report to the Nation”. CollegeBoard, 2013. Disponible en línea en http://apreport.collegeboard.org/goals-and-findings/promoting-equity (consultado el 13 de septiembre de 2013).</para>
+<para id="fs-idp130237744">“Overweight and Obesity: Adult Obesity Facts”. Centers for Disease Control and Prevention. Disponible en línea en http://www.cdc.gov/obesity/data/adult.html (consultado el 13 de septiembre de 2013).</para>
+</section>
+
+<section id="fs-idp18706816" class="summary">
+<title>Revisión del capítulo</title>
+<para id="fs-idp5119792">Un <emphasis>gráfico de tallo y hoja</emphasis> es una forma de representar los datos y observar la distribución. En un gráfico de tallo y hoja todos los valores de los datos de una clase son visibles. La ventaja de un gráfico de tallo y hoja es que se enumeran todos los valores, a diferencia de un histograma, que da clases de valores de datos. Un <emphasis>gráfico de líneas</emphasis> se suele usar para representar un conjunto de valores de datos en los que una cantidad varía con el tiempo. Estos gráficos son útiles para hallar tendencias. Es decir, hallar un patrón general en conjuntos de datos que incluyan temperatura, ventas, empleo, beneficios o costos de la compañía durante un periodo. Un <emphasis>gráfico de barras</emphasis> es un gráfico que utiliza barras horizontales o verticales para mostrar comparaciones entre categorías. Un eje del gráfico muestra las categorías específicas que se comparan, y el otro eje representa un valor discreto. Algunos gráficos de barras presentan las barras agrupadas en grupos de más de uno (gráficos de barras agrupados), y otros muestran las barras divididas en subpartes para mostrar el efecto acumulativo (gráficos de barras apilados). Los gráficos de barras son especialmente útiles cuando se utilizan datos categóricos.</para></section>
+
+<section id="fs-idp51353072" class="practice">
+<title/>
+<para id="fs-idp2088992"><emphasis effect="italics">Para cada uno de los siguientes conjuntos de datos, cree un gráfico de tallo e identifique los valores atípicos.</emphasis></para>
+
+<exercise id="fs-idp77965776">
+<problem id="fs-idp104599392">
+<para id="fs-idp96747200">A continuación, se muestran los índices de millas por galón de 30 coches (de menor a mayor). <newline/>19, 19, 19, 20, 21, 21, 25, 25, 25, 26, 26, 28, 29, 31, 31, 32, 32, 33, 34, 35, 36, 37, 37, 38, 38, 38, 38, 41, 43, 43</para></problem>
+<solution id="fs-idm37847504">
+<table id="fs-idp96212464" summary="The miles per gallon rating for 30 cars">
+<tgroup cols="2"><colspec colnum="1" colname="c1" align="center"/>
+<colspec colnum="2" colname="c2" align="left"/>
+<thead><row><entry>Tallo</entry><entry align="center">Hoja</entry></row></thead>
+<tbody>
+<row><entry>1</entry><entry>9 9 9</entry></row>
+<row><entry>2</entry><entry>0 1 1 5 5 5 6 6 8 9</entry></row>
+<row><entry>3</entry><entry>1 1 2 2 3 4 5 6 7 7 8 8 8 8</entry></row>
+<row><entry>4</entry><entry>1 3 3</entry></row>
+</tbody>
+
+</tgroup>
+</table></solution>
+</exercise>
+
+<exercise id="fs-idp69585968">
+<problem id="fs-idp5781504">
+<para id="fs-idp7036560">A continuación, se muestra la altura en pies de 25 árboles (de menor a mayor). <newline/>25, 27, 33, 34, 34, 34, 35, 37, 37, 38, 39, 39, 39, 40, 41, 45, 46, 47, 49, 50, 50, 53, 53, 54, 54</para></problem>
+</exercise>
+
+<exercise id="exercise8">
+<problem id="fs-idp105863648">
+<para id="fs-idp8584400">Los datos son los precios de diferentes computadoras portátiles en una tienda de electrónica. Redondee cada valor a la decena más cercana. <newline/>249, 249, 260, 265, 265, 280, 299, 299, 309, 319, 325, 326, 350, 350, 350, 365, 369, 389, 409, 459, 489, 559, 569, 570, 610</para></problem>
+
+<solution id="fs-idp114380816">
+<table id="M01_Ch02_tbl016" summary="The data are the prices of different laptops at an electronics store.">
+<tgroup cols="2"><colspec colnum="1" colname="c1" align="center"/>
+<colspec colnum="2" colname="c2" align="left"/>
+<thead>
+<row><entry>Tallo</entry>
+<entry align="center">Hoja</entry></row></thead>
+<tbody>
+<row><entry>2</entry><entry>5 5 6 7 7 8</entry></row>
+<row><entry>3</entry><entry>0 0 1 2 3 3 5 5 5 7 7 9</entry></row>
+<row><entry>4</entry><entry>1 6 9</entry></row>
+<row><entry>5</entry><entry>6 7 7</entry></row>
+<row><entry>6</entry><entry>1</entry></row>
+</tbody>
+
+
+
+</tgroup>
+</table></solution>
+</exercise>
+
+<exercise id="fs-idp48193248">
+<problem id="fs-idp71330208">
+<para id="fs-idp71330464">Los datos son las temperaturas máximas diarias en una ciudad durante un mes. <newline/>61, 61, 62, 64, 66, 67, 67, 67, 68, 69, 70, 70, 70, 71, 71, 72, 74, 74, 74, 75, 75, 75, 76, 76, 77, 78, 78, 79, 79, 95</para></problem>
+</exercise>
+
+<para id="eip-488"><newline/><emphasis effect="italics">Para los tres ejercicios siguientes utilice los datos para construir un gráfico de líneas.</emphasis></para><exercise id="fs-idp113295424">
+<problem id="fs-idp29821584">
+<para id="fs-idp29821712">En una encuesta se preguntó a 40 personas cuántas veces habían visitado una tienda antes de hacer una compra importante. Los resultados se muestran en la <link target-id="M01_Ch02_tbl018"/>.</para><table id="M01_Ch02_tbl018" summary="">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row><entry>Número de veces en la tienda</entry><entry>Frecuencia</entry></row>
+</thead>
+<tbody>
+<row><entry>1</entry><entry>4</entry></row>
+<row><entry>2</entry><entry>10</entry></row>
+<row><entry>3</entry><entry>16</entry></row>
+<row><entry>4</entry><entry>6</entry></row>
+<row><entry>5</entry><entry>4</entry></row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+<solution id="fs-idp47635040">
+<figure id="fs-idp29124208"><media id="fs-idp63600976" display="block" alt="Este es un gráfico de líneas que coincide con los datos suministrados. El eje x muestra el número de veces que se ha visitado una tienda antes de realizar una compra importante, y el eje y muestra la frecuencia.">
+<image mime-type="image/png" src="../../media/CNX_Stats_C02_M03_005-cea0.jpg" width="350"/>
+</media>
+</figure></solution>
+</exercise>
+
+<exercise id="fs-idp11360192">
+<problem id="fs-idp6234528">
+<para id="fs-idp6234784">En una encuesta se preguntó a varias personas cuántos años hacía que no compraban un colchón. Los resultados se muestran en la <link target-id="M01_Ch02_tbl019"/>.</para><table id="M01_Ch02_tbl019" summary="">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead><row><entry>Años desde la última compra</entry>	<entry>Frecuencia</entry></row></thead>
+<tbody>
+<row><entry>0</entry>	<entry>2</entry></row>
+<row><entry>1</entry>	<entry>8</entry></row>
+<row><entry>2</entry>	<entry>13</entry></row>
+<row><entry>3</entry>	<entry>22</entry></row>
+<row><entry>4</entry>	<entry>16</entry></row>
+<row><entry>5</entry>	<entry>9</entry></row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+</exercise>
+
+<exercise id="fs-idp113509472">
+<problem id="fs-idp113509728">
+<para id="fs-idp85802064">Se preguntó a varios niños cuántos programas de televisión ven al día. Los resultados de la encuesta se muestran en la <link target-id="M01_Ch02_tbl020"/>.</para><table id="M01_Ch02_tbl020" summary="">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead><row><entry>Número de programas de televisión</entry>	<entry>Frecuencia</entry></row></thead>
+<tbody>
+<row><entry>0</entry>	<entry>12</entry></row>
+<row><entry>1</entry>	<entry>18</entry></row>
+<row><entry>2</entry>	<entry>36</entry></row>
+<row><entry>3</entry>	<entry>7</entry></row>
+<row><entry>4</entry>	<entry>2</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+</problem>
+<solution id="fs-idp49973120">
+<figure id="fs-idm11163840"><media id="fs-idp43437792" display="block" alt="Este es un gráfico de líneas que coincide con los datos suministrados. El eje x muestra el número de programas de televisión que un niño ve cada día, y el eje y muestra la frecuencia."><image mime-type="image/png" src="../../media/CNX_Stats_C02_M03_007-b9d4.jpg" width="350"/></media></figure></solution>
+</exercise>
+
+<exercise id="exercise13">
+<problem id="fs-idp84353344">
+<para id="fs-idp75581568">Los estudiantes de la clase de Matemáticas de la Sra. Ramírez cumplen años en cada una de las cuatro estaciones. La <link target-id="M01_Ch02_tbl021"/> muestra las cuatro estaciones, el número de estudiantes que cumplen años en cada estación y el porcentaje (%) de estudiantes en cada grupo. Construya un gráfico de barras que muestre el número de estudiantes.</para>
+<table id="M01_Ch02_tbl021" summary="">
+<tgroup cols="3" align="left">
+<colspec colnum="1" colname="c1" align="center"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row><entry>Estaciones</entry>	<entry align="center">Número de estudiantes</entry>	<entry align="center">Proporción de la población</entry></row>
+</thead>
+<tbody>
+<row><entry>Primavera</entry>	<entry>8</entry>	<entry>24%</entry></row>
+<row><entry>Verano</entry>	<entry>9</entry>	<entry>26%</entry></row>
+<row><entry>Otoño</entry>	<entry>11</entry>	<entry>32%</entry></row>
+<row><entry>Invierno</entry>	<entry>6</entry>	<entry>18%</entry></row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+</exercise>
+
+<exercise id="fs-idp114173136">
+<problem id="fs-idp114173392"><para id="fs-idp114173520">Use los datos de la clase de Matemáticas de la Sra. Ramírez suministrados en la <link target-id="exercise13"/> y construya un gráfico de barras que muestre los porcentajes.</para></problem>
+<solution id="fs-idp107574416">
+<figure id="fs-idp48344576"><media id="fs-idp74133360" display="block" alt="Este es un gráfico de barras que coincide con los datos suministrados. El eje x muestra las estaciones del año y el eje y muestra la proporción de cumpleaños."><image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M03_009-a7b7.jpg" width="350"/></media></figure></solution>
+</exercise>
+
+<exercise id="exercise10">
+<problem id="fs-idm2655872">
+<para id="fs-idp32116368">El condado de David tiene seis escuelas secundarias. Cada escuela envió a sus estudiantes a participar en un concurso de ciencias de todo el condado. La <link target-id="M01_Ch02_tbl022"/> muestra el desglose porcentual de los competidores de cada escuela y el porcentaje de toda la población estudiantil del condado que va a cada escuela. Construya un gráfico de barras que muestre el porcentaje de población de los competidores de cada escuela.</para>
+
+<table id="M01_Ch02_tbl022" summary="">
+<tgroup cols="3">
+<colspec colnum="1" align="center"/>
+<colspec colnum="2" align="left"/>
+<colspec colnum="3" align="left"/>
+<thead><row><entry>Escuela Secundaria</entry><entry align="center">Población de la competición científica</entry><entry align="center">Población estudiantil total</entry></row></thead>
+<tbody>
+<row><entry>Alabaster</entry><entry>28,9%</entry><entry>8,6%</entry></row>
+<row><entry>Concordia</entry><entry>7,6%</entry><entry>23,2%</entry></row>
+<row><entry>Genoa</entry><entry>12,1%</entry><entry>15,0%</entry></row>
+<row><entry>Mocksville</entry><entry>18,5%</entry><entry>14,3%</entry></row>
+<row><entry>Tynneson</entry><entry>24,2%</entry><entry>10,1%</entry></row>
+<row><entry>West End</entry><entry>8,7%</entry><entry>28,8%</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+</problem>
+</exercise>
+
+<exercise id="fs-idp107146752">
+<problem id="fs-idp107568048">
+<para id="fs-idp107568176">Utilice los datos del concurso de ciencias del condado de David que se facilitan en la <link target-id="exercise10"/>. Construya un gráfico de barras que muestre el porcentaje de población de todo el condado de los estudiantes en cada escuela.</para></problem>
+<solution id="fs-idp4118704">
+<figure id="fs-idp86744448"><media id="fs-idp112012640" display="block" alt="Este es un gráfico de barras que coincide con los datos suministrados. El eje x muestra las escuelas secundarias del condado y el eje y muestra la proporción de estudiantes del condado."><image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M03_011-d068.jpg" width="420"/></media></figure></solution>
+</exercise>
+</section>
+
+<section id="fs-idp103158432" class="free-response">
+<title>Tarea para la casa</title>
+<exercise id="fs-idp49136992">
+<problem id="fs-idp49137248">
+<para id="fs-idp104446256">Las notas de los estudiantes en un examen de Química fueron: 77, 78, 76, 81, 86, 51, 79, 82, 84, 99</para><list id="fs-idp96417840" list-type="enumerated" number-style="lower-alpha"><item>Construya un gráfico de tallo y hoja de los datos.</item>
+<item>¿Hay posibles valores atípicos? Si es así, ¿qué puntuaciones son? ¿Por qué los considera atípicos?</item>
+</list></problem>
+</exercise>
+
+<exercise id="eip-440"><problem id="eip-765">
+<para id="eip-929">La <link target-id="M01_Ch02_tbl024"/> contiene las tasas de obesidad de 2010 en estados de EE. UU. y en Washington, DC.</para>
+<table id="M01_Ch02_tbl024" summary="The tables represents United States states and Obesity Rates. The first column and third columns list the names of the states and the second and fourth columns list Obesity Rates.">
+<tgroup cols="4">
+<thead>
+<row>
+<entry>Estado</entry>
+<entry>Porcentaje (%)</entry>
+<entry>Estado</entry>
+<entry>Porcentaje (%)</entry>
+<entry>Estado</entry>
+<entry>Porcentaje (%)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Alabama</entry>
+<entry>32,2</entry>
+<entry>Kentucky</entry>
+<entry>31,3</entry>
+<entry>Dakota del Norte</entry>
+<entry>27,2</entry>
+</row>
+<row>
+<entry>Alaska</entry>
+<entry>24,5</entry>
+<entry>Luisiana</entry>
+<entry>31,0</entry>
+<entry>Ohio</entry>
+<entry>29,2</entry>
+</row>
+<row>
+<entry>Arizona</entry>
+<entry>24,3</entry>
+<entry>Maine</entry>
+<entry>26,8</entry>
+<entry>Oklahoma</entry>
+<entry>30,4</entry>
+</row>
+<row>
+<entry>Arkansas</entry>
+<entry>30,1</entry>
+<entry>Maryland</entry>
+<entry>27,1</entry>
+<entry>Oregón</entry>
+<entry>26,8</entry>
+</row>
+<row>
+<entry>California</entry>
+<entry>24,0</entry>
+<entry>Massachusetts</entry>
+<entry>23,0</entry>
+<entry>Pensilvania</entry>
+<entry>28,6</entry>
+</row>
+<row>
+<entry>Colorado</entry>
+<entry>21,0</entry>
+<entry>Michigan</entry>
+<entry>30,9</entry>
+<entry>Rhode Island</entry>
+<entry>25,5</entry>
+</row>
+<row>
+<entry>Connecticut</entry>
+<entry>22,5</entry>
+<entry>Minnesota</entry>
+<entry>24,8</entry>
+<entry>Carolina del Sur</entry>
+<entry>31,5</entry>
+</row>
+<row>
+<entry>Delaware</entry>
+<entry>28,0</entry>
+<entry>Misisipi</entry>
+<entry>34,0</entry>
+<entry>Dakota del Sur</entry>
+<entry>27,3</entry>
+</row>
+<row>
+<entry>Washington, DC</entry>
+<entry>22,2</entry>
+<entry>Misuri</entry>
+<entry>30,5</entry>
+<entry>Tennessee</entry>
+<entry>30,8</entry>
+</row>
+<row>
+<entry>Florida</entry>
+<entry>26,6</entry>
+<entry>Montana</entry>
+<entry>23,0</entry>
+<entry>Texas</entry>
+<entry>31,0</entry>
+</row>
+<row>
+<entry>Georgia</entry>
+<entry>29,6</entry>
+<entry>Nebraska</entry>
+<entry>26,9</entry>
+<entry>Utah</entry>
+<entry>22,5</entry>
+</row>
+<row>
+<entry>Hawái</entry>
+<entry>22,7</entry>
+<entry>Nevada</entry>
+<entry>22,4</entry>
+<entry>Vermont</entry>
+<entry>23,2</entry>
+</row>
+<row>
+<entry>Idaho</entry>
+<entry>26,5</entry>
+<entry>Nuevo Hampshire</entry>
+<entry>25,0</entry>
+<entry>Virginia</entry>
+<entry>26,0</entry>
+</row>
+<row>
+<entry>Illinois</entry>
+<entry>28,2</entry>
+<entry>Nueva Jersey</entry>
+<entry>23,8</entry>
+<entry>Washington</entry>
+<entry>25,5</entry>
+</row>
+<row>
+<entry>Indiana</entry>
+<entry>29,6</entry>
+<entry>Nuevo México</entry>
+<entry>25,1</entry>
+<entry>Virginia Occidental</entry>
+<entry>32,5</entry>
+</row>
+<row>
+<entry>Iowa</entry>
+<entry>28,4</entry>
+<entry>Nueva York</entry>
+<entry>23,9</entry>
+<entry>Wisconsin</entry>
+<entry>26,3</entry>
+</row>
+<row>
+<entry>Kansas</entry>
+<entry>29,4</entry>
+<entry>Carolina del Norte</entry>
+<entry>27,8</entry>
+<entry>Wyoming</entry>
+<entry>25,1</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list id="Obesity_Rate_Bar_Graphs" list-type="enumerated" number-style="lower-alpha"><item>Utilice un generador de números aleatorios para elegir al azar ocho estados. Construya un gráfico de barras con las tasas de obesidad de esos ocho estados.</item>
+<item>Construya un gráfico de barras para todos los estados que comienzan con la letra “A”.</item>
+<item>Construya un gráfico de barras para todos los estados que comienzan con la letra “M”.</item>
+</list></problem>
+<solution id="eip-27">
+<list id="fs-idp52451232" list-type="enumerated" number-style="lower-alpha"><item>Solución de ejemplo para utilizar el generador de números aleatorios de la calculadora TI-84+ para generar una muestra aleatoria simple de 8 estados. Las instrucciones son las siguientes. <list id="Random_Number_Inst." list-type="labeled-item">
+<item>Numere las entradas de la tabla 1-51 (incluye Washington, DC; numeradas verticalmente)</item>
+<item>Pulse MATH</item>
+<item>Flecha hacia PRB</item>
+<item>Pulse 5:randInt(</item>
+<item>Introduzca 51,1,8)</item>
+</list>
+<para id="fs-idp5295728">Se generan ocho números (utilice la tecla de flecha derecha para desplazarse por los números). Los números corresponden a los estados numerados (para este ejemplo: {47 21 9 23 51 13 25 4}. Si algún número se repite, genere un número diferente utilizando 5:randInt(51,1)). Aquí, los estados (y Washington, DC) son {Arkansas, Washington DC, Idaho, Maryland, Michigan, Misisipi, Virginia, Wyoming}.</para>
+<para id="fs-idp5295984">Los porcentajes correspondientes son {30,1; 22,2; 26,5; 27,1; 30,9; 34,0; 26,0; 25,1}.</para>
+<figure id="eip-idp38340544">
+<media id="States_Obesity" display="block" alt="Un gráfico de barras que muestra 8 estados en el eje x y las tasas de obesidad correspondientes en el eje y.">
+<image src="../../media/fig-ch_02_sol_06-c548.jpg" mime-type="image/jpg" width="380"/>
+</media>
+</figure>
+</item>
+<item><newline/>
+<figure id="eip-idp3788400"><media id="fs-idm6698448" display="block" alt="Este es un gráfico de barras que coincide con los datos suministrados. El eje x muestra los estados y el eje y muestra los porcentajes.">
+<image src="../../media/CNX_Stats_C02_M02_100N-d201.jpg" mime-type="image/png" width="350"/>
+</media>
+</figure></item>
+<item><figure id="eip-idp2189920">
+<media id="fs-idp3027872" display="block" alt="Este es un gráfico de barras que coincide con los datos suministrados. El eje x muestra los estados y el eje y muestra los porcentajes.">
+<image src="../../media/CNX_Stats_C02_M02_101-5b04.jpg" mime-type="image/png" width="350"/>
+</media>
+</figure>
+</item>
+</list></solution>
+</exercise></section> </content>
+</document>

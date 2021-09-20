@@ -1,0 +1,411 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Linear Equations</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10485</md:content-id>
+  <md:title>Linear Equations</md:title>
+  <md:abstract/>
+  <md:uuid>86cf26cf-62fb-40bd-849d-a3c8c1010920</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">La regresión lineal para dos variables se basa en una ecuación lineal con una variable independiente. La ecuación tiene la forma</para>
+<equation id="element-987" class="unnumbered"><label/><m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>a</m:mi>
+<m:mo>+</m:mo>
+<m:mtext>bx</m:mtext>
+</m:math>
+</equation>
+<para id="eip-743"><newline/>donde <emphasis effect="italics">a</emphasis> y <emphasis effect="italics">b</emphasis> son números constantes.</para><para id="element-708">La variable <emphasis><emphasis effect="italics">x</emphasis> es la variable independiente, y <emphasis effect="italics">y</emphasis> es la variable dependiente.</emphasis> Normalmente, se elige un valor para sustituir la variable independiente y luego se resuelve la variable dependiente.</para>
+
+<example id="element-906">
+<para id="element-12">Los siguientes ejemplos son ecuaciones lineales.</para>
+<equation id="element-12495" class="unnumbered"><label/><m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mtext>2x</m:mtext></m:math></equation>
+<equation id="element-357238" class="unnumbered"><label/><m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>-0,01</m:mn><m:mo>+</m:mo><m:mtext>1,2x</m:mtext></m:math></equation></example>
+<note id="fs-idp88007136" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+
+<exercise id="eip-279">
+<problem id="eip-486">
+<para id="eip-156">¿El siguiente es un ejemplo de ecuación lineal?</para>
+<para id="eip-idp75670576"><emphasis effect="italics">y</emphasis> = –0,125 – 3,5<emphasis effect="italics">x</emphasis></para></problem>
+</exercise>
+
+</note>
+<para id="eip-498">El gráfico de una ecuación lineal de la forma <emphasis effect="italics">y</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis> es una <emphasis>línea recta</emphasis>. Cualquier línea que no sea vertical puede ser descrita por esta ecuación.</para><example id="element-44">
+<para id="eip-153">Grafique la ecuación <emphasis effect="italics">y</emphasis> = –1 + 2<emphasis effect="italics">x</emphasis>.</para><figure id="linrgs_lineq1"><media id="idp38882144" alt="Gráfico de la ecuación y = –1 + 2x. Se trata de una línea que cruza el eje y en –1 y tiene una pendiente hacia arriba y hacia la derecha, que sube 2 unidades por cada unidad de recorrido.">
+<image src="../../media/fig-ch12_02_01-58c6.jpg" mime-type="image/jpeg" width="380"/>
+</media>
+
+</figure></example>
+
+<note id="fs-idp3088096" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+
+<exercise id="eip-46">
+<problem id="eip-373">
+<para id="eip-763">¿El siguiente es un ejemplo de ecuación lineal? ¿Por qué sí o por qué no?</para>
+<figure id="fs-idp22692736"><media id="eip-idp139727523885744" alt="Este es el gráfico de una ecuación. El eje x está identificado en intervalos de 2 desde 0 hasta 14; el eje y está identificado en intervalos de 2 desde 0 hasta 12. El gráfico de la ecuación es una curva que cruza el eje y en 2 y se curva hacia arriba y hacia la derecha." display="block">
+  <image mime-type="image/png" src="../../media/CNX_Stats_C012_M02_tryit001.png" width="250"/>
+</media></figure></problem>
+</exercise>
+
+</note>
+<example id="element-913">
+<para id="element-292">Aaron's Word Processing Service (AWPS) se encarga del procesamiento de textos. La tarifa de los servicios es de 32 dólares por hora, más un cargo único de 31,50 dólares. El costo total para un cliente depende del número de horas que se tarda en realizar el trabajo.</para>
+<exercise id="element-455">
+<problem id="idp59356256">
+<para id="element-60">Calcule la ecuación que expresa el <emphasis>costo total</emphasis> en términos del <emphasis>número de horas</emphasis> necesarias para completar el trabajo.</para></problem>
+<solution id="idp59359008">
+<para id="element-337">Supongamos que <emphasis effect="italics">x</emphasis> = el número de horas que se necesita para realizar el trabajo. <newline/>Supongamos que <emphasis effect="italics">y</emphasis> = el costo total para el cliente.</para><para id="element-456">Los 31,50 dólares son un costo fijo. Si se tarda <emphasis effect="italics">x</emphasis> horas en completar el trabajo, entonces (32)(<emphasis effect="italics">x</emphasis>) es el costo del procesamiento de textos solamente. El costo total es: <emphasis effect="italics">y</emphasis> = 31,50 + 32<emphasis effect="italics">x</emphasis></para></solution>
+</exercise>
+</example>
+
+<note id="fs-idm27179040" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+
+<exercise id="eip-977">
+<problem id="eip-161">
+  <para id="eip-101">Emma's Extreme Sports contrata a los instructores de ala delta y les paga una cuota de 50 dólares por clase, así como 20 dólares por estudiante en la clase. El costo total que paga Emma depende del número de estudiantes de una clase. Halle la ecuación que exprese el costo total en función del número de estudiantes de una clase.</para>
+</problem>
+</exercise>
+
+</note>
+
+<section id="fs-idm35899664"><title>Pendiente e intercepción en <emphasis effect="italics">Y</emphasis>de una ecuación lineal</title><para id="fs-idp15969440">Para la ecuación lineal <emphasis effect="italics">y</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>, <emphasis effect="italics">b</emphasis> = pendiente y <emphasis effect="italics">a</emphasis> = intersección en <emphasis effect="italics">y</emphasis>. De Álgebra recuerde que la pendiente es un número que describe la inclinación de una línea, y la intercepción en <emphasis effect="italics">y</emphasis>es la coordenada <emphasis effect="italics">y</emphasis> del punto (0, <emphasis effect="italics">a</emphasis>) donde la línea cruza el eje <emphasis effect="italics">y</emphasis>.</para><figure id="linrgs_slope1"><media id="idp66522560a" alt="Tres posibles gráficos de la ecuación y = a + bx. Para el primer gráfico, (a), b &gt; 0 y por tanto la línea tiene una pendiente ascendente hacia la derecha. Para la segunda, b = 0 y el gráfico de la ecuación es una línea horizontal. En el tercer gráfico, (c), b &lt; 0 y la línea con pendiente hacia la derecha."><image src="../../media/fig-ch12_03_01-917c.jpg" mime-type="image/jpg" width="480"/></media><caption>Tres posibles gráficos de <emphasis effect="italics">y</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>. (a) Si <emphasis effect="italics">b</emphasis> &gt; 0, la línea tiene pendiente ascendente hacia la derecha. (b) Si <emphasis effect="italics">b</emphasis> = 0, la línea es horizontal. (c) Si <emphasis effect="italics">b</emphasis> &lt; 0, la línea tiene pendiente descendente hacia la derecha.</caption></figure><example id="element-201">
+<para id="element-693">Svetlana da clases particulares para ganar dinero adicional para sus estudios superiores. Por cada sesión de tutoría cobra una cuota única de 25 dólares más 15 dólares por hora de tutoría. Una ecuación lineal que expresa la cantidad total de dinero que gana Svetlana por cada sesión de tutoría es <emphasis effect="italics">y</emphasis> = 25 + 15<emphasis effect="italics">x</emphasis>.</para>
+
+<exercise id="element-00112">
+<problem id="idp139982000">
+<para id="element-71">¿Cuáles son las variables independientes y dependientes? ¿Cuál es la intercepción en <emphasis effect="italics">y</emphasis>y cuál es la pendiente? Interprételos utilizando oraciones completas.</para>
+</problem>
+<solution id="idp27992816">
+<para id="element-88">La variable independiente (<emphasis effect="italics">x</emphasis>) es el número de horas que Svetlana da sesiones de tutoría. La variable dependiente (<emphasis effect="italics">y</emphasis>) es la cantidad, en dólares, que gana Svetlana por cada sesión.</para>
+<para id="element-9">La intersección en <emphasis effect="italics">y</emphasis>es 25 (<emphasis effect="italics">a</emphasis> = 25). Al inicio de la sesión de tutoría, Svetlana cobra una cuota única de 25 dólares (esto es cuando <emphasis effect="italics">x</emphasis> = 0). La pendiente es 15 (<emphasis effect="italics">b</emphasis> = 15). En cada sesión, Svetlana gana 15 dólares por cada hora de tutoría.</para>
+</solution>
+</exercise>
+</example>
+<note id="fs-idp5590144" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+
+<exercise id="eip-972">
+<problem id="eip-854">
+  <para id="eip-379">Ethan repara electrodomésticos como lavavajillas y frigoríficos. Por cada visita, cobra 25 dólares más 20 dólares por hora de trabajo. Una ecuación lineal que expresa la cantidad total de dinero que gana Ethan por visita es <emphasis effect="italics">y</emphasis> = 25 + 20<emphasis effect="italics">x</emphasis>.</para>
+<para id="eip-idm158116832">¿Cuáles son las variables independientes y dependientes? ¿Cuál es la intercepción en <emphasis effect="italics">y</emphasis>y cuál es la pendiente? Interprételos utilizando oraciones completas.</para>
+</problem>
+</exercise>
+
+</note>
+</section><section id="eip-746" class="references"><title>Referencias</title><para id="eip-idp123435600">Datos de los Centros para el Control y la Prevención de Enfermedades.</para>
+<para id="eip-idp89356864">Datos del Centro Nacional de notificación de casos de gripe y prevención de TB de la agencia.</para></section><section id="eip-645" class="summary">
+<title>Revisión del capítulo</title>
+<para id="fs-idm110721248">El tipo más básico de asociación es la asociación lineal. Este tipo de relación se puede definir algebraicamente mediante las ecuaciones usadas, numéricamente con los valores de los datos reales o previstos o gráficamente a partir de una curva trazada (las líneas se clasifican como curvas rectas). Algebraicamente, una ecuación lineal suele tener la forma <emphasis><emphasis effect="italics">y = mx + b</emphasis></emphasis>, donde <emphasis><emphasis effect="italics">m</emphasis></emphasis> y <emphasis><emphasis effect="italics">b</emphasis></emphasis> son constantes, <emphasis><emphasis effect="italics">x</emphasis></emphasis> es la variable independiente <emphasis><emphasis effect="italics">y</emphasis></emphasis> es la variable dependiente. En un contexto estadístico, una ecuación lineal se escribe de la forma <emphasis><emphasis effect="italics">y = a + bx</emphasis></emphasis>, donde <emphasis><emphasis effect="italics">a</emphasis></emphasis> y <emphasis><emphasis effect="italics">b</emphasis></emphasis> son las constantes. Esta forma se utiliza para ayudar a los lectores a distinguir el contexto estadístico del contexto algebraico. En la ecuación <emphasis effect="italics">y = a + bx</emphasis>, la constante <emphasis effect="italics">b</emphasis>, llamada coeficiente, representa la <emphasis>pendiente</emphasis>. La constante a recibe el nombre de intersección en <emphasis effect="italics">y</emphasis>.</para>
+<para id="eip-957">La <emphasis>pendiente de una línea</emphasis> es un valor que describe la tasa de cambio entre las variables independiente y dependiente. La <emphasis>pendiente</emphasis> nos indica cómo cambia la variable dependiente (<emphasis effect="italics">y</emphasis>) por cada incremento unitario de la variable independiente (<emphasis effect="italics">x</emphasis>) , en promedio. La <emphasis>intersección en<emphasis effect="italics">y</emphasis></emphasis> se utiliza para describir la variable dependiente cuando la variable independiente es igual a cero.</para>
+</section>
+
+<section id="eip-190" class="formula-review">
+<title>Revisión de la fórmula</title>
+<para id="eip-110"><emphasis effect="italics">y</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis> donde <emphasis effect="italics">a</emphasis> es la intersección en <emphasis effect="italics">y</emphasis>y <emphasis effect="italics">b</emphasis> es la pendiente. La variable <emphasis effect="italics">x</emphasis> es la variable independiente, a la vez que la <emphasis effect="italics">y</emphasis> es la variable dependiente.</para></section>
+
+<section id="eip-178" class="practice">
+<para id="eip-96"><emphasis effect="italics">Utilice la siguiente información para responder los próximos tres ejercicios</emphasis>. Un centro vacacional alquila equipos de buceo a buceadores certificados. El complejo cobra una tarifa inicial de 25 dólares y otra de 12,50 dólares por hora.</para>
+
+<exercise id="eip-510">
+<problem id="eip-230">
+  <para id="eip-346">¿Cuáles son las variables dependientes e independientes?</para>
+</problem>
+
+<solution id="eip-241">
+  <para id="eip-648">variable dependiente: monto de la tarifa; variable independiente: tiempo</para>
+</solution>
+</exercise>
+
+<exercise id="eip-683"><problem id="eip-674">
+  <para id="eip-265">Halle la ecuación que expresa la tarifa total en función del número de horas de alquiler del equipo.</para>
+</problem></exercise><exercise id="eip-325">
+<problem id="eip-705">
+  <para id="eip-754">Grafique la ecuación del <link target-id="eip-683"/>.</para></problem>
+
+<solution id="eip-307">
+<figure id="fs-idm133416208"><media id="eip-idp89831856" alt="Este es un gráfico de la ecuación y = 25 + 12,50x. El eje de la x está marcado en intervalos de 1 desde 0 a 7; el eje de la y está marcado en intervalos de 25 desde 0 a 100. El gráfico de la ecuación es una línea que cruza el eje de la y en 25 y tiene una pendiente hacia arriba y hacia la derecha, subiendo 12,50 unidades por cada unidad de recorrido." display="block">
+<image mime-type="image/jpeg" src="../../media/CNX_Stats_C012_M02_item001anno.jpg" width="380"/>
+</media></figure>
+</solution>
+</exercise>
+
+<para id="eip-128"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios</emphasis>. Una compañía de tarjetas de crédito cobra 10 dólares por cada pago retrasado y 5 dólares por cada día de mora.</para><exercise id="eip-23"><problem id="eip-775">
+  <para id="eip-592">Halle la ecuación que expresa la tarifa total en función del número de días de retraso en el pago.</para></problem></exercise><exercise id="eip-22"><problem id="eip-869">
+  <para id="eip-861">Grafique la ecuación del <link target-id="eip-23"/>.
+  </para></problem>
+
+<solution id="eip-579">
+<figure id="fs-idp120210480"><media id="eip-idp116656032" alt="Este es un gráfico de la ecuación y = 10 + 5x. El eje de la x está marcado en intervalos de 1 desde 0 a 7; el eje de la y está marcado en intervalos de 10 desde 0 a 50. El gráfico de la ecuación es una línea que cruza el eje de la y en 10 y tiene una pendiente hacia arriba y hacia la derecha, subiendo 5 unidades por cada unidad de recorrido." display="block">
+  <image mime-type="image/jpeg" src="../../media/CNX_Stats_C012_M02_item002anno.jpg" width="380"/>
+</media></figure>
+</solution>
+</exercise>
+
+<exercise id="eip-337"><problem id="eip-235">
+  <para id="eip-891">¿Es lineal la ecuación <emphasis effect="italics">y</emphasis> = 10 + 5<emphasis effect="italics">x</emphasis> - 3<emphasis effect="italics">x</emphasis><sup>2</sup>? ¿Por qué sí o por qué no?
+  </para></problem></exercise><exercise id="eip-740"><problem id="eip-940">
+  <para id="eip-924">¿Cuáles de las siguientes ecuaciones son lineales?</para>
+
+<para id="eip-idm139280304">a. <emphasis effect="italics">y</emphasis> = 6<emphasis effect="italics">x</emphasis> + 8</para><para id="eip-idm178729312">b. <emphasis effect="italics">y</emphasis> + 7 = 3<emphasis effect="italics">x</emphasis></para><para id="eip-idm156515616">c. <emphasis effect="italics">y</emphasis> - <emphasis effect="italics">x</emphasis> = 8<emphasis effect="italics">x</emphasis><sup>2</sup></para><para id="eip-idm183078944">d. 4<emphasis effect="italics">y</emphasis> = 8</para></problem>
+<solution id="eip-530">
+<para id="eip-618"><emphasis effect="italics">y</emphasis> = 6<emphasis effect="italics">x</emphasis> + 8, 4<emphasis effect="italics">y</emphasis> = 8, and <emphasis effect="italics">y</emphasis> + 7 = 3<emphasis effect="italics">x</emphasis> son todas ecuaciones lineales.</para></solution>
+</exercise>
+
+<exercise id="eip-675"><problem id="eip-297">
+<para id="eip-298">¿Muestra el gráfico una ecuación lineal? ¿Por qué sí o por qué no?</para>
+<figure id="fs-idm48879424"><media id="eip-idp1549088" alt="Este es el gráfico de una ecuación. El eje de la x está marcado en intervalos de 1 desde -5 a 5; el eje de la y está marcado en intervalos de 1 desde 0 a 8. El gráfico de la ecuación es una parábola, una curva en forma de U que tiene un valor mínimo en (0, 0)." display="block">
+  <image mime-type="image/jpeg" src="../../media/CNX_Stats_C012_M02_item003.jpg" width="380"/>
+</media></figure>
+</problem></exercise><para id="element-532">La <link target-id="element-806" document=""/> contiene datos reales de las dos primeras décadas de presentación de informes sobre la gripe.</para><table id="element-806" summary="This table presents the year of reporting flu cases and deaths in the first column, number of flu cases diagnosed in the second column, and number of flu deaths in the third column."><title>Solo adultos y adolescentes, Estados Unidos </title>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>
+              <emphasis>Año </emphasis>
+            </entry>
+            <entry>
+              <emphasis>N.º casos de gripe diagnosticados</emphasis>
+            </entry>
+            <entry>
+              <emphasis>N.º muertes por gripe </emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>Antes de 1981</entry>
+            <entry>91</entry>
+            <entry>29</entry>
+          </row>
+          <row>
+            <entry>1981</entry>
+            <entry>319</entry>
+            <entry>121</entry>
+          </row>
+          <row>
+            <entry>1982</entry>
+            <entry>1.170</entry>
+            <entry>453</entry>
+          </row>
+          <row>
+            <entry>1983</entry>
+            <entry>3.076</entry>
+            <entry>1.482</entry>
+          </row>
+          <row>
+            <entry>1984</entry>
+            <entry>6.240</entry>
+            <entry>3.466</entry>
+          </row>
+          <row>
+            <entry>1985</entry>
+            <entry>11.776</entry>
+            <entry>6.878</entry>
+          </row>
+          <row>
+            <entry>1986</entry>
+            <entry>19.032</entry>
+            <entry>11.987</entry>
+          </row>
+          <row>
+            <entry>1987</entry>
+            <entry>28.564</entry>
+            <entry>16.162</entry>
+          </row>
+          <row>
+            <entry>1988</entry>
+            <entry>35.447</entry>
+            <entry>20.868</entry>
+          </row>
+          <row>
+            <entry>1989</entry>
+            <entry>42.674</entry>
+            <entry>27.591</entry>
+          </row>
+          <row>
+            <entry>1990</entry>
+            <entry>48.634</entry>
+            <entry>31.335</entry>
+          </row>
+          <row>
+            <entry>1991</entry>
+            <entry>59.660</entry>
+            <entry>36.560</entry>
+          </row>
+          <row>
+            <entry>1992</entry>
+            <entry>78.530</entry>
+            <entry>41.055</entry>
+          </row>
+          <row>
+            <entry>1993</entry>
+            <entry>78.834</entry>
+            <entry>44.730</entry>
+          </row>
+          <row>
+            <entry>1994</entry>
+            <entry>71.874</entry>
+            <entry>49.095</entry>
+          </row>
+          <row>
+            <entry>1995</entry>
+            <entry>68.505</entry>
+            <entry>49.456</entry>
+          </row>
+          <row>
+            <entry>1996</entry>
+            <entry>59.347</entry>
+            <entry>38.510</entry>
+          </row>
+          <row>
+            <entry>1997</entry>
+            <entry>47.149</entry>
+            <entry>20.736</entry>
+          </row>
+          <row>
+            <entry>1998</entry>
+            <entry>38.393</entry>
+            <entry>19.005</entry>
+          </row>
+          <row>
+            <entry>1999</entry>
+            <entry>25.174</entry>
+            <entry>18.454</entry>
+          </row>
+          <row>
+            <entry>2000</entry>
+            <entry>25.522</entry>
+            <entry>17.347</entry>
+          </row>
+          <row>
+            <entry>2001</entry>
+            <entry>25.643</entry>
+            <entry>17.402</entry>
+          </row>
+          <row>
+            <entry>2002</entry>
+            <entry>26.464</entry>
+            <entry>16.371</entry>
+          </row>
+          <row>
+            <entry>
+              <emphasis>Total</emphasis>
+            </entry>
+            <entry>
+              <emphasis>802.118</emphasis>
+            </entry>
+            <entry>
+              <emphasis>489.093</emphasis>
+            </entry>
+          </row>
+        </tbody>
+
+
+
+
+</tgroup>
+</table><exercise id="element-352">
+<problem id="id3310573">
+  <para id="element-843">Utilice las columnas "año" y "N.º casos diagnosticados de gripe". ¿Por qué el "año" es la variable independiente y el "N.º de casos diagnosticados de gripe" la variable dependiente (en lugar de la inversa)?</para></problem>
+<solution id="fs-idm135570288">
+<para id="fs-idm96391920">El número de casos de gripe depende del año. Por lo tanto, el año se convierte en la variable independiente y el número de casos de gripe es la variable dependiente.</para></solution>
+</exercise>
+
+<para id="eip-768"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios</emphasis>. Una empresa de limpieza especializada cobra una tarifa por el equipo y una tarifa por hora de trabajo. Una ecuación lineal que expresa el monto total de la tarifa que la empresa cobra por cada sesión es <emphasis effect="italics">y</emphasis> = 50 + 100<emphasis effect="italics">x</emphasis>.</para><exercise id="eip-177"><problem id="eip-319">
+<para id="eip-869a">¿Cuáles son las variables independientes y dependientes?</para>
+</problem></exercise><exercise id="eip-188">
+<problem id="eip-782">
+  <para id="eip-874">¿Cuál es la intercepción en <emphasis effect="italics">y</emphasis> y cuál es la pendiente? Interprételos utilizando oraciones completas.</para></problem>
+
+<solution id="eip-978">
+  <para id="eip-59">La intersección em <emphasis effect="italics">y</emphasis>es 50 (<emphasis effect="italics">a</emphasis> = 50). Al comienzo de la limpieza, la empresa cobra una tarifa única de 50 dólares (esto es cuando <emphasis effect="italics">x</emphasis> = 0). La pendiente es 100 (<emphasis effect="italics">b</emphasis> = 100). Por cada sesión, la empresa cobra 100 dólares por cada hora de limpieza.</para>
+</solution>
+
+</exercise>
+
+<para id="eip-492"><newline/><emphasis effect="italics">Use la siguiente información para responder las próximas tres preguntas</emphasis>. Debido a la erosión, la orilla de un río pierde varios miles de kilos de suelo cada año. Una ecuación lineal que expresa la cantidad total de suelo perdido por año es <emphasis effect="italics">y</emphasis> = 12.000<emphasis effect="italics">x</emphasis>.</para><exercise id="eip-364"><problem id="eip-154">
+  <para id="eip-161a">¿Cuáles son las variables independientes y dependientes?</para></problem></exercise><exercise id="eip-160"><problem id="eip-362">
+  <para id="eip-149">¿Cuántos kilos de suelo pierde la costa en un año?</para></problem>
+
+<solution id="eip-642">
+  <para id="eip-779">12.000 libras de suelo</para>
+</solution>
+</exercise>
+
+<exercise id="eip-67"><problem id="eip-517">
+  <para id="eip-924a">¿Cuál es la intersección en <emphasis effect="italics">y</emphasis>? Interprete su significado.</para></problem></exercise><para id="eip-120"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios</emphasis>. El precio de una sola emisión de acciones puede fluctuar a lo largo del día. Una ecuación lineal que representa el precio de las acciones de Shipment Express es <emphasis effect="italics">y</emphasis> = 15 - 1,5<emphasis effect="italics">x</emphasis> donde <emphasis effect="italics">x</emphasis> es el número de horas transcurridas en un día de ocho horas de negociación.</para><exercise id="eip-761">
+<problem id="eip-626">
+  <para id="eip-88">¿Cuáles son la pendiente y la intersección en <emphasis effect="italics">y</emphasis>? Interprete su significado.
+  </para></problem>
+
+<solution id="eip-1000">
+  <para id="eip-591">La pendiente es –1,5 (<emphasis effect="italics">b</emphasis> = –1,5). Esto significa que las acciones se desvalorizan a un ritmo de 1,50 dólares por hora. La intersección en <emphasis effect="italics">y</emphasis> es de 15 dólares (<emphasis effect="italics">a</emphasis> = 15). Esto significa que el precio de las acciones antes del día de negociación era de 15 dólares.</para></solution>
+</exercise>
+
+<exercise id="eip-227"><problem id="eip-417">
+  <para id="eip-965">Si tuviera esta acción, ¿querría una pendiente positiva o negativa? ¿Por qué?</para></problem></exercise></section>
+
+<section id="fs-idm70124224" class="free-response">
+<title>Tarea para la casa</title>
+<exercise id="element-367">
+<problem id="id44884101">
+<para id="element-921">Para cada una de las siguientes situaciones, indique la variable independiente y la variable dependiente.</para>
+<list id="element-741" list-type="enumerated" number-style="lower-alpha">
+<item>Se realiza un estudio para determinar si los conductores de edad avanzada están implicados en más accidentes de tráfico que otros conductores. El número de víctimas mortales por cada 100.000 conductores se compara con la edad de los conductores.</item>
+<item>Se realiza un estudio para determinar si la factura semanal de la compra de comestibles cambia en función del número de integrantes de la familia.</item>
+<item>Las compañías de seguros basan las primas de los seguros de vida parcialmente en la edad del solicitante.</item>
+<item>Las facturas de los servicios públicos varían según el consumo de energía.</item>
+<item>Se realiza un estudio para determinar si la educación superior reduce el índice de delincuencia en una población.</item>
+    </list>
+</problem>
+
+<solution id="id44884342">
+<list id="fs-idm263168" list-type="enumerated" number-style="lower-alpha">
+<item>variable independiente: edad; variable dependiente: víctimas mortales</item>
+<item>variable independiente: número de integrantes de la familia; variable dependiente: factura de compra de comestibles</item>
+<item>variable independiente: edad del solicitante; variable dependiente: prima de seguro</item>
+<item>variable independiente: consumo de energía; variable dependiente: factura de servicio</item>
+<item>variable independiente: educación superior (años); variable dependiente: índices de delincuencia</item>
+</list>
+</solution>
+</exercise>
+<exercise id="fs-idm114941024"><problem id="fs-idm130118464">
+<para id="fs-idm128829552">Los sistemas de pago a destajo son planes de pago de incentivos ampliamente debatidos. En un estudio reciente sobre la eficacia de los agentes de crédito, se examinó el siguiente sistema de pago a destajo:</para>
+<table id="fs-idm107180912" summary="..">
+<title/>
+<tgroup cols="5">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<tbody>
+<row>
+<entry>% alcanzado de la meta</entry>
+<entry>&lt; 80</entry>
+<entry>80</entry>
+<entry>100</entry>
+<entry>120</entry>
+</row>
+<row>
+<entry>Incentivo</entry>
+<entry>n/a</entry>
+<entry>4.000 dólares, con 125 dólares adicionales por cada punto porcentual entre ell 81 y el 99 %</entry>
+<entry>6.500 dólares, con 125 dólares adicionales por cada punto porcentual entre el 101 y el 119 %</entry>
+<entry>9.500 dólares con 125 dólares adicionales por cada punto porcentual a partir del 121 %</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-idm114950432">Si un agente de crédito alcanza el 95 % de su meta, escriba la función lineal que se aplica en función de la tabla del plan de incentivos. En el contexto, explique la intersección en <emphasis effect="italics">y</emphasis>, así como la pendiente.</para></problem></exercise></section>
+ </content>
+</document>

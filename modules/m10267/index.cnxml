@@ -1,0 +1,109 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="introduction">
+  <title>Introduction</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10267</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>81008e53-b2af-4b06-9536-c2ef7a80e81a</md:uuid>
+</metadata>
+
+<content>
+  <figure id="fs-idp3364000" class="splash"><media id="fs-idp63701744" alt="Esta foto muestra muchos pares de zapatos diferentes de varios colores. Los zapatos parecen estar colgados de una pared por los cordones.">
+<image mime-type="image/jpg" src="../../media/CNX_Stats_C06_CON.jpg" width="500"/>
+</media>
+<caption>Si le pregunta a un número suficiente de personas por su talla de calzado, comprobará que los datos representados en el gráfico tienen la forma de una curva de campana y se pueden describir como normalmente distribuidos (crédito: Ömer Ünlϋ).</caption></figure><para id="intro001">La función de densidad de probabilidad normal, una distribución continua, es la más importante de todas las distribuciones. Su uso está muy extendido y su abuso aun más. Su gráfico tiene forma de campana. La curva de campana se ve en casi todas las disciplinas. Algunas de ellas son psicología, negocios, economía, ciencias, enfermería y, por supuesto, matemáticas. Algunos de sus instructores pueden utilizar la distribución normal para ayudar a determinar su calificación. La mayoría de las calificaciones de coeficiente intelectual (Intelligence Quotient, IQ) se distribuyen normalmente. A menudo, los precios de los inmuebles se ajustan a una distribución normal. </para><para id="eip-884">La distribución normal es muy importante, pero no se puede aplicar a todo en el mundo real. Recuerde que todavía estamos hablando de la distribución de los datos de la población. Se trata de una discusión sobre la probabilidad y, por tanto, son los datos de la población los que pueden estar distribuidos normalmente, y si lo están, entonces es así como podemos encontrar las probabilidades de eventos específicos al igual que hicimos con los datos de la población que pueden tener una distribución binomial o de Poisson. Esta precaución se debe a que en el próximo capítulo veremos que la distribución normal describe algo muy diferente de los datos brutos y constituye la base de la estadística inferencial.</para><para id="element-915">La distribución normal tiene dos parámetros (dos medidas numéricas descriptivas): la media (<emphasis effect="italics">μ</emphasis>) y la desviación típica (<emphasis effect="italics">σ</emphasis>). Si <emphasis effect="italics">X</emphasis> es una cantidad que se va a medir que tiene una distribución normal con media(<emphasis effect="italics">μ</emphasis>) y desviación típica(<emphasis effect="italics">σ</emphasis>), la designamos escribiendo la siguiente fórmula de la función de densidad de probabilidad normal:</para><figure id="fs-idm13606720"><media id="id42732641" alt="Esta es una curva de frecuencia para una distribución normal. Muestra un único pico en el centro con la curva que disminuye hacia el eje horizontal a cada lado. La distribución es simétrica; representa que la variable aleatoria X tiene una distribución normal con una media, m, y una desviación típica, s.">
+<image src="../../media/fig-ch06_01_01n.jpg" mime-type="image/jpg" width="450"/></media></figure><para id="element-979">La función de densidad de probabilidad es una función bastante complicada. <emphasis>No la memorice</emphasis>. No es necesario.</para>
+<equation id="eip-761" class="unnumbered"><label/><m:math><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mi>σ</m:mi><m:mo>⋅</m:mo><m:msqrt>
+     <m:mrow>
+      <m:mn>2</m:mn><m:mo>⋅</m:mo><m:mi>π</m:mi>
+     </m:mrow>
+    </m:msqrt>
+    
+   </m:mrow>
+  </m:mfrac>
+  <m:mo> </m:mo><m:mo>⋅</m:mo><m:msup>
+   <m:mrow>
+    <m:mtext> e</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>⋅</m:mo><m:msup>
+     <m:mrow>
+      <m:mo stretchy="true">(</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>μ</m:mi>
+       </m:mrow>
+       <m:mi>σ</m:mi>
+      </m:mfrac>
+      <m:mo stretchy="true">)</m:mo>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    
+   </m:mrow>
+  </m:msup>
+  
+ </m:mrow>
+</m:math></equation><para id="element-396">La curva es simétrica respecto a una línea vertical que pasa por la media, <emphasis effect="italics">μ</emphasis>. La media es la misma que la mediana, que es la misma que la moda, porque la gráfica es simétrica respecto a <emphasis effect="italics">μ</emphasis>. Como indica la notación, la distribución normal solo depende de la media y de la desviación típica. Observe que esto es diferente a varias funciones de densidad de probabilidad que ya hemos estudiado, como la de Poisson, donde la media es igual a <m:math><m:mi>μ</m:mi></m:math> y la desviación típica simplemente la raíz cuadrada de la media, o la binomial, donde <emphasis effect="italics">p</emphasis> se utiliza para determinar tanto la media como la desviación típica. Dado que el área bajo la curva debe ser igual a uno, un cambio en la desviación típica, <emphasis effect="italics">σ</emphasis>, provoca un cambio en la forma de la curva normal; la curva se vuelve más abultada y ancha o más delgada y alta dependiendo de <emphasis effect="italics">σ</emphasis>. Un cambio en <emphasis effect="italics">μ</emphasis> hace que el gráfico se desplace a la izquierda o a la derecha. Esto significa que hay un número infinito de distribuciones de probabilidad normales. Una de las más interesantes es la llamada <emphasis>distribución normal estándar</emphasis>.</para><section id="fs-idm30369536" class="formula-review"><title>Revisión de la fórmula</title><para id="fs-idp6996576"><emphasis effect="italics">X</emphasis> ∼ <emphasis effect="italics">N</emphasis>(<emphasis effect="italics">μ</emphasis>, <emphasis effect="italics">σ</emphasis>)</para><para id="fs-idp6873424">
+<list list-type="labeled-item" display="inline">
+<item><emphasis effect="italics">μ</emphasis> = la media</item>
+<item><emphasis effect="italics">σ</emphasis> = la desviación típica</item>
+</list></para>
+</section> </content>
+
+<glossary>
+<definition id="normdist">
+<term>Distribución normal</term>
+<meaning id="id42733014">una variable aleatoria (random variable, RV) continua con función de distribución de probabilidad (pdf) <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mi>σ</m:mi><m:msqrt>
+     <m:mrow>
+      <m:mn>2</m:mn><m:mi>π</m:mi>
+     </m:mrow>
+    </m:msqrt>
+    
+   </m:mrow>
+  </m:mfrac>
+  <m:msup>
+   <m:mrow>
+    <m:mtext> e</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mo>–</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>–</m:mo><m:mtext> </m:mtext><m:mi>μ</m:mi><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mrow>
+        <m:mn>2</m:mn><m:msup>
+         <m:mi>σ</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        
+       </m:mrow>
+      </m:mfrac>
+      
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    
+   </m:mrow>
+  </m:msup>
+  
+ </m:mrow>
+</m:math>, donde <emphasis effect="italics">μ</emphasis> es la media de la distribución y <emphasis effect="italics">σ</emphasis> es la desviación típica; notación: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(<emphasis effect="italics">μ</emphasis>, <emphasis effect="italics">σ</emphasis>). Si <emphasis effect="italics">μ</emphasis> = 0 y <emphasis effect="italics">σ</emphasis> = 1, la RV, Z, se llama <emphasis>distribución normal estándar</emphasis>.</meaning>
+</definition>
+</glossary>
+</document>

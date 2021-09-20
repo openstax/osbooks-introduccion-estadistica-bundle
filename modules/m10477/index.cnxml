@@ -1,0 +1,92 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Hypothesis Testing for Two Means and Two Proportions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10477</md:content-id>
+  <md:title>Hypothesis Testing for Two Means and Two Proportions</md:title>
+  <md:abstract/>
+  <md:uuid>70147cc6-9b41-4bab-bd13-8b49ae350522</md:uuid>
+</metadata>
+
+<content>
+  <note id="fs-id1918441" class="statistics lab"><label/><title>Prueba de hipótesis para dos medias y dos proporciones </title>
+<para id="id5260693">Hora de la clase: </para>
+<para id="id6186867">Nombres:</para>
+<para id="fs-idm110643216"><title>Resultados del aprendizaje de los estudiantes</title></para>
+<list id="id3866304" list-type="bulleted">
+<item>El estudiante seleccionará las distribuciones adecuadas para utilizar en cada caso.</item>
+<item>El estudiante realizará pruebas de hipótesis e interpretará los resultados.</item>
+</list> <list id="id6083673" list-type="bulleted">
+<title>Suministros:</title>
+<item>la sección de negocios de los periódicos de dos días consecutivos</item>
+<item>tres paquetes pequeños de M&amp;Ms®.</item>
+<item>cinco paquetes pequeños de Reese's Pieces®.</item>
+</list>
+<para id="element-304"><title>Encuesta sobre el aumento de las acciones</title><newline/>Observe la sección de negocios del periódico de ayer. Realice una prueba de hipótesis para determinar si la proporción de acciones de la Bolsa de Nueva York (New York Stock Exchange, NYSE) que aumentó es mayor que la proporción de acciones de Cotizaciones Automatizadas de la Asociación Nacional de Agentes de Valores (National Association of Securities Dealers Automated Quotations, NASDAQ) que aumentó. De la forma más aleatoria posible, elija 40 acciones de la NYSE y 32 de NASDAQ y complete las siguientes afirmaciones.
+</para><list id="list-86476434" list-type="enumerated" mark-suffix=".">
+<item><emphasis effect="italics">H<sub>0</sub>: _________</emphasis></item>
+<item><emphasis effect="italics">H<sub>a</sub>: _________</emphasis></item>
+<item>En palabras, defina la variable aleatoria.</item>
+<item>La distribución que se va a usar para la prueba es _____________.</item>
+<item>Calcule el estadístico de prueba con sus datos.</item>
+<item>Dibuje un gráfico y etiquételo adecuadamente. Sombree el nivel de significación real. <list id="list-875872354" list-type="enumerated" number-style="lower-alpha">
+<item>Gráfico:
+<figure id="id6690350"><media id="id6690354" alt="Esta es una plantilla de gráfico en blanco. Los ejes vertical y horizontal no están identificados."><image src="../../media/fig-ch10_11_02.png" mime-type="image/png" width="380"/></media></figure></item>
+<item>Calcule el valor <emphasis effect="italics">p</emphasis>.</item>
+</list>
+</item>
+<item>¿Rechaza o no rechaza la hipótesis nula? ¿Por qué?</item>
+<item>Escriba una conclusión clara con una oración completa.</item>
+</list>
+<para id="element-687">
+<title>Encuesta sobre la disminución de las acciones</title>
+<newline/>Elija al azar ocho acciones del periódico. Utilizando las secciones comerciales de dos días consecutivos, compruebe si las acciones bajaron, en promedio, el segundo día.</para>
+<list id="element-926" list-type="enumerated" mark-suffix="."><item><emphasis effect="italics">H<sub>0</sub></emphasis>: ________</item>
+<item><emphasis effect="italics">H<sub>a</sub>: ________</emphasis></item>
+<item>En palabras, defina la variable aleatoria.</item>
+<item>La distribución que se va a usar para la prueba es _____________.</item>
+<item>Calcule el estadístico de prueba con sus datos.</item>
+<item>Dibuje un gráfico y etiquételo adecuadamente. Sombree el nivel de significación real. <list id="list-8758723552564" list-type="enumerated" number-style="lower-alpha">
+<item>Gráfico:<figure id="id8343352"><media id="id8343356" alt="Esta es una plantilla de gráfico en blanco. Los ejes vertical y horizontal no están identificados."><image src="../../media/fig-ch10_11_02.png" mime-type="image/png" width="380"/></media></figure></item>
+<item>Calcule el valor <emphasis effect="italics">p</emphasis>:</item>
+</list>
+</item>
+<item>¿Rechaza o no rechaza la hipótesis nula? ¿Por qué?</item>
+<item>Escriba una conclusión clara con una oración completa.</item>
+</list>
+<para id="element-97568234">
+<title>Encuesta sobre caramelos</title>
+Compre tres paquetes pequeños de M&amp;Ms y cinco paquetes pequeños de Reese's Pieces (el mismo peso neto que los M&amp;Ms). Compruebe si el número medio de caramelos por paquete es el mismo para las dos marcas.</para><list id="list343" mark-suffix="." list-type="enumerated">
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: ________</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: ________</item>
+<item>En palabras, defina la variable aleatoria.</item>
+<item>¿Qué distribución debería utilizarse para esta prueba?</item>
+<item>Calcule el estadístico de prueba con sus datos.</item>
+<item>Dibuje un gráfico y etiquételo adecuadamente. Sombree el nivel de significación real. <list id="list-896293765" list-type="enumerated" number-style="lower-alpha">
+<item>Gráfico:<figure id="id8343564"><media id="id8343568" alt="Esta es una plantilla de gráfico en blanco. Los ejes vertical y horizontal no están identificados."><image src="../../media/fig-ch10_11_03.png" mime-type="image/png" width="380"/></media></figure></item>
+<item>Calcule el valor <emphasis effect="italics">p</emphasis>.</item>
+</list>
+</item>
+<item>¿Rechaza o no rechaza la hipótesis nula? ¿Por qué?</item>
+<item>Escriba una conclusión clara con una oración completa.</item>
+</list>
+<para id="element-858234">
+<title>Encuesta sobre zapatos</title>
+Compruebe si las mujeres tienen, en promedio, más pares de zapatos que los hombres. Incluya todas las formas de zapatillas deportivas, zapatos, sandalias y botas. Utilice su clase como muestra.</para>
+<list id="list287" list-type="enumerated" mark-suffix=".">
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: ________</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: ________</item>
+<item>En palabras, defina la variable aleatoria.</item>
+<item>La distribución que debería utilizar para la prueba es ________________.</item>
+<item>Calcule el estadístico de prueba con sus datos.</item>
+<item>Dibuje un gráfico y etiquételo adecuadamente. Sombree el nivel de significación real. <list id="list-8758723875552564" list-type="enumerated" number-style="lower-alpha">
+<item>Gráfico:<figure id="id8357842"><media id="id8357847" alt="Esta es una plantilla de gráfico en blanco. Los ejes vertical y horizontal no están identificados."><image src="../../media/fig-ch10_11_04.png" mime-type="image/png" width="380"/></media></figure></item>
+<item>Calcule el valor <emphasis effect="italics">p</emphasis>.</item>
+</list>
+</item>
+<item>¿Rechaza o no rechaza la hipótesis nula? ¿Por qué?</item>
+<item>Escriba una conclusión clara con una oración completa.</item>
+</list>
+</note> </content>
+
+</document>

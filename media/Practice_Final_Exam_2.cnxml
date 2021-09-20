@@ -1,0 +1,894 @@
+﻿<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7" class="practice">
+  <title>Práctica del examen final 2</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>http://staging2.cnx.org/content</md:repository>
+  <md:content-id>new</md:content-id>
+  <md:title>Práctica del examen final 2</md:title>
+  <md:version>**new**</md:version>
+  <md:created>2013/10/18 02:13:03.810 GMT-5</md:created>
+  <md:revised>2013/10/18 02:13:03.866 GMT-5</md:revised>
+  <md:actors>
+    <md:person userid="words_stats">
+      <md:firstname>Words</md:firstname>
+      <md:surname>Numbers</md:surname>
+      <md:fullname>Words Numbers</md:fullname>
+      <md:email>techsupport@cnx.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">words_stats</md:role>
+    <md:role type="maintainer">words_stats</md:role>
+    <md:role type="licensor">words_stats</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/3.0/" />
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:subjectlist>
+    <md:subject>Mathematics and Statistics</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+<exercise id="element-309">
+<problem id="id20764630">
+  <para id="element-62">Se hizo un estudio para determinar la proporción de adolescentes que tienen un automóvil. La proporción de población de adolescentes que tienen un automóvil es la: <list id="id5746626" list-type="enumerated" number-style="lower-alpha">
+        <item>estadístico.</item>
+        <item>parámetro.</item>
+        <item>población.</item>
+        <item>variable.</item>
+      </list>
+  </para></problem>
+
+<solution id="id20764712">
+  <para id="element-89">b. parámetro.</para></solution>
+</exercise><para id="element-429"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios:</emphasis></para><table id="id7687162" summary="">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+<thead> <row>
+              <entry>valor</entry>
+              <entry>frecuencia</entry>
+            </row></thead>
+          <tbody>
+           
+            <row>
+              <entry>0</entry>
+              <entry>1</entry>
+            </row>
+ <row>
+              <entry>1</entry>
+              <entry>4</entry>
+            </row>
+ <row>
+              <entry>2</entry>
+              <entry>7</entry>
+            </row>
+ <row>
+              <entry>3</entry>
+              <entry>9</entry>
+            </row>
+ <row>
+              <entry>6</entry>
+              <entry>4</entry>
+            </row>
+          </tbody>
+        
+</tgroup>
+</table>
+<exercise id="element-206">
+<problem id="id21382520">
+  <para id="element-907">El diagrama de caja para los datos es:</para>
+
+<list id="box-whisker" list-type="enumerated" number-style="lower-alpha">
+
+<item><figure id="fs-idm177108000"><media id="id21382572" alt=""><image src="atat1.png" mime-type="image/png" width="270"/></media></figure></item>
+
+<item><figure id="fs-idm83873792"><media id="id21382602" alt=""><image src="atat2.png" mime-type="image/png" width="270"/></media></figure></item>
+
+<item><figure id="fs-idp63183856"><media id="id21382632" alt=""><image src="atat3.png" mime-type="image/png" width="270"/></media></figure></item>
+
+<item><figure id="fs-idp78213664"><media id="id21390354" alt=""><image src="atat4.png" mime-type="image/png" width="270"/></media></figure></item>
+
+</list>
+
+</problem>
+
+<solution id="id21390374">
+<para id="element-433">a.</para></solution>
+</exercise>
+
+<exercise id="element-706">
+<problem id="id21390401">
+  <para id="element-183">Si se suma seis a cada valor de los datos de la tabla, el 15<sup>o</sup> percentil de la nueva lista de valores es:</para>
+<list id="id6873752" list-type="enumerated" number-style="lower-alpha">
+        <item>seis</item>
+        <item>uno</item>
+        <item>siete</item>
+        <item>ocho</item>
+      </list>
+</problem>
+
+<solution id="id21390491">
+  <para id="element-198">c. siete</para></solution>
+</exercise>
+<para id="element-671"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios:</emphasis> Supongamos que la probabilidad de que se produzca una sequía en cualquier año independiente es del 20 %. De los años en los que se produce una sequía, la probabilidad de racionamiento de agua es del diez por ciento. Sin embargo, en cualquier año, la probabilidad de racionamiento de agua es del cinco por ciento.</para><exercise id="element-482">
+<problem id="id21390548">
+  <para id="element-147">¿Cuál es la probabilidad de que se produzca tanto una sequía como racionamiento de agua?</para>
+<list id="id7039865" list-type="enumerated" number-style="lower-alpha">
+        <item>0,05</item>
+        <item>0,01</item>
+        <item>0,02</item>
+        <item>0,30</item>
+      </list>
+</problem>
+
+<solution id="id21271205">
+  <para id="element-532">c. 0,02</para></solution>
+</exercise>
+
+<exercise id="element-815">
+<problem id="id21271232">
+  <para id="element-984">¿Cuál de las siguientes afirmaciones es cierta?</para>
+<list id="id6905387" list-type="enumerated" number-style="lower-alpha">
+        <item>La sequía y el racionamiento de agua son eventos independientes.</item>
+        <item>La sequía y el racionamiento de agua son eventos mutuamente exclusivos.</item>
+        <item>Ninguna de las anteriores.</item>
+      </list>
+</problem>
+
+<solution id="id21271310">
+  <para id="element-76">c. ninguna de las anteriores</para></solution>
+</exercise><para id="element-932"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios:</emphasis> Supongamos que una encuesta arroja los siguientes datos:
+<table id="id9329967" summary="">
+<title>Tarta favorita</title>
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>sexo</entry>
+              <entry>manzana</entry>
+              <entry>calabaza</entry>
+              <entry>pacana</entry>
+            </row>
+</thead>
+<tbody>
+            <row>
+              <entry>mujer</entry>
+              <entry>40</entry>
+              <entry>10</entry>
+              <entry>30</entry>
+            </row>
+            <row>
+              <entry>hombre</entry>
+              <entry>20</entry>
+              <entry>30</entry>
+              <entry>10</entry>
+            </row>
+          </tbody>
+        
+</tgroup>
+</table>
+</para><!--CONTINUE HERE-->
+
+<exercise id="element-420">
+<problem id="id21271561">
+  <para id="element-347">Supongamos que se elige una persona al azar. La probabilidad de que la tarta favorita de la persona sea de manzana o de que la persona sea hombre es _____.</para><list id="id7656746" list-type="enumerated" number-style="lower-alpha">
+<item><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>40</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>60</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+        <item><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>60</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>140</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+        <item><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>120</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>140</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+        <item><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>100</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>140</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+      </list>
+</problem>
+
+<solution id="id21271706">
+  <para id="element-947">d. <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>100</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>140</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math></para></solution>
+</exercise>
+
+<exercise id="element-352">
+<problem id="id21403830">
+  <para id="element-635">Supongamos que <emphasis effect="italics">H<sub>0</sub></emphasis> es: La tarta favorita y el sexo son independientes. El valor <emphasis effect="italics">p</emphasis> es ______.</para><list id="id7443667" list-type="enumerated" number-style="lower-alpha">
+<item>≈ 0</item>
+<item>1</item>
+<item>0,05</item>
+<item>no se puede determinar</item>
+</list>
+</problem>
+
+<solution id="id21403949">
+  <para id="element-865">a. ≈ 0</para></solution>
+</exercise>
+
+<para id="element-884"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios:</emphasis> Supongamos que la probabilidad de que un adulto vea las noticias, al menos, una vez a la semana sea de 0,60. Encuestamos 14 personas al azar. Nos interesa el número de personas que ven las noticias, al menos, una vez por semana.</para><exercise id="element-509">
+<problem id="id21404011">
+  <para id="element-247">¿Cuál de las siguientes afirmaciones es FALSA?</para>
+<list id="id5801192" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(14 0,60)</item>
+<item>Los valores de <emphasis effect="italics">x</emphasis> son: {1, 2, 3, ..., 14}.</item>
+<item><emphasis effect="italics">μ</emphasis> = 8,4</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = 5) = 0,0408</item>
+</list>
+</problem>
+<solution id="id21404198">
+  <para id="element-349">b. Los valores de <emphasis effect="italics">x</emphasis> son: {1, 2, 3,..., 14}</para></solution>
+</exercise>
+
+<exercise id="element-11">
+<problem id="id21404268">
+  <para id="element-531">Calcule la probabilidad de que al menos seis adultos vean las noticias al menos una vez a la semana.</para>
+      <list id="id8039037" list-type="enumerated" number-style="lower-alpha">
+<item><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>6</m:mn>
+   <m:mrow>
+    <m:mn>14</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math></item>
+<item>0,8499</item>
+<item>0,9417</item>
+<item>0,6429</item>
+      </list>
+</problem>
+
+<solution id="id21491670">
+  <para id="element-510">c: 0,9417.</para></solution>
+</exercise>
+
+<exercise id="element-277">
+<problem id="id21491698">
+  <para id="element-536">¿Qué distribución de muestreo es probable que haya generado el siguiente histograma?
+  </para>
+<figure id="fs-idm4512176"><media id="id21491726" alt="">
+<image src="desc_stats_final2_2.png" mime-type="image/png" width="270"/></media>
+</figure><list id="id7702485" list-type="enumerated" number-style="lower-alpha">
+<item>chi-cuadrado con <emphasis effect="italics">df</emphasis> = 6</item>
+<item>exponencial</item>
+<item>uniforme</item>
+<item>binomial</item>
+</list></problem>
+<solution id="id21491816">
+  <para id="element-900">d. binomial</para></solution>
+</exercise>
+
+<exercise id="fs-idp132852192">
+<problem id="fs-idm42373424">
+<para id="fs-idp162697872">Se sabe que las edades de los estudiantes diurnos y nocturnos del campus se distribuyen normalmente. Una muestra de seis estudiantes diurnos y nocturnos del campus declararon sus edades (en años) como: {18, 35, 27, 45, 20, 20}. <newline/>¿Cuál es el límite de error para el intervalo de confianza del 90 % de la edad promedio real?</para>
+<list id="fs-idp227486464" list-type="enumerated" number-style="lower-alpha">
+<item>11,2</item>
+<item>22,3</item>
+<item>17,5</item>
+<item>8,7</item>
+</list>
+</problem>
+<solution id="fs-idp230892352">
+<para id="fs-idp319852336">d. 8,7</para>
+</solution>
+</exercise>
+
+<exercise id="element-995">
+<problem id="id21492020">
+  <para id="element-18">Si una variable aleatoria con distribución normal tiene <emphasis effect="italics">µ</emphasis> = 0 y <emphasis effect="italics">σ</emphasis> = 1, entonces el 97,5 % de los valores de la población están por encima de:</para>
+ <list id="id4960914" list-type="enumerated" number-style="lower-alpha"><item>-1,96.</item>
+<item>1,96.</item>
+<item>1.</item>
+<item>-1.</item>
+      </list></problem>
+
+<solution id="id21492133">
+  <para id="element-712">a. –1,96</para></solution>
+</exercise>
+
+<para id="element-656"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios.</emphasis> Se sabe que la cantidad de dinero que un cliente gasta cuando va al supermercado tiene una distribución exponencial. Supongamos que la cantidad promedio de dinero que gasta un cliente cuando va al supermercado es de 72 dólares.</para><exercise id="element-264"><problem id="id21492190">
+  <para id="element-514">¿Cuál es la probabilidad de que un cliente gaste menos de 72 dólares en un viaje al supermercado?</para>
+<list id="id4424194" list-type="enumerated" number-style="lower-alpha">
+<item>0,6321</item>
+<item>0,5000</item>
+<item>0,3714</item>
+<item>1</item>
+</list>
+</problem>
+
+<solution id="id21492282">
+  <para id="element-867">a. 0,6321</para></solution>
+</exercise><exercise id="element-982"><problem id="id21492310">
+  <para id="element-591">¿Cuánto dinero en total espera que gasten los próximos cinco clientes en un solo viaje al supermercado (en dólares)?</para>
+<list id="id7752467" list-type="enumerated" number-style="lower-alpha">
+<item>72</item>
+<item><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mn>72</m:mn>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    
+   </m:mrow>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math></item>
+<item>5184</item>
+<item>360</item>
+      </list>
+</problem>
+
+<solution id="id21492418">
+  <para id="element-833">d. 360</para></solution>
+</exercise>
+
+<exercise id="element-701">
+<problem id="id21492447">
+  <para id="element-727">Si se quiere calcular la probabilidad de que la cantidad media de dinero que 50 clientes gastan en un viaje al supermercado sea inferior a 60 dólares, la distribución que debería utilizarse es:</para>
+
+<list id="id3684438" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">N</emphasis>(72, 72) </item>
+<item><m:math>
+ <m:mrow>
+  <m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>72</m:mn><m:mo>,</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mn>72</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:msqrt>
+       <m:mrow>
+        <m:mn>50</m:mn>
+       </m:mrow>
+      </m:msqrt>
+      
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></item>
+<item><emphasis effect="italics">Exp</emphasis>(72)</item>
+<item><m:math>
+ <m:mrow>
+  <m:mi>E</m:mi><m:mi>x</m:mi><m:mi>p</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:mn>72</m:mn>
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></item>
+      </list></problem>
+
+<solution id="id21492620">
+  <para id="element-799">b. <m:math>
+ <m:mrow>
+  <m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>72</m:mn><m:mo>,</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mn>72</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:msqrt>
+       <m:mrow>
+        <m:mn>50</m:mn>
+       </m:mrow>
+      </m:msqrt>
+      
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></para></solution>
+</exercise>
+
+<para id="element-597"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios:</emphasis> El tiempo que tarda un estudiante de cuarto grado en sacar la basura se distribuye uniformemente en el intervalo de uno a diez minutos.</para><exercise id="element-745">
+<problem id="id21492703">
+  <para id="element-66">¿Cuál es la probabilidad de que un estudiante de cuarto grado elegido al azar tarde más de siete minutos en sacar la basura?</para><list id="id3684038" list-type="enumerated" number-style="lower-alpha">
+<item><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>3</m:mn>
+   <m:mn>9</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+
+<item><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>7</m:mn>
+   <m:mn>9</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+<item><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>3</m:mn>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+
+<item><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>7</m:mn>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+</list>
+</problem>
+
+<solution id="id21492845">
+  <para id="element-290">a. <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>3</m:mn>
+   <m:mn>9</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math></para></solution>
+</exercise>
+
+<exercise id="element-623">
+<problem id="id21492879">
+  <para id="element-218">¿Qué gráfico muestra mejor la probabilidad de que un estudiante de cuarto grado elegido al azar tarde más de seis minutos en sacar la basura dado que ya ha tardado más de tres minutos?</para>
+
+<figure id="fs-idm1291472"><media id="id21492908" alt="">
+<image src="CNX_Stats_Appendix_ART_3.jpg" mime-type="image/png" width="380"/>
+</media></figure></problem>
+
+<solution id="id21492928">
+  <para id="element-864">d.</para></solution>
+</exercise>
+
+<exercise id="element-70">
+<problem id="id21492955">
+  <para id="element-822">¿Cuántos minutos deberíamos esperar que un estudiante de cuarto grado tarde en sacar la basura?</para><list id="id4564238" list-type="enumerated" number-style="lower-alpha">
+<item>4,5</item>
+<item>5,5</item>
+<item>5</item>
+<item>10</item>
+      </list>
+</problem>
+
+<solution id="id21493045">
+  <para id="element-190">b. 5,5</para></solution>
+</exercise>
+
+<para id="element-878"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios:</emphasis> Al principio del trimestre, el tiempo que un estudiante espera en la fila de la cafetería del campus se distribuye normalmente, con una media de cinco minutos y una desviación típica de 1,5 minutos.</para><exercise id="element-293"><problem id="id21493102">
+  <para id="element-435">¿Cuál es el 90<sup>o</sup> percentil de los tiempos de espera (en minutos)?</para>
+<list id="id6873434" list-type="enumerated" number-style="lower-alpha">
+<item>1,28</item>
+<item>90 </item>
+<item>7,47</item>
+<item>6,92</item></list>
+</problem>
+
+<solution id="id21493191">
+  <para id="element-985">d. 6,92</para></solution>
+</exercise>
+<exercise id="element-851"><problem id="id21493220">
+  <para id="element-847">La mediana de tiempo de espera (en minutos) para un estudiante es:</para>
+<list id="id3755447" list-type="enumerated" number-style="lower-alpha">
+<item>5.</item>
+<item>50.</item>
+<item>2,5.</item>
+<item>1,5.</item></list>
+</problem>
+
+<solution id="id21493308">
+  <para id="element-242">a. 5</para></solution>
+</exercise>
+
+<exercise id="element-27">
+<problem id="id21493336">
+  <para id="element-96">Calcule la probabilidad de que el tiempo promedio de espera de diez estudiantes sea como máximo de 5,5 minutos.
+  </para>
+<list id="id9259968" list-type="enumerated" number-style="lower-alpha">
+<item>0,6301</item>
+<item>0,8541</item>
+<item>0,3694</item>
+<item>0,1459</item>
+      </list>
+</problem>
+
+<solution id="id21493429">
+  <para id="element-705">b. 0,8541</para></solution>
+</exercise>
+
+<exercise id="element-803">
+<problem id="id21493457">
+  <para id="element-251">Se toma una muestra de 80 ingenieros de software en Silicon Valley y se comprueba que el 20 % de ellos gana 50.000 dólares al año aproximadamente. La estimación puntual de la verdadera proporción de ingenieros en Silicon Valley que ganan 50.000 dólares al año es:</para>
+  <list id="id7905590" list-type="enumerated" number-style="lower-alpha">
+<item>16.</item>
+<item>0,2.</item>
+<item>1.</item>
+<item>0,95.</item>
+</list>
+</problem>
+<solution id="id21493551">
+  <para id="element-994">b. 0,2</para></solution>
+</exercise>
+
+<exercise id="element-873">
+<problem id="id21493579">
+  <para id="element-63">Si <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Z</emphasis> &lt; <emphasis effect="italics">z<sub>α</sub></emphasis>) = 0,1587 donde <emphasis effect="italics">Z</emphasis> ~ <emphasis effect="italics">N</emphasis>(0, 1), entonces <emphasis effect="italics">α</emphasis> es igual a:</para><list id="id3684744" list-type="enumerated" number-style="lower-alpha">
+<item>-1.</item>
+<item>0,1587.</item>
+<item>0,8413.</item>
+<item>1.</item></list>
+</problem>
+
+<solution id="id21493733">
+  <para id="element-749">a. –1.</para></solution>
+</exercise>
+
+<exercise id="element-270">
+<problem id="id21493761">
+  <para id="element-507">Un profesor hizo una prueba a 35 estudiantes para determinar sus habilidades al inicio del curso. Al final del trimestre, tras completar el curso, se administró la misma prueba a los mismos 35 estudiantes para indagar sobre su mejora. Esto sería una prueba de:
+  </para>
+<list id="id3743579" list-type="enumerated" number-style="lower-alpha"><item>grupos independientes.</item>
+<item>dos proporciones.</item>
+<item>pares coincidentes, grupos dependientes.</item>
+<item>grupos exclusivos.</item></list></problem>
+
+<solution id="id21493854">
+  <para id="element-289">c. pares coincidentes, grupos dependientes.</para></solution>
+</exercise>
+
+<exercise id="element-725">
+<problem id="id21493882">
+  <para id="element-723">Todos los niños de tercer grado que asisten a la escuela ABC presentaron un examen de Matemáticas. Se tomaron dos muestras aleatorias de calificaciones.</para>
+<table id="id8344093" summary="">
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry/>
+<entry>n</entry>
+<entry><m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+ 
+</m:math></entry>
+<entry>s</entry>
+</row></thead>
+ <tbody>
+
+<row>
+<entry><emphasis>Niños</emphasis></entry>
+<entry>55</entry>
+<entry>82</entry>
+<entry>5</entry>
+</row>
+<row>
+<entry><emphasis>Niñas</emphasis></entry>
+<entry>60</entry>
+<entry>86</entry>
+<entry>7</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+ <para id="id8119822">¿Cuál de las siguientes opciones describe correctamente los resultados de una prueba de hipótesis de la afirmación "existe una diferencia entre las puntuaciones medias obtenidas por las niñas y los niños de tercer grado al nivel de significación del 5 %"?</para>
+<list id="id6920754" list-type="enumerated" number-style="lower-alpha">
+<item>No rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>. No hay pruebas suficientes para concluir que existe una diferencia en las calificaciones medias.</item>
+<item>No rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>. Hay pruebas suficientes para concluir que existe una diferencia en las calificaciones medias.</item>
+<item>Rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>. No hay pruebas suficientes para concluir que no hay diferencias en las calificaciones medias.</item>
+<item>Rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>. Hay pruebas suficientes para concluir que existe una diferencia en las calificaciones medias.</item>
+      </list></problem>
+
+<solution id="id21494242">
+  <para id="element-897">d. Rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>. Hay pruebas suficientes para concluir que existe una diferencia en las calificaciones medias.</para></solution>
+</exercise>
+
+<exercise id="element-497"><problem id="id21494283">
+  <para id="element-222">En una encuesta realizada a 80 hombres, 45 habían practicado un deporte organizado durante su infancia. De las 70 mujeres encuestadas, 25 habían practicado un deporte organizado durante su infancia. Nos interesa saber si la proporción de hombres es mayor que la de mujeres. La conclusión correcta es que:</para>
+<list id="id7702404" list-type="enumerated" number-style="lower-alpha"><item>no hay información suficiente para concluir que la proporción de hombres es igual a la de mujeres.</item>
+<item>no hay información suficiente para concluir que la proporción de hombres no es igual a la de mujeres.</item>
+<item>hay pruebas suficientes para concluir que la proporción de hombres es mayor que la de mujeres.</item>
+<item>no hay suficiente información para llegar a una conclusión.</item>
+</list></problem>
+
+<solution id="id21494382">
+  <para id="element-522">c. hay pruebas suficientes para concluir que la proporción de hombres es mayor que la de mujeres.</para></solution>
+</exercise>
+
+<exercise id="element-774">
+<problem id="id21494412">
+  <para id="element-889">Por experiencia, un maestro de estadística ha comprobado que la calificación promedio en un examen parcial es de 81 con una desviación típica de 5,2. Este trimestre, una clase de 49 estudiantes tuvo una desviación típica de 5 en el examen parcial. ¿Los datos indican que debemos rechazar la afirmación del maestro de que la desviación típica es de 5,2? Utilice <emphasis effect="italics">α</emphasis> = 0,05.</para>
+ <list id="id9307208" list-type="enumerated" number-style="lower-alpha">
+<item>Sí</item>
+<item>No</item>
+<item>No se da suficiente información para resolver el problema</item>
+</list>
+</problem>
+
+<solution id="id21494512">
+  <para id="element-84">b. no</para></solution>
+</exercise>
+
+<exercise id="element-569">
+<problem id="id21494540">
+  <para id="element-125">Se comparan tres máquinas de carga. Se tomaron diez muestras para cada máquina. La máquina I tardó un promedio de 31 minutos en cargar los paquetes con una desviación típica de dos minutos. La máquina II tardó un promedio de 28 minutos en cargar los paquetes con una desviación típica de 1,5 minutos. La máquina III tardó un promedio de 29 minutos en cargar los paquetes con una desviación típica de un minuto. Calcule el valor <emphasis effect="italics">p</emphasis> al probar que el promedio de los tiempos de carga es el mismo.</para>
+<list id="id5273784" list-type="enumerated" number-style="lower-alpha">
+<item>el valor <emphasis effect="italics">p</emphasis> es cercano a cero</item>
+<item>el valor <emphasis effect="italics">p</emphasis> es cercano a uno</item>
+<item>no se da suficiente información para resolver el problema</item>
+      </list>
+</problem>
+
+<solution id="id21494635">
+  <para id="element-334">b. El valor <emphasis effect="italics">p</emphasis> es cercano a 1.</para></solution>
+</exercise>
+
+<para id="element-47"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios:</emphasis> Una compañía tiene oficinas en diferentes partes del país. Ha recopilado la siguiente información sobre el número de baños y el número de empleados en siete centros:
+<table id="id7723517" summary="">
+<tgroup cols="8"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <colspec colnum="7" colname="c7"/>
+          <colspec colnum="8" colname="c8"/>
+          <tbody>
+            <row>
+              <entry><emphasis>Número de empleados <emphasis effect="italics">x</emphasis></emphasis></entry>
+              <entry>650</entry>
+              <entry>730</entry>
+              <entry>810</entry>
+              <entry>900</entry>
+              <entry>102</entry>
+              <entry>107</entry>
+              <entry>1150</entry>
+            </row>
+            <row>
+              <entry><emphasis>Número de baños <emphasis effect="italics">y</emphasis></emphasis></entry>
+              <entry>40</entry>
+              <entry>50</entry>
+              <entry>54</entry>
+              <entry>61</entry>
+              <entry>82</entry>
+              <entry>110</entry>
+              <entry>121</entry>
+            </row>
+          </tbody>
+        
+
+
+</tgroup>
+</table></para><exercise id="element-999">
+<problem id="id21494941">
+  <para id="element-605">¿Es significativa la correlación entre el número de empleados y el número de baños?
+  </para>
+<list id="id9316490" list-type="enumerated" number-style="lower-alpha">
+<item>Sí</item>
+<item>No</item>
+<item>No hay suficiente información para responder la pregunta</item>
+</list>
+
+</problem>
+
+<solution id="id21495018">
+  <para id="element-145">b. No</para></solution>
+</exercise>
+
+<exercise id="element-535">
+<problem id="id21495046">
+  <para id="element-199">La ecuación de regresión lineal es:</para>
+<list id="id4461108" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">ŷ</emphasis> = 0,0094 − 79,96<emphasis effect="italics">x</emphasis></item>
+<item><emphasis effect="italics">ŷ</emphasis> = 79,96 + 0,0094<emphasis effect="italics">x</emphasis></item>
+<item><emphasis effect="italics">ŷ</emphasis> = 79,96 − 0,0094<emphasis effect="italics">x</emphasis></item>
+<item><emphasis effect="italics">ŷ</emphasis> = −0,0094 + 79,96<emphasis effect="italics">x</emphasis></item>
+      </list></problem>
+
+<solution id="id21495253">
+  <para id="element-401">c. <emphasis effect="italics">ŷ</emphasis> = 79,96 - 0,0094<emphasis effect="italics">x</emphasis></para></solution>
+</exercise>
+
+<exercise id="element-722"><problem id="id21495312">
+  <para id="element-476">Si un centro tiene 1.150 empleados, ¿cuántos baños debería tener aproximadamente?</para><list id="id7553690" list-type="enumerated" number-style="lower-alpha">
+<item>69</item>
+<item>91</item>
+<item>91.954</item>
+<item>Aquí no deberíamos hacer estimaciones.</item>
+      </list>
+</problem>
+
+<solution id="id21495402">
+  <para id="element-911">d. Aquí no deberíamos hacer estimaciones.</para></solution>
+</exercise>
+
+<exercise id="element-718">
+<problem id="id21495430">
+  <para id="element-613">Supongamos que se recopila una muestra de tamaño diez, con <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+ 
+</m:math> = 4,4 y <emphasis effect="italics">s</emphasis> = 1,4. <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ<sup>2</sup></emphasis> = 1,6 versus <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ<sup>2</sup></emphasis> ≠ 1,6. ¿Qué gráfico describe mejor los resultados de la prueba?</para><para id="element-757">
+<figure id="fs-idm116125040"><media id="id21495536" alt="">
+<image src="CNX_Stats_Appendix_ART_4abcd.jpg" mime-type="image/png" width="380"/></media></figure></para>
+
+ 
+</problem>
+
+<solution id="id21495555">
+  <para id="element-61">a.</para></solution>
+</exercise><exercise id="element-581"><problem id="id21495583">
+  <para id="element-302">Se les preguntó a sesenta y cuatro mochileros sobre el número de días transcurridos desde su viaje más reciente. El número de días se indica en <link target-id="id7898848"/>:</para>
+<table id="id7898848" summary="">
+<tgroup cols="9">
+<colspec colnum="1" colname="header_c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<colspec colnum="8" colname="c8"/>
+<colspec colnum="9" colname="c9"/>
+<tbody>
+<row>
+<entry>Número de días</entry>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+</row>
+<row>
+<entry>Frecuencia</entry>
+<entry>5</entry>
+<entry>9</entry>
+<entry>6</entry>
+<entry>12</entry>
+<entry>7</entry>
+<entry>10</entry>
+<entry>5</entry>
+<entry>10</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table>
+
+<para id="element-50"><newline/>Realice una prueba adecuada para determinar si la distribución es uniforme.</para><list id="id9269030" list-type="enumerated" number-style="lower-alpha">
+<item>El valor <emphasis effect="italics">p</emphasis> es &gt; 0,10. No hay información suficiente para concluir que la distribución no es uniforme.</item>
+<item>El valor <emphasis effect="italics">p</emphasis> es &lt; 0,01. Hay suficiente información para concluir que la distribución no es uniforme.</item>
+<item>El valor <emphasis effect="italics">p</emphasis>está entre 0,01 y 0,10, pero sin alfa (<emphasis effect="italics">α</emphasis>) no hay suficiente información</item>
+<item>No hay ninguna prueba que se pueda realizar.</item>
+</list></problem>
+
+<solution id="id21495977">
+  <para id="element-275">a. El valor <emphasis effect="italics">p</emphasis> es &gt; 0,10. No hay información suficiente para concluir que la distribución no es uniforme.</para></solution>
+</exercise><exercise id="element-257"><problem id="id21496012">
+  <para id="element-442">¿Cuál de las siguientes afirmaciones es cierta cuando se utiliza el ANOVA de una vía?
+  </para><list id="id8084616" list-type="enumerated" number-style="lower-alpha">
+<item>Las poblaciones de las que se seleccionan las muestras tienen distribuciones diferentes.</item>
+<item>El tamaño de las muestras es grande.</item>
+<item>La prueba consiste en determinar si los diferentes grupos tienen las mismas medias.</item>
+<item>Existe una correlación entre los factores del experimento.</item>
+      </list></problem>
+
+<solution id="id21496108">
+  <para id="element-312">c. La prueba consiste en determinar si los diferentes grupos tienen las mismas medias.</para></solution>
+</exercise>
+  </content>
+</document>

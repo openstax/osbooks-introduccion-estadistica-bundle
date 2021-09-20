@@ -1,0 +1,256 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="introduction">
+  <title>Introduction</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10258</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>8a41d8c9-28eb-424f-a499-862d79908fb1</md:uuid>
+</metadata>
+
+<content>
+        <figure id="fs-idp163541072" class="splash"><media id="fs-idp141532880" alt="Esta foto muestra un rayo que sale de una nube oscura y llega al suelo.">
+<image mime-type="image/jpg" src="../../media/CNX_Stats_C04_CON.jpg" width="500"/>
+</media>
+<caption>Puede utilizar probabilidad y variables aleatorias discretas para calcular la probabilidad de que un rayo llegue al suelo cinco veces durante una tormenta de media hora (crédito: Leszek Leszczynski).</caption></figure><para id="introch04">Un estudiante responde un cuestionario de diez preguntas de verdadero-falso. Como el estudiante tenía una agenda tan apretada, no podía estudiar y estimaba al azar cada respuesta. ¿Cuál es la probabilidad de que el estudiante apruebe el examen con, al menos, el 70 %?</para><para id="element-804">Hay pequeñas compañías que pueden estar interesadas en el número de llamadas telefónicas de larga distancia que hacen sus empleados en las horas pico del día. Supongamos que la media histórica es de 20 llamadas. ¿Cuál es la probabilidad de que los empleados hagan más de 20 llamadas de larga distancia durante las horas pico?</para><para id="element-919">Estos dos ejemplos ilustran dos tipos diferentes de problemas de probabilidad que implican variables aleatorias discretas. Recordemos que los datos discretos son datos que se pueden contar, es decir, la variable aleatoria solo puede tomar valores de números enteros. Una <term>variable aleatoria</term> describe con palabras los resultados de un experimento estadístico. Los valores de una variable aleatoria pueden variar con cada repetición de un experimento, a menudo llamado ensayo.</para><section id="randvarnot">
+<title>Notación de la variable aleatoria</title>
+<para id="element-197">La letra mayúscula <emphasis effect="italics">X</emphasis> denota una variable aleatoria. Las letras minúsculas como <emphasis effect="italics">x</emphasis> o <emphasis effect="italics">y</emphasis> denotan el valor de una variable aleatoria. Si <emphasis><emphasis effect="italics">X</emphasis> es una variable aleatoria, entonces <emphasis effect="italics">X</emphasis> se escribe con palabras y <emphasis effect="italics">x</emphasis> se da como un número.</emphasis></para><para id="element-109">Por ejemplo, supongamos que <emphasis effect="italics">X</emphasis> = el número de caras que se obtiene al lanzar tres monedas imparciales. El espacio muestral para el lanzamiento de tres monedas imparciales es <emphasis effect="italics">TTT</emphasis>; <emphasis effect="italics">THH</emphasis>; <emphasis effect="italics">HTH</emphasis>; <emphasis effect="italics">HHT</emphasis>; <emphasis effect="italics">HTT</emphasis>; <emphasis effect="italics">THT</emphasis>; <emphasis effect="italics">TTH</emphasis>; <emphasis effect="italics">HHH</emphasis>. Entonces, <emphasis effect="italics">x</emphasis> = 0, 1, 2, 3. <emphasis effect="italics">X</emphasis> está en palabras y <emphasis effect="italics">x</emphasis> es un número. Observe que para este ejemplo los valores de <emphasis effect="italics">x</emphasis> son resultados contables. Como se pueden contar los posibles valores como números enteros que puede tomar <emphasis effect="italics">X</emphasis> y los resultados son aleatorios (los valores de <emphasis effect="italics">x</emphasis> 0, 1, 2, 3), <emphasis effect="italics">X</emphasis> es una variable aleatoria discreta.</para></section>
+<section id="fs-id5338192"><title>Funciones de densidad de probabilidad (pdf) para una variable aleatoria</title><para id="delete_me">Una función de <term>densidad de probabilidad</term> o <term>función de distribución de probabilidad</term> tiene dos características:</para><list id="element-yu2" list-type="enumerated" number-style="arabic"><item>Cada probabilidad está entre cero y uno, ambos inclusive.</item>
+<item>La suma de las probabilidades es uno.</item>
+</list><para id="eip-677">Una función de densidad de probabilidad es una fórmula matemática que calcula las probabilidades de determinados tipos de sucesos, lo que hemos llamado experimentos. La función de densidad de probabilidad (pdf) es como una receta mágica, en parte porque la misma fórmula suele describir tipos de sucesos muy diferentes. Por ejemplo, la pdf binomial calculará las probabilidades de lanzar monedas, de las preguntas de respuesta afirmativa o negativa en un examen, de las opiniones de los votantes en una encuesta de opinión a favor o en contra, en definitiva, de cualquier evento binario. Otras funciones de densidad de probabilidad proporcionarán probabilidades para el tiempo que falta para que una pieza falle, cuándo llegará un cliente a la cabina de peaje de la autopista, el número de llamadas que llegan a una central telefónica, la tasa de crecimiento de una bacteria, etc. Existen familias enteras de funciones de densidad de probabilidad que se utilizan en una gran variedad de aplicaciones, como la medicina, los negocios y las finanzas, la física y la ingeniería, entre otras. </para><para id="eip-731">Para nuestro propósito aquí nos concentraremos en solo algunas funciones de densidad de probabilidad mientras desarrollamos las herramientas de la estadística inferencial.    </para></section><section id="fs-id1167364106606"><title>Fórmulas de recuento y fórmula combinatoria</title>
+<para id="fs-id1169298122566">Recordemos que la probabilidad del evento A, P(A), es simplemente el número de formas en que el experimento dará como resultado A, en relación con el número total de resultados posibles del experimento. </para><para id="eip-935">Como ecuación esto es:
+
+</para><para id="eip-25"><equation id="eip-id1166740409179" class="unnumbered"><m:math><m:mi>P</m:mi><m:mo maxsize="100%">(</m:mo><m:mi>A</m:mi><m:mo maxsize="100%">)</m:mo> <m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>número de formas de obtener A</m:mtext></m:mrow><m:mtext>Número total de resultados posibles</m:mtext></m:mfrac></m:math></equation></para><para id="eip-612">Cuando observamos el espacio muestral para lanzar 3 monedas, podemos escribir fácilmente el espacio muestral completo y, por lo tanto, podemos contar fácilmente el número de eventos que cumplen nuestro resultado deseado, por ejemplo, x = 1 , donde X es la variable aleatoria definida como el número de caras.</para><para id="eip-61">A medida que tenemos un mayor número de elementos en el espacio muestral, como una baraja completa de 52 cartas, la posibilidad de escribir el espacio muestral se vuelve imposible. </para><para id="eip-566">Vemos que las probabilidades no son más que contar los eventos de cada grupo que nos interesa y dividirlos por el número de elementos del universo, o espacio muestral. Esto es bastante fácil si contamos los alumnos de segundo año de una clase de estadística, pero en casos más complicados enumerar todos los posibles resultados puede llevarnos toda la vida. Hay, por ejemplo, 36 resultados posibles al lanzar solo dos dados de seis caras en los que la variable aleatoria es la suma del número de puntos de las caras que miran hacia arriba. Si hubiera cuatro dados, el número total de resultados posibles sería de 1.296. Hay más de 2,5 MILLONES de posibles manos de póker de 5 cartas en una baraja estándar de 52 cartas. Evidentemente, llevar la cuenta de todas estas posibilidades y contarlas para llegar a una única probabilidad sería, en el mejor de los casos, tedioso. </para><para id="eip-712">Una alternativa a la enumeración del espacio muestral completo y al recuento del número de elementos que nos interesan, es saltarse el paso de enumerar el espacio muestral, y simplemente calcular el número de elementos que contiene y hacer la división correspondiente. Si buscamos una probabilidad, realmente no necesitamos ver todos y cada uno de los elementos del espacio muestral, solo necesitamos saber cuántos elementos hay. Las fórmulas de recuento se inventaron precisamente para eso. Nos indican el número de subconjuntos desordenados de un determinado tamaño que se pueden crear a partir de un conjunto de elementos únicos. Por desordenado se entiende que, por ejemplo, al repartir las cartas, no importa si tienes {as, as, as, as, rey} o {rey, as, as, as, as} o {as, rey, as, as, as} y así sucesivamente. Cada uno de estos subconjuntos es el mismo porque cada uno tiene 4 ases y un rey.</para><section id="eip-100"><title>Fórmula combinatoria</title><para id="eip-331"><equation id="eip-id1165013323910"><label/><m:math><m:mfenced><m:mtable><m:mtr><m:mtd><m:mi>n</m:mi></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:mfenced><m:mo> </m:mo><m:mo>=</m:mo>
+<m:msub><m:mtext/><m:mi>n</m:mi></m:msub><m:msub><m:mi>C</m:mi><m:mi>x</m:mi></m:msub>
+<m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>!</m:mo><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>!</m:mo></m:mrow></m:mfrac></m:math></equation></para><para id="eip-604">Es la fórmula que indica el número de subconjuntos desordenados únicos de tamaño x que se pueden crear a partir de n elementos únicos. La fórmula se lee "n combinatoria x". A veces se lee como "n elegir x". El signo de exclamación "!" se llama factorial y nos dice que hay que tomar todos los números desde el 1 hasta el número que precede al ! y multiplicarlos juntos, por lo que 4! es 1-2-3-4=24. Por definición 0! = 1. La fórmula se denomina fórmula combinatoria. También se llama coeficiente binomial, por razones que se aclararán en breve. Aunque este concepto matemático se comprendió mucho antes de 1653, se atribuye a Blaise Pascal el mayor mérito por la demostración que publicó en ese año. Además, desarrolló un método generalizado de cálculo de los valores de las combinatorias que conocemos como el Triángulo de Pascal. Pascal fue uno de los genios de una época de extraordinarios avances intelectuales que incluyó la obra de Galileo, René Descartes, Isaac Newton, William Shakespeare y el perfeccionamiento del método científico, la propia razón de ser del tema de este texto. </para><para id="eip-774">Vamos a encontrar por las malas el número total de combinaciones de los cuatro ases de una baraja de cartas si las tomamos de dos en dos. El espacio muestral sería:</para><para id="eip-486">S={Picas, Corazón),(Picas, Diamante),(Picas, Tréboles), (Diamante, Tréboles),(Corazón, Diamante),(Corazón, Tréboles)}</para><para id="eip-516">Hay 6 combinaciones; formalmente, seis subconjuntos desordenados únicos de tamaño 2 que se pueden crear a partir de 4 elementos únicos. Para utilizar la fórmula combinatoria resolveríamos la fórmula de la siguiente manera:</para><para id="eip-410"><equation id="eip-id1165010727298" class="unnumbered"><label/><m:math><m:mfenced><m:mtable><m:mtr><m:mtd><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mfenced>
+<m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mo>!</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>!</m:mo><m:mn>2</m:mn><m:mo>!</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>3</m:mn><m:mo>·</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac>
+<m:mo>=</m:mo><m:mn>6</m:mn></m:math></equation></para><para id="eip-106">Si quisiéramos saber el número de manos únicas de póquer de 5 cartas que se pueden crear a partir de un mazo de 52 cartas, simplemente calcularíamos:</para><para id="eip-959"><equation id="eip-id1171827580330" class="unnumbered"><label/><m:math><m:mfenced><m:mtable><m:mtr><m:mtd><m:mn>52</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mfenced>
+</m:math></equation></para><para id="eip-927">donde 52 es el número total de elementos únicos de los que estamos sacando y 5 es el grupo de tamaño en el que los estamos poniendo.</para><para id="eip-132">Con la fórmula combinatoria podemos contar el número de elementos de un espacio muestral sin tener que escribir cada uno de ellos, lo que realmente es el trabajo de toda una vida para solo el número de 5 manos de cartas de una baraja de 52. Ahora podemos aplicar esta herramienta a una función de densidad de probabilidad muy importante, la distribución hipergeométrica. </para></section></section>
+<para id="eip-517">
+Recuerde que una función de densidad de probabilidad calcula las probabilidades por nosotros. Simplemente ponemos los números adecuados en la fórmula y obtenemos la probabilidad de eventos específicos. Sin embargo, para que estas fórmulas funcionen deben aplicarse solo a los casos para los que fueron diseñadas. 
+</para><section id="fs-idp97044640" class="summary">
+<title>Revisión del capítulo</title>
+<para id="fs-idm43618304">Las características de una distribución de probabilidad o función de densidad (pdf) son las siguientes:</para><list id="fs-idm39706128" list-type="enumerated" number-style="arabic">
+<item>Cada probabilidad está entre cero y uno, ambos inclusive (<emphasis effect="italics">inclusive</emphasis> significa incluir el cero y el uno).</item>
+<item>La suma de las probabilidades es uno.</item>
+</list>
+</section>
+
+<section id="fs-idp69020960" class="practice">
+<title/>
+<para id="fs-idm83247344"><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios:</emphasis> Una compañía quiere evaluar su tasa de deserción, es decir, el tiempo que los nuevos empleados permanecen en la compañía. A lo largo de los años han establecido la siguiente distribución de probabilidad.</para>
+
+<para id="fs-idm71612400">Supongamos que <emphasis effect="italics">X</emphasis> = el número de años que un nuevo empleado permanecerá en la compañía.</para>
+
+<para id="fs-idm48855200">Supongamos que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) = la probabilidad de que un nuevo empleado permanezca en la compañía <emphasis effect="italics">x</emphasis> años.</para>
+
+<exercise id="fs-idm11913472">
+<problem id="fs-idm62074368">
+<para id="fs-idm17761312">Complete la <link target-id="M02_Ch03_tbl004" document=""/> con los datos proporcionados.</para><table id="M02_Ch03_tbl004" summary="">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row><entry><emphasis effect="italics">x</emphasis></entry><entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry></row>
+</thead>
+<tbody>
+<row><entry>0</entry><entry>0,12</entry></row>
+<row><entry>1</entry><entry>0,18</entry></row>
+<row><entry>2</entry><entry>0,30</entry></row>
+<row><entry>3</entry><entry>0,15</entry></row>
+<row><entry>4</entry><entry/></row>
+<row><entry>5</entry><entry>0,10</entry></row>
+<row><entry>6</entry><entry>0,05</entry></row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+<solution id="fs-idp35913488">
+<table id="fs-idm128424048" summary="">
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row><entry><emphasis effect="italics">x</emphasis></entry><entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry></row>
+</thead>
+<tbody>
+<row><entry>0</entry><entry>0,12</entry></row>
+<row><entry>1</entry><entry>0,18</entry></row>
+<row><entry>2</entry><entry>0,30</entry></row>
+<row><entry>3</entry><entry>0,15</entry></row>
+<row><entry>4</entry><entry>0,10</entry></row>
+<row><entry>5</entry><entry>0,10</entry></row>
+<row><entry>6</entry><entry>0,05</entry></row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+
+<exercise id="fs-idm3556768"><problem id="fs-idm46583824">
+<para id="fs-idm39567616"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 4) = _______</para></problem>
+
+<!-- <solution id="fs-idm8550336">
+<para id="fs-idp109017952">0.10</para></solution> -->
+</exercise><exercise id="fs-idp21614176">
+<problem id="fs-idp34115424">
+<para id="fs-idp9314928"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 5) = _______</para></problem>
+<solution id="fs-idm43709152"><para id="fs-idp98025120">0,10 + 0,05 = 0,15</para></solution>
+</exercise>
+
+<exercise id="fs-idp88464496"><problem id="fs-idm14331664">
+<para id="fs-idm3848192">¿Cuánto tiempo en promedio espera que un nuevo empleado permanezca en la compañía?</para>
+</problem>
+
+<!-- <solution id="fs-idm42046896">
+<para id="fs-idm60500016">0 + 0.18 + 0.60 + 0.45 + 0.40 + 0.50 + 0.30 = 2.43 years</para></solution> -->
+</exercise><exercise id="fs-idp18018320">
+<problem id="fs-idm39505296">
+<para id="fs-idm15015472">¿A cuánto asciende la columna “<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)”?</para></problem>
+<solution id="fs-idm46445984"><para id="fs-idp107818160">1</para></solution>
+</exercise>
+
+<para id="fs-idm61093248"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos seis ejercicios:</emphasis> Un panadero está decidiendo cuántos lotes de muffins va a hacer para vender en su panadería. Quiere hacer lo suficiente para venderlos todos y no menos. Mediante la observación, el panadero ha establecido una distribución de probabilidad.</para><table id="fs-idm43289680" summary="">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row><entry><emphasis effect="italics">x</emphasis></entry><entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry></row>
+</thead>
+
+<tbody>
+<row><entry>1</entry><entry>0,15</entry></row>
+<row><entry>2</entry><entry>0,35</entry></row>
+<row><entry>3</entry><entry>0,40</entry></row>
+<row><entry>4</entry><entry>0,10</entry></row>
+</tbody>
+</tgroup>
+</table><exercise id="fs-idm2415264"><problem id="fs-idm15926960">
+<para id="fs-idm161865296">Defina la variable aleatoria <emphasis effect="italics">X</emphasis>.</para></problem>
+
+<!-- <solution id="fs-idm3118640"><para id="fs-idm66349888">Let <emphasis effect="italics">X</emphasis> = the number of batches that the baker will sell.</para></solution> -->
+</exercise><exercise id="fs-idm14204160">
+<problem id="fs-idp91033728">
+<para id="fs-idp57653024">¿Cuál es la probabilidad de que el panadero venda más de un lote? <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 1) = _______</para></problem>
+<solution id="fs-idm77654992">
+<para id="fs-idp67916960">0,35 + 0,40 + 0,10 = 0,85</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idp60250832"><problem id="fs-idm40729216">
+<para id="fs-idm50895232">¿Cuál es la probabilidad de que el panadero venda exactamente un lote? <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 1) = _______</para>
+</problem>
+
+<!-- <solution id="fs-idp10419040">
+<para id="fs-idm18762736">0.15</para>
+</solution> -->
+</exercise><exercise id="fs-idp100680048">
+<problem id="fs-idm6782176">
+<para id="fs-idm12192384">En promedio, ¿cuántos lotes debe hacer el panadero?</para>
+</problem>
+<solution id="fs-idm19316912">
+<para id="fs-idp105326384">1(0,15) + 2(0,35) + 3(0,40) + 4(0,10) = 0,15 + 0,70 + 1,20 + 0,40 = 2,45</para>
+</solution>
+</exercise>
+
+
+<para id="fs-idp26455296"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos cuatro ejercicios:</emphasis> Ellen tiene práctica de música tres días a la semana. Practica los tres días el 85 % del tiempo, dos días el 8 % del tiempo, un día el 4 % del tiempo y ningún día el 3 % del tiempo. Se selecciona una semana al azar.</para><exercise id="fs-idp80631856"><problem id="fs-idm38076272">
+<para id="fs-idp104793536">Defina la variable aleatoria <emphasis effect="italics">X</emphasis>.</para>
+</problem>
+
+<!-- <solution id="fs-idp17316544">
+<para id="fs-idp31866688">Let <emphasis effect="italics">X</emphasis> = the number of days Ellen attends practice per week.</para>
+</solution> -->
+</exercise><exercise id="fs-idp105752304">
+<problem id="fs-idp98145520">
+<para id="fs-idp107988576">Construya una tabla de distribución de probabilidades para los datos.</para></problem>
+<solution id="fs-idp99205248">
+<table id="fs-idp25484752" summary="Table...">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row><entry><emphasis effect="italics">x</emphasis></entry><entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry></row>
+</thead>
+<tbody>
+<row><entry>0</entry><entry>0,03</entry></row>
+<row><entry>1</entry><entry>0,04</entry></row>
+<row><entry>2</entry><entry>0,08</entry></row>
+<row><entry>3</entry><entry>0,85</entry></row>
+</tbody>
+
+</tgroup>
+</table></solution>
+</exercise>
+
+<exercise id="fs-idm12290976"><problem id="fs-idp102593056">
+<para id="fs-idm54887552">Sabemos que para que una función de distribución de probabilidad sea discreta, debe tener dos características. Una es que la suma de las probabilidades es uno. ¿Cuál es la otra característica?</para></problem>
+
+<!-- <solution id="fs-idm2771440">
+<para id="fs-idp5181696">Each probability is between zero and one, inclusive.</para>
+</solution> -->
+</exercise><para id="fs-idp62348192"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios:</emphasis> Javier es voluntario en eventos comunitarios cada mes. No realiza más de cinco eventos en un mes. Asiste exactamente a cinco eventos el 35 % del tiempo, a cuatro el 25 % del tiempo, a tres el 20 % del tiempo, a dos el 10 % del tiempo, a uno el 5 % del tiempo y a ninguno el 5 % del tiempo.</para><exercise id="fs-idp45989040">
+<problem id="fs-idp107021152">
+<para id="fs-idp1699120">Defina la variable aleatoria <emphasis effect="italics">X</emphasis>.</para>
+</problem>
+<solution id="fs-idp75230208">
+<para id="fs-idp99642016">Supongamos que <emphasis effect="italics">X</emphasis> = el número de eventos en los que Javier es voluntario cada mes.</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idp99208272"><problem id="fs-idp102814688">
+<para id="fs-idm38746304">¿Qué valores toma <emphasis effect="italics">x</emphasis>?</para></problem>
+
+<!-- <solution id="fs-idm3527216">
+<para id="fs-idp5781360">0, 1, 2, 3, 4, 5</para>
+</solution> -->
+</exercise><exercise id="fs-idm44182368">
+<problem id="fs-idm60355136">
+<para id="fs-idp106732192">Construir una tabla de PDF.</para>
+</problem>
+<solution id="fs-idp9913600">
+<table id="fs-idm82394208" summary="Table...">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead><row><entry><emphasis effect="italics">x</emphasis></entry><entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry></row></thead>
+<tbody>
+<row><entry>0</entry><entry>0,05</entry></row>
+<row><entry>1</entry><entry>0,05</entry></row>
+<row><entry>2</entry><entry>0,10</entry></row>
+<row><entry>3</entry><entry>0,20</entry></row>
+<row><entry>4</entry><entry>0,25</entry></row>
+<row><entry>5</entry><entry>0,35</entry></row>
+</tbody>
+
+</tgroup>
+</table></solution>
+</exercise>
+
+<exercise id="fs-idm51474800"><problem id="fs-idp105026400">
+<para id="fs-idm62777200">Calcule la probabilidad de que Javier sea voluntario en menos de tres eventos al mes. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 3) = _______</para></problem>
+
+<!-- <solution id="fs-idp58199168">
+<para id="fs-idm17855008">0.05 + 0.05 + 0.10 = 0.20</para>
+</solution> --></exercise><exercise id="fs-idm38193104">
+<problem id="fs-idm1831824">
+<para id="fs-idp54225264">Calcule la probabilidad de que Javier sea voluntario en, al menos, un evento cada mes. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 0) = _______</para>
+</problem>
+<solution id="fs-idm39812848">
+<para id="fs-idp75344688">1 – 0,05 = 0,95</para></solution>
+</exercise>
+
+
+</section> </content>
+  
+
+<glossary>
+<definition id="randvar">
+<term>Variable aleatoria (RV)</term>
+<meaning id="id1167466326893">una característica de interés en una población que se estudia; la notación común para las variables son las letras latinas mayúsculas <emphasis effect="italics">X</emphasis>, <emphasis effect="italics">Y</emphasis>, <emphasis effect="italics">Z</emphasis>,...; la notación común para un valor específico del dominio (conjunto de todos los valores posibles de una variable) son las letras latinas minúsculas <emphasis effect="italics">x, y</emphasis>, <emphasis effect="italics">z</emphasis>. Por ejemplo, si <emphasis effect="italics">X</emphasis> es el número de hijos de una familia, entonces <emphasis effect="italics">x</emphasis> representa un número entero específico 0, 1, 2, 3,.... Las variables en estadística se diferencian de las variables en álgebra intermedia en los dos aspectos siguientes. <list id="arrvee" list-type="bulleted">
+<item>El dominio de la variable aleatoria (RV) no es necesariamente un conjunto numérico; el dominio puede expresarse en palabras; por ejemplo, si <emphasis effect="italics">X</emphasis> = color de cabello entonces el dominio es {negro, rubio, gris, verde, naranja}.</item>
+<item>Podemos saber qué valor específico <emphasis effect="italics">x</emphasis> toma la variable aleatoria <emphasis effect="italics">X</emphasis> solo después de realizar el experimento.</item></list>
+    </meaning>
+  </definition>
+<definition id="pdfelab">
+<term>Función de Distribución de Probabilidad (PDF)</term>
+<meaning id="id1165407642895">una descripción matemática de una variable aleatoria (<emphasis effect="italics">RV</emphasis>) discreta, dada en forma de ecuación (fórmula) o en forma de tabla que enumera todos los resultados posibles de un experimento y la probabilidad asociada a cada resultado.</meaning></definition>
+</glossary>
+</document>

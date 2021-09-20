@@ -1,0 +1,247 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Lab 1: Chi-Square Goodness-of-Fit</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10483</md:content-id>
+  <md:title>Lab 1: Chi-Square Goodness-of-Fit</md:title>
+  <md:abstract/>
+  <md:uuid>4a1dfc91-daee-4edd-b48b-de9ba39ea6b2</md:uuid>
+</metadata>
+
+<content>
+  <note id="fs-id1170646469482" class="statistics lab"><label/><title>Laboratorio 1: Bondad de ajuste de chi-cuadrado</title>
+<para id="id5380446">Hora de la clase: </para>
+  <para id="id5380454">Nombres:</para>
+   <list id="id5380464" list-type="bulleted"><title>Resultado de aprendizaje del estudiante</title><item>El estudiante evaluará los datos recogidos para determinar si se ajustan a las distribuciones uniforme o exponencial. </item>
+   </list><para id="element-875862734">
+    <title>Recopilación de datos</title>
+    Vaya a su supermercado local. Pregunte a 30 personas al salir por el monto total de sus recibos de compra. (O bien, pregunte a tres cajeros por los últimos diez montos. Incluya la caja rápida, si está abierta).</para>
+   <note id="eip-665"><label/><title>Nota</title>Es posible que tenga que combinar dos categorías para que cada celda tenga un valor esperado de al menos cinco.
+ </note><list id="list-87585" list-type="enumerated" mark-suffix=".">
+    <item>Anote los valores.
+     <table id="table023865" summary="Blank table with 30 empty cells.">
+      <tgroup cols="5">
+       <tbody>
+        <row>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+        </row>
+        <row>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+        </row>
+        <row>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+        </row>
+        <row>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+        </row>
+        <row>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+        </row>
+        <row>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+        </row>
+       </tbody>
+      </tgroup>
+     </table>
+    </item>
+    <item>Construya un histograma de los datos. Haga de cinco a seis intervalos. Dibuje el gráfico con una regla y un lápiz. Escale los ejes. <figure id="id42008923"><media id="id42008927" alt="Gráfico en blanco con la frecuencia relativa en la vertical"><image src="../../media/fig-ch11_15_01-2348.png" mime-type="image/png" width="380"/></media></figure></item>
+    <item> Calcule lo siguiente: <list id="list3242" list-type="enumerated" number-style="lower-alpha">
+      <item><m:math>
+      <m:mrow>
+       <m:mover accent="true">
+        <m:mi>x</m:mi>
+        <m:mo>¯</m:mo>
+       </m:mover>
+       <m:mo>=</m:mo>
+      </m:mrow>
+     </m:math>________</item>
+     <item><emphasis effect="italics">s</emphasis> = ________</item>
+     <item><emphasis effect="italics">s</emphasis><sup>2</sup> = ________</item>
+    </list>
+    </item>
+   </list>
+   <para id="element-755">
+    <title>Distribución uniforme</title>
+    Compruebe si los recibos de la compra siguen la distribución uniforme.</para>
+   <list id="list-897576324" mark-suffix="." list-type="enumerated"><item>Con sus valores más bajos y más altos, <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (_______, _______)</item>
+    <item>Divida la distribución en quintos.</item>
+    <item>Calcule lo siguiente: <list id="list45865" list-type="enumerated" number-style="lower-alpha"><item>valor más bajo = _________</item>
+      <item>20<sup>o</sup> percentil = _________</item>
+      <item>40<sup>o</sup> percentil = _________</item>
+      <item>60<sup>o</sup> percentil = _________</item>
+      <item>80<sup>o</sup> percentil = _________</item>
+      <item>valor más alto = _________</item>
+     </list></item>
+    <item>Para cada quinto, cuente el número observado de recibos y anótelo. Luego, determine el número previsto de recibos y anótelo.
+     <table id="id58758asdfa533062" summary="The partially filled table presents each fifth in the first column, observed in the blank second column, and expected in the blank third column. There are 5 rows.">
+      <tgroup cols="3"><colspec colnum="1" colname="c1"/>
+       <colspec colnum="2" colname="c2"/>
+       <colspec colnum="3" colname="c3"/>
+       <thead>
+        <row>
+         <entry>Quinto </entry>
+         <entry>Observado</entry>
+         <entry>Esperado</entry>
+        </row>
+       </thead>
+       <tbody>
+        <row>
+         <entry>1.º<sup/></entry>
+         <entry/>
+         <entry/>
+        </row>
+        <row>
+         <entry>2.º<sup/></entry>
+         <entry/>
+         <entry/>
+        </row>
+        <row>
+         <entry>3.º<sup/></entry>
+         <entry/>
+         <entry/>
+        </row>
+        <row>
+         <entry>4.º<sup/></entry>
+         <entry/>
+         <entry/>
+        </row>
+        <row>
+         <entry>5.º<sup/></entry>
+         <entry/>
+         <entry/>
+        </row>
+       </tbody>
+      </tgroup>
+     </table></item>
+    <item><emphasis effect="italics">H<sub>0</sub></emphasis>: ________</item>
+    <item><emphasis effect="italics">H<sub>a</sub></emphasis>: ________</item>
+    <item>¿Qué distribución debe utilizar para una prueba de hipótesis?</item>
+    <item>¿Por qué ha elegido esta distribución?</item>
+    <item>Calcule el estadístico de prueba.</item>
+    <item>Calcule el valor <emphasis effect="italics">p</emphasis>.</item>
+    <item>Dibuje un gráfico de la situación. Identifique y escale el eje <emphasis effect="italics">x</emphasis>. Sombree el área correspondiente al valor <emphasis effect="italics">p</emphasis>. <figure id="id40469669"><media id="id40469674" alt="Gráfico en blanco con ejes vertical y horizontal."><image src="../../media/fig-ch11_15_02.png" mime-type="image/png" width="380"/></media></figure></item>
+    <item>Exponga su decisión.</item>
+    <item>Exponga su conclusión en una oración completa.</item>
+   </list><para id="element-875">
+    <title>Distribución exponencial</title>
+    Comprobación para determinar si los recibos de caja siguen la distribución exponencial con parámetro de decaimiento <m:math>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>1</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:apply>
+       <m:conjugate/>
+       <m:ci>x</m:ci>
+      </m:apply>
+     </m:mrow>
+    </m:mfrac>
+   </m:math>.</para>
+   <list id="list-86872534" mark-suffix="." list-type="enumerated"><item>Utilizando <m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mover accent="true">
+        <m:mi>x</m:mi>
+        <m:mo>¯</m:mo>
+       </m:mover>
+      </m:mfrac>
+     </m:mrow>
+    </m:math> como parámetro de decaimiento, <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">Exp</emphasis>(_________).</item>
+    <item>Calcule lo siguiente: <list id="list3248" list-type="enumerated" number-style="lower-alpha">
+      <item>valor más bajo = ________</item>
+      <item>primer cuartil = ________</item>
+      <item>37<sup>o</sup> percentil = ________</item>
+      <item>mediana = ________</item>
+      <item>63<sup>o</sup> percentil = ________</item>
+      <item>3<sup>o</sup> cuartil = ________</item>
+      <item>valor más alto = ________</item>
+     </list>
+    </item>
+    <item>Para cada celda, cuente el número observado de recibos y anótelo. Luego, determine el número previsto de recibos y anótelo.<table id="id5asd875fasssff533783" summary="The partially filled table presents the cell in the first column, observed in the blank second column, and the expected in the blank third column. There are 6 rows.">
+     <tgroup cols="3"><colspec colnum="1" colname="c1"/>
+      <colspec colnum="2" colname="c2"/>
+      <colspec colnum="3" colname="c3"/>
+      <thead>
+       <row>
+        <entry>Celda</entry>
+        <entry>Observado</entry>
+        <entry>Esperado</entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>1.º<sup/></entry>
+        <entry/>
+        <entry/>
+       </row>
+       <row>
+        <entry>2.º<sup/></entry>
+        <entry/>
+        <entry/>
+       </row>
+       <row>
+        <entry>3.º<sup/></entry>
+        <entry/>
+        <entry/>
+       </row>
+       <row>
+        <entry>4.º<sup/></entry>
+        <entry/>
+        <entry/>
+       </row>
+       <row>
+        <entry>5.º<sup/></entry>
+        <entry/>
+        <entry/>
+       </row>
+       <row>
+        <entry>6.º<sup/></entry>
+        <entry/>
+        <entry/>
+       </row>
+      </tbody>
+     </tgroup>
+    </table>
+    </item>
+    <item><emphasis effect="italics">H<sub>0</sub></emphasis>: ________</item>
+    <item><emphasis effect="italics">H<sub>a</sub></emphasis>: ________</item>
+    <item>¿Qué distribución debe utilizar para una prueba de hipótesis? </item>
+    <item>¿Por qué ha elegido esta distribución? </item>
+    <item>Calcule el estadístico de prueba.</item>
+    <item>Calcule el valor <emphasis effect="italics">p</emphasis>.</item>
+    <item>Dibuje un gráfico de la situación. Identifique y escale el eje <emphasis effect="italics">x</emphasis>. Sombree el área correspondiente al valor <emphasis effect="italics">p</emphasis>. <figure id="id42004364"><media id="id42004370" alt="Gráfico en blanco con ejes vertical y horizontal."><image src="../../media/fig-ch11_15_03.png" mime-type="image/png" width="380"/></media></figure></item>
+    <item>Exponga su decisión.</item>
+    <item>Exponga su conclusión en una oración completa.</item>
+   </list><list id="list-8658234" list-type="enumerated">
+    <title>Preguntas para el debate</title>
+    <item>¿Se ajustan sus datos a alguna de las dos distribuciones? Si es así, ¿a cuál?</item>
+    <item>En general, ¿cree que sea probable que los datos se ajusten a más de una distribución? Explique por qué sí o por qué no en oraciones completas.</item>
+   </list>
+ </note> </content>
+
+</document>

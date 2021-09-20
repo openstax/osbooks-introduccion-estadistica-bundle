@@ -1,0 +1,433 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Test for Homogeneity</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10296</md:content-id>
+  <md:title>Test for Homogeneity</md:title>
+  <md:abstract/>
+  <md:uuid>d92657b5-219f-47bf-9752-f6ef51f8bc21</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me">La prueba de bondad de ajuste se puede usar para decidir si una población se ajusta a una distribución determinada, pero no bastará para decidir si dos poblaciones siguen la misma distribución desconocida. Una prueba diferente, llamada <term>prueba de homogeneidad</term>, se puede usar para sacar una conclusión sobre si dos poblaciones tienen la misma distribución. Para calcular el estadístico de prueba de homogeneidad siga el mismo procedimiento que con la prueba de independencia.</para><note id="eip-195"><label/><title>Nota</title>
+<para id="eip-idp34705152">El valor esperado dentro de cada celda debe ser, al menos, cinco para que pueda usar esta prueba.</para></note><para id="eip-705"><title>Hipótesis</title><newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: Las distribuciones de las dos poblaciones son iguales.<newline/> <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: Las distribuciones de las dos poblaciones no son iguales.</para><para id="eip-703"> <title>Estadístico de prueba</title>Utilice una <m:math> <m:msup> <m:mi>χ</m:mi> <m:mn>2</m:mn> </m:msup></m:math> estadístico de prueba. Se calcula de la misma manera que la prueba de independencia.  </para>
+<para id="eip-577"> <title>Grados de libertad (<emphasis effect="italics">df</emphasis>)</title><emphasis effect="italics">df</emphasis> = número de columnas – 1</para>
+<para id="eip-572"> <title>Requisitos</title>Todos los valores de la tabla deben ser mayores o iguales a cinco. </para>
+<para id="eip-66"> <title>Usos comunes</title>Comparación de dos poblaciones. Por ejemplo: hombres versus mujeres, antes versus después, este versus oeste. La variable es categórica con más de dos valores de respuesta posibles. </para>
+<example id="eip-101"><exercise id="eip-790">
+<problem id="eip-886">
+<para id="eip-520">¿Los estudiantes de institutos universitarios hombres y mujeres tienen la misma distribución en cuanto a viviendas? Utilice un nivel de significación de 0,05. Supongamos que se les pregunta a 250 estudiantes universitarios y a 300 estudiantes universitarias seleccionados al azar por su tipo de vivienda: residencia universitaria, apartamento, con los padres, otra. Los resultados se muestran en la <link target-id="eip-924"/>. ¿Los estudiantes de institutos universitarios hombres y mujeres tienen la misma distribución en cuanto a viviendas?</para>
+<table id="eip-924" summary="The table contains the distribution of living conditions for college males and college females. First row: Males 72 Dorm; 84 Apt.; 49 Parents; 45 Other; Second row: Females, 91 Dorm; 86 Apt.; 88 Parents; 35 Other;"><title>Distribución del tipo de vivienda para los hombres y mujeres universitarios</title>
+<tgroup cols="5"><tbody>
+  <row>
+    <entry/>
+    <entry><emphasis>Dormitorio</emphasis></entry>
+    <entry><emphasis>Apartamento</emphasis></entry>
+    <entry><emphasis>Con los padres</emphasis></entry>
+    <entry><emphasis>Otra</emphasis></entry> 	
+  </row>
+  <row>
+    <entry><emphasis>Hombres</emphasis></entry>
+    <entry>72</entry>
+    <entry>84</entry>
+    <entry>49</entry>
+    <entry>45</entry>
+  </row>
+  <row>
+    <entry><emphasis>Mujeres</emphasis></entry>
+    <entry>91</entry>
+    <entry>86</entry>
+    <entry>88</entry>
+    <entry>35</entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table></problem>
+<solution id="eip-996">
+  <para id="eip-724"><emphasis effect="italics">H<sub>0</sub></emphasis>: La distribución de la vivienda de los estudiantes universitarios es igual que la de las estudiantes universitarias.<newline/> <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: La distribución de la vivienda de los estudiantes universitarios no es igual que la de las estudiantes universitarias.<newline/><newline/> <emphasis>Grados de libertad (<emphasis effect="italics">df</emphasis>):</emphasis><newline/> <emphasis effect="italics">df</emphasis> = número de columnas – 1 = 4 – 1 = 3 <newline/><newline/> <emphasis>Distribución de la prueba:</emphasis><m:math><m:msubsup><m:mi>χ</m:mi><m:mn>3</m:mn> <m:mn>2</m:mn></m:msubsup></m:math><newline/><newline/> <emphasis>Calcule el estadístico de prueba:</emphasis> <m:math><m:msubsup><m:mi>χ</m:mi><m:mi>c</m:mi><m:mn>2</m:mn></m:msubsup></m:math> = 10,129 <newline/><newline/><figure id="eip-id2107181"><media id="eip-id1167834211881" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch11_04_07n-3553.jpg" width="380"/></media></figure></para><para id="fs-idm273008"><newline/>El gráfico de chi cuadrado muestra la distribución y marca el valor crítico con tres grados de libertad a un nivel de confianza del 95 %, α = 0,05; 7,815. El gráfico también marca el valor calculado del estadístico de prueba <emphasis effect="italics">χ</emphasis><sup>2</sup> de 10,129. Al comparar el estadístico de prueba con el valor crítico, como hemos hecho con todas las demás pruebas de hipótesis, llegamos a la conclusión. <newline/><newline/> <emphasis>Tome una decisión:</emphasis> Como el estadístico de prueba calculado está en la cola, no podemos aceptar <emphasis effect="italics">H<sub>0</sub></emphasis>. Esto significa que las distribuciones no son iguales. <newline/><newline/> <emphasis>Conclusión:</emphasis> a un nivel de significación del 5 %, a partir de los datos, hay pruebas suficientes para concluir que las distribuciones de los tipos de vivienda de los estudiantes universitarios hombres y mujeres no son iguales.<newline/><newline/> Observe que la conclusión es solo que las distribuciones no son iguales. No podemos utilizar la prueba de homogeneidad para obtener conclusiones sobre sus diferencias.
+</para></solution>
+</exercise></example><note id="fs-idp99198384" class="statistics try"><label/><title>Ejercicio</title>
+    <exercise id="eip-976">
+      <problem id="eip-39">
+        <para id="eip-658">¿Las familias y los solteros tienen la misma distribución de automóviles? Utilice un nivel de significación de 0,05. Supongamos que se les pregunta a 100 familias y a 200 solteros seleccionados al azar qué tipo de automóvil conducen: deportivo, sedán, utilitario, camioneta, van/suv. Los resultados se muestran en la <link target-id="eip-idm93309648"/>. ¿Las familias y los solteros tienen la misma distribución de automóviles? Pruebe con un nivel de significación de 0,05.</para><table id="eip-idm93309648" summary="">
+<tgroup cols="6">
+<thead>
+  <row>
+    <entry/>
+    <entry>Deporte</entry>
+    <entry>Sedán</entry>
+    <entry>Utilitario</entry>
+    <entry>Camioneta</entry>
+    <entry>Van/suv</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>Familia</entry>
+    <entry>5</entry>
+    <entry>15</entry>
+    <entry>35</entry>
+    <entry>17</entry>
+    <entry>28</entry>
+  </row>
+  <row>
+    <entry>Sencillo</entry>
+    <entry>45</entry>
+    <entry>65</entry>
+    <entry>37</entry>
+    <entry>46</entry>
+    <entry>7</entry>
+  </row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+<solution id="eip-idp127134288">
+<label/>
+  <para id="eip-235">Con un valor <emphasis effect="italics">p</emphasis> de casi cero, rechazamos la hipótesis nula. Los datos muestran que la distribución de los automóviles no es la misma para las familias que para los solteros.</para>
+</solution>
+</exercise>
+</note><note id="fs-idm61233888" class="statistics try finger"><label/><title>Ejercicio</title>
+    <exercise id="eip-680">
+    <problem id="eip-625">
+      <para id="eip-895">Las escuelas Ivy League reciben muchas solicitudes, pero solo algunas pueden ser aceptadas. En las escuelas que aparecen en la <link target-id="fs-idm19368736"/> se aceptan dos tipos de solicitudes: regulares y de decisión anticipada.</para>
+<table id="fs-idm19368736" summary="..">
+<tgroup cols="7"><thead>
+  <row>
+    <entry>Tipo de solicitud aceptada</entry>
+    <entry>Marrón</entry>
+    <entry>Columbia</entry>
+    <entry>Cornell</entry>
+    <entry>Dartmouth</entry>
+    <entry>Penn</entry>
+    <entry>Yale</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>Regular</entry>
+    <entry>2.115</entry>
+    <entry>1.792</entry>
+    <entry>5.306</entry>
+    <entry>1.734</entry>
+    <entry>2.685</entry>
+    <entry>1.245</entry>
+  </row>
+  <row>
+    <entry>Decisión anticipada</entry>
+    <entry>577</entry>
+    <entry>627</entry>
+    <entry>1.228</entry>
+    <entry>444</entry>
+    <entry>1.195</entry>
+    <entry>761</entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table><para id="eip-896">Queremos saber si el número de solicitudes regulares aceptadas sigue la misma distribución que el número de solicitudes anticipadas aceptadas. Indique las hipótesis nula y alternativa, los grados de libertad y el estadístico de prueba, dibuje el gráfico de la distribución <emphasis effect="italics">χ</emphasis><sup>2</sup> y muestre el valor crítico y el valor calculado del estadístico de prueba, y saque una conclusión sobre la prueba de homogeneidad.</para></problem>
+<solution id="eip-idp110188800">
+<label/>
+<para id="eip-822"><emphasis effect="italics">H<sub>0</sub></emphasis>: La distribución de las solicitudes ordinarias aceptadas es la misma que la de las solicitudes anticipadas aceptadas.</para><para id="eip-824"><emphasis effect="italics">H<sub>a</sub></emphasis> : La distribución de las solicitudes ordinarias aceptadas no es la misma que la de las solicitudes anticipadas aceptadas. <newline/><emphasis effect="italics">df</emphasis> = 5 <newline/><emphasis effect="italics">χ<sup>2</sup></emphasis> estadística de la prueba = 430,06</para><figure id="fs-idp12140192"><media id="fs-idp12704" alt="Se trata de una curva asimétrica de chi cuadrado con df = 5. Los valores 0, 5 y 430,06 están marcados en el eje horizontal. El valor 5 coincide con el pico de la curva. Una línea vertical ascendente se extiende desde 430,06 hasta la curva, y la región a la derecha de esta línea está sombreada. El área sombreada es igual al valor p." display="block">	
+  <image mime-type="image/jpeg" src="../../media/CNX_Stats_C11_M06_tryit001.jpg" width="380"/>
+</media></figure><note id="fs-idp12880128" class="statistics calculator"><label/>
+  <para id="eip-idm17817856">Pulse <code>MATRX</code> y flecha hacia <code>EDIT</code>. Pulse <code>1:[A]</code>. Pulse <code>3 ENTER 3 ENTER</code>. Introduzca los valores de la tabla por fila. Pulse <code>ENTER</code> después de cada uno. Pulse <code>2.º QUIT</code>. Pulse <code>STAT</code> y flecha hacia <code>TESTS</code>. Flecha hacia abajo<code>C:χ2-TEST</code>. Pulse <code>ENTER</code>. Debería ver <code>Observed:[A] y Expected:[B]</code>. Flecha hacia abajo <code>Calcule</code>. Pulse <code>ENTER</code>. La estadística de la prueba es 430,06 y el valor <emphasis effect="italics">p</emphasis> = 9,80E-91. Realice el procedimiento por segunda vez pero con la flecha hacia abajo <code>Draw</code> en vez de <code>Calculate</code>.</para>
+</note></solution>
+</exercise></note><section id="fs-idm80427920" class="references">
+<title>Referencias</title>
+<para id="fs-idm30810032">Datos del Insurance Institute for Highway Safety, 2013. Disponible en línea en www.iihs.org/iihs/ratings (consultado el 24 de mayo de 2013).</para>
+<para id="fs-idp85001856">“Energy use (kg of oil equivalent per capita)”. The World Bank, 2013. Disponible en línea en http://data.worldbank.org/indicator/EG.USE.PCAP.KG.OE/countries (consultado el 24 de mayo de 2013).</para>
+<para id="fs-idm32198992">“Parent and Family Involvement Survey of 2007 National Household Education Survey Program (NHES)”, U.S. Department of Education, National Center for Education Statistics. Disponible en línea en http://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2009030 (consultado el 24 de mayo de 2013).</para><para id="fs-idp116876544">“Parent and Family Involvement Survey of 2007 National Household Education Survey Program (NHES)”, U.S. Department of Education, National Center for Education Statistics. Disponible en línea en http://nces.ed.gov/pubs2009/2009030_sup.pdf (consultado el 24 de mayo de 2013).</para></section>
+<section id="fs-idp53742432" class="summary">
+<title>Revisión del capítulo</title>
+<para id="eip-56">Para evaluar si dos conjuntos de datos proceden de la misma distribución, que no es necesario conocer, puede aplicar la prueba de homogeneidad que utiliza la distribución chi-cuadrado. La hipótesis nula de esta prueba establece que las poblaciones de los dos conjuntos de datos proceden de la misma distribución. La prueba compara los valores observados con los valores esperados si las dos poblaciones siguieran la misma distribución. La prueba es de cola derecha. Cada observación o categoría de celda debe tener un valor esperado de, al menos, cinco.</para></section>
+<section id="fs-idp64112192" class="formula-review">
+<title>Revisión de la fórmula</title>
+<para id="eip-963"><m:math>
+    <m:mrow>
+      <m:munder>
+        <m:mstyle mathsize="140%" displaystyle="true"><m:mo>∑</m:mo></m:mstyle>
+        <m:mrow>
+          <m:mi>i</m:mi><m:mo>⋅</m:mo><m:mi>j</m:mi>
+        </m:mrow>
+      </m:munder>
+      <m:mfrac>
+        <m:mrow>
+          <m:msup>
+            <m:mrow>
+              <m:mo stretchy="false">(</m:mo><m:mi>O</m:mi><m:mo>−</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mi>E</m:mi>
+      </m:mfrac>
+    </m:mrow>
+  </m:math> Estadístico de prueba de homogeneidad donde: <emphasis effect="italics">O</emphasis> = valores observados <newline/> <emphasis effect="italics">E</emphasis> = valores esperados <newline/><emphasis effect="italics">i</emphasis> = número de filas en la tabla de contingencia de datos <newline/><emphasis effect="italics">j</emphasis> = número de columnas en la tabla de contingencia de datos</para>
+  <para id="eip-243"><emphasis effect="italics">df</emphasis> = (<emphasis effect="italics">i</emphasis> −1)(<emphasis effect="italics">j</emphasis> −1) Grados de libertad</para></section>
+<section id="fs-idm167041200" class="practice">
+  <exercise id="eip-134">
+    <problem id="eip-212">
+  <para id="eip-973">Una maestra de Matemáticas quiere ver si dos de sus clases tienen la misma distribución de resultados en los exámenes. ¿Qué prueba debe utilizar?</para></problem>
+<solution id="eip-268">
+  <para id="eip-586">prueba de homogeneidad</para></solution>
+</exercise><exercise id="eip-861"><problem id="eip-442">
+  <para id="eip-950">¿Cuáles son las hipótesis nula y alternativa para <link target-id="eip-134"/>?</para></problem>
+</exercise><exercise id="eip-854"><problem id="eip-804">
+  <para id="eip-222">Un investigador de mercado quiere ver si dos tiendas diferentes tienen la misma distribución de ventas a lo largo del año. ¿Qué tipo de prueba debe utilizar? </para></problem>
+<solution id="eip-309">
+  <para id="eip-172">prueba de homogeneidad</para></solution>
+</exercise><exercise id="eip-670"><problem id="eip-345">
+  <para id="eip-828">Una meteoróloga quiere saber si el este y el oeste de Australia tienen la misma distribución de tormentas. ¿Qué tipo de prueba debe utilizar?</para></problem>
+</exercise><exercise id="eip-168"><problem id="eip-343">
+  <para id="eip-188">¿Qué condición debe cumplirse para utilizar la prueba de homogeneidad?   </para>
+</problem>
+<solution id="eip-701">
+  <para id="eip-458">Todos los valores de la tabla deben ser mayores o iguales a cinco.</para>
+</solution>
+</exercise>
+  <para id="eip-idp68604192"><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios:</emphasis> ¿Los médicos de consulta privada y los de hospital tienen la misma distribución de horas de trabajo? Supongamos que se selecciona al azar una muestra de 100 médicos de consultas privadas y 150 de hospitales y se les pregunta por el número de horas semanales que trabajan. Los resultados se muestran en la <link target-id="eip-idm14786672"/>.</para><table id="eip-idm14786672" summary="..">
+<tgroup cols="5"><thead>
+<row><entry/><entry>20–30</entry>	<entry>30–40</entry>	<entry>40–50</entry>	<entry>50–60</entry></row>
+</thead>
+<tbody>
+<row><entry>Consulta privada</entry>	<entry>16</entry>	<entry>40</entry>	<entry>38</entry>	<entry>6</entry></row>
+<row><entry>Hospital</entry>	<entry>8</entry>	<entry>44</entry>	<entry>59</entry>	<entry>39</entry></row>
+</tbody>
+
+</tgroup>
+</table><exercise id="eip-347"><problem id="eip-187">
+  <para id="eip-535">Indique las hipótesis nula y alternativa.</para>
+</problem>
+</exercise><exercise id="eip-735"><problem id="eip-460">
+  <para id="eip-206"><emphasis effect="italics">df</emphasis> = _______</para></problem>
+<solution id="eip-288">
+  <para id="eip-611">3</para></solution>
+</exercise>
+  <exercise id="eip-906"><problem id="eip-547">
+  <para id="eip-945">¿Cuál es el estadístico de prueba?</para></problem>
+</exercise><exercise id="eip-393"><problem id="eip-557">
+  <para id="eip-467">¿Qué puede concluir con un nivel de significación del 5 %?</para></problem>
+</exercise></section>
+<section id="eip-659" class="free-response">
+<title>Tarea para la casa</title>
+  <exercise id="eip-533"><problem id="eip-715">
+    <para id="eip-637">Un psicólogo está interesado en comprobar si existe una diferencia en la distribución de los tipos de personalidad de los estudiantes de Negocios y de Ciencias Sociales. Los resultados del estudio se muestran en la <link target-id="eip-280"/>. Realice una prueba de homogeneidad. Pruebe con un nivel de significación del 5 %.</para>
+<table id="eip-280" summary="The table presents personality types along the top from columns 2-6 and major (business and social science) in the first column. There are 3 rows."> <tgroup cols="6"><tbody> <row><entry/> <entry><emphasis>Abierto</emphasis></entry> <entry><emphasis>Meticuloso</emphasis></entry> <entry><emphasis>Extrovertido</emphasis></entry> <entry><emphasis>Agradable</emphasis></entry> <entry><emphasis>Neurótico</emphasis></entry> </row> <row> <entry><emphasis>Negocios</emphasis></entry> <entry>41</entry> <entry>52</entry> <entry>46</entry> <entry>61</entry> <entry>58</entry> </row> <row> <entry><emphasis>Ciencias Sociales</emphasis></entry> <entry>72</entry> <entry>75</entry> <entry>63</entry> <entry>80</entry> <entry>65</entry> </row> </tbody> </tgroup> </table>
+</problem>
+<solution id="eip-667">
+  <list id="fs-idp8692528" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: La distribución de los tipos de personalidad es la misma para ambas especialidades.</item>
+    <item><emphasis effect="italics">H<sub>a</sub></emphasis>: La distribución de los tipos de personalidad no es la misma para ambas especialidades.</item>
+    <item><emphasis effect="italics">df</emphasis> = 4</item>
+    <item>chi-cuadrado con <emphasis effect="italics">df</emphasis> = 4</item>
+    <item>estadístico de prueba = 3,01</item>
+    <item>Compruebe la solución del estudiante</item>
+    <item>
+      <list id="fs-idp114714608" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
+        <item>Decisión: No se puede rechazar la hipótesis nula.</item>
+        <item>Motivo de la decisión: El valor calculado de los estadísticos de prueba está dentro o fuera de la cola de la distribución.</item>
+        <item>Conclusión: No hay pruebas suficientes para concluir que la distribución de los tipos de personalidad es diferente para las especialidades de Negocios y Ciencias Sociales.</item>
+      </list></item>
+  </list></solution>
+</exercise><exercise id="eip-302"><problem id="eip-252">
+  <para id="eip-617">¿Los hombres y las mujeres seleccionan desayunos diferentes? Los desayunos pedidos por hombres y mujeres seleccionados al azar en un lugar popular de desayunos se muestran en la <link target-id="eip-id1167950422174"/>. Realice una prueba de homogeneidad con un nivel de significación del 5 %. 
+  <table id="eip-id1167950422174" summary="The table presents personality types along the top from columns 2-6 and major (business and social science) in the first column. There are 3 rows.">
+<tgroup cols="5"><tbody> <row> <entry/> <entry><emphasis>Tostadas francesas</emphasis></entry> <entry><emphasis>Panqueques</emphasis></entry> <entry><emphasis>Waffles</emphasis></entry> <entry><emphasis>Tortillas</emphasis></entry> </row> <row> <entry><emphasis>Hombres</emphasis></entry> <entry>47</entry> <entry>35</entry> <entry>28</entry> <entry>53</entry> </row> <row> <entry><emphasis>Mujeres</emphasis></entry> <entry>65</entry> <entry>59</entry> <entry>55</entry> <entry>60</entry> </row> </tbody> 
+</tgroup>
+</table></para></problem>
+</exercise><exercise id="eip-561">
+  <problem id="eip-737">
+<para id="eip-224">Un pescador está interesado en saber si la distribución de los peces capturados en el lago Green Valley es la misma que la de los peces capturados en el lago Echo. De los 191 peces capturados al azar en el lago Green Valley, 105 eran truchas arco iris, 27 otras truchas, 35 lubinas y 24 bagres. De los 293 peces capturados al azar en el lago Echo, 115 eran truchas arco iris, 58 otras truchas, 67 lubinas y 53 bagres. Realice una prueba de homogeneidad con un nivel de significación del 5 %.</para></problem>
+  <solution id="fs-idm17119520">
+    <list id="fs-idp103994384" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: La distribución de los peces capturados es igual en el lago Green Valley y en el lago Echo.  </item>
+      <item><emphasis effect="italics">H<sub>a</sub></emphasis>: La distribución de los peces capturados no igual en el lago Green Valley y en el lago Echo.  </item>
+      <item>3</item>
+      <item>chi-cuadrado con <emphasis effect="italics">df</emphasis> = 3</item>
+      <item>11,75</item>
+
+      <item>Compruebe la solución del estudiante</item>
+      <item>
+        <list id="fs-idp3384256" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
+          <item>Decisión: No se puede aceptar la hipótesis nula</item>
+          <item>Motivo de la decisión: El valor calculado de los estadísticos de prueba está dentro o fuera de la cola de la distribución.</item>
+          <item>Conclusión: Hay pruebas para concluir que la distribución de los peces capturados es diferente en el lago Green Valley y en el lago Echo</item>
+        </list></item>
+    </list></solution>
+</exercise>
+<exercise id="eip-495"><problem id="eip-784">
+      <para id="eip-70">En 2007, EE. UU. contaba con 1,5 millones de estudiantes educados en casa, según el Centro Nacional de Estadísticas Educativas de EE. UU. En la <link target-id="eip-idm1189216"/> se puede ver que los padres deciden educar a sus hijos en casa por diferentes razones, y algunas razones son clasificadas por los padres como más importantes que otras. Según los resultados de la encuesta que se muestran en la tabla, ¿la distribución de las razones aplicables es la misma que la distribución de la razón más importante? Proporcione su evaluación con un nivel de significación del 5 %. ¿Esperaba el resultado que ha obtenido?</para>
+      <table id="eip-idm1189216" summary=".">
+<tgroup cols="4"><colspec colnum="1" colname="c1" colwidth="180"/>
+    <colspec colnum="2" colname="c2" colwidth="180"/>
+    <colspec colnum="3" colname="c3" colwidth="180"/>
+    <colspec colnum="4" colname="c4" colwidth="70"/>
+          <thead>
+            <row>
+              <entry>Razones para la educación en casa</entry>
+              <entry>Razón aplicable (en miles de encuestados)</entry>
+              <entry>Razón más importante (en miles de encuestados)</entry>
+              <entry>Total de la fila</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Preocupación por el ambiente de otras escuelas</entry> <entry>1.321</entry> <entry>309</entry> <entry>1.630</entry>
+            </row>
+            <row>
+              <entry>Insatisfacción con la enseñanza académica en otras escuelas</entry> <entry>1.096</entry> <entry>258</entry> <entry>1.354</entry>
+            </row>
+            <row>
+              <entry>Proporcionar instrucción religiosa o moral</entry> <entry>1.257</entry> <entry>540</entry> <entry>1.797</entry>
+            </row>
+            <row>
+              <entry>El niño tiene necesidades especiales, aparte de las físicas o mentales</entry> <entry>315</entry> <entry>55</entry> <entry>370</entry>
+            </row>
+            <row>
+              <entry>Enfoque no tradicional de la educación de los niños</entry> <entry>984</entry> <entry>99</entry> <entry>1.083</entry>
+            </row>
+            <row>
+              <entry>Otras razones (p. ej., finanzas, viajes, tiempo en familia, etc.)</entry> <entry>485</entry> <entry>216</entry> <entry>701</entry>
+            </row>
+            <row>
+              <entry>Total de la columna</entry> <entry>5.458</entry> <entry>1.477</entry> <entry>6.935</entry>
+            </row>
+          </tbody>
+        
+
+</tgroup>
+</table></problem>
+    </exercise><exercise id="eip-316"><problem id="eip-962">
+      <para id="eip-421">Al examinar el consumo de energía, a menudo nos interesa detectar las tendencias a lo largo del tiempo y su correlación entre los distintos países. La información de la <link target-id="eip-idp102538544"/> muestra el uso promedio de energía (en unidades de kg de equivalente de petróleo per cápita) en EE. UU. y los países conjuntos de la Unión Europea (UE) para el periodo de seis años de 2005 a 2010. ¿Los valores de uso de energía en estas dos áreas provienen de la misma distribución? Haga el análisis al nivel de significación del 5 %.</para><table id="eip-idp102538544" summary="placeholder">
+<tgroup cols="4"><thead>
+<row>
+<entry>Año</entry>
+<entry>Unión Europea</entry>
+<entry>Estados Unidos</entry>
+<entry>Total de la fila</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>2010</entry>
+<entry>3.413</entry>
+<entry>7.164</entry>
+<entry>10.557</entry>
+</row>
+<row>
+<entry>2009</entry>
+<entry>3.302</entry>
+<entry>7.057</entry>
+<entry>10.359</entry>
+</row>
+<row>
+<entry>2008</entry>
+<entry>3.505</entry>
+<entry>7.488</entry>
+<entry>10.993</entry>
+</row>
+<row>
+<entry>2007</entry>
+<entry>3.537</entry>
+<entry>7.758</entry>
+<entry>11.295</entry>
+</row>
+<row>
+<entry>2006</entry>
+<entry>3.595</entry>
+<entry>7.697</entry>
+<entry>11.292</entry>
+</row>
+<row>
+<entry>2005</entry>
+<entry>3.613</entry>
+<entry>7.847</entry>
+<entry>11.460</entry>
+</row>
+<row>
+<entry>Total de la columna</entry>
+<entry>20.965</entry>
+<entry>45.011</entry>
+<entry>65.976</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></problem>
+      <solution id="fs-idm43380128">
+        <list id="fs-idm34614464" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: La distribución del uso promedio de la energía en Estados Unidos es igual que en Europa entre 2005 y 2010.</item>
+          <item><emphasis effect="italics">H<sub>a</sub></emphasis>: La distribución del uso promedio de la energía en Estados Unidos no es igual que en Europa entre 2005 y 2010.</item>
+          <item><emphasis effect="italics">df</emphasis> = 4</item>
+          <item>chi-cuadrado con <emphasis effect="italics">df</emphasis> = 4</item>
+          <item>estadístico de prueba = 2,7434</item>
+          <item>Compruebe la solución del estudiante</item>
+          <item>
+            <list id="fs-idp64830064" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
+              <item>Decisión: No se puede rechazar la hipótesis nula.</item>
+              <item>Motivo de la decisión: El valor calculado de los estadísticos de prueba está dentro o fuera de la cola de la distribución.</item>
+              <item>Conclusión: Al nivel de significación del 5 % no hay pruebas suficientes para concluir que los valores medios de uso de energía en EE. UU. y la UE no proceden de distribuciones diferentes para el periodo de 2005 a 2010.</item>
+            </list></item>
+        </list></solution>
+    </exercise><exercise id="eip-653"><problem id="eip-200">
+        <para id="eip-454">El Instituto de Seguros para la Seguridad en las Carreteras recopila cada año información sobre la seguridad de todo tipo de automóviles y publica un informe de los Mejores Selecciones de Seguridad entre todos los automóviles, marcas y modelos. La <link target-id="eip-idp53245072"/> presenta el número de Mejores Selecciones de Seguridad en seis categorías de automóviles para los años 2009 y 2013. Analice los datos de la tabla para concluir si la distribución de los automóviles que obtuvieron el premio de seguridad de Mejores Selecciones de Seguridad se ha mantenido igual entre 2009 y 2013. Derive sus resultados al nivel de significación del 5 %.</para>
+        <table id="eip-idp53245072" summary=""><tgroup cols="">
+            <thead>
+              <row>
+                <entry>Año \ Tipo de automóvil</entry>
+                <entry>Pequeño</entry>
+                <entry>Tamaño medio</entry>
+                <entry>Grande</entry>
+                <entry>SUV pequeña</entry>
+                <entry>Vehículo utilitario deportivo mediano</entry>
+                <entry>SUV grande</entry>
+                <entry>Total de la fila</entry>
+              </row>
+            </thead>
+ 
+            <tbody>
+              <row>
+                <entry>2009</entry>
+                <entry>12</entry>
+                <entry>22</entry>
+                <entry>10</entry>
+                <entry>10</entry>
+                <entry>27</entry>
+                <entry>6</entry>
+                <entry>87</entry>
+              </row>
+                <row>
+                  <entry>2013</entry>
+                  <entry>31</entry>
+                  <entry>30</entry>
+                  <entry>19</entry>
+                  <entry>11</entry>
+                  <entry>29</entry>
+                  <entry>4</entry>
+                  <entry>124</entry>
+                </row>
+                <row>
+                <entry><emphasis>Total de la columna</emphasis></entry>
+                <entry>43</entry>
+                <entry>52</entry>
+                <entry>29</entry>
+                <entry>21</entry>
+                <entry>56</entry>
+                <entry>10</entry>
+                <entry>211</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></problem>
+      </exercise></section>
+ </content>
+<glossary>
+
+<definition id="fs-id1166232318666">
+    <term>Prueba de homogeneidad</term>
+    <meaning id="fs-id1166232082735">
+      prueba utilizada para sacar una conclusión sobre si dos poblaciones tienen la misma distribución. Los grados de libertad que se utilizan equivalen al (número de columnas – 1).  
+    </meaning>
+</definition>
+
+</glossary>
+</document>

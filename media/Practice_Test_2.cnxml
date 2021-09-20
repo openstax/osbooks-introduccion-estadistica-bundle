@@ -1,0 +1,1818 @@
+﻿<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<title>Prueba práctica 2</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+mdml-version="0.5">
+<!-- WARNING! The 'metadata' section is read only. Do not edit below.
+Changes to the metadata section in the source will not be saved. -->
+<md:repository>http://staging2.cnx.org/content</md:repository>
+<md:content-id>new</md:content-id>
+<md:title>Prueba práctica 2</md:title>
+<md:version>**new**</md:version>
+<md:created>2013/10/18 03:23:26.032 GMT-5</md:created>
+<md:revised>2013/10/18 03:25:34.087 GMT-5</md:revised>
+<md:actors>
+<md:person userid="words_stats">
+<md:firstname>Words</md:firstname>
+<md:surname>Numbers</md:surname>
+<md:fullname>Words Numbers</md:fullname>
+<md:email>techsupport@cnx.org</md:email>
+</md:person>
+</md:actors>
+<md:roles>
+<md:role type="author">words_stats</md:role>
+<md:role type="maintainer">words_stats</md:role>
+<md:role type="licensor">words_stats</md:role>
+</md:roles>
+<md:license url="http://creativecommons.org/licenses/by/3.0/" />
+<!-- For information on license requirements for use or modification, see license url in the
+above <md:license> element.
+For information on formatting required attribution, see the URL:
+CONTENT_URL/content_info#cnx_cite_header
+where CONTENT_URL is the value provided above in the <md:content-url> element.
+-->
+<md:subjectlist>
+<md:subject>Mathematics and Statistics</md:subject>
+</md:subjectlist>
+<md:abstract></md:abstract>
+<md:language>en</md:language>
+<!-- WARNING! The 'metadata' section is read only. Do not edit above.
+Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+<section>
+<title><para>Función de Distribución de Probabilidad (PDF) para una variable aleatoria discreta</para></title>
+<para><para><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios.</emphasis> Usted realiza una encuesta entre una muestra aleatoria de estudiantes de una determinada universidad. Los datos recopilados incluyen su especialidad, el número de clases que tomaron el semestre anterior y la cantidad de dinero que gastaron en libros comprados para las clases en el semestre anterior.</para></para>
+
+<exercise>
+<problem><para>Si <emphasis effect="italics">X</emphasis> = la especialidad del estudiante, ¿cuál es el dominio de <emphasis effect="italics">X</emphasis>?</para></problem>
+<solution><para>El dominio de <emphasis effect="italics">X</emphasis> = {Inglés, Matemáticas, ...}, es decir, una lista de todas las especialidades que se ofrecen en la universidad, más “sin declarar”.</para></solution>
+</exercise>
+
+<exercise>
+<problem><para>Si <emphasis effect="italics">Y</emphasis> = el número de clases tomadas en el semestre anterior, ¿cuál es el dominio de <emphasis effect="italics">Y</emphasis>?</para></problem>
+<solution><para>El dominio de <emphasis effect="italics">Y</emphasis> = {0, 1, 2, ...}, es decir, los enteros desde 0 hasta el límite superior de las clases permitidas por la universidad.</para></solution>
+</exercise>
+
+<exercise>
+<problem><para>Si <emphasis effect="italics">Z</emphasis> = la cantidad de dinero gastada en libros en el semestre anterior, ¿cuál es el dominio de <emphasis effect="italics">Z</emphasis>?</para></problem>
+<solution><para>El dominio de <emphasis effect="italics">Z</emphasis> = cualquier cantidad de dinero a partir de 0.</para></solution>
+</exercise>
+
+<exercise>
+<problem><para>¿Por qué <emphasis effect="italics">X</emphasis>, <emphasis effect="italics">Y</emphasis> y <emphasis effect="italics">Z</emphasis> son variables aleatorias en el ejemplo anterior?</para></problem>
+<solution><para>Porque pueden tomar cualquier valor dentro de su dominio, y su valor para cualquier caso particular no se conoce hasta que se termina la encuesta.</para></solution>
+</exercise>
+
+<exercise>
+<problem><para>Después de recopilar los datos, halla que para un caso <emphasis effect="italics">Z</emphasis> = –7. ¿Este es un valor posible para <emphasis effect="italics">Z</emphasis>?</para></problem>
+<solution>
+<para>No, porque el dominio de <emphasis effect="italics">Z</emphasis> solo incluye números positivos (no se puede gastar una cantidad negativa de dinero). Posiblemente el valor –7 sea un error de introducción de datos, o un código especial para indicar que el estudiante no ha respondido la pregunta.</para>
+</solution>
+</exercise>
+
+<exercise>
+<problem><para>¿Cuáles son las dos características esenciales de una distribución de probabilidad discreta?</para></problem>
+<solution><para>Las probabilidades deben sumar 1,0, y las probabilidades de cada evento deben estar entre 0 y 1, ambos inclusive.</para></solution>
+</exercise>
+
+<exercise>
+<problem><para><emphasis effect="italics">Use esta distribución de probabilidad discreta representada en esta tabla para responder las próximas seis preguntas.</emphasis> La biblioteca de la universidad registra el número de libros prestados por cada usuario a lo largo de un día, con el siguiente resultado:</para>
+<para>Defina la variable aleatoria X para este ejemplo. </para>
+<table summary="..">
+<title></title>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry>x</entry>
+<entry>P(x)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>0</entry>
+<entry>0,20</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>0,45</entry>
+</row>
+<row>
+<entry>2</entry>
+<entry>0,20</entry>
+</row>
+<row>
+<entry>3</entry>
+<entry>0,10</entry>
+</row>
+<row>
+<entry>4</entry>
+<entry>0,05</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+<solution>
+<para>Supongamos que <emphasis effect="italics">X</emphasis> = el número de libros sacados por un cliente. </para>
+</solution>
+</exercise>
+
+<exercise>
+<problem><para>¿Qué es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 2)?</para></problem>
+<solution><para><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 2) = 0,10 + 0,05 = 0,15</para></solution>
+</exercise>
+
+<exercise>
+<problem><para>¿Cuál es la probabilidad de que un cliente pida prestado al menos un libro?</para></problem>
+<solution><para><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 0) = 1 – 0,20 = 0,80</para></solution>
+</exercise>
+
+<exercise>
+<problem><para>¿Cuál es la probabilidad de que un cliente no pida prestado más de tres libros?</para></problem>
+<solution><para><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 3) = 1 – 0,05 = 0,95</para></solution>
+</exercise>
+
+<exercise>
+<problem><para>Si en la tabla aparece <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) como 0,15, ¿cómo sabría que hay un error?</para></problem>
+<solution>Las probabilidades sumarían 1,10, y la probabilidad total en una distribución debe ser siempre igual a 1,0.</solution>
+</exercise>
+
+<exercise>
+<problem><para>¿Cuál es el número promedio de libros que pide prestado un cliente?</para></problem>
+<solution><para><m:math>
+<m:mover accent='true'>
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+
+</m:math> = 0(0,20) + 1(0,45) + 2(0,20) + 3(0,10) + 4(0,05) = 1,35</para></solution>
+</exercise>
+</section>
+
+<section>
+<title>Media o valor esperado y desviación típica</title>
+
+<para><emphasis effect="italics">Use la siguiente información para responder los próximos cuatro ejercicios.</emphasis> En una compañía hay tres puestos de trabajo vacantes: uno en el departamento de contabilidad, otro en el de recursos humanos y otro en el de ventas. El puesto de trabajo de Contabilidad recibe 30 solicitantes, y el Departamento de Recursos Humanos y Ventas recibe 60 solicitantes.</para>
+
+<exercise>
+<problem><para>Si <emphasis effect="italics">X</emphasis> = el número de solicitudes para un puesto de trabajo, utilice esta información para rellenar la tabla a continuación.</para>
+<table summary="..">
+<title></title>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>x</entry>
+<entry>P(x)</entry>
+<entry>xP(x)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry></entry>
+<entry> </entry>
+<entry> </entry>
+</row>
+<row>
+<entry></entry>
+<entry> </entry>
+<entry> </entry>
+</row>
+<row>
+<entry></entry>
+<entry> </entry>
+<entry> </entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+
+<solution>
+<table summary="..">
+<title></title>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>x</entry>
+<entry>P(x)</entry>
+<entry>xP(x)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>30</entry>
+<entry>0,33</entry>
+<entry>9,90</entry>
+</row>
+<row>
+<entry>40</entry>
+<entry>0,33</entry>
+<entry>13,20</entry>
+</row>
+<row>
+<entry>60</entry>
+<entry>0,33</entry>
+<entry>19,80</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+
+<exercise>
+<problem><para>¿Cuál es el número medio de solicitantes?</para></problem>
+<solution><para><m:math>
+<m:mover accent='true'>
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+
+</m:math> = 9,90 + 13,20 + 19,80 = 42,90</para></solution>
+</exercise>
+
+<exercise>
+<problem><para>¿Cuál es la Función de Distribución de Probabilidad (Probability Distribution Function, PDF) de<emphasis effect="italics">X?</emphasis></para></problem>
+<solution>
+<para><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 30) = 0,33 <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 40) = 0,33 <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 60) = 0,33
+</para></solution>
+</exercise>
+
+<exercise>
+<problem><para>Añada una cuarta columna a la tabla, para (<emphasis effect="italics">x</emphasis> – <emphasis effect="italics">μ</emphasis>)<sup>2</sup><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>).</para></problem>
+<solution>
+<table summary="..">
+<title></title>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry><emphasis effect="italics">xP</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry>(<emphasis effect="italics">x</emphasis> – <emphasis effect="italics">μ</emphasis>)<sup>2</sup><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>30</entry>
+<entry>0,33</entry>
+<entry>9,90</entry>
+<entry>(30-42,90)2(0,33) = 54,91</entry>
+</row>
+<row>
+<entry>40</entry>
+<entry>0,33</entry>
+<entry>13,20</entry>
+<entry>(40-42,90)2(0,33) = 2,78</entry>
+</row>
+<row>
+<entry>60</entry>
+<entry>0,33</entry>
+<entry>19,90</entry>
+<entry>(60-42,90)2(0,33) = 96,49</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+
+<exercise>
+<problem><para>¿Cuál es la desviación típica de X?</para></problem>
+<solution><para><m:math>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+<m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:mn>54,91</m:mn><m:mo>+</m:mo><m:mn>2,78</m:mn><m:mo>+</m:mo><m:mn>96,49</m:mn>
+</m:mrow>
+</m:msqrt>
+<m:mo>=</m:mo><m:mn>12,42</m:mn>
+</m:mrow>
+</m:math>
+</para></solution>
+</exercise>
+</section>
+
+<section>
+<title>Distribución binomial</title>
+<exercise>
+<problem><para>En un experimento binomial, si <emphasis effect="italics">p</emphasis> = 0,65, ¿a qué equivale <emphasis effect="italics">q</emphasis>?</para></problem>
+<solution><para><emphasis effect="italics">q</emphasis> = 1 - 0,65 = 0,35</para></solution>
+</exercise>
+
+<exercise>
+<problem><para>¿Cuáles son las características necesarias de un experimento binomial?</para></problem>
+<solution>
+<list list-type="enumerated">
+<item>Hay un número fijo de ensayos.</item>
+<item>Solo hay dos resultados posibles, y suman 1.</item>
+<item>Los ensayos son independientes y se realizan en condiciones idénticas.</item>
+</list>
+</solution>
+</exercise>
+
+<exercise>
+<problem>
+<para>Joe realiza un experimento para ver cuántas veces tiene que lanzar una moneda antes de obtener cuatro caras seguidas. ¿Califica esto como un experimento binomial?</para>
+</problem>
+<solution><para>No, porque no hay un número fijo de ensayos</para></solution>
+</exercise>
+
+<para><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios.</emphasis> En una comunidad en particular, el 65 % de los hogares tienen, al menos, una persona que se ha graduado de un instituto universitario. Usted toma una muestra aleatoria de 100 hogares de esta comunidad. Suponga que <emphasis effect="italics">X</emphasis> = el número de hogares, donde al menos uno de sus integrantes cuenta con un título universitario.</para>
+
+<exercise>
+<problem><para>Describa la distribución de probabilidad de <emphasis effect="italics">X</emphasis>.</para></problem>
+<solution><para><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(100, 0,65)</para></solution>
+</exercise>
+
+<exercise>
+<problem><para>¿Cuál es la media de <emphasis effect="italics">X</emphasis>?</para></problem>
+<solution><para><emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> = 100(0,65) = 65</para></solution>
+</exercise>
+
+<exercise>
+<problem><para>¿Cuál es la desviación típica de <emphasis effect="italics">X</emphasis>?</para></problem>
+<solution><para><m:math>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+<m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
+</m:mrow>
+</m:msqrt>
+<m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:mn>100</m:mn><m:mo stretchy='false'>(</m:mo><m:mn>0,65</m:mn><m:mo stretchy='false'>)</m:mo><m:mo stretchy='false'>(</m:mo><m:mn>0,35</m:mn><m:mo stretchy='false'>)</m:mo>
+</m:mrow>
+</m:msqrt>
+<m:mo>=</m:mo><m:mn>4,77</m:mn>
+</m:mrow>
+</m:math></para></solution>
+</exercise>
+
+<para><emphasis effect="italics">Use la siguiente información para responder los próximos cuatro ejercicios.</emphasis> Joe es la estrella del equipo de béisbol de su escuela. Su promedio de bateo es de 0,400, lo que significa que por cada diez veces que le toca batear (turno al bate), cuatro de esas veces ejecuta un batazo imparable. Usted decide seguir su desempeño de bateo en sus próximos 20 turnos al bate.</para>
+
+<exercise>
+<problem><para>Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en este experimento.</para></problem>
+<solution><para><emphasis effect="italics">X</emphasis> = Joe ejecuta un batazo imparable en un turno al bate (en una ocasión en la que viene a batear)</para></solution>
+</exercise>
+
+<exercise>
+<problem><para>Suponiendo que la probabilidad de Joe de ejecutar un batazo imparable es independiente e idéntica en los 20 turnos al bate, describa la distribución de <emphasis effect="italics">X</emphasis>.</para></problem>
+<solution><para><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(20, 0,4)</para></solution>
+</exercise>
+
+<exercise>
+<problem><para>Dada esta información, ¿qué número de aciertos predice que obtendrá Joe? </para></problem>
+<solution><para><emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> = 20(0,4) = 8</para></solution>
+</exercise>
+
+<exercise>
+<problem><para>¿Cuál es la desviación típica de <emphasis effect="italics">X</emphasis>?</para></problem>
+<solution>
+<para><m:math>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+<m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
+</m:mrow>
+</m:msqrt>
+<m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:mn>20</m:mn><m:mo stretchy='false'>(</m:mo><m:mn>0,40</m:mn><m:mo stretchy='false'>)</m:mo><m:mo stretchy='false'>(</m:mo><m:mn>0,60</m:mn><m:mo stretchy='false'>)</m:mo>
+</m:mrow>
+</m:msqrt>
+<m:mo>=</m:mo><m:mn>2,19</m:mn>
+</m:mrow>
+</m:math></para></solution>
+</exercise>
+</section>
+<section>
+<title>4,4: Distribución geométrica</title>
+<exercise>
+<problem>
+<para>¿Cuáles son las tres principales características de un experimento geométrico?</para>
+</problem>
+<solution>
+<para>
+<list list-type="enumerated">
+<item>Se realizan una serie de ensayos de Bernoulli hasta que uno de ellos es un acierto, y entonces el experimento se detiene.</item>
+<item>Se realiza al menos un ensayo, pero no hay un límite máximo al número de ensayos.</item>
+<item>La probabilidad de acierto o fallo es igual para cada ensayo.</item>
+</list>
+</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Decide realizar un experimento geométrico lanzando una moneda hasta que salga cara. Esto requiere cinco ensayos. Represente los resultados de este ensayo mediante H para cara y <emphasis effect="italics">T</emphasis> para cruz.</para>
+</problem>
+<solution>
+<para><emphasis effect="italics">T T T T H</emphasis></para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Está realizando un experimento geométrico sacando cartas de un mazo regular de 52 cartas, con reemplazo, hasta sacar la reina de corazones. ¿Cuál es el dominio de <emphasis effect="italics">X</emphasis> para este experimento?</para>
+</problem>
+<solution>
+<para>El dominio de <emphasis effect="italics">X</emphasis> = {1, 2, 3, 4, 5, ....n}. Como está haciendo la extracción sin reemplazo, no hay un límite superior para el número de extracciones que pueden ser necesarias.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Está realizando un experimento geométrico sacando cartas de un mazo regular de 52 cartas, sin reemplazo, hasta que saque una carta roja. ¿Cuál es el dominio de <emphasis effect="italics">X</emphasis> para este experimento?</para>
+</problem>
+<solution>
+<para>El dominio de <emphasis effect="italics">X</emphasis> = {1, 2, 3, 4, 5, 6, 7, 8., 9, 10, 11, 12...27}. Como está haciendo la extracción sin reemplazo, y 26 de las 52 cartas son rojas, tiene que extraer una carta roja dentro de las primeras 17 extracciones.</para>
+</solution>
+</exercise>
+<para><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios.</emphasis> En una universidad en particular el 27 % de los estudiantes se especializan en Ingeniería. Decide seleccionar estudiantes al azar hasta que elige a uno que se especializa en Ingeniería. Supongamos que <emphasis effect="italics">X</emphasis> = el número de estudiantes que selecciona hasta hallar uno que se especialice en Ingeniería.</para>
+<exercise>
+<problem>
+<para>¿Cuál es la distribución de probabilidad de <emphasis effect="italics">X</emphasis>?</para>
+</problem>
+<solution>
+<para><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">G</emphasis>(0,24)</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>¿Cuál es la media de X?</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mrow>
+<m:mi>μ</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+<m:mn>1</m:mn>
+<m:mi>p</m:mi>
+</m:mfrac>
+<m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mn>0,27</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mn>3,70</m:mn>
+</m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>¿Cuál es la desviación típica de X?</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mrow>
+<m:mi>σ</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:msqrt>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>1</m:mn><m:mo>−</m:mo><m:mi>p</m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi>p</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:msqrt>
+<m:mo>=</m:mo><m:mtext> </m:mtext><m:msqrt>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>1</m:mn><m:mo>−</m:mo><m:mn>0,27</m:mn>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mn>0,27</m:mn>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:msqrt>
+<m:mo>=</m:mo><m:mn>3,16</m:mn>
+</m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</section>
+<section>
+<title>4,5: Distribución hipergeométrica</title>
+<exercise>
+<problem>
+<para>Usted extrae una muestra aleatoria de diez estudiantes para que participen en una encuesta de un grupo de 30 formado por 16 niños y 14 niñas. Le interesa la probabilidad de que siete de los estudiantes seleccionados sean niños. ¿Califica esto como un experimento hipergeométrico? Enumere las condiciones y si se cumplen o no.</para>
+</problem>
+<solution>
+<para>Sí, porque está haciendo el muestreo de una población compuesta por dos grupos (niños y niñas), tiene un grupo de interés (niños) y está haciendo el muestreo sin reemplazo (por lo tanto, las probabilidades cambian con cada elección, y no está realizando ensayos de Bernoulli).</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Usted saca cinco cartas, sin reemplazo, de un mazo regular de 52 cartas y está interesado en la probabilidad de que dos de las cartas sean picas. ¿Cuáles son el grupo de interés, el tamaño del grupo de interés y el tamaño de la muestra para este ejemplo?</para>
+</problem>
+<solution>
+<para>El grupo de interés son las cartas que son picas, el tamaño del grupo de interés es 13 y el tamaño de la muestra es cinco.</para>
+</solution>
+</exercise>
+</section>
+
+<section>
+<title>4,6: Distribución de Poisson</title>
+<exercise>
+<problem>
+<para>¿Cuáles son las principales características de la distribución de Poisson?</para>
+</problem>
+<solution>
+<para>Una distribución de Poisson modela el número de eventos que ocurren en un intervalo fijo de tiempo o espacio, cuando los eventos son independientes y la tasa media de los eventos es conocida.</para>
+</solution>
+</exercise>
+<para><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios.</emphasis> El número de conductores que llegan a una cabina de peaje en una hora se puede modelar mediante la distribución de Poisson.</para>
+<exercise>
+<problem>
+<para>Si <emphasis effect="italics">X</emphasis> = el número de conductores, y el promedio de conductores por hora es de cuatro, ¿cómo expresaría esta distribución?</para>
+</problem>
+<solution>
+<para><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(4)</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>¿Cuál es el dominio de <emphasis effect="italics">X</emphasis>?</para>
+</problem>
+<solution>
+<para>El dominio de <emphasis effect="italics">X</emphasis> = {0, 1, 2, 3, .....) es decir, cualquier número entero a partir de 0.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>¿Cuáles son la media y la desviación típica de <emphasis effect="italics">X</emphasis>?</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>4</m:mn>
+</m:math> <newline/><m:math>
+<m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt>
+<m:mn>4</m:mn>
+</m:msqrt>
+<m:mo>=</m:mo><m:mn>2</m:mn>
+</m:math></para>
+</solution>
+</exercise>
+</section>
+<section>
+<title>5,1: Funciones de probabilidad continuas</title>
+<exercise>
+<problem>
+<para>Lleva a cabo una encuesta entre los estudiantes para ver cuántos libros compraron el semestre anterior, la cantidad total que pagaron por esos libros, el número que vendieron una vez terminó el semestre y la cantidad de dinero que recibieron por los libros que vendieron. ¿Cuáles variables de esta encuesta son discretas y cuáles son continuas?</para>
+</problem>
+<solution>
+<para>Las variables discretas son el número de libros comprados y el número de libros vendidos al final del semestre. Las variables continuas son la cantidad de dinero gastada por los libros y la cantidad de dinero recibida cuando se vendieron.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Con las variables aleatorias continuas nunca calculamos la probabilidad de que <emphasis effect="italics">X</emphasis> tenga un valor determinado, sino que siempre hablamos en términos de la probabilidad de que <emphasis effect="italics">X</emphasis> tenga un valor dentro de un rango determinado. ¿Por qué?</para>
+</problem>
+<solution>
+<para>Porque para una variable aleatoria continua, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = <emphasis effect="italics">c</emphasis>) = 0, donde <emphasis effect="italics">c</emphasis> es un valor cualquiera. En cambio, calculamos <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">c</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">d</emphasis>), es decir, la probabilidad de que el valor de <emphasis effect="italics">x</emphasis> esté entre los valores <emphasis effect="italics">c</emphasis> y <emphasis effect="italics">d</emphasis>.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Para una variable aleatoria continua, ¿por qué <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">c</emphasis>) y <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ <emphasis effect="italics">c</emphasis>) son afirmaciones equivalentes?</para>
+</problem>
+<solution>
+<para>Porque <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = <emphasis effect="italics">c</emphasis>) = 0 para cualquier variable aleatoria continua.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Para una función de probabilidad continua, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 5) = 0,35. ¿Qué es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 5), y cómo lo sabe?</para>
+</problem>
+<solution>
+<para><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 5) = 1 – 0,35 = 0,65, porque la probabilidad total de una función de probabilidad continua es siempre 1.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Describa cómo dibujaría la distribución de probabilidad continua descrita por la función <m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy='false'>(</m:mo><m:mi>x</m:mi><m:mo stretchy='false'>)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mn>10</m:mn>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math> para <m:math>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>10</m:mn>
+</m:mrow>
+</m:math>. ¿Qué tipo de distribución es esta?</para>
+</problem>
+<solution>
+<para>Se trata de una distribución de probabilidad uniforme. Se dibujaría como un rectángulo con los lados verticales en 0 y 20, y los lados horizontales en <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mn>10</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math> y 0.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Para la distribución de probabilidad continua descrita por la función <m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy='false'>(</m:mo><m:mi>x</m:mi><m:mo stretchy='false'>)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mn>10</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math> para <m:math>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>10</m:mn>
+</m:mrow>
+</m:math>, ¿cuál es la <emphasis effect="italics">P</emphasis>(0 &lt; <emphasis effect="italics">x</emphasis> &lt; 4)?
+</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mrow>
+<m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>0</m:mn><m:mtext> </m:mtext><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo> </m:mo><m:mo>&lt;</m:mo><m:mn>4</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>4</m:mn><m:mo>−</m:mo><m:mn>0</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mn>10</m:mn>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>0,4</m:mn>
+</m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</section>
+<section>
+<title>5,2: La distribución uniforme</title>
+<exercise>
+<problem>
+<para>Para la distribución de probabilidad continua descrita por la función <m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy='false'>(</m:mo><m:mi>x</m:mi><m:mo stretchy='false'>)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mn>10</m:mn>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math> para <m:math>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>10</m:mn>
+</m:mrow>
+</m:math>, ¿cuál es la <emphasis effect="italics">P</emphasis>(2 &lt; <emphasis effect="italics">x</emphasis> &lt; 5)?
+</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mrow>
+<m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo> </m:mo><m:mo>&lt;</m:mo><m:mn>5</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>5</m:mn><m:mo>−</m:mo><m:mn>2</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mn>10</m:mn>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>0,3</m:mn>
+</m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+<para><emphasis effect="italics">Use la siguiente información para responder los próximos cuatro ejercicios.</emphasis> El número de minutos que un paciente espera en una clínica médica para ser atendido por un médico se representa mediante una distribución uniforme entre cero y 30 minutos, ambos inclusive.</para>
+<exercise>
+<problem>
+<para>Si <emphasis effect="italics">X</emphasis> es igual al número de minutos que espera una persona, ¿cuál es la distribución de <emphasis effect="italics">X</emphasis>?</para>
+</problem>
+<solution>
+<para><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(0, 15)</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Escriba la función de densidad de probabilidad de esta distribución.</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy='false'>(</m:mo><m:mi>x</m:mi><m:mo stretchy='false'>)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math> para <m:math display="">
+<m:mrow>
+<m:mo stretchy='false'>(</m:mo><m:mi>a</m:mi><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mi>b</m:mi><m:mo stretchy='false'>)</m:mo><m:mtext> así que </m:mtext><m:mi>f</m:mi><m:mo stretchy='false'>(</m:mo><m:mi>x</m:mi><m:mo stretchy='false'>)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mn>30</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math> para <m:math display="">
+<m:mrow>
+<m:mo stretchy='false'>(</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>30</m:mn><m:mo stretchy='false'>)</m:mo>
+</m:mrow>
+</m:math></para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>¿Cuál es la media y la desviación típica del tiempo de espera?</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mrow>
+<m:mi>μ</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+<m:mrow>
+<m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>+</m:mo><m:mn>30</m:mn>
+</m:mrow>
+<m:mn>5</m:mn>
+</m:mfrac>
+<m:mo>=</m:mo><m:mn>15,0</m:mn>
+</m:mrow>
+</m:math> <newline/><m:math>
+<m:mrow>
+<m:mi>σ</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:msqrt>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mo stretchy='false'>(</m:mo><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi><m:mo stretchy='false'>)</m:mo>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mrow>
+<m:mn>12</m:mn>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:msqrt>
+<m:mo>=</m:mo><m:mtext> </m:mtext><m:msqrt>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>30</m:mn><m:mo>−</m:mo><m:mn>0</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mrow>
+<m:mn>12</m:mn>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:msqrt>
+<m:mo>=</m:mo><m:mn>8,66</m:mn>
+</m:mrow>
+</m:math></para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>¿Cuál es la probabilidad de que un paciente espere menos de diez minutos?</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mrow>
+<m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>10</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>10</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mn>30</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>0,33</m:mn>
+</m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</section>
+<section>
+<title>5,3: La distribución exponencial</title>
+<exercise>
+<problem>
+<para>La distribución de la variable <emphasis effect="italics">X</emphasis>, que representa el tiempo promedio hasta el fallo de una batería de automóvil, puede escribirse como <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">Exp</emphasis>(<emphasis effect="italics">m</emphasis>). Describa esta distribución con palabras.</para>
+</problem>
+<solution>
+<para><emphasis effect="italics">X</emphasis> tiene una distribución exponencial con parámetro de decaimiento <emphasis effect="italics">m</emphasis> y media y desviación típica <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mi>m</m:mi>
+</m:mfrac>
+</m:mrow>
+</m:math>. En esta distribución, habrá un número relativamente grande de valores pequeños, y los valores serán menos comunes a medida que sean más grandes.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Si el valor de <emphasis effect="italics">m</emphasis> para una distribución exponencial es diez, ¿cuáles son la media y la desviación típica de la distribución?</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mrow>
+<m:mi>μ</m:mi><m:mo>=</m:mo><m:mi>σ</m:mi><m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mi>m</m:mi>
+</m:mfrac>
+<m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mn>10</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mn>0,1</m:mn>
+</m:mrow>
+</m:math></para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Escriba la función de densidad de probabilidad para una variable distribuida como: <newline/><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">Exp</emphasis>(0,2).</para>
+</problem>
+<solution>
+<para><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = 0,2e<sup>-0,2<emphasis effect="italics">x</emphasis></sup> donde <emphasis effect="italics">x</emphasis> ≥ 0.</para>
+</solution>
+</exercise>
+</section>
+<section>
+<title>6,1: La distribución normal estándar</title>
+<exercise>
+<problem>
+<para>Traslade a palabras esta afirmación sobre la distribución de una variable aleatoria <emphasis effect="italics">X</emphasis>: <emphasis effect="italics">X</emphasis> ~ (100, 15).</para>
+</problem>
+<solution>
+<para>La variable aleatoria <emphasis effect="italics">X</emphasis> tiene una distribución normal con una media de 100 y una desviación típica de 15.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Si la variable X tiene la distribución normal estándar, expréselo simbólicamente.</para>
+</problem>
+<solution>
+<para><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(0,1)</para>
+</solution>
+</exercise>
+<para><emphasis effect="italics">Use la siguiente información para los próximos seis ejercicios.</emphasis> Según la Organización Mundial de la Salud, la altura en centímetros para niñas de cinco años y cero meses se distribuye de la siguiente manera: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(109, 4,5).</para>
+<exercise>
+<problem>
+<para>¿Cuál es la puntuación <emphasis effect="italics">z</emphasis> para una altura de 112 pulgadas?</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mrow>
+<m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mi>μ</m:mi>
+</m:mrow>
+<m:mi>σ</m:mi>
+</m:mfrac>
+
+</m:mrow>
+</m:math> así que <m:math>
+<m:mrow>
+<m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mn>112</m:mn><m:mo>−</m:mo><m:mn>109</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>4,5</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mn>0,67</m:mn>
+</m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>¿Cuál es la puntuación <emphasis effect="italics">z</emphasis> para una altura de 100 centímetros?</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mrow>
+<m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mi>μ</m:mi>
+</m:mrow>
+<m:mi>σ</m:mi>
+</m:mfrac>
+
+</m:mrow>
+</m:math> así que <m:math>
+<m:mrow>
+<m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mn>100</m:mn><m:mo>−</m:mo><m:mn>109</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>4,5</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2,00</m:mn>
+</m:mrow>
+</m:math></para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Calcule la puntuación <emphasis effect="italics">z</emphasis> para una altura de 105 centímetros y explique lo que significa en el contexto de la población.</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mn>105</m:mn><m:mo>−</m:mo><m:mn>109</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>4,5</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mo>−</m:mo><m:mn>0,89</m:mn>
+</m:mrow>
+</m:math> <newline/>Esta niña es más baja que el promedio para su edad, en 0,89 desviaciones típicas.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>¿Qué altura corresponde a una puntuación z de 1,5 en esta población?</para>
+</problem>
+<solution>
+<para>109 + (1,5)(4,5) = 115,75 cm</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Mediante la regla empírica esperamos que, aproximadamente, el 68 % de los valores de una distribución normal se sitúen dentro de una desviación típica por encima o por debajo de la media. En términos de un rango específico de valores, ¿qué significa esto para esta distribución?</para>
+</problem>
+<solution>
+<para>Se espera que alrededor del 68 % de las estaturas de las niñas de cinco años y cero meses estén entre 104,5 cm y 113,5 cm.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Mediante la regla empírica, ¿aproximadamente qué porcentaje de alturas en esta distribución espera que estén entre 95,5 cm y 122,5 cm?</para>
+</problem>
+<solution>
+<para>Esperamos que el 99,7 % de las alturas de esta distribución se sitúen entre 95,5 cm y 122,5 cm porque ese rango representa los valores de tres desviaciones típicas por encima y por debajo de la media.</para>
+</solution>
+</exercise>
+<para><emphasis effect="italics">Use la siguiente información para responder los próximos cuatro ejercicios.</emphasis> El distribuidor de billetes de lotería afirma que el 20 % de los billetes son ganadores. Se extrae una muestra de 500 billetes para probar esta proposición.</para>
+</section>
+<section>
+<title>6,2: Uso de la distribución normal</title>
+<exercise>
+<problem>
+<para>¿Puede usar la aproximación normal a la binomial para sus cálculos? Por qué sí o por qué no.</para>
+</problem>
+<solution>
+<para>Sí, porque tanto np como nq son mayores que cinco. <newline/><emphasis effect="italics">np</emphasis> = (500)(0,20) = 100 y <emphasis effect="italics">nq</emphasis> = 500(0,80) = 400</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>¿Cuáles son la media y la desviación típica esperadas para su muestra, suponiendo que la afirmación del distribuidor sea cierta?</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mi>μ</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>p</m:mi><m:mo>=</m:mo><m:mo stretchy='false'>(</m:mo><m:mn>500</m:mn><m:mo stretchy='false'>)</m:mo><m:mo stretchy='false'>(</m:mo><m:mn>0,20</m:mn><m:mo stretchy='false'>)</m:mo><m:mo>=</m:mo><m:mn>100</m:mn>
+</m:math> <newline/><m:math>
+<m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
+</m:mrow>
+</m:msqrt>
+<m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:mn>500</m:mn><m:mo stretchy='false'>(</m:mo><m:mn>0,20</m:mn><m:mo stretchy='false'>)</m:mo><m:mo stretchy='false'>(</m:mo><m:mn>0,80</m:mn><m:mo stretchy='false'>)</m:mo>
+</m:mrow>
+</m:msqrt>
+<m:mo>=</m:mo><m:mn>8,94</m:mn>
+</m:math></para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>¿Cuál es la probabilidad de que su muestra tenga una media superior a 100?</para>
+</problem>
+<solution>
+<para>Cincuenta por ciento, porque en una distribución normal la mitad de los valores están por encima de la media.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Si la puntuación <emphasis effect="italics">z</emphasis> del resultado de su muestra es –2,00, explique qué significa esto mediante la regla empírica.</para>
+</problem>
+<solution>
+<para>Los resultados de nuestra muestra estaban dos desviaciones típicas por debajo de la media, lo que sugiere que es poco probable que el 20 % de los boletos de lotería sean ganadores, como afirma el distribuidor, y que el verdadero porcentaje de ganadores es menor. Al aplicar la regla empírica, si esa afirmación fuera cierta, esperaríamos ver un resultado tan inferior a la media solo un 2,5 % de las veces.</para>
+</solution>
+</exercise>
+</section>
+<section>
+<title>7,1: Teorema del límite central de medias muestrales (promedios)</title>
+<exercise>
+<problem>
+<para>¿Qué dice el teorema del límite central con respecto a la distribución de medias muestrales?</para>
+</problem>
+<solution>
+<para>El teorema del límite central afirma que si se extraen muestras de tamaño suficiente de una población, la distribución de las medias muestrales será normal, incluso si la distribución poblacional no lo es.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>La distribución de los resultados al lanzar una moneda imparcial es uniforme: la cara y la cruz tienen la misma probabilidad en cualquier lanzamiento y, en un gran número de pruebas, se espera aproximadamente el mismo número de caras y de cruces. Sin embargo, si se realiza un estudio lanzando 30 monedas, se registra el número de caras y se repite 100 veces, la distribución de la media del número de caras será aproximadamente normal. ¿Cómo es posible?</para>
+</problem>
+<solution>
+<para>El tamaño de la muestra de 30 es lo suficientemente grande en este ejemplo para aplicar el teorema del límite central. Este teorema ] establece que para muestras de tamaño suficiente extraídas de una población, la distribución del muestreo de la media muestral se acerca a la normalidad, independientemente de la distribución poblacional de la que se extrajeron las muestras.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>La media de una población distribuida normalmente es 50, y la desviación típica es cuatro. Si extrae 100 muestras de tamaño 40 de esta población, describa lo que esperaría ver en términos de la distribución del muestreo de la media muestral.</para>
+</problem>
+<solution>
+<para>No se puede esperar que cada muestra tenga una media de 50 debido a la variabilidad del muestreo. Sin embargo, es de esperar que la distribución del muestreo de la media muestral se agrupe en torno a 50, con una distribución aproximadamente normal, de modo que los valores cercanos a 50 sean más comunes que los valores más alejados de 50.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para><emphasis effect="italics">X</emphasis> es una variable aleatoria con una media de 25 y una desviación típica de dos. Escriba la distribución para la media muestral de muestras de tamaño 100 extraídas de esta población.</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mrow>
+<m:mover accent='true'>
+<m:mi>X</m:mi>
+<m:mo stretchy='true'>¯</m:mo>
+</m:mover>
+<m:mo>∼</m:mo><m:mi>N</m:mi><m:mo stretchy='false'>(</m:mo><m:mn>25</m:mn><m:mo>,</m:mo><m:mn>0,2</m:mn><m:mo stretchy='false'>)</m:mo>
+</m:mrow>
+</m:math> porque <m:math>
+<m:mrow>
+<m:mover accent='true'>
+<m:mi>X</m:mi>
+<m:mo stretchy='true'>¯</m:mo>
+</m:mover>
+<m:mo>∼</m:mo><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+<m:mo>,</m:mo><m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:math></para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Su amigo está haciendo un experimento extrayendo muestras de tamaño 50 de una población con una media de 117 y una desviación típica de 16. Este tamaño de muestra es lo suficientemente grande como para permitir el uso del teorema del límite central, por lo que dice que la desviación típica de la distribución del muestreo de la media muestral también será 16. Explique por qué es un error y calcule el valor correcto.</para>
+</problem>
+<solution>
+<para>La desviación típica de la distribución del muestreo de la media muestral se puede calcular mediante la fórmula <m:math>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:math>, que en este caso es <m:math>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>16</m:mn>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mn>50</m:mn>
+</m:mrow>
+</m:msqrt>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:math>. Por tanto, el valor correcto de la desviación típica de la distribución del muestreo de la media muestral es 2,26.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Está leyendo un artículo de investigación que hace referencia al “error estándar de la media”. ¿Qué significa esto y cómo se calcula?</para>
+</problem>
+<solution>
+<para>El error estándar de la media es otro nombre para la desviación típica de la distribución del muestreo de la media muestral. Dadas muestras de tamaño n extraídas de una población con desviación típica <emphasis effect="italics">σ<sub>x</sub></emphasis>, el error estándar de la media es <m:math>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:math>.</para>
+</solution>
+</exercise>
+<para><emphasis effect="italics">Use la siguiente información para responder los próximos seis ejercicios.</emphasis> Se extraen repetidamente muestras de n = 100 de una población con una media de 75 y una desviación típica de 4,5.</para>
+<exercise>
+<problem>
+<para>¿Cuál es la distribución esperada de las medias muestrales?</para>
+</problem>
+<solution>
+<para><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(75, 0,45)</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Uno de sus amigos intenta convencerlo de que el error estándar de la media debe ser 4,5. Explique qué error cometió su amigo.</para>
+</problem>
+<solution>
+<para>Su amigo olvidó dividir la desviación típica entre la raíz cuadrada de <emphasis effect="italics">n</emphasis>.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>¿Cuál es la puntuación <emphasis effect="italics">z</emphasis> para una media muestral de 76?</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mrow>
+<m:mi>z</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+<m:mrow>
+<m:mover accent='true'>
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+<m:mo>−</m:mo><m:mtext> </m:mtext><m:msub>
+<m:mi>μ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+<m:mrow>
+<m:mn>76</m:mn><m:mo>−</m:mo><m:mn>75</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>4,5</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mn>2,2</m:mn>
+</m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>¿Cuál es la puntuación <emphasis effect="italics">z</emphasis> para una media muestral de 74,7?</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mrow>
+<m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mover accent='true'>
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+<m:mo>−</m:mo><m:mtext> </m:mtext><m:msub>
+<m:mi>μ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+<m:mrow>
+<m:mn>74,7</m:mn><m:mo>−</m:mo><m:mn>75</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>4,5</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mo>−</m:mo><m:mn>0,67</m:mn>
+</m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>¿Qué media muestral corresponde a una puntuación <emphasis effect="italics">z</emphasis> de 1,5?</para>
+</problem>
+<solution>
+<para>75 + (1,5)(0,45) = 75,675</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Si se reduce el tamaño de la muestra a 50, ¿el error estándar de la media será menor o mayor? ¿Cuál sería su valor?</para>
+</problem>
+<solution>
+<para>El error estándar de la media será mayor porque estará dividiendo entre un número menor. El error estándar de la media para muestras de tamaño <emphasis effect="italics">n</emphasis> = 50 es: <newline/><m:math>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+<m:mrow>
+<m:mn>4,5</m:mn>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mn>50</m:mn>
+</m:mrow>
+</m:msqrt>
+
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mn>0,64</m:mn>
+</m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+<para><emphasis effect="italics">Use la siguiente información para responder las dos próximas preguntas.</emphasis> Usamos la regla empírica para analizar los datos de muestras de tamaño 60 extraídas de una población con una media de 70 y una desviación típica de 9.</para>
+<exercise>
+<problem>
+<para>¿Qué rango de valores se espera que incluya el 68 % de las medias muestrales?</para>
+</problem>
+<solution>
+<para>Es de esperar que este rango incluya valores de hasta una desviación típica por encima o por debajo de la media muestral. En este caso: <newline/><m:math>
+<m:mrow>
+<m:mn>70</m:mn><m:mo>+</m:mo><m:mfrac>
+<m:mn>9</m:mn>
+<m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mn>60</m:mn>
+</m:mrow>
+</m:msqrt>
+
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mn>71,16</m:mn>
+</m:mrow>
+</m:math> y <m:math>
+<m:mrow>
+<m:mn>70</m:mn><m:mo>−</m:mo><m:mfrac>
+<m:mn>9</m:mn>
+<m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mn>60</m:mn>
+</m:mrow>
+</m:msqrt>
+
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mn>68,84</m:mn>
+</m:mrow>
+</m:math> por lo que cabría esperar que el 68 % de las medias muestrales estuvieran entre 68,84 y 71,16.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Si aumenta el tamaño de la muestra a 100, ¿qué rango esperaría que contuviera el 68 % de las medias muestrales mediante la regla empírica?</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mrow>
+<m:mn>70</m:mn><m:mo>+</m:mo><m:mfrac>
+<m:mn>9</m:mn>
+<m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mn>100</m:mn>
+</m:mrow>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mn>70,9</m:mn>
+</m:mrow>
+</m:math> y <m:math>
+<m:mrow>
+<m:mn>70</m:mn><m:mo>−</m:mo><m:mfrac>
+<m:mn>9</m:mn>
+<m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mn>100</m:mn>
+</m:mrow>
+</m:msqrt>
+
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mn>69,1</m:mn>
+</m:mrow>
+</m:math> por lo que cabría esperar que el 68 % de las medias muestrales estuvieran entre 69,1 y 70,9. Observe que se trata de un intervalo más estrecho debido al mayor tamaño de la muestra.</para>
+</solution>
+</exercise>
+</section>
+<section>
+<title>7,2: El teorema del límite central para las sumas</title>
+<exercise>
+<problem>
+<para>¿Cómo se aplica el teorema del límite central a las sumas de variables aleatorias?</para>
+</problem>
+<solution>
+<para>Para una variable aleatoria <emphasis effect="italics">X</emphasis>, la variable aleatoria <emphasis effect="italics">ΣX</emphasis> tenderá a una distribución normal a medida que aumenta el tamaño n de las muestras utilizadas para calcular la suma.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Explique en qué se parecen las reglas que aplican el teorema del límite central a las medias muestrales y a las sumas de una variable aleatoria.</para>
+</problem>
+<solution>
+<para>Ambas reglas establecen que la distribución de una cantidad (la media o la suma) calculada sobre muestras extraídas de una población tenderá a tener una distribución normal, a medida que aumenta el tamaño de la muestra, independientemente de la distribución poblacional de la que se extraen las muestras.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Si se extraen repetidamente muestras de tamaño 50 de una población con una media de 80 y una desviación típica de cuatro y se calcula la suma de cada muestra, ¿cuál es la distribución esperada de estas sumas?</para>
+</problem>
+<solution>
+<para><m:math display="">
+<m:mrow>
+<m:mi>Σ</m:mi><m:mi>X</m:mi><m:mo>∼</m:mo><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>n</m:mi><m:msub>
+<m:mi>μ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+<m:mo>,</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo stretchy='false'>(</m:mo><m:msub>
+<m:mi>σ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+<m:mo stretchy='false'>)</m:mo>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:math> así que <m:math display="">
+<m:mrow>
+<m:mi>Σ</m:mi><m:mi>X</m:mi><m:mo>∼</m:mo><m:mi>N</m:mi><m:mo stretchy='false'>(</m:mo><m:mn>4000</m:mn><m:mo>,</m:mo><m:mn>28,3</m:mn><m:mo stretchy='false'>)</m:mo>
+</m:mrow>
+</m:math></para>
+</solution>
+</exercise>
+<para><emphasis effect="italics">Use la siguiente información para responder los próximos cuatro ejercicios.</emphasis> Se extrae una muestra de tamaño 40 de una población con una media de 125 y una desviación típica de siete.</para>
+<exercise>
+<problem>
+<para>Calcule la suma. ¿Cuál es la probabilidad de que la suma de su muestra sea inferior a 5.000?</para>
+</problem>
+<solution>
+<para>La probabilidad es 0,50, porque 5.000 es la media de la distribución muestral de las sumas de tamaño 40 de esta población. Las sumas de las variables aleatorias calculadas a partir de una muestra de tamaño suficiente se distribuyen normalmente y, en una distribución normal, la mitad de los valores están por debajo de la media.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Si toma muestras de este tamaño repetidamente, calculando la suma cada vez, ¿qué rango de valores esperaría que contuviera el 95 % de las sumas de las muestras?</para>
+</problem>
+<solution>
+<para>Al usar la regla empírica, se esperaría que el 95 % de los valores estuvieran dentro de las dos desviaciones típicas de la media. El uso de la fórmula de la desviación típica es para una suma de muestras: <m:math>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo stretchy='false'>(</m:mo><m:msub>
+<m:mi>σ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+<m:mo stretchy='false'>)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mn>40</m:mn>
+</m:mrow>
+</m:msqrt>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo stretchy='false'>(</m:mo><m:mn>7</m:mn><m:mo stretchy='false'>)</m:mo><m:mo>=</m:mo><m:mn>44,3</m:mn>
+</m:mrow>
+</m:math> por lo que cabría esperar que el 95 % de los valores estuvieran entre 5.000 + (2)(44,3) y 5.000 - (2)(44,3), o entre 4.911,4 y 5.88,6.
+</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>¿Qué valor es una desviación típica por debajo de la media?</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mrow>
+<m:mi>μ</m:mi><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5000</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mn>40</m:mn>
+</m:mrow>
+</m:msqrt>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mn>7</m:mn>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4955,7</m:mn>
+</m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>¿Qué valor corresponde a una puntuación <emphasis effect="italics">z</emphasis> de 2,2?</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mrow>
+<m:mn>5000</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>2,2</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mn>40</m:mn>
+</m:mrow>
+</m:msqrt>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mn>7</m:mn>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5097,4</m:mn>
+</m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</section>
+<section>
+<title>7,3: Uso del teorema del límite central</title>
+<exercise>
+<problem>
+<para>¿Qué dice la ley de los grandes números sobre la relación entre la media muestral y la media de la población?</para>
+</problem>
+<solution>
+<para>La ley de los grandes números dice que, a medida que aumenta el tamaño de la muestra, la media muestral tiende a acercarse cada vez más a la media de la población.</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Al aplicar la ley de los grandes números, ¿qué media muestral se acercaría más a la media de la población, una muestra de tamaño diez o una muestra de tamaño 100?</para>
+</problem>
+<solution>
+<para>Es de esperar que la media de una muestra de tamaño 100 esté más cerca de la media de la población, porque la ley de los grandes números dice que, a medida que aumenta el tamaño de la muestra, la media muestral tiende a acercarse a la media de la población.</para>
+</solution>
+</exercise>
+<para><emphasis effect="italics">Use esta información para las próximas tres preguntas.</emphasis> Un fabricante hace tornillos con un diámetro medio de 0,15 cm (centímetros) y un rango de 0,10 cm a 0,20 cm; dentro de ese rango, la distribución es uniforme.</para>
+<exercise>
+<problem>
+<para>Si <emphasis effect="italics">X</emphasis> = el diámetro de un tornillo, ¿cuál es la distribución de <emphasis effect="italics">X</emphasis>?</para>
+</problem>
+<solution>
+<para><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(0,10, 0,20)</para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Supongamos que se extraen repetidamente muestras de tamaño 100 y se calcula su media. Al aplicar el teorema del límite central, ¿cuál es la distribución de estas medias muestrales?</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mrow>
+<m:mover accent='true'>
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+<m:mo>∼</m:mo><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+<m:mo>,</m:mo><m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:math> y la desviación típica de una distribución uniforme es <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mn>12</m:mn>
+</m:mrow>
+</m:msqrt>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math>. En este ejemplo, la desviación típica de la distribución es <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mn>12</m:mn>
+</m:mrow>
+</m:msqrt>
+
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mn>0,10</m:mn>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mn>12</m:mn>
+</m:mrow>
+</m:msqrt>
+
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mn>0,03</m:mn>
+</m:mrow>
+</m:math> <newline/>así que <m:math>
+<m:mrow>
+<m:mover accent='true'>
+<m:mi>X</m:mi>
+<m:mo stretchy='true'>¯</m:mo>
+</m:mover>
+<m:mo>∼</m:mo><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>0,15</m:mn><m:mo>,</m:mo><m:mn>0,003</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:math></para>
+</solution>
+</exercise>
+<exercise>
+<problem>
+<para>Supongamos que extrae repetidamente muestras de 60 y calcula su suma. Al aplicar el teorema del límite central, ¿cuál es la distribución de estas sumas muestrales?</para>
+</problem>
+<solution>
+<para><m:math>
+<m:mrow>
+<m:mi>Σ</m:mi><m:mi>X</m:mi><m:mo>∼</m:mo><m:mi>N</m:mi><m:mo stretchy='false'>(</m:mo><m:mo stretchy='false'>(</m:mo><m:mi>n</m:mi><m:mo stretchy='false'>)</m:mo><m:mo stretchy='false'>(</m:mo><m:msub>
+<m:mi>μ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+<m:mo stretchy='false'>)</m:mo><m:mo>,</m:mo><m:mo stretchy='false'>(</m:mo><m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+<m:mo stretchy='false'>)</m:mo><m:mo stretchy='false'>(</m:mo><m:msub>
+<m:mi>σ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+<m:mo stretchy='false'>)</m:mo><m:mo stretchy='false'>)</m:mo><m:mtext> así que </m:mtext><m:mi>Σ</m:mi><m:mi>X</m:mi><m:mo>∼</m:mo><m:mi>N</m:mi><m:mo stretchy='false'>(</m:mo><m:mn>9,0</m:mn><m:mo>,</m:mo><m:mn>0,23</m:mn><m:mo stretchy='false'>)</m:mo>
+</m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</section>
+</content>
+</document>

@@ -1,0 +1,393 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Distribution Needed for Hypothesis Testing</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10468</md:content-id>
+  <md:title>Distribution Needed for Hypothesis Testing</md:title>
+  <md:abstract/>
+  <md:uuid>2faa2046-eb5b-416a-af02-d8ee1ccfa382</md:uuid>
+</metadata>
+
+<content>
+  <para id="fs-idm27402752">A principios del curso, hemos hablado de las distribuciones de muestreo. <emphasis>Las distribuciones particulares están asociadas a la comprobación de hipótesis.</emphasis> Realice pruebas de una media poblacional utilizando una <term>distribución normal</term> o una <term>distribución <emphasis effect="italics">t</emphasis> de Student</term> (recuerde, utilice una distribución <emphasis effect="italics">t</emphasis> de Student cuando la <term>desviación típica</term> de la población sea desconocida y la distribución de la media de la muestra sea aproximadamente normal). Realizamos pruebas de una proporción poblacional utilizando una distribución normal (normalmente <emphasis effect="italics">n</emphasis> es grande).</para><para id="element-418">Si se está probando la <term>media de una sola población</term>, la distribución para la prueba es para las <emphasis>medias</emphasis>:</para><para id="element-363"><m:math>
+    <m:mrow>
+      <m:mover accent="true">
+        <m:mi>X</m:mi>
+        <m:mo>¯</m:mo>
+      </m:mover>
+      <m:mo>~</m:mo><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+          <m:msub>
+            <m:mi>μ</m:mi>
+            <m:mi>X</m:mi>
+          </m:msub>
+          <m:mo>,</m:mo><m:mfrac>
+            <m:mrow>
+              <m:msub>
+                <m:mi>σ</m:mi>
+                <m:mi>X</m:mi>
+              </m:msub>
+
+            </m:mrow>
+            <m:mrow>
+              <m:msqrt>
+                <m:mi>n</m:mi>
+              </m:msqrt>
+
+            </m:mrow>
+          </m:mfrac>
+
+        </m:mrow>
+        <m:mo>)</m:mo></m:mrow>
+    </m:mrow>
+  </m:math> o <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>t</m:mi>
+   <m:mrow>
+    <m:mi>d</m:mi><m:mi>f</m:mi>
+   </m:mrow>
+  </m:msub>
+
+ </m:mrow>
+</m:math></para><para id="element-838">El parámetro de la población es <emphasis effect="italics">μ</emphasis>. El valor estimado (estimación puntual) para μ es <m:math>
+    <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+    </m:mover>
+  </m:math>, la media de la muestra.</para><para id="element-245">Si está probando una <term>sola proporción de la población</term>, la distribución para la prueba es para proporciones o porcentajes:</para><para id="element-851"><m:math>
+    <m:mrow>
+      <m:msup>
+        <m:mi>P</m:mi>
+        <m:mo>′</m:mo>
+      </m:msup>
+      <m:mo>~</m:mo><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+          <m:mi>p</m:mi><m:mo>,</m:mo><m:msqrt>
+            <m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mi>p</m:mi><m:mo>⋅</m:mo><m:mi>q</m:mi>
+                </m:mrow>
+                <m:mi>n</m:mi>
+              </m:mfrac>
+
+            </m:mrow>
+          </m:msqrt>
+
+        </m:mrow>
+        <m:mo>)</m:mo></m:mrow>
+    </m:mrow>
+  </m:math></para>
+  <para id="element-128">El parámetro poblacional es <emphasis effect="italics">p</emphasis>. El valor estimado (estimación puntual) de <emphasis effect="italics">p</emphasis> es <emphasis effect="italics">p′</emphasis>. <emphasis effect="italics">p′</emphasis> = <m:math>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>x</m:mi>
+          <m:mi>n</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:math> donde <emphasis effect="italics">x</emphasis> es el número de aciertos y <emphasis effect="italics">n</emphasis> es el tamaño de la muestra.</para>
+<section id="fs-idp38268576"><title>Supuestos</title><para id="fs-idp18826944">Cuando se realiza una <term>prueba de hipótesis</term> <emphasis>de una única media poblacional <emphasis effect="italics">μ</emphasis></emphasis> utilizando una <term>distribución <emphasis effect="italics">t</emphasis> de estudiantes</term> (a menudo llamada prueba t), hay supuestos fundamentales que deben cumplirse para que la prueba funcione correctamente. Sus datos deben ser una <term>muestra aleatoria simple</term> que provenga de una población que se <term>distribuya de forma normal</term> aproximadamente. Se utiliza la <term>desviación típica</term> de la muestra para aproximar la desviación típica de la población (tenga en cuenta que si el tamaño de la muestra es lo suficientemente grande, una prueba t funcionará incluso si la población no está distribuida de forma aproximadamente normal).</para><para id="element-849">Cuando se realiza una prueba de <emphasis>hipótesis de una única media poblacional <emphasis effect="italics">μ</emphasis></emphasis> utilizando una distribución normal (a menudo denominada prueba <emphasis effect="italics">z</emphasis>) , se toma una muestra aleatoria simple de la población. La población que está probando se distribuye normalmente o el tamaño de la muestra es lo suficientemente grande. Se conoce el valor de la desviación típica de la población que, en realidad, pocas veces se conoce.</para><para id="element-395">Cuando se realiza una <emphasis>prueba de hipótesis de una única proporción poblacional <emphasis effect="italics">p</emphasis></emphasis>, se toma una muestra aleatoria simple de la población. Debe cumplir las condiciones de una <term>distribución binomial</term> que son: hay un cierto número <emphasis effect="italics">n</emphasis> de ensayos independientes, los resultados de cualquier ensayo son aciertos o fallos, y cada ensayo tiene la misma probabilidad de un acierto <emphasis effect="italics">p</emphasis>. La forma de la distribución binomial tiene que ser similar a la forma de la distribución normal. Para ello, las cantidades <emphasis effect="italics">np</emphasis> y <emphasis effect="italics">nq</emphasis> deben ser ambas mayores que cinco (<emphasis effect="italics">np</emphasis> &gt; 5 y <emphasis effect="italics">nq</emphasis> &gt; 5). Entonces la distribución binomial de una proporción muestral (estimada) puede aproximarse por la distribución normal con <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">p</emphasis> y <m:math>
+    <m:mrow>
+      <m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mi>p</m:mi><m:mi>q</m:mi>
+            </m:mrow>
+            <m:mi>n</m:mi>
+          </m:mfrac>
+
+        </m:mrow>
+      </m:msqrt>
+
+    </m:mrow>
+  </m:math>. Recuerde que <emphasis effect="italics">q</emphasis> = 1 - <emphasis effect="italics">p</emphasis>.</para></section><section id="eip-952" class="summary">
+  <title>Revisión del capítulo</title>
+  <para id="eip-948">Para que los resultados de una prueba de hipótesis se puedan generalizar a una población se deben cumplir ciertos requisitos. </para>
+  <para id="eip-996">Cuando se hacen pruebas para una única media poblacional:</para>
+  <list id="eip-idp106869104" mark-suffix="." list-type="enumerated" number-style="arabic"><item>Se debe utilizar una distribución <emphasis effect="italics">t</emphasis>de Student si los datos proceden de una muestra aleatoria simple y la población se distribuye aproximadamente normal, o el tamaño de la muestra es grande, con una desviación típica desconocida.</item>
+    <item>La prueba normal funcionará si los datos proceden de una muestra simple y aleatoria y la población se distribuye aproximadamente de forma normal, o el tamaño de la muestra es grande, con una desviación típica conocida.</item>
+  </list><para id="fs-idp12045392">Al comprobar una proporción poblacional única, utilice una prueba normal para una proporción poblacional única si los datos proceden de una muestra aleatoria simple, cumplen los requisitos de una distribución binomial y el número de la media de aciertos y el número de la media de fallos satisfacen las condiciones: <emphasis effect="italics">np</emphasis> &gt; 5 y <emphasis effect="italics">nq</emphasis> &gt; 5, donde <emphasis effect="italics">n</emphasis> es el tamaño de la muestra, <emphasis effect="italics">p</emphasis> es la probabilidad de un acierto y <emphasis effect="italics">q</emphasis> es la probabilidad de un fallo.</para>
+</section>
+
+
+  <section id="eip-772" class="formula-review">
+    <title>Revisión de la fórmula</title>
+  <para id="element-678">Si no hay un <emphasis effect="italics">α</emphasis> preconcebido, entonces utilice <emphasis effect="italics">α</emphasis> = 0,05.</para>
+    <list id="element-254" list-type="bulleted"><title>Tipos de pruebas de hipótesis</title><item>Media poblacional única, varianza poblacional <emphasis>conocida</emphasis> (o desviación típica): <emphasis>Prueba normal</emphasis>.</item>
+    <item>Media poblacional única, varianza poblacional <emphasis>desconocida</emphasis> (o desviación típica): <emphasis>Prueba <emphasis effect="italics">t</emphasis> de Student</emphasis>.</item>
+    <item>Proporción de población única: <emphasis>Prueba normal</emphasis>.</item>
+      <item>Para una <emphasis>media poblacional única</emphasis>, podemos utilizar una distribución normal con la siguiente media y desviación típica. Medios: <m:math>
+        <m:mrow>
+          <m:mi>μ</m:mi><m:mo>=</m:mo><m:msub>
+            <m:mi>μ</m:mi>
+            <m:mover accent="true">
+              <m:mi>x</m:mi>
+              <m:mo>¯</m:mo>
+            </m:mover>
+
+          </m:msub>
+
+        </m:mrow>
+      </m:math> y <m:math>
+        <m:mrow>
+          <m:msub>
+            <m:mi>σ</m:mi>
+            <m:mover accent="true">
+              <m:mi>x</m:mi>
+              <m:mo>¯</m:mo>
+            </m:mover>
+
+          </m:msub>
+          <m:mo>=</m:mo><m:mfrac>
+            <m:mrow>
+              <m:msub>
+                <m:mi>σ</m:mi>
+                <m:mi>x</m:mi>
+              </m:msub>
+
+            </m:mrow>
+            <m:mrow>
+              <m:msqrt>
+                <m:mi>n</m:mi>
+              </m:msqrt>
+
+            </m:mrow>
+          </m:mfrac>
+
+        </m:mrow>
+      </m:math></item>
+      <item>Una <emphasis>proporción poblacional única</emphasis>, podemos utilizar una distribución normal con la siguiente media y desviación típica. Proporciones: <emphasis effect="italics">µ</emphasis> = <emphasis><emphasis effect="italics">p</emphasis></emphasis> y <m:math>
+        <m:mrow>
+          <m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt>
+            <m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mi>p</m:mi><m:mi>q</m:mi>
+                </m:mrow>
+                <m:mi>n</m:mi>
+              </m:mfrac>
+
+            </m:mrow>
+          </m:msqrt>
+
+        </m:mrow>
+      </m:math>. </item>
+    </list></section>
+
+
+<section id="eip-496" class="practice">
+  <exercise id="eip-176"><problem id="eip-548">
+  <para id="eip-434">¿Qué dos distribuciones puede usar para las pruebas de hipótesis de este capítulo?</para>
+</problem>
+
+<solution id="eip-482">
+  <para id="eip-665">Una distribución normal o una distribución <emphasis effect="italics">t</emphasis>de Student</para></solution>
+</exercise><exercise id="eip-492"><problem id="eip-819">
+  <para id="eip-696">¿Qué distribución se utiliza cuando se comprueba la media de una población y se conoce la desviación típica de la población? Supongamos una distribución normal, con n ≥ 30.</para></problem></exercise><exercise id="eip-579">
+    <problem id="eip-177">
+  <para id="eip-756">¿Qué distribución se utiliza cuando no se conoce la desviación típica y se está comprobando la media de una población? Supongamos que el tamaño de la muestra es grande.</para>
+</problem>
+
+<solution id="eip-957">
+  <para id="eip-853">Utilice una distribución <emphasis effect="italics">t</emphasis>de Student</para></solution>
+  </exercise>
+  <exercise id="eip-692"><problem id="eip-962">
+  <para id="eip-204">La media de la población es 13. La media muestral es de 12,8 y la desviación típica de la muestra es de dos. El tamaño de la muestra es de 20. ¿Qué distribución debe usar para hacer una prueba de hipótesis? Supongamos que la población subyacente es normal.</para>
+</problem>  </exercise><exercise id="eip-917">
+    <problem id="eip-265">
+  <para id="eip-995">Una población tiene una media de 25 y una desviación típica de 5. La media muestral es 24 y el tamaño de la muestra es 108. ¿Qué distribución debe usar para hacer una prueba de hipótesis?</para></problem>
+
+<solution id="eip-953">
+  <para id="eip-267">una distribución normal para una única media poblacional</para>
+</solution>
+  </exercise>
+  <exercise id="eip-138"><problem id="eip-208">
+  <para id="eip-449">Se cree que el 42 % de los encuestados en una prueba de sabor preferirían la marca <emphasis effect="italics">A</emphasis>. En una prueba particular de 100 personas, el 39 % prefirió la marca <emphasis effect="italics">A</emphasis>. ¿Qué distribución debería usar para hacer una prueba de hipótesis?</para>
+</problem></exercise><exercise id="eip-637"><problem id="eip-74">
+  <para id="eip-239">Está haciendo una prueba de hipótesis de una media poblacional única mediante una distribución <emphasis effect="italics">t</emphasis>de Student. ¿Qué debe suponer sobre la distribución de los datos?</para></problem>
+
+<solution id="eip-520">
+  <para id="eip-20">Se debe distribuir aproximadamente normal.</para>
+</solution>
+</exercise>
+  <exercise id="eip-315"><problem id="eip-505">
+  <para id="eip-972">Está haciendo una prueba de hipótesis de una media poblacional única mediante una distribución <emphasis effect="italics">t</emphasis>de Student. Los datos no proceden de una simple muestra aleatoria. ¿Puede hacer la prueba de la hipótesis con precisión?</para></problem></exercise><exercise id="eip-254">
+    <problem id="eip-543">
+      <para id="eip-372">Usted está haciendo una prueba de hipótesis de una sola proporción de la población. ¿Qué debe ser cierto sobre las cantidades de <emphasis effect="italics">np</emphasis> y <emphasis effect="italics">nq</emphasis>?</para>
+</problem>
+
+<solution id="eip-509">
+  <para id="eip-285">Ambos deben ser mayores que cinco.</para>
+</solution>
+  </exercise><exercise id="eip-354"><problem id="eip-633">
+  <para id="eip-457">Usted está haciendo una prueba de hipótesis de una sola proporción de la población. Se descubre que <emphasis effect="italics">np</emphasis> es menor que cinco. ¿Qué hay que hacer para poder realizar una prueba de hipótesis válida?</para>
+</problem></exercise><exercise id="fs-idp17688688">
+    <problem id="eip-577">
+      <para id="eip-129">Usted está haciendo una prueba de hipótesis de una sola proporción de la población. ¿De qué distribución proceden los datos?</para>
+</problem>
+
+<solution id="eip-979">
+  <para id="eip-676">distribución binomial<newline/></para>
+</solution>
+</exercise>
+
+</section>
+
+<section id="fs-idm173512608" class="free-response">
+<title>Tarea para la casa</title>
+
+<exercise id="fs-idm140519760">
+  <problem id="fs-idm140519632"><para id="fs-idp12923264">Se cree que los estudiantes de Álgebra Intermedia del Lake Tahoe Community College (LTCC) duermen menos de siete horas por noche, en promedio. Una encuesta realizada a 22 estudiantes de Álgebra Intermedia del LTCC generó una media de 7,24 horas con una desviación típica de 1,93 horas. A un nivel de significación del 5 %, ¿los estudiantes de Álgebra Intermedia del LTCC duermen menos de siete horas por noche, en promedio? La distribución que se utilizará para esta prueba es <m:math>
+    <m:mover accent="true">
+      <m:mi>X</m:mi>
+      <m:mo>¯</m:mo>
+    </m:mover>
+
+  </m:math> ~ ________________</para><list id="fs-idm141858480" list-type="enumerated" number-style="lower-alpha">
+      <item><m:math>
+        <m:mrow>
+          <m:mi>N</m:mi><m:mo stretchy="false">(</m:mo><m:mn>7,24</m:mn><m:mo>,</m:mo><m:mfrac>
+            <m:mrow>
+              <m:mn>1,93</m:mn>
+            </m:mrow>
+            <m:mrow>
+              <m:msqrt>
+                <m:mrow>
+                  <m:mn>22</m:mn>
+                </m:mrow>
+              </m:msqrt>
+
+            </m:mrow>
+          </m:mfrac>
+          <m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+      </m:math></item>
+      <item><m:math>
+        <m:mrow>
+          <m:mi>N</m:mi><m:mo stretchy="false">(</m:mo><m:mn>7,24</m:mn><m:mo>,</m:mo><m:mn>1,93</m:mn><m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+      </m:math></item>
+      <item><emphasis effect="italics">t</emphasis><sub>22</sub></item>
+      <item><emphasis effect="italics">t</emphasis><sub>21</sub></item>
+    </list>
+
+  </problem>
+
+<solution id="fs-idp8543664">
+<para id="fs-idm76617584">d</para>
+</solution>
+</exercise>
+
+</section>
+
+ </content>
+
+<glossary>
+<definition id="bidist">
+    <term>Distribución binomial</term>
+    <meaning id="fs-idm119055264">una variable aleatoria (RV) discreta que surge de ensayos de Bernoulli. Hay un número fijo, <emphasis effect="italics">n</emphasis>, de ensayos independientes. “Independiente” significa que el resultado de cualquier ensayo (por ejemplo, el ensayo 1) no afecta los resultados de los ensayos siguientes, y que todos los ensayos se llevan a cabo en las mismas condiciones. En estas circunstancias, la RV binomial Χ se define como el número de aciertos en <emphasis effect="italics">n</emphasis> ensayos. La notación es: <emphasis effect="italics">X ~ B(n, p)</emphasis> <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> y la desviación típica es <m:math>
+ <m:mrow>
+  <m:mi>σ</m:mi><m:mo>=</m:mo><m:mo> </m:mo><m:msqrt>
+   <m:mrow>
+    <m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+    </m:math>. La probabilidad de obtener exactamente <emphasis effect="italics">x</emphasis> aciertos en <emphasis effect="italics">n</emphasis> ensayos es <m:math>
+      <m:mrow>
+        <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+            <m:mtable>
+              <m:mtr>
+                <m:mtd>
+                  <m:mi>n</m:mi>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd>
+                  <m:mi>x</m:mi>
+                </m:mtd>
+              </m:mtr>
+
+            </m:mtable>
+          </m:mrow>
+          <m:mo>)</m:mo></m:mrow><m:msup>
+            <m:mi>p</m:mi>
+            <m:mi>x</m:mi>
+          </m:msup>
+        <m:msup>
+          <m:mi>q</m:mi>
+          <m:mrow>
+            <m:mi>n</m:mi><m:mo>−</m:mo><m:mi>x</m:mi>
+          </m:mrow>
+        </m:msup>
+
+      </m:mrow>
+    </m:math>.
+</meaning>
+  </definition>
+
+
+<definition id="normdist">
+    <term>Distribución normal</term>
+  <meaning id="id42733014">una variable aleatoria (RV) continua con pdf <m:math>
+    <m:mrow>
+      <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mrow>
+          <m:mi>σ</m:mi><m:msqrt>
+            <m:mrow>
+              <m:mn>2</m:mn><m:mi>π</m:mi>
+            </m:mrow>
+          </m:msqrt>
+
+        </m:mrow>
+      </m:mfrac>
+      <m:msup>
+        <m:mi>e</m:mi>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mo>−</m:mo><m:msup>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>μ</m:mi><m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msup>
+
+            </m:mrow>
+            <m:mrow>
+              <m:mn>2</m:mn><m:msup>
+                <m:mi>σ</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+
+            </m:mrow>
+          </m:mfrac>
+
+        </m:mrow>
+      </m:msup>
+
+    </m:mrow>
+  </m:math>, donde <emphasis effect="italics">μ</emphasis> es la media de la distribución y <emphasis effect="italics">σ</emphasis> es la desviación típica, notación: <emphasis effect="italics">X ~ N</emphasis>(<emphasis effect="italics">μ</emphasis>, <emphasis effect="italics">σ</emphasis>). Si <emphasis effect="italics">μ</emphasis> = 0 y <emphasis effect="italics">σ</emphasis> = 1, la RV se denomina <emphasis>distribución normal estándar</emphasis>.</meaning>
+  </definition>
+
+  <definition id="stddev">
+    <term>Desviación típica</term>
+    <meaning id="id20302532">un número que es igual a la raíz cuadrada de la varianza y que mide lo lejos que están los valores de los datos de su media; notación: <emphasis effect="italics">s</emphasis> para la desviación típica de la muestra y <emphasis effect="italics">σ</emphasis> para la desviación típica de la población.</meaning>
+  </definition>
+
+<definition id="studenttdist">
+    <term>Distribución <emphasis effect="italics">t</emphasis>de Student</term>
+    <meaning id="id8759760">investigado y presentado por William S. Gossett en 1908 y publicado bajo el seudónimo de Student. Las principales características de la variable aleatoria (RV) son <list id="tdist1" list-type="bulleted">
+  <item>Es continuo y asume cualquier valor real.</item>
+  <item>La pdf es simétrica respecto a su media de cero. Sin embargo, tiene más dispersión y es más plana en el vértice que la distribución normal.</item>
+  <item>Se aproxima a la distribución normal estándar a medida que <emphasis effect="italics">n</emphasis> es mayor.</item>
+  <item>Existe una "familia" de distribuciones t: cada representante de la familia está completamente definido por el número de grados de libertad que es uno menos que el número de elementos de datos.</item></list></meaning>
+  </definition>
+
+
+</glossary>
+</document>

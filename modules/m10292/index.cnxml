@@ -1,0 +1,1361 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Goodness-of-Fit Test</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10292</md:content-id>
+  <md:title>Goodness-of-Fit Test</md:title>
+  <md:abstract/>
+  <md:uuid>32ef4a83-d2d2-4ef6-a00c-8e0ddebf8af6</md:uuid>
+</metadata>
+
+<content>
+<para id="element-112">En este tipo de prueba de hipótesis se determina si los datos <emphasis>“se ajustan”</emphasis> a una determinada distribución o no. Por ejemplo, puede sospechar que sus datos desconocidos se ajustan a una distribución binomial. Se utiliza una prueba de chi-cuadrado (lo que significa que la distribución para la prueba de hipótesis es chi-cuadrado) para determinar si hay un ajuste o no. <emphasis>Las hipótesis nula y alternativa de esta prueba se pueden escribir en oraciones o plantear como ecuaciones o desigualdades.</emphasis></para><para id="element-908">El estadístico de prueba para una prueba de bondad de ajuste es:</para>
+<equation id="element-252" class="unnumbered"><label/><m:math>
+ <m:mrow>
+  <m:munder>
+   <m:mi fontsize="2">Σ</m:mi>
+   <m:mi>k</m:mi>
+  </m:munder>
+  <m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mi>O</m:mi><m:mo>−</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mi>E</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></equation><para id="element-248">donde:</para>
+<list id="fs-idm37230752" list-type="bulleted"><item><emphasis effect="italics">O</emphasis> = <term>valores observados</term> (datos)</item>
+<item id="element-481"><emphasis effect="italics">E</emphasis> = <term>valores esperados</term> (de la teoría)</item>
+<item id="element-402"><emphasis effect="italics">k</emphasis> = el número de celdas o categorías de datos diferentes</item>
+</list><para id="element-512"><emphasis>Los valores observados son los valores de los datos y los valores esperados son los valores que se esperarían obtener si la hipótesis nula fuera cierta.</emphasis> Hay <emphasis effect="italics">n</emphasis> términos de la forma <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mi>O</m:mi><m:mo>−</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mi>E</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>.</para>
+<para id="element-304">El número de grados de libertad es <emphasis effect="italics">df</emphasis> = (número de categorías – 1).</para><para id="element-838"><emphasis>La <term>prueba de bondad de ajuste</term> es casi siempre de cola derecha.</emphasis> Si los valores observados y los correspondientes valores esperados no se aproximan entre sí, el estadístico de prueba puede ser muy grande y se situará en la cola derecha de la curva de chi-cuadrado.</para><note id="eip-587"><label/><title>Nota</title>
+<para id="fs-idm98728224">El número de valores esperados dentro de cada celda debe ser al menos cinco para poder utilizar esta prueba.</para></note><example id="element-719"><para id="element-615">El ausentismo de los estudiantes universitarios a las clases de Matemáticas es una de las principales preocupaciones de los instructores de Matemáticas, ya que ausentarse a clase parece aumentar la tasa de abandono. Supongamos que se realiza un estudio para determinar si la tasa real de ausentismo de los estudiantes sigue la percepción del profesorado. El profesorado esperaba que un grupo de 100 estudiantes se ausentara a clase según <link target-id="M03_Ch03_tbl001"/>.</para><table id="M03_Ch03_tbl001" summary="The table consists of two columns with headings Number of absences and Expected number of students. There are 5 entries under each heading. Under Number of absences are the entries 0 to 2, 3 to 5, 6 to 8, 9 to 11, 12 plus. Under Expected number of students are the entries 50, 30, 12, 6, 2.">
+<tgroup cols="2"><thead>
+  <row>
+    <entry>Número de ausencias por trimestre</entry>
+    <entry>Número previsto de estudiantes</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>0–2</entry>
+    <entry>50</entry>
+  </row>
+  <row>
+    <entry>3–5</entry>
+    <entry>30</entry>
+  </row>
+  <row>
+    <entry>6–8</entry>
+    <entry>12</entry>
+  </row>
+  <row>
+    <entry>9–11</entry>
+    <entry>6</entry>
+  </row>
+  <row>
+    <entry>12+</entry>
+    <entry>2</entry>
+  </row>
+</tbody>
+</tgroup>
+</table><para id="eip-952">Luego, se realizó una encuesta aleatoria en todos los cursos de Matemáticas para determinar el número real <emphasis>(observado)</emphasis> de ausencias en un curso. El gráfico de <link target-id="M03_Ch03_tbl002"/> muestra los resultados de esa encuesta.
+<table id="M03_Ch03_tbl002" summary="The table consists of two columns with headings Number of absences per term and Actual number of students. There are 5 entries under each heading. Under Number of absences per term are the entries 0 to 2, 3 to 5, 6 to 8, 9 to 11, 12 plus. Under Expected number of students are the entries 35, 40, 20, 1, 4">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+  <row>
+    <entry>Número de ausencias por trimestre</entry>
+    <entry>Número real de estudiantes</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>0–2</entry>
+    <entry>35</entry>
+  </row>
+  <row>
+    <entry>3–5</entry>
+    <entry>40</entry>
+  </row>
+  <row>
+    <entry>6–8</entry>
+    <entry>20</entry>
+  </row>
+  <row>
+    <entry>9–11</entry>
+    <entry>1</entry>
+  </row>
+  <row>
+    <entry>12+</entry>
+    <entry>4</entry>
+  </row>
+</tbody>
+</tgroup>
+</table>
+<newline/>Determine las hipótesis nula y alternativa necesarias para realizar una prueba de bondad de ajuste.</para><para id="element-846"><emphasis><emphasis effect="italics">H<sub>0</sub></emphasis>:</emphasis> El ausentismo de los estudiantes <emphasis>se ajusta</emphasis> a la percepción del profesorado.</para><para id="element-82"><newline/>La hipótesis alternativa es la opuesta a la hipótesis nula.</para><para id="element-421"><emphasis><emphasis effect="italics">H<sub>a</sub></emphasis>:</emphasis> El ausentismo de los estudiantes <emphasis>no se ajusta</emphasis> a la percepción del profesorado.</para><exercise id="fs-idp16583968">
+<problem id="id6198828">
+  <para id="element-451">a. ¿Puede utilizar la información tal y como aparece en los gráficos para realizar la prueba de bondad de ajuste? </para></problem>
+<solution id="id6198852">
+  <para id="element-600">a. <emphasis>No.</emphasis> Tome nota que el número de ausencias previsto para la entrada “12+” es inferior a cinco (es de dos). Combine ese grupo con el de “9-11” para crear nuevas tablas en las que el número de estudiantes de cada entrada sea de cinco como mínimo. Los nuevos resultados están en la <link target-id="M03_Ch03_tbl003"/> y la <link target-id="M03_Ch03_tbl004"/>. <newline/>
+<table id="M03_Ch03_tbl003" summary="The new table consists of two columns with headings Number of absences per term and Expected number of students. There are 4 entries under each heading. Under Number of absences per term are the entries 0 to 2, 3 to 5, 6 to 8, 9+ plus. Under Expected number of students are the entries 50, 30, 12, 8.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+  <row>
+    <entry><emphasis>Número de ausencias por trimestre</emphasis></entry>
+    <entry><emphasis>Número previsto de estudiantes</emphasis></entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>0–2</entry>
+    <entry>50</entry>
+  </row>
+  <row>
+    <entry>3–5</entry>
+    <entry>30</entry>
+  </row>
+  <row>
+    <entry>6–8</entry>
+    <entry>12</entry>
+  </row>
+  <row>
+    <entry>9+</entry>
+    <entry>8</entry>
+  </row>
+
+</tbody>
+</tgroup>
+</table><table id="M03_Ch03_tbl004" summary="The table consists of two columns with headings Number of absences per term and Actual number of students. There are 5 entries under each heading. Under Number of absences per term are the entries 0 to 2, 3 to 5, 6 to 8, 9+ plus. Under Actual number of students are the entries 35, 40, 20, 5.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+  <row>
+    <entry>Número de ausencias por trimestre</entry>
+    <entry>Número real de estudiantes</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>0–2</entry>
+    <entry>35</entry>
+  </row>
+  <row>
+    <entry>3–5</entry>
+    <entry>40</entry>
+  </row>
+  <row>
+    <entry>6–8</entry>
+    <entry>20</entry>
+  </row>
+  <row>
+    <entry>9+</entry>
+    <entry>5</entry>
+  </row>
+
+</tbody>
+</tgroup>
+</table></para></solution>
+</exercise>
+<exercise id="element-612">
+<problem id="id6198893">
+  <para id="element-496">b. ¿Cuál es el número de grados de libertad (<emphasis effect="italics">df</emphasis>)?</para></problem>
+<solution id="id6198915">
+  <para id="element-601">b. Hay cuatro “celdas” o categorías en cada una de las nuevas tablas.</para><para id="element-6012"><emphasis effect="italics">df</emphasis> = número de celdas – 1 = 4 – 1 = 3</para></solution>
+</exercise></example><note id="fs-idm289894560" class="statistics try"><label/><title>Ejercicio</title>
+<exercise id="eip-31">
+<problem id="eip-864">
+  <para id="eip-988">El gerente de una fábrica necesita saber cuántos productos son defectuosos frente a cuántos se producen. El número de defectos previstos figura en <link target-id="M03_Ch03_tbl005"/>.</para>
+<table id="M03_Ch03_tbl005" summary="">
+<tgroup cols="2">
+<thead><row><entry>Número producido</entry>	<entry>Número defectuoso</entry></row></thead>
+<tbody>
+<row><entry>0–100</entry>	<entry>5</entry></row>
+<row><entry>101–200</entry>	<entry>6</entry></row>
+<row><entry>201–300</entry>	<entry>7</entry></row>
+<row><entry>301–400</entry>	<entry>8</entry></row>
+<row><entry>401–500</entry>	<entry>10</entry></row>
+</tbody>
+</tgroup>
+</table>
+<para id="eip-idm111370528">Se tomó una muestra aleatoria para determinar el número real de defectos. La <link target-id="M03_Ch03_tbl006"/> muestra los resultados de la encuesta.</para>
+<table id="M03_Ch03_tbl006" summary="">
+<tgroup cols="2">
+<colspec colnum="1" colname="c2"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+  <row>
+    <entry>Número producido</entry>
+    <entry>Número defectuoso</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>0–100</entry>
+    <entry>5</entry>
+  </row>
+  <row>
+    <entry>101–200</entry>
+    <entry>7</entry>
+  </row>
+  <row>
+    <entry>201–300</entry>
+    <entry>8</entry>
+  </row>
+  <row>
+    <entry>301–400</entry>
+    <entry>9</entry>
+  </row>
+  <row>
+    <entry>401–500</entry>
+    <entry>11</entry>
+  </row>
+</tbody>
+</tgroup>
+</table>
+<para id="eip-idp74195536">Indique las hipótesis nula y alternativa necesarias para llevar a cabo una prueba de bondad de ajuste, e indique los grados de libertad.</para>
+</problem>
+<solution id="eip-idm142768544">
+<label/>
+<para id="eip-412"><emphasis effect="italics">H<sub>0</sub></emphasis>: El número de impagos se ajusta a las expectativas.</para><para id="eip-idp65453568"><emphasis effect="italics">H<sub>a</sub></emphasis>: El número de impagos no se ajusta a las expectativas.<newline/><emphasis effect="italics">df</emphasis> = 4</para></solution>
+</exercise></note><example id="element-962"><exercise id="element-811"><problem id="id6215628">
+<para id="element-733">Los empleadores quieren saber qué días de la semana se ausentan los empleados en una semana laboral de cinco días. La mayoría de los empleadores quiere creer que los empleados se ausentan por igual durante la semana. Supongamos que se pregunta a una muestra aleatoria de 60 gerentes qué día de la semana tienen el mayor número de ausencias de empleados. Los resultados se distribuyeron como en la <link target-id="M03_Ch03_tbl007"/>. Para la población de empleados, ¿los días de mayor número de ausencias se producen con igual frecuencia durante una semana laboral de cinco días? Pruebe con un nivel de significación del 5 %.</para>
+<table id="M03_Ch03_tbl007" summary="This table presents the number of students absent by days of the week. Monday is in the second column, Tuesday is in the third column, Wednesday is in the fourth column, Thursday is in the fifth column, and Friday is in the sixth column. There is only one row of data for the number of students absent."><title>Día de la semana en que los empleados estuvieron más ausentes</title>
+<tgroup cols="6"><colspec colnum="1" colname="header_c1"/>
+	<colspec colnum="2" colname="c2"/>
+	<colspec colnum="3" colname="c3"/>
+	<colspec colnum="4" colname="c4"/>
+	<colspec colnum="5" colname="c5"/>
+	<colspec colnum="6" colname="c6"/>
+	<thead valign="top">
+		<row>
+			<entry/>
+			<entry>Lunes</entry>
+			<entry>Martes</entry>
+			<entry>Miércoles</entry>
+			<entry>Jueves</entry>
+			<entry>Viernes</entry>
+		</row>
+	</thead>
+	<tbody valign="top">
+		<row>
+			<entry>Número de ausencias</entry>
+			<entry>15</entry>
+			<entry>12</entry>
+			<entry>9</entry>
+			<entry>9</entry>
+			<entry>15</entry>
+		</row>
+	</tbody>
+
+</tgroup>
+</table></problem>
+<solution id="id6215647">
+  <para id="element-13">Las hipótesis nula y alternativa son:</para><list id="element-741" list-type="bulleted"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: Los días ausentes se producen con igual frecuencia, es decir, se ajustan a una distribución uniforme.</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: Los días ausentes se producen con frecuencias desiguales, es decir, no se ajustan a una distribución uniforme.</item>
+</list><para id="element-71">Si los días de ausencia se producen con igual frecuencia, entonces, de los 60 días de ausencia (el total de la muestra: 15 + 12 + 9 + 9 + 15 = 60), habría 12 ausencias el lunes, 12 el martes, 12 el miércoles, 12 el jueves y 12 el viernes. Estos números son los valores <emphasis>esperados</emphasis> (<emphasis effect="italics">E</emphasis>). Los valores de la tabla son los valores o datos <emphasis>observados</emphasis> (<emphasis effect="italics">O</emphasis>).</para><para id="element-489">Esta vez, calcule el estadístico de prueba <emphasis effect="italics">χ</emphasis><sup>2</sup> a mano. Haga un cuadro con los siguientes títulos y rellene las columnas:</para><list id="element-120" list-type="bulleted"><item>Valores esperados (<emphasis effect="italics">E</emphasis>) (12, 12, 12, 12, 12)</item>
+<item>Valores observados (<emphasis effect="italics">O</emphasis>) (15, 12, 9, 9, 15)</item>
+<item>(<emphasis effect="italics">O</emphasis> – <emphasis effect="italics">E</emphasis>)</item>
+<item>(<emphasis effect="italics">O</emphasis> – <emphasis effect="italics">E</emphasis>)<sup>2</sup>
+</item>
+<item><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mi>O</m:mi><m:mtext> – </m:mtext><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mi>E</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></item>
+</list><para id="element-231">Ahora, añada (sume) la última columna. La suma es de tres. Se trata del estadístico de prueba <emphasis effect="italics">χ<sup>2</sup></emphasis>.</para>
+<para id="element-290">El valor calculado del estadístico de prueba es 3 y el valor crítico de la distribución <emphasis effect="italics">χ<sup>2</sup></emphasis> a 4 grados de libertad; el nivel de confianza de 0,05 es 9,48. Este valor se encuentra en la tabla <emphasis effect="italics">χ<sup>2</sup></emphasis> en la columna 0,05 de la fila 4 de grados de libertad.</para><para id="element-894">Los grados de libertad son el número de celdas – 1 = 5 – 1 = 4</para><para id="element-724">Luego, complete un gráfico como el siguiente con el identificado y el sombreado adecuados (debería sombrear la cola derecha).</para>
+<figure id="eip-idm102621328"><media id="id6207852" alt="Esta es una curva chi-cuadrado no simétrica en blanco para el estadístico de prueba de los días de la semana y las ausencias." display="block"><image src="../../media/fig-ch11_04_08n.jpg" mime-type="image/jpg" width="380"/></media></figure><equation id="eip-id1166023448794" class="unnumbered"><label/><m:math>
+<m:msubsup><m:mi fontsize="2">χ</m:mi><m:mi>c</m:mi><m:mn>2</m:mn></m:msubsup>
+<m:mo>=</m:mo>
+
+ <m:mrow>
+  <m:munder>
+   <m:mi fontsize="2">Σ</m:mi>
+   <m:mi>k</m:mi>
+  </m:munder>
+  <m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mi>O</m:mi><m:mo>−</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mi>E</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math></equation><para id="element-545">La decisión es no rechazar la hipótesis nula porque el valor calculado del estadístico de prueba no está en la cola de la distribución.</para><para id="element-1000"><emphasis>Conclusión:</emphasis> A un nivel de significación del 5 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que los días de ausencia no se producen con igual frecuencia.</para></solution>
+</exercise></example><note id="fs-idm3127168" class="statistics try"><label/><title>Ejercicio</title>
+<exercise id="eip-723"><problem id="eip-375">
+  <para id="eip-426">Los maestros quieren saber qué noche de la semana sus estudiantes hacen la mayor parte de las tareas para la casa. La mayoría de los maestros piensan que los estudiantes hacen las tareas para la casa por igual a lo largo de la semana. Supongamos que se pregunta a una muestra aleatoria de 56 estudiantes en qué noche de la semana hacen más tareas para la casa. Los resultados se distribuyeron como en <link target-id="M03_Ch03_tbl008"/>.</para><table id="M03_Ch03_tbl008" summary=".">
+<tgroup cols="8"><thead><row><entry/><entry>Domingo</entry>	<entry>Lunes</entry>	<entry>Martes</entry>	<entry>Miércoles</entry>	<entry>Jueves</entry>	<entry>Viernes</entry>	<entry>Sábado</entry></row></thead>
+<tbody><row><entry><emphasis>Número de estudiantes</emphasis></entry>	<entry>11</entry>	<entry>8</entry>	<entry>10</entry>	<entry>7</entry>	<entry>10</entry>	<entry>5</entry>	<entry>5</entry></row></tbody>
+
+
+</tgroup>
+</table><para id="eip-idm100475616">De la población de estudiantes, ¿las noches en las que el mayor número de estudiantes hace la mayoría de sus tareas para la casa ocurren con igual frecuencia durante una semana? ¿Qué tipo de prueba de hipótesis debe utilizar?</para></problem>
+<solution id="eip-idm3076880">
+  <para id="eip-475"><emphasis effect="italics">df</emphasis> = 6</para>
+  <para id="eip-idp249187184">valor <emphasis effect="italics">p</emphasis> = 0,6093 <newline/>No rechazamos la hipótesis nula. No hay pruebas suficientes que demuestren que los alumnos no hacen la mayoría de los deberes por igual a lo largo de la semana.</para></solution>
+</exercise></note><example id="example3"><para id="element-59">Un estudio indica que el número de televisores que tienen las familias estadounidenses se distribuye (esta es la distribución <emphasis>dada</emphasis> para la población estadounidense) como en <link target-id="M03_Ch03_tbl009"/>.</para><table id="M03_Ch03_tbl009" summary="This table presents the number of televisions that American families have is in the first column, and the expected percentage is in the second column.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead valign="top">
+<row>
+<entry>Número de televisores</entry>
+<entry>Porcentaje</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>0</entry>
+<entry>10</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>16</entry>
+</row>
+<row>
+<entry>2</entry>
+<entry>55</entry>
+</row>
+<row>
+<entry>3</entry>
+<entry>11</entry>
+</row>
+<row>
+<entry>4+</entry>
+<entry>8</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="element-23563">La tabla contiene los porcentajes esperados (<emphasis effect="italics">E</emphasis>).</para>
+<para id="element-236">Una muestra aleatoria de 600 familias del extremo oeste de Estados Unidos dio como resultado los datos que figuran en la <link target-id="M03_Ch03_tbl010"/>.</para><table id="M03_Ch03_tbl010" summary="This table presents the number of televisions that American families have is in the first column, and the observed frequency is in the second column.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead valign="top">
+<row>
+<entry>Número de televisores</entry>
+<entry>Frecuencia</entry>
+</row>
+</thead>
+
+<tbody>
+<row>
+<entry>0</entry>
+<entry>66</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>119</entry>
+</row>
+<row>
+<entry>2</entry>
+<entry>340</entry>
+</row>
+<row>
+<entry>3</entry>
+<entry>60</entry>
+</row>
+<row>
+<entry>4+</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry/>
+<entry>Total = 600</entry>
+</row>
+</tbody>
+</tgroup>
+</table><para id="fs-idm95551856">La tabla contiene los valores de frecuencia observados (<emphasis effect="italics">O</emphasis>).</para><exercise id="element-911"><problem id="id6229414">
+  <para id="element-649">Al nivel de significación del 1 %, ¿parece que la distribución del “número de televisores” de las familias del extremo oeste de Estados Unidos es diferente de la distribución de la población estadounidense en su conjunto?</para>
+</problem>
+<solution id="id6229434">
+  <para id="element-538">Este problema le pide que compruebe si la distribución de las familias del extremo oeste de Estados Unidos se ajusta a la distribución de las familias del resto del país. Esta prueba es siempre de cola derecha.</para>
+<para id="element-788">La primera tabla contiene los porcentajes previstos. Para obtener las frecuencias esperadas (<emphasis effect="italics">E</emphasis>), multiplique el porcentaje por 600. Las frecuencias esperadas se muestran en la <link target-id="M03_Ch03_tbl011"/>.</para><table id="M03_Ch03_tbl011" summary="This table is the same as above except for an additional third column listing th expected frequencies.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead valign="top">
+<row>
+<entry>Número de televisores</entry>
+<entry>Porcentaje</entry>
+<entry>Frecuencia esperada</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>0</entry>
+<entry>10</entry>
+<entry>(0,10)(600) = 60</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>16</entry>
+<entry>(0,16)(600) = 96</entry>
+</row>
+<row>
+<entry>2</entry>
+<entry>55</entry>
+<entry>(0,55)(600) = 330</entry>
+</row>
+<row>
+<entry>3</entry>
+<entry>11</entry>
+<entry>(0,11)(600) = 66</entry>
+</row>
+<row>
+<entry>más de 3</entry>
+<entry>8</entry>
+<entry>(0,08)(600) = 48</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><para id="element-whatever" class="finger">Por lo tanto, las frecuencias esperadas son 60, 96, 330, 66 y 48. </para><para id="element-239"><emphasis effect="italics">H<sub>0</sub></emphasis>: La distribución del “número de televisores” de las familias del extremo oeste de Estados Unidos es igual a la del “número de televisores” de la población estadounidense.</para><para id="element-2"><emphasis effect="italics">H<sub>a</sub></emphasis>: La distribución del “número de televisores” de las familias del extremo oeste de Estados Unidos es diferente de la distribución del “número de televisores” de la población estadounidense.</para><para id="element-228">Distribución para la prueba: <m:math>
+ <m:mrow>
+  <m:msubsup>
+   <m:mi>χ</m:mi>
+   <m:mn>4</m:mn>
+   <m:mn>2</m:mn>
+  </m:msubsup>
+
+ </m:mrow>
+</m:math> donde <emphasis effect="italics">df</emphasis> = (el número de celdas) – 1 = 5 – 1 = 4.</para><para id="element-65"><emphasis>Calcule el estadístico de prueba:</emphasis> <emphasis effect="italics">χ</emphasis>2 = 29,65</para>
+<para id="element-280"><emphasis>Gráfico:</emphasis></para>
+<figure id="eip-idm60132512"><media id="id6230034" alt="Se trata de una curva de chi-cuadrado no simétrica con valores de 0, 4 y 29,65 marcados en el eje horizontal. El valor 4 coincide con el pico de la curva. Una línea vertical ascendente se extiende desde 29,65 hasta la curva, y la región a la derecha de esta línea está sombreada. El área sombreada es igual al valor p." display="block">
+<image src="../../media/fig-ch11_04_03m.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-635">El gráfico de chi cuadrado muestra la distribución y marca el valor crítico con cuatro grados de libertad a un nivel de confianza del 99 %, α = 0,01; 13,277. El gráfico también marca el valor calculado del estadístico de prueba de chi cuadrado en 29,65. Al comparar el estadístico de prueba con el valor crítico, como hemos hecho con todas las demás pruebas de hipótesis, llegamos a la conclusión. </para><para id="element-251"><emphasis>Tome una decisión:</emphasis> Dado que el estadístico de prueba está en la cola de la distribución, no podemos aceptar la hipótesis nula. </para><para id="element-717">Esto significa que usted rechaza la creencia de que la distribución para los estados del extremo oeste es igual a la de la población estadounidense en su conjunto.</para><para id="element-387"><emphasis>Conclusión:</emphasis> Al nivel de significación del 1 %, a partir de los datos, hay pruebas suficientes para concluir que la distribución del “número de televisores” para el extremo oeste de Estados Unidos es diferente de la distribución del “número de televisores” para el conjunto de la población estadounidense.</para></solution>
+</exercise></example><note id="fs-idm99666800" class="statistics try"><label/><title>Ejercicio</title>
+
+    <exercise id="eip-521">
+      <problem id="eip-211">
+        <para id="eip-938">El porcentaje esperado del número de mascotas que tienen los estudiantes en sus hogares se distribuye (es la distribución dada para la población estudiantil de Estados Unidos) como en la <link target-id="fs-idm147763264"/>.</para><table id="fs-idm147763264" summary=".">
+<tgroup cols="2"><thead><row><entry>Número de mascotas</entry>	<entry>Porcentaje</entry></row></thead>
+<tbody>
+<row><entry>0</entry>	<entry>18</entry></row>
+<row><entry>1</entry>	<entry>25</entry></row>
+<row><entry>2</entry>	<entry>30</entry></row>
+<row><entry>3</entry>	<entry>18</entry></row>
+<row><entry>4+</entry>	<entry>9</entry></row>
+</tbody>
+
+</tgroup>
+</table><para id="eip-idp91504704">Una muestra aleatoria de 1.000 estudiantes del este de Estados Unidos dio como resultado los datos que figuran en la <link target-id="fs-idm64242624"/>.</para><table id="fs-idm64242624" summary=".">
+<tgroup cols="2"><thead>
+<row><entry>Número de mascotas</entry>	<entry>Frecuencia</entry></row>
+</thead>
+<tbody>
+<row><entry>0 </entry>	<entry>210</entry></row>
+<row><entry>1</entry>	<entry>240</entry></row>
+<row><entry>2</entry>	<entry>320</entry></row>
+<row><entry>3</entry>	<entry>140</entry></row>
+<row><entry>4+</entry>	<entry>90</entry></row>
+</tbody>
+
+</tgroup>
+</table><para id="eip-idp27106912">Al nivel de significación del 1 %, ¿parece que la distribución “número de mascotas” de los estudiantes del este de Estados Unidos es diferente de la distribución para el conjunto de la población estudiantil de Estados Unidos? </para></problem>
+<solution id="eip-idm61016960">
+<label/>
+  <para id="eip-64">Valor <emphasis effect="italics">p</emphasis> = 0,0036</para>
+  <para id="eip-idp66134304">Rechazamos la hipótesis nula de que las distribuciones son iguales. Hay pruebas suficientes para concluir que la distribución "número de mascotas" de los estudiantes en el este de Estados Unidos es diferente de la distribución para el conjunto de la población estudiantil de Estados Unidos.</para></solution>
+  </exercise>
+
+  </note><example id="element-866">
+    <exercise id="element-221"><problem id="id6230511">
+  <para id="element-95">Supongamos que lanza dos monedas 100 veces. Los resultados son 20 <emphasis effect="italics">HH</emphasis>, 27 <emphasis effect="italics">HT</emphasis>, 30 <emphasis effect="italics">TH</emphasis> y 23 <emphasis effect="italics">TT</emphasis>. ¿Las monedas son imparciales? Pruebe con un nivel de significación del 5 %.</para></problem>
+<solution id="id6230530">
+  <para id="element-929">Este problema se puede plantear como un problema de bondad de ajuste. El espacio muestral para lanzar dos monedas imparciales es {<emphasis effect="italics">HH</emphasis>, <emphasis effect="italics">HT</emphasis>, <emphasis effect="italics">TH</emphasis>, <emphasis effect="italics">TT</emphasis>}. De cada 100 lanzadas, se esperan 25 <emphasis effect="italics">HH</emphasis>, 25 <emphasis effect="italics">HT</emphasis>, 25 <emphasis effect="italics">TH</emphasis> y 25 <emphasis effect="italics">TT</emphasis>. Esta es la distribución esperada de probabilidad binomial. La pregunta “¿las monedas son imparciales?” es lo mismo que decir “¿la distribución de las monedas (20 <emphasis effect="italics">HH</emphasis>, 27 <emphasis effect="italics">HT</emphasis>, 30 <emphasis effect="italics">TH</emphasis>, 23 <emphasis effect="italics">TT</emphasis>) se ajusta a la distribución esperada?”.</para><para id="element-570"><emphasis>Variable aleatoria:</emphasis> Supongamos que <emphasis effect="italics">X</emphasis> = el número de caras en un lanzamiento de las dos monedas. <emphasis effect="italics">X</emphasis> toma los valores 0, 1, 2 (hay 0, 1 o 2 caras en el lanzamiento de dos monedas). Por lo tanto, el <emphasis>número de celdas es tres</emphasis>. Como <emphasis effect="italics">X</emphasis> = el número de caras, las frecuencias observadas son 20 (para dos caras), 57 (para una cara) y 23 (para cero caras o dos cruces). Las frecuencias esperadas son 25 (para dos caras), 50 (para una cara) y 25 (para cero caras o dos cruces). Esta prueba es de cola derecha.</para><para id="element-774"><emphasis><emphasis effect="italics">H<sub>0</sub></emphasis></emphasis>: Las monedas son imparciales.
+ </para><para id="element-734"><emphasis><emphasis effect="italics">H<sub>a</sub></emphasis></emphasis>: Las monedas no son imparciales.
+ </para><para id="element-136"><emphasis>Distribución para la prueba:</emphasis> <m:math>
+<m:msubsup>
+<m:mi>χ</m:mi>
+<m:mn>2</m:mn>
+<m:mn>2</m:mn>
+</m:msubsup>
+</m:math> donde <emphasis effect="italics">df</emphasis> = 3 – 1 = 2.</para><para id="element-380"><emphasis>Calcule el estadístico de prueba:</emphasis> <emphasis effect="italics">χ</emphasis><sup>2</sup> = 2,14</para><para id="element-973"><emphasis>Gráfico:</emphasis></para>
+  <figure id="eip-idm189345712"><media id="id6230739" alt="Se trata de una curva de chi-cuadrado no simétrica con valores de 0 y 2,14 marcados en el eje horizontal. Una línea vertical ascendente se extiende desde 2,14 hasta la curva y la región a la derecha de esta línea está sombreada. El área sombreada es igual al valor p." display="block"><image src="../../media/fig-ch11_04_04m.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-490">El gráfico de chi cuadrado muestra la distribución y marca el valor crítico con dos grados de libertad a un nivel de confianza del 95 %, α = 0,05; 5,991. El gráfico también marca el valor calculado del estadístico de prueba <emphasis effect="italics">χ</emphasis><sup>2</sup> en 2,14. Al comparar el estadístico de prueba con el valor crítico, como hemos hecho con todas las demás pruebas de hipótesis, llegamos a la conclusión.
+</para><para id="element-995"><emphasis>Conclusión:</emphasis> No hay pruebas suficientes para concluir que las monedas no son justas: no podemos rechazar la hipótesis nula de que las monedas son justas.</para></solution>
+    </exercise></example>
+  <section id="fs-idp190810816" class="references">
+<title>Referencias</title>
+<para id="eip-335">Datos de la Oficina del Censo de EE. UU.</para><para id="fs-idp129813488">Datos del College Board. Disponible en línea en http://www.collegeboard.com.</para>
+<para id="fs-idp129470608">Datos de la Oficina del Censo de EE. UU., Current Population Reports.</para>
+<para id="fs-idp157121200">Ma, Y., E. R. Bertone, E. J. Stanek III, G. W. Reed, J. R. Hebert, N. L. Cohen, P. A. Merriam, I. S. Ockene, “Association entre Eating Patterns and Obesity in a Free-living US Adult Population”. <emphasis effect="italics">American Journal of Epidemiology</emphasis> volume 158, n.º 1, pages 85-92.</para>
+<para id="fs-idp150901072">Ogden, Cynthia L., Margaret D. Carroll, Brian K. Kit, Katherine M. Flegal, “Prevalence of Obesity in the United States, 2009–2010”. NCHS Data Brief n.º 82, enero de 2012. Disponible en línea en http://www.cdc.gov/nchs/data/databriefs/db82.pdf (consultado el 24 de mayo de 2013).</para>
+<para id="fs-idp13520768">Stevens, Barbara J., “Multi-family and Commercial Solid Waste and Recycling Survey”. Condado de Arlington, VA. Disponible en línea en http://www.arlingtonva.us/departments/EnvironmentalServices/SW/file84429.pdf (consultado el 24 de mayo de 2013).</para>
+</section>
+<section id="fs-idm22604560" class="summary">
+<title>Revisión del capítulo</title>
+<para id="eip-293">Para evaluar si un conjunto de datos se ajusta a una distribución específica, puede aplicar la prueba de hipótesis de bondad de ajuste que utiliza la distribución chi-cuadrado. La hipótesis nula de esta prueba establece que los datos proceden de la distribución supuesta. La prueba compara los valores observados con los valores que se esperarían tener si los datos siguieran la distribución supuesta. La prueba es casi siempre de cola derecha. Cada observación o categoría de celda debe tener un valor esperado de, al menos, cinco.</para></section>
+  <section id="fs-idp15590400" class="formula-review">
+<title>Revisión de la fórmula</title>
+<para id="eip-28"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mstyle displaystyle="true">
+    <m:munder>
+     <m:mo>∑</m:mo>
+     <m:mi>k</m:mi>
+    </m:munder>
+    <m:mrow>
+     <m:mfrac>
+      <m:mrow>
+       <m:msup>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:mi>O</m:mi><m:mo>−</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:msup>
+
+      </m:mrow>
+      <m:mi>E</m:mi>
+     </m:mfrac>
+
+    </m:mrow>
+   </m:mstyle>
+  </m:mrow>
+
+ </m:semantics>
+</m:math> estadístico de prueba de bondad de ajuste donde: <newline count="2"/><emphasis effect="italics">O</emphasis>: valores observados <newline/><emphasis effect="italics">E</emphasis>: valores esperados <newline/> <newline/><emphasis effect="italics">k</emphasis>: número de celdas o categorías de datos diferentes <newline/></para><para id="eip-590"><emphasis effect="italics">df</emphasis> = <emphasis effect="italics">k</emphasis> − 1 grados de libertad</para></section>
+
+<section id="fs-idp3921920" class="practice">
+<para id="eip-401"><emphasis effect="italics">Determine la prueba adecuada que se utilizará en los tres ejercicios siguientes.</emphasis></para><exercise id="eip-594"><problem id="eip-126">
+  <para id="eip-517">Una arqueóloga está calculando la distribución de la frecuencia del número de objetos que encuentra en una excavación. Basándose en excavaciones anteriores, la arqueóloga crea una distribución prevista desglosada por secciones de la cuadrícula en el lugar de la excavación. Una vez que el yacimiento se ha excavado por completo, compara el número real de objetos encontrados en cada sección de la cuadrícula para determinar si sus expectativas eran correctas.
+</para></problem>
+</exercise><exercise id="eip-906"><problem id="eip-958">
+  <para id="eip-19">Un economista está elaborando un modelo para predecir los resultados del mercado de valores. Crea una lista de puntos esperados en el índice bursátil para las próximas dos semanas. Al cierre de cada jornada registra los puntos reales del índice. Quiere ver hasta qué punto su modelo coincide con lo que realmente ocurrió.
+  </para></problem>
+<solution id="eip-193">
+  <para id="eip-49">una prueba de bondad de ajuste
+  </para></solution>
+</exercise><exercise id="eip-89"><problem id="eip-452">
+  <para id="eip-144">Una entrenadora personal está preparando un programa de levantamiento de pesas para sus clientes. Para un programa de 90 días espera que cada cliente levante un peso máximo específico cada semana. A medida que avanza registra los pesos máximos reales que levantan sus clientes. Quiere saber si sus expectativas se ajustan a lo observado.</para>
+</problem>
+</exercise><para id="eip-886"><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios:</emphasis> Un maestro predice cuál será la distribución de las calificaciones del examen final y las registra en la <link target-id="fs-idm120960208"/>.</para><table id="fs-idm120960208" summary="">
+    <tgroup cols="2">
+      <thead>
+        <row>
+          <entry>Grado</entry>
+          <entry>Proporción</entry>
+        </row>
+      </thead>
+
+      <tbody>
+        <row><entry>A</entry>	<entry>0,25</entry></row>
+        <row><entry>B</entry>	<entry>0,30</entry></row>
+        <row><entry>C</entry>	<entry>0,35</entry></row>
+        <row><entry>D</entry>	<entry>0,10</entry></row>
+      </tbody>
+
+    </tgroup>
+  </table>
+
+  <para id="eip-idm224726288">La distribución real para una clase de 20 está en la <link target-id="fs-idp30286112"/>.</para><table id="fs-idp30286112" summary="">
+    <tgroup cols="2">
+      <thead><row><entry>Grado</entry>	<entry>Frecuencia</entry></row></thead>
+      <tbody>
+        <row><entry>A</entry>	<entry>7</entry></row>
+        <row><entry>B</entry>	<entry>7</entry></row>
+        <row><entry>C</entry>	<entry>5</entry></row>
+        <row><entry>D</entry>	<entry>1</entry></row>
+      </tbody>
+    </tgroup>
+  </table>
+
+  <exercise id="eip-760">
+    <problem id="eip-368">
+  <para id="eip-idp101712960"><m:math>
+ <m:mrow>
+  <m:mi>d</m:mi><m:mi>f</m:mi><m:mo>=</m:mo>
+ </m:mrow>
+</m:math> ______</para></problem>
+<solution id="eip-761">
+  <para id="eip-609">3</para>
+</solution>
+  </exercise>
+
+  <exercise id="eip-503"><problem id="eip-738">
+  <para id="eip-642">Indique las hipótesis nula y alternativa.</para>
+</problem>
+  </exercise><exercise id="eip-462"><problem id="eip-83">
+    <para id="eip-181">estadístico de prueba <emphasis effect="italics">χ<sup>2</sup></emphasis> = ______</para></problem>
+<solution id="eip-316">
+  <para id="eip-905">2,04</para>
+</solution>
+  </exercise>
+
+  <exercise id="eip-873">
+    <problem id="eip-165">
+  <para id="eip-456">Al nivel de significación del 5 %, ¿qué puede concluir?</para>
+    </problem>
+<solution id="eip-841">
+  <para id="eip-360">No rechazamos la hipótesis nula. No hay pruebas suficientes que sugieran que las calificaciones observadas en las pruebas sean significativamente diferentes de las esperadas.</para></solution>
+</exercise>
+  <para id="element-666"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos nueve ejercicios:</emphasis> Los siguientes datos son reales. El número acumulado de casos de sida notificados en el condado de Santa Clara se desglosa por grupos étnicos como en la <link target-id="element-974"/>.</para><table id="element-974" summary="This table shows the ethnicity in the first column and the number of cases in the second column. There are 5 rows.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>
+              Etnia
+            </entry>
+            <entry>
+              Número de casos
+            </entry>
+          </row>
+</thead>
+<tbody>
+        <row>
+            <entry>Blancos</entry>
+            <entry>2.229</entry>
+          </row>
+          <row>
+            <entry>Hispanos</entry>
+            <entry>1.157</entry>
+          </row>
+          <row>
+            <entry>Negros/Afroamericanos</entry>
+            <entry>457</entry>
+          </row>
+          <row>
+            <entry>Asiáticos, isleños del Pacífico</entry>
+            <entry>232</entry>
+          </row>
+          <row>
+<entry/>
+<entry>Total = 4.075</entry></row>
+        </tbody>
+
+
+</tgroup>
+</table><para id="element-726">El porcentaje de cada grupo étnico en el condado de Santa Clara es el que figura en la <link target-id="element-174"/>.</para>
+<table id="element-174" summary="This is a partially filled table with ethnicity in the first column, percentage of total county population in the second column, and expected number in the third column. Only the first row of the third column is filled up.">
+<tgroup cols="3"><colspec colnum="1" colname="header_c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead>
+          <row>
+            <entry>
+              Etnia
+            </entry>
+            <entry>
+              Porcentaje de la población total del condado
+            </entry>
+            <entry>
+              Número esperado (redondeado a dos decimales)
+            </entry>
+          </row>
+</thead>
+<tbody>
+          <row>
+            <entry>Blancos</entry>
+            <entry>42,9%</entry>
+            <entry>1748,18</entry>
+          </row>
+          <row>
+            <entry>Hispanos</entry>
+            <entry>26,7%</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Negros/Afroamericanos</entry>
+            <entry>2,6%</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Asiáticos, isleños del Pacífico</entry>
+            <entry>27,8%</entry>
+            <entry/>
+          </row>
+      <row>
+      <entry/>
+      <entry>Total = 100 %</entry>
+      <entry/>
+    </row>
+
+              </tbody>
+
+
+</tgroup>
+</table><exercise id="fs-idm118784352"><problem id="fs-idm118784096">
+  <para id="element-308">Si las etnias de las víctimas de sida siguen las etnias de la población total del condado, rellene el número esperado de casos por grupo étnico. <newline/><emphasis effect="italics">Haga una prueba de bondad de ajuste para determinar si la aparición de casos de sida sigue las etnias de la población general del condado de Santa Clara.</emphasis></para></problem>
+</exercise><exercise id="element-806"><problem id="id45907502">
+    <para id="element-80"><emphasis effect="italics">H<sub>0</sub></emphasis>: _______</para></problem>
+<solution id="eip-idp70410576">
+<para id="eip-idm20123792"><emphasis effect="italics">H<sub>0</sub></emphasis>: la distribución de los casos de sida sigue las etnias de la población general del condado de Santa Clara.</para></solution>  </exercise><exercise id="element-694"><problem id="id45907589">
+<para id="element-117"><emphasis effect="italics">H<sub>a</sub></emphasis>: _______</para></problem>
+  </exercise><exercise id="element-502">
+    <problem id="id45907668">
+    <para id="element-56">¿Es una prueba de cola derecha, de cola izquierda o de dos colas?</para></problem>
+  <solution id="fs-idp33338736"><para id="fs-idm158625232">cola derecha</para></solution>
+  </exercise>
+  <exercise id="element-619"><problem id="id45907696">
+      <para id="element-422">grados de libertad = _______</para>
+  </problem>
+
+
+  </exercise><exercise id="element-575">
+    <problem id="id42755491">
+      <para id="element-840">estadístico de prueba <emphasis effect="italics">χ<sup>2</sup></emphasis> = _______</para></problem>
+    <solution id="id42755538">
+    <para id="element-448">2016,136</para></solution>
+  </exercise>
+
+  <exercise id="fs-idp52863376"><problem id="id42755611">
+    <para id="element-947">Grafique la situación. Identifique y escale el eje horizontal. Marque la media y el estadístico de prueba. Sombree en la región correspondiente al nivel de confianza.</para><figure id="eip-idm27194112"><media id="id42755639" alt="Esta es una plantilla de gráfico en blanco. Los ejes vertical y horizontal no están identificados." display="block"><image src="../../media/fig-ch11_10_01.jpg" mime-type="image/png" width="380"/></media></figure>
+
+    <para id="element-996">Supongamos que <emphasis effect="italics">α</emphasis> = 0,05</para>
+    <para id="element-369">Decisión: ________________</para><para id="element-116">Motivo de la decisión: ________________</para><para id="fs-idp57373104">Conclusión (escriba en oraciones completas): ________________</para></problem>
+
+    <solution id="fs-idm23466992">
+<para id="fs-idm23466736">Gráfico: Compruebe la solución del estudiante</para>
+<para id="fs-idm57235728">Decisión: No se puede aceptar la hipótesis nula</para><para id="fs-idm98787744">Motivo de la decisión: El valor calculado de los estadísticos de prueba está dentro o fuera de la cola de la distribución.</para><para id="fs-idm33256704">Conclusión (escriba en oraciones completas): La composición de los casos de sida no se ajusta a las etnias de la población general del condado de Santa Clara.</para>
+    </solution>
+  </exercise><exercise id="exerciseoneserd"><problem id="id42755737">
+<para id="element-493">¿Parece que el patrón de casos de sida en el condado de Santa Clara se corresponde con la distribución de los grupos étnicos en este condado? ¿Por qué sí o por qué no?</para></problem>
+</exercise></section>
+<section id="fs-idp86765760" class="free-response">
+<title>Tarea para la casa</title>
+  <exercise id="fs-idp12253472"><problem id="id20683006">
+  <para id="element-662">Se lanza un dado de seis caras 120 veces. Rellene la columna de frecuencia prevista. Luego, realice una prueba de hipótesis para determinar si el dado es imparcial. Los datos de la <link target-id="id6180063"/> son el resultado de las 120 lanzadas.</para><table id="id6180063" summary="This partially filled table presents face value in the first column, frequency in the second column, and relative frequency in the blank third column. There are 6 rows.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead>
+          <row>
+            <entry>Valor nominal</entry>
+            <entry>Frecuencia</entry>
+            <entry>Frecuencia esperada</entry>
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry>1</entry>
+            <entry>15</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry>29</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>3</entry>
+            <entry>16</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>15</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>5</entry>
+            <entry>30</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>6</entry>
+            <entry>15</entry>
+            <entry/>
+          </row>
+        </tbody>
+
+
+</tgroup>
+</table></problem>
+</exercise><exercise id="element-340"><problem id="id20662365">
+      <para id="element-912">La distribución del estado civil de la población masculina de EE. UU. de 15 años o más es la que se muestra en la <link target-id="id7856744"/>.
+  </para><table id="id7856744" summary="This table presents the marital status in the first column, the percent in the second column, and the expected frequency in the blank third column. There are 4 rows.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead>
+          <row>
+            <entry>Estado civil</entry>
+            <entry>Porcentaje</entry>
+            <entry>Frecuencia esperada</entry>
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry>Soltero</entry>
+            <entry>31,3</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Casado</entry>
+            <entry>56,1</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Viudo</entry>
+            <entry>2,5</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Divorciado/Separado</entry>
+            <entry>10,1</entry>
+            <entry/>
+          </row>
+        </tbody>
+
+
+
+
+</tgroup>
+</table><para id="id7879714">Supongamos que una muestra aleatoria de 400 hombres adultos jóvenes de EE. UU. de 18 a 24 años arroja la siguiente distribución de frecuencias. Nos interesa saber si este grupo de edad de hombres se ajusta a la distribución de la población adulta de EE. UU. Calcule la frecuencia que cabría esperar al encuestar a 400 personas. Rellene la <link target-id="id7856744"/>, redondeando a dos decimales.</para><table id="id6962175" summary="This table presents the marital status in the first column and the frequency in the second column. There are 4 rows.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>Estado civil</entry>
+            <entry>Frecuencia</entry>
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry>Soltero</entry>
+            <entry>140</entry>
+          </row>
+          <row>
+            <entry>Casado</entry>
+            <entry>238</entry>
+          </row>
+          <row>
+            <entry>Viudo</entry>
+            <entry>2</entry>
+          </row>
+          <row>
+            <entry>Divorciado/Separado</entry>
+            <entry>20</entry>
+          </row>
+        </tbody>
+
+
+
+
+</tgroup>
+</table></problem>
+<solution id="id20567362">
+  <table id="fs-idm91494592" summary="..">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+      <colspec colnum="2" colname="c2"/>
+      <colspec colnum="3" colname="c3"/>
+      <thead>
+        <row>
+          <entry>Estado civil</entry>
+          <entry>Porcentaje</entry>
+          <entry>Frecuencia esperada</entry>
+        </row>
+      </thead>
+      <tbody>
+        <row>
+          <entry>Soltero</entry>
+          <entry>31,3</entry>
+          <entry>125,2</entry>
+        </row>
+        <row>
+          <entry>Casado</entry>
+          <entry>56,1</entry>
+          <entry>224,4</entry>
+        </row>
+        <row>
+          <entry>Viudo</entry>
+          <entry>2,5</entry>
+          <entry>10</entry>
+        </row>
+        <row>
+          <entry>Divorciado/Separado</entry>
+          <entry>10,1</entry>
+          <entry>40,4</entry>
+        </row>
+      </tbody>
+
+
+
+
+</tgroup>
+</table><list id="element-539" list-type="enumerated" number-style="lower-alpha"><item>Los datos se ajustan a la distribución.</item>
+<item>Los datos no se ajustan a la distribución.</item>
+<item>3</item>
+<item>distribución chi-cuadrado con <emphasis effect="italics">df</emphasis> = 3</item>
+<item>19,27</item>
+<item>0,0002</item>
+<item>Compruebe la solución del estudiante</item>
+<item>
+<list id="eip-idm204695968" list-type="enumerated" number-style="lower-roman"><item>Alfa = 0,05</item>
+<item>Decisión: No se puede aceptar la hipótesis nula con un nivel de significación del 5 %.</item>
+<item>Motivo de la decisión: El valor calculado de los estadísticos de prueba está dentro o fuera de la cola de la distribución.
+</item>
+<item>Conclusión: Los datos no se ajustan a la distribución.</item>
+</list></item></list></solution>
+</exercise>
+  <para id="id7851160"><emphasis effect="italics">Use la siguiente información para responder los dos próximos ejercicios:</emphasis> Las columnas de la <link target-id="id6962388"/> contienen la raza/etnia de escuelas públicas de EE. UU. para un año reciente, los porcentajes de la población de examinados de Colocación Avanzada para esa clase y la población estudiantil general. Supongamos que la columna de la derecha contiene el resultado de una encuesta realizada a 1.000 estudiantes locales de ese año que presentaron un examen de Colocación Avanzada (Advanced Placement, AP).</para><table id="id6962388" summary="This table presents the Race/Ethnicity in the first column, AP Examinee Population in percentages in the second column, Overall Student Population in percentages in the third column, and Survey Frequency in the fourth column. There are six rows.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <thead>
+          <row>
+            <entry>Raza/etnia</entry>
+            <entry>Población examinada de AP</entry>
+            <entry>Población estudiantil total</entry>
+            <entry>Frecuencia de las encuestas</entry>
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry>Asiático, asiático americano o isleño del Pacífico</entry>
+            <entry>10,2%</entry>
+            <entry>5,4%</entry>
+            <entry>113</entry>
+          </row>
+          <row>
+            <entry>Negro o afroamericano</entry>
+            <entry>8,2%</entry>
+            <entry>14,5%</entry>
+            <entry>94</entry>
+          </row>
+          <row>
+            <entry>Hispano o latino</entry>
+            <entry>15,5%</entry>
+            <entry>15,9%</entry>
+            <entry>136</entry>
+          </row>
+          <row>
+            <entry>Amerindio o nativo de Alaska</entry>
+            <entry>0,6%</entry>
+            <entry>1,2%</entry>
+            <entry>10</entry>
+          </row>
+          <row>
+            <entry>Blancos</entry>
+            <entry>59,4%</entry>
+            <entry>61,6%</entry>
+            <entry>604</entry>
+          </row>
+          <row>
+            <entry>No informado/otro</entry>
+            <entry>6,1%</entry>
+            <entry>1,4%</entry>
+            <entry>43</entry>
+          </row>
+        </tbody>
+
+</tgroup>
+</table><exercise id="element-683"><problem id="id20664613">
+  <para id="element-223">Haga una prueba de bondad de ajuste para determinar si los resultados locales siguen la distribución de la población estudiantil general de EE. UU. con base en el origen étnico.</para></problem>
+    </exercise><exercise id="element-849"><problem id="id19495994">
+  <para id="element-444">Haga una prueba de bondad de ajuste para determinar si los resultados locales siguen la distribución de la población de examinados de AP de EE. UU. con base en su origen étnico.
+  </para></problem>
+<solution id="id19496016">
+  <list id="fs-idm163553216" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: Los resultados locales siguen la distribución de la población de examinados de AP de EE. UU.</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: Los resultados locales no siguen la distribución de la población de examinados de AP de EE. UU.</item>
+    <item><emphasis effect="italics">df</emphasis> = 5</item>
+    <item>distribución chi-cuadrado con <emphasis effect="italics">df</emphasis> = 5</item>
+    <item>estadístico de prueba chi-cuadrado = 13,4</item>
+
+    <item>Compruebe la solución del estudiante</item>
+    <item><para id="eip-idm161948400">
+<list id="eip-idm32767312" list-type="enumerated" number-style="lower-roman"><item>Alfa = 0,05</item>
+<item>Decisión: No se puede aceptar la hipótesis nula cuando <emphasis effect="italics">a</emphasis> = 0,05</item>
+<item>Motivo de la decisión: El valor calculado de los estadísticos de prueba está dentro o fuera de la cola de la distribución.
+</item>
+<item>Conclusión: Los datos locales no se ajustan a la distribución de los examinados de AP.</item>
+<item>Decisión: No rechaza la nulidad cuando <emphasis effect="italics">a</emphasis> = 0,01</item>
+<item>Conclusión: No hay pruebas suficientes para concluir que los datos locales no siguen la distribución de los examinados de AP de EE. UU.</item>
+</list></para>
+</item>
+  </list></solution>
+</exercise>
+
+    <exercise id="element-371"><problem id="id19496210">
+      <para id="element-268">La ciudad de South Lake Tahoe, California tiene una población asiática de 1.419 personas, de una población total de 23.609. Supongamos que una encuesta realizada a 1.419 asiáticos autodeclarados en el área de Manhattan (Nueva York) arroja los datos de la <link target-id="id7017535"/>. Haga una prueba de bondad de ajuste para determinar si los subgrupos de asiáticos autodeclarados en el área de Manhattan se ajustan a los de la zona del Lake Tahoe.</para><table id="id7017535" summary="The table shows race in the first column, Lake Tahoe frequency in the second column, and Manhattan frequency in the blank third column. There are 7 rows.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead>
+          <row>
+            <entry>Raza</entry>
+            <entry>Frecuencia en el lago Tahoe</entry>
+            <entry>Frecuencia en Manhattan</entry>
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry>Indio asiático</entry>
+            <entry>131</entry>
+            <entry>174</entry>
+          </row>
+          <row>
+            <entry>Chino</entry>
+            <entry>118</entry>
+            <entry>557</entry>
+          </row>
+          <row>
+            <entry>Filipino</entry>
+            <entry>1.045</entry>
+            <entry>518</entry>
+          </row>
+          <row>
+            <entry>Japonés</entry>
+            <entry>80</entry>
+            <entry>54</entry>
+          </row>
+          <row>
+            <entry>Coreano</entry>
+            <entry>12</entry>
+            <entry>29</entry>
+            </row>
+          <row>
+            <entry>Vietnamita</entry>
+            <entry>9</entry>
+            <entry>21</entry>
+            </row>
+          <row>
+            <entry>Otros</entry>
+            <entry>24</entry>
+            <entry>66</entry>
+            </row>
+        </tbody>
+
+
+</tgroup>
+</table></problem>
+</exercise>
+  <para id="eip-715"><emphasis effect="italics">Use la siguiente información para responder los dos próximos ejercicios:</emphasis> La UCLA realizó una encuesta a más de 263.000 estudiantes de primer año de 385 institutos universitarios en otoño de 2005. Los resultados de las especialidades esperadas de los estudiantes, por sexo, fueron presentado en <cite><cite-title>The Chronicle of Higher Education (2 feb 2006).</cite-title></cite>. Supongamos que el año pasado se realizó una encuesta de seguimiento a 5.000 mujeres y 5.000 hombres que se graduaron para determinar cuáles eran sus especialidades reales. Los resultados se muestran en las tablas de la <link target-id="element-465"/> y la <link target-id="element-100"/>. La segunda columna de cada tabla no suma el 100 % debido al redondeo.</para><exercise id="element-465">
+  <problem id="id20689459">
+    <para id="fs-idm7756464">Haga una prueba de bondad de ajuste para determinar si las especialidades universitarias reales de las mujeres que se gradúan se ajustan a la distribución de sus especialidades esperadas.
+  </para>
+    <table id="id5962699" summary="The table consists of college majors in the first column, expected major percentages for women in the second column and the actual number of women that chose that major in the third column.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead>
+          <row>
+            <entry>Especialidad</entry>
+            <entry>Mujeres: especialidad esperada</entry>
+            <entry>Mujeres: especialidad real</entry>
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry>Arte y Humanidades</entry>
+            <entry>14,0%</entry>
+            <entry>670</entry>
+          </row>
+          <row>
+            <entry>Ciencias Biológicas</entry>
+            <entry>8,4%</entry>
+            <entry>410</entry>
+          </row>
+          <row>
+            <entry>Negocios</entry>
+            <entry>13,1%</entry>
+            <entry>685</entry>
+          </row>
+          <row>
+            <entry>Educación</entry>
+            <entry>13,0%</entry>
+            <entry>650</entry>
+          </row>
+          <row>
+            <entry>Ingeniería</entry>
+            <entry>2,6%</entry>
+            <entry>145</entry>
+          </row>
+          <row>
+            <entry>Ciencias Físicas</entry>
+            <entry>2,6%</entry>
+            <entry>125</entry>
+          </row>
+          <row>
+            <entry>Profesional</entry>
+            <entry>18,9%</entry>
+            <entry>975</entry>
+          </row>
+          <row>
+            <entry>Ciencias Sociales</entry>
+            <entry>13,0%</entry>
+            <entry>605</entry>
+          </row>
+          <row>
+            <entry>Técnica</entry>
+            <entry>0,4%</entry>
+            <entry>15</entry>
+          </row>
+          <row>
+            <entry>Otros</entry>
+            <entry>5,8%</entry>
+            <entry>300</entry>
+          </row>
+          <row>
+            <entry>Indecisos</entry>
+            <entry>8,0%</entry>
+            <entry>420</entry>
+          </row>
+        </tbody>
+
+
+</tgroup>
+</table></problem>
+<solution id="id20689866">
+  <list id="fs-idm115759568" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: Las especialidades universitarias reales de las mujeres que se gradúan se ajustan a la distribución de sus especialidades esperadas</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: Las especialidades universitarias reales de las mujeres que se gradúan no se ajustan a la distribución de sus especialidades esperadas</item>
+<item><emphasis effect="italics">df</emphasis> = 10</item>
+  <item>distribución chi-cuadrado con <emphasis effect="italics">df</emphasis> = 10</item>
+<item>estadístico de prueba = 11,48</item>
+
+<item>Compruebe la solución del estudiante</item>
+<item>
+<list id="eip-idp78081520" list-type="enumerated" number-style="lower-roman"><item>Alfa = 0,05</item>
+<item>Decisión: No se puede rechazar la hipótesis nula cuando <emphasis effect="italics">a</emphasis> = 0,05 y <emphasis effect="italics">a</emphasis> = 0,01</item>
+<item>Motivo de la decisión: El valor calculado de los estadísticos de prueba está dentro o fuera de la cola de la distribución.
+</item>
+<item>Conclusión: No hay pruebas suficientes para concluir que la distribución de las especialidad real en los estudios universitarios de las mujeres que se gradúan se ajusta a la distribución de la especialidad esperada.</item>
+</list></item></list></solution>
+</exercise>
+<exercise id="element-100"><problem id="id20689953">
+  <para id="eip-idp76093152">Haga una prueba de bondad de ajuste para determinar si las especialidades universitarias reales de los hombres que se gradúan se ajustan a la distribución de sus especialidades esperadas.</para>
+ <table id="id7788155" summary="The table consists of college majors in the first column, expected major percentages for men in the second column and the actual number of men that chose that major in the third column.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+          <row>
+            <entry>Especialidad</entry>
+            <entry>Hombres: especialidad esperada</entry>
+            <entry>Hombres: especialidad real</entry>
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry>Arte y Humanidades</entry>
+            <entry>11,0%</entry>
+            <entry>600</entry>
+          </row>
+          <row>
+            <entry>Ciencias Biológicas</entry>
+            <entry>6,7%</entry>
+            <entry>330</entry>
+          </row>
+          <row>
+            <entry>Negocios</entry>
+            <entry>22,7%</entry>
+            <entry>1130</entry>
+          </row>
+          <row>
+            <entry>Educación</entry>
+            <entry>5,8%</entry>
+            <entry>305</entry>
+          </row>
+          <row>
+            <entry>Ingeniería</entry>
+            <entry>15,6%</entry>
+            <entry>800</entry>
+          </row>
+          <row>
+            <entry>Ciencias Físicas</entry>
+            <entry>3,6%</entry>
+            <entry>175</entry>
+          </row>
+          <row>
+            <entry>Profesional</entry>
+            <entry>9,3%</entry>
+            <entry>460</entry>
+          </row>
+          <row>
+            <entry>Ciencias Sociales</entry>
+            <entry>7,6%</entry>
+            <entry>370</entry>
+          </row>
+          <row>
+            <entry>Técnica</entry>
+            <entry>1,8%</entry>
+            <entry>90</entry>
+          </row>
+          <row>
+            <entry>Otros</entry>
+            <entry>8,2%</entry>
+            <entry>400</entry>
+          </row>
+          <row>
+            <entry>Indecisos</entry>
+            <entry>6,6%</entry>
+            <entry>340</entry>
+          </row>
+        </tbody>
+
+</tgroup>
+</table></problem>
+</exercise><para id="fs-idm78408704"><emphasis effect="italics">Lea la afirmación y decida si es verdadera o falsa.</emphasis></para>
+<exercise id="element-134"><problem id="id21088495">
+  <para id="element-639">
+    En general, si los valores observados y los valores esperados de una prueba de bondad de ajuste no están cerca, el estadístico de prueba puede ser muy grande y en un gráfico estará muy lejos en la cola derecha.
+  </para>
+</problem>
+</exercise><exercise id="element-473"><problem id="id21088594">
+  <para id="fs-idm28021808">
+    Utilice una prueba de bondad de ajuste para determinar si los directores de las escuelas secundarias creen que los estudiantes se ausentan por igual durante la semana o no.
+  </para>
+</problem>
+<solution id="id21088615">
+  <para id="element-131">
+    verdadero
+  </para>
+</solution>
+</exercise>
+<exercise id="element-266"><problem id="id21088742">
+  <para id="element-556">La prueba que se va a usar para determinar si un dado de seis caras es imparcial es una prueba de bondad de ajuste.
+  </para>
+</problem>
+</exercise><exercise id="element-516"><problem id="id21088842">
+  <para id="element-153">En una prueba de bondad de ajuste, si el valor <emphasis effect="italics">p</emphasis> es 0,0113, en general, no rechaza la hipótesis nula.
+  </para>
+</problem>
+<solution id="id21088862">
+  <para id="element-346">
+   falso
+  </para>
+</solution>
+</exercise>
+
+        <exercise id="eip-173"><problem id="eip-295">
+        <para id="eip-267">Se encuestó una muestra de 212 compañías comerciales para el reciclaje de una materia prima; una materia prima significa aquí cualquier tipo de material reciclable como plástico o aluminio. La <link target-id="fs-idm103073456"/> muestra las categorías de compañías en la encuesta, el tamaño de la muestra de cada categoría y el número de compañías en cada categoría que reciclan una materia prima. Según el estudio, se espera que un promedio de la mitad de las compañías reciclen una materia prima. Como resultado, la última columna muestra el número esperado de compañías de cada categoría que reciclan una materia prima. Al nivel de significación del 5 % realice una prueba de hipótesis para determinar si el número observado de compañías que reciclan una materia prima sigue la distribución uniforme de los valores esperados.</para><table id="fs-idm103073456" summary=".">
+<tgroup cols="4"><thead>
+              <row>
+                <entry>Tipo de negocio</entry>   <entry>Número en la clase</entry>   <entry>Número observado que recicla una materia prima </entry>   <entry>Número esperado que reciclan una materia prima</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Oficina</entry> <entry>35</entry> <entry>19</entry> <entry>17,5</entry>
+              </row>
+              <row>
+                <entry>Comercio minorista/mayorista</entry> <entry>48</entry> <entry>27</entry> <entry>24</entry>
+              </row>
+              <row>
+                <entry>Alimentación/restauración</entry> <entry>53</entry> <entry>35</entry> <entry>26,5</entry>
+              </row>
+              <row>
+                <entry>Fabricación/médico</entry> <entry>52</entry> <entry>21</entry> <entry>26</entry>
+              </row>
+              <row>
+                <entry>Hotel/mixto</entry> <entry>24</entry> <entry>9</entry> <entry>12</entry>
+              </row>
+            </tbody>
+
+
+</tgroup>
+</table></problem>
+
+
+    </exercise><exercise id="eip-152">
+      <problem id="eip-655">
+        <para id="eip-134">La <link target-id="fs-idm106414640"/> contiene información procedente de una encuesta realizada a 499 participantes clasificados según sus grupos de edad. La segunda columna muestra el porcentaje de personas obesas por clase de edad entre los participantes en el estudio. La última columna procede de un estudio nacional diferente que muestra los porcentajes correspondientes de personas obesas en las mismas clases de edad en EE. UU. Realice una prueba de hipótesis al nivel de significación del 5 % para determinar si los participantes en la encuesta son una muestra representativa de la población obesa de Estados Unidos.</para><table id="fs-idm106414640" summary=""><tgroup cols="4">
+            <thead>
+              <row>
+                <entry>Grupo etario (años)</entry>
+                <entry>Obesos (porcentaje)</entry>
+                <entry>Promedio previsto en EE.UU. (porcentaje)</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>20–30</entry>
+                <entry>75,0</entry>
+                <entry>32,6</entry>
+              </row>
+              <row>
+                <entry>31–40</entry>
+                <entry>26,5</entry>
+                <entry>32,6</entry>
+              </row>
+              <row>
+                <entry>41–50</entry>
+                <entry>13,6</entry>
+                <entry>36,6</entry>
+              </row>
+              <row>
+                <entry>51–60</entry>
+                <entry>21,9</entry>
+                <entry>36,6</entry>
+              </row>
+              <row>
+                <entry>61–70</entry>
+                <entry>21,0</entry>
+                <entry>39,7</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></problem>
+      <solution id="fs-idm107661440">
+        <list id="fs-idm17530432" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: Los obesos encuestados se ajustan a la distribución de los obesos esperados</item>
+          <item><emphasis effect="italics">H<sub>a</sub></emphasis>: Los obesos encuestados no se ajustan a la distribución de los obesos esperados</item>
+          <item><emphasis effect="italics">df</emphasis> = 4</item>
+          <item>distribución chi-cuadrado con <emphasis effect="italics">df</emphasis> = 4</item>
+          <item>estadística de la prueba = 54,01</item>
+          <item>Compruebe la solución del estudiante</item>
+          <item>
+            <list id="fs-idm108441232" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
+              <item>Decisión: No se puede aceptar la hipótesis nula</item>
+              <item>Motivo de la decisión: El valor calculado de los estadísticos de prueba está dentro o fuera de la cola de la distribución.
+</item>
+              <item>Conclusión: Al nivel de significación del 5 %, a partir de los datos, hay pruebas suficientes para concluir que los obesos encuestados no se ajustan a la distribución de obesos esperada.</item>
+            </list></item></list></solution>
+    </exercise>
+</section>
+ </content>
+<glossary>
+<definition id="fs-id1166232119818">
+    <term>Bondad de ajuste</term>
+    <meaning id="fs-id1166232114216">
+      prueba de hipótesis que compara los valores esperados y los observados para buscar diferencias significativas dentro de una variable no paramétrica. Los grados de libertad utilizados equivalen al (número de categorías – 1).
+    </meaning>
+</definition>
+</glossary>
+</document>

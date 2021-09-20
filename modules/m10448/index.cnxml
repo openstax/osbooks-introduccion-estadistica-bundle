@@ -1,0 +1,158 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Continuous Distribution</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10448</md:content-id>
+  <md:title>Continuous Distribution</md:title>
+  <md:abstract/>
+  <md:uuid>0407840d-41c4-4073-85ab-68dae8bb1777</md:uuid>
+</metadata>
+
+<content>
+  <note id="fs-id1167914364668" class="statistics lab"><label/><title>Distribución continua</title>
+
+<para id="fs-idm14104368">Hora de la clase:</para>
+<para id="fs-idm14103984">Nombres:</para>
+<list id="fs-idm52234672" list-type="bulleted">
+<title>Resultados del aprendizaje de los estudiantes</title>
+<item>El estudiante comparará y contrastará los datos empíricos de un generador de números aleatorios con la distribución uniforme.</item>
+</list>
+<para id="fs-idp95550544"><title>Recopilación de datos</title>Utilice un generador de números aleatorios para generar 50 valores entre cero y uno (incluidos). Indíquelos en la <link target-id="fs-idm51701040"/>. Redondee los números a cuatro decimales o ajuste el MODO de la calculadora a cuatro posiciones.</para><list id="fs-idp1588960" list-type="enumerated" mark-suffix=".">
+<item>Rellene la tabla.
+<table id="fs-idm51701040" summary="Blank table with 50 cells for entering in data.">
+<tgroup cols="5"><tbody>
+<row>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+</row>
+<row>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+</row>
+<row>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+</row>
+<row>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+</row>
+<row>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+</row>
+<row>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+</row>
+<row>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+</row>
+<row>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+</row>
+<row>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+</row>
+<row>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+<item>Calcule lo siguiente: <list id="fs-idp99174544" list-type="enumerated" number-style="lower-alpha">
+<item><m:math>
+<m:mrow>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+<m:mo>=</m:mo>
+</m:mrow>
+</m:math> _______</item>
+<item><emphasis effect="italics">s</emphasis> = _______</item>
+<item>primer cuartil = _______</item>
+<item>tercer cuartil = _______</item>
+<item>mediana = _______</item>
+</list>
+</item>
+</list> <list id="fs-idp37245568" list-type="enumerated">
+<title>Organice los datos</title>
+<item>Construya un histograma de los datos empíricos. Realice ocho barras.
+<figure id="fs-idm34978704"><media id="fs-idm34978448" alt="Gráfico en blanco con la frecuencia relativa en el eje vertical y la X en el eje horizontal.">
+<image src="../../media/fig-ch05_06_01.png" mime-type="image/png" width="380"/>
+</media>
+</figure></item>
+<item>Construya un histograma de los datos empíricos. Realice cinco barras.
+<figure id="fs-idp120220128"><media id="fs-idp120220384" alt="Gráfico en blanco con la frecuencia relativa en el eje vertical y la X en el eje horizontal.">
+<image src="../../media/fig-ch05_06_01.png" mime-type="image/png" width="380"/>
+</media>
+</figure></item>
+</list> <list id="fs-idm6061312" list-type="enumerated">
+<title>Describa los datos</title>
+<item>En dos o tres frases completas, describa la forma de cada gráfico. (No se complique. ¿El gráfico es recto, tiene forma de V, tiene una joroba en el centro o en los extremos, etc.? Una forma de ayudarle a determinar la forma es dibujar una curva suave que pase aproximadamente por la parte superior de las barras).</item>
+<item>Describa cómo el cambio del número de barras puede modificar la forma.</item>
+</list> <list id="fs-idm19839648" mark-suffix="." list-type="enumerated"><title>Distribución teórica</title><item> En palabras, <emphasis effect="italics">X</emphasis> = _____________________________________.</item>
+<item>La distribución teórica de <emphasis effect="italics">X</emphasis> es <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(0,1).</item>
+<item>En teoría, basándose en la distribución <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(0,1), complete lo siguiente. <list id="fs-idp172122752" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">μ</emphasis> = ______</item>
+<item><emphasis effect="italics">σ</emphasis> = ______</item>
+<item>primer cuartil = ______</item>
+<item>tercer cuartil = ______</item>
+<item>mediana = __________</item>
+</list>
+</item>
+<item>¿Se acercan los valores empíricos (los datos) de la sección titulada <link target-id="fs-idp95550544">Recopilación de datos</link> a los valores teóricos correspondientes? ¿Por qué sí o por qué no?</item>
+</list><list id="fs-idp170724832" list-type="enumerated"><title>Trace los datos</title><item>Construya un diagrama de caja de los datos. Asegúrese de utilizar una regla para escalar con precisión y dibujar bordes rectos.</item>
+<item>¿Nota algún valor atípico potencial? Si es así, ¿qué valores son? En cualquier caso, justifique su respuesta numéricamente (recordemos que cualquier DATO que sea inferior a <emphasis effect="italics">Q</emphasis><sub>1</sub> – 1,5 (<emphasis effect="italics">IQR</emphasis>) o superior a <emphasis effect="italics">Q</emphasis><sub>3</sub> + 1.5 (<emphasis effect="italics">IQR</emphasis>) son posibles valores atípicos. <emphasis effect="italics">IQR</emphasis> significa rango intercuartil).</item>
+</list><list id="fs-idm63566320" list-type="enumerated"><title>Compare los datos</title><item>Para cada una de las siguientes partes, comente con una frase completa cómo se compara el valor obtenido de los datos con el valor teórico que esperaba de la distribución en el apartado titulado <link target-id="fs-idm19839648">Distribución teórica</link>. <list id="fs-idp53285248" list-type="enumerated" number-style="lower-alpha"><item>valor mínimo: _______</item>
+<item>primer cuartil: _______</item>
+<item>mediana: _______</item>
+<item>tercer cuartil: _______</item>
+<item>valor máximo: _______</item>
+<item>anchura del <emphasis effect="italics">IQR</emphasis>: _______</item>
+<item>forma general: _______</item>
+</list></item>
+<item>Basándose en sus comentarios en la sección titulada <link target-id="fs-idp95550544">Recopilación de datos</link>, ¿cómo se ajusta o no el diagrama de caja a lo que esperaría de la distribución en la sección titulada <link target-id="fs-idm19839648">Distribución teórica</link>?</item>
+</list><list id="fs-idm74366864" list-type="enumerated">
+<title>Pregunta de debate</title>
+<item>Supongamos que el número de valores generados es de 500 y no de 50. ¿Cómo afectaría eso a los datos empíricos y a la forma de su gráfico?</item>
+</list>
+</note> </content>
+
+</document>

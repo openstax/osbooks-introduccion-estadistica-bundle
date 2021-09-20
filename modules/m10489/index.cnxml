@@ -1,0 +1,814 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Prediction</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m10489</md:content-id>
+  <md:title>Prediction</md:title>
+  <md:abstract/>
+  <md:uuid>7431e830-e1fd-4eaf-bc3f-9a77f60b14fd</md:uuid>
+</metadata>
+
+<content>
+    <para id="eip-775">Recuerde el <link document="m47117" target-id="element-22">ejemplo del tercer examen o examen final</link>.</para><para id="eip-804">Examinamos el diagrama de dispersión y mostramos que el coeficiente de correlación es significativo. Hallamos la ecuación de la línea de mejor ajuste para la calificación del examen final como una función de la calificación del tercer examen. Ahora podemos utilizar la línea de regresión por mínimos cuadrados para la predicción.</para>
+
+<para id="element-12498">Suponga que quiere estimar, o predecir, la calificación media del examen final de los estudiantes de Estadística que obtuvieron 73 en el tercer examen. Las calificaciones del examen <emphasis>(valores<emphasis effect="italics">x</emphasis>)</emphasis> oscilan entre 65 y 75. <emphasis> Dado que 73 está entre los valores de la <emphasis effect="italics">x</emphasis> 65 y 75</emphasis>, sustituya <emphasis effect="italics">x</emphasis> = 73 en la ecuación. Entonces:</para>
+
+<equation id="element-735" class="unnumbered"><label/><m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>y</m:mi>
+   <m:mo>^</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>173,51</m:mn><m:mo>+</m:mo><m:mn>4,83</m:mn><m:mo stretchy="false">(</m:mo><m:mn>73</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>179,08</m:mn>
+ </m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-idm74881792">Predecimos que los estudiantes de Estadística que obtienen una calificación de 73 en el tercer examen obtendrán una calificación de 179,08 en el examen final, en promedio.</para>
+
+<example id="element-438">
+<para id="element-546">Recuerde el <link document="m47117" target-id="element-22">ejemplo del tercer examen o examen final</link>.<newline count="2"/></para><exercise id="element-770">
+<problem id="id1170592391444">
+  <para id="element-464">a. ¿Cuál sería la calificación del examen final de un estudiante que ha obtenido 66 en el tercer examen?  </para>
+  <para id="element-306">b. ¿Cuál sería la calificación del examen final de un estudiante que ha obtenido 90 en el tercer examen?
+  </para></problem>
+<solution id="id1170583280560">
+  <para id="element-444">a. 145,27</para>
+  <para id="element-380">b. Los valores de <emphasis effect="italics">x</emphasis> en los datos están entre 65 y 75. Noventa está fuera del dominio de los valores de <emphasis effect="italics">x</emphasis> observados en los datos (variable independiente), por lo que no se puede predecir de forma fiable la calificación del examen final de este estudiante. (Aunque es posible introducir 90 en la ecuación para la <emphasis effect="italics">x</emphasis> y calcular el valor correspondiente de la <emphasis effect="italics">y</emphasis>, el valor de la <emphasis effect="italics">y</emphasis> que se obtiene no será fiable). <newline/> Para entender realmente lo poco fiable que puede ser la predicción fuera de los valores de la <emphasis effect="italics">x</emphasis> que se observan en los datos, haga la sustitución <emphasis effect="italics">x</emphasis> = 90 en la ecuación. <newline/><newline/> <m:math>
+<m:mover>
+<m:mi>y</m:mi>
+<m:mo>^</m:mo>
+</m:mover>
+<m:mo>=</m:mo>
+<m:mn>-173,51</m:mn>
+<m:mo>+</m:mo>
+<m:mn>4,83</m:mn>
+<m:mo>(</m:mo>
+<m:mn>90</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>261,19</m:mn>
+</m:math> <newline/><newline/> Se prevé que la calificación del examen final sea de 261,19. La mayor calificación del examen final puede ser 200. <newline/>
+<note id="eip-id1168998191288"><label/><title>Nota</title>
+<para id="eip-idp117960960">El proceso de predicción dentro de los valores de la <emphasis effect="italics">x</emphasis> que se observan en los datos se denomina <term>interpolación</term>. El proceso de predicción fuera de los valores de la <emphasis effect="italics">x</emphasis> que se observan en los datos se denomina <term>extrapolación</term>.</para></note></para></solution>
+</exercise>
+</example>
+
+<note id="fs-idp125531648" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+<exercise id="eip-375">
+<problem id="eip-637">
+  <para id="eip-244">Se recopilan datos sobre la relación entre el número de horas semanales de práctica de un instrumento musical y las puntuaciones en un examen de Matemáticas. La línea de mejor ajuste es la siguiente:</para>
+<para id="eip-idp180607312"><emphasis effect="italics">ŷ</emphasis> = 72,5 + 2,8<emphasis effect="italics">x</emphasis> <newline/>¿Cuál predeciría que sería la puntuación en un examen de Matemáticas de un estudiante que practica un instrumento musical durante cinco horas a la semana?</para></problem>
+</exercise>
+</note>
+
+<section id="eip-368" class="references"><title>Referencias</title><para id="eip-idp173225584">Datos de los Centros para el Control y la Prevención de Enfermedades.</para>
+<para id="eip-idp173225968">Datos del Centro Nacional de notificación de casos de gripe y prevención de TB de la agencia.</para><para id="eip-idp57756432">Datos de la Oficina del Censo de Estados Unidos. Disponible en línea en http://www.census.gov/compendia/statab/cats/transportation/motor_vehicle_accidents_and_fatalities.html</para>
+<para id="eip-idm1014608">Datos del Centro Nacional de Estadísticas de Salud.</para></section><section id="eip-469" class="summary">
+<title>Revisión del capítulo</title>
+<para id="fs-idm72353840">Después de determinar la presencia de un fuerte coeficiente de correlación y calcular la línea de mejor ajuste, puede utilizar la línea de regresión de mínimos cuadrados para hacer predicciones sobre sus datos.</para>
+</section>
+
+<section id="eip-160" class="practice">
+<para id="eip-949"><emphasis effect="italics">Utilice la siguiente información para responder los próximos dos ejercicios.</emphasis> Un minorista de productos electrónicos utilizó la regresión para hallar un modelo sencillo que prediga el crecimiento de las ventas en el primer trimestre del nuevo año (de enero a marzo). El modelo es válido para 90 días, donde <emphasis effect="italics">x</emphasis> es el día. El modelo puede escribirse como sigue:</para>
+<para id="eip-785"><emphasis effect="italics">ŷ</emphasis> = 101,32 + 2,48<emphasis effect="italics">x</emphasis> donde <emphasis effect="italics">ŷ</emphasis> está en miles de dólares.</para>
+
+<exercise id="eip-673">
+<problem id="eip-599">
+<para id="eip-285">¿Cuál es la previsión de ventas para el día 60?</para>
+</problem>
+
+<solution id="eip-137">
+  <para id="eip-261">$250.120</para>
+</solution>
+</exercise>
+
+<exercise id="eip-439"><problem id="eip-642">
+  <para id="eip-412">¿Cuál es la previsión de ventas para el día 90?</para>
+</problem></exercise><para id="eip-756"><newline/><emphasis effect="italics">Utilice la siguiente información para responder los próximos tres ejercicios</emphasis>. Una empresa de jardinería es contratada para cortar el césped de varios inmuebles grandes. El área total combinado de los inmuebles es de 1.345 acres. El ritmo al que una persona puede cortar el césped es el siguiente:</para><para id="eip-986"><emphasis effect="italics">ŷ</emphasis> = 1350 - 1,2<emphasis effect="italics">x</emphasis> donde <emphasis effect="italics">x</emphasis> es el número de horas y <emphasis effect="italics">ŷ</emphasis> representa el número de acres que quedan por cortarles el césped.</para>
+<exercise id="eip-584">
+<problem id="eip-780">
+  <para id="eip-988">¿Cuántos acres quedarán por cortarles el césped después de 20 horas de trabajo?</para>
+</problem>
+
+<solution id="eip-344">
+  <para id="eip-927">1.326 acres</para>
+</solution>
+</exercise>
+
+<exercise id="eip-309"><problem id="eip-16">
+  <para id="eip-864">¿Cuántos acres quedarán por cortarles el césped después de 100 horas de trabajo?</para>
+</problem></exercise><exercise id="eip-159"><problem id="eip-587">
+  <para id="eip-180">
+¿Cuántas horas se necesitan para cortar todo el césped? (¿Cuándo es <emphasis effect="italics">ŷ</emphasis> = 0?)
+  </para>
+</problem>
+
+<solution id="eip-274">
+  <para id="eip-211">1.125 horas, o cuando <emphasis effect="italics">x</emphasis> = 1.125</para>
+</solution>
+</exercise>
+
+<para id="element-532">La <link target-id="element-806" document=""/> contiene datos reales de las dos primeras décadas de notificación de casos de gripe.</para><table id="element-806" summary="This table presents the year of reporting flu cases and deaths in the first column, number of flu cases diagnosed in the second column, and number of flu deaths in the third column."><title>Solo adultos y adolescentes, Estados Unidos </title>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>
+              <emphasis>Año </emphasis>
+            </entry>
+            <entry>
+              <emphasis>N.º casos de gripe diagnosticados</emphasis>
+            </entry>
+            <entry>
+              <emphasis>N.º muertes por gripe </emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>Antes de 1981</entry>
+            <entry>91</entry>
+            <entry>29</entry>
+          </row>
+          <row>
+            <entry>1981</entry>
+            <entry>319</entry>
+            <entry>121</entry>
+          </row>
+          <row>
+            <entry>1982</entry>
+            <entry>1.170</entry>
+            <entry>453</entry>
+          </row>
+          <row>
+            <entry>1983</entry>
+            <entry>3.076</entry>
+            <entry>1.482</entry>
+          </row>
+          <row>
+            <entry>1984</entry>
+            <entry>6.240</entry>
+            <entry>3.466</entry>
+          </row>
+          <row>
+            <entry>1985</entry>
+            <entry>11.776</entry>
+            <entry>6.878</entry>
+          </row>
+          <row>
+            <entry>1986</entry>
+            <entry>19.032</entry>
+            <entry>11.987</entry>
+          </row>
+          <row>
+            <entry>1987</entry>
+            <entry>28.564</entry>
+            <entry>16.162</entry>
+          </row>
+          <row>
+            <entry>1988</entry>
+            <entry>35.447</entry>
+            <entry>20.868</entry>
+          </row>
+          <row>
+            <entry>1989</entry>
+            <entry>42.674</entry>
+            <entry>27.591</entry>
+          </row>
+          <row>
+            <entry>1990</entry>
+            <entry>48.634</entry>
+            <entry>31.335</entry>
+          </row>
+          <row>
+            <entry>1991</entry>
+            <entry>59.660</entry>
+            <entry>36.560</entry>
+          </row>
+          <row>
+            <entry>1992</entry>
+            <entry>78.530</entry>
+            <entry>41.055</entry>
+          </row>
+          <row>
+            <entry>1993</entry>
+            <entry>78.834</entry>
+            <entry>44.730</entry>
+          </row>
+          <row>
+            <entry>1994</entry>
+            <entry>71.874</entry>
+            <entry>49.095</entry>
+          </row>
+          <row>
+            <entry>1995</entry>
+            <entry>68.505</entry>
+            <entry>49.456</entry>
+          </row>
+          <row>
+            <entry>1996</entry>
+            <entry>59.347</entry>
+            <entry>38.510</entry>
+          </row>
+          <row>
+            <entry>1997</entry>
+            <entry>47.149</entry>
+            <entry>20.736</entry>
+          </row>
+          <row>
+            <entry>1998</entry>
+            <entry>38.393</entry>
+            <entry>19.005</entry>
+          </row>
+          <row>
+            <entry>1999</entry>
+            <entry>25.174</entry>
+            <entry>18.454</entry>
+          </row>
+          <row>
+            <entry>2000</entry>
+            <entry>25.522</entry>
+            <entry>17.347</entry>
+          </row>
+          <row>
+            <entry>2001</entry>
+            <entry>25.643</entry>
+            <entry>17.402</entry>
+          </row>
+          <row>
+            <entry>2002</entry>
+            <entry>26.464</entry>
+            <entry>16.371</entry>
+          </row>
+          <row>
+            <entry>
+              <emphasis>Total</emphasis>
+            </entry>
+            <entry>
+              <emphasis>802.118</emphasis>
+            </entry>
+            <entry>
+              <emphasis>489.093</emphasis>
+            </entry>
+          </row>
+        </tbody>
+
+
+
+</tgroup>
+</table><exercise id="fs-idm41333104"><problem id="fs-idp95587552">
+<para id="fs-idp149524096">Grafique el "año" frente al "N.º de casos diagnosticados de gripe" (trace el diagrama de dispersión). No incluya datos anteriores a 1981.</para></problem></exercise><exercise id="fs-idp60770720">
+<problem id="fs-idm63008624">
+<para id="fs-idp60410256">Realice una regresión lineal. ¿Cuál es la ecuación lineal? Redondee al número natural más cercano.</para>
+</problem>
+<solution id="fs-idp27267136">
+<para id="fs-idp39386448">Compruebe la solución del estudiante</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idm89824624"><problem id="fs-idm35742144">
+<para id="fs-idm38107680">Hallle el coeficiente de correlación.<newline/> <list id="eip-idm31798608" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">r</emphasis> = ________</item>
+</list></para></problem></exercise><exercise id="element-578">
+<problem id="id3231872">
+ <para id="element-632">Resuelva. <list id="eip-idp112356080" list-type="enumerated" number-style="lower-alpha">
+<item>Cuando <emphasis effect="italics">x</emphasis> = 1985, <emphasis effect="italics">ŷ</emphasis> = _____</item>
+<item>Cuando <emphasis effect="italics">x</emphasis> = 1990, <emphasis effect="italics">ŷ</emphasis> =_____</item>
+<item>Cuando <emphasis effect="italics">x</emphasis> = 1970, <emphasis effect="italics">ŷ</emphasis> =______ ¿Por qué no tiene sentido esta respuesta?</item>
+</list>
+</para></problem>
+
+<solution id="id3763418">
+<para id="fs-idp123166832"><list id="eip-idp156589440" list-type="enumerated" number-style="lower-alpha"><item>Cuando <emphasis effect="italics">x</emphasis> = 1985, <emphasis effect="italics">ŷ</emphasis> = 25,52</item>
+<item>Cuando <emphasis effect="italics">x</emphasis> = 1990, <emphasis effect="italics">ŷ</emphasis> = 34.275</item>
+<item>Cuando <emphasis effect="italics">x</emphasis> = 1970, <emphasis effect="italics">ŷ</emphasis> = -725 ¿Por qué no tiene sentido esta respuesta? El rango de valores de <emphasis effect="italics">x</emphasis> fue de 1981 a 2002; el año 1970 no está en este rango. La ecuación de regresión no se aplica, porque la predicción para el año 1970 es una extrapolación, que requiere otro proceso. Además, una cifra negativa no tiene sentido en este contexto, en el que estamos prediciendo los casos diagnosticados de gripe.</item>
+</list></para></solution>
+</exercise>
+
+<exercise id="fs-idp123707680"><problem id="fs-idp101389664">
+<para id="fs-idm47746240">¿Parece que la línea se ajusta a los datos? ¿Por qué sí o por qué no?</para>
+</problem></exercise><exercise id="fs-idp46020944">
+<problem id="fs-idp87495152">
+<para id="fs-idp59562368">¿Qué implica la correlación sobre la relación entre el tiempo (años) y el número de casos de gripe diagnosticados en EE. UU.?</para></problem>
+<solution id="fs-idp63232128">
+<para id="fs-idm19062048">Además, la correlación <emphasis effect="italics">r</emphasis> = 0,4526. Si se compara <emphasis effect="italics">r</emphasis> con el valor de los valores críticos al 95 % de la tabla de coeficientes de correlación de la muestra, porque <emphasis effect="italics">r</emphasis> &gt; 0,423, <emphasis effect="italics">r</emphasis> es significativa, y se podría pensar que la línea podría utilizarse para la predicción. Pero el diagrama de dispersión indica lo contrario.</para></solution>
+</exercise>
+
+
+<!-- From 12.4 Move to 12.8 -->
+<exercise id="fs-idm79515504">
+<problem id="fs-idm117830672">
+<para id="element-263">Trace los dos puntos dados en el siguiente gráfico. Luego, conecte los dos puntos para formar la línea de regresión.</para>
+<figure id="fs-idp74029648"><media id="id4253169" alt="Gráfico en blanco con ejes horizontales y verticales." display="block"><image src="../../media/fig-ch12_14_01.jpg" mime-type="image/jpeg" width="380"/></media></figure>
+<para id="element-2352642">Obtenga el gráfico en su calculadora o en su computadora.</para>
+</problem>
+</exercise>
+
+<!-- From 12.5 MOVE to 12.8 -->
+
+<exercise id="element-537">
+<problem id="id3371067">
+  <para id="element-803">Escriba la ecuación: <emphasis effect="italics">ŷ=</emphasis>____________</para>
+</problem>
+
+<solution id="id3238552">
+  <para id="element-747"><m:math>
+ <m:mover accent="true">
+  <m:mi>y</m:mi>
+  <m:mo>^</m:mo>
+ </m:mover>
+</m:math> = -3.448.225 + 1750<emphasis effect="italics">x</emphasis></para></solution>
+</exercise>
+
+<exercise id="element-593"><problem id="id3281976">
+<para id="element-659">Dibuje a mano una curva suave en el gráfico que muestre el flujo de los datos.</para>
+</problem>
+</exercise><!-- From 12.6 Move to 12.8 -->
+
+<exercise id="element-508">
+<problem id="id4193945">
+  <para id="element-348">¿Parece que la línea se ajusta a los datos? ¿Por qué sí o por qué no?</para>
+</problem>
+<solution id="fs-idm125506640">
+<para id="fs-idm47836464">Hasta 1993 se produjo un aumento de los casos diagnosticados de gripe. Desde 1993 hasta 2002, el número de casos diagnosticados de gripe disminuyó cada año. No es apropiado utilizar una línea de regresión lineal para ajustar los datos.</para></solution>
+</exercise>
+
+<exercise id="element-717"><problem id="id4247751">
+  <para id="element-160">
+	¿Cree que lo mejor es un ajuste lineal? ¿Por qué sí o por qué no?
+  </para>
+</problem></exercise><exercise id="element-658">
+<problem id="id4227065">
+  <para id="element-893">¿Qué implica la correlación sobre la relación entre el tiempo (años) y el número de casos de gripe diagnosticados en EE. UU.?
+  </para></problem>
+<solution id="fs-idp25424512">
+<para id="fs-idm57267184">Dado que no existe ninguna asociación lineal entre el año y el número de casos diagnosticados de gripe, no es apropiado calcular un coeficiente de correlación lineal. Cuando existe una asociación lineal y conviene calcular una correlación, no podemos decir que una variable "causa" la otra.</para></solution>
+</exercise>
+
+<!-- From 12.7 MOVE to 12.8 -->
+<exercise id="fs-idp87876464"><problem id="fs-idm79455904">
+<para id="element-85">Gráfico "año" frente a "N.º casos diagnosticados de gripe" No incluya los anteriores a 1981. Identifique ambos ejes con palabras. Escale ambos ejes.</para></problem></exercise><exercise id="element-54"><problem id="id4187966">
+<para id="element-930">Introduzca los datos en su calculadora o en su computadora. Los datos anteriores a 1981 no deberían incluirse. ¿Por qué?</para>
+<para id="eip-935">Escriba la ecuación lineal, redondeando a cuatro decimales:</para></problem>
+
+<solution id="fs-idp16730128">
+<para id="fs-idm46065584">No sabemos si los datos anteriores a 1981 se recogieron en un solo año. Así que no tenemos un valor de la <emphasis effect="italics">x</emphasis> exacto para esta cifra.</para><para id="fs-idm126049344">Ecuación de regresión: <emphasis effect="italics">ŷ</emphasis> (N.º casos de gripe) = -3.448.225 + 1749,777 (año)</para><table id="fs-idm85288224" summary="..">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry/>
+<entry>Coeficientes</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Intersección</entry>
+<entry>-3.448.225</entry>
+</row>
+<row>
+<entry><emphasis effect="italics">X</emphasis> Variable 1</entry>
+<entry>1.749,777</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></solution>
+</exercise><exercise id="element-222"><problem id="id4176091">
+<para id="element-50234233422">Halle el coeficiente de correlación.</para>
+<list id="list-234" list-type="enumerated" number-style="lower-alpha"><item>correlación = _____</item>
+</list>
+</problem></exercise></section>
+
+
+<section id="fs-idp66999104" class="free-response"><title>Tarea para la casa</title><exercise id="element-401"><problem id="id44884447">
+<para id="element-292">Recientemente, el número anual de muertes de conductores por cada 100.000 para los grupos etarios seleccionados fue el siguiente:</para>
+
+<table id="fs-idp87463888" summary="..">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry>Edad</entry>
+<entry>Número de muertes de conductores por cada 100.000</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>16–19</entry>
+<entry>38</entry>
+</row>
+<row>
+<entry>20–24</entry>
+<entry>36</entry>
+</row>
+<row>
+<entry>25–34</entry>
+<entry>24</entry>
+</row>
+<row>
+<entry>35–54</entry>
+<entry>20</entry>
+</row>
+<row>
+<entry>55–74</entry>
+<entry>18</entry>
+</row>
+<row>
+<entry>75+</entry>
+<entry>28</entry>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table><list id="element-119" list-type="enumerated" number-style="lower-alpha">
+<item>Por cada grupo etario, elija el punto medio del intervalo para el valor de la <emphasis effect="italics">x</emphasis>. (En el grupo de más de 75 años, utilice 80).</item>
+<item>Utilizando "edades" como variable independiente y "Número de muertes de conductores por cada 100.000" como variable dependiente, haga un diagrama de dispersión de los datos.</item>
+<item>Calcule la línea de mínimos cuadrados (de mejor ajuste). Ponga la ecuación en la forma de: <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis></item>
+<item>Halle el coeficiente de correlación. ¿Es significativo?</item>
+<item>Prediga el número de muertes para las edades de 40 y 60 años.</item>
+<item>Con base en los datos suministrados, ¿existe una relación lineal entre la edad de un conductor y la tasa de mortalidad de los conductores?</item>
+<item>¿Cuál es la pendiente de la línea de mínimos cuadrados (de mejor ajuste)? Interprete la pendiente.</item>
+</list>
+</problem>
+<solution id="fs-idm44998864">
+<list id="fs-idp19420064" list-type="enumerated" number-style="lower-alpha"><item><table id="id108047k45" summary="This table presents the age groups in the first column and the number of driver deaths per 100,000 in the second column.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>Edad</entry>
+            <entry>Número de muertes de conductores por cada 100.000</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>16–19</entry>
+            <entry align="center">38</entry>
+          </row>
+          <row>
+            <entry>20–24</entry>
+            <entry align="center">36</entry>
+          </row>
+          <row>
+            <entry>25–34</entry>
+            <entry align="center">24</entry>
+          </row>
+          <row>
+            <entry>35–54</entry>
+            <entry align="center">20</entry>
+          </row>
+          <row>
+            <entry>55–74</entry>
+            <entry align="center">18</entry>
+          </row>
+          <row>
+            <entry>75+</entry>
+            <entry align="center">28</entry>
+          </row>
+        </tbody>
+</tgroup>
+</table></item>
+<item>Compruebe la solución del estudiante</item>
+<item><emphasis effect="italics">ŷ</emphasis> = 35,5818045 - 0,19182491<emphasis effect="italics">x</emphasis></item>
+<item><emphasis effect="italics">r</emphasis> = -0,57874<newline/>Para cuatro <emphasis effect="italics">df</emphasis> y alfa = 0,05, el LinRegTTest da un valor <emphasis effect="italics">p</emphasis> = 0,2288, por lo que no rechazamos la hipótesis nula; no hay ninguna relación lineal significativa entre las muertes y la edad.<newline/>Utilizando la tabla de valores críticos para el coeficiente de correlación, con cuatro <emphasis effect="italics">df</emphasis>, el valor crítico es 0,811. El coeficiente de correlación <emphasis effect="italics">r</emphasis> = -0,57874 no es inferior a -0,811, por lo que no rechazamos la hipótesis nula.</item>
+<item>No existe ninguna relación lineal entre las dos variables, como lo demuestra un valor p superior a 0,05.</item></list></solution>
+</exercise>
+
+
+<exercise id="element-213"><problem id="id44888890">
+  <para id="element-635">La <link target-id="idasdgf10411945"/> señala la expectativa de vida de alguien nacido en Estados Unidos en determinados años. </para><table id="idasdgf10411945" summary="This table presents year of birth in the first column and life expectancy in the second column.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>Año de nacimiento</entry>
+            <entry>Expectativa de vida</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry align="center">1930</entry>
+            <entry align="center">59,7</entry>
+          </row>
+          <row>
+            <entry align="center">1940</entry>
+            <entry align="center">62,9</entry>
+          </row>
+          <row>
+            <entry align="center">1950</entry>
+            <entry align="center">70,2</entry>
+          </row>
+          <row>
+            <entry align="center">1965</entry>
+            <entry align="center">69,7</entry>
+          </row>
+          <row>
+            <entry align="center">1973</entry>
+            <entry align="center">71,4</entry>
+          </row>
+          <row>
+            <entry align="center">1982</entry>
+            <entry align="center">74,5</entry>
+          </row>
+          <row>
+            <entry align="center">1987</entry>
+            <entry align="center">75</entry>
+          </row>
+          <row>
+            <entry align="center">1992</entry>
+            <entry align="center">75,7</entry>
+          </row>
+          <row>
+            <entry align="center">2010</entry>
+            <entry align="center">78,7</entry>
+          </row>
+        </tbody>
+ </tgroup>
+</table>
+<list id="element-796" list-type="enumerated" number-style="lower-alpha"><item>Decida cuál variable debe ser la independiente y cuál la dependiente.</item>
+<item>Dibuje un diagrama de dispersión de los pares ordenados.</item>
+<item>Calcule la línea de mínimos cuadrados. Ponga la ecuación en la forma de: <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis></item>
+<item>Halle el coeficiente de correlación. ¿Es significativo?</item>
+<item>Calcule la expectativa de vida para alguien nacido en 1950 y para otro nacido en 1982.</item>
+<item>¿Por qué las respuestas a la parte e no coinciden con los valores de la <link target-id="idasdgf10411945" document=""/> que corresponden a esos años?</item>
+<item>Utilice los dos puntos de la parte e para trazar la línea de mínimos cuadrados en su gráfico de la parte b.</item>
+<item>Según los datos, ¿existe una relación lineal entre el año de nacimiento y la expectativa de vida?</item>
+<item>¿Existen valores atípicos en los datos?</item>
+<item>Utilizando la línea de mínimos cuadrados, calcule la expectativa de vida estimada para alguien nacido en 1850. ¿La línea de mínimos cuadrados da una estimación precisa para ese año? Explique por qué sí o por qué no.</item>
+<item>¿Cuál es la pendiente de la línea de mínimos cuadrados (de mejor ajuste)? Interprete la pendiente.</item>
+</list></problem></exercise><exercise id="element-682">
+<problem id="id44892027">
+  <para id="element-350">El valor máximo de descuento de la tarjeta Entertainment® para la sección "Alta Cocina", décima edición, para varias páginas se da en la <link target-id="id9216hh080"/></para><table id="id9216hh080" summary="This table presents the page number in the first column and the maximum value ($) in the second column.">
+
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>Número de página</entry>
+            <entry>Valor máximo ($)</entry>
+          </row>
+         </thead>
+         <tbody>
+          <row>
+            <entry align="center">4</entry>
+            <entry align="center">16</entry>
+          </row>
+          <row>
+            <entry align="center">14</entry>
+            <entry align="center">19</entry>
+          </row>
+          <row>
+            <entry align="center">25</entry>
+            <entry align="center">15</entry>
+          </row>
+          <row>
+            <entry align="center">32</entry>
+            <entry align="center">17</entry>
+          </row>
+          <row>
+            <entry align="center">43</entry>
+            <entry align="center">19</entry>
+          </row>
+          <row>
+            <entry align="center">57</entry>
+            <entry align="center">15</entry>
+          </row>
+          <row>
+            <entry align="center">72</entry>
+            <entry align="center">16</entry>
+          </row>
+          <row>
+            <entry align="center">85</entry>
+            <entry align="center">15</entry>
+          </row>
+          <row>
+            <entry align="center">90</entry>
+            <entry align="center">17</entry>
+          </row>
+        </tbody>
+</tgroup>
+</table>
+<list id="element-86" list-type="enumerated" number-style="lower-alpha">
+<item>Decida cuál variable debe ser la independiente y cuál la dependiente.</item>
+<item>Dibuje un diagrama de dispersión de los pares ordenados.</item>
+<item>Calcule la línea de mínimos cuadrados. Ponga la ecuación en la forma de: <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis></item>
+<item>Halle el coeficiente de correlación. ¿Es significativo?</item>
+<item>Calcule los valores máximos para los restaurantes de las páginas 10 y 70.</item>
+<item>¿Parece que los restaurantes que dan el máximo valor se colocan al principio de la sección "Alta Cocina"? ¿Cómo ha llegado a su respuesta?</item>
+<item>Supongamos que hay 200 páginas de restaurantes. ¿Cuál estima que es el valor máximo de un restaurante de la página 200? </item>
+<item>¿Es válida la línea de mínimos cuadrados para la página 200? ¿Por qué sí o por qué no?</item>
+<item>¿Cuál es la pendiente de la línea de mínimos cuadrados (de mejor ajuste)? Interprete la pendiente.</item></list>
+</problem>
+<solution id="fs-idp21667088">
+<list id="fs-idp21667344" list-type="enumerated" number-style="lower-alpha"><item>Nos preguntamos si los mejores descuentos aparecen antes en el libro, así que seleccionamos la página como <emphasis effect="italics">X</emphasis> y el descuento como <emphasis effect="italics">Y</emphasis>.</item>
+<item>Compruebe la solución del estudiante</item>
+<item><emphasis effect="italics">ŷ</emphasis> = 17,21757 - 0,01412<emphasis effect="italics">x</emphasis></item>
+<item><emphasis effect="italics">r</emphasis> = - 0,2752 <newline/>Para siete <emphasis effect="italics">df</emphasis> y alfa = 0,05, utilizando la función LinRegTTest, el valor <emphasis effect="italics">p</emphasis> = 0,4736 por lo que no lo rechazamos; no hay ninguna relación lineal significativa entre la página y el descuento.<newline/>Utilizando la tabla de valores críticos para el coeficiente de correlación, con siete <emphasis effect="italics">df</emphasis>, el valor crítico es 0,666. El coeficiente de correlación <emphasis effect="italics">xi</emphasis> = -0,2752 no es inferior a 0,666 por lo que no lo rechazamos.  </item>
+<item>No hay ninguna correlación lineal significativa, por lo que parece que no hay relación entre la página y el monto del descuento.</item>
+</list><para id="fs-idp70584384">A medida que se aumenta una página, el descuento disminuye en 0,01412</para>
+
+</solution>
+</exercise>
+
+
+<exercise id="element-263a"><problem id="id44847508">
+<para id="element-49">La <link target-id="id9978lok311"/> da los tiempos de las medallas de oro de todos los demás Juegos Olímpicos de Verano para los 100 metros libres femeninos (natación).</para><table id="id9978lok311" summary="This table presents the summer olympics year in the first column and the women's 100 meter freestyle time in seconds in the second column.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>Año</entry>
+            <entry>Tiempo (segundos)</entry>
+          </row>
+         </thead>
+         <tbody>
+          <row>
+            <entry align="center">1912</entry>
+            <entry align="center">82,2</entry>
+          </row>
+          <row>
+            <entry align="center">1924</entry>
+            <entry align="center">72,4</entry>
+          </row>
+          <row>
+            <entry align="center">1932</entry>
+            <entry align="center">66,8</entry>
+          </row>
+          <row>
+            <entry align="center">1952</entry>
+            <entry align="center">66,8</entry>
+          </row>
+          <row>
+            <entry align="center">1960</entry>
+            <entry align="center">61,2</entry>
+          </row>
+          <row>
+            <entry align="center">1968</entry>
+            <entry align="center">60,0</entry>
+          </row>
+          <row>
+            <entry align="center">1976</entry>
+            <entry align="center">55,65</entry>
+          </row>
+          <row>
+            <entry align="center">1984</entry>
+            <entry align="center">55,92</entry>
+          </row>
+          <row>
+            <entry align="center">1992</entry>
+            <entry align="center">54,64</entry>
+          </row>
+
+          <row>
+            <entry align="center">2000</entry>
+            <entry align="center">53,8</entry>
+          </row>
+          <row>
+            <entry align="center">2008</entry>
+            <entry align="center">53,1</entry>
+          </row>
+
+        </tbody>
+
+</tgroup>
+</table>
+<list id="element-81" list-type="enumerated" number-style="lower-alpha">
+<item>Decida cuál variable debe ser la independiente y cuál la dependiente.</item>
+<item>Dibuje un diagrama de dispersión de los datos.</item>
+<item>¿Se desprende de la inspección que existe una relación entre las variables? ¿Por qué sí o por qué no?</item>
+<item>Calcule la línea de mínimos cuadrados. Ponga la ecuación en la forma de: <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>.</item>
+<item>Halle el coeficiente de correlación. ¿Es significativa la disminución de los tiempos?</item>
+<item>Calcule el tiempo estimado de la medalla de oro de 1932. Calcule el tiempo estimado para 1984.</item>
+<item>¿Por qué las respuestas de la parte f son diferentes de los valores de la tabla?</item>
+<item>¿Parece que una línea es la mejor forma de ajustar los datos? ¿Por qué sí o por qué no?</item>
+<item>Utilice la línea de mínimos cuadrados para estimar el tiempo de la medalla de oro de los próximos Juegos Olímpicos de Verano. ¿Cree que su respuesta es razonable? ¿Por qué sí o por qué no?</item>
+</list>
+</problem>
+</exercise><exercise id="element-512">
+<problem id="id44850206">
+
+<table id="id10945556" summary="This table presents the state names in the first column, number of letters in the state name in the second column, year entered in the union in the third column, rank for entering the union in the fourth column, and state area in square miles in the last column.">
+
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+     <thead>
+          <row>
+            <entry>Estado</entry>
+            <entry>N.º de letras en el nombre</entry>
+            <entry>Año de entrada en la Unión</entry>
+            <entry>Rango para entrar en la Unión</entry>
+            <entry>Superficie (millas cuadradas)</entry>
+          </row>
+         </thead>
+         <tbody>
+          <row>
+            <entry>Alabama</entry>
+            <entry>7</entry>
+            <entry>1819</entry>
+            <entry>22</entry>
+            <entry>52.423</entry>
+          </row>
+          <row>
+            <entry>Colorado</entry>
+            <entry>8</entry>
+            <entry>1876</entry>
+            <entry>38</entry>
+            <entry>104.100</entry>
+          </row>
+          <row>
+            <entry>Hawái</entry>
+            <entry>6</entry>
+            <entry>1959</entry>
+            <entry>50</entry>
+            <entry>10.932</entry>
+          </row>
+          <row>
+            <entry>Iowa</entry>
+            <entry>4</entry>
+            <entry>1846</entry>
+            <entry>29</entry>
+            <entry>56.276</entry>
+          </row>
+          <row>
+            <entry>Maryland</entry>
+            <entry>8</entry>
+            <entry>1788</entry>
+            <entry>7</entry>
+            <entry>12.407</entry>
+          </row>
+          <row>
+            <entry>Misuri</entry>
+            <entry>8</entry>
+            <entry>1821</entry>
+            <entry>24</entry>
+            <entry>69.709</entry>
+          </row>
+          <row>
+            <entry>Nueva Jersey</entry>
+            <entry>9</entry>
+            <entry>1787</entry>
+            <entry>3</entry>
+            <entry>8.722</entry>
+          </row>
+          <row>
+            <entry>Ohio</entry>
+            <entry>4</entry>
+            <entry>1803</entry>
+            <entry>17</entry>
+            <entry>44.828</entry>
+          </row>
+          <row>
+            <entry>Carolina del Sur</entry>
+            <entry>13</entry>
+            <entry>1788</entry>
+            <entry>8</entry>
+            <entry>32.008</entry>
+          </row>
+          <row>
+            <entry>Utah</entry>
+            <entry>4</entry>
+            <entry>1896</entry>
+            <entry>45</entry>
+            <entry>84.904</entry>
+          </row>
+          <row>
+            <entry>Wisconsin</entry>
+            <entry>9</entry>
+            <entry>1848</entry>
+            <entry>30</entry>
+            <entry>65.499</entry>
+          </row>
+        </tbody>
+
+</tgroup>
+</table>
+  <para id="element-336">Nos interesa saber si el número de letras del nombre de un estado depende o no del año en que ingresó en la Unión.</para>
+<list id="element-0" list-type="enumerated" number-style="lower-alpha">
+<item>Decida cuál variable debe ser la independiente y cuál la dependiente.</item>
+<item>Dibuje un diagrama de dispersión de los datos.</item>
+<item>¿Se desprende de la inspección que existe una relación entre las variables? ¿Por qué sí o por qué no?</item>
+<item>Calcule la línea de mínimos cuadrados. Ponga la ecuación en la forma de: <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>.</item>
+<item>Halle el coeficiente de correlación. ¿Qué implica esto sobre la importancia de la relación?</item>
+<item>Calcule el número aproximado de letras (al número entero más cercano) que tendría un estado si entrara en la Unión en 1900. Calcule el número aproximado de letras que tendría un estado si entrara en la Unión en 1940.</item>
+<item>¿Parece que una línea es la mejor forma de ajustar los datos? ¿Por qué sí o por qué no?</item>
+<item>Utilice la línea de mínimos cuadrados para estimar el número de letras que tendría un nuevo estado que entrara en la Unión este año. ¿Se puede utilizar la línea de mínimos cuadrados para predecirlo? ¿Por qué sí o por qué no?</item>
+</list>
+</problem>
+
+<solution id="fs-idp67061424">
+<list id="fs-idp34721504" list-type="enumerated" number-style="lower-alpha"><item>El año es la variable independiente o <emphasis effect="italics">x</emphasis>; el número de letras es la variable dependiente o <emphasis effect="italics">y</emphasis>.</item>
+<item>Compruebe la solución del estudiante</item>
+<item>no</item>
+<item><emphasis effect="italics">ŷ</emphasis> = 47,03 - 0,0216<emphasis effect="italics">x</emphasis></item>
+<item>-0,4280 El valor r indica que no existe ninguna correlación significativa entre el año en que el estado entró en la unión y el número de letras del nombre.</item>
+<item>No, la relación no parece ser lineal; la correlación es despreciable.</item>
+
+</list></solution>
+</exercise></section> </content>
+</document>
