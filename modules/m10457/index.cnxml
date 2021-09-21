@@ -18,7 +18,7 @@
 <item>Discriminar los problemas aplicando la distribución normal y la <emphasis effect="italics">t</emphasis> de Student.</item>
 <item>Calcular el tamaño de la muestra necesario para estimar una media poblacional y una proporción poblacional dado un nivel de confianza y un margen de error deseados.</item>
 </list></note><para id="delete_me">Supongamos que intenta determinar el alquiler medio de un apartamento de dos habitaciones en su ciudad. Puede buscar en la sección de anuncios del periódico, anotar varios alquileres que aparezcan y hacer un promedio entre ellos. Habría obtenido una estimación puntual de la media real. Si intenta determinar el porcentaje de veces que encesta cuando lanza una pelota de baloncesto, puede contar el número de tiros que lo logra y dividirlo entre el número de tiros que intenta. En este caso, se habría obtenido una estimación puntual de la proporción real.</para>
-<para id="element-550">Utilizamos los datos de la muestra para hacer generalizaciones sobre una población desconocida. Esta parte de la Estadística se llama <term>Estadística Inferencial</term>. <emphasis>Los datos de la muestra nos ayudan a hacer una estimación de un <term>parámetro</term></emphasis> de la población. Nos damos cuenta de que lo más probable es que la estimación puntual no sea el valor exacto del parámetro poblacional, sino que se acerque a él. Después de calcular las estimaciones puntuales, construimos las estimaciones de intervalo, llamadas intervalos de confianza.</para>
+<para id="element-550">Utilizamos los datos de la muestra para hacer generalizaciones sobre una población desconocida. Esta parte de la Estadística se llama <term id="term-00001">Estadística Inferencial</term>. <emphasis>Los datos de la muestra nos ayudan a hacer una estimación de un <term id="term-00002">parámetro</term></emphasis> de la población. Nos damos cuenta de que lo más probable es que la estimación puntual no sea el valor exacto del parámetro poblacional, sino que se acerque a él. Después de calcular las estimaciones puntuales, construimos las estimaciones de intervalo, llamadas intervalos de confianza.</para>
 <para id="element-667">En este capítulo aprenderá a construir e interpretar intervalos de confianza. También aprenderá una nueva distribución, la t de Student, y cómo se utiliza con estos intervalos. A lo largo del capítulo es importante tener en cuenta que el intervalo de confianza es una variable aleatoria. Es el parámetro poblacional que se fija.</para>
 <para id="element-560">Si usted trabajara en el departamento de mercadeo de una compañía de entretenimiento, podría interesarse por el número medio de canciones que un consumidor descarga al mes de iTunes. Si es así, puede hacer una encuesta y calcular la media muestral, <m:math>
  <m:mover accent="true">
@@ -38,7 +38,7 @@
   <m:mo>¯</m:mo>
  </m:mover>
  
-</m:math>, es la <term>estimación</term> puntual de la media de la población, <emphasis effect="italics">μ</emphasis>. La desviación típica de la muestra, <emphasis effect="italics">s</emphasis>, es la estimación puntual de la desviación típica de la población, <emphasis effect="italics">σ</emphasis>.</para>
+</m:math>, es la <term id="term-00003">estimación</term> puntual de la media de la población, <emphasis effect="italics">μ</emphasis>. La desviación típica de la muestra, <emphasis effect="italics">s</emphasis>, es la estimación puntual de la desviación típica de la población, <emphasis effect="italics">σ</emphasis>.</para>
 <para id="eip-65">Cada uno de <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
@@ -47,7 +47,7 @@
  
 Cada</m:math> y <emphasis effect="italics">s</emphasis> se llama estadística.</para>
 
-<para id="element-510">Un <term>intervalo de confianza</term> es otro tipo de estimación pero, en vez de ser un solo número, es un intervalo de números. Proporciona un rango de valores razonables en el que esperamos que se ubique el parámetro de la población. No hay garantía de que un determinado intervalo de confianza capte el parámetro, pero hay una probabilidad de éxito predecible.</para><para id="element-53">Supongamos, para el ejemplo de iTunes, que no conocemos la media poblacional <emphasis effect="italics">μ</emphasis>, pero sí sabemos que la desviación típica de la población es <emphasis effect="italics">σ</emphasis> = 1 y que nuestro tamaño de muestra es 100. Entonces, por el teorema del límite central, la desviación típica para la media de la muestra es</para>
+<para id="element-510">Un <term id="term-00004">intervalo de confianza</term> es otro tipo de estimación pero, en vez de ser un solo número, es un intervalo de números. Proporciona un rango de valores razonables en el que esperamos que se ubique el parámetro de la población. No hay garantía de que un determinado intervalo de confianza capte el parámetro, pero hay una probabilidad de éxito predecible.</para><para id="element-53">Supongamos, para el ejemplo de iTunes, que no conocemos la media poblacional <emphasis effect="italics">μ</emphasis>, pero sí sabemos que la desviación típica de la población es <emphasis effect="italics">σ</emphasis> = 1 y que nuestro tamaño de muestra es 100. Entonces, por el teorema del límite central, la desviación típica para la media de la muestra es</para>
 <para id="element-624"><m:math>
  <m:mrow>
   <m:mfrac>
@@ -73,7 +73,7 @@ Cada</m:math> y <emphasis effect="italics">s</emphasis> se llama estadística.</
   <m:mo>=</m:mo><m:mn>0,1</m:mn>
  </m:mrow>
 </m:math>.</para>
-<para id="element-730">La <term>regla empírica</term>, que se aplica a las distribuciones en forma de campana, dice que en aproximadamente el 95 % de las muestras, la media muestral, <m:math>
+<para id="element-730">La <term id="term-00005">regla empírica</term>, que se aplica a las distribuciones en forma de campana, dice que en aproximadamente el 95 % de las muestras, la media muestral, <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
@@ -148,7 +148,7 @@ Cada</m:math> y <emphasis effect="italics">s</emphasis> se llama estadística.</
 </m:math> que no esté a menos de 0,2 unidades de la media verdadera <emphasis effect="italics">μ</emphasis>. La segunda posibilidad solo se da en el 5 % de las muestras (95 a 100 %).</para>
 <para id="element-39">Recuerde que un intervalo de confianza se crea para un parámetro poblacional desconocido como la media poblacional, <emphasis effect="italics">μ</emphasis>. Los intervalos de confianza para algunos parámetros tienen la forma:</para>
 
-<para id="element-75"><emphasis>(estimación puntual - margen de error, estimación puntual + </emphasis> <term>margen de error</term><emphasis>)</emphasis></para><para id="element-485">El margen de error depende del nivel o porcentaje de confianza y del error estándar de la media.</para>
+<para id="element-75"><emphasis>(estimación puntual - margen de error, estimación puntual + </emphasis> <term id="term-00006">margen de error</term><emphasis>)</emphasis></para><para id="element-485">El margen de error depende del nivel o porcentaje de confianza y del error estándar de la media.</para>
 <para id="eip-255">Cuando lea los periódicos y revistas, algunos informes utilizarán la frase "margen de error". Otros informes no utilizan esa frase, sino que incluyen un intervalo de confianza como la estimación puntual más o menos el margen de error. Son dos formas de expresar el mismo concepto.</para>
 
 <note id="eip-882"><label/><title>Nota</title>

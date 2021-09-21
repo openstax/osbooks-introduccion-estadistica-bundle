@@ -81,12 +81,12 @@
 </m:mfrac>
 </m:mrow>
 </m:math></para></note><list id="eip-965" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">RF</emphasis><emphasis effect="italics">(X</emphasis> &lt; <emphasis effect="italics">k</emphasis>) = ______</item>
-<item><emphasis effect="italics">RF</emphasis><emphasis effect="italics">(X</emphasis> &gt; <emphasis effect="italics">k</emphasis>) = ______</item>
+<item><emphasis effect="italics">RF</emphasis><emphasis effect="italics">(X</emphasis> > <emphasis effect="italics">k</emphasis>) = ______</item>
 <item><emphasis effect="italics">RF</emphasis><emphasis effect="italics">(X</emphasis> = <emphasis effect="italics">k</emphasis>) = ______</item></list><note id="id16765214"><label/><title>Nota</title>
 <para id="fs-idp165084800">Debe tener una página para la distribución uniforme, una para la distribución exponencial y otra para la distribución normal.</para></note>
 <para id="eip-917">____ Indique la distribución: <emphasis effect="italics">X</emphasis> ~ _________ <newline/>____ Dibuje un gráfico para cada una de las tres distribuciones teóricas. Rotule los ejes y márquelos adecuadamente. <newline/>____ Halle las siguientes probabilidades teóricas (redondeadas a cuatro decimales). <list id="eip-idm28652656" list-type="enumerated" number-style="lower-alpha">
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">k</emphasis>) = ______</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">k</emphasis>) = ______</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">k</emphasis>) = ______</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = <emphasis effect="italics">k</emphasis>) = ______</item>
 </list> ____ Compare las frecuencias relativas con las probabilidades correspondientes. ¿Los valores son cercanos? <newline/>____ ¿Parece que los datos se ajustan bien a la distribución? Justifique tu respuesta comparando las probabilidades con las frecuencias relativas y los histogramas con los gráficos teóricos.</para></section><section id="element-442"><title>Parte III: Experimentos del teorema límite central (central limit theorem, CLT)</title><para id="eip-159">______ A partir de sus datos originales (antes de ordenarlos), utilice un generador de números aleatorios para elegir 40 muestras de tamaño cinco. En cada muestra, calcule el promedio. <newline/>______ En una página separada, adjunta al resumen, incluya las 40 muestras de tamaño cinco, junto con los 40 promedios de las muestras. <newline/>______ Enumere los 40 promedios en orden de menor a mayor. <newline/>______ Defina la variable aleatoria, <m:math>
 <m:mover accent="true">
@@ -139,7 +139,7 @@
 <m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
-</m:math> &gt; <m:math>
+</m:math> > <m:math>
 <m:mover accent="true">
 <m:mi>k</m:mi>
 <m:mo>¯</m:mo>
@@ -171,7 +171,7 @@
 <m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
-</m:math> &gt; <m:math>
+</m:math> > <m:math>
 <m:mover accent="true">
 <m:mi>k</m:mi>
 <m:mo>¯</m:mo>
@@ -247,7 +247,7 @@ ____ En una hoja aparte, elabore un gráfico de dispersión de los datos. Rotule
 <item>Percentil 70 = ______</item>
 <item>Valor que está 2 desviaciones típicas por encima de la media = ______</item>
 <item>Valor que está 1,5 desviaciones típicas por debajo de la media = ______</item>
-</list> _____Elabore un histograma que muestre sus datos. Agrupe los datos en seis o diez intervalos de igual anchura. Elija intervalos regularmente espaciados que tengan sentido en relación con sus datos. Por ejemplo, NO agrupe los datos por edad como 20-26,27-33,34-40,41-47,48-54,55-61 . . . En su lugar, puede utilizar los grupos de edad 19,5-24,5, 24,5-29,5, . . . o 19,5-29,5, 29,5-39,5, 39,5-49,5, . . . <newline/>_____Describa en frases completas la forma de su histograma. <newline/>_____¿Hay algún valor atípico potencial? ¿Qué valores son? Muestre su trabajo y sus cálculos sobre cómo utilizó la fórmula de valores atípicos potenciales en <link document="m46925">Estadística descriptiva</link> (ya que ahora está utilizando datos univariantes) para determinar qué valores podrían ser atípicos. <newline/>_____Elabore un diagrama de caja y bigotes de sus datos. <newline/>_____¿El 50 % central de sus datos parece estar concentrado o disperso? Explique cómo lo determinó. <newline/>_____ Observe tanto el histograma como el diagrama de caja y bigotes, y analice la distribución de sus datos. Por ejemplo: ¿cómo se compara la dispersión del 50 % central de los datos con la dispersión del resto de los datos representados en el diagrama de caja y bigotes?, ¿cómo se corresponde eso con su descripción de la forma del histograma?, ¿cómo muestra la representación gráfica los valores atípicos que pudo haber encontrado?, ¿el histograma muestra espacios en los datos que no son visibles en el diagrama de caja y bigotes? ¿hay alguna característica interesante de sus datos que deba señalar?</para></section>
+</list> _____Elabore un histograma que muestre sus datos. Agrupe los datos en seis o diez intervalos de igual anchura. Elija intervalos regularmente espaciados que tengan sentido en relación con sus datos. Por ejemplo, NO agrupe los datos por edad como 20-26,27-33,34-40,41-47,48-54,55-61 . . . En su lugar, puede utilizar los grupos de edad 19,5-24,5, 24,5-29,5, . . . o 19,5-29,5, 29,5-39,5, 39,5-49,5, . . . <newline/>_____Describa en frases completas la forma de su histograma. <newline/>_____¿Hay algún valor atípico potencial? ¿Qué valores son? Muestre su trabajo y sus cálculos sobre cómo utilizó la fórmula de valores atípicos potenciales en <link document="m10417">Estadística descriptiva</link> (ya que ahora está utilizando datos univariantes) para determinar qué valores podrían ser atípicos. <newline/>_____Elabore un diagrama de caja y bigotes de sus datos. <newline/>_____¿El 50 % central de sus datos parece estar concentrado o disperso? Explique cómo lo determinó. <newline/>_____ Observe tanto el histograma como el diagrama de caja y bigotes, y analice la distribución de sus datos. Por ejemplo: ¿cómo se compara la dispersión del 50 % central de los datos con la dispersión del resto de los datos representados en el diagrama de caja y bigotes?, ¿cómo se corresponde eso con su descripción de la forma del histograma?, ¿cómo muestra la representación gráfica los valores atípicos que pudo haber encontrado?, ¿el histograma muestra espacios en los datos que no son visibles en el diagrama de caja y bigotes? ¿hay alguna característica interesante de sus datos que deba señalar?</para></section>
 
 <section id="element-460"><title>Fechas de entrega</title>
 <para id="eip-750"><list id="eip-idm37795808" list-type="bulleted"><item>Parte I, Introducción: __________ (guarde una copia para sus archivos).</item>

@@ -79,7 +79,7 @@
 <entry/>
 </row>
 <row>
-<entry>&gt; 10</entry>
+<entry>> 10</entry>
 <entry>vacío</entry>
 <entry/>
 <entry/>
@@ -239,7 +239,7 @@
 <entry>0,55</entry>
 </row>
 <row>
-<entry>&gt; 10</entry>
+<entry>> 10</entry>
 <entry>45</entry>
 <entry>0,45</entry>
 <entry>1,00</entry>
@@ -561,7 +561,7 @@
 </table>
 </para>
 
-<para id="fs-idm28586176"><emphasis>7</emphasis>. Defina la variable aleatoria <emphasis effect="italics">X</emphasis> para este ejemplo. </para><para id="fs-idp112086544"><emphasis>8</emphasis>. ¿Qué es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 2)?</para><para id="fs-idm49038096"><emphasis>9</emphasis>. ¿Cuál es la probabilidad de que un cliente pida prestado al menos un libro?</para><para id="fs-idm70482864"><emphasis>10</emphasis>. ¿Cuál es la probabilidad de que un cliente no pida prestado más de tres libros?</para><para id="fs-idp20259712"><emphasis>11</emphasis>. Si en la tabla aparece <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) como 0,15, ¿cómo sabría que hay un error?</para><para id="fs-idm27978688"><emphasis>12</emphasis>. ¿Cuál es el número promedio de libros que pide prestado un cliente?</para></section>
+<para id="fs-idm28586176"><emphasis>7</emphasis>. Defina la variable aleatoria <emphasis effect="italics">X</emphasis> para este ejemplo. </para><para id="fs-idp112086544"><emphasis>8</emphasis>. ¿Qué es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 2)?</para><para id="fs-idm49038096"><emphasis>9</emphasis>. ¿Cuál es la probabilidad de que un cliente pida prestado al menos un libro?</para><para id="fs-idm70482864"><emphasis>10</emphasis>. ¿Cuál es la probabilidad de que un cliente no pida prestado más de tres libros?</para><para id="fs-idp20259712"><emphasis>11</emphasis>. Si en la tabla aparece <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) como 0,15, ¿cómo sabría que hay un error?</para><para id="fs-idm27978688"><emphasis>12</emphasis>. ¿Cuál es el número promedio de libros que pide prestado un cliente?</para></section>
 
 <section id="fs-idp168828704">
 <title>4,2: Media o valor esperado y desviación típica</title><para id="fs-idm76696976"><emphasis effect="italics">Use la siguiente información para responder los próximos cuatro ejercicios.</emphasis> En una compañía hay tres puestos de trabajo vacantes: uno en el departamento de contabilidad, otro en el de recursos humanos y otro en el de ventas. El puesto de trabajo de Contabilidad recibe 30 solicitantes, el Departamento de Recursos Humanos recibe 40 solicitantes y el Departamento de Recursos Humanos y Ventas recibe 60 solicitantes.</para><para id="fs-idp89420144"><emphasis>13</emphasis>. Si <emphasis effect="italics">X</emphasis> = el número de solicitudes para un puesto de trabajo, utilice esta información para rellenar la <link target-id="fs-idm40199072"/>.</para><table id="fs-idm40199072" summary="..">
@@ -629,7 +629,7 @@
 <section id="fs-idp28692928">
 <title>5,1: Funciones de probabilidad continuas</title>
 
-<para id="fs-idp146102224"><emphasis>41</emphasis>. Lleva a cabo una encuesta entre los estudiantes para ver cuántos libros compraron el semestre anterior, la cantidad total que pagaron por esos libros, el número que vendieron una vez terminó el semestre y la cantidad de dinero que recibieron por los libros que vendieron. ¿Cuáles variables de esta encuesta son discretas y cuáles son continuas?</para><para id="fs-idm100254096"><emphasis>42</emphasis>. Con las variables aleatorias continuas nunca calculamos la probabilidad de que <emphasis effect="italics">X</emphasis> tenga un valor determinado, sino que siempre hablamos en términos de la probabilidad de que <emphasis effect="italics">X</emphasis> tenga un valor dentro de un rango determinado. ¿Por qué?</para><para id="fs-idm68047280"><emphasis>43</emphasis>. Para una variable aleatoria continua, ¿por qué <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">c</emphasis>) y <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ <emphasis effect="italics">c</emphasis>) son afirmaciones equivalentes?</para><para id="fs-idp32220256"><emphasis>44</emphasis>. Para una función de probabilidad continua, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 5) = 0,35. ¿Qué es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 5), y cómo lo sabe?</para><para id="fs-idm47762432"><emphasis>45</emphasis>. Describa cómo dibujaría la distribución de probabilidad continua descrita por la función <m:math>
+<para id="fs-idp146102224"><emphasis>41</emphasis>. Lleva a cabo una encuesta entre los estudiantes para ver cuántos libros compraron el semestre anterior, la cantidad total que pagaron por esos libros, el número que vendieron una vez terminó el semestre y la cantidad de dinero que recibieron por los libros que vendieron. ¿Cuáles variables de esta encuesta son discretas y cuáles son continuas?</para><para id="fs-idm100254096"><emphasis>42</emphasis>. Con las variables aleatorias continuas nunca calculamos la probabilidad de que <emphasis effect="italics">X</emphasis> tenga un valor determinado, sino que siempre hablamos en términos de la probabilidad de que <emphasis effect="italics">X</emphasis> tenga un valor dentro de un rango determinado. ¿Por qué?</para><para id="fs-idm68047280"><emphasis>43</emphasis>. Para una variable aleatoria continua, ¿por qué <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">c</emphasis>) y <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ <emphasis effect="italics">c</emphasis>) son afirmaciones equivalentes?</para><para id="fs-idp32220256"><emphasis>44</emphasis>. Para una función de probabilidad continua, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 5) = 0,35. ¿Qué es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 5), y cómo lo sabe?</para><para id="fs-idm47762432"><emphasis>45</emphasis>. Describa cómo dibujaría la distribución de probabilidad continua descrita por la función <m:math>
 <m:mrow>
 <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
 <m:mn>1</m:mn>
@@ -722,7 +722,7 @@
 
 <para id="fs-idp9773504"><emphasis>90</emphasis>. Si <emphasis effect="italics">X</emphasis> = el diámetro de un tornillo, ¿cuál es la distribución de <emphasis effect="italics">X</emphasis>?</para><para id="fs-idp144580800"><emphasis>91</emphasis>. Supongamos que se extraen repetidamente muestras de tamaño 100 y se calcula su media. Al aplicar el teorema del límite central, ¿cuál es la distribución de estas medias muestrales?</para><para id="fs-idp70463456"><emphasis>92</emphasis>. Supongamos que extrae repetidamente muestras de 60 y calcula su suma. Al aplicar el teorema del límite central, ¿cuál es la distribución de estas sumas muestrales?</para></section></section><section id="eip-730"><title>Soluciones de la prueba de práctica 2</title><section id="fs-idp163165600">
 <title>Función de Distribución de Probabilidad (PDF) para una variable aleatoria discreta</title>
-<para id="fs-idm100052240"><emphasis>1</emphasis>. El dominio de <emphasis effect="italics">X</emphasis> = {Inglés, Matemáticas, ...}, es decir, una lista de todas las especialidades que se ofrecen en la universidad, más “sin declarar”.</para><para id="fs-idm155456032"><emphasis>2</emphasis>. El dominio de <emphasis effect="italics">Y</emphasis> = {0, 1, 2, ...}, es decir, los enteros desde 0 hasta el límite superior de las clases permitidas por la universidad.</para><para id="fs-idm140079904"><emphasis>3</emphasis>. El dominio de <emphasis effect="italics">Z</emphasis> = cualquier cantidad de dinero a partir de 0.</para><para id="fs-idm139654144"><emphasis>4</emphasis>. Porque pueden tomar cualquier valor dentro de su dominio, y su valor para cualquier caso particular no se conoce hasta que se termina la encuesta.</para><para id="fs-idm32271600"><emphasis>5</emphasis>. No, porque el dominio de <emphasis effect="italics">Z</emphasis> solo incluye números positivos (no se puede gastar una cantidad negativa de dinero). Posiblemente el valor –7 sea un error de introducción de datos, o un código especial para indicar que el estudiante no ha respondido la pregunta.</para><para id="fs-idm36113440"><emphasis>6</emphasis>. Las probabilidades deben sumar 1,0, y las probabilidades de cada evento deben estar entre 0 y 1, ambos inclusive.</para><para id="fs-idm170973824"><emphasis>7</emphasis>. Supongamos que <emphasis effect="italics">X</emphasis> = el número de libros sacados por un cliente.</para><para id="fs-idm40816608"><emphasis>8</emphasis>. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 2) = 0,10 + 0,05 = 0,15</para><para id="fs-idm159092688"><emphasis>9</emphasis>. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 0) = 1 – 0,20 = 0,80</para><para id="fs-idp100516752"><emphasis>10</emphasis>. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 3) = 1 – 0,05 = 0,95</para><para id="fs-idm83289552"><emphasis>11</emphasis>. Las probabilidades sumarían 1,10, y la probabilidad total en una distribución debe ser siempre igual a 1,0.</para><para id="fs-idm10171072"><emphasis>12</emphasis>. <m:math>
+<para id="fs-idm100052240"><emphasis>1</emphasis>. El dominio de <emphasis effect="italics">X</emphasis> = {Inglés, Matemáticas, ...}, es decir, una lista de todas las especialidades que se ofrecen en la universidad, más “sin declarar”.</para><para id="fs-idm155456032"><emphasis>2</emphasis>. El dominio de <emphasis effect="italics">Y</emphasis> = {0, 1, 2, ...}, es decir, los enteros desde 0 hasta el límite superior de las clases permitidas por la universidad.</para><para id="fs-idm140079904"><emphasis>3</emphasis>. El dominio de <emphasis effect="italics">Z</emphasis> = cualquier cantidad de dinero a partir de 0.</para><para id="fs-idm139654144"><emphasis>4</emphasis>. Porque pueden tomar cualquier valor dentro de su dominio, y su valor para cualquier caso particular no se conoce hasta que se termina la encuesta.</para><para id="fs-idm32271600"><emphasis>5</emphasis>. No, porque el dominio de <emphasis effect="italics">Z</emphasis> solo incluye números positivos (no se puede gastar una cantidad negativa de dinero). Posiblemente el valor –7 sea un error de introducción de datos, o un código especial para indicar que el estudiante no ha respondido la pregunta.</para><para id="fs-idm36113440"><emphasis>6</emphasis>. Las probabilidades deben sumar 1,0, y las probabilidades de cada evento deben estar entre 0 y 1, ambos inclusive.</para><para id="fs-idm170973824"><emphasis>7</emphasis>. Supongamos que <emphasis effect="italics">X</emphasis> = el número de libros sacados por un cliente.</para><para id="fs-idm40816608"><emphasis>8</emphasis>. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 2) = 0,10 + 0,05 = 0,15</para><para id="fs-idm159092688"><emphasis>9</emphasis>. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 0) = 1 – 0,20 = 0,80</para><para id="fs-idp100516752"><emphasis>10</emphasis>. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 3) = 1 – 0,05 = 0,95</para><para id="fs-idm83289552"><emphasis>11</emphasis>. Las probabilidades sumarían 1,10, y la probabilidad total en una distribución debe ser siempre igual a 1,0.</para><para id="fs-idm10171072"><emphasis>12</emphasis>. <m:math>
 <m:mover accent="true">
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
@@ -939,7 +939,7 @@
 </section><section id="fs-idm12735136"><title>5,1: Funciones de probabilidad continuas</title><para id="fs-idm5037072"><emphasis>41</emphasis>. Las variables discretas son el número de libros comprados y el número de libros vendidos al final del semestre. Las variables continuas son la cantidad de dinero gastada por los libros y la cantidad de dinero recibida cuando se vendieron.</para>
 <para id="fs-idm164236176"><emphasis>42</emphasis>. Porque para una variable aleatoria continua, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = <emphasis effect="italics">c</emphasis>) = 0, donde <emphasis effect="italics">c</emphasis> es un valor cualquiera. En cambio, calculamos <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">c</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">d</emphasis>), es decir, la probabilidad de que el valor de <emphasis effect="italics">x</emphasis> esté entre los valores <emphasis effect="italics">c</emphasis> y <emphasis effect="italics">d</emphasis>.</para>
 <para id="fs-idm38949328"><emphasis>43</emphasis>. Porque <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = <emphasis effect="italics">c</emphasis>) = 0 para cualquier variable aleatoria continua.</para>
-<para id="fs-idm159193280"><emphasis>44</emphasis>. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 5) = 1 – 0,35 = 0,65, porque la probabilidad total de una función de probabilidad continua es siempre 1.</para>
+<para id="fs-idm159193280"><emphasis>44</emphasis>. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 5) = 1 – 0,35 = 0,65, porque la probabilidad total de una función de probabilidad continua es siempre 1.</para>
 <para id="fs-idm77733440"><emphasis>45</emphasis>. Se trata de una distribución de probabilidad uniforme. Se dibujaría como un rectángulo con los lados verticales en 0 y 20, y los lados horizontales en <m:math>
 <m:mrow>
 <m:mfrac>
@@ -2790,7 +2790,7 @@
 </m:msub>
 
 </m:mrow>
-</m:math> &gt; 0 <newline/>Esto también se podría escribir como: <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: <m:math>
+</m:math> > 0 <newline/>Esto también se podría escribir como: <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: <m:math>
 <m:mrow>
 <m:msub>
 <m:mover accent="true">
@@ -2820,7 +2820,7 @@
 
 <m:mn>1</m:mn>
 </m:msub>
-<m:mo>&gt;</m:mo><m:msub>
+<m:mo>></m:mo><m:msub>
 <m:mover accent="true">
 <m:mi>X</m:mi>
 <m:mo>¯</m:mo>
@@ -3198,7 +3198,7 @@
 </section><section id="fs-idm124468928">
 <title>11,6: Prueba de una sola varianza</title>
 
-<para id="fs-idp76278144"><emphasis>88</emphasis>. <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> ≤ 5 <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> &gt; 5</para></section></section><section id="eip-137"><title>Prueba práctica 4</title><section id="fs-idm36554224"><title>12.1 Ecuaciones lineales</title><para id="fs-idm44590912"><emphasis>1</emphasis>. ¿Cuáles de las siguientes ecuaciones son lineales?<list id="fs-idm161222288" list-type="enumerated" number-style="lower-alpha">
+<para id="fs-idp76278144"><emphasis>88</emphasis>. <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> ≤ 5 <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> > 5</para></section></section><section id="eip-137"><title>Prueba práctica 4</title><section id="fs-idm36554224"><title>12.1 Ecuaciones lineales</title><para id="fs-idm44590912"><emphasis>1</emphasis>. ¿Cuáles de las siguientes ecuaciones son lineales?<list id="fs-idm161222288" list-type="enumerated" number-style="lower-alpha">
 <item><emphasis effect="italics">y</emphasis> = –3<emphasis effect="italics">x</emphasis></item>
 <item><emphasis effect="italics">y</emphasis> = 0,2 + 0,74<emphasis effect="italics">x</emphasis></item>
 <item><emphasis effect="italics">y</emphasis> = –9,4 – 2<emphasis effect="italics">x</emphasis></item>
@@ -3574,7 +3574,7 @@
 <m:mi>y</m:mi>
 <m:mo>^</m:mo>
 </m:mover>
-</m:math> = 2,3 – 0.1(4,1) = 1,89. El valor de 2,32 está a más de dos desviaciones típicas del valor previsto, por lo que se considera un valor atípico. <newline/>Residual para (4,1; 2,34): 2,32 – 1,89 = 0,43 (0,43 &gt; 2(0,13))</para></section><section id="fs-idm1555552">
+</m:math> = 2,3 – 0.1(4,1) = 1,89. El valor de 2,32 está a más de dos desviaciones típicas del valor previsto, por lo que se considera un valor atípico. <newline/>Residual para (4,1; 2,34): 2,32 – 1,89 = 0,43 (0,43 > 2(0,13))</para></section><section id="fs-idm1555552">
 <title>13,1: ANOVA de una vía</title>
 
 <para id="fs-idm96207536"><emphasis>28</emphasis>. <list id="fs-idp134078544" list-type="enumerated">
@@ -3690,7 +3690,7 @@
 <m:mn>2</m:mn>
 </m:msubsup>
 </m:mrow>
-</m:math> &gt; <m:math>
+</m:math> > <m:math>
 <m:mrow>
 <m:msubsup>
 <m:mi>σ</m:mi>
@@ -3955,7 +3955,7 @@
         <item>Uniforme</item>
       </list></para><para id="element-289"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios:</emphasis> El instituto universitario De Anza mantiene estadísticas sobre el índice de aprobados de los estudiantes que se inscriben en las clases de Matemáticas. En una muestra de 1.795 estudiantes inscritos en Matemáticas 1A (Cálculo del 1.er trimestre), 1.428 aprobaron el curso. En una muestra de 856 estudiantes inscritos en Matemáticas 1B (Cálculo del 2.º trimestre), 662 aprobaron. En general, ¿los índices de aprobados de Matemáticas 1A y Matemáticas 1B son estadísticamente iguales? Supongamos que A = el subíndice de Matemáticas 1A y B = el subíndice de Matemáticas 1B. </para>
   <para id="element-739"><emphasis>11</emphasis>. Si se realizara una comprobación adecuada, la hipótesis alternativa sería: <list id="id8816942" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> = <emphasis effect="italics">p<sub>B</sub></emphasis> </item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> &gt; <emphasis effect="italics">p<sub>B</sub></emphasis> </item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> > <emphasis effect="italics">p<sub>B</sub></emphasis> </item>
 <item><emphasis effect="italics">H<sub>o</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> = <emphasis effect="italics">p<sub>B</sub></emphasis> </item>
 <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> ≠ <emphasis effect="italics">p<sub>B</sub></emphasis> </item>
  </list></para><para id="element-493"><emphasis>12</emphasis>. El error de tipo I:<list id="id8828449" list-type="enumerated" number-style="lower-alpha">
@@ -4953,7 +4953,7 @@
 </table>
 
 <para id="element-50"><emphasis>33</emphasis>. Realice una prueba adecuada para determinar si la distribución es uniforme.<list id="id9269030" list-type="enumerated" number-style="lower-alpha">
-<item>El valor <emphasis effect="italics">p</emphasis> es &gt; 0,10. No hay información suficiente para concluir que la distribución no es uniforme.</item>
+<item>El valor <emphasis effect="italics">p</emphasis> es > 0,10. No hay información suficiente para concluir que la distribución no es uniforme.</item>
 <item>El valor <emphasis effect="italics">p</emphasis>es &lt; 0,01. Hay suficiente información para concluir que la distribución no es uniforme.</item>
 <item>El valor <emphasis effect="italics">p</emphasis>está entre 0,01 y 0,10, pero sin alfa (<emphasis effect="italics">α</emphasis>) no hay suficiente información</item>
 <item>No hay ninguna prueba que se pueda realizar.</item>
@@ -5035,6 +5035,6 @@
  </m:mover></m:math> = 79,96<emphasis effect="italics">x</emphasis> – 0,0094</para>
 <para id="eip-idm76360448"><emphasis>31</emphasis>. d. Aquí no deberíamos hacer estimaciones.</para>
 <para id="eip-idm80692320"><emphasis>32</emphasis>. a.</para>
-<para id="eip-idm225978224"><emphasis>33</emphasis>. a. El valor <emphasis effect="italics">p</emphasis>es &gt; 0,10. No hay información suficiente para concluir que la distribución no es uniforme.</para>
+<para id="eip-idm225978224"><emphasis>33</emphasis>. a. El valor <emphasis effect="italics">p</emphasis>es > 0,10. No hay información suficiente para concluir que la distribución no es uniforme.</para>
 <para id="eip-idm133463360"><emphasis>34</emphasis>. c. La prueba consiste en determinar si los diferentes grupos tienen las mismas medias.</para></section></section> </content>
 </document>

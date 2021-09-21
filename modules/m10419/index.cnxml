@@ -9,7 +9,7 @@
 
 <content>
 <para id="element-657">Para la mayor parte del trabajo que se realiza en este libro se utilizará un histograma para mostrar los datos. Una de las ventajas de un histograma es que puede mostrar fácilmente grandes conjuntos de datos. Una regla general es utilizar un histograma cuando el conjunto de datos consta de 100 valores o más.</para>
-<para id="element-446">Un <term>histograma</term> está formado por recuadros contiguos (adyacentes). Tiene un eje horizontal y otro vertical. El eje horizontal está identificado con lo que representan los datos (por ejemplo, la distancia de su casa a la escuela). El eje vertical está identificado como <term>frecuencia</term> o <term>frecuencia relativa</term> (o porcentaje de frecuencia o probabilidad). El gráfico tendrá la misma forma con cualquiera de las dos etiquetas. El histograma (al igual que el diagrama de tallo) puede darle la forma de los datos, el centro y la dispersión de los datos.</para><para id="element-123">La frecuencia relativa es igual a la frecuencia de un valor observado de los datos dividida por el número total de valores de datos de la muestra. (Recuerde que la frecuencia se define como el número de veces que se produce una respuesta). Si:</para><list id="element-614" list-type="bulleted"><item><emphasis effect="italics">f</emphasis> = frecuencia</item>
+<para id="element-446">Un <term id="term-00001">histograma</term> está formado por recuadros contiguos (adyacentes). Tiene un eje horizontal y otro vertical. El eje horizontal está identificado con lo que representan los datos (por ejemplo, la distancia de su casa a la escuela). El eje vertical está identificado como <term id="term-00002">frecuencia</term> o <term id="term-00003">frecuencia relativa</term> (o porcentaje de frecuencia o probabilidad). El gráfico tendrá la misma forma con cualquiera de las dos etiquetas. El histograma (al igual que el diagrama de tallo) puede darle la forma de los datos, el centro y la dispersión de los datos.</para><para id="element-123">La frecuencia relativa es igual a la frecuencia de un valor observado de los datos dividida por el número total de valores de datos de la muestra. (Recuerde que la frecuencia se define como el número de veces que se produce una respuesta). Si:</para><list id="element-614" list-type="bulleted"><item><emphasis effect="italics">f</emphasis> = frecuencia</item>
 <item><emphasis effect="italics">n</emphasis> = número total de valores de datos (o la suma de las frecuencias individuales) y</item>
 <item><emphasis effect="italics">RF</emphasis> = frecuencia relativa,</item>
 </list>
@@ -142,7 +142,7 @@
 
 <note id="fs-idm25803056" class="statistics calculator">
 <label/>
-<para id="fs-idm23601024">Diríjase a la <link document="m47896"/>. Hay instrucciones de la calculadora para introducir datos y para crear un histograma personalizado. Cree el histograma para el <link target-id="exampid2"/>.</para><list id="fs-idp2836464" list-type="bulleted"><item>Pulse Y=. Pulse CLEAR para borrar las ecuaciones.</item>
+<para id="fs-idm23601024">Diríjase a la <link document="m10504"/>. Hay instrucciones de la calculadora para introducir datos y para crear un histograma personalizado. Cree el histograma para el <link target-id="exampid2"/>.</para><list id="fs-idp2836464" list-type="bulleted"><item>Pulse Y=. Pulse CLEAR para borrar las ecuaciones.</item>
 <item>Pulse STAT 1:EDIT. Si L1 tiene datos, flecha hacia arriba en el nombre L1, pulse CLEAR y luego flecha hacia abajo. Si es necesario, haga lo mismo con L2.</item>
 <item>En L1, introduzca 1, 2, 3, 4, 5, 6.</item>
 <item>En L2, introduzca 11, 10, 16, 6, 5, 2.</item>
@@ -232,7 +232,7 @@
 <exercise id="fs-idm32934816"><problem id="fs-idm4304416">
 <para id="fs-idp57423888">Los siguientes datos representan el número de empleados de varios restaurantes de la ciudad de Nueva York. Con estos datos, cree un histograma.</para>
 <para id="fs-idp57424272">
-<list list-type="labeled-item" display="inline">
+<list list-type="labeled-item" display="inline" id="list-00001">
 <item>22</item><item>35</item><item>15</item><item>26</item>
 <item>40</item><item>28</item><item>18</item><item>20</item>
 <item>25</item><item>34</item><item>39</item><item>42</item>
@@ -354,7 +354,7 @@
 
 </section>
 
-<section id="fs-idp1011776"><title>Construcción de un gráfico de series temporales</title><para id="fs-idp69308288">Para construir un gráfico de series temporales debemos observar las dos partes de nuestro <term>conjunto de datos emparejados</term>. Comenzamos con un sistema de coordenadas cartesianas estándar. El eje horizontal se utiliza para trazar la fecha o los incrementos de tiempo, y el eje vertical se utiliza para trazar los valores de la variable que estamos midiendo. De este modo, hacemos que cada punto del gráfico corresponda a una fecha y a una cantidad medida. Los puntos del gráfico suelen estar conectados por líneas rectas en el orden en que se producen.</para>
+<section id="fs-idp1011776"><title>Construcción de un gráfico de series temporales</title><para id="fs-idp69308288">Para construir un gráfico de series temporales debemos observar las dos partes de nuestro <term id="term-00004">conjunto de datos emparejados</term>. Comenzamos con un sistema de coordenadas cartesianas estándar. El eje horizontal se utiliza para trazar la fecha o los incrementos de tiempo, y el eje vertical se utiliza para trazar los valores de la variable que estamos midiendo. De este modo, hacemos que cada punto del gráfico corresponda a una fecha y a una cantidad medida. Los puntos del gráfico suelen estar conectados por líneas rectas en el orden en que se producen.</para>
 
 <example id="fs-idp7658080"><exercise id="fs-idp4161680">
 <problem id="fs-idm51003184"><para id="fs-idm34305376">Los siguientes datos muestran el Índice de Precios del Consumidor (IPC) Anual, cada mes, durante diez años. Construya un gráfico de series temporales solo para los datos del Índice de Precios del Consumidor Anual.</para><table id="fs-idp49086512" summary="">

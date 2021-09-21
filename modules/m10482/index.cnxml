@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-<para id="element-194">Una <term>prueba de una sola varianza</term> supone que la distribución subyacente es <emphasis>normal</emphasis>. Las hipótesis nula y alternativa se plantean en términos de la <term>varianza de la población</term> (o desviación estándar de la población). El estadístico de prueba es:</para>
+<para id="element-194">Una <term id="term-00001">prueba de una sola varianza</term> supone que la distribución subyacente es <emphasis>normal</emphasis>. Las hipótesis nula y alternativa se plantean en términos de la <term id="term-00002">varianza de la población</term> (o desviación estándar de la población). El estadístico de prueba es:</para>
 <equation id="element-740" class="unnumbered"><label/><m:math>
 <m:mfrac>
 <m:mrow>
@@ -46,7 +46,7 @@
   <para id="element-219">Aunque se nos da la desviación típica de la población podemos establecer la prueba utilizando la varianza de la población de la siguiente manera.</para>
 <list id="element-660" list-type="bulleted"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 5<sup>2</sup>
  </item>
- <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> &gt; 5<sup>2</sup></item>
+ <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> > 5<sup>2</sup></item>
  </list></solution>
 </exercise>
  </example>
@@ -110,11 +110,11 @@
 </m:math></para><para id="element-801">donde <emphasis effect="italics">n</emphasis> = 25, <emphasis effect="italics">s</emphasis> = 3,5 y <emphasis effect="italics">σ</emphasis> = 7,2.</para>
  <para id="element-607"><emphasis>Gráfico:</emphasis></para>
  <figure id="fs-idp135015696"><media id="id1168325355960" alt="Se trata de una curva de chi-cuadrado no simétrica con valores de 0 y 5,67 identificados en el eje horizontal. El punto 5,67 está a la izquierda del pico de la curva. Una línea vertical ascendente se extiende desde 5,67 hasta la curva y la región a la izquierda de esta línea está sombreada. El área sombreada es igual al valor p." display="block"><image src="../../media/figure-ch11_08_01-04d5.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-970"><emphasis>Declaración de probabilidad:</emphasis> valor <emphasis effect="italics">p</emphasis>= <emphasis effect="italics">P</emphasis> ( <emphasis effect="italics">χ</emphasis><sup>2</sup> &lt; 5,67) = 0,000042</para>
- <para id="element-684"><emphasis>Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>:</emphasis><newline/> <list list-type="labeled-item" display="inline">
+ <para id="element-684"><emphasis>Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>:</emphasis><newline/> <list list-type="labeled-item" display="inline" id="list-00001">
 <item><emphasis effect="italics">α</emphasis> = 0,05</item>
 <item>valor <emphasis effect="italics">p</emphasis>= 0,000042</item>
-<item><emphasis effect="italics">α</emphasis> &gt; valor <emphasis effect="italics">p</emphasis></item>
-</list></para><para id="element-726"><emphasis>Tome una decisión:</emphasis> Dado el valor de <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>, se rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>. Esto significa que rechaza <emphasis effect="italics">σ</emphasis><sup>2</sup> = 7,2<sup>2</sup>. En otras palabras, no cree que la variación de los tiempos de espera sea de 7,2 minutos; cree que la variación de los tiempos de espera es menor.</para><para id="element-952"><emphasis>Conclusión:</emphasis> A un nivel de significación del 5 %, a partir de los datos, hay pruebas suficientes para concluir que una sola fila provoca una menor variación entre los tiempos de espera <emphasis>o</emphasis> que con una sola fila, los tiempos de espera de los clientes varían menos de 7,2 minutos.</para>
+<item><emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis></item>
+</list></para><para id="element-726"><emphasis>Tome una decisión:</emphasis> Dado el valor de <emphasis effect="italics">α</emphasis> > <emphasis effect="italics">p</emphasis>, se rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>. Esto significa que rechaza <emphasis effect="italics">σ</emphasis><sup>2</sup> = 7,2<sup>2</sup>. En otras palabras, no cree que la variación de los tiempos de espera sea de 7,2 minutos; cree que la variación de los tiempos de espera es menor.</para><para id="element-952"><emphasis>Conclusión:</emphasis> A un nivel de significación del 5 %, a partir de los datos, hay pruebas suficientes para concluir que una sola fila provoca una menor variación entre los tiempos de espera <emphasis>o</emphasis> que con una sola fila, los tiempos de espera de los clientes varían menos de 7,2 minutos.</para>
  <note id="fs-idm81061344" class="statistics calculator"><label/>
  <para id="element-528">En <code>2nd DISTR</code>Utilice <code>7:χ2cdf</code>. La sintaxis es
 <code>(inferior, superior, df)</code> para la lista de parámetros. Para el <link target-id="element-28"/>, <code>χ2cdf(-1E99,5,67,24)</code>. El valor <emphasis effect="italics">p</emphasis> = 0,000042.</para></note></solution>
@@ -211,7 +211,7 @@
   </para>
 </problem>
 <solution id="eip-401">
- <para id="eip-306"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 0,81<sup>2</sup>;</para><para id="eip-idm138366848"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> &gt; 0,81<sup>2</sup> </para></solution>
+ <para id="eip-306"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 0,81<sup>2</sup>;</para><para id="eip-idm138366848"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> > 0,81<sup>2</sup> </para></solution>
   </exercise>
   <exercise id="eip-179"><problem id="eip-132">
     <para id="eip-957"><emphasis effect="italics">df</emphasis> = ________</para></problem>
@@ -295,7 +295,7 @@
 </problem>
 <solution id="eip-idm10455136">
 <para id="eip-idm10454880">una distribución t de Student <emphasis effect="italics">o</emphasis>normal</para></solution>
-</exercise><para id="eip-457"><emphasis effect="italics">Para cada problema de palabras use una hoja de soluciones para resolver el problema de la prueba de hipótesis. Vaya al <link document="m47882"/> para ver la hoja de soluciones de chi-cuadrado. Redondee la frecuencia esperada a dos decimales.</emphasis></para><exercise id="fs-idp51794048"><problem id="fs-idp51794176">
+</exercise><para id="eip-457"><emphasis effect="italics">Para cada problema de palabras use una hoja de soluciones para resolver el problema de la prueba de hipótesis. Vaya al <link document="m10502"/> para ver la hoja de soluciones de chi-cuadrado. Redondee la frecuencia esperada a dos decimales.</emphasis></para><exercise id="fs-idp51794048"><problem id="fs-idp51794176">
   <para id="fs-idm36035424">A la gerente de una planta le preocupa que su equipo necesite recalibración. Parece que el peso real de las cajas de cereales de 15 oz que llena ha estado fluctuando. La desviación típica debe ser como máximo de 0,5 oz. Para determinar si es necesario recalibrar la máquina, se pesaron 84 cajas de cereales seleccionadas al azar de la producción del día siguiente. La desviación típica de las 84 cajas fue de 0,54. ¿Es necesario recalibrar la máquina?
   </para>
  </problem>
@@ -307,7 +307,7 @@
  </problem>
   <solution id="fs-idp8292400">
    <list id="fs-idm38743456" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis> = 15</item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis> &gt; 15</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis> > 15</item>
 <item><emphasis effect="italics">df</emphasis> = 42</item>
 <item>chi-cuadrado con <emphasis effect="italics">df</emphasis> = 42</item>
 <item>estadístico de prueba = 26,88</item>
@@ -317,7 +317,7 @@
      <list id="fs-idp14221792" list-type="enumerated" number-style="lower-roman">
       <item>Alfa = 0,05</item>
       <item>Decisión: no rechazar la hipótesis nula.</item>
-      <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>&gt; alfa</item>
+      <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>> alfa</item>
       <item>Conclusión: no hay pruebas suficientes para concluir que la desviación típica es superior a 15.</item>
      </list>
     </item>   </list></solution>
@@ -332,7 +332,7 @@
   </para></problem>
   <solution id="fs-idp2191872">
    <list id="fs-idm74960368" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis> ≤ 3</item>
-    <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis> &gt; 3</item>
+    <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis> > 3</item>
     <item><emphasis effect="italics">df</emphasis> = 17</item>
     <item>distribución chi-cuadrado con <emphasis effect="italics">df</emphasis> = 17</item>
     <item>estadístico de prueba = 28,73</item>
@@ -408,7 +408,7 @@
   </problem>
    <solution id="fs-idp46489456">
     <para id="fs-idp77058224">La desviación típica de la muestra es de 34,29 dólares.</para>
-    <para id="fs-idp77058608"><emphasis effect="italics">H<sub>0</sub></emphasis> : <emphasis effect="italics">σ</emphasis><sup>2</sup> = 25<sup>2</sup><newline/> <emphasis effect="italics">H<sub>a</sub></emphasis> : <emphasis effect="italics">σ</emphasis><sup>2</sup> &gt; 25<sup>2</sup></para><para id="fs-idp53015088"><newline/><emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> – 1 = 7.</para><para id="fs-idp75015024"><newline/>estadístico de prueba: <m:math>
+    <para id="fs-idp77058608"><emphasis effect="italics">H<sub>0</sub></emphasis> : <emphasis effect="italics">σ</emphasis><sup>2</sup> = 25<sup>2</sup><newline/> <emphasis effect="italics">H<sub>a</sub></emphasis> : <emphasis effect="italics">σ</emphasis><sup>2</sup> > 25<sup>2</sup></para><para id="fs-idp53015088"><newline/><emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> – 1 = 7.</para><para id="fs-idp75015024"><newline/>estadístico de prueba: <m:math>
  <m:mrow>
   <m:msup>
    <m:mi>x</m:mi>
@@ -464,7 +464,7 @@
          <m:mn>7</m:mn>
          <m:mn>2</m:mn>
         </m:msubsup>
-        <m:mo>&gt;</m:mo><m:mn>13,169</m:mn>
+        <m:mo>></m:mo><m:mn>13,169</m:mn>
        </m:mrow>
        <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
         <m:mrow>
@@ -477,7 +477,7 @@
         </m:mrow>
         <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0,0681</m:mn>
      </m:mrow>
-    </m:math> </para><para id="fs-idp75024832"><newline/>Alfa: 0,05</para><para id="fs-idp120246432"><newline/>Decisión: No rechazar la hipótesis nula.</para><para id="fs-idp83140624"><newline/>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> &gt; alfa</para><para id="fs-idp62506704"><newline/>Conclusión: al nivel del 5 % no hay pruebas suficientes para concluir que la varianza es superior a 625.</para></solution>
+    </m:math> </para><para id="fs-idp75024832"><newline/>Alfa: 0,05</para><para id="fs-idp120246432"><newline/>Decisión: No rechazar la hipótesis nula.</para><para id="fs-idp83140624"><newline/>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> > alfa</para><para id="fs-idp62506704"><newline/>Conclusión: al nivel del 5 % no hay pruebas suficientes para concluir que la varianza es superior a 625.</para></solution>
   </exercise>
   <exercise id="eip-idp39276048"><problem id="eip-idp39276176">
    <para id="eip-574">Una compañía empaqueta manzanas por peso. Uno de los grados de peso es el de las manzanas de clase A. Las manzanas de clase A tienen un peso medio de 150 g, y existe una tolerancia de peso máxima permitida del 5 % por encima o por debajo de la media para las manzanas del mismo paquete de consumo. Se selecciona un lote de manzanas para incluirlo en un paquete de manzanas de clase A. Teniendo en cuenta los siguientes pesos de las manzanas del lote, ¿la fruta cumple con los requisitos de tolerancia de peso de la clase A? Realice una prueba de hipótesis adecuada.</para><para id="eip-idp93825408">(a) al nivel de significación del 5 %</para>

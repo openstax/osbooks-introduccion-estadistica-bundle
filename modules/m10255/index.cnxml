@@ -11,7 +11,7 @@
 <para id="fs-idp70908880">Al calcular la probabilidad, hay que tener en cuenta dos reglas para determinar si dos eventos son independientes o dependientes y si son mutuamente excluyentes o no.</para>
 <section id="element-860">
 <title>La regla de multiplicación</title>
-<para id="element-288">Si <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son dos eventos definidos en un <term>espacio muestral</term>, entonces <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi> <m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi> <m:mo>|</m:mo> <m:mi>B</m:mi><m:mo>)</m:mo></m:math> Podemos pensar que el símbolo de intersección sustituye a la palabra "y".   </para><para id="element-423">Esta regla también puede escribirse como: <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>|</m:mo> <m:mi>B</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo>
+<para id="element-288">Si <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son dos eventos definidos en un <term id="term-00001">espacio muestral</term>, entonces <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi> <m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi> <m:mo>|</m:mo> <m:mi>B</m:mi><m:mo>)</m:mo></m:math> Podemos pensar que el símbolo de intersección sustituye a la palabra "y".   </para><para id="element-423">Esta regla también puede escribirse como: <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>|</m:mo> <m:mi>B</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -22,7 +22,7 @@
 </m:mrow>
 </m:mfrac>
 </m:mrow>
-</m:math></para><para id="element-800">Esta ecuación se lee como la probabilidad de <emphasis effect="italics">A</emphasis> dado que <emphasis effect="italics">B</emphasis> es igual a la probabilidad de <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> dividido entre la probabilidad de <emphasis effect="italics">B</emphasis>.</para><para id="element-607">Si <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son <term>independientes</term>, entonces <m:math>
+</m:math></para><para id="element-800">Esta ecuación se lee como la probabilidad de <emphasis effect="italics">A</emphasis> dado que <emphasis effect="italics">B</emphasis> es igual a la probabilidad de <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> dividido entre la probabilidad de <emphasis effect="italics">B</emphasis>.</para><para id="element-607">Si <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son <term id="term-00002">independientes</term>, entonces <m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>A</m:mi>
@@ -107,7 +107,7 @@
 	<m:mo>∩</m:mo>
 	<m:mi>B</m:mi>
 	<m:mo>)</m:mo>
-</m:math>. Podemos pensar que el símbolo de la unión sustituye a la palabra "o". La razón por la que restamos la intersección de <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> es para no contar dos veces los elementos que están en <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis>.</para><para id="element-212">Si <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> <term>se excluyen mutuamente</term>, entonces <m:math>
+</m:math>. Podemos pensar que el símbolo de la unión sustituye a la palabra "o". La razón por la que restamos la intersección de <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> es para no contar dos veces los elementos que están en <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis>.</para><para id="element-212">Si <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> <term id="term-00003">se excluyen mutuamente</term>, entonces <m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>A</m:mi>
@@ -948,7 +948,7 @@
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">E</emphasis>) = 0,56</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">O</emphasis>) = 0,31</item>
 <item>No, el hecho de que se devuelva el dinero no es independiente de la clase en la que se haya colocado el dinero. Hay varias formas de justificar esto matemáticamente; una de ellas es que el dinero colocado en las clases de economía no se devuelve a la misma tasa global; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">E</emphasis>) ≠ <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>).</item>
-<item>No, este estudio definitivamente no apoya esa noción <emphasis effect="italics"><emphasis effect="underline">de hecho</emphasis></emphasis> sino que sugiere lo contrario. El dinero colocado en las aulas de Economía se devolvió en una proporción mayor que el dinero colocado en todas las clases colectivamente; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">E</emphasis>) &gt; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>).</item>
+<item>No, este estudio definitivamente no apoya esa noción <emphasis effect="italics"><emphasis effect="underline">de hecho</emphasis></emphasis> sino que sugiere lo contrario. El dinero colocado en las aulas de Economía se devolvió en una proporción mayor que el dinero colocado en todas las clases colectivamente; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">E</emphasis>) > <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>).</item>
 </list></solution>
 </exercise><exercise id="fs-idm127904"><problem id="fs-idm56833280">
 <para id="fs-idm27818464">La siguiente tabla de datos obtenida de www.baseball-almanac.com muestra la información de los batazos imparables de cuatro jugadores. Supongamos que se selecciona al azar un resultado de la tabla.</para><table id="fs-idp54590480" summary="---">

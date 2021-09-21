@@ -10,7 +10,7 @@
 <content>
 
 
-<para id="element-683">Una característica importante de cualquier conjunto de datos es su variación. En algunos conjuntos de datos, los valores de los datos se concentran muy cerca de la media; en otros, están más dispersos de la media. La medida más común de variación, o dispersión, es la desviación típica. La <term>desviación típica</term> es un número que mide la distancia entre los valores de los datos y su media.</para><section id="fs-idm94849104">
+<para id="element-683">Una característica importante de cualquier conjunto de datos es su variación. En algunos conjuntos de datos, los valores de los datos se concentran muy cerca de la media; en otros, están más dispersos de la media. La medida más común de variación, o dispersión, es la desviación típica. La <term id="term-00001">desviación típica</term> es un número que mide la distancia entre los valores de los datos y su media.</para><section id="fs-idm94849104">
 <title>La desviación típica</title>
 <list id="eip-id1169998044652" list-type="bulleted">
 <item>proporciona una medida numérica de la cantidad global de variación en un conjunto de datos y</item>
@@ -31,7 +31,7 @@
  </m:mover>
 
 </m:math></para><para id="eip-45">El procedimiento para calcular la desviación típica depende de si los números son toda la población o son datos de una muestra. Los cálculos son similares, pero no idénticos. Por tanto, el símbolo utilizado para representar la desviación típica depende de si se calcula a partir de una población o de una muestra. La letra minúscula s representa la desviación típica de la muestra y la letra griega <emphasis effect="italics">σ</emphasis> (sigma, minúscula) representa la desviación típica de la población. Si la muestra tiene las mismas características que la población, entonces s debería ser una buena estimación de <emphasis effect="italics">σ</emphasis>.</para>
-<para id="eip-689">Para calcular la desviación típica, tenemos que calcular primero la varianza. La <term>varianza</term> es el <emphasis>promedio de los cuadrados de las desviaciones</emphasis> (la <emphasis effect="italics">x</emphasis> – <m:math>
+<para id="eip-689">Para calcular la desviación típica, tenemos que calcular primero la varianza. La <term id="term-00002">varianza</term> es el <emphasis>promedio de los cuadrados de las desviaciones</emphasis> (la <emphasis effect="italics">x</emphasis> – <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
@@ -1558,7 +1558,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 </exercise>
 
 <exercise id="fs-idm40658512"><problem id="id4298561">
-<para id="id12029548">En un número reciente de la revista <cite><cite-title>IEEE Spectrum</cite-title></cite>, se anunciaron 84 conferencias de ingeniería. Cuatro conferencias duraron dos días. Treinta y seis duraron tres días. Dieciocho dudaron cuatro días. Diecinueve dudaron cinco días. Cuatro duraron seis días. Una duró siete días. Una duró ocho días. Una duró nueve días. Supongamos que <emphasis effect="italics">X</emphasis> = la duración (en días) de una conferencia de ingeniería.</para><list id="id6952326" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Organice los datos en un gráfico.</item>
+<para id="id12029548">En un número reciente de la revista <cite id="cite-00001"><cite-title>IEEE Spectrum</cite-title></cite>, se anunciaron 84 conferencias de ingeniería. Cuatro conferencias duraron dos días. Treinta y seis duraron tres días. Dieciocho dudaron cuatro días. Diecinueve dudaron cinco días. Cuatro duraron seis días. Una duró siete días. Una duró ocho días. Una duró nueve días. Supongamos que <emphasis effect="italics">X</emphasis> = la duración (en días) de una conferencia de ingeniería.</para><list id="id6952326" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Organice los datos en un gráfico.</item>
 <item>Calcule la mediana, el primer cuartil y el tercer cuartil.</item>
 <item>Calcule el percentil 65<sup/>.</item>
 <item>Calcule el percentil 10<sup/>.</item>

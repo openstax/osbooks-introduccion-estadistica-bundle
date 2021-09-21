@@ -17,7 +17,7 @@
 <image src="../../media/OSX_Spec_StatisticsTEA_Figure_13_03_01.jpg" mime-type="image/png" width="450"/></media></figure><example id="eip-353">
 <exercise id="eip-334">
 <problem id="eip-98">
-<para id="eip-924">Volvamos al ejercicio de los tomates bola en <link document="m47128" target-id="fs-idp19091024"/>. Las medias de los rendimientos de los tomates en las cinco condiciones de cubierta están representadas por <emphasis effect="italics">μ</emphasis><sub>1</sub>, <emphasis effect="italics">μ</emphasis><sub>2</sub>, <emphasis effect="italics">μ</emphasis><sub>3</sub>, <emphasis effect="italics">μ</emphasis><sub>4</sub>, <emphasis effect="italics">μ</emphasis><sub>5</sub>. Realizaremos una prueba de hipótesis para determinar si todas las medias son iguales o al menos una es diferente. Use un nivel de significación del 5 % y pruebe la hipótesis nula de que no hay diferencia en los rendimientos medios entre los cinco grupos contra la hipótesis alternativa de que, al menos, una media es diferente del resto.</para></problem>
+<para id="eip-924">Volvamos al ejercicio de los tomates bola en <link document="m10495" target-id="fs-idp19091024"/>. Las medias de los rendimientos de los tomates en las cinco condiciones de cubierta están representadas por <emphasis effect="italics">μ</emphasis><sub>1</sub>, <emphasis effect="italics">μ</emphasis><sub>2</sub>, <emphasis effect="italics">μ</emphasis><sub>3</sub>, <emphasis effect="italics">μ</emphasis><sub>4</sub>, <emphasis effect="italics">μ</emphasis><sub>5</sub>. Realizaremos una prueba de hipótesis para determinar si todas las medias son iguales o al menos una es diferente. Use un nivel de significación del 5 % y pruebe la hipótesis nula de que no hay diferencia en los rendimientos medios entre los cinco grupos contra la hipótesis alternativa de que, al menos, una media es diferente del resto.</para></problem>
 
 <solution id="eip-829">
 <para id="eip-573">Las hipótesis nula y alternativa son:</para>
@@ -94,11 +94,11 @@
 
 <figure id="fs-idm71243968"><media id="eip-idp67270848" alt="Este gráfico muestra una curva de distribución F no simétrica. El eje horizontal va de 0 a 5, y el eje vertical va de 0 a 0,7. La curva está fuertemente distorsionada a la derecha.">
 <image src="../../media/CNX_Stats_C13_M04_001.jpg" mime-type="image/jpeg" width="380"/>
-</media></figure><para id="eip-idm4421376"><emphasis>Declaración de probabilidad:</emphasis> valor <emphasis effect="italics">p</emphasis>= <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &gt; 4,481) = 0,0248.</para>
+</media></figure><para id="eip-idm4421376"><emphasis>Declaración de probabilidad:</emphasis> valor <emphasis effect="italics">p</emphasis>= <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> > 4,481) = 0,0248.</para>
 
 <para id="eip-idm4421120"><emphasis>Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>:</emphasis> <emphasis effect="italics">α</emphasis> = 0,05, valor <emphasis effect="italics">p</emphasis>= 0,0248</para>
 
-<para id="eip-idm141674128"><emphasis>Tome una decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> &gt; valor <emphasis effect="italics">p</emphasis>, rechazamos <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="eip-idm156731472"><emphasis>Conclusión:</emphasis> Al nivel de significación del 5 % tenemos pruebas razonablemente sólidas de que las diferencias en los rendimientos medios de las plantas de tomate de corte cultivadas en diferentes condiciones de cubierta de suelo es poco probable que se deban únicamente al azar. Podemos concluir que, al menos, algunas de las cubiertas produjeron diferentes rendimientos medios.</para>
+<para id="eip-idm141674128"><emphasis>Tome una decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>, rechazamos <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="eip-idm156731472"><emphasis>Conclusión:</emphasis> Al nivel de significación del 5 % tenemos pruebas razonablemente sólidas de que las diferencias en los rendimientos medios de las plantas de tomate de corte cultivadas en diferentes condiciones de cubierta de suelo es poco probable que se deban únicamente al azar. Podemos concluir que, al menos, algunas de las cubiertas produjeron diferentes rendimientos medios.</para>
 
 <note id="fs-idm170385984" class="statistics calculator">
 <label/>
@@ -190,7 +190,7 @@
 <note id="eip-id1170641699184">
 <label/>
 <title>Nota</title>
-<para id="eip-idp65526416">Este es un ejemplo de <term>diseño equilibrado</term>, ya que cada factor (es decir, la hermandad) tiene el mismo número de observaciones.</para>
+<para id="eip-idp65526416">Este es un ejemplo de <term id="term-00001">diseño equilibrado</term>, ya que cada factor (es decir, la hermandad) tiene el mismo número de observaciones.</para>
 </note>
 
 <para id="element-998"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> = <emphasis effect="italics">μ<sub>2</sub></emphasis> = <emphasis effect="italics">μ<sub>3</sub></emphasis> = <emphasis effect="italics">μ<sub>4</sub></emphasis></para>
@@ -206,7 +206,7 @@
 
 <para id="element-964"><emphasis>Gráfico:</emphasis></para>
 
-<figure id="fs-idm73326896"><media id="id4765799" alt="Este gráfico muestra una curva de distribución F no simétrica con valores de 0 y 2,23 en el eje x que representa el estadístico de prueba de los promedios de calificaciones de las hermandades de mujeres. La curva está ligeramente distorsionada hacia la derecha, pero es aproximadamente normal. Una línea vertical ascendente se extiende desde 2,23 hasta la curva y el área a la derecha de esta está sombreada para representar el valor p."><image src="../../media/fig-ch13_04_02N-8cdc.jpg" mime-type="image/png" width="380"/></media></figure><para id="element-484"><emphasis>Declaración de probabilidad:</emphasis> valor <emphasis effect="italics">p</emphasis>= <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &gt; 2,23) = 0,1241</para><para id="element-849"><emphasis>Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>:</emphasis> <emphasis effect="italics">α</emphasis> = 0,01<newline/> valor <emphasis effect="italics">p</emphasis> = 0,1241<newline/> <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis></para>
+<figure id="fs-idm73326896"><media id="id4765799" alt="Este gráfico muestra una curva de distribución F no simétrica con valores de 0 y 2,23 en el eje x que representa el estadístico de prueba de los promedios de calificaciones de las hermandades de mujeres. La curva está ligeramente distorsionada hacia la derecha, pero es aproximadamente normal. Una línea vertical ascendente se extiende desde 2,23 hasta la curva y el área a la derecha de esta está sombreada para representar el valor p."><image src="../../media/fig-ch13_04_02N-8cdc.jpg" mime-type="image/png" width="380"/></media></figure><para id="element-484"><emphasis>Declaración de probabilidad:</emphasis> valor <emphasis effect="italics">p</emphasis>= <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> > 2,23) = 0,1241</para><para id="element-849"><emphasis>Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>:</emphasis> <emphasis effect="italics">α</emphasis> = 0,01<newline/> valor <emphasis effect="italics">p</emphasis> = 0,1241<newline/> <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis></para>
 
 <para id="element-119"><emphasis>Tome una decisión:</emphasis> Como <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis>, no se puede rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
 
@@ -473,7 +473,7 @@
 
 <para id="element-81">Los <emphasis effect="italics">dfs</emphasis> para el numerador = el número de grupos – 1 = 3 – 1 = 2.</para><para id="element-691">El <emphasis effect="italics">dfs</emphasis> para el denominador = el número total de muestras – el número de grupos = 15 – 3 = 12</para><para id="element-174">La distribución de la prueba es <emphasis effect="italics">F</emphasis><sub>2, 12</sub> y el estadístico <emphasis effect="italics">F</emphasis> es <emphasis effect="italics">F</emphasis> = 0,134</para>
 
-<para id="element-351">El valor <emphasis effect="italics">p</emphasis>es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &gt; 0,134) = 0,8759. </para>
+<para id="element-351">El valor <emphasis effect="italics">p</emphasis>es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> > 0,134) = 0,8759. </para>
 
 <para id="element-528"><emphasis>Decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> = 0,03 y el valor <emphasis effect="italics">p</emphasis>= 0,8759, no se rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>. (¿Por qué?)</para>
 
@@ -507,7 +507,7 @@
 <note id="element-866" class="statistics collab">
 <label/>
 <title>Ejercicio de colaboración</title>
-<para id="element-746">A partir de la clase, cree cuatro grupos del mismo tamaño como sigue: hombres menores de 22 años, hombres de al menos 22 años, mujeres menores de 22 años, mujeres de al menos 22 años. Haga que cada miembro de cada grupo registre el número de estados de Estados Unidos que ha visitado. Realice un ANOVA para determinar si el promedio de estados visitados en los cuatro grupos es el mismo. Pruebe con un nivel de significación del 1 %. Utilice una de las hojas de solución en el <link document="m47882"/>.</para></note>
+<para id="element-746">A partir de la clase, cree cuatro grupos del mismo tamaño como sigue: hombres menores de 22 años, hombres de al menos 22 años, mujeres menores de 22 años, mujeres de al menos 22 años. Haga que cada miembro de cada grupo registre el número de estados de Estados Unidos que ha visitado. Realice un ANOVA para determinar si el promedio de estados visitados en los cuatro grupos es el mismo. Pruebe con un nivel de significación del 1 %. Utilice una de las hojas de solución en el <link document="m10502"/>.</para></note>
 
 
 <section id="eip-712" class="references">
@@ -526,7 +526,7 @@
 <title>Revisión del capítulo</title>
 <para id="eip-684">El gráfico de la distribución <emphasis effect="italics">F</emphasis> es siempre positivo y es asimétrico hacia la derecha, aunque la forma puede ser redondeada o exponencial dependiendo de la combinación de grados de libertad del numerador y del denominador. El estadístico <emphasis effect="italics">F</emphasis> es el cociente entre una medida de la variación de las medias de los grupos y una medida similar de la variación dentro de los grupos. Si la hipótesis nula es correcta, el numerador debe ser pequeño en comparación con el denominador. El resultado será un estadístico <emphasis effect="italics">F</emphasis> pequeño y el área debajo de la curva <emphasis effect="italics">F</emphasis> a la derecha será grande, lo que representa un valor <emphasis effect="italics">p</emphasis> grande. Cuando la hipótesis nula de la igualdad de las medias de los grupos es incorrecta, el numerador debe ser grande comparado con el denominador, lo que da un estadístico <emphasis effect="italics">F</emphasis> grande y un área pequeña (valor <emphasis effect="italics">p</emphasis> pequeño) a la derecha del estadístico debajo de la curva <emphasis effect="italics">F</emphasis>.</para>
 
-<para id="eip-833">Cuando los datos tienen tamaños de grupo desiguales (datos no equilibrados), hay que utilizar las técnicas de la <link document="m47128"/> para los cálculos manuales. Sin embargo, en el caso de datos equilibrados (los grupos tienen el mismo tamaño), se pueden utilizar cálculos simplificados basados en las medias y varianzas de los grupos. En la práctica, por supuesto, se suelen emplear softwares en el análisis. Como en cualquier análisis, se deben usar gráficos de diversa índole junto con técnicas numéricas. ¡Mire siempre con cuidado sus datos!</para></section>
+<para id="eip-833">Cuando los datos tienen tamaños de grupo desiguales (datos no equilibrados), hay que utilizar las técnicas de la <link document="m10495"/> para los cálculos manuales. Sin embargo, en el caso de datos equilibrados (los grupos tienen el mismo tamaño), se pueden utilizar cálculos simplificados basados en las medias y varianzas de los grupos. En la práctica, por supuesto, se suelen emplear softwares en el análisis. Como en cualquier análisis, se deben usar gráficos de diversa índole junto con técnicas numéricas. ¡Mire siempre con cuidado sus datos!</para></section>
 
 <section id="fs-idp110212080" class="practice">
 
@@ -794,7 +794,7 @@ Este
 
 <section id="fs-idp159138080" class="free-response"><title>Tarea para la casa</title><note id="fs-idm3376448"><label/><title>INSTRUCCIONES</title>
 
-<para id="eip-660">Utilice una hoja de soluciones para realizar las siguientes pruebas de hipótesis. La hoja de soluciones se encuentra en el <link document="m47882"/>.</para></note><exercise id="element-240">
+<para id="eip-660">Utilice una hoja de soluciones para realizar las siguientes pruebas de hipótesis. La hoja de soluciones se encuentra en el <link document="m10502"/>.</para></note><exercise id="element-240">
 <problem id="id19304316">
 <para id="element-106">Tres estudiantes, Linda, Tuan y Javier, reciben cinco ratas de laboratorio cada uno para un experimento nutricional. El peso de cada rata se registra en gramos. Linda alimenta sus ratas con la fórmula A, Tuan alimenta las suyas con la fórmula B y Javier con la fórmula C. Al final de un periodo determinado se pesa de nuevo cada rata y se registra el aumento neto en gramos. Use un nivel de significación del 10 % y pruebe la hipótesis de que las tres fórmulas producen el mismo aumento de peso medio.</para>
 <para id="element-800"><table id="id348a5492" summary="This table presents the net weight in grams of each rat with Linda's rats in the first column, Tuan's rats in the second column, and Javier's rats in the third column.">
@@ -1106,7 +1106,7 @@ Este
 <item>
 <list id="eip-idm119829920" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
 <item>Decisión: no rechazar la hipótesis nula.</item>
-<item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> &gt; alfa</item>
+<item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> > alfa</item>
 <item>Conclusión: Las calificaciones medias de la entrega de las distintas clases no son diferentes.</item>
 </list></item>
 </list>
@@ -1232,7 +1232,7 @@ Este
 <list id="eip-idm129088112" list-type="enumerated" number-style="lower-roman">
 <item>Alfa: 0,05</item>
 <item>Decisión: no rechazar la hipótesis nula.</item>
-<item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> &gt; alfa</item>
+<item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> > alfa</item>
 <item>Conclusión: No hay pruebas suficientes para concluir que el número medio de visitantes diarios sea diferente.</item>
 </list>
 </item>
@@ -1292,7 +1292,7 @@ Este
 <item><emphasis effect="italics">df(num)</emphasis> = __________, <emphasis effect="italics">df(denom)</emphasis> = ___________</item>
 <item>número de grupos _______</item>
 <item>número de observaciones _______</item>
-<item>valor <emphasis effect="italics">p</emphasis> = __________ (<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &gt; _______) = __________)</item>
+<item>valor <emphasis effect="italics">p</emphasis> = __________ (<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> > _______) = __________)</item>
 <item>Grafique el valor <emphasis effect="italics">p</emphasis>.</item>
 <item>decisión: _______________________</item>
 <item>conclusión: _______________________________________________________________</item>

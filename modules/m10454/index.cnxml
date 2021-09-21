@@ -14,13 +14,13 @@
 <item><emphasis effect="italics">σ<sub>Χ</sub></emphasis> = la desviación típica de <emphasis effect="italics">X</emphasis></item>
 </list>
 
-<para id="fs-idm29530720">Si se extraen muestras aleatorias de tamaño <emphasis effect="italics">n</emphasis>, a medida que aumenta <emphasis effect="italics">n</emphasis>, la variable aleatoria Σ<emphasis effect="italics">X</emphasis> formada por sumas tiende a <term>distribuirse normalmente</term> y Σ<emphasis effect="italics">Χ</emphasis> ~ <emphasis effect="italics">N</emphasis>((<emphasis effect="italics">n</emphasis>)(<emphasis effect="italics">μ<sub>Χ</sub></emphasis>), (<m:math>
+<para id="fs-idm29530720">Si se extraen muestras aleatorias de tamaño <emphasis effect="italics">n</emphasis>, a medida que aumenta <emphasis effect="italics">n</emphasis>, la variable aleatoria Σ<emphasis effect="italics">X</emphasis> formada por sumas tiende a <term id="term-00001">distribuirse normalmente</term> y Σ<emphasis effect="italics">Χ</emphasis> ~ <emphasis effect="italics">N</emphasis>((<emphasis effect="italics">n</emphasis>)(<emphasis effect="italics">μ<sub>Χ</sub></emphasis>), (<m:math>
  <m:mrow>
   <m:msqrt>
    <m:mi>n</m:mi>
   </m:msqrt>
  </m:mrow>
-</m:math>)(<emphasis effect="italics">σ<sub>Χ</sub></emphasis>)).</para><para id="element-603"><emphasis>El</emphasis> <term>teorema del límite central para las sumas</term> indica que si se extraen repetidamente muestras de un tamaño determinado (como lanzar repetidamente diez dados) y se calcula la suma de cada muestra, estas sumas tienden a seguir una distribución normal. A medida que aumenta el tamaño de la muestra, la distribución de las medias se ajusta más a la distribución normal. <emphasis>La distribución normal tiene una media igual a la media original multiplicada por el tamaño de la muestra y una desviación típica igual a la desviación típica original multiplicada por la raíz cuadrada del tamaño de la muestra.</emphasis></para><para id="element-7">La variable aleatoria Σ<emphasis effect="italics">X</emphasis> tiene asociada la siguiente puntuación <emphasis effect="italics">z</emphasis>:</para>
+</m:math>)(<emphasis effect="italics">σ<sub>Χ</sub></emphasis>)).</para><para id="element-603"><emphasis>El</emphasis> <term id="term-00002">teorema del límite central para las sumas</term> indica que si se extraen repetidamente muestras de un tamaño determinado (como lanzar repetidamente diez dados) y se calcula la suma de cada muestra, estas sumas tienden a seguir una distribución normal. A medida que aumenta el tamaño de la muestra, la distribución de las medias se ajusta más a la distribución normal. <emphasis>La distribución normal tiene una media igual a la media original multiplicada por el tamaño de la muestra y una desviación típica igual a la desviación típica original multiplicada por la raíz cuadrada del tamaño de la muestra.</emphasis></para><para id="element-7">La variable aleatoria Σ<emphasis effect="italics">X</emphasis> tiene asociada la siguiente puntuación <emphasis effect="italics">z</emphasis>:</para>
 
 <list id="element-434" list-type="enumerated" number-style="lower-alpha"><item>Σ<emphasis effect="italics">x</emphasis> es una suma.</item>
 <item><m:math>
@@ -81,7 +81,7 @@
 </m:math>)(desviación típica))</para>
 <para id="fs-idm140461680">donde: <list id="fs-idm89750656" list-type="bulleted"><item>la <emphasis effect="italics">media</emphasis> es la media de la distribución original</item>
 <item>la <emphasis effect="italics">desviación típica</emphasis> es la desviación típica de la distribución original</item>
-<item><term><emphasis effect="italics">tamaño de la muestra</emphasis></term> = n</item>
+<item><term id="term-00003"><emphasis effect="italics">tamaño de la muestra</emphasis></term> = n</item>
 </list></para>
 </note>
 
@@ -129,8 +129,8 @@
  </m:mrow>
 </m:math>(15)</item>
 <item>suma de 80 valores = <emphasis effect="italics">Σx</emphasis> = 7.500<newline/></item>
-</list><para id="fs-idm55727008">a. Calcule <emphasis effect="italics">P</emphasis>(Σ<emphasis effect="italics">x</emphasis> &gt; 7.500)</para>
-<para id="element-704"><emphasis effect="italics">P</emphasis>(Σ<emphasis effect="italics">x</emphasis> &gt; 7.500) = 0,0127</para>
+</list><para id="fs-idm55727008">a. Calcule <emphasis effect="italics">P</emphasis>(Σ<emphasis effect="italics">x</emphasis> > 7.500)</para>
+<para id="element-704"><emphasis effect="italics">P</emphasis>(Σ<emphasis effect="italics">x</emphasis> > 7.500) = 0,0127</para>
 
 <figure id="fs-idm54365952">
 <media id="id12212529" alt="Se trata de una curva de distribución normal. El pico de la curva coincide con el punto 7200 del eje horizontal. El punto 7500 también está marcado. Una línea vertical se extiende desde el punto 7500 hasta la curva. El área a la derecha de 7500 por debajo de la curva está sombreada.">
@@ -219,7 +219,7 @@
  </m:mrow>
 </m:math>(desviación típica))</para>
 
-<para id="fs-idm95058576">donde: <list id="fs-idm10652880" list-type="bulleted"><item><emphasis effect="italics">k</emphasis> es el <term>percentil</term> <emphasis effect="italics">k</emphasis><sup/></item>
+<para id="fs-idm95058576">donde: <list id="fs-idm10652880" list-type="bulleted"><item><emphasis effect="italics">k</emphasis> es el <term id="term-00004">percentil</term> <emphasis effect="italics">k</emphasis><sup/></item>
 <item>la <emphasis effect="italics">media</emphasis> es la media de la distribución original</item>
 <item>la <emphasis effect="italics">desviación típica</emphasis> es la desviación típica de la distribución original</item>
 <item>el <emphasis effect="italics">tamaño de la muestra</emphasis> = <emphasis effect="italics">n</emphasis></item>
@@ -575,7 +575,7 @@
 </solution> -->
 </exercise><exercise id="eip-710">
 <problem id="eip-587">
-  <para id="eip-649">¿Qué es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> &gt; 290)?</para>
+  <para id="eip-649">¿Qué es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> > 290)?</para>
 </problem>
 
 <solution id="eip-179">
@@ -661,7 +661,7 @@
   <para id="eip-892">1.000</para>
 </solution>
 </exercise><exercise id="eip-899"><problem id="eip-725">
-  <para id="eip-406">¿Qué es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> &gt; 9.000)?</para>
+  <para id="eip-406">¿Qué es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> > 9.000)?</para>
 </problem>
 
 <!-- <solution id="eip-948">

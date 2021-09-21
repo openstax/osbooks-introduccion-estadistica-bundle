@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-    <para id="eip-775">Recuerde el <link document="m47117" target-id="element-22">ejemplo del tercer examen o examen final</link>.</para><para id="eip-804">Examinamos el diagrama de dispersión y mostramos que el coeficiente de correlación es significativo. Hallamos la ecuación de la línea de mejor ajuste para la calificación del examen final como una función de la calificación del tercer examen. Ahora podemos utilizar la línea de regresión por mínimos cuadrados para la predicción.</para>
+    <para id="eip-775">Recuerde el <link document="m10487" target-id="element-22">ejemplo del tercer examen o examen final</link>.</para><para id="eip-804">Examinamos el diagrama de dispersión y mostramos que el coeficiente de correlación es significativo. Hallamos la ecuación de la línea de mejor ajuste para la calificación del examen final como una función de la calificación del tercer examen. Ahora podemos utilizar la línea de regresión por mínimos cuadrados para la predicción.</para>
 
 <para id="element-12498">Suponga que quiere estimar, o predecir, la calificación media del examen final de los estudiantes de Estadística que obtuvieron 73 en el tercer examen. Las calificaciones del examen <emphasis>(valores<emphasis effect="italics">x</emphasis>)</emphasis> oscilan entre 65 y 75. <emphasis> Dado que 73 está entre los valores de la <emphasis effect="italics">x</emphasis> 65 y 75</emphasis>, sustituya <emphasis effect="italics">x</emphasis> = 73 en la ecuación. Entonces:</para>
 
@@ -26,7 +26,7 @@
 <para id="fs-idm74881792">Predecimos que los estudiantes de Estadística que obtienen una calificación de 73 en el tercer examen obtendrán una calificación de 179,08 en el examen final, en promedio.</para>
 
 <example id="element-438">
-<para id="element-546">Recuerde el <link document="m47117" target-id="element-22">ejemplo del tercer examen o examen final</link>.<newline count="2"/></para><exercise id="element-770">
+<para id="element-546">Recuerde el <link document="m10487" target-id="element-22">ejemplo del tercer examen o examen final</link>.<newline count="2"/></para><exercise id="element-770">
 <problem id="id1170592391444">
   <para id="element-464">a. ¿Cuál sería la calificación del examen final de un estudiante que ha obtenido 66 en el tercer examen?  </para>
   <para id="element-306">b. ¿Cuál sería la calificación del examen final de un estudiante que ha obtenido 90 en el tercer examen?
@@ -49,7 +49,7 @@
 <m:mn>261,19</m:mn>
 </m:math> <newline/><newline/> Se prevé que la calificación del examen final sea de 261,19. La mayor calificación del examen final puede ser 200. <newline/>
 <note id="eip-id1168998191288"><label/><title>Nota</title>
-<para id="eip-idp117960960">El proceso de predicción dentro de los valores de la <emphasis effect="italics">x</emphasis> que se observan en los datos se denomina <term>interpolación</term>. El proceso de predicción fuera de los valores de la <emphasis effect="italics">x</emphasis> que se observan en los datos se denomina <term>extrapolación</term>.</para></note></para></solution>
+<para id="eip-idp117960960">El proceso de predicción dentro de los valores de la <emphasis effect="italics">x</emphasis> que se observan en los datos se denomina <term id="term-00001">interpolación</term>. El proceso de predicción fuera de los valores de la <emphasis effect="italics">x</emphasis> que se observan en los datos se denomina <term id="term-00002">extrapolación</term>.</para></note></para></solution>
 </exercise>
 </example>
 
@@ -291,7 +291,7 @@
 <problem id="fs-idp87495152">
 <para id="fs-idp59562368">¿Qué implica la correlación sobre la relación entre el tiempo (años) y el número de casos de gripe diagnosticados en EE. UU.?</para></problem>
 <solution id="fs-idp63232128">
-<para id="fs-idm19062048">Además, la correlación <emphasis effect="italics">r</emphasis> = 0,4526. Si se compara <emphasis effect="italics">r</emphasis> con el valor de los valores críticos al 95 % de la tabla de coeficientes de correlación de la muestra, porque <emphasis effect="italics">r</emphasis> &gt; 0,423, <emphasis effect="italics">r</emphasis> es significativa, y se podría pensar que la línea podría utilizarse para la predicción. Pero el diagrama de dispersión indica lo contrario.</para></solution>
+<para id="fs-idm19062048">Además, la correlación <emphasis effect="italics">r</emphasis> = 0,4526. Si se compara <emphasis effect="italics">r</emphasis> con el valor de los valores críticos al 95 % de la tabla de coeficientes de correlación de la muestra, porque <emphasis effect="italics">r</emphasis> > 0,423, <emphasis effect="italics">r</emphasis> es significativa, y se podría pensar que la línea podría utilizarse para la predicción. Pero el diagrama de dispersión indica lo contrario.</para></solution>
 </exercise>
 
 

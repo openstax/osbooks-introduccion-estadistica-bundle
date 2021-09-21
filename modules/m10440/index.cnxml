@@ -44,7 +44,7 @@
 </m:math> si se eligió a un hombre primero. La probabilidad de la segunda elección depende de lo que haya ocurrido en la primera.</item>
 <item> <emphasis>No</emphasis> se trata de ensayos de Bernoulli.</item>
 </list>
-<para id="fs-idp102799616">Los resultados de un experimento hipergeométrico se ajustan a una distribución de <term>probabilidad hipergeométrica</term>. La variable aleatoria <emphasis effect="italics">X</emphasis> = el número de elementos del grupo de interés.</para><example id="element-84">
+<para id="fs-idp102799616">Los resultados de un experimento hipergeométrico se ajustan a una distribución de <term id="term-00001">probabilidad hipergeométrica</term>. La variable aleatoria <emphasis effect="italics">X</emphasis> = el número de elementos del grupo de interés.</para><example id="element-84">
 <exercise id="fs-idp41303504"><problem id="fs-idm310432"><para id="element-88">Un plato de caramelos contiene 100 gominolas y 80 chicles. Se eligen 50 caramelos al azar. ¿Cuál es la probabilidad de que 35 de los 50 sean chicles? Los dos grupos son gominolas y chicles. Como la pregunta de probabilidad pide la probabilidad de seleccionar un chicle, el grupo de interés (primer grupo) es el de los chicles. El tamaño del grupo de interés (primer grupo) es de 80. El tamaño del segundo grupo es de 100. El tamaño de la muestra es de 50 (gominolas o chicles). Supongamos que <emphasis effect="italics">X</emphasis> = el número de chicles en la muestra de 50. <emphasis effect="italics">X</emphasis> toma los valores <emphasis effect="italics">x</emphasis> = 0, 1, 2, ..., 50. ¿Cuál es el enunciado de la probabilidad escrito matemáticamente?</para></problem>
 <solution id="fs-idm31176384">
 <para id="fs-idm45247120"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 35)</para></solution>
@@ -84,7 +84,7 @@
   <para id="element-597">c. 15 hombres<newline count="2"/></para>
   <para id="element-465">d. 18 mujeres<newline count="2"/></para>
   <para id="element-529">e. Supongamos que <emphasis effect="italics">X</emphasis> = <emphasis>el número de hombres</emphasis> del comité. <emphasis effect="italics">x</emphasis> = 0, 1, 2, ..., 7<newline count="2"/></para>
- <para id="element-0836">f. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 4)</para></solution>
+ <para id="element-0836">f. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 4)</para></solution>
 </exercise></example>
 
 <note id="fs-idm11539184" class="statistics try"><label/><title>Ejercicio</title>
@@ -146,7 +146,7 @@
 </exercise>
 </note><section id="fs-idp20462736" class="summary">
 <title>Revisión del capítulo</title>
-<para id="fs-idm26047632">Un experimento <term>hipergeométrico</term> es un experimento estadístico con las siguientes propiedades:</para>
+<para id="fs-idm26047632">Un experimento <term id="term-00002">hipergeométrico</term> es un experimento estadístico con las siguientes propiedades:</para>
 <list id="fs-idp5636464" list-type="enumerated">
 <item>Toma muestras de dos grupos.</item>
 <item>Le interesa un grupo de interés, llamado primer grupo.</item>

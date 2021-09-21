@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-    <para id="element-364">La notación para la <term>distribución chi-cuadrado</term> es:</para><equation id="eip-171" class="unnumbered"><label/><m:math display="block">
+    <para id="element-364">La notación para la <term id="term-00001">distribución chi-cuadrado</term> es:</para><equation id="eip-171" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
   <m:mi>χ</m:mi><m:mo>∼</m:mo><m:msubsup>
    <m:mi>χ</m:mi>
@@ -35,7 +35,7 @@
 <image src="../../media/fig-ch11_04_01n.jpg" mime-type="image/png" print-width="3in"/>
 </media></figure></item>
 <item>El estadístico de prueba para cualquier prueba es siempre mayor o igual a cero.</item>
-<item>Cuando <emphasis effect="italics">df</emphasis> &gt; 90, la curva chi-cuadrado se aproxima a la distribución normal. Para <emphasis effect="italics">X</emphasis> ~ <m:math>
+<item>Cuando <emphasis effect="italics">df</emphasis> > 90, la curva chi-cuadrado se aproxima a la distribución normal. Para <emphasis effect="italics">X</emphasis> ~ <m:math>
  <m:mrow>
   <m:msubsup>
    <m:mi>χ</m:mi>
@@ -64,7 +64,7 @@
 </section>
 <section id="eip-648" class="summary">
 <title>Revisión del capítulo</title>
-<para id="eip-38">La distribución chi-cuadrado es una herramienta útil para la evaluación en una serie de categorías de problemas. Estas categorías de problemas incluyen principalmente (i) si un conjunto de datos se ajusta a una determinada distribución; (ii) si las distribuciones de dos poblaciones son iguales; (iii) si dos eventos pueden ser independientes; y (iv) si hay una variabilidad diferente a la esperada dentro de una población.</para><para id="eip-227">Un parámetro importante en una distribución chi-cuadrado son los grados de libertad <emphasis effect="italics">df</emphasis> en un problema dado. La variable aleatoria en la distribución chi-cuadrado es la suma de cuadrados de <emphasis effect="italics">df</emphasis> variables normales estándar, los cuales deben ser independientes. Las características clave de la distribución chi-cuadrado también dependen directamente de los grados de libertad.</para><para id="eip-26">La curva de la distribución chi-cuadrado está distorsionada hacia la derecha, y su forma depende de los grados de libertad <emphasis effect="italics">df</emphasis>. Para <emphasis effect="italics">df</emphasis> &gt; 90, la curva se aproxima a la distribución normal. Los estadísticos de prueba basados en la distribución chi-cuadrado son siempre mayores o iguales a cero. Estas pruebas de aplicación son casi siempre pruebas de cola derecha.</para></section>
+<para id="eip-38">La distribución chi-cuadrado es una herramienta útil para la evaluación en una serie de categorías de problemas. Estas categorías de problemas incluyen principalmente (i) si un conjunto de datos se ajusta a una determinada distribución; (ii) si las distribuciones de dos poblaciones son iguales; (iii) si dos eventos pueden ser independientes; y (iv) si hay una variabilidad diferente a la esperada dentro de una población.</para><para id="eip-227">Un parámetro importante en una distribución chi-cuadrado son los grados de libertad <emphasis effect="italics">df</emphasis> en un problema dado. La variable aleatoria en la distribución chi-cuadrado es la suma de cuadrados de <emphasis effect="italics">df</emphasis> variables normales estándar, los cuales deben ser independientes. Las características clave de la distribución chi-cuadrado también dependen directamente de los grados de libertad.</para><para id="eip-26">La curva de la distribución chi-cuadrado está distorsionada hacia la derecha, y su forma depende de los grados de libertad <emphasis effect="italics">df</emphasis>. Para <emphasis effect="italics">df</emphasis> > 90, la curva se aproxima a la distribución normal. Los estadísticos de prueba basados en la distribución chi-cuadrado son siempre mayores o iguales a cero. Estas pruebas de aplicación son casi siempre pruebas de cola derecha.</para></section>
 <section id="eip-257" class="formula-review">
 <title>Revisión de la fórmula</title>
 <para id="eip-153"><emphasis effect="italics">χ</emphasis><sup>2</sup> = (<emphasis effect="italics">Z</emphasis><sub>1</sub>)<sup>2</sup> + (<emphasis effect="italics">Z</emphasis><sub>2</sub>)<sup>2</sup> + … (<emphasis effect="italics">Z<sub>df</sub></emphasis>)<sup>2</sup> variable aleatoria de distribución chi-cuadrado</para><para id="eip-800"><emphasis effect="italics">μ<sub>χ<sup>2</sup></sub></emphasis> = <emphasis effect="italics">df</emphasis> distribución chi-cuadrado media de la población</para><para id="eip-477"><m:math>
@@ -101,7 +101,7 @@
 </solution>
 </exercise>
 <exercise id="eip-313"><problem id="eip-552">
-  <para id="eip-774">Si <emphasis effect="italics">df</emphasis> &gt; 90, la distribución es _____________. Si <emphasis effect="italics">df</emphasis> = 15, la distribución es ________________.</para></problem>
+  <para id="eip-774">Si <emphasis effect="italics">df</emphasis> > 90, la distribución es _____________. Si <emphasis effect="italics">df</emphasis> = 15, la distribución es ________________.</para></problem>
 </exercise><exercise id="eip-836">
 <problem id="eip-509">
   <para id="eip-827">¿Cuándo se aproxima la curva chi-cuadrado a una distribución normal?</para></problem>

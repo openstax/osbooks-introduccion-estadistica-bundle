@@ -26,7 +26,7 @@
   <m:mo>¯</m:mo>
  </m:mover>
 
-</m:math> como una estimación de <emphasis effect="italics">μ</emphasis> y necesitamos el margen de error. Aquí, el margen de error (<emphasis effect="italics">EBM</emphasis>) se denomina <term>límite de error para una media poblacional</term> (abreviado <emphasis><emphasis effect="italics">EBM</emphasis></emphasis>). La media muestral <m:math>
+</m:math> como una estimación de <emphasis effect="italics">μ</emphasis> y necesitamos el margen de error. Aquí, el margen de error (<emphasis effect="italics">EBM</emphasis>) se denomina <term id="term-00001">límite de error para una media poblacional</term> (abreviado <emphasis><emphasis effect="italics">EBM</emphasis></emphasis>). La media muestral <m:math>
 <m:mover accent="true">
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
@@ -45,7 +45,7 @@
   </m:mover>
   <m:mtext>+</m:mtext><m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi>
  </m:mrow>
-</m:math>)</para><para id="eip-id1171253180187">El margen de error (<emphasis effect="italics">EBM</emphasis>) depende del <term>nivel de confianza</term> (<emphasis><emphasis effect="italics">CL</emphasis></emphasis>). El nivel de confianza suele considerarse la probabilidad de que la estimación del intervalo de confianza calculado contenga el verdadero parámetro poblacional. Sin embargo, es más preciso afirmar que el nivel de confianza es el porcentaje de intervalos de confianza que contienen el verdadero parámetro de la población cuando se toman muestras repetidas. La mayoría de las veces, la persona que construye el intervalo de confianza elige un nivel de confianza del 90 % o superior porque quiere estar razonablemente segura de sus conclusiones.</para>
+</m:math>)</para><para id="eip-id1171253180187">El margen de error (<emphasis effect="italics">EBM</emphasis>) depende del <term id="term-00002">nivel de confianza</term> (<emphasis><emphasis effect="italics">CL</emphasis></emphasis>). El nivel de confianza suele considerarse la probabilidad de que la estimación del intervalo de confianza calculado contenga el verdadero parámetro poblacional. Sin embargo, es más preciso afirmar que el nivel de confianza es el porcentaje de intervalos de confianza que contienen el verdadero parámetro de la población cuando se toman muestras repetidas. La mayoría de las veces, la persona que construye el intervalo de confianza elige un nivel de confianza del 90 % o superior porque quiere estar razonablemente segura de sus conclusiones.</para>
 
     <para id="eip-id1171259743972">Existe otra probabilidad llamada alfa (<emphasis effect="italics">α</emphasis>). <emphasis effect="italics">α</emphasis> está relacionada con el nivel de confianza, <emphasis effect="italics">CL</emphasis>. <emphasis effect="italics">α</emphasis> es la probabilidad de que el intervalo no contenga el parámetro poblacional desconocido. <newline/>Matemáticamente, <emphasis effect="italics">α</emphasis> + <emphasis effect="italics">CL</emphasis> = 1.</para>
 

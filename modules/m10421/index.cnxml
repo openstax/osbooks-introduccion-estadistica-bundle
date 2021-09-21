@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-<para id="element-280">Las medidas habituales de localización son <term>cuartiles</term> y <term>percentiles</term></para>
+<para id="element-280">Las medidas habituales de localización son <term id="term-00001">cuartiles</term> y <term id="term-00002">percentiles</term></para>
 
 <para id="fs-idp16986528">Los cuartiles son percentiles especiales. El primer cuartil, <emphasis effect="italics">Q</emphasis><sub>1</sub>, es igual que el percentil 25<sup/>, y el tercer cuartil, <emphasis effect="italics">Q</emphasis><sub>3</sub>, es igual que el percentil 75<sup/>. La mediana, <emphasis effect="italics">M</emphasis>, se denomina tanto el segundo cuartil como el percentil 50<sup/>.</para><para id="element-105">Para calcular cuartiles y percentiles, los datos se deben ordenar de menor a mayor. Los cuartiles dividen los datos ordenados en cuartos. Los percentiles dividen los datos ordenados en centésimas. Obtener una calificación en el percentil 90<sup/> de un examen no significa, necesariamente, que haya obtenido el 90 % en una prueba. Significa que el 90 % de las calificaciones de las pruebas son iguales o inferiores a su calificación y el 10 % de las calificaciones de las pruebas son iguales o superiores a su calificación.</para>
 <para id="fs-idm12500320">Los percentiles son útiles para comparar valores. Por esta razón, universidades e institutos universitarios usan ampliamente los percentiles. Uno de los casos en los que institutos universitarios y universidades utilizan los percentiles es cuando los resultados del SAT se emplean para determinar una calificación mínima del examen que se utilizará como factor de aceptación. Por ejemplo, supongamos que Duke acepta calificaciones del SAT iguales o superiores al percentil 75<sup/>. Eso se traduce en una calificación de, al menos, 1.220.</para>
@@ -16,7 +16,7 @@
 
 
 
-<para id="element-681">La <term>mediana</term> es un número que mide el “centro” de los datos. Se puede pensar en la mediana como el “valor medio”, pero no tiene por qué ser uno de los valores observados. Es un número que separa los datos ordenados en mitades. La mitad de los valores son iguales o menores que la mediana, y la mitad de los valores son iguales o mayores. Por ejemplo, considere los siguientes datos. <newline/>1; 11,5; 6; 7,2; 4; 8; 9; 10; 6,8; 8,3; 2; 2; 10; 1 <newline/>Ordenado de menor a mayor: <newline/>1; 1; 2; 2; 4; 6; 6,8; 7,2; 8; 8,3; 9; 10; 10; 11,5</para><para id="element-546">Como hay 14 observaciones, la mediana está entre el séptimo valor, 6,8, y el octavo, 7,2. Para hallar la mediana, sume los dos valores y divídalos entre dos.</para>
+<para id="element-681">La <term id="term-00003">mediana</term> es un número que mide el “centro” de los datos. Se puede pensar en la mediana como el “valor medio”, pero no tiene por qué ser uno de los valores observados. Es un número que separa los datos ordenados en mitades. La mitad de los valores son iguales o menores que la mediana, y la mitad de los valores son iguales o mayores. Por ejemplo, considere los siguientes datos. <newline/>1; 11,5; 6; 7,2; 4; 8; 9; 10; 6,8; 8,3; 2; 2; 10; 1 <newline/>Ordenado de menor a mayor: <newline/>1; 1; 2; 2; 4; 6; 6,8; 7,2; 8; 8,3; 9; 10; 10; 11,5</para><para id="element-546">Como hay 14 observaciones, la mediana está entre el séptimo valor, 6,8, y el octavo, 7,2. Para hallar la mediana, sume los dos valores y divídalos entre dos.</para>
 <equation id="element-293" class="unnumbered"><label/>
 <m:math>
 <m:apply>
@@ -35,11 +35,11 @@
 </m:math>
 </equation>
 <para id="element-995">La mediana es siete. La mitad de los valores son menores que siete y la mitad de los valores son mayores que siete.</para>
-<para id="element-308">Los <term>cuartiles</term> son números que separan los datos en cuartos. Los cuartiles pueden o no formar parte de los datos. Para hallar los cuartiles, primero hay que hallar la mediana o el segundo cuartil. El primer cuartil, <emphasis effect="italics">Q</emphasis><sub>1</sub>, es el valor central de la mitad inferior de los datos, y el tercer cuartil, <emphasis effect="italics">Q</emphasis><sub>3</sub>, es el valor central, o la mediana, de la mitad superior de los datos. Para hacerse una idea, considere el mismo conjunto de datos: <newline/>1; 1; 2; 2; 4; 6; 6,8; 7,2; 8; 8,3; 9; 10; 10; 11,5</para><para id="element-805">La mediana o <emphasis>segundo cuartil</emphasis> es siete. La mitad inferior de los datos son 1; 1; 2; 2; 4; 6; 6,8. El valor central de la mitad inferior es dos. <newline/>1; 1; 2; 2; 4; 6; 6,8
-</para><para id="element-227">El número dos, que forma parte de los datos, es el <term>primer cuartil</term>. Una cuarta parte de los conjuntos de valores son iguales o inferiores a dos y tres cuartas partes de los valores son superiores a dos.</para><para id="element-54">La mitad superior de los datos es 7,2; 8; 8,3; 9; 10; 10; 11,5. El valor central de la mitad superior es nueve.</para>
-<para id="element-386">El <term>tercer cuartil</term>, <emphasis effect="italics">Q</emphasis>3, es nueve. Tres cuartas partes (75 %) del conjunto de datos ordenados son menores de nueve. Una cuarta parte (25 %) del conjunto de datos ordenados son mayores de nueve. El tercer cuartil forma parte del conjunto de datos de este ejemplo.</para>
+<para id="element-308">Los <term id="term-00004">cuartiles</term> son números que separan los datos en cuartos. Los cuartiles pueden o no formar parte de los datos. Para hallar los cuartiles, primero hay que hallar la mediana o el segundo cuartil. El primer cuartil, <emphasis effect="italics">Q</emphasis><sub>1</sub>, es el valor central de la mitad inferior de los datos, y el tercer cuartil, <emphasis effect="italics">Q</emphasis><sub>3</sub>, es el valor central, o la mediana, de la mitad superior de los datos. Para hacerse una idea, considere el mismo conjunto de datos: <newline/>1; 1; 2; 2; 4; 6; 6,8; 7,2; 8; 8,3; 9; 10; 10; 11,5</para><para id="element-805">La mediana o <emphasis>segundo cuartil</emphasis> es siete. La mitad inferior de los datos son 1; 1; 2; 2; 4; 6; 6,8. El valor central de la mitad inferior es dos. <newline/>1; 1; 2; 2; 4; 6; 6,8
+</para><para id="element-227">El número dos, que forma parte de los datos, es el <term id="term-00005">primer cuartil</term>. Una cuarta parte de los conjuntos de valores son iguales o inferiores a dos y tres cuartas partes de los valores son superiores a dos.</para><para id="element-54">La mitad superior de los datos es 7,2; 8; 8,3; 9; 10; 10; 11,5. El valor central de la mitad superior es nueve.</para>
+<para id="element-386">El <term id="term-00006">tercer cuartil</term>, <emphasis effect="italics">Q</emphasis>3, es nueve. Tres cuartas partes (75 %) del conjunto de datos ordenados son menores de nueve. Una cuarta parte (25 %) del conjunto de datos ordenados son mayores de nueve. El tercer cuartil forma parte del conjunto de datos de este ejemplo.</para>
 
-<para id="element-716">El <term>rango intercuartil</term> es un número que indica la dispersión de la mitad central o del 50 % central de los datos. Es la diferencia entre el tercer cuartil (<emphasis effect="italics">Q</emphasis><sub>3</sub>) y el primer cuartil (<emphasis effect="italics">Q</emphasis><sub>1</sub>).</para>
+<para id="element-716">El <term id="term-00007">rango intercuartil</term> es un número que indica la dispersión de la mitad central o del 50 % central de los datos. Es la diferencia entre el tercer cuartil (<emphasis effect="italics">Q</emphasis><sub>3</sub>) y el primer cuartil (<emphasis effect="italics">Q</emphasis><sub>1</sub>).</para>
 
 <para id="delete_me"><emphasis effect="italics">IQR</emphasis> = <emphasis effect="italics">Q</emphasis><sub>3</sub> – <emphasis effect="italics">Q</emphasis><sub>1</sub></para><para id="element-847">El <emphasis effect="italics">IQR</emphasis> puede ayudar a determinar posibles <emphasis>valores atípicos</emphasis>. <emphasis>Se sospecha que un valor es un posible valor atípico si está menos de (1,5)(<emphasis effect="italics">IQR</emphasis>) por debajo del primer cuartil o más de (1,5)(<emphasis effect="italics">IQR</emphasis>) por encima del tercer cuartil</emphasis>. Los posibles valores atípicos siempre requieren una investigación más profunda.</para>
 
@@ -70,7 +70,7 @@
   </m:mfrac>
  </m:mrow>
 </m:math> = 649.000</para><para id="element-290"><emphasis effect="italics">IQR</emphasis> = 649.000 – 308.750 = 340.250</para><para id="element-166">(1,5)(<emphasis effect="italics">IQR</emphasis>) = (1,5)(340.250) = 510.375</para><para id="element-348"><emphasis effect="italics">Q</emphasis><sub>1</sub> – (1,5)(<emphasis effect="italics">IQR</emphasis>) = 308.750 – 510.375 = –201.625</para><para id="element-211"><emphasis effect="italics">Q</emphasis><sub>3</sub> + (1,5)(<emphasis effect="italics">IQR</emphasis>) = 649.000 + 510.375 = 1.159.375</para>
-<para id="element-109">Ningún precio de la vivienda es inferior a –201.625. Sin embargo, 5.500.000 son más que 1.159.375. Por lo tanto, 5.500.000 es un posible <term>valor atípico</term>.</para></solution>
+<para id="element-109">Ningún precio de la vivienda es inferior a –201.625. Sin embargo, 5.500.000 son más que 1.159.375. Por lo tanto, 5.500.000 es un posible <term id="term-00008">valor atípico</term>.</para></solution>
 </exercise>
 </example>
 
@@ -78,7 +78,7 @@
 <label/><title>Ejercicio</title>
 <exercise id="fs-idp63302352">
 <problem id="fs-idm22548992">
-<para id="fs-idp42507600">Para los siguientes 11 salarios, calcule el <emphasis effect="italics">IQR</emphasis> y determine si algún salario es un valor atípico. Los sueldos son en dólares.</para><para id="fs-idm25187088"><list list-type="labeled-item" display="inline">
+<para id="fs-idp42507600">Para los siguientes 11 salarios, calcule el <emphasis effect="italics">IQR</emphasis> y determine si algún salario es un valor atípico. Los sueldos son en dólares.</para><para id="fs-idm25187088"><list list-type="labeled-item" display="inline" id="list-00001">
 <item>$33.000</item>
 <item>$64.500</item>
 <item>$28.000</item>
@@ -97,7 +97,7 @@
 <example id="element-17">
 <exercise id="element-889">
 <problem id="id45587381">
-<para id="element-880">Para los dos conjuntos de datos del <link document="m46920" target-id="element-583">ejemplo de las puntuaciones de los exámenes</link>, calcule lo siguiente:</para><list id="element-971" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>El rango intercuartil. Compare los dos rangos intercuartiles.</item>
+<para id="element-880">Para los dos conjuntos de datos del <link document="m10422" target-id="element-583">ejemplo de las puntuaciones de los exámenes</link>, calcule lo siguiente:</para><list id="element-971" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>El rango intercuartil. Compare los dos rangos intercuartiles.</item>
 <item>Cualquier valor atípico en cualquier conjunto.</item>
 </list></problem>
 <solution id="fs-idm13740032">

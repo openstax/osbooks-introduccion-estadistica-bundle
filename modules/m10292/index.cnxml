@@ -30,8 +30,8 @@
 
  </m:mrow>
 </m:math></equation><para id="element-248">donde:</para>
-<list id="fs-idm37230752" list-type="bulleted"><item><emphasis effect="italics">O</emphasis> = <term>valores observados</term> (datos)</item>
-<item id="element-481"><emphasis effect="italics">E</emphasis> = <term>valores esperados</term> (de la teoría)</item>
+<list id="fs-idm37230752" list-type="bulleted"><item><emphasis effect="italics">O</emphasis> = <term id="term-00001">valores observados</term> (datos)</item>
+<item id="element-481"><emphasis effect="italics">E</emphasis> = <term id="term-00002">valores esperados</term> (de la teoría)</item>
 <item id="element-402"><emphasis effect="italics">k</emphasis> = el número de celdas o categorías de datos diferentes</item>
 </list><para id="element-512"><emphasis>Los valores observados son los valores de los datos y los valores esperados son los valores que se esperarían obtener si la hipótesis nula fuera cierta.</emphasis> Hay <emphasis effect="italics">n</emphasis> términos de la forma <m:math>
  <m:mrow>
@@ -50,7 +50,7 @@
 
  </m:mrow>
 </m:math>.</para>
-<para id="element-304">El número de grados de libertad es <emphasis effect="italics">df</emphasis> = (número de categorías – 1).</para><para id="element-838"><emphasis>La <term>prueba de bondad de ajuste</term> es casi siempre de cola derecha.</emphasis> Si los valores observados y los correspondientes valores esperados no se aproximan entre sí, el estadístico de prueba puede ser muy grande y se situará en la cola derecha de la curva de chi-cuadrado.</para><note id="eip-587"><label/><title>Nota</title>
+<para id="element-304">El número de grados de libertad es <emphasis effect="italics">df</emphasis> = (número de categorías – 1).</para><para id="element-838"><emphasis>La <term id="term-00003">prueba de bondad de ajuste</term> es casi siempre de cola derecha.</emphasis> Si los valores observados y los correspondientes valores esperados no se aproximan entre sí, el estadístico de prueba puede ser muy grande y se situará en la cola derecha de la curva de chi-cuadrado.</para><note id="eip-587"><label/><title>Nota</title>
 <para id="fs-idm98728224">El número de valores esperados dentro de cada celda debe ser al menos cinco para poder utilizar esta prueba.</para></note><example id="element-719"><para id="element-615">El ausentismo de los estudiantes universitarios a las clases de Matemáticas es una de las principales preocupaciones de los instructores de Matemáticas, ya que ausentarse a clase parece aumentar la tasa de abandono. Supongamos que se realiza un estudio para determinar si la tasa real de ausentismo de los estudiantes sigue la percepción del profesorado. El profesorado esperaba que un grupo de 100 estudiantes se ausentara a clase según <link target-id="M03_Ch03_tbl001"/>.</para><table id="M03_Ch03_tbl001" summary="The table consists of two columns with headings Number of absences and Expected number of students. There are 5 entries under each heading. Under Number of absences are the entries 0 to 2, 3 to 5, 6 to 8, 9 to 11, 12 plus. Under Expected number of students are the entries 50, 30, 12, 6, 2.">
 <tgroup cols="2"><thead>
   <row>
@@ -1067,7 +1067,7 @@
 </tgroup>
 </table></problem>
 </exercise>
-  <para id="eip-715"><emphasis effect="italics">Use la siguiente información para responder los dos próximos ejercicios:</emphasis> La UCLA realizó una encuesta a más de 263.000 estudiantes de primer año de 385 institutos universitarios en otoño de 2005. Los resultados de las especialidades esperadas de los estudiantes, por sexo, fueron presentado en <cite><cite-title>The Chronicle of Higher Education (2 feb 2006).</cite-title></cite>. Supongamos que el año pasado se realizó una encuesta de seguimiento a 5.000 mujeres y 5.000 hombres que se graduaron para determinar cuáles eran sus especialidades reales. Los resultados se muestran en las tablas de la <link target-id="element-465"/> y la <link target-id="element-100"/>. La segunda columna de cada tabla no suma el 100 % debido al redondeo.</para><exercise id="element-465">
+  <para id="eip-715"><emphasis effect="italics">Use la siguiente información para responder los dos próximos ejercicios:</emphasis> La UCLA realizó una encuesta a más de 263.000 estudiantes de primer año de 385 institutos universitarios en otoño de 2005. Los resultados de las especialidades esperadas de los estudiantes, por sexo, fueron presentado en <cite id="cite-00001"><cite-title>The Chronicle of Higher Education (2 feb 2006).</cite-title></cite>. Supongamos que el año pasado se realizó una encuesta de seguimiento a 5.000 mujeres y 5.000 hombres que se graduaron para determinar cuáles eran sus especialidades reales. Los resultados se muestran en las tablas de la <link target-id="element-465"/> y la <link target-id="element-100"/>. La segunda columna de cada tabla no suma el 100 % debido al redondeo.</para><exercise id="element-465">
   <problem id="id20689459">
     <para id="fs-idm7756464">Haga una prueba de bondad de ajuste para determinar si las especialidades universitarias reales de las mujeres que se gradúan se ajustan a la distribución de sus especialidades esperadas.
   </para>

@@ -11,7 +11,7 @@
 <para id="element-999">El experimento binomial tiene tres características. <list id="element-591" list-type="enumerated"><item>Hay un número fijo de ensayos. Piense en los ensayos como repeticiones de un experimento. La letra <emphasis effect="italics">n</emphasis> indica el número de ensayos.</item>
 <item>Solo hay dos resultados posibles, llamados “acierto” y “fallo” para cada ensayo. La letra <emphasis effect="italics">p</emphasis> denota la probabilidad de acierto en un ensayo, y la <emphasis effect="italics">q</emphasis> la probabilidad de fracaso en un ensayo. <emphasis effect="italics">p</emphasis> + <emphasis effect="italics">q</emphasis> = 1.</item>
 <item>Los <emphasis effect="italics">n</emphasis> ensayos son independientes y se repiten utilizando condiciones idénticas. Como los <emphasis effect="italics">n</emphasis> ensayos son independientes, el resultado de un ensayo no ayuda a predecir el resultado de otro. Otra forma de decir esto es que para cada ensayo individual la probabilidad, <emphasis effect="italics">p</emphasis>, de un acierto y la probabilidad, <emphasis effect="italics">q</emphasis>, de un fallo siguen siendo las mismas. Por ejemplo, estimar al azar una pregunta de estadística de verdadero-falso solo tiene dos resultados. Si un acierto es estimar correctamente, un fallo es estimar incorrectamente. Supongamos que Joe siempre acierta en cualquier pregunta de Estadística de verdadero-falso con una probabilidad <emphasis effect="italics">p</emphasis> = 0,6. Entonces, <emphasis effect="italics">q</emphasis> = 0,4. Esto significa que para cada pregunta de estadística de verdadero-falso que responda Joe su probabilidad de acierto (<emphasis effect="italics">p</emphasis> = 0,6) y su probabilidad de fallo (<emphasis effect="italics">q</emphasis> = 0,4) siguen siendo las mismas.</item>
-</list></para><para id="element-229">Los resultados de un experimento binomial se ajustan a una <term>distribución de probabilidad binomial</term>. La variable aleatoria <emphasis effect="italics">X</emphasis> = el número de aciertos obtenidos en los <emphasis effect="italics">n</emphasis> ensayos independientes.</para><para id="element-108">La media, <emphasis effect="italics">μ</emphasis>, y la varianza, <emphasis effect="italics">σ</emphasis><sup>2</sup>, de la distribución de probabilidad binomial son <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> y <emphasis effect="italics">σ</emphasis><sup>2</sup> = <emphasis effect="italics">npq</emphasis>. La desviación típica, <emphasis effect="italics">σ</emphasis>, es entonces <emphasis effect="italics">σ</emphasis> = <m:math>
+</list></para><para id="element-229">Los resultados de un experimento binomial se ajustan a una <term id="term-00001">distribución de probabilidad binomial</term>. La variable aleatoria <emphasis effect="italics">X</emphasis> = el número de aciertos obtenidos en los <emphasis effect="italics">n</emphasis> ensayos independientes.</para><para id="element-108">La media, <emphasis effect="italics">μ</emphasis>, y la varianza, <emphasis effect="italics">σ</emphasis><sup>2</sup>, de la distribución de probabilidad binomial son <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> y <emphasis effect="italics">σ</emphasis><sup>2</sup> = <emphasis effect="italics">npq</emphasis>. La desviación típica, <emphasis effect="italics">σ</emphasis>, es entonces <emphasis effect="italics">σ</emphasis> = <m:math>
  <m:mrow>
   <m:msqrt>
    <m:mrow>
@@ -20,7 +20,7 @@
   </m:msqrt>
 
  </m:mrow>
-</m:math>.</para><para id="element-612">Cualquier experimento que tenga las características dos y tres y en el que <emphasis effect="italics">n</emphasis> = 1 se llama <term>Ensayo de Bernoulli</term> (llamado así por Jacob Bernoulli que, a finales de 1600, los estudió ampliamente). Un experimento binomial se produce cuando se cuenta el número de aciertos en uno o más ensayos de Bernoulli.</para>
+</m:math>.</para><para id="element-612">Cualquier experimento que tenga las características dos y tres y en el que <emphasis effect="italics">n</emphasis> = 1 se llama <term id="term-00002">Ensayo de Bernoulli</term> (llamado así por Jacob Bernoulli que, a finales de 1600, los estudió ampliamente). Un experimento binomial se produce cuando se cuenta el número de aciertos en uno o más ensayos de Bernoulli.</para>
 
 <example id="element-375">
 <para id="element-545">En el Colegio ABC, la tasa de abandono de un curso de Física elemental es del 30 % en cualquier trimestre. Esto implica que, en cualquier trimestre, el 70 % de los alumnos permanecen en la clase durante todo el trimestre. Un “acierto" podría definirse como un individuo que se retira. La variable aleatoria <emphasis effect="italics">X</emphasis> = el número de estudiantes que se retiran de la clase de Física elemental seleccionada al azar.</para></example>
@@ -91,7 +91,7 @@
 </note><note id="id5442988">
 <label/>
 <title>NOTA</title>
-<para id="fs-idm93661872">Si quiere hallar <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 12), utilice la pdf (binompdf). Si quiere hallar <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 12), utilice 1 - binomcdf(20; 0,41;12).</para></note>
+<para id="fs-idm93661872">Si quiere hallar <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 12), utilice la pdf (binompdf). Si quiere hallar <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 12), utilice 1 - binomcdf(20; 0,41;12).</para></note>
 
 <para id="element-442">La probabilidad de que como máximo 12 trabajadores tengan un diploma de secundaria, pero no sigan ningún tipo de educación es de 0,9738.</para>
 
@@ -195,7 +195,7 @@
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math> = 0,9994</item>
-  <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 3) = 1 - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 3) = 1 - binomcdf<m:math>
+  <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 3) = 1 - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 3) = 1 - binomcdf<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -748,7 +748,7 @@
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math></item>
-<item>Nos interesa que MÁS DEL 75 % de las 32 preguntas sean correctas. El 75 % de 32 es 24. Queremos hallar <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 24). El evento “más de 24” es el complemento de “menos de o igual a 24”.</item>
+<item>Nos interesa que MÁS DEL 75 % de las 32 preguntas sean correctas. El 75 % de 32 es 24. Queremos hallar <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 24). El evento “más de 24” es el complemento de “menos de o igual a 24”.</item>
 <item>Con el menú de distribución de su calculadora: 1 - binomcdf<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
@@ -762,7 +762,7 @@
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math></item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 24) = 0</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 24) = 0</item>
 <item>La probabilidad de acertar más del 75 % de las 32 preguntas cuando se estima al azar es muy pequeña y prácticamente cero.</item>
 </list></solution>
 </exercise>
@@ -1019,7 +1019,7 @@
  </m:mrow>
 </m:math> = 1,7409</item>
 </list></item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 5) = 1 - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 5) = 1 - binomcdf(15, 0,281, 5) = 1 - 0,7754 = 0,2246 <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 3) = binompdf(15, 0,281, 3) = 0,1927 <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 4) = binompdf(15, 0,281, 4) = 0,2259 <newline/>Es más probable que cuatro personas sepan leer y escribir que tres.</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 5) = 1 - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 5) = 1 - binomcdf(15, 0,281, 5) = 1 - 0,7754 = 0,2246 <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 3) = binompdf(15, 0,281, 3) = 0,1927 <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 4) = binompdf(15, 0,281, 4) = 0,2259 <newline/>Es más probable que cuatro personas sepan leer y escribir que tres.</item>
 </list></solution>
 </exercise>
 

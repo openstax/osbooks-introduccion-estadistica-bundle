@@ -38,7 +38,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
 
    <m:mn>2</m:mn>
   </m:msub>
-</m:math>, y dividimos entre el error estándar para normalizar la diferencia. El resultado es un estadístico de prueba de puntuación t.</para><para id="element-254">Ya que desconocemos las desviaciones estándar de la población, las calculamos con las dos desviaciones estándar de nuestras muestras independientes. En la prueba de hipótesis, calculamos la desviación estándar o el <term>error estándar</term>, de la <emphasis>diferencia de las medias muestrales</emphasis>, <m:math>
+</m:math>, y dividimos entre el error estándar para normalizar la diferencia. El resultado es un estadístico de prueba de puntuación t.</para><para id="element-254">Ya que desconocemos las desviaciones estándar de la población, las calculamos con las dos desviaciones estándar de nuestras muestras independientes. En la prueba de hipótesis, calculamos la desviación estándar o el <term id="term-00001">error estándar</term>, de la <emphasis>diferencia de las medias muestrales</emphasis>, <m:math>
   <m:msub>
    <m:mover accent="true">
     <m:mi>X</m:mi>
@@ -209,7 +209,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
   </m:msub>
 </m:math> son las medias muestrales. <emphasis effect="italics">μ</emphasis><sub>1</sub> y <emphasis effect="italics">μ</emphasis><sub>2</sub> son las medias poblacionales.</item>
 </list></para>
-<para id="element-256" class="finger">El número de <term>grados de libertad (<emphasis effect="italics">df</emphasis>)</term> requiere un cálculo algo complicado. Sin embargo, la computadora o la calculadora lo calculan fácilmente. Los <emphasis effect="italics">df</emphasis> no son siempre un número entero. El estadístico de prueba calculado anteriormente se determina aproximadamente mediante la distribución <emphasis effect="italics">t</emphasis> de Student con <emphasis effect="italics">df</emphasis> de la siguiente manera:
+<para id="element-256" class="finger">El número de <term id="term-00002">grados de libertad (<emphasis effect="italics">df</emphasis>)</term> requiere un cálculo algo complicado. Sin embargo, la computadora o la calculadora lo calculan fácilmente. Los <emphasis effect="italics">df</emphasis> no son siempre un número entero. El estadístico de prueba calculado anteriormente se determina aproximadamente mediante la distribución <emphasis effect="italics">t</emphasis> de Student con <emphasis effect="italics">df</emphasis> de la siguiente manera:
 <equation id="eq_df" class="unnumbered"><label/><title>Grados de libertad</title><m:math>
  <m:mrow>
   <m:mi>d</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
@@ -405,7 +405,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
 <para id="element-939">¿Hay diferencia en la media de tiempo que los niños y las niñas de 7 a 11 años practican deportes cada día? Prueba al nivel de significación del 5%.</para></problem>
 <solution id="id21329984">
   <para id="element-296"><emphasis>No se conocen las desviaciones estándar de la población.</emphasis> Sea <emphasis effect="italics">g</emphasis> el subíndice de las niñas y <emphasis effect="italics">b</emphasis> el de los niños. Entonces, <emphasis effect="italics">μ<sub>g</sub></emphasis> es la media poblacional de las chicas y <emphasis effect="italics">μ<sub>b</sub></emphasis> es la de los niños. Se trata de una prueba de dos <emphasis>grupos independientes</emphasis> y dos <emphasis>medias</emphasis> poblacionales.</para>
-<para id="element-221"><term>Variable aleatoria</term>: <m:math display="">
+<para id="element-221"><term id="term-00003">Variable aleatoria</term>: <m:math display="">
  <m:mrow>
   <m:msub>
    <m:mrow>
@@ -478,7 +478,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
   </m:msub>
 
  </m:mrow>
-</m:math> = 2 – 3.2 = –1.2 <newline/>La mitad del valor <emphasis effect="italics">p</emphasis> es inferior a -1,2 y la otra mitad es superior a 1,2.</para><para id="element-823"><emphasis>Tome una decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> &gt; valor <emphasis effect="italics">p</emphasis>, rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>. Esto significa que se rechaza <emphasis effect="italics">μ<sub>g</sub></emphasis> = <emphasis effect="italics">μ<sub>b</sub></emphasis>. Las medias son diferentes.</para>
+</m:math> = 2 – 3.2 = –1.2 <newline/>La mitad del valor <emphasis effect="italics">p</emphasis> es inferior a -1,2 y la otra mitad es superior a 1,2.</para><para id="element-823"><emphasis>Tome una decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>, rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>. Esto significa que se rechaza <emphasis effect="italics">μ<sub>g</sub></emphasis> = <emphasis effect="italics">μ<sub>b</sub></emphasis>. Las medias son diferentes.</para>
 
 <note id="fs-idp61535456" class="statistics calculator">
 <label/>
@@ -540,7 +540,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
 <note id="fs-idm50414208">
 <label/>
 <title>NOTA</title>
-<para id="fs-idm204425680">Cuando la suma de los tamaños de las muestras es mayor que 30 (<emphasis effect="italics">n</emphasis><sub>1</sub> + <emphasis effect="italics">n</emphasis><sub>2</sub> &gt; 30), se puede utilizar la distribución normal para calcular aproximadamente la <emphasis effect="italics">t</emphasis> de Student.</para></note>
+<para id="fs-idm204425680">Cuando la suma de los tamaños de las muestras es mayor que 30 (<emphasis effect="italics">n</emphasis><sub>1</sub> + <emphasis effect="italics">n</emphasis><sub>2</sub> > 30), se puede utilizar la distribución normal para calcular aproximadamente la <emphasis effect="italics">t</emphasis> de Student.</para></note>
 
 <example id="element-968"><para id="element-980">Un grupo comunitario realiza un estudio en dos universidades vecinas para determinar cuál de ellas gradúa a los estudiantes con más clases de matemáticas. La universidad A toma una muestra de 11 graduados. Su promedio es de cuatro clases de matemáticas con desviación estándar de 1,5. La universidad B toma una muestra de nueve graduados. Su promedio es de 3,5 clases de matemáticas con desviación estándar de una clase de matemáticas. El grupo comunitario cree que un estudiante que se gradúa en la universidad A <emphasis>ha tomado más clases de matemáticas,</emphasis> en promedio. Ambas poblaciones tienen una distribución normal. Pruebe con un nivel de significación del 1 %. Responda las siguientes preguntas:<newline count="2"/></para><exercise id="fs-idm178911728"><problem id="fs-idm177203296">
 <para id="fs-idm171395200">a. ¿Se trata de una prueba de dos medias o de dos proporciones?</para>
@@ -619,7 +619,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
         <m:mi>μ</m:mi>
         <m:mi>A</m:mi>
       </m:msub>
-      <m:mo>&gt;</m:mo><m:msub>
+      <m:mo>></m:mo><m:msub>
         <m:mi>μ</m:mi>
         <m:mi>B</m:mi>
       </m:msub>
@@ -825,7 +825,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
 </solution>
 </exercise>
 </example>
-<para id="eip-358"><title>Criterios de Cohen para efectos de tamaño pequeño, mediano y grande</title>La <term>d <emphasis effect="italics">de Cohen</emphasis></term> es la medida del tamaño del efecto con base en las diferencias entre dos medias. La <emphasis effect="italics">d</emphasis> de Cohen, llamada así por el estadístico estadounidense Jacob Cohen, mide la fuerza relativa de las diferencias entre las medias de dos poblaciones a partir de los datos de la muestra. El valor calculado del tamaño del efecto se compara entonces con los criterios de Cohen de efecto de tamaño pequeño, mediano y grande.</para><table id="fs-idp93235584" summary="">
+<para id="eip-358"><title>Criterios de Cohen para efectos de tamaño pequeño, mediano y grande</title>La <term id="term-00004">d <emphasis effect="italics">de Cohen</emphasis></term> es la medida del tamaño del efecto con base en las diferencias entre dos medias. La <emphasis effect="italics">d</emphasis> de Cohen, llamada así por el estadístico estadounidense Jacob Cohen, mide la fuerza relativa de las diferencias entre las medias de dos poblaciones a partir de los datos de la muestra. El valor calculado del tamaño del efecto se compara entonces con los criterios de Cohen de efecto de tamaño pequeño, mediano y grande.</para><table id="fs-idp93235584" summary="">
 <title>Tamaños de los efectos de los criterios de Cohen</title>
 <tgroup cols="2">
 <thead>
@@ -1738,7 +1738,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
 
 <section id="fs-idm173509824" class="free-response">
 <title>Tarea para la casa</title>
-<para id="eip-747"><emphasis effect="italics">INSTRUCCIONES: Por cada uno de los problemas de palabras, utilice una hoja de soluciones para comprobar la hipótesis. La hoja de soluciones se encuentra en el <link document="m47882">Apéndice E</link>. Siéntase en libertad de hacer copias de las hojas de soluciones. Para la versión en línea del libro, se sugiere copiar los archivos .doc o .pdf.</emphasis></para><note id="eip-792"><label/>
+<para id="eip-747"><emphasis effect="italics">INSTRUCCIONES: Por cada uno de los problemas de palabras, utilice una hoja de soluciones para comprobar la hipótesis. La hoja de soluciones se encuentra en el <link document="m10502">Apéndice E</link>. Siéntase en libertad de hacer copias de las hojas de soluciones. Para la versión en línea del libro, se sugiere copiar los archivos .doc o .pdf.</emphasis></para><note id="eip-792"><label/>
 <title>NOTA</title>
     <para id="eip-idp140444868962512">Si utiliza la distribución <emphasis effect="italics">t</emphasis> de Student para un problema de tarea en lo que sigue, incluso para datos emparejados, puede suponer que la población subyacente está distribuida normalmente. (Sin embargo, cuando se utilicen estas pruebas en una situación real, primero hay que demostrar esa suposición).</para></note><exercise id="fs-idm164128"><problem id="fs-idm163872">
 <para id="fs-idm163616">Se cree que el número medio de cursos de inglés que toman en un período de dos años los estudiantes universitarios masculinos y femeninos es aproximadamente el mismo. Se realiza un experimento y se recopilan datos de 29 hombres y 16 mujeres. Los hombres tomaron una media de tres cursos de inglés, con desviación estándar de 0,8. Las mujeres tomaron una media de cuatro cursos de inglés, con desviación estándar de 1,0. ¿Son las medias estadísticamente iguales?</para>
@@ -1782,7 +1782,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
       <list id="fs-idp113692848" list-type="enumerated" number-style="lower-roman">
         <item>Alfa: 0,05</item>
         <item>Decisión: No rechazar.</item>
-        <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> &gt; alfa</item>
+        <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> > alfa</item>
         <item>Conclusión: A un nivel de significación del 5 %, hay pruebas suficientes para concluir que la media de matriculación en las universidades de cuatro años es mayor que en los colegios universitarios de dos años.</item>
       </list>
     </item>
@@ -1878,7 +1878,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
     <list id="fs-idp3469344" list-type="enumerated" number-style="lower-roman">
       <item>Alfa: 0,05</item>
       <item>Decisión: No rechazar la hipótesis nula.</item>
-      <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> &gt; alfa</item>
+      <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> > alfa</item>
       <item>Conclusión: A un nivel de significación del 5 % no hay pruebas suficientes para concluir que la media de los salarios iniciales de los ingenieros mecánicos es inferior a la de los ingenieros eléctricos.</item>
     </list>
     </item>
@@ -1893,7 +1893,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
   </exercise>
 
 
-<para id="eip-21"><emphasis effect="italics">Utilice la información de <link document="m47873"/> para responder los cuatro ejercicios siguientes.</emphasis></para><exercise id="fs-idm50796704">
+<para id="eip-21"><emphasis effect="italics">Utilice la información de <link document="m10500"/> para responder los cuatro ejercicios siguientes.</emphasis></para><exercise id="fs-idm50796704">
 <problem id="fs-idm50796448">
 <para id="fs-idm98236496">Con solo los datos de la vuelta 1, realice una prueba de hipótesis para determinar si el tiempo medio para completar una vuelta en las carreras es el mismo que en los entrenamientos.</para>
 </problem>
@@ -2088,7 +2088,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
         <para id="eip-853">Supongamos que una instructora de Estadística cree que no hay ninguna diferencia significativa entre las puntuaciones medias de clase de los estudiantes de diurnos en el examen 2 y los estudiantes nocturnos. Toma muestras aleatorias de cada una de las poblaciones. La media y la desviación estándar de los 35 estudiantes diurnos de Estadística fueron 75,86 y 16,91, respectivamente. La media y la desviación estándar de 37 estudiantes nocturnos de Estadística fueron de 75,41 y 19,73. El subíndice “día” se refiere a los estudiantes diurnos. El subíndice “noche” se refiere a los estudiantes nocturnos. Otra hipótesis adecuada para la prueba de hipótesis es:</para>
 
         <list id="eip-idp47881856" list-type="enumerated" number-style="lower-alpha">
-          <item><emphasis effect="italics">μ</emphasis><sub>día</sub> &gt; <emphasis effect="italics">μ</emphasis><sub>noche</sub></item>
+          <item><emphasis effect="italics">μ</emphasis><sub>día</sub> > <emphasis effect="italics">μ</emphasis><sub>noche</sub></item>
           <item><emphasis effect="italics">μ</emphasis><sub>día</sub> &lt; <emphasis effect="italics">μ</emphasis><sub>noche</sub></item>
           <item><emphasis effect="italics">μ</emphasis><sub>día</sub> = <emphasis effect="italics">μ</emphasis><sub>noche</sub></item>
           <item><emphasis effect="italics">μ</emphasis><sub>día</sub> ≠ <emphasis effect="italics">μ</emphasis><sub>noche</sub></item>

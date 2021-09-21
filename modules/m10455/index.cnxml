@@ -8,12 +8,12 @@
 </metadata>
 
 <content>
-    <para id="delete_me">Es importante que entienda cuándo utilizar el <term>teorema del límite central</term>. Si se le pide que encuentre la probabilidad de la media, utilice el TLC para la media. Si se le pide que encuentre la probabilidad de una suma o un total, utilice el TLC para sumas. Esto también se aplica a los percentiles para las medias y las sumas.</para><note id="id11030776"><label/><title>NOTA</title>
+    <para id="delete_me">Es importante que entienda cuándo utilizar el <term id="term-00001">teorema del límite central</term>. Si se le pide que encuentre la probabilidad de la media, utilice el TLC para la media. Si se le pide que encuentre la probabilidad de una suma o un total, utilice el TLC para sumas. Esto también se aplica a los percentiles para las medias y las sumas.</para><note id="id11030776"><label/><title>NOTA</title>
 <para id="fs-idm90223456">Si se le pide que encuentre la probabilidad de un valor <emphasis>individual</emphasis>, <emphasis>no</emphasis> utilice el TLC. <emphasis>Utilice la distribución de su variable aleatoria.</emphasis></para></note><section id="element-733">
 <title>Ejemplos del teorema del límite central</title>
 <section id="fs-idp5962992">
 <title>Ley de los grandes números</title>
-<para id="element-349">La <term>ley de los grandes números</term> indica que si se toman muestras cada vez más grandes de cualquier población, entonces la media <m:math>
+<para id="element-349">La <term id="term-00002">ley de los grandes números</term> indica que si se toman muestras cada vez más grandes de cualquier población, entonces la media <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
@@ -44,7 +44,7 @@
 <section id="fs-idm1089056">
 <title>Teorema del límite central para los ejemplos de media y suma</title>
 <example id="element-482">
-<para id="element-361">Se realiza un estudio sobre el estrés entre los estudiantes de un campus universitario. <emphasis>Las puntuaciones de estrés siguen una <term>distribución uniforme</term></emphasis> con la puntuación de estrés más baja igual a uno y la más alta igual a cinco. Utilizando una muestra de 75 estudiantes, calcule:</para>
+<para id="element-361">Se realiza un estudio sobre el estrés entre los estudiantes de un campus universitario. <emphasis>Las puntuaciones de estrés siguen una <term id="term-00003">distribución uniforme</term></emphasis> con la puntuación de estrés más baja igual a uno y la más alta igual a cinco. Utilizando una muestra de 75 estudiantes, calcule:</para>
 
 <list id="fs-idp18838512" list-type="enumerated" number-style="lower-alpha">
 <item>La probabilidad de que la <emphasis>puntuación media de estrés</emphasis> de los 75 estudiantes sea inferior a dos.</item>
@@ -53,9 +53,9 @@
 <item>El percentil 90<sup/> de la <emphasis>puntuación total de estrés</emphasis> de los 75 estudiantes.</item>
 </list><para id="element-294">Supongamos que <emphasis effect="italics">X</emphasis> = una puntuación de estrés.</para>
 
-<para id="element-632">En los problemas a y b se pide encontrar una probabilidad o un percentil para una <term>media</term>. En los problemas c y d se pide encontrar una probabilidad o un percentil para un <emphasis>total o una suma</emphasis>. El tamaño de la muestra, <emphasis effect="italics">n</emphasis>, es igual a 75.</para>
+<para id="element-632">En los problemas a y b se pide encontrar una probabilidad o un percentil para una <term id="term-00004">media</term>. En los problemas c y d se pide encontrar una probabilidad o un percentil para un <emphasis>total o una suma</emphasis>. El tamaño de la muestra, <emphasis effect="italics">n</emphasis>, es igual a 75.</para>
 
-<para id="element-494">Dado que las puntuaciones individuales de estrés siguen una distribución uniforme, <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(1, 5) donde <emphasis effect="italics">a</emphasis> = 1 y <emphasis effect="italics">b</emphasis> = 5 (vea <link document="m46967">Variables aleatorias continuas</link> para una explicación de la distribución uniforme).</para><para id="element-35"><emphasis effect="italics">μ<sub>X</sub></emphasis> = <m:math>
+<para id="element-494">Dado que las puntuaciones individuales de estrés siguen una distribución uniforme, <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(1, 5) donde <emphasis effect="italics">a</emphasis> = 1 y <emphasis effect="italics">b</emphasis> = 5 (vea <link document="m10444">Variables aleatorias continuas</link> para una explicación de la distribución uniforme).</para><para id="element-35"><emphasis effect="italics">μ<sub>X</sub></emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -346,13 +346,13 @@
 <m:mo>¯</m:mo>
 </m:mover>
 </m:math> &lt; 7).</item>
-<item>Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> &gt; 170).</item>
+<item>Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> > 170).</item>
 <item>Calcule el percentil 80<sup/> para la media de 55 puntuaciones.</item>
 <item>Encuentre el percentil 85<sup/> para la suma de 55 puntuaciones.</item>
 </list>
 </problem>
 </exercise></note><example id="example2">
-<para id="eip-id1171180958925">Supongamos que un analista de investigación de mercado de una empresa de telefonía móvil realiza un estudio sobre sus clientes que superan el tiempo incluido en su contrato básico de telefonía móvil; el analista descubre que, para las personas que superan el tiempo incluido en su contrato básico, el <emphasis>exceso de tiempo utilizado</emphasis> sigue una <term>distribución exponencial</term> con una media de 22 minutos.</para><para id="eip-id1171181431405">Consideremos una muestra aleatoria de 80 clientes que superan el límite de tiempo incluido en su contrato básico de telefonía móvil.</para>
+<para id="eip-id1171180958925">Supongamos que un analista de investigación de mercado de una empresa de telefonía móvil realiza un estudio sobre sus clientes que superan el tiempo incluido en su contrato básico de telefonía móvil; el analista descubre que, para las personas que superan el tiempo incluido en su contrato básico, el <emphasis>exceso de tiempo utilizado</emphasis> sigue una <term id="term-00005">distribución exponencial</term> con una media de 22 minutos.</para><para id="eip-id1171181431405">Consideremos una muestra aleatoria de 80 clientes que superan el límite de tiempo incluido en su contrato básico de telefonía móvil.</para>
 
 <para id="eip-id1171181123857">Supongamos que <emphasis effect="italics">X</emphasis> = el exceso de tiempo utilizado por un cliente de telefonía móvil INDIVIDUAL que supera su asignación de tiempo contratada.</para>
 
@@ -414,8 +414,8 @@
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-</m:math> &gt; 20). Dibuje el gráfico.</item>
-<item>Supongamos que se selecciona aleatoriamente un cliente que supera el límite de tiempo de su contrato de telefonía móvil. Calcule la probabilidad de que el exceso de tiempo de este cliente individual sea superior a 20 minutos. Esto nos pide encontrar <emphasis effect="italics">P</emphasis><emphasis effect="italics">(x</emphasis> &gt; 20).</item>
+</m:math> > 20). Dibuje el gráfico.</item>
+<item>Supongamos que se selecciona aleatoriamente un cliente que supera el límite de tiempo de su contrato de telefonía móvil. Calcule la probabilidad de que el exceso de tiempo de este cliente individual sea superior a 20 minutos. Esto nos pide encontrar <emphasis effect="italics">P</emphasis><emphasis effect="italics">(x</emphasis> > 20).</item>
 <item>Explique por qué las probabilidades de las partes a y b son diferentes.</item>
 </list></problem>
 
@@ -427,13 +427,13 @@
   <m:mo>¯</m:mo>
  </m:mover>
 
-</m:math> &gt; 20)</para>
+</m:math> > 20)</para>
 <para id="fs-idm18337216"><emphasis effect="italics">P</emphasis>(<m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-</m:math> &gt; 20) = 0,79199 utilizando <code>normalcdf</code><m:math>
+</m:math> > 20) = 0,79199 utilizando <code>normalcdf</code><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -457,7 +457,7 @@
 </m:math></para><para id="eip-id1171180808191">La probabilidad de que el exceso de tiempo medio utilizado sea superior a 20 minutos es de 0,7919, para una muestra de 80 clientes que superan el tiempo contratado.</para>
 
 <figure id="fs-idm52706528">
-<media id="id1164895099196" alt="Se trata de una curva de distribución normal. El pico de la curva coincide con el punto 22 del eje horizontal. Un punto, el 20, está marcado a la izquierda del 22. Una línea vertical se extiende desde 20 hasta la curva. El área bajo la curva a la derecha de k está sombreada. El área sombreada muestra que P(x-bar &gt; 20).">
+<media id="id1164895099196" alt="Se trata de una curva de distribución normal. El pico de la curva coincide con el punto 22 del eje horizontal. Un punto, el 20, está marcado a la izquierda del 22. Una línea vertical se extiende desde 20 hasta la curva. El área bajo la curva a la derecha de k está sombreada. El área sombreada muestra que P(x-bar > 20).">
 <image src="../../media/fig-ch07_04_05N-6e77.jpg" mime-type="image/jpg" width="380"/></media>
 </figure>
 
@@ -468,7 +468,7 @@
 </item>
 
 <item>
-<para id="element-260">Calcule <emphasis effect="italics">P</emphasis>(x &gt; 20). Recuerde utilizar la distribución exponencial para un <emphasis>individuo:</emphasis> <m:math>
+<para id="element-260">Calcule <emphasis effect="italics">P</emphasis>(x > 20). Recuerde utilizar la distribución exponencial para un <emphasis>individuo:</emphasis> <m:math>
  <m:mrow>
   <m:mi>X</m:mi><m:mo>~</m:mo><m:mi>E</m:mi><m:mi>x</m:mi><m:mi>p</m:mi><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -484,7 +484,7 @@
  </m:mrow>
 </m:math>.<newline/><m:math>
  <m:mrow>
-  <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>20</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> = </m:mtext><m:msup>
+  <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>20</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> = </m:mtext><m:msup>
    <m:mi>e</m:mi>
    <m:mrow>
     <m:mrow><m:mo>(</m:mo>
@@ -512,13 +512,13 @@
  </m:mrow>
 </m:math> o <emphasis effect="italics">e</emphasis><sup>(-0,04545(20))</sup> = 0,4029 </para></item>
 <item>
-<list id="eip-id1171181135515" list-type="enumerated" number-style="arabic"><item><emphasis effect="italics">P</emphasis><emphasis effect="italics">(x</emphasis> &gt; 20) = 0,4029 pero <emphasis effect="italics">P</emphasis>(<m:math>
+<list id="eip-id1171181135515" list-type="enumerated" number-style="arabic"><item><emphasis effect="italics">P</emphasis><emphasis effect="italics">(x</emphasis> > 20) = 0,4029 pero <emphasis effect="italics">P</emphasis>(<m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
 
-</m:math> &gt; 20) = 0,7919</item>
+</m:math> > 20) = 0,7919</item>
 <item>Las probabilidades no son iguales porque utilizamos diferentes distribuciones para calcular la probabilidad de los individuos y de las medias.</item>
 <item>Cuando se le pida que encuentre la probabilidad de un valor individual, utilice la distribución indicada de su variable aleatoria; no utilice el TLC. Utilice el TLC con la distribución normal cuando le pidan calcular la probabilidad de una media.</item></list>
 </item>
@@ -722,7 +722,7 @@
   <m:mo>¯</m:mo>
  </m:mover>
 
-</m:math> &gt; 50) = <code>normalcdf</code>(50, <emphasis effect="italics">E</emphasis>99,30.9,1.8) ≈ 0. Para este grupo de muestra, es casi imposible que la media de edad del grupo sea superior a 50 años. Sin embargo, todavía es posible que un individuo de este grupo tenga una edad superior a los 50 años.</item>
+</m:math> > 50) = <code>normalcdf</code>(50, <emphasis effect="italics">E</emphasis>99,30.9,1.8) ≈ 0. Para este grupo de muestra, es casi imposible que la media de edad del grupo sea superior a 50 años. Sin embargo, todavía es posible que un individuo de este grupo tenga una edad superior a los 50 años.</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> ≥ 1.600) = <code>normalcdf</code>(1600,E99,1514.10,63) = 0,0864</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> ≤ 1.595) = <code>normalcdf</code>(-E99,1595,1514.10,63) = 0,9005. Esto significa que hay un 90 % de posibilidades de que la suma de las edades para el grupo de muestra <emphasis effect="italics">n</emphasis> = 49 sea como máximo 1595.</item>
 <item>El percentil 95 = <code>invNorm</code>(0.95,30.9,1.1) = 32,7. Esto indica que el 95 % de las prostitutas de la muestra de 65 son menores de 32,7 años, en promedio.</item>
@@ -746,13 +746,13 @@
 <note id="eip-713"><label/><title>NOTA HISTÓRICA</title>
 
 <para id="fs-idm36895584"><emphasis>: Aproximación normal a la binomial</emphasis></para>
-<para id="eip-614">Históricamente, poder calcular las probabilidades binomiales era una de las aplicaciones más importantes del teorema del límite central. Las probabilidades binomiales con un valor pequeño para <emphasis effect="italics">n</emphasis>(digamos, 20) se mostraban en una tabla en un libro. Para calcular las probabilidades con valores grandes de <emphasis effect="italics">n</emphasis>, había que utilizar la fórmula binomial, que podía ser muy complicada. El uso de la <term>aproximación normal a la distribución binomial</term> simplificó el proceso. Para calcular la aproximación normal a la distribución binomial, tome una muestra aleatoria simple de una población. Debe cumplir las condiciones de una <term>distribución binomial</term>:</para>
+<para id="eip-614">Históricamente, poder calcular las probabilidades binomiales era una de las aplicaciones más importantes del teorema del límite central. Las probabilidades binomiales con un valor pequeño para <emphasis effect="italics">n</emphasis>(digamos, 20) se mostraban en una tabla en un libro. Para calcular las probabilidades con valores grandes de <emphasis effect="italics">n</emphasis>, había que utilizar la fórmula binomial, que podía ser muy complicada. El uso de la <term id="term-00006">aproximación normal a la distribución binomial</term> simplificó el proceso. Para calcular la aproximación normal a la distribución binomial, tome una muestra aleatoria simple de una población. Debe cumplir las condiciones de una <term id="term-00007">distribución binomial</term>:</para>
 <list id="norm_bi_approx" list-type="bulleted" bullet-style="bullet">
 <item>hay un cierto número <emphasis effect="italics">n</emphasis> de ensayos independientes</item>
 <item>los resultados de cualquier ensayo son aciertos o fallos</item>
 <item>cada ensayo tiene la misma probabilidad de un acierto <emphasis effect="italics">p</emphasis></item>
 </list>
-<para id="fs-idm101632">Recordemos que si <emphasis effect="italics">X</emphasis> es la variable aleatoria binomial, entonces <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n, p</emphasis>). La forma de la distribución binomial debe ser similar a la de la distribución normal. Para ello, las cantidades <emphasis effect="italics">np</emphasis> y <emphasis effect="italics">nq</emphasis> deben ser mayores que cinco (<emphasis effect="italics">np</emphasis> &gt; 5 y <emphasis effect="italics">nq</emphasis> &gt; 5; la aproximación es mejor si ambas son mayores o iguales a 10). Entonces la binomial puede ser aproximada por la distribución normal con media <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> y desviación estándar <emphasis effect="italics">σ</emphasis> = <m:math>
+<para id="fs-idm101632">Recordemos que si <emphasis effect="italics">X</emphasis> es la variable aleatoria binomial, entonces <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n, p</emphasis>). La forma de la distribución binomial debe ser similar a la de la distribución normal. Para ello, las cantidades <emphasis effect="italics">np</emphasis> y <emphasis effect="italics">nq</emphasis> deben ser mayores que cinco (<emphasis effect="italics">np</emphasis> > 5 y <emphasis effect="italics">nq</emphasis> > 5; la aproximación es mejor si ambas son mayores o iguales a 10). Entonces la binomial puede ser aproximada por la distribución normal con media <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> y desviación estándar <emphasis effect="italics">σ</emphasis> = <m:math>
  <m:mrow>
   <m:msqrt>
    <m:mrow>
@@ -761,27 +761,27 @@
   </m:msqrt>
 
  </m:mrow>
-</m:math>. Recuerde que <emphasis effect="italics">q</emphasis> = 1 - <emphasis effect="italics">p</emphasis>. Para obtener la mejor aproximación, sume 0,5 a <emphasis effect="italics">x</emphasis> o reste 0,5 a <emphasis effect="italics">x</emphasis> (utilice <emphasis effect="italics">x</emphasis> + 0,5 o <emphasis effect="italics">x</emphasis> - 0,5). El número 0,5 se denomina <term>factor de corrección de continuidad</term> y se utiliza en el siguiente ejemplo.</para></note><example id="eip-831">
+</m:math>. Recuerde que <emphasis effect="italics">q</emphasis> = 1 - <emphasis effect="italics">p</emphasis>. Para obtener la mejor aproximación, sume 0,5 a <emphasis effect="italics">x</emphasis> o reste 0,5 a <emphasis effect="italics">x</emphasis> (utilice <emphasis effect="italics">x</emphasis> + 0,5 o <emphasis effect="italics">x</emphasis> - 0,5). El número 0,5 se denomina <term id="term-00008">factor de corrección de continuidad</term> y se utiliza en el siguiente ejemplo.</para></note><example id="eip-831">
 <para id="eip-926">Supongamos que en un distrito escolar local desde el jardín de infancia hasta 12.<sup>º</sup> grado (K-12), el 53 % de la población está a favor de una escuela subvencionada para el jardín de infancia hasta 5.º grado (K-5). Se realiza una encuesta con una muestra aleatoria simple de 300 personas.</para><list id="eip-306" list-type="enumerated" number-style="lower-alpha"><item>Calcule la probabilidad de que <emphasis>al menos 150</emphasis> estén a favor de una escuela subvencionada.</item>
 <item>Calcule la probabilidad de que <emphasis>como máximo 160</emphasis> estén a favor de una escuela subvencionada.</item>
 <item>Calcule la probabilidad de que <emphasis>más de 155</emphasis> estén a favor de una escuela subvencionada.</item>
 <item>Calcule la probabilidad de que <emphasis>menos de 147</emphasis> estén a favor de una escuela subvencionada.</item>
 <item>Calcule la probabilidad de que <emphasis>exactamente 175</emphasis> estén a favor de una escuela subvencionada.</item>
- </list><para id="eip-778">Supongamos que <emphasis effect="italics">X</emphasis> = el número de los que están a favor de una escuela subvencionada para los grados K a 5. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n, p</emphasis>) donde <emphasis effect="italics">n</emphasis> = 300 y <emphasis effect="italics">p</emphasis> = 0,53. Como <emphasis effect="italics">np</emphasis> &gt; 5 y <emphasis effect="italics">nq</emphasis> &gt; 5, utilice la aproximación normal a la binomial. Las fórmulas para la media y la desviación típica son <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> y <emphasis effect="italics">σ</emphasis> = <m:math>
+ </list><para id="eip-778">Supongamos que <emphasis effect="italics">X</emphasis> = el número de los que están a favor de una escuela subvencionada para los grados K a 5. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n, p</emphasis>) donde <emphasis effect="italics">n</emphasis> = 300 y <emphasis effect="italics">p</emphasis> = 0,53. Como <emphasis effect="italics">np</emphasis> > 5 y <emphasis effect="italics">nq</emphasis> > 5, utilice la aproximación normal a la binomial. Las fórmulas para la media y la desviación típica son <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> y <emphasis effect="italics">σ</emphasis> = <m:math>
  <m:mrow> <m:msqrt><m:mrow>
     <m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
    </m:mrow>
   </m:msqrt>
  </m:mrow>
-</m:math>. La media es de 159 desviación típica es de 8,6447. La variable aleatoria de la distribución normal es <emphasis effect="italics">Y</emphasis>. <emphasis effect="italics">Y</emphasis> ~ <emphasis effect="italics">N</emphasis>(159; 8,6447). Consulte <link document="m46977">La distribución normal</link> para obtener ayuda con las instrucciones de la calculadora.</para><para id="eip-214" class="finger">Para la parte a, <emphasis>se incluye 150</emphasis> por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) tiene aproximación normal <emphasis effect="italics">P</emphasis><emphasis effect="italics">(Y</emphasis> ≥ 149,5) = 0,8641.</para>
+</m:math>. La media es de 159 desviación típica es de 8,6447. La variable aleatoria de la distribución normal es <emphasis effect="italics">Y</emphasis>. <emphasis effect="italics">Y</emphasis> ~ <emphasis effect="italics">N</emphasis>(159; 8,6447). Consulte <link document="m10449">La distribución normal</link> para obtener ayuda con las instrucciones de la calculadora.</para><para id="eip-214" class="finger">Para la parte a, <emphasis>se incluye 150</emphasis> por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) tiene aproximación normal <emphasis effect="italics">P</emphasis><emphasis effect="italics">(Y</emphasis> ≥ 149,5) = 0,8641.</para>
 <para id="eip-554"><code>normalcdf</code>(149,5,10^99,159,8.6447) = 0,8641.</para><para id="eip-323">Para la parte b, <emphasis>se incluye 160</emphasis> por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 160) tiene una aproximación normal <emphasis effect="italics">P</emphasis><emphasis effect="italics">(Y</emphasis> ≤ 160,5) = 0,5689.</para>
 
-<para id="eip-162"><code>normalcdf</code>(0,160.5,159,8.6447) = 0,5689</para><para id="eip-630">Para la parte c, se <emphasis>excluye 155</emphasis> por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 155) tiene una aproximación normal <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">y</emphasis> &gt; 155,5) = 0,6572.</para>
+<para id="eip-162"><code>normalcdf</code>(0,160.5,159,8.6447) = 0,5689</para><para id="eip-630">Para la parte c, se <emphasis>excluye 155</emphasis> por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 155) tiene una aproximación normal <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">y</emphasis> > 155,5) = 0,6572.</para>
 
 <para id="eip-763"><code>normalcdf</code>(155,5,10^99,159,8.6447) = 0,6572.</para><para id="eip-955">Para la parte d, se <emphasis>excluye 147</emphasis> por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 147) tiene una aproximación normal <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Y</emphasis> &lt; 146,5) = 0,0741.</para><para id="eip-555"><code>normalcdf</code>(0,146.5,159,8.6447) = 0,0741</para><para id="eip-788">Para la parte e,<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = 175) tiene una aproximación normal <emphasis effect="italics">P</emphasis>(174,5 &lt; <emphasis effect="italics">Y</emphasis> &lt; 175,5) = 0,0083.</para>
 <para id="eip-680"><code>normalcdf</code>(174.5,175.5,159,8.6447) = 0,0083</para><para id="eip-863" class="finger"><emphasis>Gracias a las calculadoras y a los programas informáticos</emphasis> que permiten calcular fácilmente las probabilidades binomiales para grandes valores de <emphasis effect="italics">n</emphasis>, no es necesario utilizar la aproximación normal a la distribución binomial, siempre que se tenga acceso a estas herramientas tecnológicas. La mayoría de los laboratorios escolares disponen de Microsoft Excel, un ejemplo de programa informático que calcula probabilidades binomiales. Muchos estudiantes tienen acceso a las calculadoras de la serie TI-83 u 84, y calculan fácilmente las probabilidades de la distribución binomial. Si escribe "cálculo de la distribución de probabilidad binomial" en un navegador de Internet, podrá encontrar al menos una calculadora en línea para la binomial.</para>
 
-<para id="eip-251">Para el <link target-id="fs-idm153949776"/>, las probabilidades se calculan utilizando la siguiente distribución binomial: (<emphasis effect="italics">n</emphasis> = 300 y <emphasis effect="italics">p</emphasis> = 0,53). Compare las respuestas de la distribución binomial y la normal. Vea <link document="m46955">Variables aleatorias discretas</link> para ayudar con las instrucciones de la calculadora para la binomial.</para><para id="eip-67"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) :<code>1 – binomialcdf</code>(300,0.53,149) = 0,8641</para><para id="eip-560"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 160) :<code>binomialcdf</code>(300,0.53,160) = 0,5684</para><para id="eip-727"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 155) :<code>1 – binomialcdf</code>(300,0.53,155) = 0,6576</para><para id="eip-122"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 147) :<code>binomialcdf</code>(300,0.53,146) = 0,0742</para><para id="eip-267"><emphasis effect="italics">P</emphasis><emphasis effect="italics">(X</emphasis> = 175) : (Se utiliza la función de densidad de probabilidad [probability density function, pdf] binomial).<code>binomialpdf</code>(300,0.53,175) = 0,0083</para></example>
+<para id="eip-251">Para el <link target-id="fs-idm153949776"/>, las probabilidades se calculan utilizando la siguiente distribución binomial: (<emphasis effect="italics">n</emphasis> = 300 y <emphasis effect="italics">p</emphasis> = 0,53). Compare las respuestas de la distribución binomial y la normal. Vea <link document="m10435">Variables aleatorias discretas</link> para ayudar con las instrucciones de la calculadora para la binomial.</para><para id="eip-67"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) :<code>1 – binomialcdf</code>(300,0.53,149) = 0,8641</para><para id="eip-560"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 160) :<code>binomialcdf</code>(300,0.53,160) = 0,5684</para><para id="eip-727"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 155) :<code>1 – binomialcdf</code>(300,0.53,155) = 0,6576</para><para id="eip-122"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 147) :<code>binomialcdf</code>(300,0.53,146) = 0,0742</para><para id="eip-267"><emphasis effect="italics">P</emphasis><emphasis effect="italics">(X</emphasis> = 175) : (Se utiliza la función de densidad de probabilidad [probability density function, pdf] binomial).<code>binomialpdf</code>(300,0.53,175) = 0,0083</para></example>
 </section>
 </section>
 
@@ -1013,7 +1013,7 @@
 <!-- <solution id="fs-idm72677136"><para id="fs-idm12285840">205.05</para></solution> -->
 </exercise><para id="fs-idm65293824"><emphasis effect="italics"><newline/>Use la siguiente información para responder los próximos ocho ejercicios:</emphasis> Una distribución uniforme tiene un mínimo de seis y un máximo de diez. Se toma una muestra de 50 personas.</para><exercise id="fs-idm1612656">
 <problem id="fs-idm47127360">
-<para id="fs-idm47127232">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> &gt; 420).</para>
+<para id="fs-idm47127232">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> > 420).</para>
 </problem>
 <solution id="fs-idm7883840"><para id="fs-idm7883712">0,0072</para></solution>
 </exercise>
@@ -1137,7 +1137,7 @@
 </exercise><exercise id="element-897">
 <problem id="id6536735">
   <para id="element-790">Los precios de cierre de las acciones de 35 fabricantes de semiconductores de Estados Unidos son los siguientes.</para>
-<para id="id6536759"><list list-type="labeled-item" display="inline">
+<para id="id6536759"><list list-type="labeled-item" display="inline" id="list-00001">
 <item>8,625</item>
 <item>30,25</item>
 <item>27,625</item>

@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-<para id="eip-858">Hasta ahora nuestro interés se ha centrado exclusivamente en el parámetro poblacional μ o su contrapartida en la binomial, p. Seguramente la media de una población es el dato más crítico que se tiene, pero en algunos casos nos interesa la variabilidad de los resultados de alguna distribución. En casi todos los procesos de producción, la calidad se mide no solo por el grado de adecuación de la máquina al objetivo, sino también por la variabilidad del proceso. Si se llenaran bolsas con patas fritas, no solo interesaría el peso promedio de la bolsa, sino también la variación de los pesos. Nadie quiere que se le asegure que el peso promedio es exacto cuando su bolsa no tiene papas fritas. El voltaje eléctrico puede alcanzar cierto nivel promedio, pero una gran variabilidad, los picos, pueden causar graves daños a las máquinas eléctricas, especialmente a las computadoras. No solo me gustaría obtener una nota media alta en mis clases, sino también una baja variación en torno a esta media. En resumen, las pruebas estadísticas relativas a la varianza de una distribución tienen un gran valor y muchas aplicaciones.</para><para id="element-194">Una <term>prueba de una sola varianza</term> supone que la distribución subyacente es <emphasis>normal</emphasis>. Las hipótesis nula y alternativa se plantean en términos de la <term>varianza de la población</term>. El estadístico de prueba es:</para><equation id="element-740" class="unnumbered"><label/><m:math>
+<para id="eip-858">Hasta ahora nuestro interés se ha centrado exclusivamente en el parámetro poblacional μ o su contrapartida en la binomial, p. Seguramente la media de una población es el dato más crítico que se tiene, pero en algunos casos nos interesa la variabilidad de los resultados de alguna distribución. En casi todos los procesos de producción, la calidad se mide no solo por el grado de adecuación de la máquina al objetivo, sino también por la variabilidad del proceso. Si se llenaran bolsas con patas fritas, no solo interesaría el peso promedio de la bolsa, sino también la variación de los pesos. Nadie quiere que se le asegure que el peso promedio es exacto cuando su bolsa no tiene papas fritas. El voltaje eléctrico puede alcanzar cierto nivel promedio, pero una gran variabilidad, los picos, pueden causar graves daños a las máquinas eléctricas, especialmente a las computadoras. No solo me gustaría obtener una nota media alta en mis clases, sino también una baja variación en torno a esta media. En resumen, las pruebas estadísticas relativas a la varianza de una distribución tienen un gran valor y muchas aplicaciones.</para><para id="element-194">Una <term id="term-00001">prueba de una sola varianza</term> supone que la distribución subyacente es <emphasis>normal</emphasis>. Las hipótesis nula y alternativa se plantean en términos de la <term id="term-00002">varianza de la población</term>. El estadístico de prueba es:</para><equation id="element-740" class="unnumbered"><label/><m:math>
 <m:msubsup><m:mi>χ</m:mi><m:mi>c</m:mi><m:mn>2</m:mn></m:msubsup>
 <m:mo>=</m:mo>
 <m:mfrac>
@@ -32,7 +32,7 @@
   <para id="element-219">Aunque se nos da la desviación típica de la población podemos establecer la prueba utilizando la varianza de la población de la siguiente manera.</para>
 <list id="element-660" list-type="bulleted"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> ≤ 5<sup>2</sup>
  </item>
- <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> &gt; 5<sup>2</sup></item>
+ <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> > 5<sup>2</sup></item>
  </list></solution>
 </exercise>
  </example>
@@ -140,7 +140,7 @@ El valor calculado del estadístico de prueba <m:math><m:msup><m:mi>χ</m:mi><m:
   <para id="eip-37">La Comisión Federal de Comunicaciones (Federal Communications Commission, FCC) hace pruebas de velocidad de banda ancha para medir cuántos datos por segundo pasan entre la computadora de un consumidor e internet. En agosto de 2012, la desviación típica de las velocidades de internet entre los proveedores de servicios de internet (PSI) era del 12,2 %. Supongamos que se toma una muestra de 15 PSI y que la desviación típica es de 13,2. Un analista afirma que la desviación típica de las velocidades es mayor que la comunicada. Plantee las hipótesis nula y alternativa, calcule los grados de libertad, el estadístico de prueba, trace el gráfico de la distribución, marque el área asociada al nivel de confianza y extraiga una conclusión. Prueba al nivel de significación del 1 %.</para></problem>
 <solution id="eip-idp33472464">
 <label/>
- <para id="eip-546"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 12,2<sup>2</sup></para><para id="eip-idm82917168"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> &gt; 12,2<sup>2</sup> <newline/><emphasis effect="italics">df</emphasis> = 14 estadística de la prueba <newline/>chi<sup>2</sup> = 16,39</para><figure id="fs-idp135068032"><media id="eip-idm127786800" alt="" display="block">
+ <para id="eip-546"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 12,2<sup>2</sup></para><para id="eip-idm82917168"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> > 12,2<sup>2</sup> <newline/><emphasis effect="italics">df</emphasis> = 14 estadística de la prueba <newline/>chi<sup>2</sup> = 16,39</para><figure id="fs-idp135068032"><media id="eip-idm127786800" alt="" display="block">
   <image mime-type="image/jpeg" src="../../media/CNX_Stats_C11_M08_tryit001.jpg" width="380"/>
 </media></figure><para id="eip-idm175783712">El valor <emphasis effect="italics">p</emphasis> es de 0,2902, por lo que rechazamos la hipótesis nula. No hay pruebas suficientes para sugerir que la varianza sea superior al 12,2<sup>2</sup>.</para>
 <note id="eip-idp106427424" class="statistics calculator">
@@ -237,7 +237,7 @@ El valor calculado del estadístico de prueba <m:math><m:msup><m:mi>χ</m:mi><m:
   </para>
 </problem>
 <solution id="eip-401">
- <para id="eip-306"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 0,81<sup>2</sup>;</para><para id="eip-idm138366848"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> &gt; 0,81<sup>2</sup> </para></solution>
+ <para id="eip-306"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 0,81<sup>2</sup>;</para><para id="eip-idm138366848"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> > 0,81<sup>2</sup> </para></solution>
   </exercise>
   <exercise id="eip-179"><problem id="eip-132">
     <para id="eip-957"><emphasis effect="italics">df</emphasis> = ________</para></problem>
@@ -321,7 +321,7 @@ El valor calculado del estadístico de prueba <m:math><m:msup><m:mi>χ</m:mi><m:
  </problem>
   <solution id="fs-idp8292400">
    <list id="fs-idm38743456" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis> = 15</item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis> &gt; 15</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis> > 15</item>
 <item><emphasis effect="italics">df</emphasis> = 42</item>
 <item>chi-cuadrado con <emphasis effect="italics">df</emphasis> = 42</item>
 <item>estadístico de prueba = 26,88</item>
@@ -344,7 +344,7 @@ El valor calculado del estadístico de prueba <m:math><m:msup><m:mi>χ</m:mi><m:
   </para></problem>
   <solution id="fs-idp2191872">
    <list id="fs-idm74960368" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis> ≤ 3</item>
-    <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis> &gt; 3</item>
+    <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis> > 3</item>
     <item><emphasis effect="italics">df</emphasis> = 17</item>
     <item>distribución chi-cuadrado con <emphasis effect="italics">df</emphasis> = 17</item>
     <item>estadístico de prueba = 28,73</item>
@@ -417,7 +417,7 @@ El valor calculado del estadístico de prueba <m:math><m:msup><m:mi>χ</m:mi><m:
   </problem>
    <solution id="fs-idp46489456">
     <para id="fs-idp77058224">La desviación típica de la muestra es de 34,29 dólares.</para>
-    <para id="fs-idp77058608"><emphasis effect="italics">H<sub>0</sub></emphasis> : <emphasis effect="italics">σ</emphasis><sup>2</sup> = 25<sup>2</sup><newline/> <emphasis effect="italics">H<sub>a</sub></emphasis> : <emphasis effect="italics">σ</emphasis><sup>2</sup> &gt; 25<sup>2</sup></para><para id="fs-idp53015088"><newline/><emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> – 1 = 7.</para><para id="fs-idp75015024"><newline/>estadístico de prueba: <m:math>
+    <para id="fs-idp77058608"><emphasis effect="italics">H<sub>0</sub></emphasis> : <emphasis effect="italics">σ</emphasis><sup>2</sup> = 25<sup>2</sup><newline/> <emphasis effect="italics">H<sub>a</sub></emphasis> : <emphasis effect="italics">σ</emphasis><sup>2</sup> > 25<sup>2</sup></para><para id="fs-idp53015088"><newline/><emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> – 1 = 7.</para><para id="fs-idp75015024"><newline/>estadístico de prueba: <m:math>
  <m:mrow>
   <m:msup>
    <m:mi>x</m:mi>

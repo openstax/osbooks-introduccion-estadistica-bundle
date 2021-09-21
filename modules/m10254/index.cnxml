@@ -15,9 +15,9 @@
 <para id="element-990">Dos sucesos son independientes si uno de los siguientes es cierto:</para><list id="element-344" list-type="bulleted"><item><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>|</m:mo><m:mi>B</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo></m:math></item>
 	<item><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>|</m:mo><m:mi>A</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math></item>
 	<item><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi> <m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math></item>
-</list><para id="delete_me">Dos eventos <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son <term>independientes</term> si el conocimiento de que uno ha ocurrido no afecta la posibilidad de que ocurra el otro. Por ejemplo, los resultados de lanzar dos veces un dado imparcial son eventos independientes. El resultado de la primera lanzada no cambia la probabilidad del resultado de la segunda. Para demostrar que dos eventos son independientes, debe mostrar <emphasis>solo una</emphasis> de las condiciones anteriores. Si dos eventos NO son independientes, decimos que son <emphasis>dependientes</emphasis>.</para>
+</list><para id="delete_me">Dos eventos <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son <term id="term-00001">independientes</term> si el conocimiento de que uno ha ocurrido no afecta la posibilidad de que ocurra el otro. Por ejemplo, los resultados de lanzar dos veces un dado imparcial son eventos independientes. El resultado de la primera lanzada no cambia la probabilidad del resultado de la segunda. Para demostrar que dos eventos son independientes, debe mostrar <emphasis>solo una</emphasis> de las condiciones anteriores. Si dos eventos NO son independientes, decimos que son <emphasis>dependientes</emphasis>.</para>
 
-<para id="element-405">El muestreo se puede hacer <emphasis>con</emphasis> <term>reemplazo</term> o <emphasis>sin reemplazo</emphasis>.</para>
+<para id="element-405">El muestreo se puede hacer <emphasis>con</emphasis> <term id="term-00002">reemplazo</term> o <emphasis>sin reemplazo</emphasis>.</para>
 <list id="fs-idm1341072" list-type="bulleted"><item><emphasis>Con reemplazo</emphasis>: si cada miembro de una población es reemplazado después de ser elegido, entonces ese miembro tiene la posibilidad de ser elegido más de una vez. Cuando el muestreo se hace con reemplazo, los eventos se consideran independientes, lo que significa que el resultado de la primera elección no cambiará las probabilidades de la segunda.</item>
 <item><emphasis>Sin reemplazo</emphasis>: cuando el muestreo se hace sin reemplazo, cada miembro de una población solo lo pueden seleccionar una vez. En este caso, las probabilidades de la segunda elección se ven afectadas por el resultado de la primera. Los eventos se consideran dependientes o no independientes.</item>
 </list>
@@ -80,7 +80,7 @@
 
 <section id="element-462">
 <title>Eventos mutuamente excluyentes</title>
-<para id="element-548"><emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son eventos <term>mutuamente excluyentes</term> si no pueden ocurrir al mismo tiempo. Dicho de otra manera, si <emphasis effect="italics">A</emphasis> ocurrió entonces <emphasis effect="italics">B</emphasis> no puede ocurrir y viceversa. Esto significa que <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> no comparten ningún resultado y <m:math>
+<para id="element-548"><emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son eventos <term id="term-00003">mutuamente excluyentes</term> si no pueden ocurrir al mismo tiempo. Dicho de otra manera, si <emphasis effect="italics">A</emphasis> ocurrió entonces <emphasis effect="italics">B</emphasis> no puede ocurrir y viceversa. Esto significa que <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> no comparten ningún resultado y <m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>A</m:mi>
@@ -1347,7 +1347,7 @@
 </section><section id="fs-idm4259888" class="bring-together-homework">
 <title>Resúmalo todo</title>
 <exercise id="element-738"><problem id="id43569944">
-<para id="element-699">Un año antes, los pesos de los miembros de los <emphasis>San Francisco 49ers</emphasis> y los <emphasis>Dallas Cowboys</emphasis> se publicaron en el <cite><cite-title>Mercury News de San José</cite-title></cite>. Los datos fácticos se recopilan en la <link target-id="ch03_M03-tbl001"/>.
+<para id="element-699">Un año antes, los pesos de los miembros de los <emphasis>San Francisco 49ers</emphasis> y los <emphasis>Dallas Cowboys</emphasis> se publicaron en el <cite id="cite-00001"><cite-title>Mercury News de San José</cite-title></cite>. Los datos fácticos se recopilan en la <link target-id="ch03_M03-tbl001"/>.
     </para><table id="ch03_M03-tbl001" summary="This table presents weight in pounds by shirt number. The first column lists the shirt number, the second column lists weight ≤ 210, the third column lists 211-250, fourth column lists 251-290, and the fifth column lists 291 ≤. The first row lists shirt numbers 1-33, second row lists 34-66, and the third row lists 66-99.">
 <tgroup cols="5"><colspec colnum="1" colname="c1"/>
   <colspec colnum="2" colname="c2"/>

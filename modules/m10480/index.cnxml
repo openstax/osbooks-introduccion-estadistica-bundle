@@ -8,8 +8,8 @@
 </metadata>
 
 <content>
-<para id="element-834">Las pruebas de independencia implican el uso de una <term>tabla de contingencia</term> de valores observados (datos).</para>
-<para id="element-230">El estadístico de <term>prueba de independencia</term> es similar al de la prueba de bondad de ajuste:</para>
+<para id="element-834">Las pruebas de independencia implican el uso de una <term id="term-00001">tabla de contingencia</term> de valores observados (datos).</para>
+<para id="element-230">El estadístico de <term id="term-00002">prueba de independencia</term> es similar al de la prueba de bondad de ajuste:</para>
 <equation id="element-164" class="unnumbered"><label/><m:math>
  <m:mrow>
   <m:munder>
@@ -49,7 +49,7 @@
    <m:mi>E</m:mi>
   </m:mfrac>
  </m:mrow>
-</m:math>. </para><para id="element-518"><emphasis>Una prueba de independencia determina si dos factores son independientes o no.</emphasis> La primera vez que se topó con el término independencia fue en <link document="m46938">Temas de probabilidad</link>. A modo de repaso, considere el siguiente ejemplo.</para><note id="eip-155"><label/><title>Nota</title>
+</m:math>. </para><para id="element-518"><emphasis>Una prueba de independencia determina si dos factores son independientes o no.</emphasis> La primera vez que se topó con el término independencia fue en <link document="m10426">Temas de probabilidad</link>. A modo de repaso, considere el siguiente ejemplo.</para><note id="eip-155"><label/><title>Nota</title>
 <para id="eip-idp140445076868880">El valor esperado de cada celda debe ser, al menos, cinco para poder utilizar esta prueba.</para></note><example id="element-54">
 <para id="element-904">Supongamos que <emphasis effect="italics">A</emphasis> = una infracción por exceso de velocidad en el último año y <emphasis effect="italics">B</emphasis> = un usuario de teléfono móvil mientras conduce. Si <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son independientes, entonces <emphasis effect="italics">P</emphasis><emphasis effect="italics">(A</emphasis> Y <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>). <emphasis effect="italics">A</emphasis> Y <emphasis effect="italics">B</emphasis> es el evento en que un conductor recibió una infracción por exceso de velocidad el año pasado y también utilizaba el teléfono móvil mientras conducía. Supongamos que se encuestaron 755 personas en un estudio sobre conductores que recibieron infracciones por exceso de velocidad durante el año pasado que usaron el teléfono móvil mientras conducían. De los 755, 70 tenían una infracción por exceso de velocidad y 685 no; 305 usaba el teléfono móvil mientras conducían y 450 no.</para><para id="element-427">Supongamos que <emphasis effect="italics">y</emphasis> = número esperado de conductores que usaron un teléfono móvil mientras conducían y recibieron infracciones por exceso de velocidad.</para>
  <para id="element-367">Si <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son independientes, entonces <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> Y <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>). Por sustitución,</para>
@@ -207,8 +207,8 @@
  </para>
 <para id="element-558" class="finger"><emphasis>Calcule el estadístico de prueba:</emphasis> <emphasis effect="italics">χ</emphasis><sup>2</sup> = 12,99 (calculadora o computadora)</para><para id="element-775"><emphasis>Distribución para la prueba:</emphasis><m:math><m:msubsup><m:mi>χ</m:mi><m:mn>4</m:mn><m:mn>2</m:mn></m:msubsup></m:math></para>
  <para id="fs-idp19708320"><emphasis effect="italics">df</emphasis> = (3 columnas – 1)(3 filas – 1) = (2)(2) = 4</para><para id="element-48"><emphasis>Gráfico:</emphasis></para>
- <figure id="fs-idm32439392"><media id="id8547662" alt="Curva de chi-cuadrado no simétrica con valores de 0 y 12,99 en el eje x que representa el estadístico de prueba del número de horas trabajadas por los voluntarios de diferentes tipos. Una línea vertical ascendente se extiende desde 12,99 hasta la curva y el área a la derecha de esta es igual al valor p." display="block"><image src="../../media/fig-ch11_05_01N-a95c.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-117"><emphasis>Declaración de probabilidad:</emphasis> valor <emphasis effect="italics">p</emphasis>=<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">χ<sup>2</sup></emphasis> &gt; 12,99) = 0,0113</para><para id="element-347"><emphasis>Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>:</emphasis> Ya que no se da <emphasis effect="italics">α</emphasis>, suponga que <emphasis effect="italics">α</emphasis> = 0,05. valor <emphasis effect="italics">p</emphasis> = 0,0113. <emphasis effect="italics">α</emphasis> &gt; valor <emphasis effect="italics">p</emphasis>.</para>
-<para id="fs-idm62402592"><emphasis>Tome una decisión:</emphasis> Dado el valor de <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>, se rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>. Esto significa que los factores no son independientes.</para><para id="element-590"><emphasis>Conclusión:</emphasis> A un nivel de significación del 5 %, a partir de los datos, hay pruebas suficientes para concluir que el número de horas de voluntariado y el tipo de voluntariado dependen el uno del otro.</para>
+ <figure id="fs-idm32439392"><media id="id8547662" alt="Curva de chi-cuadrado no simétrica con valores de 0 y 12,99 en el eje x que representa el estadístico de prueba del número de horas trabajadas por los voluntarios de diferentes tipos. Una línea vertical ascendente se extiende desde 12,99 hasta la curva y el área a la derecha de esta es igual al valor p." display="block"><image src="../../media/fig-ch11_05_01N-a95c.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-117"><emphasis>Declaración de probabilidad:</emphasis> valor <emphasis effect="italics">p</emphasis>=<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">χ<sup>2</sup></emphasis> > 12,99) = 0,0113</para><para id="element-347"><emphasis>Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>:</emphasis> Ya que no se da <emphasis effect="italics">α</emphasis>, suponga que <emphasis effect="italics">α</emphasis> = 0,05. valor <emphasis effect="italics">p</emphasis> = 0,0113. <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>.</para>
+<para id="fs-idm62402592"><emphasis>Tome una decisión:</emphasis> Dado el valor de <emphasis effect="italics">α</emphasis> > <emphasis effect="italics">p</emphasis>, se rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>. Esto significa que los factores no son independientes.</para><para id="element-590"><emphasis>Conclusión:</emphasis> A un nivel de significación del 5 %, a partir de los datos, hay pruebas suficientes para concluir que el número de horas de voluntariado y el tipo de voluntariado dependen el uno del otro.</para>
  <para id="element-956">Para el ejemplo de la <link target-id="table-73248"/>, de haber otro tipo de voluntarios, adolescentes, ¿cuáles serían los grados de libertad?</para><note id="fs-idp30286464" class="statistics calculator"><label/>
 <para id="element-854">Pulse <code>MATRX</code> y flecha hacia <code>EDIT</code>. Pulse <code>1:[A]</code>. Pulse <code>3 ENTER 3 ENTER</code>. Introduzca los valores de la tabla por fila, desde la <link target-id="table-73248"/>. Pulse <code>ENTER</code> después de cada uno. Pulse <code>2nd QUIT</code>. Pulse <code>STAT</code> y flecha hacia <code>TESTS</code>. Flecha hacia abajo <code>C:χ2-TEST</code>. Pulse <code>ENTER</code>. Debería ver <code>Observed:[A] y Expected:[B]</code>. Si es necesario, utilice las teclas de flecha para mover el cursor después de <code>Observed: (Observado:)</code> y pulse <code>2nd MATRX</code>. Pulse <code>1:[A]</code> para seleccionar la matriz A. No es necesario introducir los valores esperados. La matriz que aparece después de <code>Expected: (Previsto:)</code> puede estar en blanco. Flecha hacia abajo <code>Calcule</code>. Pulse <code>ENTER</code>. El estadístico de prueba es 12,9909 y el valor <emphasis effect="italics">p</emphasis> = 0,0113. Repita el procedimiento, pero con la flecha hacia abajo a <code>Draw</code> en vez de <code>Calculate</code>.</para></note></solution></exercise></example>
 <note id="fs-idm24618832" class="statistics try finger"><label/><title>Ejercicio</title>
@@ -790,7 +790,7 @@ TOTALES
    </list></problem>
 </exercise></section><section id="fs-idm54060384" class="free-response">
 <title>Tarea para la casa</title>
-<para id="fs-idp19244768"><emphasis effect="italics">Para cada problema use una hoja de soluciones para resolver el problema de la prueba de hipótesis. Vaya al <link document="m47882">Apéndice E</link> para ver la hoja de soluciones de chi-cuadrado. Redondee la frecuencia esperada a dos decimales.</emphasis></para><exercise id="element-241"><problem id="id20690433">
+<para id="fs-idp19244768"><emphasis effect="italics">Para cada problema use una hoja de soluciones para resolver el problema de la prueba de hipótesis. Vaya al <link document="m10502">Apéndice E</link> para ver la hoja de soluciones de chi-cuadrado. Redondee la frecuencia esperada a dos decimales.</emphasis></para><exercise id="element-241"><problem id="id20690433">
  <para id="element-506"> Un reciente debate sobre dónde los esquiadores creen que se esquía mejor en Estados Unidos generó la siguiente encuesta. Pruebe para ver si la mejor área de esquí es independiente del nivel del esquiador. </para>
  <table id="id7787415" summary="The table has the level of the skier from second to fourth column with the first column as being U.S. Ski Area. There are three rows.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
@@ -889,7 +889,7 @@ TOTALES
    <list id="fs-idp124357408" list-type="enumerated" number-style="lower-roman">
     <item>Alfa: 0,05</item>
     <item>Decisión: No rechazar la hipótesis nula.</item>
-    <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>&gt; alfa</item>
+    <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>> alfa</item>
     <item>Conclusión: Al nivel de significación del 5 % no hay pruebas suficientes para concluir que el tamaño del automóvil y el tamaño de la familia son dependientes.</item>
    </list>
   </item>
@@ -1006,7 +1006,7 @@ TOTALES
     <list id="fs-idm28786192" list-type="enumerated" number-style="lower-roman">
      <item>Alfa: 0,05</item>
      <item>Decisión: No rechazar la hipótesis nula.</item>
-     <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>&gt; alfa</item>
+     <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>> alfa</item>
      <item>Conclusión: Con un nivel de significación del 5 % no hay pruebas suficientes para concluir que el lugar de la luna de miel y la edad de la novia son dependientes.</item>
     </list>
    </item>
@@ -1380,7 +1380,7 @@ TOTALES
      <list id="fs-idp21843088" list-type="enumerated" number-style="lower-roman">
       <item>Alfa: 0,05</item>
       <item>Decisión: no rechazar la hipótesis nula.</item>
-      <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>&gt; alfa</item>
+      <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>> alfa</item>
       <item>Conclusión: Al nivel de significación del 5 % no hay pruebas suficientes para concluir que la edad y el patrimonio neto de los emprendedores en línea más jóvenes sean dependientes.</item>
      </list>
     </item>

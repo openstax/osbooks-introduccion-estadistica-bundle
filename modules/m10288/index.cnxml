@@ -34,7 +34,7 @@
  </m:mrow>
 </m:math>. La distribución normal tiene el siguiente formato:
 </para><equation id="element-970">
-  <title><term>La desviación típica</term> es:</title>
+  <title><term id="term-00001">La desviación típica</term> es:</title>
 <m:math display="block">
    <m:mrow>
     <m:msqrt>
@@ -90,7 +90,7 @@
    </m:mrow>
   </m:math>
  </equation>
- <para id="eip-908"><newline/></para><equation id="element-465" class="unnumbered"><label/><title>El <term>estadístico de prueba</term> (puntuación <emphasis effect="italics">z</emphasis>) es:</title><m:math display="block">
+ <para id="eip-908"><newline/></para><equation id="element-465" class="unnumbered"><label/><title>El <term id="term-00002">estadístico de prueba</term> (puntuación <emphasis effect="italics">z</emphasis>) es:</title><m:math display="block">
  <m:mrow><m:msub>
   <m:mi>Z</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -202,7 +202,7 @@
 
 <solution id="id48398901">
   <para id="element-795">Se trata de una prueba de dos grupos independientes, dos medias poblacionales, desviaciones típicas poblacionales conocidas.</para>
- <para id="element-483"><term>Variable aleatoria</term>: <m:math>
+ <para id="element-483"><term id="term-00003">Variable aleatoria</term>: <m:math>
  <m:mrow>
   <m:msub>
    <m:mover accent="true">
@@ -222,7 +222,7 @@
   </m:msub>
 
  </m:mrow>
-</m:math> = diferencia en el número medio de meses que duran las ceras para suelos de la competencia.</para><para id="element-735"><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≤</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></para><para id="element-608"><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></para><para id="element-696">La expresión <emphasis>“es más eficaz”</emphasis> dice que la cera 1 <emphasis>dura más que la cera 2</emphasis>, en promedio. “Más que” es el símbolo “&gt;” y entra en <emphasis effect="italics">H<sub>a</sub></emphasis>. Por lo tanto, se trata de una prueba de cola derecha.</para>
+</m:math> = diferencia en el número medio de meses que duran las ceras para suelos de la competencia.</para><para id="element-735"><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≤</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></para><para id="element-608"><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>></m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></para><para id="element-696">La expresión <emphasis>“es más eficaz”</emphasis> dice que la cera 1 <emphasis>dura más que la cera 2</emphasis>, en promedio. “Más que” es el símbolo “>” y entra en <emphasis effect="italics">H<sub>a</sub></emphasis>. Por lo tanto, se trata de una prueba de cola derecha.</para>
  <para id="element-690"><emphasis>Distribución para la prueba:</emphasis> Las desviaciones típicas de la población son conocidas, por lo que la distribución es normal. Con la fórmula del estadístico de prueba calculamos el valor para el problema. </para><equation id="element-406" class="unnumbered"><label/><m:math>
 <m:msub><m:mi>Z</m:mi><m:mi>c</m:mi></m:msub>
 <m:mo>=</m:mo>
@@ -341,9 +341,9 @@
 
  <para id="fs-idm49757440"><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≤</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub>
 </m:math> <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub><m:mo>≤</m:mo><m:mn>0</m:mn>
-</m:math></para><para id="fs-idm175162192"><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub>
-</m:math> <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub><m:mo>&gt;</m:mo><m:mn>0</m:mn>
-</m:math></para><para id="fs-idm173135600">Las palabras “mayor que” se traducen en un símbolo “&gt;” y entran en <emphasis effect="italics">H<sub>a</sub></emphasis>. Por lo tanto, se trata de una prueba de cola derecha.</para><para id="fs-idm98812432"><figure id="fs-idp45038880"><media id="fs-idm86987792" alt="Se trata de una curva de distribución normal con media igual a cero. Una línea vertical a la derecha del cero se extiende desde el eje hasta la curva. La región debajo de la curva a la derecha de la línea está sombreada y representa un valor p = 0,4955." display="block">
+</m:math></para><para id="fs-idm175162192"><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>></m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub>
+</m:math> <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub><m:mo>></m:mo><m:mn>0</m:mn>
+</m:math></para><para id="fs-idm173135600">Las palabras “mayor que” se traducen en un símbolo “>” y entran en <emphasis effect="italics">H<sub>a</sub></emphasis>. Por lo tanto, se trata de una prueba de cola derecha.</para><para id="fs-idm98812432"><figure id="fs-idp45038880"><media id="fs-idm86987792" alt="Se trata de una curva de distribución normal con media igual a cero. Una línea vertical a la derecha del cero se extiende desde el eje hasta la curva. La región debajo de la curva a la derecha de la línea está sombreada y representa un valor p = 0,4955." display="block">
 <image mime-type="image/jpg" src="../../media/fig-ch10_01_10n.jpg" width="380"/>
 </media></figure></para><para id="fs-idm49745696"><emphasis>Tome una decisión:</emphasis> El valor p es superior al 5 %, por lo que no podemos rechazar la hipótesis nula. Al calcular el estadístico de prueba, observamos que no cae en la cola, por lo que no podemos rechazar la hipótesis nula. Llegamos a la misma conclusión al utilizar cualquiera de los dos métodos para tomar esta decisión estadística.</para><para id="fs-idm113348080"><emphasis>Conclusión:</emphasis> Al nivel de significación del 5 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que la edad media de los senadores demócratas sea mayor que la de los republicanos.</para>
 </solution>
@@ -562,7 +562,7 @@
 <para id="fs-idm49112064">Indique las hipótesis nula y alternativa.</para>
 </problem>
 <solution id="fs-idm150673952">
-<para id="fs-idm150673696">Subíndices: 1 = Con alimento, 2 = Sin alimento <newline/><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≤</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math> <newline/><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math>
+<para id="fs-idm150673696">Subíndices: 1 = Con alimento, 2 = Sin alimento <newline/><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≤</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math> <newline/><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>></m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math>
 </para></solution>
 </exercise>
 
@@ -630,7 +630,7 @@
 <solution id="id17616631">
  <para id="fs-idp33457664">Subíndices: 1 = hombres, 2 = mujeres</para>
  <list id="fs-idp165211984" list-type="enumerated" number-style="lower-alpha"><item><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≤</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
-    <item><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+    <item><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>></m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
     <item>La variable aleatoria es la diferencia en la media de los costos de los seguros de automóviles de hombres y mujeres.</item>
     <item>normal</item>
     <item>estadístico de prueba: <emphasis effect="italics">z</emphasis> = 2,50</item>

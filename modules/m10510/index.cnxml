@@ -620,9 +620,9 @@
 <image src="../../media/fig-ch13_05_01N-efd7.jpg" mime-type="image/png" width="380"/>
 </media></figure><para id="element-561"><emphasis>Enunciado de probabilidad:</emphasis> valor <emphasis effect="italics">p</emphasis>= <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &lt; 0,5818) = 0,0753</para>
 
-<para id="element-186"><emphasis>Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis></emphasis>: <emphasis effect="italics">α</emphasis> = 0,10 <emphasis effect="italics">α</emphasis> &gt; valor <emphasis effect="italics">p</emphasis>.</para>
+<para id="element-186"><emphasis>Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis></emphasis>: <emphasis effect="italics">α</emphasis> = 0,10 <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>.</para>
 
-<para id="element-153"><emphasis>Tome una decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> &gt; valor <emphasis effect="italics">p</emphasis>, rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
+<para id="element-153"><emphasis>Tome una decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>, rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
 
 <para id="element-760"><emphasis>Conclusión:</emphasis> Con un nivel de significación del 10 %, a partir de los datos hay pruebas suficientes para concluir que la varianza de las calificaciones del primer instructor es menor.</para>
 
@@ -1295,7 +1295,7 @@
 <list id="eip-idm187473360" list-type="enumerated" number-style="lower-roman">
 <item>Alfa: 0,05</item>
 <item>Decisión: No rechaza la hipótesis nula.</item>
-<item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> &gt; alfa</item>
+<item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> > alfa</item>
 <item>Conclusión: No hay pruebas suficientes para concluir que las varianzas son diferentes.</item>
 </list>
 </item>
@@ -1527,7 +1527,7 @@
 </table>
 
 <para id="fs-idm113961200">
-<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &gt; 26,272) = 0;</para>
+<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> > 26,272) = 0;</para>
 <para id="eip-idm119286624">Rechazar la hipótesis nula para toda alfa. Hay pruebas suficientes para concluir que el contenido medio de plata entre las cuatro acuñaciones es diferente. Del gráfico de bandas se desprende que las primeras y segundas acuñaciones tenían mayor contenido de plata que las terceras y cuartas.</para>
 </solution>
 </exercise>
@@ -1709,7 +1709,7 @@
 </tbody>
 
 </tgroup>
-</table><para id="fs-idm57974800"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &gt; 1,5521) = 0,2548. <newline/>Ya que el valor <emphasis effect="italics">p</emphasis> es tan grande, no hay una buena evidencia contra la hipótesis nula de igualdad de medias. No rechazamos la hipótesis nula. Por lo tanto, para 2012, no hay ninguna buena evidencia de una diferencia significativa en el número medio de victorias entre las divisiones de la Liga Americana.</para></solution>
+</table><para id="fs-idm57974800"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> > 1,5521) = 0,2548. <newline/>Ya que el valor <emphasis effect="italics">p</emphasis> es tan grande, no hay una buena evidencia contra la hipótesis nula de igualdad de medias. No rechazamos la hipótesis nula. Por lo tanto, para 2012, no hay ninguna buena evidencia de una diferencia significativa en el número medio de victorias entre las divisiones de la Liga Americana.</para></solution>
 </exercise></section>
  </content>
 </document>

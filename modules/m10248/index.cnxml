@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-<para id="element-848">El “centro” de un conjunto de datos también es una forma de describir la ubicación. Las dos medidas más utilizadas del “centro” de los datos son la <term>media</term> (promedio) y la <term>mediana</term>. Para calcular el <emphasis>peso medio</emphasis> de 50 personas, sume los 50 pesos y los divide entre 50. Técnicamente es la media aritmética. Más adelante hablaremos de la media geométrica. Para hallar la <emphasis> mediana del peso</emphasis> de las 50 personas, ordene los datos y halle el número que divide los datos en dos partes iguales, lo que significa un número igual de observaciones en cada lado. El peso de 25 personas está por debajo de ese peso y 25 personas están por encima de ese peso. La mediana suele ser una mejor medida del centro cuando hay valores extremos o atípicos porque no se ve afectada por los valores numéricos precisos de los atípicos. La media es la medida más común del centro.</para><note id="eip-13"><label/>
+<para id="element-848">El “centro” de un conjunto de datos también es una forma de describir la ubicación. Las dos medidas más utilizadas del “centro” de los datos son la <term id="term-00001">media</term> (promedio) y la <term id="term-00002">mediana</term>. Para calcular el <emphasis>peso medio</emphasis> de 50 personas, sume los 50 pesos y los divide entre 50. Técnicamente es la media aritmética. Más adelante hablaremos de la media geométrica. Para hallar la <emphasis> mediana del peso</emphasis> de las 50 personas, ordene los datos y halle el número que divide los datos en dos partes iguales, lo que significa un número igual de observaciones en cada lado. El peso de 25 personas está por debajo de ese peso y 25 personas están por encima de ese peso. La mediana suele ser una mejor medida del centro cuando hay valores extremos o atípicos porque no se ve afectada por los valores numéricos precisos de los atípicos. La media es la medida más común del centro.</para><note id="eip-13"><label/>
 <title>NOTA</title>
 <para id="fs-idp62684352">Las palabras “media” y “promedio” se suelen usar indistintamente. La sustitución de una palabra por otra es una práctica habitual. El término técnico es “media aritmética” y “promedio” es técnicamente un lugar central. Formalmente, los matemáticos llaman a la media aritmética el primer momento de la distribución. Sin embargo, en la práctica, entre los no estadísticos, se suele aceptar “promedio” por “media aritmética”.</para></note>
 
@@ -256,7 +256,7 @@
 </exercise>
 </example>
 
-<para id="element-584">Otra medida del centro es la moda. La <term>moda</term> es el valor más frecuente. Puede haber más de una moda en un conjunto de datos siempre que esos valores tengan la misma frecuencia y esta sea la más alta. Un conjunto de datos con dos modas se denomina bimodal.</para>
+<para id="element-584">Otra medida del centro es la moda. La <term id="term-00003">moda</term> es el valor más frecuente. Puede haber más de una moda en un conjunto de datos siempre que esos valores tengan la misma frecuencia y esta sea la más alta. Un conjunto de datos con dos modas se denomina bimodal.</para>
 
 <example id="element-114"><para id="element-639">Las calificaciones de los exámenes de Estadística de 20 estudiantes son las siguientes:</para>
 <para id="element-104"><list id="set-536" list-type="labeled-item" display="inline">
@@ -530,7 +530,7 @@
 </problem>
 </exercise>
 
-<para id="eip-193"><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios:</emphasis> Los siguientes datos muestran las esloras de barcos atracados en un puerto. Los datos están ordenados de menor a mayor: <list list-type="labeled-item" display="inline">
+<para id="eip-193"><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios:</emphasis> Los siguientes datos muestran las esloras de barcos atracados en un puerto. Los datos están ordenados de menor a mayor: <list list-type="labeled-item" display="inline" id="list-00001">
 <item>16</item><item>17</item><item>19</item><item>20</item><item>20</item><item>21</item><item>23</item><item>24</item><item>25</item><item>25</item><item>25</item><item>26</item><item>26</item><item>27</item><item>27</item><item>27</item><item>28</item><item>29</item><item>30</item><item>32</item><item>33</item><item>33</item><item>34</item><item>35</item><item>37</item><item>39</item><item>40</item></list></para><exercise id="fs-idp3713376">
 <problem id="fs-idp45051248">
 <para id="fs-idp72372672">Calcule la media.</para>

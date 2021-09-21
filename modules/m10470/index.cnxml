@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-    <list id="element-162" list-type="bulleted"><item>En un problema de <term>prueba de hipótesis</term>, puede ver palabras como "el nivel de significación es del 1 %". El "1 %" es el <emphasis effect="italics">α</emphasis> preconcebido o preestablecido.</item>
+    <list id="element-162" list-type="bulleted"><item>En un problema de <term id="term-00001">prueba de hipótesis</term>, puede ver palabras como "el nivel de significación es del 1 %". El "1 %" es el <emphasis effect="italics">α</emphasis> preconcebido o preestablecido.</item>
 
 <item>El estadístico que establece la prueba de hipótesis selecciona el valor de <emphasis effect="italics">α</emphasis> que va a utilizar <emphasis>antes de</emphasis> recoger los datos de la muestra.</item>
 
@@ -21,7 +21,7 @@
 <item><emphasis effect="italics">H<sub>a</sub></emphasis> <emphasis>nunca</emphasis> tiene un símbolo que contenga un signo igual.</item>
 
 
-<item><emphasis>Pensar en el significado del</emphasis> <term><emphasis effect="italics">valor p</emphasis></term>: Un analista de datos (y cualquier otra persona) debería confiar más en que ha tomado la decisión correcta de rechazar la hipótesis nula con un valor <emphasis effect="italics">p</emphasis> menor (por ejemplo, 0,001 frente a 0,04), incluso si se utiliza el nivel 0,05 para el alfa. Del mismo modo, para un valor <emphasis effect="italics">p</emphasis> mayor, como 0,4, frente a un valor <emphasis effect="italics">p</emphasis> de 0,056 (alfa = 0,05 es menor que cualquiera de los dos números), el analista de datos debería confiar más en que tomó la decisión correcta al no rechazar la hipótesis nula. Esto hace que el analista de datos haga uso de su discernimiento en lugar de aplicar reglas sin sentido.</item></list><para id="fs-idp42898080">Los siguientes ejemplos ilustran una prueba de cola izquierda, derecha y de dos colas.</para>
+<item><emphasis>Pensar en el significado del</emphasis> <term id="term-00002"><emphasis effect="italics">valor p</emphasis></term>: Un analista de datos (y cualquier otra persona) debería confiar más en que ha tomado la decisión correcta de rechazar la hipótesis nula con un valor <emphasis effect="italics">p</emphasis> menor (por ejemplo, 0,001 frente a 0,04), incluso si se utiliza el nivel 0,05 para el alfa. Del mismo modo, para un valor <emphasis effect="italics">p</emphasis> mayor, como 0,4, frente a un valor <emphasis effect="italics">p</emphasis> de 0,056 (alfa = 0,05 es menor que cualquiera de los dos números), el analista de datos debería confiar más en que tomó la decisión correcta al no rechazar la hipótesis nula. Esto hace que el analista de datos haga uso de su discernimiento en lugar de aplicar reglas sin sentido.</item></list><para id="fs-idp42898080">Los siguientes ejemplos ilustran una prueba de cola izquierda, derecha y de dos colas.</para>
 
 <example id="fs-idp41487520">
 <para id="fs-idp41487648"><emphasis effect="italics">H<sub>o</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 5, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &lt; 5</para><para id="element-343">Prueba de una media poblacional única. <emphasis effect="italics">H<sub>a</sub></emphasis> le indica que la prueba es de cola izquierda. La imagen del valor <emphasis effect="italics">p</emphasis> es la siguiente:</para>
@@ -39,7 +39,7 @@
 </note>
 
 <example id="element-417">
-<para id="element-38"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≤ 0,2 <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> &gt; 0,2</para><para id="fs-idp117549824">Se trata de una prueba de una sola proporción de población. <emphasis effect="italics">H<sub>a</sub></emphasis> le indica que la prueba es de <emphasis>cola derecha</emphasis>. La imagen del valor <emphasis effect="italics">p</emphasis> es la siguiente:</para>
+<para id="element-38"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≤ 0,2 <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> > 0,2</para><para id="fs-idp117549824">Se trata de una prueba de una sola proporción de población. <emphasis effect="italics">H<sub>a</sub></emphasis> le indica que la prueba es de <emphasis>cola derecha</emphasis>. La imagen del valor <emphasis effect="italics">p</emphasis> es la siguiente:</para>
 <figure id="fs-idm2304848"><media id="id14703170" alt="Curva de distribución normal de una proporción poblacional única con el valor de 0,2 en el eje de la x. El valor p señala la zona de la cola derecha de la curva."><image src="../../media/fig-ch09_09_02a-a56e.jpg" mime-type="image/jpg" width="380"/></media></figure></example>
 
 <note id="fs-idm126098448" class="statistics try">
@@ -48,7 +48,7 @@
 
 <exercise id="eip-417">
 <problem id="fs-idp131553552">
-  <para id="eip-idm89526848"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 1, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 1</para><para id="eip-idm24425280">Supongamos que el valor <emphasis effect="italics">p</emphasis> es 0,1243. ¿De qué tipo de prueba se trata? Haga el dibujo del valor <emphasis effect="italics">p</emphasis>.</para></problem>
+  <para id="eip-idm89526848"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 1, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 1</para><para id="eip-idm24425280">Supongamos que el valor <emphasis effect="italics">p</emphasis> es 0,1243. ¿De qué tipo de prueba se trata? Haga el dibujo del valor <emphasis effect="italics">p</emphasis>.</para></problem>
 </exercise>
 
 </note>
@@ -85,7 +85,7 @@
 
 <para id="element-496">Determine la distribución necesaria:</para>
 <para id="element-67"><emphasis>Variable aleatoria: </emphasis> <m:math><m:apply><m:conjugate/><m:mi>X</m:mi></m:apply></m:math> = el tiempo medio para nadar las 25 yardas de estilo libre.</para>
-<para id="element-58"><emphasis> Distribución para la prueba: </emphasis> <m:math><m:apply><m:conjugate/><m:mi>X</m:mi></m:apply></m:math> es normal (se conoce la <term>desviación estándar de</term> la población: <emphasis effect="italics">σ</emphasis> = 0,8)</para>
+<para id="element-58"><emphasis> Distribución para la prueba: </emphasis> <m:math><m:apply><m:conjugate/><m:mi>X</m:mi></m:apply></m:math> es normal (se conoce la <term id="term-00003">desviación estándar de</term> la población: <emphasis effect="italics">σ</emphasis> = 0,8)</para>
 <para id="element-325"><m:math>
  <m:mrow>
   <m:mover accent="true">
@@ -150,8 +150,8 @@
 <para id="element-656">valor <emphasis effect="italics">p</emphasis>= 0,0187 (Se denomina <emphasis>nivel de significación real</emphasis>). El valor <emphasis effect="italics">p</emphasis> es el área a la izquierda de la media de la muestra se da como 16.</para>
 <para id="element-320"><emphasis>Gráfico:</emphasis></para>
 <figure id="hyptest11_ex1"><media id="id4282005" alt="Curva de distribución normal para el tiempo promedio para nadar las 25 yardas en estilo libre con los valores 16, como el promedio muestral, y 16,43 en el eje de la x. Una línea vertical ascendente se extiende desde 16 en el eje de la x hasta la curva. Una flecha señala la cola izquierda de la curva."><image src="../../media/fig-ch09_11_01N-f8ca.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-172"><emphasis effect="italics">μ</emphasis> = 16,43 proviene de <emphasis effect="italics">H<sub>0</sub></emphasis>. Nuestra hipótesis es <emphasis effect="italics">μ</emphasis> = 16,43.</para><para id="element-751"><emphasis>Interpretación del valor <emphasis effect="italics">p</emphasis>: Si <emphasis effect="italics">H<sub>0</sub></emphasis> es cierta</emphasis>, hay una probabilidad de 0,0187 (1,87 %) de que la media de tiempo de Jeffrey para nadar las 25 yardas estilo libre sea de 16 segundos o menos. Dado que una probabilidad del 1,87 % es pequeña, es poco probable que el tiempo medio de 16 segundos o menos haya ocurrido aleatoriamente. Es un evento poco común.</para><para id="element-748">Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>:</para>
-<para id="element-890"><emphasis effect="italics">α</emphasis> = 0,05 valor <emphasis effect="italics">p</emphasis>= 0,0187 <emphasis effect="italics">α</emphasis> &gt; valor <emphasis effect="italics">p</emphasis></para>
-<para id="element-543"><emphasis>Tome una decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> &gt; valor <emphasis effect="italics">p</emphasis>, se rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
+<para id="element-890"><emphasis effect="italics">α</emphasis> = 0,05 valor <emphasis effect="italics">p</emphasis>= 0,0187 <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis></para>
+<para id="element-543"><emphasis>Tome una decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>, se rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
 <!-- CONTINUE HERE -->
 <para id="element-826">Esto significa que se rechaza <emphasis effect="italics">μ</emphasis> = 16,43. En otras palabras, no cree que Jeffrey nade las 25 yardas estilo libre en 16,43 segundos, sino más rápido con las nuevas gafas.</para>
 <para id="element-942"><emphasis>Conclusión:</emphasis> Al nivel de significación del 5 %, concluimos que Jeffrey nada más rápido con las nuevas gafas. Los datos de la muestra indican que hay pruebas suficientes de que la media de tiempo de Jeffrey para nadar las 25 yardas en estilo libre es inferior a 16,43 segundos.</para>
@@ -159,7 +159,7 @@
 <note id="fs-idm31641280" class="statistics calculator">
 <label/>
 <para id="element-362">Pulse <code>STAT</code> y desplace la flecha hacia <code>TESTS</code>. Pulse <code>1:Z-Test</code>. Desplace la flecha hacia <code>STATS</code> y pulse <code>ENTER</code>. Flecha abajo e introduzca 16,43 para <emphasis effect="italics">μ<sub>0</sub></emphasis> (hipótesis nula), 0,8 para <emphasis effect="italics">σ</emphasis>, 16 para la media muestral y 15 para <emphasis effect="italics">n</emphasis>. Flecha abajo a <emphasis effect="italics">μ</emphasis>: (hipótesis alternativa) y flecha arriba a &lt; <emphasis effect="italics">μ<sub>0</sub></emphasis>. Pulse <code>ENTER</code>. Desplace la flecha hacia abajo hasta <code>Calculate (Calcular)</code> y pulse <code>ENTER</code>. La calculadora no solo calcula el valor <emphasis effect="italics">p</emphasis> (<emphasis effect="italics">p</emphasis> = 0,0187), sino que también calcula el estadístico de prueba (puntuación <emphasis effect="italics">z</emphasis>) para la media de la muestra. <emphasis effect="italics">μ</emphasis> &lt; 16,43 es la hipótesis alternativa. Vuelva a realizar este conjunto de instrucciones, excepto la flecha hacia <code>Draw (Dibujar)</code>(en vez de <code>Calculate (Calcular)</code>). Pulse <code>ENTER</code>. Aparece un gráfico sombreado con <emphasis effect="italics">z</emphasis> = -2,08 (estadístico de prueba) y <emphasis effect="italics">p</emphasis> = 0,0187 (valor <emphasis effect="italics">p</emphasis>). Asegúrese de que cuando use <code>Draw (Dibujar)</code> que no haya otras ecuaciones resaltadas en <emphasis effect="italics">Y</emphasis> = y los diagramas estén apagados.</para></note>
-<para id="element-908">Cuando la calculadora hace una prueba <emphasis effect="italics">Z</emphasis>, el <code>Prueba z</code> halle el valor <emphasis effect="italics">p</emphasis> con un cálculo de probabilidad normal mediante el <term>teorema del límite central</term>:</para><para id="fs-idp159988784"><m:math>
+<para id="element-908">Cuando la calculadora hace una prueba <emphasis effect="italics">Z</emphasis>, el <code>Prueba z</code> halle el valor <emphasis effect="italics">p</emphasis> con un cálculo de probabilidad normal mediante el <term id="term-00004">teorema del límite central</term>:</para><para id="fs-idp159988784"><m:math>
  <m:mrow>
   <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mover accent="true">
    <m:mi>x</m:mi>
@@ -192,7 +192,7 @@
 </exercise>
 <note id="fs-idm24767312" class="statistics calculator">
 <label/>
-<para id="eip-idm96892800">Pulse STAT y desplace la flecha hacia TESTS. Pulse 1: prueba Z. Flecha hacia STATS y pulse ENTER. Flecha abajo e introduzca 40 para <emphasis effect="italics">μ</emphasis>0 (hipótesis nula), 2 para <emphasis effect="italics">σ</emphasis>, 45 para la media muestral y 20 para <emphasis effect="italics">n</emphasis>. Flecha hacia abajo hasta <emphasis effect="italics">μ</emphasis>: (hipótesis alternativa) y establézcala como &lt;, ≠, o &gt;. Pulse ENTER. Desplace la flecha hacia abajo hasta Calculate (Calcular) y pulse ENTER. La calculadora no solamente calcula el valor <emphasis effect="italics">p</emphasis>, sino que también calcula el estadístico de prueba (puntuación <emphasis effect="italics">z</emphasis>) para la media de la muestra. Seleccione &lt;, ≠, o &gt; para la hipótesis alternativa. Vuelva a realizar este conjunto de instrucciones, excepto la flecha a Draw (Dibujar) (en lugar de Calculate [calcular]). Pulse ENTER. Aparece un gráfico sombreado con el estadístico de prueba y el valor <emphasis effect="italics">p</emphasis>. Cuando utilice Draw (Dibujar) verifique que no haya otras ecuaciones resaltadas en <emphasis effect="italics">Y</emphasis> = y que los gráficos estén apagados.</para></note></note></section>
+<para id="eip-idm96892800">Pulse STAT y desplace la flecha hacia TESTS. Pulse 1: prueba Z. Flecha hacia STATS y pulse ENTER. Flecha abajo e introduzca 40 para <emphasis effect="italics">μ</emphasis>0 (hipótesis nula), 2 para <emphasis effect="italics">σ</emphasis>, 45 para la media muestral y 20 para <emphasis effect="italics">n</emphasis>. Flecha hacia abajo hasta <emphasis effect="italics">μ</emphasis>: (hipótesis alternativa) y establézcala como &lt;, ≠, o >. Pulse ENTER. Desplace la flecha hacia abajo hasta Calculate (Calcular) y pulse ENTER. La calculadora no solamente calcula el valor <emphasis effect="italics">p</emphasis>, sino que también calcula el estadístico de prueba (puntuación <emphasis effect="italics">z</emphasis>) para la media de la muestra. Seleccione &lt;, ≠, o > para la hipótesis alternativa. Vuelva a realizar este conjunto de instrucciones, excepto la flecha a Draw (Dibujar) (en lugar de Calculate [calcular]). Pulse ENTER. Aparece un gráfico sombreado con el estadístico de prueba y el valor <emphasis effect="italics">p</emphasis>. Cuando utilice Draw (Dibujar) verifique que no haya otras ecuaciones resaltadas en <emphasis effect="italics">Y</emphasis> = y que los gráficos estén apagados.</para></note></note></section>
 
 
 <note id="eip-406"><label/><title>Nota histórica (<link target-id="fs-idp41487520"/>)</title>
@@ -239,7 +239,7 @@ Para este problema, <m:math>
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-</m:math> = 16, <emphasis effect="italics">μ<sub>X</sub></emphasis> = 16,43 a partir de la hipótesis nula es, <emphasis effect="italics">σ<sub>X</sub></emphasis> = 0,8 y <emphasis effect="italics">n</emphasis> = 15.) Puede encontrar el valor crítico para <emphasis effect="italics">α</emphasis> = 0,05 en la tabla normal (véase <emphasis>15. Tablas</emphasis> en el Índice). La puntuación <emphasis effect="italics">z</emphasis>para un área a la izquierda igual a 0,05 está a medio camino entre -1,65 y -1,64 (0,05 está a medio camino entre 0,0505 y 0,0495). La puntuación <emphasis effect="italics">z</emphasis> es de -1,645. Dado que -1,645 &gt; -2,08 (lo que demuestra que α &gt; valor <emphasis effect="italics">p</emphasis>), rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>. Tradicionalmente, la decisión de rechazar o no rechazar se hacía de esta manera. Hoy en día, la comparación de las dos probabilidades <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis> es muy común. En este problema, el valor <emphasis effect="italics">p</emphasis>, 0,0187 es considerablemente menor que <emphasis effect="italics">α</emphasis>, 0,05. Puede estar seguro de su decisión de rechazo. El gráfico muestra <emphasis effect="italics">α</emphasis>, el valor <emphasis effect="italics">p</emphasis>, así como el estadístico de prueba y el valor crítico.
+</m:math> = 16, <emphasis effect="italics">μ<sub>X</sub></emphasis> = 16,43 a partir de la hipótesis nula es, <emphasis effect="italics">σ<sub>X</sub></emphasis> = 0,8 y <emphasis effect="italics">n</emphasis> = 15.) Puede encontrar el valor crítico para <emphasis effect="italics">α</emphasis> = 0,05 en la tabla normal (véase <emphasis>15. Tablas</emphasis> en el Índice). La puntuación <emphasis effect="italics">z</emphasis>para un área a la izquierda igual a 0,05 está a medio camino entre -1,65 y -1,64 (0,05 está a medio camino entre 0,0505 y 0,0495). La puntuación <emphasis effect="italics">z</emphasis> es de -1,645. Dado que -1,645 > -2,08 (lo que demuestra que α > valor <emphasis effect="italics">p</emphasis>), rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>. Tradicionalmente, la decisión de rechazar o no rechazar se hacía de esta manera. Hoy en día, la comparación de las dos probabilidades <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis> es muy común. En este problema, el valor <emphasis effect="italics">p</emphasis>, 0,0187 es considerablemente menor que <emphasis effect="italics">α</emphasis>, 0,05. Puede estar seguro de su decisión de rechazo. El gráfico muestra <emphasis effect="italics">α</emphasis>, el valor <emphasis effect="italics">p</emphasis>, así como el estadístico de prueba y el valor crítico.
 </para><figure id="eip-idm47467424"><media id="eip-idp126239824" alt="Curva de distribución que compara el α con el valor p. Los valores de -2,15 y -1,645 están en el eje de la x. Las líneas verticales ascendentes se extienden desde estos dos valores hasta la curva. El valor p es igual a 0,0158 y apunta hacia el área a la izquierda de -2,15. α es igual a 0,05 y apunta hacia el área entre los valores de -2,15 y -1,645.">
 <image src="../../media/fig-ch09_11_02-da22.png" mime-type="image/png" width="380"/></media>
 </figure></note><example id="element-213">
@@ -264,7 +264,7 @@ Para este problema, <m:math>
 <solution id="id5342777">
 <para id="element-932">Establezca la prueba de la hipótesis:</para>
 <para id="element-613">Ya que el problema es sobre un peso medio, se trata de una <emphasis>prueba de una sola media poblacional</emphasis>.</para>
-<para id="element-614"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 275<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 275<newline/>Esta es una prueba de cola derecha.</para><para id="element-839">Calcule la distribución necesaria:</para>
+<para id="element-614"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 275<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 275<newline/>Esta es una prueba de cola derecha.</para><para id="element-839">Calcule la distribución necesaria:</para>
 <para id="element-975">Variable aleatoria: <m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
@@ -308,13 +308,13 @@ Para este problema, <m:math>
  </m:mrow>
 </m:math> libras (a partir de los datos).</para>
 <para id="element-864"><emphasis effect="italics">σ</emphasis> = 55 libras <emphasis>(Utilice siempre <emphasis effect="italics">σ</emphasis> si lo conoce).</emphasis> Asumimos que <emphasis effect="italics">μ</emphasis> = 275 libras, a no ser que nuestros datos nos muestren lo contrario. </para>
-<para id="element-212">Calcule el valor <emphasis effect="italics">p</emphasis> con la distribución normal para una media y con la media de la muestra como entrada (vea la <link document="m47896"/> para utilizar los datos como entrada):</para><para id="element-457"><m:math>
+<para id="element-212">Calcule el valor <emphasis effect="italics">p</emphasis> con la distribución normal para una media y con la media de la muestra como entrada (vea la <link document="m10504"/> para utilizar los datos como entrada):</para><para id="element-457"><m:math>
  <m:mrow>
   <m:mi>valor</m:mi><m:mtext>p</m:mtext><m:mo>=</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mover accent="true">
    <m:mi>x</m:mi>
    <m:mo>¯</m:mo>
   </m:mover>
-  <m:mo>&gt;</m:mo><m:mn>286,2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0,1323</m:mn>
+  <m:mo>></m:mo><m:mn>286,2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0,1323</m:mn>
  </m:mrow>
 </m:math></para><para id="element-508"><emphasis>Interpretación del valor <emphasis effect="italics">p</emphasis>:</emphasis> Si <emphasis effect="italics">H<sub>0</sub></emphasis> es verdadera, entonces hay una probabilidad de 0,1331 (13,23 %) de que los futbolistas levanten un peso medio de 286,2 libras o más. Dado que una probabilidad del 13,23 % es lo suficientemente grande, un levantamiento de peso medio de 286,2 libras o más no es un evento poco común.</para>
 <figure id="hyptest11_ex3"><media id="id4317824" alt="Curva de distribución normal del peso promedio que levantan los futbolistas con valores de 275 y 286,2 en el eje de la x. Una línea vertical ascendente se extiende desde 286,2 hasta la curva. El valor p señala el área a la derecha de 286,2."><image src="../../media/fig-ch09_11_03N-0f27.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-804">Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>:</para>
@@ -323,7 +323,7 @@ Para este problema, <m:math>
 <para id="element-625">El valor <emphasis effect="italics">p</emphasis> se calcula fácilmente.</para>
 <note id="fs-idm79549936" class="statistics calculator">
 <label/>
-<para id="element-233">Ponga los datos y las frecuencias en listas. Pulse <code>STAT</code> y desplace la flecha hacia <code>TESTS</code>. Pulse <code>1:Z-Test</code>. Desplace la flecha hacia <code>Datos</code> y pulse <code>ENTER</code>. Flecha hacia abajo e introduzca 275 para <emphasis effect="italics">μ<sub>0</sub></emphasis>, 55 para <emphasis effect="italics">σ</emphasis>, el nombre de la lista donde pone los datos y el nombre de la lista donde pone las frecuencias. Flecha abajo hasta <emphasis effect="italics">μ:</emphasis> y flecha arriba hasta &gt; <emphasis effect="italics">μ<sub>0</sub></emphasis>. Pulse <code>ENTER</code>. Desplace la flecha hacia abajo <code>Calculate (Calcular)</code> y pulse <code>ENTER</code>. La calculadora no solo calcula el valor <emphasis effect="italics">p</emphasis> (<emphasis effect="italics">p</emphasis> = 0,1331, un poco diferente del cálculo anterior. En este utilizamos la media de la muestra redondeada a un decimal en lugar de los datos), sino que también calcula el estadístico de prueba (puntuación <emphasis effect="italics">z</emphasis>) para la media de la muestra, la media de la muestra y la desviación estándar de la muestra. <emphasis effect="italics">μ</emphasis> &gt; 275 es la hipótesis alternativa. Vuelva a realizar este conjunto de instrucciones, excepto la flecha hacia <code>Draw (Dibujar)</code> (en vez de <code>Calculate (Calcular)</code>). Pulse <code>ENTER</code>. Aparece un gráfico sombreado con <emphasis effect="italics">z</emphasis> = 1,112 (estadístico de prueba) y <emphasis effect="italics">p</emphasis> = 0,1331 (valo r<emphasis effect="italics">p</emphasis>). Asegúrese de que cuando use <code>Draw (Dibujar)</code> que no haya otras ecuaciones resaltadas en <emphasis effect="italics">Y</emphasis> = y los diagramas estén apagados.</para></note>
+<para id="element-233">Ponga los datos y las frecuencias en listas. Pulse <code>STAT</code> y desplace la flecha hacia <code>TESTS</code>. Pulse <code>1:Z-Test</code>. Desplace la flecha hacia <code>Datos</code> y pulse <code>ENTER</code>. Flecha hacia abajo e introduzca 275 para <emphasis effect="italics">μ<sub>0</sub></emphasis>, 55 para <emphasis effect="italics">σ</emphasis>, el nombre de la lista donde pone los datos y el nombre de la lista donde pone las frecuencias. Flecha abajo hasta <emphasis effect="italics">μ:</emphasis> y flecha arriba hasta > <emphasis effect="italics">μ<sub>0</sub></emphasis>. Pulse <code>ENTER</code>. Desplace la flecha hacia abajo <code>Calculate (Calcular)</code> y pulse <code>ENTER</code>. La calculadora no solo calcula el valor <emphasis effect="italics">p</emphasis> (<emphasis effect="italics">p</emphasis> = 0,1331, un poco diferente del cálculo anterior. En este utilizamos la media de la muestra redondeada a un decimal en lugar de los datos), sino que también calcula el estadístico de prueba (puntuación <emphasis effect="italics">z</emphasis>) para la media de la muestra, la media de la muestra y la desviación estándar de la muestra. <emphasis effect="italics">μ</emphasis> > 275 es la hipótesis alternativa. Vuelva a realizar este conjunto de instrucciones, excepto la flecha hacia <code>Draw (Dibujar)</code> (en vez de <code>Calculate (Calcular)</code>). Pulse <code>ENTER</code>. Aparece un gráfico sombreado con <emphasis effect="italics">z</emphasis> = 1,112 (estadístico de prueba) y <emphasis effect="italics">p</emphasis> = 0,1331 (valo r<emphasis effect="italics">p</emphasis>). Asegúrese de que cuando use <code>Draw (Dibujar)</code> que no haya otras ecuaciones resaltadas en <emphasis effect="italics">Y</emphasis> = y los diagramas estén apagados.</para></note>
 </solution>
 </exercise>
 </example>
@@ -345,7 +345,7 @@ Para este problema, <m:math>
 
 <solution id="id5147242">
   <para id="element-594">Establezca la prueba de la hipótesis:</para>
-<para id="element-810">El nivel de significación del 5 % significa que <emphasis effect="italics">α</emphasis> = 0,05. Se trata de una prueba de la <emphasis>media de una sola población</emphasis>.</para><para id="element-880"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 65 <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 65</para><para id="element-936">Ya que el instructor cree que la puntuación media es más alta, utiliza un "&gt;". El "&gt;" significa que la prueba es de cola derecha.</para>
+<para id="element-810">El nivel de significación del 5 % significa que <emphasis effect="italics">α</emphasis> = 0,05. Se trata de una prueba de la <emphasis>media de una sola población</emphasis>.</para><para id="element-880"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 65 <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 65</para><para id="element-936">Ya que el instructor cree que la puntuación media es más alta, utiliza un ">". El ">" significa que la prueba es de cola derecha.</para>
 <para id="fs-idp165624976">Determine la distribución necesaria:</para>
 <para id="element-40"><emphasis>Variable aleatoria:</emphasis> <m:math>
  <m:mover accent="true">
@@ -362,15 +362,15 @@ Para este problema, <m:math>
   <m:mo>¯</m:mo>
  </m:mover>
 
-</m:math> &gt; 67) = 0,0396 donde la media y la desviación estándar de la muestra se calculan como 67 y 3,1972 a partir de los datos.</para><para id="element-850"><emphasis>Interpretación del valor <emphasis effect="italics">p</emphasis>:</emphasis> Si la hipótesis nula es verdadera, existe una probabilidad de 0,0396 (3,96 %) de que la media de la muestra sea igual o superior a 65.</para><figure id="hyptest11_ex4"><media id="id5241154" alt="Curva de distribución normal de las puntuaciones medias en las primeras pruebas de Estadística con los valores 65 y 67 en el eje de la x. Una línea vertical ascendente se extiende desde el 67 hasta la curva. El valor p señala el área a la derecha de 67."><image src="../../media/fig-ch09_11_04N-ea6b.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-438">Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>:</para>
-<para id="element-596">Dado que <emphasis effect="italics">α</emphasis> = 0,05 y el valor <emphasis effect="italics">p</emphasis>= 0,0396. <emphasis effect="italics">α</emphasis> &gt; valor <emphasis effect="italics">p</emphasis>.</para><para id="element-710"><emphasis>Tome una decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> &gt; valor <emphasis effect="italics">p</emphasis>, se rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
+</m:math> > 67) = 0,0396 donde la media y la desviación estándar de la muestra se calculan como 67 y 3,1972 a partir de los datos.</para><para id="element-850"><emphasis>Interpretación del valor <emphasis effect="italics">p</emphasis>:</emphasis> Si la hipótesis nula es verdadera, existe una probabilidad de 0,0396 (3,96 %) de que la media de la muestra sea igual o superior a 65.</para><figure id="hyptest11_ex4"><media id="id5241154" alt="Curva de distribución normal de las puntuaciones medias en las primeras pruebas de Estadística con los valores 65 y 67 en el eje de la x. Una línea vertical ascendente se extiende desde el 67 hasta la curva. El valor p señala el área a la derecha de 67."><image src="../../media/fig-ch09_11_04N-ea6b.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-438">Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>:</para>
+<para id="element-596">Dado que <emphasis effect="italics">α</emphasis> = 0,05 y el valor <emphasis effect="italics">p</emphasis>= 0,0396. <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>.</para><para id="element-710"><emphasis>Tome una decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>, se rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
 
 <para id="fs-idm21057040">Esto significa que se rechaza <emphasis effect="italics">μ</emphasis> = 65. En otras palabras, cree que la puntuación promedio de los exámenes es superior a 65.</para>
 
 <para id="element-573"><emphasis>Conclusión:</emphasis> Al nivel de significación del 5 %, los datos de la muestra aportan suficientes pruebas de que la puntuación media (promedio) de la prueba es superior a 65, tal y como piensa el instructor de Matemáticas.</para><para id="element-676">El valor <emphasis effect="italics">p</emphasis> se calcula fácilmente.</para>
 <note id="fs-idm14472336" class="statistics calculator">
 <label/>
-<para id="element-339">Ponga los datos en una lista. Pulse <code>STAT</code> y desplace la flecha hacia <code>TESTS</code>. Pulse <code>2:T-Test</code>. Desplace la flecha hacia <code>Datos</code> y pulse <code>ENTER</code>. Flecha hacia abajo e introduzca 65 para <emphasis effect="italics">μ</emphasis><sub>0</sub>, el nombre de la lista donde se ponen los datos, y 1 para <code>Frec:</code>. Flecha hacia abajo, hasta <emphasis effect="italics">μ</emphasis>: y flecha hacia arriba, hasta &gt; <emphasis effect="italics">μ</emphasis><sub>0</sub>. Pulse <code>ENTER</code>. Desplace la flecha hacia abajo <code>Calculate (Calcular)</code> y pulse <code>ENTER</code>. La calculadora no solo calcula el valor <emphasis effect="italics">p</emphasis> (<emphasis effect="italics">p</emphasis> = 0,0396), sino que también calcula el estadístico de prueba (puntuación <emphasis effect="italics">t</emphasis>) para la media de la muestra, la media de la muestra y la desviación estándar de la muestra. <emphasis effect="italics">μ</emphasis> &gt; 65 es la hipótesis alternativa. Vuelva a realizar este conjunto de instrucciones, excepto la flecha hacia <code>Draw (Dibujar)</code> (en vez de <code>Calculate (Calcular)</code>). Pulse <code>ENTER</code>. Aparece un gráfico sombreado con <emphasis effect="italics">t</emphasis> = 1,9781 (estadístico de prueba) y <emphasis effect="italics">p</emphasis> = 0,0396 (valor<emphasis effect="italics">p</emphasis>). Asegúrese de que cuando use <code>Draw (Dibujar)</code> que no haya otras ecuaciones resaltadas en <emphasis effect="italics">Y</emphasis> = y los diagramas estén apagados.</para></note>
+<para id="element-339">Ponga los datos en una lista. Pulse <code>STAT</code> y desplace la flecha hacia <code>TESTS</code>. Pulse <code>2:T-Test</code>. Desplace la flecha hacia <code>Datos</code> y pulse <code>ENTER</code>. Flecha hacia abajo e introduzca 65 para <emphasis effect="italics">μ</emphasis><sub>0</sub>, el nombre de la lista donde se ponen los datos, y 1 para <code>Frec:</code>. Flecha hacia abajo, hasta <emphasis effect="italics">μ</emphasis>: y flecha hacia arriba, hasta > <emphasis effect="italics">μ</emphasis><sub>0</sub>. Pulse <code>ENTER</code>. Desplace la flecha hacia abajo <code>Calculate (Calcular)</code> y pulse <code>ENTER</code>. La calculadora no solo calcula el valor <emphasis effect="italics">p</emphasis> (<emphasis effect="italics">p</emphasis> = 0,0396), sino que también calcula el estadístico de prueba (puntuación <emphasis effect="italics">t</emphasis>) para la media de la muestra, la media de la muestra y la desviación estándar de la muestra. <emphasis effect="italics">μ</emphasis> > 65 es la hipótesis alternativa. Vuelva a realizar este conjunto de instrucciones, excepto la flecha hacia <code>Draw (Dibujar)</code> (en vez de <code>Calculate (Calcular)</code>). Pulse <code>ENTER</code>. Aparece un gráfico sombreado con <emphasis effect="italics">t</emphasis> = 1,9781 (estadístico de prueba) y <emphasis effect="italics">p</emphasis> = 0,0396 (valor<emphasis effect="italics">p</emphasis>). Asegúrese de que cuando use <code>Draw (Dibujar)</code> que no haya otras ecuaciones resaltadas en <emphasis effect="italics">Y</emphasis> = y los diagramas estén apagados.</para></note>
 </solution>
 </exercise>
 </example>
@@ -440,7 +440,7 @@ Para este problema, <m:math>
  <m:mo>)</m:mo></m:mrow>
 </m:math></para><para id="fs-idm107085552">donde <emphasis effect="italics">p</emphasis> = 0,50, <emphasis effect="italics">q</emphasis> = 1−<emphasis effect="italics">p</emphasis> = 0,50 y <emphasis effect="italics">n</emphasis> = 100</para>
 <para id="fs-idp14246672">Calcule el valor <emphasis effect="italics">p</emphasis> con la distribución normal para las proporciones:</para>
- <para id="element-518">valor <emphasis effect="italics">p</emphasis>= <emphasis effect="italics">P (p′</emphasis> &lt; 0,47 o <emphasis effect="italics">p′</emphasis> &gt; 0,53) = 0,5485</para>
+ <para id="element-518">valor <emphasis effect="italics">p</emphasis>= <emphasis effect="italics">P (p′</emphasis> &lt; 0,47 o <emphasis effect="italics">p′</emphasis> > 0,53) = 0,5485</para>
 <para id="fs-idp133040416">donde <emphasis effect="italics">x</emphasis> = 53, <emphasis effect="italics">p′</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
@@ -563,7 +563,7 @@ Para este problema, <m:math>
 <solution id="id5100583">
 
 <para id="element-167">Establezca la prueba de la hipótesis:</para>
-<para id="element-278"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≤ 0,25 <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> &gt; 0,25</para><para id="element-283">Determine la distribución necesaria:</para>
+<para id="element-278"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≤ 0,25 <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> > 0,25</para><para id="element-283">Determine la distribución necesaria:</para>
 <para id="element-784">En palabras, indique CLARAMENTE qué representa su variable aleatoria <m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
@@ -637,7 +637,7 @@ Para este problema, <m:math>
 <solution id="eip-974">
 <para id="eip-idp69766080">Sigamos un proceso de cuatro pasos para responder esta pregunta estadística. <list id="eip-idp69766512" list-type="enumerated" number-style="arabic"><item><emphasis>Plantee la pregunta</emphasis>: Tenemos que determinar si, a un nivel de significación de 0,05, la conductividad promedio del vidrio seleccionado es mayor que uno. Nuestras hipótesis serán <list id="eip-idp129554720" list-type="enumerated" number-style="lower-alpha">
 <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 1</item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 1</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 1</item>
 </list></item>
 <item><emphasis>Plan</emphasis>: estamos probando una media muestral sin una desviación estándar poblacional conocida. Por lo tanto, tenemos que utilizar una distribución t de Student. Supongamos que la población subyacente es normal.</item>
 <item><emphasis>Haga los cálculos</emphasis>: Introduciremos los datos de la muestra en la TI-83 de la siguiente manera.
@@ -668,7 +668,7 @@ Para este problema, <m:math>
 <solution id="eip-749">
 
 <para id="eip-idp3953440">Seguiremos el proceso de cuatro pasos.</para><list id="eip-idp191218624" list-type="enumerated" number-style="arabic"><item>Tenemos que realizar una prueba de hipótesis sobre la tasa de cáncer declarada. Nuestras hipótesis serán <list id="eip-idp171226608" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≤ 0,00034</item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> &gt; 0,00034</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> > 0,00034</item>
 </list><para id="eip-idm39752176" class="finger">Si cometemos un error tipo I, estamos aceptando esencialmente una afirmación falsa. Dado que la afirmación describe entornos cancerígenos, queremos minimizar las posibilidades de identificar incorrectamente las causas del cáncer.</para>
 </item>
 
@@ -716,7 +716,7 @@ Para este problema, <m:math>
 
 <section id="fs-idp69608272" class="summary">
 <title>Revisión del capítulo</title>
-<para id="fs-idp168110512">La <term>prueba de hipótesis</term> en sí tiene un proceso establecido. Esto se sintetiza de la siguiente manera <list id="list-1" list-type="enumerated"><item>Determine <emphasis effect="italics">H<sub>0</sub></emphasis> y <emphasis effect="italics">H<sub>a</sub></emphasis>. Recuerde que son contradictorios.</item>
+<para id="fs-idp168110512">La <term id="term-00005">prueba de hipótesis</term> en sí tiene un proceso establecido. Esto se sintetiza de la siguiente manera <list id="list-1" list-type="enumerated"><item>Determine <emphasis effect="italics">H<sub>0</sub></emphasis> y <emphasis effect="italics">H<sub>a</sub></emphasis>. Recuerde que son contradictorios.</item>
 <item>Determine la variable aleatoria.</item>
 <item>Determine la distribución para la prueba.</item>
 <item>Dibuje un gráfico, calcule el estadístico de la prueba y utilícelo para calcular el valor <emphasis effect="italics">p</emphasis>. (La puntuación <emphasis effect="italics">z</emphasis>y la puntuación <emphasis effect="italics">t</emphasis> son ejemplos de estadísticos de prueba).</item>
@@ -735,7 +735,7 @@ Para este problema, <m:math>
 </exercise>
 
 <exercise id="eip-815"><problem id="eip-286">
-  <para id="eip-480">Supongamos que <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 6 y <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 6. ¿Es una prueba de cola izquierda, de cola derecha o de dos colas?</para>
+  <para id="eip-480">Supongamos que <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 6 y <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 6. ¿Es una prueba de cola izquierda, de cola derecha o de dos colas?</para>
 </problem>
 </exercise><exercise id="fs-idp45725152">
 <problem id="eip-116">
@@ -813,7 +813,7 @@ Dibuje el gráfico de una prueba de dos colas.
 </section>
 
 
-  <section id="fs-idp139727497473120" class="free-response"><title>Tarea para la casa</title><para id="eip-idm30094416"><emphasis effect="italics">En cada uno de los problemas, utilice una hoja de soluciones para comprobar la hipótesis. La hoja de soluciones se encuentra en el <link document="m47882"/>. Siéntase en libertad de hacer copias de las hojas de soluciones. Para la versión en línea del libro, se sugiere copiar los archivos .doc o .pdf.</emphasis></para><note id="id8395739"><label/><title>Nota:</title>
+  <section id="fs-idp139727497473120" class="free-response"><title>Tarea para la casa</title><para id="eip-idm30094416"><emphasis effect="italics">En cada uno de los problemas, utilice una hoja de soluciones para comprobar la hipótesis. La hoja de soluciones se encuentra en el <link document="m10502"/>. Siéntase en libertad de hacer copias de las hojas de soluciones. Para la versión en línea del libro, se sugiere copiar los archivos .doc o .pdf.</emphasis></para><note id="id8395739"><label/><title>Nota:</title>
 <para id="eip-idm120632832">Si usa una distribución <emphasis effect="italics">t</emphasis> de Student para uno de los siguientes problemas de tarea para la casa, puede suponer que la población subyacente está distribuida normalmente. (Sin embargo, en general, primero hay que demostrar ese supuesto).</para></note><exercise id="element-816"><problem id="id8395759">
   <para id="fs-idp44498592">Una marca particular de neumáticos afirma que su neumático de lujo recorre un promedio de 50.000 millas antes de necesitar reemplazo. Por estudios anteriores de este neumático, se sabe que la desviación típica es de 8.000. Se realiza una encuesta entre los propietarios de ese diseño de neumático. De los 28 neumáticos revisados la vida media fue de 46.500 millas con una desviación típica de 9.800 millas. Utilizando alfa = 0,05, ¿los datos son altamente incoherentes con la afirmación?</para></problem>
   <solution id="fs-idm164410224">
@@ -988,7 +988,7 @@ Dibuje el gráfico de una prueba de dos colas.
         <para id="fs-idp187110944">Datos (duración de la semana laboral media): 70; 45; 55; 60; 65; 55; 55; 60; 50; 55.</para></problem></exercise><!-- LINK -->
     <exercise id="element-761">
 <problem id="id9401488">
-<para id="element-926">Utilice los datos de "tiempo de vuelta" con la vuelta 4 (ver <link document="m47873"/>) para probar la afirmación de que Terri termina la vuelta 4, en promedio, en menos de 129 segundos. Utilice las veinte carreras dadas.</para></problem>
+<para id="element-926">Utilice los datos de "tiempo de vuelta" con la vuelta 4 (ver <link document="m10500"/>) para probar la afirmación de que Terri termina la vuelta 4, en promedio, en menos de 129 segundos. Utilice las veinte carreras dadas.</para></problem>
 <solution id="fs-idp13518384">
 <list id="fs-idp13518640" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≥ 129</item>
 <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &lt; 129</item>
@@ -1016,7 +1016,7 @@ Dibuje el gráfico de una prueba de dos colas.
 </exercise>
 <exercise id="fs-idp191961952"><problem id="id9401521">
 <!-- LINK -->
-  <para id="element-564a">Utilice los datos de la "Oferta Pública Inicial" (véase <link document="m47873"/>) para comprobar la afirmación de que el precio medio de la oferta fue de 18 dólares por acción. No utilice todos los datos. Utilice su generador de números aleatorios para encuestar al azar 15 precios.</para></problem></exercise><note id="id9401550"><label/><title>Nota:</title>
+  <para id="element-564a">Utilice los datos de la "Oferta Pública Inicial" (véase <link document="m10500"/>) para comprobar la afirmación de que el precio medio de la oferta fue de 18 dólares por acción. No utilice todos los datos. Utilice su generador de números aleatorios para encuestar al azar 15 precios.</para></problem></exercise><note id="id9401550"><label/><title>Nota:</title>
 <para id="eip-idp174015456">Las siguientes preguntas las escribieron antiguos estudiantes. ¡Son problemas excelentes!</para></note><exercise id="ex1"><problem id="id9401566">
 <para id="id10961970">"Reunión familiar asiática", de Chau Nguyen</para>
 <para id="eip-idp174081328">Cada dos años se celebra.</para>
@@ -1200,7 +1200,7 @@ Dibuje el gráfico de una prueba de dos colas.
 </problem>
 <solution id="fs-idp45964640">
 <list id="fs-idp45964896" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 1</item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 1</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 1</item>
 <item>Supongamos que <m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
@@ -1254,7 +1254,7 @@ Dibuje el gráfico de una prueba de dos colas.
 <para id="id8293070">"Sin título", de Stephen Chen</para><para id="id5050494">A menudo me he preguntado cómo se lanza y se vende el software al público. Irónicamente, trabajo para una empresa que vende productos con problemas conocidos. Por desgracia, la mayoría de los problemas son difíciles de crear, lo que hace que sean difíciles de solucionar. Suelo utilizar el programa de pruebas X, que prueba el producto, para intentar crear un problema específico. Cuando se ejecuta el programa de prueba para que se produzca un error, la probabilidad de generar un error es del 1 %.</para>
       <para id="id11215303">Así que, armado con este conocimiento, escribí un nuevo programa de prueba Y que generará el mismo error que crea el programa de prueba X, pero con más frecuencia. Para saber si mi programa de prueba es mejor que el original, y así poder convencer a la dirección de que tengo razón, he ejecutado mi programa de prueba para saber con qué frecuencia puedo generar el mismo error. Cuando ejecuté mi programa de prueba 50 veces, generé el error dos veces. Aunque esto no parezca mucho mejor, creo que puedo convencer a la dirección de que utilice mi programa de pruebas en lugar del programa de pruebas original. ¿Estoy en lo cierto?</para></problem>
 <solution id="fs-idp10825072"><list id="fs-idp10825200" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> = 0,01</item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> &gt; 0,01</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> > 0,01</item>
 <item>Sea <emphasis effect="italics">P′</emphasis> = la proporción de errores generados</item>
 <item>Normal para una sola proporción</item>
 <item>2,13</item>
@@ -1410,7 +1410,7 @@ Dibuje el gráfico de una prueba de dos colas.
   </para></problem>
 <solution id="fs-idm11266464">
 <list id="fs-idm126211024" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 69.110</item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 69.110</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 69.110</item>
 <item>Supongamos que <m:math display="">
  <m:mover accent="true">
   <m:mi>X</m:mi>
@@ -1514,7 +1514,7 @@ Dibuje el gráfico de una prueba de dos colas.
 </exercise><exercise id="eip-717"><problem id="eip-444">
   <para id="eip-807">Una encuesta publicada en el <emphasis effect="italics">New York Times Almanac</emphasis> revela que el tiempo medio de desplazamiento (en un sentido) es de 25,4 minutos en las 15 principales ciudades de EE. UU. La cámara de comercio de Austin, TX considera que el tiempo de desplazamiento de Austin es menor y quiere dar a conocer este hecho. La media de 25 viajeros seleccionados al azar es de 22,1 minutos, con una desviación típica de 5,3 minutos. Al nivel α = 0,10, ¿el viaje al trabajo de Austin, TX es significativamente menor que la media del tiempo de viaje de las 15 ciudades más grandes de EE. UU.?</para>
 </problem></exercise><exercise id="eip-192"><problem id="eip-426">
-  <para id="eip-326">Un informe de Gallup Poll reveló que una mujer visita a su médico, en promedio, como máximo 5,8 veces al año. Una muestra aleatoria de 20 mujeres da como resultado estos totales de visitas anuales</para><para id="eip-idm37849296"><list list-type="labeled-item" display="inline" mark-suffix="">
+  <para id="eip-326">Un informe de Gallup Poll reveló que una mujer visita a su médico, en promedio, como máximo 5,8 veces al año. Una muestra aleatoria de 20 mujeres da como resultado estos totales de visitas anuales</para><para id="eip-idm37849296"><list list-type="labeled-item" display="inline" mark-suffix="" id="list-00001">
 <item>3</item>
 <item>2</item>
 <item>1</item>
@@ -1540,7 +1540,7 @@ Dibuje el gráfico de una prueba de dos colas.
 
 <solution id="eip-586">
 <list id="eip-idp114932976" list-type="enumerated" number-style="lower-alpha">
-<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ</emphasis> ≤ 5,8 <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ</emphasis> &gt; 5,8</item>
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ</emphasis> ≤ 5,8 <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ</emphasis> > 5,8</item>
 <item>valor <emphasis effect="italics">p</emphasis> = 0,9987</item>
 <item>alfa = 0,05</item>
 <item>no rechazar la hipótesis nula.</item>
@@ -1548,7 +1548,7 @@ Dibuje el gráfico de una prueba de dos colas.
 </list>
 </solution>
 </exercise><exercise id="eip-677"><problem id="eip-484">
-  <para id="eip-543">Según el <emphasis effect="italics">New York Times Almanac</emphasis>, el tamaño medio de las familias en EE. UU. es de 3,18. Una muestra de una clase de Matemáticas de un instituto universitario dio como resultado los siguientes tamaños de familia: <newline/> <list list-type="labeled-item" display="inline">
+  <para id="eip-543">Según el <emphasis effect="italics">New York Times Almanac</emphasis>, el tamaño medio de las familias en EE. UU. es de 3,18. Una muestra de una clase de Matemáticas de un instituto universitario dio como resultado los siguientes tamaños de familia: <newline/> <list list-type="labeled-item" display="inline" id="list-00002">
 <item>5</item>
 <item>4</item>
 <item>5</item>

@@ -18,7 +18,7 @@
 <m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
-</m:math> que consiste en las medias muestrales, tiende a <term>distribuirse normalmente</term> y</para><para id="element-810"><m:math>
+</m:math> que consiste en las medias muestrales, tiende a <term id="term-00001">distribuirse normalmente</term> y</para><para id="element-810"><m:math>
 <m:mover accent="true">
 <m:mi>X</m:mi>
 <m:mo>¯</m:mo>
@@ -46,12 +46,12 @@
 </m:mrow>
 </m:math>.</para>
 
-<para id="element-489">El <term>teorema del límite central</term> para las medias muestrales indica que si se extraen repetidamente muestras de un tamaño determinado (como lanzar repetidamente diez dados) y se calculan sus medias, estas tienden a seguir una distribución normal (la distribución muestral). A medida que aumenta el tamaño de la muestra, la distribución de las medias se ajusta más a la distribución normal. La distribución normal tiene la misma media que la distribución original y una varianza que es igual a la varianza original dividida por el tamaño de la muestra. La desviación típica es la raíz cuadrada de la varianza, por lo que la desviación típica de la distribución muestral es la desviación típica de la distribución original dividida por la raíz cuadrada de <emphasis effect="italics">n</emphasis>. La variable <emphasis effect="italics">n</emphasis> es el número de valores que se promedian juntos, no el número de veces que se realiza el experimento.</para><para id="fs-idm26555216">Para decirlo de manera más formal, si se extraen muestras aleatorias de tamaño <emphasis effect="italics">n</emphasis>, la distribución de la variable aleatoria <m:math>
+<para id="element-489">El <term id="term-00002">teorema del límite central</term> para las medias muestrales indica que si se extraen repetidamente muestras de un tamaño determinado (como lanzar repetidamente diez dados) y se calculan sus medias, estas tienden a seguir una distribución normal (la distribución muestral). A medida que aumenta el tamaño de la muestra, la distribución de las medias se ajusta más a la distribución normal. La distribución normal tiene la misma media que la distribución original y una varianza que es igual a la varianza original dividida por el tamaño de la muestra. La desviación típica es la raíz cuadrada de la varianza, por lo que la desviación típica de la distribución muestral es la desviación típica de la distribución original dividida por la raíz cuadrada de <emphasis effect="italics">n</emphasis>. La variable <emphasis effect="italics">n</emphasis> es el número de valores que se promedian juntos, no el número de veces que se realiza el experimento.</para><para id="fs-idm26555216">Para decirlo de manera más formal, si se extraen muestras aleatorias de tamaño <emphasis effect="italics">n</emphasis>, la distribución de la variable aleatoria <m:math>
 <m:mover accent="true">
 <m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
-</m:math>, que consiste en las medias muestrales, se denomina <emphasis>distribución muestral de la media</emphasis>. La distribución muestral de la media se aproxima a una distribución normal a medida que aumenta <emphasis effect="italics">n</emphasis>, el <term>tamaño de la muestra</term>. </para>
+</m:math>, que consiste en las medias muestrales, se denomina <emphasis>distribución muestral de la media</emphasis>. La distribución muestral de la media se aproxima a una distribución normal a medida que aumenta <emphasis effect="italics">n</emphasis>, el <term id="term-00003">tamaño de la muestra</term>. </para>
 
 <para id="element-54">La variable aleatoria <m:math>
 <m:mover accent="true">
@@ -134,7 +134,7 @@
 <m:mo>¯</m:mo>
 </m:mover>
 
-</m:math> y se denomina <term>error estándar de la media.</term></para>
+</m:math> y se denomina <term id="term-00004">error estándar de la media.</term></para>
 
 <note id="fs-idm74236704" class="statistics calculator">
 <label/>
@@ -173,7 +173,7 @@
 <para id="element-961">Una distribución desconocida tiene una media de 90 y una desviación típica de 15. Las muestras de tamaño <emphasis effect="italics">n</emphasis> = 25 se extraen aleatoriamente de la población.</para>
 <exercise id="element-705">
 <problem id="id5873867">
-<para id="element-704"><newline/>a. Calcule la probabilidad de que la <term>media de la muestra</term> esté entre 85 y 92.</para></problem>
+<para id="element-704"><newline/>a. Calcule la probabilidad de que la <term id="term-00005">media de la muestra</term> esté entre 85 y 92.</para></problem>
 <solution id="id5873893">
 <para id="fs-idp14520352">a. Supongamos que <emphasis effect="italics">X</emphasis> = un valor de la población original desconocida. La pregunta de probabilidad le pide que calcule una probabilidad para la <emphasis>media de la muestra</emphasis>.</para>
 
@@ -387,8 +387,8 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 <m:mo>¯</m:mo>
 </m:mover>
 
-</m:math> = la <term>media</term> de tiempo, en horas, que se necesita para jugar un partido de fútbol.</para>
-<para id="fs-idm28701424">Si <emphasis effect="italics">μ<sub>X</sub></emphasis> = _________, <emphasis effect="italics">σ<sub>X</sub></emphasis> = __________, y <emphasis effect="italics">n</emphasis> = ___________, entonces <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(______, ______) por el <term>teorema del límite central para las medias</term>.</para>
+</m:math> = la <term id="term-00006">media</term> de tiempo, en horas, que se necesita para jugar un partido de fútbol.</para>
+<para id="fs-idm28701424">Si <emphasis effect="italics">μ<sub>X</sub></emphasis> = _________, <emphasis effect="italics">σ<sub>X</sub></emphasis> = __________, y <emphasis effect="italics">n</emphasis> = ___________, entonces <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(______, ______) por el <term id="term-00007">teorema del límite central para las medias</term>.</para>
 
 <para id="fs-idm68643920"><emphasis effect="italics">μ<sub>X</sub></emphasis> = 2, <emphasis effect="italics">σ<sub>X</sub></emphasis> = 0,5, <emphasis effect="italics">n</emphasis> = 50, y <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis><m:math>
  <m:mrow>
@@ -547,7 +547,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 </m:mrow>
 </m:math> = 1,5</item>
 <item>El teorema del límite central establece que para tamaños de muestra grandes (<emphasis effect="italics">n</emphasis>), la distribución de la muestra será aproximadamente normal.</item>
-<item>La probabilidad de que la edad media de la muestra sea superior a 30 años viene dada por <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Χ</emphasis> &gt; 30) = <code>normalcdf</code>(30,E99,34;1,5) = 0,9962</item>
+<item>La probabilidad de que la edad media de la muestra sea superior a 30 años viene dada por <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Χ</emphasis> > 30) = <code>normalcdf</code>(30,E99,34;1,5) = 0,9962</item>
 <item>Supongamos que <emphasis effect="italics">k</emphasis> = el percentil 95<sup/>. <newline count="1"/><emphasis effect="italics">k</emphasis> = invNorm<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>

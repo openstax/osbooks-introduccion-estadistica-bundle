@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-<para id="delete_me">La prueba real comienza considerando dos <term>hipótesis</term>. Se denominan <term>hipótesis nula</term> e <term>hipótesis alternativa</term>. Estas hipótesis contienen puntos de vista opuestos.</para><para id="element-619"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis>La hipótesis nula:</emphasis> Es una afirmación de que no hay diferencia entre las variables: no están relacionadas. A menudo, esto puede considerarse el statu quo y, como resultado, si no se puede aceptar lo nulo, se requiere alguna acción.</para><para id="element-320"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis>La hipótesis alternativa:</emphasis> Es una afirmación sobre la población que es contradictoria con <emphasis effect="italics">H<sub>0</sub></emphasis> y lo que concluimos cuando rechazamos <emphasis effect="italics">H<sub>0</sub></emphasis>. Esto es normalmente lo que el investigador está tratando de probar.</para><para id="element-478">Dado que las hipótesis nula y alternativa son contradictorias, debe examinar las pruebas para decidir si tiene suficiente evidencia para rechazar la hipótesis nula o no. Las pruebas se presentan en forma de datos de muestra.</para><para id="element-862">Una vez que haya determinado qué hipótesis apoya la muestra, tome una <emphasis>decisión.</emphasis> Hay dos opciones para tomar una decisión. Son "rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>" si la información de la muestra favorece la hipótesis alternativa o "no rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>" o "negarse a rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>" si la información de la muestra es insuficiente para rechazar la hipótesis nula.</para><para id="element-689">Símbolos matemáticos utilizados en <emphasis effect="italics">H<sub>0</sub></emphasis> y <emphasis effect="italics">H<sub>a</sub></emphasis>:
+<para id="delete_me">La prueba real comienza considerando dos <term id="term-00001">hipótesis</term>. Se denominan <term id="term-00002">hipótesis nula</term> e <term id="term-00003">hipótesis alternativa</term>. Estas hipótesis contienen puntos de vista opuestos.</para><para id="element-619"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis>La hipótesis nula:</emphasis> Es una afirmación de que no hay diferencia entre las variables: no están relacionadas. A menudo, esto puede considerarse el statu quo y, como resultado, si no se puede aceptar lo nulo, se requiere alguna acción.</para><para id="element-320"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis>La hipótesis alternativa:</emphasis> Es una afirmación sobre la población que es contradictoria con <emphasis effect="italics">H<sub>0</sub></emphasis> y lo que concluimos cuando rechazamos <emphasis effect="italics">H<sub>0</sub></emphasis>. Esto es normalmente lo que el investigador está tratando de probar.</para><para id="element-478">Dado que las hipótesis nula y alternativa son contradictorias, debe examinar las pruebas para decidir si tiene suficiente evidencia para rechazar la hipótesis nula o no. Las pruebas se presentan en forma de datos de muestra.</para><para id="element-862">Una vez que haya determinado qué hipótesis apoya la muestra, tome una <emphasis>decisión.</emphasis> Hay dos opciones para tomar una decisión. Son "rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>" si la información de la muestra favorece la hipótesis alternativa o "no rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>" o "negarse a rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>" si la información de la muestra es insuficiente para rechazar la hipótesis nula.</para><para id="element-689">Símbolos matemáticos utilizados en <emphasis effect="italics">H<sub>0</sub></emphasis> y <emphasis effect="italics">H<sub>a</sub></emphasis>:
 
 <table id="element-341" frame="none" summary="Table presenting mathematical symbols used with the null and alternate hypothesis. The first column contains the null hypothesis and its 3 mathematical symbols and the second column has the alternate hypothesis and its mathematical symbols.">
 
@@ -21,7 +21,7 @@
 <tbody>
 <row>
 <entry>igual (=)</entry>
-<entry>no igual (≠) <emphasis>o</emphasis> mayor que (&gt;) <emphasis>o</emphasis> menor que (&lt;)</entry>
+<entry>no igual (≠) <emphasis>o</emphasis> mayor que (>) <emphasis>o</emphasis> menor que (&lt;)</entry>
 </row>
 <row>
 <entry>mayor o igual que (≥)</entry>
@@ -29,16 +29,16 @@
 </row>
 <row>
 <entry>menor o igual que (≤)</entry>
-<entry>mayor que (&gt;)</entry>
+<entry>mayor que (>)</entry>
 </row>
 </tbody>
 </tgroup>
 </table>
 </para><note id="id1168218302693"><label/><title>Nota</title>
-<para id="eip-idp37732128"><emphasis effect="italics">H<sub>0</sub></emphasis> siempre tiene un símbolo con un igual. <emphasis effect="italics">H<sub>a</sub></emphasis> nunca tiene un símbolo con un igual en él. La elección del símbolo depende del enunciado de la prueba de hipótesis. Sin embargo, tenga en cuenta que muchos investigadores (incluyendo uno de los coautores del trabajo de investigación) utilizan = en la hipótesis nula, incluso con &gt; o &lt; como símbolo en la hipótesis alternativa. Esta práctica es aceptable porque solo tomamos la decisión de rechazar o no rechazar la hipótesis nula.</para></note>
+<para id="eip-idp37732128"><emphasis effect="italics">H<sub>0</sub></emphasis> siempre tiene un símbolo con un igual. <emphasis effect="italics">H<sub>a</sub></emphasis> nunca tiene un símbolo con un igual en él. La elección del símbolo depende del enunciado de la prueba de hipótesis. Sin embargo, tenga en cuenta que muchos investigadores (incluyendo uno de los coautores del trabajo de investigación) utilizan = en la hipótesis nula, incluso con > o &lt; como símbolo en la hipótesis alternativa. Esta práctica es aceptable porque solo tomamos la decisión de rechazar o no rechazar la hipótesis nula.</para></note>
 
 <example id="element-183">
-<para id="element-283"><emphasis effect="italics">H<sub>0</sub></emphasis>: No más del 30 % de los votantes registrados en el condado de Santa Clara votaron en las elecciones primarias. <emphasis effect="italics">p</emphasis> ≤ 30 <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: Más del 30 % de los votantes registrados en el condado de Santa Clara votaron en las elecciones primarias. <emphasis effect="italics">p</emphasis> &gt; 30</para></example>
+<para id="element-283"><emphasis effect="italics">H<sub>0</sub></emphasis>: No más del 30 % de los votantes registrados en el condado de Santa Clara votaron en las elecciones primarias. <emphasis effect="italics">p</emphasis> ≤ 30 <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: Más del 30 % de los votantes registrados en el condado de Santa Clara votaron en las elecciones primarias. <emphasis effect="italics">p</emphasis> > 30</para></example>
 <note id="fs-idp10178800" class="statistics try">
 <label/>
 <title>Ejercicio</title>
@@ -57,7 +57,7 @@
 <title>Ejercicio</title>
 <exercise id="fs-idm576512">
 <problem id="fs-idm16416">
-<para id="eip-247">Queremos comprobar si la altura media de los estudiantes de octavo grado es de 66 pulgadas. Indique las hipótesis nula y alternativa. Escriba el símbolo correcto (=, ≠, ≥, &lt;, ≤, &gt;) para las hipótesis nula y alternativa <list id="eip-idm122826912" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> __ 66</item>
+<para id="eip-247">Queremos comprobar si la altura media de los estudiantes de octavo grado es de 66 pulgadas. Indique las hipótesis nula y alternativa. Escriba el símbolo correcto (=, ≠, ≥, &lt;, ≤, >) para las hipótesis nula y alternativa <list id="eip-idm122826912" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> __ 66</item>
 <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> __ 66</item>
 </list></para></problem>
 </exercise>
@@ -69,21 +69,21 @@
 <title>Ejercicio</title>
 <exercise id="fs-idm2856320">
 <problem id="fs-idp126181968">
-<para id="eip-414">Queremos comprobar si se tarda menos de 45 minutos en impartir una clase. Indique las hipótesis nula y alternativa. Escriba el símbolo correcto (=, ≠, ≥, &lt;, ≤, &gt;) para las hipótesis nula y alternativa <list id="eip-idm84545584" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> __ 45</item>
+<para id="eip-414">Queremos comprobar si se tarda menos de 45 minutos en impartir una clase. Indique las hipótesis nula y alternativa. Escriba el símbolo correcto (=, ≠, ≥, &lt;, ≤, >) para las hipótesis nula y alternativa <list id="eip-idm84545584" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> __ 45</item>
 <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> __ 45</item>
 </list></para>
 </problem>
 </exercise>
 </note>
 <example id="element-410">
-<para id="fs-idm30028400">En un número de <emphasis effect="italics">U. S. News and World Report</emphasis>, un artículo sobre los estándares escolares afirmaba que aproximadamente la mitad de los estudiantes de Francia, Alemania e Israel se presentan a exámenes de nivel avanzado y un tercio los aprueba. El mismo artículo afirma que el 6,6 % de los estudiantes estadounidenses se presentan a los exámenes de nivel avanzado y el 4,4 % los aprueba. Pruebe si el porcentaje de estudiantes estadounidenses que realizan exámenes de nivel avanzado es superior al 6,6 %. Indique las hipótesis nula y alternativa. <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≤ 0,066 <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> &gt; 0,066
+<para id="fs-idm30028400">En un número de <emphasis effect="italics">U. S. News and World Report</emphasis>, un artículo sobre los estándares escolares afirmaba que aproximadamente la mitad de los estudiantes de Francia, Alemania e Israel se presentan a exámenes de nivel avanzado y un tercio los aprueba. El mismo artículo afirma que el 6,6 % de los estudiantes estadounidenses se presentan a los exámenes de nivel avanzado y el 4,4 % los aprueba. Pruebe si el porcentaje de estudiantes estadounidenses que realizan exámenes de nivel avanzado es superior al 6,6 %. Indique las hipótesis nula y alternativa. <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≤ 0,066 <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> > 0,066
 </para></example>
 <note id="fs-idm2566848" class="statistics try">
 <label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm126344352">
 <problem id="fs-idm54604944">
-<para id="fs-idm131727840">En el examen estatal de conducir, alrededor del 40 % aprueba el examen en el primer intento. Queremos comprobar si más del 40 % aprueba en el primer intento. Escriba el símbolo correcto (=, ≠, ≥, &lt;, ≤, &gt;) para las hipótesis nula y alternativa <list id="eip-idp142654064" list-type="enumerated" number-style="lower-alpha">
+<para id="fs-idm131727840">En el examen estatal de conducir, alrededor del 40 % aprueba el examen en el primer intento. Queremos comprobar si más del 40 % aprueba en el primer intento. Escriba el símbolo correcto (=, ≠, ≥, &lt;, ≤, >) para las hipótesis nula y alternativa <list id="eip-idp142654064" list-type="enumerated" number-style="lower-alpha">
 <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> __ 0,40</item>
 <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> __ 0,40</item>
 </list>
@@ -100,7 +100,7 @@
 <title>Revisión del capítulo</title>
 <para id="eip-593">En una <emphasis>prueba de hipótesis</emphasis> se evalúan los datos de la muestra para llegar a una decisión sobre algún tipo de afirmación. Si se cumplen determinadas condiciones sobre la muestra, la afirmación se puede evaluar para una población. En una prueba de hipótesis, nosotros: <list id="eip-idp72518864" list-type="enumerated" number-style="arabic"><item>Evalúe la <emphasis>hipótesis nula</emphasis>, normalmente denotada con <emphasis effect="italics">H<sub>0</sub></emphasis>. La nulidad no se rechaza, a menos que la prueba de hipótesis demuestre lo contrario. La declaración nula debe contener siempre alguna forma de igualdad (=, ≤ o ≥)</item>
 
-<item>Escriba siempre la <emphasis>hipótesis alternativa</emphasis>, generalmente denotada con <emphasis effect="italics">H<sub>a</sub></emphasis> o <emphasis effect="italics">H<sub>1</sub></emphasis>, utilizando los símbolos de diferente, mayor que, o menor que (es decir, ≠, &gt;, o &lt;).</item>
+<item>Escriba siempre la <emphasis>hipótesis alternativa</emphasis>, generalmente denotada con <emphasis effect="italics">H<sub>a</sub></emphasis> o <emphasis effect="italics">H<sub>1</sub></emphasis>, utilizando los símbolos de diferente, mayor que, o menor que (es decir, ≠, >, o &lt;).</item>
 
 <item>Si rechazamos la hipótesis nula, podemos suponer que hay suficientes pruebas para apoyar la hipótesis alternativa.</item>
 
@@ -121,14 +121,14 @@
 </row>
 <row>
 <entry><emphasis>entonces <emphasis effect="italics">H<sub>a</sub></emphasis> tiene:</emphasis></entry>
-<entry>no igual (≠) <emphasis>o</emphasis> mayor que (&gt;) <emphasis>o</emphasis> menor que (&lt;)</entry>
+<entry>no igual (≠) <emphasis>o</emphasis> mayor que (>) <emphasis>o</emphasis> menor que (&lt;)</entry>
 <entry>menor que (&lt;)</entry>
-<entry>mayor que (&gt;)</entry>
+<entry>mayor que (>)</entry>
 </row>
 </tbody>
 </tgroup>
 </table>
-<para id="element-987">Si <emphasis effect="italics">α</emphasis> ≤ valor <emphasis effect="italics">p</emphasis>, entonces no rechace <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-43">Si <emphasis effect="italics">α</emphasis> &gt; valor <emphasis effect="italics">p</emphasis>, entonces rechace <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-305"><emphasis effect="italics">α</emphasis> es preconcebido. Su valor se establece antes de que comience la prueba de hipótesis. El valor <emphasis effect="italics">p</emphasis> se calcula a partir de los datos.</para>
+<para id="element-987">Si <emphasis effect="italics">α</emphasis> ≤ valor <emphasis effect="italics">p</emphasis>, entonces no rechace <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-43">Si <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>, entonces rechace <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-305"><emphasis effect="italics">α</emphasis> es preconcebido. Su valor se establece antes de que comience la prueba de hipótesis. El valor <emphasis effect="italics">p</emphasis> se calcula a partir de los datos.</para>
 </section>
 
 
@@ -228,7 +228,7 @@ Un sociólogo afirma que la probabilidad de que una persona elegida al azar en T
 <solution id="id9205906">
 <list id="fs-idm3759984" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 34; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≠ 34</item>
 
-<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≤ 0,60; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> &gt; 0,60</item>
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≤ 0,60; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> > 0,60</item>
 
 <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≥ 100.000; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &lt; 100.000</item>
 
@@ -236,14 +236,14 @@ Un sociólogo afirma que la probabilidad de que una persona elegida al azar en T
 
 <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> = 0,05; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> &lt; 0,05</item>
 
-<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 10; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 10</item>
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 10; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 10</item>
 
 <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> = 0,50; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≠ 0,50</item>
 
 <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 6; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≠ 6</item>
 
 <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≥ 0,11; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> &lt; 0,11</item>
-<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 20.000; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 20.000</item>
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 20.000; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 20.000</item>
 </list></solution>
 </exercise>
 
@@ -252,13 +252,13 @@ Un sociólogo afirma que la probabilidad de que una persona elegida al azar en T
 <item><emphasis effect="italics">p</emphasis> &lt; 0,30</item>
 <item><emphasis effect="italics">p</emphasis> ≤ 0,30 </item>
 <item><emphasis effect="italics">p</emphasis> ≥ 0,30 </item>
-<item><emphasis effect="italics">p</emphasis> &gt; 0,30 </item>
+<item><emphasis effect="italics">p</emphasis> > 0,30 </item>
 </list>
 </problem>
 </exercise><exercise id="exer13"><problem id="id8184432">
 <para id="eip-idp133963488">Un instructor de Estadística cree que menos del 20 % de los estudiantes del Evergreen Valley College (EVC) asistieron a la proyección de medianoche de la última película de Harry Potter. Hace una encuesta entre 84 de sus estudiantes y descubre que 11 asistieron a la proyección de medianoche. Una hipótesis alternativa adecuada es:</para><list id="id8618736" list-type="enumerated" number-style="lower-alpha">
 <item><emphasis effect="italics">p</emphasis> = 0,20</item>
-<item><emphasis effect="italics">p</emphasis> &gt; 0,20</item>
+<item><emphasis effect="italics">p</emphasis> > 0,20</item>
 <item><emphasis effect="italics">p</emphasis> &lt; 0,20</item>
 <item><emphasis effect="italics">p</emphasis> ≤ 0,20</item>
 </list>
@@ -277,10 +277,10 @@ Un sociólogo afirma que la probabilidad de que una persona elegida al azar en T
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
-</m:math> &gt; 4,5</item>
+</m:math> > 4,5</item>
 <item><emphasis effect="italics">H<sub>o</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≥ 4,5, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &lt; 4,5</item>
-<item><emphasis effect="italics">H<sub>o</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 4,75, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 4,75</item>
-<item><emphasis effect="italics">H<sub>o</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 4,5, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 4,5</item>
+<item><emphasis effect="italics">H<sub>o</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 4,75, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 4,75</item>
+<item><emphasis effect="italics">H<sub>o</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 4,5, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 4,5</item>
 </list></problem></exercise></section>
 
 <section id="fs-idm48036544" class="references">

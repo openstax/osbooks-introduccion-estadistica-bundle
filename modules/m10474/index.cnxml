@@ -33,7 +33,7 @@
 
  </m:mrow>
 </m:math>. La distribución normal tiene el siguiente formato:
-<equation id="normal" class="unnumbered"><label/><title>La <term>distribución normal</term> es:</title><m:math>
+<equation id="normal" class="unnumbered"><label/><title>La <term id="term-00001">distribución normal</term> es:</title><m:math>
  <m:mrow>
   <m:msub>
    <m:mover accent="true">
@@ -115,7 +115,7 @@
 </m:math></equation></para>
 
 <equation id="element-970" class="unnumbered"><label/>
-  <title><term>La desviación típica</term> es:</title>
+  <title><term id="term-00002">La desviación típica</term> es:</title>
 <m:math>
    <m:mrow>
     <m:msqrt>
@@ -171,7 +171,7 @@
    </m:mrow>
   </m:math>
  </equation>
- <equation id="element-465" class="unnumbered"><label/><title>El <term>estadístico de prueba</term> (puntuación<emphasis effect="italics">z</emphasis>) es:</title><m:math>
+ <equation id="element-465" class="unnumbered"><label/><title>El <term id="term-00003">estadístico de prueba</term> (puntuación<emphasis effect="italics">z</emphasis>) es:</title><m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -292,7 +292,7 @@
 
 <solution id="id48398901">
   <para id="element-795">Se trata de una prueba de dos grupos independientes, dos medias poblacionales, desviaciones típicas poblacionales conocidas.</para>
- <para id="element-483"><term>Variable aleatoria</term>: <m:math>
+ <para id="element-483"><term id="term-00004">Variable aleatoria</term>: <m:math>
  <m:mrow>
   <m:msub>
    <m:mover accent="true">
@@ -312,8 +312,8 @@
   </m:msub>
 
  </m:mrow>
-</m:math> = diferencia en el número medio de meses que duran las ceras para suelos de la competencia.</para><para id="element-735"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> ≤ <emphasis effect="italics">μ</emphasis><sub>2</sub></para><para id="element-608"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> &gt; <emphasis effect="italics">μ<sub>2</sub></emphasis></para>
- <para id="element-696">La expresión <emphasis>“es más eficaz”</emphasis> dice que la cera 1 <emphasis>dura más que la cera 2</emphasis>, en promedio. “Más que” es el símbolo “&gt;” y entra en <emphasis effect="italics">H<sub>a</sub></emphasis>. Por lo tanto, se trata de una prueba de cola derecha.</para>
+</m:math> = diferencia en el número medio de meses que duran las ceras para suelos de la competencia.</para><para id="element-735"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> ≤ <emphasis effect="italics">μ</emphasis><sub>2</sub></para><para id="element-608"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> > <emphasis effect="italics">μ<sub>2</sub></emphasis></para>
+ <para id="element-696">La expresión <emphasis>“es más eficaz”</emphasis> dice que la cera 1 <emphasis>dura más que la cera 2</emphasis>, en promedio. “Más que” es el símbolo “>” y entra en <emphasis effect="italics">H<sub>a</sub></emphasis>. Por lo tanto, se trata de una prueba de cola derecha.</para>
  <para id="element-690"><emphasis>Distribución para la prueba:</emphasis> Las desviaciones típicas de la población son conocidas, por lo que la distribución es normal. Utilizando la fórmula, la distribución es:</para>
 
 <para id="element-406"><m:math>
@@ -410,7 +410,7 @@
  <para id="element-132"><emphasis>Conclusión:</emphasis> Al nivel de significación del 5 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que el tiempo medio de duración de la cera 1 sea mayor (la cera 1 es más eficaz) que el tiempo medio de duración de la cera 2.</para>
 
 <note id="fs-idp34028208" class="statistics calculator"><label/>
-<para id="eip-idp126677488">Pulse <code>STAT</code>. Desplace la flecha hacia <code>TESTS</code> y pulse <code>3:2-SampZTest</code>. Desplace la flecha hacia <code>STATS</code> y pulse <code>ENTER</code>. Desplace la flecha hacia abajo y presione ENTER <code>0,33</code> para sigma1, <code>0,36</code> para sigma2, <code>3</code> para la primera media muestral, <code>20</code> para n1, <code>2,9</code> para la segunda media muestral, y <code>20</code> para n2. Desplace la flecha hacia abajo hasta <emphasis effect="italics">μ</emphasis>1: y la flecha hacia &gt; <emphasis effect="italics">μ</emphasis><sub>2</sub>. Pulse <code>ENTER</code>. Desplace la flecha hacia abajo hasta <code>Calculate</code> y pulse <code>ENTER</code>. El valor <emphasis effect="italics">p</emphasis> es <emphasis effect="italics">p</emphasis> = 0,1799 y el estadístico de prueba es 0,9157. Vuelva a realizar el procedimiento, pero en vez de <code>Calculate</code> presione <code>Draw</code>.</para></note></solution>
+<para id="eip-idp126677488">Pulse <code>STAT</code>. Desplace la flecha hacia <code>TESTS</code> y pulse <code>3:2-SampZTest</code>. Desplace la flecha hacia <code>STATS</code> y pulse <code>ENTER</code>. Desplace la flecha hacia abajo y presione ENTER <code>0,33</code> para sigma1, <code>0,36</code> para sigma2, <code>3</code> para la primera media muestral, <code>20</code> para n1, <code>2,9</code> para la segunda media muestral, y <code>20</code> para n2. Desplace la flecha hacia abajo hasta <emphasis effect="italics">μ</emphasis>1: y la flecha hacia > <emphasis effect="italics">μ</emphasis><sub>2</sub>. Pulse <code>ENTER</code>. Desplace la flecha hacia abajo hasta <code>Calculate</code> y pulse <code>ENTER</code>. El valor <emphasis effect="italics">p</emphasis> es <emphasis effect="italics">p</emphasis> = 0,1799 y el estadístico de prueba es 0,9157. Vuelva a realizar el procedimiento, pero en vez de <code>Calculate</code> presione <code>Draw</code>.</para></note></solution>
 </exercise></example>
 
 
@@ -468,9 +468,9 @@
  </m:math> = diferencia en la edad media de los senadores estadounidenses demócratas y republicanos.</para>
 
  <para id="fs-idm49757440"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> ≤ <emphasis effect="italics">µ<sub>2</sub></emphasis> <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> – <emphasis effect="italics">µ<sub>2</sub></emphasis> ≤ 0</para>
-<para id="fs-idm175162192"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> &gt; <emphasis effect="italics">µ<sub>2</sub></emphasis> <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> – <emphasis effect="italics">µ<sub>2</sub></emphasis> &gt; 0</para>
+<para id="fs-idm175162192"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> > <emphasis effect="italics">µ<sub>2</sub></emphasis> <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> – <emphasis effect="italics">µ<sub>2</sub></emphasis> > 0</para>
 
-<para id="fs-idm173135600">Las palabras “mayor que” se traducen en un símbolo “&gt;” y entran en <emphasis effect="italics">H<sub>a</sub></emphasis>. Por lo tanto, se trata de una prueba de cola derecha.</para><para id="fs-idm102148192"><emphasis>Distribución para la prueba:</emphasis> la distribución es la aproximación normal a la <emphasis effect="italics">t</emphasis> de Student para medias, grupos independientes. Utilizando la fórmula, la distribución es: <m:math>
+<para id="fs-idm173135600">Las palabras “mayor que” se traducen en un símbolo “>” y entran en <emphasis effect="italics">H<sub>a</sub></emphasis>. Por lo tanto, se trata de una prueba de cola derecha.</para><para id="fs-idm102148192"><emphasis>Distribución para la prueba:</emphasis> la distribución es la aproximación normal a la <emphasis effect="italics">t</emphasis> de Student para medias, grupos independientes. Utilizando la fórmula, la distribución es: <m:math>
  <m:mrow>
   <m:msub>
    <m:mover accent="true">
@@ -845,7 +845,7 @@
 <para id="fs-idm49112064">Indique las hipótesis nula y alternativa.</para>
 </problem>
 <solution id="fs-idm150673952">
-<para id="fs-idm150673696">Subíndices: 1 = comida, 2 = sin comida <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> ≤ <emphasis effect="italics">μ<sub>2</sub></emphasis> <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> &gt; <emphasis effect="italics">μ<sub>2</sub></emphasis>
+<para id="fs-idm150673696">Subíndices: 1 = comida, 2 = sin comida <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> ≤ <emphasis effect="italics">μ<sub>2</sub></emphasis> <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> > <emphasis effect="italics">μ<sub>2</sub></emphasis>
 </para></solution>
 </exercise>
 
@@ -926,7 +926,7 @@
 
 <section id="fs-idp58644992" class="free-response">
 <title>Tarea para la casa</title>
-<para id="eip-idm126171328"><emphasis effect="italics">INSTRUCCIONES: Para cada uno de los problemas de palabras use una hoja de soluciones para hacer la prueba de hipótesis. La hoja de soluciones se encuentra en el <link document="m47882"/>. No dude en hacer copias de las hojas de soluciones. Para la versión en línea del libro se sugiere copiar los archivos .doc o .pdf.</emphasis></para><note id="fs-idm71956336">
+<para id="eip-idm126171328"><emphasis effect="italics">INSTRUCCIONES: Para cada uno de los problemas de palabras use una hoja de soluciones para hacer la prueba de hipótesis. La hoja de soluciones se encuentra en el <link document="m10502"/>. No dude en hacer copias de las hojas de soluciones. Para la versión en línea del libro se sugiere copiar los archivos .doc o .pdf.</emphasis></para><note id="fs-idm71956336">
 <label/>
 <title>Nota</title>
 <para id="eip-idp76319008">Si usa una distribución <emphasis effect="italics">t</emphasis>de Student para uno de los siguientes problemas de tarea para la casa, incluso para datos emparejados, puede suponer que la población subyacente está distribuida normalmente (sin embargo, cuando se utilicen estas pruebas en una situación real, primero hay que demostrar ese supuesto).</para></note>
@@ -944,7 +944,7 @@
 <solution id="id17616631">
  <para id="fs-idp33457664">Subíndices: 1 = hombres, 2 = mujeres</para>
  <list id="fs-idp165211984" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> ≤ <emphasis effect="italics">µ<sub>2</sub></emphasis></item>
-   <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> &gt; <emphasis effect="italics">µ<sub>2</sub></emphasis></item>
+   <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> > <emphasis effect="italics">µ<sub>2</sub></emphasis></item>
     <item>La variable aleatoria es la diferencia en la media de los costos de los seguros de automóviles de hombres y mujeres.</item>
     <item>normal</item>
     <item>estadístico de prueba: <emphasis effect="italics">z</emphasis> = 2,50</item>

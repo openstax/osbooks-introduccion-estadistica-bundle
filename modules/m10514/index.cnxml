@@ -81,7 +81,7 @@
 </tgroup>
 </table>
 <para id="element-817">La media muestral = 11,49 y la desviación típica de la muestra = 6,23.</para>
-<para id="element-60">Supondremos que los tiempos de sonrisa, en segundos, siguen una distribución uniforme entre cero y 23 segundos, ambos inclusive. Esto significa que cualquier tiempo de sonrisa desde cero hasta 23 segundos inclusive es <term>igualmente probable</term>. El histograma que se construyó a partir de la muestra es una distribución empírica que se acerca mucho a la distribución uniforme teórica.</para><para id="element-804">Supongamos que <emphasis effect="italics">X</emphasis> = la duración, en segundos, de la sonrisa de un bebé de ocho semanas.</para><para id="element-13">La notación para la distribución uniforme es</para>
+<para id="element-60">Supondremos que los tiempos de sonrisa, en segundos, siguen una distribución uniforme entre cero y 23 segundos, ambos inclusive. Esto significa que cualquier tiempo de sonrisa desde cero hasta 23 segundos inclusive es <term id="term-00001">igualmente probable</term>. El histograma que se construyó a partir de la muestra es una distribución empírica que se acerca mucho a la distribución uniforme teórica.</para><para id="element-804">Supongamos que <emphasis effect="italics">X</emphasis> = la duración, en segundos, de la sonrisa de un bebé de ocho semanas.</para><para id="element-13">La notación para la distribución uniforme es</para>
 
 <para id="element-746"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(<emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis>) donde <emphasis effect="italics">a</emphasis> = el menor valor de <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">b</emphasis> = el mayor valor de <emphasis effect="italics">x</emphasis>.</para>
 
@@ -332,7 +332,7 @@
 <problem id="id9694925">
 <para id="element-503">c. Halle la probabilidad de que un bebé de ocho semanas elegido al azar sonría más de 12 segundos <emphasis>SABIENDO</emphasis> que el bebé sonríe <emphasis>MÁS DE OCHO SEGUNDOS</emphasis>.</para></problem>
 <solution id="id15390803">
-<para id="fs-idp106518000">c. Esta pregunta de probabilidad es un <emphasis>condicional</emphasis>. Se le pide que halle la probabilidad de que un bebé de ocho semanas sonría más de 12 segundos cuando <emphasis>ya sabe</emphasis> que el bebé ha sonreído durante más de ocho segundos.</para><para id="element-836">Halle <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 12|<emphasis effect="italics">x</emphasis> &gt; 8) Hay dos maneras de efectuar el problema. <emphasis>En la primera forma</emphasis>, utilice el hecho de que se trata de un <emphasis>condicional</emphasis> y esto cambia el espacio muestral. El gráfico ilustra el nuevo espacio muestral. Ya sabe que el bebé sonrió más de ocho segundos.</para><para id="element-837"><emphasis>Escriba una nueva</emphasis> <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>): <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math display="">
+<para id="fs-idp106518000">c. Esta pregunta de probabilidad es un <emphasis>condicional</emphasis>. Se le pide que halle la probabilidad de que un bebé de ocho semanas sonría más de 12 segundos cuando <emphasis>ya sabe</emphasis> que el bebé ha sonreído durante más de ocho segundos.</para><para id="element-836">Halle <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 12|<emphasis effect="italics">x</emphasis> > 8) Hay dos maneras de efectuar el problema. <emphasis>En la primera forma</emphasis>, utilice el hecho de que se trata de un <emphasis>condicional</emphasis> y esto cambia el espacio muestral. El gráfico ilustra el nuevo espacio muestral. Ya sabe que el bebé sonrió más de ocho segundos.</para><para id="element-837"><emphasis>Escriba una nueva</emphasis> <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>): <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math display="">
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -350,7 +350,7 @@
 </m:mrow>
 </m:mfrac>
 </m:mrow>
-</m:math> para 8 &lt; <emphasis effect="italics">x</emphasis> &lt; 23</para><para id="element-400"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 12|<emphasis effect="italics">X</emphasis> &gt; 8) = (23 - 12)<m:math display="">
+</m:math> para 8 &lt; <emphasis effect="italics">x</emphasis> &lt; 23</para><para id="element-400"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 12|<emphasis effect="italics">X</emphasis> > 8) = (23 - 12)<m:math display="">
 <m:mrow>
 <m:mrow><m:mo>(</m:mo>
 <m:mrow>
@@ -384,7 +384,7 @@
 <image src="../../media/fig-ch05_03_03N.jpg" mime-type="image/jpg" width="380"/>
 </media>
 </figure>
-</para><para id="element-961"><emphasis>En la segunda forma</emphasis>, utilice la fórmula condicional de <link document="m46938">Temas de probabilidad</link> con la distribución original <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (0, 23):</para><para id="element-445"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>) = <m:math>
+</para><para id="element-961"><emphasis>En la segunda forma</emphasis>, utilice la fórmula condicional de <link document="m10426">Temas de probabilidad</link> con la distribución original <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (0, 23):</para><para id="element-445"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>) = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -397,24 +397,24 @@
 
  </m:mrow>
 </m:math>
-</para><para id="fs-idp12091856">En este problema, <emphasis effect="italics">A</emphasis> es (<emphasis effect="italics">x</emphasis> &gt; 12) y <emphasis effect="italics">B</emphasis> es (<emphasis effect="italics">x</emphasis> &gt; 8).</para>
+</para><para id="fs-idp12091856">En este problema, <emphasis effect="italics">A</emphasis> es (<emphasis effect="italics">x</emphasis> > 12) y <emphasis effect="italics">B</emphasis> es (<emphasis effect="italics">x</emphasis> > 8).</para>
 
-<para id="element-613">Así, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; <emphasis effect="italics">12</emphasis>|<emphasis effect="italics">x</emphasis> &gt; 8) = <m:math>
+<para id="element-613">Así, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > <emphasis effect="italics">12</emphasis>|<emphasis effect="italics">x</emphasis> > 8) = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
-    <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>12</m:mn><m:mtext> Y </m:mtext><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>12</m:mn><m:mtext> Y </m:mtext><m:mi>x</m:mi><m:mo>></m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
   <m:mo>=</m:mo><m:mfrac>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
   <m:mo>=</m:mo><m:mfrac>
@@ -453,7 +453,7 @@
 </m:math></para><para id="element-644"><figure id="eip-idm5414416"><media id="id15928918" alt="Este diagrama muestra un eje X horizontal que interseca un eje F de x vertical en el origen. El eje X va de 0 a 24, mientras que el eje Y sólo tiene la fracción uno veintitrés situada a aproximadamente dos tercios de la parte superior. Una caja rectangular se extiende horizontalmente de 0 a 23 en el eje X. La caja se extiende verticalmente hasta la fracción uno veintitrés en el eje F de x. El área de la caja entre 8 y 12 en el eje x está ligeramente sombreada. La zona de la caja entre el 12 y el 23 tiene un sombreado más oscuro. ">
 <image src="../../media/fig-ch_05_03_04.jpg" mime-type="image/jpg" width="380"/></media>
 
-<caption>El área sombreada más oscura representa P(x &gt; 12). Toda el área sombreada muestra P(x &gt; 8).</caption></figure></para></solution>
+<caption>El área sombreada más oscura representa P(x > 12). Toda el área sombreada muestra P(x > 8).</caption></figure></para></solution>
 </exercise>
 </example>
 <note id="fs-idp61080304" class="statistics try">
@@ -602,7 +602,7 @@
 <para id="eip-idp95257200">a. 0,5714<newline/></para></solution>
 </exercise><exercise id="eip-idp95257840">
 <problem id="eip-idp95258096">
-<para id="element-546">b. Halle la probabilidad de que otro niño de nueve años se coma una rosquilla en más de dos minutos, dado que el niño ya ha estado comiéndose la rosquilla durante más de 1,5 minutos.</para><para id="element-938">La segunda pregunta tiene una <term>probabilidad condicional</term>. Se le pide que halle la probabilidad de que un niño de nueve años se coma una rosquilla en más de dos minutos, dado que el niño ya lleva comiendo la rosquilla más de 1,5 minutos. Resuelva el problema de dos formas diferentes (vea el <link target-id="element-156"/>). Debe reducir el espacio de la muestra. <emphasis>Primera forma</emphasis>: Como sabe que el niño ya ha estado comiéndose la rosquilla durante más de 1,5 minutos, ya no empieza en <emphasis effect="italics">a</emphasis> = 0,5 minutos. Su punto de partida es 1,5 minutos.</para><para id="element-69"><emphasis>Escriba una nueva <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>):</emphasis></para><para id="element-269"><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math>
+<para id="element-546">b. Halle la probabilidad de que otro niño de nueve años se coma una rosquilla en más de dos minutos, dado que el niño ya ha estado comiéndose la rosquilla durante más de 1,5 minutos.</para><para id="element-938">La segunda pregunta tiene una <term id="term-00002">probabilidad condicional</term>. Se le pide que halle la probabilidad de que un niño de nueve años se coma una rosquilla en más de dos minutos, dado que el niño ya lleva comiendo la rosquilla más de 1,5 minutos. Resuelva el problema de dos formas diferentes (vea el <link target-id="element-156"/>). Debe reducir el espacio de la muestra. <emphasis>Primera forma</emphasis>: Como sabe que el niño ya ha estado comiéndose la rosquilla durante más de 1,5 minutos, ya no empieza en <emphasis effect="italics">a</emphasis> = 0,5 minutos. Su punto de partida es 1,5 minutos.</para><para id="element-69"><emphasis>Escriba una nueva <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>):</emphasis></para><para id="element-269"><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -618,11 +618,11 @@
 <m:mn>5</m:mn>
 </m:mfrac>
 </m:mrow>
-</m:math> para 1,5 ≤ <emphasis effect="italics">x</emphasis> ≤ 4.</para><para id="eip-idm60988032">Halle <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 2|<emphasis effect="italics">x</emphasis> &gt; 1,5). Dibuje un gráfico.</para><para id="eip-idp116156944"><figure id="eip-idp101580400">
+</m:math> para 1,5 ≤ <emphasis effect="italics">x</emphasis> ≤ 4.</para><para id="eip-idm60988032">Halle <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 2|<emphasis effect="italics">x</emphasis> > 1,5). Dibuje un gráfico.</para><para id="eip-idp116156944"><figure id="eip-idp101580400">
 <media id="id13790135" alt="Gráfico f(X)=2/5 que muestra una región delimitada formada por una línea horizontal que se extiende hacia la derecha desde el punto 2/5 del eje y, una línea vertical ascendente desde los puntos 1,5 y 4 del eje x, y el eje x. La región sombreada de los puntos 2-4 se encuentra dentro de esa región.">
 <image src="../../media/fig-ch05_03_07N.jpg" mime-type="image/jpg" width="380"/>
 </media>
-</figure></para><para id="eip-idm48182144"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">2</emphasis>|<emphasis effect="italics">x</emphasis> &gt; 1,5) = (base)(nueva altura) = (4 - 2)<m:math>
+</figure></para><para id="eip-idm48182144"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">2</emphasis>|<emphasis effect="italics">x</emphasis> > 1,5) = (base)(nueva altura) = (4 - 2)<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -640,22 +640,22 @@
 </para></solution>
 </exercise>
 <para id="eip-idm70960944">La probabilidad de que un niño de nueve años se coma una rosquilla en más de dos minutos, dado que el niño ya ha estado comiendo la rosquilla durante más de 1,5 minutos, es <m:math><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:math></para>
-<para id="eip-idm39713200"><emphasis>Segunda forma:</emphasis> Dibuje el gráfico original para <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (0,5, 4). Utilice la fórmula condicional</para><para id="eip-idm39711312"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 2|<emphasis effect="italics">x</emphasis> &gt; 1,5) = <m:math>
+<para id="eip-idm39713200"><emphasis>Segunda forma:</emphasis> Dibuje el gráfico original para <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (0,5, 4). Utilice la fórmula condicional</para><para id="eip-idm39711312"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 2|<emphasis effect="italics">x</emphasis> > 1,5) = <m:math>
  <m:mrow>
   <m:mo> </m:mo><m:mfrac>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn><m:mtext> Y </m:mtext><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1,5</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>2</m:mn><m:mtext> Y </m:mtext><m:mi>x</m:mi><m:mo>></m:mo><m:mn>1,5</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mtext>1</m:mtext><m:mtext>0,5</m:mtext><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mtext>1</m:mtext><m:mtext>0,5</m:mtext><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
   <m:mo>=</m:mo><m:mfrac>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1,5</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>1,5</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
   <m:mo>=</m:mo><m:mfrac>
@@ -725,7 +725,7 @@
 </m:mrow>
 </m:mfrac>
 </m:mrow>
-</m:math> por lo que <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = 0,4</para><para id="fs-idm19787408"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 2) = (base)(altura) = (4 - 2)(0,4) = 0,8</para>
+</m:math> por lo que <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = 0,4</para><para id="fs-idm19787408"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 2) = (base)(altura) = (4 - 2)(0,4) = 0,8</para>
 <figure id="fs-idp54235200">
 <media id="fs-idm38845872" alt="Muestra el gráfico de la función f(x) = 0,4. Una línea horizontal va desde el punto (1,5; 0,4) hasta el punto (4; 0,4). Las líneas verticales se extienden desde el eje x hasta el gráfico en x = 1,5 y x = 4 y crean un rectángulo. En el interior del rectángulo hay una región sombreada desde x = 2 hasta x = 4.">
 <image src="../../media/fig-ch05_03_08N-6b27.jpg" mime-type="image/jpeg" width="380"/>
@@ -744,10 +744,10 @@
 </media>
 
 <caption>Distribución uniforme entre 1,5 y 4 con un área de 0,30 sombreada a la izquierda, que representa el 30 % más corto de los tiempos de reparación.</caption></figure></para><para id="fs-idm20420640"><newline/><emphasis effect="italics">P</emphasis> (<emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">k</emphasis>) = 0,30 <newline/> <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">k</emphasis>) = (base)(altura) = (<emphasis effect="italics">k</emphasis> – 1,5)(0,4) <newline/><emphasis>0,3 = (<emphasis effect="italics">k</emphasis> – 1,5) (0,4)</emphasis>; resuelva para hallar <emphasis effect="italics">k</emphasis>: <newline/>0,75 = <emphasis effect="italics">k</emphasis> - 1,5, que se obtuvo dividiendo ambos lados entre 0,4 <newline/><emphasis><emphasis effect="italics">k</emphasis> = 2,25 </emphasis>, que se obtuvo sumando 1,5 a ambos lados <newline/>El percentil 30<sup/> de los tiempos de reparación es de 2,25 horas. El 30 % de los tiempos de reparación es de 2,25 horas o menos.</para>
-<para id="fs-idm25221984">d. <figure id="fs-idm51742384"><media id="fs-idp77501376" alt="Se muestra el gráfico de la función f(x) = 0,4, el pdf para una distribución uniforme. Una línea horizontal va desde el punto (1,5; 0,4) hasta el punto (4; 0,4). Las líneas verticales se extienden desde el eje x hasta el gráfico en x = 1,5 y x = 4 y crean un rectángulo. Se sombrea una región dentro del rectángulo desde x = k para 1,5 &lt; k &lt; 4 hasta x = 4. El texto señala que el área sombreada representa P(x &gt; k) = 0,25.">
+<para id="fs-idm25221984">d. <figure id="fs-idm51742384"><media id="fs-idp77501376" alt="Se muestra el gráfico de la función f(x) = 0,4, el pdf para una distribución uniforme. Una línea horizontal va desde el punto (1,5; 0,4) hasta el punto (4; 0,4). Las líneas verticales se extienden desde el eje x hasta el gráfico en x = 1,5 y x = 4 y crean un rectángulo. Se sombrea una región dentro del rectángulo desde x = k para 1,5 &lt; k &lt; 4 hasta x = 4. El texto señala que el área sombreada representa P(x > k) = 0,25.">
 <image src="../../media/fig-ch05_03_11N-12be.jpg" mime-type="image/jpeg" width="380"/>
 </media>
-<caption>Distribución uniforme entre 1,5 y 4 con un área de 0,25 sombreada a la derecha que representa el 25 % más largo de los tiempos de reparación.</caption></figure></para><para id="fs-idp80199408"><newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; <emphasis effect="italics">k</emphasis>) = 0,25 <newline/> <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; <emphasis effect="italics">k</emphasis>) = (base)(altura) = (4 – <emphasis effect="italics">k</emphasis>)(0,4) <newline/><emphasis>0,25 = (4 – <emphasis effect="italics">k</emphasis>)(0,4)</emphasis>; resuelva para <emphasis effect="italics">k</emphasis>: <newline/>0,625 = 4 − <emphasis effect="italics">k</emphasis>, <newline/>que se obtuvo dividiendo ambos lados entre 0,4 <newline/>−3,375 = −<emphasis effect="italics">k</emphasis>, <newline/>que se obtuvo restando cuatro a ambos lados: <emphasis> <emphasis effect="italics">k</emphasis> = 3,375</emphasis> <newline/>El 25 % de las reparaciones de hornos más largas tardan al menos 3,375 horas (3,375 horas o más). <newline/><emphasis>Nota:</emphasis> Dado que el 25 % de los tiempos de reparación es de 3,375 horas o más, eso significa que el 75 % de los tiempos de reparación son de 3,375 horas o menos. 3,375 horas es el <emphasis>percentil 75<sup/></emphasis> de los tiempos de reparación de hornos.</para>
+<caption>Distribución uniforme entre 1,5 y 4 con un área de 0,25 sombreada a la derecha que representa el 25 % más largo de los tiempos de reparación.</caption></figure></para><para id="fs-idp80199408"><newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > <emphasis effect="italics">k</emphasis>) = 0,25 <newline/> <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > <emphasis effect="italics">k</emphasis>) = (base)(altura) = (4 – <emphasis effect="italics">k</emphasis>)(0,4) <newline/><emphasis>0,25 = (4 – <emphasis effect="italics">k</emphasis>)(0,4)</emphasis>; resuelva para <emphasis effect="italics">k</emphasis>: <newline/>0,625 = 4 − <emphasis effect="italics">k</emphasis>, <newline/>que se obtuvo dividiendo ambos lados entre 0,4 <newline/>−3,375 = −<emphasis effect="italics">k</emphasis>, <newline/>que se obtuvo restando cuatro a ambos lados: <emphasis> <emphasis effect="italics">k</emphasis> = 3,375</emphasis> <newline/>El 25 % de las reparaciones de hornos más largas tardan al menos 3,375 horas (3,375 horas o más). <newline/><emphasis>Nota:</emphasis> Dado que el 25 % de los tiempos de reparación es de 3,375 horas o más, eso significa que el 75 % de los tiempos de reparación son de 3,375 horas o menos. 3,375 horas es el <emphasis>percentil 75<sup/></emphasis> de los tiempos de reparación de hornos.</para>
 <para id="fs-idp136143312">e <m:math>
 <m:mrow>
 <m:mi>μ</m:mi><m:mo>=</m:mo><m:mfrac>
@@ -818,7 +818,7 @@
 <item>Escriba en palabras la variable aleatoria <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X</emphasis> = __________________.</item>
 <item>Escriba la distribución.</item>
 <item>Grafique la distribución.</item>
-<item>Halle <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">x</emphasis> &gt; 19).</item>
+<item>Halle <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">x</emphasis> > 19).</item>
 <item>Calcule el percentil 50<sup/>.</item>
 </list>
 </problem>
@@ -951,7 +951,7 @@
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math></para><para id="element-84"><emphasis>Área a la derecha de <emphasis effect="italics">x</emphasis>:</emphasis> <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">x</emphasis>) = (<emphasis effect="italics">b</emphasis> – <emphasis effect="italics">x</emphasis>)<m:math>
+</m:math></para><para id="element-84"><emphasis>Área a la derecha de <emphasis effect="italics">x</emphasis>:</emphasis> <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">x</emphasis>) = (<emphasis effect="italics">b</emphasis> – <emphasis effect="italics">x</emphasis>)<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1209,7 +1209,7 @@
 
 <exercise id="fs-idp172321904">
 <problem id="fs-idp7677536">
-<para id="fs-idp81592784">Dibuje el gráfico de la distribución para <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 9).</para></problem>
+<para id="fs-idp81592784">Dibuje el gráfico de la distribución para <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 9).</para></problem>
 <solution id="fs-idp67560352">
 <figure id="fs-idp140107840"><media id="fs-idp124624384" alt="Este gráfico muestra una distribución uniforme. El eje horizontal va de 0 a 12. La distribución se modela mediante un rectángulo que se extiende desde x = 0 hasta x = 12. En el interior del rectángulo está sombreada una región desde x = 9 hasta x = 12.">
 <image mime-type="image/jpg" src="../../media/CNX_Stats_C05_M03_item002annoN.jpg" width="380"/>
@@ -1219,7 +1219,7 @@
 
 <exercise id="fs-idp49233616">
 <problem id="fs-idp8048544">
-<para id="fs-idp16092816">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 9).</para></problem>
+<para id="fs-idp16092816">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 9).</para></problem>
 </exercise>
 
 <exercise id="fs-idp16246272">
@@ -1419,8 +1419,8 @@
 <item><emphasis effect="italics">μ</emphasis> = _________</item>
 <item><emphasis effect="italics">σ</emphasis> = _________</item>
 <item><emphasis effect="italics">P</emphasis>(3,5 &lt; <emphasis effect="italics">x</emphasis> &lt; 7,25) = _________</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 5,67)</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 5|<emphasis effect="italics">x</emphasis> &gt; 3) = _________</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 5,67)</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 5|<emphasis effect="italics">x</emphasis> > 3) = _________</item>
 <item>Calcule el percentil 90<sup/>.</item>
 </list></problem>
 <solution id="eip-idp101962176">
@@ -1492,7 +1492,7 @@
 <item><emphasis effect="italics">σ</emphasis> = _________</item>
 <item>Calcule la probabilidad de que la persona haya perdido más de diez libras en un mes.</item>
 <item>Supongamos que se sabe que la persona ha perdido más de diez libras en un mes. Calcule la probabilidad de que haya perdido menos de 12 libras en el mes.</item>
-<item><emphasis effect="italics">P</emphasis>(7 &lt; <emphasis effect="italics">x</emphasis> &lt; 13|<emphasis effect="italics">x</emphasis> &gt; 9) = __________. Plantee esto en una pregunta de probabilidad, de forma similar a las partes g y h, haga el dibujo y calcule la probabilidad.</item>
+<item><emphasis effect="italics">P</emphasis>(7 &lt; <emphasis effect="italics">x</emphasis> &lt; 13|<emphasis effect="italics">x</emphasis> > 9) = __________. Plantee esto en una pregunta de probabilidad, de forma similar a las partes g y h, haga el dibujo y calcule la probabilidad.</item>
 </list>
 </problem>
 </exercise>
@@ -1685,7 +1685,7 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math>. <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 19) = (25 – 19) <m:math>
+</m:math>. <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 19) = (25 – 19) <m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1714,7 +1714,7 @@
 
  </m:mrow>
 </m:math>.
-<figure id="fs-idp56920896"><media id="fs-idp56921152" alt="Esto muestra el gráfico de la función f(x) = 1/9, la función de densidad de probabilidad (probability density function, pdf) para una distribución uniforme. Una línea horizontal va desde el punto (16; 1/9) hasta el punto (25; 1,9). Las líneas verticales se extienden desde el eje x hasta el gráfico en x = 16 y x = 25 y crean un rectángulo. En el interior del rectángulo hay una región sombreada desde x = 19 hasta x = 25. El texto señala que el área sombreada representa P(x &gt; 19) = 2/3.">
+<figure id="fs-idp56920896"><media id="fs-idp56921152" alt="Esto muestra el gráfico de la función f(x) = 1/9, la función de densidad de probabilidad (probability density function, pdf) para una distribución uniforme. Una línea horizontal va desde el punto (16; 1/9) hasta el punto (25; 1,9). Las líneas verticales se extienden desde el eje x hasta el gráfico en x = 16 y x = 25 y crean un rectángulo. En el interior del rectángulo hay una región sombreada desde x = 19 hasta x = 25. El texto señala que el área sombreada representa P(x > 19) = 2/3.">
 <image src="../../media/soln_01aF-c18f.jpg" mime-type="png/jpg" width="380"/>
 </media>
 </figure></item>
@@ -1764,7 +1764,7 @@
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math>, por lo que la anchura = (0,25)(9) = 2,25. Así, el valor es 25 - 2,25 = 22,75.</item>
-<item>Esta es una pregunta de probabilidad condicional. P(x &gt; 21| X &gt; 18). Puede responderla de dos maneras: <list id="fs-idp37941792" list-type="bulleted">
+<item>Esta es una pregunta de probabilidad condicional. P(x > 21| X > 18). Puede responderla de dos maneras: <list id="fs-idp37941792" list-type="bulleted">
 <item>Dibuje el gráfico donde a es ahora 18 y b sigue siendo 25. La altura es <m:math>
  <m:mrow>
   <m:mfrac>
@@ -1783,7 +1783,7 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math><newline/>Entonces, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 21|<emphasis effect="italics">x</emphasis> &gt; 18) = (25 - 21)<m:math>
+</m:math><newline/>Entonces, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 21|<emphasis effect="italics">x</emphasis> > 18) = (25 - 21)<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1796,14 +1796,14 @@
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math> = 4/7.</item>
-<item>Utilice la fórmula: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 21|<emphasis effect="italics">x</emphasis> &gt; 18) = <m:math>
+<item>Utilice la fórmula: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 21|<emphasis effect="italics">x</emphasis> > 18) = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>21</m:mn><m:mtext> Y </m:mtext><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>21</m:mn><m:mtext> Y </m:mtext><m:mi>x</m:mi><m:mo>></m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
 
@@ -1812,10 +1812,10 @@
  <m:mrow>
   <m:mfrac>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>21</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>21</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
 
@@ -1865,7 +1865,7 @@
 </list>
 </problem>
 <solution id="fs-idp168190128">
-<list id="fs-idp14788896" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 650) = <m:math>
+<list id="fs-idp14788896" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 650) = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>

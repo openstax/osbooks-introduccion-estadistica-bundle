@@ -93,7 +93,7 @@
 </m:math> = 0</para><figure id="fs-idm37512432"><media id="id40076640" alt="Esto muestra el gráfico de la función f(x) = 1/20. Una línea horizontal va desde el punto (0, 1/20) hasta el punto (20, 1/20). Una línea vertical se extiende desde el eje x hasta el final de la línea en el punto (20, 1/20) y crea un rectángulo. Una línea vertical se extiende desde el eje horizontal hasta el gráfico en x = 15.">
 <image src="../../media/fig-ch05_02_04.jpg" mime-type="image/jpg" width="380"/></media></figure>
 
-<para id="element-71"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ <emphasis effect="italics">x</emphasis>), que también se puede escribir como <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">x</emphasis>) para distribuciones continuas, se denomina función de distribución acumulativa o cdf. Fíjese en el símbolo “menor que o igual a”. También podemos utilizar la cdf para calcular <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">x</emphasis>). La cdf da el “área a la izquierda” y <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">x</emphasis>) da el “área a la derecha”. Calculamos <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">x</emphasis>) para distribuciones continuas de la siguiente manera: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">x</emphasis>) = 1 – <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">x</emphasis>).</para><figure id="fs-idp12815264"><media id="id39508301" alt="Esto muestra el gráfico de la función f(x) = 1/20. Una línea horizontal va desde el punto (0, 1/20) hasta el punto (20, 1/20). Una línea vertical se extiende desde el eje x hasta el final de la línea en el punto (20, 1/20) y crea un rectángulo. El área a la izquierda de un valor, x, está sombreada.">
+<para id="element-71"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ <emphasis effect="italics">x</emphasis>), que también se puede escribir como <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">x</emphasis>) para distribuciones continuas, se denomina función de distribución acumulativa o cdf. Fíjese en el símbolo “menor que o igual a”. También podemos utilizar la cdf para calcular <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">x</emphasis>). La cdf da el “área a la izquierda” y <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">x</emphasis>) da el “área a la derecha”. Calculamos <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">x</emphasis>) para distribuciones continuas de la siguiente manera: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">x</emphasis>) = 1 – <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">x</emphasis>).</para><figure id="fs-idp12815264"><media id="id39508301" alt="Esto muestra el gráfico de la función f(x) = 1/20. Una línea horizontal va desde el punto (0, 1/20) hasta el punto (20, 1/20). Una línea vertical se extiende desde el eje x hasta el final de la línea en el punto (20, 1/20) y crea un rectángulo. El área a la izquierda de un valor, x, está sombreada.">
 <image src="../../media/fig-ch05_02_05.jpg" mime-type="image/jpg" width="380"/></media></figure>
 
 <para id="element-473">Identifique el gráfico con <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) y <emphasis effect="italics">x</emphasis>. Escale los ejes <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">y</emphasis> con los valores máximos de <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">y</emphasis>. <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math>
@@ -216,7 +216,7 @@
 
 <exercise id="fs-idm118866416">
 <problem id="fs-idm94113008">
-<para id="fs-idm186932672">Para una distribución de probabilidad continua, 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15. ¿Qué es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 15)?</para></problem>
+<para id="fs-idm186932672">Para una distribución de probabilidad continua, 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15. ¿Qué es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 15)?</para></problem>
 </exercise>
 
 <exercise id="fs-idm154014752">
@@ -317,7 +317,7 @@
 <m:mrow>
 <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
 <m:mrow>
-<m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mfrac>
+<m:mi>x</m:mi><m:mo>></m:mo><m:mfrac>
 <m:mn>3</m:mn>
 <m:mn>2</m:mn>
 </m:mfrac>

@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-<para id="element-848">El “centro” de un conjunto de datos también es una forma de describir la ubicación. Las dos medidas más utilizadas del “centro” de los datos son la <term>media</term> (promedio) y la <term>mediana</term>. Para calcular el <emphasis>peso medio</emphasis> de 50 personas, sume los 50 pesos y los divide entre 50. Para calcular la <emphasis> mediana del peso</emphasis> de las 50 personas, ordene los datos y halle el número que divide los datos en dos partes iguales. La mediana suele ser una mejor medida del centro cuando hay valores extremos o atípicos porque no se ve afectada por los valores numéricos precisos de los atípicos. La media es la medida más común del centro.</para>
+<para id="element-848">El “centro” de un conjunto de datos también es una forma de describir la ubicación. Las dos medidas más utilizadas del “centro” de los datos son la <term id="term-00001">media</term> (promedio) y la <term id="term-00002">mediana</term>. Para calcular el <emphasis>peso medio</emphasis> de 50 personas, sume los 50 pesos y los divide entre 50. Para calcular la <emphasis> mediana del peso</emphasis> de las 50 personas, ordene los datos y halle el número que divide los datos en dos partes iguales. La mediana suele ser una mejor medida del centro cuando hay valores extremos o atípicos porque no se ve afectada por los valores numéricos precisos de los atípicos. La media es la medida más común del centro.</para>
 
 <note id="eip-13"><label/>
 <title>NOTA</title>
@@ -247,7 +247,7 @@
 <label/><title>Ejercicio</title>
 <exercise id="fs-idm28353888"><problem id="fs-idm72704208">
 <para id="fs-idm46796800">Los siguientes datos muestran el número de meses que los pacientes suelen esperar en una lista de trasplantes antes de ser operados. Los datos están ordenados de menor a mayor. Calcule la media y la mediana.</para><para id="fs-idm114142640">
-<list list-type="labeled-item" display="inline">
+<list list-type="labeled-item" display="inline" id="list-00001">
 <item>3</item>
 <item>4</item>
 <item>5</item>
@@ -325,7 +325,7 @@
 
 </exercise></note>
 
-<para id="element-584">Otra medida del centro es la moda. La <term>moda</term> es el valor más frecuente. Puede haber más de una moda en un conjunto de datos siempre que esos valores tengan la misma frecuencia y esta sea la más alta. Un conjunto de datos con dos modas se denomina bimodal.</para>
+<para id="element-584">Otra medida del centro es la moda. La <term id="term-00003">moda</term> es el valor más frecuente. Puede haber más de una moda en un conjunto de datos siempre que esos valores tengan la misma frecuencia y esta sea la más alta. Un conjunto de datos con dos modas se denomina bimodal.</para>
 
 <example id="element-114"><para id="element-639">Las calificaciones de los exámenes de Estadística de 20 estudiantes son las siguientes:</para>
 <para id="element-104"><list id="set-536" list-type="labeled-item" display="inline">
@@ -343,7 +343,7 @@
 <note id="fs-idp45793968" class="statistics try">
 <label/><title>Ejercicio</title>
 <exercise id="fs-idm24402032"><problem id="fs-idm24643648"><para id="fs-idp74555792">El número de libros retirados de la biblioteca por 25 estudiantes es el siguiente:</para>
-<para id="fs-idm901328"><list list-type="labeled-item" display="inline"><item>0</item><item>0</item><item>0</item><item>1</item><item>2</item><item>3</item><item>3</item><item>4</item><item>4</item><item>5</item><item>5</item><item>7</item><item>7</item><item>7</item><item>7</item><item>8</item><item>8</item><item>8</item><item>9</item><item>10</item><item>10</item><item>11</item><item>11</item><item>12</item><item>12</item></list> <newline/>Calcule la moda.
+<para id="fs-idm901328"><list list-type="labeled-item" display="inline" id="list-00002"><item>0</item><item>0</item><item>0</item><item>1</item><item>2</item><item>3</item><item>3</item><item>4</item><item>4</item><item>5</item><item>5</item><item>7</item><item>7</item><item>7</item><item>7</item><item>8</item><item>8</item><item>8</item><item>9</item><item>10</item><item>10</item><item>11</item><item>11</item><item>12</item><item>12</item></list> <newline/>Calcule la moda.
 </para>
 </problem>
 </exercise></note>
@@ -368,7 +368,7 @@
 
 <section id="eip-529">
 <title>Distribuciones muestrales y estadística de una distribución muestral</title>
-<para id="eip-568">Se puede pensar en una <term>distribución de muestreo</term> como una <emphasis> distribución de frecuencia relativa</emphasis> con un gran número de muestras. (Vea la sección <emphasis>Muestreo y datos</emphasis> para una revisión de la frecuencia relativa). Supongamos que se pregunta a treinta estudiantes seleccionados al azar el número de películas que vieron la semana anterior. Los resultados se encuentran en la <emphasis>tabla de frecuencias relativas</emphasis> que se muestra a continuación.</para>
+<para id="eip-568">Se puede pensar en una <term id="term-00004">distribución de muestreo</term> como una <emphasis> distribución de frecuencia relativa</emphasis> con un gran número de muestras. (Vea la sección <emphasis>Muestreo y datos</emphasis> para una revisión de la frecuencia relativa). Supongamos que se pregunta a treinta estudiantes seleccionados al azar el número de películas que vieron la semana anterior. Los resultados se encuentran en la <emphasis>tabla de frecuencias relativas</emphasis> que se muestra a continuación.</para>
 <table id="rel_freq_table" summary="The table presents the number of movies 30 students watched in the previous week. The first column lists the number of movies from 0-4 and the second column lists the relative frequencies.">
 <tgroup cols="2"><thead>
 <row>
@@ -694,7 +694,7 @@
 </problem>
 </exercise>
 
-<para id="eip-193"><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios:</emphasis> Los siguientes datos muestran las esloras de barcos atracados en un puerto. Los datos están ordenados de menor a mayor: <list list-type="labeled-item" display="inline">
+<para id="eip-193"><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios:</emphasis> Los siguientes datos muestran las esloras de barcos atracados en un puerto. Los datos están ordenados de menor a mayor: <list list-type="labeled-item" display="inline" id="list-00003">
 <item>16</item><item>17</item><item>19</item><item>20</item><item>20</item><item>21</item><item>23</item><item>24</item><item>25</item><item>25</item><item>25</item><item>26</item><item>26</item><item>27</item><item>27</item><item>27</item><item>28</item><item>29</item><item>30</item><item>32</item><item>33</item><item>33</item><item>34</item><item>35</item><item>37</item><item>39</item><item>40</item></list></para><exercise id="fs-idp3713376">
 <problem id="fs-idp45051248">
 <para id="fs-idp72372672">Calcule la media.</para>

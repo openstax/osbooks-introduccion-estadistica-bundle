@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-    <para id="delete_me">Hay dos características principales de un experimento de Poisson.</para><list id="element-1" list-type="enumerated"><item>La <term>distribución de probabilidad de Poisson</term> da la probabilidad de que se produzca un número de sucesos en un <emphasis>intervalo fijo</emphasis> de tiempo o espacio si estos sucesos se producen con una tasa media conocida y con independencia del tiempo transcurrido desde el último suceso. Por ejemplo, un editor de libros podría estar interesado en el número de palabras escritas incorrectamente en un libro en particular. Puede ser que, en promedio, haya cinco palabras mal escritas en 100 páginas. El intervalo son las 100 páginas.</item>
+    <para id="delete_me">Hay dos características principales de un experimento de Poisson.</para><list id="element-1" list-type="enumerated"><item>La <term id="term-00001">distribución de probabilidad de Poisson</term> da la probabilidad de que se produzca un número de sucesos en un <emphasis>intervalo fijo</emphasis> de tiempo o espacio si estos sucesos se producen con una tasa media conocida y con independencia del tiempo transcurrido desde el último suceso. Por ejemplo, un editor de libros podría estar interesado en el número de palabras escritas incorrectamente en un libro en particular. Puede ser que, en promedio, haya cinco palabras mal escritas en 100 páginas. El intervalo son las 100 páginas.</item>
 <item>La distribución de Poisson puede utilizarse para aproximarse a la binomial si la probabilidad de éxito es "pequeña" (del orden de 0,01) y el número de intentos es "grande" (del orden de 1000). Comprobará la relación en los ejercicios de los deberes. <emphasis effect="italics">n</emphasis> es el número de intentos, y <emphasis effect="italics">p</emphasis> es la probabilidad de un “acierto".</item>
 </list><para id="fs-idp39944848">La variable aleatoria <emphasis effect="italics">X</emphasis> = el número de ocurrencias en el intervalo de interés.</para>
 
@@ -68,7 +68,7 @@
   <para id="element-40">b. 2</para>
   <para id="element-112">c. Supongamos que <emphasis effect="italics">X</emphasis> = el número de veces que el reportero de noticias dice “eh" durante una emisión. <newline/><emphasis effect="italics">x</emphasis> = 0, 1, 2, 3, ...
   </para>
-  <para id="element-683">d. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 2)</para></solution>
+  <para id="element-683">d. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 2)</para></solution>
 </exercise>
 </example>
 
@@ -109,16 +109,16 @@
 </m:math>(6) = 0,75 llamadas durante 15 minutos, en promedio. Por tanto, <emphasis effect="italics">μ</emphasis> = 0,75 para este problema.</para>
 <para id="element-696"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(0,75)</para>
 
-<para id="element-697" class="finger">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 1). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 1) = 0,1734 (calculadora o computadora)</para>
+<para id="element-697" class="finger">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1) = 0,1734 (calculadora o computadora)</para>
 
 <note id="fs-idm23681840" class="statistics calculator"><label/>
 <list id="fs-idp1265216" list-type="bulleted"><item>Pulse 1 y luego pulse 2.<sup>º</sup> DISTR.</item>
 <item>Pulse la flecha hacia abajo y seleccione poissoncdf. Pulse ENTER.</item>
 <item>Introduzca (0,75,1).</item>
-<item>El resultado es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 1) = 0,1734.</item>
+<item>El resultado es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1) = 0,1734.</item>
 </list><note id="eip-706" class="finger"><label/><title>Nota</title>
 <para id="fs-idm154468640">Las calculadoras de TI utilizan <emphasis effect="italics">λ</emphasis> (lambda) para la media.</para>
-</note></note><para id="element-886">La probabilidad de que Leah reciba más de una llamada telefónica en los próximos 15 minutos es de 0,1734: <newline count="1"/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 1) = 1 - poissoncdf(0,75, 1).</para><para id="element-89">El gráfico de <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(0,75) es:</para>
+</note></note><para id="element-886">La probabilidad de que Leah reciba más de una llamada telefónica en los próximos 15 minutos es de 0,1734: <newline count="1"/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1) = 1 - poissoncdf(0,75, 1).</para><para id="element-89">El gráfico de <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(0,75) es:</para>
 
 <figure id="fs-idm13011872"><media id="id18951496" display="block" alt="Este gráfico muestra una distribución de probabilidad de Poisson. Tiene 5 barras que disminuyen en altura de izquierda a derecha. El eje X muestra los valores en incrementos de 1 a partir de 0, que representan el número de llamadas que recibe Leah durante 15 minutos. El eje y va de 0 a 0,5 en incrementos de 0,1.">
 <image src="../../media/fig-ch04_08_01N.jpg" mime-type="image/jpg" width="400"/>
@@ -198,7 +198,7 @@
  </m:mrow>
 </m:math> ≈ 1.7292.</item>
 <item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(1,7292), por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 2) = poissonpdf(1,7292, 2) ≈ 0,2653</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 2) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 2) = 1 – poissoncdf(1,7292, 2) ≈ 1 - 0,7495 = 0,2505</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 2) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 2) = 1 – poissoncdf(1,7292, 2) ≈ 1 - 0,7495 = 0,2505</item>
 </list></solution>
 </exercise>
 </example>
@@ -243,7 +243,7 @@
 <para id="fs-idm47256464">“World Earthquakes: Live Earthquake News and Highlights”, World Earthquakes, 2012. http://www.world-earthquakes.com/index.php?option=ethq_prediction (consultado el 15 de mayo de 2013).</para>
 </section><section id="fs-idm134097152" class="summary">
 <title>Revisión del capítulo</title>
-<para id="fs-idm58971248">Una <term>distribución de probabilidad de Poisson</term> de una variable aleatoria discreta da la probabilidad de que se produzca un número de eventos en un intervalo fijo de tiempo o espacio, si estos eventos se producen a una tasa media conocida y con independencia del tiempo transcurrido desde el último evento. La distribución de Poisson puede utilizarse para aproximarse a la binomial, si la probabilidad de éxito es "pequeña" (menor o igual a 0,05) y el número de intentos es "grande" (mayor o igual a 20).</para>
+<para id="fs-idm58971248">Una <term id="term-00002">distribución de probabilidad de Poisson</term> de una variable aleatoria discreta da la probabilidad de que se produzca un número de eventos en un intervalo fijo de tiempo o espacio, si estos eventos se producen a una tasa media conocida y con independencia del tiempo transcurrido desde el último evento. La distribución de Poisson puede utilizarse para aproximarse a la binomial, si la probabilidad de éxito es "pequeña" (menor o igual a 0,05) y el número de intentos es "grande" (mayor o igual a 20).</para>
 </section>
 
 <section id="fs-idm139197072" class="formula-review">
@@ -413,7 +413,7 @@
 </m:math> ≈ 2,3452</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 6) = poissoncdf(5,5, 6) ≈ 0,6860</item>
 <item>Hay un 15,7 % de probabilidad de que el personal jurídico reciba más llamadas de las que puede atender.</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 8) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 8) = 1 – poissoncdf(5,5, 8) ≈ 1 - 0,8944 = 0,1056</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 8) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 8) = 1 – poissoncdf(5,5, 8) ≈ 1 - 0,8944 = 0,1056</item>
 </list></solution>
 </exercise>
 

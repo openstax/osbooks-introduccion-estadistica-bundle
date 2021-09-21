@@ -8,11 +8,11 @@
 </metadata>
 
 <content>
-<para id="fs-idm32858512">La <term>distribución exponencial</term> suele referirse a la cantidad de tiempo que transcurre hasta que se produce algún evento específico. Por ejemplo, la cantidad de tiempo (que comienza ahora) hasta que se produzca un terremoto tiene una distribución exponencial. Otros ejemplos son la duración, en minutos, de las llamadas telefónicas comerciales de larga distancia, y la cantidad de tiempo, en meses, que dura la batería de un auto. También se puede demostrar que el valor del cambio que se tiene en el bolsillo o en el monedero sigue una distribución exponencial aproximadamente.</para>
+<para id="fs-idm32858512">La <term id="term-00001">distribución exponencial</term> suele referirse a la cantidad de tiempo que transcurre hasta que se produce algún evento específico. Por ejemplo, la cantidad de tiempo (que comienza ahora) hasta que se produzca un terremoto tiene una distribución exponencial. Otros ejemplos son la duración, en minutos, de las llamadas telefónicas comerciales de larga distancia, y la cantidad de tiempo, en meses, que dura la batería de un auto. También se puede demostrar que el valor del cambio que se tiene en el bolsillo o en el monedero sigue una distribución exponencial aproximadamente.</para>
 <para id="fs-idp21035296">Los valores de una variable aleatoria exponencial se producen de la siguiente manera. Hay menos valores grandes y más valores pequeños. Por ejemplo, la cantidad de dinero que los clientes gastan en un viaje al supermercado sigue una distribución exponencial. Hay más gente que gasta pequeñas cantidades de dinero y menos gente que gasta grandes cantidades de dinero.</para>
 <para id="fs-idp25761408">Las distribuciones exponenciales se utilizan habitualmente en cálculos de fiabilidad de productos, es decir, el tiempo que dura un producto.</para><example id="fs-idp58220144">
 <para id="fs-idm49054640">Sea <emphasis effect="italics">X</emphasis> = la cantidad de tiempo (en minutos) que un empleado de correos pasa con su cliente. Se sabe que el tiempo tiene una distribución exponencial con una media de cuatro minutos.</para>
-<para id="fs-idm36708000"><emphasis effect="italics">X</emphasis> es una <term>variable aleatoria continua</term> ya que el tiempo se mide. Se da que <emphasis effect="italics">μ</emphasis> = 4 minutos. Para hacer cualquier cálculo, hay que conocer <emphasis effect="italics">m</emphasis>, el parámetro de decaimiento.</para>
+<para id="fs-idm36708000"><emphasis effect="italics">X</emphasis> es una <term id="term-00002">variable aleatoria continua</term> ya que el tiempo se mide. Se da que <emphasis effect="italics">μ</emphasis> = 4 minutos. Para hacer cualquier cálculo, hay que conocer <emphasis effect="italics">m</emphasis>, el parámetro de decaimiento.</para>
 <para id="fs-idp7978896"><m:math>
 <m:mrow>
 <m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac>
@@ -54,7 +54,7 @@
 <problem id="fs-idp108591968">
 <para id="fs-idp171899680">a. Utilizando la información del <link target-id="fs-idp58220144"/>, halle la probabilidad de que un empleado pase de cuatro a cinco minutos con un cliente seleccionado al azar.</para></problem>
 <solution id="fs-idm17662704">
-<para id="fs-idp81828496">a. Calcule <emphasis effect="italics">P</emphasis>(4 &lt; <emphasis effect="italics">x</emphasis> &lt; 5). <newline/>La <term>función de distribución acumulativa (cumulative distribution function, cdf)</term> da el área a la izquierda. <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">x</emphasis>) = 1 – <emphasis effect="italics">e<sup>–mx</sup></emphasis> <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 5) = 1 – <emphasis effect="italics">e</emphasis><sup>(−0,25)(5)</sup> = 0,7135 and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 4) = 1 – <emphasis effect="italics">e</emphasis><sup>(–0,25)(4)</sup> = 0,6321</para><figure id="fs-idm58174736">
+<para id="fs-idp81828496">a. Calcule <emphasis effect="italics">P</emphasis>(4 &lt; <emphasis effect="italics">x</emphasis> &lt; 5). <newline/>La <term id="term-00003">función de distribución acumulativa (cumulative distribution function, cdf)</term> da el área a la izquierda. <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">x</emphasis>) = 1 – <emphasis effect="italics">e<sup>–mx</sup></emphasis> <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 5) = 1 – <emphasis effect="italics">e</emphasis><sup>(−0,25)(5)</sup> = 0,7135 and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 4) = 1 – <emphasis effect="italics">e</emphasis><sup>(–0,25)(4)</sup> = 0,6321</para><figure id="fs-idm58174736">
 <media id="fs-idm82717248" alt="Gráfico exponencial con la línea curva que comienza en el punto (0, 0,25) y se curva hacia el punto (∞, 0). Dos líneas verticales ascendentes se extienden desde los puntos 4 y 5 hasta la línea curva. La probabilidad está en la zona entre los puntos 4 y 5.">
 <image src="../../media/fig-ch05_04_02N-4887.jpg" mime-type="image/jpg" width="380"/>
 </media>
@@ -166,7 +166,7 @@
 </m:mfrac>
 <m:mo>=</m:mo><m:mn>0,1</m:mn>
 </m:mrow>
-</m:math> <newline/>Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 7). Dibuje el gráfico. <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 7) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 7). <newline/>Como <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">x</emphasis>) = 1 – <emphasis effect="italics">e<sup>–mx</sup></emphasis> entonces <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">x</emphasis>) = 1 – (1 –<emphasis effect="italics">e<sup>–mx</sup></emphasis>) = <emphasis effect="italics">e<sup>–mx</sup></emphasis> <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 7) = <emphasis effect="italics">e</emphasis><sup>(–0,1)(7)</sup> = 0,4966. La probabilidad de que una pieza de computadora dure más de siete años es de 0,4966.</para>
+</m:math> <newline/>Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 7). Dibuje el gráfico. <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 7) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 7). <newline/>Como <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">x</emphasis>) = 1 – <emphasis effect="italics">e<sup>–mx</sup></emphasis> entonces <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">x</emphasis>) = 1 – (1 –<emphasis effect="italics">e<sup>–mx</sup></emphasis>) = <emphasis effect="italics">e<sup>–mx</sup></emphasis> <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 7) = <emphasis effect="italics">e</emphasis><sup>(–0,1)(7)</sup> = 0,4966. La probabilidad de que una pieza de computadora dure más de siete años es de 0,4966.</para>
 </solution>
 </exercise><note id="fs-idm37926768" class="statistics calculator">
 <label/>
@@ -285,7 +285,7 @@
 <item><emphasis effect="italics">μ</emphasis> = 12</item>
 <item><emphasis effect="italics">σ</emphasis> = 12</item>
 </list>
-<para id="fs-idp112077456"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 5) = 0,6592</para>
+<para id="fs-idp112077456"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 5) = 0,6592</para>
 </solution>
 </exercise>
 </example>
@@ -340,9 +340,9 @@
 </media>
 </figure>
 </item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 5) = 1 - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 5) = 1 - (1 - <emphasis effect="italics">e</emphasis><sup>(-0,50)(5)</sup>) = e<sup>-2,5</sup> ≈ 0,0821.
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 5) = 1 - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 5) = 1 - (1 - <emphasis effect="italics">e</emphasis><sup>(-0,50)(5)</sup>) = e<sup>-2,5</sup> ≈ 0,0821.
 <figure id="fs-idm13320960">
-<media id="fs-idp101415248" alt="Gráfico exponencial cuyo trazo comienza en el punto (0, 0,5) y se curva hacia el eje horizontal que es una asíntota. Un segmento de línea vertical se extiende desde el eje horizontal hasta la curva en x = 5. El área bajo la curva a la derecha de este segmento está sombreada. El texto dice &quot;El área sombreada representa la probabilidad P(x &gt; 5) = 1 - P(x &lt; 5) = 0,0821&quot;.">
+<media id="fs-idp101415248" alt="Gráfico exponencial cuyo trazo comienza en el punto (0, 0,5) y se curva hacia el eje horizontal que es una asíntota. Un segmento de línea vertical se extiende desde el eje horizontal hasta la curva en x = 5. El área bajo la curva a la derecha de este segmento está sombreada. El texto dice &quot;El área sombreada representa la probabilidad P(x > 5) = 1 - P(x &lt; 5) = 0,0821&quot;.">
 <image src="../../media/CNX_Stats_C05_M04_002N-ace5.jpg" mime-type="image/jpg" width="380"/>
 </media>
 </figure>
@@ -421,8 +421,8 @@
 
 <section id="fs-idm4878944">
     <title>La falta de memoria de la distribución exponencial</title>
-<para id="fs-idm15452368">En el <link target-id="fs-idp58220144"/> recordemos que la cantidad de tiempo entre clientes se distribuye exponencialmente con una media de dos minutos (<emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">Exp</emphasis> (0,5)). Supongamos que han pasado cinco minutos desde que llegó el último cliente. Dado que ha transcurrido un tiempo inusualmente largo, parece más probable que un cliente llegue durante el próximo minuto. Con la distribución exponencial, esto no es así: el tiempo adicional de espera del siguiente cliente no depende del tiempo que haya transcurrido desde el último cliente. Esto se conoce como la <emphasis>propiedad de falta de memoria</emphasis>. Específicamente, la <emphasis>propiedad de falta de memoria</emphasis> dice que</para><para id="fs-idp48694608"><emphasis effect="italics">P</emphasis> (<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">r</emphasis> + <emphasis effect="italics">t</emphasis> | <emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">r</emphasis>) = <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">t</emphasis>) para todo <emphasis effect="italics">r</emphasis> ≥ 0 y <emphasis effect="italics">t</emphasis> ≥ 0</para>
-<para id="fs-idp98282704">Por ejemplo, si han transcurrido cinco minutos desde la llegada del último cliente, la probabilidad de que transcurra más de un minuto antes de que llegue el siguiente cliente se calcula utilizando <emphasis effect="italics">r</emphasis> = 5 y <emphasis effect="italics">t</emphasis> = 1 en la ecuación anterior.</para><para id="fs-idm55172592"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 5 + 1 | <emphasis effect="italics">X</emphasis> &gt; 5) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 1) = <m:math>
+<para id="fs-idm15452368">En el <link target-id="fs-idp58220144"/> recordemos que la cantidad de tiempo entre clientes se distribuye exponencialmente con una media de dos minutos (<emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">Exp</emphasis> (0,5)). Supongamos que han pasado cinco minutos desde que llegó el último cliente. Dado que ha transcurrido un tiempo inusualmente largo, parece más probable que un cliente llegue durante el próximo minuto. Con la distribución exponencial, esto no es así: el tiempo adicional de espera del siguiente cliente no depende del tiempo que haya transcurrido desde el último cliente. Esto se conoce como la <emphasis>propiedad de falta de memoria</emphasis>. Específicamente, la <emphasis>propiedad de falta de memoria</emphasis> dice que</para><para id="fs-idp48694608"><emphasis effect="italics">P</emphasis> (<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">r</emphasis> + <emphasis effect="italics">t</emphasis> | <emphasis effect="italics">X</emphasis> > <emphasis effect="italics">r</emphasis>) = <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">t</emphasis>) para todo <emphasis effect="italics">r</emphasis> ≥ 0 y <emphasis effect="italics">t</emphasis> ≥ 0</para>
+<para id="fs-idp98282704">Por ejemplo, si han transcurrido cinco minutos desde la llegada del último cliente, la probabilidad de que transcurra más de un minuto antes de que llegue el siguiente cliente se calcula utilizando <emphasis effect="italics">r</emphasis> = 5 y <emphasis effect="italics">t</emphasis> = 1 en la ecuación anterior.</para><para id="fs-idm55172592"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 5 + 1 | <emphasis effect="italics">X</emphasis> > 5) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 1) = <m:math>
 <m:mrow>
 <m:msup>
 <m:mi>e</m:mi>
@@ -439,7 +439,7 @@
 </m:mrow>
 </m:math> ≈ 0,6065.</para>
 <para id="fs-idm9174224"><emphasis effect="italics">Es la misma</emphasis> probabilidad que la de esperar más de un minuto a que llegue un cliente después de la llegada anterior.</para>
-<para id="fs-idm25008304">La distribución exponencial se utiliza a menudo para modelar la longevidad de un dispositivo eléctrico o mecánico. En el <link target-id="fs-idp51839440"/>, la vida útil de una determinada pieza de una computadora tiene la distribución exponencial con una media de diez años (<emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">Exp</emphasis>(0,1)). La <emphasis>propiedad de falta de memoria</emphasis> dice que el conocimiento de lo que ha ocurrido en el pasado no tiene ningún efecto sobre probabilidades futuras. En este caso, significa que una pieza usada no tiene más probabilidades de estropearse en un momento determinado que una pieza nueva. En otras palabras, la pieza se mantiene como nueva hasta que se rompe de repente. Por ejemplo, si la pieza ya ha durado diez años, la probabilidad de que dure otros siete es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 17|<emphasis effect="italics">X</emphasis> &gt; 10) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 7) = 0,4966.</para></section>
+<para id="fs-idm25008304">La distribución exponencial se utiliza a menudo para modelar la longevidad de un dispositivo eléctrico o mecánico. En el <link target-id="fs-idp51839440"/>, la vida útil de una determinada pieza de una computadora tiene la distribución exponencial con una media de diez años (<emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">Exp</emphasis>(0,1)). La <emphasis>propiedad de falta de memoria</emphasis> dice que el conocimiento de lo que ha ocurrido en el pasado no tiene ningún efecto sobre probabilidades futuras. En este caso, significa que una pieza usada no tiene más probabilidades de estropearse en un momento determinado que una pieza nueva. En otras palabras, la pieza se mantiene como nueva hasta que se rompe de repente. Por ejemplo, si la pieza ya ha durado diez años, la probabilidad de que dure otros siete es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 17|<emphasis effect="italics">X</emphasis> > 10) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 7) = 0,4966.</para></section>
 
 <example id="fs-idm19960800">
 <para id="fs-idp112053216">Consulte el <link target-id="fs-idp58220144"/> donde el tiempo que un empleado de correos pasa con su cliente tiene una distribución exponencial con una media de cuatro minutos. Supongamos que un cliente ha pasado cuatro minutos con un empleado de la oficina postal. ¿Cuál es la probabilidad de que pase, al menos, tres minutos más con el empleado de la oficina postal?<newline count="2"/></para><para id="fs-idm16550752">El parámetro de decaimiento de <emphasis effect="italics">X</emphasis> es <emphasis effect="italics">m</emphasis> = <m:math>
@@ -452,11 +452,11 @@
 </m:math> = 0,25, por lo que <emphasis effect="italics">X</emphasis> ∼ <emphasis effect="italics">Exp</emphasis>(0,25).</para>
 <para id="fs-idp64725296">La función de distribución acumulativa es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">x</emphasis>) = 1 – <emphasis effect="italics">e</emphasis><sup>–0,25<emphasis effect="italics">x</emphasis></sup>.
 </para>
-<para id="fs-idp127070144">Queremos despejar <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 7|<emphasis effect="italics">X</emphasis> &gt; 4). La <emphasis>propiedad de falta de memoria</emphasis> dice que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 7|<emphasis effect="italics">X</emphasis> &gt; 4) = <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">X</emphasis> &gt; 3), así que solo tenemos que hallar la probabilidad de que un cliente pase más de tres minutos con un empleado de la oficina postal.</para>
+<para id="fs-idp127070144">Queremos despejar <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 7|<emphasis effect="italics">X</emphasis> > 4). La <emphasis>propiedad de falta de memoria</emphasis> dice que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 7|<emphasis effect="italics">X</emphasis> > 4) = <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">X</emphasis> > 3), así que solo tenemos que hallar la probabilidad de que un cliente pase más de tres minutos con un empleado de la oficina postal.</para>
 
-<para id="fs-idm82829888">Esto es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 3) = 1 – <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">X</emphasis> &lt; 3) = 1 – (1 – <emphasis effect="italics">e</emphasis><sup>–0,25⋅3</sup>) = <emphasis effect="italics">e</emphasis><sup>–0,75</sup> ≈ 0,4724.</para>
+<para id="fs-idm82829888">Esto es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 3) = 1 – <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">X</emphasis> &lt; 3) = 1 – (1 – <emphasis effect="italics">e</emphasis><sup>–0,25⋅3</sup>) = <emphasis effect="italics">e</emphasis><sup>–0,75</sup> ≈ 0,4724.</para>
 <figure id="fs-idm5754752">
-<media id="fs-idp52917248" alt="Este gráfico muestra una distribución exponencial. El gráfico tiene una pendiente hacia abajo. Comienza en el punto (0, 0,25) del eje y y se acerca al eje x en el borde derecho del gráfico. La región debajo del gráfico a la derecha de x = 3 está sombreada para representar P(x &gt; 3) = 0,4724.">
+<media id="fs-idp52917248" alt="Este gráfico muestra una distribución exponencial. El gráfico tiene una pendiente hacia abajo. Comienza en el punto (0, 0,25) del eje y y se acerca al eje x en el borde derecho del gráfico. La región debajo del gráfico a la derecha de x = 3 está sombreada para representar P(x > 3) = 0,4724.">
 <image src="../../media/CNX_Stats_C05_M04_005N-ef86.jpg" mime-type="image/jpg" width="380"/>
 </media>
 </figure>
@@ -475,7 +475,7 @@
 </note>
 <section id="fs-idp112021200">
 <title>Relación entre la distribución de Poisson y la distribución exponencial</title>
-<para id="fs-idp96158416">Existe una relación interesante entre la distribución exponencial y la distribución de Poisson. Supongamos que el tiempo que transcurre entre dos eventos sucesivos sigue la distribución exponencial con una media de <emphasis effect="italics">μ</emphasis> unidades de tiempo. También se supone que estos tiempos son independientes, lo que significa que el tiempo entre eventos no se ve afectado por los tiempos entre eventos anteriores. Si se cumplen estos supuestos, el número de eventos por unidad de tiempo sigue una distribución de Poisson con media <emphasis effect="italics">λ</emphasis> = 1/μ. Recordemos del capítulo de <link document="m46955">Variables aleatorias discretas</link> que si <emphasis effect="italics">X</emphasis> tiene la distribución de Poisson con media <emphasis effect="italics">λ</emphasis>, entonces <m:math>
+<para id="fs-idp96158416">Existe una relación interesante entre la distribución exponencial y la distribución de Poisson. Supongamos que el tiempo que transcurre entre dos eventos sucesivos sigue la distribución exponencial con una media de <emphasis effect="italics">μ</emphasis> unidades de tiempo. También se supone que estos tiempos son independientes, lo que significa que el tiempo entre eventos no se ve afectado por los tiempos entre eventos anteriores. Si se cumplen estos supuestos, el número de eventos por unidad de tiempo sigue una distribución de Poisson con media <emphasis effect="italics">λ</emphasis> = 1/μ. Recordemos del capítulo de <link document="m10435">Variables aleatorias discretas</link> que si <emphasis effect="italics">X</emphasis> tiene la distribución de Poisson con media <emphasis effect="italics">λ</emphasis>, entonces <m:math>
 <m:mrow>
 <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -592,7 +592,7 @@
 <note id="fs-idp70409712" class="statistics calculator"><label/>
 <para id="fs-idp165812304">poisssoncdf(4, 4) = 0,6288</para>
 </note></item>
-<item>Sea <emphasis effect="italics">Y</emphasis> = el número de llamadas que se producen durante un periodo de ocho minutos. <newline/>Como hay una media de cuatro llamadas por minuto, hay una media de (8)(4) = 32 llamadas durante cada periodo de ocho minutos. <newline/>Por lo tanto, <emphasis effect="italics">Y</emphasis> ∼ <emphasis effect="italics">Poisson</emphasis>(32). Por tanto, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Y</emphasis> &gt; 40) = 1 – <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">Y</emphasis> ≤ 40) = 1 – 0,9294 = 0,0707.
+<item>Sea <emphasis effect="italics">Y</emphasis> = el número de llamadas que se producen durante un periodo de ocho minutos. <newline/>Como hay una media de cuatro llamadas por minuto, hay una media de (8)(4) = 32 llamadas durante cada periodo de ocho minutos. <newline/>Por lo tanto, <emphasis effect="italics">Y</emphasis> ∼ <emphasis effect="italics">Poisson</emphasis>(32). Por tanto, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Y</emphasis> > 40) = 1 – <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">Y</emphasis> ≤ 40) = 1 – 0,9294 = 0,0707.
 <note id="fs-idp161494592" class="statistics calculator"><label/>
 <para id="fs-idp137845728">1 - poissoncdf(32, 40). = 0,0707</para>
 </note></item>
@@ -624,7 +624,7 @@
 <m:mi>μ</m:mi>
 </m:mfrac>
 </m:mrow>
-</m:math>, y escribimos <emphasis effect="italics">X</emphasis> ∼ <emphasis effect="italics">Exp</emphasis>(<emphasis effect="italics">m</emphasis>) donde <emphasis effect="italics">x</emphasis> ≥ 0 y <emphasis effect="italics">m</emphasis> &gt; 0 . La función de densidad de probabilidad de <emphasis effect="italics">X</emphasis> es <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">me<sup>–mx</sup></emphasis> (o equivalentemente <m:math>
+</m:math>, y escribimos <emphasis effect="italics">X</emphasis> ∼ <emphasis effect="italics">Exp</emphasis>(<emphasis effect="italics">m</emphasis>) donde <emphasis effect="italics">x</emphasis> ≥ 0 y <emphasis effect="italics">m</emphasis> > 0 . La función de densidad de probabilidad de <emphasis effect="italics">X</emphasis> es <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">me<sup>–mx</sup></emphasis> (o equivalentemente <m:math>
  <m:mrow>
   <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
    <m:mn>1</m:mn>
@@ -637,7 +637,7 @@
    </m:mrow>
   </m:msup>
  </m:mrow>
-</m:math>. La función de distribución acumulativa de <emphasis effect="italics">X</emphasis> es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ <emphasis effect="italics">x</emphasis>) = 1 – <emphasis effect="italics">e</emphasis><sup>–<emphasis effect="italics">mx</emphasis></sup>.</para><para id="fs-idp165810896">La distribución exponencial tiene la <emphasis>propiedad de falta de memoria</emphasis>, que indica que las probabilidades futuras no dependen de ninguna información pasada. Matemáticamente, dice que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">x</emphasis> + <emphasis effect="italics">k</emphasis>|<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">k</emphasis>).</para>
+</m:math>. La función de distribución acumulativa de <emphasis effect="italics">X</emphasis> es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ <emphasis effect="italics">x</emphasis>) = 1 – <emphasis effect="italics">e</emphasis><sup>–<emphasis effect="italics">mx</emphasis></sup>.</para><para id="fs-idp165810896">La distribución exponencial tiene la <emphasis>propiedad de falta de memoria</emphasis>, que indica que las probabilidades futuras no dependen de ninguna información pasada. Matemáticamente, dice que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">x</emphasis> + <emphasis effect="italics">k</emphasis>|<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">k</emphasis>).</para>
 <para id="fs-idp81759104">Si <emphasis effect="italics">T</emphasis> representa el tiempo de espera entre eventos, y si <emphasis effect="italics">T</emphasis> ∼ <emphasis effect="italics">Exp</emphasis>(<emphasis effect="italics">λ</emphasis>), entonces el número de eventos <emphasis effect="italics">X</emphasis> por unidad de tiempo sigue la distribución de Poisson con media <emphasis effect="italics">λ</emphasis>. La función de densidad de probabilidad de <emphasis effect="italics">X</emphasis> es <m:math><m:mo>P</m:mo>
 <m:mrow>
 <m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
@@ -662,7 +662,7 @@
 <section id="fs-idp8617136" class="formula-review">
 <title>Revisión de la fórmula</title>
 <para id="fs-idp453680">Exponencial: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">Exp</emphasis>(<emphasis effect="italics">m</emphasis>) donde <emphasis effect="italics">m</emphasis> = el parámetro de decaimiento</para>
-<list id="fs-idp121046784" list-type="bulleted"><item>pdf: <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">me</emphasis><sup>(–<emphasis effect="italics">mx</emphasis>)</sup> donde <emphasis effect="italics">x</emphasis> ≥ 0 y <emphasis effect="italics">m</emphasis> &gt; 0</item>
+<list id="fs-idp121046784" list-type="bulleted"><item>pdf: <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">me</emphasis><sup>(–<emphasis effect="italics">mx</emphasis>)</sup> donde <emphasis effect="italics">x</emphasis> ≥ 0 y <emphasis effect="italics">m</emphasis> > 0</item>
 
 <item>cdf: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ <emphasis effect="italics">x</emphasis>) = 1 – <emphasis effect="italics">e</emphasis><sup>(–<emphasis effect="italics">mx</emphasis>)</sup></item>
 
@@ -692,12 +692,12 @@
  </m:mrow>
 </m:math>
 </item>
-<item>Además <list id="fs-idp34394496" list-type="bulleted"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">e</emphasis><sup>(–<emphasis effect="italics">mx</emphasis>)</sup></item>
+<item>Además <list id="fs-idp34394496" list-type="bulleted"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">e</emphasis><sup>(–<emphasis effect="italics">mx</emphasis>)</sup></item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">a</emphasis> &lt; <emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">b</emphasis>) = <emphasis effect="italics">e</emphasis><sup>(–<emphasis effect="italics">ma</emphasis>)</sup> – <emphasis effect="italics">e</emphasis><sup>(–<emphasis effect="italics">mb</emphasis>)</sup>
 </item>
 </list>
 </item>
-<item>Propiedad de falta de memoria: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">x</emphasis> + <emphasis effect="italics">k</emphasis>|<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">k</emphasis>)</item>
+<item>Propiedad de falta de memoria: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">x</emphasis> + <emphasis effect="italics">k</emphasis>|<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">k</emphasis>)</item>
 <item>Probabilidad de Poisson: <m:math>
 <m:mrow>
 <m:mo> </m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
@@ -792,7 +792,7 @@
 
 <exercise id="fs-idm38664656">
 <problem id="fs-idp73440256">
-<para id="fs-idp73440512">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 6).</para>
+<para id="fs-idp73440512">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 6).</para>
 </problem>
 </exercise>
 
@@ -944,7 +944,7 @@
 <image src="../../media/fig-ch05_06_01.png" mime-type="png/jpg" width="380"/>
 </media>
 </figure></item>
-<item>Calcule la probabilidad. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 10.000) = ________</item>
+<item>Calcule la probabilidad. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 10.000) = ________</item>
 </list></problem>
 </exercise>
 
@@ -1210,7 +1210,7 @@
 </figure></item>
 <item>Queremos encontrar 0,70 <m:math display="">
  <m:mrow>
-  <m:mo>=</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>T</m:mi><m:mo>&gt;</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mrow><m:mo>(</m:mo>
+  <m:mo>=</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>T</m:mi><m:mo>></m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
     <m:mn>1</m:mn><m:mo>–</m:mo><m:msup>
      <m:mi>e</m:mi>
@@ -1277,7 +1277,7 @@
   <m:mo>≈</m:mo><m:mn>2.</m:mn><m:mtext>85 años</m:mtext>
  </m:mrow>
 </m:math>.
-<figure id="fs-idp80629056"><media id="fs-idp80629312" alt="Este gráfico muestra una distribución exponencial. El gráfico tiene una pendiente hacia abajo. Comienza en el punto (0, 1,2) y se acerca al eje horizontal t en el borde derecho del gráfico. La región bajo el gráfico desde x = 2,85 hasta el borde del gráfico está sombreado. El texto señala que el área sombreada representa P(t &gt; 2,85) = 0,70.">
+<figure id="fs-idp80629056"><media id="fs-idp80629312" alt="Este gráfico muestra una distribución exponencial. El gráfico tiene una pendiente hacia abajo. Comienza en el punto (0, 1,2) y se acerca al eje horizontal t en el borde derecho del gráfico. La región bajo el gráfico desde x = 2,85 hasta el borde del gráfico está sombreado. El texto señala que el área sombreada representa P(t > 2,85) = 0,70.">
 <image mime-type="png/jpg" width="380" src="../../media/soln_04cF-176a.jpg"/>
 </media>
 </figure></item>
@@ -1330,7 +1330,7 @@
 
  </m:mrow>
 </m:math> = 0,1616.</item>
-<item>Debemos hallar <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &lt; 8|<emphasis effect="italics">T</emphasis> &gt; 7). <newline/>Observe que por la regla de los eventos complementarios, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &lt; 8|<emphasis effect="italics">T</emphasis> &gt; 7) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &gt; 8|<emphasis effect="italics">T</emphasis> &gt; 7). <newline/>Por la propiedad de falta de memoria (<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">r</emphasis> + <emphasis effect="italics">t</emphasis>|<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">r</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">t</emphasis>)). <newline/>Así que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &gt; 8|<emphasis effect="italics">T</emphasis> &gt; 7) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &gt; 1) = <m:math>
+<item>Debemos hallar <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &lt; 8|<emphasis effect="italics">T</emphasis> > 7). <newline/>Observe que por la regla de los eventos complementarios, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &lt; 8|<emphasis effect="italics">T</emphasis> > 7) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> > 8|<emphasis effect="italics">T</emphasis> > 7). <newline/>Por la propiedad de falta de memoria (<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">r</emphasis> + <emphasis effect="italics">t</emphasis>|<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">r</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">t</emphasis>)). <newline/>Así que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> > 8|<emphasis effect="italics">T</emphasis> > 7) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> > 1) = <m:math>
  <m:mrow>
   <m:mn>1</m:mn><m:mo>–</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1358,7 +1358,7 @@
   </m:msup>
   <m:mo>≈</m:mo><m:mn>0,8825</m:mn>
  </m:mrow>
-</m:math> <newline/>Por lo tanto, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &lt; 8|<emphasis effect="italics">T</emphasis> &gt; 7) = 1 – 0,8825 = 0,1175.</item>
+</m:math> <newline/>Por lo tanto, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &lt; 8|<emphasis effect="italics">T</emphasis> > 7) = 1 – 0,8825 = 0,1175.</item>
 </list></solution>
 </exercise>
 
@@ -1434,9 +1434,9 @@
 
  </m:mrow>
 </m:math> = 3 y <emphasis effect="italics">T</emphasis> ∼ <emphasis effect="italics">Exp</emphasis>(3).</para>
-</note><list id="fs-idm50334880" list-type="enumerated" number-style="lower-alpha"><item>La probabilidad deseada es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &gt; 1) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &lt; 1) = 1 – (1 – e<sup>–3</sup>) = e<sup>–3</sup> ≈ 0,0498.</item>
-<item>Supongamos que <emphasis effect="italics">T</emphasis> = duración del tiempo entre los sin batazos imparables. Hallamos <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &gt; 2|<emphasis effect="italics">T</emphasis> &gt; 1), y por la <emphasis>propiedad de falta de memoria</emphasis> esto es simplemente <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &gt; 1), que hallamos que es 0,0498 en la parte a.</item>
-<item>Supongamos que <emphasis effect="italics">X</emphasis> = el <emphasis effect="underline">número</emphasis> de sin batazos imparables es una temporada. Supongamos que <emphasis effect="italics">X</emphasis> es Poisson con media de <emphasis effect="italics">λ</emphasis> = 3. Entonces <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 3) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 3) = 0,3528.</item>
+</note><list id="fs-idm50334880" list-type="enumerated" number-style="lower-alpha"><item>La probabilidad deseada es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> > 1) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &lt; 1) = 1 – (1 – e<sup>–3</sup>) = e<sup>–3</sup> ≈ 0,0498.</item>
+<item>Supongamos que <emphasis effect="italics">T</emphasis> = duración del tiempo entre los sin batazos imparables. Hallamos <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> > 2|<emphasis effect="italics">T</emphasis> > 1), y por la <emphasis>propiedad de falta de memoria</emphasis> esto es simplemente <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> > 1), que hallamos que es 0,0498 en la parte a.</item>
+<item>Supongamos que <emphasis effect="italics">X</emphasis> = el <emphasis effect="underline">número</emphasis> de sin batazos imparables es una temporada. Supongamos que <emphasis effect="italics">X</emphasis> es Poisson con media de <emphasis effect="italics">λ</emphasis> = 3. Entonces <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 3) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 3) = 0,3528.</item>
 </list></solution>
 </exercise>
 
@@ -1473,7 +1473,7 @@
 
  </m:mrow>
 </m:math> = 11,11</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 10) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 10) = 1 – Poissoncdf(11,11; 10) ≈ 0,5532.</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 10) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 10) = 1 – Poissoncdf(11,11; 10) ≈ 0,5532.</item>
 <item>El número de personas con sangre de tipo B encontradas sigue más o menos la distribución de Poisson, por lo que el número de personas <emphasis effect="italics">X</emphasis> que llegan entre las sucesivas llegadas de tipo B es aproximadamente exponencial con media <emphasis effect="italics">μ</emphasis> = 9 y <emphasis effect="italics">m</emphasis> = <m:math display="">
  <m:mrow>
   <m:mfrac>
@@ -1500,7 +1500,7 @@
   </m:msup>
 
  </m:mrow>
-</m:math>. Así que, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 20) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 20) = <m:math>
+</m:math>. Así que, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 20) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 20) = <m:math>
  <m:mrow>
   <m:mn>1</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1606,7 +1606,7 @@
 
  </m:mrow>
 </m:math> ≈ 0,2485.</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &gt; 15) = <m:math>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> > 15) = <m:math>
  <m:mrow>
   <m:mn>1</m:mn><m:mo>−</m:mo><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1643,7 +1643,7 @@
   <m:mo>≈</m:mo><m:mn>0,1173</m:mn>
  </m:mrow>
 </m:math>.</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &gt; 15|<emphasis effect="italics">T</emphasis> &gt; 10) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &gt; 5) = <m:math>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> > 15|<emphasis effect="italics">T</emphasis> > 10) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> > 5) = <m:math>
  <m:mrow>
   <m:mn>1</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1696,7 +1696,7 @@
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math>. Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 8) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 8) ≈ 0,0311.</item></list></solution>
+</m:math>. Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 8) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 8) ≈ 0,0311.</item></list></solution>
 </exercise>
 
 </section>
@@ -1721,7 +1721,7 @@
 
 <definition id="fs-idm87843664">
 <term>propiedad de falta de memoria</term>
-<meaning id="fs-idm76302032">Para una variable aleatoria exponencial <emphasis effect="italics">X</emphasis>, la propiedad de falta de memoria es la afirmación de que el conocimiento de lo que ha ocurrido en el pasado no tiene ningún efecto sobre las probabilidades futuras. Esto significa que la probabilidad de que <emphasis effect="italics">X</emphasis> supere a <emphasis effect="italics">x</emphasis> + <emphasis effect="italics">k</emphasis>, dado que ha superado a <emphasis effect="italics">x</emphasis>, es la misma que la probabilidad de que <emphasis effect="italics">X</emphasis> supere a <emphasis effect="italics">k</emphasis> si no tuviéramos conocimiento de ello. En símbolos decimos que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">x</emphasis> + <emphasis effect="italics">k</emphasis>|<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">k</emphasis>).</meaning>
+<meaning id="fs-idm76302032">Para una variable aleatoria exponencial <emphasis effect="italics">X</emphasis>, la propiedad de falta de memoria es la afirmación de que el conocimiento de lo que ha ocurrido en el pasado no tiene ningún efecto sobre las probabilidades futuras. Esto significa que la probabilidad de que <emphasis effect="italics">X</emphasis> supere a <emphasis effect="italics">x</emphasis> + <emphasis effect="italics">k</emphasis>, dado que ha superado a <emphasis effect="italics">x</emphasis>, es la misma que la probabilidad de que <emphasis effect="italics">X</emphasis> supere a <emphasis effect="italics">k</emphasis> si no tuviéramos conocimiento de ello. En símbolos decimos que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">x</emphasis> + <emphasis effect="italics">k</emphasis>|<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">k</emphasis>).</meaning>
 </definition>
 <definition id="fs-idp21495392">
 <term>Distribución de Poisson</term>

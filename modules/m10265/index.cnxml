@@ -392,7 +392,7 @@
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math></para><para id="element-84"><emphasis>Área a la derecha de <emphasis effect="italics">x</emphasis>:</emphasis> <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">x</emphasis>) = (<emphasis effect="italics">b</emphasis> – <emphasis effect="italics">x</emphasis>)<m:math>
+</m:math></para><para id="element-84"><emphasis>Área a la derecha de <emphasis effect="italics">x</emphasis>:</emphasis> <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">x</emphasis>) = (<emphasis effect="italics">b</emphasis> – <emphasis effect="italics">x</emphasis>)<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -642,7 +642,7 @@
 
 <exercise id="fs-idp172321904">
 <problem id="fs-idp7677536">
-<para id="fs-idp81592784">Dibuje el gráfico de la distribución para <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 9).</para></problem>
+<para id="fs-idp81592784">Dibuje el gráfico de la distribución para <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 9).</para></problem>
 <solution id="fs-idp67560352">
 <figure id="fs-idp140107840"><media id="fs-idp124624384" alt="Este gráfico muestra una distribución uniforme. El eje horizontal va de 0 a 12. La distribución se modela mediante un rectángulo que se extiende desde x = 0 hasta x = 12. En el interior del rectángulo está sombreada una región desde x = 9 hasta x = 12.">
 <image mime-type="image/jpg" src="../../media/CNX_Stats_C05_M03_item002annoN.jpg" width="380"/>
@@ -652,7 +652,7 @@
 
 <exercise id="fs-idp49233616">
 <problem id="fs-idp8048544">
-<para id="fs-idp16092816">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 9).</para></problem>
+<para id="fs-idp16092816">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 9).</para></problem>
 </exercise>
 
 <para id="eip-537"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos once ejercicios.</emphasis> La edad de los automóviles en el estacionamiento del personal de un instituto universitario suburbano se distribuye uniformemente desde los seis meses (0,5 años) hasta los 9,5 años.</para><exercise id="fs-idp73318288">
@@ -838,8 +838,8 @@
 <item><emphasis effect="italics">μ</emphasis> = _________</item>
 <item><emphasis effect="italics">σ</emphasis> = _________</item>
 <item><emphasis effect="italics">P</emphasis>(3,5 &lt; <emphasis effect="italics">x</emphasis> &lt; 7,25) = _________</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 5,67)</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 5 <m:math><m:mo>|</m:mo></m:math> <emphasis effect="italics">x</emphasis> &gt; 3) = _________</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 5,67)</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 5 <m:math><m:mo>|</m:mo></m:math> <emphasis effect="italics">x</emphasis> > 3) = _________</item>
 
 </list></problem>
 <solution id="eip-idp101962176">
@@ -911,7 +911,7 @@
 <item><emphasis effect="italics">σ</emphasis> = _________</item>
 <item>Calcule la probabilidad de que la persona haya perdido más de diez libras en un mes.</item>
 <item>Supongamos que se sabe que la persona ha perdido más de diez libras en un mes. Calcule la probabilidad de que haya perdido menos de 12 libras en el mes.</item>
-<item><emphasis effect="italics">P</emphasis>(7 &lt; <emphasis effect="italics">x</emphasis> &lt; 13 <m:math><m:mo>|</m:mo></m:math> <emphasis effect="italics">x</emphasis> &gt; 9) = __________. Plantee esto en una pregunta de probabilidad, de forma similar a las partes g y h, haga el dibujo y calcule la probabilidad.</item>
+<item><emphasis effect="italics">P</emphasis>(7 &lt; <emphasis effect="italics">x</emphasis> &lt; 13 <m:math><m:mo>|</m:mo></m:math> <emphasis effect="italics">x</emphasis> > 9) = __________. Plantee esto en una pregunta de probabilidad, de forma similar a las partes g y h, haga el dibujo y calcule la probabilidad.</item>
 </list></problem>
 </exercise>
 
@@ -1050,7 +1050,7 @@
   </m:mfrac>
   
  </m:mrow>
-</m:math>. <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 19) = (25 – 19) <m:math>
+</m:math>. <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 19) = (25 – 19) <m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1117,7 +1117,7 @@
 </media>
 </figure></item>
 
-<item>Esta es una pregunta de probabilidad condicional. P(x &gt; 21 <m:math><m:mo>|</m:mo></m:math> x &gt; 18). Puede responderla de dos maneras: <list id="fs-idp37941792" list-type="bulleted"><item>Dibuje el gráfico donde a es ahora 18 y b sigue siendo 25. La altura es <m:math>
+<item>Esta es una pregunta de probabilidad condicional. P(x > 21 <m:math><m:mo>|</m:mo></m:math> x > 18). Puede responderla de dos maneras: <list id="fs-idp37941792" list-type="bulleted"><item>Dibuje el gráfico donde a es ahora 18 y b sigue siendo 25. La altura es <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>
@@ -1135,7 +1135,7 @@
   </m:mfrac>
   
  </m:mrow>
-</m:math><newline/>Entonces, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 21 <m:math><m:mo>|</m:mo></m:math> <emphasis effect="italics">x</emphasis> &gt; 18) = (25 - 21)<m:math>
+</m:math><newline/>Entonces, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 21 <m:math><m:mo>|</m:mo></m:math> <emphasis effect="italics">x</emphasis> > 18) = (25 - 21)<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1148,14 +1148,14 @@
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math> = 4/7.</item>
-<item>Utilice la fórmula: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 21 <m:math><m:mo>|</m:mo></m:math> <emphasis effect="italics">x</emphasis> &gt; 18) = <m:math>
+<item>Utilice la fórmula: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 21 <m:math><m:mo>|</m:mo></m:math> <emphasis effect="italics">x</emphasis> > 18) = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>21</m:mn><m:mo>∩</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>21</m:mn><m:mo>∩</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
   
@@ -1164,10 +1164,10 @@
  <m:mrow>
   <m:mfrac>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>21</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>21</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
   
@@ -1215,7 +1215,7 @@
 
 </list></problem>
 <solution id="fs-idp168190128">
-<list id="fs-idp14788896" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 650) = <m:math>
+<list id="fs-idp14788896" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 650) = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>

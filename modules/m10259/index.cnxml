@@ -72,7 +72,7 @@
 <title>Revisión del capítulo</title>
 <para id="eip-625">La fórmula combinatoria puede proporcionar el número de subconjuntos únicos de tamaño x que se pueden crear a partir de n objetos únicos para ayudarnos a calcular las probabilidades. La fórmula combinatoria es <m:math><m:mfenced><m:mtable><m:mtr><m:mtd><m:mi>n</m:mi></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:mfenced><m:mo> </m:mo><m:mo>=</m:mo>
 <m:msub><m:mtext/><m:mi>n</m:mi></m:msub><m:msub><m:mi>C</m:mi><m:mi>x</m:mi></m:msub>
-<m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>!</m:mo><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>!</m:mo></m:mrow></m:mfrac></m:math></para><para id="fs-idm26047632">Un experimento <term>hipergeométrico</term> es un experimento estadístico con las siguientes propiedades:</para>
+<m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>!</m:mo><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>!</m:mo></m:mrow></m:mfrac></m:math></para><para id="fs-idm26047632">Un experimento <term id="term-00001">hipergeométrico</term> es un experimento estadístico con las siguientes propiedades:</para>
 <list id="fs-idp5636464" list-type="enumerated"><item>Toma muestras de dos grupos.</item>
 <item>Le interesa un grupo de interés, llamado primer grupo.</item>
 <item>Toma una muestra sin reemplazo de los grupos combinados.</item>

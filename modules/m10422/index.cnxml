@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-<para id="delete_me">Los<term>diagramas de caja</term> (también llamados <term>diagramas de caja y bigotes</term> o <term>gráficos de caja y bigotes</term>) ofrecen una buena imagen gráfica de la concentración de los datos. También muestran lo lejos que están los valores extremos de la mayoría de los datos. Un diagrama de caja se construye a partir de cinco valores: el valor mínimo, el primer cuartil, la mediana, el tercer cuartil y el valor máximo. Utilizamos estos valores para comparar la proximidad de otros valores de datos.</para><para id="element-175">Para construir un diagrama de caja, utilice una línea numérica horizontal o vertical y una caja rectangular. Los valores de datos más pequeños y más grandes marcan los puntos finales del eje. El primer cuartil marca un extremo de la caja y el tercer cuartil marca el otro extremo de la caja. Aproximadamente <emphasis>el 50 % de los datos están dentro de la caja.</emphasis> Los "bigotes" se extienden desde los extremos de la caja hasta los valores de datos más pequeños y más grandes. La mediana o el segundo cuartil pueden estar entre el primer y el tercer cuartil, o puede ser uno, el otro, o ambos. El diagrama de caja ofrece una buena y rápida imagen de los datos.</para>
+<para id="delete_me">Los<term id="term-00001">diagramas de caja</term> (también llamados <term id="term-00002">diagramas de caja y bigotes</term> o <term id="term-00003">gráficos de caja y bigotes</term>) ofrecen una buena imagen gráfica de la concentración de los datos. También muestran lo lejos que están los valores extremos de la mayoría de los datos. Un diagrama de caja se construye a partir de cinco valores: el valor mínimo, el primer cuartil, la mediana, el tercer cuartil y el valor máximo. Utilizamos estos valores para comparar la proximidad de otros valores de datos.</para><para id="element-175">Para construir un diagrama de caja, utilice una línea numérica horizontal o vertical y una caja rectangular. Los valores de datos más pequeños y más grandes marcan los puntos finales del eje. El primer cuartil marca un extremo de la caja y el tercer cuartil marca el otro extremo de la caja. Aproximadamente <emphasis>el 50 % de los datos están dentro de la caja.</emphasis> Los "bigotes" se extienden desde los extremos de la caja hasta los valores de datos más pequeños y más grandes. La mediana o el segundo cuartil pueden estar entre el primer y el tercer cuartil, o puede ser uno, el otro, o ambos. El diagrama de caja ofrece una buena y rápida imagen de los datos.</para>
 
 <note id="eip-724">
 <label/><title>NOTA</title>
@@ -124,7 +124,7 @@
 <exercise id="fs-idp52595328"><problem id="fs-idm27882400">
 <para id="fs-idp69268960">Los siguientes datos son el número de páginas de 40 libros en una estantería. Construya un diagrama de caja utilizando una calculadora gráfica e indique el rango intercuartílico.</para>
 <para id="fs-idm41586448">
-<list list-type="labeled-item" display="inline">
+<list list-type="labeled-item" display="inline" id="list-00001">
 <item>136</item>
 <item>140</item>
 <item>178</item>
@@ -276,7 +276,7 @@
 <example id="fs-idm38612912">
 <para id="fs-idm15332992">Grafique un diagrama de caja y bigote para los valores de los datos que se muestran a continuación.</para>
 <para id="fs-idp63131872">
-<list list-type="labeled-item" display="inline">
+<list list-type="labeled-item" display="inline" id="list-00002">
 <item>10</item><item>10</item><item>10</item><item>15</item><item>35</item><item>75</item><item>90</item><item>95</item><item>100</item><item>175</item><item>420</item><item>490</item><item>515</item><item>515</item><item>790</item>
 </list>
 </para>
@@ -298,7 +298,7 @@
 <exercise id="eip-idp22858976">
 <problem id="eip-idp22859232">
     <para id="fs-idm36238000">Siga los pasos que utilizó para graficar un diagrama de caja y bigotes para los valores de datos que se muestran a continuación.</para>
-    <para id="fs-idm33689504"><list list-type="labeled-item" display="inline">
+    <para id="fs-idm33689504"><list list-type="labeled-item" display="inline" id="list-00003">
         <item>0</item><item>5</item><item>5</item><item>15</item><item>30</item><item>30</item><item>45</item><item>50</item><item>50</item><item>60</item><item>75</item><item>110</item><item>140</item><item>240</item><item>330</item>
     </list></para>
 

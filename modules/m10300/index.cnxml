@@ -8,11 +8,11 @@
 </metadata>
 
 <content>
-<para id="fs-idm10364336">El propósito de una prueba de ANOVA de una vía es determinar la existencia de una diferencia estadísticamente significativa entre las medias de varios grupos. De hecho, la prueba usa <term>varianzas</term> para ayudar a determinar si las medias son iguales o no. Para realizar una prueba de ANOVA de una vía hay que cumplir cinco <emphasis>supuestos</emphasis> básicos:</para>
+<para id="fs-idm10364336">El propósito de una prueba de ANOVA de una vía es determinar la existencia de una diferencia estadísticamente significativa entre las medias de varios grupos. De hecho, la prueba usa <term id="term-00001">varianzas</term> para ayudar a determinar si las medias son iguales o no. Para realizar una prueba de ANOVA de una vía hay que cumplir cinco <emphasis>supuestos</emphasis> básicos:</para>
 <list id="list-786879" list-type="enumerated">
 <item>Se supone que cada población de la que se toma una muestra es normal.</item>
 <item>Todas las muestras se seleccionan al azar y son independientes.</item>
-<item> Se supone que las poblaciones tienen <term>desviaciones típicas iguales</term> <emphasis>(o varianzas)</emphasis>.</item>
+<item> Se supone que las poblaciones tienen <term id="term-00002">desviaciones típicas iguales</term> <emphasis>(o varianzas)</emphasis>.</item>
 <item>El factor es una variable categórica.</item>
 <item>La respuesta es una variable numérica.</item>
 </list>

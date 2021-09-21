@@ -523,7 +523,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
 <solution id="fs-idm244330848">
 <para id="fs-idp4139616">Se trata de una prueba de dos proporciones de población. Supongamos que W y A sean los subíndices de los blancos y los afroamericanos. Entonces <emphasis effect="italics">p<sub>W</sub></emphasis> y <emphasis effect="italics">p<sub>A</sub></emphasis> son las proporciones poblacionales deseadas.</para>
 
-<para id="fs-idp85441184">Variable aleatoria: <emphasis effect="italics">p′<sub>W</sub></emphasis> - <emphasis effect="italics">p′<sub>A</sub></emphasis> = diferencia en las proporciones de usuarios de Android y iPhone.</para><para id="fs-idp129126752"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>W</sub></emphasis> = <emphasis effect="italics">p<sub>A</sub></emphasis> <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>W</sub></emphasis> – <emphasis effect="italics">p<sub>A</sub></emphasis> = 0</para><para id="fs-idm200846096"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>W</sub></emphasis> &gt; <emphasis effect="italics">p<sub>A</sub></emphasis> <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>W</sub></emphasis> – <emphasis effect="italics">p<sub>A</sub></emphasis> &gt; 0</para><para id="fs-idm11108992">Las palabras "más popular" indican que la prueba es de cola derecha.</para>
+<para id="fs-idp85441184">Variable aleatoria: <emphasis effect="italics">p′<sub>W</sub></emphasis> - <emphasis effect="italics">p′<sub>A</sub></emphasis> = diferencia en las proporciones de usuarios de Android y iPhone.</para><para id="fs-idp129126752"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>W</sub></emphasis> = <emphasis effect="italics">p<sub>A</sub></emphasis> <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>W</sub></emphasis> – <emphasis effect="italics">p<sub>A</sub></emphasis> = 0</para><para id="fs-idm200846096"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>W</sub></emphasis> > <emphasis effect="italics">p<sub>A</sub></emphasis> <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>W</sub></emphasis> – <emphasis effect="italics">p<sub>A</sub></emphasis> > 0</para><para id="fs-idm11108992">Las palabras "más popular" indican que la prueba es de cola derecha.</para>
   <para id="fs-idp137504160">Distribución para la prueba: la distribución es aproximadamente normal:</para>
   <para id="fs-idm35602240"><m:math>
     <m:mrow>
@@ -651,7 +651,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
 
 <para id="fs-idp153346256">Calcule el valor <emphasis effect="italics">p</emphasis> utilizando la distribución normal: valor <newline/><emphasis effect="italics">p</emphasis>= 0,0077<newline/> Proporción estimada para el grupo A: 0,10<newline/> Proporción estimada para el grupo B: 0,05</para>
   <para id="fs-idp26516352"><emphasis>Gráfico:</emphasis></para>
-  <figure id="id12575638"><media id="id12575642" alt="Se trata de una curva de distribución normal con media igual a cero. Una línea vertical cerca de la cola de la curva a la derecha de cero se extiende desde el eje hasta la curva. La región debajo de la curva a la derecha de la línea está sombreada y representa un valor p = 0,00004."><image src="../../media/CNX_Stats_C10_M04_007anno2-be0b.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="fs-idm17894912"><emphasis>Decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> &gt; valor <emphasis effect="italics">p</emphasis>, rechace el <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
+  <figure id="id12575638"><media id="id12575642" alt="Se trata de una curva de distribución normal con media igual a cero. Una línea vertical cerca de la cola de la curva a la derecha de cero se extiende desde el eje hasta la curva. La región debajo de la curva a la derecha de la línea está sombreada y representa un valor p = 0,00004."><image src="../../media/CNX_Stats_C10_M04_007anno2-be0b.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="fs-idm17894912"><emphasis>Decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>, rechace el <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
   <para id="fs-idp74257664"><emphasis>Conclusión:</emphasis> Al nivel de significación del 5 %, a partir de los datos de la muestra, hay pruebas suficientes para concluir que una mayor proporción de propietarios de teléfonos móviles blancos utilizan iPhones que los afroamericanos.</para>
   <note id="fs-idp15799920" class="statistics calculator">
 <label/>
@@ -1044,7 +1044,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
 
 <section id="fs-idp49279360" class="free-response">
 <title>Tarea para la casa</title>
-<para id="fs-idm14172688"><emphasis effect="italics">INSTRUCCIONES: Para cada uno de los problemas de palabras use una hoja de soluciones para hacer la prueba de hipótesis. La hoja de soluciones se encuentra en el <link document="m47882"/>. No dude en hacer copias de las hojas de soluciones. Para la versión en línea del libro se sugiere copiar los archivos .doc o .pdf.</emphasis></para><note id="id17215905">
+<para id="fs-idm14172688"><emphasis effect="italics">INSTRUCCIONES: Para cada uno de los problemas de palabras use una hoja de soluciones para hacer la prueba de hipótesis. La hoja de soluciones se encuentra en el <link document="m10502"/>. No dude en hacer copias de las hojas de soluciones. Para la versión en línea del libro se sugiere copiar los archivos .doc o .pdf.</emphasis></para><note id="id17215905">
 <label/>
 <title>Nota</title>
 <para id="fs-idm44775184">Si usa una distribución <emphasis effect="italics">t</emphasis>de Student para uno de los siguientes problemas de tarea para la casa, incluso para datos emparejados, puede suponer que la población subyacente está distribuida normalmente (Sin embargo, en general, primero hay que demostrar ese supuesto).</para></note>
@@ -1070,7 +1070,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
         <list id="fs-idp6439728" list-type="enumerated" number-style="lower-roman">
           <item>Alfa: 0,05</item>
           <item>Decisión: rechaza la hipótesis nula.</item>
-          <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>&gt; alfa</item>
+          <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>> alfa</item>
           <item>Conclusión: Al nivel de significación del 5 % no hay pruebas suficientes para concluir que las proporciones de mujeres blancas y negras víctimas de suicidio entre 15 y 24 años sean diferentes. </item>
         </list>
       </item>
@@ -1149,7 +1149,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
           <item><emphasis effect="italics">p<sub>2011</sub></emphasis> ≤ <emphasis effect="italics">p<sub>2010</sub></emphasis></item>
           <item><emphasis effect="italics">p<sub>2011</sub></emphasis> ≥ <emphasis effect="italics">p<sub>2010</sub></emphasis></item>
           <item><emphasis effect="italics">μ<sub>2011</sub></emphasis> ≤ <emphasis effect="italics">μ<sub>2010</sub></emphasis></item>
-          <item><emphasis effect="italics">p<sub>2011</sub></emphasis> &gt; <emphasis effect="italics">p<sub>2010</sub></emphasis></item>
+          <item><emphasis effect="italics">p<sub>2011</sub></emphasis> > <emphasis effect="italics">p<sub>2010</sub></emphasis></item>
         </list>
       </problem>
 
@@ -1223,7 +1223,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
         <para id="fs-idp35036048">Prueba: dos proporciones de muestras independientes</para>
         <para id="fs-idp35036432">Variable aleatoria: <emphasis effect="italics">p′<sub>1</sub></emphasis> − <emphasis effect="italics">p′<sub>2</sub></emphasis></para>
         <para id="fs-idm9404992">Distribución:</para>
-        <para id="fs-idp46050528"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>1</sub></emphasis> = <emphasis effect="italics">p<sub>2</sub></emphasis><newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>1</sub></emphasis> &gt; <emphasis effect="italics">p<sub>2</sub></emphasis></para>
+        <para id="fs-idp46050528"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>1</sub></emphasis> = <emphasis effect="italics">p<sub>2</sub></emphasis><newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>1</sub></emphasis> > <emphasis effect="italics">p<sub>2</sub></emphasis></para>
         <para id="fs-idm39674464">La proporción de propietarios de tabletas es mayor entre 16 y 29 años que entre 30 y más.</para>
         <para id="fs-idm39673968">Gráfico: cola derecha</para>
         <para id="fs-idm39673584"><figure id="fs-idp128478512"><media id="fs-idp24706912" alt="Se trata de una curva de distribución normal con media igual a cero. Una línea vertical cerca de la cola de la curva a la derecha de cero se extiende desde el eje hasta la curva. La región debajo de la curva a la derecha de la línea está sombreada y representa un valor p = 0,2354." display="block">
@@ -1248,7 +1248,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
       <para id="fs-idp35259328">Subíndices: 1: hombres; 2: mujeres</para>
       <list id="fs-idp66491504" list-type="enumerated" number-style="lower-alpha">
         <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>1</sub></emphasis> ≤ <emphasis effect="italics">p<sub>2</sub></emphasis></item>
-        <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>1</sub></emphasis> &gt; <emphasis effect="italics">p<sub>2</sub></emphasis></item>
+        <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>1</sub></emphasis> > <emphasis effect="italics">p<sub>2</sub></emphasis></item>
         <item><m:math>
  <m:mrow>
   <m:msub>
@@ -1278,7 +1278,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
           <list id="fs-idp134826688" list-type="enumerated" number-style="lower-roman">
             <item>Alfa: 0,05</item>
             <item>Decisión: No rechaza la hipótesis nula.</item>
-            <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>&gt; alfa</item>
+            <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>> alfa</item>
             <item>Conclusión: Con un nivel de significación del 5 % no hay pruebas suficientes para concluir que la proporción de hombres que disfrutan comprando equipos electrónicos es mayor que la de mujeres.</item>
           </list>
         </item>
@@ -1336,7 +1336,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
 
   <exercise id="fs-idm103490000">
     <problem id="fs-idm103489744">
-      <para id="fs-idm103489488">Utilice los conjuntos de datos que se encuentran en <link document="m47873"/> para responder este ejercicio. ¿La proporción de vueltas en la carrera que Terri completa más lento que 130 segundos es menor que la proporción de vueltas de práctica que completa más lento que 135 segundos?</para></problem>
+      <para id="fs-idm103489488">Utilice los conjuntos de datos que se encuentran en <link document="m10500"/> para responder este ejercicio. ¿La proporción de vueltas en la carrera que Terri completa más lento que 130 segundos es menor que la proporción de vueltas de práctica que completa más lento que 135 segundos?</para></problem>
   </exercise>
 
   <exercise id="fs-idm104246192"><problem id="fs-idp505328">
@@ -1403,7 +1403,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
     </problem>
 <solution id="eip-idp83945904">
 <list id="eip-idp83946160" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ<sub>d</sub></emphasis> = 0</item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ<sub>d</sub></emphasis> &gt; 0</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ<sub>d</sub></emphasis> > 0</item>
 <item>La variable aleatoria <emphasis effect="italics">X<sub>d</sub></emphasis> es la diferencia media de los tiempos de trabajo en los días en que se desayuna y en los días en que no se desayuna.</item>
 <item><emphasis effect="italics">t</emphasis><sub>9</sub></item>
 <item>estadístico de prueba: 4,8963</item>

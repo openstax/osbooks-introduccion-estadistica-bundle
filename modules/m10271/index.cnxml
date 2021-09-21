@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-    <section id="element-733"><title>Ejemplos del teorema del límite central</title><section id="fs-idp5962992"><title>Ley de los grandes números</title><para id="element-349">La <term>ley de los grandes números</term> dice que si se toman muestras cada vez más grandes de cualquier población, entonces la media de la distribución muestral, <m:math><m:msub><m:mi>μ</m:mi>
+    <section id="element-733"><title>Ejemplos del teorema del límite central</title><section id="fs-idp5962992"><title>Ley de los grandes números</title><para id="element-349">La <term id="term-00001">ley de los grandes números</term> dice que si se toman muestras cada vez más grandes de cualquier población, entonces la media de la distribución muestral, <m:math><m:msub><m:mi>μ</m:mi>
  <m:mrow><m:mover>
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
@@ -269,7 +269,7 @@
 <!-- <solution id="fs-idm72677136"><para id="fs-idm12285840">205.05</para></solution> -->
 </exercise><para id="fs-idm65293824"><emphasis effect="italics"><newline/>Use la siguiente información para responder los próximos ocho ejercicios:</emphasis> Una distribución uniforme tiene un mínimo de seis y un máximo de diez. Se toma una muestra de 50 personas.</para><exercise id="fs-idm1612656">
 <problem id="fs-idm47127360">
-<para id="fs-idm47127232">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> &gt; 420).</para>
+<para id="fs-idm47127232">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> > 420).</para>
 </problem>
 <solution id="fs-idm7883840"><para id="fs-idm7883712">0,0072</para></solution>
 </exercise>
