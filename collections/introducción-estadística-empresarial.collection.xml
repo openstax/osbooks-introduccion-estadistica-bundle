@@ -1,13 +1,19 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
-    <md:content-id>col10046</md:content-id>
-    <md:title>Introductory Business Statistics</md:title>
-    <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
-    <md:language>en</md:language>
-    <md:uuid>f346fe75-ae39-4d11-ad32-d80c03df58cb</md:uuid>
-    <md:slug>introducción-estadística-empresarial</md:slug>
-  </metadata>
-  <content>
+<col:collection>
+  xmlns:col="http://cnx.rice.edu/collxml"
+  xmlns:md="http://cnx.rice.edu/mdml"
+  xmlns:sys="http://cnx.rice.edu/system-info"
+  xmlns="http://cnx.rice.edu/collxml">
+  
+  <col:metadata>
+   <md:content-id>col10046</md:content-id>
+   <md:title>Introductory Business Statistics</md:title>
+   <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+   <md:language>en</md:language>
+   <md:uuid>f346fe75-ae39-4d11-ad32-d80c03df58cb</md:uuid>
+   <md:slug>introducción-estadística-empresarial</md:slug>
+  </col:metadata>
+  
+  <col:content>
     <module document="m10312"/>
     <subcollection>
       <md:title>Sampling and Data</md:title>
@@ -150,5 +156,5 @@
     </subcollection>
     <module document="m10311"/>
     <module document="m10319"/>
-  </content>
+  </col:content>
 </col:collection>
