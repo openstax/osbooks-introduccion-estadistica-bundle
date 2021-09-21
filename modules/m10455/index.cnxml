@@ -337,7 +337,7 @@
 
 <exercise id="fs-idm127013136">
 <problem id="fs-idm53684704">
-<para id="fs-idm54565472">Utilice la información de <link target-id="element-482" document=""/>, pero utilice un tamaño de muestra de 55 para responder las siguientes preguntas.</para>
+<para id="fs-idm54565472">Utilice la información de <link target-id="element-482"/>, pero utilice un tamaño de muestra de 55 para responder las siguientes preguntas.</para>
 
 <list id="fs-idm68188624" list-type="enumerated" number-style="lower-alpha">
 <item>Halle <emphasis effect="italics">P</emphasis>(<m:math>
@@ -574,7 +574,7 @@
 <label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm113638352"><problem id="fs-idm60469088">
-<para id="eip-823">Utilice la información del <link target-id="example2" document=""/>, pero cambie el tamaño de la muestra a 144.</para>
+<para id="eip-823">Utilice la información del <link target-id="example2"/>, pero cambie el tamaño de la muestra a 144.</para>
 <list id="fs-idm72056816" list-type="enumerated" number-style="lower-alpha"><item>Encuentre <emphasis effect="italics">P</emphasis>(20 &lt; <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
@@ -781,7 +781,7 @@
 <para id="eip-763"><code>normalcdf</code>(155,5,10^99,159,8.6447) = 0,6572.</para><para id="eip-955">Para la parte d, se <emphasis>excluye 147</emphasis> por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 147) tiene una aproximación normal <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Y</emphasis> &lt; 146,5) = 0,0741.</para><para id="eip-555"><code>normalcdf</code>(0,146.5,159,8.6447) = 0,0741</para><para id="eip-788">Para la parte e,<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = 175) tiene una aproximación normal <emphasis effect="italics">P</emphasis>(174,5 &lt; <emphasis effect="italics">Y</emphasis> &lt; 175,5) = 0,0083.</para>
 <para id="eip-680"><code>normalcdf</code>(174.5,175.5,159,8.6447) = 0,0083</para><para id="eip-863" class="finger"><emphasis>Gracias a las calculadoras y a los programas informáticos</emphasis> que permiten calcular fácilmente las probabilidades binomiales para grandes valores de <emphasis effect="italics">n</emphasis>, no es necesario utilizar la aproximación normal a la distribución binomial, siempre que se tenga acceso a estas herramientas tecnológicas. La mayoría de los laboratorios escolares disponen de Microsoft Excel, un ejemplo de programa informático que calcula probabilidades binomiales. Muchos estudiantes tienen acceso a las calculadoras de la serie TI-83 u 84, y calculan fácilmente las probabilidades de la distribución binomial. Si escribe "cálculo de la distribución de probabilidad binomial" en un navegador de Internet, podrá encontrar al menos una calculadora en línea para la binomial.</para>
 
-<para id="eip-251">Para el <link target-id="fs-idm153949776" document=""/>, las probabilidades se calculan utilizando la siguiente distribución binomial: (<emphasis effect="italics">n</emphasis> = 300 y <emphasis effect="italics">p</emphasis> = 0,53). Compare las respuestas de la distribución binomial y la normal. Vea <link document="m46955">Variables aleatorias discretas</link> para ayudar con las instrucciones de la calculadora para la binomial.</para><para id="eip-67"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) :<code>1 – binomialcdf</code>(300,0.53,149) = 0,8641</para><para id="eip-560"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 160) :<code>binomialcdf</code>(300,0.53,160) = 0,5684</para><para id="eip-727"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 155) :<code>1 – binomialcdf</code>(300,0.53,155) = 0,6576</para><para id="eip-122"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 147) :<code>binomialcdf</code>(300,0.53,146) = 0,0742</para><para id="eip-267"><emphasis effect="italics">P</emphasis><emphasis effect="italics">(X</emphasis> = 175) : (Se utiliza la función de densidad de probabilidad [probability density function, pdf] binomial).<code>binomialpdf</code>(300,0.53,175) = 0,0083</para></example>
+<para id="eip-251">Para el <link target-id="fs-idm153949776"/>, las probabilidades se calculan utilizando la siguiente distribución binomial: (<emphasis effect="italics">n</emphasis> = 300 y <emphasis effect="italics">p</emphasis> = 0,53). Compare las respuestas de la distribución binomial y la normal. Vea <link document="m46955">Variables aleatorias discretas</link> para ayudar con las instrucciones de la calculadora para la binomial.</para><para id="eip-67"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) :<code>1 – binomialcdf</code>(300,0.53,149) = 0,8641</para><para id="eip-560"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 160) :<code>binomialcdf</code>(300,0.53,160) = 0,5684</para><para id="eip-727"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 155) :<code>1 – binomialcdf</code>(300,0.53,155) = 0,6576</para><para id="eip-122"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 147) :<code>binomialcdf</code>(300,0.53,146) = 0,0742</para><para id="eip-267"><emphasis effect="italics">P</emphasis><emphasis effect="italics">(X</emphasis> = 175) : (Se utiliza la función de densidad de probabilidad [probability density function, pdf] binomial).<code>binomialpdf</code>(300,0.53,175) = 0,0083</para></example>
 </section>
 </section>
 
@@ -830,7 +830,7 @@
 </exercise>
 
 <exercise id="fs-idm84240544"><problem id="fs-idp8363072">
-<para id="fs-idm117442736">Dibuje el gráfico de la <link target-id="exercise4" document=""/></para></problem>
+<para id="fs-idm117442736">Dibuje el gráfico de la <link target-id="exercise4"/></para></problem>
 
 <!-- <solution id="fs-idm124774096">
 <figure id="fs-idm129645712"><media id="fs-idm66137264" alt="This is a normal distribution curve which extends from 24 to 26. The peak of the curve  coincides with the point 25 on the horizontal axis. An arrow points to 25 showing P(x-bar &lt; 24.9).">
@@ -848,7 +848,7 @@
 
 
 <exercise id="fs-idm30735600"><problem id="fs-idm87184416">
-<para id="fs-idm68751264">Dibuje el gráfico de la <link target-id="exercise6" document=""/></para></problem>
+<para id="fs-idm68751264">Dibuje el gráfico de la <link target-id="exercise6"/></para></problem>
 
 <!-- <solution id="fs-idm90694544">
 <figure id="eip-idp936112">
@@ -868,7 +868,7 @@
 
 
 <exercise id="fs-idm167897040"><problem id="fs-idm61920032">
-<para id="fs-idm111847536">Dibuje el gráfico de la <link target-id="exercise8" document=""/></para></problem>
+<para id="fs-idm111847536">Dibuje el gráfico de la <link target-id="exercise8"/></para></problem>
 
 <!-- <solution id="fs-idm110267328">
 <figure id="eip-idp3873008"><media id="fs-idm113411344" alt="This is a normal distribution curve which extends from 24 to 26. The peak of the curve  coincides with the point 25 on the horizontal axis. A point, k, is labeled to the right of 25. A vertical line extends from k to the curve. An arrow points to 25 showing P(x-bar &lt; k) = 0.90.">
@@ -890,7 +890,7 @@
 </exercise>
 
 <exercise id="exercise11"><problem id="fs-idm29117824">
-<para id="fs-idm110263040">Dibuje el gráfico de la <link target-id="exercise10" document=""/></para></problem>
+<para id="fs-idm110263040">Dibuje el gráfico de la <link target-id="exercise10"/></para></problem>
 
 <!-- <solution id="fs-idp11678144">
 <figure id="eip-idm64321520">
@@ -907,7 +907,7 @@
 </exercise>
 
 <exercise id="fs-idm54084400"><problem id="fs-idm58526640">
-<para id="fs-idp2153120">Dibuje el gráfico de la <link target-id="exercise12" document=""/></para></problem>
+<para id="fs-idp2153120">Dibuje el gráfico de la <link target-id="exercise12"/></para></problem>
 
 <!-- <solution id="fs-idm17187952">
 <figure id="eip-idp76755600">

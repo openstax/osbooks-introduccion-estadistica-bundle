@@ -776,7 +776,7 @@
  </m:mrow>
 </m:math> = 0,7</para><para id="element-873" class="finger">Generalmente, para las distribuciones de probabilidad, utilizamos una calculadora o una computadora para calcular <emphasis effect="italics">μ</emphasis> y <emphasis effect="italics">σ</emphasis> para reducir el error de redondeo. Para algunas distribuciones de probabilidad, existen fórmulas abreviadas para calcular <emphasis effect="italics">μ</emphasis> y <emphasis effect="italics">σ</emphasis>.</para><example id="fs-idp4384592"><exercise id="fs-idm87291728"><problem id="fs-idm69882560">
 
-<para id="fs-idm82328592">Lance un dado justo de seis caras dos veces. Supongamos que <emphasis effect="italics">X</emphasis> = el número de caras que muestran un número par. Construya una tabla como la <link target-id="fs-idm71508016" document=""/> y calcule la media <emphasis effect="italics">μ</emphasis> y la desviación típica <emphasis effect="italics">σ</emphasis> de <emphasis effect="italics">X</emphasis>.</para></problem>
+<para id="fs-idm82328592">Lance un dado justo de seis caras dos veces. Supongamos que <emphasis effect="italics">X</emphasis> = el número de caras que muestran un número par. Construya una tabla como la <link target-id="fs-idm71508016"/> y calcule la media <emphasis effect="italics">μ</emphasis> y la desviación típica <emphasis effect="italics">σ</emphasis> de <emphasis effect="italics">X</emphasis>.</para></problem>
 <solution id="fs-idm46332752">
 <para id="fs-idm86008592">Lanzar dos veces un dado justo de seis caras tiene el mismo espacio muestral que lanzar dos dados justos de seis caras. El espacio muestral tiene 36 resultados:</para>
 <table id="fs-idm21999584" summary="">
@@ -952,7 +952,7 @@
 <para id="fs-idm151081888">Sume los valores de la cuarta columna y calcule la raíz cuadrada de la suma: σ = <m:math><m:mrow><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>18</m:mn></m:mrow><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow> </m:math> ≈ 0.7071.</para></solution>
 </exercise></example><example id="example1.8"><exercise id="fs-idm71286192"><problem id="fs-idm79685344">
 <para id="fs-idm64926544">El 11 de mayo de 2013 a las 09:30 p. m., la probabilidad de que se produjera una actividad sísmica moderada (un terremoto moderado) en las próximas 48 horas en Irán era de aproximadamente el 21,42 %. Suponga que hace una apuesta a que se producirá un terremoto moderado en Irán durante este periodo. Si gana la apuesta, gana 50 dólares. Si pierde la apuesta, paga 20 dólares. Supongamos que <emphasis effect="italics">X</emphasis> = el monto de ganancia de una apuesta.</para><para id="fs-idm74848144"><emphasis effect="italics">P</emphasis>(ganar) = <emphasis effect="italics">P</emphasis>(se producirá un terremoto moderado) = 21,42 %</para>
-<para id="fs-idm122921568"><emphasis effect="italics">P</emphasis>(pérdida) = <emphasis effect="italics">P</emphasis>( <emphasis effect="italics">no</emphasis> se producirá un terremoto moderado) = 100 % - 21,42 %</para><para id="fs-idm135341424">Si apuesta muchas veces, ¿saldrá ganando? Explique su respuesta en una frase completa utilizando números. ¿Cuál es la desviación típica de <emphasis effect="italics">X</emphasis>? Construya una tabla similar a la <link target-id="element-226" document=""/> y la <link target-id="fs-idm21999584" document=""/> para ayudarse a responder a estas preguntas.</para></problem>
+<para id="fs-idm122921568"><emphasis effect="italics">P</emphasis>(pérdida) = <emphasis effect="italics">P</emphasis>( <emphasis effect="italics">no</emphasis> se producirá un terremoto moderado) = 100 % - 21,42 %</para><para id="fs-idm135341424">Si apuesta muchas veces, ¿saldrá ganando? Explique su respuesta en una frase completa utilizando números. ¿Cuál es la desviación típica de <emphasis effect="italics">X</emphasis>? Construya una tabla similar a la <link target-id="element-226"/> y la <link target-id="fs-idm21999584"/> para ayudarse a responder a estas preguntas.</para></problem>
 
 <solution id="fs-idm128877280">
 <table id="fs-idm70673696" summary="">
@@ -1001,7 +1001,7 @@
 </m:math></para></solution>
 </exercise></example><note id="fs-idp152488176" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idm88593344"><problem id="eip-idp52574576">
-<para id="eip-idp52574832">El 11 de mayo de 2013 a las 9:30 p. m., la probabilidad de que se produjera una actividad sísmica moderada (un terremoto moderado) en las próximas 48 horas en Japón era de aproximadamente 1,08 %. Al igual que en el <link target-id="example1.8" document=""/>, se apuesta por que se produzca un terremoto moderado en Japón durante este periodo. Si gana la apuesta, gana 100 dólares. Si pierde la apuesta, paga 10 dólares. Supongamos que <emphasis effect="italics">X</emphasis> = el monto de ganancia de una apuesta. Calcule la media y la desviación típica de <emphasis effect="italics">X</emphasis>.</para>
+<para id="eip-idp52574832">El 11 de mayo de 2013 a las 9:30 p. m., la probabilidad de que se produjera una actividad sísmica moderada (un terremoto moderado) en las próximas 48 horas en Japón era de aproximadamente 1,08 %. Al igual que en el <link target-id="example1.8"/>, se apuesta por que se produzca un terremoto moderado en Japón durante este periodo. Si gana la apuesta, gana 100 dólares. Si pierde la apuesta, paga 10 dólares. Supongamos que <emphasis effect="italics">X</emphasis> = el monto de ganancia de una apuesta. Calcule la media y la desviación típica de <emphasis effect="italics">X</emphasis>.</para>
 </problem>
 </exercise></note><para id="element-1">Algunas de las funciones de probabilidad discreta más comunes son la binomial, la geométrica, la hipergeométrica y la de Poisson. La mayoría de los cursos elementales no cubren la geométrica, la hipergeométrica y la Poisson. Su instructor le hará saber si desea cubrir estas distribuciones.</para>
 
@@ -1310,7 +1310,7 @@
 
 <exercise id="fs-idp129333088">
 <problem id="fs-idm75363680">
-<para id="fs-idp78893136">Complete la <link target-id="M02_Ch04_tbl021" document=""/> con los datos proporcionados.</para>
+<para id="fs-idp78893136">Complete la <link target-id="M02_Ch04_tbl021"/> con los datos proporcionados.</para>
 <table id="M02_Ch04_tbl021" summary="PDF table for the number of years a student will study ballet with the teacher. It contains columns for the number of years and their probabilities with third column for each number multiplied by its probability.">
 <tgroup cols="3">
 <colspec colnum="1" colname="c1"/>
@@ -2149,7 +2149,7 @@
 <item>two of three children</item>
 </list></solution> -->
 </exercise><exercise id="fs-idp33692128"><problem id="fs-idm139132608">
-  <para id="fs-idp13631152">Supongamos que la PDF del número de años que se tarda en obtener un título de licenciado en ciencias (Bachelor of Science, B.S.) se da en la <link target-id="id488jhjhj72479" document=""/>.</para>
+  <para id="fs-idp13631152">Supongamos que la PDF del número de años que se tarda en obtener un título de licenciado en ciencias (Bachelor of Science, B.S.) se da en la <link target-id="id488jhjhj72479"/>.</para>
 
 <table id="id488jhjhj72479" summary="">
 <tgroup cols="2">

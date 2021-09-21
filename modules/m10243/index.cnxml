@@ -11,7 +11,7 @@
 <para id="fs-idp5986864">Una vez que tenga un conjunto de datos, tendrá que organizarlos para poder analizar la frecuencia con la que aparece cada dato en el conjunto. Sin embargo, al calcular la frecuencia, es posible que tenga que redondear sus respuestas para que sean lo más precisas posible.</para><section id="eip-109"><title>Niveles de medición</title><para id="eip-192">La forma de medir un conjunto de datos se denomina <term>nivel de medición</term>. Los procedimientos estadísticos correctos dependen de que el investigador esté familiarizado con los niveles de medición. No todas las operaciones estadísticas se pueden usar con todos los conjuntos de datos. Los datos se pueden clasificar en cuatro niveles de medición. Son (de menor a mayor nivel):</para><list id="eip-865"><item><emphasis>Nivel de escala nominal</emphasis></item>
 <item><emphasis>Nivel de escala ordinal</emphasis></item>
 <item><emphasis>Nivel de escala de intervalos</emphasis></item>
-<item><emphasis>Nivel de escala de cociente</emphasis></item></list><para id="eip-925">Los datos que se miden mediante una <term>escala nominal</term> son <emphasis>cualitativos (categóricos)</emphasis>. Categorías, colores, nombres, etiquetas y alimentos favoritos junto con las respuestas de sí o no son ejemplos de datos de nivel nominal. Los datos de escala nominal no están ordenados. Por ejemplo, intentar clasificar a las personas según su comida favorita no tiene ningún sentido. Poner la pizza en primer lugar y el sushi en segundo no tiene sentido.</para><para id="eip-817">Las compañías de teléfonos inteligentes son otro ejemplo de datos de escala nominal. Los datos son los nombres de las compañías que fabrican teléfonos inteligentes, pero no hay un orden consensuado de estas marcas, aunque la gente pueda tener preferencias personales. Los datos de escala nominal no se pueden usar en cálculos.</para><para id="eip-369">Los datos que se miden con una <term>escala ordinal</term> son similares a los datos de la escala nominal, pero hay una gran diferencia. Los datos de la escala ordinal se pueden ordenar. Un ejemplo de datos de escala ordinal es una lista de los cinco mejores parques nacionales de Estados Unidos. Los cinco principales parques nacionales de Estados Unidos se pueden clasificar del uno al cinco, pero no podemos medir las diferencias entre los datos.</para><para id="eip-289">Otro ejemplo de uso de la escala ordinal es una encuesta sobre un crucero en la que las respuestas son “excelente”, “bueno”, “satisfactorio” e “insatisfactorio”. Estas respuestas están ordenadas de la respuesta más deseada a la menos deseada. Pero las diferencias entre dos datos no se pueden medir. Al igual que los datos de la escala nominal, los datos de la escala ordinal no se pueden usar en cálculos.</para><para id="eip-158">Los datos que se miden con la <term>escala de intervalos</term> son similares a los datos de nivel ordinal porque tienen un orden definido, pero hay una diferencia entre los datos. Las diferencias entre los datos de la escala de intervalos se pueden medir aunque los datos no tengan un punto de partida.</para><para id="eip-134">Las escalas de temperatura como Celsius (C) y Fahrenheit (F) se miden utilizando la escala de intervalos. En ambas medidas de temperatura, 40° es igual a 100° menos 60°. Las diferencias tienen sentido. Pero los 0 grados no porque, en ambas escalas, el 0 no es la temperatura mínima absoluta. Existen temperaturas como –10 °F y –15 °C que son más frías que el 0.</para><para id="eip-435">Los datos a nivel de intervalo pueden utilizarse en cálculos, pero no se puede hacer un tipo de comparación. 80 °C no es cuatro veces más caliente que 20 °C (ni 80 °F es cuatro veces más caliente que 20 °F). El cociente de 80 a 20 (o de cuatro a uno) no tiene sentido.</para><para id="eip-558">Los datos que se miden con la <term>escala de cociente</term> se encargan del problema de las proporciones y ofrecen más información. Los datos de la escala de cociente son como los datos de la escala de intervalos, pero tienen un punto 0 y se pueden calcular cocientes. Por ejemplo, las calificaciones de cuatro exámenes finales de Estadística de opción múltiple son 80, 68, 20 y 92 (sobre 100 puntos posibles). Los exámenes son calificados por máquina.</para><para id="eip-53">Los datos se pueden ordenar de menor a mayor: 20, 68, 80, 92.</para><para id="eip-750">Las diferencias entre los datos tienen un significado. La calificación de 92 es superior a la de 68 por 24 puntos. Se pueden calcular cocientes. La calificación más baja es 0. Así que 80 es cuatro veces 20. La calificación de 80 es cuatro veces mejor que la de 20.</para></section><section id="eip-959"><title>Frecuencia</title><para id="id7489802">Se les preguntó a veinte estudiantes cuántas horas trabajaban al día. Sus respuestas, en horas, son las siguientes: <list id="set-element-244" list-type="labeled-item" display="inline"><item>5</item><item>6</item><item>3</item><item>3</item><item>2</item><item>4</item><item>7</item><item>5</item><item>2</item><item>3</item><item>5</item><item>6</item><item>5</item><item>4</item><item>4</item><item>3</item><item>5</item><item>2</item><item>5</item><item>3</item></list>.</para><para id="id9267444">La <link target-id="id10383738" document=""/> enumera los diferentes valores de los datos en orden ascendente y sus frecuencias. </para>
+<item><emphasis>Nivel de escala de cociente</emphasis></item></list><para id="eip-925">Los datos que se miden mediante una <term>escala nominal</term> son <emphasis>cualitativos (categóricos)</emphasis>. Categorías, colores, nombres, etiquetas y alimentos favoritos junto con las respuestas de sí o no son ejemplos de datos de nivel nominal. Los datos de escala nominal no están ordenados. Por ejemplo, intentar clasificar a las personas según su comida favorita no tiene ningún sentido. Poner la pizza en primer lugar y el sushi en segundo no tiene sentido.</para><para id="eip-817">Las compañías de teléfonos inteligentes son otro ejemplo de datos de escala nominal. Los datos son los nombres de las compañías que fabrican teléfonos inteligentes, pero no hay un orden consensuado de estas marcas, aunque la gente pueda tener preferencias personales. Los datos de escala nominal no se pueden usar en cálculos.</para><para id="eip-369">Los datos que se miden con una <term>escala ordinal</term> son similares a los datos de la escala nominal, pero hay una gran diferencia. Los datos de la escala ordinal se pueden ordenar. Un ejemplo de datos de escala ordinal es una lista de los cinco mejores parques nacionales de Estados Unidos. Los cinco principales parques nacionales de Estados Unidos se pueden clasificar del uno al cinco, pero no podemos medir las diferencias entre los datos.</para><para id="eip-289">Otro ejemplo de uso de la escala ordinal es una encuesta sobre un crucero en la que las respuestas son “excelente”, “bueno”, “satisfactorio” e “insatisfactorio”. Estas respuestas están ordenadas de la respuesta más deseada a la menos deseada. Pero las diferencias entre dos datos no se pueden medir. Al igual que los datos de la escala nominal, los datos de la escala ordinal no se pueden usar en cálculos.</para><para id="eip-158">Los datos que se miden con la <term>escala de intervalos</term> son similares a los datos de nivel ordinal porque tienen un orden definido, pero hay una diferencia entre los datos. Las diferencias entre los datos de la escala de intervalos se pueden medir aunque los datos no tengan un punto de partida.</para><para id="eip-134">Las escalas de temperatura como Celsius (C) y Fahrenheit (F) se miden utilizando la escala de intervalos. En ambas medidas de temperatura, 40° es igual a 100° menos 60°. Las diferencias tienen sentido. Pero los 0 grados no porque, en ambas escalas, el 0 no es la temperatura mínima absoluta. Existen temperaturas como –10 °F y –15 °C que son más frías que el 0.</para><para id="eip-435">Los datos a nivel de intervalo pueden utilizarse en cálculos, pero no se puede hacer un tipo de comparación. 80 °C no es cuatro veces más caliente que 20 °C (ni 80 °F es cuatro veces más caliente que 20 °F). El cociente de 80 a 20 (o de cuatro a uno) no tiene sentido.</para><para id="eip-558">Los datos que se miden con la <term>escala de cociente</term> se encargan del problema de las proporciones y ofrecen más información. Los datos de la escala de cociente son como los datos de la escala de intervalos, pero tienen un punto 0 y se pueden calcular cocientes. Por ejemplo, las calificaciones de cuatro exámenes finales de Estadística de opción múltiple son 80, 68, 20 y 92 (sobre 100 puntos posibles). Los exámenes son calificados por máquina.</para><para id="eip-53">Los datos se pueden ordenar de menor a mayor: 20, 68, 80, 92.</para><para id="eip-750">Las diferencias entre los datos tienen un significado. La calificación de 92 es superior a la de 68 por 24 puntos. Se pueden calcular cocientes. La calificación más baja es 0. Así que 80 es cuatro veces 20. La calificación de 80 es cuatro veces mejor que la de 20.</para></section><section id="eip-959"><title>Frecuencia</title><para id="id7489802">Se les preguntó a veinte estudiantes cuántas horas trabajaban al día. Sus respuestas, en horas, son las siguientes: <list id="set-element-244" list-type="labeled-item" display="inline"><item>5</item><item>6</item><item>3</item><item>3</item><item>2</item><item>4</item><item>7</item><item>5</item><item>2</item><item>3</item><item>5</item><item>6</item><item>5</item><item>4</item><item>4</item><item>3</item><item>5</item><item>2</item><item>5</item><item>3</item></list>.</para><para id="id9267444">La <link target-id="id10383738"/> enumera los diferentes valores de los datos en orden ascendente y sus frecuencias. </para>
 
 
 <table id="id10383738" summary="This table presents the values provided in the previously given data set in the first column, and the frequency of each value in the second column."><title>Tabla de frecuencias de las horas de trabajo de los estudiantes</title>
@@ -52,7 +52,7 @@
 
 
 </tgroup>
-</table><para id="element-118">Una <term>frecuencia</term> es el número de veces que se produce un valor de los datos. Según la <link target-id="id10383738" document=""/>, hay tres estudiantes que trabajan dos horas, cinco estudiantes que trabajan tres horas y así sucesivamente. La suma de los valores de la columna de frecuencia, 20, representa el número total de estudiantes incluidos en la muestra.</para><para id="id8007492">Una <term>frecuencia relativa</term> es el cociente (fracción o proporción) entre el número de veces que se produce un valor de los datos en el conjunto de todos los resultados y el número total de resultados. Para hallar las frecuencias relativas, divida cada frecuencia entre el número total de estudiantes de la muestra, en este caso, 20. Las frecuencias relativas se pueden escribir como fracciones, porcentajes o decimales.</para><table id="id11177380" summary="Frequency Table of Student Work Hours with Relative Frequencies"><title>Tabla de frecuencias de las horas de trabajo de los estudiantes con frecuencias relativas</title>
+</table><para id="element-118">Una <term>frecuencia</term> es el número de veces que se produce un valor de los datos. Según la <link target-id="id10383738"/>, hay tres estudiantes que trabajan dos horas, cinco estudiantes que trabajan tres horas y así sucesivamente. La suma de los valores de la columna de frecuencia, 20, representa el número total de estudiantes incluidos en la muestra.</para><para id="id8007492">Una <term>frecuencia relativa</term> es el cociente (fracción o proporción) entre el número de veces que se produce un valor de los datos en el conjunto de todos los resultados y el número total de resultados. Para hallar las frecuencias relativas, divida cada frecuencia entre el número total de estudiantes de la muestra, en este caso, 20. Las frecuencias relativas se pueden escribir como fracciones, porcentajes o decimales.</para><table id="id11177380" summary="Frequency Table of Student Work Hours with Relative Frequencies"><title>Tabla de frecuencias de las horas de trabajo de los estudiantes con frecuencias relativas</title>
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -158,7 +158,7 @@
 
 
 </tgroup>
-</table><para id="id7087521">La suma de los valores de la columna de frecuencia relativa de <link target-id="id11177380" document=""/> es <m:math>
+</table><para id="id7087521">La suma de los valores de la columna de frecuencia relativa de <link target-id="id11177380"/> es <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -170,7 +170,7 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math>, o 1.</para><para id="id7575466">La <term>frecuencia relativa acumulada</term> es la acumulación de las frecuencias relativas anteriores. Para hallar las frecuencias relativas acumuladas se suman todas las frecuencias relativas anteriores a la frecuencia relativa de la fila actual, como se muestra en la <link target-id="id10564302" document=""/>.</para><table id="id10564302" summary="Table shows data, frequency, relative frequency and cumulative relative frequency."><title>Tabla de frecuencias de las horas de trabajo de los estudiantes con frecuencias relativas y acumuladas</title>
+</m:math>, o 1.</para><para id="id7575466">La <term>frecuencia relativa acumulada</term> es la acumulación de las frecuencias relativas anteriores. Para hallar las frecuencias relativas acumuladas se suman todas las frecuencias relativas anteriores a la frecuencia relativa de la fila actual, como se muestra en la <link target-id="id10564302"/>.</para><table id="id10564302" summary="Table shows data, frequency, relative frequency and cumulative relative frequency."><title>Tabla de frecuencias de las horas de trabajo de los estudiantes con frecuencias relativas y acumuladas</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -294,7 +294,7 @@
 </tgroup>
 </table><para id="id3561407">La última entrada de la columna de frecuencia relativa acumulada es uno, lo que indica que se ha acumulado el cien por ciento de los datos.</para>
 <note id="id16479556"><label/><title>NOTA</title>
-<para id="eip-idp27462880">Debido al redondeo, es posible que la columna de frecuencia relativa no sume siempre uno, y que la última entrada de la columna de frecuencia relativa acumulada no sea uno. Sin embargo, cada uno de ellos debería estar cerca de uno.</para></note><para id="element-305">La <link target-id="id9703284" document=""/> representa las alturas, en pulgadas, de una muestra de 100 hombres jugadores de fútbol semiprofesionales.</para><table id="id9703284" summary="This table presents a range of heights in inches in the first column, the number of students whose height falls within that range in the second column, the relative frequency of students in this range (expressed as both a fraction and a decimal) in the third column, and the cumulative relative frequency (expressed as a sum of current and previous relative frequency values) in the fourth column."><title>Tabla de frecuencias de la altura de los jugadores de fútbol</title>
+<para id="eip-idp27462880">Debido al redondeo, es posible que la columna de frecuencia relativa no sume siempre uno, y que la última entrada de la columna de frecuencia relativa acumulada no sea uno. Sin embargo, cada uno de ellos debería estar cerca de uno.</para></note><para id="element-305">La <link target-id="id9703284"/> representa las alturas, en pulgadas, de una muestra de 100 hombres jugadores de fútbol semiprofesionales.</para><table id="id9703284" summary="This table presents a range of heights in inches in the first column, the number of students whose height falls within that range in the second column, the relative frequency of students in this range (expressed as both a fraction and a decimal) in the third column, and the cumulative relative frequency (expressed as a sum of current and previous relative frequency values) in the fourth column."><title>Tabla de frecuencias de la altura de los jugadores de fútbol</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -490,7 +490,7 @@
 <item>de 73,95 a 75,95 pulgadas</item></list>
 <para id="element-689">En esta muestra hay <emphasis>cinco</emphasis> jugadores cuyas alturas están dentro del intervalo de 59,95 a 61,95 pulgadas, <emphasis>tres</emphasis> dentro del intervalo de 61,95 a 63,95 pulgadas, <emphasis>15</emphasis> dentro del intervalo de 63,95 a 65,95 pulgadas, <emphasis>40</emphasis> dentro del intervalo de 65,95 a 67,95 pulgadas, <emphasis>17</emphasis> dentro del intervalo de 67,95 a 69,95 pulgadas, <emphasis>12</emphasis> jugadores dentro del intervalo de 69,95 a 71,95, <emphasis>siete</emphasis> dentro del intervalo de 71,95 a 73,95 y <emphasis>un</emphasis> jugador cuya altura está dentro del intervalo de 73,95 a 75,95. Todas las alturas caen entre los puntos finales de un intervalo y no en los puntos finales.</para><example id="element-23523">
       <exercise id="element-881"><problem id="id16927329">
-		<para id="element-455">A partir de la <link target-id="id9703284" document=""/>, calcule el porcentaje de alturas que son inferiores a 65,95 pulgadas.
+		<para id="element-455">A partir de la <link target-id="id9703284"/>, calcule el porcentaje de alturas que son inferiores a 65,95 pulgadas.
 		</para></problem>
 
 	<solution id="id16927349">
@@ -513,7 +513,7 @@
 <note id="fs-idm40908240" class="statistics try"><label/><title>Ejercicio</title>
 <!--1-->
 <exercise id="fs-idp57790448"><problem id="fs-idm58055472">
-<para id="fs-idm72824256">La <link target-id="fs-idm82680048" document=""/> muestra la cantidad, en pulgadas, de precipitaciones anuales en una muestra de ciudades.</para>
+<para id="fs-idm72824256">La <link target-id="fs-idm82680048"/> muestra la cantidad, en pulgadas, de precipitaciones anuales en una muestra de ciudades.</para>
 <table id="fs-idm82680048" summary="Table shows the amount in inches, of annual rainfallin a sample towns">
 <tgroup cols="4"><thead>
  <row><entry>Precipitaciones (en pulgadas)</entry>	<entry>Frecuencia</entry>	<entry>Frecuencia relativa</entry>	<entry>Frecuencia relativa acumulada</entry></row>
@@ -597,7 +597,7 @@
 
 
 </tgroup>
-</table><para id="fs-idm81784864">A partir de <link target-id="fs-idm82680048" document=""/>, calcule el porcentaje de precipitación que es inferior a 9,01 pulgadas.</para>
+</table><para id="fs-idm81784864">A partir de <link target-id="fs-idm82680048"/>, calcule el porcentaje de precipitación que es inferior a 9,01 pulgadas.</para>
 </problem>
 <solution id="fs-idm82851248" class="solutions">
 <label/>
@@ -607,7 +607,7 @@
 </exercise>
 </note><example id="element-2398">
 <exercise id="element-987"><problem id="id16927407">
-<para id="element-266">A partir de <link target-id="id9703284" document=""/>, calcule el porcentaje de alturas que se encuentran entre 61,95 y 65,95 pulgadas.
+<para id="element-266">A partir de <link target-id="id9703284"/>, calcule el porcentaje de alturas que se encuentran entre 61,95 y 65,95 pulgadas.
 </para></problem>
 
 <solution id="id16927427">
@@ -619,14 +619,14 @@
 
 <note id="fs-idp124591904" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idm61239616"><problem id="fs-idm61142976">
-<para id="fs-idm71703488">A partir de la <link target-id="fs-idm82680048" document=""/>, calcule el porcentaje de precipitaciones que se encuentra entre 6,99 y 13,05 pulgadas.</para>
+<para id="fs-idm71703488">A partir de la <link target-id="fs-idm82680048"/>, calcule el porcentaje de precipitaciones que se encuentra entre 6,99 y 13,05 pulgadas.</para>
 </problem>
 <solution id="fs-idm64829776" class="solutions">
 <label/><title>Ejercicio Soluciones</title>
 <para id="fs-idm72952848">0,30 + 0,16 + 0,18 = 0,64 o 64 %</para>
 </solution>
 </exercise></note><example id="element-235235"><exercise id="element-994"><problem id="id16927469">
-		<para id="element-952">Utilice las alturas de los 100 hombres jugadores de fútbol semiprofesionales en la <link target-id="id9703284" document=""/>. Rellene los espacios en blanco y compruebe sus respuestas.
+		<para id="element-952">Utilice las alturas de los 100 hombres jugadores de fútbol semiprofesionales en la <link target-id="id9703284"/>. Rellene los espacios en blanco y compruebe sus respuestas.
 		</para>
 <list id="element-162" list-type="enumerated" number-style="lower-alpha">
 <item>El porcentaje de alturas que van de 67,95 a 71,95 pulgadas es: ____.</item>
@@ -666,7 +666,7 @@
 <item>12</item>
 <item>4</item>
 <item>5</item>
-<item>10</item></list>. <link target-id="id9833287" document=""/> se produjo:</para>
+<item>10</item></list>. <link target-id="id9833287"/> se produjo:</para>
 <table id="id9833287" summary="This table presents the number of miles driven by survey respondents in the first column, the frequency of each response in the second column, the relative frequency (expressed as a fraction) in the third column, and the cumulative relative frequency (expressed as a decimal) in the fourth column."><title>Frecuencia de las distancias de desplazamiento</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -817,7 +817,7 @@
 
 <exercise id="fs-idm57469440">
 <problem id="fs-idm86905392">
-<para id="fs-idm12777216">La <link target-id="fs-idm82680048" document=""/> representa la cantidad, en pulgadas, de precipitaciones anuales en una muestra de ciudades. ¿Qué fracción de las ciudades recibe entre 11,03 y 13,05 pulgadas de lluvia al año?</para>
+<para id="fs-idm12777216">La <link target-id="fs-idm82680048"/> representa la cantidad, en pulgadas, de precipitaciones anuales en una muestra de ciudades. ¿Qué fracción de las ciudades recibe entre 11,03 y 13,05 pulgadas de lluvia al año?</para>
 </problem>
 <solution id="fs-idm39703984" class="solutions">
 <label/>
@@ -836,7 +836,7 @@
 </m:math></para>
 </solution>
 </exercise></note><example id="fs-idm64477536">
-<para id="fs-idm39829664">La <link target-id="fs-idm52810848" document=""/> contiene el número total de muertes en todo el mundo a causa de terremotos en el periodo comprendido entre 2000 y 2012.</para><table id="fs-idm52810848" summary="placeholder">
+<para id="fs-idm39829664">La <link target-id="fs-idm52810848"/> contiene el número total de muertes en todo el mundo a causa de terremotos en el periodo comprendido entre 2000 y 2012.</para><table id="fs-idm52810848" summary="placeholder">
 <tgroup cols="2"><thead>
 <row><entry>Año</entry>	<entry>Número total de muertes</entry></row>
 </thead>
@@ -883,7 +883,7 @@
 <note id="fs-idm44002848" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idm62775664">
 <problem id="fs-idm9924272">
-<para id="fs-idm65128336">La <link target-id="fs-idm74902768" document=""/> contiene el número total de accidentes mortales de tráfico de vehículos de motor en Estados Unidos para el periodo de 1994 a 2011.</para>
+<para id="fs-idm65128336">La <link target-id="fs-idm74902768"/> contiene el número total de accidentes mortales de tráfico de vehículos de motor en Estados Unidos para el periodo de 1994 a 2011.</para>
 <table id="fs-idm74902768" summary="---">
 <tgroup cols="4"><thead>
 <row>
@@ -1006,7 +1006,7 @@ Frecuencia relativa acumulada
 
 
 </tgroup>
-</table><list id="element-190" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Rellene los espacios en blanco en la <link target-id="element-795" document=""/>.</item>
+</table><list id="element-190" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Rellene los espacios en blanco en la <link target-id="element-795"/>.</item>
 <item>¿Qué porcentaje de estudiantes toman exactamente dos cursos?</item>
 <item>¿Qué porcentaje de estudiantes toman uno o dos cursos?</item>
 </list></problem>
@@ -1058,7 +1058,7 @@ Frecuencia relativa acumulada
 </list>
 </solution> -->
 </exercise><exercise id="eip-idp1177440"><problem id="id29870923">
-<para id="element-426">Antes de emitir el diagnóstico se les preguntó a sesenta adultos con enfermedades de las encías el número de veces por semana que utilizaban el hilo dental. Los resultados (incompletos) se muestran en la <link target-id="element-619" document=""/>.
+<para id="element-426">Antes de emitir el diagnóstico se les preguntó a sesenta adultos con enfermedades de las encías el número de veces por semana que utilizaban el hilo dental. Los resultados (incompletos) se muestran en la <link target-id="element-619"/>.
 </para><table id="element-619" summary="Flossing Frequency for Adults with Gum Disease"><title>Frecuencia de uso del hilo dental en adultos con enfermedades de las encías</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1115,7 +1115,7 @@ Frecuencia relativa acumulada
 
 
 </tgroup>
-</table><list id="element-502" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Rellene los espacios en blanco en la <link target-id="element-619" document=""/>.</item>
+</table><list id="element-502" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Rellene los espacios en blanco en la <link target-id="element-619"/>.</item>
 <item>¿Qué porcentaje de adultos usar el hilo dental seis veces por semana?</item>
 <item>¿Qué porcentaje utiliza el hilo dental como máximo tres veces por semana?</item>
 </list>
@@ -1192,7 +1192,7 @@ Se les preguntó a diecinueve inmigrantes en EE. UU. cuántos años, con una apr
 <item>4</item>
 <item>5</item>
 <item>10</item>
-</list>.</para><para id="element-20"><link target-id="element-9" document=""/> se produjo.</para><table id="element-9" summary="This table presents the frequencies associated with the given data set, with the first column containing the data value, the second column containing the frequency, the third column containing the relative frequency (expressed as a fraction), and the fourth column expressing the cumulative relative frequency (expressed as a decimal)."><title>Frecuencia de las respuestas de los inmigrantes a la encuesta</title>
+</list>.</para><para id="element-20"><link target-id="element-9"/> se produjo.</para><table id="element-9" summary="This table presents the frequencies associated with the given data set, with the first column containing the data value, the second column containing the frequency, the third column containing the relative frequency (expressed as a fraction), and the fourth column expressing the cumulative relative frequency (expressed as a decimal)."><title>Frecuencia de las respuestas de los inmigrantes a la encuesta</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1336,7 +1336,7 @@ Frecuencia relativa acumulada
 
 
 </tgroup>
-</table><list id="element-650" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Corrija los errores en la <link target-id="element-9" document=""/>. Además, explique cómo alguien podría haber llegado a los números incorrectos.</item>
+</table><list id="element-650" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Corrija los errores en la <link target-id="element-9"/>. Además, explique cómo alguien podría haber llegado a los números incorrectos.</item>
 <item>Explique qué está errado en esta afirmación: “El 47 % de los encuestados lleva 5 años viviendo en EE. UU.”. </item>
 <item>Corrija el enunciado en <emphasis>b</emphasis> para que sea correcto.</item>
 <item>¿Qué fracción de las personas encuestadas ha vivido en EE. UU. cinco o siete años?</item>
@@ -1412,7 +1412,7 @@ Frecuencia relativa acumulada
 </m:math>
 </item>
 </list></solution> --></exercise><exercise id="eip-idp24902672"><problem id="eip-idp50833472">
-<para id="fs-idp1582784">¿Cuánto tiempo se tarda en ir al trabajo? La <link target-id="fs-idm68779488" document=""/> muestra el tiempo medio de desplazamiento por estado para los trabajadores de, al menos, 16 años que no trabajan en casa. Calcule el tiempo medio de traslado, y redondee la respuesta correctamente.</para>
+<para id="fs-idp1582784">¿Cuánto tiempo se tarda en ir al trabajo? La <link target-id="fs-idm68779488"/> muestra el tiempo medio de desplazamiento por estado para los trabajadores de, al menos, 16 años que no trabajan en casa. Calcule el tiempo medio de traslado, y redondee la respuesta correctamente.</para>
 <table id="fs-idm68779488" summary="">
 <tgroup cols="10">
 <tbody>
@@ -1486,7 +1486,7 @@ Frecuencia relativa acumulada
 </solution></exercise>
 
 <exercise id="eip-idm71401488"><problem id="eip-idm71401232">
-<para id="fs-idm72637568">La revista <emphasis effect="italics">Forbes</emphasis> publicó datos sobre las mejores pequeñas compañías en 2012. Se trata de compañías que cotizan en la bolsa desde hace al menos un año, con un precio de las acciones de al menos 5 dólares por acción y con unos ingresos anuales entre 5 millones de dólares y 1 mil millones de dólares. La <link target-id="fs-idm84109040" document=""/> muestra la edad de los directores generales de las primeras 60 compañías clasificadas.</para>
+<para id="fs-idm72637568">La revista <emphasis effect="italics">Forbes</emphasis> publicó datos sobre las mejores pequeñas compañías en 2012. Se trata de compañías que cotizan en la bolsa desde hace al menos un año, con un precio de las acciones de al menos 5 dólares por acción y con unos ingresos anuales entre 5 millones de dólares y 1 mil millones de dólares. La <link target-id="fs-idm84109040"/> muestra la edad de los directores generales de las primeras 60 compañías clasificadas.</para>
 <table id="fs-idm84109040" summary="Table shows the ages of the chief executive officers for the first 60 ranked firms">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2" align="right"/>
@@ -1525,7 +1525,7 @@ Frecuencia relativa acumulada
 <item>14/60; 0.23; 23%</item>
 <item>0.45</item>
 <item>Graph A represents the cumulative relative frequency, and Graph B shows the relative frequency.</item>
-</list></solution> --></exercise><para id="id5096156"><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios:</emphasis> La <link target-id="id9247047" document=""/> contiene datos sobre los huracanes que han impactado directamente a EE. UU. entre 1851 y 2004. Un huracán recibe una categoría de fuerza basada en la velocidad mínima del viento generada por la tormenta.</para><table id="id9247047" summary="This incomplete table presents frequency data related to hurricane activity. The first column displays the hurricane category, the second column displays the frequency of direct hits, the third column presents the relative frequency (expressed as a decimal), and the fourth column presents the cumulative relative frequency (expressed as a decimal). The two missing values are to be caluculated by the students in the upcoming exercises."><title>Frecuencia de los impactos directos de los huracanes</title>
+</list></solution> --></exercise><para id="id5096156"><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios:</emphasis> La <link target-id="id9247047"/> contiene datos sobre los huracanes que han impactado directamente a EE. UU. entre 1851 y 2004. Un huracán recibe una categoría de fuerza basada en la velocidad mínima del viento generada por la tormenta.</para><table id="id9247047" summary="This incomplete table presents frequency data related to hurricane activity. The first column displays the hurricane category, the second column displays the frequency of direct hits, the third column presents the relative frequency (expressed as a decimal), and the fourth column presents the cumulative relative frequency (expressed as a decimal). The two missing values are to be caluculated by the students in the upcoming exercises."><title>Frecuencia de los impactos directos de los huracanes</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
           <colspec colnum="2" colname="c2"/>
           <colspec colnum="3" colname="c3"/>

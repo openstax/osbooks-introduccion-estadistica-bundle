@@ -81,7 +81,7 @@
 
 </m:math> = 10, y hemos construido el intervalo de confianza del 90 % (5, 15) donde <emphasis effect="italics">EBM</emphasis> = 5.</para><para id="eip-id1171249132425">Para obtener un intervalo de confianza del 90 %, debemos incluir el 90 % central de la probabilidad de la distribución normal. Si incluimos el 90 % central, dejamos fuera un total de <emphasis effect="italics">α</emphasis> = 10 % en ambas colas, o 5 % en cada cola, de la distribución normal.</para>
       <figure id="fs-idm23539888"><media id="id1164459043434" alt="Se trata de una curva de distribución normal. El pico de la curva coincide con el punto 10 del eje horizontal. Los puntos 5 y 15 están marcados en el eje. Se trazan líneas verticales desde estos puntos hasta la curva y se sombrea la región entre las líneas. La región sombreada tiene un área igual a 0,90.">
-    <image src="../../media/fig-ch08_02_01N.jpg" mime-type="image/jpg" width="380"/>
+    <image src="../../media/fig-ch08_02_01n.jpg" mime-type="image/jpg" width="380"/>
     </media>
     </figure><para id="eip-id1171253598112">Para captar el 90 % central, debemos salir 1,645 "desviaciones típicas" a cada lado de la media muestral calculada. El valor 1,645 es la puntuación <emphasis effect="italics">z</emphasis> de una distribución de probabilidad normal estándar que sitúa un área de 0,90 en el centro, un área de 0,05 en la cola extrema izquierda y un área de 0,05 en la cola extrema derecha.</para>
 
@@ -520,7 +520,7 @@
     </exercise>
     </note>
 
-<example id="example3"><para id="eip-431">La tasa de absorción específica (Specific Absorption Rate, SAR) de un teléfono móvil mide la cantidad de energía de radiofrecuencia (Radio Frequency, RF) que absorbe el cuerpo del usuario cuando utiliza el teléfono. Todos los teléfonos móviles emiten energía de radiofrecuencia. Los diferentes modelos de teléfono tienen diferentes medidas de SAR. Para recibir la certificación de la Comisión Federal de Comunicaciones (Federal Communications Commission, FCC) para su venta en los Estados Unidos, el nivel de SAR de un teléfono móvil no debe ser superior a 1,6 vatios por kilogramo. La <link target-id="M02_CH08-tbl001" document=""/> muestra el nivel SAR más alto de una selección aleatoria de modelos de teléfonos móviles según las mediciones de la FCC.</para>
+<example id="example3"><para id="eip-431">La tasa de absorción específica (Specific Absorption Rate, SAR) de un teléfono móvil mide la cantidad de energía de radiofrecuencia (Radio Frequency, RF) que absorbe el cuerpo del usuario cuando utiliza el teléfono. Todos los teléfonos móviles emiten energía de radiofrecuencia. Los diferentes modelos de teléfono tienen diferentes medidas de SAR. Para recibir la certificación de la Comisión Federal de Comunicaciones (Federal Communications Commission, FCC) para su venta en los Estados Unidos, el nivel de SAR de un teléfono móvil no debe ser superior a 1,6 vatios por kilogramo. La <link target-id="M02_CH08-tbl001"/> muestra el nivel SAR más alto de una selección aleatoria de modelos de teléfonos móviles según las mediciones de la FCC.</para>
     <table id="M02_CH08-tbl001" summary="..">
     <tgroup cols="6">
     <thead>
@@ -721,7 +721,7 @@
 <label/><title>Ejercicio</title>
     <exercise id="eip-158">
     <problem id="eip-555">
-      <para id="eip-136"><link target-id="M02_CH08-tbl002" document=""/> muestra un muestreo aleatorio de 20 modelos de teléfonos móviles. Utilice estos datos para calcular un intervalo de confianza del 93 % para la verdadera media de SAR de los teléfonos móviles certificados para su uso en Estados Unidos. Como en el caso anterior, supongamos que la desviación típica de la población es <emphasis effect="italics">σ</emphasis> = 0,337.</para>
+      <para id="eip-136"><link target-id="M02_CH08-tbl002"/> muestra un muestreo aleatorio de 20 modelos de teléfonos móviles. Utilice estos datos para calcular un intervalo de confianza del 93 % para la verdadera media de SAR de los teléfonos móviles certificados para su uso en Estados Unidos. Como en el caso anterior, supongamos que la desviación típica de la población es <emphasis effect="italics">σ</emphasis> = 0,337.</para>
       <table id="M02_CH08-tbl002" summary="..">
     <tgroup cols="4">
     <thead>
@@ -799,7 +799,7 @@
     </problem>
     </exercise>
     </note>
-<para id="eip-idp5304592">Observe la diferencia en los intervalos de confianza calculados en el <link target-id="example3" document=""/> y en el siguiente ejercicio de <link target-id="fs-idp77326048" document="">Ejercicio</link>. Estos intervalos son diferentes por varias razones: se calcularon a partir de muestras diferentes, las muestras eran de distinto tamaño y los intervalos se calcularon para distintos niveles de confianza. Aunque los intervalos son diferentes, no aportan información contradictoria. Los efectos de este tipo de cambios son el tema de la siguiente sección de este capítulo.</para></section><section id="eip-783"><title>Modificación del nivel de confianza o del tamaño de la muestra</title><example id="element-1217">
+<para id="eip-idp5304592">Observe la diferencia en los intervalos de confianza calculados en el <link target-id="example3"/> y en el siguiente ejercicio de <link target-id="fs-idp77326048">Ejercicio</link>. Estos intervalos son diferentes por varias razones: se calcularon a partir de muestras diferentes, las muestras eran de distinto tamaño y los intervalos se calcularon para distintos niveles de confianza. Aunque los intervalos son diferentes, no aportan información contradictoria. Los efectos de este tipo de cambios son el tema de la siguiente sección de este capítulo.</para></section><section id="eip-783"><title>Modificación del nivel de confianza o del tamaño de la muestra</title><example id="element-1217">
     <exercise id="element-971"><problem id="id1164450104012">
     <para id="element-214">Supongamos que cambiamos el problema original en <link target-id="eip-id1171257291379"/> utilizando un nivel de confianza del 95 %. Calcule un intervalo de confianza del 95 % para la calificación media real (poblacional) del examen estadístico.</para></problem>
     <solution id="id1164461631257">
@@ -959,7 +959,7 @@
     <label/>
     <title>Ejercicio</title>
     <exercise id="eip-847"><problem id="eip-565">
-      <para id="eip-idp138029248">Vuelva a consultar el <link target-id="fs-idm85249264" document="">Ejercicio</link> de entrega de pizzas. La desviación típica de la población es de seis minutos y la media de la muestra del tiempo de entrega es de 36 minutos. Utilice un tamaño de muestra de 20. Encuentre una estimación del intervalo de confianza del 95 % para la media real del tiempo de entrega de la pizza.</para></problem>
+      <para id="eip-idp138029248">Vuelva a consultar el <link target-id="fs-idm85249264">Ejercicio</link> de entrega de pizzas. La desviación típica de la población es de seis minutos y la media de la muestra del tiempo de entrega es de 36 minutos. Utilice un tamaño de muestra de 20. Encuentre una estimación del intervalo de confianza del 95 % para la media real del tiempo de entrega de la pizza.</para></problem>
     </exercise></note>
 
     <example id="element-542"><para id="element-338">Supongamos que cambiamos el problema original en el <link target-id="eip-id1171257291379"/> para ver qué ocurre con el límite de error si se cambia el tamaño de la muestra.</para><exercise id="element-442">
@@ -1804,13 +1804,13 @@
     </problem>
     </exercise><exercise id="eip-656">
     <problem id="eip-643">
-      <para id="eip-363">Explique en oraciones completas por qué el intervalo de confianza en el <link target-id="eip-833" document=""/> es mayor que en el <link target-id="eip-342" document=""/>.</para></problem>
+      <para id="eip-363">Explique en oraciones completas por qué el intervalo de confianza en el <link target-id="eip-833"/> es mayor que en el <link target-id="eip-342"/>.</para></problem>
     <solution id="eip-352">
       <para id="eip-564">El intervalo es mayor porque el nivel de confianza aumentó. Si el único cambio realizado en el análisis es un cambio en el nivel de confianza, entonces todo lo que estamos haciendo es cambiar la cantidad de área que se calcula para la distribución normal. Por lo tanto, un nivel de confianza mayor genera áreas e intervalos más amplios.</para>
     </solution>
     </exercise>
     <exercise id="eip-598"><problem id="eip-866">
-      <para id="eip-323">Interprete en oraciones completas lo que significa el intervalo en el <link target-id="eip-342" document=""/>.</para></problem>
+      <para id="eip-323">Interprete en oraciones completas lo que significa el intervalo en el <link target-id="eip-342"/>.</para></problem>
     </exercise><exercise id="eip-909">
     <problem id="eip-553">
     <para id="eip-711">¿Qué pasaría si se tomaran muestras de 40 cabezas de lechuga en vez de 20, y el límite de error siguiera siendo el mismo?</para>
@@ -1886,7 +1886,7 @@
     </problem>
 
     </exercise><exercise id="element-524"><problem id="id27077775">
-      <para id="element-334">Como resultado de su respuesta en el <link target-id="element-440" document=""/>, indique la distribución exacta que se debe usar para calcular el intervalo de confianza.</para>
+      <para id="element-334">Como resultado de su respuesta en el <link target-id="element-440"/>, indique la distribución exacta que se debe usar para calcular el intervalo de confianza.</para>
     </problem>
 
     <solution id="id27077795">
@@ -2190,7 +2190,7 @@
     <item>Si tomáramos muestras repetidas, la media muestral sería igual a la media de la población en el 90 % de las muestras aproximadamente.</item></list>
     </problem>
 </exercise><exercise id="eip-217"><problem id="eip-629">
-      <para id="eip-315">La Comisión Federal de Elecciones recopila información sobre los aportes y los desembolsos para la campaña de los candidatos y los comités políticos en cada ciclo electoral. Durante la temporada de campaña de 2012, hubo 1.619 candidatos a la Cámara de Representantes en Estados Unidos que recibieron aportes de particulares. La <link target-id="M02_CH08-tbl003" document=""/> muestra el total de ingresos procedentes de particulares para una selección aleatoria de 40 candidatos a la Cámara de Representantes, redondeado a los 100 dólares más cercanos. La desviación típica de estos datos a la centena más cercana es <emphasis effect="italics">σ</emphasis> = 909.200 dólares.</para>
+      <para id="eip-315">La Comisión Federal de Elecciones recopila información sobre los aportes y los desembolsos para la campaña de los candidatos y los comités políticos en cada ciclo electoral. Durante la temporada de campaña de 2012, hubo 1.619 candidatos a la Cámara de Representantes en Estados Unidos que recibieron aportes de particulares. La <link target-id="M02_CH08-tbl003"/> muestra el total de ingresos procedentes de particulares para una selección aleatoria de 40 candidatos a la Cámara de Representantes, redondeado a los 100 dólares más cercanos. La desviación típica de estos datos a la centena más cercana es <emphasis effect="italics">σ</emphasis> = 909.200 dólares.</para>
       <table id="M02_CH08-tbl003" summary="The total receipts from individuals for a random selection of 40 House candidates rounded to the nearest  00.">
 <tgroup cols="5"><tbody>
     <row>

@@ -1,591 +1,154 @@
 <col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
-  <md:content-id>col10046</md:content-id>
-  <md:title>Introductory Business Statistics</md:title>
-  
-  
-  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
-  <md:language>en</md:language>
-
-  
-
-  
-  
-  
-  
-  
-
-  <md:uuid>f346fe75-ae39-4d11-ad32-d80c03df58cb</md:uuid>
-<md:slug>introducción-estadística-empresarial</md:slug>
-</metadata>
-
-  <col:content>
-    
-      <col:module document="m10312"/>
-        
-      
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Sampling and Data</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m10241"/>
-        
-      
-    
-    
-      <col:module document="m10242"/>
-        
-      
-    
-    
-      <col:module document="m10313"/>
-        
-      
-    
-    
-      <col:module document="m10243"/>
-        
-      
-    
-    
-      <col:module document="m10244"/>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Descriptive Statistics</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m10245"/>
-        
-      
-    
-    
-      <col:module document="m10246"/>
-        
-      
-    
-    
-      <col:module document="m10247"/>
-        
-      
-    
-    
-      <col:module document="m10248"/>
-        
-      
-    
-    
-      <col:module document="m10249"/>
-        
-      
-    
-    
-      <col:module document="m10250"/>
-        
-      
-    
-    
-      <col:module document="m10251"/>
-        
-      
-    
-    
-      <col:module document="m10252"/>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Probability Topics</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m10253"/>
-        
-      
-    
-    
-      <col:module document="m10314"/>
-        
-      
-    
-    
-      <col:module document="m10254"/>
-        
-      
-    
-    
-      <col:module document="m10255"/>
-        
-      
-    
-    
-      <col:module document="m10256"/>
-        
-      
-    
-    
-      <col:module document="m10257"/>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Discrete Random Variables</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m10258"/>
-        
-      
-    
-    
-      <col:module document="m10259"/>
-        
-      
-    
-    
-      <col:module document="m10260"/>
-        
-      
-    
-    
-      <col:module document="m10261"/>
-        
-      
-    
-    
-      <col:module document="m10262"/>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Continuous Random Variables</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m10263"/>
-        
-      
-    
-    
-      <col:module document="m10264"/>
-        
-      
-    
-    
-      <col:module document="m10265"/>
-        
-      
-    
-    
-      <col:module document="m10266"/>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>The Normal Distribution</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m10267"/>
-        
-      
-    
-    
-      <col:module document="m10268"/>
-        
-      
-    
-    
-      <col:module document="m10269"/>
-        
-      
-    
-    
-      <col:module document="m10315"/>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>The Central Limit Theorem</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m10270"/>
-        
-      
-    
-    
-      <col:module document="m10316"/>
-        
-      
-    
-    
-      <col:module document="m10271"/>
-        
-      
-    
-    
-      <col:module document="m10272"/>
-        
-      
-    
-    
-      <col:module document="m10273"/>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Confidence Intervals</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m10274"/>
-        
-      
-    
-    
-      <col:module document="m10317"/>
-        
-      
-    
-    
-      <col:module document="m10275"/>
-        
-      
-    
-    
-      <col:module document="m10276"/>
-        
-      
-    
-    
-      <col:module document="m10277"/>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Hypothesis Testing with One Sample</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m10278"/>
-        
-      
-    
-    
-      <col:module document="m10279"/>
-        
-      
-    
-    
-      <col:module document="m10280"/>
-        
-      
-    
-    
-      <col:module document="m10281"/>
-        
-      
-    
-    
-      <col:module document="m10282"/>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Hypothesis Testing with Two Samples</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m10283"/>
-        
-      
-    
-    
-      <col:module document="m10284"/>
-        
-      
-    
-    
-      <col:module document="m10285"/>
-        
-      
-    
-    
-      <col:module document="m10286"/>
-        
-      
-    
-    
-      <col:module document="m10287"/>
-        
-      
-    
-    
-      <col:module document="m10288"/>
-        
-      
-    
-    
-      <col:module document="m10289"/>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>The Chi-Square Distribution</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m10290"/>
-        
-      
-    
-    
-      <col:module document="m10318"/>
-        
-      
-    
-    
-      <col:module document="m10291"/>
-        
-      
-    
-    
-      <col:module document="m10292"/>
-        
-      
-    
-    
-      <col:module document="m10294"/>
-        
-      
-    
-    
-      <col:module document="m10296"/>
-        
-      
-    
-    
-      <col:module document="m10297"/>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>F Distribution and One-Way ANOVA</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m10298"/>
-        
-      
-    
-    
-      <col:module document="m10299"/>
-        
-      
-    
-    
-      <col:module document="m10300"/>
-        
-      
-    
-    
-      <col:module document="m10301"/>
-        
-      
-    
-    
-      <col:module document="m10302"/>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Linear Regression and Correlation</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m10303"/>
-        
-      
-    
-    
-      <col:module document="m10304"/>
-        
-      
-    
-    
-      <col:module document="m10305"/>
-        
-      
-    
-    
-      <col:module document="m10306"/>
-        
-      
-    
-    
-      <col:module document="m10307"/>
-        
-      
-    
-    
-      <col:module document="m10308"/>
-        
-      
-    
-    
-      <col:module document="m10309"/>
-        
-      
-    
-    
-      <col:module document="m10310"/>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      <col:module document="m10311"/>
-        
-      
-    
-    
-      <col:module document="m10319"/>
-        
-      
-    
-  </col:content>
+    <md:content-id>col10046</md:content-id>
+    <md:title>Introductory Business Statistics</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+    <md:language>en</md:language>
+    <md:uuid>f346fe75-ae39-4d11-ad32-d80c03df58cb</md:uuid>
+    <md:slug>introducción-estadística-empresarial</md:slug>
+  </metadata>
+  <content>
+    <module document="m10312"/>
+    <subcollection>
+      <md:title>Sampling and Data</md:title>
+      <content>
+        <module document="m10241"/>
+        <module document="m10242"/>
+        <module document="m10313"/>
+        <module document="m10243"/>
+        <module document="m10244"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>Descriptive Statistics</md:title>
+      <content>
+        <module document="m10245"/>
+        <module document="m10246"/>
+        <module document="m10247"/>
+        <module document="m10248"/>
+        <module document="m10249"/>
+        <module document="m10250"/>
+        <module document="m10251"/>
+        <module document="m10252"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>Probability Topics</md:title>
+      <content>
+        <module document="m10253"/>
+        <module document="m10314"/>
+        <module document="m10254"/>
+        <module document="m10255"/>
+        <module document="m10256"/>
+        <module document="m10257"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>Discrete Random Variables</md:title>
+      <content>
+        <module document="m10258"/>
+        <module document="m10259"/>
+        <module document="m10260"/>
+        <module document="m10261"/>
+        <module document="m10262"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>Continuous Random Variables</md:title>
+      <content>
+        <module document="m10263"/>
+        <module document="m10264"/>
+        <module document="m10265"/>
+        <module document="m10266"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>The Normal Distribution</md:title>
+      <content>
+        <module document="m10267"/>
+        <module document="m10268"/>
+        <module document="m10269"/>
+        <module document="m10315"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>The Central Limit Theorem</md:title>
+      <content>
+        <module document="m10270"/>
+        <module document="m10316"/>
+        <module document="m10271"/>
+        <module document="m10272"/>
+        <module document="m10273"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>Confidence Intervals</md:title>
+      <content>
+        <module document="m10274"/>
+        <module document="m10317"/>
+        <module document="m10275"/>
+        <module document="m10276"/>
+        <module document="m10277"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>Hypothesis Testing with One Sample</md:title>
+      <content>
+        <module document="m10278"/>
+        <module document="m10279"/>
+        <module document="m10280"/>
+        <module document="m10281"/>
+        <module document="m10282"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>Hypothesis Testing with Two Samples</md:title>
+      <content>
+        <module document="m10283"/>
+        <module document="m10284"/>
+        <module document="m10285"/>
+        <module document="m10286"/>
+        <module document="m10287"/>
+        <module document="m10288"/>
+        <module document="m10289"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>The Chi-Square Distribution</md:title>
+      <content>
+        <module document="m10290"/>
+        <module document="m10318"/>
+        <module document="m10291"/>
+        <module document="m10292"/>
+        <module document="m10294"/>
+        <module document="m10296"/>
+        <module document="m10297"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>F Distribution and One-Way ANOVA</md:title>
+      <content>
+        <module document="m10298"/>
+        <module document="m10299"/>
+        <module document="m10300"/>
+        <module document="m10301"/>
+        <module document="m10302"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>Linear Regression and Correlation</md:title>
+      <content>
+        <module document="m10303"/>
+        <module document="m10304"/>
+        <module document="m10305"/>
+        <module document="m10306"/>
+        <module document="m10307"/>
+        <module document="m10308"/>
+        <module document="m10309"/>
+        <module document="m10310"/>
+      </content>
+    </subcollection>
+    <module document="m10311"/>
+    <module document="m10319"/>
+  </content>
 </col:collection>
