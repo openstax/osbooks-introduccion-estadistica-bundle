@@ -955,12 +955,13 @@
     </list>
   </commentary>
     </exercise></example>
-    </section><note id="fs-idm35811600" class="statistics try">
-    <label/>
-    <title>Ejercicio</title>
-    <exercise id="eip-847"><problem id="eip-565">
-      <para id="eip-idp138029248">Vuelva a consultar el <link target-id="fs-idm85249264">Ejercicio</link> de entrega de pizzas. La desviación típica de la población es de seis minutos y la media de la muestra del tiempo de entrega es de 36 minutos. Utilice un tamaño de muestra de 20. Encuentre una estimación del intervalo de confianza del 95 % para la media real del tiempo de entrega de la pizza.</para></problem>
-    </exercise></note>
+    <note id="fs-idm35811600" class="statistics try">
+      <label/>
+      <title>Ejercicio</title>
+      <exercise id="eip-847"><problem id="eip-565">
+        <para id="eip-idp138029248">Vuelva a consultar el <link target-id="fs-idm85249264">Ejercicio</link> de entrega de pizzas. La desviación típica de la población es de seis minutos y la media de la muestra del tiempo de entrega es de 36 minutos. Utilice un tamaño de muestra de 20. Encuentre una estimación del intervalo de confianza del 95 % para la media real del tiempo de entrega de la pizza.</para></problem>
+      </exercise></note>
+    </section>
 
     <example id="element-542"><para id="element-338">Supongamos que cambiamos el problema original en el <link target-id="eip-id1171257291379"/> para ver qué ocurre con el límite de error si se cambia el tamaño de la muestra.</para><exercise id="element-442">
     <problem id="id1164455008611">
@@ -1184,17 +1185,18 @@
      </m:mrow>
     </m:math> = 68.</item>
     </list></example>
+    <note id="fs-idm38498176" class="statistics try">
+      <label/>
+      <title>Ejercicio</title>
+      <exercise id="eip-998">
+      <problem id="eip-253">
+      <para id="eip-94">Supongamos que sabemos que un intervalo de confianza es (42,12; 47,88). Encuentra el límite de error y la media muestral.</para>
+      </problem>
+      </exercise>
+      </note>
     </section>
 
-    <note id="fs-idm38498176" class="statistics try">
-    <label/>
-    <title>Ejercicio</title>
-    <exercise id="eip-998">
-    <problem id="eip-253">
-    <para id="eip-94">Supongamos que sabemos que un intervalo de confianza es (42,12; 47,88). Encuentra el límite de error y la media muestral.</para>
-    </problem>
-    </exercise>
-    </note>
+   
 
     <section id="eip-865">
     <title>Cálculo del tamaño de la muestra <emphasis effect="italics">n</emphasis></title>

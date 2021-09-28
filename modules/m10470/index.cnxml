@@ -483,6 +483,7 @@ Para este problema, <m:math>
 <exercise id="element-312">
 <problem id="id5318755">
   <para id="element-451">Supongamos que un grupo de consumidores presume que la proporción de hogares que tienen tres teléfonos móviles es del 30 %. Una compañía de telefonía móvil tiene razones para creer que la proporción no es del 30 %. Antes de iniciar una gran campaña publicitaria realizan una prueba de hipótesis. Su personal de mercadeo realiza una encuesta en 150 hogares con el resultado de que 43 de ellos tienen tres teléfonos móviles.</para>
+  <para id="element-480">a. El valor que determina el valor <emphasis effect="italics">p</emphasis>es <emphasis effect="italics">p′</emphasis>. Calcule <emphasis effect="italics">p′</emphasis>.</para>
 <para id="element-946">b. ¿Cuál es el <emphasis>acierto</emphasis> de este problema?</para>
   <para id="element-781">c. ¿Cuál es el nivel de significación?</para>
     <para id="element-145">d. Dibuje el gráfico de este problema. Dibuje el eje horizontal. Marque y sombree adecuadamente.<newline/>Calcule el valor <emphasis effect="italics">p</emphasis>.</para>
@@ -514,10 +515,7 @@ Para este problema, <m:math>
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math><newline count="2"/></para><exercise id="element-945">
-<problem id="id4146441">
-  <para id="element-480">a. El valor que determina el valor <emphasis effect="italics">p</emphasis>es <emphasis effect="italics">p′</emphasis>. Calcule <emphasis effect="italics">p′</emphasis>.</para></problem>
-<solution id="id4274849" print-placement="end">
+</m:math></para>
   <para id="element-322">a. <emphasis effect="italics">p′</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
@@ -542,8 +540,6 @@ Para este problema, <m:math>
   <para id="element-10">c. El nivel de significación es el <emphasis effect="italics">α</emphasis> preestablecido. Ya que no se da <emphasis effect="italics">α</emphasis>, se supone que <emphasis effect="italics">α</emphasis> = 0,05.</para>
   <para id="element-102">d. valor <emphasis effect="italics">p</emphasis> = 0,7216</para>
   <para id="element-274">e. Suponiendo que <emphasis effect="italics">α</emphasis> = 0,05, <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis>. La decisión es no rechazar <emphasis effect="italics">H<sub>0</sub></emphasis> porque no hay pruebas suficientes para concluir que la proporción de hogares que tienen tres teléfonos móviles no sea del 30 %.</para></solution>
-</exercise>
-</solution>
 </exercise>
 </example>
 

@@ -782,16 +782,17 @@
 <para id="eip-680"><code>normalcdf</code>(174.5,175.5,159,8.6447) = 0,0083</para><para id="eip-863" class="finger"><emphasis>Gracias a las calculadoras y a los programas informáticos</emphasis> que permiten calcular fácilmente las probabilidades binomiales para grandes valores de <emphasis effect="italics">n</emphasis>, no es necesario utilizar la aproximación normal a la distribución binomial, siempre que se tenga acceso a estas herramientas tecnológicas. La mayoría de los laboratorios escolares disponen de Microsoft Excel, un ejemplo de programa informático que calcula probabilidades binomiales. Muchos estudiantes tienen acceso a las calculadoras de la serie TI-83 u 84, y calculan fácilmente las probabilidades de la distribución binomial. Si escribe "cálculo de la distribución de probabilidad binomial" en un navegador de Internet, podrá encontrar al menos una calculadora en línea para la binomial.</para>
 
 <para id="eip-251">Para el <link target-id="fs-idm153949776"/>, las probabilidades se calculan utilizando la siguiente distribución binomial: (<emphasis effect="italics">n</emphasis> = 300 y <emphasis effect="italics">p</emphasis> = 0,53). Compare las respuestas de la distribución binomial y la normal. Vea <link document="m10435">Variables aleatorias discretas</link> para ayudar con las instrucciones de la calculadora para la binomial.</para><para id="eip-67"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) :<code>1 – binomialcdf</code>(300,0.53,149) = 0,8641</para><para id="eip-560"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 160) :<code>binomialcdf</code>(300,0.53,160) = 0,5684</para><para id="eip-727"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 155) :<code>1 – binomialcdf</code>(300,0.53,155) = 0,6576</para><para id="eip-122"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 147) :<code>binomialcdf</code>(300,0.53,146) = 0,0742</para><para id="eip-267"><emphasis effect="italics">P</emphasis><emphasis effect="italics">(X</emphasis> = 175) : (Se utiliza la función de densidad de probabilidad [probability density function, pdf] binomial).<code>binomialpdf</code>(300,0.53,175) = 0,0083</para></example>
+<note id="fs-idm31488240" class="statistics try">
+  <label/>
+  <title>Ejercicio</title>
+  <exercise id="fs-idm78234832"><problem id="fs-idm12123632">
+  <para id="fs-idm152181632">En una ciudad, el 46 % de la población está a favor del titular, Dawn Morgan, para la alcaldía. Se toma una muestra aleatoria simple de 500 personas. Utilizando el factor de corrección de la continuidad, halle la probabilidad de que al menos 250 favorezcan a Dawn Morgan como alcaldesa.</para>
+  </problem>
+  </exercise></note>
 </section>
 </section>
 
-<note id="fs-idm31488240" class="statistics try">
-<label/>
-<title>Ejercicio</title>
-<exercise id="fs-idm78234832"><problem id="fs-idm12123632">
-<para id="fs-idm152181632">En una ciudad, el 46 % de la población está a favor del titular, Dawn Morgan, para la alcaldía. Se toma una muestra aleatoria simple de 500 personas. Utilizando el factor de corrección de la continuidad, halle la probabilidad de que al menos 250 favorezcan a Dawn Morgan como alcaldesa.</para>
-</problem>
-</exercise></note>
+
 
 
 <section id="fs-idm136010448" class="references">
