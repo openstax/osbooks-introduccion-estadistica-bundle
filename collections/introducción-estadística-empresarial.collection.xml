@@ -1,22 +1,16 @@
-<col:collection
-  xmlns:col="http://cnx.rice.edu/collxml"
-  xmlns:md="http://cnx.rice.edu/mdml"
-  xmlns:sys="http://cnx.rice.edu/system-info"
-  xmlns="http://cnx.rice.edu/collxml">
-  
+<col:collection xmlns:col="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:sys="http://cnx.rice.edu/system-info" xmlns="http://cnx.rice.edu/collxml">
   <col:metadata>
-   <md:content-id>col10046</md:content-id>
-   <md:title>Introductory Business Statistics</md:title>
-   <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
-   <md:language>es</md:language>
-   <md:uuid>f346fe75-ae39-4d11-ad32-d80c03df58cb</md:uuid>
-   <md:slug>introducción-estadística-empresarial</md:slug>
+    <md:content-id>col10046</md:content-id>
+    <md:title>Introductory Business Statistics</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+    <md:language>es</md:language>
+    <md:uuid>f346fe75-ae39-4d11-ad32-d80c03df58cb</md:uuid>
+    <md:slug>introducción-estadística-empresarial</md:slug>
   </col:metadata>
-  
-  <col:content>
+  <content>
     <module document="m10312"/>
     <subcollection>
-      <md:title>Sampling and Data</md:title>
+      <md:title>Muestreo y datos</md:title>
       <content>
         <module document="m10241"/>
         <module document="m10242"/>
@@ -26,7 +20,7 @@
       </content>
     </subcollection>
     <subcollection>
-      <md:title>Descriptive Statistics</md:title>
+      <md:title>Estadística descriptiva</md:title>
       <content>
         <module document="m10245"/>
         <module document="m10246"/>
@@ -39,7 +33,7 @@
       </content>
     </subcollection>
     <subcollection>
-      <md:title>Probability Topics</md:title>
+      <md:title>Temas de probabilidad</md:title>
       <content>
         <module document="m10253"/>
         <module document="m10314"/>
@@ -50,7 +44,7 @@
       </content>
     </subcollection>
     <subcollection>
-      <md:title>Discrete Random Variables</md:title>
+      <md:title>Variables aleatorias discretas</md:title>
       <content>
         <module document="m10258"/>
         <module document="m10259"/>
@@ -60,7 +54,7 @@
       </content>
     </subcollection>
     <subcollection>
-      <md:title>Continuous Random Variables</md:title>
+      <md:title>Variables aleatorias continuas</md:title>
       <content>
         <module document="m10263"/>
         <module document="m10264"/>
@@ -69,7 +63,7 @@
       </content>
     </subcollection>
     <subcollection>
-      <md:title>The Normal Distribution</md:title>
+      <md:title>La distribución normal</md:title>
       <content>
         <module document="m10267"/>
         <module document="m10268"/>
@@ -78,7 +72,7 @@
       </content>
     </subcollection>
     <subcollection>
-      <md:title>The Central Limit Theorem</md:title>
+      <md:title>El teorema del límite central</md:title>
       <content>
         <module document="m10270"/>
         <module document="m10316"/>
@@ -88,7 +82,7 @@
       </content>
     </subcollection>
     <subcollection>
-      <md:title>Confidence Intervals</md:title>
+      <md:title>Intervalos de confian</md:title>
       <content>
         <module document="m10274"/>
         <module document="m10317"/>
@@ -98,7 +92,7 @@
       </content>
     </subcollection>
     <subcollection>
-      <md:title>Hypothesis Testing with One Sample</md:title>
+      <md:title>Pruebas de hipótesis con una muestra</md:title>
       <content>
         <module document="m10278"/>
         <module document="m10279"/>
@@ -108,7 +102,7 @@
       </content>
     </subcollection>
     <subcollection>
-      <md:title>Hypothesis Testing with Two Samples</md:title>
+      <md:title>Pruebas de hipótesis con dos muestras</md:title>
       <content>
         <module document="m10283"/>
         <module document="m10284"/>
@@ -120,7 +114,7 @@
       </content>
     </subcollection>
     <subcollection>
-      <md:title>The Chi-Square Distribution</md:title>
+      <md:title>La distribución chi-cuadrado</md:title>
       <content>
         <module document="m10290"/>
         <module document="m10318"/>
@@ -132,7 +126,7 @@
       </content>
     </subcollection>
     <subcollection>
-      <md:title>F Distribution and One-Way ANOVA</md:title>
+      <md:title>Distribución F y análisis de varianza (Analysis of Variance, ANOVA) de una vía</md:title>
       <content>
         <module document="m10298"/>
         <module document="m10299"/>
@@ -142,7 +136,7 @@
       </content>
     </subcollection>
     <subcollection>
-      <md:title>Linear Regression and Correlation</md:title>
+      <md:title>Regresión lineal y correlación</md:title>
       <content>
         <module document="m10303"/>
         <module document="m10304"/>
@@ -156,5 +150,5 @@
     </subcollection>
     <module document="m10311"/>
     <module document="m10319"/>
-  </col:content>
+  </content>
 </col:collection>
