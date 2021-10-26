@@ -1,0 +1,1657 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Datos sobre la distribución F</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47119</md:content-id>
+  <md:title>Datos sobre la distribución F</md:title>
+  <md:abstract/>
+  <md:uuid>f629ac0a-171c-4e57-9792-eca6b515bb8d</md:uuid>
+</metadata>
+
+<content>
+<para id="eip-201"><emphasis>Estos son algunos datos sobre la distribución <emphasis effect="italics">F</emphasis>.</emphasis></para><list id="list-1" list-type="enumerated"><item>La curva no es simétrica, sino que está distorsionada hacia la derecha.</item>
+<item>Hay una curva diferente para cada conjunto de <emphasis effect="italics">df</emphasis>.</item>
+<item>El estadístico <emphasis effect="italics">F</emphasis> es mayor o igual a cero.</item>
+<item>A medida que aumentan los grados de libertad del numerador y del denominador, la curva se normaliza.</item>
+<item>Otros usos de la distribución <emphasis effect="italics">F</emphasis> incluyen la comparación de dos varianzas y el análisis de varianza bidireccional. El análisis bidireccional queda fuera del alcance de este capítulo.</item>
+</list><figure id="fs-idm71247456"><media id="id5185835" alt="Este gráfico tiene un eje Y no identificado y luego un eje X que va de 0,00 a 4,00. Tiene tres trazadas. La línea identificada como F subíndice 1, 5 comienza cerca de la parte superior del eje Y en el extremo izquierdo del gráfico y cae rápidamente hasta cerca de la parte inferior en 0,50, punto en el que disminuye lentamente de forma curva hasta la marca 4,00 en el eje X. La línea identificada como F subíndice 100, 100 permanece en Y = 0 durante gran parte de su longitud, excepto por un claro pico entre 0,50 y 1,50. El pico es una curva suave que alcanza aproximadamente la mitad del eje Y en su pico máximo. La línea de trazado marcada con el subíndice F 5, 10 aumenta ligeramente a medida que avanza de 0,00 a 0,50, tras lo cual alcanza su punto máximo y disminuye lentamente por el resto del eje de la X. El pico solo alcanza una quinta parte de la altura del eje Y.">
+<image src="../../media/OSX_Spec_StatisticsTEA_Figure_13_03_01.jpg" mime-type="image/png" width="450"/></media></figure><example id="eip-353">
+<exercise id="eip-334">
+<problem id="eip-98">
+<para id="eip-924">Volvamos al ejercicio de los tomates bola en <link document="m47128" target-id="fs-idp19091024"/>. Las medias de los rendimientos de los tomates en las cinco condiciones de cubierta están representadas por <emphasis effect="italics">μ</emphasis><sub>1</sub>, <emphasis effect="italics">μ</emphasis><sub>2</sub>, <emphasis effect="italics">μ</emphasis><sub>3</sub>, <emphasis effect="italics">μ</emphasis><sub>4</sub>, <emphasis effect="italics">μ</emphasis><sub>5</sub>. Realizaremos una prueba de hipótesis para determinar si todas las medias son iguales o al menos una es diferente. Use un nivel de significación del 5 % y pruebe la hipótesis nula de que no hay diferencia en los rendimientos medios entre los cinco grupos contra la hipótesis alternativa de que, al menos, una media es diferente del resto.</para></problem>
+
+<solution id="eip-829">
+<para id="eip-573">Las hipótesis nula y alternativa son:</para>
+
+<para id="eip-idp93603520"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> = <emphasis effect="italics">μ<sub>2</sub></emphasis> = <emphasis effect="italics">μ<sub>3</sub></emphasis> = <emphasis effect="italics">μ<sub>4</sub></emphasis> = <emphasis effect="italics">μ<sub>5</sub></emphasis></para>
+
+<para id="eip-idp134625200"><emphasis effect="italics">H<sub>a</sub>: μ<sub>i</sub> ≠ μ<sub>j</sub></emphasis> alguna <emphasis effect="italics">i ≠ j</emphasis></para><para id="eip-idm22822112">Los resultados del ANOVA de una vía se muestran en la <link target-id="eip-idp3797520"/></para><table id="eip-632" summary="..">
+<tgroup cols="5"><thead>
+<row>
+<entry align="center">Fuente de variación</entry>
+<entry align="center">Suma de los cuadrados (<emphasis effect="italics">SS</emphasis>)</entry>
+<entry align="center">Grados de libertad (<emphasis effect="italics">df</emphasis>)</entry>
+<entry align="center">Media cuadrática (Mean Square, <emphasis effect="italics">MS</emphasis>)</entry>
+<entry align="center"><emphasis effect="italics">F</emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row><entry>Factor (entre)</entry><entry>36.648.561</entry><entry>5 – 1 = 4</entry><entry>
+  Los términos <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mtext>36.648.561</m:mtext>
+</m:mrow>
+<m:mtext>4</m:mtext>
+</m:mfrac>
+<m:mtext> = 9.162.140</m:mtext>
+</m:mrow>
+</m:math>  </entry>
+<entry>  Los términos <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mtext>9.162.140</m:mtext>
+</m:mrow>
+<m:mrow>
+<m:mtext>2.044.672</m:mtext><m:mtext>0,6</m:mtext>
+</m:mrow>
+</m:mfrac>
+<m:mtext> = 4</m:mtext><m:mtext>0,4810</m:mtext>
+</m:mrow>
+</m:math>  </entry>
+</row>
+<row>
+<entry>Error (dentro)</entry>
+<entry>20.446.726</entry>
+<entry>15 – 5 = 10</entry>
+<entry>  Los términos <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mtext>20.446.726</m:mtext>
+</m:mrow>
+<m:mrow>
+<m:mtext>10</m:mtext>
+</m:mrow>
+</m:mfrac>
+<m:mtext> = 2.044.672</m:mtext><m:mtext>0,6</m:mtext>
+</m:mrow>
+</m:math>  </entry>
+<entry/></row>
+<row>
+<entry>Total</entry>
+<entry>57.095.287</entry>
+<entry>15 – 1 = 14</entry>
+<entry/><entry/></row>
+</tbody>
+</tgroup>
+</table><para id="eip-idm38415936">
+<emphasis>Distribución para la prueba: <emphasis effect="italics">F</emphasis><sub>4, 10</sub></emphasis></para>
+<para id="eip-idm45807632"><emphasis effect="italics">df</emphasis>(<emphasis effect="italics">num</emphasis>) = 5 – 1 = 4</para>
+<para id="eip-idm2595504"><emphasis effect="italics">df</emphasis>(<emphasis effect="italics">denom</emphasis>) = 15 – 5 = 10</para>
+<para id="eip-idm4421632"><emphasis>Estadístico de prueba:</emphasis> <emphasis effect="italics">F</emphasis> = 4,4810</para>
+
+<figure id="fs-idm71243968"><media id="eip-idp67270848" alt="Este gráfico muestra una curva de distribución F no simétrica. El eje horizontal va de 0 a 5, y el eje vertical va de 0 a 0,7. La curva está fuertemente distorsionada a la derecha.">
+<image src="../../media/CNX_Stats_C13_M04_001.jpg" mime-type="image/jpeg" width="380"/>
+</media></figure><para id="eip-idm4421376"><emphasis>Declaración de probabilidad:</emphasis> valor <emphasis effect="italics">p</emphasis>= <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> > 4,481) = 0,0248.</para>
+
+<para id="eip-idm4421120"><emphasis>Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>:</emphasis> <emphasis effect="italics">α</emphasis> = 0,05, valor <emphasis effect="italics">p</emphasis>= 0,0248</para>
+
+<para id="eip-idm141674128"><emphasis>Tome una decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>, rechazamos <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="eip-idm156731472"><emphasis>Conclusión:</emphasis> Al nivel de significación del 5 % tenemos pruebas razonablemente sólidas de que las diferencias en los rendimientos medios de las plantas de tomate de corte cultivadas en diferentes condiciones de cubierta de suelo es poco probable que se deban únicamente al azar. Podemos concluir que, al menos, algunas de las cubiertas produjeron diferentes rendimientos medios.</para>
+
+<note id="fs-idm170385984" class="statistics calculator">
+<label/>
+<para id="fs-idp101537296">Para calcular estos resultados en la calculadora:</para>
+<para id="eip-idm156731216">Pulse STAT. Pulse 1:EDIT. Introduzca los datos en las listas <emphasis effect="italics">L<sub>1</sub></emphasis>, <emphasis effect="italics">L<sub>2</sub></emphasis>, <emphasis effect="italics">L<sub>3</sub></emphasis>, <emphasis effect="italics">L<sub>4</sub></emphasis>, <emphasis effect="italics">L<sub>5</sub></emphasis>.</para>
+<para id="eip-idp71266096">Pulse STAT, y la flecha hacia TESTS, y la flecha abajo hacia ANOVA. Pulse ENTER, y a continuación introduzca <emphasis effect="italics">L<sub>1</sub></emphasis>, <emphasis effect="italics">L<sub>2</sub></emphasis>, <emphasis effect="italics">L<sub>3</sub></emphasis>, <emphasis effect="italics">L<sub>4</sub></emphasis>, <emphasis effect="italics">L<sub>5</sub></emphasis>). Pulse ENTER. Verá que la calculadora arroja fácilmente los valores de la tabla ANOVA anterior, incluso el estadístico de prueba y el valor <emphasis effect="italics">p</emphasis>.</para>
+
+<para id="fs-idm160236288">La calculadora muestra: <newline/><emphasis effect="italics">F</emphasis> = 4,4810 <newline/><emphasis effect="italics">p</emphasis> = 0,0248 (valor <emphasis effect="italics">p</emphasis>) <newline/>Factor <newline/><emphasis effect="italics">df</emphasis> = 4 <newline/><emphasis effect="italics">SS</emphasis> = 36648560,9 <newline/><emphasis effect="italics">MS</emphasis> = 9162140,23 <newline/>Error <newline/><emphasis effect="italics">df</emphasis> = 10 <newline/><emphasis effect="italics">SS</emphasis> = 20446726 <newline/><emphasis effect="italics">MS</emphasis> = 2044672,6</para>
+</note></solution>
+</exercise>
+</example>
+
+
+<note id="fs-idm197200" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+<exercise id="eip-746"><problem id="eip-675">
+<para id="eip-437">El SARM, o <emphasis effect="italics">Staphylococcus aureus resistente a la meticilina</emphasis>, puede causar una grave infección bacteriana en pacientes del hospital. La <link target-id="eip-755"/> muestra varios recuentos de colonias de diferentes pacientes que pueden o no tener SARM. Los datos de la tabla se representan en la Figura 13.5.</para><table id="eip-755" summary="..">
+<tgroup cols="5">
+<thead>
+<row><entry>Conc. = 0,6</entry><entry>Conc. = 0,8</entry>	<entry>Conc. = 1,0</entry>	<entry>Conc. = 1,2</entry>	<entry>Conc. = 1,4</entry></row>
+</thead>
+<tbody>
+<row><entry>9</entry>	<entry>16</entry>	<entry>22</entry>	<entry>30</entry>	<entry>27</entry></row>
+<row><entry>66</entry>	<entry>93</entry>	<entry>147</entry>	<entry>199</entry>	<entry>168</entry></row>
+<row><entry>98</entry>	<entry>82</entry>	<entry>120</entry>	<entry>148</entry>	<entry>132</entry></row>
+</tbody>
+</tgroup>
+</table>
+<para id="eip-idm75659200">Gráfico de los datos para las diferentes concentraciones:</para>
+
+
+<figure id="fs-idm170381520"><media id="eip-idp3797520" alt="Este gráfico es un diagrama de dispersión para los datos proporcionados. El eje horizontal está identificado como “recuento de colonias” y va de 0 a 200. El eje vertical está identificado como “concentraciones de triptona” y va de 0,6 a 1,4.">
+<image src="../../media/CNX_Stats_C13_M04_003s.png" mime-type="image/png" width="380"/></media></figure><para id="eip-idm75658944" class="finger">Compruebe si el número medio de colonias es igual o es diferente. Construya la tabla de ANOVA (a mano o con la calculadora TI-83, 83+ u 84+), calcule el valor <emphasis effect="italics">p</emphasis>y exponga su conclusión. Utilice un nivel de significación del 5 %.</para></problem>
+</exercise></note>
+
+
+<example id="element-810">
+<para id="element-726">Cuatro hermandades de mujeres tomaron una muestra aleatoria de hermanas en relación con su media de calificaciones para el último trimestre. Los resultados se indican en la <link target-id="table-1"/>.</para>
+
+<table id="table-1" summary="This table presents the grade averages for sororities with the first sorority in the first column, second in the second column, third in the third column, and fourth in the fourth column.">
+<title>CALIFICACIONES MEDIAS DE CUATRO HERMANDADES DE MUJERES</title>
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry>Hermandad 1</entry>
+<entry>Hermandad 2</entry>
+<entry>Hermandad 3</entry>
+<entry>Hermandad 4</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">2,17</entry>
+<entry align="center">2,63</entry>
+<entry align="center">2,63</entry>
+<entry align="center">3,79</entry>
+</row>
+<row>
+<entry align="center">1,85</entry> <entry align="center">1,77</entry> <entry align="center">3,78</entry> <entry align="center">3,45</entry>
+</row>
+<row>
+<entry align="center">2,83</entry>  <entry align="center">3,25</entry> <entry align="center">4,00</entry>  <entry align="center">3,08</entry>
+</row>
+<row>
+<entry align="center">1,69</entry>  <entry align="center">1,86</entry>  <entry align="center">2,55</entry>  <entry align="center">2,26</entry>
+</row>
+<row>
+<entry align="center">3,33</entry> <entry align="center">2,21</entry> <entry align="center">2,45</entry> <entry align="center">3,18</entry>
+</row>
+</tbody>
+
+
+
+
+</tgroup>
+</table>
+
+<exercise id="element-508">
+<problem id="id3272914">
+<para id="element-863">Utilizando un nivel de significación del 1 %, ¿existe una diferencia en las calificaciones medias entre las hermandades?  </para></problem>
+
+<solution id="id3301468">
+<para id="element-75">Supongamos que <emphasis effect="italics">μ<sub>1</sub></emphasis>, <emphasis effect="italics">μ<sub>2</sub></emphasis>, <emphasis effect="italics">μ<sub>3</sub></emphasis>, <emphasis effect="italics">μ<sub>4</sub></emphasis> son las medias poblacionales de las hermandades de mujeres. Recuerde que la hipótesis nula afirma que los grupos de hermandades de mujeres proceden de la misma distribución normal. La hipótesis alternativa dice que, al menos, dos de los grupos de hermandades de mujeres proceden de poblaciones con distribuciones normales diferentes. Observe que los cuatro tamaños de muestra son cinco cada uno.</para>
+
+<note id="eip-id1170641699184">
+<label/>
+<title>Nota</title>
+<para id="eip-idp65526416">Este es un ejemplo de <term id="term-00001">diseño equilibrado</term>, ya que cada factor (es decir, la hermandad) tiene el mismo número de observaciones.</para>
+</note>
+
+<para id="element-998"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> = <emphasis effect="italics">μ<sub>2</sub></emphasis> = <emphasis effect="italics">μ<sub>3</sub></emphasis> = <emphasis effect="italics">μ<sub>4</sub></emphasis></para>
+
+<para id="element-309"><emphasis effect="italics">H<sub>a</sub></emphasis>: No todas las medias <emphasis effect="italics">μ<sub>1</sub></emphasis>, <emphasis effect="italics">μ<sub>2</sub></emphasis>, <emphasis effect="italics">μ<sub>3</sub></emphasis>, <emphasis effect="italics">μ<sub>4</sub></emphasis> son iguales.</para>
+
+<para id="element-958"><emphasis>Distribución para la prueba:</emphasis> <emphasis effect="italics">F</emphasis><sub>3,16</sub></para>
+<para id="element-673">donde <emphasis effect="italics">k</emphasis> = 4 grupos y <emphasis effect="italics">n</emphasis> = 20 muestras en total</para>
+<para id="element-925"><emphasis effect="italics">df</emphasis>(<emphasis effect="italics">num</emphasis>)= <emphasis effect="italics">k</emphasis> – 1 = 4 – 1 = 3</para>
+<para id="element-41"><emphasis effect="italics">df</emphasis>(<emphasis effect="italics">denom</emphasis>) = <emphasis effect="italics">n</emphasis> – <emphasis effect="italics">k</emphasis> = 20 – 4 = 16</para>
+
+<para id="element-284"><emphasis>Calcule el estadístico de prueba:</emphasis> <emphasis effect="italics">F</emphasis> = 2,23</para>
+
+<para id="element-964"><emphasis>Gráfico:</emphasis></para>
+
+<figure id="fs-idm73326896"><media id="id4765799" alt="Este gráfico muestra una curva de distribución F no simétrica con valores de 0 y 2,23 en el eje x que representa el estadístico de prueba de los promedios de calificaciones de las hermandades de mujeres. La curva está ligeramente distorsionada hacia la derecha, pero es aproximadamente normal. Una línea vertical ascendente se extiende desde 2,23 hasta la curva y el área a la derecha de esta está sombreada para representar el valor p."><image src="../../media/fig-ch13_04_02N.jpg" mime-type="image/png" width="380"/></media></figure><para id="element-484"><emphasis>Declaración de probabilidad:</emphasis> valor <emphasis effect="italics">p</emphasis>= <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> > 2,23) = 0,1241</para><para id="element-849"><emphasis>Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>:</emphasis> <emphasis effect="italics">α</emphasis> = 0,01<newline/> valor <emphasis effect="italics">p</emphasis> = 0,1241<newline/> <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis></para>
+
+<para id="element-119"><emphasis>Tome una decisión:</emphasis> Como <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis>, no se puede rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
+
+<para id="element-483"><emphasis>Conclusión:</emphasis> No hay pruebas suficientes para concluir que existe una diferencia entre las calificaciones medias de las hermandades de mujeres.</para>
+
+<note id="fs-idm12292144" class="statistics calculator">
+<label/>
+<para id="element-171">Introduzca los datos en las listas L<sub>1</sub>, L<sub>2</sub>, L<sub>3</sub>, and L<sub>4</sub>. Pulse <code>STAT</code> y flecha hacia <code>TESTS</code>. Flecha hacia abajo <code>F:ANOVA</code>. Pulse <code>ENTER</code> e introduzca (<code>L1,L2,L3,L4</code>).</para>
+
+<para id="fs-idm127882432">La calculadora muestra la estadística F, el valor <emphasis effect="italics">p</emphasis> y los valores de la tabla ANOVA de una vía: <newline/><emphasis effect="italics">F</emphasis> = 2,2303 <newline/><emphasis effect="italics">p</emphasis> = 0,1241 (valor <emphasis effect="italics">p</emphasis>) <newline/>Factor <newline/><emphasis effect="italics">df</emphasis> = 3 <newline/><emphasis effect="italics">SS</emphasis> = 2,88732 <newline/><emphasis effect="italics">MS</emphasis> = 0,96244 <newline/>Error <newline/><emphasis effect="italics">df</emphasis> = 16 <newline/><emphasis effect="italics">SS</emphasis> = 6,9044 <newline/><emphasis effect="italics">MS</emphasis> = 0,431525</para></note>
+</solution>
+</exercise></example>
+
+
+<note id="fs-idm126089872" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+<exercise id="eip-935"><problem id="eip-188">
+<para id="eip-668">Cuatro equipos deportivos tomaron una muestra aleatoria de jugadores en relación con su GPA del último año. Los resultados se indican en la <link target-id="eip-440"/>.</para><table id="eip-440" summary=".."><title>GPA PARA CUATRO EQUIPOS DEPORTIVOS</title>
+<tgroup cols="4"><colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<colspec colnum="3" colname="col3"/>
+<colspec colnum="4" colname="col4"/>
+<thead>
+<row><entry>Baloncesto</entry>	<entry>Béisbol</entry>	<entry>Hockey</entry>	<entry>Lacrosse</entry></row>
+</thead>
+<tbody>
+
+<row><entry>3,6</entry>	<entry>2,1</entry>	<entry>4,0</entry>	<entry>2,0</entry></row>
+<row><entry>2,9</entry>	<entry>2,6</entry>	<entry>2,0</entry>	<entry>3,6</entry></row>
+<row><entry>2,5</entry>	<entry>3,9</entry>	<entry>2,6</entry>	<entry>3,9</entry></row>
+<row><entry>3,3</entry>	<entry>3,1</entry>	<entry>3,2</entry> <entry>2,7</entry></row>
+<row><entry>3,8</entry>	<entry>3,4</entry>	<entry>3,2</entry>	<entry>2,5</entry></row>
+</tbody>
+
+</tgroup>
+</table><para id="eip-964">Use un nivel de significación del 5 % y determine si existe una diferencia en el GPA entre los equipos.</para>
+
+</problem>
+</exercise></note>
+
+
+<example id="element-349">
+<para id="element-149">Una clase de cuarto grado está estudiando el ambiente. Una de las tareas consiste en cultivar plantas de judías en diferentes suelos. Tommy eligió cultivar sus plantas de judías en la tierra que encontró fuera de su aula mezclada con pelusa de secadora. Tara decidió cultivar sus plantas de judías en tierra para macetas comprada en el vivero local. Nick decidió cultivar sus plantas de judías en la tierra del jardín de su madre. No se utilizó ningún producto químico en las plantas, solo agua. Se cultivaron en el interior del aula junto a un gran ventanal. Cada niño cultivó cinco plantas. Al final del periodo de crecimiento se midió cada planta y se obtuvieron los datos (en pulgadas) que están en la <link target-id="table-234"/>.
+
+<table id="table-234" summary="This table presents Tommy's plant heights in inches in the first column, Tara's plant heights in inches in the second column, and Nick's plant heights in inches in the third column.">
+
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead valign="top">
+<row>
+<entry>Plantas de Tommy</entry>
+<entry>Plantas de Tara</entry>
+<entry>Plantas de Nick</entry>
+</row>
+</thead>
+
+<tbody valign="top">
+<row>
+<entry align="center">24</entry>
+<entry align="center">25</entry>
+<entry align="center">23</entry>
+</row>
+<row>
+<entry align="center">21</entry>
+<entry align="center">31</entry>
+<entry align="center">27</entry>
+</row>
+<row>
+<entry align="center">23</entry>
+<entry align="center">23</entry>
+<entry align="center">22</entry>
+</row>
+<row>
+<entry align="center">30</entry>
+<entry align="center">20</entry>
+<entry align="center">30</entry>
+</row>
+<row>
+<entry align="center">23</entry>
+<entry align="center">28</entry>
+<entry align="center">20</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></para>
+
+<exercise id="element-769">
+<problem id="id13000852">
+<para id="element-952">¿Parece que los tres medios en los que se cultivaron las plantas de judías producen la misma altura media? Pruebe con un nivel de significación del 3 %.</para></problem>
+<solution id="id3319153">
+<para id="element-501">Esta vez, realizaremos los cálculos que conducen al estadístico <emphasis effect="italics">F'</emphasis>. Observe que cada grupo tiene el mismo número de plantas, por lo que utilizaremos la fórmula <emphasis effect="italics">F' =</emphasis> <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mi>n</m:mi><m:mo>⋅</m:mo><m:msub>
+<m:mi>s</m:mi>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+
+</m:msub>
+<m:msup>
+<m:mrow/>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi>s</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:msub>
+<m:mrow/>
+<m:mrow>
+<m:mtext>combinada</m:mtext>
+</m:mrow>
+</m:msub>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math>.</para>
+
+<para id="element-599">Primero, calcule la media muestral y la varianza de cada grupo.</para>
+<table id="table-9634" summary="This table presents Tommy's plant heights in the first column, Tara's plant heights in the second column, and Nick's plant heights in the third column. The first row represents the sample mean and the second row represents the sample variance.">
+<tgroup cols="4">
+<colspec colnum="1" colname="header_c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+
+<thead valign="top">
+<row>
+<entry/>
+<entry>Plantas de Tommy</entry>
+<entry>Plantas de Tara</entry>
+<entry>Plantas de Nick</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Media muestral</entry>
+<entry align="center">24,2</entry>
+<entry align="center">25,4</entry>
+<entry align="center">24,4</entry>
+</row>
+<row>
+<entry>Varianza de la muestra</entry>
+<entry align="center">11,7</entry>
+<entry align="center">18,3</entry>
+<entry align="center">16,3</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para id="element-566">Luego, calcule la varianza de las medias de los tres grupos (calcule la varianza de 24,2, 25,4 y 24,4). <emphasis>Varianza de las medias de los grupos = 0,413</emphasis> = <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>s</m:mi>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+
+</m:msub>
+<m:msup>
+<m:mrow/>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+</m:math>  </para>
+
+<para id="element-883">Entonces <emphasis effect="italics">MS<sub>entre</sub></emphasis> = <m:math>
+<m:mrow>
+<m:mi>n</m:mi><m:msub>
+<m:mi>s</m:mi>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+
+</m:msub>
+<m:msup>
+<m:mrow/>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+</m:math> = (5)(0,413) donde <emphasis effect="italics">n</emphasis> = 5 es el tamaño de la muestra (número de plantas que cultivó cada niño).</para><para id="element-606">Calcule la media de las tres varianzas de la muestra (calcule la media de 11,7, 18,3 y 16,3). <emphasis>Media de las varianzas de la muestra = 15,433</emphasis> = <emphasis><emphasis effect="italics">s</emphasis></emphasis><sup>2</sup> <emphasis><emphasis effect="italics">combinada</emphasis></emphasis></para>
+
+<para id="element-877">Entonces <emphasis effect="italics">MS<sub>dentro</sub></emphasis> = <emphasis effect="italics">s</emphasis><sup>2</sup><sub><emphasis effect="italics">combinado</emphasis></sub> = 15,433.</para>
+
+<para id="element-649">El estadístico <emphasis effect="italics">F</emphasis> (o de cociente <emphasis effect="italics">F</emphasis>) es <m:math>
+<m:mrow>
+<m:mi>F</m:mi><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mi>M</m:mi><m:msub>
+<m:mi>S</m:mi>
+<m:mrow>
+<m:mtext>entre</m:mtext>
+</m:mrow>
+</m:msub>
+
+</m:mrow>
+<m:mrow>
+<m:mi>M</m:mi><m:msub>
+<m:mi>S</m:mi>
+<m:mrow>
+<m:mtext>dentro</m:mtext>
+</m:mrow>
+</m:msub>
+
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mi>n</m:mi><m:msub>
+<m:mi>s</m:mi>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+
+</m:msub>
+<m:msup>
+<m:mrow/>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi>s</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:msub>
+<m:mrow/>
+<m:mrow>
+<m:mi>p</m:mi><m:mi>o</m:mi><m:mi>o</m:mi><m:mi>l</m:mi><m:mi>e</m:mi><m:mi>d</m:mi>
+</m:mrow>
+</m:msub>
+
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,413</m:mn><m:mo stretchy="false">)</m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn>15,433</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mn>0,134</m:mn>
+</m:mrow>
+</m:math>  </para>
+
+<para id="element-81">Los <emphasis effect="italics">dfs</emphasis> para el numerador = el número de grupos – 1 = 3 – 1 = 2.</para><para id="element-691">El <emphasis effect="italics">dfs</emphasis> para el denominador = el número total de muestras – el número de grupos = 15 – 3 = 12</para><para id="element-174">La distribución de la prueba es <emphasis effect="italics">F</emphasis><sub>2, 12</sub> y el estadístico <emphasis effect="italics">F</emphasis> es <emphasis effect="italics">F</emphasis> = 0,134</para>
+
+<para id="element-351">El valor <emphasis effect="italics">p</emphasis>es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> > 0,134) = 0,8759. </para>
+
+<para id="element-528"><emphasis>Decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> = 0,03 y el valor <emphasis effect="italics">p</emphasis>= 0,8759, no se rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>. (¿Por qué?)</para>
+
+<para id="element-886"><emphasis>Conclusión:</emphasis> Con un nivel de significación del 3 %, a partir de los datos de la muestra, las pruebas no son suficientes para concluir que las alturas medias de las plantas de judías son diferentes.</para>
+
+<note id="fs-idm97032400" class="statistics calculator">
+<label/>
+<para id="fs-idm144926064">Para calcular el valor <emphasis effect="italics">p</emphasis>:</para>
+<para id="fs-idp56648304">*Pulse <code>2nd DISTR</code></para>
+<para id="fs-idm129639712">*Flecha hacia abajo a <code>Fcdf</code>(y pulse <code>ENTER</code>.</para>
+<para id="eip-idp43166464">*Introduzca 0,134, <code>E99</code>, 2, 12)</para>
+<para id="fs-idm129327824">*Pulse <code>ENTER</code></para>
+<para id="fs-idm134176048">El valor <emphasis effect="italics">p</emphasis> es de 0,8759.</para>
+</note></solution>
+</exercise>
+</example>
+
+
+
+<note id="fs-idm141365552" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+<exercise id="element-3252">
+<problem id="id6378299">
+<para id="element-146">Otro estudiante de cuarto grado también cultivó plantas de judías, pero esta vez en una masa gelatinosa. Las alturas fueron (en pulgadas) 24, 28, 25, 30 y 32. Haga una prueba de ANOVA de una vía en los cuatro grupos. ¿Son diferentes las alturas de las plantas de judías? Utilice el mismo método que se muestra en el <link target-id="element-349"/>.</para>
+</problem>
+</exercise>
+</note>
+
+
+<note id="element-866" class="statistics collab">
+<label/>
+ 
+<para id="element-746">A partir de la clase, cree cuatro grupos del mismo tamaño como sigue: hombres menores de 22 años, hombres de al menos 22 años, mujeres menores de 22 años, mujeres de al menos 22 años. Haga que cada miembro de cada grupo registre el número de estados de Estados Unidos que ha visitado. Realice un ANOVA para determinar si el promedio de estados visitados en los cuatro grupos es el mismo. Pruebe con un nivel de significación del 1 %. Utilice una de las hojas de solución en el <link document="m47882"/>.</para></note>
+
+
+<section id="eip-712" class="references">
+<title>Referencias</title><para id="eip-977">Datos de un aula de cuarto grado en 1994 en una escuela privada de kínder a 12.º grado en San José, CA.</para>
+
+<para id="eip-idm43623328">Hand, D. J., F. Daly, A. D. Lunn, K. J. McConway y E. Ostrowski. <emphasis effect="italics">A Handbook of Small Datasets: Data for Fruitfly Fecundity.</emphasis> Londres: Chapman &amp; Hall, 1994.</para>
+
+<para id="eip-idm220259024">Hand, D. J., F. Daly, A. D. Lunn, K. J. McConway y E. Ostrowski. <emphasis effect="italics">A Handbook of Small Datasets.</emphasis> Londres: Chapman &amp; Hall, 1994, pág. 50.</para>
+
+<para id="eip-idm234386160">Hand, D. J., F. Daly, A. D. Lunn, K. J. McConway y E. Ostrowski. A Handbook of Small Datasets. Londres: Chapman &amp; Hall, 1994, pág. 118.</para>
+
+<para id="eip-idm226365104">“MLB Standings – 2012”. Disponible en línea en http://espn.go.com/mlb/standings/_/year/2012.</para>
+
+<para id="eip-idm183141328">Mackowiak, P. A., Wasserman, S. S. y Levine, M. M. (1992), “A Critical Appraisal of 98,6 Degrees F, the Upper Limit of the Normal Body Temperature, and Other Legacies of Carl Reinhold August Wunderlich”, <emphasis effect="italics">Journal of the American Medical Association</emphasis>, 268, 1578-1580.</para></section>
+<section id="fs-idm51047200" class="summary">
+<title>Revisión del capítulo</title>
+<para id="eip-684">El gráfico de la distribución <emphasis effect="italics">F</emphasis> es siempre positivo y es asimétrico hacia la derecha, aunque la forma puede ser redondeada o exponencial dependiendo de la combinación de grados de libertad del numerador y del denominador. El estadístico <emphasis effect="italics">F</emphasis> es el cociente entre una medida de la variación de las medias de los grupos y una medida similar de la variación dentro de los grupos. Si la hipótesis nula es correcta, el numerador debe ser pequeño en comparación con el denominador. El resultado será un estadístico <emphasis effect="italics">F</emphasis> pequeño y el área debajo de la curva <emphasis effect="italics">F</emphasis> a la derecha será grande, lo que representa un valor <emphasis effect="italics">p</emphasis> grande. Cuando la hipótesis nula de la igualdad de las medias de los grupos es incorrecta, el numerador debe ser grande comparado con el denominador, lo que da un estadístico <emphasis effect="italics">F</emphasis> grande y un área pequeña (valor <emphasis effect="italics">p</emphasis> pequeño) a la derecha del estadístico debajo de la curva <emphasis effect="italics">F</emphasis>.</para>
+
+<para id="eip-833">Cuando los datos tienen tamaños de grupo desiguales (datos no equilibrados), hay que utilizar las técnicas de la <link document="m47128"/> para los cálculos manuales. Sin embargo, en el caso de datos equilibrados (los grupos tienen el mismo tamaño), se pueden utilizar cálculos simplificados basados en las medias y varianzas de los grupos. En la práctica, por supuesto, se suelen emplear softwares en el análisis. Como en cualquier análisis, se deben usar gráficos de diversa índole junto con técnicas numéricas. ¡Mire siempre con cuidado sus datos!</para></section>
+
+<section id="fs-idp110212080" class="practice">
+
+<exercise id="eip-388"><problem id="eip-587">
+<para id="eip-772">¿Qué valores puede tener un estadístico <emphasis effect="italics">F</emphasis>?</para>
+</problem></exercise><exercise id="eip-707">
+<problem id="eip-644">
+<para id="eip-498">¿Qué ocurre con las curvas a medida que aumentan los grados de libertad del numerador y del denominador?</para>
+</problem>
+
+<solution id="eip-748">
+<para id="eip-96">Las curvas se aproximan a la distribución normal.</para>
+</solution>
+</exercise>
+<para id="eip-365"><emphasis effect="italics">Use la siguiente información para responder los próximos siete ejercicios.</emphasis> Cuatro equipos de baloncesto tomaron una muestra aleatoria de jugadores con respecto a la altura que cada uno de ellos puede saltar (en pulgadas). Los resultados se muestran en la <link target-id="eip-497"/>.</para>
+
+<table id="eip-497" summary="..">
+<tgroup cols="5">
+<thead>
+<row>
+<entry>Equipo 1</entry>
+<entry>Equipo 2</entry>
+<entry>Equipo 3</entry>
+<entry>Equipo 4</entry>
+<entry>Equipo 5</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry>36</entry>
+<entry>32</entry>
+<entry>48</entry>
+<entry>38</entry>
+<entry>41</entry>
+</row>
+<row>
+<entry>42</entry>
+<entry>35</entry>
+<entry>50</entry>
+<entry>44</entry>
+<entry>39</entry></row>
+<row>
+<entry>51</entry>
+<entry>38</entry>
+<entry>39</entry>
+<entry>46</entry>
+<entry>40</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<exercise id="eip-535"><problem id="eip-46">
+<para id="eip-642">¿Cuál es el <emphasis effect="italics">df(num)</emphasis>?</para>
+</problem></exercise><exercise id="eip-162"><problem id="eip-790">
+<para id="eip-177">¿Cuál es el <emphasis effect="italics">df(denom)</emphasis>?</para></problem>
+
+<solution id="eip-996">
+<para id="eip-97">diez</para>
+</solution>
+</exercise>
+
+<exercise id="eip-984"><problem id="eip-100">
+<para id="eip-346">¿Cuáles son los factores de la suma de los cuadrados y de las medias cuadráticas?</para>
+</problem></exercise><exercise id="eip-213">
+<problem id="eip-514">
+<para id="eip-826">¿Cuáles son la suma de los cuadrados y los errores cuadráticos medios?</para>
+</problem>
+
+<solution id="eip-600">
+<para id="eip-406"><emphasis effect="italics">SS</emphasis> = 237,33; <emphasis effect="italics">MS</emphasis> = 23,73</para>
+</solution>
+</exercise>
+
+<exercise id="eip-79"><problem id="eip-948">
+<para id="eip-534">¿Cuál es el estadístico <emphasis effect="italics">F</emphasis>?</para>
+</problem></exercise><exercise id="eip-155"><problem id="eip-123">
+<para id="eip-429">¿Cuál es el valor <emphasis effect="italics">p</emphasis>?</para>
+</problem>
+
+<solution id="eip-620">
+<para id="eip-753">
+0,1614
+</para>
+</solution>
+</exercise><exercise id="eip-773"><problem id="eip-478">
+<para id="eip-385">Al nivel de significación del 5 %, ¿hay una diferencia en la altura media de los saltos entre los equipos?</para>
+</problem></exercise><para id="eip-738"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos siete ejercicios.</emphasis> Un desarrollador de videojuegos está probando un nuevo juego en tres grupos diferentes. Cada grupo representa un mercado objetivo diferente para el juego. El desarrollador recopila las calificaciones de una muestra aleatoria de cada grupo. Los resultados se muestran en la <link target-id="eip-546"/></para><table id="eip-546" summary="..">
+<tgroup cols="3">
+<thead>
+<row>
+<entry>Grupo A</entry>	<entry>Grupo B</entry>	<entry>Grupo C</entry></row></thead>
+<tbody>
+<row><entry>101</entry>	<entry>151</entry>	<entry>101</entry></row>
+<row><entry>108</entry>	<entry>149</entry>	<entry>109</entry></row>
+<row><entry>98</entry>	<entry>160</entry>	<entry>198</entry></row>
+<row><entry>107</entry>	<entry>112</entry>	<entry>186</entry></row>
+<row><entry>111</entry>	<entry>126</entry>	<entry>160</entry></row>
+</tbody>
+</tgroup>
+</table><exercise id="eip-602"><problem id="eip-158">
+<para id="eip-408">¿Cuál es el <emphasis effect="italics">df(num)</emphasis>?</para>
+</problem>
+
+<solution id="eip-340">
+<para id="eip-335">dos</para>
+</solution>
+</exercise><exercise id="eip-99"><problem id="eip-435">
+<para id="eip-720">¿Cuál es el <emphasis effect="italics">df(denom)</emphasis>?</para>
+</problem></exercise><exercise id="eip-944">
+<problem id="eip-42">
+<para id="eip-662">¿Cuáles son la <emphasis effect="italics">SS<sub>entre</sub></emphasis> y la <emphasis effect="italics">MS<sub>entre</sub></emphasis>?</para>
+</problem>
+
+<solution id="eip-260">
+<para id="eip-828"><emphasis effect="italics">SS</emphasis> = 5.700,4;</para>
+<para id="eip-idm83859872"><emphasis effect="italics">MS</emphasis> = 2.850,2</para>
+</solution>
+</exercise>
+
+<exercise id="eip-264"><problem id="eip-299">
+<para id="eip-324">¿Cuáles son la <emphasis effect="italics">SS<sub>dentro</sub></emphasis> y la <emphasis effect="italics">MS<sub>dentro</sub></emphasis>?</para>
+</problem></exercise><exercise id="eip-105">
+<problem id="eip-865">
+<para id="eip-189">¿Cuál es el estadístico <emphasis effect="italics">F</emphasis>?</para>
+</problem>
+
+<solution id="eip-700">
+<para id="eip-821">3,6101</para>
+</solution>
+</exercise>
+<exercise id="eip-56"><problem id="eip-74">
+<para id="eip-736">¿Cuál es el valor <emphasis effect="italics">p</emphasis>?</para>
+</problem></exercise><exercise id="eip-920"><problem id="eip-10">
+<para id="eip-933">Al nivel de significación del 10 %, ¿las puntuaciones entre los distintos grupos son diferentes?</para>
+</problem>
+
+<solution id="eip-618">
+<para id="eip-988">Sí, hay pruebas suficientes para demostrar que las calificaciones entre los grupos son estadísticamente significativas al nivel del 10 %.</para>
+</solution>
+</exercise>
+
+
+<para id="element-577"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios.</emphasis> Supongamos que un grupo está interesado en determinar si los adolescentes obtienen su licencia de conducir alrededor de la misma edad promedio en todo el país. Supongamos que se recopilan al azar los siguientes datos de cinco adolescentes de cada región del país. Los números representan la edad a la que los adolescentes obtuvieron la licencia de conducir.
+</para><table id="element-25" summary="">
+<tgroup cols="6"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<thead><row>
+<entry/>
+<entry>
+Noreste
+</entry>
+<entry>
+Sur
+</entry>
+<entry>
+Oeste
+</entry>
+<entry>
+Centro
+</entry>
+<entry>
+Este
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry/>
+<entry>16,3</entry>
+<entry>16,9</entry>
+<entry>16,4</entry>
+<entry>16,2</entry>
+<entry>17,1</entry>
+</row>
+<row>
+<entry/>
+<entry>16,1</entry>
+<entry>16,5</entry>
+<entry>16,5</entry>
+<entry>16,6</entry>
+<entry>17,2</entry>
+</row>
+<row>
+<entry/>
+<entry>16,4</entry>
+<entry>16,4</entry>
+<entry>16,6</entry>
+<entry>16,5</entry>
+<entry>16,6</entry>
+</row>
+<row>
+<entry/>
+<entry>16,5</entry>
+<entry>16,2</entry>
+<entry>16,1</entry>
+<entry>16,4</entry>
+<entry>16,8</entry>
+</row>
+<row>
+<entry>
+  Los términos <m:math>
+<m:mrow>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+<m:mo>=</m:mo>
+</m:mrow>
+</m:math>
+</entry>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
+</row>
+<row>
+<entry>
+  Los términos <m:math>
+<m:mrow>
+<m:msup>
+<m:mi>s</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+</m:mrow>
+</m:math>
+</entry>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para id="element-749">Introduzca los datos en su calculadora o computadora.</para>
+
+<exercise id="fs-idm77454416"><problem id="id47591494">
+<para id="element-801">valor <emphasis effect="italics">p</emphasis> = ______</para></problem></exercise><para id="element-48"><emphasis effect="italics">Indique las decisiones y conclusiones (en oraciones completas) para los siguientes niveles preconcebidos de α</emphasis>.</para>
+
+<exercise id="fs-idm138666704">
+<problem id="id47591590">
+<para id="element-506"><emphasis effect="italics">α</emphasis> = 0,05</para>
+<para id="element-950">a. Decisión: ____________________________</para>
+<para id="element-2384687">b. Conclusión: ____________________________</para>
+</problem>
+</exercise>
+
+<exercise id="exercisemern">
+<problem id="id47591672">
+<para id="element-768"><emphasis effect="italics">α</emphasis> = 0,01</para>
+<para id="element-354">a. Decisión: ____________________________</para>
+<para id="element-2307872938759">b. Conclusión: ____________________________</para>
+</problem>
+</exercise>
+</section>
+
+<section id="fs-idp159138080" class="free-response"><title>Tarea para la casa</title><note id="fs-idm3376448"><label/><title>INSTRUCCIONES</title>
+
+<para id="eip-660">Utilice una hoja de soluciones para realizar las siguientes pruebas de hipótesis. La hoja de soluciones se encuentra en el <link document="m47882"/>.</para></note><exercise id="element-240">
+<problem id="id19304316">
+<para id="element-106">Tres estudiantes, Linda, Tuan y Javier, reciben cinco ratas de laboratorio cada uno para un experimento nutricional. El peso de cada rata se registra en gramos. Linda alimenta sus ratas con la fórmula A, Tuan alimenta las suyas con la fórmula B y Javier con la fórmula C. Al final de un periodo determinado se pesa de nuevo cada rata y se registra el aumento neto en gramos. Use un nivel de significación del 10 % y pruebe la hipótesis de que las tres fórmulas producen el mismo aumento de peso medio.</para>
+<para id="element-800"><table id="id348a5492" summary="This table presents the net weight in grams of each rat with Linda's rats in the first column, Tuan's rats in the second column, and Javier's rats in the third column.">
+<title>Peso de las ratas de laboratorio de los estudiantes</title>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>Ratas de Linda</entry>
+<entry>Ratas de Tuan</entry>
+<entry>Ratas de Javier</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">43,5</entry>
+<entry align="center">47,0</entry>
+<entry align="center">51,2</entry>
+</row>
+<row>
+<entry align="center">39,4</entry>
+<entry align="center">40,5</entry>
+<entry align="center">40,9</entry>
+</row>
+<row>
+<entry align="center">41,3</entry>
+<entry align="center">38,9</entry>
+<entry align="center">37,9</entry>
+</row>
+<row>
+<entry align="center">46,0</entry>
+<entry align="center">46,3</entry>
+<entry align="center">45,0</entry>
+</row>
+<row>
+<entry align="center">38,2</entry>
+<entry align="center">44,2</entry>
+<entry align="center">48,6</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</problem>
+<solution id="id18508040">
+<list id="eip-idp84128112" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ<sub>L</sub></emphasis> = <emphasis effect="italics">µ<sub>T</sub></emphasis> = <emphasis effect="italics">µ<sub>J</sub></emphasis></item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: al menos dos de las medias son diferentes</item>
+<item><emphasis effect="italics">df</emphasis>(<emphasis effect="italics">num</emphasis>) = 2; <emphasis effect="italics">df</emphasis>(<emphasis effect="italics">denom</emphasis>) = 12</item>
+<item>Distribución <emphasis effect="italics">F</emphasis></item>
+<item>0,67</item>
+<item>0,5305</item>
+<item>Compruebe la solución del estudiante</item>
+<item>Decisión: No rechazar la hipótesis nula; conclusión: No hay pruebas suficientes para concluir que las medias son diferentes.</item>
+</list></solution>
+</exercise>
+
+<exercise id="element-60"><problem id="id18508281">
+<para id="element-987">Un grupo de base que se opone a la propuesta de aumentar el impuesto sobre la gasolina afirma que el aumento perjudicaría sobre todo a la clase trabajadora, ya que es la que se desplaza más lejos para ir a trabajar. Supongamos que el grupo encuestó aleatoriamente a 24 personas y les preguntó cuál es su millaje diario en un solo sentido. Los resultados están en la <link target-id="idgh7333173"/>.  Use un nivel de significación del 5 % y pruebe la hipótesis de que las tres medias de las millas de desplazamiento son iguales.</para>
+<para id="element-719">
+<table id="idgh7333173" summary="">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>clase trabajadora</entry>
+<entry>profesionales (ingresos medios)</entry>
+<entry>profesionales (ricos)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">17,8</entry>
+<entry align="center">16,5</entry>
+<entry align="center">8,5</entry>
+</row>
+<row>
+<entry align="center">26,7</entry>
+<entry align="center">17,4</entry>
+<entry align="center">6,3</entry>
+</row>
+<row>
+<entry align="center">49,4</entry>
+<entry align="center">22,0</entry>
+<entry align="center">4,6</entry>
+</row>
+<row>
+<entry align="center">9,4</entry>
+<entry align="center">7,4</entry>
+<entry align="center">12,6</entry>
+</row>
+<row>
+<entry align="center">65,4</entry>
+<entry align="center">9,4</entry>
+<entry align="center">11,0</entry>
+</row>
+<row>
+<entry align="center">47,1</entry>
+<entry align="center">2,1</entry>
+<entry align="center">28,6</entry>
+</row>
+<row>
+<entry align="center">19,5</entry>
+<entry align="center">6,4</entry>
+<entry align="center">15,4</entry>
+</row>
+<row>
+<entry align="center">51,2</entry>
+<entry align="center">13,9</entry>
+<entry align="center">9,3</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</problem></exercise><para id="element-333"><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios.</emphasis> La <link target-id="id7236751"/> recopila el número de páginas de cuatro tipos diferentes de revistas.</para>
+
+<table id="id7236751" summary="This table presents the number of pages in some types of magazines with home decorating in the first column, news in the second column, health in the third column, and computer in the fourth column.">
+
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry>decoración del hogar</entry>
+<entry>noticias</entry>
+<entry>salud</entry>
+<entry>computadoras</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">172</entry>
+<entry align="center">87</entry>
+<entry align="center">82</entry>
+<entry align="center">104</entry>
+</row>
+<row>
+<entry align="center">286</entry>
+<entry align="center">94</entry>
+<entry align="center">153</entry>
+<entry align="center">136</entry>
+</row>
+<row>
+<entry align="center">163</entry>
+<entry align="center">123</entry>
+<entry align="center">87</entry>
+<entry align="center">98</entry>
+</row>
+<row>
+<entry align="center">205</entry>
+<entry align="center">106</entry>
+<entry align="center">103</entry>
+<entry align="center">207</entry>
+</row>
+<row>
+<entry align="center">197</entry>
+<entry align="center">101</entry>
+<entry align="center">96</entry>
+<entry align="center">146</entry>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table>
+<exercise id="element-781"><problem id="id19316785">
+<para id="element-632">Use un nivel de significación del 5 % y pruebe la hipótesis de que los cuatro tipos de revistas tienen la misma extensión media.</para>
+</problem></exercise><exercise id="element-219">
+<problem id="id19317090">
+<para id="element-384">Elimine un tipo de revista que ahora considere que tiene una extensión media diferente a las demás. Vuelva a realizar la prueba de hipótesis para probar que las tres medias restantes son estadísticamente iguales. Use una nueva hoja de soluciones. Según esta prueba, ¿las extensiones medias de las tres revistas restantes son estadísticamente iguales?
+</para>
+</problem>
+<solution id="eip-idm63675648">
+<list id="eip-idm63675392" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ</emphasis><sub>c</sub> = <emphasis effect="italics">µ</emphasis><sub>n</sub> = <emphasis effect="italics">µ</emphasis><sub>h</sub></item>
+<item>Al menos dos de las revistas tienen extensiones medias diferentes.</item>
+<item><emphasis effect="italics">df</emphasis>(<emphasis effect="italics">num</emphasis>) = 2, <emphasis effect="italics">df</emphasis>(<emphasis effect="italics">denom</emphasis>) = 12</item>
+<item>Distribución <emphasis effect="italics">F</emphasis></item>
+<item><emphasis effect="italics">F</emphasis> = 15,28</item>
+<item>valor <emphasis effect="italics">p</emphasis> = 0,0005</item>
+<item>Compruebe la solución del estudiante</item>
+<item>
+<list id="eip-idm15104944" list-type="enumerated" number-style="lower-roman">
+<item>Alfa: 0,05</item>
+<item>Decisión: Rechazar la hipótesis nula.</item>
+<item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> &lt; alfa</item>
+<item>Conclusión: Hay pruebas suficientes para concluir que las longitudes medias de las revistas son diferentes.</item>
+</list>
+</item>
+</list></solution>
+</exercise>
+
+
+<exercise id="eip-431"><problem id="eip-515">
+<para id="eip-629">Un investigador quiere saber si los tiempos medios (en minutos) que las personas ven su canal de noticias favorito son iguales. Supongamos que la <link target-id="eip-id2754369"/> muestra los resultados de un estudio.</para>
+
+<table id="eip-id2754369" summary="The Table consists of 3 columns: CNN, Fox and Local. The table entries are the mean time, in minutes, that people watch their favorite news station on CNN, Fox or the local station.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>CNN</entry>
+<entry>FOX</entry>
+<entry>Local</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">45</entry>
+<entry align="center">15</entry>
+<entry align="center">72</entry>
+</row>
+<row>
+<entry align="center">12</entry>
+<entry align="center">43</entry>
+<entry align="center">37</entry>
+</row>
+<row>
+<entry align="center">18</entry>
+<entry align="center">68</entry>
+<entry align="center">56</entry>
+</row>
+<row>
+<entry align="center">38</entry>
+<entry align="center">50</entry>
+<entry align="center">60</entry>
+</row>
+<row>
+<entry align="center">23</entry>
+<entry align="center">31</entry>
+<entry align="center">51</entry>
+</row>
+<row>
+<entry align="center">35</entry>
+<entry align="center">22</entry>
+<entry align="center"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-idm8691760">Supongamos que todas las distribuciones son normales, que las cuatro desviaciones típicas de la población son aproximadamente iguales y que los datos se recogieron de forma independiente y aleatoria. Utilice un nivel de significación de 0,05.</para>
+</problem></exercise><exercise id="eip-1000"><problem id="eip-311">
+<para id="eip-13">¿Las medias de los exámenes finales son iguales para todos los tipos de clases de Estadística? La <link target-id="eip-id1164473001430"/> muestra las calificaciones de los exámenes finales de varias clases seleccionadas al azar que utilizaron los diferentes tipos de entrega.</para>
+<table id="eip-id1164473001430" summary="The Table consists of 3 columns: Online, Hybrid and Face-to-Face. The table entries are the mean scores on the final exam for Online, Hybrid and Face-to-Face delivery types for statistics.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>En línea</entry>
+<entry>Híbrido</entry>
+<entry>En persona</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">72</entry>
+<entry align="center">83</entry>
+<entry align="center">80</entry>
+</row>
+<row>
+<entry align="center">84</entry>
+<entry align="center">73</entry>
+<entry align="center">78</entry>
+</row>
+<row>
+<entry align="center">77</entry>
+<entry align="center">84</entry>
+<entry align="center">84</entry>
+</row>
+<row>
+<entry align="center">80</entry>
+<entry align="center">81</entry>
+<entry align="center">81</entry>
+</row>
+<row>
+<entry align="center">81</entry>
+<entry align="center"/>
+<entry align="center">86</entry>
+</row>
+<row>
+<entry align="center"/>
+<entry align="center"/>
+<entry align="center">79</entry>
+</row>
+<row>
+<entry align="center"/>
+<entry align="center"/>
+<entry align="center">82</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-idm50305264">Supongamos que todas las distribuciones son normales, que las cuatro desviaciones típicas de la población son aproximadamente iguales y que los datos se recogieron de forma independiente y aleatoria. Utilice un nivel de significación de 0,05.</para>
+</problem>
+<solution id="eip-idm16460784">
+<list id="eip-idm114113136" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>o</sub></emphasis> = <emphasis effect="italics">μ<sub>h</sub></emphasis> = <emphasis effect="italics">μ<sub>f</sub></emphasis></item>
+<item>Al menos dos de las medias son diferentes.</item>
+<item><emphasis effect="italics">df</emphasis>(<emphasis effect="italics">n</emphasis>) = 2, <emphasis effect="italics">df</emphasis>(<emphasis effect="italics">d</emphasis>) = 13</item>
+<item><emphasis effect="italics">F</emphasis><sub>2,13</sub></item>
+<item>0,64</item>
+<item>0,5437</item>
+<item>Compruebe la solución del estudiante</item>
+<item>
+<list id="eip-idm119829920" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
+<item>Decisión: No rechaza la hipótesis nula.</item>
+<item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> > alfa</item>
+<item>Conclusión: Las calificaciones medias de la entrega de las distintas clases no son diferentes.</item>
+</list></item>
+</list>
+</solution></exercise><exercise id="fs-idm81211824"><problem id="fs-idm81211696">
+<para id="fs-idm81211440">Are the mean number of times a month a person eats out the same for White, Black, Hispanic and Asian people? Supongamos que la <link target-id="fs-idm13269984"/> muestra los resultados de un estudio.</para><table id="fs-idm13269984" summary="The Table consists of 4 columns: White, Black, Hispanic and Asian. The table entries are the mean number of times a month that people who are White, Black, Hispanic and Asian eat out.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>Blancos</entry>
+<entry>Afroamericanos</entry>
+<entry>Hispanos</entry>
+<entry>Asiático</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">6</entry>
+<entry align="center">4</entry>
+<entry align="center">7</entry>
+<entry align="center">8</entry>
+
+</row>
+<row>
+<entry align="center">8</entry>
+<entry align="center">1</entry>
+<entry align="center">3</entry>
+<entry align="center">3</entry>
+</row>
+<row>
+<entry align="center">2</entry>
+<entry align="center">5</entry>
+<entry align="center">5</entry>
+<entry align="center">5</entry>
+</row>
+<row>
+<entry align="center">4</entry>
+<entry align="center">2</entry>
+<entry align="center">4</entry>
+<entry align="center">1</entry>
+</row>
+<row>
+<entry align="center">6</entry>
+<entry align="center"/>
+<entry align="center">6</entry>
+<entry align="center">7</entry>
+</row>
+
+
+</tbody>
+</tgroup>
+</table>
+
+<para id="fs-idm147998880">Supongamos que todas las distribuciones son normales, que las cuatro desviaciones típicas de la población son aproximadamente iguales y que los datos se recogieron de forma independiente y aleatoria. Utilice un nivel de significación de 0,05.</para>
+</problem></exercise><exercise id="fs-idp113565584"><problem id="fs-idp113565712">
+<para id="fs-idp113565968">¿Los números medios de visitantes diarios a una estación de esquí son iguales para los tres tipos de condiciones de nieve? Supongamos que la <link target-id="fs-idp109843184"/> muestra los resultados de un estudio.</para>
+
+<table id="fs-idp109843184" summary="The Table consists of 3 columns with snow conditions Powder, Machine Made and Hard Packed. The table entries are the mean number of visitors to a ski resort for the 3 types of snow conditions.">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>En polvo</entry>
+<entry>De máquina</entry>
+<entry>Comprimida</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">1.210</entry>
+<entry align="center">2.107</entry>
+<entry align="center">2.846</entry>
+</row>
+<row>
+<entry align="center">1.080</entry>
+<entry align="center">1.149</entry>
+<entry align="center">1.638</entry>
+</row>
+<row>
+<entry align="center">1.537</entry>
+<entry align="center">862</entry>
+<entry align="center">2.019</entry>
+</row>
+<row>
+<entry align="center">941</entry>
+<entry align="center">1.870</entry>
+<entry align="center">1.178</entry>
+</row>
+<row>
+<entry align="center"/>
+<entry align="center">1.528</entry>
+<entry align="center">2.233</entry>
+</row>
+<row>
+<entry align="center"/>
+<entry align="center">1.382</entry>
+<entry align="center"/>
+</row>
+
+
+</tbody>
+</tgroup>
+</table>
+
+<para id="fs-idm146956176">Supongamos que todas las distribuciones son normales, que las cuatro desviaciones típicas de la población son aproximadamente iguales y que los datos se recogieron de forma independiente y aleatoria. Utilice un nivel de significación de 0,05.</para>
+</problem>
+<solution id="eip-idm119523872">
+<list id="eip-idm119523616" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>p</sub></emphasis> = <emphasis effect="italics">μ<sub>m</sub></emphasis> = <emphasis effect="italics">μ<sub>h</sub></emphasis></item>
+<item>Al menos dos de las medias son diferentes.</item>
+<item><emphasis effect="italics">df</emphasis>(<emphasis effect="italics">n</emphasis>) = 2, <emphasis effect="italics">df</emphasis>(<emphasis effect="italics">d</emphasis>) = 12</item>
+<item><emphasis effect="italics">F</emphasis><sub>2,12</sub></item>
+<item>3,13</item>
+<item>0,0807</item>
+<item>Compruebe la solución del estudiante</item>
+<item>
+<list id="eip-idm129088112" list-type="enumerated" number-style="lower-roman">
+<item>Alfa: 0,05</item>
+<item>Decisión: No rechaza la hipótesis nula.</item>
+<item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> > alfa</item>
+<item>Conclusión: No hay pruebas suficientes para concluir que el número medio de visitantes diarios sea diferente.</item>
+</list>
+</item>
+</list>
+</solution></exercise><exercise id="eip-88"><problem id="eip-730">
+<para id="eip-165">Sanjay hizo aviones de papel idénticos con tres pesos diferentes de papel: ligero, medio y pesado. Hizo cuatro aviones con cada uno de los pesos y los lanzó él mismo por la habitación. Aquí están las distancias (en metros) que volaron sus aviones.</para>
+
+<table id="eip-729" summary="..">
+<tgroup cols="3">
+<thead>
+<row>
+<entry>Tipo de papel / ensayo</entry>
+<entry>Ensayo 1</entry>
+<entry>Ensayo 2</entry>
+<entry>Ensayo 3</entry>
+<entry>Ensayo 4</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Pesado</entry>
+<entry>5,1 metros</entry>
+<entry>3,1 metros</entry>
+<entry>4,7 metros</entry>
+<entry>5,3 metros</entry>
+</row>
+<row>
+<entry>Medio</entry>
+<entry>4 metros</entry>
+<entry>3,5 metros</entry>
+<entry>4,5 metros</entry>
+<entry>6,1 metros</entry>
+</row>
+<row>
+<entry>Ligero</entry>
+<entry>3,1 metros</entry>
+<entry>3,3 metros</entry>
+<entry>2,1 metros</entry>
+<entry>1,9 metros</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<figure id="fs-idm82879440"><media id="eip-idm6038640704" alt="el gráfico muestra un diagrama de dispersión que representa los datos proporcionados. El eje horizontal está identificado como “distancia en metros” y se extiende de 2 a 6. El eje vertical está identificado como “peso del papel” y tiene las categorías de ligero, medio y pesado.">
+<image src="../../media/CNX_Stats_C13_M04_100.jpg" mime-type="image/jpeg" width="380"/></media>
+</figure><list id="eip-idp36652720" list-type="enumerated" number-style="lower-alpha"><item>Observe los datos del gráfico. Observe la dispersión de los datos para cada grupo (ligero, medio y pesado). ¿Parece razonable suponer una distribución normal con la misma varianza para cada grupo? Sí o no.</item>
+
+<item>¿Por qué es un diseño equilibrado?</item>
+<item>Calcule la media muestral y la desviación típica de la muestra para cada grupo.</item>
+<item>¿El peso del papel influye en la distancia que recorrerá el avión? Use un nivel de significación del 1 %. Complete la prueba utilizando el método mostrado en el ejemplo de la planta de judías en el <link target-id="element-349"/>. <list id="eip-idp94716144">
+<item>varianza de las medias de los grupos __________</item>
+<item><emphasis effect="italics">MS<sub>entre</sub></emphasis>= ___________</item>
+<item>media de las tres varianzas de la muestra ___________</item>
+<item><emphasis effect="italics">MS<sub>dentro</sub></emphasis> = _____________</item>
+<item>estadístico <emphasis effect="italics">F</emphasis> = ____________</item>
+<item><emphasis effect="italics">df(num)</emphasis> = __________, <emphasis effect="italics">df(denom)</emphasis> = ___________</item>
+<item>número de grupos _______</item>
+<item>número de observaciones _______</item>
+<item>valor <emphasis effect="italics">p</emphasis> = __________ (<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> > _______) = __________)</item>
+<item>Grafique el valor <emphasis effect="italics">p</emphasis>.</item>
+<item>decisión: _______________________</item>
+<item>conclusión: _______________________________________________________________</item>
+</list>
+</item>
+</list></problem></exercise><exercise id="eip-137">
+<problem id="eip-432">
+<para id="eip-864">El dicloro difenil tricloroetano (DDT) es un pesticida cuyo uso se ha prohibido en Estados Unidos y en la mayoría de las zonas del mundo. Es bastante eficaz, pero persiste en el medio ambiente y, con el tiempo, se considera perjudicial para los organismos superiores. Se cree que las cáscaras de los huevos de las águilas y otras aves rapaces son más finas y propensas a romperse en el nido debido a la ingestión de DDT en la cadena alimentaria de las aves.</para>
+
+<para id="eip-idp9520752">Se realizó un experimento sobre el número de huevos (fecundidad) puestos por las hembras de la mosca de la fruta. Hay tres grupos de moscas. Un grupo fue criado para ser resistente al DDT (el grupo RS). Otro fue criado para ser especialmente susceptible al DDT (SS). Por último, había una línea de control de moscas de la fruta no seleccionadas o típicas (NS). Aquí están los datos:
+
+<table id="eip-180" summary="..">
+<tgroup cols="3">
+<thead>
+<row>
+<entry>RS</entry>
+<entry>SS</entry>
+<entry>NS</entry>
+<entry>RS</entry>
+<entry>SS</entry>
+<entry>NS</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>12,8</entry>
+<entry>38,4</entry>
+<entry>35,4</entry>
+<entry>22,4</entry>
+<entry>23,1</entry>
+<entry>22,6</entry>
+</row>
+<row>
+<entry>21,6</entry>
+<entry>32,9</entry>
+<entry>27,4</entry>
+<entry>27,5</entry>
+<entry>29,4</entry>
+<entry>40,4</entry>
+</row>
+<row>
+<entry>14,8</entry>
+<entry>48,5</entry>
+<entry>19,3</entry>
+<entry>20,3</entry>
+<entry>16</entry>
+<entry>34,4</entry>
+</row>
+<row>
+<entry>23,1</entry>
+<entry>20,9</entry>
+<entry>41,8</entry>
+<entry>38,7</entry>
+<entry>20,1</entry>
+<entry>30,4</entry>
+</row>
+<row>
+<entry>34,6</entry>
+<entry>11,6</entry>
+<entry>20,3</entry>
+<entry>26,4</entry>
+<entry>23,3</entry>
+<entry>14,9</entry>
+</row>
+<row>
+<entry>19,7</entry>
+<entry>22,3</entry>
+<entry>37,6</entry>
+<entry>23,7</entry>
+<entry>22,9</entry>
+<entry>51,8</entry>
+</row>
+<row>
+<entry>22,6</entry>
+<entry>30,2</entry>
+<entry>36,9</entry>
+<entry>26,1</entry>
+<entry>22,5</entry>
+<entry>33,8</entry>
+</row>
+<row>
+<entry>29,6</entry>
+<entry>33,4</entry>
+<entry>37,3</entry>
+<entry>29,5</entry>
+<entry>15,1</entry>
+<entry>37,9</entry>
+</row>
+<row>
+<entry>16,4</entry>
+<entry>26,7</entry>
+<entry>28,2</entry>
+<entry>38,6</entry>
+<entry>31</entry>
+<entry>29,5</entry>
+</row>
+<row>
+<entry>20,3</entry>
+<entry>39</entry>
+<entry>23,4</entry>
+<entry>44,4</entry>
+<entry>16,9</entry>
+<entry>42,4</entry>
+</row>
+<row>
+<entry>29,3</entry>
+<entry>12,8</entry>
+<entry>33,7</entry>
+<entry>23,2</entry>
+<entry>16,1</entry>
+<entry>36,6</entry>
+</row>
+<row>
+<entry>14,9</entry>
+<entry>14,6</entry>
+<entry>29,2</entry>
+<entry>23,6</entry>
+<entry>10,8</entry>
+<entry>47,4</entry>
+</row>
+<row>
+<entry>27,3</entry>
+<entry>12,2</entry>
+<entry>41,7</entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+
+</para>
+
+<para id="eip-idm118691088">Los valores son el número promedio de huevos puestos diariamente por cada una de las 75 moscas (25 en cada grupo) durante los primeros 14 días de su vida. Utilizando un nivel de significación del 1 %, ¿son diferentes las tasas medias de selección de huevos para las tres cepas de mosca de la fruta? Si es así, ¿de qué manera? Específicamente, los investigadores estaban interesados en saber si las cepas criadas selectivamente eran diferentes de la línea no seleccionada, y si las dos líneas seleccionadas eran diferentes entre sí.</para>
+
+<para id="eip-idp20090240">A continuación se muestra un gráfico de los tres grupos:</para>
+
+<figure id="fs-idm5123296"><media id="eip-idp35835920" alt="Este gráfico es un diagrama de dispersión que representa los datos proporcionados. El eje horizontal está identificado como “media de huevos puestos por día” y va de 10 a 50. El eje vertical está identificado como “moscas de la fruta resistentes o susceptibles al DDT, o no seleccionadas”. El eje vertical está identificado con las categorías NS, RS, SS.">
+<image src="../../media/CNX_Stats_C13_M04_007.jpg" mime-type="image/jpeg" width="380"/></media></figure></problem>
+
+<solution id="eip-601">
+<para id="eip-313">Los datos parecen normalmente distribuidos en el gráfico y una dispersión similar. No parece haber ningún valor atípico grave, por lo que podemos seguir con nuestros cálculos de ANOVA, para ver si tenemos buenas pruebas de una diferencia entre los tres grupos.</para>
+<para id="eip-idp9408976"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis><sub>1</sub> = <emphasis effect="italics">μ</emphasis><sub>2</sub> = <emphasis effect="italics">μ</emphasis><sub>3</sub>;</para><para id="eip-idp2303648"><emphasis effect="italics">H</emphasis><sub>a</sub>: <emphasis effect="italics">μ</emphasis><sub>i</sub> ≠ <emphasis effect="italics">μ</emphasis><sub>j</sub> alguna <emphasis effect="italics">i</emphasis> ≠ <emphasis effect="italics">j</emphasis>.</para>
+
+<para id="eip-idm63708960">Defina <emphasis effect="italics">μ</emphasis><sub>1</sub>, <emphasis effect="italics">μ</emphasis><sub>2</sub>, <emphasis effect="italics">μ</emphasis><sub>3</sub>, como la media poblacional del número de huevos puestos por los tres grupos de moscas de la fruta.</para>
+<para id="eip-idm1853136">estadístico <emphasis effect="italics">F</emphasis> = 8,6657;</para>
+<para id="eip-idm1852752">valor <emphasis effect="italics">p</emphasis> = 0,0004 </para>
+
+<figure id="fs-idm155800880"><media id="eip-idp18660496" alt="Este gráfico muestra una curva de distribución F no simétrica. Esta curva no tiene un pico, sino que se inclina hacia abajo desde un valor máximo en (0, 1,0) y se acerca al eje horizontal en el borde derecho del gráfico.">
+<image src="../../media/CNX_Stats_C13_M04_008.jpg" mime-type="image/jpeg" width="380"/>
+</media>
+</figure><para id="eip-idp2564992"><emphasis><emphasis effect="underline">Decisión:</emphasis></emphasis> como el valor <emphasis effect="italics">p</emphasis> es inferior al nivel de significación de 0,01, rechazamos la hipótesis nula.</para>
+
+<para id="eip-idp38405520"><emphasis><emphasis effect="underline">Conclusión:</emphasis></emphasis> tenemos buenas pruebas de que el número promedio de huevos puestos durante los primeros 14 días de vida de estas tres cepas de moscas de la fruta son diferentes.</para>
+
+<para id="eip-idm111067136">Curiosamente, si se realiza una prueba <emphasis effect="italics">t</emphasis> de dos muestras para comparar los grupos RS y NS, son significativamente diferentes (<emphasis effect="italics">p</emphasis> = 0,0013). Asimismo, SS y NS son significativamente diferentes (<emphasis effect="italics">p</emphasis> = 0,0006). Sin embargo, los dos grupos seleccionados, RS y SS, <emphasis effect="italics">no</emphasis> son significativamente diferentes (<emphasis effect="italics">p</emphasis> = 0,5176). Por lo tanto, parece que tenemos buenas pruebas de que la selección para la resistencia o para la susceptibilidad implica una tasa reducida de producción de huevos (para estas cepas específicas) en comparación con las moscas que no fueron seleccionadas para la resistencia o la susceptibilidad al DDT. Aquí, la selección genética ha implicado aparentemente una pérdida de fecundidad.</para></solution>
+</exercise>
+
+<exercise id="eip-178"><problem id="eip-800"><para id="fs-idp79390240">Los datos que se muestran son las temperaturas corporales registradas de 130 sujetos estimadas a partir de histogramas disponibles.</para>
+<para id="fs-idm8674144">Tradicionalmente se nos enseña que la temperatura normal del cuerpo humano es de 98,6 °F. Esto no es del todo correcto para todos. ¿Las temperaturas medias son diferentes entre los cuatro grupos?</para>
+<para id="fs-idm8673568">Calcule los intervalos de confianza del 95 % para la temperatura corporal media en cada grupo y comente los intervalos de confianza.</para>
+
+<table id="eip-269" summary="..">
+<tgroup cols="4">
+<thead>
+<row>
+<entry>FL</entry>
+<entry>FH</entry>
+<entry>ML</entry>
+<entry>MH</entry>
+<entry>FL</entry>
+<entry>FH</entry>
+<entry>ML</entry>
+<entry>MH</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>96,4</entry>
+<entry>96,8</entry>
+<entry>96,3</entry>
+<entry>96,9</entry>
+<entry>98,4</entry>
+<entry>98,6</entry>
+<entry>98,1</entry>
+<entry>98,6</entry>
+</row>
+<row>
+<entry>96,7</entry>
+<entry>97,7</entry>
+<entry>96,7</entry>
+<entry>97</entry>
+<entry>98,7</entry>
+<entry>98,6</entry>
+<entry>98,1</entry>
+<entry>98,6</entry>
+</row>
+<row>
+<entry>97,2</entry>
+<entry>97,8</entry>
+<entry>97,1</entry>
+<entry>97,1</entry>
+<entry>98,7</entry>
+<entry>98,6</entry>
+<entry>98,2</entry>
+<entry>98,7</entry>
+</row>
+<row>
+<entry>97,2</entry>
+<entry>97,9</entry>
+<entry>97,2</entry>
+<entry>97,1</entry>
+<entry>98,7</entry>
+<entry>98,7</entry>
+<entry>98,2</entry>
+<entry>98,8</entry>
+</row>
+<row>
+<entry>97,4</entry>
+<entry>98</entry>
+<entry>97,3</entry>
+<entry>97,4</entry>
+<entry>98,7</entry>
+<entry>98,7</entry>
+<entry>98,2</entry>
+<entry>98,8</entry>
+</row>
+<row>
+<entry>97,6</entry>
+<entry>98</entry>
+<entry>97,4</entry>
+<entry>97,5</entry>
+<entry>98,8</entry>
+<entry>98,8</entry>
+<entry>98,2</entry>
+<entry>98,8</entry>
+</row>
+<row>
+<entry>97,7</entry>
+<entry>98</entry>
+<entry>97,4</entry>
+<entry>97,6</entry>
+<entry>98,8</entry>
+<entry>98,8</entry>
+<entry>98,3</entry>
+<entry>98,9</entry>
+</row>
+<row>
+<entry>97,8</entry>
+<entry>98</entry>
+<entry>97,4</entry>
+<entry>97,7</entry>
+<entry>98,8</entry>
+<entry>98,8</entry>
+<entry>98,4</entry>
+<entry>99</entry>
+</row>
+<row>
+<entry>97,8</entry>
+<entry>98,1</entry>
+<entry>97,5</entry>
+<entry>97,8</entry>
+<entry>98,8</entry>
+<entry>98,9</entry>
+<entry>98,4</entry>
+<entry>99</entry>
+</row>
+<row>
+<entry>97,9</entry>
+<entry>98,3</entry>
+<entry>97,6</entry>
+<entry>97,9</entry>
+<entry>99,2</entry>
+<entry>99</entry>
+<entry>98,5</entry>
+<entry>99</entry>
+</row>
+<row>
+<entry>97,9</entry>
+<entry>98,3</entry>
+<entry>97,6</entry>
+<entry>98</entry>
+<entry>99,3</entry>
+<entry>99</entry>
+<entry>98,5</entry>
+<entry>99,2</entry>
+</row>
+<row>
+<entry>98</entry>
+<entry>98,3</entry>
+<entry>97,8</entry>
+<entry>98</entry>
+<entry/>
+<entry>99,1</entry>
+<entry>98,6</entry>
+<entry>99,5</entry>
+</row>
+<row>
+<entry>98,2</entry>
+<entry>98,4</entry>
+<entry>97,8</entry>
+<entry>98</entry>
+<entry/>
+<entry>99,1</entry>
+<entry>98,6</entry>
+<entry/>
+</row>
+<row>
+<entry>98,2</entry>
+<entry>98,4</entry>
+<entry>97,8</entry>
+<entry>98,3</entry>
+<entry/>
+<entry>99,2</entry>
+<entry>98,7</entry>
+<entry/>
+</row>
+<row>
+<entry>98,2</entry>
+<entry>98,4</entry>
+<entry>97,9</entry>
+<entry>98,4</entry>
+<entry/>
+<entry>99,4</entry>
+<entry>99,1</entry>
+<entry/>
+</row>
+<row>
+<entry>98,2</entry>
+<entry>98,4</entry>
+<entry>98</entry>
+<entry>98,4</entry>
+<entry/>
+<entry>99,9</entry>
+<entry>99,3</entry>
+<entry/>
+</row>
+<row>
+<entry>98,2</entry>
+<entry>98,5</entry>
+<entry>98</entry>
+<entry>98,6</entry>
+<entry/>
+<entry>100</entry>
+<entry>99,4</entry>
+<entry/>
+</row>
+<row>
+<entry>98,2</entry>
+<entry>98,6</entry>
+<entry>98</entry>
+<entry>98,6</entry>
+<entry/>
+<entry>100,8</entry>
+<entry/>
+<entry/>
+</row>
+</tbody></tgroup>
+</table>
+</problem></exercise></section>
+ </content>
+</document>

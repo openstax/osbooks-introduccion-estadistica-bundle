@@ -1,0 +1,271 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Resultados y errores de tipo I y II</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55607</md:content-id>
+  <md:title>Resultados y errores de tipo I y II</md:title>
+  <md:abstract/>
+  <md:uuid>039fae3f-1579-4648-8e70-a1f6b0fb8a78</md:uuid>
+</metadata>
+
+<content>
+    <para id="eip-8888">Cuando se realiza una prueba de hipótesis hay cuatro resultados posibles en según la verdad (o falsedad) de la hipótesis nula <emphasis effect="italics">H<sub>0</sub></emphasis> y de la decisión de rechazarla o no. Los resultados se resumen en el siguiente cuadro:</para>
+
+  <table id="element-689" summary="...">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+    <entry>Decisión estadística</entry>
+
+    <entry namest="c2" nameend="c3"><emphasis effect="italics">H<sub>0</sub></emphasis> es en realidad...</entry>
+
+
+  </row>
+</thead>
+
+<tbody>
+
+  <row>
+    <entry/>
+    <entry>Verdadero</entry>
+    <entry>Falso</entry>
+  </row>
+
+
+
+  <row>
+    <entry>No se puede rechazar <emphasis effect="italics">H<sub>0</sub></emphasis></entry>
+    <entry>Resultado correcto</entry>
+    <entry>Error tipo II</entry>
+  </row>
+  <row>
+    <entry>No se puede aceptar <emphasis effect="italics">H<sub>0</sub></emphasis></entry>
+    <entry>Error de tipo I</entry>
+    <entry>Resultado correcto</entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table><para id="element-915">Los cuatro resultados posibles en la tabla son: <list id="list-1" list-type="enumerated"><item>La decisión es que <emphasis>no rechaza <emphasis effect="italics">H<sub>0</sub></emphasis></emphasis> cuando <emphasis><emphasis effect="italics">H<sub>0</sub></emphasis> es verdadera (decisión correcta).</emphasis></item>
+
+      <item>La decisión es <emphasis>no aceptar <emphasis effect="italics">H<sub>0</sub></emphasis></emphasis> cuando <emphasis><emphasis effect="italics">H<sub>0</sub></emphasis> es verdadera</emphasis> (decisión incorrecta, conocida como <term id="term-00001">error de tipo I</term>). Este caso se describe como “rechazar un buen nulo”. Como veremos más adelante, es este tipo de error el que evitaremos al fijar la probabilidad de cometerlo. El objetivo es NO realizar ninguna acción que sea un error.</item>
+
+      <item>La decisión es <emphasis>no rechazar <emphasis effect="italics">H<sub>0</sub></emphasis></emphasis> cuando, de hecho, <emphasis><emphasis effect="italics">H<sub>0</sub></emphasis> es falsa</emphasis> (decisión incorrecta, conocida como <term id="term-00002">error de tipo II</term>). Esto se llama “aceptar un falso nulo”. En esta situación ha permitido que el statu quo siga en vigor cuando debió anularse. Como veremos, la hipótesis nula tiene ventaja en la competencia con la alternativa.</item>
+
+      <item>La decisión es <emphasis>no aceptar <emphasis effect="italics">H<sub>0</sub></emphasis></emphasis> cuando <emphasis><emphasis effect="italics">H<sub>0</sub></emphasis> es falsa</emphasis> (<emphasis>decisión correcta</emphasis>).</item>
+
+    </list></para><para id="element-247">Cada uno de los errores se produce con una probabilidad determinada. Las letras griegas <emphasis effect="italics">α</emphasis> y <emphasis effect="italics">β</emphasis> representan las probabilidades.</para><para id="element-95"><emphasis effect="italics">α</emphasis> = probabilidad de un error de tipo I = <emphasis><emphasis effect="italics">P</emphasis> (error de tipo I)</emphasis> = probabilidad de rechazar la hipótesis nula cuando la hipótesis nula es verdadera: rechazar un buen nulo.</para><para id="element-634"><emphasis effect="italics">β</emphasis> = probabilidad de un error tipo II = <emphasis><emphasis effect="italics">P</emphasis>(error tipo II)</emphasis> = probabilidad de no rechazar la hipótesis nula cuando la hipótesis nula es falsa. (1 - <emphasis effect="italics">β</emphasis>) se denomina <term id="term-00003">la potencia de la prueba</term>.</para><para id="fs-idp40594672"><emphasis effect="italics">α</emphasis> y <emphasis effect="italics">β</emphasis> deben ser lo más pequeños posible porque son probabilidades de error. </para><para id="eip-983">La estadística nos permite establecer la probabilidad de que cometamos un error de tipo I. La probabilidad de cometer un error de tipo I es α. Recordemos que los intervalos de confianza en la última unidad se establecían al elegir un valor llamado Z<sub>α</sub> (o t<sub>α</sub>) y el valor alfa determinaba el nivel de confianza de la estimación porque era la probabilidad de que el intervalo no captara la verdadera media (o parámetro de proporción p). Esta y aquella alfa son iguales.</para><para id="eip-949">La forma más fácil de ver la relación entre el error alfa y el nivel de confianza es con la siguiente figura.</para><figure id="fs-id1172240563632"><media id="fs-id1172242798983" alt="...">
+    <image mime-type="image/jpeg" src="../../media/fig-ch09_09_03m.jpg" width="500"/>
+  </media>
+
+</figure><para id="eip-179">En el centro de la <link target-id="fs-id1172240563632"/> hay una distribución normal de muestreo, marcada H<sub>0</sub>. Se trata de una distribución de muestreo de <m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:math> y por el teorema del límite central se distribuye normalmente. La distribución del centro se marca <emphasis effect="italics">H<sub>0</sub></emphasis> y representa la distribución para la hipótesis nula <emphasis effect="italics">H<sub>0</sub></emphasis>: µ = 100. Este es el valor que se está probando. Los enunciados formales de las hipótesis nula y alternativa se enumeran debajo de la figura. </para><para id="eip-931">Las distribuciones a ambos lados de la distribución H<sub>0</sub> representan las que serían verdaderas si <emphasis effect="italics">H<sub>0</sub></emphasis> es falsa, bajo la hipótesis alternativa, indicada como <emphasis effect="italics">H<sub>a</sub></emphasis>. No sabemos cuál es la verdad, y nunca lo sabremos. De hecho, hay un número infinito de distribuciones de las que se podrían haber extraído los datos si <emphasis effect="italics">H<sub>a</sub></emphasis> es verdadera, pero solo dos de ellas están en la <link target-id="fs-id1172240563632"/> representando a todas las demás. </para><para id="eip-460">Para comprobar una hipótesis, tomamos una muestra de la población y determinamos si proviene de la distribución hipotética con un nivel de significación aceptable. Este nivel de significación es el error alfa y está marcado en la <link target-id="fs-id1172240563632"/> como las áreas sombreadas en cada cola de la distribución <emphasis effect="italics">H<sub>0</sub></emphasis>. (Cada área es en realidad α/2 porque la distribución es simétrica y la hipótesis alternativa posibilita que el valor sea mayor o menor que el valor hipotético, la llamada prueba de dos colas). </para><para id="eip-600">Si la media muestral está marcada como <m:math><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>1</m:mn></m:msub></m:math> está en la cola de la distribución de <emphasis effect="italics">H<sub>0</sub></emphasis>, entonces concluimos que la probabilidad de que provenga de la distribución <emphasis effect="italics">H<sub>0</sub></emphasis> es menor que alfa. En consecuencia, afirmamos que “la hipótesis nula no puede aceptarse con un nivel de significación (α)”. La verdad <emphasis>puede ser</emphasis> que este <m:math><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>1</m:mn></m:msub></m:math> sí provenía de la distribución <emphasis effect="italics">H<sub>0</sub></emphasis>, pero del extremo de la cola. Si es así, hemos rechazado falsamente una hipótesis nula verdadera y hemos cometido un error de tipo I. Lo que la estadística ha hecho es proporcionar una estimación sobre lo que sabemos y lo que controlamos, y esa es la probabilidad de que nos equivoquemos, α.   </para><para id="eip-993">También observamos en la <link target-id="fs-id1172240563632"/> que la media muestral sería realmente de una distribución <emphasis effect="italics">H<sub>a</sub></emphasis>, pero dentro del límite establecido por el nivel alfa. Este caso está marcado como <m:math><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msub></m:math>. Existe la probabilidad de que <m:math><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msub></m:math> en realidad provenga de <emphasis effect="italics">H<sub>a</sub></emphasis> pero aparece en el rango de <emphasis effect="italics">H<sub>0</sub></emphasis> entre las dos colas. Esta probabilidad es el error beta, la probabilidad de aceptar un falso nulo.</para><para id="eip-443">Nuestro problema es que solo podemos fijar el error alfa porque hay un número infinito de distribuciones alternativas de las que podría haber salido la media que no son iguales a <emphasis effect="italics">H<sub>0</sub></emphasis>. En consecuencia, el estadístico recae la carga de la prueba en la hipótesis alternativa. Es decir, no rechazaremos una hipótesis nula, a no ser que haya una probabilidad superior al 90 % o al 95 %, e incluso al 99 %, de que la nula sea falsa: la carga de la prueba recae en la hipótesis alternativa. Es por ello que lo designamos antes la tiranía del statu quo.</para><para id="eip-676">A modo de ejemplo, el sistema judicial estadounidense parte del supuesto de la “presunción de inocencia” del acusado. Este es el statu quo y es la hipótesis nula. The judge will tell the jury that they cannot find the defendant guilty unless the evidence indicates guilt beyond a "reasonable doubt" which is usually defined in criminal cases as 95% certainty of guilt. Si el jurado no puede aceptar la nulidad, la inocencia, entonces se tomarán medidas, tiempo de cárcel. La carga de la prueba siempre recae en la hipótesis alternativa. (En los casos civiles, el jurado solo necesita tener más del 50 % de certeza de que se ha cometido un delito para declarar la culpabilidad, lo que se denomina “preponderancia de las pruebas”).</para><para id="eip-850">El ejemplo anterior era para una prueba de una media, pero la misma lógica se aplica a las pruebas de hipótesis para todos los parámetros estadísticos que uno quiera probar. </para><para id="element-400">Los siguientes son ejemplos de errores tipo I y tipo II.</para>
+
+  <example id="element-484">
+    <para id="element-742">Supongamos que la hipótesis nula, <emphasis effect="italics">H<sub>0</sub></emphasis>, es: El equipo de escalada de Frank es seguro.</para>
+    <para id="element-905"><emphasis>Error tipo I</emphasis>: Frank piensa que su equipo de escalada puede no ser seguro cuando, en realidad, sí lo es. </para><para id="eip-871"><emphasis>Error tipo II</emphasis>: Frank cree que su equipo de escalada puede ser seguro cuando, en realidad, no lo es.</para><para id="element-821"><emphasis><emphasis effect="italics">α</emphasis> = probabilidad</emphasis> de que Frank piense que su equipo de escalada puede no ser seguro cuando, en realidad, sí lo es. <emphasis><emphasis effect="italics">β</emphasis> = probabilidad</emphasis> de que Frank piense que su equipo de escalada puede ser seguro cuando, en realidad, no lo es.</para><para id="element-239">Observe que, en este caso, el error con mayores consecuencias es el tipo II (si Frank cree que su equipo de escalada es seguro, lo utilizará).</para><para id="eip-158">Esta es una situación que se describe como “aceptar un falso nulo”. </para>
+  </example>
+
+
+  <example id="element-449"><para id="element-496">Supongamos que la hipótesis nula, <emphasis effect="italics">H<sub>0</sub></emphasis>, es: La víctima de un accidente de tráfico está viva cuando llega a la sala de urgencias de un hospital. Esto es el statu quo y no requiere ninguna acción si es verdadero. Si no se puede aceptar la hipótesis nula, es necesario actuar y el hospital iniciará los procedimientos adecuados.</para><para id="element-157"><emphasis>Error tipo I</emphasis>: El equipo de emergencia cree que la víctima está muerta cuando, en realidad, está viva. <emphasis>Error tipo II</emphasis>: El equipo de emergencia no sabe si la víctima está viva cuando, en realidad, está muerta.</para><para id="element-558"><emphasis><emphasis effect="italics">α</emphasis> = probabilidad</emphasis> de que el equipo de emergencias piense que la víctima está muerta cuando, en realidad, está viva = <emphasis effect="italics">P</emphasis>(error tipo I). <emphasis><emphasis effect="italics">β</emphasis> = probabilidad</emphasis> de que el equipo de emergencias no sepa si la víctima está viva cuando, en realidad, está muerta = <emphasis effect="italics">P</emphasis>(error tipo II).</para><para id="element-266">El error con mayores consecuencias es el error tipo I (si el equipo de emergencia cree que la víctima está muerta, no la atenderán).</para>
+  </example>
+
+ <note id="fs-idp97501776" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+
+<exercise id="eip-200"><problem id="eip-582">
+  <para id="eip-110">Supongamos que la hipótesis nula, <emphasis effect="italics">H<sub>0</sub></emphasis>, es un paciente no está enfermo. ¿Qué tipo de error tiene mayores consecuencias, el tipo I o el tipo II?</para></problem>
+<solution id="eip-251">
+  <para id="eip-447">El error con mayores consecuencias es el de tipo II: se creerá que el paciente está bien cuando, en realidad, está enfermo, por lo que no recibirá tratamiento.</para>
+</solution>
+  </exercise>
+
+ </note>
+
+<example id="eip-550"><para id="eip-646">Los laboratorios genéticos It’s a Boy afirman poder aumentar la probabilidad de elegir el sexo del bebé, en ese caso, masculino. Los estadísticos quieren poner a prueba esta afirmación. Supongamos que la hipótesis nula, <emphasis effect="italics">H<sub>0</sub></emphasis>, es: Los laboratorios genéticos It’s a Boy no tienen efecto en el resultado del sexo. El statu quo es que la afirmación es falsa. La carga de la prueba recae siempre en la persona que hace el reclamo, en este caso el laboratorio genético.</para><para id="eip-idp12866608"><emphasis>Error tipo I</emphasis>: Esto resulta cuando se rechaza una hipótesis nula verdadera. En el contexto de este escenario, afirmaríamos que creemos que los laboratorios genéticos It’s a Boy influyen en el resultado del sexo, cuando en realidad no tienen ningún efecto. La probabilidad de que se produzca este error se denota con la letra griega alfa, <emphasis effect="italics">α</emphasis>.</para><para id="eip-idp92458272"><emphasis>Error tipo II</emphasis>: Esto se produce cuando no se rechaza una hipótesis nula falsa. En el contexto, afirmaríamos que los laboratorios genéticos It’s a Boy no influyen en el resultado del sexo de un bebé cuando, de hecho, sí lo hacen. La probabilidad de que se produzca este error se denota con la letra griega beta, <emphasis effect="italics">β</emphasis>.</para><para id="eip-idp109344384">El error de mayor consecuencia sería el tipo I, ya que las parejas utilizarían el producto de los laboratorios genéticos It’s a Boy con la esperanza de aumentar las posibilidades de concebir un bebé de sexo masculino.</para>
+</example>
+
+  <note id="fs-idp114758848" class="statistics try"><label/><title>Ejercicio</title>
+<exercise id="eip-idp106437392">
+<problem id="eip-idm60347984">
+<para id="eip-326">La “marea roja” es una floración de algas productoras de veneno, algunas especies diferentes de un tipo de plancton llamado dinoflagelado. Cuando las condiciones meteorológicas y del agua provocan estas floraciones, los mariscos, como las almejas que viven en la zona, desarrollan niveles peligrosos de una toxina que induce parálisis. En Massachusetts, la División de Pesquerías Marinas (Division of Marine Fisheries, DMF) controla los niveles de la toxina en los mariscos mediante muestreos regulares de mariscos a lo largo de la costa. Si el nivel medio de toxina en las almejas supera los 800 μg (microgramos) de toxina por kg de carne de almeja en cualquier zona, se prohíbe la recolección de almejas de allí hasta que la floración haya terminado y los niveles de toxina en las almejas disminuyan. Describa un error tipo I y uno tipo II en este contexto e indique qué error tiene mayores consecuencias.</para></problem>
+
+<solution id="eip-idm2219792">
+    <para id="eip-372">En este escenario, una hipótesis nula adecuada sería <emphasis effect="italics">H<sub>0</sub></emphasis>: el nivel medio de toxinas es como máximo de 800 <emphasis effect="italics">μ</emphasis>g, <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis><sub>0</sub> ≤ 800 <emphasis effect="italics">μ</emphasis>g.</para><para id="eip-697"><emphasis>Error tipo I</emphasis>: La DMF cree que los niveles de toxina siguen siendo demasiado altos cuando, en realidad, son como máximo de 800 <emphasis effect="italics">μ</emphasis>g. La DMF mantiene la prohibición de recolección.</para><para id="eip-876"><emphasis>Error tipo II</emphasis>: La DMF cree que los niveles de toxina están dentro del rango aceptable (son al menos 800 <emphasis effect="italics">μ</emphasis>g) cuando, en realidad, siguen siendo demasiado altos (más de 800 <emphasis effect="italics">μ</emphasis>g). La DMF levanta la prohibición de recolección. Este error podría ser el más grave. Si se levanta la prohibición y las almejas siguen siendo tóxicas, los consumidores podrían ingerir alimentos contaminados.</para><para id="eip-503">En resumen, lo más peligroso sería cometer un error de tipo II, porque implica la disponibilidad de almejas contaminadas para el consumo.</para>
+  </solution>
+</exercise></note><example id="eip-168"><para id="eip-90">Un determinado fármaco experimental afirma tener una tasa de curación de, al menos, el 75 % para los hombres con cáncer de próstata. Describa los errores tipo I y tipo II en su contexto. ¿Cuál error es más grave?</para><para id="eip-141"><emphasis>Tipo I</emphasis>: Un paciente con cáncer cree que la tasa de curación del fármaco es inferior al 75 %, cuando en realidad es de, al menos, el 75 %.</para><para id="eip-695"><emphasis>Tipo II</emphasis>: Un paciente con cáncer cree que el fármaco experimental tiene un índice de curación de, al menos, el 75 % cuando su índice de curación es inferior al 75 %.</para><para id="eip-806">En este escenario, el error tipo II contiene la consecuencia más grave. Si un paciente cree que el fármaco funciona, al menos, el 75 % de las veces, lo más probable es que esto influya en la elección del paciente (y del médico) sobre la conveniencia de utilizar el fármaco como opción de tratamiento.</para></example>
+
+  <section id="eip-566" class="summary">
+    <title>Revisión del capítulo</title>
+
+    <para id="eip-483">En toda prueba de hipótesis, los resultados dependen de una interpretación correcta de los datos. Los cálculos incorrectos o el resumen de estadísticas mal entendidos pueden producir errores que afecten los resultados. Un error <emphasis>tipo I</emphasis> se produce cuando se rechaza una hipótesis nula verdadera. Un <emphasis>error tipo II</emphasis> se produce cuando no se rechaza una hipótesis nula falsa.</para>
+    <para id="eip-idm63626992">Las probabilidades de estos errores se indican con las letras griegas <emphasis effect="italics">α</emphasis> y <emphasis effect="italics">β</emphasis>, para un error tipo I y el tipo II, respectivamente. La potencia de la prueba, 1 – <emphasis effect="italics">β</emphasis>, cuantifica la probabilidad de que una prueba arroje el resultado correcto de que se acepte una hipótesis alternativa verdadera. Es deseable una alta potencia.</para></section>
+
+<section id="eip-832" class="practice">
+<exercise id="eip-308">
+  <problem id="eip-347">
+  <para id="eip-500">
+El precio medio de los automóviles de tamaño medio en una región es de 32.000 dólares. Se realiza una prueba para ver si la afirmación es cierta. Indique los errores tipo I y tipo II en oraciones completas.
+  </para>
+</problem>
+
+<solution id="eip-867">
+  <para id="eip-211">Tipo I: El precio medio de los automóviles de tamaño medio es de 32.000 dólares, pero concluimos que no es de 32.000 dólares.</para>
+<para id="eip-idp25290720">Tipo II: El precio medio de los automóviles de tamaño medio no es de 32.000 dólares, pero concluimos que es de 32.000 dólares.</para>
+</solution>
+</exercise>
+  <exercise id="eip-611"><problem id="eip-552">
+  <para id="eip-384">Un saco de dormir está probado para soportar temperaturas de –15 °F. Usted cree que el saco no puede soportar temperaturas tan bajas. Indique los errores tipo I y tipo II en oraciones completas.</para></problem></exercise><exercise id="eip-655"><problem id="eip-848">
+  <para id="eip-13">Para el <link target-id="eip-611">ejercicio 9.12</link>, ¿qué son <emphasis effect="italics">α</emphasis> y <emphasis effect="italics">β</emphasis> en palabras?
+  </para></problem>
+
+<solution id="eip-515">
+  <para id="eip-989"><emphasis effect="italics">α</emphasis> = la probabilidad de que piense que la bolsa no puede soportar –15 grados F, cuando en realidad sí puede
+  </para><para id="eip-idp30620656"><emphasis effect="italics">β</emphasis> = la probabilidad de que crea que la bolsa puede soportar –15 grados F, cuando en realidad no puede</para></solution>
+</exercise>
+
+  <exercise id="eip-106"><problem id="eip-423">
+  <para id="eip-659">En palabras, describa 1 – <emphasis effect="italics">β</emphasis> para el <link target-id="eip-611">ejercicio 9.12</link>.
+  </para></problem></exercise><exercise id="eip-861"><problem id="eip-338">
+  <para id="eip-46">Un grupo de médicos está decidiendo si realizan o no una operación. Supongamos que la hipótesis nula, <emphasis effect="italics">H<sub>0</sub></emphasis>, es: la intervención quirúrgica saldrá bien. Indique los errores tipo I y tipo II en oraciones completas.</para>
+</problem>
+
+<solution id="eip-89">
+  <para id="eip-371">
+Tipo I: El procedimiento saldrá bien, pero los médicos creen que no.
+  </para>
+<para id="eip-idp34803264">Tipo II: El procedimiento no saldrá bien, pero los médicos creen que sí.</para>
+</solution>
+</exercise><exercise id="eip-496"><problem id="eip-954">
+  <para id="eip-585">Un grupo de médicos está decidiendo si realizan o no una operación. Supongamos que la hipótesis nula, <emphasis effect="italics">H<sub>0</sub></emphasis>, es: la intervención quirúrgica saldrá bien. ¿Cuál es el error con mayores consecuencias?</para>
+</problem></exercise><exercise id="eip-404">
+    <problem id="eip-877">
+  <para id="eip-555">La potencia de una prueba es de 0,981. ¿Cuál es la probabilidad de un error tipo II?</para>
+</problem>
+
+<solution id="eip-740">
+  <para id="eip-598">0,019</para>
+</solution>
+</exercise><exercise id="eip-331"><problem id="eip-538">
+  <para id="eip-610">Un grupo de buzos está explorando un viejo barco hundido. Supongamos que la hipótesis nula, <emphasis effect="italics">H<sub>0</sub></emphasis>, es: el barco hundido no contiene un tesoro enterrado. Indique los errores tipo I y tipo II en oraciones completas.</para>
+</problem></exercise><exercise id="eip-967"><problem id="eip-943">
+  <para id="eip-304">Un microbiólogo está analizando una muestra de agua para identificar la presencia de E-coli. Supongamos que la hipótesis nula, <emphasis effect="italics">H<sub>0</sub></emphasis>, es: la muestra no contiene E-coli. La probabilidad de que la muestra no contenga E-coli, pero el microbiólogo cree que sí la contiene, es de 0,012. La probabilidad de que la muestra contenga E-coli, pero el microbiólogo piense que no es así, es de 0,002. ¿Cuál es la potencia de esta prueba?</para>
+</problem>
+
+<solution id="eip-525">
+  <para id="eip-61">0,998</para>
+</solution>
+  </exercise>
+
+  <exercise id="eip-424"><problem id="eip-826">
+  <para id="eip-258">Un microbiólogo está analizando una muestra de agua para identificar la presencia de E-coli. Supongamos que la hipótesis nula, <emphasis effect="italics">H<sub>0</sub></emphasis>, es: la muestra contiene E-coli. ¿Cuál es el error con mayores consecuencias?</para>
+</problem></exercise></section>
+
+
+<section id="fs-idp36704512" class="free-response">
+<title>Tarea para la casa</title>
+<exercise id="element-612">
+  <problem id="id8384344">
+  <para id="element-281">Indique los errores tipo I y tipo II en oraciones completas dadas las siguientes afirmaciones.</para>
+    <list id="fs-idm56908224" list-type="enumerated" number-style="lower-alpha">
+      <item>La media de años que los estadounidenses trabajan antes de jubilarse es de 34.</item>
+      <item>Como máximo, el 60 % de los estadounidenses vota en las elecciones presidenciales.</item>
+      <item>El salario medio inicial de los graduados de la Universidad Estatal de San José es de, al menos, 100.000 dólares al año.</item>
+      <item>El veintinueve por ciento de los estudiantes de último año de escuela secundaria se emborrachan cada mes.</item>
+      <item>Menos del 5 % de los adultos van en autobús al trabajo en Los Ángeles.</item>
+      <item>El número medio de automóviles que posee una persona a lo largo de su vida no es superior a diez.</item>
+      <item>Aproximadamente la mitad de los estadounidenses prefieren vivir lejos de las ciudades, si pueden elegir.</item>
+      <item>Los europeos tienen una media de seis semanas de vacaciones pagadas al año.</item>
+      <item>La probabilidad de desarrollar cáncer de mama es inferior al 11 % para las mujeres.</item>
+      <item>Las universidades privadas suponen un costo de matrícula de más de 20.000 dólares al año.</item>
+    </list>
+
+</problem>
+
+<solution id="eip-idm137925328">
+  <list id="fs-idm18858336" list-type="enumerated" number-style="lower-alpha">
+    <item>Error tipo I: concluimos que la media no es de 34 años, cuando realmente es de 34 años. Error tipo II: concluimos que la media es de 34 años, cuando en realidad no son 34 años.</item>
+      <item>Error tipo I: concluimos que más del 60 % de los estadounidenses votan en las elecciones presidenciales, cuando el porcentaje real es como máximo del 60 %. Error tipo II: concluimos que, como máximo, el 60 % de los estadounidenses vota en las elecciones presidenciales cuando, en realidad, lo hace más del 60 %.</item>
+      <item>Error tipo I: concluimos que el salario medio inicial es inferior a 100.000 dólares, cuando en realidad es de, al menos, 100.000 dólares. Error tipo II: concluimos que el salario medio inicial es de, al menos, 100.000 dólares, cuando, en realidad, es inferior a 100.000 dólares.</item>
+      <item>Error tipo I: concluimos que la proporción de estudiantes de último año de escuela secundaria que se emborrachan cada mes no es del 29 %, cuando realmente es del 29 %. Error tipo II: concluimos que la proporción de estudiantes de último año de escuela secundaria que se emborrachan cada mes es del 29 % cuando, en realidad, no es del 29 %.</item>
+      <item>Error tipo I: concluimos que menos del 5 % de los adultos van en autobús al trabajo en Los Ángeles, cuando el porcentaje que lo hace es realmente del 5 % o más. Error tipo II: concluimos que el 5 % o más de los adultos van en autobús al trabajo en Los Ángeles cuando, en realidad, lo hace menos del 5 %. </item>
+      <item>Error tipo I: concluimos que el número medio de automóviles que posee una persona a lo largo de su vida es superior a 10, cuando en realidad no es más de 10. Error tipo II: concluimos que el número medio de automóviles que posee una persona a lo largo de su vida no es superior a 10 cuando, en realidad, sí es más de 10.</item>
+      <item>Error tipo I: concluimos que la proporción de estadounidenses que prefieren vivir lejos de las ciudades no es cerca de la mitad, aunque la proporción real es de aproximadamente la mitad. Error tipo II: concluimos que la proporción de estadounidenses que prefieren vivir lejos de las ciudades es la mitad cuando, en realidad, no es la mitad.</item>
+      <item>Error tipo I: concluimos que la duración de las vacaciones pagadas al año para los europeos no es de seis semanas, cuando en realidad sí lo es. Error tipo II: concluimos que la duración de las vacaciones pagadas al año para los europeos es de seis semanas cuando, en realidad, no es así.</item>
+      <item>Error tipo I: concluimos que la proporción es inferior al 11 %, cuando en realidad es como mínimo el 11 %. Error tipo II: concluimos que la proporción de mujeres que desarrollan cáncer de mama es de, al menos, el 11 %, cuando en realidad es menos del 11 %.</item>
+      <item>Error tipo I: concluimos que el costo promedio de la matrícula en las universidades privadas es superior a 20.000 dólares, aunque en realidad es como máximo de 20.000 dólares. Error tipo II: concluimos que el costo promedio de la matrícula en universidades privadas es como máximo de 20.000 dólares, cuando en realidad es de más de 20.000 dólares.</item>
+  </list>
+</solution>
+</exercise>
+
+  <exercise id="element-231"><problem id="id8395653">
+  <para id="element-818">Para los enunciados de la a a la j del <link target-id="element-612">ejercicio 9.109</link>, responda a lo siguiente con oraciones completas.</para><list id="element-295" list-type="enumerated" number-style="lower-alpha">
+    <item>Indique una consecuencia de cometer un error tipo I.</item>
+    <item>Indique una consecuencia de cometer un error tipo II.</item>
+  </list>
+</problem></exercise><exercise id="exer10">
+<problem id="id9404374">
+<para id="id8618928">Cuando se crea un nuevo medicamento la compañía farmacéutica debe someterlo a pruebas antes de recibir el permiso necesario de la Administración de Alimentos y Medicamentos (Food and Drug Administration, FDA) para comercializarlo. Supongamos que la hipótesis nula es “el medicamento no es seguro”. ¿Cuál es el error tipo II?</para>
+  <list id="id5046364" list-type="enumerated" number-style="lower-alpha">
+    <item>Concluir que el fármaco es seguro cuando, en realidad, es inseguro.</item>
+    <item>No concluir que el medicamento es seguro cuando, de hecho, lo es.</item>
+    <item>Concluir que el medicamento es seguro cuando, de hecho, lo es.</item>
+    <item>No concluir que el medicamento es inseguro cuando, de hecho, lo es.</item>
+  </list>
+</problem>
+<solution id="id9404499">
+<para id="paragraphs">b</para></solution>
+</exercise>
+
+<exercise id="exer15"><problem id="id8184871"><para id="id8435364">Un instructor de Estadística cree que menos del 20 % de los estudiantes del Evergreen Valley College (EVC) asistieron al estreno de la última película de Harry Potter a medianoche. Hace una encuesta entre 84 de sus estudiantes y halla que 11 de ellos asistieron a la proyección de medianoche. El error tipo I consiste en concluir que el porcentaje de estudiantes de EVC que asistieron es ________.</para>
+  <list id="id7995329" list-type="enumerated" number-style="lower-alpha">
+    <item>al menos el 20 %, cuando en realidad es menos del 20 %.</item>
+    <item>20 %, cuando en realidad es el 20 %.</item>
+    <item>menos del 20 %, cuando en realidad es, al menos, el 20 %.</item>
+    <item>menos del 20 %, cuando en realidad es menos del 20 %.</item>
+  </list>
+  </problem></exercise><exercise id="exer17"><problem id="id8185396">
+<para id="eip-idm45808736">Se cree que los estudiantes de Álgebra Intermedia del Lake Tahoe Community College (LTCC) duermen menos de siete horas por noche, en promedio. Una encuesta realizada a 22 estudiantes de Álgebra Intermedia del LTCC generó una media de 7,24 horas con una desviación típica de 1,93 horas. A un nivel de significación del 5 %, ¿los estudiantes de Álgebra Intermedia del LTCC duermen menos de siete horas por noche, en promedio?</para>
+<para id="id4936080">El error tipo II consiste en no rechazar que el número medio de horas de sueño de los estudiantes del LTCC por noche es de, al menos, siete cuando, en realidad, el número medio de horas</para>
+  <list id="id8434145" list-type="enumerated" number-style="lower-alpha">
+    <item>es más de siete horas.</item>
+    <item>es, como máximo, siete horas.</item>
+    <item>es de, al menos, siete horas.</item>
+    <item>es inferior a siete horas.</item>
+  </list>
+
+</problem>
+
+<solution id="id8185494"><para id="parrrra">d</para></solution>
+</exercise><exercise id="exer20"><problem id="id8186343"><para id="id9140322">Anteriormente, una organización informó que los adolescentes pasaban 4,5 horas a la semana, en promedio, al teléfono. La organización cree que, actualmente, la media es más alta. Se preguntó a quince adolescentes elegidos al azar cuántas horas a la semana pasaban al teléfono. La media muestral fue de 4,75 horas con una desviación típica de la muestra de 2,0. Al realizar una prueba de hipótesis, el error tipo I es:</para><list id="id9140329" list-type="enumerated" number-style="lower-alpha"><item>concluir que la media actual de horas semanales es superior a 4,5, cuando en realidad es superior</item>
+    <item>concluir que la media actual de horas semanales es superior a 4,5, cuando en realidad es igual.</item>
+    <item>concluir que la media de horas semanales es actualmente de 4,5, cuando en realidad es mayor</item>
+    <item>concluir que la media de horas semanales actualmente no es superior a 4,5, cuando en realidad no es superior</item></list></problem></exercise></section>
+
+ </content>
+<glossary>
+<definition id="type1err">
+    <term>Error de tipo I</term>
+    <meaning id="id2292288">La decisión es rechazar la hipótesis nula cuando, de hecho, es verdadera.
+    </meaning>
+  </definition>
+
+
+<definition id="type2err">
+    <term>Error de tipo II</term>
+    <meaning id="id1169217218486">La decisión es no rechazar la hipótesis nula cuando, de hecho, es falsa.
+    </meaning>
+</definition>
+
+
+</glossary>
+</document>

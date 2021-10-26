@@ -1,0 +1,594 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>La ecuación de regresión</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47117</md:content-id>
+  <md:title>La ecuación de regresión</md:title>
+  <md:abstract/>
+  <md:uuid>fd60680f-dbb7-4a97-84b8-f352c3a6c141</md:uuid>
+</metadata>
+
+<content>
+    <para id="element-38111">Los datos rara vez se ajustan exactamente a una línea recta. Por lo general, hay que conformarse con predicciones aproximadas. Normalmente, se tiene un conjunto de datos cuyo diagrama de dispersión parece <emphasis>"ajustarse"</emphasis> a una línea recta. Esto se llama <term id="term-00001">línea de mejor ajuste</term> <emphasis>o</emphasis> <term id="term-00002">línea de mínimos cuadrados</term>.</para><note id="fs-idm66386384" class="statistics collab"><label/> 
+<para id="element-900">Si conoce la longitud del dedo meñique (el más pequeño) de una persona, ¿cree que podría predecir su altura? Recopile los datos de su clase (longitud del dedo meñique, en pulgadas). La variable independiente, <emphasis effect="italics">x</emphasis>, es la longitud del dedo meñique y la variable dependiente, <emphasis effect="italics">y</emphasis>, es la altura. Para cada conjunto de datos, trace los puntos en papel cuadriculado. Haga su gráfico lo suficientemente grande y <emphasis>utilice una regla</emphasis>. Luego, "a ojo", dibuja una línea que parezca "ajustarse" a los datos. Para su línea, elija dos puntos convenientes y utilícelos para calcular la pendiente de la línea. Halle la intersección en <emphasis effect="italics">y</emphasis> de la línea extendiendo su línea para que cruce el eje de la <emphasis effect="italics">y</emphasis>. Con las pendientes y las intersecciones en <emphasis effect="italics">y</emphasis>, escriba su ecuación de "mejor ajuste". ¿Cree que todos tendrán la misma ecuación? ¿Por qué sí o por qué no? Según su ecuación, ¿cuál es la altura prevista para una longitud del meñique de 2,5 pulgadas?
+</para></note><example id="element-22"><para id="element-998">Una muestra aleatoria de 11 estudiantes de Estadística produjo los siguientes datos, donde <emphasis effect="italics">x</emphasis> es la calificación del tercer examen sobre 80, y <emphasis effect="italics">y</emphasis> es la calificación del examen final sobre 200. ¿Puede predecir la nota del examen final de un estudiante al azar si conoce la nota del tercer examen?</para>
+
+
+
+<table id="element-50" summary="">
+<tgroup cols="2"><thead>
+  <row>
+    <entry>x (calificación del tercer examen)</entry>
+    <entry>y (calificación del examen final)</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>65</entry>
+    <entry>175</entry>
+  </row>
+  <row>
+    <entry>67</entry>
+    <entry>133</entry>
+  </row>
+  <row>
+    <entry>71</entry>
+    <entry>185</entry>
+  </row>
+  <row>
+    <entry>71</entry>
+    <entry>163</entry>
+  </row>
+  <row>
+    <entry>66</entry>
+    <entry>126</entry>
+  </row>
+  <row>
+    <entry>75</entry>
+    <entry>198</entry>
+  </row>
+  <row>
+    <entry>67</entry>
+    <entry>153</entry>
+  </row>
+  <row>
+    <entry>70</entry>
+    <entry>163</entry>
+  </row>
+  <row>
+    <entry>71</entry>
+    <entry>159</entry>
+  </row>
+  <row>
+    <entry>69</entry>
+    <entry>151</entry>
+  </row>
+  <row>
+    <entry>69</entry>
+    <entry>159</entry>
+  </row>
+</tbody>
+
+</tgroup>
+<caption>Tabla que muestra las calificaciones del examen final basadas en las calificaciones del tercer examen.</caption>
+</table>
+
+
+
+<figure id="eip-idm440920048">
+<media id="id1164262330756" alt="Este es un diagrama de dispersión de los datos proporcionados. La calificación del tercer examen se representa en el eje x y la del examen final en el eje y. Los puntos forman un patrón fuerte, positivo y lineal."><image src="../../media/fig-ch12_05_01.jpg" mime-type="image/jpeg" width="380"/></media>
+<caption>Diagrama de dispersión que muestra las calificaciones del examen final con base en las del tercer examen.</caption>
+</figure></example><note id="fs-idp122176240" class="statistics try finger">
+<label/>
+<title>Ejercicio</title>
+<exercise id="eip-397"><problem id="eip-266">
+  <para id="eip-937">Los buceadores tienen tiempos máximos de inmersión que no pueden superar cuando van a diferentes profundidades. Los datos en la <link target-id="eip-idm70490496" document=""/> muestran diferentes profundidades con los tiempos máximos de inmersión en minutos. Use su calculadora para hallar la línea de regresión de mínimos cuadrados y predecir el tiempo máximo de inmersión para 110 pies.</para><table id="eip-idm70490496" summary="">
+<tgroup cols="2">
+<thead><row><entry><emphasis effect="italics">X</emphasis> (profundidad en pies)</entry>	<entry><emphasis effect="italics">Y</emphasis> (tiempo máximo de inmersión)</entry></row></thead>
+<tbody>
+<row><entry>50</entry>	<entry>80</entry></row>
+<row><entry>60</entry>	<entry>55</entry></row>
+<row><entry>70</entry>	<entry>45</entry></row>
+<row><entry>80</entry>	<entry>35</entry></row>
+<row><entry>90</entry>	<entry>25</entry></row>
+<row><entry>100</entry>	<entry>22</entry></row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+</exercise>
+
+</note>
+
+<para id="eip-892">La puntuación del tercer examen, <emphasis effect="italics">x</emphasis>, es la variable independiente y la puntuación del examen final, <emphasis effect="italics">y</emphasis>, es la variable dependiente. Trazaremos la línea de regresión que mejor se "ajuste" a los datos. Si cada uno de ustedes ajustara una línea "a ojo", trazarían líneas diferentes. Podemos utilizar lo que se llama una <term id="term-00003">línea de regresión por mínimos cuadrados</term> para obtener la línea de mejor ajuste.</para><para id="element-644">Considere el siguiente diagrama. Cada punto de los datos tiene la forma (<emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>) y cada punto de la línea de mejor ajuste utilizando la regresión lineal por mínimos cuadrados tiene la forma (<emphasis effect="italics">x</emphasis>, <emphasis effect="italics">ŷ</emphasis>).</para><para id="element-51">La <emphasis effect="italics">ŷ</emphasis> se lee <emphasis>"estimador de <emphasis effect="italics">y</emphasis>"</emphasis>, a la vez que es el <emphasis>valor estimado de <emphasis effect="italics">y</emphasis></emphasis>. Es el valor de <emphasis effect="italics">y</emphasis> obtenido mediante la línea de regresión. Generalmente no es igual a la <emphasis effect="italics">y</emphasis> de los datos.</para><para id="element-530"><figure id="linrgs_regeq2"><media id="id1164271221679" alt="El diagrama de dispersión de las calificaciones de los exámenes con una línea de mejor ajuste. Un punto de datos se resalta junto con el punto correspondiente en la línea de mejor ajuste. Ambos puntos tienen la misma coordenada x. La distancia entre estos dos puntos ilustra cómo calcular la suma de errores al cuadrado."><image src="../../media/fig-ch12_05_02.jpg" mime-type="image/jpeg" width="380"/></media></figure></para>
+<para id="element-621">El término <emphasis effect="italics">y</emphasis><sub>0</sub> - <emphasis effect="italics">ŷ</emphasis><sub>0</sub> = <emphasis effect="italics">ε</emphasis><sub>0</sub> se denomina <emphasis>"error" o</emphasis> <term id="term-00004">residual</term>. No es un error en el sentido de una equivocación. El <term id="term-00005">valor absoluto del residual</term> mide la distancia vertical entre el valor real de <emphasis effect="italics">y</emphasis>, además del valor estimado de <emphasis effect="italics">y</emphasis>. En otras palabras, mide la distancia vertical entre el punto de datos real y el punto previsto en la línea.</para><para id="eip-462">Si el punto de datos observado se encuentra por encima de la línea, el residuo es positivo y la línea subestima el valor real de los datos para <emphasis effect="italics">y</emphasis>. Si el punto de datos observado se encuentra por debajo de la línea, el residuo es negativo y la línea sobreestima ese valor de datos real para <emphasis effect="italics">y</emphasis>.</para>
+<para id="eip-104">En el diagrama de la <link target-id="linrgs_regeq2" document=""/>, <emphasis effect="italics">y</emphasis><sub>0</sub> - <emphasis effect="italics">ŷ</emphasis><sub>0</sub> = ε<sub>0</sub> es el residual del punto mostrado. Aquí el punto está por encima de la línea y el residuo es positivo.</para><para id="element-756"><emphasis effect="italics">ε</emphasis> = la letra griega <emphasis>épsilon</emphasis></para>
+<para id="element-15">Para cada punto de datos, puede calcular los residuales o errores, <emphasis effect="italics">y</emphasis><sub>i</sub> - <emphasis effect="italics">ŷ</emphasis><sub>i</sub> = <emphasis effect="italics">ε</emphasis><sub>i</sub> para <emphasis effect="italics">i</emphasis> = 1, 2, 3, ..., 11.</para><para id="element-670">Cada |<emphasis effect="italics">ε</emphasis>| es una distancia vertical.</para><para id="element-610">Para el ejemplo de las puntuaciones del tercer examen y del examen final de los 11 estudiantes de Estadística, hay 11 puntos de datos. Por lo tanto, hay 11 valores <emphasis effect="italics">ε</emphasis>. Si se eleva al cuadrado cada ε y se suma, se obtiene</para><para id="element-575">Los términos <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:msub>
+     <m:mi>ε</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:msub>
+     <m:mi>ε</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>...</m:mn><m:mo>+</m:mo><m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:msub>
+     <m:mi>ε</m:mi>
+     <m:mrow>
+      <m:mn>11</m:mn>
+     </m:mrow>
+    </m:msub>
+    <m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:mover>
+   <m:mrow>
+    <m:munder>
+     <m:mi>Σ</m:mi>
+     <m:mrow>
+      <m:mi>i</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>1</m:mn>
+     </m:mrow>
+    </m:munder>
+
+   </m:mrow>
+   <m:mrow>
+    <m:mn>11</m:mn>
+   </m:mrow>
+  </m:mover>
+  <m:msup>
+   <m:mi>ε</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math></para>
+<para id="element-215">Esto se denomina <term id="term-00006">suma de errores al cuadrado (Sum of Squared Errors, SSE)</term>.</para><para id="element-640">Utilizando el cálculo, puede determinar los valores de <emphasis effect="italics">a</emphasis> y <emphasis effect="italics">b</emphasis> que hacen que la <emphasis>SSE</emphasis> sea un mínimo. Cuando hace la <emphasis>SSE</emphasis> un mínimo, ha determinado los puntos que están en la línea de mejor ajuste. Resulta que la línea de mejor ajuste tiene la ecuación:
+</para>
+
+<equation class="unnumbered" id="element-710"><label/>Los términos <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>y</m:mi>
+   <m:mo>^</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi>
+ </m:mrow>
+</m:math>
+</equation><para id="element-716">donde <m:math>
+ <m:mrow>
+  <m:mi>a</m:mi><m:mo>=</m:mo><m:mover accent="true">
+   <m:mi>y</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>-</m:mo><m:mi>b</m:mi><m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+   </m:mrow>
+</m:math> y <m:math>
+ <m:mrow>
+  <m:mi>b</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>Σ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mover accent="true">
+     <m:mi>x</m:mi>
+     <m:mo>¯</m:mo>
+    </m:mover>
+    <m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>-</m:mo><m:mover accent="true">
+     <m:mi>y</m:mi>
+     <m:mo>¯</m:mo>
+    </m:mover>
+    <m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mrow>
+    <m:mi>Σ</m:mi><m:msup>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mover accent="true">
+       <m:mi>x</m:mi>
+       <m:mo>¯</m:mo>
+      </m:mover>
+      <m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>.</para><para id="element-153">Las medias muestrales de los valores <emphasis effect="italics">x</emphasis> y los valores <emphasis effect="italics">y</emphasis> son <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math> y <m:math>
+ <m:mover accent="true">
+  <m:mi>y</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math>, respectivamente. La línea de mejor ajuste siempre pasa por el punto <m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>,</m:mo><m:mover accent="true">
+   <m:mi>y</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>.</para><para id="element-414">La pendiente <emphasis effect="italics">b</emphasis> puede escribirse como <m:math>
+ <m:mrow>
+  <m:mi>b</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:msub>
+       <m:mi>s</m:mi>
+       <m:mi>y</m:mi>
+      </m:msub>
+
+     </m:mrow>
+     <m:mrow>
+      <m:msub>
+       <m:mi>s</m:mi>
+       <m:mi>x</m:mi>
+      </m:msub>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> donde <emphasis effect="italics">s</emphasis><sub><emphasis effect="italics">y</emphasis></sub> = la desviación típica de los valores de <emphasis effect="italics">y</emphasis> y <emphasis effect="italics">s</emphasis><sub><emphasis effect="italics">x</emphasis></sub> = la desviación típica de los valores <emphasis effect="italics">x</emphasis>. <emphasis effect="italics">r</emphasis> es el coeficiente de correlación, que se analiza en la siguiente sección.</para>
+
+
+<section id="fs-idm120169264">
+<title>Criterio de mínimos cuadrados para el mejor ajuste</title>
+<para id="eip-996">El proceso de ajuste de la línea de mejor ajuste se denomina <emphasis>regresión lineal</emphasis>. La idea de hallar la línea de mejor ajuste se basa en la suposición de que los datos están dispersos alrededor de una línea recta. El criterio para la línea de mejor ajuste es que la suma de errores al cuadrado (SSE) se minimice, es decir, que sea lo más pequeña posible. Cualquier otra línea que se elija tendrá una SSE mayor que la línea de mejor ajuste. Esta línea de mejor ajuste se denomina <emphasis> línea de regresión por mínimos cuadrados </emphasis>.</para>
+
+<note id="id1164273503037" class="finger"><label/><title>Nota</title>
+<para id="fs-idp15798576">Las hojas de cálculo, los programas estadísticos y muchas calculadoras pueden calcular rápidamente la línea de mejor ajuste y crear los gráficos. Los cálculos suelen ser tediosos si se hacen a mano. Al final de esta sección se muestran las instrucciones para utilizar las calculadoras TI-83, TI-83+ y TI-84+ para hallar la línea de mejor ajuste y crear un diagrama de dispersión.</para></note><para id="element-27">
+<title>EJEMPLO DEL TERCER EXAMEN versus el EXAMEN FINAL:</title>
+El gráfico de la línea de mejor ajuste para el ejemplo del tercer examen o examen final es el siguiente:</para>
+
+<figure id="linrgs_regeq3"><media id="id1164250764889" alt="El diagrama de dispersión de las calificaciones de los exámenes con una línea de mejor ajuste. Un punto de datos se resalta junto con el punto correspondiente en la línea de mejor ajuste."><image src="../../media/fig-ch12_05_03.jpg" mime-type="image/jpeg" width="380"/></media></figure><para id="element-689">La línea de regresión de mínimos cuadrados (línea de mejor ajuste) para el ejemplo del tercer examen o examen final viene dada por la ecuación:</para>
+<equation class="unnumbered" id="element-643"><label/>Los términos <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>y</m:mi>
+   <m:mo>^</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mo>- −</m:mo><m:mn>173,51</m:mn><m:mo>+</m:mo><m:mn>4,83</m:mn><m:mi>x</m:mi>
+ </m:mrow>
+</m:math></equation>
+
+<note id="eip-923"><label/><title>Recordatorio</title>
+
+<para id="fs-idp965680">Recuerde que siempre es importante trazar primero un diagrama de dispersión. Si el diagrama de dispersión indica que existe una relación lineal entre las variables, entonces es razonable utilizar una línea de mejor ajuste para hacer predicciones para <emphasis effect="italics">y</emphasis> dada <emphasis effect="italics">x</emphasis> dentro del dominio de los valores de <emphasis effect="italics">x</emphasis> en los datos de la muestra, <emphasis>pero no necesariamente para los valores de <emphasis effect="italics">x</emphasis></emphasis> fuera de ese dominio. Podría utilizar la línea para predecir la puntuación del examen final de un estudiante que obtuvo una puntuación de 73 en el tercer examen. NO debería utilizar la línea para predecir la puntuación del examen final de un estudiante que obtuvo una puntuación de 50 en el tercer examen, porque 50 no está dentro del dominio de los valores de <emphasis effect="italics">x</emphasis> de los datos de la muestra, que están entre 65 y 75.</para>
+</note></section>
+
+<section id="fs-idp153906304">
+<title>ENTENDER LA PENDIENTE</title>
+<para id="element-39">La pendiente de la línea, <emphasis effect="italics">b</emphasis>, describe cómo se relacionan los cambios en las variables. Es importante interpretar la pendiente de la línea en el contexto de la situación representada por los datos. Debería ser capaz de escribir una frase interpretando la pendiente en inglés sencillo.</para>
+
+<para id="element-725">
+<emphasis>INTERPRETACIÓN DE LA PENDIENTE:</emphasis> La pendiente de la línea de mejor ajuste nos indica cómo cambia la variable dependiente (<emphasis effect="italics">y</emphasis>) por cada incremento unitario de la variable independiente (<emphasis effect="italics">x</emphasis>), en promedio. </para>
+
+<para id="fs-idm33827856"><title>EJEMPLO DEL TERCER EXAMEN versus el EXAMEN FINAL</title>Pendiente: La pendiente de la línea es <emphasis effect="italics">b</emphasis> = 4,83. <newline/>Interpretación: Por un aumento de un punto en la puntuación del tercer examen, la puntuación del examen final aumenta en 4,83 puntos, en promedio.
+</para><note id="fs-idm68284544" class="statistics calculator">
+<label/>
+<para id="eip-772">Uso de la prueba T de regresión lineal: LinRegTTest<newline count="2"/></para><list id="eip-480" list-type="enumerated" number-style="arabic"><item> En el editor de listas STAT, introduzca los datos X en la lista L1 y los datos Y en la lista L2, emparejados de forma que los valores(<emphasis effect="italics">x</emphasis>,<emphasis effect="italics">y</emphasis>) correspondientes estén uno al lado del otro en las listas. (Si un par de valores concreto se repite, introdúzcalo tantas veces como aparezca en los datos).</item>
+<item> En el menú STAT TESTS, desplácese hacia abajo con el cursor para seleccionar LinRegTTest. (Tenga cuidado al seleccionar LinRegTTest, ya que algunas calculadoras pueden tener también un elemento diferente llamado LinRegTInt).</item>
+<item>En la pantalla de entrada de LinRegTTest introduzca: Xlist: L1 ; Ylist: L2 ; Freq: 1</item>
+<item>En la línea siguiente, en la indicación <emphasis effect="italics">β</emphasis> o <emphasis effect="italics">ρ</emphasis>, resalte "≠ 0" y pulse ENTER</item>
+<item>Deje en blanco la línea de "RegEq:"</item>
+<item>Resalte Calculate y pulse ENTER.</item>
+</list><figure id="linregttestscreens"><media id="id53013501" alt="1. Imagen de la pantalla de entrada de la calculadora para LinRegTTest con la entrada que coincide con las instrucciones anteriores. 2. Imagen de la pantalla de salida de la calculadora correspondiente a LinRegTTest: La pantalla de salida muestra: Línea 1. LinRegTTest; Línea 2. y = a + bx; Línea 3. beta no es igual a 0 y rho no es igual a 0; Línea 4. t = 2,657560155; Línea 5. df = 9; Línea 6. a = 173,513363; Línea 7. b = 4,827394209; Línea 8. s = 16,41237711; Línea 9. r al cuadrado = ,4396931104; Línea 10. r = ,663093591"><image src="../../media/fig-ch12_05_04.jpg" mime-type="image/jpeg" width="380"/></media></figure>
+
+<para id="eip-640">La pantalla de salida contiene mucha información. Por ahora nos centraremos en algunos elementos de la salida, y volveremos más tarde a los demás elementos. <newline/>La segunda línea señala <emphasis effect="italics">y</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>. Desplácese hacia abajo para hallar los valores <emphasis effect="italics">a</emphasis> = -173,513, y <emphasis effect="italics">b</emphasis> = 4,8273; la ecuación de la línea de mejor ajuste es <emphasis effect="italics">ŷ</emphasis> = -173,51 + 4,83<emphasis effect="italics">x</emphasis> <newline/>Los dos elementos de la parte inferior son <emphasis effect="italics">r</emphasis><sub>2</sub> = 0,43969 y <emphasis effect="italics">r</emphasis> = 0,663. Por ahora, basta con observar dónde hallar estos valores; los analizaremos en las dos próximas secciones.
+</para>
+
+<para id="eip-630">Graficar el diagrama de dispersión y la línea de regresión<newline count="2"/></para><list id="eip-763" list-type="enumerated" number-style="arabic"><item>Suponemos que sus datos X ya están introducidos en la lista L1 y sus datos Y están en la lista L2</item>
+<item>Pulse 2nd STATPLOT ENTER para utilizar Plot 1</item>
+<item>En la pantalla de entrada de PLOT 1, resalte <emphasis>On</emphasis>, y pulse ENTER</item>
+<item>Para TYPE: resalte el primer icono que es el diagrama de dispersión y pulse ENTER</item>
+<item>Indique Xlist: L1 y Ylist: L2</item>
+<item>Para Mark: no importa el símbolo que resalte.</item>
+<item> Pulse la tecla ZOOM y luego el número 9 (para la opción de menú "ZoomStat"); la calculadora ajustará la ventana a los datos </item>
+<item> Para graficar la línea de mejor ajuste, presione la tecla "Y=" y escriba la ecuación -173,5 + 4,83X en la ecuación Y1. (La tecla X está inmediatamente a la izquierda de la tecla STAT). Vuelva a pulsar ZOOM 9 para graficarla. </item>
+<item>Opcional: Si desea cambiar la ventana de visualización, pulse la tecla WINDOW. Introduzca la ventana deseada mediante Xmin, Xmax, Ymin, Ymax</item></list></note>
+
+<note id="fs-idm135623232"><label/><title>NOTA</title>
+<para id="fs-idm70635232">Otra forma de graficar la línea después de crear un diagrama de dispersión es utilizar LinRegTTest <list id="eip-idm46438656" list-type="enumerated" number-style="arabic">
+<item>Asegúrese de haber hecho el diagrama de dispersión. Compruébelo en su pantalla.</item>
+<item>Vaya a LinRegTTest e introduzca las listas.</item>
+<item>En RegEq: pulse VARS y la flecha hacia Y-VARS. Pulse 1 para 1:Function. Pulse 1 para 1:Y1. A continuación, use la fecha hacia abajo a Calculate y haga el cálculo de la línea de mejor ajuste.</item>
+<item>Pulse Y = (verá la ecuación de regresión).</item>
+<item>Pulse GRAPH. Se trazará la línea". </item>
+</list></para>
+
+</note></section>
+
+<section id="eip-737">
+<title>El coeficiente de correlación <emphasis effect="italics">r</emphasis></title>
+<para id="element-12345">Además de mirar el diagrama de dispersión y ver que una línea parece razonable, ¿cómo se puede saber si la línea es un buen predictor? Utilice el coeficiente de correlación como otro indicador (además del diagrama de dispersión) de la fuerza de la relación entre <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">y</emphasis>.</para>
+<para id="eip-357">El <emphasis>coeficiente de correlación, <emphasis effect="italics">r</emphasis> </emphasis>, desarrollado por Karl Pearson a principios del siglo XX, es numérico y proporciona una medida de la fuerza y la dirección de la asociación lineal entre la variable independiente <emphasis effect="italics">x</emphasis> y la variable dependiente <emphasis effect="italics">y</emphasis>.
+</para>
+
+<para id="eip-344">El coeficiente de correlación se calcula como</para>
+<para id="element-48"><equation class="unnumbered" id="eip-id4561593"><label/>Los términos <m:math>
+ <m:mrow>
+  <m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>n</m:mi><m:mi>Σ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo>-</m:mo><m:mo stretchy="false">(</m:mo><m:mi>Σ</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>Σ</m:mi><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mrow>
+    <m:msqrt>
+     <m:mrow>
+      <m:mrow><m:mo>[</m:mo> <m:mrow>
+       <m:mi>n</m:mi><m:mi>Σ</m:mi><m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>-</m:mo><m:msup>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:mi>Σ</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:msup>
+
+      </m:mrow> <m:mo>]</m:mo></m:mrow><m:mrow><m:mo>[</m:mo> <m:mrow>
+       <m:mi>n</m:mi><m:mi>Σ</m:mi><m:msup>
+        <m:mi>y</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>-</m:mo><m:msup>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:mi>Σ</m:mi><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:msup>
+
+      </m:mrow> <m:mo>]</m:mo></m:mrow>
+     </m:mrow>
+    </m:msqrt>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-363">donde <emphasis effect="italics">n</emphasis> = el número de puntos de datos.</para>
+
+<para id="element-447">Si se sospecha que existe una relación lineal entre <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">y</emphasis>, entonces <emphasis effect="italics">r</emphasis> puede medir la fuerza de la relación lineal.</para>
+
+<para id="fs-idm19432640"><title>Lo que nos dice el VALOR de <emphasis effect="italics">r</emphasis>:</title>
+<list id="eip-828"><item>El valor de <emphasis effect="italics">r</emphasis> está siempre entre -1 y +1: -1 ≤ <emphasis effect="italics">r</emphasis> ≤ 1.</item>
+<item>El tamaño de la correlación <emphasis effect="italics">r</emphasis> indica la fuerza de la relación lineal entre <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">y</emphasis>. Los valores de <emphasis effect="italics">r</emphasis> cercanos a -1 o a +1 indican una relación lineal más fuerte entre <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">y</emphasis>.</item>
+
+<item>Si <emphasis effect="italics">r</emphasis> = 0 es probable que no haya correlación lineal. Sin embargo, es importante ver el diagrama de dispersión, porque los datos que muestran un patrón curvo u horizontal pueden tener una correlación de 0.</item>
+<item>Si <emphasis effect="italics">r</emphasis> = 1, hay una correlación positiva perfecta. Si <emphasis effect="italics">r</emphasis> = –1, hay una correlación negativa perfecta. En ambos casos, todos los puntos de datos originales se encuentran en una línea recta. Por supuesto, en el mundo real, esto no suele ocurrir.</item>
+</list></para>
+
+<para id="fs-idp154948544">
+<title>Lo que nos dice el SIGNO de <emphasis effect="italics">r</emphasis></title>
+<list id="eip-269"><item>Un valor positivo de <emphasis effect="italics">r</emphasis> significa que cuando <emphasis effect="italics">x</emphasis> aumenta, <emphasis effect="italics">y</emphasis> tiende a aumentar y cuando <emphasis effect="italics">x</emphasis> disminuye, <emphasis effect="italics">y</emphasis> tiende a disminuir <emphasis>(correlación positiva)</emphasis>.</item>
+<item>Un valor negativo de <emphasis effect="italics">r</emphasis> significa que cuando <emphasis effect="italics">x</emphasis> aumenta, <emphasis effect="italics">y</emphasis> tiende a disminuir y cuando <emphasis effect="italics">x</emphasis> disminuye, <emphasis effect="italics">y</emphasis> tiende a aumentar <emphasis>(correlación negativa)</emphasis>.</item>
+<item>El signo de <emphasis effect="italics">r</emphasis> es el mismo que el de la pendiente, <emphasis effect="italics">b</emphasis>, de la línea de mejor ajuste.</item>
+</list>
+</para>
+
+<note id="eip-131"><label/><title>Nota</title>
+Una fuerte correlación no sugiere que <emphasis effect="italics">x</emphasis> sea la causa de <emphasis effect="italics">y</emphasis> o que <emphasis effect="italics">y</emphasis> sea la causa de <emphasis effect="italics">x</emphasis>. Decimos que <emphasis>“la correlación no implica causalidad”.</emphasis>
+</note><figure id="linrgs_facts_pics"><media id="eip-idp8185984" alt="Tres diagramas de dispersión con líneas de mejor ajuste. El primer diagrama de dispersión muestra puntos que ascienden desde la parte inferior izquierda hasta la superior derecha. La línea de mejor ajuste tiene pendiente positiva. El segundo diagrama de dispersión muestra los puntos que descienden desde la parte superior izquierda hasta la inferior derecha. La línea de mejor ajuste tiene pendiente negativa. El tercer diagrama de dispersión de puntos forma un patrón horizontal. La línea de mejor ajuste es una línea horizontal.">
+<image src="../../media/fig-ch12_06_01.jpg" mime-type="image/jpeg" width="380"/>
+</media>
+<caption>(a) Un diagrama de dispersión que muestra datos con una correlación positiva. 0 &lt; <emphasis effect="italics">r</emphasis> &lt; 1 (b) Un diagrama de dispersión que muestra datos con una correlación negativa. -1 &lt; <emphasis effect="italics">r</emphasis> &lt; 0 (c) Un diagrama de dispersión que muestra datos con una correlación cero. <emphasis effect="italics">r</emphasis> = 0</caption></figure></section>
+
+<para id="eip-696">La fórmula de <emphasis effect="italics">r</emphasis> parece formidable. Sin embargo, las hojas de cálculo, los programas estadísticos y muchas calculadoras pueden calcular rápidamente <emphasis effect="italics">r</emphasis>. El coeficiente de correlación <emphasis effect="italics">r</emphasis> es el elemento inferior de las pantallas de salida de LinRegTTest en la calculadora TI-83, TI-83+ o TI-84+ (vea la sección anterior para las instrucciones).</para>
+
+<section id="eip-117">
+<title>El coeficiente de determinación</title>
+<para id="eip-458"><emphasis>La variable <emphasis effect="italics">r</emphasis><sup>2</sup> se denomina el</emphasis> <term id="term-00007">coeficiente de determinación</term> y es el cuadrado del coeficiente de correlación, pero suele indicarse en porcentaje, en lugar de en forma decimal. Tiene una interpretación en el contexto de los datos:</para>
+<list id="eip-728"><item>Los términos <m:math>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>, cuando se expresa en porcentaje, representa el porcentaje de variación de la variable dependiente (predicha) <emphasis effect="italics">y</emphasis> que puede explicarse por la variación de la variable independiente (explicativa) <emphasis effect="italics">x</emphasis> utilizando la línea de regresión (de mejor ajuste).</item>
+<item>1 – <m:math><m:msup>
+ <m:mi>r</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>, cuando se expresa como porcentaje, representa el porcentaje de variación en <emphasis effect="italics">y</emphasis> que NO se explica por la variación en <emphasis effect="italics">x</emphasis> utilizando la línea de regresión. Esto puede verse como la dispersión de los puntos de datos observados en torno a la línea de regresión.</item>
+</list>
+
+<para id="fs-idp19642608">Considere el <link target-id="element-22">ejemplo del tercer examen o examen final</link> introducido en la sección anterior<newline/> <list id="eip-624" list-type="bulleted">
+<item>La línea de mejor ajuste es: <emphasis effect="italics">ŷ</emphasis> = -173,51 + 4,83x</item>
+ <item>El coeficiente de correlación es <emphasis effect="italics">r</emphasis> = 0,6631</item>
+<item>El coeficiente de determinación es <emphasis effect="italics">r</emphasis><sup>2</sup> = 0,6631<sup>2</sup> = 0,4397</item>
+
+<item><emphasis>Interpretación de <emphasis effect="italics">r</emphasis><sup>2</sup> en el contexto de este ejemplo:</emphasis></item>
+<item>Aproximadamente el 44 % de la variación (0,4397 es aproximadamente 0,44) en las calificaciones del examen final puede explicarse por la variación en las calificaciones del tercer examen, utilizando la línea de regresión de mejor ajuste.</item>
+<item>Por lo tanto, aproximadamente el 56 % de la variación (1 - 0,44 = 0,56) en las calificaciones del examen final NO puede explicarse por la variación en las calificaciones del tercer examen, utilizando la línea de regresión de mejor ajuste. (Esto se ve como la dispersión de los puntos alrededor de la línea).</item>
+</list></para></section>
+
+<section id="eip-993" class="summary">
+<title>Revisión del capítulo</title>
+<para id="fs-idm125375712">Una línea de regresión, o una línea de mejor ajuste, puede trazarse en un diagrama de dispersión y utilizarse para predecir los resultados de las variables <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">y</emphasis> en un conjunto de datos dado o datos de muestra. Hay varias formas de hallar una línea de regresión, pero normalmente se utiliza la línea de regresión por mínimos cuadrados porque crea una línea uniforme. Los residuos, también llamados "errores", miden la distancia entre el valor real de <emphasis effect="italics">y</emphasis> y el valor estimado de <emphasis effect="italics">y</emphasis>. La suma de errores al cuadrado, cuando se ajusta a su mínimo, calcula los puntos de la línea de mejor ajuste. Las líneas de regresión pueden utilizarse para predecir valores dentro del conjunto de datos dado, pero no deben utilizarse para hacer predicciones de valores fuera del conjunto de datos.</para>
+
+<para id="fs-idm137061632">El coeficiente de correlación <emphasis effect="italics">r</emphasis> mide la fuerza de la asociación lineal entre <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">y</emphasis>. La variable <emphasis effect="italics">r</emphasis> tiene que estar entre -1 y +1. Cuando <emphasis effect="italics">r</emphasis> es positivo, la <emphasis effect="italics">x</emphasis> y la <emphasis effect="italics">y</emphasis> tenderán a aumentar y disminuir juntas. Cuando <emphasis effect="italics">r</emphasis> es negativo, <emphasis effect="italics">x</emphasis> aumentará y <emphasis effect="italics">y</emphasis> disminuirá, o lo contrario, <emphasis effect="italics">x</emphasis> disminuirá y <emphasis effect="italics">y</emphasis> aumentará. El coeficiente de determinación <emphasis effect="italics">r</emphasis><sup>2</sup>, es igual al cuadrado del coeficiente de correlación. Cuando se expresa en porcentaje, <emphasis effect="italics">r</emphasis><sup>2</sup> representa el porcentaje de variación de la variable dependiente <emphasis effect="italics">y</emphasis> que puede explicarse por la variación de la variable independiente <emphasis effect="italics">x</emphasis> mediante la línea de regresión.</para></section>
+
+<section id="eip-234" class="practice">
+<para id="eip-399"><emphasis effect="italics">Use la siguiente información para responder los siguientes cinco ejercicios</emphasis>. Una muestra aleatoria de 10 deportistas profesionales arrojó los siguientes datos, donde la <emphasis effect="italics">x</emphasis> es el número de patrocinadores que tiene el jugador, mientras que la <emphasis effect="italics">y</emphasis> es la cantidad de dinero que gana (en millones de dólares).</para>
+<para id="eip-841"><table id="fs-idm76330016" summary="..">
+ 
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">y</emphasis></entry>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">y</emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>0</entry>
+<entry>2</entry>
+<entry>5</entry>
+<entry>12</entry>
+</row>
+<row>
+<entry>3</entry>
+<entry>8</entry>
+<entry>4</entry>
+<entry>9</entry>
+</row>
+<row>
+<entry>2</entry>
+<entry>7</entry>
+<entry>3</entry>
+<entry>9</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>3</entry>
+<entry>0</entry>
+<entry>3</entry>
+</row>
+<row>
+<entry>5</entry>
+<entry>13</entry>
+<entry>4</entry>
+<entry>10</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para><exercise id="eip-405"><problem id="eip-751">
+  <para id="eip-193">Dibuje un diagrama de dispersión de los datos.</para>
+</problem></exercise><exercise id="eip-141">
+<problem id="eip-445">
+  <para id="eip-40">Utilice la regresión para hallar la ecuación de la línea de mejor ajuste.</para></problem>
+
+<solution id="eip-780">
+  <para id="eip-377"><emphasis effect="italics">ŷ</emphasis> = 2,23 + 1,99<emphasis effect="italics">x</emphasis></para></solution>
+</exercise>
+
+<exercise id="eip-88"><problem id="eip-916">
+  <para id="eip-294">Dibuje la línea de mejor ajuste en el diagrama de dispersión.</para></problem></exercise><exercise id="eip-247">
+<problem id="eip-279">
+  <para id="eip-140">¿Cuál es la pendiente de la línea de mejor ajuste? ¿Qué representa?</para></problem>
+
+<solution id="eip-947">
+  <para id="eip-540">La pendiente es de 1,99 (<emphasis effect="italics">b</emphasis> = 1,99). Significa que por cada contrato de patrocinio que consigue un jugador profesional, obtiene un promedio de otros 1,99 millones de dólares de sueldo cada año.</para></solution>
+</exercise>
+
+<exercise id="eip-723"><problem id="eip-19">
+  <para id="eip-418">¿Cuál es la intersección en <emphasis effect="italics">y</emphasis> de la línea de mejor ajuste? ¿Qué representa?</para>
+</problem></exercise><exercise id="eip-976">
+<problem id="eip-554">
+  <para id="eip-24">¿Qué significa un valor <emphasis effect="italics">r</emphasis> de cero?</para>
+</problem>
+
+<solution id="eip-646">
+  <para id="eip-152">Significa que no hay correlación entre los conjuntos de datos.</para>
+</solution>
+</exercise>
+<exercise id="eip-339"><problem id="eip-736">
+  <para id="eip-818">Cuando <emphasis effect="italics">n</emphasis> = 2 y <emphasis effect="italics">r</emphasis> = 1, ¿son los datos significativos? Explique.</para>
+</problem></exercise><exercise id="eip-270"><problem id="eip-87">
+  <para id="fs-idp27546736">Cuando <emphasis effect="italics">n</emphasis> = 100 y <emphasis effect="italics">r</emphasis> = -0,89, ¿existe una correlación significativa? Explique.</para></problem>
+
+<solution id="eip-946">
+  <para id="eip-240">Sí, hay suficientes puntos de datos y el valor de r es lo suficientemente fuerte como para mostrar que hay una fuerte correlación negativa entre los conjuntos de datos.</para></solution>
+</exercise>
+</section><section id="eip-884" class="free-response"><title>Tarea para la casa</title><exercise id="eip-idp54658976"><problem id="eip-idp54659232">
+  <para id="eip-idp106876496">¿Cuál es el proceso mediante el cual podemos calcular una línea que atraviesa un diagrama de dispersión con un patrón lineal?</para>
+</problem></exercise><exercise id="eip-71"><problem id="eip-944">
+<para id="eip-284">Explique qué significa que una correlación tenga un <emphasis effect="italics">r</emphasis><sup>2</sup> de 0,72.</para>
+</problem>
+<solution id="eip-459">
+<para id="eip-495">Significa que el 72 % de la variación de la variable dependiente (<emphasis effect="italics">y</emphasis>) puede explicarse por la variación de la variable independiente (<emphasis effect="italics">x</emphasis>).</para>
+</solution></exercise><exercise id="eip-956"><problem id="eip-573">
+<para id="eip-352">¿Puede un coeficiente de determinación ser negativo? ¿Por qué sí o por qué no?</para>
+</problem></exercise></section>
+   </content>
+<glossary>
+<definition id="coeffcorr">
+    <term>Coeficiente de correlación</term>
+    <meaning id="id1167925021109">medida desarrollada por Karl Pearson (a principios del siglo XX), que da la fuerza de asociación entre la variable independiente y la variable dependiente; la fórmula es:
+    <equation class="unnumbered" id="id5499555"><label/>Los términos <m:math>
+ <m:mrow>
+  <m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>n</m:mi><m:mi>Σ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo>-</m:mo><m:mo stretchy="false">(</m:mo><m:mi>Σ</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>Σ</m:mi><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mrow>
+    <m:msqrt>
+     <m:mrow>
+      <m:mrow><m:mo>[</m:mo> <m:mrow>
+       <m:mi>n</m:mi><m:mi>Σ</m:mi><m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>-</m:mo><m:msup>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:mi>Σ</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:msup>
+
+      </m:mrow> <m:mo>]</m:mo></m:mrow><m:mrow><m:mo>[</m:mo> <m:mrow>
+       <m:mi>n</m:mi><m:mi>Σ</m:mi><m:msup>
+        <m:mi>y</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>-</m:mo><m:msup>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:mi>Σ</m:mi><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:msup>
+
+      </m:mrow> <m:mo>]</m:mo></m:mrow>
+     </m:mrow>
+    </m:msqrt>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</equation> donde <emphasis effect="italics">n</emphasis> es el número de puntos de datos. El coeficiente no puede ser mayor que 1 ni menor que -1. Cuanto más se acerque el coeficiente a ±1, mayor será la evidencia de una relación lineal significativa entre <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">y</emphasis>.
+    </meaning>
+  </definition>
+
+
+</glossary>
+</document>

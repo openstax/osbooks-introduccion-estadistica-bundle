@@ -1,0 +1,676 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>La ecuación de regresión</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55838</md:content-id>
+  <md:title>La ecuación de regresión</md:title>
+  <md:abstract/>
+  <md:uuid>f04b5e8d-335d-4d1d-9517-16639ea7eccc</md:uuid>
+</metadata>
+
+<content>
+    <para id="eip-176">El análisis de regresión es una técnica estadística que permite comprobar la hipótesis de que una variable depende de otra u otras variables. Además, el análisis de regresión brinda una estimación de la magnitud del impacto de un cambio en una variable sobre otra. Por supuesto, esta última característica es de vital importancia para predecir los valores futuros.</para><para id="eip-851">El análisis de regresión se basa en una relación funcional entre variables y supone, además, que la relación es lineal. Esta suposición de linealidad es necesaria porque, en su mayor parte, las propiedades estadísticas teóricas de la estimación no lineal no están aún bien elaboradas por los matemáticos y econometristas. Esto nos plantea algunas dificultades en el análisis económico porque muchos de nuestros modelos teóricos no son lineales. La curva de costo marginal, por ejemplo, es decididamente no lineal, al igual que la función de costo total, si creemos en el efecto de la especialización del trabajo y en la ley productividad marginal decreciente. Existen técnicas para superar algunas de estas dificultades, como la transformación exponencial y logarítmica de los datos. No obstante, debeos reconocer desde el principio que el típico análisis de regresión de mínimos cuadrados ordinarios (MCO) siempre utilizará una función lineal para estimar lo que podría ser una relación no lineal.</para><para id="eip-80">El modelo de regresión lineal general se puede enunciar mediante la ecuación:</para><equation class="unnumbered" id="eip-773"><label/>Los términos <m:math>
+<m:msub><m:mi>y</m:mi><m:mi>i</m:mi></m:msub>
+<m:mo>=</m:mo>
+<m:msub><m:mi>β</m:mi><m:mn>0</m:mn></m:msub>
+<m:mo>+</m:mo>
+<m:msub><m:mi>β</m:mi><m:mn>1</m:mn></m:msub>
+<m:msub><m:mi>X</m:mi><m:mrow><m:mn>1</m:mn><m:mi>i</m:mi></m:mrow></m:msub>
+<m:mo>+</m:mo>
+<m:msub><m:mi>β</m:mi><m:mn>2</m:mn></m:msub>
+<m:msub><m:mi>X</m:mi><m:mrow><m:mn>2</m:mn><m:mi>i</m:mi></m:mrow></m:msub>
+<m:mo>+</m:mo>
+<m:mo>⋯</m:mo>
+<m:mo>+</m:mo>
+<m:msub><m:mi>β</m:mi><m:mi>k</m:mi></m:msub>
+<m:msub><m:mi>X</m:mi><m:mrow><m:mi>k</m:mi><m:mi>i</m:mi></m:mrow></m:msub>
+<m:mo>+</m:mo>
+<m:msub><m:mi>ε</m:mi><m:mi>i</m:mi></m:msub>
+</m:math></equation><para id="eip-856">donde β<sub>0</sub> es la intersección, β<sub>i</sub>'s es la pendiente entre Y y el X<sub>i</sub> apropiado, y ε (pronunciado épsilon), es el término de error que captura los errores en la medición de Y y el efecto sobre Y de cualquier variable que falte en la ecuación y que contribuiría a explicar las variaciones en Y. Esta ecuación es la ecuación teórica de la población y, por lo tanto, utiliza letras griegas. La ecuación que estimaremos tendrá los símbolos romanos equivalentes. Esto es paralelo a la forma en que antes hemos mantenido el seguimiento de los parámetros de la población y los parámetros de la muestra. El símbolo de la media poblacional era µ y el de la media muestral <m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:math>, para la desviación estándar de la población fue σ y para la desviación estándar de la muestra fue s. Luego, la ecuación que se estimará con una muestra de datos para dos variables independientes será:  
+</para><equation class="unnumbered" id="eip-363"><label/>Los términos <m:math>
+<m:msub><m:mi>y</m:mi><m:mi>i</m:mi></m:msub>
+<m:mo>=</m:mo>
+<m:msub><m:mi>b</m:mi><m:mn>0</m:mn></m:msub>
+<m:mo>+</m:mo>
+<m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub>
+<m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn><m:mi>i</m:mi></m:mrow></m:msub>
+<m:mo>+</m:mo>
+<m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub>
+<m:msub><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn><m:mi>i</m:mi></m:mrow></m:msub>
+<m:mo>+</m:mo>
+<m:msub><m:mi>e</m:mi><m:mi>i</m:mi></m:msub>
+</m:math></equation><para id="eip-804">Al igual que nuestro trabajo anterior con las distribuciones de probabilidad, este modelo solo funciona si se cumplen ciertos supuestos. Estos son: que Y se distribuya normalmente, que los errores también se distribuyan normalmente con una media de cero y una desviación típica constante, y que los términos de error sean independientes del tamaño de X e independientes entre sí.</para><section id="eip-201"><title>Supuestos del modelo de regresión de mínimos cuadrados ordinarios</title><para id="eip-24">Cada uno de estos supuestos requiere mayor explicación. Si uno de estos supuestos no se cumple, afectará a la calidad de las estimaciones. Algunas de las fallas de estos supuestos pueden solucionarse, mientras que otras dan lugar a estimaciones que, sencillamente, no aportan nada a las preguntas que el modelo intenta responder o, peor aún, dan lugar a estimaciones sesgadas. <list id="eip-id1166531436357" list-type="enumerated" number-style="arabic"><item>Las variables independientes, <m:math><m:msub><m:mi>x</m:mi><m:mi>i</m:mi></m:msub></m:math>, se miden sin error, y son números fijos que son independientes del término de error. Esta suposición nos indica en efecto que Y es determinista, el resultado de un componente fijo "X" y un componente de error aleatorio "ϵ".</item>
+<item>El término de error es una variable aleatoria con una media de cero y una varianza constante. Esto significa que las varianzas de las variables independientes no se fundamentan en el valor de la variable. Consideremos la relación entre el ingreso personal y la cantidad de un bien comprado como ejemplo de un caso en el que la varianza depende del valor de la variable independiente, el ingreso. Es plausible que, a medida que aumentan los ingresos, la variación en torno a la cantidad comprada también aumente simplemente por la flexibilidad que proporcionan los niveles de ingresos más altos. El supuesto es de varianza constante con respecto a la magnitud de la variable independiente, llamada homoscedasticidad. Si el supuesto falla, se denomina heteroscedasticidad. La <link target-id="eip-id1167111372323"/> muestra el caso de la homoscedasticidad en el que las tres distribuciones tienen la misma varianza en torno al valor predicho de Y, sin importar la magnitud de X.</item>
+<item>Si bien las variables independientes son todas valores fijos, provienen de una distribución de probabilidad que se distribuye normalmente. Esto puede verse en la <link target-id="eip-id1167111372323"/> por la forma de las distribuciones situadas en la línea de predicción en el valor esperado del valor correspondiente de Y.</item>
+<item>Las variables independientes son distintas de Y, pero también se supone que sean distintas a las demás variables X. El modelo está diseñado para estimar los efectos de las variables independientes sobre alguna variable dependiente de acuerdo con una teoría propuesta. El caso en el que algunas o más de las variables independientes están correlacionadas no es inusual. Puede que no haya ninguna relación de causa y efecto entre las variables independientes; sin embargo, se mueven juntas. Tomemos el caso de una curva de oferta simple en la que la cantidad suministrada está teóricamente relacionada con el precio del producto y los precios de los insumos. Puede haber varios insumos que, con el tiempo, se muevan juntos por la presión inflacionaria general. Por consiguiente, los precios de los insumos trastocarán este supuesto del análisis de regresión. Esta condición se denomina multicolinealidad, que se abordará en detalle más adelante.</item>
+<item>Los términos de error no están correlacionados entre sí. Esta situación surge de un efecto sobre un término de error de otro término de error. Aunque no se trata exclusivamente de un problema de series temporales, es aquí donde más a menudo vemos este caso. Una variable X en el tiempo uno tiene un efecto en la variable Y, pero este efecto tiene luego un efecto en el siguiente tiempo. Este efecto da lugar a una relación entre los términos de error. Este caso se denomina autocorrelación, "autocorrelacionado". Los términos de error no son ahora independientes entre sí, sino que tienen su propio efecto sobre los términos de errores subsiguientes.</item>
+</list></para><para id="eip-621">La <link target-id="eip-id1167111372323"/> muestra el caso en el que se cumplen los supuestos del modelo de regresión. La línea estimada es <m:math><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x.</m:mi></m:math> Se muestran tres valores de X. Se coloca una distribución normal en cada punto, donde X es igual a la línea estimada y el error asociado a cada valor de Y. Observe que las tres distribuciones se distribuyen normalmente en torno al punto de la línea. Además, la variación, la varianza, en torno al valor predicho, es constante, lo cual indicando la homoscedasticidad del supuesto 2. La <link target-id="eip-id1167111372323"/> no muestra todos los supuestos del modelo de regresión, pero sirve para visualizar los más importantes.</para><para id="eip-416"><figure id="eip-id1167111372323"><media id="INSERT_HERE" alt="."><image mime-type="image/jpg" src="../../media/fig-ch13_04_03.jpg"/></media></figure></para><figure id="fs-id1170579415184"><media id="fs-id1170583137613" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch12_04_02m.jpg" width="420"/></media></figure></section><para id="fs-id1170588823276">Esta es la forma general que se denomina modelo de regresión múltiple. El llamado análisis de regresión "simple" tiene una sola variable independiente (derecha), en lugar de muchas variables independientes. La regresión simple es solo un caso especial de la regresión múltiple. Hay que empezar con una regresión simple: es fácil de graficar en dos dimensiones, difícil de graficar en tres dimensiones e imposible de graficar en más de tres dimensiones. En consecuencia, nuestros gráficos serán para el caso de regresión simple. La <link target-id="fs-id1170579415184"/> presenta el problema de regresión en forma de gráfica de dispersión del conjunto de datos donde se hipotetiza que Y depende de la única variable independiente X.</para><para id="eip-649">Una relación básica de los principios macroeconómicos es la función de consumo. Esta relación teórica establece que, a medida que aumenta el ingreso de una persona, su consumo aumenta, pero en una cantidad menor que el aumento del ingreso. Si Y es el consumo y X es el ingreso en la ecuación que aparece debajo de la <link target-id="fs-id1170579415184"/>, el problema de regresión consiste, en primer lugar, en establecer que esta relación existe y, en segundo lugar, en determinar el impacto de un cambio en el ingreso sobre el consumo de una persona. El parámetro β<sub>1</sub> se denominó Propensión marginal al consumo en Principios de Macroeconomía.</para><para id="eip-509">Cada "punto" en la <link target-id="fs-id1170579415184"/> representa el consumo y el ingreso de diferentes personas en un momento dado. Antes se denominaban datos de sección transversal; observaciones sobre variables en un momento dado a través de diferentes personas u otras unidades de medida. Este análisis se realiza con datos de series temporales, que serían el consumo y el ingreso per cápita o por país en diferentes momentos. En los problemas macroeconómicos se utilizan datos agregados de series temporales para todo un país. Para este concepto teórico en particular, estos datos están disponibles en el informe anual del Consejo de asesores económicos del Presidente.</para><para id="eip-885">El problema de la regresión se reduce a determinar qué línea recta representaría mejor los datos en la <link target-id="fs-id1165019842274"/>. El análisis de regresión se denomina a veces análisis de "mínimos cuadrados». Esto se debe a que el método para determinar qué línea se "ajusta" mejor a los datos consiste en minimizar la suma de los residuales al cuadrado de una línea a través de los datos. </para><figure id="fs-id1165019842274"><media id="fs-id1165016065534" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch12_04_03m.jpg" width="420"/></media><caption><newline/>Ecuación de la población: C = β<sub>0</sub> + β<sub>1</sub> Ingresos + ε <newline/>Ecuación estimada: C = b<sub>0</sub> + b<sub>1</sub> Ingresos + e
+</caption></figure><para id="eip-977">Esta figura muestra la supuesta relación entre el consumo y el ingreso a partir de la teoría macroeconómica. En este caso, los datos se han representado en forma de gráfica de dispersión y se ha trazado una línea recta estimada. En este gráfico podemos ver un término de error, e<sub>1</sub>. Cada punto de datos tiene también un término de error. Una vez más, el término de error se introduce en la ecuación para captar los efectos sobre el consumo que no los causan los cambios en los ingresos. Esos otros efectos podrían ser los ahorros o el patrimonio de una persona, o los períodos de desempleo. Veremos cómo, al minimizar la suma de estos errores, obtenemos una estimación de la pendiente y la intersección de esta línea.</para><para id="eip-870">Considere el siguiente gráfico. La notación ha vuelto a ser la del modelo más general, en lugar del caso específico de la función macroeconómica de consumo en nuestro ejemplo.   </para><figure id="fs-id1165015413810"><media id="fs-id1165015399670" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch12_04_04m.jpg" width="420"/></media></figure><para id="eip-929">La ŷ se lee <emphasis>"estimador de <emphasis effect="italics">y</emphasis>"</emphasis> y es el <emphasis>valor estimado de <emphasis effect="italics">y</emphasis></emphasis>. (En la <link target-id="fs-id1165019842274"/> <m:math><m:mover><m:mi>C</m:mi><m:mo stretchy="false">^</m:mo></m:mover></m:math> representa el valor estimado del consumo porque está en la línea estimada). Es el valor de <emphasis effect="italics">y</emphasis> obtenido mediante la línea de regresión. La ŷ no suele ser igual a <emphasis effect="italics">y</emphasis> a partir de los datos.</para><para id="eip-775">El término <m:math><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>ŷ</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>e</m:mi><m:mn>0</m:mn></m:msub></m:math> se denomina <emphasis>"error" o residual.</emphasis> No es un error en el sentido de una equivocación. El término de error se introdujo en la ecuación de estimación para captar las variables ausentes y los errores de medición que pudieron generarse en las variables dependientes. El <emphasis>valor absoluto del residual</emphasis> mide la distancia vertical entre el valor real de <emphasis effect="italics">y</emphasis> y el valor estimado de <emphasis effect="italics">y</emphasis>. En otras palabras, mide la distancia vertical entre el punto de datos real y el punto previsto en la línea, como se aprecia en el gráfico en el punto X<sub>0</sub>.</para><para id="eip-535">Si el punto de datos observado se encuentra por encima de la línea, el residuo es positivo y la línea subestima el valor real de los datos para <emphasis effect="italics">y</emphasis>.</para><para id="eip-503">Si el punto de datos observado se encuentra por debajo de la línea, el residuo es negativo y la línea sobreestima ese valor de datos real para <emphasis effect="italics">y</emphasis>.</para><para id="eip-456">En el gráfico, <m:math><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>ŷ</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>e</m:mi><m:mn>0</m:mn></m:msub></m:math> es el residual del punto indicado. Aquí el punto está por encima de la línea y el residuo es positivo. Para cada punto de datos se calculan los residuales, o errores, <emphasis effect="italics">y<sub>i</sub> – ŷ<sub>i</sub> = e<sub>i</sub></emphasis> para i = 1, 2, 3, ..., n donde n es el tamaño de la muestra. Cada |e| es una distancia vertical.
+
+</para><para id="eip-63">La <term id="term-00001">suma de los errores al cuadrado</term> (Sum of Squared Errors, SSE) es el término propiamente dicho.</para><para id="eip-789">Utilizando el cálculo, se puede determinar la línea recta que tiene los valores de los parámetros b<sub>0</sub> y b<sub>1</sub> que minimiza la <emphasis>SSE</emphasis>. Cuando hace la <emphasis>SSE</emphasis> un mínimo, ha determinado los puntos que están en la línea de mejor ajuste. Resulta que la línea de mejor ajuste tiene la ecuación:</para><equation class="unnumbered" id="eip-398"><label/>Los términos <m:math>
+<m:mi>ŷ</m:mi>
+<m:mo>=</m:mo>
+<m:msub><m:mi>b</m:mi><m:mn>0</m:mn></m:msub>
+<m:mo>+</m:mo>
+<m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub>
+<m:mi>x</m:mi>
+</m:math>
+</equation><para id="eip-774">donde <m:math>
+<m:msub><m:mi>b</m:mi><m:mn>0</m:mn></m:msub>
+<m:mo>=</m:mo>
+<m:mover><m:mi>y</m:mi><m:mo>–</m:mo></m:mover>
+<m:mo>- −</m:mo>
+<m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub>
+<m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover>
+</m:math> y <m:math>
+<m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo>Σ</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover><m:mo>)</m:mo>
+<m:mo>(</m:mo><m:mi>y</m:mi><m:mo>-</m:mo><m:mover><m:mi>y</m:mi><m:mo>–</m:mo></m:mover><m:mo>)</m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo>Σ</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mfrac><m:mrow><m:mtext>cov</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msup><m:mrow><m:msub><m:mi>s</m:mi><m:mi>x</m:mi></m:msub></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac>
+</m:math></para><para id="eip-801">Las medias muestrales de los valores <emphasis effect="italics">x</emphasis> y los valores <emphasis effect="italics">y</emphasis> son <m:math><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:math> y <m:math><m:mover><m:mi>y</m:mi><m:mo>–</m:mo></m:mover></m:math>, respectivamente. La línea de mejor ajuste siempre pasa por el punto (<m:math><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:math>, <m:math><m:mover><m:mi>y</m:mi><m:mo>–</m:mo></m:mover></m:math>) llamados los puntos de las medias.
+</para><para id="eip-508">La pendiente <emphasis effect="italics">b</emphasis> también se escribe:</para><equation class="unnumbered" id="eip-872"><label/>Los términos <m:math>
+ <m:msub>
+  <m:mi>b</m:mi>
+  <m:mn>1</m:mn>
+ </m:msub>
+ <m:mo>=</m:mo>
+ <m:msub>
+  <m:mi>r</m:mi>
+   <m:mtext>y, x</m:mtext>
+ </m:msub>
+ <m:mo>(</m:mo>
+  <m:mfrac>
+   <m:mrow> 
+    <m:msub>
+     <m:mi>s</m:mi>
+     <m:mi>y</m:mi>
+    </m:msub>
+    </m:mrow>
+   <m:mrow> 
+    <m:msub>
+     <m:mi>s</m:mi>
+     <m:mi>x</m:mi>
+    </m:msub>
+    </m:mrow>
+ </m:mfrac>
+<m:mo>)</m:mo>  
+</m:math></equation><para id="eip-755">donde <emphasis effect="italics">s<sub>y</sub></emphasis> = la desviación estándar de los valores de <emphasis effect="italics">y</emphasis> y <emphasis effect="italics">s<sub>x</sub></emphasis> = la desviación estándar de los valores de <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">r</emphasis> es el coeficiente de correlación entre <emphasis effect="italics">x</emphasis> e <emphasis effect="italics">y</emphasis>.
+</para><para id="eip-673">Estas ecuaciones se denominan ecuaciones normales y proceden de otro hallazgo matemático muy importante, que recibe el nombre de teorema de Gauss-Markov, sin el cual no podríamos hacer análisis de regresión. El teorema de Gauss-Markov señala que las estimaciones que obtenemos al utilizar el método de regresión por mínimos cuadrados ordinarios (MCO) darán lugar a estimaciones que tienen algunas propiedades muy importantes. En el teorema de Gauss-Markov se demostró que una línea de mínimos cuadrados es ELIÓ, es decir, <emphasis>E</emphasis>stimador <emphasis>L</emphasis>ineal e <emphasis>I</emphasis>mparcial <emphasis>Ó</emphasis>ptimo. Óptimo es la propiedad estadística de que un estimador es el que tiene la mínima varianza. Lineal se refiere a la propiedad del tipo de línea que se estima. Un estimador imparcial es aquel cuya función de estimación tiene una media prevista que es igual a la media de la población. (Recordará que el valor previsto de <m:math><m:msub><m:mi>µ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub></m:math> era igual a la media poblacional µ de acuerdo con el teorema del límite central. Este es exactamente el mismo concepto aquí). </para><para id="eip-645">Tanto Gauss como Markov fueron gigantes en el campo de las matemáticas, y Gauss también en el de la física, en el siglo XVIII y comienzos del siglo XIX. Apenas coincidieron cronológicamente, nunca geográficamente, pero el trabajo de Markov sobre este teorema se basó ampliamente en el trabajo anterior de Carl Gauss. El amplio valor aplicado de este teorema tuvo que esperar hasta mediados de este último siglo. </para><para id="eip-559">Con el método de los MCO podemos ahora dar con la <term id="term-00002">estimación de la varianza del error</term> que es la varianza de los errores al cuadrado, e<sup>2</sup>. A veces se denomina <term id="term-00003">error estándar de la estimación</term>. (Gramaticalmente esto se enunciaría mejor como la estimación de la varianza del <emphasis>error</emphasis>). La fórmula para la estimación de la varianza del error es:</para><equation class="unnumbered" id="eip-175"><label/>Los términos <m:math>
+<m:msubsup>
+<m:mi>s</m:mi>
+<m:mi>a</m:mi>
+<m:mn>2</m:mn>
+</m:msubsup>
+
+<m:mo>=</m:mo>
+
+<m:mfrac>
+ <m:mrow>
+  <m:mo>Σ</m:mo> 
+  <m:msup>
+  <m:mrow>
+  <m:mi>(</m:mi>
+   <m:msub>
+   <m:mi>y</m:mi>
+   <m:mi>i</m:mi>
+   </m:msub>
+  <m:mo>- −</m:mo>
+  <m:msub>
+  <m:mi>ŷ</m:mi>
+  <m:mi>i</m:mi>
+  </m:msub>
+  <m:mi>)</m:mi>
+  </m:mrow>
+  <m:mn>2</m:mn>
+  </m:msup>
+ </m:mrow>
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>-</m:mo>
+<m:mi>k</m:mi>
+</m:mrow>
+</m:mfrac>
+
+<m:mo>=</m:mo>
+
+<m:mfrac>
+<m:mrow>
+ <m:mo>Σ</m:mo>
+ <m:msup>
+ <m:mrow>
+  <m:msub>
+   <m:mi>e</m:mi>
+   <m:mi>i</m:mi>
+   </m:msub>
+   </m:mrow>
+  <m:mn>2</m:mn> 
+ </m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>-</m:mo>
+<m:mi>k</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math></equation><para id="eip-27">donde ŷ es el valor predicho de la y, mientras que la y es el valor observado; así, el término <m:math><m:msup><m:mrow><m:mo>(</m:mo><m:msub><m:mi>y</m:mi><m:mi>i</m:mi></m:msub><m:mo>- −</m:mo><m:msub><m:mi>ŷ</m:mi><m:mi>i</m:mi></m:msub><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:math> son los errores al cuadrado que hay que minimizar para dar con las estimaciones de los parámetros de la línea de regresión. Esta es realmente la varianza de los términos de error y sigue nuestra fórmula de varianza regular. Una nota importante es que aquí estamos dividiendo entre <m:math><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>-</m:mo><m:mi>k</m:mi><m:mo>)</m:mo></m:math>, que son los grados de libertad. Los grados de libertad de una ecuación de regresión serán el número de observaciones, n, reducido por el número de parámetros estimados, que incluye la intersección como parámetro. </para><para id="eip-91">La varianza de los errores es fundamental a la hora de comprobar las hipótesis de una regresión. Nos indica lo "ajustada" que es la dispersión sobre la línea. Como veremos en breve, cuanto mayor sea la dispersión en torno a la línea, es decir, cuanto mayor sea la varianza de los errores, menos probable será que la variable independiente hipotética tenga un efecto significativo sobre la variable dependiente. En resumen, es más probable que la teoría que se está probando falle si la varianza del término de error es alta. Si lo pensamos bien, esto no debería sorprender. Al comprobar las hipótesis sobre una media, observamos que las varianzas grandes reducen el estadístico de prueba y, por tanto, no alcanza la cola de la distribución. En estos casos, no se pueden rechazar las hipótesis nulas. Si no podemos rechazar la hipótesis nula en un problema de regresión, debemos concluir que la variable independiente hipotética no tiene ningún efecto sobre la variable dependiente. </para><para id="eip-33">Una forma de visualizar este concepto es dibujar dos gráficos de dispersión de los datos x e y a lo largo de una línea predeterminada. El primero tendrá poca varianza de los errores, lo que significa que todos los puntos de datos se moverán cerca de la línea. Ahora haga lo mismo, excepto que los puntos de datos tendrán una gran estimación de la varianza del error, lo que significa que los puntos de datos están muy dispersos a lo largo de la línea. Es evidente que la confianza sobre una relación entre x e y se ve afectada por esta diferencia entre la estimación de la varianza del error.  	</para><section id="eip-933"><title>Comprobación de los parámetros de la línea</title><para id="eip-726">Todo el objetivo del análisis de regresión era probar la hipótesis de que la variable dependiente, Y, dependía de hecho de los valores de las variables independientes, tal y como afirmaba alguna teoría de base, como el ejemplo de la función de consumo. De cara a la ecuación estimada en la <link target-id="fs-id1165019842274"/>, esto equivale a determinar los valores de b<sub>0</sub> y b<sub>1</sub>. Observe que de nuevo utilizamos la convención de letras griegas para los parámetros de la población y letras romanas para sus estimaciones. 
+</para><para id="eip-685">El resultado del análisis de regresión proporcionado por el programa informático producirá una estimación de b<sub>0</sub> y b<sub>1</sub>, y cualquier otra b para otras variables independientes que se hayan incluido en la ecuación estimada. La cuestión es saber si estas estimaciones son correctas. Para comprobar una hipótesis relativa a cualquier estimación, tendremos que conocer la distribución de muestreo subyacente. No debería sorprender a estas alturas del curso que la respuesta sea la distribución normal. Esto se aprecia al recordar el supuesto de que el término de error en la población, ε, se distribuye normalmente. Si el término de error se distribuye normalmente y la varianza de las estimaciones de los parámetros de la ecuación, b<sub>0</sub> y b<sub>1</sub>, está determinada por la varianza del término de error, se deduce que las varianzas de las estimaciones de los parámetros también están distribuidas normalmente. Efectivamente, este es el caso. </para><para id="eip-531">Esto lo vemos por la creación de la estadística para la prueba de la hipótesis relativa al parámetro de la pendiente, β<sub>1</sub> en nuestra ecuación de la función de consumo. Para comprobar si Y depende o no de X, o en nuestro ejemplo, que el consumo depende del ingreso, solo tenemos que comprobar la hipótesis de que β<sub>1</sub> es igual a cero. Esta hipótesis se enunciaría formalmente como:</para><equation class="unnumbered" id="eip-818"><label/>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>β</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn>
+</m:math></equation><equation class="unnumbered" id="eip-906"><label/>Los términos <m:math>
+<m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>β</m:mi><m:mn>1</m:mn></m:msub><m:mo>≠</m:mo><m:mn>0</m:mn></m:math></equation><para id="eip-525">Si no podemos rechazar la hipótesis nula, debemos concluir que nuestra teoría no tiene validez. Si no podemos rechazar la hipótesis nula de que β<sub>1</sub> = 0, entonces b<sub>1</sub>, el coeficiente del ingreso, es cero y cero por cualquier cosa es cero. Por lo tanto, el efecto del ingreso sobre el consumo es nulo. No hay ninguna relación como nuestra teoría había sugerido. </para><para id="eip-349">Observe que hemos establecido la presunción, la hipótesis nula, como "no hay relación". Esto hace que la carga de la prueba recaiga en la hipótesis alternativa. En otras palabras, si queremos validar nuestra pretensión de encontrar una relación, debemos hacerlo con un nivel de significación superior al 90 %, 95 % o 99 %. El <emphasis effect="italics">statu quo</emphasis> es la ignorancia, no existe ninguna relación. Además, para poder afirmar que realmente hemos añadido algo a nuestro bagaje, debemos hacerlo con una probabilidad significativa de estar en lo correcto. John Maynard Keynes acertó y así nació la economía keynesiana a partir de este concepto básico en 1936.
+</para><para id="eip-28">La estadística de esta prueba proviene directamente de nuestra vieja amiga, la fórmula de estandarización:</para><equation class="unnumbered" id="eip-333"><label/>Los términos <m:math>
+<m:msub>
+ <m:mi>t</m:mi>
+ <m:mi>c</m:mi>
+</m:msub> 
+
+<m:mo>=</m:mo> 
+
+<m:mfrac> 
+ <m:mrow> 
+  <m:msub>
+   <m:mi>b</m:mi>
+   <m:mn>1</m:mn> 
+  </m:msub>
+  <m:mo>- −</m:mo>
+  <m:msub> 
+   <m:mi>β</m:mi>
+    <m:mn>1</m:mn> 
+  </m:msub>
+ </m:mrow>
+ <m:mrow> 
+   <m:msub> 
+    <m:mi>S</m:mi> 
+    <m:mrow>
+    <m:msub> 
+    <m:mi>b</m:mi>
+    <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:msub>
+ 
+</m:mrow>
+</m:mfrac>
+</m:math></equation><para id="eip-355">donde b<sub>1</sub> es el valor estimado de la pendiente de la línea de regresión, β<sub>1</sub> es el valor hipotético de beta, en este caso cero, y <m:math> <m:msub> 
+    <m:mi>S</m:mi> 
+    <m:mrow>
+    <m:msub> 
+    <m:mi>b</m:mi>
+    <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:msub></m:math> es la desviación estándar de la estimación de b<sub>1</sub>. En este caso, nos preguntamos cuántas desviaciones estándar se aleja la pendiente estimada de la pendiente hipotética. Se trata exactamente de la misma pregunta que nos hacíamos antes con respecto a una hipótesis sobre una media: ¿cuántas desviaciones estándar hay entre la media estimada, la media muestral, y la media hipotética?</para><para id="eip-488">La estadística de la prueba se escribe como una distribución <emphasis effect="italics">t</emphasis> de Student. No obstante, si el tamaño de la muestra es lo suficientemente grande como para que los grados de libertad sean superiores a 30, podemos volver a utilizar la distribución normal. Para verificar por qué podemos utilizar la t de Student o la distribución normal, solo tenemos que ver <m:math> <m:msub> 
+    <m:mi>S</m:mi> 
+    <m:mrow>
+    <m:msub> 
+    <m:mi>b</m:mi>
+    <m:mn>1</m:mn>
+    </m:msub>
+    </m:mrow>
+  </m:msub></m:math>, la fórmula de la desviación estándar de la estimación de b<sub>1</sub>:
+</para><equation class="unnumbered" id="eip-786"><label/>Los términos <m:math>
+ <m:msub>
+ <m:mi>S</m:mi>
+ <m:mrow>
+ <m:msub>
+ <m:mi>b</m:mi>
+ <m:mn>1</m:mn>
+ </m:msub>
+ </m:mrow>
+ </m:msub>
+
+<m:mo>=</m:mo> 
+
+<m:mfrac>
+ <m:mrow> 
+  <m:msubsup>
+   <m:mi>S</m:mi>
+   <m:mi>e</m:mi>
+   <m:mn>2</m:mn>
+  </m:msubsup>
+ </m:mrow>
+ <m:mrow>
+  <m:msqrt>
+   <m:msup>
+   <m:mrow> 
+   <m:mo>(</m:mo>
+   <m:msub>
+    <m:mi>x</m:mi>
+    <m:mi>i</m:mi>
+   </m:msub>
+   <m:mo>-</m:mo>
+   <m:mover>
+   <m:mi>x</m:mi>
+   <m:mi>–</m:mi>
+   </m:mover> 
+   <m:mo>)</m:mo>
+   </m:mrow>
+   <m:mn>2</m:mn>
+   </m:msup> 
+  </m:msqrt>
+ </m:mrow>
+</m:mfrac>  
+</m:math>
+ </equation><equation class="unnumbered" id="eip-288">o</equation><equation id="eip-99"><label/>Los términos <m:math>
+ <m:msub>
+ <m:mi>S</m:mi>
+ <m:mrow>
+ <m:msub>
+ <m:mi>b</m:mi>
+ <m:mn>1</m:mn>
+ </m:msub>
+ </m:mrow>
+ </m:msub>
+
+<m:mo>=</m:mo> 
+
+<m:mfrac>
+ <m:mrow> 
+  <m:msubsup>
+   <m:mi>S</m:mi>
+   <m:mi>e</m:mi>
+   <m:mn>2</m:mn>
+  </m:msubsup>
+ </m:mrow>
+ <m:mrow>
+  <m:mo>(</m:mo>
+  <m:mi>n</m:mi>
+  <m:mo>–</m:mo>
+  <m:mn>1</m:mn>
+  <m:mo>)</m:mo>
+  <m:msubsup>
+   <m:mi>S</m:mi>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msubsup>
+ </m:mrow>
+</m:mfrac>  
+</m:math>
+ </equation><para id="eip-679">Donde S<sub>e</sub> es la estimación de la varianza del error y S<sup>2</sup><sub>x</sub> es la varianza de los valores x del coeficiente de la variable independiente que se está probando. </para><para id="eip-962">Vemos que S<sub>e</sub>, la <emphasis>estimación de la varianza del error</emphasis>, forma parte del cálculo. Dado que la estimación de la varianza del error se basa en el supuesto de normalidad de los términos de error, concluimos que la distribución muestral de las b, los coeficientes de nuestra línea de regresión hipotética, también se distribuyen normalmente.</para><para id="eip-971">Una última nota se refiere a los grados de libertad del estadístico de prueba, ν=n-k. Anteriormente restamos 1 del tamaño de la muestra para determinar los grados de libertad en un problema de la t de Student. Aquí debemos restar un grado de libertad por cada parámetro estimado en la ecuación. Para el ejemplo de la función de consumo perdemos 2 grados de libertad, uno para <m:math><m:msub><m:mi>b</m:mi><m:mn>0</m:mn></m:msub></m:math>, la intersección, y uno para b<sub>1</sub>, la pendiente de la función de consumo. Los grados de libertad serían n - k - 1, donde k es el número de variables independientes y el extra se pierde por la intersección. Si estuviéramos estimando una ecuación con tres variables independientes, perderíamos 4 grados de libertad: tres para las variables independientes, k, y uno más para la intersección.</para><para id="eip-682">La regla de decisión para la aceptación o el rechazo de la hipótesis nula sigue exactamente la misma forma que en todas nuestras pruebas de hipótesis anteriores. Es decir, si el valor calculado de t (o Z) cae en las colas de la distribución, donde las colas están definidas por α, el nivel de significación requerido en la prueba, no podemos aceptar la hipótesis nula. Si, por el contrario, el valor calculado del estadístico de prueba se encuentra dentro de la región crítica, no podemos rechazar la hipótesis nula.  </para><para id="eip-920">Si concluimos que no podemos aceptar la hipótesis nula, podemos afirmar con nivel de confianza de <m:math><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mi>α</m:mi><m:mo>)</m:mo></m:math> que la pendiente de la línea viene dada por b<sub>1</sub>. Esta es una conclusión extremadamente importante. El análisis de regresión no solo nos permite comprobar si existe una relación de causa y efecto, sino que también podemos determinar la magnitud de esa relación, en caso de que exista. Es esta característica del análisis de regresión la que lo hace tan valioso. Si se pueden desarrollar modelos que tengan validez estadística, podremos simular los efectos de los cambios en las variables que pueden estar bajo nuestro control con cierto grado de probabilidad, por supuesto. Por ejemplo, si se demuestra que la publicidad influye en las ventas, podemos determinar los efectos de cambiar el presupuesto de publicidad y decidir si el aumento de las ventas merece la pena el gasto añadido.</para></section><section id="eip-823"><title>Multicolinealidad</title><para id="eip-753">
+Nuestro análisis anterior indicaba que, al igual que todos los modelos estadísticos, el modelo de regresión de los MCO lleva aparejados importantes supuestos. Cada supuesto, si se viola, tiene un efecto sobre la capacidad del modelo para proporcionar estimaciones útiles y significativas. El teorema de Gauss-Markov nos asegura que las estimaciones de los MCO son imparciales y de varianza mínima, pero esto es cierto solo bajo los supuestos del modelo. Aquí veremos los efectos en las estimaciones de los MCO si las variables independientes están correlacionadas. En los cursos de Econometría se examinan los demás supuestos y los métodos para mitigar las dificultades que plantean si se incumplen. Nos ocupamos de la multicolinealidad porque es frecuente en los modelos económicos, con resultados a menudo frustrantes.</para>
+<para id="eip-id1165105022157">
+El modelo de los MCO supone que todas las variables son independientes entre sí. Esta suposición es fácil de comprobar para una muestra de datos en particular con simples coeficientes de correlación. La correlación, como muchos aspectos en estadística, es una cuestión de grado: un poco no es bueno y mucho es terrible.</para>
+<para id="eip-id1165099256910">El objetivo de la técnica de regresión es determinar los efectos de cada una de las variables independientes en una variable dependiente hipotética. Si dos variables independientes están interrelacionadas, es decir, correlacionadas, no podemos aislar los efectos sobre Y de una de ellas. En un caso extremo, donde <m:math><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math> es una combinación lineal de <m:math><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:math>, correlación igual a uno, ambas variables se mueven de forma idéntica con Y. En este caso, es imposible determinar la variable que es la verdadera causa del efecto sobre Y. (Si las dos variables estuvieran en realidad perfectamente correlacionadas, entonces no se podría calcular matemáticamente ningún resultado de regresión).</para><para id="eip-id1165095788729">Las ecuaciones normales de los coeficientes muestran los efectos de la multicolinealidad en los coeficientes.
+<equation class="unnumbered" id="eip-id1800408"><label/>Los términos <m:math><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo>
+
+
+<m:mfrac>
+<m:mrow>
+<m:msub><m:mi>s</m:mi><m:mi>y</m:mi></m:msub><m:mo>(</m:mo><m:msub><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow><m:msub><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mi>y</m:mi></m:mrow></m:msub>
+
+<m:mo>-</m:mo>
+
+<m:msub><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow><m:msub><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:msub><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:msub>
+<m:msub><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow><m:msub><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mi>y</m:mi></m:mrow></m:msub><m:mo>)</m:mo>
+</m:mrow>
+
+<m:mrow>
+<m:msub><m:mrow><m:mi>s</m:mi></m:mrow><m:mrow><m:msub><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:msub>
+<m:mo>(</m:mo>
+<m:mn>1</m:mn><m:mo>-</m:mo>
+<m:msubsup><m:mrow><m:mi>r</m:mi></m:mrow>
+<m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow>
+
+<m:mrow><m:mi>2</m:mi></m:mrow></m:msubsup><m:mo>)</m:mo>
+
+</m:mrow>
+
+</m:mfrac></m:math> grandes.</equation>
+<equation class="unnumbered" id="eip-id1166515276542"><label/>Los términos <m:math><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo>
+
+
+<m:mfrac>
+<m:mrow>
+<m:msub><m:mi>s</m:mi><m:mi>y</m:mi></m:msub><m:mo>(</m:mo><m:msub><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow><m:msub><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mi>y</m:mi></m:mrow></m:msub>
+
+<m:mo>-</m:mo>
+
+<m:msub><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow><m:msub><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:msub><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:msub>
+<m:msub><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow><m:msub><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mi>y</m:mi></m:mrow></m:msub><m:mo>)</m:mo>
+</m:mrow>
+
+<m:mrow>
+<m:msub><m:mrow><m:mi>s</m:mi></m:mrow><m:mrow><m:msub><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:msub>
+<m:mo>(</m:mo>
+<m:mn>1</m:mn><m:mo>-</m:mo>
+<m:msubsup><m:mrow><m:mi>r</m:mi></m:mrow>
+<m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow>
+
+<m:mrow><m:mi>2</m:mi></m:mrow></m:msubsup><m:mo>)</m:mo>
+
+</m:mrow>
+
+</m:mfrac></m:math> grandes.</equation><equation class="unnumbered" id="eip-id2240412"><label/>Los términos <m:math><m:msub><m:mi>b</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo>
+
+
+<m:mover><m:mi>y</m:mi><m:mo>-</m:mo></m:mover><m:mo>-</m:mo><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mover><m:mi>x</m:mi><m:mo>-</m:mo></m:mover><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mover><m:mi>x</m:mi><m:mo>-</m:mo></m:mover><m:mn>2</m:mn></m:msub>
+
+
+</m:math></equation></para><para id="eip-602">La correlación entre <m:math><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math> y <m:math><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:math>, <m:math><m:msubsup><m:mi>r</m:mi><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup>
+</m:math>, aparece en el denominador tanto de la fórmula de estimación de <m:math><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub></m:math> como de <m:math><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub></m:math>. Si se cumple el supuesto de independencia, este término es cero. Esto indica que no hay ningún efecto de correlación en el coeficiente. Por otra parte, a medida que aumenta la correlación entre las dos variables independientes, el denominador disminuye; por ende, la estimación del coeficiente aumenta. La correlación tiene el mismo efecto en ambos coeficientes de estas dos variables. En esencia, cada variable está "tomando" parte del efecto sobre Y, que debería atribuirse a la variable colineal. Esto da lugar a estimaciones sesgadas.</para><para id="eip-518">La multicolinealidad tiene otro impacto perjudicial en las estimaciones de los MCO. La correlación entre las dos variables independientes también aparece en las fórmulas de estimación de la varianza de los coeficientes.
+<equation class="unnumbered" id="eip-id8134371"><label/>Los términos <m:math>
+
+
+<m:msubsup><m:mrow><m:mi>s</m:mi></m:mrow><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msubsup><m:mi>s</m:mi><m:mi>a</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow>
+<m:mrow>
+<m:mo>(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:msubsup><m:mrow><m:mi>s</m:mi></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo>
+
+<m:msubsup><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo>)</m:mo>
+
+</m:mrow>
+</m:mfrac>
+
+</m:math> grandes.</equation><equation class="unnumbered" id="eip-id1169336874297"><label/>Los términos <m:math>
+
+
+<m:msubsup><m:mrow><m:mi>s</m:mi></m:mrow><m:mrow><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msubsup><m:mi>s</m:mi><m:mi>a</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow>
+<m:mrow>
+<m:mo>(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:msubsup><m:mrow><m:mi>s</m:mi></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo>
+
+<m:msubsup><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo>)</m:mo>
+
+</m:mrow>
+</m:mfrac>
+
+</m:math></equation></para><para id="eip-787">Aquí también observamos la correlación entre <m:math><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math> y <m:math><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:math> en el denominador de las estimaciones de la varianza de los coeficientes de ambas variables. Si la correlación es cero, como se supone en el modelo de regresión, la fórmula se reduce al cociente conocido entre la varianza de los errores y la varianza de la variable independiente correspondiente. Sin embargo, si las dos variables independientes están correlacionadas, la varianza de la estimación del coeficiente aumenta. Esto da lugar a un valor t menor para la prueba de hipótesis del coeficiente. En resumen, la multicolinealidad hace que no se rechace la hipótesis nula de que la variable X no tiene ningún impacto en Y cuando, de hecho, X tiene un impacto estadísticamente significativo en Y. Dicho de otro modo, los grandes errores estándar del coeficiente estimado que crea la multicolinealidad sugieren una insignificancia estadística incluso cuando la relación hipotética es contundente.</para></section><section id="eip-759"><title>¿Qué tan buena es la ecuación?</title><para id="eip-8">En la última sección nos ocupamos de comprobar la hipótesis de que la variable dependiente de hecho dependía de la variable o variables independientes hipotéticas. Puede que encontremos una variable independiente que tenga algún efecto sobre la variable dependiente, pero puede que no sea la única, y puede que ni siquiera sea la más importante. Recuerde que el término de error se colocó en el modelo para captar los efectos de cualquier variable independiente que falte. De ello se desprende que el término de error se utiliza para dar una medida de la "bondad del ajuste" de la ecuación, tomada en su conjunto para explicar la variación de la variable dependiente, Y.
+</para><para id="eip-42">El <term id="term-00004">coeficiente de correlación múltiple</term>, también llamado <term id="term-00005">coeficiente de determinación múltiple</term> o <term id="term-00006">coeficiente de determinación</term>, viene dado por la fórmula:</para><equation class="unnumbered" id="eip-529"><label/>Los términos <m:math>
+<m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mtext>SSR</m:mtext>
+<m:mtext>SST</m:mtext>
+</m:mfrac>
+</m:math></equation><para id="eip-268">donde SSR es la suma de cuadrados de la regresión, la desviación al cuadrado del valor predicho de y con respecto al valor medio de y<m:math><m:mo>(</m:mo><m:mi>ŷ</m:mi><m:mo>- −</m:mo><m:mover><m:mi>y</m:mi><m:mo>–</m:mo></m:mover><m:mo>)</m:mo></m:math>, y SST es la suma total de cuadrados que es la desviación total al cuadrado de la variable dependiente, y, de su valor medio, incluso el término de error, SSE, la suma de errores al cuadrado. La <link target-id="eip-id1172012809409"/> muestra cómo la desviación total de la variable dependiente, y, se divide en estas dos partes. </para><figure id="eip-id1172012809409"><media id="eip-id1172008066777" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch12_04_05m.jpg" width="420"/></media></figure><para id="eip-146">La <link target-id="eip-id1172012809409"/> muestra la línea de regresión estimada y una única observación, x<sub>1</sub>. El análisis de regresión trata de explicar la variación de los datos en torno al valor medio de la variable dependiente, y. La pregunta es: ¿por qué las observaciones de y varían con respecto al nivel promedio de y? El valor de y en la observación x<sub>1</sub> varía de la media de y por la diferencia (<m:math><m:msub><m:mi>y</m:mi><m:mi>i</m:mi></m:msub><m:mo>- −</m:mo><m:mover><m:mi>y</m:mi><m:mo>–</m:mo></m:mover></m:math>). La suma de estas diferencias al cuadrado es la SST, la suma total de cuadrados (Sum of Squares Total). El valor real de y en x<sub>1</sub> se desvía del valor estimado, ŷ, por la diferencia entre el valor estimado y el valor real, (<m:math><m:msub><m:mi>y</m:mi><m:mi>i</m:mi></m:msub><m:mo>- −</m:mo><m:mi>ŷ</m:mi></m:math>). Recordemos que este es el término de error, e, y la suma de estos errores es SSE, suma de errores al cuadrado (Sum of Squared Errors). La desviación del valor predicho de y, ŷ, del valor medio de y es (<m:math><m:mi>ŷ</m:mi><m:mo>- −</m:mo><m:mover><m:mi>y</m:mi><m:mo>–</m:mo></m:mover></m:math>) y es la SSR, suma de cuadrados de la regresión (Sum of Squares Regression). Recibe el nombre de "regresión" porque es la desviación explicada por la regresión. (A veces, la SSR se denomina SSM para la suma de la media de los cuadrados [Sum of Squares Mean] porque mide la desviación del valor medio de la variable dependiente, y, como se muestra en el gráfico).</para><para id="eip-373">Dado que la SST = SSR + SSE, vemos que el coeficiente de correlación múltiple es el porcentaje de la varianza, o desviación en y de su valor medio, que se explica por la ecuación cuando se toma como un todo. R<sup>2</sup> variará entre cero y 1, donde cero indica que ninguna de la variación en y se explicó con la ecuación y un valor de 1 indica que el 100 % de la variación de y se explicó con la ecuación. Para los estudios de series temporales se espera un R<sup>2</sup> alto y para los datos de sección transversal se espera un R<sup>2</sup> bajo. </para><para id="eip-651">Aunque un R<sup>2</sup> elevado es deseable, recuerde que lo que motivó la utilización del modelo de regresión fue la comprobación de la hipótesis sobre la existencia de una relación entre un conjunto de variables independientes y una variable dependiente en particular. La validación de una relación causa-efecto desarrollada por alguna teoría es la verdadera razón por la que elegimos el análisis de regresión. El incremento en el número de variables independientes tendrá el efecto de aumentar el R<sup>2</sup>. Para tener en cuenta este efecto, la medida adecuada del coeficiente de determinación es el <m:math><m:msup><m:mrow><m:mover><m:mi>R</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msup></m:math>, ajustado por grados de libertad, para evitar la suma sin sentido de variables independientes. </para><para id="eip-113">No hay ninguna prueba estadística para el R<sup>2</sup> y, por tanto, poco se puede decir del modelo utilizando el R<sup>2</sup> con nuestro característico nivel de confianza. Dos modelos que tienen el mismo tamaño de SSE, es decir, la suma de errores al cuadrado, pueden tener R<sup>2</sup> muy diferentes si los modelos que compiten tienen diferentes SST, la suma total de desviaciones al cuadrado. La bondad del ajuste de los dos modelos es la misma: ambos tienen la misma suma de cuadrados no explicados, errores al cuadrado. Sin embargo, debido a la mayor suma total de cuadrados en uno de los modelos, el R<sup>2</sup> difiere. De nuevo, el verdadero valor de la regresión como herramienta es examinar las hipótesis desarrolladas a partir de un modelo que predice determinadas relaciones entre las variables. Se trata de pruebas de hipótesis sobre los coeficientes del modelo y no de un juego de maximización de R<sup>2</sup>.</para><para id="eip-243">Otra forma de comprobar la calidad general del modelo global es probar los coeficientes como grupo y no de forma independiente. Por tratarse de una regresión múltiple (más de una X), utilizamos la prueba F para determinar si nuestros coeficientes afectan colectivamente a Y. La hipótesis es: 
+</para><para id="eip-714">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>β</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>β</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mo>…</m:mo><m:mo>=</m:mo><m:msub><m:mi>β</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:math></para><para id="eip-154">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo></m:math> "al menos uno de los βi no es igual a 0".</para><para id="eip-766">Si no se puede rechazar la hipótesis nula, entonces concluimos que ninguna de las variables independientes contribuye a explicar la variación de Y. Al revisar la <link target-id="eip-id1172012809409"/>, vemos que la SSR, la suma de cuadrados explicada, es una medida de cuánto de la variación de Y se explicada con todas las variables del modelo. La SSE, la suma de los errores al cuadrado, mide la cantidad de errores inexplicados. De ello se desprende que el cociente de estos dos puede proporcionarnos una prueba estadística del modelo en su conjunto. Al recordar que la distribución F es el cociente de las distribuciones de chi cuadrado, que las varianzas se distribuyen según este y que tanto la suma de errores al cuadrado como la suma de cuadrados son varianzas, tenemos el estadístico de prueba para esta hipótesis como:
+<equation class="unnumbered" id="eip-id1172116267594"><label/>Los términos <m:math><m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mfrac><m:mrow><m:mi>S</m:mi><m:mi>S</m:mi><m:mi>R</m:mi></m:mrow>
+<m:mrow><m:mi>k</m:mi></m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mfrac><m:mrow><m:mi>S</m:mi><m:mi>S</m:mi><m:mi>E</m:mi></m:mrow>
+<m:mrow><m:mi>n</m:mi><m:mo>-</m:mo><m:mi>k</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:mfrac>
+</m:math></equation>donde <emphasis effect="italics">n</emphasis> es el número de observaciones y <emphasis effect="italics">k</emphasis> es el número de variables independientes. Se demuestra que esto es equivalente a:<equation class="unnumbered" id="eip-id1169378145515"><label/>Los términos <m:math>
+<m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>n</m:mi><m:mo>-</m:mo><m:mi>k</m:mi><m:mo>-</m:mo><m:mn>1</m:mn>
+</m:mrow>
+<m:mrow><m:mi>k</m:mi></m:mrow>
+</m:mfrac>
+<m:mo>·</m:mo>
+<m:mfrac>
+<m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow>
+<m:mrow><m:mn>1</m:mn><m:mo>-</m:mo><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow>
+</m:mfrac>
+</m:math></equation><link target-id="eip-id1172012809409"/> donde R<sup>2</sup> es el coeficiente de determinación, que también es una medida de la "bondad" del modelo.</para><para id="eip-814">Al igual que en todas nuestras pruebas de hipótesis, llegamos a una conclusión tras comparar la estadística F calculada con el valor crítico, dado nuestro nivel de confianza deseado. Si la estadística calculada de la prueba, F en este caso, se encuentra en la cola de la distribución, entonces no podemos aceptar la hipótesis nula. Al no poder aceptar las hipótesis nulas, concluimos que la especificación de este modelo tiene validez, porque al menos uno de los coeficientes estimados es significativamente diferente de cero.</para><para id="eip-138">Otra manera de llegar a esta conclusión es con la regla de comparación del valor p. El valor p es el área de la cola, dado el estadístico F calculado. En esencia, la computadora calcula el valor F en la tabla por nosotros. El resultado de la regresión computarizada para la estadística F calculada se encuentra normalmente en la sección de la tabla ANOVA, etiquetada "significación F". A continuación, se presenta cómo leer el resultado de una regresión en Excel. Es la probabilidad de NO aceptar una hipótesis nula falsa. Si esta probabilidad es menor que nuestro error alfa predeterminado, la conclusión es que no podemos aceptar la hipótesis nula.</para></section><section id="eip-97"><title>Variables ficticias</title><para id="eip-302">Hasta ahora, el análisis de la técnica de regresión de los MCO suponía que las variables independientes de los modelos probados eran variables aleatorias continuas. Sin embargo, no hay restricciones en el modelo de regresión contra las variables independientes que son binarias. Esto abre el modelo de regresión para comprobar las hipótesis relativas a variables categóricas como el sexo, la raza, la región del país, antes de un determinado dato, después de una determinada fecha y otras innumerables. Estas variables categóricas solo toman dos valores, 1 y 0, éxito o fracaso, de la distribución de probabilidad binomial. La forma de la ecuación pasa a ser:
+</para><equation class="unnumbered" id="eip-219"><label/>Los términos <m:math><m:mi>ŷ</m:mi><m:mo>=</m:mo><m:msub><m:mi>b</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math></equation><figure id="eip-id1169482776676"><media id="eip-id1169456305570" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch12_04_06m.jpg" width="420"/></media></figure><para id="eip-191">donde <m:math><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:math>. X<sub>2</sub> es la variable ficticia y X<sub>1</sub> es una variable aleatoria continua. La constante, b<sub>0</sub>, es la intersección en y, el valor donde la línea cruza el eje de la y. Cuando el valor de X<sub>2</sub> = 0, la línea estimada se cruza en b<sub>0</sub>. Cuando el valor de X<sub>2</sub> = 1 entonces la línea estimada cruza en b<sub>0</sub> + b<sub>2</sub>. En efecto, la variable ficticia desplaza la línea estimada hacia arriba o hacia abajo, según la magnitud del efecto de la característica captada por la variable ficticia. Nótese que se trata de un simple desplazamiento paralelo y no influye en el impacto de la otra variable independiente; X<sub>1</sub>. Esta es una variable aleatoria continua y predice diferentes valores de y a diferentes valores de X<sub>1</sub>, a la vez que mantiene constante la condición de la variable ficticia. </para><para id="eip-13">Ejemplo de la variable ficticia es el trabajo que estima el impacto del sexo en los salarios. Existe toda una bibliografía sobre este tema y las variables ficticias se utilizan ampliamente. Para este ejemplo se examinan los salarios de los docentes de educación primaria y secundaria en un determinado estado. La utilización de una categoría laboral homogénea, la de los docentes, y para un solo estado reduce muchas de las variaciones que inciden naturalmente en los salarios, como el riesgo físico diferencial, el coste de vida en un estado en particular y otras condiciones laborales. La ecuación de estimación, en su forma más sencilla, especifica el salario en función de varias características del cuerpo docente que, según la teoría económica, incidirían en el salario. Estos incluirían el grado de grado de instrucción como medida de productividad potencial, la edad o la experiencia para captar la formación en el trabajo, de nuevo como medida de productividad. Dado que los datos corresponden a los docentes empleados en un distrito escolar público y no a trabajadores de una empresa con ánimo de lucro, se incluye el ingreso promedio del distrito escolar por promedio de asistencia diaria de alumnos como medida de la capacidad de pago. A continuación, se presentan los resultados del análisis de regresión realizado con los datos de 24.916 docentes. </para><table id="eip-844" summary="..."><title>Estimación de los ingresos de los docentes de educación primaria y secundaria</title>
+<tgroup cols="3"><thead>
+  <row>
+    <entry>Variable</entry>
+    <entry>Coeficientes de regresión (b) </entry>
+    <entry>Errores estándar de los estimados<newline/> para la función de ingresos de los profesores (s<sub>b</sub>)</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>Intersección</entry>
+    <entry>4269,9</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Sexo (masculino = 1)</entry>
+    <entry>632,38</entry>
+    <entry>13,39</entry>
+  </row>
+  <row>
+    <entry>Total de años de experiencia</entry>
+    <entry>52,32</entry>
+    <entry>1,10</entry>
+  </row>
+  <row>
+    <entry>Años de experiencia en el distrito actual</entry>
+    <entry>29,97</entry>
+    <entry>1,52</entry>
+  </row>
+  <row>
+    <entry>Educación</entry>
+    <entry>629,33</entry>
+    <entry>13,16</entry>
+  </row>
+  <row>
+    <entry>Ingresos totales por ADA</entry>
+    <entry>90,24</entry>
+    <entry>3,76</entry>
+  </row>
+  <row>
+    <entry>Los términos <m:math><m:msup><m:mrow><m:mover><m:mi>R</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msup></m:math></entry>
+    <entry>0,725</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry><emphasis effect="italics">n</emphasis></entry>
+    <entry>24.916</entry>
+    <entry/>
+  </row>
+</tbody>
+
+
+
+
+
+</tgroup>
+</table><para id="eip-558">Los coeficientes de todas las variables independientes son significativamente diferentes de cero, como indican los errores estándar. Si se dividen los errores estándar de cada coeficiente, se obtiene un valor t superior a 1,96, que es el nivel requerido para una significación del 95 %. La variable binaria, nuestra variable ficticia de interés en este análisis, es el sexo, donde a los hombres se les asigna un valor de 1 y a las mujeres un valor de 0. El coeficiente es significativamente diferente de cero con estadística t espectacular de 47 desviaciones estándar. Así, no podemos aceptar la hipótesis nula de que el coeficiente sea igual a cero. Por consiguiente, concluimos que existe una prima pagada a los docentes masculinos de 632 dólares tras mantener constantes la experiencia, la educación y la riqueza del distrito escolar en el que el docente está empleado. Cabe destacar que estos datos son de hace algún tiempo y que los 632 dólares representan una prima salarial del 6 % en aquella época. A continuación, se presenta un gráfico de este ejemplo de variables ficticias. </para><figure id="eip-id1170086528305"><media id="eip-id1170086528306" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch12_04_07m.jpg" width="420"/></media></figure><para id="eip-693">En dos dimensiones, el salario es la variable dependiente en el eje vertical, mientras que el total de años de experiencia se eligió como variable independiente continua en el eje horizontal. Se podría haber elegido cualquiera de las otras variables independientes para ilustrar el efecto de la variable ficticia. La relación entre los años totales de experiencia tiene una pendiente de 52,32 dólares por año de experiencia, a la vez que la línea estimada tiene una intersección de 4269 dólares si la variable de sexo es igual a cero, para las mujeres. Si la variable de sexo es igual a 1, en el caso de los hombres, el coeficiente se suma a la intersección en y. Así, la relación entre el total de años de experiencia y el salario se desplaza paralelamente hacia arriba, como se indica en el gráfico. En el gráfico también están marcados varios puntos de referencia. Una maestra de escuela con 10 años de experiencia recibe un salario de 4792 dólares solo en función de su experiencia, pero se le paga 109 dólares menos que su colega masculino con cero años de experiencia.</para><para id="eip-511">También se puede estimar una interacción más compleja entre una variable ficticia y la variable dependiente. Puede ser que la variable ficticia no solo tenga algo más que un simple efecto de desplazamiento sobre la variable dependiente, sino que también interactúe con una o más de las otras variables independientes continuas. Aunque no se ha comprobado en el ejemplo anterior, se podría plantear la hipótesis de que el impacto del sexo el salario no fue ningún cambio puntual, sino que también influyó en el valor de los años adicionales de experiencia en el salario. Es decir, los salarios de las maestras se descontaron al principio y, además, no crecieron al mismo ritmo por efecto de la experiencia que los de sus colegas masculinos. Esto se manifestaría como una pendiente diferente para la relación entre el total de años de experiencia para los hombres que para las mujeres. Si esto es así, las maestras no solo empezarían por debajo de sus colegas masculinos (según el desplazamiento de la línea de regresión estimada), sino que se rezagarían cada vez más, a medida que aumentara el tiempo y la experiencia. </para><para id="eip-476">El siguiente gráfico muestra cómo se puede comprobar esta hipótesis con el uso de variables ficticias y una variable de interacción. </para><figure id="eip-id1169482715033"><media id="eip-id1169459106677" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch12_04_08m.jpg" width="420"/></media></figure><para id="eip-610">La ecuación de estimación señala cómo la pendiente de X<sub>1</sub>, la variable aleatoria continua de experiencia, contiene dos partes, b<sub>1</sub> y b<sub>3</sub>. Esto ocurre porque la nueva variable X<sub>2</sub> X<sub>1</sub>, llamada variable de interacción, se creó para permitir un efecto en la pendiente de X<sub>1</sub> a partir de los cambios en X<sub>2</sub>, la variable ficticia binaria. Nótese que, cuando la variable ficticia X<sub>2</sub> = 0, la variable de interacción tiene un valor de 0, pero cuando X<sub>2</sub> = 1, la variable de interacción tiene un valor de X<sub>1</sub>. El coeficiente b<sub>3</sub> es una estimación de la diferencia del coeficiente de X<sub>1</sub> cuando X<sub>2</sub> = 1 en comparación con cuando X<sub>2</sub> = 0. En el ejemplo de los salarios del magisterio, si se paga una prima a los docentes masculinos que incide en la tasa de aumento de los salarios con base en la experiencia, entonces la tasa de aumento de sus salarios sería b<sub>1</sub> + b<sub>3</sub>, mientras que la de sus contrapartes femeninas sería simplemente b<sub>1</sub>. Esto se comprueba con la hipótesis:</para><equation class="unnumbered" id="eip-56"><label/>Los términos <m:math>
+ <m:msub>
+  <m:mi>H</m:mi>
+  <m:mn>0</m:mn>
+ </m:msub>
+ <m:mo>:</m:mo>
+ <m:msub>
+ <m:mi>β</m:mi>
+ <m:mn>3</m:mn>
+ </m:msub>
+ <m:mo>=</m:mo>
+ <m:mn>0</m:mn>
+ <m:mo>|</m:mo>
+ <m:msub>
+ <m:mi>β</m:mi>
+ <m:mn>1</m:mn>
+ </m:msub>
+ <m:mo>=</m:mo>
+ <m:mn>0</m:mn>
+ <m:mo>,</m:mo>
+ <m:msub>
+ <m:mi>β</m:mi>
+ <m:mn>2</m:mn>
+ </m:msub>
+ <m:mo>=</m:mo>
+ <m:mn>0</m:mn> 
+</m:math>
+ 
+ </equation><equation class="unnumbered" id="eip-195"><label/>Los términos <m:math>
+ <m:msub>
+  <m:mi>H</m:mi>
+  <m:mi>a</m:mi>
+ </m:msub>
+ <m:mo>:</m:mo>
+ <m:msub>
+ <m:mi>β</m:mi>
+ <m:mn>3</m:mn>
+ </m:msub>
+ <m:mo>≠</m:mo>
+ <m:mn>0</m:mn>
+ <m:mo>|</m:mo>
+ <m:msub>
+ <m:mi>β</m:mi>
+ <m:mn>1</m:mn>
+ </m:msub>
+ <m:mo>≠</m:mo>
+ <m:mn>0</m:mn>
+ <m:mo>,</m:mo>
+ <m:msub>
+ <m:mi>β</m:mi>
+ <m:mn>2</m:mn>
+ </m:msub>
+ <m:mo>≠</m:mo>
+ <m:mn>0</m:mn> 
+</m:math>
+ 
+ </equation><para id="eip-406">Se trata de una prueba t que utiliza el estadístico de prueba para el parámetro β<sub>3</sub>. Si no podemos aceptar la hipótesis nula de que β<sub>3</sub> = 0, concluiremos que existe una diferencia entre la tasa de aumento del grupo para el que el valor de la variable binaria se fija en 1, los hombres en este ejemplo. Esta ecuación de estimación puede combinarse con la anterior, que solo probaba un desplazamiento paralelo en la línea estimada. Las funciones de ingresos/experiencia en la <link target-id="eip-id1169482715033"/> se dibujan para este caso con un desplazamiento en la función de ingresos y una diferencia en la pendiente de la función con respecto a los años totales de experiencia.</para></section><example id="element-22">
+<para id="element-998">Una muestra aleatoria de 11 estudiantes de Estadística produjo los siguientes datos, donde <emphasis effect="italics">x</emphasis> es la calificación del tercer examen sobre 80, y <emphasis effect="italics">y</emphasis> es la calificación del examen final sobre 200. ¿Puede predecir la calificación del examen final de un alumno seleccionado al azar si conoce la calificación del tercer examen?</para><table id="eip-112" summary="Table showing the scores on the final exam based on scores from the third exam.">
+<tgroup cols="2"><thead>
+  <row>
+    <entry>x (calificación del tercer examen)</entry>
+    <entry>y (calificación del examen final)</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>65</entry>
+    <entry>175</entry>
+  </row>
+  <row>
+    <entry>67</entry>
+    <entry>133</entry>
+  </row>
+  <row>
+    <entry>71</entry>
+    <entry>185</entry>
+  </row>
+  <row>
+    <entry>71</entry>
+    <entry>163</entry>
+  </row>
+  <row>
+    <entry>66</entry>
+    <entry>126</entry>
+  </row>
+  <row>
+    <entry>75</entry>
+    <entry>198</entry>
+  </row>
+  <row>
+    <entry>67</entry>
+    <entry>153</entry>
+  </row>
+  <row>
+    <entry>70</entry>
+    <entry>163</entry>
+  </row>
+  <row>
+    <entry>71</entry>
+    <entry>159</entry>
+  </row>
+  <row>
+    <entry>69</entry>
+    <entry>151</entry>
+  </row>
+  <row>
+    <entry>69</entry>
+    <entry>159</entry>
+  </row>
+</tbody>
+
+
+
+
+</tgroup><caption>Tabla que muestra las calificaciones del examen final basadas en las calificaciones del tercer examen.</caption>
+</table><figure id="linrgs_regeq1"><media id="id1164262330756" alt="Este es un diagrama de dispersión de los datos proporcionados. La calificación del tercer examen se representa en el eje x y la del examen final en el eje y. Los puntos forman un patrón fuerte, positivo y lineal."><image src="../../media/fig-ch12_05_01.jpg" mime-type="image/jpeg" width="380"/></media>
+<caption>Diagrama de dispersión que muestra las calificaciones del examen final con base en las del tercer examen.</caption>
+</figure></example>
+
+
+<section id="eip-931" class="practice"><exercise id="eip-507"><problem id="eip-356">
+  <para id="eip-849">
+    Supongamos que tiene a su disposición la información que figura a continuación para cada uno de los 30 conductores. Proponga un modelo (con una breve indicación de los símbolos utilizados para representar las variables independientes) para explicar cómo varían las millas por galón de un conductor a otro, en función de los factores medidos.
+  </para>
+<list id="eip-idm870391984" list-type="enumerated" number-style="arabic"><title>Información:</title><item>millas conducidas por día</item>
+<item>peso del automóvil</item>
+<item>número de cilindros del automóvil</item>
+<item>rapidez media</item>
+<item>millas por galón</item>
+<item>número de pasajeros</item>
+</list></problem>
+
+<solution id="eip-763">
+  <para id="eip-644">Los términos <m:math><m:msub><m:mi>Y</m:mi><m:mi>j</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>b</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:mo>⋅</m:mo><m:msub><m:mi>X</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub><m:mo>⋅</m:mo><m:msub><m:mi>X</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>3</m:mn></m:msub><m:mo>⋅</m:mo><m:msub><m:mi>X</m:mi><m:mn>3</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>4</m:mn></m:msub><m:mo>⋅</m:mo><m:msub><m:mi>X</m:mi><m:mn>4</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>5</m:mn></m:msub><m:mo>⋅</m:mo><m:msub><m:mi>X</m:mi><m:mn>6</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>e</m:mi><m:mi>j</m:mi></m:msub></m:math>
+</para></solution>
+</exercise><exercise id="eip-idm1756644288"><problem id="eip-idm1477132096">
+<para id="eip-idm1247255712">Considere un análisis de regresión de mínimos cuadrados entre una variable dependiente (Y) y una variable independiente (X). El coeficiente de correlación muestral de −1 (menos uno) nos indica que:</para><list id="eip-idm1243361472" list-type="enumerated" number-style="lower-alpha">
+<item>no hay relación entre Y y X en la muestra</item>
+<item>no hay relación entre Y y X en la población</item>
+<item>existe una relación negativa perfecta entre Y y X en la población</item>
+<item>existe una relación negativa perfecta entre Y y X en la muestra.</item>
+</list>
+</problem>
+
+<solution id="eip-idm1672410272">
+<para id="eip-idm1570266432">d. existe una relación negativa perfecta entre Y y X en la muestra.
+</para>
+</solution></exercise>
+
+
+<exercise id="eip-idm291253344"><problem id="eip-idm1243425488">
+<para id="eip-idm1546643168">En el análisis correlacional, cuando los puntos se dispersan ampliamente alrededor de la línea de regresión, esto significa que la correlación es:</para>
+
+<list id="eip-idm344611680" list-type="enumerated" number-style="lower-alpha">
+<item>negativa.</item>
+<item>baja.</item>
+<item>heterogénea.</item>
+<item>entre dos medidas que no son fiables.</item>
+</list>
+</problem>
+
+<solution id="eip-idm1248689024">
+<para id="eip-idm1263139952">b. baja</para>
+</solution></exercise></section><section id="eip-993" class="summary"><title>Revisión del capítulo</title><para id="eip-id1170036179985">Se espera que esta explicación sobre el análisis de regresión haya demostrado el enorme potencial que tiene como herramienta para probar modelos y comprender mejor el mundo que nos rodea. El modelo de regresión tiene sus limitaciones, especialmente el requisito de que la relación subyacente sea aproximadamente lineal. En la medida en que la verdadera relación no sea lineal, puede aproximarse con una relación lineal o con formas no lineales de transformaciones que pueden estimarse con técnicas lineales. La transformación logarítmica doble de los datos proporcionará una manera fácil de probar esta forma particular de la relación. Una forma cuadrática aceptable (la forma de la curva de coste total de Principios de Microeconomía) puede generarse con la ecuación:
+</para><equation class="unnumbered" id="eip-585"><label/>Los términos <m:math><m:mi>Y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:mi>X</m:mi><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub><m:msup><m:mi>X</m:mi><m:mn>2</m:mn></m:msup></m:math></equation><para id="eip-675">donde los valores de X se elevan simplemente al cuadrado y se introducen en la ecuación como una variable independiente. </para><para id="eip-25">Hay muchos más "trucos" econométricos que evitan algunos de los supuestos más problemáticos del modelo de regresión general. Esta técnica estadística es tan valiosa que el estudio más detallado proporcionaría a cualquier estudiante unos dividendos estadísticamente significativos.  
+</para></section> </content>
+<glossary>
+<definition id="fs-id1171342481921"><term>Residual o "error"</term>
+<meaning id="fs-id1171348238510">el valor calculado al restar <m:math><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub>
+<m:mo>-</m:mo>
+<m:msub><m:mrow><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:mrow><m:mn>0</m:mn></m:msub>
+<m:mo>=</m:mo>
+<m:msub><m:mi>e</m:mi><m:mn>0</m:mn></m:msub></m:math>. El valor absoluto del residual mide la distancia vertical entre el valor real de <emphasis effect="italics">y</emphasis> y el valor estimado de <emphasis effect="italics">y</emphasis> que aparece en la línea de mejor ajuste.
+</meaning>
+</definition>
+
+<definition id="fs-id1171345295516"><term>Suma de errores al cuadrado (Sum of Squared Errors, SSE)</term>
+<meaning id="fs-id1171346367514">el valor calculado de la suma de todos los términos residuales al cuadrado. Se espera que este valor sea muy pequeño al momento de crear un modelo.
+</meaning>
+</definition>
+
+<definition id="fs-id4336325"><term><m:math><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:math> – Coeficiente de determinación</term>
+<meaning id="fs-id1171349427386">Es un número entre 0 y 1 que representa el porcentaje de variación de la variable dependiente, que se explica por la variación de la variable independiente. A veces se calcula mediante la ecuación <m:math><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>S</m:mi><m:mi>S</m:mi><m:mi>R</m:mi></m:mrow><m:mrow><m:mi>S</m:mi><m:mi>S</m:mi><m:mi>T</m:mi></m:mrow></m:mfrac></m:math> donde SSR es la "suma de cuadrados de la regresión" (Sum of Squares Regression) y SST es la "suma total de cuadrados" (Sum of Squares Total). El coeficiente de determinación apropiado que se notifica siempre debería ajustarse primero a los grados de libertad. 
+
+
+</meaning>
+</definition>
+
+</glossary>
+</document>

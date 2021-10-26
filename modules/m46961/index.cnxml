@@ -1,0 +1,710 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Distribución de Poisson</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46961</md:content-id>
+  <md:title>Distribución de Poisson</md:title>
+  <md:abstract/>
+  <md:uuid>2f718046-c613-47e2-a323-90654f0e45af</md:uuid>
+</metadata>
+
+<content>
+    <para id="fs-idp399448482">Hay dos características principales de un experimento de Poisson.</para><list id="element-1" list-type="enumerated"><item>La <term id="term-00001">distribución de probabilidad de Poisson</term> da la probabilidad de que se produzca un número de sucesos en un <emphasis>intervalo fijo</emphasis> de tiempo o espacio si estos sucesos se producen con una tasa media conocida y con independencia del tiempo transcurrido desde el último suceso. Por ejemplo, un editor de libros podría estar interesado en el número de palabras escritas incorrectamente en un libro en particular. Puede ser que, en promedio, haya cinco palabras mal escritas en 100 páginas. El intervalo son las 100 páginas.</item>
+<item>La distribución de Poisson puede utilizarse para aproximarse a la binomial si la probabilidad de éxito es "pequeña" (del orden de 0,01) y el número de intentos es "grande" (del orden de 1000). Comprobará la relación en los ejercicios de los deberes. <emphasis effect="italics">n</emphasis> es el número de intentos, y <emphasis effect="italics">p</emphasis> es la probabilidad de un “acierto".</item>
+</list><para id="fs-idp39944848">La variable aleatoria <emphasis effect="italics">X</emphasis> = el número de ocurrencias en el intervalo de interés.</para>
+
+<example id="element-743">
+<para id="element-746">El número medio de panes colocados en un estante de una panadería en un periodo de media hora es de 12. Es interesante el número de panes que se ponen en la estantería en cinco minutos. El intervalo de tiempo de interés es de cinco minutos. ¿Cuál es la probabilidad de que el número de panes, seleccionados al azar, puestos en la estantería en cinco minutos sea tres?</para><para id="element-747">Supongamos que <emphasis effect="italics">X</emphasis> = el número de barras de pan puestas en la estantería en cinco minutos. Si el número medio de panes colocados en el estante en 30 minutos (media hora) es 12, <emphasis>entonces el número medio de panes colocados en el estante en cinco minutos es</emphasis> <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>5</m:mn>
+     <m:mrow>
+      <m:mn>30</m:mn>
+     </m:mrow>
+    </m:mfrac>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>(12) = 2 panes.</para>
+
+<para id="element-749">La pregunta de probabilidad le pide que encuentre <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 3).</para></example>
+
+<note id="fs-idp39470352" class="statistics try"><label/><title>Ejercicio</title>
+
+<exercise id="fs-idm102800576">
+<problem id="fs-idm136652096">
+<para id="fs-idm76340608">El número medio de peces capturados en una hora es de ocho. Es interesante el número de peces capturados en 15 minutos. El intervalo de tiempo de interés es de 15 minutos. ¿Cuál es el número medio de peces capturados en 15 minutos?</para></problem>
+
+</exercise>
+</note><example id="element-403">
+<exercise id="fs-idp21926144"><problem id="fs-idp93226496"><para id="element-244">Un banco espera recibir seis cheques sin fondos al día, en promedio. ¿Cuál es la probabilidad de que el banco reciba menos de cinco cheques sin fondos en un día determinado? El interés es el número de cheques que el banco recibe en un día, por lo que el intervalo de tiempo del interés es un día. Supongamos que <emphasis effect="italics">X</emphasis> = el número de cheques sin fondos que recibe el banco en un día. Si el banco espera recibir seis cheques sin fondos al día, el promedio es de seis cheques al día. Escriba un enunciado matemático para la pregunta de probabilidad.</para></problem>
+<solution id="fs-idp61940464">
+<para id="fs-idm21074048"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 5)</para></solution>
+</exercise>
+</example>
+
+
+<note id="fs-idm3960864" class="statistics try"><label/><title>Ejercicio</title>
+
+<exercise id="fs-idm122013280">
+<problem id="fs-idp1855472">
+<para id="fs-idm64281696">Una tienda de electrónica espera tener una media de diez devoluciones al día. El administrador quiere saber la probabilidad de que la tienda reciba menos de ocho devoluciones en un día determinado. Plantee la pregunta de la probabilidad de forma matemática.</para>
+</problem>
+</exercise>
+</note><example id="element-774">
+<para id="element-234">Se da cuenta de que un reportero de noticias dice “uh”, en promedio, dos veces por emisión. ¿Cuál es la probabilidad de que el periodista diga “uh” más de dos veces por emisión?</para>
+
+<para id="element-235">Se trata de un problema de Poisson porque le interesa saber el número de veces que el reportero de las noticias dice “uh” durante una emisión.<newline count="2"/></para><exercise id="element-895">
+<problem id="id18394368">
+  <para id="element-734">a. ¿Cuál es el intervalo de interés?</para>
+<para id="element-10">b. ¿Cuál es el número promedio de veces que el reportero de noticias dice “uh” durante una emisión?</para>
+<para id="element-817">c. Supongamos que <emphasis effect="italics">X</emphasis> = ____________. ¿Qué valores toma <emphasis effect="italics">X</emphasis>?</para>
+  <para id="element-423">d. La pregunta de probabilidad es <emphasis effect="italics">P</emphasis>(______).</para>
+</problem>
+
+<solution id="id18394386">
+  <para id="element-227">a. una emisión</para>
+  <para id="element-40">b. 2</para>
+  <para id="element-112">c. Supongamos que <emphasis effect="italics">X</emphasis> = el número de veces que el reportero de noticias dice “eh" durante una emisión. <newline/><emphasis effect="italics">x</emphasis> = 0, 1, 2, 3, ...
+  </para>
+  <para id="element-683">d. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 2)</para></solution>
+</exercise>
+</example>
+
+
+<note id="fs-idm101937776" class="statistics try"><label/><title>Ejercicio</title>
+
+<exercise id="fs-idm138494832">
+<problem id="fs-idm76741440">
+<para id="fs-idm124704784">La sala de urgencias de un determinado hospital recibe una media de cinco pacientes por hora. Un médico quiere saber la probabilidad de que Urgencias reciba más de cinco pacientes por hora. Indique la razón por la que se trata de una distribución de Poisson.</para></problem>
+</exercise>
+</note><section id="element-210">
+<title>Notación para el Poisson: P = Función de distribución de probabilidad de Poisson</title>
+<para id="element-272"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">μ</emphasis>)</para>
+
+<para id="element-273">Se lee como “<emphasis effect="italics">X</emphasis> es una variable aleatoria con una distribución de Poisson”. El parámetro es <emphasis effect="italics">μ</emphasis> (o <emphasis effect="italics">λ</emphasis>); <emphasis effect="italics">μ</emphasis> (o <emphasis effect="italics">λ</emphasis>) = la media del intervalo de interés. La desviación típica de la distribución de Poisson con media <emphasis effect="italics">µ</emphasis> es <emphasis effect="italics">Σ</emphasis>=√<emphasis effect="italics">μ</emphasis> </para>
+</section>
+
+<example id="element-784"><para id="element-690">El contestador automático de Leah recibe unas seis llamadas telefónicas entre las 8 y las 10 a. m. ¿Cuál es la probabilidad de que Leah reciba más de una llamada durante <emphasis>los próximos 15 minutos?</emphasis></para><para id="element-691">Supongamos que <emphasis effect="italics">X</emphasis> = el número de llamadas que recibe Leah durante 15 minutos (el <emphasis>intervalo de interés</emphasis> es de 15 minutos o <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+ </m:mrow>
+</m:math> hora)</para><para id="element-692"><emphasis effect="italics">x</emphasis> = 0, 1, 2, 3, ...</para>
+<para id="element-693">Si Leah recibe, en promedio, seis llamadas telefónicas en dos horas, y hay ocho intervalos de 15 minutos en dos horas, entonces Leah recibe</para><para id="element-694">Los términos <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>8</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>(6) = 0,75 llamadas durante 15 minutos, en promedio. Por tanto, <emphasis effect="italics">μ</emphasis> = 0,75 para este problema.</para>
+<para id="element-696"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(0,75)</para>
+
+<para id="element-697" class="finger">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1) = 0,1734 (calculadora o computadora)</para>
+
+<note id="fs-idm23681840" class="statistics calculator"><label/>
+<list id="fs-idp1265216" list-type="bulleted"><item>Pulse 1 y luego pulse 2.<sup>º</sup> DISTR.</item>
+<item>Pulse la flecha hacia abajo y seleccione poissoncdf. Pulse ENTER.</item>
+<item>Introduzca (0,75,1).</item>
+<item>El resultado es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1) = 0,1734.</item>
+</list><note id="eip-706" class="finger"><label/><title>Nota</title>
+<para id="fs-idm154468640">Las calculadoras de TI utilizan <emphasis effect="italics">λ</emphasis> (lambda) para la media.</para>
+</note></note><para id="element-886">La probabilidad de que Leah reciba más de una llamada telefónica en los próximos 15 minutos es de 0,1734: <newline count="1"/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1) = 1 - poissoncdf(0,75, 1).</para><para id="element-89">El gráfico de <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(0,75) es:</para>
+
+<figure id="fs-idm13011872"><media id="id18951496" display="block" alt="Este gráfico muestra una distribución de probabilidad de Poisson. Tiene 5 barras que disminuyen en altura de izquierda a derecha. El eje X muestra los valores en incrementos de 1 a partir de 0, que representan el número de llamadas que recibe Leah durante 15 minutos. El eje y va de 0 a 0,5 en incrementos de 0,1.">
+<image src="../../media/fig-ch04_08_01N.jpg" mime-type="image/jpg" width="400"/>
+</media></figure><para id="element-869">El eje <emphasis effect="italics">y</emphasis> contiene la probabilidad de <emphasis effect="italics">x</emphasis>, donde <emphasis effect="italics">X</emphasis> = el número de llamadas durante 15 minutos.</para></example>
+
+
+<note id="fs-idm14071904" class="statistics try finger"><label/><title>Ejercicio</title>
+
+<exercise id="fs-idm114328016" class="finger">
+<problem id="fs-idm126244848">
+<para id="fs-idm2292064">Un centro de atención al cliente recibe unos diez correos electrónicos cada media hora. ¿Cuál es la probabilidad de que el centro de atención al cliente reciba más de cuatro correos electrónicos en los próximos seis minutos? Utilice la calculadora TI-83+ o TI-84 para hallar la respuesta.</para></problem>
+</exercise>
+</note><example id="fs-idm98662832">
+
+<para id="fs-idm122953024">Según Baydin, una empresa de gestión de correo electrónico, un usuario de correo electrónico recibe, de media, 147 correos electrónicos al día. Supongamos que <emphasis effect="italics">X</emphasis> = el número de correos electrónicos que recibe un usuario por día. La variable aleatoria discreta <emphasis effect="italics">X</emphasis> toma los valores <emphasis effect="italics">x</emphasis> = 0, 1, 2 ... La variable aleatoria <emphasis effect="italics">X</emphasis> tiene una distribución de Poisson: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(147). La media es de 147 correos electrónicos.</para>
+
+<exercise id="fs-idm81055280">
+<problem id="fs-idm139603200">
+<list id="fs-idm148062160" list-type="enumerated" number-style="lower-alpha">
+<item>¿Cuál es la probabilidad de que un usuario de correo electrónico reciba exactamente 160 correos electrónicos al día?</item>
+<item>¿Cuál es la probabilidad de que un usuario de correo electrónico reciba como máximo 160 correos electrónicos al día?</item>
+<item>¿Cuál es la desviación típica?</item>
+</list>
+</problem>
+<solution id="fs-idm126813888">
+<list id="fs-idm100902832" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 160) = poissonpdf(147, 160) ≈ 0,0180</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 160) = poissoncdf(147, 160) ≈ 0,8666</item>
+<item>Desviación típica = <m:math>
+ <m:mrow>
+  <m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt>
+   <m:mi>μ</m:mi>
+  </m:msqrt>
+  <m:mo>=</m:mo><m:msqrt>
+   <m:mrow>
+    <m:mn>147</m:mn>
+   </m:mrow>
+  </m:msqrt>
+  <m:mo>≈</m:mo><m:mn>12,1244</m:mn>
+ </m:mrow>
+</m:math>
+</item></list></solution>
+</exercise>
+
+</example>
+
+<note id="fs-idm17831600" class="statistics try"><label/><title>Ejercicio</title>
+
+<exercise id="fs-idm128601120">
+<problem id="fs-idm195364880">
+
+<para id="fs-idm191065552">Según una encuesta reciente del Pew Internet Project, las chicas de entre 14 y 17 años envían una media de 187 mensajes de texto al día. Supongamos que <emphasis effect="italics">X</emphasis> = el número de mensajes de texto que una chica de 14 a 17 años envía al día. La variable aleatoria discreta <emphasis effect="italics">X</emphasis> toma los valores <emphasis effect="italics">x</emphasis> = 0, 1, 2 ... La variable aleatoria <emphasis effect="italics">X</emphasis> tiene una distribución de Poisson: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(187). La media es de 187 mensajes de texto.</para>
+
+<list id="fs-idm153913056" list-type="enumerated" number-style="lower-alpha"><item>¿Cuál es la probabilidad de que una adolescente envíe exactamente 175 mensajes de texto al día?</item>
+<item>¿Cuál es la probabilidad de que una adolescente envíe como máximo 150 mensajes de texto al día?</item>
+<item>¿Cuál es la desviación típica?</item>
+</list></problem>
+</exercise>
+</note><example id="fs-idp46630000">
+<para id="fs-idm138564992">Los usuarios de mensajes de texto reciben o envían un promedio de 41,5 mensajes de texto al día.</para>
+<exercise id="fs-idm133688624">
+<problem id="fs-idm129087696">
+<list id="fs-idm126097296" list-type="enumerated" number-style="lower-alpha"><item>¿Cuántos mensajes de texto recibe o envía un usuario por hora?</item>
+<item>¿Cuál es la probabilidad de que un usuario de mensajes de texto reciba o envíe dos mensajes por hora?</item>
+<item>¿Cuál es la probabilidad de que un usuario de mensajes de texto reciba o envíe más de dos mensajes por hora?</item>
+</list></problem>
+<solution id="fs-idm60470976">
+<list id="fs-idm97821584" list-type="enumerated" number-style="lower-alpha"><item>Supongamos que <emphasis effect="italics">X</emphasis> = el número de mensajes de texto que un usuario envía o recibe en una hora. El número promedio de mensajes de texto recibidos por hora es <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>41,5</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>24</m:mn>
+   </m:mrow>
+  </m:mfrac>
+ </m:mrow>
+</m:math> ≈ 1,7292.</item>
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(1,7292), por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 2) = poissonpdf(1,7292, 2) ≈ 0,2653</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 2) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 2) = 1 – poissoncdf(1,7292, 2) ≈ 1 - 0,7495 = 0,2505</item>
+</list></solution>
+</exercise>
+</example>
+
+<note id="fs-idm6127376" class="statistics try"><label/><title>Ejercicio</title>
+
+<exercise id="eip-693">
+<problem id="fs-idm114876624">
+<para id="fs-idm31960976">El aeropuerto internacional Hartsfield-Jackson de Atlanta es el más concurrido del mundo. Cada día hay una media de 2500 llegadas y salidas.</para>
+
+
+<list id="fs-idm85294848" list-type="enumerated" number-style="lower-alpha"><item>¿Cuántos aviones llegan y salen del aeropuerto por hora?</item>
+<item>¿Cuál es la probabilidad de que haya exactamente 100 llegadas y salidas en una hora? </item>
+<item>¿Cuál es la probabilidad de que haya como máximo 100 llegadas y salidas en una hora?</item>
+</list></problem>
+</exercise></note><example id="fs-idm140754736">
+<exercise id="fs-idm140268064">
+<problem id="fs-idm63493200">
+<para id="fs-idm59600144">El 13 de mayo de 2013, a partir de las 4:30 p. m., se informó que la probabilidad de actividad sísmica baja para las próximas 48 horas en Alaska era de 1,02 % aproximadamente. Utilice esta información para los próximos 200 días para hallar la probabilidad de que haya una actividad sísmica baja en diez de los próximos 200 días. Utilice las distribuciones binomial y de Poisson para calcular las probabilidades. ¿Están cerca?</para></problem>
+<solution id="fs-idm57643184">
+<para id="fs-idm69654032">Supongamos que <emphasis effect="italics">X</emphasis> = el número de días con actividad sísmica baja.</para><para id="fs-idm57624224">Mediante la distribución binomial: <list id="fs-idp4019536" list-type="bulleted" bullet-style="none"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 10) = binompdf(200, 0,0102, 10) ≈ 0,000039</item></list></para>
+<para id="fs-idm136827536">Mediante la distribución de Poisson: <list id="fs-idm9822304" list-type="bulleted" bullet-style="none"><item>Calcule <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> = 200(0,0102) ≈ 2,04</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 10) = poissonpdf(2,04, 10) ≈ 0,000045</item>
+</list></para>
+<para id="fs-idm44106800">Esperamos que la aproximación sea buena porque <emphasis effect="italics">n</emphasis> es grande (más de 20) y <emphasis effect="italics">p</emphasis> es pequeño (menos de 0,05). Los resultados son muy parecidos: ambas probabilidades son casi 0.</para></solution>
+</exercise>
+
+</example>
+
+<note id="fs-idp26868464" class="statistics try"><label/><title>Ejercicio</title>
+<exercise id="eip-idp124175712">
+<problem id="eip-idp124175968">
+<para id="eip-idp124176224">El 13 de mayo de 2013, a partir de las 4:30 p. m., se informó de que la probabilidad de actividad sísmica moderada para las próximas 48 horas en las islas Kuriles, frente a la costa de Japón, era de alrededor del 1,43 %. Utilice esta información para los próximos 100 días para hallar la probabilidad de que haya una actividad sísmica baja en cinco de los próximos 100 días. Utilice las distribuciones binomial y de Poisson para calcular las probabilidades. ¿Están cerca?</para></problem>
+</exercise></note><section id="fs-idm74033600" class="references"><title>Referencias</title><para id="fs-idm50742304">“ATL Fact Sheet,” Department of Aviation at the Hartsfield-Jackson Atlanta International Airport, 2013. Disponible en línea en http://www.atl.com/about-atl/atl-factsheet/ (consultado el 18 de febrero de 2019).</para><para id="fs-idm119939248">Center for Disease Control and Prevention. “Teen Drivers: Fact Sheet,” Injury Prevention &amp; Control: Motor Vehicle Safety, 2 de octubre de 2012. Disponible en línea en http://www.cdc.gov/Motorvehiclesafety/Teen_Drivers/teendrivers_factsheet.html (consultado el 15 de mayo de 2013).</para>
+<para id="fs-idm54517952">“Children and Childrearing,” Ministry of Health, Labour, and Welfare. Disponible en línea en http://www.mhlw.go.jp/english/policy/children/children-childrearing/index.html (consultado el 15 de mayo de 2013).</para>
+<para id="fs-idp39029744">“Eating Disorder Statistics,” South Carolina Department of Mental Health, 2006. Disponible en línea en http://www.state.sc.us/dmh/anorexia/statistics.htm (consultado el 15 de mayo de 2013).</para>
+<para id="fs-idm985072">“Giving Birth in Manila: The maternity ward at the Dr Jose Fabella Memorial Hospital in Manila, the busiest in the Philippines, where there is an average of 60 births a day”, theguardian, 2013. Disponible en línea en http://www.theguardian.com/world/gallery/2011/jun/08/philippines-health#/?picture=375471900&amp;index=2 (consultado el 15 de mayo de 2013).</para>
+<para id="fs-idp4182624">“How Americans Use Text Messaging,” Pew Internet, 2013. Disponible en línea en http://pewinternet.org/Reports/2011/Cell-Phone-Texting-2011/Main-Report.aspx (consultado el 15 de mayo de 2013).</para>
+<para id="fs-idp26429248">Lenhart, Amanda. “Teens, Smartphones &amp; Testing: Texting volum is up while the frequency of voice calling is down. About one in four teens say they own smartphones,” Pew Internet, 2012. Disponible en línea en http://www.pewinternet.org/~/media/Files/Reports/2012/PIP_Teens_Smartphones_and_Texting.pdf (consultado el 15 de mayo de 2013).</para>
+<para id="fs-idp64516624">“One born every minute: the maternity unit where mothers are THREE to a bed”, MailOnline. Disponible en línea en http://www.dailymail.co.uk/news/article-2001422/Busiest-maternity-ward-planet-averages-60-babies-day-mothers-bed.html (consultado el 15 de mayo de 2013).</para>
+<para id="eip-idp231756384">Vanderkam, Laura. “Stop Checking Your Email, Now”. CNNMoney, 2013. Disponible en línea en http://management.fortune.cnn.com/2012/10/08/stop-checking-your-email-now/ (consultado el 15 de mayo de 2013).</para>
+<para id="fs-idm47256464">“World Earthquakes: Live Earthquake News and Highlights”, World Earthquakes, 2012. http://www.world-earthquakes.com/index.php?option=ethq_prediction (consultado el 15 de mayo de 2013).</para>
+</section><section id="fs-idm134097152" class="summary">
+<title>Revisión del capítulo</title>
+<para id="fs-idm58971248">Una <term id="term-00002">distribución de probabilidad de Poisson</term> de una variable aleatoria discreta da la probabilidad de que se produzca un número de eventos en un intervalo fijo de tiempo o espacio, si estos eventos se producen a una tasa media conocida y con independencia del tiempo transcurrido desde el último evento. La distribución de Poisson puede utilizarse para aproximarse a la binomial, si la probabilidad de éxito es "pequeña" (menor o igual a 0,05) y el número de intentos es "grande" (mayor o igual a 20).</para>
+</section>
+
+<section id="fs-idm139197072" class="formula-review">
+<title>Revisión de la fórmula</title>
+<para id="fs-idm105067808"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">μ</emphasis>) significa que <emphasis effect="italics">X</emphasis> tiene una distribución de probabilidad de Poisson donde <emphasis effect="italics">X</emphasis> = el número de ocurrencias en el intervalo de interés.</para>
+<para id="fs-idm134113552"><emphasis effect="italics">X</emphasis> toma los valores <emphasis effect="italics">x</emphasis> = 0, 1, 2, 3, ...</para>
+<para id="fs-idm48398160">La media <emphasis effect="italics">μ</emphasis> normalmente está dada.</para>
+<para id="fs-idm115241024">La varianza es <emphasis effect="italics">σ</emphasis><sup>2</sup> = <emphasis effect="italics">μ</emphasis>, y la desviación típica es <newline/><m:math>
+ <m:mrow>
+  <m:mi>σ</m:mi><m:mtext> = </m:mtext><m:msqrt>
+   <m:mi>μ</m:mi>
+  </m:msqrt>
+ </m:mrow>
+</m:math></para>
+<para id="fs-idm63034992">Cuando se utiliza <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">μ</emphasis>) para aproximar una distribución binomial, <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> donde <emphasis effect="italics">n</emphasis> representa el número de ensayos independientes y <emphasis effect="italics">p</emphasis> representa la probabilidad de aciertos en un solo ensayo.</para>
+</section>
+
+<section id="fs-idm62678864" class="practice">
+<para id="fs-idm5290048"><emphasis effect="italics">Use la siguiente información para responder los próximos seis ejercicios:</emphasis> En promedio, una tienda de ropa recibe 120 clientes al día.</para>
+<exercise id="fs-idm137455952"><problem id="fs-idm15562000">
+<para id="fs-idm141921744">Supongamos que el evento se produce de forma independiente en un día determinado. Defina la variable aleatoria <emphasis effect="italics">X</emphasis>.</para>
+</problem>
+
+<!-- <solution id="fs-idm218580928">
+<para id="fs-idm140971904"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(120)</para>
+</solution> -->
+</exercise><exercise id="fs-idm144498128">
+<problem id="fs-idm102578848">
+<para id="fs-idm36079552">¿Qué valores toma <emphasis effect="italics">X</emphasis>?</para></problem>
+<solution id="fs-idm121973568">
+<para id="fs-idm51882224">0, 1, 2, 3, 4, …</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idm120323120"><problem id="fs-idm141308992">
+<para id="fs-idm125348432">¿Cuál es la probabilidad de recibir 150 clientes en un día?</para>
+</problem>
+
+<!-- <solution id="fs-idm98751248">
+<para id="fs-idm34196064">0.0010</para>
+</solution> -->
+</exercise><exercise id="fs-idp38717104">
+<problem id="fs-idm75947232">
+<para id="fs-idm120490528">¿Cuál es la probabilidad de recibir 35 clientes en las primeras cuatro horas? Supongamos que la tienda está abierta 12 horas al día.</para>
+</problem>
+<solution id="fs-idm103570128">
+<para id="fs-idm14407824">0,0485</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idp22578880"><problem id="fs-idm144336">
+<para id="fs-idm71278400">¿Cuál es la probabilidad de que la tienda reciba más de 12 clientes en la primera hora?</para>
+</problem>
+
+<!-- <solution id="fs-idm122562880">
+<para id="fs-idm100563824">0.2084</para>
+</solution> -->
+</exercise><exercise id="fs-idm69114848">
+<problem id="fs-idm7126816">
+<para id="fs-idm167446384">¿Cuál es la probabilidad de que la tienda reciba menos de 12 clientes en las dos primeras horas?</para>
+</problem>
+<solution id="fs-idm141658912"><para id="fs-idp32700704">0,0214</para></solution>
+</exercise>
+
+<exercise id="fs-idm48809408"><problem id="fs-idp8030848">
+<para id="fs-idm100699568">¿Qué tipo de distribución se puede utilizar para aproximar el modelo de Poisson? ¿Cuándo lo haría?</para>
+</problem>
+
+<!-- <solution id="fs-idm58434144">
+<para id="fs-idm141703168">The Poisson distribution can approximate a binomial distribution, which you would do if the probability of success is small and the number of trials is large.</para>
+</solution> -->
+</exercise><para id="fs-idm115873936"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos seis ejercicios:</emphasis> En EE. UU. mueren un promedio de ocho adolescentes al día por accidentes de tráfico. Como consecuencia, los estados de todo el país están debatiendo el aumento de la edad para conducir.</para><exercise id="exerciseone">
+<problem id="id10004804">
+<para id="prob_1">Supongamos que el evento se produce de forma independiente en un día determinado. Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</para>
+</problem>
+<solution id="fs-idm5329552">
+<para id="fs-idm5329296"><emphasis effect="italics">X</emphasis> = el número de adolescentes estadounidenses que mueren por lesiones en vehículos de motor al día.</para>
+</solution>
+</exercise>
+<exercise id="exercisetwo"><problem id="id10004833"><para id="fs-idp4167264"><emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</para>
+</problem>
+
+<!-- <solution id="fs-idp14476864">
+<para id="fs-idp14477120"><emphasis effect="italics">P</emphasis>(8)</para>
+</solution> -->
+</exercise><exercise id="exercisethree"><problem id="id10020224">
+<para id="prob_3">¿Qué valores toma <emphasis effect="italics">X</emphasis>?</para>
+</problem>
+<solution id="id10020246">
+<para id="element-88758324234">0, 1, 2, 3, 4, ...</para>
+</solution></exercise>
+
+<exercise id="exercisefour"><problem id="id10020274">
+<para id="prob_4">Para los valores dados de la variable aleatoria <emphasis effect="italics">X</emphasis>, rellene las probabilidades correspondientes.</para>
+</problem>
+
+<!-- <solution id="fs-idp29073952">
+<table id="element-222" summary="">
+<tgroup cols="2"><thead>
+  <row>
+    <entry><emphasis effect="italics">x</emphasis></entry>
+    <entry><emphasis effect="italics">P(x)</emphasis></entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>0</entry>
+    <entry>0.0003</entry>
+  </row>
+  <row>
+    <entry>4</entry>
+    <entry>0.0573</entry>
+  </row>
+  <row>
+    <entry>8</entry>
+    <entry>0.1396</entry>
+  </row>
+  <row>
+    <entry>10</entry>
+    <entry>0.993</entry>
+  </row>
+  <row>
+    <entry>11</entry>
+    <entry>0.0722</entry>
+  </row>
+  <row>
+    <entry>15</entry>
+    <entry>0.0090</entry>
+  </row>
+</tbody>
+</tgroup>
+</table>
+</solution> -->
+</exercise><exercise id="exercisefive">
+<problem id="id10039817">
+<para id="prob_5">¿Es probable que no haya ningún adolescente muerto por accidente de tráfico en un día determinado en EE. UU.? Justifique su respuesta numéricamente.</para>
+</problem>
+<solution id="id10039834">
+<para id="element-887532428234">No</para>
+</solution></exercise>
+
+<exercise id="exercisesix"><problem id="id10039858">
+<para id="prob_6">¿Es probable que haya más de 20 adolescentes muertos por accidentes de tráfico en un día determinado en EE. UU.? Justifique su respuesta numéricamente.</para></problem>
+<!-- <solution id="id10039877">
+<para id="element-88758232434">No</para>
+</solution> --></exercise></section>
+
+<section id="fs-idm132424448" class="free-response"><title>TAREA PARA LA CASA</title><exercise id="fs-idm121525168">
+<problem id="fs-idm79533728">
+<para id="fs-idm79533600">La central de llamadas de un despacho de abogados de Minneapolis recibe un promedio de 5,5 llamadas telefónicas durante el mediodía de los lunes. La experiencia demuestra que el personal actual puede atender hasta seis llamadas en una hora. Supongamos que <emphasis effect="italics">X</emphasis> = el número de llamadas recibidas a mediodía.</para><list id="fs-idm21340336" list-type="enumerated" number-style="lower-alpha">
+<item>Calcule la media y la desviación típica de <emphasis effect="italics">X</emphasis>.</item>
+<item>¿Cuál es la probabilidad de que el despacho reciba como máximo seis llamadas el lunes a mediodía?</item>
+<item>Calcule la probabilidad de que el despacho de abogados reciba seis llamadas a mediodía. ¿Qué significa esto para el personal del despacho de abogados que recibe, en promedio, 5,5 llamadas telefónicas al mediodía?</item>
+<item>¿Cuál es la probabilidad de que el despacho reciba más de ocho llamadas al mediodía?</item>
+</list>
+</problem>
+<solution id="fs-idm105838640">
+<list id="fs-idp36488944" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(5,5); <emphasis effect="italics">μ</emphasis> = 5,5; <m:math>
+ <m:mrow>
+  <m:mi>σ</m:mi><m:mtext> = </m:mtext><m:msqrt>
+   <m:mrow>
+    <m:mn>5,5</m:mn>
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math> ≈ 2,3452</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 6) = poissoncdf(5,5, 6) ≈ 0,6860</item>
+<item>Hay un 15,7 % de probabilidad de que el personal jurídico reciba más llamadas de las que puede atender.</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 8) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 8) = 1 – poissoncdf(5,5, 8) ≈ 1 - 0,8944 = 0,1056</item>
+</list></solution>
+</exercise>
+
+<exercise id="fs-idm13950096"><problem id="fs-idm19674416">
+<para id="fs-idm106996656">La maternidad del Dr. José Fabella Memorial Hospital de Manila, Filipinas es una de las más concurridas del mundo, con un promedio de 60 nacimientos diarios. Supongamos que <emphasis effect="italics">X</emphasis> = el número de nacimientos en una hora.</para>
+<list id="fs-idm55326000" list-type="enumerated" number-style="lower-alpha">
+<item>Calcule la media y la desviación típica de <emphasis effect="italics">X</emphasis>.</item>
+<item>Dibuje un gráfico de la distribución de probabilidad de <emphasis effect="italics">X</emphasis>.</item>
+<item>¿Cuál es la probabilidad de que en la maternidad nazcan tres bebés durante una hora?</item>
+<item>¿Cuál es la probabilidad de que en la maternidad nazcan como máximo tres bebés durante una hora?</item>
+<item>¿Cuál es la probabilidad de que en la maternidad nazcan más de cinco bebés durante una hora?</item>
+</list>
+</problem>
+
+<!-- <solution id="fs-idm62476208">
+<list id="fs-idm102690800" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(2.5); <emphasis effect="italics">&#956;</emphasis> = 2.5; <emphasis effect="italics">&#963;</emphasis> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mn>2.5</m:mn>
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math> &#8776; 1.5811</item>
+<item>
+
+
+<figure id="fs-idm108814544"><media id="fs-idm144587168" alt="This graphs shows a poisson probability distribution. It has 11 bars that are skewed to the right. The x-axis shows values in increments of 1 starting with 0, representing the number of births in 1 hour. The y-axis ranges from 0 to 0.3 in increments of 0.05." display="block">
+<image mime-type="image/jpg" width="350" src="CNX_Stats_C04_M08_001anno.jpg"/>
+</media></figure></item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 3) = poissonpdf(2.5, 3) &#8776; 0.2138</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &#8804; 3) = poissoncdf(2.5, 3) &#8776; 0.7576</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 5) = 1 &#8211; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &#8804; 5) = 1 &#8211; poissoncdf(2.5, 5) &#8776; 0.0420</item>
+</list></solution> --></exercise><exercise id="fs-idm138910624">
+<problem id="fs-idm100655456">
+<para id="fs-idm66459264">Un fabricante de bombillas para árboles de navidad sabe que el 3 % de sus bombillas son defectuosas. Calcule la probabilidad de que una cadena de 100 luces contenga como máximo cuatro bombillas defectuosas mediante las distribuciones binomial y de Poisson.</para>
+</problem>
+<solution id="fs-idp12030224">
+<para id="fs-idm105213344">Supongamos que <emphasis effect="italics">X</emphasis> = el número de bombillas defectuosas en una cadena.</para>
+<para id="fs-idp36557712">Mediante la distribución de Poisson: <list id="fs-idm79935312" list-type="bulleted">
+  <item><emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> = 100(0,03) = 3</item>
+  <item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(3)</item>
+	<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 4) = poissoncdf(3, 4) ≈ 0,8153</item>
+</list>
+</para><para id="fs-idm133149600">Mediante la distribución binomial: <list id="fs-idm216696064" list-type="bulleted">
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(100, 0,03)</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 4) = binomcdf(100, 0,03, 4) ≈ 0,8179</item>
+</list>
+</para><para id="fs-idm98643728">La aproximación de Poisson es muy buena: la diferencia entre las probabilidades es de solo 0,0026.</para>
+</solution>
+</exercise>
+
+<exercise id="element-484">
+<problem id="id12819874">
+  <para id="element-907">El número promedio de hijos que tiene una japonesa a lo largo de su vida es de 1,37. Supongamos que se elige una japonesa al azar.</para>
+
+<list id="element-102" list-type="enumerated" number-style="lower-alpha">
+<item>Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</item>
+<item>Enumere los valores que puede tomar <emphasis effect="italics">X</emphasis>.</item>
+<item>Describa la distribución de <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>Calcule la probabilidad de que no tenga hijos.</item>
+<item>Calcule la probabilidad de que tenga menos hijos que el promedio de japonesas.</item>
+<item>Calcule la probabilidad de que tenga más hijos que el promedio de japonesas.</item></list>
+</problem>
+</exercise>
+
+<exercise id="element-625">
+<problem id="id13721609">
+  <para id="element-894">El promedio de hijos que tiene una española a lo largo de su vida es de 1,47. Supongamos que se elige al azar una española.</para>
+<list id="element-489" list-type="enumerated" number-style="lower-alpha">
+<item>Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</item>
+<item>Enumere los valores que puede tomar <emphasis effect="italics">X</emphasis>.</item>
+<item>Describa la distribución de <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>Calcule la probabilidad de que no tenga hijos.</item>
+<item>Calcule la probabilidad de que tenga menos hijos que el promedio de españolas.</item>
+<item>Calcule la probabilidad de que tenga más hijos que el promedio de españolas.</item></list></problem>
+
+<solution id="id9238209">
+  <list id="element-766" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">X</emphasis> = el número de hijos de una española</item>
+<item>0, 1, 2, 3,...</item>
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(1,47)</item>
+<item>0,2299</item>
+<item>0,5679</item>
+<item>0,4321</item></list></solution>
+</exercise>
+
+
+<exercise id="eip-241"><problem id="eip-550">
+  <para id="eip-509">Las gatas fértiles producen un promedio de tres camadas al año. Supongamos que se elige al azar una gata fértil. En un año, halla la probabilidad de que produzca:</para>
+
+<list id="eip-idm49807776" list-type="enumerated" number-style="lower-alpha">
+<item>Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</item>
+<item>Enumere los valores que puede tomar <emphasis effect="italics">X</emphasis>.</item>
+<item>Demuestre la distribución de <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X</emphasis> ~ _______</item>
+<item>Calcule la probabilidad de que no tenga camadas en un año.</item>
+<item>Calcule la probabilidad de que tenga, al menos, dos camadas en un año.</item>
+<item>Calcule la probabilidad de que tenga exactamente tres camadas en un año.</item>
+</list>
+</problem>
+
+<!-- <solution id="fs-idp96709152">
+<list id="fs-idp49358560" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">X</emphasis> = the number of litters a fertile, female cat produces per year</item>
+<item>0, 1, 2, 3, ...</item>
+<item>X ~ P(3)</item>
+<item>0.0498</item>
+<item>0.8009</item>
+<item>0.2240</item>
+</list>
+</solution> --></exercise><exercise id="element-476"><problem id="id13736070">
+  <para id="element-857">La probabilidad de tener suerte adicional debido a una galleta de la fortuna es de un 3 % aproximadamente. Dada una bolsa de 144 galletas de la fortuna, nos interesa saber el número de galletas con suerte adicional. Se pueden utilizar dos distribuciones para resolver este problema, pero solo use una.</para>
+<list id="element-454" list-type="enumerated" number-style="lower-alpha">
+<item>Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</item>
+<item>Enumere los valores que puede tomar <emphasis effect="italics">X</emphasis>.</item>
+<item>Describa la distribución de <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>¿Cuántas galletas esperamos que tengan suerte adicional?</item>
+<item>Calcule la probabilidad de que ninguna de las galletas tenga suerte adicional.</item>
+<item>Calcule la probabilidad de que más de tres tengan suerte adicional.</item>
+<item>A medida que aumenta <emphasis effect="italics">n</emphasis>, ¿qué ocurre con las probabilidades si usa las dos distribuciones? Explique con oraciones completas.</item></list>
+</problem>
+
+<solution id="id11881046">
+  <list id="element-146" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">X</emphasis> = el número de galletas de la fortuna que tienen suerte adicional</item>
+<item>0, 1, 2, 3,... 144</item>
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(144, 0,03) o <emphasis effect="italics">P</emphasis>(4,32)</item>
+<item>4,32</item>
+<item>0,0124 o 0,0133</item>
+<item>0,6300 o 0,6264</item>
+<item>A medida que <emphasis effect="italics">n</emphasis> aumenta, las probabilidades se acercan.</item>
+</list>
+</solution>
+</exercise>
+
+
+<exercise id="element-255"><problem id="id17404044">
+  <para id="element-311">Según el sitio web del Departamento de Salud Mental de Carolina del Sur, por cada 200 mujeres de EE. UU., en promedio, una padece anorexia. De un grupo de 600 mujeres de EE. UU. elegidas al azar, determine lo siguiente.</para>
+<list id="element-164" list-type="enumerated" number-style="lower-alpha">
+<item>Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</item>
+<item>Enumere los valores que puede tomar <emphasis effect="italics">X</emphasis>.</item>
+<item>Dada la distribución de <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>¿Cuántas se espera que sufran anorexia?</item>
+<item>Calcule la probabilidad de que ninguna sufra anorexia.</item>
+<item>Calcule la probabilidad de que más de cuatro sufran anorexia.</item></list>
+</problem>
+
+<!-- <solution id="id13728739">
+  <list id="element-687" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">X</emphasis> = the number of women that suffer from anorexia</item>
+<item>0, 1, 2, 3, ..., 600</item>
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(3)</item>
+<item>3</item>
+<item>0.0498</item>
+<item>0.1847</item></list></solution> --></exercise><exercise id="element-557">
+<problem id="id13739144">
+  <para id="element-345">La posibilidad de una auditoría del Servicio de Impuestos Internos (Internal Revenue Service, IRS) para una declaración de impuestos con más de 25.000 dólares de ingresos es de alrededor del 2 % al año. Supongamos que se eligen al azar 100 personas con declaraciones de impuestos superiores a 25.000 dólares. Nos interesa el número de personas auditadas en un año. Use una distribución de Poisson para responder las siguientes preguntas.</para>
+<list id="element-832" list-type="enumerated" number-style="lower-alpha">
+<item>Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</item>
+<item>Enumere los valores que puede tomar <emphasis effect="italics">X</emphasis>.</item>
+<item>Describa la distribución de <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>¿Cuántos se espera que se hayan auditado?</item>
+<item>Calcule la probabilidad de que nadie haya sido auditado.</item>
+<item>Calcule la probabilidad de que, al menos, tres hayan sido auditados.</item></list>
+</problem>
+
+<solution id="id16429001">
+  <list id="element-450" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">X</emphasis> = número de personas auditadas en un año</item>
+<item>0, 1, 2, ..., 100</item>
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(2)</item>
+<item>2</item>
+<item>0,1353</item>
+<item>0,3233</item></list>
+</solution>
+</exercise>
+
+<exercise id="element-427"><problem id="id16954673">
+  <para id="element-865"> Aproximadamente el 8 % de los estudiantes de una escuela secundaria local participan en deportes extraescolares durante los cuatro años de escuela secundaria. Se elige al azar un grupo de 60 estudiantes de último año. Nos interesa el número de los que participaron en deportes extraescolares durante los cuatro años de escuela secundaria.</para>
+<list id="element-982" list-type="enumerated" number-style="lower-alpha">
+<item>Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</item>
+<item>Enumere los valores que puede tomar <emphasis effect="italics">X</emphasis>.</item>
+<item>Describa la distribución de <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>¿Cuántos estudiantes de último año se espera que hayan participado en deportes extraescolares durante los cuatro años de escuela secundaria?</item>
+<item>Basándose en los valores numéricos, ¿le sorprendería que ninguno de los estudiantes del último año participara en deportes extraescolares durante los cuatro años de escuela secundaria? Justifique su respuesta numéricamente.</item>
+<item>Basándose en los valores numéricos, ¿es más probable que cuatro o que cinco de los estudiantes del último año hayan participado en deportes extraescolares durante los cuatro años de escuela secundaria? Justifique su respuesta numéricamente.</item></list>
+</problem>
+
+<!-- <solution id="id18997392">
+<list id="listyyy" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">X</emphasis> = the number of seniors who participated in after-school sports all four years of high school</item>
+<item>0, 1, 2, 3, ... 60</item>
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(4.8)</item>
+<item>4.8</item>
+<item>Yes</item>
+<item>4</item></list>
+</solution> --></exercise><exercise id="element-221"><problem id="id12999900">
+  <para id="element-433">En promedio, Pierre, cocinero aficionado, deja caer tres trozos de cáscara de huevo en cada dos mezclas de pastel que hace. Supongamos que usted compra uno de sus pasteles.</para>
+
+<list id="element-831" list-type="enumerated" number-style="lower-alpha">
+<item>Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</item>
+<item>Enumere los valores que puede tomar <emphasis effect="italics">X</emphasis>.</item>
+<item>Describa la distribución de <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>En promedio, ¿cuántos trozos de cáscara de huevo espera que haya en el pastel?</item>
+<item>¿Cuál es la probabilidad de que no haya ningún trozo de cáscara de huevo en el pastel?</item>
+<item>Supongamos que compra uno de los pasteles de Pierre cada semana durante seis semanas. ¿Cuál es la probabilidad de que no haya ninguna cáscara de huevo en ninguno de los pasteles?</item>
+<item>Basándose en el promedio dado por Pierre, ¿es posible que haya siete trozos de cáscara en el pastel? ¿Por qué?</item></list>
+</problem>
+
+<solution id="id15855021">
+  <list id="element-336" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> = el número de trozos de cáscara en un pastel</item>
+<item>0, 1, 2, 3,...</item>
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(1,5)</item>
+<item>1,5</item>
+<item>0,2231</item>
+<item>0,0001</item>
+<item>Sí</item></list></solution>
+</exercise>
+
+
+<para id="fs-idm93659760"><emphasis effect="italics">Use la siguiente información para responder los dos próximos ejercicios:</emphasis> Los gatos de la señora Plum la despiertan por la noche porque quieren jugar un promedio de diez veces a la semana. Nos interesa saber el número de veces que sus gatos la despiertan cada semana.</para>
+
+
+<exercise id="element-528"><problem id="id18796029">
+  <para id="element-338">En palabras, la variable aleatoria <emphasis effect="italics">X</emphasis> = _________________</para>
+
+<list id="element-801" list-type="enumerated" number-style="lower-alpha">
+<item>el número de veces que los gatos de la Sra. Plum la despiertan cada semana.</item>
+<item>el número de veces que los gatos de la Sra. Plum la despiertan cada hora.</item>
+<item>el número de veces que los gatos de la Sra. Plum la despiertan cada noche.</item>
+<item>el número de veces que los gatos de la Sra. Plum la despiertan.</item></list>
+</problem>
+
+<!-- <solution id="id13453446">
+  <para id="element-295">a</para>
+</solution> -->
+</exercise><exercise id="fs-idp14208992"><problem id="id10544357">
+  <para id="element-91">Calcule la probabilidad de que sus gatos la despierten no más de cinco veces la próxima semana.</para>
+
+<list id="element-217" list-type="enumerated" number-style="lower-alpha">
+<item>0,5000</item>
+<item>0,9329</item>
+<item>0,0378</item>
+<item>0,0671</item>
+</list>
+</problem>
+
+<solution id="id16301942">
+  <para id="element-897">d</para>
+</solution>
+</exercise>
+
+</section> </content>
+
+  <glossary>
+<definition id="poisson">
+    <term>Distribución de probabilidad de Poisson</term>
+    <meaning id="id14162739">una variable aleatoria (RV) discreta que cuenta el número de veces que se producirá un determinado evento en un intervalo específico; características de la variable <list id="fs-id44682301" list-type="bulleted">
+<item>La probabilidad de que el evento ocurra en un intervalo determinado es la misma para todos los intervalos.</item>
+<item>Los eventos ocurren con una media conocida e independientemente del tiempo transcurrido desde el último evento.</item>
+</list> La distribución está definida por la media <emphasis effect="italics">μ</emphasis> del evento en el intervalo. Notación: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">μ</emphasis>). La media es <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis>. La desviación típica es <m:math>
+ <m:mrow>
+  <m:mi>σ</m:mi><m:mtext> = </m:mtext><m:msqrt>
+   <m:mi>μ</m:mi>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math>. La probabilidad de tener exactamente <emphasis effect="italics">x</emphasis> aciertos en <emphasis effect="italics">r</emphasis> intentos es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = x ) = <m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:msup>
+   <m:mi>e</m:mi>
+   <m:mrow>
+    <m:mo>–</m:mo><m:mi>μ</m:mi>
+   </m:mrow>
+  </m:msup>
+  <m:mo stretchy="false">)</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>μ</m:mi>
+     <m:mi>x</m:mi>
+    </m:msup>
+
+   </m:mrow>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>!</m:mo>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>. La distribución de Poisson se utiliza a menudo para aproximar la distribución binomial, cuando <emphasis effect="italics">n</emphasis> es "grande" y <emphasis effect="italics">p</emphasis> es "pequeña" (una regla general es que <emphasis effect="italics">n</emphasis> debe ser mayor o igual a 20 y <emphasis effect="italics">p</emphasis> debe ser menor o igual a 0,05).</meaning>
+  </definition>
+</glossary>
+</document>

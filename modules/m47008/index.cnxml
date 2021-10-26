@@ -1,0 +1,238 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="introduction">
+<title>Introducción</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47008</md:content-id>
+  <md:title>Introducción</md:title>
+  <md:abstract/>
+  <md:uuid>956190d1-4e35-4380-b7b1-9c8a38f432e7</md:uuid>
+</metadata>
+
+<content>
+<figure id="fs-idp38862000" class="splash"><media id="fs-idm31074784" alt="Esta es una foto de M&amp;M apilados. Los M&amp;M son de colores rojo, azul, verde, amarillo, anaranjado y marrón.">
+<image src="../../media/CNX_Stats_C08_CO.jpg" width="500" mime-type="image/jpeg"/></media>
+
+<caption>¿Se ha preguntado alguna vez cuál es el promedio de M&amp;M que hay en una bolsa en el supermercado? Puede usar los intervalos de confianza para responder esta pregunta (crédito: comedy_nose/flickr).</caption></figure><note id="fs-idp115342032" class="chapter-objectives"><label/><title>Objetivos del capítulo</title>
+<para id="element-281">Al final de este capítulo el estudiante podrá:</para>
+<list id="list12315"><item>Calcular e interpretar los intervalos de confianza para estimar una media poblacional y una proporción poblacionales.</item>
+<item>Interpretar la distribución de probabilidad t de Student a medida que cambia el tamaño de la muestra.</item>
+<item>Discriminar los problemas aplicando la distribución normal y la <emphasis effect="italics">t</emphasis> de Student.</item>
+<item>Calcular el tamaño de la muestra necesario para estimar una media poblacional y una proporción poblacional dado un nivel de confianza y un margen de error deseados.</item>
+</list></note><para id="element-2812">Supongamos que intenta determinar el alquiler medio de un apartamento de dos habitaciones en su ciudad. Puede buscar en la sección de anuncios del periódico, anotar varios alquileres que aparezcan y hacer un promedio entre ellos. Habría obtenido una estimación puntual de la media real. Si intenta determinar el porcentaje de veces que encesta cuando lanza una pelota de baloncesto, puede contar el número de tiros que lo logra y dividirlo entre el número de tiros que intenta. En este caso, se habría obtenido una estimación puntual de la proporción real.</para>
+<para id="element-550">Utilizamos los datos de la muestra para hacer generalizaciones sobre una población desconocida. Esta parte de la Estadística se llama <term id="term-00001">Estadística Inferencial</term>. <emphasis>Los datos de la muestra nos ayudan a hacer una estimación de un <term id="term-00002">parámetro</term></emphasis> de la población. Nos damos cuenta de que lo más probable es que la estimación puntual no sea el valor exacto del parámetro poblacional, sino que se acerque a él. Después de calcular las estimaciones puntuales, construimos las estimaciones de intervalo, llamadas intervalos de confianza.</para>
+<para id="element-667">En este capítulo aprenderá a construir e interpretar intervalos de confianza. También aprenderá una nueva distribución, la t de Student, y cómo se utiliza con estos intervalos. A lo largo del capítulo es importante tener en cuenta que el intervalo de confianza es una variable aleatoria. Es el parámetro poblacional que se fija.</para>
+<para id="element-560">Si usted trabajara en el departamento de mercadeo de una compañía de entretenimiento, podría interesarse por el número medio de canciones que un consumidor descarga al mes de iTunes. Si es así, puede hacer una encuesta y calcular la media muestral, <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math>, y la desviación típica de la muestra, <emphasis effect="italics">s</emphasis>. Usaría <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math> para estimar la media de la población y <emphasis effect="italics">s</emphasis> para estimar la desviación típica de la población. La media muestral, <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math>, es la <term id="term-00003">estimación</term> puntual de la media de la población, <emphasis effect="italics">μ</emphasis>. La desviación típica de la muestra, <emphasis effect="italics">s</emphasis>, es la estimación puntual de la desviación típica de la población, <emphasis effect="italics">σ</emphasis>.</para>
+<para id="eip-65">Cada uno de <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+Cada</m:math> y <emphasis effect="italics">s</emphasis> se llama estadística.</para>
+
+<para id="element-510">Un <term id="term-00004">intervalo de confianza</term> es otro tipo de estimación pero, en vez de ser un solo número, es un intervalo de números. Proporciona un rango de valores razonables en el que esperamos que se ubique el parámetro de la población. No hay garantía de que un determinado intervalo de confianza capte el parámetro, pero hay una probabilidad de éxito predecible.</para><para id="element-53">Supongamos, para el ejemplo de iTunes, que no conocemos la media poblacional <emphasis effect="italics">μ</emphasis>, pero sí sabemos que la desviación típica de la población es <emphasis effect="italics">σ</emphasis> = 1 y que nuestro tamaño de muestra es 100. Entonces, por el teorema del límite central, la desviación típica para la media de la muestra es</para>
+<para id="element-624">Los términos <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>σ</m:mi>
+   <m:mrow>
+    <m:msqrt>
+     <m:mi>n</m:mi>
+    </m:msqrt>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:msqrt>
+     <m:mrow>
+      <m:mn>100</m:mn>
+     </m:mrow>
+    </m:msqrt>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>0,1</m:mn>
+ </m:mrow>
+</m:math>.</para>
+<para id="element-730">The <term id="term-00005">Empirical Rule</term>, which applies to bell-shaped distributions, says that in approximately 95% of the samples, the sample mean, <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math>, estará dentro de las dos desviaciones típicas de la media poblacional <emphasis effect="italics">μ</emphasis>. Para nuestro ejemplo de iTunes, dos desviaciones típicas son (2)(0,1) = 0,2. La media muestral <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math> es probable que esté dentro de 0,2 unidades de <emphasis effect="italics">μ</emphasis>.</para><para id="element-457">Dado que <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math> está dentro de 0,2 unidades de <emphasis effect="italics">μ</emphasis>, que es desconocido, entonces es probable que <emphasis effect="italics">μ</emphasis> esté dentro de 0,2 unidades de <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math> en el 95 % de las muestras. La media poblacional <emphasis effect="italics">μ</emphasis> está contenida en un intervalo cuyo número inferior se calcula tomando la media muestral y restando dos desviaciones típicas (2)(0,1) y cuyo número superior se calcula tomando la media muestral y sumando dos desviaciones típicas. En otras palabras, <emphasis effect="italics">μ</emphasis> está entre <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mtext> </m:mtext><m:mo>- −</m:mo><m:mtext> 0</m:mtext><m:mtext>0,2</m:mtext>
+ </m:mrow>
+</m:math> y <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mtext> </m:mtext><m:mo>+</m:mo><m:mtext> 0</m:mtext><m:mtext>0,2</m:mtext>
+ </m:mrow>
+</m:math> en el 95 % de las muestras.</para><para id="element-433">Para el ejemplo de iTunes, supongamos que una muestra produce una media muestral <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> 2</m:mtext>
+ </m:mrow>
+</m:math> Entonces la media poblacional desconocida <emphasis effect="italics">μ</emphasis> está entre</para><para id="element-501">Los términos <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>- −</m:mo><m:mn>0,2</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>- −</m:mo><m:mn>0,2</m:mn><m:mo>=</m:mo><m:mn>1,8</m:mn>
+ </m:mrow>
+</m:math> y <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>+</m:mo><m:mn>0,2</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>0,2</m:mn><m:mo>=</m:mo><m:mn>2,2</m:mn>
+ </m:mrow>
+</m:math></para>
+<para id="element-567">Decimos que tenemos <emphasis>un 95 % de confianza</emphasis> en que la media de la población desconocida de canciones descargadas de iTunes al mes está entre 1,8 y 2,2. <emphasis>El intervalo de confianza del 95 % es (1,8; 2,2).</emphasis></para>
+<para id="element-484">El intervalo de confianza del 95 % implica dos posibilidades. O bien el intervalo (1,8, 2,2) contiene la verdadera media <emphasis effect="italics">μ</emphasis> o nuestra muestra produjo un <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math> que no esté a menos de 0,2 unidades de la media verdadera <emphasis effect="italics">μ</emphasis>. La segunda posibilidad solo se da en el 5 % de las muestras (95 a 100 %).</para>
+<para id="element-39">Recuerde que un intervalo de confianza se crea para un parámetro poblacional desconocido como la media poblacional, <emphasis effect="italics">μ</emphasis>. Los intervalos de confianza para algunos parámetros tienen la forma:</para>
+
+<para id="element-75"><emphasis>(estimación puntual - margen de error, estimación puntual + </emphasis> <term id="term-00006">margen de error</term><emphasis>)</emphasis></para><para id="element-485">El margen de error depende del nivel o porcentaje de confianza y del error estándar de la media.</para>
+<para id="eip-255">Cuando lea los periódicos y revistas, algunos informes utilizarán la frase "margen de error". Otros informes no utilizan esa frase, sino que incluyen un intervalo de confianza como la estimación puntual más o menos el margen de error. Son dos formas de expresar el mismo concepto.</para>
+
+<note id="eip-882"><label/><title>Nota</title>
+<para id="eip-idm127604736">Aunque el texto solo contempla los intervalos de confianza simétricos, existen intervalos de confianza no simétricos (por ejemplo, un intervalo de confianza para la desviación típica).</para></note><note id="fs-idp47490208" class="statistics collab">
+<label/>
+
+<para id="element-906">Haga que su instructor registre el número de comidas que cada estudiante de su clase come fuera en una semana. Supongamos que se sabe que la desviación típica es de tres comidas. Construya un intervalo de confianza aproximado del 95 % para el número de la media real de comidas que los estudiantes comen fuera de casa cada semana.</para>
+<list id="element-997" list-type="enumerated"><item>Calcule la media muestral.</item>
+<item>Sea <emphasis effect="italics">σ</emphasis> = 3 y <emphasis effect="italics">n</emphasis> = el número de estudiantes encuestados.</item>
+<item>Construya el intervalo <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mrow>
+     <m:mrow>
+      <m:mover accent="true">
+       <m:mi>x</m:mi>
+       <m:mo>¯</m:mo>
+      </m:mover>
+      <m:mo>- −</m:mo><m:mtext>2</m:mtext>
+     </m:mrow>
+    <m:mo>⋅</m:mo></m:mrow><m:mrow>
+     <m:mrow>
+      <m:mfrac>
+       <m:mtext>σ</m:mtext>
+       <m:mrow>
+        <m:msqrt>
+         <m:mtext>n</m:mtext>
+        </m:msqrt>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mrow><m:mtext>, </m:mtext><m:mover accent="true">
+     <m:mi>x</m:mi>
+     <m:mo>¯</m:mo>
+    </m:mover>
+    <m:mtext> + </m:mtext><m:mrow>
+     <m:mtext>2</m:mtext>
+    <m:mo>⋅</m:mo></m:mrow><m:mrow>
+     <m:mrow>
+      <m:mfrac>
+       <m:mtext>σ</m:mtext>
+       <m:mrow>
+        <m:msqrt>
+         <m:mtext>n</m:mtext>
+        </m:msqrt>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mrow>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></item>
+</list><para id="element-927">Decimos que tenemos aproximadamente un 95 % de confianza en que la media real del número de comidas que los estudiantes comen fuera de casa a la semana está entre __________ y ___________.</para>
+</note> </content>
+
+
+
+<glossary>
+<definition id="coninter">
+<term>Intervalo de confianza (IC)</term>
+<meaning id="id20495395">una estimación de intervalo para un parámetro poblacional desconocido. Esto depende de <list id="confint1" list-type="bulleted">
+<item>el nivel de confianza deseado,</item>
+<item>información que se conoce sobre la distribución (por ejemplo, la desviación típica conocida),</item>
+<item>la muestra y su tamaño.</item>
+</list>
+</meaning>
+</definition>
+<definition id="infrstats">
+<term>Estadística Inferencial</term>
+<meaning id="id20359958">también llamada inferencia estadística o estadística inductiva; esta faceta de la estadística se ocupa de estimar un parámetro poblacional a partir de un estadístico muestral. Por ejemplo, si cuatro de las 100 calculadoras muestreadas son defectuosas, podríamos deducir que el cuatro por ciento de la producción es defectuosa.</meaning>
+</definition>
+<definition id="parameter">
+<term>Parámetro</term>
+<meaning id="id18035004">una característica numérica de una población</meaning>
+</definition>
+<definition id="pointest">
+<term>Estimación puntual</term>
+<meaning id="id20057179">un número único calculado a partir de una muestra y utilizado para estimar un parámetro de la población</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,1430 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Prueba de independencia</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55697</md:content-id>
+  <md:title>Prueba de independencia</md:title>
+  <md:abstract/>
+  <md:uuid>de9b7c0e-9705-47f5-9c8e-3e5a8c403416</md:uuid>
+</metadata>
+
+<content>
+<para id="element-834">Las pruebas de independencia implican el uso de una <term id="term-00001">tabla de contingencia</term> de valores observados (datos).</para>
+<para id="element-230">El estadístico de <term id="term-00002">prueba de independencia</term> es similar al de la prueba de bondad de ajuste:</para><equation class="unnumbered" id="element-164"><label/>Los términos <m:math>
+ <m:mrow>
+  <m:munder>
+   <m:mi fontsize="2">Σ</m:mi>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mi>i</m:mi><m:mo>⋅</m:mo><m:mi>j</m:mi><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+  </m:munder>
+  <m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mi>O</m:mi><m:mo>–</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+   </m:mrow>
+   <m:mi>E</m:mi>
+  </m:mfrac>
+ </m:mrow>
+</m:math></equation><para id="element-874">donde:</para>
+<list id="element-12123" list-type="bulleted"><item><emphasis effect="italics">O</emphasis> = valores observados</item>
+<item><emphasis effect="italics">E</emphasis> = valores esperados</item>
+<item><emphasis effect="italics">i</emphasis> = el número de filas de la tabla</item>
+<item><emphasis effect="italics">j</emphasis> = el número de columnas de la tabla</item>
+</list><para id="element-575">Hay <m:math><m:mi>i</m:mi><m:mo>⋅ </m:mo><m:mi>j</m:mi></m:math> términos de la forma <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mi>O</m:mi><m:mo>–</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+   </m:mrow>
+   <m:mi>E</m:mi>
+  </m:mfrac>
+ </m:mrow>
+</m:math>. </para><para id="element-518"><emphasis>Una prueba de independencia determina si dos factores son independientes o no.</emphasis> La primera vez que vio el término independencia fue en la <link document="m54219"/>. A modo de repaso, considere el siguiente ejemplo.</para><note id="eip-155"><label/><title>Nota</title>
+<para id="eip-idp140445076868880">El valor esperado dentro de cada celda debe ser, al menos, cinco para que pueda usar esta prueba.</para></note><example id="element-54">
+<para id="element-904">Supongamos que <emphasis effect="italics">A</emphasis> = una infracción por exceso de velocidad en el último año y <emphasis effect="italics">B</emphasis> = un usuario de teléfono móvil mientras conduce. Si <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son independientes, entonces <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>). <emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis> es el caso de que un conductor recibiera una infracción por exceso de velocidad el año pasado y también utilizara un teléfono móvil mientras conducía. Supongamos que se encuestaron 755 personas en un estudio sobre conductores que recibieron infracciones por exceso de velocidad durante el año pasado que usaron el teléfono móvil mientras conducían. De los 755, 70 tenían una infracción por exceso de velocidad y 685 no; 305 usaba el teléfono móvil mientras conducían y 450 no.</para><para id="element-427">Supongamos que <emphasis effect="italics">y</emphasis> = número esperado de conductores que usaron un teléfono móvil mientras conducían y recibieron infracciones por exceso de velocidad.</para>
+ <para id="element-367">Si <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son independientes, entonces <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>). Por sustitución,</para><para id="element-329"><m:math display="block">
+  <m:mrow>
+   <m:mfrac>
+    <m:mi>y</m:mi>
+    <m:mrow>
+     <m:mn>755</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mrow>
+       <m:mn>70</m:mn>
+      </m:mrow>
+      <m:mrow>
+       <m:mn>755</m:mn>
+      </m:mrow>
+     </m:mfrac>
+    </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>305</m:mn>
+       </m:mrow>
+       <m:mrow>
+        <m:mn>755</m:mn>
+       </m:mrow>
+      </m:mfrac>
+     </m:mrow>
+     <m:mo>)</m:mo></m:mrow>
+  </m:mrow>
+ </m:math>
+ </para>
+<para id="element-482">Resuelva para <emphasis effect="italics">y</emphasis>: <emphasis effect="italics">y</emphasis> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mn>70</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>305</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>755</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>28,3</m:mn>
+ </m:mrow>
+</m:math> </para><para id="element-249">Se espera que unas 28 personas de la muestra usen teléfonos móviles mientras conducen y reciban infracciones por exceso de velocidad.</para><para id="element-365">En una prueba de independencia planteamos las hipótesis nula y alternativa con palabras. Dado que la tabla de contingencia consta de <emphasis>dos factores</emphasis>, la hipótesis nula afirma que los factores son <emphasis>independientes</emphasis> y la hipótesis alternativa afirma que <emphasis>no son independientes (dependientes)</emphasis>. Si hacemos una prueba de independencia usando el ejemplo, entonces la hipótesis nula es:</para><para id="element-337">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>: Ser usuario de un teléfono móvil mientras se conduce y recibir una infracción por exceso de velocidad son hechos independientes; en otras palabras, no tienen ningún efecto entre sí.</para><para id="element-903">Si la hipótesis nula fuera cierta, esperaríamos que unas 28 personas usaran el móvil mientras conducen y recibieran una infracción por exceso de velocidad.</para>
+<para id="element-197"><emphasis>La prueba de independencia es siempre de cola derecha</emphasis> debido al cálculo del estadístico de prueba. Si los valores esperados y observados no están cerca, entonces el estadístico de prueba es muy grande y se encuentra en la cola derecha de la curva de chi-cuadrado, al igual que en una bondad de ajuste.</para><para id="element-35">El número de grados de libertad para la prueba de independencia es:</para><para id="element-12412"><emphasis effect="italics">df</emphasis> = (número de columnas – 1)(número de filas – 1)</para>
+<para id="element-928">La siguiente fórmula calcula el <emphasis>número esperado</emphasis> (<emphasis effect="italics">E</emphasis>):</para>
+<para id="element-32"><m:math display="block"><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mtext>(total de filas)(total de columnas)</m:mtext><m:mtext>número total de encuestados</m:mtext></m:mfrac></m:math></para></example>
+<note id="fs-idp45633632" class="statistics try"><label/><title>Ejercicio</title>
+<exercise id="eip-298">
+ <problem id="eip-721">
+ <para id="eip-935">Se toma una muestra de 300 estudiantes. De los estudiantes encuestados, 50 estudiaban música, mientras que 250 no. Noventa y siete de los 300 encuestados estaban en el cuadro de honor, mientras que 203 no estaban. Si suponemos que ser estudiante de música y estar en el cuadro de honor son hechos independientes, ¿cuál es el número esperado de estudiantes de música que también están en el cuadro de honor?</para></problem>
+<solution id="eip-idp106474304">
+<label/>
+ <para id="eip-308">Se espera que unos 16 alumnos sean estudiantes de música y estén en el cuadro de honor. </para>
+</solution>
+</exercise>
+</note><example id="element-272">
+ <para id="element-84">Un grupo de voluntarios dedica de una a nueve horas cada semana a personas mayores con discapacidades. El programa recluta entre estudiantes de institutos universitarios comunitarios, estudiantes de institutos universitarios de cuatro años y no estudiantes. En la <link target-id="table-73248"/> se encuentra una <emphasis>muestra</emphasis> de los voluntarios adultos y el número de horas que ofrecen a la semana. </para><table id="table-73248" summary="This table presents the observed hours per week volunteered by type of volunteer. The first row represents community-college students, the second row represents four-year college students, and the third row represents non-students. The second column is 1-3 hours per week, the third column is 4-6 hours per week, and the fourth column is 7-9 hours per week."><title>Número de horas trabajadas por semana por tipo de voluntario (observado)</title>
+<tgroup cols="5"><colspec colnum="1" colname="header_c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<thead valign="top">
+ <row>
+ <entry>Tipo de voluntario</entry>
+	<entry>de 1 a 3 horas</entry>
+	<entry>de 4 a 6 horas</entry>
+	<entry>de 7 a 9 horas</entry>
+ <entry>Total de la fila</entry>
+ </row>
+ </thead>
+<tbody valign="top">
+<row>
+<entry>Estudiantes de colegios comunitarios</entry>
+<entry>111</entry>
+<entry>96</entry>
+<entry>48</entry>
+<entry>255</entry>
+</row>
+<row>
+<entry>Estudiantes de institutos universitarios de cuatro años</entry>
+<entry>96</entry>
+<entry>133</entry>
+<entry>61</entry>
+<entry>290</entry>
+</row>
+<row>
+<entry>No estudiantes</entry>
+<entry>91</entry>
+<entry>150</entry>
+<entry>53</entry>
+<entry>294</entry>
+</row>
+<row>
+<entry>Total de la columna</entry>
+<entry>298</entry>
+<entry>379</entry>
+<entry>162</entry>
+<entry>839</entry>
+</row>
+</tbody>
+
+
+
+</tgroup><caption>La tabla contiene los valores (datos) <emphasis>observados (O)</emphasis>. </caption>
+</table><exercise id="exercise102"><problem id="id8698829">
+<para id="element-2342"> ¿El número de horas de voluntariado es <emphasis>independiente</emphasis> del tipo de voluntario? </para>
+</problem>
+<solution id="id8698856">
+<para id="element-8768798723">La <emphasis>tabla observada</emphasis> y la pregunta al final del problema: “¿El número de horas de voluntariado es independiente del tipo de voluntario?”, le indican que se trata de una prueba de independencia. Los dos factores son el <emphasis>número de horas de voluntariado</emphasis> y el <emphasis>tipo de voluntario</emphasis>. Esta prueba es siempre de cola derecha.</para>
+<para id="element-945"><emphasis effect="italics">H<sub>0</sub></emphasis>: El número de horas de voluntariado es <emphasis>independiente</emphasis> del tipo de voluntario.</para><para id="element-255"><emphasis effect="italics">H<sub>a</sub></emphasis>: El número de horas de voluntariado <emphasis>depende</emphasis> del tipo de voluntario.</para><para id="element-455">Los resultados esperados están en la <link target-id="table-73248a"/>.
+ <table id="table-73248a" summary="This table presents the expected hours per week volunteered by type of volunteer. The first row represents community-college students, the second row represents four-year college students, and the third row represents non-students. The second column is 1-3 hours per week, the third column is 4-6 hours per week, and the fourth column is 7-9 hours per week."><title>Número de horas trabajadas por semana por tipo de voluntario (previsto)</title>
+<tgroup cols="4"><colspec colnum="1" colname="header_c1"/>
+   <colspec colnum="2" colname="c2"/>
+   <colspec colnum="3" colname="c5"/>
+   <colspec colnum="4" colname="c4"/>
+   <thead valign="top"><row><entry>Tipo de voluntario</entry> 	<entry>de 1 a 3 horas</entry> 	<entry>de 4 a 6 horas</entry> 	<entry>de 7 a 9 horas</entry></row></thead>
+   <tbody valign="top">
+    <row><entry>Estudiantes de colegios comunitarios</entry><entry>90,57</entry><entry>115,19</entry><entry>49,24</entry></row>
+    <row><entry>Estudiantes de institutos universitarios de cuatro años</entry><entry>103,00</entry><entry>131,00</entry><entry>56,00</entry></row>
+    <row><entry>No estudiantes</entry><entry>104,42</entry><entry>132,81</entry><entry>56,77</entry></row>
+   </tbody>
+
+
+
+</tgroup><caption>La tabla contiene los valores (datos) <emphasis>esperados</emphasis> (<emphasis effect="italics">E</emphasis>).</caption>
+</table></para><para id="element-720">Por ejemplo, el cálculo de la frecuencia esperada para la celda superior izquierda es </para>
+ <para id="element-914"><m:math display="block">
+  <m:mrow>
+   <m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mo stretchy="false">(</m:mo><m:mtext>total de la fila</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>total de la columna</m:mtext><m:mo stretchy="false">)</m:mo>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>número total de encuestados</m:mtext>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mn>255</m:mn>
+      </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>298</m:mn>
+       </m:mrow>
+       <m:mo>)</m:mo></m:mrow>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>839</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mn>90,57</m:mn>
+  </m:mrow>
+ </m:math>
+ </para>
+<para id="element-558" class="finger"><emphasis>Calcule el estadístico de prueba:</emphasis> <emphasis effect="italics">χ</emphasis><sup>2</sup> = 12,99 (calculadora o computadora)</para><para id="element-775"><emphasis>Distribución para la prueba:</emphasis><m:math><m:msubsup><m:mi>χ</m:mi><m:mn>4</m:mn><m:mn>2</m:mn></m:msubsup></m:math></para>
+ <para id="fs-idp19708320"><emphasis effect="italics">df</emphasis> = (3 columnas – 1)(3 filas – 1) = (2)(2) = 4</para><para id="element-48"><emphasis>Gráfico:</emphasis></para>
+ <figure id="fs-idm32439392"><media id="id8547662" alt="Curva de chi-cuadrado no simétrica con valores de 0 y 12,99 en el eje x que representa el estadístico de prueba del número de horas trabajadas por los voluntarios de diferentes tipos. Una línea vertical ascendente se extiende desde 12,99 hasta la curva y el área a la derecha de esta es igual al valor p." display="block"><image src="../../media/fig-ch11_04_05m.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-117">El gráfico de chi cuadrado muestra la distribución y marca el valor crítico con cuatro grados de libertad a un nivel de confianza del 95 %, α = 0,05; 9,488. El gráfico también marca el valor calculado del estadístico de prueba <m:math><m:msubsup><m:mi>χ</m:mi><m:mi>c</m:mi><m:mn>2</m:mn></m:msubsup></m:math> de 12,99. Al comparar el estadístico de prueba con el valor crítico, como hemos hecho con todas las demás pruebas de hipótesis, llegamos a la conclusión. </para><para id="fs-idm62402592"><emphasis>Tome una decisión:</emphasis> Como el estadístico de prueba calculado está en la cola, no podemos aceptar <emphasis effect="italics">H<sub>0</sub></emphasis>. Esto significa que los factores no son independientes.</para><para id="element-590"><emphasis>Conclusión:</emphasis> A un nivel de significación del 5 %, a partir de los datos, hay pruebas suficientes para concluir que el número de horas de voluntariado y el tipo de voluntariado dependen el uno del otro.</para>
+ <para id="element-956">Para el ejemplo de la <link target-id="table-73248a"/>, de haber otro tipo de voluntarios, adolescentes, ¿cuáles serían los grados de libertad?</para></solution></exercise></example>
+<note id="fs-idm24618832" class="statistics try finger"><label/><title>Ejercicio</title>
+<exercise id="eip-685"><problem id="eip-903">
+ <para id="eip-845">La Oficina de Estadísticas Laborales recopila datos sobre empleo en Estados Unidos. Se toma una muestra para calcular el número de ciudadanos de EE. UU. que trabajan en uno de varios sectores industriales a lo largo del tiempo. La <link target-id="fs-idp61742592"/> muestra los resultados: </para>
+<table id="fs-idp61742592" summary=".">
+<tgroup cols="5"><thead>
+ <row>
+ <entry>Sector industrial</entry>
+ <entry>2000</entry>
+ <entry>2010</entry>
+ <entry>2020</entry>
+ <entry>Total</entry>
+ </row>
+</thead>
+<tbody>
+ <row>
+ <entry>Sueldos y salarios no agrícolas</entry>
+ <entry>13.243</entry>
+ <entry>13.044</entry>
+ <entry>15.018</entry>
+ <entry>41.305</entry>
+ </row>
+ <row>
+ <entry>Producción de bienes, excluida la agricultura</entry>
+ <entry>2.457</entry>
+ <entry>1.771</entry>
+ <entry>1.950</entry>
+ <entry>6.178</entry>
+ </row>
+ <row>
+ <entry>Prestación de servicios</entry>
+ <entry>10.786</entry>
+ <entry>11.273</entry>
+ <entry>13.068</entry>
+ <entry>35.127</entry>
+ </row>
+ <row>
+ <entry>Agricultura, silvicultura, pesca y caza</entry>
+ <entry>240</entry>
+ <entry>214</entry>
+ <entry>201</entry>
+ <entry>655</entry>
+ </row>
+ <row>
+ <entry>Autónomos no agrícolas y trabajadores familiares no remunerados</entry>
+ <entry>931</entry>
+ <entry>894</entry>
+ <entry>972</entry>
+ <entry>2.797</entry>
+ </row>
+ <row>
+ <entry>Empleos secundarios asalariados en agricultura e industrias domésticas privadas</entry>
+ <entry>14</entry>
+ <entry>11</entry>
+ <entry>11</entry>
+ <entry>36</entry>
+ </row>
+ <row>
+ <entry>Trabajos secundarios como autónomo o trabajador familiar no remunerado</entry>
+ <entry>196</entry>
+ <entry>144</entry>
+ <entry>152</entry>
+ <entry>492</entry>
+ </row>
+ <row>
+ <entry>Total</entry>
+ <entry>27.867</entry>
+ <entry>27.351</entry>
+ <entry>31.372</entry>
+ <entry>86.590</entry>
+ </row>
+</tbody>
+
+</tgroup>
+</table><para id="eip-idp2741344">Queremos saber si el cambio en el número de empleos es independiente del cambio en los años. Indique las hipótesis nula y alternativa y los grados de libertad.</para>
+</problem>
+<solution id="eip-idm75764640">
+<label/>
+ <para id="eip-663"><emphasis effect="italics">H</emphasis><sub>0</sub>: El número de empleos es independiente del año.</para><para id="eip-792"><emphasis effect="italics">H<sub>a</sub></emphasis> : El número de empleos depende del año.<newline/><emphasis effect="italics">df</emphasis> = 12</para>
+<para id="eip-761"><figure id="fs-idp37345056"><media id="eip-idp74543680" alt="" display="block"><image src="../../media/CNX_Stats_C11_M05_tryit001annoN.jpg" mime-type="image/jpg" width="380"/></media></figure></para>
+<para id="eip-idm36315600">
+Pulse <code>MATRX</code> y flecha hacia <code>EDIT</code>. Pulse <code>1:[A]</code>. Pulse <code>3 ENTER 3 ENTER</code>. Introduzca los valores de la tabla por fila. Pulse <code>ENTER</code> después de cada uno. Pulse <code>2nd QUIT</code>. Pulse <code>STAT</code> y flecha hacia <code>TESTS</code>. Flecha hacia abajo <code>C:χ2-TEST</code>. Pulse <code>ENTER</code>. Debería ver <code>Observed:[A] y Expected:[B]</code>. Desplace la flecha hacia abajo hasta <code>Calculate</code>. Pulse <code>ENTER</code>. La estadística de la prueba es 227,73 y el valor <emphasis effect="italics">p</emphasis> = 5,90E - 42 = 0. Realice el procedimiento por segunda vez pero desplace la flecha hacia abajo hasta <code>Draw</code> en vez de <code>Calculate</code>.</para></solution>
+</exercise></note><example id="element-505">
+ <para id="element-311">El De Anza College está interesado en la relación entre el nivel de ansiedad y la necesidad de tener éxito en la escuela. Una muestra aleatoria de 400 estudiantes realizó una prueba que medía el nivel de ansiedad y la necesidad de tener éxito en la escuela. La <link target-id="element-875"/> muestra los resultados. El De Anza College quiere saber si el nivel de ansiedad y la necesidad de tener éxito en la escuela son eventos independientes.</para><table id="element-875" summary="This table presents the need to succeed in school in the first column and the various anxiety levels (high to low) and the row total in the second to seventh columns. The first row is for high need, the second row is for medium need, third row is for low need, and the column total is in the fourth row."><title>Necesidad de tener éxito en la escuela versus nivel de ansiedad</title>
+<tgroup cols="7"><colspec colnum="1" colname="header_c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<thead valign="top">
+ <row>
+ <entry>Necesidad de tener éxito en la escuela</entry>
+ <entry>Ansiedad <newline/>alta</entry>
+ <entry>Ansiedad <newline/>media alta</entry>
+ <entry>Ansiedad <newline/>media</entry>
+ <entry>Ansiedad <newline/>media baja</entry>
+ <entry>Ansiedad <newline/>baja</entry>
+ <entry>Total de la fila</entry>
+ </row>
+</thead>
+<tbody>
+ <row>
+ <entry>Necesidad alta</entry>
+ <entry>35</entry>
+ <entry>42</entry>
+ <entry>53</entry>
+ <entry>15</entry>
+ <entry>10</entry>
+<entry>155</entry>
+ </row>
+ <row>
+ <entry>Necesidad media</entry>
+ <entry>18</entry>
+ <entry>48</entry>
+ <entry>63</entry>
+ <entry>33</entry>
+ <entry>31</entry>
+<entry>193</entry>
+ </row>
+ <row>
+ <entry>Necesidad baja</entry>
+ <entry>4</entry>
+ <entry>5</entry>
+ <entry>11</entry>
+ <entry>15</entry>
+ <entry>17</entry>
+<entry>52</entry>
+ </row>
+ <row>
+ <entry>Total de la columna</entry>
+ <entry>57</entry>
+ <entry>95</entry>
+ <entry>127</entry>
+ <entry>63</entry>
+ <entry>58</entry>
+<entry>400</entry>
+ </row>
+</tbody>
+
+</tgroup>
+</table><exercise id="element-454"><problem id="id9399628">
+ <para id="element-671">a. ¿Cuántos estudiantes con alto nivel de ansiedad se espera que tengan una alta necesidad de tener éxito en la escuela? </para></problem>
+<solution id="id9399648">
+ <para id="element-554">a. El total de la columna para un alto nivel de ansiedad es de 57. El total de filas para la alta necesidad de tener éxito en la escuela es de 155. El tamaño de la muestra o el total de encuestados es de 400. </para><para id="fs-idm95557984"><m:math display="block"><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mtext>(total de filas)(total de columnas)</m:mtext><m:mtext>total de encuestados</m:mtext></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>155</m:mn><m:mo>⋅</m:mo><m:mn>57</m:mn></m:mrow><m:mn>400</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>22,09</m:mn></m:math></para><para id="element-790">El número esperado de estudiantes que tienen un alto nivel de ansiedad y una alta necesidad de tener éxito en la escuela es de unos 22.<newline count="2"/></para></solution>
+</exercise><exercise id="element-804"><problem id="id8698448">
+ <para id="element-683">b. Si las dos variables son independientes, ¿cuántos estudiantes espera que tengan una baja necesidad de tener éxito en la escuela y un nivel medio-bajo de ansiedad? </para></problem>
+<solution id="id8698469">
+ <para id="element-921">b. El total de la columna para un nivel de ansiedad medio-bajo es de 63. El total de filas para una baja necesidad de éxito en la escuela es de 52. El tamaño de la muestra o el total de encuestados es de 400.</para>
+</solution>
+</exercise><exercise id="eip-152"><problem id="id7273926">
+<para id="eip-idp45969696">c. <m:math><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mtext>(total de filas)(total de columnas)</m:mtext>
+ <m:mtext>total de encuestados</m:mtext></m:mfrac></m:math> = ________</para>
+</problem>
+<solution id="id8469218">
+<para id="eip-idm78464064">c. <m:math><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mtext>(total de filas)(total de columnas)</m:mtext><m:mtext>total de encuestados</m:mtext></m:mfrac><m:mo> = </m:mo><m:mn>8,19</m:mn></m:math> </para>
+ </solution>
+</exercise><exercise id="eip-699"><problem id="id7273926a">
+<para id="eip-idm73581440">d. El número esperado de estudiantes que tienen un nivel de ansiedad medio-bajo y una baja necesidad de tener éxito en la escuela es aproximadamente ________.</para>
+</problem>
+<solution id="id8469218a">
+<para id="eip-idm130717088">d. 8</para>
+</solution>
+</exercise></example>
+<section id="fs-idp57429040" class="references">
+<title>Referencias</title>
+<para id="fs-idp13074288">DiCamilo, Mark, Mervin Field, “Most Californians See a Direct Linkage between Obesity and Sugary Sodas. Two in Three Voters Support Taxing Sugar-Sweetened Beverages If Proceeds are Tied to Improving School Nutrition and Physical Activity Programs”. The Field Poll, publicado el 14 de febrero de 2013. Disponible en línea en http://field.com/fieldpollonline/subscribers/Rls2436.pdf (consultado el 24 de mayo de 2013).</para>
+<para id="fs-idm55866896">Harris Interactive, “Favorite Flavor of Ice Cream”. Disponible en línea en http://www.statisticbrain.com/favorite-flavor-of-ice-cream (consultado el 24 de mayo de 2013)</para>
+<para id="fs-idp88629920">“Youngest Online Entrepreneurs List”. Disponible en línea en http://www.statisticbrain.com/youngest-online-entrepreneur-list (consultado el 24 de mayo de 2013).</para>
+</section>
+<section id="fs-idm174129504" class="summary">
+<title>Revisión del capítulo</title>
+<para id="eip-409">Para evaluar si dos factores son independientes o no, puede aplicar la prueba de independencia que utiliza la distribución chi-cuadrado. La hipótesis nula de esta prueba afirma que los dos factores son independientes. La prueba compara valores observados con valores esperados. La prueba es de cola derecha. Cada observación o categoría de celda debe tener un valor esperado de, al menos, 5.</para></section>
+<section id="fs-idm165691616" class="formula-review">
+<title>Revisión de la fórmula</title>
+<list id="eip-958"><title>Prueba de independencia</title><item>El número de grados de libertad es igual a (número de columnas – 1)(número de filas – 1).</item>
+<item>El estadístico de prueba es <m:math>
+    <m:mrow>
+      <m:munder>
+        <m:mstyle mathsize="140%" displaystyle="true"><m:mo>∑</m:mo></m:mstyle>
+        <m:mrow>
+          <m:mi>i</m:mi><m:mo>⋅</m:mo><m:mi>j</m:mi>
+        </m:mrow>
+      </m:munder>
+      <m:mfrac>
+        <m:mrow>
+          <m:msup>
+            <m:mrow>
+              <m:mo stretchy="false">(</m:mo><m:mi>O</m:mi><m:mo>–</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mi>E</m:mi>
+      </m:mfrac>
+    </m:mrow>
+  </m:math> donde <emphasis effect="italics">O</emphasis> = valores observados, <emphasis effect="italics">E</emphasis> = valores esperados, <emphasis effect="italics">i</emphasis> = el número de filas de la tabla y <emphasis effect="italics">j</emphasis> = el número de columnas de la tabla.
+</item>
+<item>Si la hipótesis nula es verdadera, el número esperado <m:math>
+<m:mi>E</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mtext>(total de filas)(total de columnas)</m:mtext>
+<m:mtext>total de encuestados</m:mtext>
+</m:mfrac>
+</m:math>.
+</item>
+</list></section>
+<section id="fs-idm76665472" class="practice"><para id="eip-idp65377328"><emphasis effect="italics">Determine la prueba adecuada que se utilizará en los tres ejercicios siguientes.</emphasis></para>
+<exercise id="eip-643"><problem id="eip-796">
+ <para id="eip-177">Una compañía farmacéutica está interesada en la relación entre edad y presentación de síntomas de una infección viral común. Se toma una muestra aleatoria de 500 personas con la infección en diferentes grupos de edad.</para></problem>
+<solution id="eip-222">
+ <para id="eip-752">una prueba de independencia </para></solution>
+</exercise>
+<exercise id="eip-703"><problem id="eip-619">
+ <para id="eip-885">El propietario de un equipo de béisbol está interesado en la relación entre salarios de los jugadores y porcentaje de victorias del equipo. Toma una muestra aleatoria de 100 jugadores de diferentes organizaciones.</para></problem>
+</exercise><exercise id="eip-46"><problem id="eip-671">
+ <para id="eip-389">Un corredor de maratón se interesa por la relación entre la marca de zapatillas que usan los corredores y sus tiempos de carrera. Toma una muestra aleatoria de 50 corredores y registra sus tiempos de carrera, así como la marca de zapatillas que llevaban.</para></problem>
+<solution id="eip-58">
+ <para id="eip-988">una prueba de independencia </para></solution>
+</exercise>
+ <para id="eip-180"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos siete ejercicios:</emphasis> Transit Railroads se interesa por la relación entre distancia de viaje y clase de billete adquirido. Se toma una muestra aleatoria de 200 pasajeros. La <link target-id="eip-956"/> muestra los resultados. La compañía quiere saber si la elección de la clase de billete de un pasajero es independiente de la distancia que debe viajar.</para><table id="eip-956" summary="..">
+<tgroup cols="5"><thead>
+ <row>
+ <entry>Distancia de viaje</entry>
+ <entry>Tercera clase</entry>
+ <entry>Segunda clase</entry>
+ <entry>Primera clase</entry>
+ <entry>Total</entry>
+ </row>
+</thead>
+<tbody>
+ <row>
+ <entry>de 1 a 100 millas</entry>
+ <entry>21</entry>
+ <entry>14</entry>
+ <entry>6</entry>
+ <entry>41</entry>
+ </row>
+ <row>
+  <entry>de 101 a 200 millas</entry>
+ <entry>18</entry>
+ <entry>16</entry>
+ <entry>8</entry>
+ <entry>42</entry>
+ </row>
+ <row>
+  <entry>de 201 a 300 millas</entry>
+ <entry>16</entry>
+ <entry>17</entry>
+ <entry>15</entry>
+ <entry>48</entry>
+ </row>
+ <row>
+  <entry>de 301 a 400 millas</entry>
+ <entry>12</entry>
+ <entry>14</entry>
+ <entry>21</entry>
+ <entry>47</entry>
+ </row>
+ <row>
+  <entry>de 401 a 500 millas</entry>
+ <entry>6</entry>
+ <entry>6</entry>
+ <entry>10</entry>
+ <entry>22</entry>
+ </row>
+ <row>
+ <entry>Total</entry>
+ <entry>73</entry>
+ <entry>67</entry>
+ <entry>60</entry>
+ <entry>200</entry>
+ </row>
+</tbody>
+
+</tgroup>
+</table><exercise id="eip-919"><problem id="eip-917">
+ <para id="eip-842">Plantee las hipótesis. <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: _______ <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: _______
+ </para></problem>
+</exercise><exercise id="eip-304">
+ <problem id="eip-131">
+ <para id="eip-301"><emphasis effect="italics">df</emphasis> = _______</para>
+</problem>
+<solution id="eip-56">
+ <para id="eip-37">8 </para>
+</solution>
+ </exercise>
+ <exercise id="eip-276"><problem id="eip-282">
+ <para id="eip-952">¿Cuántos pasajeros se espera que viajen entre 201 y 300 millas y compren billetes de segunda clase? </para></problem>
+</exercise><exercise id="eip-870">
+ <problem id="eip-869">
+ <para id="eip-799">¿Cuántos pasajeros se espera que viajen entre 401 y 500 millas y compren billetes de primera clase?</para></problem>
+<solution id="eip-650">
+ <para id="eip-134">6,6 </para>
+</solution>
+</exercise>
+ <exercise id="eip-364"><problem id="eip-857">
+ <para id="eip-486">¿Cuál es el estadístico de prueba? </para>
+ </problem>
+</exercise><exercise id="eip-629"><problem id="eip-818">
+ <para id="eip-788">¿Qué puede concluir con un nivel de significación del 5 %?</para>
+ </problem>
+</exercise><para id="element-538"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos ocho ejercicios:</emphasis> En un artículo publicado en el New England Journal of Medicine, se habla de un estudio sobre los fumadores de California y Hawái. En una parte del informe se indicaba el origen étnico autodeclarado y la cantidad de cigarrillos por día. Of the people smoking at most ten cigarettes per day, there were 9,886 African American people, 2,745 Native Hawaiian people, 12,831 Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 African American people, 3,062 Native Hawaiian people, 4,932 Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 African American people, 1,419 Native Hawaiian people, 1,406 Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 African American people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people.</para><exercise id="fs-idm12518016"><problem id="fs-idp16845632">
+<para id="eip-idp205148416">Rellene la tabla.</para><table id="element-894" summary="This is a partially filled observation table with Ethnicity for the columns (2nd to 6th) and Total for the seventh column. The smoking level (4 rows) and the total constitute the rows of the table. 30 blank cells are available."><title>Hábito de fumar por grupo étnico (observado)</title>
+<tgroup cols="7"><colspec colnum="1" colname="header_c1" colwidth="150"/>
+<colspec colnum="2" colname="c2" colwidth="120"/>
+<colspec colnum="3" colname="c3" colwidth="120"/>
+<colspec colnum="4" colname="c4" colwidth="80"/>
+<colspec colnum="5" colname="c5" colwidth="150"/>
+<colspec colnum="6" colname="c6" colwidth="80"/>
+<colspec colnum="7" colname="c7" colwidth="80"/>
+<thead>
+<row>
+<entry>Cantidad de cigarrillos por día</entry>
+<entry>Afroamericanos</entry>
+<entry>Nativos de Hawái</entry>
+<entry>Latinos</entry>
+<entry>Japanese American</entry>
+<entry>Blancos</entry>
+<entry>Totales</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+1-10
+</entry>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>
+11-20
+</entry>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>
+21-30
+</entry>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>
+31 o más
+</entry>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>Totales</entry>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></problem>
+<solution id="fs-idm6558000">
+<table id="fs-idp136234736" summary="..">
+<tgroup cols="7"><colspec colnum="1" colname="header_c1" colwidth="150"/>
+<colspec colnum="2" colname="c2" colwidth="120"/>
+<colspec colnum="3" colname="c3" colwidth="120"/>
+<colspec colnum="4" colname="c4" colwidth="80"/>
+<colspec colnum="5" colname="c5" colwidth="150"/>
+<colspec colnum="6" colname="c6" colwidth="80"/>
+<colspec colnum="7" colname="c7" colwidth="80"/>
+<thead>
+<row>
+<entry>Cantidad de cigarrillos por día</entry>
+<entry>Afroamericanos</entry>
+<entry>Nativos de Hawái</entry>
+<entry>Latinos</entry>
+<entry>Japoneses americanos</entry>
+<entry>Blancos</entry>
+<entry>Totales</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>1-10</entry>
+<entry>9.886</entry>
+<entry>2.745</entry>
+<entry>12.831</entry>
+<entry>8.378</entry>
+<entry>7.650</entry>
+<entry>41.490</entry>
+</row>
+<row>
+<entry>11-20</entry>
+<entry>6.514</entry>
+<entry>3.062</entry>
+<entry>4.932</entry>
+<entry>10.680</entry>
+<entry>9.877</entry>
+<entry>35.065</entry>
+</row>
+<row>
+<entry>21-30</entry>
+<entry>1.671</entry>
+<entry>1.419</entry>
+<entry>1.406</entry>
+<entry>4.715</entry>
+<entry>6.062</entry>
+<entry>15.273</entry>
+</row>
+<row>
+<entry>31 o más</entry>
+<entry>759</entry>
+<entry>788</entry>
+<entry>800</entry>
+<entry>2.305</entry>
+<entry>3.970</entry>
+<entry>8.622</entry>
+</row>
+<row>
+<entry>Totales</entry>
+<entry>18.830</entry>
+<entry>8.014</entry>
+<entry>19.969</entry>
+<entry>26.078</entry>
+<entry>27.559</entry>
+<entry>10,0450</entry>
+</row>
+</tbody>
+
+
+
+
+</tgroup>
+</table></solution></exercise><exercise id="fs-idp51845072"><problem id="fs-idp65899264">
+<para id="eip-842abc">Plantee las hipótesis.<newline/> <emphasis effect="italics">H<sub>0</sub></emphasis>: _______<newline/> <emphasis effect="italics">H<sub>a</sub></emphasis>: _______
+</para></problem>
+ </exercise><exercise id="fs-idp153986240"><problem id="fs-idp153898880">
+ <para id="element-762"> Introduzca los valores esperados en la <link target-id="element-894"/>. Redondee a dos decimales.</para>
+<para id="eip-idm129023760">Calcule los siguientes valores:</para>
+</problem>
+<solution id="fs-idp8876448">
+ <table id="fs-idp49533968" summary="..">
+<tgroup cols="6"><colspec colnum="1" colname="header_c1" colwidth="150"/>
+<colspec colnum="2" colname="c2" colwidth="120"/>
+<colspec colnum="3" colname="c3" colwidth="120"/>
+<colspec colnum="4" colname="c4" colwidth="80"/>
+<colspec colnum="5" colname="c5" colwidth="150"/>
+<colspec colnum="6" colname="c6" colwidth="80"/>
+   <thead>
+    <row>
+     <entry>Cantidad de cigarrillos por día</entry>
+     <entry>Afroamericanos</entry>
+     <entry>Nativos de Hawái</entry>
+     <entry>Latinos</entry>
+     <entry>Japoneses americanos</entry>
+     <entry>Blancos</entry>
+    </row>
+   </thead>
+   <tbody>
+    <row>
+     <entry>1-10</entry>
+     <entry>7777,57</entry>
+     <entry>3310,11</entry>
+     <entry>8248,02</entry>
+     <entry>10771,29</entry>
+     <entry>11383,01</entry>
+    </row>
+    <row>
+     <entry>11-20</entry>
+     <entry>6573,16</entry>
+     <entry>2797,52</entry>
+     <entry>6970,76</entry>
+     <entry>9103,29</entry>
+     <entry>9620,27</entry>
+    </row>
+    <row>
+     <entry>21-30</entry>
+     <entry>2863,02</entry>
+     <entry>1218,49</entry>
+     <entry>3036,20</entry>
+     <entry>3965,05</entry>
+     <entry>4190,23</entry>
+    </row>
+    <row>
+     <entry>31 o más</entry>
+     <entry>1616,25</entry>
+     <entry>687,87</entry>
+     <entry>1714,01</entry>
+     <entry>2238,37</entry>
+     <entry>2365,49</entry>
+    </row>
+   </tbody>
+
+</tgroup>
+</table></solution>
+ </exercise><exercise id="element-180"><problem id="id13657036">
+  <para id="element-491"><emphasis effect="italics">df</emphasis> = _______</para>
+</problem>
+ </exercise><exercise id="element-607">
+ <problem id="id3392008">
+  <para id="element-615">Los términos <m:math>
+   <m:mrow>
+    <m:msup>
+     <m:mi>χ</m:mi>
+     <m:mtext>2</m:mtext>
+    </m:msup>
+   </m:mrow>
+  </m:math> estadístico de prueba = ______</para></problem>
+<solution id="id13687139">
+ <para id="element-123"> 10.301,8 </para>
+</solution>
+</exercise>
+<exercise id="element-526"><problem id="id13507289">
+ <para id="element-78">¿Es una prueba de cola derecha, de cola izquierda o de dos colas? Explique por qué.</para>
+</problem>
+<solution id="id12956247">
+ <para id="element-785">derecha</para>
+</solution>
+</exercise>
+<exercise id="element-651"><problem id="id13510518">
+<para id="element-52">Grafique la situación. Identifique y escale el eje horizontal. Marque la media y el estadístico de prueba. Sombree en la región correspondiente al nivel de confianza.</para><figure id="fs-idp37466400"><media id="id10494834" display="block" alt="Gráfico en blanco con ejes vertical y horizontal."><image src="../../media/fig-ch11_11_01.jpg" mime-type="image/jpg" width="380"/></media></figure>
+ </problem>
+</exercise><para id="element-150">Indique la decisión y la conclusión (en una oración completa) para los siguientes niveles preconcebidos de <emphasis effect="italics">α</emphasis>.</para><exercise id="element-90"><problem id="id13505381">
+ <para id="element-764"><emphasis effect="italics">α</emphasis> = 0,05</para>
+  <list id="list-2353627788" list-type="enumerated" number-style="lower-alpha"><item>Decisión: ___________________</item>
+<item>Motivo de la decisión: ___________________</item>
+<item>Conclusión (escriba en una oración completa): ___________________</item>
+  </list></problem>
+<solution id="id10677600">
+ <list id="fs-idp17339744" list-type="enumerated" number-style="lower-alpha"><item>No se puede aceptar la hipótesis nula</item>
+  <item>El valor calculado de los estadísticos de prueba está dentro o fuera de la cola de la distribución.
+</item>
+  <item> Hay pruebas suficientes para concluir que el hábito de fumar depende del grupo étnico.</item>
+ </list></solution>
+ </exercise><exercise id="element-56"><problem id="id12810548">
+ <para id="element-317"><emphasis effect="italics">α</emphasis> = 0,01</para>
+   <list id="list-23536277881" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Decisión: ___________________</item>
+<item>Motivo de la decisión: ___________________</item>
+<item>Conclusión (escriba en una oración completa): ___________________</item>
+   </list></problem>
+</exercise></section><section id="fs-idm54060384" class="free-response">
+<title>Tarea para la casa</title>
+<exercise id="element-241"><problem id="id20690433">
+ <para id="element-506"> Un reciente debate sobre dónde los esquiadores creen que se esquía mejor en Estados Unidos generó la siguiente encuesta. Pruebe para ver si la mejor área de esquí es independiente del nivel del esquiador. </para>
+ <table id="id7787415" summary="The table has the level of the skier from second to fourth column with the first column as being U.S. Ski Area. There are three rows.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+ <colspec colnum="2" colname="c2"/>
+ <colspec colnum="3" colname="c3"/>
+ <colspec colnum="4" colname="c4"/>
+ <thead>
+<row>
+ <entry>Zona de esquí de EE. UU.</entry>
+ <entry>Principiante</entry>
+ <entry>Intermedio</entry>
+ <entry>Avanzado</entry>
+ </row>
+ </thead>
+ <tbody>
+ <row>
+ <entry>Tahoe</entry>
+ <entry>20</entry>
+ <entry>30</entry>
+ <entry>40</entry>
+ </row>
+ <row>
+ <entry>Utah</entry>
+ <entry>10</entry>
+ <entry>30</entry>
+ <entry>60</entry>
+ </row>
+ <row>
+ <entry>Colorado</entry>
+ <entry>10</entry>
+ <entry>40</entry>
+ <entry>50</entry>
+ </row>
+</tbody>
+
+</tgroup>
+</table></problem>
+</exercise><exercise id="fs-idm133556096"><problem id="id20690775">
+  <para id="element-887">Hay fabricantes de automóviles que están interesados en saber si hay una relación entre el tamaño del automóvil que conduce una persona y el número de personas que componen su familia (es decir, si el tamaño del automóvil y el de la familia son independientes). Para comprobarlo, supongamos que se encuestó aleatoriamente a 800 propietarios de automóviles, lo cual arrojó los resultados que están en la <link target-id="id6178445"/>. Haga una prueba de independencia. </para><table id="id6178445" summary="This table has family size in the first column and car size from columns 2-5. There are 4 rows.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+ <colspec colnum="2" colname="c2"/>
+ <colspec colnum="3" colname="c3"/>
+ <colspec colnum="4" colname="c4"/>
+ <colspec colnum="5" colname="c5"/>
+ <thead>
+ <row>
+ <entry>Tamaño de la familia</entry>
+ <entry>Sub y compacto</entry>
+ <entry>Tamaño medio</entry>
+ <entry>Tamaño completo</entry>
+ <entry>Van y camioneta</entry>
+ </row>
+ </thead>
+ <tbody>
+ <row>
+ <entry>1</entry>
+ <entry>20</entry>
+ <entry>35</entry>
+ <entry>40</entry>
+ <entry>35</entry>
+ </row>
+ <row>
+ <entry>2</entry>
+ <entry>20</entry>
+ <entry>50</entry>
+ <entry>70</entry>
+ <entry>80</entry>
+ </row>
+ <row>
+ <entry>3–4</entry>
+ <entry>20</entry>
+ <entry>50</entry>
+ <entry>100</entry>
+ <entry>90</entry>
+ </row>
+ <row>
+ <entry>Más de 5</entry>
+ <entry>20</entry>
+ <entry>30</entry>
+ <entry>70</entry>
+ <entry>70</entry>
+ </row>
+ </tbody>
+</tgroup>
+</table>
+</problem>
+<solution id="fs-idp45408448">
+ <list id="fs-idm6658592" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: El tamaño del automóvil es independiente del tamaño de la familia.</item>
+  <item><emphasis effect="italics">H<sub>a</sub></emphasis>: El tamaño del automóvil depende del tamaño de la familia.</item>
+  <item><emphasis effect="italics">df</emphasis> = 9</item>
+  <item>distribución chi-cuadrado con <emphasis effect="italics">df</emphasis> = 9</item>
+  <item>estadístico de prueba = 15,8284</item>
+
+  <item>Compruebe la solución del estudiante</item>
+  <item>
+   <list id="fs-idp124357408" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
+    <item>Decisión: No se puede rechazar la hipótesis nula.</item>
+    <item>Motivo de la decisión: El valor calculado de los estadísticos de prueba está dentro o fuera de la cola de la distribución.</item>
+    <item>Conclusión: Al nivel de significación del 5 % no hay pruebas suficientes para concluir que el tamaño del automóvil y el tamaño de la familia son dependientes.</item>
+   </list></item>
+ </list></solution>
+</exercise>
+ <exercise id="element-650"><problem id="id20691133">
+  <para id="element-99"> Los estudiantes universitarios pueden estar interesados en saber si sus especialidades tienen algún efecto sobre los salarios iniciales después de graduarse. Supongamos que se ha encuestado a 300 recién graduados sobre sus especialidades universitarias y sus salarios iniciales tras la graduación. La <link target-id="id7852811"/> muestra los datos. Haga una prueba de independencia. </para>
+<table id="id7852811" summary="The table has the starting salary along the top from column 2-4 and the major in the first column. There are 5 rows.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+ <colspec colnum="2" colname="c2"/>
+ <colspec colnum="3" colname="c3"/>
+ <colspec colnum="4" colname="c4"/>
+ <thead>
+ <row>
+ <entry>Especialidad</entry>
+ <entry>&lt; $50.000</entry>
+ <entry>$50.000 – $68.999</entry>
+ <entry>$69.000 +</entry>
+ </row>
+ </thead>
+ <tbody>
+ <row>
+ <entry>Inglés</entry>
+ <entry>5</entry>
+ <entry>20</entry>
+ <entry>5</entry>
+ </row>
+ <row>
+ <entry>Ingeniería</entry>
+ <entry>10</entry>
+ <entry>30</entry>
+ <entry>60</entry>
+ </row>
+ <row>
+ <entry>Enfermería</entry>
+ <entry>10</entry>
+ <entry>15</entry>
+ <entry>15</entry>
+ </row>
+ <row>
+ <entry>Negocios</entry>
+ <entry>10</entry>
+ <entry>20</entry>
+ <entry>30</entry>
+ </row>
+ <row>
+ <entry>Psicología</entry>
+ <entry>20</entry>
+ <entry>30</entry>
+ <entry>20</entry>
+ </row>
+ </tbody>
+</tgroup>
+</table>
+ </problem>
+</exercise><exercise id="element-8d1"><problem id="id20691551">
+ <para id="element-47aa7">Algunas agencias de viajes afirman que los lugares más visitados para la luna de miel varían según la edad de la novia. Supongamos que se entrevista a 280 novias recientes para saber dónde han pasado su luna de miel. La información se ofrece en la <link target-id="id78334ss42"/>. Haga una prueba de independencia. </para><table id="id78334ss42" summary="This table has the age of the bride along the top from columns 2-4 and the location in the first column. There are 4 rows.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+ <colspec colnum="2" colname="c2"/>
+ <colspec colnum="3" colname="c3"/>
+ <colspec colnum="4" colname="c4"/>
+ <colspec colnum="5" colname="c5"/>
+ <thead>
+ <row>
+ <entry>Lugar</entry>
+ <entry>20–29</entry>
+  <entry>30–39</entry>
+  <entry>40–49</entry>
+ <entry>50 años o más</entry>
+ </row>
+ </thead>
+ <tbody>
+ <row>
+ <entry>Cataratas del Niágara</entry>
+ <entry>15</entry>
+ <entry>25</entry>
+ <entry>25</entry>
+ <entry>20</entry>
+ </row>
+ <row>
+ <entry>Poconos</entry>
+ <entry>15</entry>
+ <entry>25</entry>
+ <entry>25</entry>
+ <entry>10</entry>
+ </row>
+ <row>
+ <entry>Europa</entry>
+ <entry>10</entry>
+ <entry>25</entry>
+ <entry>15</entry>
+ <entry>5</entry>
+ </row>
+ <row>
+ <entry>Islas Vírgenes</entry>
+ <entry>20</entry>
+ <entry>25</entry>
+ <entry>15</entry>
+ <entry>5</entry>
+ </row>
+ </tbody>
+</tgroup>
+</table>
+</problem>
+ <solution id="fs-idp45475856">
+  <list id="fs-idp151446416" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: Los lugares de la luna de miel son independientes de la edad de la novia.</item>
+   <item><emphasis effect="italics">H<sub>a</sub></emphasis>: Los lugares de la luna de miel dependen de la edad de la novia.</item>
+   <item><emphasis effect="italics">df</emphasis> = 9</item>
+   <item>distribución chi-cuadrado con <emphasis effect="italics">df</emphasis> = 9</item>
+   <item>estadístico de prueba = 15,7027</item>
+   <item>Compruebe la solución del estudiante</item>
+   <item>
+    <list id="fs-idm28786192" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
+     <item>Decisión: No se puede rechazar la hipótesis nula.</item>
+     <item>Motivo de la decisión: El valor calculado de los estadísticos de prueba está dentro o fuera de la cola de la distribución.</item>
+     <item>Conclusión: Con un nivel de significación del 5 % no hay pruebas suficientes para concluir que el lugar de la luna de miel y la edad de la novia son dependientes.</item>
+    </list></item>
+  </list></solution>
+</exercise>
+ <exercise id="element-656"><problem id="id20691902">
+ <para id="element-870">El gerente de un club deportivo guarda información sobre el deporte principal en el que participan los socios y sus edades. Para comprobar si existe una relación entre la edad de un socio y su elección de deporte se seleccionan aleatoriamente 643 socios del club deportivo. Haga una prueba de independencia. </para><table id="id7834002" summary="The table has the age from columns 2-5 and sport in the first column. There are three rows.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+ <colspec colnum="2" colname="c2"/>
+ <colspec colnum="3" colname="c3"/>
+ <colspec colnum="4" colname="c4"/>
+ <colspec colnum="5" colname="c5"/>
+ <thead>
+ <row>
+ <entry>Deporte</entry>
+ <entry>18 - 25</entry>
+ <entry>26 - 30</entry>
+ <entry>31 - 40</entry>
+ <entry>41 años o más</entry>
+ </row>
+ </thead>
+ <tbody>
+ <row>
+ <entry>Raquetbol</entry>
+ <entry>42</entry>
+ <entry>58</entry>
+ <entry>30</entry>
+ <entry>46</entry>
+ </row>
+ <row>
+ <entry>Tenis</entry>
+ <entry>58</entry>
+ <entry>76</entry>
+ <entry>38</entry>
+ <entry>65</entry>
+ </row>
+ <row>
+ <entry>Natación</entry>
+ <entry>72</entry>
+ <entry>60</entry>
+ <entry>65</entry>
+ <entry>33</entry>
+ </row>
+ </tbody>
+
+</tgroup>
+</table></problem>
+</exercise><exercise id="fs-idm153473104"><problem id="id20692285">
+ <para id="element-497">Un importante fabricante de alimentos está preocupado porque las ventas de sus papas fritas delgadas han disminuido. Como parte de un estudio de viabilidad, la compañía realiza una investigación sobre los tipos de papas fritas que se venden en todo el país para determinar si el tipo de papas fritas que se venden es independiente de la zona del país. Los resultados del estudio se muestran en la <link target-id="id6092701"/>. Haga una prueba de independencia.</para><table id="id6092701" summary="The table has area of country along the top from columns 2-5 and type of fries in the first column. There are three rows.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+ <colspec colnum="2" colname="c2"/>
+ <colspec colnum="3" colname="c3"/>
+ <colspec colnum="4" colname="c4"/>
+ <colspec colnum="5" colname="c5"/>
+ <thead>
+ <row>
+ <entry>Tipo de papas fritas</entry>
+ <entry>Noreste</entry>
+ <entry>Sur</entry>
+ <entry>Centro</entry>
+ <entry>Oeste</entry>
+ </row>
+ </thead>
+ <tbody>
+ <row>
+ <entry>Patatas fritas delgadas</entry>
+ <entry>70</entry>
+ <entry>50</entry>
+ <entry>20</entry>
+ <entry>25</entry>
+ </row>
+ <row>
+ <entry>Papas fritas rizadas</entry>
+ <entry>100</entry>
+ <entry>60</entry>
+ <entry>15</entry>
+ <entry>30</entry>
+ </row>
+ <row>
+ <entry>Papas fritas gruesas</entry>
+ <entry>20</entry>
+ <entry>40</entry>
+ <entry>10</entry>
+ <entry>10</entry>
+ </row>
+ </tbody>
+
+</tgroup>
+</table></problem>
+<solution id="fs-idp17240224">
+ <list id="fs-idp17240480" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: Los tipos de papas fritas que se venden son independientes del lugar.</item>
+  <item><emphasis effect="italics">H<sub>a</sub></emphasis>: Los tipos de papas fritas que se venden dependen del lugar.</item>
+  <item><emphasis effect="italics">df</emphasis> = 6</item>
+  <item> distribución chi-cuadrado con <emphasis effect="italics">df</emphasis> = 6</item>
+  <item>estadístico de prueba =18,8369</item>
+  <item> Compruebe la solución del estudiante</item>
+  <item>
+   <list id="fs-idp36061776" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
+    <item>Decisión: No se puede aceptar la hipótesis nula</item>
+    <item>Motivo de la decisión: El valor calculado de los estadísticos de prueba está dentro o fuera de la cola de la distribución.</item>
+    <item>Conclusión: Al nivel de significación del 5 % hay pruebas suficientes de que los tipos de papas fritas y los lugares son dependientes.</item>
+   </list></item>
+ </list></solution>
+</exercise>
+ <exercise id="element-598"><problem id="id20692592">
+ <para id="fs-idm168518032">De acuerdo con los datos suministrados por Dan Lenard, agente de seguros independiente de la zona de Buffalo (Nueva York), a continuación se desglosa el monto de los seguros de vida adquiridos por hombres de los siguientes grupos de edad. Le interesa saber si la edad del hombre y el monto del seguro de vida adquirido son hechos independientes. Haga una prueba de independencia.</para><table id="id7819090" summary="The table presents the amount of life insurance purchased along the top from columns 2-6 and age of males in the first column. There are 4 rows.">
+<tgroup cols="6"><colspec colnum="1" colname="c1"/>
+ <colspec colnum="2" colname="c2"/>
+ <colspec colnum="3" colname="c3"/>
+ <colspec colnum="4" colname="c4"/>
+ <colspec colnum="5" colname="c5"/>
+ <colspec colnum="6" colname="c6"/>
+ <thead>
+ <row>
+ <entry>Edad de los hombres</entry>
+ <entry>Ninguno</entry>
+ <entry>&lt; $200.000</entry>
+ <entry>$200.000–$400,000</entry>
+ <entry>$401.001–$1,000,000</entry>
+ <entry>$1,000,001+</entry>
+ </row>
+ </thead>
+ <tbody>
+ <row>
+ <entry>20–29</entry>
+ <entry>40</entry>
+ <entry>15</entry>
+ <entry>40</entry>
+ <entry>0</entry>
+ <entry>5</entry>
+ </row>
+ <row>
+ <entry>30–39</entry>
+ <entry>35</entry>
+ <entry>5</entry>
+ <entry>20</entry>
+ <entry>20</entry>
+ <entry>10</entry>
+ </row>
+ <row>
+ <entry>40–49</entry>
+ <entry>20</entry>
+ <entry>0</entry>
+ <entry>30</entry>
+ <entry>0</entry>
+ <entry>30</entry>
+ </row>
+ <row>
+ <entry>50 o más</entry>
+ <entry>40</entry>
+ <entry>30</entry>
+ <entry>15</entry>
+ <entry>15</entry>
+ <entry>10</entry>
+ </row>
+ </tbody>
+
+</tgroup>
+</table></problem>
+</exercise><exercise id="element-619"><problem id="id21086869">
+ <para id="element-186"> Supongamos que se encuestaron 600 personas de treinta años para determinar si existe o no una relación entre el nivel de estudios de una persona y su salario. Haga una prueba de independencia. </para>
+<table id="id7819454" summary="The table presents the level of education along the top from columns 2-5 and annual salary in the first column. There are 5 rows.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+ <colspec colnum="2" colname="c2"/>
+ <colspec colnum="3" colname="c3"/>
+ <colspec colnum="4" colname="c4"/>
+ <colspec colnum="5" colname="c5"/>
+ <thead>
+ <row>
+ <entry>Salario anual </entry>
+ <entry>No se graduó de escuela secundaria</entry>
+ <entry>Graduado de escuela secundaria</entry>
+ <entry>Graduado de la educación superior</entry>
+ <entry>Maestría o doctorado</entry>
+ </row>
+ </thead>
+ <tbody>
+ <row>
+ <entry>&lt; $30.000</entry>
+ <entry>15</entry>
+ <entry>25</entry>
+ <entry>10</entry>
+ <entry>5</entry>
+ </row>
+ <row>
+ <entry>$30.000–$40,000</entry>
+ <entry>20</entry>
+ <entry>40</entry>
+ <entry>70</entry>
+ <entry>30</entry>
+ </row>
+ <row>
+ <entry>$40.000–$50,000</entry>
+ <entry>10</entry>
+ <entry>20</entry>
+ <entry>40</entry>
+ <entry>55</entry>
+ </row>
+ <row>
+ <entry>$50.000–$60,000</entry>
+ <entry>5</entry>
+ <entry>10</entry>
+ <entry>20</entry>
+ <entry>60</entry>
+ </row>
+ <row>
+ <entry>más de $60.000</entry>
+ <entry>0</entry>
+ <entry>5</entry>
+ <entry>10</entry>
+ <entry>150</entry>
+ </row>
+ </tbody>
+
+</tgroup>
+</table></problem>
+<solution id="eip-idm117790352">
+<list id="eip-idm117790096" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: El salario es independiente del nivel de estudios.</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: El salario depende del nivel de estudios.</item>
+<item><emphasis effect="italics">df</emphasis> = 12</item>
+<item>distribución chi-cuadrado con <emphasis effect="italics">df</emphasis> = 12</item>
+<item>estadístico de prueba = 255,7704</item>
+<item>Compruebe la solución del estudiante</item>
+<item>
+<para id="eip-idp3905728">Alfa: 0,05</para>
+<para id="eip-idp3906112">Decisión: No se puede aceptar la hipótesis nula</para><para id="eip-idm66838512">Motivo de la decisión: El valor calculado de los estadísticos de prueba está dentro o fuera de la cola de la distribución.</para>
+<para id="eip-idm120727936">Conclusión: Con un nivel de significación del 5 % hay pruebas suficientes para concluir que el salario y el nivel de estudios son dependientes.</para>
+</item>
+</list></solution></exercise><para id="fs-idm14785440"><emphasis effect="italics">Lea la afirmación y decida si es verdadera o falsa.</emphasis></para><exercise id="element-926"><problem id="id21088545">
+ <para id="element-470">El número de grados de libertad para una prueba de independencia es igual al tamaño de la muestra menos uno.</para>
+</problem>
+</exercise><exercise id="element-688"><problem id="id21088644">
+ <para id="element-564">La prueba de independencia utiliza tablas de valores de datos observados y esperados. </para>
+</problem>
+<solution id="id21088664">
+ <para id="element-959"> verdadero </para>
+</solution>
+</exercise>
+ <exercise id="element-786"><problem id="id21088692">
+ <para id="element-374"> La prueba que hay que usar para determinar si el instituto universitario o la universidad que elige un estudiante está relacionado con su estatus socioeconómico es una prueba de independencia.</para>
+</problem>
+</exercise><exercise id="element-266"><problem id="id21088742">
+ <para id="element-556">En una prueba de independencia, el número esperado es igual al total de filas multiplicado por el total de columnas dividido entre el total encuestado. </para></problem>
+<solution id="id21088762">
+ <para id="element-692"> verdadero </para>
+</solution>
+</exercise>
+ <exercise id="eip-573"><problem id="eip-665">
+  <para id="eip-735">Un fabricante de helados hace una encuesta nacional sobre los sabores de helado favoritos en distintas zonas geográficas de EE. UU. Según la <link target-id="fs-idp162013328"/>, ¿los números sugieren que la ubicación geográfica es independiente de los sabores de helado favoritos? Prueba al nivel de significación del 5 %. </para><table id="fs-idp162013328" summary=".">
+<tgroup cols="8"><thead>
+<row>
+<entry>Región de EE. UU. / Sabor</entry>
+<entry>Fresa</entry>
+<entry>Chocolate</entry>
+<entry>Vainilla</entry>
+<entry>Chocolate con nueces</entry>
+<entry>Menta con chispas de chocolate</entry>
+<entry>Pistacho</entry>
+<entry>Total de la fila</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Oeste</entry>
+<entry>12</entry>
+<entry>21</entry>
+<entry>22</entry>
+<entry>19</entry>
+<entry>15</entry>
+<entry>8</entry>
+<entry>97</entry>
+</row>
+<row>
+<entry>Medio Oeste</entry>
+<entry>10</entry>
+<entry>32</entry>
+<entry>22</entry>
+<entry>11</entry>
+<entry>15</entry>
+<entry>6</entry>
+<entry>96</entry>
+</row>
+<row>
+<entry>Este</entry>
+<entry>8</entry>
+<entry>31</entry>
+<entry>27</entry>
+<entry>8</entry>
+<entry>15</entry>
+<entry>7</entry>
+<entry>96</entry>
+</row>
+<row>
+<entry>Sur</entry>
+<entry>15</entry>
+<entry>28</entry>
+<entry>30</entry>
+<entry>8</entry>
+<entry>15</entry>
+<entry>6</entry>
+<entry>102</entry>
+</row>
+<row>
+<entry>Total de la columna</entry>
+<entry>45</entry>
+<entry>112</entry>
+<entry>101</entry>
+<entry>46</entry>
+<entry>60</entry>
+<entry>27</entry>
+<entry>391</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></problem>
+ </exercise><exercise id="eip-640"><problem id="eip-751">
+  <para id="eip-130">La <link target-id="fs-idp932416"/> ofrece una encuesta reciente sobre emprendedores en línea más jóvenes cuyo patrimonio neto se estima en un millón de dólares o más. Sus edades oscilan entre los 17 y los 30 años. Cada celda del cuadro ilustra el número de emprendedores que corresponden al grupo de edad específico y su patrimonio neto. ¿La edad y el patrimonio neto son independientes? Haga una prueba de independencia al nivel de significación del 5 %.</para>
+  <table id="fs-idp932416" summary=".">
+<tgroup cols="5"><thead>
+     <row>
+      <entry>Grupo etario\ Patrimonio neto (en millones de dólares)</entry>
+      <entry>1–5</entry>
+      <entry>6–24</entry>
+      <entry>≥25</entry>
+      <entry>Total de la fila</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>17–25</entry>
+      <entry>8</entry>
+      <entry>7</entry>
+      <entry>5</entry>
+      <entry>20</entry>
+     </row>
+     <row>
+      <entry>26–30</entry>
+      <entry>6</entry>
+      <entry>5</entry>
+      <entry>9</entry>
+      <entry>20</entry>
+     </row>
+     <row>
+      <entry>Total de la columna</entry>
+      <entry>14</entry>
+      <entry>12</entry>
+      <entry>14</entry>
+      <entry>40</entry>
+     </row>
+    </tbody>
+
+</tgroup>
+</table></problem>
+
+  <solution id="eip-14">
+   <list id="fs-idp33820128" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: La edad es independiente del patrimonio neto de los emprendedores en línea más jóvenes.</item>
+    <item><emphasis effect="italics">H<sub>a</sub></emphasis>: La edad depende del patrimonio neto de los emprendedores en línea más jóvenes.</item>
+    <item><emphasis effect="italics">df</emphasis> = 2</item>
+    <item>distribución chi-cuadrado con <emphasis effect="italics">df</emphasis> = 2 </item>
+    <item>estadístico de prueba = 1,76</item>
+
+    <item>Compruebe la solución del estudiante</item>
+    <item>
+     <list id="fs-idp21843088" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
+      <item>Decisión: No se puede rechazar la hipótesis nula.</item>
+      <item>Motivo de la decisión: El valor calculado de los estadísticos de prueba está dentro o fuera de la cola de la distribución.</item>
+      <item>Conclusión: Al nivel de significación del 5 % no hay pruebas suficientes para concluir que la edad y el patrimonio neto de los emprendedores en línea más jóvenes sean dependientes.</item>
+     </list></item>
+   </list></solution>
+ </exercise>
+<exercise id="eip-433"><problem id="eip-876">
+  <para id="eip-353">Un sondeo realizado en 2013 en California consulto a personas sobre los impuestos a las bebidas azucaradas. Los resultados se presentan en la <link target-id="eip-idm61320176"/>, y están clasificados por grupo étnico y tipo de respuesta. ¿Las respuestas del sondeo son independientes del grupo étnico de los participantes? Haga una prueba de independencia al nivel de significación del 5 %.</para><table id="eip-idm61320176" summary="placeholder">
+<tgroup cols="6"><thead>
+<row>
+<entry>Opinión/Etnia</entry>
+<entry>Asiático americano</entry>
+<entry>Blanco/No Hispano</entry>
+<entry>Afroamericano</entry>
+<entry>Latinos</entry>
+<entry>Total de la fila</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Contra el impuesto</entry>
+<entry>48</entry>
+<entry>433</entry>
+<entry>41</entry>
+<entry>160</entry>
+<entry>682</entry>
+</row>
+<row>
+<entry>A favor del impuesto</entry>
+<entry>54</entry>
+<entry>234</entry>
+<entry>24</entry>
+<entry>147</entry>
+<entry>459</entry>
+</row>
+<row>
+<entry>Sin opinión</entry>
+<entry>16</entry>
+<entry>43</entry>
+<entry>16</entry>
+<entry>19</entry>
+<entry>94</entry>
+</row>
+<row>
+<entry>Total de la columna</entry>
+<entry>118</entry>
+<entry>710</entry>
+<entry>81</entry>
+<entry>326</entry>
+<entry>1235</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></problem>
+ </exercise></section>
+  </content>
+<glossary>
+ <definition id="contintable">
+ <term>Tabla de contingencia</term>
+ <meaning id="id17487593">una tabla que muestra los valores de dos factores diferentes que pueden ser dependientes o contingentes entre sí; facilita la determinación de probabilidades condicionales.</meaning>
+ </definition>
+<definition id="fs-id1166231760222">
+    <term>Prueba de independencia</term>
+    <meaning id="fs-id1166234326471">
+      prueba de hipótesis que compara los valores esperados y observados de las tablas de contingencia para comprobar la independencia entre dos variables. Los grados de libertad que se utilizan son iguales al (número de columnas – 1) multiplicado por el (número de filas – 1).
+    </meaning>
+</definition>
+</glossary>
+</document>

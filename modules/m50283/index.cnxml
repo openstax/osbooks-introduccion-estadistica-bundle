@@ -1,0 +1,98 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Regresión (distancia desde la escuela)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50283</md:content-id>
+  <md:title>Regresión (distancia desde la escuela)</md:title>
+  <md:abstract/>
+  <md:uuid>228dbaeb-ea64-44a9-9810-3d549958b844</md:uuid>
+</metadata>
+
+<content>
+  <note id="fs-id1172772301748" class="statistics lab"><label/><title>Regresión (distancia desde la escuela)</title>
+
+<para id="fs-idp105700624">Hora de la clase: </para>
+    <para id="fs-idp69476432">Nombres:</para>
+        <list id="fs-idm39104336" list-type="bulleted">
+<title>Resultados del aprendizaje de los estudiantes</title>
+        <item>El estudiante calculará y proyectará la línea que mejor se ajuste entre las dos variables.</item>
+        <item>El estudiante evaluará la relación entre las dos variables para determinar si dicha relación es significativa. </item>
+      </list>
+    
+    <para id="element-7"><title>Recopilación de datos</title>Utilice a ocho integrantes de su clase para la muestra. Recopile datos bivariados (la distancia a la que vive alguien desde la escuela, el costo de los suministros para el trimestre en curso).
+</para><list id="fs-idp17639616" list-type="enumerated">
+<item>Rellene la tabla.
+<table id="fs-idp6640" summary="Blank table with distance from school in the first column and cost of supplies this term in the second column. 16 empty cells">
+
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry>Distancia desde la escuela</entry>
+<entry>Costo de los suministros este trimestre</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry/>
+</row>
+</tbody>
+
+</tgroup>
+</table></item>
+	<item>¿Cuál variable debe ser la dependiente y cuál la independiente? ¿Por qué?</item>
+	<item>Gráfico de "distancia" vs. "costo". Trace los puntos en el gráfico. Identifique ambos ejes con palabras. Escale ambos ejes.<figure id="id6749459"><media id="id6749463" alt="Gráfico en blanco con ejes vertical y horizontal."><image src="../../media/fig-ch12_14_01.png" mime-type="image/png" width="380"/></media></figure></item>
+</list>
+<para id="fs-idm26666928"><title>Analice los datos</title>Introduzca los datos en su calculadora o en su computadora. Escriba la ecuación lineal y redondee a cuatro decimales.</para><list id="fs-idm15728672" list-type="enumerated" number-style="arabic">
+<item>Calcule lo siguiente: <list id="fs-idp38070176" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">a</emphasis> = ______</item>
+<item><emphasis effect="italics">b</emphasis> = ______</item>
+<item>correlación = ______</item>
+<item><emphasis effect="italics">n</emphasis> = ______</item>
+<item>ecuación: <emphasis effect="italics">ŷ</emphasis> = ______</item>
+<item>¿La correlación es significativa? ¿Por qué sí o por qué no? (Responda con una a tres frases completas).</item>
+ </list></item>
+	<item>Responda en relación con las siguientes situaciones: <list id="fs-idm25916576" list-type="enumerated" number-style="lower-alpha">
+			<item>Para alguien que vive a ocho millas del campus, prediga el costo total de los suministros este trimestre:</item>
+			<item>Para alguien que vive a ochenta millas del campus, prediga el costo total de los suministros este trimestre:</item>
+		</list></item>
+	<item>Obtenga el gráfico en su calculadora o en su computadora. Dibuje la línea de regresión.
+<figure id="id6749694"><media id="id6749698" alt="Gráfico en blanco con ejes vertical y horizontal."><image src="../../media/fig-ch12_14_02.png" mime-type="image/png" width="380"/></media></figure></item>
+</list> <list id="fs-idm72135792" list-type="enumerated"><title>Preguntas para el debate</title><item>Responda a cada pregunta con frases completas. <list id="fs-idp21518976" list-type="enumerated" number-style="lower-alpha">
+			<item>¿Parece que la línea se ajusta a los datos? ¿Por qué?</item>
+			<item>¿Qué implica la correlación en torno a la relación entre la distancia y el costo?</item>
+</list></item>
+	<item>¿Hay valores atípicos? Si es así, ¿cuál punto es un valor atípico? </item>
+	<item>¿El valor atípico se debe eliminar si es que existe? ¿Por qué o por qué no?</item>
+</list></note> </content>
+
+</document>

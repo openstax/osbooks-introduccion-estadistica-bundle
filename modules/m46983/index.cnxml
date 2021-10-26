@@ -1,0 +1,74 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="introduction">
+  <title>Introducción</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46983</md:content-id>
+  <md:title>Introducción</md:title>
+  <md:abstract/>
+  <md:uuid>3156cbd2-f14e-4bac-bb76-07d69213dfb8</md:uuid>
+</metadata>
+
+<content>
+  <figure id="fs-idm16905488" class="splash"><media id="fs-idm70194688" alt="Esta es una foto del cambio de un juego de llaves en una pila. Parece que hay cinco monedas de un centavo, tres de veinticinco centavos, cuatro de diez centavos y dos de cinco centavos. El llavero tiene una ballena de bronce y contiene once llaves.">
+<image mime-type="image/jpg" width="500" src="../../media/CNX_Stats_C07_CO.jpg"/>
+</media>
+
+<caption>Si quiere determinar la distribución del cambio que la gente lleva en sus bolsillos, utilizando el teorema del límite central y suponiendo que su muestra es lo suficientemente grande, encontrará que la distribución es normal y tiene forma de campana (crédito: John Lodder)</caption></figure><note id="fs-idp26371136" class="chapter-objectives"><label/><title>Objetivos del capítulo</title>
+<para id="element-745">Al final de este capítulo el estudiante podrá:</para>
+<list id="list6234" list-type="bulleted"><item>Reconocer los problemas del teorema central del límite.</item>
+<item>Clasificar los problemas de palabras continuas por sus distribuciones.</item>
+<item>Aplicar e interpretar el teorema del límite central para las medias.</item>
+<item>Aplicar e interpretar el teorema del límite central para las sumas.</item>
+</list></note>
+
+<para id="element-7452">¿Por qué nos preocupan tanto las medias? Hay dos razones: nos dan un punto medio de comparación y son fáciles de calcular. En este capítulo estudiará las medias y el <emphasis>teorema del límite central</emphasis>.</para>
+
+<para id="element-164">El <term id="term-00001">teorema del límite central</term> (abreviado TLC) es una de las ideas más poderosas y útiles de toda la estadística. Hay dos formas alternativas del teorema, y ambas alternativas se refieren a la extracción de muestras finitas de tamaño <emphasis effect="italics">n</emphasis> de una población con una media conocida, <emphasis effect="italics">μ</emphasis>, y una desviación típica conocida, <emphasis effect="italics">σ</emphasis>. La primera alternativa indica que si recogemos muestras de tamaño <emphasis effect="italics">n</emphasis> con una "<emphasis effect="italics">n</emphasis> suficientemente grande", calculamos la media de cada muestra y creamos un histograma de esas medias, entonces el histograma resultante tenderá a tener una forma de campana normal aproximada. La segunda alternativa indica que si volvemos a recoger muestras de tamaño <emphasis effect="italics">n</emphasis> que sean "suficientemente grandes", calculamos la suma de cada muestra y creamos un histograma, entonces el histograma resultante volverá a tener una forma de campana normal.</para><para id="element-17">El tamaño de la muestra, <emphasis effect="italics">n</emphasis>, que se requiere para ser “suficientemente grande” depende de la población original de la que se extraen las muestras (el tamaño de la muestra debe ser, al menos, 30 o los datos deben proceder de una distribución normal). Si la población original está lejos de ser normal, se necesitan más observaciones para que las medias o sumas de la muestra sean normales. <emphasis>El muestreo se realiza con sustitución.</emphasis></para>
+
+<para id="eip-536">Sería difícil exagerar la importancia del teorema del límite central en la teoría estadística. Saber que los datos, aunque su distribución no sea normal, se comportan de forma predecible es una herramienta poderosa.</para><note id="fs-idp64638656" class="statistics collab">
+<label/>
+<title>Actividad colaborativa en el aula</title>
+
+
+<para id="element-332">Supongamos que ocho de ustedes tiran un dado justo diez veces, siete de ustedes tiran dos dados justos diez veces, nueve de ustedes tiran cinco dados justos diez veces y 11 de ustedes tiran diez dados justos diez veces.</para><para id="element-42">Cada vez que una persona tira más de un dado, calcule la <term id="term-00002">media</term> muestral de las caras que aparecen. Por ejemplo, una persona puede tirar cinco dados justos y obtener 2, 2, 3, 4, 6 en una tirada.</para>
+
+<para id="element-994">La media es <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mtext>2 + 2 + 3 + 4 + 6</m:mtext>
+   </m:mrow>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> = 3,4. El 3,4 es una media cuando se tiran cinco dados justos. Esta misma persona lanzaría los cinco dados nueve veces más y calcularía otras nueve medias para un total de diez medias.</para>
+
+<para id="element-200">Su instructor repartirá los dados entre varias personas. Tire los dados diez veces. Para cada tiro, anote las caras y halle la media. Redondee al 0,5 más cercano.</para>
+
+<para id="element-73">Su instructor (y posiblemente usted) dibujará un gráfico (puede ser un histograma) para un dado, un gráfico para dos dados, un gráfico para cinco dados y un gráfico para diez dados. Dado que la "media" al lanzar un dado es solo la cara del mismo, ¿qué distribución parecen representar estas <emphasis>medias</emphasis>?</para>
+
+<para id="element-938"><emphasis>Dibuje el gráfico de las medias utilizando dos dados.</emphasis> ¿Las medias de las muestras muestran algún tipo de patrón?</para>
+
+<para id="element-182"><emphasis>Dibuje el gráfico de las medias utilizando cinco dados.</emphasis> ¿Ve algún patrón emergente?</para>
+
+<para id="element-131"><emphasis>Por último, dibuje el gráfico de las medias utilizando diez dados.</emphasis> ¿Ve algún patrón en el gráfico? ¿Qué puede concluir al aumentar el número de dados?</para>
+
+<para id="element-368">A medida que el número de dados lanzados aumenta de uno a dos y de cinco a diez, ocurre lo siguiente:</para>
+
+<list id="list-1" list-type="enumerated">
+<item>La media de las medias de las muestras sigue siendo aproximadamente la misma.</item>
+<item>La dispersión de las medias muestrales (la desviación típica de las medias muestrales) se reduce.</item>
+<item>El gráfico parece más inclinado y delgado.</item>
+</list>
+
+<para id="element-730">Acaba de demostrar el teorema del límite central (TLC).</para>
+<para id="element-266">El teorema del límite central indica que, a medida que aumenta el número de dados, <emphasis>las medias de las muestras tienden a una distribución normal (la distribución de muestreo).</emphasis></para>
+</note> </content>
+
+  <glossary>
+<definition id="fs-idm28209360">
+<term>Distribución de muestreo</term>
+<meaning id="fs-idm33714048">Dadas muestras aleatorias simples de tamaño <emphasis effect="italics">n</emphasis> de una población dada con una característica medida como la media, la proporción o la desviación típica para cada muestra, la distribución de probabilidad de todas las características medidas, se llama distribución de muestreo.</meaning>
+</definition>
+</glossary>
+</document>

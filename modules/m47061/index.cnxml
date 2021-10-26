@@ -1,0 +1,1060 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Dos medias poblacionales con desviaciones típicas conocidas</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47061</md:content-id>
+  <md:title>Dos medias poblacionales con desviaciones típicas conocidas</md:title>
+  <md:abstract/>
+  <md:uuid>fd6ad405-a183-41c3-b152-44cabe4b4890</md:uuid>
+</metadata>
+
+<content>
+<para id="element-38123">Aunque esta situación no es probable (conocer las desviaciones estándar de la población no es probable), el siguiente ejemplo ilustra la prueba de hipótesis para medias independientes, conociendo las desviaciones típicas de la población. La distribución muestral para la diferencia entre las medias es normal y ambas poblaciones deben ser normales. La variable aleatoria es <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mrow>
+    <m:msub>
+     <m:mi>X</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+
+   </m:mrow>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover>
+  <m:mo>–</m:mo><m:mover accent="true">
+   <m:mrow>
+    <m:msub>
+     <m:mi>X</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+
+   </m:mrow>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover>
+
+ </m:mrow>
+</m:math> La distribución normal tiene el siguiente formato:
+<equation class="unnumbered" id="normal"><label/><title>La <term id="term-00001">distribución normal</term> es:</title>Los términos <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>–</m:mo><m:msub>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>~</m:mo><m:mi>N</m:mi><m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:msub>
+    <m:mi>μ</m:mi>
+    <m:mn>1</m:mn>
+   </m:msub>
+   <m:mo>–</m:mo><m:msub>
+    <m:mi>μ</m:mi>
+    <m:mn>2</m:mn>
+   </m:msub>
+   <m:mo>,</m:mo><m:msqrt>
+    <m:mrow>
+     <m:mfrac>
+      <m:mrow>
+       <m:msup>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:msub>
+          <m:mi>σ</m:mi>
+          <m:mn>1</m:mn>
+         </m:msub>
+         <m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:msup>
+
+      </m:mrow>
+      <m:mrow>
+       <m:msub>
+        <m:mi>n</m:mi>
+        <m:mn>1</m:mn>
+       </m:msub>
+
+      </m:mrow>
+     </m:mfrac>
+     <m:mo>+</m:mo><m:mfrac>
+      <m:mrow>
+       <m:msup>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:msub>
+          <m:mi>σ</m:mi>
+          <m:mn>2</m:mn>
+         </m:msub>
+         <m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:msup>
+
+      </m:mrow>
+      <m:mrow>
+       <m:msub>
+        <m:mi>n</m:mi>
+        <m:mn>2</m:mn>
+       </m:msub>
+
+      </m:mrow>
+     </m:mfrac>
+
+    </m:mrow>
+   </m:msqrt>
+
+  </m:mrow> <m:mo>]</m:mo></m:mrow>
+ </m:mrow>
+</m:math></equation></para>
+
+<equation class="unnumbered" id="element-970"><label/>
+  <title><term id="term-00002">La desviación típica</term> es:</title>
+Los términos <m:math>
+   <m:mrow>
+    <m:msqrt>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mo stretchy="false">(</m:mo><m:msub>
+           <m:mi>σ</m:mi>
+           <m:mn>1</m:mn>
+          </m:msub>
+          <m:mo stretchy="false">)</m:mo>
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+       <m:mrow>
+        <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+
+       </m:mrow>
+      </m:mfrac>
+      <m:mo>+</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mo stretchy="false">(</m:mo><m:msub>
+           <m:mi>σ</m:mi>
+           <m:mn>2</m:mn>
+          </m:msub>
+          <m:mo stretchy="false">)</m:mo>
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+       <m:mrow>
+        <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:msqrt>
+
+   </m:mrow>
+  </m:math>
+ </equation>
+ <equation class="unnumbered" id="element-465"><label/><title>El <term id="term-00003">estadístico de prueba</term> (puntuación<emphasis effect="italics">z</emphasis>) es:</title>Los términos <m:math>
+ <m:mrow>
+  <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:msub>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>–</m:mo><m:msub>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo stretchy="false">)</m:mo><m:mo>–</m:mo><m:mo stretchy="false">(</m:mo><m:msub>
+     <m:mi>μ</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>–</m:mo><m:msub>
+     <m:mi>μ</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mrow>
+    <m:msqrt>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mo stretchy="false">(</m:mo><m:msub>
+           <m:mi>σ</m:mi>
+           <m:mn>1</m:mn>
+          </m:msub>
+          <m:mo stretchy="false">)</m:mo>
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+       <m:mrow>
+        <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+
+       </m:mrow>
+      </m:mfrac>
+      <m:mo>+</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mo stretchy="false">(</m:mo><m:msub>
+           <m:mi>σ</m:mi>
+           <m:mn>2</m:mn>
+          </m:msub>
+          <m:mo stretchy="false">)</m:mo>
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+       <m:mrow>
+        <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:msqrt>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</equation><example id="element-364">
+<para id="element-384"><emphasis>Grupos independientes, desviaciones típicas de la población conocidas:</emphasis> Se va a comparar el tiempo medio de duración de dos ceras para suelos de la competencia. Se asignan al azar <emphasis>veinte pisos</emphasis> <emphasis>para probar cada cera</emphasis>. Ambas poblaciones tienen una distribución normal. Los datos se registran en la <link target-id="table-12"/>.
+<table id="table-12" summary="This table has wax in the first column, sample mean in the second column, and standard deviation in the third column. There are two rows.">
+
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>Cera</entry>
+<entry>Muestra del número medio de meses que dura la cera del suelo</entry>
+<entry>Desviación típica de la población</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>1</entry>
+<entry>3</entry>
+<entry>0,33</entry>
+</row>
+<row>
+<entry>2</entry>
+<entry>2,9</entry>
+<entry>0,36</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+  <exercise id="element-144"><problem id="id48398874">
+  <para id="element-656">¿Los datos indican que la <emphasis>cera 1 es más eficaz que la cera 2</emphasis>? Pruebe con un nivel de significación del 5 %.</para>
+</problem>
+
+<solution id="id48398901">
+  <para id="element-795">Se trata de una prueba de dos grupos independientes, dos medias poblacionales, desviaciones típicas poblacionales conocidas.</para>
+ <para id="element-483"><term id="term-00004">Variable aleatoria</term>: <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mtext>– </m:mtext><m:msub>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+
+   <m:mn>2</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math> = diferencia en el número medio de meses que duran las ceras para suelos de la competencia.</para><para id="element-735"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> ≤ <emphasis effect="italics">μ</emphasis><sub>2</sub></para><para id="element-608"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> > <emphasis effect="italics">μ<sub>2</sub></emphasis></para>
+ <para id="element-696">La expresión <emphasis>“es más eficaz”</emphasis> dice que la cera 1 <emphasis>dura más que la cera 2</emphasis>, en promedio. “Más que” es el símbolo “>” y entra en <emphasis effect="italics">H<sub>a</sub></emphasis>. Por lo tanto, se trata de una prueba de cola derecha.</para>
+ <para id="element-690"><emphasis>Distribución para la prueba:</emphasis> Las desviaciones típicas de la población son conocidas, por lo que la distribución es normal. Utilizando la fórmula, la distribución es:</para>
+
+<para id="element-406">Los términos <m:math>
+ <m:mrow>
+        <m:msub>
+        <m:mover accent="true">
+          <m:mi>X</m:mi>
+          <m:mo>¯</m:mo>
+        </m:mover>
+        <m:mi>1</m:mi>
+      </m:msub>
+  <m:mo>–</m:mo>
+        <m:msub>
+        <m:mover accent="true">
+          <m:mi>X</m:mi>
+          <m:mo>¯</m:mo>
+        </m:mover>
+        <m:mi>2</m:mi>
+      </m:msub>
+  <m:mo>~</m:mo><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0</m:mn><m:mo>,</m:mo><m:msqrt>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mn>0,33</m:mn>
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+       <m:mrow>
+        <m:mn>20</m:mn>
+       </m:mrow>
+      </m:mfrac>
+      <m:mo>+</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mn>0,36</m:mn>
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+       <m:mrow>
+        <m:mn>20</m:mn>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:msqrt>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para><para id="element-990">Como <emphasis effect="italics">μ<sub>1</sub></emphasis> ≤ <emphasis effect="italics">μ<sub>2</sub></emphasis> entonces <emphasis effect="italics">μ<sub>1</sub></emphasis> - <emphasis effect="italics">μ<sub>2</sub></emphasis> ≤ 0 y la media de la distribución normal es cero.</para><para id="element-503"><emphasis>Calcule el valor <emphasis effect="italics">p</emphasis>utilizando la distribución normal:</emphasis> valor <emphasis effect="italics">p</emphasis> = 0,1799</para>
+
+ <para id="element-542"><emphasis>Gráfico:</emphasis></para>
+ <figure id="hyptest22_cmp_2_1"><media id="id48414007" alt="Se trata de una curva de distribución normal con media igual a cero. Los valores 0 y 0,1 están marcados en el eje horizontal. Una línea vertical se extiende desde 0,1 hasta la curva. La región debajo de la curva a la derecha de la línea está sombreada para representar el valor p = 0,1799."><image src="../../media/fig-ch10_03_01.jpg" mime-type="image/jpg" width="380"/>
+ </media></figure>
+
+ <para id="element-311">Los términos <m:math>
+  <m:mrow>
+   <m:msub>
+    <m:mover accent="true">
+     <m:mi>X</m:mi>
+     <m:mo>¯</m:mo>
+    </m:mover>
+
+    <m:mn>1</m:mn>
+   </m:msub>
+
+  </m:mrow>
+ </m:math> – <m:math>
+  <m:mrow>
+   <m:msub>
+    <m:mover accent="true">
+     <m:mi>X</m:mi>
+     <m:mo>¯</m:mo>
+    </m:mover>
+
+    <m:mn>2</m:mn>
+   </m:msub>
+
+  </m:mrow>
+ </m:math> = 3 – 2,9 = 0,1</para><para id="element-803"><emphasis>Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>:</emphasis> <emphasis effect="italics">α</emphasis> = 0,05 y valor <emphasis effect="italics">p</emphasis> = 0,1799. Por lo tanto, <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis>.</para>
+
+ <para id="element-962"><emphasis>Tome una decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis>, no se rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
+
+ <para id="element-132"><emphasis>Conclusión:</emphasis> Al nivel de significación del 5 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que el tiempo medio de duración de la cera 1 sea mayor (la cera 1 es más eficaz) que el tiempo medio de duración de la cera 2.</para>
+
+<note id="fs-idp34028208" class="statistics calculator"><label/>
+<para id="eip-idp126677488">Pulse <code>STAT</code>. Desplace la flecha hacia <code>TESTS</code> y pulse <code>3:2-SampZTest</code>. Desplace la flecha hacia <code>STATS</code> y pulse <code>ENTER</code>. Desplace la flecha hacia abajo y presione ENTER <code>0,33</code> para sigma1, <code>0,36</code> para sigma2, <code>3</code> para la primera media muestral, <code>20</code> para n1, <code>2,9</code> para la segunda media muestral, y <code>20</code> para n2. Desplace la flecha hacia abajo hasta <emphasis effect="italics">μ</emphasis>1: y la flecha hacia > <emphasis effect="italics">μ</emphasis><sub>2</sub>. Pulse <code>ENTER</code>. Desplace la flecha hacia abajo hasta <code>Calculate</code> y pulse <code>ENTER</code>. El valor <emphasis effect="italics">p</emphasis> es <emphasis effect="italics">p</emphasis> = 0,1799 y el estadístico de prueba es 0,9157. Vuelva a realizar el procedimiento, pero en vez de <code>Calculate</code> presione <code>Draw</code>.</para></note></solution>
+</exercise></example>
+
+
+<note id="fs-idm64723040" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+
+<exercise id="fs-idm106881952">
+<problem id="fs-idm49756528">
+ <para id="fs-idm99590512">Hay que comparar las medias del número de revoluciones por minuto de dos motores en competencia. Treinta motores son asignados al azar para ser probados. Ambas poblaciones tienen distribuciones normales. La <link target-id="fs-idm13177248"/> muestra el resultado. ¿Los datos indican que el motor 2 tiene más RPM que el motor 1? Pruebe con un nivel de significación del 5 %.</para><table id="fs-idm13177248" summary="">
+<tgroup cols="3">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<colspec colname="c3" colnum="3"/>
+<thead><row><entry>Motor</entry><entry>Número de media de RPM de la muestra</entry><entry>Desviación típica de la población</entry></row></thead>
+<tbody>
+<row><entry>1</entry><entry>1.500</entry><entry>50</entry></row>
+<row><entry>2</entry><entry>1.600</entry><entry>60</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+</problem>
+</exercise></note>
+
+ <example id="fs-idm64896800"><para id="fs-idm105362096">Un ciudadano interesado quería saber si los senadores estadounidenses demócratas son más viejos que los republicanos, en promedio. El 26 de mayo de 2013, la edad media de 30 senadores republicanos seleccionados al azar era de 61 años y 247 días (61,675 años) con una desviación típica de 10,17 años. La edad media de los 30 senadores demócratas seleccionados al azar era de 61 años y 257 días (61,704 años), con una desviación típica de 9,55 años.</para>
+
+<exercise id="fs-idm75569648">
+<problem id="fs-idm112885376">
+ <para id="fs-idm126341728">¿Los datos indican que los senadores demócratas son más viejos que los republicanos, en promedio? Pruebe con un nivel de significación del 5 %.</para>
+</problem>
+<solution id="fs-idm81176960">
+<para id="fs-idm81176832">Se trata de una prueba de dos grupos independientes, dos medias poblacionales. Se desconocen las desviaciones típicas de la población, pero la suma de los tamaños de las muestras es 30 + 30 = 60, que es mayor que 30, por lo que podemos utilizar la aproximación normal a la distribución t de Student. Subíndices: 1: Senadores demócratas 2: Senadores republicanos</para>
+
+ <para id="fs-idm127611248"><emphasis>Variable aleatoria:</emphasis> <m:math>
+  <m:mrow>
+   <m:msub>
+    <m:mover accent="true">
+     <m:mi>X</m:mi>
+     <m:mo>¯</m:mo>
+    </m:mover>
+
+    <m:mn>1</m:mn>
+   </m:msub>
+   <m:mtext> – </m:mtext><m:msub>
+    <m:mover accent="true">
+     <m:mi>X</m:mi>
+     <m:mo>¯</m:mo>
+    </m:mover>
+
+    <m:mn>2</m:mn>
+   </m:msub>
+
+  </m:mrow>
+ </m:math> = diferencia en la edad media de los senadores estadounidenses demócratas y republicanos.</para>
+
+ <para id="fs-idm49757440"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> ≤ <emphasis effect="italics">µ<sub>2</sub></emphasis> <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> – <emphasis effect="italics">µ<sub>2</sub></emphasis> ≤ 0</para>
+<para id="fs-idm175162192"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> > <emphasis effect="italics">µ<sub>2</sub></emphasis> <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> – <emphasis effect="italics">µ<sub>2</sub></emphasis> > 0</para>
+
+<para id="fs-idm173135600">Las palabras “mayor que” se traducen en un símbolo “>” y entran en <emphasis effect="italics">H<sub>a</sub></emphasis>. Por lo tanto, se trata de una prueba de cola derecha.</para><para id="fs-idm102148192"><emphasis>Distribución para la prueba:</emphasis> la distribución es la aproximación normal a la <emphasis effect="italics">t</emphasis> de Student para medias, grupos independientes. Utilizando la fórmula, la distribución es: <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>–</m:mo><m:msub>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>∼</m:mo><m:mi>N</m:mi><m:mo stretchy="false">[</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mn>9,55</m:mn><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+     <m:mrow>
+      <m:mn>30</m:mn>
+     </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo><m:mfrac>
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mn>10,17</m:mn><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+     <m:mrow>
+      <m:mn>30</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msqrt>
+  <m:mo stretchy="false">]</m:mo>
+ </m:mrow>
+</m:math></para><para id="fs-idp2020752">Como <emphasis effect="italics">µ<sub>1</sub></emphasis> ≤ <emphasis effect="italics">µ<sub>2</sub></emphasis>, <emphasis effect="italics">µ<sub>1</sub></emphasis> - <emphasis effect="italics">µ<sub>2</sub></emphasis> ≤ 0 y la media de la distribución normal es cero.</para><para id="fs-idm100426736"><emphasis>(Calcular el valor <emphasis effect="italics">p</emphasis>utilizando la distribución normal da un valor</emphasis> <emphasis effect="italics">p</emphasis> = 0,4955)</para><para id="fs-idm98812432"><emphasis>Gráfico:</emphasis>
+ <figure id="fs-idp45038880"><media id="fs-idm86987792" alt="Se trata de una curva de distribución normal con media igual a cero. Una línea vertical a la derecha del cero se extiende desde el eje hasta la curva. La región debajo de la curva a la derecha de la línea está sombreada y representa un valor p = 0,4955." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_Stats_C10_M03_001.jpg" width="380"/>
+</media></figure></para><para id="fs-idm41062352"><emphasis>Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>:</emphasis> <emphasis effect="italics">α</emphasis> = 0,05 y valor <emphasis effect="italics">p</emphasis> = 0,4955. Por lo tanto, <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis>.</para><para id="fs-idm49745696"><emphasis>Tome una decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis>, no se rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
+
+<para id="fs-idm113348080"><emphasis>Conclusión:</emphasis> Al nivel de significación del 5 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que la edad media de los senadores demócratas sea mayor que la de los republicanos.</para>
+</solution>
+</exercise>
+</example>
+
+
+<section id="eip-752" class="references">
+<title>Referencias</title>
+<para id="eip-193">Datos de la Oficina del Censo de Estados Unidos. Disponible en línea en http://www.census.gov/prod/cen2010/briefs/c2010br-02.pdf</para><para id="fs-idp17452848">Hinduja, Sameer. “Sexting Research and Gender Differences”. Cyberbulling Research Center, 2013. Disponible en línea en http://cyberbullying.us/blog/sexting-research-and-gender-differences/ (consultado el 17 de junio de 2013).</para>
+
+<para id="fs-idp109642176">“Smart Phone Users, By the Numbers”. Visually, 2013. Disponible en línea en http://visual.ly/smart-phone-users-numbers (consultado el 17 de junio de 2013).</para><para id="fs-idp119668928">Smith, Aaron. “35% of American adults own a Smartphone”. Pew Internet, 2013. Disponible en línea en http://www.pewinternet.org/~/media/Files/Reports/2011/PIP_Smartphones.pdf (consultado el 17 de junio de 2013).</para>
+
+<para id="fs-idm28346208">“State-Specific Prevalence of Obesity AmongAduls—Unites States, 2007”. MMWR, CDC. Disponible en línea en http://www.cdc.gov/mmwr/preview/mmwrhtml/mm5728a1.htm (consultado el 17 de junio de 2013).</para><para id="fs-idp77200256">“Texas Crime Rates 1960–1012”. FBI, Uniform Crime Reports, 2013. Disponible en línea en: http://www.disastercenter.com/crime/txcrime.htm (consultado el 17 de junio de 2013).</para>
+</section>
+
+<section id="fs-idm120175008" class="summary">
+<title>Revisión del capítulo</title>
+<para id="fs-idm9601152">Una prueba de hipótesis de dos medias poblacionales de muestras independientes en las que se conocen las desviaciones típicas de la población tendrá estas características: <list id="fs-idm193455088" list-type="bulleted"><item>Variable aleatoria: <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>–</m:mo><m:msub>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+
+   <m:mn>2</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math> = la diferencia de las medias</item>
+<item>Distribución: distribución normal</item>
+</list></para>
+</section>
+
+<section id="fs-idm25139648" class="formula-review">
+<title>Revisión de la fórmula</title>
+<para id="fs-idm1799360">Distribución normal:<newline/><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>–</m:mo><m:msub>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>∼</m:mo><m:mi>N</m:mi><m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:msub>
+    <m:mi>μ</m:mi>
+    <m:mn>1</m:mn>
+   </m:msub>
+   <m:mo>–</m:mo><m:msub>
+    <m:mi>μ</m:mi>
+    <m:mn>2</m:mn>
+   </m:msub>
+   <m:mo>,</m:mo><m:msqrt>
+    <m:mrow>
+     <m:mfrac>
+      <m:mrow>
+       <m:msup>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:msub>
+          <m:mi>σ</m:mi>
+          <m:mn>1</m:mn>
+         </m:msub>
+         <m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:msup>
+
+      </m:mrow>
+      <m:mrow>
+       <m:msub>
+        <m:mi>n</m:mi>
+        <m:mn>1</m:mn>
+       </m:msub>
+
+      </m:mrow>
+     </m:mfrac>
+     <m:mo>+</m:mo><m:mfrac>
+      <m:mrow>
+       <m:msup>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:msub>
+          <m:mi>σ</m:mi>
+          <m:mn>2</m:mn>
+         </m:msub>
+         <m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:msup>
+
+      </m:mrow>
+      <m:mrow>
+       <m:msub>
+        <m:mi>n</m:mi>
+        <m:mn>2</m:mn>
+       </m:msub>
+
+      </m:mrow>
+     </m:mfrac>
+
+    </m:mrow>
+   </m:msqrt>
+
+  </m:mrow> <m:mo>]</m:mo></m:mrow>
+ </m:mrow>
+</m:math> <newline/>Generalmente <emphasis><emphasis effect="italics">µ</emphasis><sub>1</sub> – <emphasis effect="italics">µ</emphasis><sub>2</sub> = 0.</emphasis></para><para id="fs-idm35490512">Estadístico de prueba (puntuación<emphasis effect="italics">z</emphasis>):<newline count="2"/> <m:math>
+ <m:mrow>
+  <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:msub>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>-</m:mo><m:msub>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo stretchy="false">)</m:mo><m:mo>-</m:mo><m:mo stretchy="false">(</m:mo><m:msub>
+     <m:mi>μ</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>–</m:mo><m:msub>
+     <m:mi>μ</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mrow>
+    <m:msqrt>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mo stretchy="false">(</m:mo><m:msub>
+           <m:mi>σ</m:mi>
+           <m:mn>1</m:mn>
+          </m:msub>
+          <m:mo stretchy="false">)</m:mo>
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+       <m:mrow>
+        <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+
+       </m:mrow>
+      </m:mfrac>
+      <m:mo>+</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mo stretchy="false">(</m:mo><m:msub>
+           <m:mi>σ</m:mi>
+           <m:mn>2</m:mn>
+          </m:msub>
+          <m:mo stretchy="false">)</m:mo>
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+       <m:mrow>
+        <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:msqrt>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> <newline count="2"/>Generalmente <emphasis><emphasis effect="italics">µ</emphasis><sub>1</sub> - <emphasis effect="italics">µ</emphasis><sub>2</sub> = 0.</emphasis></para><para id="fs-idm51475072"><emphasis>donde:</emphasis> <newline/> <emphasis effect="italics">σ</emphasis><sub>1</sub> y <emphasis effect="italics">σ</emphasis><sub>2</sub> son las desviaciones estándar poblacionales conocidas. <emphasis effect="italics">n</emphasis><sub>1</sub> y <emphasis effect="italics">n</emphasis><sub>2</sub> son los tamaños de las muestras. <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mover accent="true">
+    <m:mi>x</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+
+   <m:mn>1</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math> y <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mover accent="true">
+    <m:mi>x</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+
+   <m:mn>2</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math> son las medias muestrales. <emphasis effect="italics">μ</emphasis><sub>1</sub> y <emphasis effect="italics">μ</emphasis><sub>2</sub> son las medias poblacionales.</para></section>
+
+<section id="fs-idm106403600" class="practice">
+<para id="fs-idm82036368"><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios.</emphasis> Se van a comparar las velocidades medias de los lanzamientos de pelotas rápidas de dos lanzadores de béisbol diferentes. Se mide una muestra de 14 lanzamientos de pelotas rápidas de cada lanzador. Las poblaciones tienen distribuciones normales. La <link target-id="fs-idm34247936"/> muestra el resultado. Los cazatalentos creen que Rodríguez lanza una pelota rápida más rápida.</para>
+
+<table id="fs-idm34247936" summary="">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead><row><entry>Lanzador</entry><entry>Muestra de la velocidad media de los lanzamientos (mph)</entry><entry>Desviación típica de la población</entry></row></thead>
+<tbody>
+<row><entry>Wesley</entry><entry>86</entry><entry>3</entry></row>
+<row><entry>Rodríguez</entry><entry>91</entry><entry>7</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+
+
+<exercise id="fs-idm106340640">
+<problem id="fs-idm94070176">
+<para id="fs-idm94069920">¿Cuál es la variable aleatoria?</para>
+</problem>
+<solution id="fs-idm83376592">
+<para id="fs-idm119559520">La diferencia en las velocidades medias de los lanzamientos de pelotas rápidas de los dos lanzadores</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idm41149200">
+<problem id="fs-idm41148944">
+<para id="fs-idm127287408">Indique las hipótesis nula y alternativa.</para>
+</problem>
+</exercise>
+
+<exercise id="fs-idm113366480">
+<problem id="fs-idm3418320">
+<para id="fs-idm3418064">¿Cuál es el estadístico de prueba?</para>
+</problem>
+<solution id="fs-idm125558144">
+<para id="fs-idm56801552">-2,46</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idm174856784">
+<problem id="fs-idm43128112">
+<para id="fs-idm43127856">¿Cuál es el valor <emphasis effect="italics">p</emphasis>?</para>
+</problem>
+</exercise>
+
+<exercise id="fs-idm126168192">
+<problem id="fs-idm126167936">
+<para id="fs-idm99121104">Al nivel de significación del 1 %, ¿cuál es su conclusión?</para>
+</problem>
+<solution id="fs-idm108324064">
+<para id="fs-idm108323808">Al nivel de significación del 1 %, podemos rechazar la hipótesis nula. Hay datos suficientes para concluir que la velocidad media de la pelota rápida de Rodríguez es más rápida que la de Wesley.</para>
+</solution>
+</exercise>
+
+ <para id="fs-idm29321648"><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios.</emphasis> Un investigador está probando los efectos de los alimentos para plantas en su crecimiento. Nueve plantas han recibido el alimento para plantas. Otras nueve plantas no han recibido el alimento para plantas. Las alturas de las plantas se registran después de ocho semanas. Las poblaciones tienen distribuciones normales. El resultado está en la siguiente tabla. El investigador cree que la comida hace que las plantas crezcan más altas.</para><table id="fs-idm112897184" summary="">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead><row><entry>Grupo de plantas</entry>	<entry>Muestra de la altura media de las plantas (pulgadas)</entry>	<entry>Desviación típica de la población</entry></row></thead>
+<tbody>
+<row><entry>Con alimento</entry>	<entry>16</entry>	<entry>2,5</entry></row>
+<row><entry>Sin alimento</entry>	<entry>14</entry>	<entry>1,5</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+
+
+<exercise id="fs-idm6624080">
+<problem id="fs-idm6623824">
+<para id="fs-idm121096704">¿La desviación típica de la población es conocida o desconocida?</para>
+</problem>
+</exercise>
+
+<exercise id="fs-idm92555424">
+<problem id="fs-idm92555168">
+<para id="fs-idm49112064">Indique las hipótesis nula y alternativa.</para>
+</problem>
+<solution id="fs-idm150673952">
+<para id="fs-idm150673696">Subíndices: 1 = comida, 2 = sin comida <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> ≤ <emphasis effect="italics">μ<sub>2</sub></emphasis> <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> > <emphasis effect="italics">μ<sub>2</sub></emphasis>
+</para></solution>
+</exercise>
+
+<exercise id="fs-idm40490208">
+<problem id="fs-idm40489952">
+<para id="fs-idm120787040">¿Cuál es el valor <emphasis effect="italics">p</emphasis>?</para>
+</problem>
+</exercise>
+
+<exercise id="fs-idm112309984">
+<problem id="fs-idm112309728">
+<para id="fs-idm76087616">Dibuje el gráfico del valor <emphasis effect="italics">p</emphasis>.</para>
+</problem>
+<solution id="fs-idm126745136">
+ <figure id="fs-idp176228912"><media id="fs-idm126744880" alt="Se trata de una curva de distribución normal con media igual a cero. Los valores 0 y 0,1 están marcados en el eje horizontal. Una línea vertical se extiende desde 0,1 hasta la curva. La región debajo de la curva a la derecha de la línea está sombreada para representar el valor p = 0,0198." display="block">
+<image mime-type="image/jpg" width="380" src="../../media/CNX_Stats_C10_M03_item001anno.jpg"/>
+</media></figure></solution>
+</exercise>
+
+
+<exercise id="fs-idm31661248">
+<problem id="fs-idm165116080">
+<para id="fs-idm165115824">Al nivel de significación del 1 %, ¿cuál es su conclusión?</para>
+</problem>
+</exercise>
+
+ <para id="fs-idm129338912"><newline/><emphasis effect="italics">Use la siguiente información para responder los siguientes cinco ejercicios.</emphasis> Se están considerando dos aleaciones metálicas como material para los rodamientos de pelotas. Hay que comparar el punto de fusión medio de las dos aleaciones. Se están probando 15 piezas de cada metal. Ambas poblaciones tienen distribuciones normales. El resultado está en la siguiente tabla. Se cree que la aleación zeta tiene un punto de fusión diferente.</para>
+<table id="fs-idm150132352" summary="table">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead><row><entry/>	<entry>Muestra de las temperaturas medias de fusión (°F)</entry>	<entry>Desviación típica de la población</entry></row></thead>
+<tbody>
+<row><entry>Aleación gamma</entry>	<entry>800</entry>	<entry>95</entry></row>
+<row><entry>Aleación zeta</entry>	<entry>900</entry>	<entry>105</entry></row>
+</tbody>
+
+</tgroup>
+</table><exercise id="fs-idm4478224">
+<problem id="fs-idm164950176">
+<para id="fs-idm164949920">Indique las hipótesis nula y alternativa.</para>
+ </problem>
+<solution id="fs-idm125096608">
+<para id="fs-idm125096352">Subíndices: 1 = gamma, 2 = zeta <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis><sub>1</sub> = <emphasis effect="italics">μ</emphasis><sub>2</sub> <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis><sub>1</sub> ≠ <emphasis effect="italics">μ</emphasis><sub>2</sub>
+</para></solution>
+</exercise>
+
+<exercise id="fs-idm1600720">
+<problem id="fs-idm1600464">
+<para id="fs-idm108982624">¿Se trata de una prueba a la derecha, a la izquierda o de dos colas?</para>
+</problem>
+</exercise>
+
+<exercise id="fs-idm100159520">
+<problem id="fs-idm87685136">
+<para id="fs-idm87684880">¿Cuál es el valor <emphasis effect="italics">p</emphasis>?</para>
+</problem>
+<solution id="fs-idm157460832">
+<para id="fs-idm155631872">0,0062</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idm183272192">
+<problem id="fs-idm175683792">
+<para id="fs-idm175683536">Dibuje el gráfico del valor <emphasis effect="italics">p</emphasis>.</para>
+</problem>
+</exercise>
+
+<exercise id="fs-idm85314992">
+<problem id="fs-idm85314736">
+<para id="fs-idm170275488">Al nivel de significación del 1 %, ¿cuál es su conclusión?</para>
+</problem>
+<solution id="fs-idm68009328">
+<para id="fs-idm68009072">Hay pruebas suficientes para rechazar la hipótesis nula. Los datos apoyan que el punto de fusión de la aleación zeta es diferente del punto de fusión de la aleación gamma.</para>
+</solution>
+</exercise>
+</section>
+
+<section id="fs-idp58644992" class="free-response">
+<title>Tarea para la casa</title>
+<para id="eip-idm126171328"><emphasis effect="italics">INSTRUCCIONES: Para cada uno de los problemas de palabras use una hoja de soluciones para hacer la prueba de hipótesis. La hoja de soluciones se encuentra en el <link document="m47882"/>. No dude en hacer copias de las hojas de soluciones. Para la versión en línea del libro se sugiere copiar los archivos .doc o .pdf.</emphasis></para><note id="fs-idm71956336">
+<label/>
+<title>Nota</title>
+<para id="eip-idp76319008">Si usa una distribución <emphasis effect="italics">t</emphasis>de Student para uno de los siguientes problemas de tarea para la casa, incluso para datos emparejados, puede suponer que la población subyacente está distribuida normalmente (sin embargo, cuando se utilicen estas pruebas en una situación real, primero hay que demostrar ese supuesto).</para></note>
+
+<exercise id="exer13">
+<problem id="id18237239">
+<para id="id12962478">Se hace un estudio para determinar si los estudiantes del sistema universitario estatal de California tardan más en graduarse, en promedio, que los estudiantes inscritos en universidades privadas. Se encuestaron cien estudiantes del sistema universitario estatal de California y de universidades privadas. Supongamos que, a partir de años de investigación, se sabe que las desviaciones típicas de la población son 1,5811 años y 1 año, respectivamente. Se recopilan los siguientes datos. Los estudiantes del sistema universitario estatal de California tardaron un promedio de 4,5 años, con una desviación típica de 0,8. Los estudiantes de universidades privadas tardaron un promedio de 4,1 años, con una desviación típica de 0,3.</para>
+</problem>
+</exercise>
+
+<exercise id="exer29">
+ <problem id="id6099530">
+ <para id="id12115845">Los padres de los adolescentes se quejan a menudo de que el seguro de automóvil cuesta más, en promedio, para los hombres que para las mujeres. Un grupo de padres preocupados examina una muestra aleatoria de facturas de seguros. El costo medio anual para 36 adolescentes hombres fue de 679 dólares. Para 23 adolescentes mujeres fueron 559 dólares. De los años anteriores, se sabe que la desviación típica de la población para cada grupo es de 180 dólares. Determine si cree que el costo medio del seguro de automóvil para los adolescentes hombres es mayor que el de las adolescentes mujeres.</para></problem>
+
+<solution id="id17616631">
+ <para id="fs-idp33457664">Subíndices: 1 = hombres, 2 = mujeres</para>
+ <list id="fs-idp165211984" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> ≤ <emphasis effect="italics">µ<sub>2</sub></emphasis></item>
+   <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> > <emphasis effect="italics">µ<sub>2</sub></emphasis></item>
+    <item>La variable aleatoria es la diferencia en la media de los costos de los seguros de automóviles de hombres y mujeres.</item>
+    <item>normal</item>
+    <item>estadístico de prueba: <emphasis effect="italics">z</emphasis> = 2,50</item>
+    <item>valor <emphasis effect="italics">p</emphasis>: 0,0062</item>
+    <item>Compruebe la solución del estudiante</item>
+    <item>
+    <list id="fs-idp146441584" list-type="enumerated" number-style="lower-roman">
+     <item>Alfa: 0,05</item>
+     <item>Decisión: rechaza la hipótesis nula.</item>
+     <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>&lt; alfa</item>
+     <item>Conclusión: Con un nivel de significación del 5 % hay pruebas suficientes para concluir que el costo medio del seguro de automóvil de los adolescentes hombres es mayor que el de las adolescentes.</item>
+    </list>
+   </item>
+ </list></solution>
+</exercise>
+
+    <exercise id="exer30"><problem id="id16973772"><para id="id12115862">Un grupo de estudiantes que van a transferirse se preguntaba si gastarían la misma cantidad media en textos y materiales cada año en su universidad de cuatro años que en su colegio comunitario. Realizaron una encuesta aleatoria a 54 estudiantes de su colegio comunitario y a 66 estudiantes de su universidad de cuatro años local. Las medias muestrales fueron 947 y 1.011 dólares, respectivamente. Se sabe que las desviaciones típicas de la población son de 254 y 87 dólares, respectivamente. Realice una prueba de hipótesis para determinar si las medias son estadísticamente iguales.</para></problem>
+    </exercise>
+
+<exercise id="exer32"><problem id="id3865334"><para id="id12115899">Algunos fabricantes afirman que los vehículos tipo sedán no híbridos tienen una media de millas por galón (mpg) inferior a los híbridos. Supongamos que los consumidores prueban 21 sedanes híbridos y obtienen una media de 31 mpg con una desviación típica de siete mpg. Treinta y un sedanes no híbridos obtienen una media de 22 mpg con una desviación típica de cuatro mpg. Supongamos que se sabe que las desviaciones típicas de la población son seis y tres, respectivamente. Haga una prueba de hipótesis para evaluar la afirmación del fabricante.</para></problem>
+ <solution id="fs-idp138247120">
+  <para id="fs-idm951328">Subíndices: 1 = sedanes no híbridos, 2 = sedanes híbridos</para>
+  <list id="fs-idm950944" list-type="enumerated" number-style="lower-alpha">
+   <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> ≥ <emphasis effect="italics">µ<sub>2</sub></emphasis></item>
+   <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> &lt; <emphasis effect="italics">µ<sub>2</sub></emphasis></item>
+    <item>La variable aleatoria es la diferencia en la media de millas por galón de los sedanes no híbridos y los sedanes híbridos.</item>
+    <item>normal</item>
+    <item>estadístico de prueba: 6,36</item>
+    <item>valor <emphasis effect="italics">p</emphasis>: 0</item>
+    <item>Compruebe la solución del estudiante</item>
+    <item>
+    <list id="fs-idp76801312" list-type="enumerated" number-style="lower-roman">
+     <item>Alfa: 0,05</item>
+     <item>Decisión: rechaza la hipótesis nula.</item>
+     <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> &lt; alfa</item>
+     <item>Conclusión: Con un nivel de significación del 5 % hay pruebas suficientes para concluir que la media de millas por galón de los sedanes no híbridos es inferior a la de los híbridos.</item>
+    </list>
+   </item>
+  </list>
+
+ </solution>
+</exercise>
+
+  <exercise id="fs-idm126682256">
+   <problem id="fs-idm104577968"><para id="fs-idm104577840">Un aficionado al béisbol quería saber si existe una diferencia entre el número de partidos jugados en una Serie Mundial cuando la Liga Americana gana la serie versus cuando la Liga Nacional gana la serie. Desde 1922 hasta 2012, la desviación típica de la población de los partidos ganados por la Liga Americana fue de 1,14, y la de los partidos ganados por la Liga Nacional fue de 1,11. De los 19 partidos de las Series Mundiales seleccionados al azar que ganó la Liga Americana, la media de partidos ganados fue de 5,76. La media de los 17 partidos seleccionados al azar que ganó la Liga Nacional fue de 5,42. Realice una prueba de hipótesis.</para></problem>
+  </exercise>
+
+<exercise id="eip-267"><problem id="eip-idp3652144">
+<para id="eip-idp3652400">Una de las preguntas de un estudio sobre la satisfacción conyugal de las parejas con dos carreras era valorar la afirmación: “Estoy satisfecho con la forma en que dividimos las responsabilidades del cuidado de los hijos”. Las valoraciones iban del uno (muy de acuerdo) al cinco (muy en desacuerdo). La <link target-id="eip-idm34133008"/> contiene diez de las respuestas emparejadas de esposos y esposas. Realice una prueba de hipótesis para ver si la diferencia media en el nivel de satisfacción de los esposos versus el de las esposas es negativo (lo que significa que, dentro de la pareja, el esposo es más feliz que la esposa).</para><table id="eip-idm34133008" summary="..">
+<tgroup cols="11">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<colspec colnum="8" colname="c8"/>
+<colspec colnum="9" colname="c9"/>
+<colspec colnum="10" colname="c10"/>
+<colspec colnum="11" colname="c11"/>
+<tbody>
+<row>
+<entry><emphasis>Puntuación de la esposa</emphasis></entry>
+<entry>2</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>2</entry>
+<entry>1</entry>
+<entry>1</entry>
+<entry>2</entry>
+<entry>4</entry>
+</row>
+
+<row>
+<entry><emphasis>Puntuación del esposo</emphasis></entry>
+<entry>2</entry>
+<entry>2</entry>
+<entry>1</entry>
+<entry>3</entry>
+<entry>2</entry>
+<entry>1</entry>
+<entry>1</entry>
+<entry>1</entry>
+<entry>2</entry>
+<entry>4</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+</problem>
+<solution id="eip-idm34213152">
+<list id="eip-idm34212896" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ<sub>d</sub></emphasis> = 0</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ<sub>d</sub></emphasis> &lt; 0</item>
+<item>La variable aleatoria <emphasis effect="italics">X<sub>d</sub></emphasis> es la diferencia promedio entre el nivel de satisfacción del esposo y de la esposa.</item>
+<item><emphasis effect="italics">t</emphasis><sub>9</sub></item>
+<item>estadístico de prueba: <emphasis effect="italics">t</emphasis> = –1,86</item>
+<item>valor <emphasis effect="italics">p</emphasis>: 0,0479</item>
+<item>Compruebe la solución del estudiante</item>
+<item><list id="eip-idm9745248" list-type="enumerated" number-style="lower-roman">
+<item>Alfa: 0,05</item>
+<item>Decisión: rechaza la hipótesis nula, pero realiza otra prueba.</item>
+<item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>&lt; alfa</item>
+<item>Conclusión: Se trata de una prueba débil porque alfa y el valor <emphasis effect="italics">p</emphasis>están cerca. Sin embargo, no hay pruebas suficientes para concluir que la diferencia media es negativa.</item>
+</list>
+</item>
+</list></solution></exercise>
+
+</section> </content>
+</document>

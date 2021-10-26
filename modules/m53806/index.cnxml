@@ -1,0 +1,1733 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Medidas de la dispersión de los datos</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m53806</md:content-id>
+  <md:title>Medidas de la dispersión de los datos</md:title>
+  <md:abstract/>
+  <md:uuid>20bb2f0d-30dd-4d66-9948-6c3cb27e8870</md:uuid>
+</metadata>
+
+<content>
+
+
+<para id="element-683">Una característica importante de cualquier conjunto de datos es su variación. En algunos conjuntos de datos, los valores de los datos se concentran muy cerca de la media; en otros, están más dispersos de la media. La medida más común de variación, o dispersión, es la desviación típica. La <term id="term-00001">desviación típica</term> es un número que mide la distancia entre los valores de los datos y su media.</para><section id="fs-idm94849104">
+<title>La desviación típica</title>
+<list id="eip-id1169998044652" list-type="bulleted">
+<item>proporciona una medida numérica de la cantidad global de variación en un conjunto de datos y</item>
+<item>se puede usar para determinar si un valor de datos determinado está cerca o lejos de la media.</item>
+</list>
+
+
+<section id="fs-idm34509216">
+<title>La desviación típica proporciona una medida de la variación global de un conjunto de datos</title>
+<para id="fs-idm111390400">La desviación típica es siempre positiva o cero. La desviación típica es pequeña cuando todos los datos se concentran cerca de la media y muestran poca variación o dispersión. La desviación típica es mayor cuando los valores de los datos están más alejados de la media y muestran más variación.</para><para id="eip-419">Supongamos que estamos estudiando el tiempo que los clientes esperan en la fila de la caja del supermercado <emphasis effect="italics">A</emphasis> y del supermercado <emphasis effect="italics">B</emphasis>. El tiempo medio de espera en ambos supermercados es de cinco minutos. En el supermercado <emphasis effect="italics">A</emphasis>, la desviación típica del tiempo de espera es de dos minutos; en el supermercado <emphasis effect="italics">B</emphasis>, la desviación típica del tiempo de espera es de cuatro minutos.</para><para id="fs-idm8407856">Como el supermercado <emphasis effect="italics">B</emphasis> tiene una desviación típica más alta, sabemos que hay más variación en los tiempos de espera en el supermercado <emphasis effect="italics">B</emphasis>. En general, los tiempos de espera en el supermercado <emphasis effect="italics">B</emphasis> están más dispersos del promedio; los tiempos de espera en el supermercado <emphasis effect="italics">A</emphasis> están más concentrados cerca del promedio.</para></section>
+
+<section id="fs-idm36185184">
+<title>Cálculo de la desviación típica</title>
+<para id="fs-idm109226656">Si <emphasis effect="italics">x</emphasis> es un número, la diferencia "<emphasis effect="italics">x</emphasis> menos la media" se denomina su <emphasis>deviación</emphasis>. En un conjunto de datos hay tantas desviaciones como elementos en el conjunto de datos. Las desviaciones se utilizan para calcular la desviación típica. Si los números pertenecen a una población, en símbolos una desviación es <emphasis effect="italics">x</emphasis> – <emphasis effect="italics">μ</emphasis>. Para los datos de la muestra, en símbolos una desviación es <emphasis effect="italics">x</emphasis> – <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math></para><para id="eip-45">El procedimiento para calcular la desviación típica depende de si los números son toda la población o son datos de una muestra. Los cálculos son similares, pero no idénticos. Por tanto, el símbolo utilizado para representar la desviación típica depende de si se calcula a partir de una población o de una muestra. La letra minúscula s representa la desviación típica de la muestra y la letra griega <emphasis effect="italics">σ</emphasis> (sigma, minúscula) representa la desviación típica de la población. Si la muestra tiene las mismas características que la población, entonces s debería ser una buena estimación de <emphasis effect="italics">σ</emphasis>.</para>
+<para id="eip-689">Para calcular la desviación típica, tenemos que calcular primero la varianza. La <term id="term-00002">varianza</term> es el <emphasis>promedio de los cuadrados de las desviaciones</emphasis> (la <emphasis effect="italics">x</emphasis> – <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math> para una muestra, o los valores <emphasis effect="italics">x</emphasis> – <emphasis effect="italics">μ</emphasis> para una población). El símbolo <emphasis effect="italics">σ</emphasis><sup>2</sup> representa la varianza de la población; la desviación típica de la población <emphasis effect="italics">σ</emphasis> es la raíz cuadrada de la varianza de la población. El símbolo <emphasis effect="italics">s</emphasis><sup>2</sup> representa la varianza de la muestra; la desviación típica de la muestra <emphasis effect="italics">s</emphasis> es la raíz cuadrada de la varianza de la muestra. Puede pensar en la desviación típica como un promedio especial de las desviaciones. Formalmente, la varianza es el segundo momento de la distribución o el primer momento alrededor de la media. Recuerde que la media es el primer momento de la distribución.</para><para id="eip-790">Si las cifras proceden de un censo de toda la <emphasis>población</emphasis> y no de una muestra, cuando calculamos el promedio de las desviaciones al cuadrado para hallar la varianza, dividimos entre <emphasis effect="italics">N</emphasis>, el número de elementos de la población. Si los datos proceden de una <emphasis>muestra</emphasis> y no de una población, al calcular el promedio de las desviaciones al cuadrado, dividimos entre <emphasis><emphasis effect="italics">n</emphasis> – 1</emphasis>, uno menos que el número de elementos de la muestra.</para></section>
+
+<section id="fs-idm36483152">
+<title>Fórmulas para la desviación típica de la muestra</title>
+<list id="eip-id1172772662272"><item> Los términos <m:math>
+ <m:mrow>
+  <m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mi>Σ</m:mi><m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi> <m:mo>–</m:mo> <m:mover accent="true">
+         <m:mi>x</m:mi>
+         <m:mo>–</m:mo>
+        </m:mover>
+        <m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+     <m:mrow>
+      <m:mi>n</m:mi><m:mo>–</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math> o <m:math>
+ <m:mrow>
+  <m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mi>Σ</m:mi><m:mi>f</m:mi><m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mover accent="true">
+         <m:mi>x</m:mi>
+         <m:mo>–</m:mo>
+        </m:mover>
+        <m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+     <m:mrow>
+      <m:mi>n</m:mi><m:mo>–</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math> o <m:math><m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mo>(</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>n</m:mi></m:munderover></m:mstyle><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo><m:mo>-</m:mo><m:mi>n</m:mi><m:msup><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:msqrt></m:math>
+    </item>
+<item> Para la desviación típica de la muestra, el denominador es <emphasis><emphasis effect="italics">n</emphasis> - 1</emphasis>, es decir, el tamaño de la muestra menos 1.</item>
+</list></section>
+
+<section id="fs-idm102220704">
+<title>Fórmulas para la desviación típica de la población</title>
+<list id="eip-id1171740197716"><item>
+Los términos <m:math>
+ <m:mrow>
+   <m:mi>σ</m:mi>
+  <m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mi>Σ</m:mi><m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mi>μ</m:mi><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+     <m:mi>N</m:mi>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math> o <m:math>
+ <m:mrow>
+   <m:mi>σ</m:mi>
+  <m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mi>Σ</m:mi><m:mi>f</m:mi><m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mi>μ</m:mi><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+     <m:mi>N</m:mi>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math> o <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover></m:mstyle><m:msubsup><m:mi>x</m:mi><m:mi>i</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>N</m:mi></m:mfrac><m:mo>-</m:mo><m:msup><m:mi>μ</m:mi><m:mn>2</m:mn></m:msup></m:msqrt></m:math></item>
+<item>Para la desviación típica de la población el denominador es <emphasis effect="italics">N</emphasis>, el número de elementos de la población.</item>
+</list><para id="eip-465">En estas fórmulas, <emphasis effect="italics">f</emphasis> representa la frecuencia con la que aparece un valor. Por ejemplo, si un valor aparece una vez, <emphasis effect="italics">f</emphasis> es uno. Si un valor aparece tres veces en el conjunto de datos o población, <emphasis effect="italics">f</emphasis> es tres. Dos observaciones importantes sobre la varianza y la desviación típica: las desviaciones se miden a partir de la media y las desviaciones se elevan al cuadrado. En principio, las desviaciones podrían medirse desde cualquier punto, sin embargo, nuestro interés es la medición desde el peso central de los datos, lo que es el valor "normal" o más habitual de la observación. Más adelante trataremos de medir lo “inusual" de una observación o de una media muestral y, por tanto, necesitamos una medida a partir de la media. La segunda observación es que las desviaciones son al cuadrado. Esto tiene dos efectos: primero, hace que las desviaciones sean todas positivas y segundo, cambia las unidades de medida de la media y de las observaciones originales. Si los datos son pesos, la media se mide en libras, pero la varianza se mide en libras al cuadrado. Una de las razones para utilizar la desviación típica es volver a las unidades de medida originales tomando la raíz cuadrada de la varianza. Además, cuando las desviaciones se elevan al cuadrado su valor aumenta en gran medida. Por ejemplo, una desviación de 10 de la media al cuadrado es 100, pero una desviación de 100 de la media es 10.000. Lo que hace esto es dar un gran peso a los valores atípicos al calcular la varianza.</para></section><section id="eip-379"><title>Tipos de variabilidad en las muestras</title><para id="eip-550">
+Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya sea por conveniencia o porque no es posible acceder a toda la población. La variabilidad es el término utilizado para describir las diferencias que pueden darse en estos resultados. Los tipos de variabilidad más comunes son los siguientes:
+</para><list id="eip-985"><item>Variabilidad de observación o de medición</item>
+<item>Variabilidad natural</item>
+<item>Variabilidad inducida</item>
+<item>Variabilidad de la muestra</item>
+</list><para id="eip-55">He aquí algunos ejemplos para describir cada tipo de variabilidad.
+</para><para id="eip-935"><title>Ejemplo 1: Variabilidad de la medición</title>La variabilidad de la medición se produce cuando hay diferencias en los instrumentos utilizados para medir o en las personas que utilizan esos instrumentos. Si recopilamos datos sobre el tiempo que tarda una pelota en caer desde una altura haciendo que los alumnos midan el tiempo de la caída con un cronómetro, podemos experimentar una variabilidad en la medición si los dos cronómetros utilizados son de diferentes fabricantes: Por ejemplo, un cronómetro mide al segundo más cercano, mientras que el otro mide a la décima de segundo más cercana. También podemos experimentar la variabilidad de las mediciones porque dos personas diferentes recopilan los datos. Sus tiempos de reacción al pulsar el botón del cronómetro pueden ser diferentes, por lo que los resultados variarán en consecuencia. Las diferencias en los resultados pueden verse afectadas por la variabilidad de las mediciones.</para><para id="eip-121"><title>Ejemplo 2: Variabilidad natural</title>La variabilidad natural surge de las diferencias que se producen de forma natural porque los miembros de una población difieren entre sí. Por ejemplo, si tenemos dos plantas de maíz idénticas y las exponemos a la misma cantidad de agua y luz solar, pueden crecer a ritmos diferentes simplemente porque son dos plantas de maíz diferentes. La diferencia de resultados puede explicarse por la variabilidad natural.
+</para><para id="eip-482"><title>Ejemplo 3: Variabilidad inducida</title>La variabilidad inducida es la contrapartida de la variabilidad natural; se produce porque hemos inducido artificialmente un elemento de variación (que, por definición, no estaba presente de forma natural): Por ejemplo, asignamos  personas a dos grupos diferentes paraestudiar la memoria, e inducimos una variable en un grupo limitando la cantidad de sueño que tienen. La diferencia de resultados puede verse afectada por la variabilidad inducida.
+</para><para id="eip-645"><title>Ejemplo 4: Variabilidad de la muestra</title>La variabilidad de la muestra se produce cuando se toman múltiples muestras aleatorias de la misma población. Por ejemplo, si se realizan cuatro encuestas a 50 personas seleccionadas al azar de una población determinada, las diferencias en los resultados pueden verse afectadas por la variabilidad de la muestra.
+</para></section><example id="eip-637"><para id="element-440">En una clase de quinto grado, la maestra estaba interesada en la edad promedio y la desviación típica de la muestra de las edades de sus estudiantes. Los siguientes datos son las edades de una MUESTRA de <emphasis effect="italics">n</emphasis> = 20 estudiantes de quinto grado. Las edades están redondeadas al medio año más cercano: </para>
+
+<para id="element-433">9; 9,5; 9,5; 10; 10; 10; 10; 10,5; 10,5; 10,5; 10,5; 11; 11; 11; 11; 11; 11; 11,5; 11,5; 11,5;</para><equation class="unnumbered" id="element-320"><label/>Los términos <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>–</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>9 + 9</m:mtext><m:mtext>,5(2) + 10(4) + 10</m:mtext><m:mtext>,5(4) + 11(6) + 11</m:mtext><m:mtext>,5(3)</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>20</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>10,525</m:mn>
+ </m:mrow>
+</m:math></equation>
+
+<para id="element-642">La edad promedio es de 10,53 años, redondeada a dos cifras.</para>
+
+<para id="element-442">La varianza se puede calcular mediante una tabla. A continuación se calcula la desviación típica tomando la raíz cuadrada de la varianza. Explicaremos las partes de la tabla después de calcular <emphasis effect="italics">s</emphasis>.</para>
+
+<table id="element-978" summary="This table presents the formulas and calculations of various values. The first column has the data, second column has frequency, third column has deviations, fourth column has deviations squared, fifth column has frequency times deviations squared. There are 6 rows of values.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<thead>
+  <row>
+    <entry>Datos</entry>
+    <entry>Frec.</entry>
+    <entry>Desviaciones</entry>
+    <entry>Desviaciones<sup>2</sup></entry>
+    <entry>(Frec.)(Desviaciones<sup>2</sup>)</entry>
+  </row>
+  </thead>
+  <tbody>
+  <row>
+    <entry><emphasis effect="italics">x</emphasis></entry>
+    <entry><emphasis effect="italics">f</emphasis></entry>
+    <entry>(<emphasis effect="italics">x</emphasis> – <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+ </m:math>)</entry>
+    <entry>(<emphasis effect="italics">x</emphasis> – <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math>)<sup>2</sup></entry>
+    <entry>(<emphasis effect="italics">f</emphasis>)(<emphasis effect="italics">x</emphasis> – <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math>)<sup>2</sup></entry>
+  </row>
+  <row>
+    <entry>9</entry>
+    <entry>1</entry>
+    <entry>9 – 10,525 = -1,525</entry>
+    <entry>(-1,525)<sup>2</sup> = 2,325625</entry>
+    <entry>1 × 2,325625 = 2,325625</entry>
+  </row>
+  <row>
+    <entry>9,5</entry>
+    <entry>2</entry>
+    <entry>9,5 – 10,525 = -1,025</entry>
+    <entry>(-1,025)<sup>2</sup> = 1,050625</entry>
+    <entry>2 × 1,050625 = 2,101250</entry>
+  </row>
+  <row>
+    <entry>10</entry>
+    <entry>4</entry>
+    <entry>10 – 10,525 = -0,525</entry>
+    <entry>(-0,525)<sup>2</sup> = 0,275625</entry>
+    <entry>4 × 0,275625 = 1,1025</entry>
+  </row>
+  <row>
+    <entry>10,5</entry>
+    <entry>4</entry>
+    <entry>10,5 – 10,525 = -0,025</entry>
+    <entry>(-0,025)<sup>2</sup> = 0,000625</entry>
+    <entry>4 × 0,000625 = 0,0025</entry>
+  </row>
+  <row>
+    <entry>11</entry>
+    <entry>6</entry>
+    <entry>11 – 10,525 = 0,475</entry>
+    <entry>(0,475)<sup>2</sup> = 0,225625</entry>
+    <entry>6 × 0,225625 = 1,35375</entry>
+  </row>
+  <row>
+    <entry>11,5</entry>
+    <entry>3</entry>
+    <entry>11,5 – 10,525 = 0,975</entry>
+    <entry>(0,975)<sup>2</sup> = 0,950625</entry>
+    <entry>3 × 0,950625 = 2,851875</entry>
+  </row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry>El total es de 9,7375</entry>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table><para id="element-367">La varianza de la muestra, <emphasis effect="italics">s</emphasis><sup>2</sup>, es igual a la suma de la última columna (9,7375) dividida entre el número total de valores de datos menos uno (20 – 1):</para><para id="element-631">Los términos <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>s</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>9,7375</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>20</m:mn><m:mo>–</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>0,5125</m:mn>
+ </m:mrow>
+</m:math></para>
+
+<para id="element-424">La <emphasis>desviación típica de la muestra</emphasis> <emphasis effect="italics">s</emphasis> es igual a la raíz cuadrada de la varianza de la muestra:</para>
+<para id="element-127">Los términos <m:math>
+ <m:mrow>
+  <m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt>
+   <m:mrow>
+    <m:mn>0,5125</m:mn>
+   </m:mrow>
+  </m:msqrt>
+  <m:mo>=</m:mo><m:mn>0,715891</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> que se redondea a dos decimales, <emphasis effect="italics">s</emphasis> = 0,72.</para></example>
+</section>
+
+
+
+<section id="fs-idm60688208"><title/><section id="fs-idm66792288"><title>Explicación del cálculo de la desviación típica que aparece en la tabla</title><para id="element-877">Las desviaciones muestran la dispersión de los datos respecto a la media. El valor de los datos 11,5 está más alejado de la media que el valor de los datos 11, lo que se indica con las desviaciones 0,97 y 0,47. Una desviación positiva se produce cuando el valor de los datos es mayor que la media, mientras que una desviación negativa se produce cuando el valor de los datos es menor que la media. La desviación es de –1,525 para el noveno valor de los datos. <emphasis>Si se suman las desviaciones, la suma es siempre cero</emphasis>. (Según el <link target-id="eip-637"/>, hay <emphasis effect="italics">n</emphasis> = 20 desviaciones) Por lo tanto, no se puede simplemente sumar las desviaciones para obtener la dispersión de los datos. Al elevar al cuadrado las desviaciones se convierten en números positivos, y la suma también será positiva. La varianza, por tanto, es la desviación promedio al cuadrado. Al elevar al cuadrado las desviaciones, estamos penalizando en extremo las observaciones que se alejan de la media; estas observaciones tienen mayor peso en los cálculos de la varianza. Más adelante veremos que la varianza (desviación típica) desempeña un papel fundamental para determinar nuestras conclusiones en la estadística inferencial. Podemos empezar ahora utilizando la desviación típica como medida de lo "inusual": "¿Cómo te fue en el examen?" "¡Fantástico! Dos desviaciones típicas por encima de la media". Esto, como veremos, es una nota de examen excepcionalmente buena.</para><para id="element-969">La varianza es una medida al cuadrado y no tiene las mismas unidades que los datos. Calcular la raíz cuadrada resuelve el problema. La desviación típica mide la dispersión en las mismas unidades que los datos.</para>
+
+<para id="eip-880">Observe que en vez de dividir entre <emphasis effect="italics">n</emphasis> = 20, el cálculo divide entre <emphasis effect="italics">n</emphasis> – 1 = 20 – 1 = 19 porque los datos son una muestra. Para la varianza de la <emphasis>muestra</emphasis>, se divide entre el tamaño de la muestra menos uno (<emphasis effect="italics">n</emphasis> – 1). ¿Por qué no dividir entre <emphasis effect="italics">n</emphasis>? La respuesta tiene que ver con la varianza de la población. <emphasis>La varianza de la muestra es una estimación de la varianza de la población.</emphasis> Esta estimación nos obliga a utilizar una cifra estimada de la media de la población en lugar de la media real de la población. Basándose en la matemática teórica que hay detrás de estos cálculos, al dividir entre (<emphasis effect="italics">n</emphasis> – 1) da una mejor estimación de la varianza de la población.</para><para id="eip-323">La desviación típica, <emphasis effect="italics">s</emphasis> o <emphasis effect="italics">σ</emphasis>, es cero o mayor que cero. La descripción de los datos con referencia a la dispersión se denomina “variabilidad”. La variabilidad de los datos depende del método con el que se obtienen los resultados; por ejemplo, por medición o por muestreo aleatorio. Cuando la desviación típica es cero, no hay dispersión; es decir, todos los valores de los datos son iguales entre sí. La desviación típica es pequeña cuando todos los datos se concentran cerca de la media, y es mayor cuando los valores de los datos muestran más variación con respecto a la media. Cuando la desviación típica es mucho mayor que cero, los valores de los datos están muy dispersos alrededor de la media; los valores atípicos pueden hacer que <emphasis effect="italics">s</emphasis> o <emphasis effect="italics">σ</emphasis> sean muy grandes.</para><example id="element-649">
+<exercise id="exer2"><problem id="id6379302">
+<para id="element-592">Utilice los siguientes datos (calificaciones del primer examen) de la clase de Precálculo de primavera de Susan Dean:</para>
+<para id="element-961">33; 42; 49; 49; 53; 55; 55; 61; 63; 67; 68; 68; 69; 69; 72; 73; 74; 78; 80; 83; 88; 88; 88; 90; 92; 94; 94; 94; 94; 96; 100</para><list id="element-744" list-type="enumerated" number-style="lower-alpha"><item>Cree un gráfico que contenga los datos, las frecuencias, las frecuencias relativas y las frecuencias relativas acumuladas con tres decimales.</item>
+<item class="finger">Calcule lo siguiente con un decimal: <list id="element-9170" list-type="enumerated" number-style="lower-roman"><item>La media muestral</item>
+<item>La desviación típica de la muestra</item>
+<item>La mediana</item>
+<item>El primer cuartil</item>
+<item>El tercer cuartil</item>
+<item><emphasis effect="italics">IQR</emphasis></item>
+</list></item>
+</list></problem>
+<solution id="id6379699">
+<list id="list1" list-type="enumerated" number-style="lower-alpha"><item>Vea la <link target-id="id6947804"/></item>
+
+<item>
+<list id="element-904534" list-type="enumerated" number-style="lower-roman"><item>La media muestral = 73,5</item>
+<item>La desviación típica de la muestra = 17,9</item>
+<item>La mediana = 73</item>
+<item>El primer cuartil = 61</item>
+<item>El tercer cuartil = 90</item>
+<item><emphasis effect="italics">IQR</emphasis> = 90 – 61 = 29</item>
+</list></item>
+</list></solution>
+</exercise>
+</example>
+<table id="id6947804" summary="This table presents the values listed above arranged with the data in the first column, frequency in the second column, relative frequency in the third column, and cumulative relative frequency in the fourth column.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <thead>
+          <row>
+            <entry>Datos</entry>
+            <entry>Frecuencia</entry>
+            <entry>Frecuencia relativa</entry>
+            <entry>Frecuencia relativa acumulada</entry>
+
+          </row>
+         </thead>
+         <tbody>
+          <row>
+            <entry>33</entry>
+            <entry>1</entry>
+            <entry>0,032</entry>
+            <entry>0,032</entry>
+  </row>
+          <row>
+            <entry>42</entry>
+            <entry>1</entry>
+            <entry>0,032</entry>
+            <entry>0,064</entry>
+  </row>
+          <row>
+            <entry>49</entry>
+            <entry>2</entry>
+            <entry>0,065</entry>
+            <entry>0,129</entry>
+  </row>
+          <row>
+            <entry>53</entry>
+            <entry>1</entry>
+            <entry>0,032</entry>
+            <entry>0,161</entry>
+  </row>
+          <row>
+            <entry>55</entry>
+            <entry>2</entry>
+            <entry>0,065</entry>
+            <entry>0,226</entry>
+  </row>
+          <row>
+            <entry>61</entry>
+            <entry>1</entry>
+            <entry>0,032</entry>
+            <entry>0,258</entry>
+  </row>
+          <row>
+            <entry>63</entry>
+            <entry>1</entry>
+            <entry>0,032</entry>
+            <entry>0,29</entry>
+  </row>
+          <row>
+            <entry>67</entry>
+            <entry>1</entry>
+            <entry>0,032</entry>
+            <entry>0,322</entry>
+  </row>
+          <row>
+            <entry>68</entry>
+            <entry>2</entry>
+            <entry>0,065</entry>
+            <entry>0,387</entry>
+  </row>
+          <row>
+            <entry>69</entry>
+            <entry>2</entry>
+            <entry>0,065</entry>
+            <entry>0,452</entry>
+  </row>
+          <row>
+            <entry>72</entry>
+            <entry>1</entry>
+            <entry>0,032</entry>
+            <entry>0,484</entry>
+  </row>
+          <row>
+            <entry>73</entry>
+            <entry>1</entry>
+            <entry>0,032</entry>
+            <entry>0,516</entry>
+  </row>
+          <row>
+            <entry>74</entry>
+            <entry>1</entry>
+            <entry>0,032</entry>
+            <entry>0,548</entry>
+  </row>
+          <row>
+            <entry>78</entry>
+            <entry>1</entry>
+            <entry>0,032</entry>
+            <entry>0,580</entry>
+  </row>
+          <row>
+            <entry>80</entry>
+            <entry>1</entry>
+            <entry>0,032</entry>
+            <entry>0,612</entry>
+  </row>
+          <row>
+            <entry>83</entry>
+            <entry>1</entry>
+            <entry>0,032</entry>
+            <entry>0,644</entry>
+  </row>
+          <row>
+            <entry>88</entry>
+            <entry>3</entry>
+            <entry>0,097</entry>
+            <entry>0,741</entry>
+  </row>
+          <row>
+            <entry>90</entry>
+            <entry>1</entry>
+            <entry>0,032</entry>
+            <entry>0,773</entry>
+  </row>
+          <row>
+            <entry>92</entry>
+            <entry>1</entry>
+            <entry>0,032</entry>
+            <entry>0,805</entry>
+  </row>
+          <row>
+            <entry>94</entry>
+            <entry>4</entry>
+            <entry>0,129</entry>
+            <entry>0,934</entry>
+  </row>
+          <row>
+            <entry>96</entry>
+            <entry>1</entry>
+            <entry>0,032</entry>
+            <entry>0,966</entry>
+  </row>
+          <row>
+            <entry>100</entry>
+            <entry>1</entry>
+            <entry>0,032</entry>
+            <entry>0,998 (¿Por qué este valor no es 1? RESPUESTA: Redondeo)</entry>
+  </row>
+        </tbody>
+
+
+
+
+
+</tgroup>
+</table></section></section><section id="fs-idm111076336"><title>Desviación típica de las tablas de frecuencia agrupadas</title><para id="fs-idm31040688">Recordemos que para los datos agrupados no conocemos los valores individuales de los datos, por lo que no podemos describir el valor típico de los datos con precisión. En otras palabras, no podemos hallar la media, la mediana ni la moda exactas. Sin embargo, podemos determinar la mejor estimación de las medidas de centro al hallar la media de los datos agrupados con la fórmula <m:math><m:mrow><m:mi>M</m:mi><m:mi>e</m:mi><m:mi>a</m:mi><m:mi>n</m:mi><m:mtext> </m:mtext><m:mi>o</m:mi><m:mi>f</m:mi><m:mtext> </m:mtext><m:mi>F</m:mi><m:mi>r</m:mi><m:mi>e</m:mi><m:mi>q</m:mi><m:mi>u</m:mi><m:mi>e</m:mi><m:mi>n</m:mi><m:mi>c</m:mi><m:mi>y</m:mi><m:mtext> </m:mtext><m:mi>T</m:mi><m:mi>a</m:mi><m:mi>b</m:mi><m:mi>l</m:mi><m:mi>e</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow>
+     <m:mstyle displaystyle="true">
+      <m:mo>∑</m:mo> <m:mrow>
+       <m:mi>f</m:mi><m:mi>m</m:mi>
+      </m:mrow></m:mstyle></m:mrow><m:mrow>
+     <m:mstyle displaystyle="true">
+      <m:mo>∑</m:mo> <m:mi>f</m:mi>
+     </m:mstyle></m:mrow></m:mfrac></m:mrow>
+   </m:math> <newline/>donde <m:math>
+  <m:mrow><m:mi>f</m:mi><m:mo>=</m:mo></m:mrow></m:math> frecuencias de intervalo y <emphasis effect="italics">m</emphasis> = puntos medios del intervalo.</para><para id="fs-idm98694272">Al igual que no podemos hallar la media exacta, tampoco podemos hallar la desviación típica exacta. Recuerde que la desviación típica describe numéricamente la desviación esperada que tiene un valor de datos con respecto a la media. En términos sencillos, la desviación típica nos permite comparar lo “inusual” que son los datos individuales en comparación con la media.</para><example id="fs-idm67331024"><para id="eip-897">Calcule la desviación típica de los datos en la <link target-id="fs-idm67330768"/>.</para><table id="fs-idm67330768" summary="dzfg">
+<tgroup cols="5"><thead>
+<row>
+<entry>Clase</entry>
+<entry>Frecuencia, <emphasis effect="italics">f</emphasis></entry>
+<entry>Punto medio, <emphasis effect="italics">m</emphasis></entry><entry>Los términos <m:math><m:mi>f</m:mi><m:mo>·</m:mo><m:mi> m</m:mi></m:math></entry>
+            <entry>Los términos <m:math><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>-</m:mo><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row>
+  <entry>0–2</entry>
+  <entry>1</entry>
+  <entry>1</entry>
+  <entry>Los términos <m:math><m:mn>1</m:mn><m:mo>·</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>1</m:mn></m:math></entry>
+  <entry>Los términos <m:math><m:mn>1</m:mn><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>6,88</m:mn><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>34,57</m:mn></m:math></entry>
+</row>
+<row>
+  <entry>3–5</entry>
+  <entry>6</entry>
+  <entry>4</entry>
+  <entry>Los términos <m:math><m:mn>6</m:mn><m:mo>·</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>24</m:mn></m:math></entry>
+  <entry>Los términos <m:math><m:mn>6</m:mn><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>-</m:mo><m:mn>6,88</m:mn><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>49,77</m:mn></m:math></entry>
+</row>
+<row>
+  <entry>6-8</entry>
+  <entry>10</entry>
+  <entry>7</entry>
+  <entry>Los términos <m:math><m:mn>10</m:mn><m:mo>·</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>70</m:mn></m:math></entry>
+  <entry>Los términos <m:math><m:mn>10</m:mn><m:mo>(</m:mo><m:mn>7</m:mn><m:mo>-</m:mo><m:mn>6,88</m:mn><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0,14</m:mn></m:math></entry>
+</row>
+<row>
+  <entry>9-11</entry>
+  <entry>7</entry>
+  <entry>10</entry>
+  <entry>Los términos <m:math><m:mn>7</m:mn><m:mo>·</m:mo><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>70</m:mn></m:math></entry>
+  <entry>Los términos <m:math><m:mn>7</m:mn><m:mo>(</m:mo><m:mn>10</m:mn><m:mo>-</m:mo><m:mn>6,88</m:mn><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>68,14</m:mn></m:math></entry>
+</row>
+<row>
+  <entry>12-14</entry>
+  <entry>0</entry>
+  <entry>13</entry>
+  <entry>Los términos <m:math><m:mn>0</m:mn><m:mo>·</m:mo><m:mn>13</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:math></entry>
+  <entry>Los términos <m:math><m:mn>0</m:mn><m:mo>(</m:mo><m:mn>13</m:mn><m:mo>-</m:mo><m:mn>6,88</m:mn><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0</m:mn></m:math></entry>
+</row>
+<row>
+  <entry/>
+  <entry>n = 24</entry>
+  <entry/>
+  <entry>Los términos <m:math><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>165</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6,88</m:mn></m:math></entry>
+  <entry>Los términos <m:math><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>152,62</m:mn></m:mrow><m:mrow><m:mn>24</m:mn><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6,64</m:mn></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table><para id="fs-idm109620704">Para este conjunto de datos, tenemos la media, <m:math><m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>–</m:mo>
+</m:mover></m:math> = 6,88 y la desviación típica, <emphasis effect="italics">s<sub>x</sub></emphasis> = 2,58. Esto significa que se espera que un valor de datos seleccionado al azar se aleje 2,58 unidades de la media. Si observamos la primera clase, vemos que el punto medio de la clase es igual a uno. Esto supone casi tres desviaciones típicas de la media. La fórmula para calcular la desviación típica no es complicada, <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>s</m:mi>
+   <m:mi>x</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mi>Σ</m:mi><m:msup>
+
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>–</m:mo><m:mover accent="true">
+         <m:mi>x</m:mi>
+         <m:mo>–</m:mo>
+        </m:mover>
+        <m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mi>f</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:mi>n</m:mi><m:mo>–</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math> donde<newline/> <emphasis effect="italics">s<sub>x</sub></emphasis> = desviación típica de la muestra, <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math> = media muestral, los cálculos son tediosos. Por lo general, lo mejor es utilizar la tecnología para realizar los cálculos.</para></example>
+
+</section><section id="fs-idm77326096">
+<title>Comparación de valores de diferentes conjuntos de datos</title>
+<para id="eip-176">La desviación típica es útil cuando se comparan valores de datos que provienen de diferentes conjuntos de datos. Si los conjuntos de datos tienen medias y desviaciones típicas diferentes, la comparación directa de los valores de los datos puede ser engañosa.</para>
+<list id="eip-id1170599203736"><item>Para cada valor de los datos x, calcule a cuántas desviaciones típicas de su media se encuentra el valor.</item>
+<item>Utilice la fórmula: x = media + (n.º de STDEV)(desviación típica); resuelva para n.º deSTDEV.</item>
+<item>Los términos <m:math>
+ <m:mrow>
+  <m:mo>N.º</m:mo><m:mi>o</m:mi><m:mi>f</m:mi><m:mi>S</m:mi><m:mi>T</m:mi><m:mi>D</m:mi><m:mi>E</m:mi><m:mi>V</m:mi><m:mi>s</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>x - media</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>desviación típica</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></item>
+<item>Compare los resultados de este cálculo.</item>
+</list><para id="eip-946">N.º de STDEV (de STandard DEViation, o desviación típica) suele llamarse “puntuación <emphasis effect="italics">z</emphasis>”; podemos utilizar el símbolo <emphasis effect="italics">z</emphasis>. En símbolos, las fórmulas se convierten en:</para>
+<table id="eip-329" summary="The table shows the z-score formula.">
+<tgroup cols="3"><tbody>
+  <row>
+    <entry><emphasis>Muestra</emphasis></entry>
+    <entry>Los términos <m:math><m:mi>x</m:mi></m:math> = <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:math> + <emphasis effect="italics">zs</emphasis> </entry>
+    <entry>Los términos <m:math>
+ <m:mrow>
+  <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>–</m:mo><m:mtext> </m:mtext><m:mover accent="true">
+     <m:mi>x</m:mi>
+     <m:mo>–</m:mo>
+    </m:mover>
+
+   </m:mrow>
+   <m:mi>s</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></entry>
+  </row>
+  <row>
+    <entry><emphasis>Población</emphasis></entry>
+    <entry>Los términos <m:math><m:mi>x</m:mi></m:math> = <m:math>
+<m:mi>μ</m:mi>
+</m:math> + <emphasis effect="italics">zσ</emphasis></entry>
+    <entry>Los términos <m:math>
+ <m:mrow>
+  <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>–</m:mo><m:mtext> </m:mtext><m:mi>μ</m:mi>
+   </m:mrow>
+   <m:mi>σ</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></entry>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table><example id="element-387"><exercise id="exer1">
+<problem id="id6380897">
+<para id="element-928">Dos estudiantes, John y Ali, de diferentes escuelas secundarias, querían averiguar quién tenía el mejor GPA en comparación con su escuela. ¿Cuál estudiante tiene el mejor GPA en comparación con su escuela?
+
+<table id="element-798" summary="This table provides two students and their GPAs. The first row represents John and the second row represents Ali. The first column lists students, second column lists GPA, third column lists school mean GPA, and the fourth column list the school standard deviation.">
+<tgroup cols="4"><thead>
+  <row>
+    <entry>Estudiante</entry>
+    <entry>GPA</entry>
+    <entry>Media de las calificaciones de la escuela (Grade Point Average, GPA)</entry>
+    <entry>Desviación típica escolar</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>John</entry>
+    <entry>2,85</entry>
+    <entry>3,0</entry>
+    <entry>0,7</entry>
+  </row>
+  <row>
+    <entry>Ali</entry>
+    <entry>77</entry>
+    <entry>80</entry>
+    <entry>10</entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table></para></problem>
+<solution id="id7180364">
+<para id="element-71">Para cada estudiante, determine cuántas desviaciones típicas (n.º de STDEV) se aleja su GPA del promedio, para su escuela. Preste mucha atención a los signos al comparar e interpretar la respuesta.</para>
+<para id="element-590">Los términos <m:math>
+ <m:mrow><m:mi>z</m:mi><m:mo>=</m:mo>
+  <m:mo>N.º de STDEV</m:mo><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>valor </m:mtext><m:mo>–</m:mo><m:mtext>media</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>desviación típica</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>-</m:mo><m:mi>μ</m:mi>
+   </m:mrow>
+   <m:mi>σ</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para><para id="element-378">Para John, <m:math display="">
+ <m:mrow>
+  <m:mi>z</m:mi><m:mo>=</m:mo><m:mo>N.º</m:mo><m:mi>o</m:mi><m:mi>f</m:mi><m:mi>S</m:mi><m:mi>T</m:mi><m:mi>D</m:mi><m:mi>E</m:mi><m:mi>V</m:mi><m:mi>s</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2,85</m:mn><m:mo>–</m:mo><m:mn>3,0</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>0,7</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mo>–</m:mo><m:mn>0,21</m:mn>
+ </m:mrow>
+</m:math>
+</para><para id="element-712">Para Ali, <m:math>
+ <m:mrow>
+  <m:mi>z</m:mi><m:mo>=</m:mo><m:mo>N.º</m:mo><m:mi>o</m:mi><m:mi>f</m:mi><m:mi>S</m:mi><m:mi>T</m:mi><m:mi>D</m:mi><m:mi>E</m:mi><m:mi>V</m:mi><m:mi>s</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>77</m:mn><m:mo>–</m:mo><m:mn>80</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mo>-</m:mo><m:mn>0,3</m:mn>
+ </m:mrow>
+</m:math>
+</para><para id="element-344">John tiene el mejor GPA en comparación con su escuela porque su GPA está 0,21 desviaciones típicas <emphasis>por debajo</emphasis> de la media de su escuela mientras que el GPA de Ali está 0,3 desviaciones típicas <emphasis>por debajo</emphasis> de la media de su escuela.</para>
+<para id="fs-idp36263696">La puntuación <emphasis effect="italics">z</emphasis> de John, de –0,21, es mayor que la puntuación <emphasis effect="italics">z</emphasis> de Ali, de –0,3. Para el GPA, los valores más altos son mejores, por lo que concluimos que John tiene el mejor GPA en comparación con su escuela.</para>
+</solution>
+</exercise></example><note id="fs-idm22007088" class="statistics try"><label/>
+<title>Ejercicio</title>
+<exercise id="fs-idm30975248">
+<problem id="fs-idm30974992">
+<para id="fs-idm30974736">Dos nadadoras, Angie y Beth, de equipos diferentes, querían averiguar quién tenía el tiempo más rápido en los 50 metros libres en comparación con su equipo. ¿Qué nadadora tuvo el mejor tiempo en comparación con su equipo?</para>
+<table id="fs-idm44209040" summary="---">
+<tgroup cols="4"><thead><row><entry>Nadadora</entry><entry>Tiempo (segundos)</entry><entry>Tiempo medio del equipo</entry>	<entry>Desviación típica del equipo</entry></row></thead>
+<tbody>
+<row><entry>Angie</entry><entry>26,2</entry><entry>27,2</entry><entry>0,8</entry></row>
+<row><entry>Beth</entry><entry>27,3</entry><entry>30,1</entry><entry>1,4</entry></row>
+</tbody>
+
+</tgroup>
+</table></problem>
+<solution id="fs-idm21971664" class="solutions">
+<para id="fs-idm21971408">Para Angie: <emphasis effect="italics">z</emphasis> = <m:math>
+ <m:mrow><m:mfrac><m:mrow>
+<m:mtext>26</m:mtext><m:mtext>0,2 – 27</m:mtext><m:mtext>0,2</m:mtext>
+   </m:mrow><m:mrow><m:mtext>0</m:mtext><m:mtext>0,8</m:mtext></m:mrow></m:mfrac>
+ </m:mrow></m:math> = -1,25</para><para id="fs-idm92282736">Para Beth: <emphasis effect="italics">z</emphasis> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mtext>27</m:mtext><m:mtext>0,3</m:mtext><m:mo>–</m:mo><m:mtext>30</m:mtext><m:mtext>0,1</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>1.</m:mn><m:mtext>4</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> = -2</para></solution>
+</exercise></note><para id="eip-33">Las siguientes listas ofrecen algunos hechos que proporcionan un poco más de información sobre lo que la desviación típica nos dice sobre la distribución de los datos.</para>
+<list id="eip-303">
+<title>Para CUALQUIER conjunto de datos, no importa cuál sea la distribución de los datos:</title>
+<item>Al menos el 75 % de los datos están dentro de las dos desviaciones típicas de la media.</item>
+<item>Al menos el 89 % de los datos están dentro de las tres desviaciones típicas de la media.</item>
+<item>Al menos el 95 % de los datos están dentro de 4,5 desviaciones típicas de la media.</item>
+<item>Esto se conoce como la regla de Chebyshev.</item>
+</list> <list id="eip-188"><title>Para los datos que tienen una distribución normal, que examinaremos en detalle más adelante:</title><item>Aproximadamente el 68 % de los datos están dentro de una desviación típica de la media.</item>
+<item>Aproximadamente el 95 % de los datos están dentro de las dos desviaciones típicas de la media.</item>
+<item>Más del 99 % de los datos están dentro de las tres desviaciones típicas de la media.</item>
+<item>Esto se conoce como la regla empírica.</item>
+<item>Es importante señalar que esta regla solo se aplica cuando la forma de la distribución de los datos tiene forma de campana y es simétrica. Aprenderemos más sobre esto cuando estudiemos la distribución de probabilidad “normal” o “gaussiana” en capítulos posteriores.</item>
+</list></section>
+
+<section id="eip-494"><title>Coeficiente de variación</title><para id="eip-125">Otra forma útil de comparar distribuciones, además de las simples comparaciones de medias o desviaciones típicas, es ajustar las diferencias en la escala de los datos que se miden. Sencillamente, una gran variación en los datos con una media grande es diferente a la misma variación en los datos con una media pequeña. Para ajustar la escala de los datos subyacentes se ha desarrollado el coeficiente de variación (CV). Matemáticamente, el:
+
+</para><equation class="unnumbered" id="eip-638"><label/>Los términos <m:math><m:mi>C</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>s</m:mi><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mfrac><m:mo>*</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>condicionado a</m:mtext><m:mspace width="0.2em"/><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>≠</m:mo><m:mn>0,</m:mn><m:mspace width="0.2em"/><m:mtext>donde</m:mtext><m:mspace width="0.2em"/><m:mi>s</m:mi><m:mspace width="0.2em"/><m:mtext>es la desviación típica de los datos y</m:mtext><m:mspace width="0.2em"/><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mspace width="0.2em"/><m:mtext>es la media.</m:mtext></m:math></equation><para id="eip-411">Podemos ver que esto mide la variabilidad de los datos subyacentes como un porcentaje del valor medio; el peso central del conjunto de datos. Esta medida es útil para comparar el riesgo cuando se justifica un ajuste debido a las diferencias de escala de dos conjuntos de datos. En efecto, la escala se cambia a escala común, diferencias porcentuales, y permite la comparación directa de las dos o más magnitudes de variación de diferentes conjuntos de datos.</para></section><section id="fs-idp5887184" class="references">
+<title>Referencias</title>
+<para id="fs-idm65006032">Datos de Microsoft Bookshelf.</para>
+<para id="fs-idm65005648">King, Bill.“Graphically Speaking”. Institutional Research, Lake Tahoe Community College. Disponible en línea en http://www.ltcc.edu/web/about/institutional-research (consultado el 3 de abril de 2013).</para>
+</section>
+
+<section id="fs-idm30772592" class="summary">
+<title>Revisión del capítulo</title>
+<para id="fs-idm30771952">La desviación típica puede ayudarlo a calcular la dispersión de los datos. Existen diferentes ecuaciones para calcular la desviación típica de una muestra o de una población. </para><list id="fs-idm41288176" list-type="bulleted">
+<item>La desviación típica nos permite comparar numéricamente datos individuales o clases con la media del conjunto de datos.</item>
+<item><emphasis effect="italics">s</emphasis> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:msup>
+       <m:mstyle mathsize="140%" displaystyle="true"><m:mo>∑</m:mo></m:mstyle>
+       <m:mtext>​</m:mtext>
+      </m:msup>
+      <m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mover accent="true">
+         <m:mi>x</m:mi>
+         <m:mo>–</m:mo>
+        </m:mover>
+        <m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+     <m:mrow>
+      <m:mi>n</m:mi><m:mo>–</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math> o <emphasis effect="italics">s</emphasis> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:msup>
+       <m:mstyle mathsize="140%" displaystyle="true"><m:mo>∑</m:mo></m:mstyle>
+       <m:mtext>​</m:mtext>
+      </m:msup>
+      <m:mi>f</m:mi><m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mover accent="true">
+         <m:mi>x</m:mi>
+         <m:mo>–</m:mo>
+        </m:mover>
+        <m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+     <m:mrow>
+      <m:mi>n</m:mi><m:mo>–</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math> es la fórmula para calcular la desviación típica de una muestra. Para calcular la desviación típica de una población usaríamos la media de la población, <emphasis effect="italics">μ</emphasis>, y la fórmula <emphasis effect="italics">σ</emphasis> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:msup>
+       <m:mstyle mathsize="140%" displaystyle="true"><m:mo>∑</m:mo></m:mstyle>
+       <m:mtext>​</m:mtext>
+      </m:msup>
+      <m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mi>μ</m:mi><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+     <m:mi>N</m:mi>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math> o <emphasis effect="italics">σ</emphasis> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:msup>
+       <m:mstyle mathsize="140%" displaystyle="true"><m:mo>∑</m:mo></m:mstyle>
+       <m:mtext>​</m:mtext>
+      </m:msup>
+      <m:mi>f</m:mi><m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mi>μ</m:mi><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+     <m:mi>N</m:mi>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math></item>
+</list>
+</section>
+
+<section id="fs-idm71113376" class="formula-review">
+<title>Revisión de la fórmula</title>
+<para id="fs-idm727968">Los términos <m:math><m:mrow><m:msub><m:mi>s</m:mi>
+    <m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow>
+     <m:mfrac><m:mrow><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow>
+         <m:mi>f</m:mi><m:msup><m:mi>m</m:mi><m:mn>2</m:mn>
+         </m:msup></m:mrow></m:mstyle></m:mrow><m:mi>n</m:mi>
+     </m:mfrac><m:mo>–</m:mo><m:msup><m:mrow>
+       <m:mover accent="true"><m:mi>x</m:mi>
+        <m:mo stretchy="true">–</m:mo></m:mover></m:mrow>
+      <m:mn>2</m:mn></m:msup></m:mrow>
+   </m:msqrt></m:mrow></m:math> donde <m:math><m:mtable columnalign="left"><m:mtr><m:mtd>
+     <m:msub><m:mi>s</m:mi><m:mi>x</m:mi></m:msub>
+     <m:mo>=</m:mo><m:mtext> desviación típica de la muestra</m:mtext>
+    </m:mtd></m:mtr><m:mtr><m:mtd><m:mover accent="true"><m:mi>x</m:mi>
+      <m:mo stretchy="true">–</m:mo>
+     </m:mover><m:mtext> = media muestral</m:mtext>
+    </m:mtd></m:mtr></m:mtable></m:math>
+</para><para id="eip-895">Fórmulas para la desviación típica de la muestra <m:math>
+ <m:mrow>
+  <m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mi>Σ</m:mi><m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi> <m:mo>–</m:mo> <m:mover accent="true">
+         <m:mi>x</m:mi>
+         <m:mo>–</m:mo>
+        </m:mover>
+        <m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+     <m:mrow>
+      <m:mi>n</m:mi><m:mo>–</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math> o <m:math>
+ <m:mrow>
+  <m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mi>Σ</m:mi><m:mi>f</m:mi><m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mover accent="true">
+         <m:mi>x</m:mi>
+         <m:mo>–</m:mo>
+        </m:mover>
+        <m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+     <m:mrow>
+      <m:mi>n</m:mi><m:mo>–</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math> o <m:math><m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mo>(</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>n</m:mi></m:munderover></m:mstyle><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo><m:mo>-</m:mo><m:mi>n</m:mi><m:msup><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:msqrt></m:math> Para la desviación típica de la muestra, el denominador es <emphasis><emphasis effect="italics">n</emphasis> - 1</emphasis>, es decir, el tamaño de la muestra - 1.
+</para><para id="eip-116">Fórmulas para la desviación típica de la población <m:math>
+ <m:mrow>
+   <m:mi>σ</m:mi>
+  <m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mi>Σ</m:mi><m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mi>μ</m:mi><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+     <m:mi>N</m:mi>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math> o <m:math>
+ <m:mrow>
+   <m:mi>σ</m:mi>
+  <m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mi>Σ</m:mi><m:mi>f</m:mi><m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mi>μ</m:mi><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+     <m:mi>N</m:mi>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math> o <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover></m:mstyle><m:msubsup><m:mi>x</m:mi><m:mi>i</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>N</m:mi></m:mfrac><m:mo>-</m:mo><m:msup><m:mi>μ</m:mi><m:mn>2</m:mn></m:msup></m:msqrt></m:math> Para la desviación típica de la población, el denominador es <emphasis effect="italics">N</emphasis>, el número de elementos de la población.
+</para></section>
+
+<section id="fs-idm102658016" class="practice">
+<title/>
+<para id="fs-idp12495840"><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios</emphasis>: Los siguientes datos son las distancias entre 20 tiendas minoristas y un gran centro de distribución. Las distancias están en millas. <newline/>29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150</para><exercise id="fs-idm25484256" class="finger"><problem id="fs-idm25484000">
+<para id="fs-idm83184320" class="finger">Utilice una calculadora gráfica o una computadora para hallar la desviación típica y redondee a la décima más cercana.</para></problem>
+<solution id="fs-idm109784640">
+<para id="fs-idm109784384"><emphasis effect="italics">s</emphasis> = 34,5</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idm62691728">
+<problem id="fs-idm16323776">
+<para id="fs-idm48883840">Calcule el valor que está una desviación típica por debajo de la media.</para>
+</problem>
+</exercise>
+
+<exercise id="fs-idm9402560">
+<problem id="fs-idm41792944">
+<para id="fs-idm41792688">Dos jugadores de béisbol, Fredo y Karl, de equipos diferentes, querían averiguar quién tenía el promedio de bateo más alto en comparación con su equipo. ¿Cuál jugador de béisbol tenía el promedio de bateo más alto en comparación con su equipo?</para>
+<table id="fs-idm133764640" summary="---">
+<tgroup cols="4"><thead><row><entry>Jugador de béisbol</entry>	<entry>Media de bateo</entry>	<entry>Media de bateo del equipo</entry>	<entry>Desviación típica del equipo</entry></row></thead>
+<tbody>
+<row><entry>Fredo</entry>	<entry>0,158</entry>	<entry>0,166</entry>	<entry>0,012</entry></row>
+<row><entry>Karl</entry>	<entry>0,177</entry>	<entry>0,189</entry>	<entry>0,015</entry></row>
+</tbody>
+
+</tgroup>
+</table></problem>
+<solution id="fs-idm34270368">
+<para id="fs-idm34270112">Para Fredo: <emphasis effect="italics">z</emphasis> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>0,158</m:mn><m:mtext> – </m:mtext><m:mn>0,166</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>0,012</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> = -0,67</para><para id="fs-idm71183520">Para Karl: <emphasis effect="italics">z</emphasis> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>0,177</m:mn><m:mtext> – </m:mtext><m:mn>0,189</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>0,015</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> = -0,8</para>
+<para id="fs-idm79202000">La puntuación <emphasis effect="italics">z</emphasis> de Fredo, de –0,67, es mayor que la puntuación <emphasis effect="italics">z</emphasis> de Karl, de –0,8. Para el promedio de bateo, los valores más altos son mejores, por lo que Fredo tiene un mejor promedio de bateo en comparación con su equipo.</para></solution>
+</exercise>
+
+<exercise id="exercisefifteen">
+<problem id="id24167266">
+<para id="prob_15">Utilice la <link target-id="fs-idm133764640"/> para hallar el valor que tiene tres desviaciones típicas:</para><list id="element-012345" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>por encima de la media</item>
+<item><label>b</label>por debajo de la media</item>
+</list>
+</problem>
+</exercise>
+
+<para id="eip-370" class="finger"><newline/><emphasis effect="italics">Calcule la desviación típica de las siguientes tablas de frecuencias utilizando la fórmula. Compruebe los cálculos con la TI 83/84</emphasis>.</para><exercise id="fs-idm109676912"><problem id="fs-idm109676656"><para id="eip-id1166677427293">Calcule la desviación típica de las siguientes tablas de frecuencias utilizando la fórmula. Compruebe los cálculos con la TI 83/84</para>
+<list id="fs-idp11094096" list-type="enumerated" number-style="lower-alpha"><item><table id="fs-idm103039104" summary="">
+<tgroup cols="2">
+<thead><row><entry>Grado</entry><entry>Frecuencia</entry></row></thead>
+<tbody>
+<row><entry>49,5–59,5</entry><entry>2</entry></row>
+<row><entry>59,5–69,5</entry><entry>3</entry></row>
+<row><entry>69,5–79,5</entry><entry>8</entry></row>
+<row><entry>79,5–89,5</entry><entry>12</entry></row>
+<row><entry>89,5–99,5</entry><entry>5</entry></row>
+</tbody>
+</tgroup>
+</table></item>
+<item><table id="fs-idm26532112" summary="---">
+<tgroup cols="2"><thead><row><entry>Temperatura mínima diaria</entry>	<entry>Frecuencia</entry></row></thead>
+<tbody>
+<row><entry>49,5–59,5</entry>	<entry>53</entry></row>
+<row><entry>59,5–69,5</entry>	<entry>32</entry></row>
+<row><entry>69,5–79,5</entry>	<entry>15</entry></row>
+<row><entry>79,5–89,5</entry>	<entry>1</entry></row>
+<row><entry>89,5–99,5</entry>	<entry>0</entry></row>
+</tbody>
+
+</tgroup>
+</table></item>
+<item><table id="fs-idm21103120" summary="---">
+<tgroup cols="2"><thead><row><entry>Puntos por partido</entry>	<entry>Frecuencia</entry></row></thead>
+<tbody>
+<row><entry>49,5–59,5</entry>	<entry>14</entry></row>
+<row><entry>59,5–69,5</entry>	<entry>32</entry></row>
+<row><entry>69,5–79,5</entry>	<entry>15</entry></row>
+<row><entry>79,5–89,5</entry>	<entry>23</entry></row>
+<row><entry>89,5–99,5</entry>	<entry>2</entry></row>
+</tbody>
+
+</tgroup>
+</table></item>
+</list></problem>
+<solution id="fs-idm18306912">
+<list id="fs-idm49462512" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math>
+<m:mrow><m:msub><m:mi>s</m:mi><m:mi>x</m:mi></m:msub>
+   <m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow>
+         <m:mi>f</m:mi><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow>
+       </m:mstyle></m:mrow><m:mi>n</m:mi></m:mfrac><m:mo>–</m:mo><m:msup><m:mrow>
+       <m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="true">–</m:mo>      </m:mover></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow>
+     <m:mfrac><m:mrow><m:mn>193157,45</m:mn></m:mrow><m:mrow><m:mn>30</m:mn></m:mrow>
+     </m:mfrac><m:mo>–</m:mo><m:msup><m:mrow><m:mn>79,5</m:mn></m:mrow><m:mn>2</m:mn>
+     </m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>10,88</m:mn></m:mrow>
+   </m:math></item>
+<item>Los términos <m:math> <m:mrow><m:msub><m:mi>s</m:mi><m:mi>x</m:mi>
+   </m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow><m:mi>f</m:mi><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mstyle></m:mrow>
+      <m:mi>n</m:mi></m:mfrac><m:mo>–</m:mo><m:msup><m:mrow>
+       <m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="true">–</m:mo></m:mover></m:mrow>
+      <m:mn>2</m:mn></m:msup></m:mrow></m:msqrt>
+   <m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>380945,3</m:mn></m:mrow><m:mrow>
+       <m:mn>101</m:mn></m:mrow></m:mfrac><m:mo>–</m:mo><m:msup>      <m:mrow><m:mn>60,94</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>7,62</m:mn></m:mrow></m:math></item>
+<item>Los términos <m:math>
+<m:mrow><m:msub><m:mi>s</m:mi><m:mi>x</m:mi></m:msub>
+   <m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mstyle displaystyle="true">
+        <m:mo>∑</m:mo> <m:mrow><m:mi>f</m:mi><m:msup><m:mi>m</m:mi>
+          <m:mn>2</m:mn></m:msup></m:mrow></m:mstyle></m:mrow><m:mi>n</m:mi>
+     </m:mfrac><m:mo>–</m:mo><m:msup><m:mrow><m:mover accent="true">
+        <m:mi>x</m:mi><m:mo stretchy="true">–</m:mo></m:mover></m:mrow><m:mn>2</m:mn>
+     </m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>440051,5</m:mn>
+      </m:mrow><m:mrow><m:mn>86</m:mn></m:mrow></m:mfrac>
+     <m:mo>–</m:mo><m:msup><m:mrow>
+       <m:mn>70,66</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow>
+   </m:msqrt><m:mo>=</m:mo><m:mn>11,14</m:mn></m:mrow></m:math></item></list></solution>
+</exercise></section>
+
+<section id="fs-idm25848496" class="free-response"><title>Tarea para la casa</title>
+<para id="eip-446"><emphasis effect="italics">Utilice la siguiente información para responder a los siguientes nueve ejercicios:</emphasis> Los parámetros de población que aparecen a continuación describen el número de estudiantes equivalentes a tiempo completo (full-time equivalent number of students, FTES) cada año en el Lake Tahoe Community College desde 1976-1977 hasta 2004-2005.</para><list id="element-479" list-type="bulleted"><item><emphasis effect="italics">μ</emphasis> = 1.000 FTES</item>
+      <item>mediana = 1.014 FTES</item>
+      <item><emphasis effect="italics">σ</emphasis> = 474 FTES</item>
+      <item>primer cuartil = 528,5 FTES</item>
+      <item>tercer cuartil = 1.447,5 FTES</item>
+      <item><emphasis effect="italics">n</emphasis> = 29 años</item>
+    </list><exercise id="exercisetwenty">
+      <problem id="id8123889">
+        <para id="prob_20">Se toma una muestra de 11 años. ¿Cuántos se espera que tengan un FTES de 1.014 o más? Explique cómo ha determinado su respuesta.</para>
+      </problem>
+      <solution id="id8123906">
+        <para id="element-236">El valor de la mediana es el valor medio en la lista ordenada de valores de datos. El valor mediano de un conjunto de 11 será el 6.º número en orden. Seis años tendrán totales iguales o inferiores a la mediana.</para></solution>
+    </exercise>
+
+    <exercise id="exercisetwentyone">
+      <problem id="id8123930">
+        <para id="prob_21">El 75 % de todos los años tiene un FTES: <list id="element-123123" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>en o por debajo de: _____</item>
+            <item>en o por encima de: _____</item>
+          </list></para></problem>
+    </exercise>
+
+    <exercise id="exercisetwentytwo">
+      <problem id="id8181793">
+        <para id="prob_22">La desviación típica de la población = _____</para></problem>
+      <solution id="id8181808">
+        <para id="element-23356">474 FTES</para>
+      </solution>
+    </exercise>
+
+    <exercise id="exercisetwentythree">
+      <problem id="id8181834">
+        <para id="prob_23">¿Qué porcentaje de FTES fue de 528,5 a 1.447,5? ¿Cómo lo sabe?</para>
+      </problem>
+    </exercise>
+
+    <exercise id="exercisetwentyfour">
+      <problem id="id8181876">
+        <para id="prob_24">¿Cuál es el <emphasis effect="italics">rango intercuartil (InterQuartile Range, IQR)</emphasis>? ¿Qué representa el <emphasis effect="italics">IQR</emphasis>?</para></problem>
+      <solution id="id8181901">
+        <para id="element-2236">919</para>
+      </solution>
+    </exercise>
+
+    <exercise id="exercisetwentyfive">
+      <problem id="id8181927">
+        <para id="prob_25">¿A cuántas desviaciones típicas de la media está la mediana?</para>
+        <para id="eip-4"><emphasis effect="italics">Información adicional:</emphasis> La población FTES para 2005-2006 hasta 2010-2011 se dio en un informe actualizado. Los datos se presentan aquí.</para><table id="eip-395" summary="This is a table of FTES for 2005-06 through 2010-2011.">
+<tgroup cols="7"><tbody>
+              <row>
+                <entry><emphasis>Año</emphasis></entry>
+                <entry><emphasis>2005–06</emphasis></entry>
+                <entry><emphasis>2006–07</emphasis></entry>
+                <entry><emphasis>2007–08</emphasis></entry>
+                <entry><emphasis>2008–09</emphasis></entry>
+                <entry><emphasis>2009–10</emphasis></entry>
+                <entry><emphasis>2010–11</emphasis></entry>
+              </row>
+              <row>
+                <entry><emphasis>Total de FTES</emphasis></entry>
+                <entry>1.585</entry>
+                <entry>1.690</entry>
+                <entry>1.735</entry>
+                <entry>1.935</entry>
+                <entry>2.021</entry>
+                <entry>1.890</entry>
+              </row>
+            </tbody>
+
+</tgroup>
+</table></problem>
+    </exercise>
+
+    <exercise id="eip-746">
+      <problem id="eip-481">
+        <para id="eip-363">Calcule la media, la mediana, la desviación típica, el primer cuartil, el tercer cuartil y el <emphasis effect="italics">IQR</emphasis>. Redondee a un decimal.</para></problem>
+      <solution id="eip-407">
+        <list id="fs-idm80888224" list-type="bulleted"><item>media = 1.809,3</item>
+          <item>mediana = 1.812,5</item>
+          <item>desviación típica = 151,2</item>
+          <item>primer cuartil = 1.690</item>
+          <item>tercer cuartil = 1.935</item>
+          <item><emphasis effect="italics">IQR</emphasis> = 245</item>
+        </list></solution>
+    </exercise>
+
+    <exercise id="eip-975">
+      <problem id="eip-748">
+        <para id="eip-507">Compare el <emphasis effect="italics">IQR</emphasis> de los FTES de 1976-1977 a 2004-2005 con el <emphasis effect="italics">IQR</emphasis> de los FTES de 2005-2006 a 2010-2011. ¿Por qué cree que los <emphasis effect="italics">IQR</emphasis> son tan diferentes?</para></problem>
+      <solution id="eip-602">
+        <para id="eip-165">Pista: Piense en el número de años que abarca cada periodo y en lo que ocurrió con la educación superior durante esos periodos.</para>
+      </solution>
+    </exercise>
+
+  <exercise id="element-844">
+<problem id="id3734385">
+<para id="element-228">Tres estudiantes solicitaban el ingreso en la misma escuela de posgrado. Venían de escuelas con sistemas de calificación diferentes. ¿Cuál estudiante tiene el mejor GPA en comparación con otros estudiantes de su escuela? Explique cómo ha determinado su respuesta.</para>
+<table id="element-814" summary="This table presents three students and their GPAs. The first column lists the students, the second column lists the GPA, the third column lists the school average GPA, and the fourth column lists the school standard deviations. The first row represents Thuy, the second row represents Vichet, and the third row represents Kamala.">
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry>Estudiante</entry>
+<entry>GPA</entry>
+<entry>GPA de la escuela</entry>
+<entry>Desviación típica de la escuela</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Thuy</entry>
+<entry>2,7</entry>
+<entry>3,2</entry>
+<entry>0,8</entry>
+</row>
+<row>
+<entry>Vichet</entry>
+<entry>87</entry>
+<entry>75</entry>
+<entry>20</entry>
+</row>
+<row>
+<entry>Kamala</entry>
+<entry>8,6</entry>
+<entry>8</entry>
+<entry>0,4</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+</exercise>
+
+<exercise id="eip-207">
+<problem id="eip-290"><para id="eip-327">Una escuela de música presupuestó la compra de tres instrumentos musicales. Planean comprar un piano que cuesta 3.000 dólares, una guitarra que cuesta 550 dólares y una batería que cuesta 600 dólares. El costo medio de un piano es de 4.000 dólares, con una desviación típica de 2.500 dólares. El costo medio de una guitarra es de 500 dólares, con una desviación típica de 200 dólares. El costo medio de la batería es de 700 dólares, con una desviación típica de 100 dólares. ¿Cuál es el costo más bajo en comparación con otros instrumentos del mismo tipo? ¿Qué costo es el más elevado en comparación con otros instrumentos del mismo tipo? Justifique su respuesta.</para>
+</problem>
+<solution id="eip-21">
+<para id="eip-740">En el caso de los pianos, el costo está 0,4 desviaciones típicas POR DEBAJO de la media. En el caso de las guitarras, el costo está 0,25 desviaciones típicas POR ENCIMA de la media. En el caso de la batería, el costo está 1,0 desviaciones típicas POR DEBAJO de la media. De los tres, la batería es el instrumento que menos cuesta en comparación con el costo de otros instrumentos del mismo tipo. La guitarra es la que más cuesta en comparación con el costo de otros instrumentos del mismo tipo.</para>
+</solution>
+</exercise>
+
+<exercise id="element-799"><problem id="id6038456">
+<para id="fs-idm25455232">Una clase de escuela primaria corrió una milla con una media de 11 minutos y una desviación típica de tres minutos. Rachel, una estudiante de la clase, corrió una milla en ocho minutos. Una clase de penúltimo año corrió una milla con una media de nueve minutos y una desviación típica de dos minutos. Kenji, un estudiante de la clase, corrió 1 milla en 8,5 minutos. Una clase de escuela secundaria corrió una milla con una media de siete minutos y una desviación típica de cuatro minutos. Nedda, una estudiante de la clase, corrió una milla en ocho minutos.</para>
+<list id="element-895" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>¿Por qué se considera a Kenji mejor corredor que Nedda, a pesar de que esta corría más rápido que él?</item>
+<item>¿Quién es el corredor más rápido con respecto a su clase? Explique por qué.</item>
+</list></problem>
+</exercise>
+
+<exercise id="fs-idm6474736">
+<problem id="fs-idm6474480">
+<para id="fs-idm6474224">Los países más obesos del mundo tienen tasas de obesidad que van del 11,4 % al 74,6 %. Estos datos se resumen en la <link target-id="fs-idm115378592">tabla 14</link>.</para><table id="fs-idm115378592" summary="---">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead><row><entry>Porcentaje de población obesa</entry><entry>Número de países</entry></row></thead>
+<tbody>
+<row><entry>11,4–20,45</entry><entry>29</entry></row>
+<row><entry>20,45–29,45</entry><entry>13</entry></row>
+<row><entry>29,45–38,45</entry><entry>4</entry></row>
+<row><entry>38,45–47,45</entry><entry>0</entry></row>
+<row><entry>47,45–56,45</entry><entry>2</entry></row>
+<row><entry>56,45–65,45</entry><entry>1</entry></row>
+<row><entry>65,45–74,45</entry><entry>0</entry></row>
+<row><entry>74,45–83,45</entry><entry>1</entry></row>
+</tbody>
+
+</tgroup>
+</table><para id="fs-idm115073344">¿Cuál es la mejor estimación del porcentaje promedio de obesidad en estos países? ¿Cuál es la desviación típica de las tasas de obesidad indicadas? Estados Unidos tiene una tasa promedio de obesidad del 33,9 %. ¿Esta tasa está por encima o por debajo del promedio? ¿Cuán “inusual” es la tasa de obesidad de Estados Unidos en comparación con la tasa media? Explique.</para>
+</problem>
+
+<solution id="fs-idm115072832">
+<list id="fs-idm65872400" list-type="bulleted"><item>Los términos <m:math>
+   <m:mrow>
+   <m:mover accent="true">
+    <m:mi>x</m:mi>
+    <m:mo stretchy="true">–</m:mo>
+   </m:mover>
+   <m:mo>=</m:mo><m:mn>23,32</m:mn>
+  </m:mrow>
+  </m:math></item>
+<item class="finger">Utilizando la TI 83/84, obtenemos una desviación típica de: <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>s</m:mi>
+   <m:mi>x</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>12,95.</m:mn>
+ </m:mrow>
+</m:math></item>
+<item>La tasa de obesidad de Estados Unidos es un 10,58 % superior a la tasa promedio de obesidad.</item>
+<item>Dado que la desviación típica es 12,95, vemos que 23,32 + 12,95 = 36,27 es el porcentaje de obesidad que está a una desviación típica de la media. La tasa de obesidad de Estados Unidos es ligeramente inferior a una desviación típica de la media. Por lo tanto, podemos suponer que Estados Unidos, aunque tenga un 34 % de obesos, no tiene un porcentaje inusualmente alto de personas obesas.</item>
+</list></solution>
+</exercise>
+
+<exercise id="fs-idm70000608">
+<problem id="fs-idm70000352">
+<para id="fs-idm116547040"><link target-id="fs-idm116546656"/> da el porcentaje de niños menores de cinco años considerados con bajo peso.</para><table id="fs-idm116546656" summary="---">
+<tgroup cols="2"><thead><row><entry>Porcentaje de niños con bajo peso</entry>	<entry>Número de países</entry></row></thead>
+<tbody>
+<row><entry>16–21,45</entry><entry>23</entry></row>
+<row><entry>21,45–26,9</entry><entry>4</entry></row>
+<row><entry>26,9–32,35</entry><entry>9</entry></row>
+<row><entry>32,35–37,8</entry><entry>7</entry></row>
+<row><entry>37,8–43,25</entry><entry>6</entry></row>
+<row><entry>43,25–48,7</entry><entry>1</entry></row>
+</tbody>
+
+</tgroup>
+</table><para id="fs-idm46041824">¿Cuál es la mejor estimación del porcentaje medio de niños con bajo peso? ¿Cuál es la desviación típica? ¿Cuáles intervalos podrían considerarse inusuales? Explique.</para></problem>
+</exercise>
+
+
+
+</section>
+<section id="fs-idm9788176a" class="bring-together-homework">
+    <title>Resúmalo todo</title>
+<exercise id="element-833">
+<problem id="id3776067">
+<para id="element-202">Se les preguntó a veinticinco estudiantes seleccionados al azar el número de películas que habían visto la semana anterior. Los resultados son los siguientes:</para>
+<table id="element-681" summary="The table presents the number of movies 25 students watched in the previous week. The first column lists the number of movies from 0-4, the second column lists the frequency with the values of 5, 9, 6, 4, 1, the third column is for relative frequency and is blank, and the fourth column is for cumulative relative frequency and is blank.">
+<tgroup cols="2"><thead>
+ <row>
+    <entry>N.º de películas</entry>
+    <entry>Frecuencia</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>0</entry>
+    <entry>5</entry>
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry>9</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>6</entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>4</entry>
+  </row>
+  <row>
+    <entry>4</entry>
+    <entry>1</entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table><list id="element-113" list-type="enumerated" number-style="lower-alpha"><item>Calcule la media muestral <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:math></item>
+<item>Calcule la desviación típica aproximada de la muestra, <emphasis effect="italics">s</emphasis>.</item>
+</list></problem>
+<solution id="id6101341">
+<list id="element-934" list-type="enumerated" number-style="lower-alpha">
+<item>1,48</item>
+<item>1,12</item>
+</list></solution>
+</exercise>
+
+<exercise id="element-976"><problem id="id6006371">
+<para id="element-567">Se preguntó a cuarenta estudiantes seleccionados al azar el número de pares de zapatillas que tenían. Supongamos que <emphasis effect="italics">X</emphasis> = el número de pares de zapatillas que tienen. Los resultados son los siguientes:</para>
+<table id="element-130" summary="The table presents the number of pairs of sneakers forty students own. The first column lists the number of pairs of sneakers owned from 0-7, the second column lists the frequency, the third column is relative frequency and is blank, and the fourth column is cumulative relative frequency and is blank.">
+<tgroup cols="2"><thead>
+<row>
+<entry><emphasis effect="italics">X</emphasis></entry>
+<entry>Frecuencia</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+</row>
+<row>
+<entry>2</entry>
+<entry>5</entry>
+</row>
+<row>
+<entry>3</entry>
+<entry>8</entry>
+</row>
+<row>
+<entry>4</entry>
+<entry>12</entry>
+</row>
+<row>
+<entry>5</entry>
+<entry>12</entry>
+</row>
+<row>
+<entry>6</entry>
+<entry>0</entry>
+</row>
+<row>
+<entry>7</entry>
+<entry>1</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><list id="element-277" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Calcule la media muestral <m:math><m:apply><m:conjugate/><m:ci>x</m:ci></m:apply></m:math></item>
+<item>Calcule la desviación típica de la muestra, <emphasis effect="italics">s</emphasis></item>
+<item>Construya un histograma de los datos.</item>
+<item>Rellene las columnas del cuadro.</item>
+<item>Calcule el primer cuartil.</item>
+<item>Calcule la mediana.</item>
+<item>Calcule el tercer cuartil.</item>
+<item>¿Qué porcentaje de estudiantes tenía al menos cinco pares?</item>
+<item>Calcule el<sup/> percentil 40.</item>
+<item>Calcule el percentil 90<sup/>.</item>
+<item>Construya un gráfico de líneas de los datos</item>
+<item>Construya un diagrama de tallo de los datos</item></list></problem>
+</exercise>
+
+<exercise id="element-324s"><problem id="id4231623">
+<para id="fs-idm32869728">A continuación se muestran los pesos publicados (en libras) de todos los miembros del equipo de los San Francisco 49ers de un año anterior.</para><para id="element-598">177; 205; 210; 210; 232; 205; 185; 185; 178; 210; 206; 212; 184; 174; 185; 242; 188; 212; 215; 247; 241; 223; 220; 260; 245; 259; 278; 270; 280; 295; 275; 285; 290; 272; 273; 280; 285; 286; 200; 215; 185; 230; 250; 241; 190; 260; 250; 302; 265; 290; 276; 228; 265</para><list id="fs-idm96948032" list-type="enumerated" number-style="lower-alpha"><item>Organice los datos de menor a mayor valor.</item>
+<item>Calcule la mediana.</item>
+<item>Calcule el primer cuartil.</item>
+<item>Calcule el tercer cuartil.</item>
+<item>El 50 % de los pesos son de _______ a _______.</item>
+<item>Si nuestra población fueran todos los jugadores de fútbol americano profesionales, ¿los datos anteriores serían una muestra de pesos o la población de pesos? ¿Por qué?</item>
+<item>Si nuestra población incluyera a todos los miembros del equipo que alguna vez jugaron con los San Francisco 49ers, ¿los datos anteriores serían una muestra de pesos o la población de pesos? ¿Por qué?</item>
+<item>Supongamos que la población fuera los 49ers de San Francisco. Calcule: <list id="nestlist4" mark-suffix="." list-type="enumerated" number-style="lower-roman"><item>la media de la población, <emphasis effect="italics">μ</emphasis>.</item>
+<item>la desviación típica de la población, <emphasis effect="italics">σ</emphasis>.</item>
+<item>el peso que está dos desviaciones típicas por debajo de la media.</item>
+<item>Cuando Steve Young, mariscal de campo, jugaba fútbol americano pesaba 205 libras. ¿Cuántas desviaciones típicas por encima o por debajo de la media estaba?</item>
+</list>
+</item>
+<item>Ese mismo año, el peso medio de los Dallas Cowboys era de 240,08 libras con una desviación típica de 44,38 libras. Emmit Smith pesó 209 libras. Con respecto a su equipo, ¿quién era más liviano, Smith o Young? ¿Cómo determinó su respuesta?</item></list></problem>
+<solution id="id4782460">
+<list id="element-189" list-type="enumerated" number-style="lower-alpha"><item>174; 177; 178; 184; 185; 185; 185; 185; 188; 190; 200; 205; 205; 206; 210; 210; 210; 212; 212; 215; 215; 220; 223; 228; 230; 232; 241; 241; 242; 245; 247; 250; 250; 259; 260; 260; 265; 265; 270; 272; 273; 275; 276; 278; 280; 280; 285; 285; 286; 290; 290; 295; 302</item>
+<item>241</item>
+<item>205,5</item>
+<item>272,5</item>
+
+
+<item>205,5, 272,5</item>
+<item>muestra</item>
+<item>población</item>
+<item>
+<list id="element-409" mark-suffix="." list-type="enumerated" number-style="lower-roman"><item>236,34</item>
+<item>37,50</item>
+<item>161,34</item>
+<item>0,84 de desviación típica por debajo de la media</item>
+</list>
+</item>
+<item>Young</item>
+</list></solution></exercise>
+
+<exercise id="element-211">
+<problem id="id4976485">
+<para id="element-353">Cien maestros asistieron a un seminario sobre resolución de problemas matemáticos. Se midieron las actitudes de una muestra representativa de 12 de los maestros antes y después del seminario. Un número positivo para el cambio de actitud indica que la actitud del maestro hacia las Matemáticas se volvió más positiva. Las 12 calificaciones de los cambios son las siguientes:</para>
+<para id="element-6236"><list list-type="labeled-item" display="inline" id="set-linelist1"><item>3</item><item> 8</item><item>-1</item><item>2</item><item> 0</item><item>5</item><item>-3</item><item>1</item><item>-1</item><item>6</item><item> 5</item><item>-2</item></list></para><list id="element-217" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>¿Cuál es la puntuación media del cambio?</item>
+<item>¿Cuál es la desviación típica de esta población?</item>
+<item>¿Cuál es la calificación media de los cambios?</item>
+<item>Calcule la calificación de cambio que está 2,2 desviaciones típicas por debajo de la media.</item></list></problem>
+</exercise>
+
+<exercise id="element-314"><problem id="id6158752">
+<para id="element-223">Consulte la <link target-id="fs-idm70725344"/> y determine cuáles de las siguientes afirmaciones son verdaderas y cuáles son falsas. Explique su solución a cada parte con oraciones completas.</para><figure id="fs-idm70725344"><media id="id4115299" alt="Esto muestra tres gráficos. El primero es un histograma con una moda de 3 y una distribución bastante simétrica entre 1 (valor mínimo) y 5 (valor máximo). El segundo gráfico es un histograma con picos en 1 (valor mínimo) y 5 (valor máximo), siendo 3 la frecuencia más baja. El tercer gráfico es un diagrama de caja. El primer bigote va de 0 a 1. El recuadro comienza en el primer cuartil, 1, y termina en el tercer cuartil, 6. Una línea vertical discontinua marca la mediana en 3. El segundo bigote se extiende a partir del 6. " display="block"><image src="../../media/fig-ch02_13_05-c4d6.jpg" mime-type="image/jpg" width="350px"/></media>
+</figure><list id="element-25" list-type="enumerated" number-style="lower-alpha"><item>Las medianas de ambos gráficos son iguales.</item>
+<item>No podemos determinar si alguna de las medias de ambos gráficos es diferente.</item>
+<item>La desviación típica del gráfico b es mayor que la desviación típica del gráfico a.</item>
+<item>No podemos determinar si alguno de los terceros cuartiles de ambos gráficos es diferente.</item></list></problem>
+<solution id="id7741745">
+<para id="fs-idm24575312"><list id="element-340" list-type="enumerated" number-style="lower-alpha">
+<item>Verdadero</item>
+<item>Verdadero</item>
+<item>Verdadero</item>
+<item>Falso</item></list></para></solution>
+</exercise>
+
+<exercise id="fs-idm40658512"><problem id="id4298561">
+<para id="id12029548">En un número reciente de la revista <cite id="cite-00001"><cite-title>IEEE Spectrum</cite-title></cite>, se anunciaron 84 conferencias de ingeniería. Cuatro conferencias duraron dos días. Treinta y seis duraron tres días. Dieciocho dudaron cuatro días. Diecinueve dudaron cinco días. Cuatro duraron seis días. Una duró siete días. Una duró ocho días. Una duró nueve días. Supongamos que <emphasis effect="italics">X</emphasis> = la duración (en días) de una conferencia de ingeniería.</para><list id="id6952326" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Organice los datos en un gráfico.</item>
+<item>Calcule la mediana, el primer cuartil y el tercer cuartil.</item>
+<item>Calcule el percentil 65<sup/>.</item>
+<item>Calcule el percentil 10<sup/>.</item>
+
+<item>El 50 % del centro de las conferencias duran entre _______ y _______.</item>
+<item>Calcule la media muestral de los días de conferencias de ingeniería.</item>
+<item>Calcule la desviación típica de la muestra de los días de conferencias de ingeniería.</item>
+<item>Calcule la moda.</item>
+<item>Si estuviera planificando una conferencia de ingeniería, ¿qué elegiría como su duración: la media, la mediana o la moda? Explique por qué tomó esa decisión.</item>
+<item>Dé dos razones por las que piense que la duración de las conferencias de ingeniería parece ser de tres a cinco días.</item>
+</list></problem>
+</exercise>
+
+<exercise id="element-891"><problem id="id3671813">
+<para id="element-707">Una encuesta sobre las inscripciones en 35 institutos universitarios comunitarios de Estados Unidos arrojó las siguientes cifras:</para><para id="element-23455">6414; 1550; 2109; 9350; 21828; 4300; 5944; 5722; 2825; 2044; 5481; 5200; 5853; 2750; 10012; 6357; 27000; 9414; 7681; 3200; 17500; 9200; 7380; 18314; 6557; 13713; 17768; 7493; 2771; 2861; 1263; 7285; 28165; 5080; 11622</para><list id="id12992735" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Organice los datos en un gráfico con cinco intervalos de igual ancho. Identifique las dos columnas “inscripción” y “frecuencia”.</item>
+<item>Construya un histograma de los datos.</item>
+<item>Si tuviera que construir un nuevo colegio comunitario, ¿qué información sería más valiosa: la moda o la media?</item>
+<item>Calcule la media muestral.</item>
+<item>Calcule la desviación típica de la muestra.</item>
+<item>Una escuela con una matrícula de 8.000 estudiantes, ¿a cuántas desviaciones típicas de la media se refiere?</item>
+</list></problem>
+
+<solution id="eip-idm26749440">
+<list id="id12992735a" list-type="enumerated" number-style="lower-alpha"><item>
+<table id="fs-idm103039104a" summary="">
+<tgroup cols="2">
+<thead><row><entry>Inscripción</entry><entry>Frecuencia</entry></row></thead>
+<tbody>
+<row><entry>1000-5000</entry><entry>10</entry></row>
+<row><entry>5000-10000</entry><entry>16</entry></row>
+<row><entry>10000-15000</entry><entry>3</entry></row>
+<row><entry>15000-20000</entry><entry>3</entry></row>
+<row><entry>20000-25000</entry><entry>1</entry></row>
+<row><entry>25000-30000</entry><entry>2</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+</item>
+<item>Compruebe la solución del estudiante</item>
+<item>moda</item>
+<item>8628,74</item>
+<item>6943,88</item>
+<item>-0,09</item>
+</list></solution></exercise><para id="element-225"><newline/> <emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios.</emphasis> <emphasis effect="italics">X</emphasis> = el número de días a la semana que 100 clientes utilizan un determinado centro de ejercicio.</para><table id="element-813" summary="This table presents the number of days a week clients use a particular exercise facility. The first column lists the number of days from 0-6 and the second column lists the frequency.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry>Frecuencia</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>0</entry>
+<entry>3</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>12</entry>
+</row>
+<row>
+<entry>2</entry>
+<entry>33</entry>
+</row>
+<row>
+<entry>3</entry>
+<entry>28</entry>
+</row>
+<row>
+<entry>4</entry>
+<entry>11</entry>
+</row>
+<row>
+<entry>5</entry>
+<entry>9</entry>
+</row>
+<row>
+<entry>6</entry>
+<entry>4</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><exercise id="element-290"><problem id="id4945198">
+<para id="element-441">El percentil 80<sup/> es _____</para><list id="ni4" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>5</item>
+<item>80</item>
+<item>3</item>
+<item>4</item>
+</list></problem>
+</exercise>
+
+<exercise id="element-867">
+<problem id="id4861412">
+<para id="element-793">El número que está 1,5 desviaciones típicas POR DEBAJO de la media es aproximadamente _____</para><list id="ni5" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>0,7</item>
+<item>4,8</item>
+<item>-2,8</item>
+<item>No se puede determinar</item>
+</list></problem>
+<solution id="id7360802">
+<para id="element-539">a</para>
+</solution>
+</exercise>
+
+<exercise id="eip-961">
+<problem id="eip-175">
+<para id="eip-902">Supongamos que una editorial realiza una encuesta en la que pregunta a consumidores adultos el número de libros de ficción de tapa blanda que compraron el mes anterior. Los resultados se resumen en la <link target-id="table23"/>.</para><table id="table23" summary="Publisher B is the table with number of books in the first column, from 0-5, 7, 9, frequency in the second column, and relative frequency in the third column which is blank.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>N.º de libros</entry>
+<entry>Frec.</entry>
+<entry>Rel. Frec.</entry>
+</row>
+</thead>
+<tbody>
+<row><entry>0</entry>
+<entry>18</entry><entry/></row><row>
+<entry>1</entry><entry>24</entry>
+<entry/></row><row><entry>2</entry>
+<entry>24</entry><entry/></row><row>
+<entry>3</entry><entry>22</entry>
+<entry/></row><row><entry>4</entry>
+<entry>15</entry><entry/></row>
+<row><entry>5</entry><entry>10</entry><entry/></row>
+<row><entry>7</entry>
+<entry>5</entry><entry/></row>
+<row><entry>9</entry><entry>1</entry>
+<entry/></row>
+</tbody>
+
+</tgroup>
+</table><list id="eip-id1170221803861" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>¿Existen valores atípicos en los datos? Utilice una prueba numérica adecuada que incluya el <emphasis effect="italics">IQR</emphasis> para identificar valores atípicos, si los hay, y exponga claramente su conclusión.</item>
+<item>Si un valor de los datos se identifica como un valor atípico, ¿qué hay que hacer con él?</item>
+<item>¿Hay algún valor de los datos que se aleje más de dos desviaciones típicas de la media? En algunas situaciones, los estadísticos pueden utilizar este criterio para identificar valores de datos que son inusuales, en comparación con los demás valores de datos (observe que este criterio es más apropiado para utilizarlo con datos en forma de montículo y simétricos, que con datos distorsionados).</item>
+<item>¿Las partes a y c de este problema dan la misma respuesta?</item>
+<item>Examine la forma de los datos. ¿Qué parte, a o c, de esta pregunta da un resultado más apropiado para estos datos?</item>
+<item>Según la forma de los datos, ¿cuál es la medida de centro más adecuada para estos datos: media, mediana o moda?</item>
+</list></problem>
+</exercise>
+</section>
+
+ </content>
+
+<glossary>
+<definition id="stddev">
+<term>Desviación típica</term>
+<meaning id="id20302532"> número igual a la raíz cuadrada de la varianza y que mide lo lejos que están los valores de los datos de su media; notación: <emphasis effect="italics">s</emphasis> para la desviación típica de la muestra y σ para la desviación típica de la población.</meaning>
+</definition>
+
+<definition id="variance">
+    <term>Varianza</term>
+    <meaning id="id3154337"> media de las desviaciones al cuadrado de la media, o el cuadrado de la desviación típica; para un conjunto de datos, una desviación puede representarse como <emphasis effect="italics">x</emphasis> – <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math> donde <emphasis effect="italics">x</emphasis> es un valor de los datos y <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math> es la media muestral. La varianza de la muestra es igual a la suma de los cuadrados de las desviaciones dividida entre la diferencia del tamaño de la muestra y uno.</meaning>
+  </definition>
+
+</glossary>
+</document>

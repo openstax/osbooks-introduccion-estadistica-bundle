@@ -1,0 +1,120 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Distribución normal (longitud del meñique)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50264</md:content-id>
+  <md:title>Distribución normal (longitud del meñique)</md:title>
+  <md:abstract/>
+  <md:uuid>66e9cc03-22f5-414b-bdf7-9355abdb2e1c</md:uuid>
+</metadata>
+
+<content>
+  <note id="fs-id1164259932581" class="statistics lab"><label/><title>Distribución normal (longitud del meñique)</title>
+<para id="id10270690">Hora de la clase:</para>
+<para id="id9706632">Nombres:</para>
+<list id="id10998330" list-type="bulleted">
+<title>Resultados del aprendizaje de los estudiantes</title>
+<item>El estudiante comparará los datos empíricos y una distribución teórica para determinar si los datos del experimento siguen una distribución continua. </item>
+</list>
+
+<para id="element-967">
+<title>Recopilación de datos</title>
+Mida la longitud de su dedo meñique (en centímetros).</para>
+<list id="list-32487618725" list-type="enumerated">
+<item>Encueste aleatoriamente a 30 adultos para conocer la longitud de sus dedos meñiques. Redondee las longitudes a los 0,5 cm más cercanos.<newline/>
+<table id="element-2352564535s" summary="Blank table with 30 blank cells.">
+<tgroup cols="5">
+<tbody>
+<row>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+</row>
+<row>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+</row>
+<row>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+</row>
+<row>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+</row>
+<row>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+</row>
+<row>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+</row></tbody>
+</tgroup>
+</table>
+</item>
+<item> Construya un histograma. Haga de cinco a seis intervalos. Dibuje el gráfico con una regla y un lápiz. Escale los ejes.
+<figure id="eip-idp99193136"><media id="id5490004" alt="Gráfico en blanco con la frecuencia en el eje vertical y la longitud del dedo en el eje horizontal."><image src="../../media/fig-ch06_11_01N.png" mime-type="image/png" width="380"/></media>
+</figure></item>
+<item>Calcule lo siguiente. <list id="list-98752438" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+ 
+</m:math> = _______</item>
+<item><emphasis effect="italics">s</emphasis> = _______</item>
+</list>
+</item>
+<item>Dibuje una curva suave a través de la parte superior de las barras superiores del histograma. Escriba una o dos oraciones completas para describir la forma general de la curva. (No se complique. ¿El gráfico va en línea recta, tiene forma de V, tiene una joroba en el centro o en los extremos, etc.?)</item>
+</list>
+
+<para id="element-492"><title>Analice la distribución</title>
+Utilizando la media de la muestra, la desviación típica de la muestra y el histograma, ¿cuál fue la distribución teórica aproximada de los datos que recogió?</para>
+<list id="list-2342345" list-type="bulleted">
+<item><emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>¿Cómo el histograma lo ayuda a llegar a la distribución aproximada?</item> 
+</list>
+
+<para id="element-298">
+<title id="DescData2">Describa los datos</title>
+Con los datos que ha recogido, complete las siguientes afirmaciones. (Sugerencia: ordene los datos)</para>
+
+<note id="id5390377" type="Remember"><label/><title>Recuerde</title>
+<para id="eip-idp29979984">(<emphasis effect="italics">IQR</emphasis> = <emphasis effect="italics">Q</emphasis><sub>3</sub> – <emphasis effect="italics">Q</emphasis><sub>1</sub>)</para></note><list id="list-98723985" list-type="bulleted"><item><emphasis effect="italics">IQR</emphasis> = _______</item>
+<item>El percentil 15<sup/> es _______.</item>
+<item>El percentil 85<sup/> es _______.</item>
+<item>La mediana es _______.</item>
+<item>¿Cuál es la probabilidad teórica de que la longitud de un meñique elegido al azar sea superior a 6,5 cm? </item>
+<item>Explique el significado del percentil 85<sup/> de estos datos.</item>
+</list><para id="element-935">
+<title id="TheoDist2">Distribución teórica</title>
+Complete las siguientes afirmaciones con la distribución teórica. Utilice una aproximación normal basada en la media y la desviación típica de la muestra.</para>
+
+<list id="list-98436723985" list-type="bulleted"><item><emphasis effect="italics">IQR</emphasis> = _______</item>
+<item>El percentil 15<sup/> es _______.</item>
+<item>El percentil 85<sup/> es _______.</item>
+<item>La mediana es _______.</item>
+<item>¿Cuál es la probabilidad teórica de que la longitud de un meñique elegido al azar sea superior a 6,5 cm? </item>
+<item>Explique el significado del percentil 85<sup/> de estos datos.</item>
+</list><para id="eip-idp56724736"><title>Preguntas para el debate</title>¿Los datos que ha recogido ofrecen una aproximación a la distribución teórica? En oraciones completas y comparando los resultados en las secciones tituladas <link target-id="DescData2" document="">Describa los datos</link> y <link target-id="TheoDist2" document="">Distribución teórica</link>, explique por qué o por qué no.
+</para></note> </content>
+
+</document>

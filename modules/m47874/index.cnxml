@@ -1,0 +1,266 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="appendix">
+
+<title>Proyectos de grupos y asociaciones</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47874</md:content-id>
+  <md:title>Proyectos de grupos y asociaciones</md:title>
+  <md:abstract/>
+  <md:uuid>4f3fe707-585e-4f3e-aba1-646baed90678</md:uuid>
+</metadata>
+
+<content class="appendix">
+<section id="fs-id1168805567129">
+    <title>Datos univariantes</title><section id="element-141"><title>Objetivos de aprendizaje de los estudiantes</title>
+<list id="element-815" list-type="bulleted">
+<item>El estudiante diseñará y realizará una encuesta.</item>
+<item>El estudiante analizará y representará gráficamente los resultados de la encuesta.</item></list>
+
+</section>
+
+<section id="element-782"><title>Instrucciones</title><para id="eip-434">A medida que vaya terminando cada una de las tareas que aparecen a continuación, márquelas. Responda a todas las preguntas de su resumen. <newline/>____ Decida qué datos va a considerar.
+<note id="eip-idm151881920">
+<para id="eip-idm149175552">Aquí hay dos ejemplos, pero <emphasis>NO</emphasis> puede usarlos: número de M&amp;M's por bolsa, número de lápices que los estudiantes tienen en sus mochilas.</para></note><newline/>____ ¿Sus datos son discretos o continuos? ¿Cómo lo sabe? <newline/>____ Decida cómo va a recoger los datos (por ejemplo, compre 30 bolsas de M&amp;M's; recoja datos de la Internet). <newline/>____ Describa su técnica de muestreo en detalle. Utilice muestreos por conglomerados, estratificado, sistemático o aleatorio simple (mediante un generador de números aleatorio). No use el muestreo de conveniencia. ¿Qué método utilizó? ¿Por qué eligió ese método? <newline/>____ Realice su encuesta. <emphasis>El tamaño de sus datos debe ser de al menos 30.</emphasis> <newline/>____ Resuma sus datos en un gráfico con columnas que muestren el <emphasis>valor de los datos, la frecuencia, la frecuencia relativa y la frecuencia relativa acumulada.</emphasis> <newline/>Conteste lo siguiente (redondeado a dos decimales) <list id="eip-idm192589760" list-type="enumerated" number-style="lower-alpha">
+<item>Los términos <m:math>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math> = _____</item>
+<item><emphasis effect="italics">s</emphasis> = _____</item>
+<item>Primer cuartil = _____</item>
+<item>Mediana = _____</item>
+<item>Percentil<sup/> 70 = _____</item>
+</list> ____ ¿Qué valor está dos desviaciones típicas por encima de la media?</para><para id="eip-778">____ ¿Qué valor está 1,5 desviaciones típicas por debajo de la media? <newline/>____ Realice un histograma que muestre sus datos. <newline/>____ En frases completas, describa la forma de su gráfico. <newline/>____ ¿Nota algún valor atípico potencial? Si es así, ¿qué valores son? Muestre su trabajo sobre cómo utilizó la fórmula de valores atípicos potenciales para determinar si los valores podrían ser atípicos o no. <newline/>____ Realice un diagrama de caja y bigotes que muestre sus datos. <newline/>____ ¿El 50 % medio de los datos parece estar concentrado o disperso? Explique cómo lo determinó. <newline/>____ Observe tanto el histograma como el diagrama de caja y bigotes y discuta la distribución de sus datos.</para></section><section id="element-175"><title>Lista de comprobación de asignaciones</title>
+<para id="element-810">Entregue el siguiente paquete mecanografiado y engrapado, con las páginas en el siguiente orden:</para>
+<list id="element-276" list-type="labeled-item" mark-suffix="">
+<item><label>____</label><emphasis>Portada</emphasis>: nombre, hora de la clase y nombre de su estudio</item>
+<item><label>____</label><emphasis>Página de resumen</emphasis>: Debe contener párrafos escritos con frases completas. Debe incluir las respuestas a todas las preguntas anteriores. También debe incluir afirmaciones que describan la población estudiada, la muestra, el parámetro o los parámetros estudiados y la estadística o las estadísticas producidas.</item>
+<item><label>____</label><emphasis>URL</emphasis> de los datos, si sus datos proceden de la Internet</item>
+<item><label>____</label><emphasis>Cuadro de datos, frecuencia, frecuencia relativa y frecuencia relativa acumulada</emphasis></item>
+<item><label>____</label><emphasis>Página(s) de gráficos:</emphasis> histograma y diagrama de caja y bigotes</item>
+</list>   
+</section></section><section id="eip-143"><title>Distribuciones continuas y teorema del límite central </title><section id="element-958">
+<title>Objetivos de aprendizaje de los estudiantes</title>
+<list id="element-721" list-type="bulleted">
+<item>El estudiante recogerá una muestra de datos continuos.</item>
+<item>El estudiante intentará ajustar la muestra de datos a varios modelos de distribución.</item>
+<item>El estudiante validará el teorema del límite central.</item>
+</list></section>
+
+<section id="element-463"><title>Instrucciones</title>
+<para id="element-419">A medida que vaya terminando cada una de las tareas que aparecen a continuación, márquelas. Responda a todas las preguntas en su resumen.</para></section>
+
+<section id="element-727"><title>Parte I: Muestreo</title><para id="eip-705">____ Decida qué datos <emphasis>continuos</emphasis> va a estudiar. (He aquí dos ejemplos, pero NO puede utilizarlos: la cantidad de dinero que un estudiante ha gastado en material universitario este trimestre, o la duración de una llamada telefónica a distancia). <newline/>____ Describa detalladamente su técnica de muestreo. Utilice muestreos por conglomerados, estratificado, sistemático o aleatorio simple (mediante un generador de números aleatorio). No use el muestreo de conveniencia. ¿Qué método utilizó? ¿Por qué eligió ese método? <newline/>____ Realice su encuesta. Reúna <emphasis>al menos 150 datos continuos y cuantitativos</emphasis>. <newline/>____ Defina (en palabras) la variable aleatoria de sus datos. <emphasis effect="italics">X</emphasis> = _______ <newline/>____ Cree dos listas con sus datos: (1) datos no ordenados, (2) en orden de menor a mayor. <newline/>____ Halle la media muestral y la desviación típica de la muestra (redondeada a dos decimales). <list id="list-168" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math> = ______</item>
+<item><emphasis effect="italics">s</emphasis> = ______</item>
+</list> ____ Construya un histograma de sus datos que contenga de cinco a diez intervalos de igual anchura. El histograma debe ser una muestra representativa de sus datos. Identifíquelo y escálelo.</para></section><section id="element-747"><title>Parte II: Distribuciones posibles</title><para id="eip-156">____ Supongamos que <emphasis effect="italics">X</emphasis> sigue las siguientes distribuciones teóricas. Configure cada distribución utilizando la información apropiada de sus datos. <newline/>____ Uniforme: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> ____________ Utilice los valores más bajos y más altos como <emphasis effect="italics">a</emphasis> y <emphasis effect="italics">b</emphasis>. <newline/>____ Normal: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis> ____________ Use <m:math>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math> para estimar <emphasis effect="italics">μ</emphasis> y <emphasis effect="italics">s</emphasis> para estimar <emphasis effect="italics">σ</emphasis>. <newline/>____ <emphasis>¿Deben</emphasis> sus datos ajustarse a una de las distribuciones anteriores? Explique por qué o por qué no. <newline/>____ <emphasis>¿Podrían</emphasis> los datos ajustarse a dos o tres de las distribuciones anteriores (al mismo tiempo)? Explique. <newline/>____ Calcule el valor <emphasis effect="italics">k</emphasis>(un valor <emphasis effect="italics">X</emphasis> ) que está 1,75 desviaciones típicas por encima de la media muestral. <emphasis effect="italics">k</emphasis> = _________ (redondeado a dos decimales) Note que: <emphasis effect="italics">k</emphasis> = <m:math>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math> + (1,75<emphasis effect="italics">)s</emphasis> <newline/>____ Determine las frecuencias relativas<emphasis effect="italics">(RF</emphasis>) redondeadas a cuatro decimales. 
+</para><note id="eip-354"><label/><title>Nota</title>
+<para id="eip-idm12100736">Los términos <m:math>
+<m:mrow>
+<m:mi>R</m:mi><m:mi>F</m:mi><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mtext>frecuencia</m:mtext>
+</m:mrow>
+<m:mrow>
+<m:mtext>número total de encuestados</m:mtext>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math></para></note><list id="eip-965" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">RF</emphasis><emphasis effect="italics">(X</emphasis> &lt; <emphasis effect="italics">k</emphasis>) = ______</item>
+<item><emphasis effect="italics">RF</emphasis><emphasis effect="italics">(X</emphasis> > <emphasis effect="italics">k</emphasis>) = ______</item>
+<item><emphasis effect="italics">RF</emphasis><emphasis effect="italics">(X</emphasis> = <emphasis effect="italics">k</emphasis>) = ______</item></list><note id="id16765214"><label/><title>Nota</title>
+<para id="fs-idp165084800">Debe tener una página para la distribución uniforme, una para la distribución exponencial y otra para la distribución normal.</para></note>
+<para id="eip-917">____ Indique la distribución: <emphasis effect="italics">X</emphasis> ~ _________ <newline/>____ Dibuje un gráfico para cada una de las tres distribuciones teóricas. Rotule los ejes y márquelos adecuadamente. <newline/>____ Halle las siguientes probabilidades teóricas (redondeadas a cuatro decimales). <list id="eip-idm28652656" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">k</emphasis>) = ______</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">k</emphasis>) = ______</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = <emphasis effect="italics">k</emphasis>) = ______</item>
+</list> ____ Compare las frecuencias relativas con las probabilidades correspondientes. ¿Los valores son cercanos? <newline/>____ ¿Parece que los datos se ajustan bien a la distribución? Justifique tu respuesta comparando las probabilidades con las frecuencias relativas y los histogramas con los gráficos teóricos.</para></section><section id="element-442"><title>Parte III: Experimentos del teorema límite central (central limit theorem, CLT)</title><para id="eip-159">______ A partir de sus datos originales (antes de ordenarlos), utilice un generador de números aleatorios para elegir 40 muestras de tamaño cinco. En cada muestra, calcule el promedio. <newline/>______ En una página separada, adjunta al resumen, incluya las 40 muestras de tamaño cinco, junto con los 40 promedios de las muestras. <newline/>______ Enumere los 40 promedios en orden de menor a mayor. <newline/>______ Defina la variable aleatoria, <m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math>, en palabras. <m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math> = _______________ <newline/>______ Indique la distribución teórica aproximada de <m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math>. <m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math> ~ ______________ <newline/>______ Base esto en la media y la desviación típica de sus datos originales. <newline/>______ Construya un histograma que muestre sus datos. Utilice de cinco a seis intervalos de igual anchura. Identifíquelo y escálelo. <newline/>Calcule el valor <m:math>
+<m:mover accent="true">
+<m:mi>k</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math> (un valor <m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math>) que está 1,75 desviaciones típicas por encima de la media muestral. <m:math>
+<m:mover accent="true">
+<m:mi>k</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math> = _____ (redondeado a dos decimales) <newline/>Determine las frecuencias relativas (<emphasis effect="italics">RF</emphasis>) redondeadas a cuatro decimales. <list id="eip-idp20014992" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">RF</emphasis>(<m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math> &lt; <m:math>
+<m:mover accent="true">
+<m:mi>k</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math>) = _______</item>
+<item><emphasis effect="italics">RF</emphasis>(<m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math> > <m:math>
+<m:mover accent="true">
+<m:mi>k</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math>) = _______</item>
+<item><emphasis effect="italics">RF</emphasis>(<m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math> = <m:math>
+<m:mover accent="true">
+<m:mi>k</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math>) = _______</item></list> Halle las siguientes probabilidades teóricas (redondeadas a cuatro decimales). <list id="list-12-2" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math> &lt; <m:math>
+<m:mover accent="true">
+<m:mi>k</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math>) = _______</item>
+<item><emphasis effect="italics">P</emphasis>(<m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math> > <m:math>
+<m:mover accent="true">
+<m:mi>k</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math>) = _______</item>
+<item><emphasis effect="italics">P</emphasis>(<m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math> = <m:math>
+<m:mover accent="true">
+<m:mi>k</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math>) = _______</item>
+</list> ______ Dibuje el gráfico de la distribución teórica de <m:math><m:mi>X</m:mi></m:math>. <newline/>______ Compare las frecuencias relativas con las probabilidades. ¿Los valores son cercanos? <newline/>______ ¿Parece que los datos de las medias se ajustan bien a la distribución de <m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math>? Justifique su respuesta comparando las probabilidades con las frecuencias relativas y el histograma con el gráfico teórico. <newline/>Responda a las siguientes preguntas en tres o cinco frases completas para cada una. Dé explicaciones detalladas. <newline/>______ En resumen, ¿los datos originales parecen ajustarse a las distribuciones uniforme, exponencial o normal? Responda por qué o por qué no para cada distribución. Si los datos no se ajustan a ninguna de esas distribuciones, explique por qué. <newline/>______ ¿Qué ocurrió con la forma y la distribución cuando promedió sus datos? <emphasis>En teoría</emphasis>, ¿qué pudo haber pasado? En teoría, ¿siempre ocurriría "eso"? ¿Por qué o por qué no? <newline/>______ ¿Las frecuencias relativas comparadas con las probabilidades teóricas eran más cercanas al comparar las distribuciones <m:math><m:mi>X</m:mi></m:math> o <m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math>? Explique su respuesta.</para></section><section id="element-413">
+<title>Lista de comprobación de asignaciones</title>
+<para id="element-394">Debe entregar el siguiente paquete mecanografiado y engrapado, con las páginas en el siguiente orden: <newline/>____ <emphasis>Portada</emphasis>: nombre, hora de clase y nombre de su estudio. <newline/>____ <emphasis>Páginas de resumen</emphasis>: Las páginas contener varios párrafos escritos con frases completas que describan el experimento, incluyendo lo que estudió y su técnica de muestreo, así como las respuestas a todas las preguntas formuladas anteriormente. <newline/>____ <emphasis>URL</emphasis> de los datos, si sus datos provienen de la Internet. <newline/>____ <emphasis>Páginas, una por cada distribución teórica</emphasis>, con la distribución indicada, el gráfico y las preguntas de probabilidad respondidas. <newline/>____ <emphasis>Páginas de los datos solicitados.</emphasis> <newline/>____ <emphasis>Todos los gráficos requeridos</emphasis></para></section></section><section id="eip-496"><title>Artículo sobre la prueba de hipótesis</title><section id="element-517">
+<title>Objetivos de aprendizaje de los estudiantes</title>
+<list id="element-599" list-type="bulleted">
+<item>El estudiante identificará un problema de comprobación de hipótesis en versión impresa.</item>
+<item>El estudiante realizará una encuesta para verificar o rebatir los resultados de la prueba de hipótesis.</item>
+<item>El estudiante resumirá el artículo, el análisis y las conclusiones en un informe.</item></list></section>
+
+<section id="element-708"><title>Instrucciones</title>
+<para id="element-262">Marque cada tarea a medida que la complete. Conteste a todas las preguntas de su resumen. <newline/>____Busque<emphasis>un artículo</emphasis> de periódico, de una revista o en la Internet que haga una afirmación sobre <emphasis>UNA</emphasis> media poblacional o <emphasis>UNA</emphasis> proporción de la población. La rafirmación puede basarse en una encuesta sobre la que el artículo informaba. Decida si esta afirmación es la hipótesis nula o la alternativa. <newline/>____<emphasis>Copie o imprima el artículo</emphasis> e incluya una copia en su proyecto, junto con la fuente. <newline/>____<emphasis>Indique cómo recogerá sus datos.</emphasis> (El muestreo de conveniencia no es aceptable.) <newline/>____<emphasis>Realice su encuesta. Debe tener más de 50 respuestas en su muestra.</emphasis> Cuando entregue su proyecto final, adjunte la hoja de registro o el paquete de cuestionarios que utilizó para recoger los datos. Sus datos deben ser reales. <newline/>____<emphasis>Indique los estadísticos</emphasis> resultado de su recopilación de datos: tamaño de la muestra, media muestral y desviación típica, O tamaño de la muestra y número de éxitos. <newline/>____<emphasis>Haga dos copias de la hoja de soluciones correspondiente.</emphasis> <newline/>____<emphasis>Registre la prueba de hipótesis</emphasis> en la hoja de soluciones, con base en su experimento. Haga primero <emphasis>un BORRADOR de la solución</emphasis> en una de las hojas de solución y revísela cuidadosamente. Pídale a un compañero que verifique su solución. Tome su decisión utilizando un nivel de significación del 5 %. Incluya el intervalo de confianza del 95 % en la hoja de soluciones. <newline/>____<emphasis>Realice un gráfico que ilustre sus datos.</emphasis> Puede ser un gráfico circular o de barras, o bien un histograma o un diagrama de caja, según la naturaleza de los datos. Elabore un gráfico que tenga sentido para sus datos y ofrezca información visual útil sobre ellos. Es posible que tenga que ver varios tipos de gráficos antes de decidir cuál es el más apropiado para el tipo de datos de su proyecto. <newline/>____<emphasis>Escriba su resumen</emphasis> (en oraciones y párrafos completos, con gramática adecuada y ortografía correcta) que describa el proyecto. El resumen <emphasis>DEBE</emphasis> incluir: <list id="eip-idm60281968" list-type="enumerated" number-style="lower-alpha">
+<item>Breve análisis del artículo, incluyendo la fuente.</item>
+<item>Enunciado de la afirmación hecha en el artículo (una de las hipótesis).</item>
+<item>Descripción detallada de cómo, dónde y cuándo se recogieron los datos, incluida la técnica de muestreo; ¿se utilizó un muestreo por grupos, estratificado, sistemático o aleatorio simple (utilizando un generador de números aleatorios)? Como se mencionó anteriormente, no se acepta el muestreo de conveniencia.</item>
+<item>Conclusión sobre la afirmación del artículo a la luz de su prueba de hipótesis expuesta en palabras, en el contexto de la situación de su proyecto en forma de oraciones, como si estuviera escribiendo esta conclusión para un no estadístico.</item>
+<item>Oración que interprete su intervalo de confianza en el contexto de la situación de su proyecto.</item>
+</list></para></section>
+
+<section id="element-253">
+<title>Lista de comprobación de asignaciones</title>
+<para id="element-22">Entregue el siguiente paquete mecanografiado (12 puntos) y engrapado para su proyecto final: <newline/>____<emphasis>Portada</emphasis> que contenga su(s) nombre(s), la hora de la clase y el nombre de su estudio <newline/>____<emphasis>Resumen</emphasis>, que incluya todos los elementos enumerados en la lista de verificación del resumen <newline/>____<emphasis>Hoja de solución</emphasis> organizada y completa. La hoja de soluciones no necesita ser mecanografiada. <newline/>____<emphasis>Representación gráfica de sus datos</emphasis>, elaborada siguiendo las directrices ya expuestas; incluya sólo los gráficos que correspondan y sean útiles. <newline/>____<emphasis>Datos brutos recogidos Y una tabla que resuma los datos de la muestra</emphasis> (<emphasis effect="italics">n</emphasis>, <m:math>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math> y <emphasis effect="italics">s</emphasis>; o <emphasis effect="italics">x</emphasis>, <emphasis effect="italics">n</emphasis>, y <emphasis effect="italics">p</emphasis>’, según convenga para sus hipótesis); no es necesario que los datos brutos estén mecanografiados, pero sí el resumen. Entregue los datos tal y como los recogió. (Adjunte su hoja de recuento o un sobre con sus cuestionarios)</para></section></section><section id="eip-625"><title>Datos bivariantes, regresión lineal y datos univariantes</title><section id="element-564"><title>Objetivos de aprendizaje de los estudiantes</title><list id="list-564" list-type="bulleted"><item>Los estudiantes recogerán una muestra de datos bivariantes mediante el uso de técnicas de muestreo adecuadas.</item>
+<item>El estudiante intentará ajustar los datos a un modelo lineal.</item>
+<item>El estudiante determinará la idoneidad del ajuste lineal del modelo.</item>
+<item>El estudiante analizará y graficará datos univariantes.</item>
+</list></section><section id="element-765"><title>Instrucciones</title><list id="list-765" list-type="enumerated" number-style="arabic"><item>A medida que vaya terminando cada una de las tareas que aparecen a continuación, márquelas. Responda a todas las preguntas en su introducción o resumen. </item>
+<item>Consulte el calendario del curso para conocer las fechas de entrega intermedias y finales.</item>
+<item>Los gráficos pueden elaborarse a mano o por computadora, a menos que su instructor le indique lo contrario. Todos los gráficos deben estar ordenados y ser precisos.</item>
+<item>Todas las demás respuestas deben elaborarse en la computadora.  </item>
+<item>La claridad y calidad de las explicaciones se utilizan para determinar la nota final.</item>
+</list></section><section id="element-108"><title>Parte I: Datos bivariantes</title><para id="eip-idm74600944"><title>Introducción</title>____Indique los datos bivariantes que su grupo estudiará. 
+<note id="eip-idp126031264" type="Examples"><para id="eip-idp41011600">Estos son dos ejemplos, pero <emphasis>NO</emphasis> puede utilizarlos: altura frente a peso y edad frente a distancia de carrera.</para></note><newline/>____Describa detalladamente su técnica de muestreo. Utilice un muestreo por grupos, estratificado, sistemático o aleatorio simple (utilizando un generador de números aleatorios). El muestreo de conveniencia <emphasis>NO</emphasis> es aceptable. <newline/>____Realice su encuesta. El número de pares debe ser al menos 30. <newline/>____Imprima una copia de sus datos.
+</para><para id="eip-idp338032">
+<title>Análisis</title>
+____ En una hoja aparte, elabore un gráfico de dispersión de los datos. Rotule y escale ambos ejes. <newline/>____Establezca la línea de mínimos cuadrados y el coeficiente de correlación. <newline/>____En su diagrama de dispersión, con un color diferente, construya la línea de mínimos cuadrados. <newline/>____¿Es significativo el coeficiente de correlación? Explique y muestre cómo lo determinó. <newline/>____Interprete la pendiente de la recta de regresión lineal en el contexto de los datos de su proyecto. Relacione la explicación con sus datos y cuantifique lo que le dice la pendiente. <newline/>____¿La línea de regresión parece ajustarse a los datos? ¿Por qué o por qué no? Si los datos no parecen ser lineales, explique si algún otro modelo parece ajustarse mejor a los datos. <newline/>____¿Hay algún valor atípico? Si es así, ¿cuáles son? Muestre cómo utilizó la fórmula de valores atípicos potenciales en el capítulo de Regresión y correlación lineal (ya que tiene datos bivariantes) para determinar si algún par podría ser atípico o no.
+</para></section><section id="element-645"><title>Parte II: Datos univariantes</title>
+<para id="element-325">En esta sección, solo utilizará los datos de <emphasis>UNA</emphasis> variable. Elija la variable más interesante de analizar. Por ejemplo: si su variable independiente son datos secuenciales como años, presentando 30 años y un dato por año, sus valores <emphasis effect="italics">x</emphasis>podrían ser 1971, 1972, 1973, 1974, ..., 2000. No sería interesante analizar esto. En ese caso, opte por utilizar la variable dependiente para analizar esta parte del proyecto. <newline/>_____Resuma sus datos en un gráfico con columnas que muestren el valor de los datos, la frecuencia, la frecuencia relativa y la frecuencia relativa acumulada. <newline/>_____Responda a la siguiente pregunta, redondeada a dos decimales: <list id="eip-idp79349232" list-type="enumerated" number-style="lower-alpha">
+<item>Media muestral = ______</item>
+<item>Desviación típica de la muestra = ______</item>
+<item>Primer cuartil = ______</item>
+<item>Tercer cuartil = ______</item>
+<item>Mediana = ______</item>
+<item>Percentil 70 = ______</item>
+<item>Valor que está 2 desviaciones típicas por encima de la media = ______</item>
+<item>Valor que está 1,5 desviaciones típicas por debajo de la media = ______</item>
+</list> _____Elabore un histograma que muestre sus datos. Agrupe los datos en seis o diez intervalos de igual anchura. Elija intervalos regularmente espaciados que tengan sentido en relación con sus datos. Por ejemplo, NO agrupe los datos por edad como 20-26,27-33,34-40,41-47,48-54,55-61 . . . En su lugar, puede utilizar los grupos de edad 19,5-24,5, 24,5-29,5, . . . o 19,5-29,5, 29,5-39,5, 39,5-49,5, . . . <newline/>_____Describa en frases completas la forma de su histograma. <newline/>_____¿Hay algún valor atípico potencial? ¿Qué valores son? Muestre su trabajo y sus cálculos sobre cómo utilizó la fórmula de valores atípicos potenciales en <link document="m46925">Estadística descriptiva</link> (ya que ahora está utilizando datos univariantes) para determinar qué valores podrían ser atípicos. <newline/>_____Elabore un diagrama de caja y bigotes de sus datos. <newline/>_____¿El 50 % central de sus datos parece estar concentrado o disperso? Explique cómo lo determinó. <newline/>_____ Observe tanto el histograma como el diagrama de caja y bigotes, y analice la distribución de sus datos. Por ejemplo: ¿cómo se compara la dispersión del 50 % central de los datos con la dispersión del resto de los datos representados en el diagrama de caja y bigotes?, ¿cómo se corresponde eso con su descripción de la forma del histograma?, ¿cómo muestra la representación gráfica los valores atípicos que pudo haber encontrado?, ¿el histograma muestra espacios en los datos que no son visibles en el diagrama de caja y bigotes? ¿hay alguna característica interesante de sus datos que deba señalar?</para></section>
+
+<section id="element-460"><title>Fechas de entrega</title>
+<para id="eip-750"><list id="eip-idm37795808" list-type="bulleted"><item>Parte I, Introducción: __________ (guarde una copia para sus archivos).</item>
+<item>Parte I, Análisis: __________ (guarde una copia para sus archivos).</item>
+<item><para id="eip-idp72137232">Proyecto completo, mecanografiado y engrapado: __________</para>
+<para id="eip-idp63390944">____ Portada: nombres, hora de la clase y nombre de su estudio</para>
+<para id="eip-idp75829792">____ Parte I: rotule las secciones "Introducción" y "Análisis".</para>
+<para id="eip-idp27788944">____ Parte II:</para>
+<para id="eip-idm94529296">____ Página de resumen que contiene varios párrafos escritos con frases completas que describan el experimento, incluyendo lo que estudió y cómo recogió sus datos. La página de resumen también debe incluir las respuestas a TODAS las preguntas formuladas anteriormente.</para>
+<para id="eip-idp59858688">____ Todos los gráficos solicitados en el proyecto.</para>
+<para id="eip-idm78775584">____ Todos los cálculos solicitados para apoyar las preguntas en los datos-</para>
+<para id="eip-idp46295168">____ Descripción: ¿qué aprendió al realizar este proyecto?, ¿qué retos se le presentaron?, ¿cómo los superó?</para></item>
+</list></para><note id="id41138276"><label/><title>Nota</title>
+<para id="eip-idp153219504">Incluya las respuestas a TODAS las preguntas formuladas, aunque no se repitan explícitamente en los puntos anteriores.</para></note></section></section>
+   </content>
+</document>

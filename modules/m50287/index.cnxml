@@ -1,0 +1,151 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Regresión (eficiencia del combustible)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50287</md:content-id>
+  <md:title>Regresión (eficiencia del combustible)</md:title>
+  <md:abstract/>
+  <md:uuid>11d2c29c-8809-4cd3-af13-ee7f1dc9e46b</md:uuid>
+</metadata>
+
+<content>
+  <note id="fs-id1170235891735" class="statistics lab"><label/><title>Regresión (eficiencia del combustible)</title>
+
+    <para id="id7738260">Hora de la clase: </para>
+    <para id="id7843117">Nombres:</para>
+    
+      <list id="id7650443" list-type="bulleted">
+        <title>Resultados del aprendizaje de los estudiantes</title>
+        <item>El estudiante calculará y proyectará la línea que mejor se ajuste entre las dos variables.</item>
+        <item>El estudiante evaluará la relación entre las dos variables para determinar si dicha relación es significativa. </item>
+      </list>
+    
+<para id="fs-idp36246160"><title>Recopilación de datos</title>Busque una fuente de confianza que proporcione información sobre la eficiencia total del combustible (en millas por galón) y el peso (en libras) de los nuevos modelos de automóviles con transmisión automática. Utilizaremos estos datos para determinar la relación, si es que la hay, entre la eficiencia del combustible de un automóvil y su peso.
+</para><list id="fs-idp98195168" list-type="enumerated">
+<item>Con su generador de números aleatorios, seleccione al azar 20 automóviles de la lista y anote su peso y eficiencia de combustible en la <link target-id="id7895697570" document=""/>.
+
+<table id="id7895697570" summary="Blank table with weight in the first column and fuel efficiency in the second column. 40 empty cells.">
+
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry>Peso</entry>
+<entry>Eficiencia de combustible</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+</tbody>
+</tgroup>
+</table>
+</item>
+	<item>¿Cuál variable debe ser la dependiente y cuál la independiente? ¿Por qué?</item>
+	<item>Haga a mano un diagrama de dispersión del "peso" frente a la "eficiencia de combustible". Trace los puntos en papel cuadriculado. Identifique ambos ejes con palabras. Lleve a escala ambos ejes con precisión.
+
+<figure id="id21784687"><media id="id21784693" alt="Gráfico en blanco con ejes vertical y horizontal."><image src="../../media/fig-ch12_16_01.png" mime-type="image/pngg" width="380"/></media>
+</figure></item>
+</list>
+
+<para id="fs-idm70550048">
+<title>Analice los datos</title>
+Introduzca los datos en su calculadora o en su computadora. Escriba la ecuación lineal, redondeando a 4 decimales.</para>
+
+<list id="fs-idp56557248" list-type="enumerated">
+<item> Calcule lo siguiente: <list id="fs-idp7856912" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">a</emphasis> = ______</item>
+<item><emphasis effect="italics">b</emphasis> = ______</item>
+<item>correlación = ______</item>
+<item><emphasis effect="italics">n</emphasis> = ______</item>
+<item>ecuación: <emphasis effect="italics">ŷ</emphasis> = ______</item>
+</list>
+</item>
+<item>Obtenga el gráfico de la línea de regresión en su calculadora. Dibuje la línea de regresión en los mismos ejes que el diagrama de dispersión.</item>
+</list><list id="fs-idp91842272" mark-suffix="." list-type="enumerated"><title>Preguntas para el debate</title><item> ¿La correlación es significativa? Explique en frases completas cómo lo ha determinado.</item>
+<item>¿La relación es positiva o negativa? Explique cómo puede saberlo y qué significa esto en términos de peso y eficiencia de combustible.</item>
+<item>En una o dos frases completas, ¿cuál es la interpretación práctica de la pendiente de la línea de mínimos cuadrados en términos de eficiencia de combustible y peso?</item>
+<item>Para un automóvil que pesa 4.000 libras, prediga su eficiencia de combustible. Incluya las unidades.</item>
+<item>¿Podemos predecir la eficiencia de combustible de un automóvil que pesa 10.000 libras utilizando la línea de mínimos cuadrados? Explique por qué sí o por qué no.</item>
+<item>Responda cada pregunta con frases completas. <list id="list-9769782345" list-type="enumerated" number-style="lower-alpha">
+<item>¿Parece que la línea se ajusta a los datos? ¿Por qué sí o por qué no?</item>
+<item>¿Qué implica esta correlación sobre la relación entre la eficiencia de combustible y el peso de un automóvil? ¿Es esto lo que esperaba?</item></list></item>
+<item> ¿Hay valores atípicos? Si es así, ¿cuál punto es un valor atípico?</item>
+</list></note> </content>
+
+</document>

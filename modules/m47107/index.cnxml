@@ -1,0 +1,1783 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Valores atípicos</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47107</md:content-id>
+  <md:title>Valores atípicos</md:title>
+  <md:abstract/>
+  <md:uuid>d1c162aa-f63f-4466-9efd-27b902bf22d0</md:uuid>
+</metadata>
+
+<content>
+    <para id="element-3819">En algunos conjuntos de datos, hay valores <emphasis>(puntos de datos observados)</emphasis>, llamados <term id="term-00001">valores atípicos</term>. <emphasis>Los valores atípicos son puntos de datos observados que se alejan de la línea de mínimos cuadrados.</emphasis> Tienen grandes "errores", donde el "error" o residual es la distancia vertical de la línea al punto. </para>
+<para id="eip-502">Los valores atípicos deben examinarse de cerca. A veces, por una u otra razón, no deben incluirse en el análisis de los datos. Es posible que un valor atípico sea el resultado de datos erróneos. Otras veces, un valor atípico puede contener información valiosa sobre la población estudiada y debe seguir incluyéndose en los datos. La clave está en examinar cuidadosamente las causas de que un punto de datos sea un valor atípico.</para>
+<para id="eip-224">Además de los valores atípicos, una muestra puede contener uno o varios puntos que se denominan <term id="term-00002">puntos influyentes</term>. Se trata de puntos de datos observados que están alejados de los demás en la dirección horizontal. Estos puntos pueden tener un gran efecto en la pendiente de la línea de regresión. Para empezar a identificar un punto influyente, puede eliminarlo del conjunto de datos y ver si la pendiente de la línea de regresión cambia significativamente.</para>
+<para id="eip-755">Se pueden utilizar computadoras y muchas calculadoras para identificar los valores atípicos de los datos. Los resultados de computadoras del análisis de regresión identifican tanto los valores atípicos como los puntos influyentes para que pueda examinarlos.</para>
+
+
+<section id="fs-idm49430544">
+<title>Identificar los valores atípicos</title>
+<para id="eip-511">Podríamos adivinar los valores atípicos al observar un gráfico del diagrama de dispersión y la línea de mejor ajuste. Sin embargo, nos gustaría contar con alguna directriz sobre la distancia que debe tener un punto para considerarse un valor atípico. <emphasis> Como regla general, podemos señalar como valor atípico cualquier punto que esté situado más de dos desviaciones típicas por encima o por debajo de la línea de mejor ajuste.</emphasis> La desviación típica utilizada es la de los residuales o errores.</para>
+
+<para id="eip-526" class="finger">Podemos hacerlo visualmente en el diagrama de dispersión al dibujar un par de líneas adicionales que estén dos desviaciones típicas por encima y por debajo de la línea de mejor ajuste. Todos los puntos de datos que se encuentren fuera de este par de líneas adicionales se marcan como posibles valores atípicos. Alternativamente, podemos hacerlo numéricamente, al calcular cada residual y compararlo con el doble de la desviación típica. En la TI-83, 83+ u 84+, el enfoque gráfico es más fácil. En primer lugar se muestra el procedimiento gráfico, seguido de los cálculos numéricos. Por lo general, solo tendrá que utilizar uno de estos métodos.</para><example id="eip-837"><exercise id="element-12987">
+<problem id="id1170949520848">
+<para id="element-631">En el <link document="m47117" target-id="element-22">ejemplo del tercer examen o examen final</link>, se puede determinar si hay un valor atípico o no. Si hay un valor atípico, como ejercicio, elimínelo y ajuste los datos restantes a una nueva línea. En este ejemplo, la nueva línea debería ajustarse mejor a los datos restantes. Esto significa que el <emphasis>SSE</emphasis> debería ser menor y el coeficiente de correlación debería estar más cerca de 1 o –1.</para></problem>
+
+<solution id="id1170917505276">
+<para id="element-435" class="finger">
+<title>Identificación gráfica de los valores atípicos</title>Con las calculadoras gráficas TI-83, 83+, 84+ es fácil identificar los valores atípicos de forma gráfica y visual. Si midiéramos la distancia vertical de cualquier punto de datos al punto correspondiente de la línea de mejor ajuste y esa distancia fuera igual a 2<emphasis effect="italics">s</emphasis> o más, entonces consideraríamos que el punto de datos está "demasiado lejos" de la línea de mejor ajuste. Tenemos que encontrar y graficar las líneas que están dos desviaciones típicas por debajo y por encima de la línea de regresión. Los puntos que estén fuera de estas dos líneas son valores atípicos. Llamaremos a estas líneas Y2 y Y3:</para>
+
+<para id="element-20965">Al igual que hicimos con la ecuación de la línea de regresión y el coeficiente de correlación, utilizaremos la tecnología para calcular esta desviación típica. Utilizando la función <emphasis>LinRegTTest</emphasis> con estos datos, desplácese por las pantallas de salida hasta hallar <emphasis><emphasis effect="italics">s</emphasis> = 16,412</emphasis>.</para>
+
+<para id="element-208">Línea Y2 = -173,5 + 4,83<emphasis effect="italics">x</emphasis> -2(16,4) y línea Y3 = -173,5 + 4,83<emphasis effect="italics">x</emphasis> + 2(16,4)<newline/><newline/>donde <emphasis effect="italics">ŷ</emphasis> = -173,5 + 4,83<emphasis effect="italics">x</emphasis> es la línea de mejor ajuste. Y2 y Y3 tienen la misma pendiente que la línea de mejor ajuste.</para>
+
+<para id="element-129853">Grafique el diagrama de dispersión con la línea de mejor ajuste en la ecuación Y1, luego introduzca las dos líneas adicionales como Y2 y Y3 en el editor de ecuaciones "Y=" y pulse ZOOM 9. Encontrará que el único punto de datos que no está entre las líneas Y2 y Y3 es el punto <emphasis effect="italics">x</emphasis> = 65, <emphasis effect="italics">y</emphasis> = 175. En la pantalla de la calculadora está apenas fuera de estas líneas. El valor atípico es el estudiante que obtuvo una calificación de 65 en el tercer examen y 175 en el examen final; este punto está a más de dos desviaciones típicas lejos de la línea de mejor ajuste.</para>
+
+
+<para id="element-664">A veces, un punto está tan cerca de las líneas utilizadas para marcar los valores atípicos en el gráfico que es difícil saber si el punto está entre las líneas o fuera de ellas. En una computadora, ampliar el gráfico puede ayudar; en la pantalla de una calculadora pequeña, el zoom puede hacer que el gráfico sea más claro. Tenga en cuenta que, cuando el gráfico no ofrece una imagen suficientemente clara, puede utilizar las comparaciones numéricas para identificar los valores atípicos. </para>
+
+<figure id="eip-idp140675136"><media id="id1170917557779" alt="El diagrama de dispersión de las puntuaciones de los exámenes con una línea de mejor ajuste. Dos líneas discontinuas amarillas son paralelas a la línea de mejor ajuste. Las líneas discontinuas van por encima y por debajo de la línea de mejor ajuste a distancias iguales. Un punto de datos queda fuera del límite creado por las líneas discontinuas: es un valor atípico."><image src="../../media/fig-ch12_09_01.jpg" mime-type="image/jpeg" width="380"/></media></figure></solution>
+</exercise>
+</example><note id="fs-idp112103840" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+
+<exercise id="eip-365">
+<problem id="eip-801">
+  <para id="eip-145">Identifique el posible valor atípico en el diagrama de dispersión. La desviación típica de los residuales o errores es de aproximadamente 8,6.</para>
+<figure id="fs-idp117757200"><media id="eip-idp189014800" alt="" display="block">
+  <image mime-type="image/png" src="../../media/CNX_Stats_C012_M09_item001.png" width="380"/>
+</media>
+</figure></problem>
+</exercise>
+
+</note>
+</section>
+
+<section id="eip-212">
+<title>Identificación numérica de los valores atípicos</title>
+<para id="element-1763">En la <link target-id="element-4662" document=""/>, las dos primeras columnas son los datos del tercer examen y del examen final. La tercera columna muestra los valores <emphasis effect="italics">ŷ</emphasis> predichos, calculados a partir de la línea de mejor ajuste: <emphasis effect="italics">ŷ</emphasis> = -173,5 + 4,83<emphasis effect="italics">x</emphasis>. Los residuales, o errores, se han calculado en la cuarta columna de la tabla: valor <emphasis effect="italics">y</emphasis> observado - valor y predicho = <emphasis effect="italics">y</emphasis> - <emphasis effect="italics">ŷ</emphasis>.</para><para id="element-973"><emphasis effect="italics">s</emphasis> es la desviación típica de todos los valores <emphasis effect="italics">y</emphasis> - <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">ε</emphasis> donde <emphasis effect="italics">n</emphasis> = el número total de puntos de datos. Si se calcula cada residual, se eleva al cuadrado y se suman los resultados, se obtiene la suma de errores al cuadrado (Sum of Squared Errors, SSE). La desviación típica de los residuales se calcula a partir de la SSE como:</para>
+<para id="element-797">Los términos <m:math>
+ <m:mrow>
+  <m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mi>S</m:mi><m:mi>S</m:mi><m:mi>E</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:mi>n</m:mi><m:mo>–</m:mo><m:mn>2</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math></para>
+
+<note id="fs-idm68726848">
+<label/>
+<title>Nota</title>
+<para id="fs-idp95645280">Dividimos entre (<emphasis effect="italics">n</emphasis> - 2) porque el modelo de regresión implica dos estimaciones.</para></note>
+
+<para id="element-42" class="finger">En lugar de calcular el valor de <emphasis effect="italics">s</emphasis> nosotros mismos, podemos calcular <emphasis effect="italics">s</emphasis> con la computadora o la calculadora. Para este ejemplo, la función de la calculadora LinRegTTest calculó <emphasis effect="italics">s</emphasis> = 16,4 como la desviación típica de los residuales <list id="set-list2" list-type="labeled-item" display="inline"><item>35</item>
+<item>-17</item>
+<item>16</item>
+<item>-6</item>
+<item>-19</item>
+<item>9</item>
+<item>3</item>
+<item>-1</item>
+<item>-10</item>
+<item>-9</item>
+<item>-1</item>
+</list>.</para>
+
+<table id="element-4662" summary="The table contains 4 columns and 11 rows of calculation. The first two columns contain the x and y data values. The third column contains the values predicted by the regression line. The fourth column contains the errors or residuals, calculated as the observed y value minus the predicted value.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+ <colspec colnum="2" colname="c2"/>
+ <colspec colnum="3" colname="c3"/>
+ <colspec colnum="4" colname="c4"/>
+<thead>
+  <row>
+    <entry><emphasis effect="italics">x</emphasis></entry>
+    <entry><emphasis effect="italics">y</emphasis></entry>
+    <entry><emphasis effect="italics">ŷ</emphasis></entry>
+    <entry><emphasis effect="italics">y</emphasis> - <emphasis effect="italics">ŷ</emphasis></entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>65</entry>
+    <entry>175</entry>
+    <entry>140</entry>
+<entry>175 – 140 = 35</entry>
+  </row>
+  <row>
+    <entry>67</entry>
+    <entry>133</entry>
+    <entry>150</entry>
+    <entry>133 – 150= -17</entry>
+  </row>
+  <row>
+    <entry>71</entry>
+    <entry>185</entry>
+    <entry>169</entry>
+    <entry>185 – 169 = 16</entry>
+  </row>
+  <row>
+    <entry>71</entry>
+    <entry>163</entry>
+    <entry>169</entry>
+
+    <entry>163 – 169 = -6</entry>
+  </row>
+  <row>
+    <entry>66</entry>
+    <entry>126</entry>
+    <entry>145</entry>
+    <entry>126 – 145 = -19</entry>
+  </row>
+  <row>
+    <entry>75</entry>
+    <entry>198</entry>
+    <entry>189</entry>
+
+
+    <entry>198 – 189 = 9</entry>
+  </row>
+  <row>
+    <entry>67</entry>
+    <entry>153</entry>
+    <entry>150</entry>
+
+    <entry>153 – 150 = 3</entry>
+  </row>
+  <row>
+    <entry>70</entry>
+    <entry>163</entry>
+    <entry>164</entry>
+    <entry>163 – 164 = -1</entry>
+  </row>
+  <row>
+    <entry>71</entry>
+    <entry>159</entry>
+    <entry>169</entry>
+    <entry>159 – 169 = -10</entry>
+  </row>
+  <row>
+    <entry>69</entry>
+    <entry>151</entry>
+    <entry>160</entry>
+    <entry>151 – 160 = -9</entry>
+  </row>
+  <row>
+    <entry>69</entry>
+    <entry>159</entry>
+    <entry>160</entry>
+    <entry>159 – 160 = -1</entry>
+  </row>
+</tbody>
+
+
+
+
+
+</tgroup>
+</table><para id="element-508">Buscamos todos los puntos de datos cuyo residual sea mayor que 2<emphasis effect="italics">s</emphasis> = 2(16,4) = 32,8 o menor que –32.8. Compare estos valores con los residuales de la cuarta columna de la tabla. El único dato de este tipo es el del estudiante que tuvo una nota de 65 en el tercer examen y 175 en el examen final; el residual de este estudiante es 35.</para>
+</section>
+
+<section id="fs-idm166882672">
+<title>¿Cómo afecta el valor atípico la línea de mejor ajuste?</title>
+<para id="element-8021">Numérica y gráficamente, hemos identificado el punto (65, 175) como un valor atípico. Deberíamos repasar los datos de este punto para ver si hay algún problema con estos. Si hay un error, debemos corregirlo si es posible o eliminar los datos. Si son correctos, los dejaríamos en el conjunto de datos. Para este problema, supondremos que examinamos y descubrimos que estos datos atípicos son un error. Por lo tanto, seguiremos adelante y eliminaremos el valor atípico, para poder explorar cómo afecta los resultados, como experiencia de aprendizaje.</para>
+
+<para id="element-6691" class="finger"><title>Calcule una nueva línea de mejor ajuste y el coeficiente de correlación con los diez puntos restantes:</title>
+Con las funciones TI-83, TI-83+, TI-84+ de la calculadora, elimine el valor atípico de L1 y L2. Con la función LinRegTTest, la nueva línea de mejor ajuste y el coeficiente de correlación son:</para>
+<para id="element-669"><emphasis effect="italics">ŷ</emphasis> = –355,19 + 7,39<emphasis effect="italics">x</emphasis> y <emphasis effect="italics">r</emphasis> = 0,9121</para><para id="element-101">La nueva línea con <emphasis effect="italics">r</emphasis> = 0,9121 es una correlación más fuerte que la original (<emphasis effect="italics">r</emphasis> = 0,6631) porque <emphasis effect="italics">r</emphasis> = 0,9121 está más cerca de uno. Esto significa que la nueva línea se ajusta mejor a los diez valores de datos restantes. La línea puede predecir mejor la puntuación del examen final, dada la puntuación del tercer examen.</para>
+</section>
+
+
+<section id="fs-idm24143888">
+<title>Identificación numérica de valores atípicos: Calcular <emphasis effect="italics">s</emphasis> y buscar valores atípicos manualmente</title>
+<para id="eip-819">Si no tiene la función LinRegTTest, puede calcular el valor atípico del primer ejemplo; haga lo siguiente. <newline/><newline/> Primero, <emphasis>eleve al cuadrado cada |<emphasis effect="italics">y</emphasis> - <emphasis effect="italics">ŷ</emphasis>|</emphasis></para><para id="eip-152">Las potencias al cuadrado son: <list id="list1" list-type="labeled-item" display="inline">
+<item>35<sup>2</sup></item>
+<item>17<sup>2</sup></item>
+<item>16<sup>2</sup></item>
+<item>6<sup>2</sup></item>
+<item>19<sup>2</sup></item>
+<item>9<sup>2</sup></item>
+<item>3<sup>2</sup></item>
+<item>1<sup>2</sup></item>
+<item>10<sup>2</sup></item>
+<item>9<sup>2</sup></item>
+<item>1<sup>2</sup></item>
+</list>
+</para>
+<para id="eip-912"><emphasis>A continuación, añada (sume) todos los términos |<emphasis effect="italics">y</emphasis> - <emphasis effect="italics">ŷ</emphasis>| al cuadrado</emphasis> mediante la fórmula:</para>
+
+<para id="eip-187">Los términos <m:math>
+ <m:mrow>
+  <m:mover>
+   <m:mrow>
+    <m:munder>
+     <m:mi>Σ</m:mi>
+     <m:mrow>
+      <m:mi>i</m:mi><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:munder>
+
+   </m:mrow>
+   <m:mrow>
+    <m:mn>11</m:mn>
+   </m:mrow>
+  </m:mover>
+  <m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mo>|</m:mo><m:msub>
+       <m:mi>y</m:mi>
+       <m:mi>i</m:mi>
+      </m:msub>
+      <m:mo>- −</m:mo><m:msub>
+       <m:mover accent="true">
+        <m:mi>y</m:mi>
+        <m:mo>^</m:mo>
+       </m:mover>
+
+       <m:mi>i</m:mi>
+      </m:msub>
+      <m:mo>|</m:mo>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:mover>
+   <m:mrow>
+    <m:munder>
+     <m:mi>Σ</m:mi>
+     <m:mrow>
+      <m:mi>i</m:mi><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:munder>
+
+   </m:mrow>
+   <m:mrow>
+    <m:mn>11</m:mn>
+   </m:mrow>
+  </m:mover>
+  <m:msub>
+   <m:mi>ε</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:msup>
+   <m:mrow/>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math> (Recordemos que <emphasis effect="italics">y</emphasis><sub>i</sub> – <emphasis effect="italics">ŷ</emphasis><sub>i</sub> = <emphasis effect="italics">ε</emphasis><sub>i</sub>).</para><para id="eip-977">= 35<sup>2</sup> + 17<sup>2</sup> + 16<sup>2</sup> + 6<sup>2</sup> + 19<sup>2</sup> + 9<sup>2</sup> + 3<sup>2</sup> + 1<sup>2</sup> + 10<sup>2</sup> + 9<sup>2</sup> + 1<sup>2</sup></para><para id="eip-684"> = 2440 = <emphasis>SSE</emphasis>. El resultado, <emphasis>SSE</emphasis>, es la suma de errores al cuadrado.</para>
+
+<para id="eip-961"><emphasis>A continuación, calcule <emphasis effect="italics">s</emphasis>, la desviación típica de todos los valores <emphasis effect="italics">y</emphasis> - <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">ε</emphasis>, donde <emphasis effect="italics">n</emphasis> = el número total de puntos de datos.</emphasis></para>
+
+<para id="eip-454">El cálculo es <m:math><m:mi>s</m:mi><m:mo>=</m:mo>
+<m:msqrt>
+<m:mfrac>
+<m:mrow><m:mtext>SSE</m:mtext></m:mrow>
+<m:mrow><m:mi>n</m:mi><m:mo>–</m:mo><m:mn>2</m:mn></m:mrow>
+</m:mfrac>
+</m:msqrt>
+
+</m:math>.</para>
+
+<para id="eip-284">Para el problema del tercer examen o examen final: <m:math><m:mi>s</m:mi><m:mo>=</m:mo>
+<m:msqrt>
+<m:mfrac>
+<m:mrow><m:mn>2440</m:mn></m:mrow>
+<m:mrow><m:mn>11</m:mn><m:mo>–</m:mo><m:mn>2</m:mn></m:mrow>
+</m:mfrac>
+</m:msqrt>
+<m:mo>=</m:mo><m:mn>16,47</m:mn>
+</m:math>.</para>
+
+<para id="eip-799">A continuación, multiplique <emphasis effect="italics">s</emphasis> por 2: <newline/>(2)(16,47) = 32,94 <newline/>32,94 está 2 desviaciones típicas lejos de la media de los valores <emphasis effect="italics">y</emphasis> - <emphasis effect="italics">ŷ</emphasis>.</para><para id="eip-28">Si midiéramos la distancia vertical desde cualquier punto de datos hasta el punto correspondiente de la línea de mejor ajuste y esa distancia fuera de al menos 2<emphasis effect="italics">s</emphasis>, entonces consideraríamos que el punto de datos está "demasiado lejos" de la línea de mejor ajuste. A ese punto lo llamamos un <term id="term-00003">potencial valor atípico</term>.</para><para id="eip-130">Para el ejemplo, si alguno de los valores de <emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| es <emphasis>al menos</emphasis> 32,94, el punto de datos correspondiente (<emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>) es un posible valor atípico.</para><para id="eip-696">Para el problema del tercer examen o examen final, todos los |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| son menores que 31,29, excepto el primero que es 35.</para><para id="eip-994">35 > 31,29 Es decir, |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| ≥ (2)(s)</para><para id="eip-980">El punto que corresponde a |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| = 35 es (65, 175). <emphasis>Por lo tanto, el punto de datos (65, 175) es un potencial valor atípico.</emphasis> Para este ejemplo, lo borraremos. (Recuerde que no siempre eliminamos un valor atípico).</para>
+
+<note id="fs-idp12863088"><label/><title>Nota</title>
+<para id="fs-idp101044864">Cuando se eliminan los valores atípicos, el investigador debería dejar constancia de que se han eliminado los datos y por qué, o bien debería proporcionar los resultados con y sin los datos eliminados. Si los datos son erróneos y se conocen los valores correctos (por ejemplo, el estudiante uno obtuvo realmente una puntuación de 70 en lugar de 65), se puede realizar esta corrección en los datos.</para></note>
+
+<para id="fs-idm274617664"><newline/><newline/>El siguiente paso es calcular una nueva línea de mejor ajuste con los diez puntos restantes. La nueva línea de mejor ajuste y el coeficiente de correlación son:</para><para id="eip-451"><emphasis effect="italics">ŷ</emphasis> = –355,19 + 7,39<emphasis effect="italics">x</emphasis> y <emphasis effect="italics">r</emphasis> = 0,9121</para>
+
+
+<example id="element-824">
+<exercise id="element-12623">
+<problem id="id1171155161094">
+<para id="element-802">Con esta nueva línea de mejor ajuste (basada en los diez puntos de datos restantes en el <link target-id="element-22" document="m47117">ejemplo del tercer examen o examen final</link>), ¿qué esperaría recibir en el examen final un estudiante que obtiene 73 en el tercer examen? ¿Es lo mismo que la predicción realizada con la línea original?</para></problem>
+<solution id="id1171158788502">
+ <para id="element-12623s">Con la nueva línea de mejor ajuste, <emphasis effect="italics">ŷ</emphasis> = -355,19 + 7,39(73) = 184,28. Un estudiante que haya obtenido 73 puntos en el tercer examen esperaría obtener 184 puntos en el examen final. <newline/><newline/> La línea original predecía <emphasis effect="italics">ŷ</emphasis> = -173,51 + 4,83(73) = 179,08 por lo que la predicción utilizando la nueva línea con el valor atípico eliminado difiere de la predicción original.
+ </para></solution>
+</exercise>
+</example>
+
+<note id="fs-idp77690080" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+
+<exercise id="eip-846"><problem id="eip-372">
+  <para id="eip-353">Los puntos de datos para el gráfico del <link target-id="element-22" document="m47117">ejemplo del tercer examen o examen final</link> son los siguientes: (1, 5), (2, 7), (2, 6), (3, 9), (4, 12), (4, 13), (5, 18), (6, 19), (7, 12) y (7, 21). Elimine el valor atípico y vuelva a calcular la línea de mejor ajuste. Calcule el valor de <emphasis effect="italics">ŷ</emphasis> cuando <emphasis effect="italics">x</emphasis> = 10.</para></problem>
+</exercise>
+</note>
+
+<example id="element-986">
+<para id="element-719">El índice de precios al consumidor (IPC) mide la variación media en el tiempo de los precios que pagan los consumidores urbanos por los bienes y servicios de consumo. El IPC afecta a casi todos los estadounidenses debido a las múltiples formas en que se utiliza. Uno de sus mayores usos es como medida de la inflación. Al suministrar información sobre la evolución de los precios en la economía nacional al gobierno, las empresas y los trabajadores, el IPC permite tomar decisiones económicas. El Presidente, el Congreso y la Junta de la Reserva Federal utilizan las tendencias del IPC para formular políticas monetarias y fiscales. En la siguiente tabla, <emphasis effect="italics">x</emphasis> es el año y <emphasis effect="italics">y</emphasis> es el IPC.</para>
+
+<table id="element-127" summary=".."><title>Datos</title>
+<tgroup cols="4">
+<thead>
+  <row>
+    <entry align="center"><emphasis effect="italics">x</emphasis></entry>
+    <entry align="center"><emphasis effect="italics">y</emphasis></entry>
+    <entry align="center"><emphasis effect="italics">x</emphasis></entry>
+    <entry align="center"><emphasis effect="italics">y</emphasis></entry>
+  </row>
+</thead>
+<tbody>
+<row>
+<entry>1915 </entry>
+<entry>10,1 </entry>
+<entry>1969</entry>
+<entry>36,7</entry>
+</row>
+<row>
+<entry>1926</entry>
+<entry>17,7</entry>
+<entry>1975</entry>
+<entry>49,3</entry>
+</row>
+<row>
+<entry>1935</entry>
+<entry>13,7</entry>
+<entry>1979</entry>
+<entry>72,6</entry>
+</row>
+<row>
+<entry>1940</entry>
+<entry>14,7</entry>
+<entry>1980</entry>
+<entry>82,4</entry>
+</row>
+<row>
+<entry>1947</entry>
+<entry>24,1</entry>
+<entry>1986</entry>
+<entry>109,6</entry>
+</row>
+<row>
+<entry>1952</entry>
+<entry>26,5</entry>
+<entry>1991</entry>
+<entry>130,7</entry>
+</row>
+<row>
+<entry>1964</entry>
+<entry>31,0</entry>
+<entry>1999</entry>
+<entry>166,6</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<exercise id="element-603"><problem id="id1171166081082">
+    <list id="list3" list-type="enumerated" number-style="lower-alpha">
+<item>Dibuje un diagrama de dispersión de los datos.</item>
+<item>Calcule la línea de mínimos cuadrados. Escriba la ecuación en la forma <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>.</item>
+<item>Dibuje la línea en el diagrama de dispersión.</item>
+<item>Halle el coeficiente de correlación. ¿Es significativo?</item>
+<item>¿Cuál es el IPC medio del año 1990?</item>
+</list></problem>
+
+<solution id="id1171157206888">
+  <list id="element-298" list-type="enumerated" number-style="lower-alpha"><item>Vea la <link target-id="eip-idp35936320"/>.</item>
+<item><emphasis effect="italics">ŷ</emphasis> = -3204 + 1,662<emphasis effect="italics">x</emphasis> es la ecuación de la línea de mejor ajuste.</item>
+<item><emphasis effect="italics">r</emphasis> = 0,8694</item>
+<item>El número de puntos de datos es <emphasis effect="italics">n</emphasis> = 14. Utilice los valores críticos al 95 % de la tabla de coeficientes de correlación de la muestra que aparecen al final del Capítulo 12. <emphasis effect="italics">n</emphasis> - 2 = 12. El valor crítico correspondiente es 0,532. Dado que 0,8694 > 0,532, <emphasis effect="italics">r</emphasis> es significativo. <newline/><emphasis effect="italics">ŷ</emphasis> = -3204 + 1,662(1990) = 103,4 IPC</item>
+<item>Con la función LinRegTTest de la calculadora, hallamos que <emphasis effect="italics">s</emphasis> = 25,4 ; al graficar las líneas Y2 = -3204 + 1,662X - 2(25,4) y Y3 = -3204 + 1,662X + 2(25,4) se observa que ningún valor de los datos está fuera de esas líneas, por lo cual se identifica que no hay valores atípicos. (Observe que el año 1999 estaba muy cerca de la línea superior, pero todavía dentro de ella).</item>
+</list><figure id="eip-idp35936320">
+<media id="id1171151867848" alt="Diagrama de dispersión y línea de mejor ajuste de los datos del índice de precios al consumidor, en el eje de la y, así como de los datos del año, en el eje de la x.">
+<image src="../../media/fig-ch12_09_02.jpg" mime-type="image/jpeg" width="380"/>
+</media>
+</figure>
+</solution>
+</exercise><note id="eip-413"><label/><title>Nota</title><para id="fs-idp122850352">En el ejemplo, observe el patrón de los puntos en comparación con la línea. Aunque el coeficiente de correlación es significativo, el patrón del diagrama de dispersión indica que una curva sería el modelo más apropiado que una línea. En este ejemplo, un estadístico preferiría utilizar otros métodos para ajustar una curva a estos datos, en lugar de modelar los datos con la línea que hemos hallado. Además de realizar los cálculos, siempre es importante observar el diagrama de dispersión para decidir si un modelo lineal es adecuado.</para></note>
+
+<para id="eip-983">Si le interesa ver más años de datos, visite la página web del IPC de la Oficina de Estadísticas Laborales ftp://ftp.bls.gov/pub/special.requests/cpi/cpiai.txt; nuestros datos están tomados de la columna titulada "Annual Avg." (tercera columna de la derecha). Por ejemplo, podría añadir más años de datos actuales. Sume los años más recientes: 2004: IPC = 188,9; 2008: IPC = 215,3; 2011: IPC = 224,9. Vea cómo incide en el modelo. (Compruebe: <emphasis effect="italics">ŷ</emphasis> = -4436 + 2,295<emphasis effect="italics">x</emphasis>; <emphasis effect="italics">r</emphasis> = 0,9018. ¿Es <emphasis effect="italics">r</emphasis> significativo? ¿Se ha mejorado el ajuste con la adición de los nuevos puntos)?</para></example>
+
+<note id="fs-idm58078240" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+
+<exercise id="eip-298"><problem id="eip-109">
+  <para id="eip-987">El siguiente cuadro muestra el desarrollo económico medido en renta per cápita RPC.</para>
+<table id="eip-idm147482064" summary="..">
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<thead>
+<row>
+<entry>Año</entry>
+<entry>Producto Interno Bruto (PIB)</entry>
+<entry>Año</entry>
+<entry>Producto Interno Bruto (PIB)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>1870</entry>
+<entry>340</entry>
+<entry>1920</entry>
+<entry>1050</entry>
+</row>
+<row>
+<entry>1880</entry>
+<entry>499</entry>
+<entry>1930</entry>
+<entry>1170</entry>
+</row>
+<row>
+<entry>1890</entry>
+<entry>592</entry>
+<entry>1940</entry>
+<entry>1364</entry>
+</row>
+<row>
+<entry>1900</entry>
+<entry>757</entry>
+<entry>1950</entry>
+<entry>1836</entry>
+</row>
+<row>
+<entry>1910</entry>
+<entry>927</entry>
+<entry>1960</entry>
+<entry>2132</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<list id="eip-idm165132224" list-type="enumerated" number-style="lower-alpha">
+<item>¿Cuáles son las variables independientes y dependientes?</item>
+<item>Dibuje un diagrama de dispersión.</item>
+<item>Utilice la regresión para hallar la línea de mejor ajuste y el coeficiente de correlación.</item>
+<item>Interprete la importancia del coeficiente de correlación.</item>
+<item>¿Existe una relación lineal entre las variables?</item>
+<item>Calcule el coeficiente de determinación e interprételo.</item>
+<item>¿Cuál es la pendiente de la ecuación de regresión? ¿Qué significa?</item>
+<item>Utilice la línea de mejor ajuste para estimar la RPC para el año 1900, para el año 2000.</item>
+<item>Determine si hay valores atípicos.</item>
+</list>
+</problem>
+</exercise></note>
+</section>
+
+
+<section id="eip-518">
+<title>Valores críticos al 95 % de la tabla de coeficientes de correlación de la muestra</title>
+
+<table id="eip-idm31993488" summary="This table presents the 95% Critical Values of the Sample Correlation Coefficient with Degrees of Freedom in the first column and Critical Values in the second column.">
+<tgroup cols="2"><thead>
+  <row>
+    <entry>Grados de libertad: <emphasis effect="italics">n</emphasis> - 2</entry>
+    <entry>Valores críticos: (+ y -)</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry align="center">1</entry>
+    <entry align="center">0,997</entry>
+  </row>
+  <row>
+    <entry align="center">2</entry>
+    <entry align="center">0,950</entry>
+  </row>
+  <row>
+    <entry align="center">3</entry>
+    <entry align="center">0,878</entry>
+  </row>
+  <row>
+    <entry align="center">4</entry>
+    <entry align="center">0,811</entry>
+  </row>
+  <row>
+    <entry align="center">5</entry>
+    <entry align="center">0,754</entry>
+  </row>
+  <row>
+    <entry align="center">6</entry>
+    <entry align="center">0,707</entry>
+  </row>
+  <row>
+    <entry align="center">7</entry>
+    <entry align="center">0,666</entry>
+  </row>
+  <row>
+    <entry align="center">8</entry>
+    <entry align="center">0,632</entry>
+  </row>
+  <row>
+    <entry align="center">9</entry>
+    <entry align="center">0,602</entry>
+  </row>
+  <row>
+    <entry align="center">10</entry>
+    <entry align="center">0,576</entry>
+  </row>
+  <row>
+    <entry align="center">11</entry>
+    <entry align="center">0,555</entry>
+  </row>
+  <row>
+    <entry align="center">12</entry>
+    <entry align="center">0,532</entry>
+  </row>
+  <row>
+    <entry align="center">13</entry>
+    <entry align="center">0,514</entry>
+  </row>
+  <row>
+    <entry align="center">14</entry>
+    <entry align="center">0,497</entry>
+  </row>
+  <row>
+    <entry align="center">15</entry>
+    <entry align="center">0,482</entry>
+  </row>
+  <row>
+    <entry align="center">16</entry>
+    <entry align="center">0,468</entry>
+  </row>
+  <row>
+    <entry align="center">17</entry>
+    <entry align="center">0,456</entry>
+  </row>
+  <row>
+    <entry align="center">18</entry>
+    <entry align="center">0,444</entry>
+  </row>
+  <row>
+    <entry align="center">19</entry>
+    <entry align="center">0,433</entry>
+  </row>
+  <row>
+    <entry align="center">20</entry>
+    <entry align="center">0,423</entry>
+  </row>
+  <row>
+    <entry align="center">21</entry>
+    <entry align="center">0,413</entry>
+  </row>
+  <row>
+    <entry align="center">22</entry>
+    <entry align="center">0,404</entry>
+  </row>
+  <row>
+    <entry align="center">23</entry>
+    <entry align="center">0,396</entry>
+  </row>
+  <row>
+    <entry align="center">24</entry>
+    <entry align="center">0,388</entry>
+  </row>
+  <row>
+    <entry align="center">25</entry>
+    <entry align="center">0,381</entry>
+  </row>
+  <row>
+    <entry align="center">26</entry>
+    <entry align="center">0,374</entry>
+  </row>
+  <row>
+    <entry align="center">27</entry>
+    <entry align="center">0,367</entry>
+  </row>
+  <row>
+    <entry align="center">28</entry>
+    <entry align="center">0,361</entry>
+  </row>
+  <row>
+    <entry align="center">29</entry>
+    <entry align="center">0,355</entry>
+  </row>
+  <row>
+    <entry align="center">30</entry>
+    <entry align="center">0,349</entry>
+  </row>
+  <row>
+    <entry align="center">40</entry>
+    <entry align="center">0,304</entry>
+  </row>
+  <row>
+    <entry align="center">50</entry>
+    <entry align="center">0,273</entry>
+  </row>
+  <row>
+    <entry align="center">60</entry>
+    <entry align="center">0,250</entry>
+  </row>
+  <row>
+    <entry align="center">70</entry>
+    <entry align="center">0,232</entry>
+  </row>
+  <row>
+    <entry align="center">80</entry>
+    <entry align="center">0,217</entry>
+  </row>
+  <row>
+    <entry align="center">90</entry>
+    <entry align="center">0,205</entry>
+  </row>
+  <row>
+    <entry align="center">100</entry>
+    <entry align="center">0,195</entry>
+  </row>
+</tbody>
+
+
+
+
+</tgroup>
+</table></section>
+
+<section id="eip-604" class="references"><title>Referencias</title><para id="eip-idp16678448">Datos de la Comisión de Medios y Arbitrios de la Cámara de Representantes, el Departamento de Salud y Servicios Humanos.</para>
+<para id="eip-idm84869712">Datos de Microsoft Bookshelf.</para>
+<para id="eip-idm84869328">Datos del Departamento del Trabajo de Estados Unidos, Oficina de Estadísticas Laborales.</para>
+<para id="eip-idm84868944">Datos del Manual de Médico, 1990.</para>
+<para id="eip-idm84868560">Datos del Departamento del Trabajo de Estados Unidos, Oficina de Estadísticas Laborales.</para></section><section id="eip-380" class="summary"><title>Revisión del capítulo</title><para id="eip-idm88717792">
+Para determinar si un punto es un valor atípico, realice una de las siguientes acciones: <list id="eip-idp16278896" list-type="enumerated" number-style="arabic"><item class="finger">Introduzca las siguientes ecuaciones en la TI 83, 83+, 84, 84+:
+        <para id="eip-idp42255472">Los términos <m:math>
+         <m:mrow>
+          <m:mtable columnalign="left">
+           <m:mtr columnalign="left">
+            <m:mtd columnalign="left">
+             <m:mrow>
+              <m:msub>
+               <m:mi>y</m:mi>
+               <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi>
+             </m:mrow>
+            </m:mtd>
+           </m:mtr>
+           <m:mtr columnalign="left">
+            <m:mtd columnalign="left">
+             <m:mrow>
+              <m:msub>
+               <m:mi>y</m:mi>
+               <m:mn>2</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>s</m:mi>
+             </m:mrow>
+            </m:mtd>
+           </m:mtr>
+           <m:mtr columnalign="left">
+            <m:mtd columnalign="left">
+             <m:mrow>
+              <m:msub>
+               <m:mi>y</m:mi>
+               <m:mn>3</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>s</m:mi>
+             </m:mrow>
+            </m:mtd>
+           </m:mtr>
+
+          </m:mtable>
+         </m:mrow>
+        </m:math> donde s es la desviación típica de los residuales</para><para id="eip-idp16274560">Si algún punto está por encima de y<sub>2</sub> o por debajo de y<sub>3</sub>, se considera un valor atípico.</para></item>
+
+        <item>Utilice los residuales y compare sus valores absolutos con 2<emphasis effect="italics">s</emphasis>, donde <emphasis effect="italics">s</emphasis> es la desviación típica. Si el valor absoluto de cualquier residual es mayor o igual a 2<emphasis effect="italics">s</emphasis>, el punto correspondiente es un valor atípico.</item>
+
+        <item>Nota: La función de la calculadora LinRegTTest (STATS TESTS LinRegTTest) calcula <emphasis effect="italics">s</emphasis>.</item>
+        </list></para></section><section id="eip-319" class="practice">
+<para id="eip-idm76852864"><emphasis effect="italics">Use la siguiente información para responder los próximos cuatro ejercicios.</emphasis> El diagrama de dispersión muestra la relación entre las horas dedicadas al estudio y los resultados de los exámenes. La línea que se muestra es la línea calculada de mejor ajuste. El coeficiente de correlación es de 0,69.</para><figure id="fs-idp84808448"><media id="eip-idm82947312" alt="" display="block">
+<image mime-type="image/jpeg" src="../../media/CNX_Stats_C012_M09_item001.jpg" width="350"/>
+</media></figure><exercise id="eip-984"><problem id="eip-idm7789920">
+<para id="eip-idp21732640">¿Parece haber algún valor atípico?</para>
+</problem>
+<solution id="eip-idm463264">
+<para id="eip-idm463008">Sí, parece que hay un valor atípico en (6, 58).</para>
+</solution></exercise>
+
+<exercise id="eip-237"><problem id="eip-idp58206944">
+<para id="eip-idm30953376">Se elimina un punto y se vuelve a calcular la línea de mejor ajuste. El nuevo coeficiente de correlación es de 0,98. ¿El punto luce como un valor atípico? ¿Por qué?</para></problem></exercise><exercise id="eip-430">
+<problem id="eip-idp57176576">
+<para id="eip-idm34700448">¿Qué efecto tuvo el posible valor atípico en la línea de mejor ajuste?</para>
+</problem>
+<solution id="eip-idp31085872">
+<para id="eip-idm21136688">El posible valor atípico aplanó la pendiente de la línea de mejor ajuste porque estaba por debajo del conjunto de datos. Hizo que la línea de mejor ajuste fuera menos precisa como predictor de los datos.</para>
+</solution></exercise>
+
+<exercise id="eip-955"><problem id="eip-idm16518592">
+<para id="eip-idp37000592">¿Confía más o menos en la capacidad de predicción de la nueva línea de mejor ajuste?</para>
+</problem></exercise><exercise id="eip-930">
+<problem id="eip-idm31002864">
+<para id="eip-idm31002608">La suma de errores al cuadrado para un conjunto de datos de 18 números es 49. ¿Cuál es la desviación típica?</para>
+</problem>
+<solution id="eip-idm29951616">
+<para id="eip-idm29951360"><emphasis effect="italics">s</emphasis> = 1,75</para>
+</solution></exercise>
+
+<exercise id="eip-7"><problem id="eip-idp54697072">
+<para id="eip-idp57078080">La desviación típica de la suma de errores al cuadrado de un conjunto de datos es de 9,8. ¿Cuál es el límite de la distancia vertical a la que puede estar un punto de la línea de mejor ajuste para considerarlo un valor atípico?</para>
+</problem></exercise></section>
+
+
+<section id="fs-idm86899200" class="free-response">
+<title>Tarea para la casa</title>
+
+<exercise id="element-957"><problem id="id44886916">
+  <para id="element-678">La altura (de la acera al tejado) de los edificios altos más notables de Estados Unidos se compara con el número de pisos del edificio (empezando por el nivel de la calle).</para>
+<table id="id1aa0827143" summary="This table presents building heights (in feet) in the first column and building stories in the second column.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>Altura (en pies)</entry>
+            <entry>Pisos</entry>
+          </row>
+         </thead>
+         <tbody>
+          <row>
+            <entry align="center">1.050</entry>
+            <entry align="center">57</entry>
+          </row>
+          <row>
+            <entry align="center">428</entry>
+            <entry align="center">28</entry>
+          </row>
+          <row>
+            <entry align="center">362</entry>
+            <entry align="center">26</entry>
+          </row>
+          <row>
+            <entry align="center">529</entry>
+            <entry align="center">40</entry>
+          </row>
+          <row>
+            <entry align="center">790</entry>
+            <entry align="center">60</entry>
+          </row>
+          <row>
+            <entry align="center">401</entry>
+            <entry align="center">22</entry>
+          </row>
+          <row>
+            <entry align="center">380</entry>
+            <entry align="center">38</entry>
+          </row>
+          <row>
+            <entry align="center">1.454</entry>
+            <entry align="center">110</entry>
+          </row>
+          <row>
+            <entry align="center">1.127</entry>
+            <entry align="center">100</entry>
+          </row>
+          <row>
+            <entry align="center">700</entry>
+            <entry align="center">46</entry>
+          </row>
+        </tbody>
+</tgroup>
+</table>
+<list id="element-78" list-type="enumerated" number-style="lower-alpha"><item>Utilizando "pisos" como variable independiente y "altura" como variable dependiente, haga un diagrama de dispersión de los datos.</item>
+<item>¿Se desprende de la inspección que existe una relación entre las variables?</item>
+<item>Calcule la línea de mínimos cuadrados. Ponga la ecuación en la forma de: <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis></item>
+<item>Halle el coeficiente de correlación. ¿Es significativo?</item>
+<item>Halle las alturas estimadas para 32 pisos y para 94 pisos.</item>
+<item>Según los datos de la <link target-id="id1aa0827143"/>, ¿existe una relación lineal entre el número de pisos de los edificios altos y la altura de los mismos?</item>
+<item>¿Existen valores atípicos en los datos? En caso afirmativo, ¿qué puntos?</item>
+<item>¿Cuál es la altura estimada de un edificio de seis pisos? ¿La línea de mínimos cuadrados da una estimación precisa de la altura? Explique por qué sí o por qué no.</item>
+<item>Con base en la línea de mínimos cuadrados, se predice que añadir un piso más añadirá aproximadamente cuántos pies a un edificio?</item>
+<item>¿Cuál es la pendiente de la línea de mínimos cuadrados (de mejor ajuste)? Interprete la pendiente.</item>
+</list></problem></exercise><exercise id="fs-idp218993792">
+<problem id="fs-idp218994048">
+<para id="fs-idm23685776">Los ornitólogos, científicos que estudian las aves, marcan a los gavilanes en 13 colonias diferentes para estudiar su población. Recogen datos sobre el porcentaje de nuevos gavilanes en cada colonia y el porcentaje de los que han regresado de la migración.</para>
+<para id="fs-idp121962096"><emphasis>Porcentaje de retorno:</emphasis>74; 66; 81; 52; 73; 62; 52; 45; 62; 46; 60; 46; 38 <newline/><emphasis>Porcentaje nuevo:</emphasis>5; 6; 8; 11; 12; 15; 16; 17; 18; 18; 19; 20; 20</para>
+
+<list id="fs-idm19617248" list-type="enumerated" number-style="lower-alpha">
+<item>Introduzca los datos en su calculadora y haga un diagrama de dispersión.</item>
+<item>Utilice la función de regresión de su calculadora para hallar la ecuación de la línea de regresión por mínimos cuadrados. Añada esto a su diagrama de dispersión de la parte a.</item>
+<item>Explique con palabras lo que nos dicen la pendiente y la intersección en y de la línea de regresión.</item>
+<item>¿Qué tan bien se ajusta la línea de regresión a los datos? Explique su respuesta.</item>
+<item>¿Cuál punto tiene el mayor residuo? Explique el significado del residuo en su contexto. ¿Este punto es un valor atípico? ¿Un punto de influencia? Explique.</item>
+<item>Un ecologista quiere predecir cuántos pájaros se unirán a otra colonia de gavilanes a la que han regresado el 70 % de los adultos del año anterior. ¿Cuál es la predicción?</item>
+</list>
+</problem>
+<solution id="fs-idm56676800">
+<para id="fs-idp172680496">a. y b. Compruebe la solución del estudiante</para>
+<para id="fs-idp172680880">c. La pendiente de la línea de regresión es -0,3031 con una intersección en y de 31,93. En el contexto, la intersección en y indica que, cuando no haya gavilanes que regresen, habrá casi un 32 % de gavilanes nuevos. Esto no tiene sentido, ya que si no hay aves que regresen, entonces el nuevo porcentaje tendría que ser del 100 % (este es un ejemplo de por qué no extrapolamos). La pendiente nos indica que, por cada incremento porcentual de aves que regresan, el porcentaje de aves nuevas en la colonia disminuye en un 30,3 %. </para><para id="fs-idp36047136">d. Si examinamos r2, vemos que solo el 57,52 % de la variación en el porcentaje de aves nuevas se explica por el modelo y el coeficiente de correlación, r = -,7584 solo indica una correlación algo fuerte entre los porcentajes de retorno y los nuevos. </para><para id="fs-idp137409168">e. El par ordenado (66, 6) genera el mayor residuo de 6,0. Esto significa que cuando el porcentaje de retorno observado es del 66 %, nuestro nuevo porcentaje observado, el 6 %, es casi un 6 % menos que el nuevo valor predicho del 11,98 %. Si eliminamos este par de datos, solo vemos una pendiente ajustada de -0,2789 y un intersección ajustada de 30,9816. En otras palabras, aunque este dato genera el mayor residual, no es un valor atípico, ni el par de datos es un punto influyente.</para><para id="fs-idp89140080">f. Si hay un 70 % de aves que regresan, esperaríamos ver y = -,2789(70) + 30,9816 = 0,114 o 11,4 % de aves nuevas en la colonia.</para></solution>
+</exercise>
+
+
+<exercise id="fs-idp82285104"><problem id="fs-idp127976160">
+<para id="fs-idp127976416">La siguiente tabla muestra datos sobre el consumo medio de café per cápita y la tasa de cardiopatías en una muestra aleatoria de 10 países.</para><table id="fs-idp129320512" summary="..">
+<tgroup cols="11"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<colspec colnum="8" colname="c8"/>
+<colspec colnum="9" colname="c9"/>
+<colspec colnum="10" colname="c10"/>
+<colspec colnum="11" colname="c11"/>
+<tbody>
+<row>
+<entry><emphasis>Consumo anual de café en litros</emphasis></entry>
+<entry>2,5</entry>
+<entry>3,9</entry>
+<entry>2,9</entry>
+<entry>2,4</entry>
+<entry>2,9</entry>
+<entry>0,8</entry>
+<entry>9,1</entry>
+<entry>2,7</entry>
+<entry>0,8</entry>
+<entry>0,7</entry>
+</row>
+
+<row>
+<entry><emphasis>Muerte por cardiopatías</emphasis></entry>
+<entry>221</entry>
+<entry>167</entry>
+<entry>131</entry>
+<entry>191</entry>
+<entry>220</entry>
+<entry>297</entry>
+<entry>71</entry>
+<entry>172</entry>
+<entry>211</entry>
+<entry>300</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><list id="fs-idm26943456" list-type="enumerated" number-style="lower-alpha"><item>Introduzca los datos en su calculadora y haga un diagrama de dispersión.</item>
+<item>Utilice la función de regresión de su calculadora para hallar la ecuación de la línea de regresión por mínimos cuadrados. Añada esto a su diagrama de dispersión de la parte a.</item>
+<item>Explique con palabras lo que nos dicen la pendiente y la intersección en y de la línea de regresión.</item>
+<item>¿Qué tan bien se ajusta la línea de regresión a los datos? Explique su respuesta.</item>
+<item>¿Cuál punto tiene el mayor residuo? Explique el significado del residuo en su contexto. ¿Este punto es un valor atípico? ¿Un punto de influencia? Explique.</item>
+<item>¿Proporcionan los datos pruebas convincentes de que existe una relación lineal entre la cantidad de café consumido y la tasa de mortalidad por cardiopatías? Lleve a cabo una prueba adecuada con un nivel de significación de 0,05 como ayuda para responder esta pregunta.</item>
+</list></problem></exercise><exercise id="fs-idp2751904"><problem id="fs-idp2752160">
+<para id="fs-idp140738592">La siguiente tabla consiste en el tiempo de un estudiante atleta (en minutos) para nadar 2000 yardas y la frecuencia cardíaca (latidos por minuto) después de nadar en una muestra aleatoria de 10 días:</para>
+<table id="fs-idp167616288" summary="..">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry>Tiempo de natación</entry>
+<entry>Ritmo cardíaco</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>34,12</entry>
+<entry>144</entry>
+</row>
+<row>
+<entry>35,72</entry>
+<entry>152</entry>
+</row>
+<row>
+<entry>34,72</entry>
+<entry>124</entry>
+</row>
+<row>
+<entry>34,05</entry>
+<entry>140</entry>
+</row>
+<row>
+<entry>34,13</entry>
+<entry>152</entry>
+</row>
+<row>
+<entry>35,73</entry>
+<entry>146</entry>
+</row>
+<row>
+<entry>36,17</entry>
+<entry>128</entry>
+</row>
+<row>
+<entry>35,57</entry>
+<entry>136</entry>
+</row>
+<row>
+<entry>35,37</entry>
+<entry>144</entry>
+</row>
+<row>
+<entry>35,57</entry>
+<entry>148</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<list id="fs-idp36234688" list-type="enumerated" number-style="lower-alpha">
+<item>Introduzca los datos en su calculadora y haga un diagrama de dispersión.</item>
+<item>Utilice la función de regresión de su calculadora para hallar la ecuación de la línea de regresión por mínimos cuadrados. Añada esto a su diagrama de dispersión de la parte a.</item>
+<item>Explique con palabras lo que nos dicen la pendiente y la intersección en y de la línea de regresión.</item>
+<item>¿Qué tan bien se ajusta la línea de regresión a los datos? Explique su respuesta.</item>
+<item>¿Cuál punto tiene el mayor residuo? Explique el significado del residuo en su contexto. ¿Este punto es un valor atípico? ¿Un punto de influencia? Explique.</item>
+</list>
+</problem>
+<solution id="fs-idm82387040">
+<list id="eip-idm38243616" list-type="enumerated" number-style="lower-alpha"><item>Compruebe la solución del estudiante</item>
+<item>Compruebe la solución del estudiante</item>
+<item>Tenemos una pendiente de -1,4946 con una intersección en <emphasis effect="italics">y</emphasis> de 193,88. La pendiente, en contexto, indica que, por cada minuto adicional que se añada al tiempo de natación, la frecuencia cardíaca disminuirá en 1,5 latidos por minuto. Si el estudiante no está nadando en absoluto, la <emphasis effect="italics">intersección en y</emphasis> indica que su frecuencia cardíaca será de 193,88 latidos por minuto. Mientras que la pendiente tiene sentido (cuanto más tiempo se tarda en nadar 2.000 metros, menos esfuerzo hace el corazón), la <emphasis effect="italics">intersección en y</emphasis> no tiene sentido. Si el atleta no está nadando (descansando), su frecuencia cardíaca debe ser muy baja.</item>
+<item>Dado que solo el 1,5 % de la variación de la frecuencia cardíaca se explica mediante esta ecuación de regresión, debemos concluir que esta asociación no se explica con una relación lineal.</item>
+<item>El punto (34,72, 124) genera el mayor residuo de -11,82. Esto significa que nuestra frecuencia cardíaca observada es casi 12 latidos menos que nuestra frecuencia prevista de 136 latidos por minuto. Cuando se elimina este punto, la pendiente se convierte en -2,953 y la intersección en y cambia a 247,1616. Aunque la asociación lineal sigue siendo muy débil, vemos que el par de datos eliminado puede considerarse un punto influyente en el sentido de que la intersección en <emphasis effect="italics">y</emphasis> adquiere mayor significado.</item>
+</list></solution></exercise><exercise id="fs-idp111074400"><problem id="fs-idp111074656">
+<para id="fs-idm34344064">Un investigador estudia si la población influye en la tasa de homicidios. He uses demographic data from Detroit, MI to compare homicide rates and the number of the population that are White males.</para><table id="fs-idp10781040" summary="..">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry>Tamaño de la población</entry>
+<entry>Tasa de homicidios por cada 100.000 habitantes</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>558.724</entry>
+<entry>8,6</entry>
+</row>
+<row>
+<entry>538.584</entry>
+<entry>8,9</entry>
+</row>
+<row>
+<entry>519.171</entry>
+<entry>8,52</entry>
+</row>
+<row>
+<entry>500.457</entry>
+<entry>8,89</entry>
+</row>
+<row>
+<entry>482.418</entry>
+<entry>13,07</entry>
+</row>
+<row>
+<entry>465.029</entry>
+<entry>14,57</entry>
+</row>
+<row>
+<entry>448.267</entry>
+<entry>21,36</entry>
+</row>
+<row>
+<entry>432.109</entry>
+<entry>28,03</entry>
+</row>
+<row>
+<entry>416.533</entry>
+<entry>31,49</entry>
+</row>
+<row>
+<entry>401.518</entry>
+<entry>37,39</entry>
+</row>
+<row>
+<entry>387.046</entry>
+<entry>46,26</entry>
+</row>
+<row>
+<entry>373.095</entry>
+<entry>47,24</entry>
+</row>
+<row>
+<entry>359.647</entry>
+<entry>52,33</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><list id="fs-idm58592672" list-type="enumerated" number-style="lower-alpha"><item>Utilice su calculadora para construir un diagrama de dispersión de los datos. ¿Cuál debería ser la variable independiente? ¿Por qué?</item>
+<item>Utilice la función de regresión de su calculadora para hallar la ecuación de la línea de regresión por mínimos cuadrados. Añada esto a su diagrama de dispersión.</item>
+<item>Comente el significado de lo siguiente en su contexto. <list id="fs-idm37609808" list-type="enumerated" number-style="lower-roman">
+<item>La pendiente de la ecuación de regresión</item>
+<item>La intersección en y de la ecuación de regresión</item>
+<item>La correlación r</item>
+<item>El coeficiente de determinación r2.</item>
+</list>
+</item>
+<item>¿Aportan los datos pruebas convincentes de que exista una relación lineal entre el tamaño de la población y la tasa de homicidios? Lleve a cabo una prueba adecuada con un nivel de significación de 0,05 como ayuda para responder esta pregunta.</item>
+</list></problem></exercise><exercise id="fs-idm81379472"><problem id="fs-idm81379216">
+<table id="fs-idm81378960" summary="..">
+
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>Escuela</entry>
+<entry>Salario a mitad de carrera (en miles)</entry>
+<entry>Matrícula anual</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Princeton</entry>
+<entry>137</entry>
+<entry>28.540</entry>
+</row>
+<row>
+<entry>Harvey Mudd</entry>
+<entry>135</entry>
+<entry>40.133</entry>
+</row>
+<row>
+<entry>CalTech</entry>
+<entry>127</entry>
+<entry>39.900</entry>
+</row>
+<row>
+<entry>Academia Naval de EE. UU.</entry>
+<entry>122</entry>
+<entry>0</entry>
+</row>
+<row>
+<entry>West Point</entry>
+<entry>120</entry>
+<entry>0</entry>
+</row>
+<row>
+<entry>MIT</entry>
+<entry>118</entry>
+<entry>42.050</entry>
+</row>
+<row>
+<entry>Universidad de Lehigh</entry>
+<entry>118</entry>
+<entry>43.220</entry>
+</row>
+<row>
+<entry>NYU-Poly</entry>
+<entry>117</entry>
+<entry>39.565</entry>
+</row>
+<row>
+<entry>Babson College</entry>
+<entry>117</entry>
+<entry>40.400</entry>
+</row>
+<row>
+<entry>Stanford</entry>
+<entry>114</entry>
+<entry>54.506</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-idp139742416">Utilice los datos para determinar la ecuación de la línea de regresión lineal con los valores atípicos eliminados. ¿Existe una correlación lineal para el conjunto de datos con los valores atípicos eliminados? Justifique su respuesta.</para>
+</problem>
+<solution id="fs-idm6636208">
+<para id="fs-idp167245664">Si eliminamos las dos academias de servicio (la matrícula es de 0,00 dólares), construimos una nueva ecuación de regresión de <emphasis effect="italics">y</emphasis> = -0,0009x + 160 con un coeficiente de correlación de 0,71397 y un coeficiente de determinación de 0,50976. Esto nos permite afirmar que existe una asociación lineal bastante fuerte entre los costos de matrícula y los salarios si se eliminan las academias de servicio del conjunto de datos.</para></solution>
+</exercise></section>
+
+<section id="fs-idm85401472" class="bring-together-homework">
+<title>Resúmalo todo.</title>
+<exercise id="element-793"><problem id="id44885338">
+  <para id="element-815">El promedio de los integrantes de una familia que asistió a la universidad durante varios años se indica en la <link target-id="id1034sdfa0215"/>.</para><table id="id1034sdfa0215" summary="--">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>Año</entry>
+            <entry>Número de integrantes de la familia que asisten a la universidad</entry>
+          </row>
+         </thead>
+         <tbody>
+          <row>
+            <entry>1969</entry>
+            <entry align="center">4,0</entry>
+          </row>
+          <row>
+            <entry>1973</entry>
+            <entry align="center">3,6</entry>
+          </row>
+          <row>
+            <entry>1975</entry>
+            <entry align="center">3,2</entry>
+          </row>
+          <row>
+            <entry>1979</entry>
+            <entry align="center">3,0</entry>
+          </row>
+          <row>
+            <entry>1983</entry>
+            <entry align="center">3,0</entry>
+          </row>
+          <row>
+            <entry>1988</entry>
+            <entry align="center">3,0</entry>
+          </row>
+          <row>
+            <entry>1991</entry>
+            <entry align="center">2,9</entry>
+          </row>
+        </tbody>
+
+
+
+
+
+</tgroup>
+</table><list id="element-905" list-type="enumerated" number-style="lower-alpha"><item>Utilizando "año" como variable independiente y "número de integrantes de la familia que asisten a la universidad" como variable dependiente, dibuje un diagrama de dispersión de los datos.</item>
+<item>Calcule la línea de mínimos cuadrados. Ponga la ecuación en la forma de: <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis></item>
+<item>Halle el coeficiente de correlación. ¿Es significativo?</item>
+<item>Elija dos años entre 1969 y 1991 y calcule aproximadamente el número de integrantes de la familia que asisten a la universidad. </item>
+<item>Según los datos de la <link target-id="id1034sdfa0215" document=""/>, ¿existe una relación lineal entre el año y el número medio de integrantes de la familia que asisten a la universidad?</item>
+<item>Utilizando la línea de mínimos cuadrados, estime el número de integrantes de la familia que asisten a la universidad para 1960 y 1995. ¿Da la línea de mínimos cuadrados una estimación precisa para esos años? Explique por qué sí o por qué no.</item>
+<item>¿Existen valores atípicos en los datos?</item>
+<item>¿Cuál es el número medio estimado de integrantes de la familia que asisten a la universidad para 1986? ¿La línea de mínimos cuadrados da una estimación precisa para ese año? Explique por qué sí o por qué no.</item>
+<item>¿Cuál es la pendiente de la línea de mínimos cuadrados (de mejor ajuste)? Interprete la pendiente.</item>
+</list></problem></exercise><exercise id="element-402">
+<problem id="id44890157">
+  <para id="element-674">El porcentaje de trabajadoras asalariadas que cobran tarifas por hora se indica en la <link target-id="id8522228278"/> para los años 1979 a 1992.</para><table id="id8522228278" summary="This table presents the year in the first column and percent of workers paid hourly rates in the second column.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>Año</entry>
+            <entry>Porcentaje de trabajadoras que cobran tarifas por hora</entry>
+          </row>
+         </thead>
+         <tbody>
+          <row>
+            <entry align="center">1979</entry>
+            <entry align="center">61,2</entry>
+          </row>
+          <row>
+            <entry align="center">1980</entry>
+            <entry align="center">60,7</entry>
+          </row>
+          <row>
+            <entry align="center">1981</entry>
+            <entry align="center">61,3</entry>
+          </row>
+          <row>
+            <entry align="center">1982</entry>
+            <entry align="center">61,3</entry>
+          </row>
+          <row>
+            <entry align="center">1983</entry>
+            <entry align="center">61,8</entry>
+          </row>
+          <row>
+            <entry align="center">1984</entry>
+            <entry align="center">61,7</entry>
+          </row>
+          <row>
+            <entry align="center">1985</entry>
+            <entry align="center">61,8</entry>
+          </row>
+          <row>
+            <entry align="center">1986</entry>
+            <entry align="center">62,0</entry>
+          </row>
+          <row>
+            <entry align="center">1987</entry>
+            <entry align="center">62,7</entry>
+          </row>
+          <row>
+            <entry align="center">1990</entry>
+            <entry align="center">62,8</entry>
+          </row>
+          <row>
+            <entry align="center">1992</entry>
+            <entry align="center">62,9</entry>
+          </row>
+        </tbody>
+
+
+</tgroup>
+</table>
+<list id="fs-idm78997760" list-type="enumerated" number-style="lower-alpha"><item>Utilizando el "año" como variable independiente y "porcentaje" como variable dependiente, dibuje un diagrama de dispersión de los datos. </item>
+<item>¿Se desprende de la inspección que existe una relación entre las variables? ¿Por qué sí o por qué no?</item>
+<item>Calcule la línea de mínimos cuadrados. Ponga la ecuación en la forma de: <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis></item>
+<item>Halle el coeficiente de correlación. ¿Es significativo?</item>
+<item>Calcule los porcentajes estimados para 1991 y 1988.</item>
+<item>Según los datos, ¿existe una relación lineal entre el año y el porcentaje de mujeres asalariadas que cobran tarifas por hora?</item>
+<item>¿Existen valores atípicos en los datos?</item>
+<item>¿Cuál es el porcentaje estimado para el año 2050? ¿Da la línea de mínimos cuadrados una estimación precisa para ese año? Explique por qué sí o por qué no.</item>
+<item>¿Cuál es la pendiente de la línea de mínimos cuadrados (de mejor ajuste)? Interprete la pendiente.</item>
+</list></problem>
+<solution id="fs-idp11469024">
+<list id="element-571" list-type="enumerated" number-style="lower-alpha"><item>Compruebe la solución del estudiante.</item>
+<item>sí</item>
+<item><emphasis effect="italics">ŷ</emphasis> = -266,8863+0,1656x</item>
+<item>0,9448; Sí</item>
+<item>62,8233; 62,3265</item>
+<item>sí</item>
+<item>no; (1987, 62,7)</item>
+<item>72,5937; no</item>
+<item>pendiente = 0,1656.<newline/>A medida que el año se incrementa en uno, el porcentaje de trabajadoras que cobran una tarifa por hora tiende a aumentar en 0,1656.</item>
+</list></solution>
+</exercise>
+
+<para id="id9018511"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios.</emphasis> El costo de un detergente líquido líder en el mercado en diferentes tamaños se indica en la <link target-id="id10105430" document=""/>.</para><table id="id10105430" summary="This table presents the size of laundry detergent in ounces in the first column and cost in the second column. The third column is left blank for you to calculate the cost per ounce.">
+
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead>
+          <row>
+            <entry>Tamaño (onzas)</entry>
+            <entry>Costo (dólares)</entry>
+            <entry>Costo por onza</entry>
+          </row>
+         </thead>
+         <tbody>
+          <row>
+            <entry align="center">16</entry>
+            <entry align="center">3,99</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry align="center">32</entry>
+            <entry align="center">4,99</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry align="center">64</entry>
+            <entry align="center">5,99</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry align="center">200</entry>
+            <entry align="center">10,99</entry>
+            <entry/>
+          </row>
+        </tbody>
+
+</tgroup>
+</table>
+
+<exercise id="element-454"><problem id="id44893851">
+  <list id="element-775" list-type="enumerated" number-style="lower-alpha">
+<item>Utilizando "tamaño" como variable independiente y "costo" como variable dependiente, dibuje un diagrama de dispersión.</item>
+<item>¿Se desprende de la inspección que existe una relación entre las variables? ¿Por qué sí o por qué no?</item>
+<item>Calcule la línea de mínimos cuadrados. Ponga la ecuación en la forma de: <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis></item>
+<item>Halle el coeficiente de correlación. ¿Es significativo?</item>
+<item>Si el detergente para la ropa se vendiera en un tamaño de 40 onzas, calcule el costo estimado.</item>
+<item>Si el detergente para la ropa se vendiera en un tamaño de 90 onzas, calcule el costo estimado.</item>
+<item>¿Parece que una línea es la mejor forma de ajustar los datos? ¿Por qué sí o por qué no?</item>
+<item>¿Existen valores atípicos en los datos dados?</item>
+<item>¿Es válida la línea de mínimos cuadrados para predecir lo que costaría un tamaño de 300 onzas de detergente para la ropa? ¿Por qué sí o por qué no?</item>
+<item>¿Cuál es la pendiente de la línea de mínimos cuadrados (de mejor ajuste)? Interprete la pendiente.</item>
+</list>
+</problem></exercise><exercise id="element-952"><problem id="id44894852">
+  <list id="element-636" list-type="enumerated" number-style="lower-alpha">
+<item>Complete la <link target-id="id10105430" document=""/> para el costo por onza de los diferentes tamaños.</item>
+<item>Utilizando el "tamaño" como variable independiente y el "costo por onza" como variable dependiente, dibuje un diagrama de dispersión.</item>
+<item>¿Se desprende de la inspección que existe una relación entre las variables? ¿Por qué sí o por qué no?</item>
+<item>Calcule la línea de mínimos cuadrados. Ponga la ecuación en la forma de: <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis></item>
+<item>Halle el coeficiente de correlación. ¿Es significativo?</item>
+<item>Si el detergente se vendiera en un tamaño de 40 onzas, calcule el costo estimado por onza.</item>
+<item>Si el detergente se vendiera en un tamaño de 90 onzas, calcule el costo estimado por onza.</item>
+
+<item>¿Parece que una línea es la mejor forma de ajustar los datos? ¿Por qué sí o por qué no?</item>
+<item>¿Existen valores atípicos en los datos?</item>
+<item>¿Es válida la línea de mínimos cuadrados para predecir lo que costaría por onza un tamaño de 300 onzas de detergente? ¿Por qué sí o por qué no?</item>
+<item>¿Cuál es la pendiente de la línea de mínimos cuadrados (de mejor ajuste)? Interprete la pendiente.</item>
+</list>
+</problem>
+<solution id="eip-idm171665760">
+<list id="eip-idm171665504" list-type="enumerated" number-style="lower-alpha"><item>
+<table id="eip-idm171664512" summary="..">
+
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>Tamaño (onzas)</entry>
+<entry>Costo (dólares)</entry>
+<entry>centavos / onza</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>16</entry>
+<entry>3,99</entry>
+<entry>24,94</entry>
+</row>
+<row>
+<entry>32</entry>
+<entry>4,99</entry>
+<entry>15,59</entry>
+</row>
+<row>
+<entry>64</entry>
+<entry>5,99</entry>
+<entry>9,36</entry>
+</row>
+<row>
+<entry>200</entry>
+<entry>10,99</entry>
+<entry>5,50</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+<item>Compruebe la solución del estudiante </item>
+<item>Existe una relación lineal para los tamaños 16 a 64, pero esa tendencia lineal no continúa hasta el tamaño de 200 onzas.</item>
+<item><emphasis effect="italics">ŷ</emphasis> = 20,2368 - 0,0819x</item>
+<item><emphasis effect="italics">r</emphasis> = -0,8086</item>
+<item>40-oz: 16,96 centavos / onza</item>
+<item>90-oz: 12,87 centavos / onza</item>
+<item>La relación no es lineal; la línea de mínimos cuadrados no es apropiada.</item>
+<item>no hay valores atípicos</item>
+<item>No, estaría extrapolando. El tamaño de 300 onzas está fuera del rango de <emphasis effect="italics">x</emphasis>.</item>
+<item>pendiente = -0,08194; por cada onza adicional de tamaño, el costo por onza disminuye en 0,082 centavos.</item></list></solution>
+</exercise><exercise id="element-574"><problem id="id44895425">
+  <para id="element-35">Según un folleto de un representante de la compañía de seguros Prudential, los costos aproximados de los honorarios e impuestos sucesorios para determinados patrimonios netos gravables son los siguientes:</para>
+
+<table id="id1kkk0457049" summary="This table presents the net taxable estate in the first column and the approximate probate fees and taxes in the second column.">
+
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>Patrimonio neto gravable (dólares)</entry>
+            <entry>Tasas e impuestos sucesorios aproximados (dólares)</entry>
+          </row>
+         </thead>
+         <tbody>
+          <row>
+            <entry align="center">600.000</entry>
+            <entry align="center">30.000</entry>
+          </row>
+          <row>
+            <entry align="center">750.000</entry>
+            <entry align="center">92.500</entry>
+          </row>
+          <row>
+            <entry align="center">1.000.000</entry>
+            <entry align="center">203.000</entry>
+          </row>
+          <row>
+            <entry align="center">1.500.000</entry>
+            <entry align="center">438.000</entry>
+          </row>
+          <row>
+            <entry align="center">2.000.000</entry>
+            <entry align="center">688.000</entry>
+          </row>
+          <row>
+            <entry align="center">2.500.000</entry>
+            <entry align="center">1.037.000</entry>
+          </row>
+          <row>
+            <entry align="center">3.000.000</entry>
+            <entry align="center">1.350.000</entry>
+          </row>
+        </tbody>
+
+
+</tgroup>
+</table>
+
+<list id="fs-idm56414288" list-type="enumerated" number-style="lower-alpha"><item>Decida cuál variable debe ser la independiente y cuál la dependiente.</item>
+<item>Dibuje un diagrama de dispersión de los datos.</item>
+<item>¿Se desprende de la inspección que existe una relación entre las variables? ¿Por qué sí o por qué no?</item>
+<item>Calcule la línea de mínimos cuadrados. Ponga la ecuación en la forma de: <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>.</item>
+<item>Halle el coeficiente de correlación. ¿Es significativo?</item>
+<item>Calcule el costo total estimado para un próximo patrimonio gravable de 1.000.000 de dólares. Calcule el costo para 2.500.000 dólares.</item>
+<item>¿Parece que una línea es la mejor forma de ajustar los datos? ¿Por qué sí o por qué no?</item>
+<item>¿Existen valores atípicos en los datos?</item>
+<item>Con base en estos resultados, ¿cuáles serían los honorarios e impuestos sucesorios para un patrimonio sin ningún activo?</item>
+<item>¿Cuál es la pendiente de la línea de mínimos cuadrados (de mejor ajuste)? Interprete la pendiente.</item>
+</list></problem></exercise><exercise id="element-911">
+<problem id="id44844693">
+<para id="element-224">Los siguientes son los precios de venta anunciados de televisores a color en Anderson's.</para>
+
+<table id="id90742asdgfa85" summary="This table presents the size of color televisions in inches in the first column and the sale price in the second column.">
+
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>Tamaño (pulgadas)</entry>
+            <entry>Precio de venta (dólares)</entry>
+          </row>
+         </thead>
+         <tbody>
+          <row>
+            <entry align="center">9</entry>
+            <entry align="center">147</entry>
+          </row>
+          <row>
+            <entry align="center">20</entry>
+            <entry align="center">197</entry>
+          </row>
+          <row>
+            <entry align="center">27</entry>
+            <entry align="center">297</entry>
+          </row>
+          <row>
+            <entry align="center">31</entry>
+            <entry align="center">447</entry>
+          </row>
+          <row>
+            <entry align="center">35</entry>
+            <entry align="center">1177</entry>
+          </row>
+          <row>
+            <entry align="center">40</entry>
+            <entry align="center">2177</entry>
+          </row>
+          <row>
+            <entry align="center">60</entry>
+            <entry align="center">2497</entry>
+          </row>
+        </tbody>
+
+
+</tgroup>
+</table>
+
+<list id="fs-idp143667904" list-type="enumerated" number-style="lower-alpha"><item>Decida cuál variable debe ser la independiente y cuál la dependiente.</item>
+<item>Dibuje un diagrama de dispersión de los datos.</item>
+<item>¿Se desprende de la inspección que existe una relación entre las variables? ¿Por qué sí o por qué no?</item>
+<item>Calcule la línea de mínimos cuadrados. Ponga la ecuación en la forma de: <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis></item>
+<item>Halle el coeficiente de correlación. ¿Es significativo?</item>
+<item>Calcule el precio estimado de venta de un televisor de 32 pulgadas. Calcule el costo de un televisor de 50 pulgadas.</item>
+<item>¿Parece que una línea es la mejor forma de ajustar los datos? ¿Por qué sí o por qué no?</item>
+<item>¿Existen valores atípicos en los datos?</item>
+<item>¿Cuál es la pendiente de la línea de mínimos cuadrados (de mejor ajuste)? Interprete la pendiente.</item>
+</list></problem>
+<solution id="fs-idm8083616">
+<list id="fs-idm47882016" list-type="enumerated" number-style="lower-alpha"><item>El tamaño es <emphasis effect="italics">x</emphasis>, la variable independiente, el precio es <emphasis effect="italics">y</emphasis>, la variable dependiente.</item>
+<item>Compruebe la solución del estudiante</item>
+<item>La relación no parece ser lineal.</item>
+<item><emphasis effect="italics">ŷ</emphasis> = -745,252 + 54,75569<emphasis effect="italics">x</emphasis></item>
+<item><emphasis effect="italics">r</emphasis> = 0,8944, sí es significativo</item>
+<item>32 pulgadas: 1006,93 dólares, 50 pulgadas: 1992,53 dólares</item>
+<item>No, la relación no parece ser lineal. Sin embargo, <emphasis effect="italics">r</emphasis> es significativo.</item>
+<item>no, el televisor de 60 pulgadas</item>
+<item>Por cada pulgada adicional, el precio aumenta en 54,76 dólares</item>
+</list></solution>
+</exercise>
+
+<exercise id="element-188"><problem id="id44845835">
+  <para id="element-654">La <link target-id="id797832aawwee6" document=""/> muestra la estatura promedio de los niños estadounidenses en 1990.</para><table id="id797832aawwee6" summary="This table presents the boys' ages in years in the first column and average heights in centimeters in the second column.">
+
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>Edad (años)</entry>
+            <entry>Altura (cm)</entry>
+          </row>
+         </thead>
+         <tbody>
+          <row>
+            <entry align="center">nacimiento</entry>
+            <entry align="center">50,8</entry>
+          </row>
+          <row>
+            <entry align="center">2</entry>
+            <entry align="center">83,8</entry>
+          </row>
+          <row>
+            <entry align="center">3</entry>
+            <entry align="center">91,4</entry>
+          </row>
+          <row>
+            <entry align="center">5</entry>
+            <entry align="center">106,6</entry>
+          </row>
+          <row>
+            <entry align="center">7</entry>
+            <entry align="center">119,3</entry>
+          </row>
+          <row>
+            <entry align="center">10</entry>
+            <entry align="center">137,1</entry>
+          </row>
+          <row>
+            <entry align="center">14</entry>
+            <entry align="center">157,5</entry>
+          </row>
+        </tbody>
+
+
+
+</tgroup>
+</table>
+
+<list id="fs-idm47970272" list-type="enumerated" number-style="lower-alpha"><item>Decida cuál variable debe ser la independiente y cuál la dependiente.</item>
+<item>Dibuje un diagrama de dispersión de los datos.</item>
+<item>¿Se desprende de la inspección que existe una relación entre las variables? ¿Por qué sí o por qué no?</item>
+<item>Calcule la línea de mínimos cuadrados. Ponga la ecuación en la forma de: <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis></item>
+<item>Halle el coeficiente de correlación. ¿Es significativo?</item>
+<item>Calcule la altura promedio estimada para un niño de un año. Calcule la altura promedio estimada para un niño de once años.</item>
+<item>¿Parece que una línea es la mejor forma de ajustar los datos? ¿Por qué sí o por qué no?</item>
+<item>¿Existen valores atípicos en los datos?</item>
+<item>Utilice la línea de mínimos cuadrados para estimar la altura media de un hombre de sesenta y dos años. ¿Cree que su respuesta es razonable? ¿Por qué sí o por qué no?</item>
+<item>¿Cuál es la pendiente de la línea de mínimos cuadrados (de mejor ajuste)? Interprete la pendiente.</item>
+</list></problem>
+</exercise><exercise id="element-133">
+<problem id="id44851052">
+<table id="fs-idp62448384" summary="..">
+
+<tgroup cols="5">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<thead>
+<row>
+<entry>Estado</entry>
+<entry>N.º de letras en el nombre</entry>
+<entry>Año de entrada en la Unión</entry>
+<entry>Clasificación de entrada a la Unión</entry>
+<entry>Superficie (millas cuadradas)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Alabama</entry>
+<entry>7</entry>
+<entry>1819</entry>
+<entry>22</entry>
+<entry>52.423</entry>
+</row>
+<row>
+<entry>Colorado</entry>
+<entry>8</entry>
+<entry>1876</entry>
+<entry>38</entry>
+<entry>104.100</entry>
+</row>
+<row>
+<entry>Hawái</entry>
+<entry>6</entry>
+<entry>1959</entry>
+<entry>50</entry>
+<entry>10.932</entry>
+</row>
+<row>
+<entry>Iowa</entry>
+<entry>4</entry>
+<entry>1846</entry>
+<entry>29</entry>
+<entry>56.276</entry>
+</row>
+<row>
+<entry>Maryland</entry>
+<entry>8</entry>
+<entry>1788</entry>
+<entry>7</entry>
+<entry>12.407</entry>
+</row>
+<row>
+<entry>Misuri</entry>
+<entry>8</entry>
+<entry>1821</entry>
+<entry>24</entry>
+<entry>69.709</entry>
+</row>
+<row>
+<entry>Nueva Jersey</entry>
+<entry>9</entry>
+<entry>1787</entry>
+<entry>3</entry>
+<entry>8.722</entry>
+</row>
+<row>
+<entry>Ohio</entry>
+<entry>4</entry>
+<entry>1803</entry>
+<entry>17</entry>
+<entry>44.828</entry>
+</row>
+<row>
+<entry>Carolina del Sur</entry>
+<entry>13</entry>
+<entry>1788</entry>
+<entry>8</entry>
+<entry>32.008</entry>
+</row>
+<row>
+<entry>Utah</entry>
+<entry>4</entry>
+<entry>1896</entry>
+<entry>45</entry>
+<entry>84.904</entry>
+</row>
+<row>
+<entry>Wisconsin</entry>
+<entry>9</entry>
+<entry>1848</entry>
+<entry>30</entry>
+<entry>65.499</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+  <para id="element-564">Nos interesa saber si existe una relación entre la clasificación de un estado y su área.</para>
+<list id="fs-idm58683136" list-type="enumerated" number-style="lower-alpha">
+<item>¿Cuáles son las variables independientes y dependientes?</item>
+<item>¿Cómo cree que será el diagrama de dispersión? Haga un diagrama de dispersión de los datos.</item>
+<item>¿Se desprende de la inspección que existe una relación entre las variables? ¿Por qué sí o por qué no?</item>
+<item>Calcule la línea de mínimos cuadrados. Ponga la ecuación en la forma de: <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis></item>
+<item>Halle el coeficiente de correlación. ¿Qué implica esto sobre la importancia de la relación?</item>
+<item>Calcule las áreas estimadas para Alabama y Colorado. ¿Están cerca de las áreas reales?</item>
+<item>Utilice los dos puntos de la parte f para trazar la línea de mínimos cuadrados en su gráfico de la parte b.</item>
+<item>¿Parece que una línea es la mejor forma de ajustar los datos? ¿Por qué sí o por qué no?</item>
+<item>¿Hay valores atípicos?</item>
+<item>Utilice la línea de mínimos cuadrados para estimar el área de un nuevo estado que entra en la Unión. ¿Se puede utilizar la línea de mínimos cuadrados para predecirla? ¿Por qué sí o por qué no?</item>
+<item>Elimine "Hawái" y sustituya por "Alaska". Alaska es el cuadragésimo noveno estado, con un área de 656.424 millas cuadradas.</item>
+<item>Calcule la nueva línea de mínimos cuadrados.</item>
+<item>Calcule el área estimada para Alabama. ¿Está más cerca del área real con esta nueva línea de mínimos cuadrados o con la anterior que incluía a Hawái? ¿Por qué cree que es así?</item>
+<item>¿Cree que, en general, los estados más nuevos son más grandes que los originales?</item>
+</list>
+</problem>
+<solution id="fs-idp131481968">
+<list id="fs-idp131482224" list-type="enumerated" number-style="lower-alpha"><item>Supongamos que la clasificación es la variable independiente y el área la variable dependiente.</item>
+<item>Compruebe la solución del estudiante</item>
+<item>Parece haber una relación lineal, con un valor atípico.</item>
+<item><emphasis effect="italics">ŷ</emphasis> (área) = 24177,06 + 1010,478<emphasis effect="italics">x</emphasis></item>
+<item><emphasis effect="italics">r</emphasis> = 0,50047, <emphasis effect="italics">r</emphasis> no es significativa por lo que no hay relación entre las variables.</item>
+<item>Alabama: 46407,576 Colorado: 62575,224</item>
+<item>La estimación de Alabama está más cerca que la de Colorado.</item>
+<item>Si se elimina el valor atípico, existe una relación lineal. </item>
+<item>Hay un caso atípico (Hawái).</item>
+<item>clasificación 51: 75711,4; no</item>
+<item><table id="fs-idp169197456" summary="..">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<thead>
+<row>
+<entry>Alabama</entry>
+<entry>7</entry>
+<entry>1819</entry>
+<entry>22</entry>
+<entry>52.423</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Colorado</entry>
+<entry>8</entry>
+<entry>1876</entry>
+<entry>38</entry>
+<entry>104.100</entry>
+</row>
+<row>
+<entry>Hawái</entry>
+<entry>6</entry>
+<entry>1959</entry>
+<entry>50</entry>
+<entry>10.932</entry>
+</row>
+<row>
+<entry>Iowa</entry>
+<entry>4</entry>
+<entry>1846</entry>
+<entry>29</entry>
+<entry>56.276</entry>
+</row>
+<row>
+<entry>Maryland</entry>
+<entry>8</entry>
+<entry>1788</entry>
+<entry>7</entry>
+<entry>12.407</entry>
+</row>
+<row>
+<entry>Misuri</entry>
+<entry>8</entry>
+<entry>1821</entry>
+<entry>24</entry>
+<entry>69.709</entry>
+</row>
+<row>
+<entry>Nueva Jersey</entry>
+<entry>9</entry>
+<entry>1787</entry>
+<entry>3</entry>
+<entry>8.722</entry>
+</row>
+<row>
+<entry>Ohio</entry>
+<entry>4</entry>
+<entry>1803</entry>
+<entry>17</entry>
+<entry>44.828</entry>
+</row>
+<row>
+<entry>Carolina del Sur</entry>
+<entry>13</entry>
+<entry>1788</entry>
+<entry>8</entry>
+<entry>32.008</entry>
+</row>
+<row>
+<entry>Utah</entry>
+<entry>4</entry>
+<entry>1896</entry>
+<entry>45</entry>
+<entry>84.904</entry>
+</row>
+<row>
+<entry>Wisconsin</entry>
+<entry>9</entry>
+<entry>1848</entry>
+<entry>30</entry>
+<entry>65.499</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></item>
+<item><emphasis effect="italics">ŷ</emphasis> = -87065,3 + 7828,532x</item>
+<item>Alabama: 85.162,404; la estimación anterior estaba más cerca. Alaska es un caso atípico.</item>
+<item>sí, con la excepción de Hawái.</item>
+
+</list></solution>
+</exercise>
+
+
+
+</section>
+
+   </content>
+  <glossary>
+<definition id="outlier">
+    <term>Atípico</term>
+    <meaning id="id1171166689919">una observación que no se ajusta al resto de los datos</meaning>
+  </definition>
+</glossary>
+</document>

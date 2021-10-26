@@ -1,0 +1,863 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Teorema del límite central de las medias muestrales</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54534</md:content-id>
+  <md:title>Teorema del límite central de las medias muestrales</md:title>
+  <md:abstract/>
+  <md:uuid>876f6b88-96cc-4ed7-97c2-c157312a1d1a</md:uuid>
+</metadata>
+
+<content>
+<para id="eip-125">La distribución muestral es una distribución teórica. It is created by taking many samples of size n from a population. Cada media muestral se trata entonces como una única observación de esta nueva distribución, la distribución muestral. La genialidad de pensar de esta manera es que reconoce que cuando tomamos una muestra estamos creando una observación y esa observación debe provenir de alguna distribución particular. El teorema del límite central responde a la pregunta: ¿de qué distribución procede la media de una muestra? Si se descubre esto, entonces podemos tratar una media muestral como cualquier otra observación y calcular probabilidades sobre los valores que puede tomar. En efecto, hemos pasado del mundo de la estadística, en el que solo conocemos lo que tenemos de la muestra, al mundo de la probabilidad, en el que conocemos la distribución de la que procede la media muestral y los parámetros de esa distribución. </para><para id="eip-663">Las razones por las que se toma una muestra de una población son obvias. El tiempo y el gasto de comprobar cada factura para determinar su validez o cada envío para ver si contiene todos los artículos puede superar con creces el coste de los errores de facturación o envío. En el caso de algunos productos, el muestreo requeriría su destrucción, lo que se denomina muestreo destructivo. Un ejemplo de ello es la medición de la capacidad de un metal para resistir la corrosión del agua salada en las piezas de los buques oceánicos.</para><para id="eip-500">El muestreo plantea, pues, una cuestión importante: qué muestra se ha extraído. Incluso si la muestra se extrajera al azar, en teoría hay un número casi infinito de muestras. Con solo 100 artículos, se pueden extraer más de 75 millones de muestras únicas de tamaño cinco. Si hay seis en la muestra, el número de muestras posibles aumenta a algo más de mil millones. Entonces, de los 75 millones de muestras posibles, ¿cuál obtuvo? Si hay variación en los artículos que se van a muestrear, habrá variación en las muestras. Se podría extraer una muestra "desafortunada" y sacar conclusiones muy erróneas sobre la población. Este reconocimiento de que cualquier muestra que extraigamos es en realidad solo una de una distribución de muestras nos proporciona el que probablemente sea el teorema más importante de la estadística: <term id="term-00001">el teorema del límite central</term>. Sin el teorema del límite central sería imposible pasar a la estadística inferencial a partir de la teoría de la probabilidad simple. En su forma más básica, el teorema del límite central establece que, <emphasis effect="bold">independientemente</emphasis> de la función de densidad de probabilidad subyacente de los datos de la población, la distribución teórica de las medias de las muestras de la población se distribuirá normalmente. En esencia, esto dice que la media de una muestra debe tratarse como una observación extraída de una distribución normal. El Teorema del Límite Central solo se cumple si el tamaño de la muestra es "suficientemente grande", lo que se ha demostrado que es de solo 30 observaciones o más. </para><para id="eip-143">La <link target-id="fs-id7367289"/> muestra gráficamente esta importante propuesta. </para><figure id="fs-id7367289"><media id="fs-id1166512578484" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch07_01_01n.jpg" width="420"/></media></figure><para id="eip-30">Observe que el eje horizontal del panel superior está etiquetado como X. Se trata de las observaciones individuales de la población. Esta es la distribución <emphasis effect="bold">desconocida</emphasis> de los valores de la población. El gráfico está dibujado a propósito de forma cuadriculada para mostrar que no importa lo extraña que sea en realidad. Recuerde que nunca sabremos cómo es esta distribución, ni su media ni su desviación típica.</para><para id="eip-184">El eje horizontal del panel inferior está etiquetado como <m:math>
+<m:mover><m:mi>X</m:mi><m:mo>–</m:mo>
+</m:mover>
+</m:math>'s. Se trata de la distribución teórica denominada distribución muestral de las medias. Cada observación de esta distribución es una media muestral. Todas estas medias muestrales se calcularon a partir de muestras individuales con el mismo tamaño de muestra. La distribución muestral teórica contiene todos los valores medios muestrales de todas las muestras posibles que podrían haberse tomado de la población. Por supuesto, nadie tomaría realmente todas estas muestras, pero si lo hicieran, este es el aspecto que tendrían. Y el teorema del límite central dice que se distribuirán normalmente.</para><para id="eip-665">El teorema del límite central va más allá y nos indica la media y la desviación típica de esta distribución teórica. </para><table id="eip-121" summary="Table">
+<tgroup cols="4"><thead>
+  <row>
+    <entry>Parámetro</entry>
+    <entry>Distribución de la población</entry>
+    <entry>Muestra</entry>
+    <entry>Distribución muestral de <m:math>
+<m:mover>
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+</m:math>'s</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>Media</entry>
+    <entry>μ</entry>
+    <entry>Los términos <m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:math></entry>
+    <entry>Los términos <m:math><m:msub><m:mi>μ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub><m:mspace width="1em"/><m:mtext>y E</m:mtext><m:mo>(</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>μ</m:mi></m:math></entry>
+  </row>
+  <row>
+    <entry>Desviación típica</entry>
+    <entry>σ</entry>
+    <entry>s</entry>
+    <entry>Los términos <m:math><m:msub><m:mi>σ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>σ</m:mi></m:mrow><m:mrow><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac></m:math></entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table><para id="eip-155">La importancia práctica del teorema del límite central es que ahora podemos calcular las probabilidades de obtener una media muestral, <m:math>
+<m:mover>
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+</m:math>, de la misma manera que lo hicimos para extraer observaciones específicas, X's, cuando conocíamos la media y la desviación típica de la población y que los datos de la población estaban distribuidos normalmente. La fórmula de estandarización tiene que modificarse para reconocer que la media y la desviación típica de la distribución muestral, a veces llamada error estándar de la media, son diferentes de las de la distribución de la población, pero por lo demás no ha cambiado nada. La nueva fórmula de estandarización es
+</para><para id="eip-584"><equation class="unnumbered" id="eip-id1167359909290"><label/><m:math display="block">
+<m:mrow>
+<m:mi>Z</m:mi><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mover>
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+<m:mo>- −</m:mo><m:msub>
+<m:mi>μ</m:mi>
+<m:mover>
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mover>
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+</m:msub>
+</m:mrow>
+
+</m:mfrac>
+</m:mrow>
+
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mover>
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+<m:mo>–</m:mo>
+<m:mi>μ</m:mi></m:mrow>
+<m:mrow>
+<m:mfrac><m:mrow>
+<m:mi>σ</m:mi>
+</m:mrow><m:mrow>
+<m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac></m:mrow></m:mfrac>
+
+</m:math></equation></para><para id="eip-655">Observe que <m:math><m:msub><m:mtext>µ</m:mtext>
+<m:mover>
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover></m:msub>
+</m:math> en la primera fórmula se ha cambiado por simplemente µ en la segunda versión. La razón es que matemáticamente se puede demostrar que el valor esperado de <m:math><m:msub><m:mtext>µ</m:mtext>
+<m:mover>
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover></m:msub>
+</m:math> es igual a µ. Esto se ha indicado en la <link target-id="eip-121"/> anteriormente. Matemáticamente, el símbolo E(x) indica el "valor esperado de x". Esta fórmula se utilizará en la siguiente unidad para proporcionar estimaciones del parámetro poblacional <emphasis effect="bold">desconocido</emphasis> μ.</para><section id="fs-idp10661120" class="references">
+<title>Referencias</title>
+<para id="fs-idp64632544">Baran, Daya. “20 Percent of Americans Have Never Used Email.”WebGuild, 2010. Disponible en línea en http://www.webguild.org/20080519/20-percent-of-americans-have-never-used-email (consultado el 17 de mayo de 2013).</para>
+<para id="fs-idp57996496">Datos de The Flurry Blog, 2013. Disponible en línea en http://blog.flurry.com (consultado el 17 de mayo de 2013).</para>
+<para id="fs-idp112347536">Datos del Departamento de Agricultura de Estados Unidos.</para>
+</section>
+
+<section id="fs-idm33599328" class="summary">
+<title>Revisión del capítulo</title>
+<para id="fs-idm66102448">En una población cuya distribución puede ser conocida o desconocida, si el tamaño (<emphasis effect="italics">n</emphasis>) de las muestras es suficientemente grande, la distribución de las medias muestrales será aproximadamente normal. La media de las medias muestrales será igual a la media poblacional. La desviación típica de la distribución de las medias muestrales, denominada error estándar de la media, es igual a la desviación típica de la población dividida entre la raíz cuadrada del tamaño de la muestra (<emphasis effect="italics">n</emphasis>).</para></section>
+
+
+<section id="fs-idm104045584" class="formula-review">
+<title>Revisión de la fórmula</title>
+<para id="fs-idm43969232">El teorema del límite central para las medias muestrales: <newline/></para><para id="eip-55">Los términos <m:math>
+<m:mover>
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+</m:math> ~ <emphasis effect="italics">N</emphasis><m:math>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mover>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+</m:msub>
+<m:mtext>, </m:mtext><m:mfrac>
+<m:mrow>
+<m:mi>σ</m:mi>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:math> grandes.</para><para id="eip-218">Los términos <m:math>
+<m:mrow>
+<m:mi>Z</m:mi><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mover>
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+<m:mo>- −</m:mo><m:msub>
+<m:mi>μ</m:mi>
+<m:mover>
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mover>
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+</m:msub>
+</m:mrow>
+
+</m:mfrac>
+</m:mrow>
+
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mover>
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+<m:mo>–</m:mo>
+<m:mi>μ</m:mi></m:mrow>
+<m:mrow>
+<m:mi>σ</m:mi>
+<m:mo>/</m:mo>
+<m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac>
+
+</m:math></para><para id="fs-idm14943744">La media <m:math>
+ <m:mover>
+  <m:mi>X</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+<m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub></m:math></para><para id="fs-idp59416400">Teorema del límite central de las medias muestrales de Puntuación z <m:math>
+<m:mrow>
+<m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mover>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+<m:mo>- −</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub>
+</m:mrow>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+
+<m:mi>σ</m:mi>
+
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math></para><para id="fs-idp66400464">Error estándar de la media (desviación típica (<m:math>
+ <m:mover>
+  <m:mi>X</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math>)): <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+
+     <m:mi>σ</m:mi>
+
+
+   </m:mrow>
+   <m:mrow>
+    <m:msqrt>
+     <m:mi>n</m:mi>
+    </m:msqrt>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></para><para id="eip-69">Factor de corrección de la población finita para la distribución muestral de las medias: <m:math><m:mi>Z</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>-</m:mo><m:mi>μ</m:mi></m:mrow><m:mrow><m:mfrac><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac><m:mo>·</m:mo><m:msqrt><m:mfrac><m:mrow><m:mi>N</m:mi><m:mo>- −</m:mo><m:mi>n</m:mi></m:mrow><m:mrow><m:mi>N</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:msqrt></m:mrow></m:mfrac></m:math></para><para id="eip-225">Factor de corrección de la población finita para la distribución muestral de las proporciones: <m:math><m:msub><m:mi>σ</m:mi><m:mi>p'</m:mi></m:msub><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:msqrt><m:mo>×</m:mo><m:msqrt><m:mfrac><m:mrow><m:mi>N</m:mi><m:mo>- −</m:mo><m:mi>n</m:mi></m:mrow><m:mrow><m:mi>N</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:msqrt></m:math></para></section>
+
+
+<section id="fs-idp66376176" class="free-response">
+<title>Tarea para la casa</title>
+<exercise id="element-475">
+<problem id="id6273705">
+<para id="element-850">Anteriormente, los estudiantes de Estadística de De Anza estimaron que la cantidad de cambio que llevan los estudiantes de Estadística durante el día se distribuye exponencialmente con una media de 0,88 dólares. Supongamos que elegimos al azar a 25 estudiantes diurnos de Estadística.</para>
+<list id="element-224" list-type="enumerated" number-style="lower-alpha">
+<item>En palabras, <emphasis effect="italics">Χ</emphasis> = ____________</item>
+<item><emphasis effect="italics">Χ</emphasis> ~ _____(_____,_____)</item>
+<item>En palabras, <m:math>
+ <m:mover>
+  <m:mi>X</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math> = ____________</item>
+<item>Los términos <m:math>
+<m:mover>
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+</m:math> ~ ______ (______, ______)</item>
+<item>Calcule la probabilidad de que una persona tenga entre 0,80 y 1,00 dólares. Grafique la situación, y sombree en la zona que se determine.</item>
+<item>Calcule la probabilidad de que el promedio de los 25 estudiantes esté entre 0,80 y 1,00 dólares. Grafique la situación, y sombree en la zona que se determine.</item>
+<item>Explique por qué hay una diferencia en la parte e y en la parte f.</item>
+</list></problem>
+<solution id="fs-idp10454080">
+<list id="fs-idm137132816" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">Χ</emphasis> = cantidad de cambio que llevan los estudiantes</item>
+<item><emphasis effect="italics">Χ</emphasis> ~ <emphasis effect="italics">E</emphasis>(0,88; 0,88)</item>
+<item>Los términos <m:math>
+<m:mover>
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+</m:math> = cantidad de cambio media llevada por una muestra de 25 estudiantes.</item>
+<item>Los términos <m:math>
+<m:mover>
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+
+</m:math> ~ <emphasis effect="italics">N</emphasis>(0,88; 0,176)</item>
+<item>0,0819</item>
+<item>0,1882</item>
+<item>Las distribuciones son diferentes. La parte a es exponencial y la parte b es normal.</item>
+</list></solution>
+</exercise>
+
+<exercise id="element-51"><problem id="id6273949">
+<para id="element-365">Supongamos que la distancia de los batazos de aire lanzados al campo (en béisbol) se distribuye normalmente, con una media de 250 pies y una desviación típica de 50 pies. Tomamos una muestra aleatoria de 49 batazos de aire.</para><list id="element-530" list-type="enumerated" number-style="lower-alpha"><item>Si <m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+
+</m:math> = distancia promedio en pies para 49 batazos de aire, entonces <m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+
+</m:math> ~ _______(_______,_______)</item>
+<item>¿Cuál es la probabilidad de que las 49 pelotas hayan volado un promedio de menos de 240 pies? Dibuje el gráfico. Escala el eje horizontal para <m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+</m:math>. Sombree la región correspondiente a la probabilidad. Calcule la probabilidad.</item>
+<item>Calcule el percentil 80<sup/> de la distribución del promedio de 49 batazos de aire.</item>
+</list></problem>
+
+<!-- <solution id="id6274098">
+<list id="element-804" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">N</emphasis><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>250,&#160;</m:mtext><m:mfrac>
+     <m:mrow>
+      <m:mn>50</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:msqrt>
+       <m:mrow>
+        <m:mn>49</m:mn>
+       </m:mrow>
+      </m:msqrt>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></item>
+<item>0.0808</item>
+<item>256.01 feet</item></list></solution> -->
+</exercise><exercise id="element-820">
+<problem id="id6533450">
+<para id="element-518">Según el Servicio de Impuestos Internos, el tiempo promedio que tarda una persona en terminar (llevar un registro, aprender, preparar, copiar, recopilar y enviar) el formulario 1040 del IRS es de 10,53 horas (sin los anexos). La distribución es desconocida. Supongamos que la desviación típica es de dos horas. Supongamos que tomamos una muestra aleatoria de 36 contribuyentes.</para>
+
+<list id="element-685" list-type="enumerated" number-style="lower-alpha"><item>En palabras, <emphasis effect="italics">Χ</emphasis> = _____________</item>
+<item>En palabras, <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math> = _____________</item>
+<item>Los términos <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math> ~ _____(_____,_____)</item>
+<item>¿Le sorprendería que los 36 contribuyentes terminaran su formulario 1040 en un promedio de más de 12 horas? Explique por qué sí o por qué no en oraciones completas.</item>
+<item>¿Le sorprendería que un contribuyente terminara su formulario 1040 en más de 12 horas? Explique por qué en una oración completa.</item></list></problem>
+<solution id="fs-idm166717360">
+<list id="fs-idm37918272" list-type="enumerated" number-style="lower-alpha"><item>tiempo que tarda una persona en terminar el formulario 1040 del IRS, en horas.</item>
+<item>duración media de una muestra de 36 contribuyentes en terminar el formulario 1040 del IRS, en horas.</item>
+<item><emphasis effect="italics">N</emphasis><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>10</m:mtext><m:mtext>0,53, </m:mtext><m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></item>
+<item>Sí. Me sorprendería, porque la probabilidad es casi 0.</item>
+<item>No. No me sorprendería del todo porque la probabilidad es de 0,2312</item></list></solution>
+</exercise>
+
+<exercise id="element-133"><problem id="id6533652">
+<para id="element-243">Supongamos que se sabe que una categoría de corredores de clase mundial corre un maratón (26 millas) en un promedio de 145 minutos con una desviación típica de 14 minutos. Considere 49 de las carreras. Supongamos que <m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+
+</m:math> el promedio de las 49 carreras.</para>
+
+<list id="element-45" list-type="enumerated" number-style="lower-alpha">
+<item>Los términos <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math> ~ _____(_____,_____)</item>
+<item>Calcule la probabilidad de que el corredor tenga un promedio entre 142 y 146 minutos en estos 49 maratones.</item>
+<item>Calcule el percentil 80<sup/> del promedio de estos 49 maratones.</item>
+<item>Calcule la mediana de los tiempos medios de ejecución.</item></list></problem>
+
+<!-- <solution id="id6533816">
+<list id="element-402" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">N</emphasis><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>145,&#160;</m:mtext><m:mfrac>
+     <m:mrow>
+      <m:mn>14</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:msqrt>
+       <m:mrow>
+        <m:mn>49</m:mn>
+       </m:mrow>
+      </m:msqrt>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></item>
+<item>0.6247</item>
+<item>146.68 </item>
+<item>145 minutes</item></list></solution> -->
+</exercise><exercise id="element-848">
+<problem id="id6534960">
+<para id="element-175">La duración de las canciones en la colección de álbumes de iTunes de un coleccionista se distribuye uniformemente de dos a 3,5 minutos. Supongamos que elegimos al azar cinco álbumes de la colección. Hay un total de 43 canciones en los cinco álbumes.</para>
+<list id="element-118" list-type="enumerated" number-style="lower-alpha"><item>En palabras, <emphasis effect="italics">Χ</emphasis> = _________</item>
+<item><emphasis effect="italics">Χ</emphasis> ~ _____________</item>
+<item>En palabras, <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math> = _____________</item>
+<item>Los términos <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math> ~ _____(_____,_____)</item>
+<item>Calcule el primer cuartil para la duración media de la canción.</item>
+<item>El IQR (rango intercuartil) para la longitud media de la canción es de _______-_______.</item></list></problem>
+<solution id="fs-idm135637280">
+<list id="fs-idm135637024" list-type="enumerated" number-style="lower-alpha"><item>la duración de una canción, en minutos, en la colección</item>
+<item><emphasis effect="italics">U</emphasis>(2, 3,5)</item>
+<item>la duración promedio, en minutos, de las canciones de una muestra de cinco álbumes de la colección</item>
+<item><emphasis effect="italics">N</emphasis>(2,75, 0,066)</item>
+<item>2,74 minutos</item>
+<item>0,03 minutos</item>
+</list></solution>
+</exercise>
+
+<exercise id="element-424"><problem id="id6536525">
+<para id="element-799">En 1940, el tamaño promedio de una granja en EE. UU. era de 174 acres. Digamos que la desviación típica era de 55 acres. Supongamos que encuestamos al azar a 38 agricultores de 1940.</para>
+<list id="madeup2" list-type="enumerated" number-style="lower-alpha">
+<item>En palabras, <emphasis effect="italics">Χ</emphasis> = _____________</item>
+<item>En palabras, <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>-</m:mo>
+ </m:mover>
+
+</m:math> = _____________</item>
+<item>Los términos <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math> ~ _____(_____,_____)</item>
+<item>El IQR para <m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+</m:math> es de _______ acres a _______ acres.</item>
+</list></problem>
+
+<!-- <solution id="fs-idm55467904">
+<list id="fs-idm55467648" list-type="enumerated" number-style="lower-alpha"><item>the size of a U.S. farm in 1940</item>
+<item>the average size of a U.S. farm, in acres</item>
+<item><emphasis effect="italics">N</emphasis><m:math>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>174</m:mn><m:mtext>,&#160;</m:mtext><m:mfrac>
+<m:mrow>
+<m:mn>55</m:mn>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mn>38</m:mn>
+</m:mrow>
+</m:msqrt>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:math></item>
+<item>168.0, 180.0</item>
+</list></solution> -->
+</exercise><exercise id="element-371">
+<problem id="id6264723">
+<para id="fs-idm19354672">Determine cuáles de las siguientes afirmaciones son verdaderas y cuáles son falsas. Luego, justifique sus respuestas con oraciones completas.</para>
+
+<list id="fs-idm39736064" list-type="enumerated" number-style="lower-alpha">
+<item>Cuando el tamaño de la muestra es grande, la media de <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math> es aproximadamente igual a la media de <emphasis effect="italics">Χ</emphasis>.</item>
+<item>Cuando el tamaño de la muestra es grande, <m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+
+</m:math> se distribuye aproximadamente normal.</item>
+<item>Cuando el tamaño de la muestra es grande, la desviación típica de <m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+
+</m:math> es aproximadamente igual a la desviación típica de <emphasis effect="italics">Χ</emphasis>.</item></list></problem>
+<solution id="fs-idp58516336">
+<list id="fs-idp58516592" list-type="enumerated" number-style="lower-alpha"><item>Verdadero. La media de una distribución del muestreo de las medias es aproximadamente la media de la distribución de los datos.</item>
+<item>Verdadero. Según el teorema del límite central, cuanto mayor sea la muestra, más se aproxima a la normalidad la distribución del muestreo de las medias.</item>
+<item>La desviación típica de la distribución del muestreo de las medias disminuirá haciéndola aproximadamente igual a la desviación típica de X a medida que aumenta el tamaño de la muestra.</item></list></solution>
+</exercise>
+
+<exercise id="element-169"><problem id="id6272391">
+<para id="element-76">El porcentaje de calorías de grasa que una persona en Estados Unidos consume cada día se distribuye normalmente, con una media de 36 aproximadamente y una desviación típica de diez aproximadamente. Supongamos que se eligen 16 personas al azar. Supongamos que <m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+
+</m:math> = porcentaje promedio de calorías de grasa.</para>
+<list id="eip-idm27753728" list-type="enumerated" number-style="lower-alpha">
+<item>Los términos <m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+
+</m:math> ~ ______(______, ______)</item>
+<item>Para el grupo de 16, calcule la probabilidad de que el porcentaje promedio de calorías de grasa consumidas sea superior a cinco. Grafique la situación y sombree la zona a determinar.</item>
+<item>Calcule el primer cuartil para el porcentaje promedio de calorías de grasa.</item>
+</list>
+</problem>
+
+<!-- <solution id="id6272525">
+<list id="element-89" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">N</emphasis><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>36,&#160;</m:mtext><m:mfrac>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:msqrt>
+       <m:mrow>
+        <m:mn>16</m:mn>
+       </m:mrow>
+      </m:msqrt>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></item>
+<item>1</item>
+<item>34.31</item>
+</list></solution> -->
+</exercise><exercise id="element-795">
+<problem id="id6535840">
+<para id="fs-idm32345632">La distribución de los ingresos en algunos países del tercer mundo se considera en forma de cuña (mucha gente muy pobre, muy poca gente con ingresos medios y aún menos gente rica). Supongamos que elegimos un país con una distribución en forma de cuña. Supongamos que el salario promedio es de 2.000 dólares al año con una desviación típica de 8.000 dólares. Encuestamos al azar a 1.000 residentes de ese país.</para>
+
+<list id="element-834" list-type="enumerated" number-style="lower-alpha">
+<item>En palabras, <emphasis effect="italics">Χ</emphasis> = _____________</item>
+<item>En palabras, <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>-</m:mo>
+ </m:mover>
+
+</m:math> = _____________</item>
+<item>Los términos <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>-</m:mo>
+ </m:mover>
+
+</m:math> ~ _____(_____,_____)</item>
+<item>¿Cómo es posible que la desviación típica sea mayor que el promedio?</item>
+<item>¿Por qué es más probable que el promedio de los 1.000 residentes sea de 2.000 a 2.100 dólares que de 2.100 a 2.200 dólares?</item></list></problem>
+<solution id="fs-idm50399184">
+<list id="fs-idp55008880" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> = los ingresos anuales de alguien en un país del tercer mundo</item>
+<item>el salario promedio de las muestras de 1.000 residentes de un país del tercer mundo</item>
+<item>Los términos <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math> ∼ <emphasis effect="italics">N</emphasis><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>2000, </m:mtext><m:mfrac>
+     <m:mrow>
+      <m:mtext>8000</m:mtext>
+     </m:mrow>
+     <m:mrow>
+      <m:msqrt>
+       <m:mrow>
+        <m:mtext>1000</m:mtext>
+       </m:mrow>
+      </m:msqrt>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></item>
+<item>Las diferencias muy amplias en los valores de los datos pueden tener medias más pequeñas que las desviaciones típicas.</item>
+<item>La distribución de la media muestral tendrá mayores probabilidades de acercarse a la media de la población. <newline/><emphasis effect="italics">P</emphasis>(2.000 &lt; <m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+</m:math> &lt; 2.100) = 0,1537 <newline/><emphasis effect="italics">P</emphasis>(2.100 &lt; <m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+</m:math> &lt; 2200) = 0,1317
+</item>
+</list></solution>
+</exercise>
+
+<exercise id="element-338"><problem id="id6538396">
+<para id="element-943">¿Cuál de las siguientes opciones NO ES CIERTA sobre la distribución de las medias?</para>
+<list id="element-992" list-type="enumerated" number-style="lower-alpha"><item>La media, la mediana y la moda son iguales.</item>
+<item>El área debajo de la curva es uno.</item>
+<item>La curva nunca toca el eje <emphasis effect="italics">x</emphasis>.</item>
+<item>La curva está distorsionada hacia la derecha.</item>
+</list></problem>
+
+<!-- <solution id="id6538477">
+<para id="element-60">d</para>
+</solution> -->
+</exercise><exercise id="element-680"><problem id="id6538522">
+<para id="fs-idp43800992">El costo de la gasolina sin plomo en el Área de la Bahía seguía antes una distribución desconocida con una media de 4,59 dólares y una desviación típica de 0,10 dólares. Se eligen al azar dieciséis gasolineras del Área de la Bahía. Nos interesa el costo promedio de la gasolina en las 16 gasolineras. La distribución que se va a usar para el costo promedio de la gasolina para las 16 gasolineras es <list id="element-728" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>-</m:mo>
+ </m:mover>
+
+</m:math> ~ <emphasis effect="italics">N</emphasis>(4,59; 0,10)</item>
+<item>Los términos <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>-</m:mo>
+ </m:mover>
+
+</m:math> ~ <emphasis effect="italics">N</emphasis><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>4</m:mtext><m:mtext>0,59, </m:mtext><m:mfrac>
+     <m:mrow>
+      <m:mn>0,10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:msqrt>
+       <m:mrow>
+        <m:mn>16</m:mn>
+       </m:mrow>
+      </m:msqrt>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> grandes.</item>
+<item>Los términos <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math> ~ <emphasis effect="italics">N</emphasis><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>4</m:mtext><m:mtext>0,59, </m:mtext><m:mfrac>
+     <m:mrow>
+      <m:mn>16</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>0,10</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> grandes.</item>
+<item>Los términos <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math> ~ <emphasis effect="italics">N</emphasis><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>4</m:mtext><m:mtext>0,59, </m:mtext><m:mfrac>
+     <m:mrow>
+     <m:msqrt>
+       <m:mrow>
+        <m:mn>16</m:mn>
+       </m:mrow>
+      </m:msqrt>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>0,10</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></item>
+</list></para></problem>
+
+<solution id="id6538759">
+<para id="element-156">b</para>
+</solution>
+</exercise>
+</section>
+
+
+ </content>
+
+<glossary>
+  <definition id="average">
+    <term>Promedio</term>
+    <meaning id="id16316921">un número que describe la tendencia central de los datos; existen varios promedios especializados, como la media aritmética, la media ponderada, la mediana, la moda y la media geométrica.</meaning>
+  </definition>
+  <definition id="centlimit">
+    <term>Teorema del límite central</term>
+    <meaning id="id43867050">Dada una variable aleatoria con media conocida <emphasis effect="italics">μ</emphasis> y desviación típica conocida, <emphasis effect="italics">σ</emphasis>, estamos muestreando con tamaño <emphasis effect="italics">n</emphasis>, y nos interesan dos nuevas VR: la media muestral, <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math>. Si el tamaño (<emphasis effect="italics">n</emphasis>) de la muestra es suficientemente grande, entonces <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math> ~ <emphasis effect="italics">N</emphasis>(<emphasis effect="italics">μ</emphasis>, <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>σ</m:mi>
+   <m:mrow>
+    <m:msqrt>
+     <m:mi>n</m:mi>
+    </m:msqrt>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>). Si el tamaño (<emphasis effect="italics">n</emphasis>) de la muestra es suficientemente grande, la distribución de las medias muestrales se aproximará a una distribución normal, independientemente de la forma de la población. La media de las medias muestrales será igual a la media poblacional. La desviación estándar de la distribución de las medias muestrales, <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>σ</m:mi>
+   <m:mrow>
+    <m:msqrt>
+     <m:mi>n</m:mi>
+    </m:msqrt>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>, se denomina error estándar de la media.</meaning>
+  </definition>
+
+
+
+<definition id="stdmean">
+    <term>Error estándar de la media</term>
+    <meaning id="id6201946">la desviación típica de la distribución de las medias muestrales, o <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>σ</m:mi>
+   <m:mrow>
+    <m:msqrt>
+     <m:mi>n</m:mi>
+    </m:msqrt>
+   </m:mrow>
+  </m:mfrac>
+ </m:mrow>
+</m:math></meaning>
+</definition>
+</glossary>
+</document>

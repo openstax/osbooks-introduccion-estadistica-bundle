@@ -1,0 +1,457 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Uso del teorema del límite central</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54537</md:content-id>
+  <md:title>Uso del teorema del límite central</md:title>
+  <md:abstract/>
+  <md:uuid>323cb760-5f99-4899-a96b-f3919f982a6a</md:uuid>
+</metadata>
+
+<content>
+    <section id="element-733"><title>Ejemplos del teorema del límite central</title><section id="fs-idp5962992"><title>Ley de los grandes números</title><para id="element-349">La <term id="term-00001">ley de los grandes números</term> dice que si se toman muestras cada vez más grandes de cualquier población, entonces la media de la distribución muestral, <m:math><m:msub><m:mi>μ</m:mi>
+ <m:mrow><m:mover>
+  <m:mi>x</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover></m:mrow>
+</m:msub>
+</m:math> tiende a acercarse cada vez más a la verdadera media de la población, <emphasis effect="italics">μ</emphasis>. A partir del teorema del límite central, sabemos que a medida que <emphasis effect="italics">n</emphasis> se hace más grande, las medias muestrales siguen una distribución normal. Cuanto mayor sea <emphasis effect="italics">n</emphasis>, menor será la desviación típica de la distribución muestral. (Recuerde que la desviación típica de la distribución muestral de <m:math>
+ <m:mover>
+  <m:mi>X</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+</m:math> es <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>σ</m:mi>
+   <m:mrow>
+    <m:msqrt>
+     <m:mi>n</m:mi>
+    </m:msqrt>
+   </m:mrow>
+  </m:mfrac>
+ </m:mrow>
+</m:math>). Esto significa que la media muestral <m:math>
+ <m:mover>
+  <m:mi>x</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover></m:math> debe estar más cerca de la media poblacional <emphasis effect="italics">μ</emphasis> a medida que <emphasis effect="italics">n</emphasis> aumenta. Podemos decir que <emphasis effect="italics">μ</emphasis> es el valor al que se acercan las medias muestrales a medida que <emphasis effect="italics">n</emphasis> es mayor. El teorema del límite central ilustra la ley de los grandes números.</para><para id="eip-268">Este concepto es tan importante y desempeña un papel tan decisivo en lo que sigue que merece un mayor desarrollo. De hecho, hay dos cuestiones críticas que se derivan del teorema del límite central y de la aplicación de la ley de los grandes números a este. Estos son</para><list id="eip-950" list-type="enumerated" number-style="arabic"><item>La función de densidad de probabilidad de la distribución muestral de las medias se distribuye normalmente <emphasis effect="bold">independientemente</emphasis> de la distribución subyacente de las observaciones de la población y</item>
+<item>la desviación típica de la distribución muestral disminuye a medida que aumenta el tamaño de las muestras que se utilizaron para calcular las medias de la distribución muestral.</item></list><para id="eip-881">Tomando estos en orden. Parece contradictorio que la población pueda tener <emphasis effect="bold">cualquier</emphasis> distribución y que la distribución de las medias procedentes de ella se distribuya normalmente. Con el uso de computadoras, se pueden simular experimentos que muestren el proceso por el cual la distribución de muestreo cambia a medida que aumenta el tamaño de la muestra. Estas simulaciones muestran visualmente los resultados de la demostración matemática del teorema del límite central.</para><para id="eip-697">He aquí tres ejemplos de distribuciones poblacionales muy diferentes y la evolución de la distribución muestral hacia una distribución normal a medida que aumenta el tamaño de la muestra. El panel superior en estos casos representa el histograma de los datos originales. Los tres paneles muestran los histogramas de 1000 muestras extraídas al azar para diferentes tamaños de muestra: n=10, n= 25 y n=50. A medida que aumenta el tamaño de la muestra, y el número de muestras tomadas se mantiene constante, la distribución de las medias de 1000 muestras se acerca más a la línea suave que representa la distribución normal.</para><para id="eip-183">La<link target-id="eip-id1169478792440"/> es para una distribución normal de las observaciones individuales y esperaríamos que la distribución de muestreo convergiera en la normal rápidamente. Los resultados lo demuestran y muestran que, incluso con un tamaño de muestra muy pequeño, la distribución se aproxima a la distribución normal.    </para><figure id="eip-id1169478792440"><media id="eip-id1169473724931" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch06_07_01m.jpg" width="400"/></media></figure><para id="eip-9">La <link target-id="eip-id1170498321883"/> es una distribución uniforme que, de forma un poco sorprendente, se acerca rápidamente a la distribución normal incluso con solo una muestra de 10.  </para><figure id="eip-id1170498321883"><media id="eip-id1170503521704" alt="..."><image mime-type="image/jpg" src="../../media/fig-ch07_04_01m.jpg" width="400"/></media></figure><para id="eip-61">La <link target-id="eip-id7266344"/> es una distribución sesgada. Esta última podría ser una exponencial, geométrica o binomial con una pequeña probabilidad de éxito creando el sesgo en la distribución. En el caso de las distribuciones asimétricas, nuestra intuición nos dice que se necesitarán tamaños de muestra mayores para pasar a una distribución normal y de hecho, eso es lo que observamos en la simulación. Sin embargo, con un tamaño de muestra de 50, que no se considera muy grande, la distribución de las medias muestrales ha adquirido muy decididamente la forma de la distribución normal.  </para><figure id="eip-id7266344"><media id="eip-id1689066" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch07_04_02m.jpg" width="400"/></media></figure><para id="eip-79">El teorema del límite central proporciona algo más que la prueba de que la distribución muestral de las medias se distribuye normalmente. También nos proporciona la media y la desviación típica de esta distribución. Además, como se ha comentado anteriormente, el valor esperado de la media, <m:math><m:msub><m:mtext>μ</m:mtext><m:mover>
+  <m:mi>x</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover></m:msub>
+</m:math>, es igual a la media de la población de los datos originales que es lo que nos interesa estimar a partir de la muestra que tomamos. Ya hemos insertado esta conclusión del teorema del límite central en la fórmula que utilizamos para estandarizar desde la distribución muestral a la distribución normal estándar. Y, por último, el teorema del límite central también ha proporcionado la desviación típica de la distribución muestral, <m:math><m:msub><m:mi>σ</m:mi><m:mover>
+  <m:mi>x</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover></m:msub><m:mo>=</m:mo><m:mfrac><m:mi>σ</m:mi><m:mrow><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac>
+</m:math>, y esto es crítico para poder calcular las probabilidades de los valores de la nueva variable aleatoria, <m:math><m:mover>
+  <m:mi>x</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+</m:math>.
+</para><para id="eip-258">La <link target-id="fs-id1168335762577"/> muestra una distribución de muestreo. La media se ha marcado en el eje horizontal de las <m:math><m:mover>
+  <m:mi>x</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+</m:math> y la desviación estándar se ha escrito a la derecha sobre la distribución. Observe que la desviación típica de la distribución muestral es la desviación típica original de la población, dividida entre el tamaño de la muestra. Ya hemos visto que, a medida que aumenta el tamaño de la muestra, la distribución muestral se acerca cada vez más a la distribución normal. Como esto ocurre, la desviación típica de la distribución muestral cambia de otra manera; la desviación típica disminuye a medida que n aumenta. At very large n, the standard deviation of the sampling distribution becomes very small and at infinity it collapses on top of the population mean. Esto es lo que significa que el valor esperado de <m:math><m:msub><m:mi>µ</m:mi><m:mrow><m:mover>
+  <m:mi>x</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover></m:mrow></m:msub>
+</m:math> es la media de la población, µ. </para><figure id="fs-id1168335762577"><media id="fs-id1170967292809" alt=".."><image mime-type="image/jpeg" src="../../media/fig-ch06_02_05n.jpg" width="420"/></media></figure><para id="eip-597">En valores no extremos de n, esta relación entre la desviación típica de la distribución muestral y el tamaño de la muestra desempeña un papel muy importante en nuestra capacidad para estimar los parámetros que nos interesan. </para><para id="eip-887">La <link target-id="fs-id1171528778810"/> muestra tres distribuciones de muestreo. El único cambio que se ha realizado es el tamaño de la muestra que se utilizó para obtener las medias muestrales de cada distribución. A medida que aumenta el tamaño de la muestra, n pasa de 10 a 30 a 50, las desviaciones típicas de las respectivas distribuciones muestrales disminuyen porque el tamaño de la muestra está en el denominador de las desviaciones típicas de las distribuciones muestrales. </para><figure id="fs-id1171528778810"><media id="fs-id1171512251668" alt=".."><image mime-type="image/jpeg" src="../../media/fig-ch06_02_07n.jpg" width="420"/></media></figure>
+<para id="eip-551">Las implicaciones de esto son muy importantes. La <link target-id="fs-id1165504658019"/> muestra el efecto del tamaño de la muestra en la confianza que tendremos en nuestras estimaciones. Se trata de dos distribuciones muestrales de la misma población. Una distribución de muestreo se creó con muestras de tamaño 10 y la otra con muestras de tamaño 50. Si todo lo demás es constante, la distribución de muestreo con un tamaño de muestra de 50 tiene una desviación típica menor que hace que el gráfico sea más alto y estrecho. El efecto importante de esto es que para la misma probabilidad de una desviación típica de la media, esta distribución cubre mucho menos rango de valores posibles que la otra distribución. Una desviación típica está marcada en el eje <m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:math> para cada distribución. Esto se muestra con las dos flechas que son más o menos una desviación típica para cada distribución. Si la probabilidad de que la verdadera media esté a una desviación típica de la media, entonces para la distribución de muestreo con el tamaño de muestra más pequeño, el rango posible de valores es mucho mayor. Una pregunta sencilla es: ¿preferiría tener una media muestral de la distribución estrecha y ajustada o de la distribución plana y amplia como estimación de la media de la población? Su respuesta nos dice por qué la gente intuitivamente siempre elegirá datos de una muestra grande en lugar de una muestra pequeña. La media muestral que obtienen procede de una distribución más compacta. Este concepto será la base de lo que se llamará nivel de confianza en la siguiente unidad.  </para><figure id="fs-id1165504658019"><media id="fs-id8850305" alt=".."><image mime-type="image/jpeg" src="../../media/fig-ch06_02_08n.jpg" width="420"/></media></figure></section></section><section id="fs-idm72155760" class="summary">
+<title>Revisión del capítulo</title>
+<para id="fs-idm147861760">El teorema del límite central puede utilizarse para ilustrar la ley de los grandes números. La ley de los grandes números establece que cuanto mayor sea el tamaño de la muestra que se tome de una población, más se acercará la media muestral <m:math>
+ <m:mover>
+  <m:mi>x</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math> llega a <emphasis effect="italics">μ</emphasis>.</para></section>
+
+<section id="fs-idm65344016" class="practice"><para id="fs-idp5239552"><emphasis effect="italics">Use la siguiente información para responder los próximos diez ejercicios:</emphasis> Un fabricante produce pesas de 25 libras. El peso real más bajo es de 24 libras, y el más alto de 26 libras. Cada pesa tiene la misma probabilidad, por lo que la distribución de los pesos es uniforme. Se toma una muestra de 100 pesas.</para>
+
+<exercise id="exercise4">
+<problem id="fs-idm108112736">
+<list id="fs-idm44419104" list-type="enumerated" number-style="lower-alpha">
+<item>¿Cuál es la distribución de los pesos de una pesa de 25 libras? What is the mean and standard deviation?</item>
+<item>¿Cuál es la distribución del peso medio de 100 pesas de 25 libras?</item>
+<item>Calcule la probabilidad de que la media del peso real de las 100 pesas sea inferior a 24,9.</item>
+</list>
+</problem>
+
+<solution id="fs-idm27647648">
+<list id="fs-idp41045488" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">U</emphasis>(24, 26), 25, 0,5774</item>
+<item><emphasis effect="italics">N</emphasis>(25, 0,0577)</item>
+<item>0,0416</item>
+</list></solution>
+</exercise>
+
+<exercise id="fs-idm84240544"><problem id="fs-idp8363072">
+<para id="fs-idm117442736">Dibuje el gráfico de la <link target-id="exercise4" document=""/></para></problem>
+
+<!-- <solution id="fs-idm124774096">
+<figure id="fs-idm129645712"><media id="fs-idm66137264" alt="This is a normal distribution curve which extends from 24 to 26. The peak of the curve  coincides with the point 25 on the horizontal axis. An arrow points to 25 showing P(x-bar &lt; 24.9).">
+<image mime-type="image/jpg" src="CNX_Stats_C07_M04_item001annoN.jpg" width="380"/>
+</media>
+</figure></solution> -->
+</exercise><exercise id="exercise6">
+<problem id="fs-idm151567920">
+<para id="fs-idm68403024">Calcule la probabilidad de que la media del peso real de las 100 pesas sea mayor que 25,2.</para>
+</problem>
+<solution id="fs-idm73291392">
+<para id="fs-idm73292848">0,0003</para>
+</solution>
+</exercise>
+
+
+<exercise id="fs-idm30735600"><problem id="fs-idm87184416">
+<para id="fs-idm68751264">Dibuje el gráfico de la <link target-id="exercise6" document=""/></para></problem>
+
+<!-- <solution id="fs-idm90694544">
+<figure id="eip-idp936112">
+<media id="fs-idm69192448" alt="This is a normal distribution curve which extends from 24 to 26. The peak of the curve  coincides with the point 25 on the horizontal axis. An arrow points to 25 showing P(x-bar &gt; 25.2).">
+<image mime-type="image/jpg" src="CNX_Stats_C07_M04_item002annoN.jpg" width="380"/>
+</media>
+</figure>
+</solution> -->
+</exercise><exercise id="exercise8">
+<problem id="fs-idm65102048">
+<para id="fs-idm147870912">Calcule el percentil 90<sup/> para el peso medio de las 100 pesas.</para>
+</problem>
+<solution id="fs-idm110485568">
+<para id="fs-idm150922624">25,07</para>
+</solution>
+</exercise>
+
+
+<exercise id="fs-idm167897040"><problem id="fs-idm61920032">
+<para id="fs-idm111847536">Dibuje el gráfico de la <link target-id="exercise8" document=""/></para></problem>
+
+<!-- <solution id="fs-idm110267328">
+<figure id="eip-idp3873008"><media id="fs-idm113411344" alt="This is a normal distribution curve which extends from 24 to 26. The peak of the curve  coincides with the point 25 on the horizontal axis. A point, k, is labeled to the right of 25. A vertical line extends from k to the curve. An arrow points to 25 showing P(x-bar &lt; k) = 0.90.">
+<image mime-type="image/jpg" width="380" src="CNX_Stats_C07_M04_item003annoN.jpg"/>
+</media>
+</figure>
+</solution> -->
+</exercise><exercise id="exercise10">
+<problem id="fs-idm111208496">
+<list id="fs-idm21659936" list-type="enumerated" number-style="lower-alpha">
+<item>¿Cuál es la distribución de la suma de los pesos de 100 pesas de 25 libras?</item>
+<item>Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> &lt; 2.450).</item></list>
+</problem>
+<solution id="fs-idm9385136">
+<list id="fs-idp176981200" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">N</emphasis>(2.500; 5,7735)</item>
+<item>0</item></list>
+</solution>
+</exercise>
+
+<exercise id="exercise11"><problem id="fs-idm29117824">
+<para id="fs-idm110263040">Dibuje el gráfico de la <link target-id="exercise10" document=""/></para></problem>
+
+<!-- <solution id="fs-idp11678144">
+<figure id="eip-idm64321520">
+<media id="fs-idm129935248" alt="This is a normal distribution curve which extends from 2400 to 2600. The peak of the curve  coincides with the point 2500 on the horizontal axis. An arrow points to the left tail of the curve showing P(sum of x &lt; 2450)." display="block">
+<image mime-type="image/jpg" src="CNX_Stats_C07_M04_item004annoN.jpg" width="380"/>
+</media>
+</figure>
+</solution> -->
+</exercise><exercise id="exercise12">
+<problem id="fs-idm115316000">
+<para id="fs-idm15854240">Calcule el percentil 90<sup/> para el peso total de las 100 pesas.</para>
+</problem>
+<solution id="fs-idm57878688"><para id="fs-idm47977984">2.507,40</para></solution>
+</exercise>
+
+<exercise id="fs-idm54084400"><problem id="fs-idm58526640">
+<para id="fs-idp2153120">Dibuje el gráfico de la <link target-id="exercise12" document=""/></para></problem>
+
+<!-- <solution id="fs-idm17187952">
+<figure id="eip-idp76755600">
+<media id="fs-idm123631184" alt="This is a normal distribution curve which extends from 24 to 26. The peak of the curve  coincides with the point 25 on the horizontal axis. A point, k, is labeled to the right of 25. A vertical line extends from k to the curve. An arrow points to 25 showing P(sum of x &lt; k) = 0.90.">
+<image mime-type="image/jpg" width="380" src="CNX_Stats_C07_M04_item005annoN.jpg"/>
+</media>
+</figure>
+</solution> -->
+</exercise><para id="fs-idp1747872"><emphasis effect="italics"><newline/>Use la siguiente información para responder los próximos cinco ejercicios:</emphasis> La duración de la batería de un determinado teléfono inteligente sigue una distribución exponencial con una media de diez meses. Se toma una muestra de 64 de estos teléfonos inteligentes.</para><exercise id="fs-idm110175696">
+<problem id="fs-idp8374016">
+<list id="fs-idp7565520" list-type="enumerated" number-style="lower-alpha">
+<item>¿Cuál es la desviación típica?</item>
+<item>¿Cuál es el parámetro <emphasis effect="italics">m</emphasis>?</item>
+</list>
+</problem>
+<solution id="fs-idm119290064">
+<list id="fs-idp20993168" list-type="enumerated" number-style="lower-alpha">
+<item>10</item>
+<item>Los términos <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></item>
+</list>
+</solution>
+</exercise>
+
+<exercise id="fs-idm85285856"><problem id="fs-idp955712">
+<para id="fs-idm35104432">¿Cuál es la distribución de la duración de una batería?</para>
+</problem>
+
+<!-- <solution id="fs-idm75203552">
+<para id="fs-idm4726032"><emphasis effect="italics">Exp</emphasis><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></para></solution> --></exercise><exercise id="fs-idm151129248">
+<problem id="fs-idm53240800">
+<para id="fs-idm86689744">¿Cuál es la distribución de la duración media de 64 baterías?</para>
+</problem>
+<solution id="fs-idm34212208">
+<para id="fs-idm34212080"><emphasis effect="italics">N</emphasis><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>10, </m:mtext><m:mfrac>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mn>8</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></para></solution>
+</exercise>
+
+<exercise id="fs-idm69924752"><problem id="fs-idm55097344">
+<para id="fs-idp63314112">¿Cuál es la distribución de la duración total de 64 baterías?</para>
+</problem>
+
+<!-- <solution id="fs-idm141956784">
+<para id="fs-idm64798960"><emphasis effect="italics">N</emphasis>(640, 80)</para>
+</solution> -->
+</exercise><exercise id="fs-idm1366160">
+<problem id="fs-idm41789648">
+<para id="fs-idm41789520">Calcule la probabilidad de que la media muestral esté entre siete y 11.</para></problem>
+<solution id="fs-idm51974096">
+<para id="fs-idm51973968">0,7799</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idm28939008"><problem id="fs-idm73034064">
+<para id="fs-idm28887376">Calcule el percentil 80<sup/> para la duración total de 64 baterías.</para></problem>
+
+<!-- <solution id="fs-idm4580720"><para id="fs-idm5410400">707.3</para></solution> -->
+</exercise><exercise id="fs-idm41589104">
+<problem id="fs-idm45566256"><para id="fs-idm45566128">Calcule el <emphasis effect="italics">IQR</emphasis> para la media de tiempo que duran 64 baterías.</para></problem>
+<solution id="fs-idm46764496"><para id="fs-idm46764368">1,69</para></solution>
+</exercise>
+
+<exercise id="fs-idm45108016"><problem id="fs-idm4738352">
+<para id="fs-idm53098160">Calcule el 80 % del centro para el tiempo total de duración de 64 baterías.</para>
+</problem>
+
+<!-- <solution id="fs-idm72677136"><para id="fs-idm12285840">205.05</para></solution> -->
+</exercise><para id="fs-idm65293824"><emphasis effect="italics"><newline/>Use la siguiente información para responder los próximos ocho ejercicios:</emphasis> Una distribución uniforme tiene un mínimo de seis y un máximo de diez. Se toma una muestra de 50 personas.</para><exercise id="fs-idm1612656">
+<problem id="fs-idm47127360">
+<para id="fs-idm47127232">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> > 420).</para>
+</problem>
+<solution id="fs-idm7883840"><para id="fs-idm7883712">0,0072</para></solution>
+</exercise>
+
+
+<exercise id="fs-idm48638032"><problem id="fs-idm30917728">
+<para id="fs-idm132534640">Calcule el percentil 90<sup/> de las sumas.</para>
+</problem>
+
+<!-- <solution id="fs-idm96012160">
+<para id="fs-idm96012032">410.46</para>
+</solution> -->
+</exercise><exercise id="fs-idm53694544">
+<problem id="fs-idm53230816">
+<para id="fs-idm65302128">Calcule el percentil 15<sup/> de las sumas.</para></problem>
+<solution id="fs-idm143692576"><para id="fs-idm143692448">391,54</para></solution>
+</exercise>
+
+
+<exercise id="fs-idm16561168"><problem id="fs-idm46777472">
+<para id="fs-idp4806384">Calcule el primer cuartil de las sumas.</para>
+</problem>
+
+<!-- <solution id="fs-idp5340032"><para id="fs-idm53707024">394.49</para></solution> -->
+</exercise><exercise id="fs-idp10404400">
+<problem id="fs-idm78936016"><para id="fs-idm78935888">Calcule el tercer cuartil para las sumas.</para></problem>
+<solution id="fs-idp671104"><para id="fs-idp671232">405,51</para></solution>
+</exercise>
+
+
+<exercise id="fs-idm111220240"><problem id="fs-idm73987984"><para id="fs-idm65020208">Calcule el percentil 80<sup/> de las sumas.</para></problem>
+
+<!-- <solution id="fs-idm3823936"><para id="fs-idm70486928">406.87</para></solution> -->
+</exercise>
+
+<exercise id="eip-idm213431328"><problem id="eip-idm209137136"><para id="eip-idm209117104">Una población tiene una media de 25 y una desviación típica de 2. Si se muestrea repetidamente con muestras de tamaño 49, ¿cuál es la media y la desviación típica de las medias muestrales?</para></problem>
+
+<solution id="eip-idm1860930000"><para id="eip-idm1860892288">Media = 25, desviación típica = 2/7</para></solution></exercise>
+
+<exercise id="eip-idm239455072"><problem id="eip-idm1892377376"><para id="eip-idm1712221072">Una población tiene una media de 48 y una desviación típica de 5. Si se muestrea repetidamente con muestras de tamaño 36, ¿cuál es la media y la desviación típica de las medias muestrales?</para></problem>
+
+<solution id="eip-idm1756658528"><para id="eip-idm1753124992">Media = 48, desviación típica = 5/6</para></solution></exercise>
+
+<exercise id="eip-idm1597462000"><problem id="eip-idm1608055168"><para id="eip-idm1608032320">Una población tiene una media de 90 y una desviación típica de 6. Si se muestrea repetidamente con muestras de tamaño 64, ¿cuál es la media y la desviación típica de las medias muestrales?</para></problem>
+
+<solution id="eip-idm2138553616"><para id="eip-idm1597457136">Media = 90, desviación típica = 3/4</para></solution></exercise>
+
+<exercise id="eip-idm1890211360"><problem id="eip-idm1890192944"><para id="eip-idm1890185936">Una población tiene una media de 120 y una desviación típica de 2,4. Si se muestrea repetidamente con muestras de tamaño 40, ¿cuál es la media y la desviación típica de las medias muestrales?</para></problem>
+
+<solution id="eip-idm1890181936"><para id="eip-idm1887992448">Media = 120, desviación típica = 0,38</para></solution></exercise>
+
+<exercise id="eip-idm195053216"><problem id="eip-idm209374272"><para id="eip-idm214402256">Una población tiene una media de 17 y una desviación típica de 1,2. Si se muestrea repetidamente con muestras de tamaño 50, ¿cuál es la media y la desviación típica de las medias muestrales?</para></problem>
+
+<solution id="eip-idm1741716176"><para id="eip-idm1741714608">Media = 17, desviación típica = 0,17</para></solution></exercise>
+
+<exercise id="eip-idm1711240720"><problem id="eip-idm211733616"><para id="eip-idm1783834336">Una población tiene una media de 17 y una desviación típica de 0,2. Si se muestrea repetidamente con muestras de tamaño 16, ¿cuál es el valor esperado y la desviación típica de las medias muestrales?</para></problem>
+
+<solution id="eip-idm214570736"><para id="eip-idm195878624">Valor esperado = 17, desviación típica = 0,05</para></solution></exercise>
+
+<exercise id="eip-idm1892478080"><problem id="eip-idm1917239616"><para id="eip-idm1613039680">Una población tiene una media de 38 y una desviación típica de 3. Si se muestrea repetidamente con muestras de tamaño 48, ¿cuál es el valor esperado y la desviación típica de las medias muestrales?</para></problem>
+
+<solution id="eip-idm1718198176"><para id="eip-idm1703074656">Valor esperado = 38, desviación típica = 0,43</para></solution></exercise>
+
+<exercise id="eip-idm1750045488"><problem id="eip-idm1752321840"><para id="eip-idm203069456">Una población tiene una media de 14 y una desviación típica de 5. Si se muestrea repetidamente con muestras de tamaño 60, ¿cuál es el valor esperado y la desviación típica de las medias muestrales?</para></problem>
+
+<solution id="eip-idm1733727664"><para id="eip-idm183670752">Valor esperado = 14, desviación típica = 0,65</para></solution></exercise></section><section id="eip-94" class="free-response"><title>Tarea para la casa</title><exercise id="eip-idm1669069152"><problem id="eip-idm1359885776"><para id="eip-idm1515823152">Una gran población de 5000 estudiantes realiza un examen de práctica para preparar una prueba estandarizada. La media de la población es de 140 preguntas correctas y la desviación típica es de 80. ¿Qué tamaño de muestras debe tomar un investigador para obtener una distribución de medias de las muestras con una desviación típica de 10?</para></problem>
+<solution id="eip-idm1333857104"><para id="eip-idm1553049248">64</para></solution></exercise>
+
+<exercise id="eip-idm1520522960"><problem id="eip-idm1422709648"><para id="eip-idm313216400">Una población grande tiene datos sesgados con una media de 70 y una desviación típica de 6. Se toman 100 muestras y se analiza la distribución de las medias de estas muestras.</para>
+<list id="eip-idm1384899600" list-type="enumerated" number-style="lower-alpha"><item>¿La distribución de las medias se acercará más a una distribución normal que la distribución de la población?</item><item>¿Se mantendrá la media de las medias de las muestras cerca de 70?</item>
+<item> ¿La distribución de las medias tendrá una desviación típica menor?</item>
+<item>¿Cuál es esa desviación típica?</item>
+</list></problem>
+<solution id="eip-idm1326135664"><list id="eip-idm1311889552" list-type="enumerated" number-style="lower-alpha">
+<item>Sí</item>
+<item>Sí</item>
+<item>Sí</item>
+<item>0,6</item></list></solution></exercise><exercise id="eip-idm1522679648"><problem id="eip-idm288805264"><para id="eip-idm351915488">Un investigador observa los datos de una gran población con una desviación típica demasiado grande. Para concentrar la información, el investigador decide muestrear repetidamente los datos y utilizar la distribución de las medias de las muestras. En el primer esfuerzo se utilizó una muestra de un tamaño de 100. Pero la desviación típica era aproximadamente el doble del valor que quería el investigador. ¿Cuál es el tamaño más pequeño de las muestras que el investigador puede utilizar para solucionar el problema?</para></problem>
+<solution id="eip-idm1385159808"><para id="eip-idm1407059968">400</para></solution></exercise>
+
+<exercise id="eip-idm1389005376"><problem id="eip-idm1523217744"><para id="eip-idm1391162480">Un investigador observa un gran conjunto de datos y concluye que la población tiene una desviación típica de 40. Si se utilizan tamaños de muestra de 64, el investigador es capaz de centrar la media de las medias de la muestra en una distribución más estrecha en la que la desviación típica es de 5. Entonces, el investigador se da cuenta de que hubo un error en los cálculos originales, y la desviación típica inicial es realmente 20. Dado que la desviación típica de las medias de las muestras se obtuvo utilizando la desviación típica original, este valor también se ve afectado por el descubrimiento del error. ¿Cuál es el valor correcto de la desviación típica de las medias de las muestras?</para></problem>
+<solution id="eip-idm1306078992"><para id="eip-idm1542276496">2,5</para></solution></exercise>
+
+<exercise id="eip-idm344765376"><problem id="eip-idm1361343792"><para id="eip-idm1312241968">Una población tiene una desviación típica de 50. Se muestrea con muestras de tamaño 100. ¿Cuál es la varianza de las medias de las muestras?</para></problem>
+<solution id="eip-idm1669855520"><para id="eip-idm343155568">25</para></solution></exercise></section>
+ </content>
+
+<glossary>
+
+
+<definition id="mean">
+    <term>Media</term>
+    <meaning id="id10578364">un número que mide la tendencia central; un nombre común para la media es “promedio”. El término “media” es una forma abreviada de “media aritmética”. Por definición, la media de una muestra (denotada por <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>–</m:mo>
+ </m:mover>
+
+</m:math>) es <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>–</m:mo>
+  </m:mover>
+  <m:mtext> = </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mtext>Suma de todos los valores de la muestra</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>Número de valores de la muestra</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>, y la media de una población (denotada por <emphasis effect="italics">μ</emphasis>) es <m:math>
+ <m:mrow>
+  <m:mi>μ</m:mi><m:mtext> = </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mtext>Suma de todos los valores de la población</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>Número de valores en la población</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>.</meaning>
+  </definition>
+<definition id="fs-id1194328">
+<term>Factor de corrección de la población finita</term>
+<meaning id="fs-id1227360">ajusta la varianza de la distribución del muestreo si la población es conocida y se está realizando muestras más del 5 % de la población.</meaning>
+</definition>
+
+<definition id="fs-idm63436704">
+<term>Distribución normal</term>
+<meaning id="fs-idm63436064">variable aleatoria continua con pdf <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> = </m:mtext><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mi>σ</m:mi><m:msqrt>
+     <m:mrow>
+      <m:mn>2</m:mn><m:mi>π</m:mi>
+     </m:mrow>
+    </m:msqrt>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo> </m:mo><m:msup>
+   <m:mi>e</m:mi>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mo>–</m:mo><m:msup>
+       <m:mrow>
+        <m:mtext>(</m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>–</m:mo><m:mtext> </m:mtext><m:mi>μ</m:mi><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+     <m:mrow>
+      <m:mn>2</m:mn><m:msup>
+       <m:mi>σ</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math>, donde <emphasis effect="italics">μ</emphasis> es la media de la distribución y <emphasis effect="italics">σ</emphasis> es la desviación típica; notación: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(<emphasis effect="italics">μ</emphasis>, <emphasis effect="italics">σ</emphasis>). Si <emphasis effect="italics">μ</emphasis> = 0 y <emphasis effect="italics">σ</emphasis> = 1, la variable aleatoria, Z, se llama <emphasis>distribución normal estándar</emphasis>.</meaning>
+</definition>
+
+<definition id="fs-id1165086719379">
+<term>Error estándar de la proporción</term>
+<meaning id="fs-id1163898533436"> desviación típica de la distribución muestral de las proporciones</meaning>
+</definition>
+
+
+</glossary>
+</document>

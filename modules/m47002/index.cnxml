@@ -1,0 +1,2471 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>La media de una población utilizando la distribución normal</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47002</md:content-id>
+  <md:title>La media de una población utilizando la distribución normal</md:title>
+  <md:abstract/>
+  <md:uuid>1fdc29df-516a-4452-9b49-fe2e9de2a872</md:uuid>
+</metadata>
+
+<content>
+    <para id="eip-351">A confidence interval for a population mean, when the population standard deviation is known, is based on the conclusion of the Central Limit Theorem that the sampling distribution of the sample means follow an approximately normal distribution. Supongamos que nuestra muestra tiene una media de <m:math>
+     <m:mrow>
+      <m:mover accent="true">
+       <m:mi>x</m:mi>
+       <m:mo>¯</m:mo>
+      </m:mover>
+      <m:mtext> = 10</m:mtext>
+     </m:mrow>
+    </m:math> y hemos construido el intervalo de confianza del 90 % (5, 15) donde <emphasis effect="italics">EBM</emphasis> = 5. </para>
+
+<section id="eip-548">
+<title>Cálculo del intervalo de confianza</title>
+<para id="eip-id1171249700620">Para construir un intervalo de confianza para una única media poblacional desconocida <emphasis effect="italics">μ</emphasis>, <emphasis>cuando se conoce la desviación típica de la población</emphasis>, necesitamos <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math> como una estimación de <emphasis effect="italics">μ</emphasis> y necesitamos el margen de error. Aquí, el margen de error (<emphasis effect="italics">EBM</emphasis>) se denomina <term id="term-00001">límite de error para una media poblacional</term> (abreviado <emphasis><emphasis effect="italics">EBM</emphasis></emphasis>). La media muestral <m:math>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math> es la <emphasis>estimación puntual</emphasis> de la media poblacional desconocida <emphasis effect="italics">μ</emphasis>.</para>
+      <para id="eip-660"><emphasis>La estimación del intervalo de confianza tendrá la forma:</emphasis></para>
+      <para id="fs-idm11177728">(estimación puntual – límite de error, estimación puntual + límite de error) o, en símbolos, (<m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>–</m:mo><m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mo>,</m:mo><m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mtext>+</m:mtext><m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi>
+ </m:mrow>
+</m:math>)</para><para id="eip-id1171253180187">El margen de error (<emphasis effect="italics">EBM</emphasis>) depende del <term id="term-00002">nivel de confianza</term> (<emphasis><emphasis effect="italics">CL</emphasis></emphasis>). El nivel de confianza suele considerarse la probabilidad de que la estimación del intervalo de confianza calculado contenga el verdadero parámetro poblacional. Sin embargo, es más preciso afirmar que el nivel de confianza es el porcentaje de intervalos de confianza que contienen el verdadero parámetro de la población cuando se toman muestras repetidas. La mayoría de las veces, la persona que construye el intervalo de confianza elige un nivel de confianza del 90 % o superior porque quiere estar razonablemente segura de sus conclusiones.</para>
+
+    <para id="eip-id1171259743972">Existe otra probabilidad llamada alfa (<emphasis effect="italics">α</emphasis>). <emphasis effect="italics">α</emphasis> está relacionada con el nivel de confianza, <emphasis effect="italics">CL</emphasis>. <emphasis effect="italics">α</emphasis> es la probabilidad de que el intervalo no contenga el parámetro poblacional desconocido. <newline/>Matemáticamente, <emphasis effect="italics">α</emphasis> + <emphasis effect="italics">CL</emphasis> = 1.</para>
+
+    <example id="eip-id1171253594561">
+    <list id="eip-37" list-type="labeled-item">
+    <item>Supongamos que hemos recogido datos de una muestra. Conocemos la media de la muestra, pero no conocemos la media de toda la población.</item>
+    <item>La media de la muestra es 7 y el límite de error de la media es 2,5.</item>
+    </list>
+    <para id="eip-id1171253752196">Los términos <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> = 7 y <emphasis effect="italics">EBM</emphasis> = 2,5</para>
+<para id="eip-id1171253247744"> El intervalo de confianza es (7 - 2,5; 7 + 2,5), y el cálculo de los valores da (4,5; 9,5).</para>
+    <para id="eip-id1171248980360">Si el nivel de confianza (<emphasis effect="italics">Confidence Level, CL</emphasis>) es del 95 %, entonces decimos que "estimamos con un 95 % de confianza que el verdadero valor de la media poblacional está entre 4,5 y 9,5".</para>
+    </example>
+
+    <note id="fs-idp2956752" class="statistics try">
+    <label/>
+    <title>Ejercicio</title>
+    <exercise id="eip-273"><problem id="eip-404">
+    <para id="eip-488">Supongamos que tenemos datos de una muestra. La media de la muestra es 15, y el límite de error para la media es 3,2.</para>
+    <para id="eip-idm56205568">¿Cuál es la estimación del intervalo de confianza para la media de la población?</para>
+    </problem>
+    </exercise></note>
+    <para id="eip-id1171249556158">Un intervalo de confianza para una media poblacional con una desviación típica conocida se basa en el hecho de que las medias muestrales siguen una distribución aproximadamente normal. Supongamos que nuestra muestra tiene una media de <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math> = 10, y hemos construido el intervalo de confianza del 90 % (5, 15) donde <emphasis effect="italics">EBM</emphasis> = 5.</para><para id="eip-id1171249132425">Para obtener un intervalo de confianza del 90 %, debemos incluir el 90 % central de la probabilidad de la distribución normal. Si incluimos el 90 % central, dejamos fuera un total de <emphasis effect="italics">α</emphasis> = 10 % en ambas colas, o 5 % en cada cola, de la distribución normal.</para>
+      <figure id="fs-idm23539888"><media id="id1164459043434" alt="Se trata de una curva de distribución normal. El pico de la curva coincide con el punto 10 del eje horizontal. Los puntos 5 y 15 están marcados en el eje. Se trazan líneas verticales desde estos puntos hasta la curva y se sombrea la región entre las líneas. La región sombreada tiene un área igual a 0,90.">
+    <image src="../../media/fig-ch08_02_01N.jpg" mime-type="image/jpg" width="380"/>
+    </media>
+    </figure><para id="eip-id1171253598112">Para captar el 90 % central, debemos salir 1,645 "desviaciones típicas" a cada lado de la media muestral calculada. El valor 1,645 es la puntuación <emphasis effect="italics">z</emphasis> de una distribución de probabilidad normal estándar que sitúa un área de 0,90 en el centro, un área de 0,05 en la cola extrema izquierda y un área de 0,05 en la cola extrema derecha.</para>
+
+    <para id="eip-id1171249345209">Es importante que la "desviación típica" utilizada sea la adecuada para el parámetro que estamos estimando, por lo que en este apartado debemos utilizar la desviación típica que se aplica a las medias muestrales, que es <m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>σ</m:mi>
+       <m:mrow>
+        <m:msqrt>
+         <m:mi>n</m:mi>
+        </m:msqrt>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math> La fracción <m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>σ</m:mi>
+       <m:mrow>
+        <m:msqrt>
+         <m:mi>n</m:mi>
+        </m:msqrt>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math>, se denomina comúnmente "error estándar de la media" para distinguir claramente desviación típica de una media de la desviación típica de la población <emphasis effect="italics">σ</emphasis>.</para>
+
+<list id="eip-id1171260540557" list-type="bulleted">
+<title><emphasis>En resumen, como resultado del teorema del límite central:</emphasis></title>
+<item>Los términos <m:math>
+     <m:mover accent="true">
+      <m:mi>X</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> se distribuye normalmente, es decir, <m:math>
+     <m:mover accent="true">
+      <m:mi>X</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> ~ <emphasis effect="italics">N</emphasis><m:math>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:msub>
+         <m:mi>μ</m:mi>
+         <m:mi>X</m:mi>
+        </m:msub>
+        <m:mo>,</m:mo><m:mfrac>
+         <m:mi>σ</m:mi>
+         <m:mrow>
+          <m:msqrt>
+           <m:mi>n</m:mi>
+          </m:msqrt>
+
+         </m:mrow>
+        </m:mfrac>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+    </m:math></item>
+    <item><emphasis>Cuando se conoce la desviación típica de la población <emphasis effect="italics">σ</emphasis>, utilizamos una distribución normal para calcular el límite de error.</emphasis></item>
+    </list>
+<section id="fs-idm57905968">
+<title>Cálculo del intervalo de confianza</title><para id="fs-idp100429424">Para construir una estimación de intervalo de confianza para una media poblacional desconocida necesitamos datos de una muestra aleatoria. Los pasos para construir e interpretar el intervalo de confianza son:</para>
+<list id="eip-id1171253322089" list-type="bulleted">
+<item> Calcular la media muestral <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> de los datos de la muestra. Recuerde que en esta sección ya conocemos la desviación típica de la población <emphasis effect="italics">σ</emphasis>.</item>
+    <item>Calcule la puntuación <emphasis effect="italics">z</emphasis>que corresponde al nivel de confianza.</item>
+    <item>Calcular el límite de error <emphasis effect="italics">EBM</emphasis>.</item>
+    <item>Construir el intervalo de confianza.</item>
+    <item>Escriba una oración que interprete la estimación en el contexto de la situación del problema. (Explique lo que significa el intervalo de confianza, en las palabras del problema).</item>
+    </list>
+    <para id="eip-id1171252935175">Primero examinaremos cada paso con más detalle y luego ilustraremos el proceso con algunos ejemplos.</para>
+</section>
+<section id="fs-idm60964192"><title>Calcule la puntuación <emphasis effect="italics">z</emphasis>para el nivel de confianza declarado</title><para id="fs-idp7628608">Cuando conocemos la desviación típica de la población <emphasis effect="italics">σ</emphasis>, utilizamos una distribución normal estándar para calcular el EBM y construir el intervalo de confianza. Necesitamos hallar el valor de <emphasis effect="italics">z</emphasis> que pone un área igual al nivel de confianza (en forma decimal) en el centro de la distribución normal estándar <emphasis effect="italics">Z</emphasis> ~ <emphasis effect="italics">N</emphasis>(0, 1).</para>
+<para id="eip-id1171249080440">El nivel de confianza, <emphasis effect="italics">CL</emphasis>, es el área en el medio de la distribución normal estándar. <emphasis effect="italics">CL</emphasis> = 1 – <emphasis effect="italics">α</emphasis>, por lo que <emphasis effect="italics">α</emphasis> es el área que se divide por igual entre las dos colas. Cada una de las colas contiene un área igual a <m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>α</m:mi>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math></para>
+<para id="eip-id1171266449435">La puntuación z que tiene un área a la derecha de <m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>α</m:mi>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math> se denota por <m:math>
+     <m:mrow>
+      <m:msub>
+       <m:mi>z</m:mi>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>α</m:mi>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+
+       </m:mrow>
+      </m:msub>
+
+     </m:mrow>
+    </m:math></para>
+<para id="eip-id1171258387350">Por ejemplo, cuando <emphasis effect="italics">CL</emphasis> = 0,95, <emphasis effect="italics">α</emphasis> = 0,05 y <m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>α</m:mi>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math> = 0,025; escribimos <m:math>
+     <m:mrow>
+      <m:msub>
+       <m:mi>z</m:mi>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>α</m:mi>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+
+       </m:mrow>
+      </m:msub>
+
+     </m:mrow>
+    </m:math> = <emphasis effect="italics">z</emphasis><sub>0,025</sub>.</para>
+
+    <para id="eip-id1171262711575">El área a la derecha de <emphasis effect="italics">z</emphasis><sub>0,025</sub> es 0,025 y el área a la izquierda de <emphasis effect="italics">z</emphasis><sub>0,025</sub> es 1 – 0,025 = 0,975.</para>
+    <para id="eip-id1171249206094">Los términos <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>z</m:mi>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>α</m:mi>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:msub>
+  <m:mtext> = </m:mtext><m:msub>
+   <m:mi>z</m:mi>
+   <m:mrow>
+    <m:mn>0,</m:mn><m:mtext>025</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mtext> = 1</m:mtext><m:mtext>0,96</m:mtext>
+ </m:mrow>
+</m:math>, utilizando una calculadora, una computadora o una tabla de probabilidad normal estándar.</para>
+
+<note id="fs-idm6917168" class="statistics calculator">
+<label/>
+<para id="fs-idp47831024"><code>invNorm</code>(0,975, 0, 1) = 1,96</para>
+</note>
+<note id="eip-831">
+<label/><title>Nota</title>
+<para id="fs-idm49071376">Recuerde utilizar el área a la IZQUIERDA de <m:math>
+     <m:mrow>
+      <m:msub>
+       <m:mi>z</m:mi>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>α</m:mi>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+
+       </m:mrow>
+      </m:msub>
+
+     </m:mrow>
+    </m:math>; en este capítulo las dos últimas entradas en el comando invNorm son 0, 1, porque se está utilizando una distribución normal estándar <emphasis effect="italics">Z</emphasis> ~ <emphasis effect="italics">N</emphasis>(0, 1).</para>
+</note></section><section id="fs-idp84332448">
+<title>Cálculo del límite de error (<emphasis effect="italics">EBM</emphasis>)</title>
+    <para id="fs-idp74136672">La fórmula del límite de error para una media poblacional desconocida <emphasis effect="italics">μ</emphasis> cuando se conoce la desviación típica poblacional <emphasis effect="italics">σ</emphasis> es</para>
+    <list id="eip-id1171249476212" list-type="bulleted"><item><emphasis effect="italics">EBM</emphasis> = <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>z</m:mi>
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>α</m:mi>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:msub>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>σ</m:mi>
+     <m:mrow>
+      <m:msqrt>
+       <m:mi>n</m:mi>
+      </m:msqrt>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></item>
+    </list></section>
+<section id="fs-idm53546816">
+<title>Construcción del intervalo de confianza</title>
+<list id="fs-idm73276912" list-type="bulleted"><item>La estimación del intervalo de confianza tiene el formato <m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>–</m:mo><m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mo>,</m:mo><m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>+</m:mo><m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math></item></list><para id="eip-id1171253190648">El gráfico da una idea de toda la situación.</para>
+<para id="eip-id1171259600150"><emphasis effect="italics">CL</emphasis> + <m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>α</m:mi>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math> + <m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>α</m:mi>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math> = <emphasis effect="italics">CL</emphasis> + <emphasis effect="italics">α</emphasis> = 1.</para>
+<figure id="fs-idp113086400"><media id="id1164466599913" alt="Se trata de una curva de distribución normal. El pico de la curva coincide con el punto barra de x en el eje horizontal. Los puntos barra de x – EBM y barra de x + EBM están marcados en el eje. Se trazan líneas verticales desde estos puntos hasta la curva y se sombrea la región entre las líneas. La región sombreada tiene un área igual a 1 – a y representa el nivel de confianza. Cada cola sin sombrear tiene un área a/2.">
+<image src="../../media/fig-ch08_02_02N.jpg" mime-type="image/jpg" width="380"/>
+</media>
+</figure></section>
+<section id="fs-idm103016896"><title>Redacción de la interpretación</title><para id="fs-idp86836496">La interpretación debe indicar claramente el nivel de confianza (<emphasis effect="italics">CL</emphasis>), explicar qué parámetro de la población se está estimando (en este caso, una <emphasis>media de la población</emphasis>), e indicar el intervalo de confianza (ambos puntos finales). "Estimamos con un ___% de confianza que la verdadera media de la población (incluya el contexto del problema) está entre ___ y ___ (incluya las unidades adecuadas)".</para>
+
+<example id="eip-id1171257291379"><para id="eip-id1171249543224">Supongamos que las puntuaciones de los exámenes de estadística se distribuyen normalmente con una media poblacional desconocida y una desviación típica de la población de tres puntos. Se toma una muestra aleatoria de 36 puntuaciones y se obtiene una media muestral (puntuación media de la muestra) de 68. Calcule una estimación del intervalo de confianza para la calificación media del examen de la población (la calificación media de todos los exámenes).</para>
+<exercise id="eip-id1171264272125"><problem id="id1164450499992">
+<para id="eip-id1171254920718">Calcule un intervalo de confianza del 90 % para la media real (poblacional) de las calificaciones de los exámenes de Estadística.
+
+    </para></problem>
+    <solution id="id1164449849393">
+    <list id="eip-id1170665387344"><item>Puede utilizar la tecnología para calcular directamente el intervalo de confianza.</item>
+    <item>La primera solución se muestra paso a paso.</item>
+    <item>La segunda solución utiliza las calculadoras TI-83, 83+ y 84+<newline/></item>
+    </list>
+    <para id="eip-id1171260460763">Para hallar el intervalo de confianza se necesita la media muestral, <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math>, y el <emphasis effect="italics">EBM</emphasis>.</para>
+    <para id="eip-id1171259684785">
+    <list id="eip-id1171249631187" list-type="labeled-item"><item>Los términos <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> = 68</item>
+    <item>
+    <emphasis effect="italics">EBM</emphasis> = <m:math>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:msub>
+         <m:mi>z</m:mi>
+         <m:mrow>
+          <m:mfrac>
+           <m:mi>α</m:mi>
+           <m:mn>2</m:mn>
+          </m:mfrac>
+         </m:mrow>
+        </m:msub>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+    </m:math><m:math>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>σ</m:mi>
+         <m:mrow>
+          <m:msqrt>
+           <m:mi>n</m:mi>
+          </m:msqrt>
+         </m:mrow>
+        </m:mfrac>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+    </m:math></item>
+    <item><emphasis effect="italics">σ</emphasis> = 3; <emphasis effect="italics">n</emphasis> = 36; el nivel de confianza es del 90 % (<emphasis effect="italics">CL</emphasis> = 0,90)</item>
+    </list>
+    </para>
+    <para id="eip-id1171269290538"><emphasis effect="italics">CL</emphasis> = 0,90 por lo que <emphasis effect="italics">α</emphasis> = 1 – <emphasis effect="italics">CL</emphasis> = 1 – 0,90 = 0,10</para>
+    <para id="eip-id1171249664419">Los términos <m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>α</m:mi>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+     </m:mrow>
+    </m:math> = 0,05 <m:math>
+     <m:mrow>
+      <m:msub>
+       <m:mi>z</m:mi>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>α</m:mi>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+       </m:mrow>
+      </m:msub>
+      <m:mo>=</m:mo><m:msub>
+       <m:mi>z</m:mi>
+       <m:mrow>
+        <m:mn>0,05</m:mn>
+       </m:mrow>
+      </m:msub>
+     </m:mrow>
+    </m:math></para>
+    <para id="eip-id1171249710090">El área a la derecha de <emphasis effect="italics">z</emphasis><sub>0,05</sub> es 0,05 y el área a la izquierda de <emphasis effect="italics">z</emphasis><sub>0,05</sub> es 1 - 0,05 = 0,95.</para>
+    <para id="element-55">Los términos <m:math>
+     <m:mrow>
+      <m:msub>
+       <m:mi>z</m:mi>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>α</m:mi>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+       </m:mrow>
+      </m:msub>
+      <m:mtext> = </m:mtext><m:msub>
+       <m:mi>z</m:mi>
+       <m:mrow>
+        <m:mn>0,05</m:mn>
+       </m:mrow>
+      </m:msub>
+      <m:mtext> = 1</m:mtext><m:mtext>0,645</m:mtext>
+     </m:mrow>
+    </m:math></para>
+    <para id="eip-id1171251216060">utilizando invNorm(0,95; 0, 1) en las calculadoras TI-83,83+ y 84+. Esto también se puede encontrar utilizando los comandos apropiados en otras calculadoras, una computadora o una tabla de probabilidad para la distribución normal estándar.</para>
+    <para id="eip-id1171261548281"><emphasis effect="italics">EBM</emphasis> = (1,645)<m:math>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mn>3</m:mn>
+         <m:mrow>
+          <m:msqrt>
+           <m:mrow>
+            <m:mn>36</m:mn>
+           </m:mrow>
+          </m:msqrt>
+
+         </m:mrow>
+        </m:mfrac>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+    </m:math> = 0,8225</para>
+    <para id="eip-id1171249016439">Los términos <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+    </m:math> – <emphasis effect="italics">EBM</emphasis> = 68 – 0,8225 = 67,1775</para>
+    <para id="eip-id1171247927262">
+    Los términos <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+    </m:math> + <emphasis effect="italics">EBM</emphasis> = 68 + 0,8225 = 68,8225</para>
+    <para id="eip-id1171262340763">El intervalo de confianza del 90 % es <emphasis>(67,1775; 68,8225)</emphasis><newline/></para>
+    </solution>
+
+<solution id="eip-idp129183584">
+<para id="eip-idm50696864"/>
+    <note id="fs-idp129429152" class="statistics calculator">
+    <label/>
+    <para id="eip-542">Pulse <code>STAT</code> y flecha hacia <code>TESTS</code>. <newline/>Desplace la flecha hacia abajo <code>7:ZInterval</code>. <newline/>Pulse <code>ENTER</code>. <newline/>Desplace la flecha hacia <code>STATS</code> y pulse <code>ENTER</code>. <newline/>Desplace la flecha hacia abajo e introduzca tres para <emphasis effect="italics">σ</emphasis>, 68 para <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math>, 36 para <emphasis effect="italics">n</emphasis>, y 0,90 para <code>C-level</code>. <newline/>Desplace la flecha hacia abajo <code>Calculate</code> y pulse <code>ENTER</code>. <newline/>El intervalo de confianza es (con tres decimales) (67,178; 68,822).</para>
+    </note>
+
+    <para id="eip-id1171248950887">Interpretación: Estimamos con un 90 % de confianza que la verdadera calificación media del examen de la población para todos los estudiantes de Estadística está entre 67,18 y 68,82.</para>
+
+    <para id="eip-id1171264042411">Explicación del nivel de confianza del 90 %: El noventa por ciento de los intervalos de confianza construidos de este modo contienen la verdadera puntuación media del examen estadístico. Por ejemplo, si construyéramos 100 de estos intervalos de confianza, esperaríamos que 90 de ellos contuvieran la verdadera puntuación media del examen de la población.</para>
+    </solution>
+    </exercise></example><note id="fs-idm85249264" class="statistics try"><label/><title>Ejercicio</title>
+
+    <para id="eip-idm104826624">Supongamos que los tiempos medios de entrega de las pizzas se distribuyen normalmente con una media poblacional desconocida y una desviación típica desviación típica de la población de seis minutos. Se toma una muestra aleatoria de 28 pizzerías y se obtiene una media de tiempo de entrega de 36 minutos.</para>
+    <exercise id="eip-24">
+    <problem id="eip-140">
+    <para id="eip-887">Calcule una estimación del intervalo de confianza del 90 % para el tiempo medio de entrega de la población.</para>
+    </problem>
+    <solution id="eip-337">
+<label/>
+    <para id="eip-637">(34,1347, 37,8653)</para>
+    </solution>
+    </exercise>
+    </note>
+
+<example id="example3"><para id="eip-431">La tasa de absorción específica (Specific Absorption Rate, SAR) de un teléfono móvil mide la cantidad de energía de radiofrecuencia (Radio Frequency, RF) que absorbe el cuerpo del usuario cuando utiliza el teléfono. Todos los teléfonos móviles emiten energía de radiofrecuencia. Los diferentes modelos de teléfono tienen diferentes medidas de SAR. Para recibir la certificación de la Comisión Federal de Comunicaciones (Federal Communications Commission, FCC) para su venta en los Estados Unidos, el nivel de SAR de un teléfono móvil no debe ser superior a 1,6 vatios por kilogramo. La <link target-id="M02_CH08-tbl001" document=""/> muestra el nivel SAR más alto de una selección aleatoria de modelos de teléfonos móviles según las mediciones de la FCC.</para>
+    <table id="M02_CH08-tbl001" summary="..">
+    <tgroup cols="6">
+    <thead>
+    <row>
+    <entry>Modelo de teléfono</entry>
+    <entry>SAR</entry>
+    <entry>Modelo de teléfono</entry>
+    <entry>SAR</entry>
+    <entry>Modelo de teléfono</entry>
+    <entry>SAR</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry>iPhone 4S de Apple</entry>
+    <entry>1,11</entry>
+    <entry>LG Ally</entry>
+    <entry>1,36</entry>
+    <entry>Pantech Laser</entry>
+    <entry>0,74</entry>
+    </row>
+    <row>
+    <entry>BlackBerry Pearl 8120</entry>
+    <entry>1,48</entry>
+    <entry>LG AX275</entry>
+    <entry>1,34</entry>
+    <entry>Samsung Character</entry>
+    <entry>0,5</entry>
+    </row>
+    <row>
+    <entry>BlackBerry Tour 9630</entry>
+    <entry>1,43</entry>
+    <entry>LG Cosmos</entry>
+    <entry>1,18</entry>
+    <entry>Samsung Epic 4G Touch</entry>
+    <entry>0,4</entry>
+    </row>
+    <row>
+    <entry>Cricket TXTM8</entry>
+    <entry>1.3</entry>
+    <entry>LG CU515</entry>
+    <entry>1.3</entry>
+    <entry>Samsung M240</entry>
+    <entry>0,867</entry>
+    </row>
+    <row>
+    <entry>HP/Palm Centro</entry>
+    <entry>1,09</entry>
+    <entry>LG Trax CU575</entry>
+    <entry>1,26</entry>
+    <entry>Samsung Messager III SCH-R750</entry>
+    <entry>0,68</entry>
+    </row>
+    <row>
+    <entry>HTC One V</entry>
+    <entry>0,455</entry>
+    <entry>Motorola Q9h</entry>
+    <entry>1,29</entry>
+    <entry>Samsung Nexus S</entry>
+    <entry>0,51</entry>
+    </row>
+    <row>
+    <entry>HTC Touch Pro 2</entry>
+    <entry>1,41</entry>
+    <entry>Motorola Razr2 V8</entry>
+    <entry>0,36</entry>
+    <entry>Samsung SGH-A227</entry>
+    <entry>1,13</entry>
+    </row>
+    <row>
+    <entry>Huawei M835 Ideos</entry>
+    <entry>0,82</entry>
+    <entry>Motorola Razr2 V9</entry>
+    <entry>0,52</entry>
+    <entry>SGH-a107 GoPhone</entry>
+    <entry>0,3</entry>
+    </row>
+    <row>
+    <entry>Kyocera DuraPlus</entry>
+    <entry>0,78</entry>
+    <entry>Motorola V195s</entry>
+    <entry>1,6</entry>
+    <entry>Sony W350a</entry>
+    <entry>1,48</entry>
+    </row>
+    <row>
+    <entry>Kyocera K127 Marbl</entry>
+    <entry>1,25</entry>
+    <entry>Nokia 1680</entry>
+    <entry>1,39</entry>
+    <entry>T-Mobile Concord</entry>
+    <entry>1,38</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <exercise id="eip-377"><problem id="eip-199">
+    <para id="eip-289">Calcule un intervalo de confianza del 98 % para la media verdadera (de la población) de las tasas de absorción específica (SAR) de los teléfonos celulares. Supongamos que la desviación típica de la población es <emphasis effect="italics">σ</emphasis> = 0,337.</para></problem>
+    <solution id="eip-311">
+    <para id="eip-303">Para hallar el intervalo de confianza, hay que empezar por encontrar la estimación puntual: la media de la muestra.</para>
+    <para id="eip-idm144115024">Los términos <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mn>1,024</m:mn>
+ </m:mrow>
+</m:math></para><para id="eip-idm41535920">A continuación, calcule el <emphasis effect="italics">EBM</emphasis>. Como está creando un intervalo de confianza del 98 %, <emphasis effect="italics">CL</emphasis> = 0,98.</para>
+    <figure id="fs-idp138152784"><media id="eip-idp25198592" alt="Se trata de una curva de distribución normal. El punto z0,01 está marcado en el borde derecho de la curva y la región a la derecha de este punto está sombreada. El área de esta región sombreada es igual a 0,01. El área no sombreada es igual a 0,99.">
+    <image src="../../media/CNX_Stats_C08_M02_001.jpg" mime-type="image/jpeg" width="380"/>
+    </media>
+    </figure>
+    <para id="eip-idp4350608">Se necesita encontrar <emphasis effect="italics">z</emphasis><sub>0,01</sub> que tenga la propiedad de que el área bajo la curva de densidad normal a la derecha de <emphasis effect="italics">z</emphasis><sub>0,01</sub> es 0,01 y el área a la izquierda es 0,99. Utilice su calculadora, una computadora o una tabla de probabilidad para la distribución normal estándar para encontrar <emphasis effect="italics">z</emphasis><sub>0,01</sub> = 2,326.</para>
+    <para id="eip-idm15410448">Los términos <m:math>
+     <m:mrow>
+      <m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msub>
+       <m:mi>z</m:mi>
+       <m:mrow>
+        <m:mn>0,01</m:mn>
+       </m:mrow>
+      </m:msub>
+      <m:mo stretchy="false">)</m:mo><m:mfrac>
+       <m:mi>σ</m:mi>
+       <m:mrow>
+        <m:msqrt>
+         <m:mi>n</m:mi>
+        </m:msqrt>
+       </m:mrow>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2,326</m:mn><m:mo stretchy="false">)</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>0,337</m:mn>
+       </m:mrow>
+       <m:mrow>
+        <m:msqrt>
+         <m:mrow>
+          <m:mn>30</m:mn>
+         </m:mrow>
+        </m:msqrt>
+       </m:mrow>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mn>0,1431</m:mn>
+     </m:mrow>
+    </m:math></para>
+    <para id="eip-idm15410192">Para calcular el intervalo de confianza del 98 %, calcule <m:math>
+     <m:mrow>
+      <m:mo> </m:mo><m:mover accent="true">
+       <m:mi>x</m:mi>
+       <m:mo>¯</m:mo>
+      </m:mover>
+      <m:mo>±</m:mo><m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi>
+     </m:mrow>
+    </m:math></para>
+    <para id="eip-idm89961776">Los términos <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+    </m:math> - <emphasis effect="italics">EBM</emphasis> = 1,024 - 0,1431 = 0,8809</para>
+    <para id="eip-idm89961520">Los términos <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> - <emphasis effect="italics">EBM</emphasis> = 1,024 - 0,1431 = 1,1671</para><para id="eip-idm89961264">Estimamos con un 98 % de confianza que la verdadera media de SAR para la población de teléfonos móviles en Estados Unidos está entre 0,8809 y 1,1671 vatios por kilogramo.</para>
+    </solution>
+    <solution id="eip-idm108144592">
+<para id="eip-idm52012352"/>
+    <note id="fs-idm71087104" class="statistics calculator">
+    <label/>
+    <list id="eip-idp8586624" list-type="labeled-item">
+    <item>Pulse STAT y desplace la flecha hasta TESTS.</item>
+    <item>Desplace la flecha hacia abajo hasta 7:ZInterval.</item>
+    <item>Pulse ENTER.</item>
+    <item>Desplace la flecha hacia STATS y pulse ENTER.</item>
+    <item>Desplace la flecha hacia abajo e introduzca los siguientes valores: <list id="eip-idm28766480" list-type="labeled-item"><item><emphasis effect="italics">σ</emphasis>: 0,337</item>
+    <item>Los términos <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>:</m:mo><m:mn>1,024</m:mn>
+ </m:mrow>
+</m:math></item>
+    <item><emphasis effect="italics">n</emphasis>: 30</item>
+    <item>Nivel <emphasis effect="italics">C</emphasis>: 0,98</item>
+    </list></item>
+    <item>Desplace la flecha hacia abajo hasta Calculate (Calcular) y pulse ENTER.</item>
+    <item>El intervalo de confianza es (con tres decimales) (0,881; 1,167).</item>
+    </list></note>
+    </solution>
+    </exercise></example>
+
+    <note id="fs-idp77326048" class="statistics try">
+<label/><title>Ejercicio</title>
+    <exercise id="eip-158">
+    <problem id="eip-555">
+      <para id="eip-136"><link target-id="M02_CH08-tbl002" document=""/> muestra un muestreo aleatorio de 20 modelos de teléfonos móviles. Utilice estos datos para calcular un intervalo de confianza del 93 % para la verdadera media de SAR de los teléfonos móviles certificados para su uso en Estados Unidos. Como en el caso anterior, supongamos que la desviación típica de la población es <emphasis effect="italics">σ</emphasis> = 0,337.</para>
+      <table id="M02_CH08-tbl002" summary="..">
+    <tgroup cols="4">
+    <thead>
+    <row>
+    <entry><emphasis>Modelo de teléfono</emphasis></entry>
+    <entry><emphasis>SAR</emphasis></entry>
+    <entry><emphasis>Modelo de teléfono</emphasis></entry>
+    <entry><emphasis>SAR</emphasis></entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry>Blackberry Pearl 8120</entry>
+    <entry>1,48</entry>
+    <entry>Nokia E71x</entry>
+    <entry>1,53</entry>
+    </row>
+    <row>
+    <entry>HTC Evo Design 4G</entry>
+    <entry>0,8</entry>
+    <entry>Nokia N75</entry>
+    <entry>0,68</entry>
+    </row>
+    <row>
+    <entry>HTC Freestyle</entry>
+    <entry>1,15</entry>
+    <entry>Nokia N79</entry>
+    <entry>1,4</entry>
+    </row>
+    <row>
+    <entry>LG Ally</entry>
+    <entry>1,36</entry>
+    <entry>Sagem Puma</entry>
+    <entry>1,24</entry>
+    </row>
+    <row>
+    <entry>LG Fathom</entry>
+    <entry>0,77</entry>
+    <entry>Samsung Fascinate</entry>
+    <entry>0,57</entry>
+    </row>
+    <row>
+    <entry>LG Optimus Vu</entry>
+    <entry>0,462</entry>
+    <entry>Samsung Infuse 4G</entry>
+    <entry>0,2</entry>
+    </row>
+    <row>
+    <entry>Motorola Cliq XT</entry>
+    <entry>1,36</entry>
+    <entry>Samsung Nexus S</entry>
+    <entry>0,51</entry>
+    </row>
+    <row>
+    <entry>Motorola Droid Pro</entry>
+    <entry>1,39</entry>
+    <entry>Samsung Replenish</entry>
+    <entry>0,3</entry>
+    </row>
+    <row>
+    <entry>Motorola Droid Razr M</entry>
+    <entry>1.3</entry>
+    <entry>Sony W518a Walkman</entry>
+    <entry>0,73</entry>
+    </row>
+    <row>
+    <entry>Nokia 7705 Twist</entry>
+    <entry>0,7</entry>
+    <entry>ZTE C79</entry>
+    <entry>0,869</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    </problem>
+    </exercise>
+    </note>
+<para id="eip-idp5304592">Observe la diferencia en los intervalos de confianza calculados en el <link target-id="example3" document=""/> y en el siguiente ejercicio de <link target-id="fs-idp77326048" document="">Ejercicio</link>. Estos intervalos son diferentes por varias razones: se calcularon a partir de muestras diferentes, las muestras eran de distinto tamaño y los intervalos se calcularon para distintos niveles de confianza. Aunque los intervalos son diferentes, no aportan información contradictoria. Los efectos de este tipo de cambios son el tema de la siguiente sección de este capítulo.</para></section><section id="eip-783"><title>Modificación del nivel de confianza o del tamaño de la muestra</title><example id="element-1217">
+    <exercise id="element-971"><problem id="id1164450104012">
+    <para id="element-214">Supongamos que cambiamos el problema original en <link target-id="eip-id1171257291379"/> utilizando un nivel de confianza del 95 %. Calcule un intervalo de confianza del 95 % para la calificación media real (poblacional) del examen estadístico.</para></problem>
+    <solution id="id1164461631257">
+    <para id="element-701">Para hallar el intervalo de confianza se necesita la media muestral, <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math>, y el <emphasis effect="italics">EBM</emphasis>.</para>
+    <list id="element-5" list-type="labeled-item">
+    <item>Los términos <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> = 68</item>
+    <item><emphasis effect="italics">EBM</emphasis> = <m:math>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:msub>
+         <m:mi>z</m:mi>
+         <m:mrow>
+          <m:mfrac>
+           <m:mi>α</m:mi>
+           <m:mn>2</m:mn>
+          </m:mfrac>
+
+         </m:mrow>
+        </m:msub>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>σ</m:mi>
+         <m:mrow>
+          <m:msqrt>
+           <m:mi>n</m:mi>
+          </m:msqrt>
+
+         </m:mrow>
+        </m:mfrac>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+    </m:math></item>
+    <item><emphasis effect="italics">σ</emphasis> = 3; <emphasis effect="italics">n</emphasis> = 36; el nivel de confianza es del 95 % (<emphasis effect="italics">CL</emphasis> = 0,95).</item>
+    </list>
+<para id="element-547"><emphasis effect="italics">CL</emphasis> = 0,95 por lo que <emphasis effect="italics">α</emphasis> = 1 – <emphasis effect="italics">CL</emphasis> = 1 – 0,95 = 0,05</para>
+    <para id="element-769">Los términos <m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>α</m:mi>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mn>0,025</m:mn><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:msub>
+       <m:mi>z</m:mi>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>α</m:mi>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+
+       </m:mrow>
+      </m:msub>
+      <m:mo>=</m:mo><m:msub>
+       <m:mi>z</m:mi>
+       <m:mrow>
+        <m:mn>0,025</m:mn>
+       </m:mrow>
+      </m:msub>
+
+     </m:mrow>
+    </m:math></para>
+    <para id="element-370">El área a la derecha de <emphasis effect="italics">z</emphasis><sub>0,025</sub> es 0,025 y el área a la izquierda de <emphasis effect="italics">z</emphasis><sub>0,025</sub> es 1 – 0,025 = 0,975.</para>
+    <para id="element-669">Los términos <m:math>
+     <m:mrow>
+      <m:msub>
+       <m:mi>z</m:mi>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>α</m:mi>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+
+       </m:mrow>
+      </m:msub>
+      <m:mo>=</m:mo><m:msub>
+       <m:mi>z</m:mi>
+       <m:mrow>
+        <m:mn>0,025</m:mn>
+       </m:mrow>
+      </m:msub>
+      <m:mo>=</m:mo><m:mn>1,96</m:mn>
+     </m:mrow>
+    </m:math></para>
+    <para id="fs-idm2686672" class="finger">cuando se utiliza invnorm(0,975,0,1) en las calculadoras TI-83, 83+ u 84+ (esto también se puede encontrar utilizando los comandos apropiados en otras calculadoras, utilizando un ordenador, o utilizando una tabla de probabilidad para la distribución normal estándar).</para><para id="element-88"><emphasis effect="italics">EBM</emphasis> = (1,96)<m:math>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mn>3</m:mn>
+         <m:mrow>
+          <m:msqrt>
+           <m:mrow>
+            <m:mn>36</m:mn>
+           </m:mrow>
+          </m:msqrt>
+
+         </m:mrow>
+        </m:mfrac>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+    </m:math> = 0,98</para>
+    <para id="element-956">Los términos <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> - <emphasis effect="italics">EBM</emphasis> = 68 - 0,98 = 67,02</para>
+    <para id="element-64">Los términos <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> + <emphasis effect="italics">EBM</emphasis> = 68 + 0,98 = 68,98</para>
+    <para id="fs-idp120322464">Observe que el <emphasis effect="italics">EBM</emphasis> es mayor para un nivel de confianza del 95 % en el problema original.</para>
+
+  </solution><commentary id="examplecomment">
+<para id="fs-idp25970000">Estimamos con un 95 % de confianza que la verdadera media poblacional de todas las puntuaciones de los exámenes de estadística está entre 67,02 y 68,98.</para><para id="fs-idp48227696">
+    Explicación del nivel de confianza del 95 %: El 95 % de todos los intervalos de confianza construidos de este modo contienen el verdadero valor de la puntuación media del examen estadístico de la población.</para>
+
+    <para id="fs-idp38701776">
+    Comparar los resultados: El intervalo de confianza del 90 % es (67,18; 68,82). El intervalo de confianza del 95 % es (67,02; 68,98). El intervalo de confianza del 95 % es más amplio. Si observa los gráficos, como el área 0,95 es mayor que el área 0,90, tiene sentido que el intervalo de confianza del 95 % sea más amplio. Para estar más seguro de que el intervalo de confianza contiene realmente el verdadero valor de la media de la población para todas las calificaciones de los exámenes de estadística, el intervalo de confianza tiene que ser necesariamente más amplio.</para>
+
+    <figure id="conf_intvls_cfpm3"><media id="id1164459044969" alt="La parte (a) muestra una curva de distribución normal. Una región central con un área igual a 0,90 está sombreada. Cada cola no sombreada de la curva tiene un área igual a 0,05. La parte (b) muestra una curva de distribución normal. Una región central con un área igual a 0,95 está sombreada. Cada cola no sombreada de la curva tiene un área igual a 0,025.">
+    <image src="../../media/fig-ch08_02_03-66bc.jpg" mime-type="image/jpg" width="450"/>
+    </media>
+    </figure>
+
+    <list id="eip-703" list-type="bulleted">
+    <title><emphasis>Resumen: Efecto de la modificación del nivel de confianza</emphasis></title>
+    <item>Al aumentar el nivel de confianza se incrementa el límite de error, lo que hace que el intervalo de confianza sea más amplio.</item>
+    <item>La disminución del nivel de confianza reduce el límite de error, lo que hace que el intervalo de confianza sea más estrecho.</item>
+    </list>
+  </commentary>
+    </exercise></example>
+    <note id="fs-idm35811600" class="statistics try">
+    <label/>
+    <title>Ejercicio</title>
+    <exercise id="eip-847"><problem id="eip-565">
+      <para id="eip-idp138029248">Vuelva a consultar el <link target-id="fs-idm85249264" document="">Ejercicio</link> de entrega de pizzas. La desviación típica de la población es de seis minutos y la media de la muestra del tiempo de entrega es de 36 minutos. Utilice un tamaño de muestra de 20. Encuentre una estimación del intervalo de confianza del 95 % para la media real del tiempo de entrega de la pizza.</para></problem>
+    </exercise></note></section>
+
+    <example id="element-542"><para id="element-338">Supongamos que cambiamos el problema original en el <link target-id="eip-id1171257291379"/> para ver qué ocurre con el límite de error si se cambia el tamaño de la muestra.</para><exercise id="element-442">
+    <problem id="id1164455008611">
+    <para id="element-98">Deje todo igual excepto el tamaño de la muestra. Utilice el nivel de confianza original del 90 %. ¿Qué ocurre con el límite de error y el intervalo de confianza si aumentamos el tamaño de la muestra y utilizamos <emphasis effect="italics">n</emphasis> = 100 en lugar de <emphasis effect="italics">n</emphasis> = 36? ¿Qué ocurre si disminuimos el tamaño de la muestra a <emphasis effect="italics">n</emphasis> = 25 en vez de <emphasis effect="italics">n</emphasis> = 36? </para>
+    <list id="element-119" list-type="bulleted"><item>Los términos <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> = 68</item>
+    <item><emphasis effect="italics">EBM</emphasis> = <m:math>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:msub>
+         <m:mi>z</m:mi>
+         <m:mrow>
+          <m:mfrac>
+           <m:mi>α</m:mi>
+           <m:mn>2</m:mn>
+          </m:mfrac>
+
+         </m:mrow>
+        </m:msub>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>σ</m:mi>
+         <m:mrow>
+          <m:msqrt>
+           <m:mi>n</m:mi>
+          </m:msqrt>
+         </m:mrow>
+        </m:mfrac>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+    </m:math></item>
+    <item><emphasis effect="italics">σ</emphasis> = 3; el nivel de confianza es del 90 % (<emphasis effect="italics">CL</emphasis>=0,90); <m:math>
+     <m:mrow>
+      <m:msub>
+       <m:mi>z</m:mi>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>α</m:mi>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+       </m:mrow>
+      </m:msub>
+     </m:mrow>
+    </m:math> = <emphasis effect="italics">z</emphasis><sub>0,05</sub> = 1,645.</item>
+    </list></problem>
+
+    <solution id="id5851674">
+    <para id="element-124">Si <emphasis>aumentamos</emphasis> el tamaño de la muestra <emphasis effect="italics">n</emphasis> a 100, <emphasis>disminuimos</emphasis> el límite de error.</para>
+    <para id="element-412">Cuando <emphasis effect="italics">n</emphasis> = 100: <emphasis effect="italics">EBM</emphasis> = <m:math>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:msub>
+         <m:mi>z</m:mi>
+         <m:mrow>
+          <m:mfrac>
+           <m:mi>α</m:mi>
+           <m:mn>2</m:mn>
+          </m:mfrac>
+         </m:mrow>
+        </m:msub>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>σ</m:mi>
+         <m:mrow>
+          <m:msqrt>
+           <m:mi>n</m:mi>
+          </m:msqrt>
+         </m:mrow>
+        </m:mfrac>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+    </m:math> = (1,645)<m:math>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mn>3</m:mn>
+         <m:mrow>
+          <m:msqrt>
+           <m:mrow>
+            <m:mn>100</m:mn>
+           </m:mrow>
+          </m:msqrt>
+         </m:mrow>
+        </m:mfrac>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+    </m:math> = 0,4935.</para>
+    </solution>
+    <solution id="id1164463763522">
+    <para id="element-125">Si <emphasis>disminuimos</emphasis> el tamaño de la muestra <emphasis effect="italics">n</emphasis> a 25, <emphasis>aumentamos</emphasis> el límite de error.
+    </para>
+
+    <para id="element-9">Cuando <emphasis effect="italics">n</emphasis> = 25: <emphasis effect="italics">EBM</emphasis> = <m:math>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:msub>
+         <m:mi>z</m:mi>
+         <m:mrow>
+          <m:mfrac>
+           <m:mi>α</m:mi>
+           <m:mn>2</m:mn>
+          </m:mfrac>
+         </m:mrow>
+        </m:msub>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>σ</m:mi>
+         <m:mrow>
+          <m:msqrt>
+           <m:mi>n</m:mi>
+          </m:msqrt>
+         </m:mrow>
+        </m:mfrac>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+    </m:math> = (1,645)<m:math>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mn>3</m:mn>
+         <m:mrow>
+          <m:msqrt>
+           <m:mrow>
+            <m:mn>25</m:mn>
+           </m:mrow>
+          </m:msqrt>
+         </m:mrow>
+        </m:mfrac>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+    </m:math> = 0,987.</para>
+    </solution>
+    </exercise>
+
+    <list id="element-364" list-type="bulleted">
+    <title>Resumen: Efecto de la modificación del tamaño de la muestra</title>
+    <item>El aumento del tamaño de la muestra hace que el límite de error disminuya, haciendo que el intervalo de confianza sea más estrecho.</item>
+    <item>La disminución del tamaño de la muestra hace que el límite de error aumente, haciendo que el intervalo de confianza sea más amplio.</item>
+    </list>
+    </example>
+
+    <note id="fs-idm59608800" class="statistics try"><label/><title>Ejercicio</title>
+    <exercise id="eip-159">
+    <problem id="eip-53">
+      <para id="eip-929">Vuelva a consultar el <link target-id="fs-idm85249264">Ejercicio</link> de entrega de pizzas. La media de tiempo de entrega es de 36 minutos y la desviación típica de la población es de seis minutos. Supongamos que el tamaño de la muestra se cambia a 50 restaurantes con la misma media muestral. Calcule una estimación del intervalo de confianza del 90 % para el tiempo medio de entrega de la población.</para></problem>
+    </exercise>
+    </note>
+   </section>
+<section id="eip-710">
+<title>Hacer el cálculo a la inversa para encontrar el límite de error o la media de la muestra</title>
+    <para id="eip-719">Cuando calculamos un intervalo de confianza, encontramos la media de la muestra, calculamos el límite de error y lo utilizamos para calcular el intervalo de confianza. Sin embargo, a veces, cuando leemos estudios estadísticos, el estudio puede indicar solo el intervalo de confianza. Si conocemos el intervalo de confianza, podemos hacer el cálculo a la inversa para encontrar tanto el límite de error como la media de la muestra.</para>
+    <list id="eip-109">
+    <title><emphasis>Calcular el límite de error</emphasis></title>
+    <item>Del valor superior del intervalo, reste la media de la muestra.</item>
+    <item>O, del valor superior del intervalo, reste el valor inferior. A continuación, divida la diferencia entre dos.</item>
+    </list> <list id="eip-364">
+    <title><emphasis>Calcular la media de la muestra</emphasis></title>
+    <item>Reste el límite de error del valor superior del intervalo de confianza.</item>
+    <item>O, promedie los puntos finales superior e inferior del intervalo de confianza.</item>
+    </list>
+    <para id="eip-117">Observe que hay dos métodos para realizar cada cálculo. Puede elegir el método que sea más fácil de utilizar con la información que conoce.</para>
+
+    <example id="eip-209">
+    <para id="element-108">Supongamos que sabemos que un intervalo de confianza es <emphasis>(67,18; 68,82)</emphasis> y queremos encontrar el límite de error. Puede que sepamos que la media de la muestra es 68, o puede que nuestra fuente solo haya dado el intervalo de confianza y no nos haya dicho el valor de la media de la muestra.</para><list id="element-733" list-type="bulleted">
+    <title>Calcule el límite de error:</title>
+    <item>Si sabemos que la media de la muestra es de 68 <emphasis effect="italics">EBM</emphasis> = 68,82 - 68 = 0,82.</item>
+    <item>Si no conocemos la media de la muestra: <emphasis effect="italics">EBM</emphasis> = <m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mn>68,82</m:mn><m:mo>- −</m:mo><m:mn>67,18</m:mn><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math> = 0,82.</item>
+    </list> <list id="fs-idm83129664" list-type="bulleted"><title>Calcule la media de la muestra:</title><item>Si conocemos el límite de error: <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> = 68,82 – 0,82 = 68</item>
+    <item>Si no conocemos el límite de error: <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> = <m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mn>67,18</m:mn><m:mo>+</m:mo><m:mn>68,82</m:mn><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math> = 68.</item>
+    </list></example>
+
+
+    <note id="fs-idm38498176" class="statistics try">
+    <label/>
+    <title>Ejercicio</title>
+    <exercise id="eip-998">
+    <problem id="eip-253">
+    <para id="eip-94">Supongamos que sabemos que un intervalo de confianza es (42,12; 47,88). Encuentra el límite de error y la media muestral.</para>
+    </problem>
+    </exercise>
+    </note></section>
+
+    <section id="eip-865">
+    <title>Cálculo del tamaño de la muestra <emphasis effect="italics">n</emphasis></title>
+    <para id="eip-630">Si los investigadores desean un margen de error específico, pueden utilizar la fórmula del límite de error para calcular el tamaño necesario de la muestra.</para>
+    <para id="eip-517">La fórmula del límite de error para una media poblacional cuando se conoce la desviación típica de la población es <newline/><emphasis effect="italics">EBM</emphasis> = <m:math>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:msub>
+         <m:mi>z</m:mi>
+         <m:mrow>
+          <m:mfrac>
+           <m:mi>α</m:mi>
+           <m:mn>2</m:mn>
+          </m:mfrac>
+
+         </m:mrow>
+        </m:msub>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>σ</m:mi>
+         <m:mrow>
+          <m:msqrt>
+           <m:mi>n</m:mi>
+          </m:msqrt>
+
+         </m:mrow>
+        </m:mfrac>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+    </m:math></para>
+    <para id="eip-975">La fórmula del tamaño de la muestra es <emphasis effect="italics">n</emphasis> = <m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mi>z</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+         <m:mi>σ</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+       <m:mrow>
+        <m:mi>E</m:mi><m:mi>B</m:mi><m:msup>
+         <m:mi>M</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math>, que se encuentra resolviendo la fórmula del límite de error para <emphasis effect="italics">n</emphasis>.</para><para id="eip-409">En esta fórmula, <emphasis effect="italics">z</emphasis> es <m:math>
+     <m:mrow>
+      <m:msub>
+       <m:mi>z</m:mi>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>α</m:mi>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+
+       </m:mrow>
+      </m:msub>
+
+     </m:mrow>
+    </m:math>, correspondiente al nivel de confianza deseado. Un investigador que planifique un estudio y desee un nivel de confianza y un límite de error específicos puede utilizar esta fórmula para calcular el tamaño de la muestra necesaria para el estudio.</para>
+    <example id="eip-324">
+    <para id="eip-796">La desviación típica de la población para la edad de los estudiantes de Foothill College es de 15 años. Si queremos tener un 95 % de confianza en que la media de edad de la muestra está dentro de los dos años de la verdadera media de edad de la población de estudiantes de Foothill College, ¿cuántos estudiantes de Foothill College seleccionados al azar deben encuestarse?</para>
+    <list id="eip-110" list-type="labeled-item">
+    <item>Por el problema, sabemos que <emphasis effect="italics">σ</emphasis> = 15 y <emphasis effect="italics">EBM</emphasis> = 2.</item>
+    <item><emphasis effect="italics">z</emphasis> = <emphasis effect="italics">z</emphasis><sub>0,025</sub> = 1,96, porque el nivel de confianza es del 95 %.</item>
+    </list> <list id="eip-501" list-type="labeled-item">
+    <item><emphasis effect="italics">n</emphasis> = <m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mi>z</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+         <m:mi>σ</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+       <m:mrow>
+        <m:mi>E</m:mi><m:mi>B</m:mi><m:msup>
+         <m:mi>M</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>1,96</m:mn>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>15</m:mn>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mn>2</m:mn>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> = 216,09 utilizando la ecuación del tamaño de la muestra.</item>
+    <item> Utilice <emphasis effect="italics">n</emphasis> = 217: Redondee siempre la respuesta al número entero superior para asegurarse de que el tamaño de la muestra es lo suficientemente grande.</item>
+    </list><para id="eip-893">Por lo tanto, habría que encuestar a 217 estudiantes de Foothill College para estar seguros en un 95 % de que estamos dentro de los dos años de la verdadera edad media de la población de estudiantes del Foothill College.</para>
+    </example>
+
+    <note id="fs-idm26211984" class="statistics try"><label/>
+    <title>Ejercicio</title>
+    <exercise id="eip-669">
+    <problem id="eip-635">
+    <para id="eip-731">La desviación típica de la población para la altura de los jugadores de baloncesto de la escuela secundaria es de tres pulgadas. Si queremos tener un 95 % de confianza en que la estatura media de la muestra está dentro de una pulgada de la estatura media real de la población, ¿cuántos estudiantes seleccionados al azar deben ser encuestados?</para>
+    </problem>
+    </exercise>
+    </note>
+</section>
+<section id="eip-493" class="references"><title>Referencias</title><para id="eip-idp49185344">“American Fact Finder”. U.S. Census Bureau. Disponible en línea en http://factfinder2.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t (consultado el 2 de julio de 2013).</para>
+<para id="eip-idp49186128">“Disclosure Data Catalog: Candidate Summary Report 2012”. U.S. Federal Election Commission. Disponible en línea en http://www.fec.gov/data/index.jsp (consultado el 2 de julio de 2013).</para>
+<para id="eip-idp131915104">“Headcount Enrollment Trends by Student Demographics Ten-Year Fall Trends to Most Recently Completed Fall”. Foothill De Anza Community College District. Disponible en línea en http://research.fhda.edu/factbook/FH_Demo_Trends/FoothillDemographicTrends.htm (consultado el 30 de septiembre de 2013).</para>
+<para id="eip-idp131915488">Kuczmarski, Robert J., Cynthia L. Ogden, Shumei S. Guo, Laurence M. Grummer-Strawn, Katherine M. Flegal, Zuguo Mei, Rong Wei, Lester R. Curtin, Alex F. Roche, Clifford L. Johnson. “2000 CDC Growth Charts for the United States: Methods and Development”. Centers for Disease Control and Prevention. Disponible en línea en http://www.cdc.gov/growthcharts/2000growthchart-us.pdf (consultado el 2 de julio de 2013).</para>
+<para id="eip-idp131915872">La, Lynn, Kent German. “Cell Phone Radiation Levels”. c|net parte de CBX Interactive Inc. Disponible en línea en http://reviews.cnet.com/cell-phone-radiation-levels/ (consultado el 2 de julio de 2013).</para>
+<para id="eip-idp55624496">“Mean Income in the Past 12 Months (in 2011 Inflaction-Adjusted Dollars): 2011 American Community Survey 1-Year Estimates”. American Fact Finder, U.S. Census Bureau. Disponible en línea en http://factfinder2.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_11_1YR_S1902&amp;prodType=table (consultado el 2 de julio de 2013).</para>
+<para id="eip-idp158475920">“Metadata Description of Candidate Summary File”. U.S. Federal Election Commission. Disponible en línea en http://www.fec.gov/finance/disclosure/metadata/metadataforcandidatesummary.shtml (consultado el 2 de julio de 2013).</para>
+<para id="eip-idp158476848">“National Health and Nutrition Examination Survey”. Centers for Disease Control and Prevention. Disponible en línea en http://www.cdc.gov/nchs/nhanes.htm (consultado el 2 de julio de 2013).</para></section><section id="eip-330" class="summary">
+    <title>Revisión del capítulo</title>
+    <para id="eip-120">En este módulo hemos aprendido a calcular el intervalo de confianza para una media poblacional única cuando se conoce la desviación típica de la población. Al estimar una media poblacional, el margen de error se denomina límite de error para una media poblacional (<emphasis effect="italics">EBM</emphasis>). Un intervalo de confianza tiene la forma general:</para>
+    <para id="fs-idm46112">(límite inferior, límite superior) = (estimación puntual - <emphasis effect="italics">EBM</emphasis>, estimación puntual + <emphasis effect="italics">EBM</emphasis>)</para>
+    <para id="eip-430">El cálculo de <emphasis effect="italics">EBM</emphasis> depende del tamaño de la muestra y del nivel de confianza deseado. El nivel de confianza es el porcentaje de todas las muestras posibles que se puede esperar que incluyan el verdadero parámetro de la población. A medida que aumenta el nivel de confianza, aumenta también el <emphasis effect="italics">EBM</emphasis> correspondiente. A medida que aumenta el tamaño de la muestra, el <emphasis effect="italics">EBM</emphasis> disminuye. Por el teorema del límite central,</para>
+    <para id="fs-idm70707712">Los términos <m:math>
+     <m:mrow>
+      <m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mo>=</m:mo><m:mi>z</m:mi><m:mfrac>
+       <m:mi>σ</m:mi>
+       <m:mrow>
+        <m:msqrt>
+         <m:mi>n</m:mi>
+        </m:msqrt>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math></para>
+    <para id="eip-974">Dado un intervalo de confianza, se puede hacer el cálculo a la inversa para encontrar el límite de error<emphasis effect="italics">(EBM</emphasis>) o la media de la muestra. Para encontrar el límite de error, halle la diferencia del límite superior del intervalo y la media. Si no conoce la media de la muestra, puede encontrar el límite de error calculando la mitad de la diferencia de los límites superior e inferior. Para hallar la media muestral dado un intervalo de confianza, encuentre la diferencia del límite superior y el límite de error. Si se desconoce el límite de error, se promedian los límites superior e inferior del intervalo de confianza para hallar la media de la muestra.</para>
+     <para id="eip-211">A veces, los investigadores saben de antemano que quieren estimar una media poblacional dentro de un margen de error específico para un nivel de confianza dado. En ese caso, resuelva la fórmula <emphasis effect="italics">EBM</emphasis> para <emphasis effect="italics">n</emphasis> para descubrir el tamaño de la muestra que se necesita para lograr este objetivo:</para>
+    <para id="fs-idm4091408">Los términos <m:math>
+     <m:mrow>
+      <m:mi>n</m:mi><m:mo>=</m:mo><m:mo> </m:mo><m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mi>z</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+         <m:mi>σ</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+       <m:mrow>
+        <m:mi>E</m:mi><m:mi>B</m:mi><m:msup>
+         <m:mi>M</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math></para></section>
+
+    <section id="eip-191" class="formula-review">
+    <title>Revisión de la fórmula</title>
+    <para id="eip-524">Los términos <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>X</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>~</m:mo><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>μ</m:mi>
+     <m:mi>X</m:mi>
+    </m:msub>
+    <m:mo>,</m:mo><m:mfrac>
+     <m:mi>σ</m:mi>
+     <m:mrow>
+      <m:msqrt>
+       <m:mi>n</m:mi>
+      </m:msqrt>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> La distribución de las medias muestrales se distribuye normalmente con una media igual a la media de la población y una desviación típica dada por la desviación típica de la población dividida por la raíz cuadrada del tamaño de la muestra.</para>
+      <para id="eip-461">La forma general de un intervalo de confianza para una media poblacional única, desviación típica conocida, distribución normal viene dada por <newline/>(límite inferior, límite superior) = (estimación puntual - <emphasis effect="italics">EBM</emphasis>, estimación puntual + <emphasis effect="italics">EBM</emphasis>) <newline/>= <m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>- −</m:mo><m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mo>,</m:mo><m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>+</m:mo><m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math> <newline/>= <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mover accent="true">
+     <m:mi>x</m:mi>
+     <m:mo>¯</m:mo>
+    </m:mover>
+    <m:mo>- −</m:mo><m:mi>z</m:mi><m:mfrac>
+     <m:mi>σ</m:mi>
+     <m:mrow>
+      <m:msqrt>
+       <m:mi>n</m:mi>
+      </m:msqrt>
+
+     </m:mrow>
+    </m:mfrac>
+    <m:mo>,</m:mo><m:mover accent="true">
+     <m:mi>x</m:mi>
+     <m:mo>¯</m:mo>
+    </m:mover>
+    <m:mo>+</m:mo><m:mi>z</m:mi><m:mfrac>
+     <m:mi>σ</m:mi>
+     <m:mrow>
+      <m:msqrt>
+       <m:mi>n</m:mi>
+      </m:msqrt>
+
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></para>
+    <para id="eip-880">
+    <emphasis effect="italics">EBM</emphasis> = <m:math>
+     <m:mrow>
+      <m:mi>z</m:mi><m:mfrac>
+       <m:mi>σ</m:mi>
+       <m:mrow>
+        <m:msqrt>
+         <m:mi>n</m:mi>
+        </m:msqrt>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math> = el límite de error para la media, o el margen de error para una única media poblacional; esta fórmula se utiliza cuando se conoce la desviación típica de la población.</para>
+    <para id="eip-277"><emphasis effect="italics">CL</emphasis> = nivel de confianza, o la proporción de intervalos de confianza creados que se espera que contengan el verdadero parámetro poblacional</para>
+      <para id="eip-401"><emphasis effect="italics">α</emphasis> = 1 – <emphasis effect="italics">CL</emphasis> = la proporción de intervalos de confianza que no contendrán el parámetro poblacional</para>
+    <para id="eip-468">Los términos <m:math>
+     <m:mrow>
+      <m:msub>
+       <m:mi>z</m:mi>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>α</m:mi>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+
+       </m:mrow>
+      </m:msub>
+
+     </m:mrow>
+    </m:math> = la puntuación <emphasis effect="italics">z</emphasis>con la propiedad de que el área a la derecha de la puntuación z es <m:math>
+     <m:mrow>
+      <m:mo> </m:mo><m:mfrac>
+       <m:mo>∝</m:mo>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math> esta puntuación <emphasis effect="italics">z</emphasis>utilizada en el cálculo de <emphasis effect="italics">“EBM</emphasis> donde α = 1 – <emphasis effect="italics">CL</emphasis>.</para>
+    <para id="eip-709"><emphasis effect="italics">n</emphasis> = <m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mi>z</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+         <m:mi>σ</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+       <m:mrow>
+        <m:mi>E</m:mi><m:mi>B</m:mi><m:msup>
+         <m:mi>M</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math> = fórmula utilizada para determinar el tamaño de la muestra (<emphasis effect="italics">n</emphasis>) necesario para alcanzar un margen de error deseado con un nivel de confianza determinado</para>
+
+    <para id="eip-73">Forma general de un intervalo de confianza</para>
+    <para id="fs-idp49175936">(valor inferior, valor superior) = (estimación puntual-límite de error, estimación puntual + límite de error)</para>
+    <para id="eip-863">Para encontrar el límite de error cuando se conoce el intervalo de confianza</para>
+    <para id="eip-622">límite de error = estimación del punto de valor superior O límite de error = <m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mtext>valor superior</m:mtext><m:mo>- −</m:mo><m:mtext>valor inferior</m:mtext>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math></para>
+      <para id="eip-531">Media de una población, desviación típica conocida, distribución normal</para>
+      <para id="eip-212">Utilice la distribución normal para las medias, la desviación típica de la población es conocida <emphasis effect="italics">EBM</emphasis> = <emphasis effect="italics">z</emphasis><m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>α</m:mi>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+      <m:mo>⋅</m:mo><m:mfrac>
+       <m:mi>σ</m:mi>
+       <m:mrow>
+        <m:msqrt>
+         <m:mi>n</m:mi>
+        </m:msqrt>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math></para>
+      <para id="eip-889">El intervalo de confianza tiene el formato (<m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> - <emphasis effect="italics">EBM</emphasis>, <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> + <emphasis effect="italics">EBM</emphasis>).</para>
+    </section>
+    <section id="eip-673" class="practice">
+<para id="eip-93"><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios:</emphasis> Se sabe que la desviación típica del peso de los elefantes es de 15 libras aproximadamente. Queremos construir un intervalo de confianza del 95 % para el peso medio de las crías de elefante recién nacidas. Se pesan cincuenta elefantes recién nacidos. La media muestral es de 244 libras. La desviación típica de la muestra es de 11 libras.</para>
+    <exercise id="eip-499">
+    <problem id="eip-759">
+    <para id="eip-836">Identifique lo siguiente:</para>
+    <list id="fs-idm9196736" list-type="enumerated" number-style="lower-alpha">
+    <item>Los términos <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> = _____</item>
+      <item><emphasis effect="italics">σ</emphasis> = _____</item>
+      <item><emphasis effect="italics">n</emphasis> = _____</item>
+    </list>
+    </problem>
+    <solution id="eip-837">
+    <list id="fs-idp24073552" list-type="enumerated" number-style="lower-alpha">
+    <item>244</item>
+    <item>15</item>
+    <item>50</item>
+    </list>
+    </solution>
+    </exercise>
+
+
+    <exercise id="eip-681"><problem id="eip-188">
+      <para id="eip-832">En palabras, defina las variables aleatorias <emphasis effect="italics">X</emphasis> y <m:math>
+     <m:mover accent="true">
+      <m:mi>X</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math></para>
+    </problem>
+    </exercise><exercise id="eip-568">
+    <problem id="eip-520">
+    <para id="eip-935">¿Qué distribución debería utilizar para este problema?</para>
+    </problem>
+    <solution id="eip-466">
+      <para id="eip-224">Los términos <m:math>
+     <m:mrow>
+      <m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>244</m:mn><m:mo>,</m:mo><m:mfrac>
+         <m:mrow>
+          <m:mn>15</m:mn>
+         </m:mrow>
+         <m:mrow>
+          <m:msqrt>
+           <m:mrow>
+            <m:mn>50</m:mn>
+           </m:mrow>
+          </m:msqrt>
+
+         </m:mrow>
+        </m:mfrac>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+    </m:math></para></solution>
+    </exercise>
+
+    <exercise id="eip-815"><problem id="eip-448">
+    <para id="eip-406">Construya un intervalo de confianza del 95 % para el peso medio de la población de elefantes recién nacidos. Indique el intervalo de confianza, dibuje el gráfico y calcule el límite de error.</para>
+    </problem>
+    </exercise><exercise id="eip-773">
+    <problem id="eip-306">
+    <para id="eip-619">¿Qué ocurrirá con el intervalo de confianza obtenido si se pesan 500 elefantes recién nacidos en vez de 50? ¿Por qué?</para>
+    </problem>
+    <solution id="eip-714">
+      <para id="eip-827">A medida que aumenta el tamaño de la muestra, habrá menos variabilidad en la media, por lo que el tamaño del intervalo disminuye.</para>
+    </solution>
+    </exercise>
+<para id="eip-526"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos siete ejercicios:</emphasis> La Oficina del Censo de EE. UU. realiza un estudio para determinar el tiempo necesario para rellenar el formulario corto. La oficina encuesta a 200 personas. La media muestral es de 8,2 minutos. Se conoce una desviación típica de 2,2 minutos. Se supone que la distribución de la población es normal.</para><exercise id="eip-250"><problem id="eip-951">
+    <para id="eip-idm61282736">Identifique lo siguiente:</para>
+
+    <list id="fs-idm21105152" list-type="enumerated" number-style="lower-alpha">
+    <item>Los términos <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> = _____</item>
+    <item><emphasis effect="italics">σ</emphasis> = _____</item>
+    <item><emphasis effect="italics">n</emphasis> = _____</item>
+    </list>
+    </problem>
+</exercise><exercise id="eip-322">
+    <problem id="eip-898">
+      <para id="eip-22">En palabras, defina las variables aleatorias <emphasis effect="italics">X</emphasis> y <m:math>
+     <m:mover accent="true">
+      <m:mi>X</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math></para>
+    </problem>
+    <solution id="eip-961">
+    <para id="eip-266"><emphasis effect="italics">X</emphasis> es el tiempo en minutos que se tarda en rellenar el formulario corto del Censo de EE. UU. <m:math>
+     <m:mover accent="true">
+      <m:mi>X</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> es el tiempo medio que tardó una muestra de 200 personas en rellenar el formulario corto del Censo de EE. UU.</para></solution>
+    </exercise>
+    <exercise id="eip-818"><problem id="eip-507">
+    <para id="eip-749">¿Qué distribución debería utilizar para este problema?</para>
+    </problem>
+    </exercise><exercise id="eip-899"><problem id="eip-204">
+    <para id="eip-801">Construya un intervalo de confianza del 90 % para el tiempo medio de la población para rellenar los formularios. Indique el intervalo de confianza, dibuje el gráfico y calcule el límite de error.</para>
+    </problem>
+    <solution id="eip-819">
+    <para id="eip-16">CI: (7,9441; 8,4559)</para>
+<figure id="eip-idm5552576">
+      <media id="eip-idm128260720" alt="Se trata de una curva de distribución normal. El pico de la curva coincide con el punto 8,2 del eje horizontal. Una región central está sombreada entre los puntos 7,94 y 8,46.">
+    <image src="../../media/CNX_Stats_C08_M02_item002annoN.jpg" mime-type="image/jpg" width="380"/>
+    </media>
+</figure>
+<para id="eip-idm5550160"><emphasis effect="italics">EBM</emphasis> = 0,26</para>
+    </solution>
+    </exercise><exercise id="eip-846"><problem id="eip-804">
+    <para id="eip-756">Si el censo quiere aumentar su nivel de confianza y mantener el límite de error igual realizando otra encuesta, ¿qué cambios debería hacer?</para>
+    </problem>
+    </exercise><exercise id="eip-366">
+    <problem id="eip-478">
+    <para id="eip-583">Si el censo realizara otra encuesta, mantuviera el límite de error igual y encuestara solo a 50 personas en vez de 200, ¿qué pasaría con el nivel de confianza? ¿Por qué?</para>
+    </problem>
+    <solution id="eip-707">
+    <para id="eip-615">El nivel de confianza disminuiría porque la disminución de <emphasis effect="italics">n</emphasis> hace que el intervalo de confianza sea más amplio, por lo que a igual límite de error, el nivel de confianza disminuye.</para>
+    </solution>
+    </exercise>
+
+    <exercise id="eip-838"><problem id="eip-429">
+    <para id="eip-193">Supongamos que el censo necesita tener un 98 % de confianza en la duración media de la población. ¿El censo tendría que encuestar a más personas? ¿Por qué sí o por qué no?</para>
+    </problem>
+    </exercise><para id="eip-98"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos diez ejercicios:</emphasis> Se seleccionó una muestra de 20 cabezas de lechuga. Supongamos que la distribución poblacional del peso de la cabeza es normal. Luego se registró el peso de cada cabeza de lechuga. El peso medio era de 2,2 libras con una desviación típica de 0,1 libras. Se sabe que la desviación típica de la población es de 0,2 libras.</para><exercise id="eip-924">
+    <problem id="eip-495">
+    <para id="eip-997">Identifique lo siguiente:</para>
+    <list id="fs-idm74017152" list-type="enumerated" number-style="lower-alpha">
+    <item>Los términos <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> = ______</item>
+    <item><emphasis effect="italics">σ</emphasis> = ______</item>
+    <item><emphasis effect="italics">n</emphasis> = ______</item>
+    </list>
+    </problem>
+    <solution id="eip-697">
+    <list id="fs-idm35892368" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> = 2,2</item>
+    <item><emphasis effect="italics">σ</emphasis> = 0,2</item>
+    <item><emphasis effect="italics">n</emphasis> = 20</item></list></solution>
+    </exercise>
+    <exercise id="eip-700"><problem id="eip-312">
+      <para id="eip-361">Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</para>
+    </problem>
+    </exercise><exercise id="eip-64">
+    <problem id="eip-1000">
+      <para id="eip-474">En palabras, defina la variable aleatoria <m:math>
+     <m:mover accent="true">
+      <m:mi>X</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math></para>
+    </problem>
+    <solution id="eip-778">
+    <para id="eip-692">
+    Los términos <m:math>
+     <m:mover accent="true">
+      <m:mi>X</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> es el peso medio de una muestra de 20 cabezas de lechuga.</para>
+    </solution>
+    </exercise>
+    <exercise id="eip-187"><problem id="eip-508">
+    <para id="eip-925">¿Qué distribución debería utilizar para este problema?</para>
+    </problem>
+    </exercise><exercise id="eip-833">
+    <problem id="eip-640">
+    <para id="eip-422">Construya un intervalo de confianza del 90 % para el peso medio poblacional de las cabezas de lechuga. Indique el intervalo de confianza, dibuje el gráfico y calcule el límite de error.</para>
+    </problem>
+    <solution id="eip-5">
+      <para id="fs-idm25106704"><emphasis effect="italics">EBM</emphasis> = 0,07 <newline/>CI: (2,1264; 2,2736)</para>
+
+    <figure id="fs-idp82050400">
+    <media id="eip-idp84209776" alt="Se trata de una curva de distribución normal. El pico de la curva coincide con el punto 2,2 del eje horizontal. Una región central está sombreada entre los puntos 2,13 y 2,27.">
+    <image src="../../media/CNX_Stats_C08_M02_item003annoN.jpg" mime-type="image/jpeg" width="380"/>
+    </media></figure>
+    </solution>
+    </exercise>
+
+    <exercise id="eip-342"><problem id="eip-481">
+    <para id="eip-530">Construya un intervalo de confianza del 95 % para el peso medio poblacional de las cabezas de lechuga. Indique el intervalo de confianza, dibuje el gráfico y calcule el límite de error.</para>
+    </problem>
+    </exercise><exercise id="eip-656">
+    <problem id="eip-643">
+      <para id="eip-363">Explique en oraciones completas por qué el intervalo de confianza en el <link target-id="eip-833" document=""/> es mayor que en el <link target-id="eip-342" document=""/>.</para></problem>
+    <solution id="eip-352">
+      <para id="eip-564">El intervalo es mayor porque el nivel de confianza aumentó. Si el único cambio realizado en el análisis es un cambio en el nivel de confianza, entonces todo lo que estamos haciendo es cambiar la cantidad de área que se calcula para la distribución normal. Por lo tanto, un nivel de confianza mayor genera áreas e intervalos más amplios.</para>
+    </solution>
+    </exercise>
+    <exercise id="eip-598"><problem id="eip-866">
+      <para id="eip-323">Interprete en oraciones completas lo que significa el intervalo en el <link target-id="eip-342" document=""/>.</para></problem>
+    </exercise><exercise id="eip-909">
+    <problem id="eip-553">
+    <para id="eip-711">¿Qué pasaría si se tomaran muestras de 40 cabezas de lechuga en vez de 20, y el límite de error siguiera siendo el mismo?</para>
+    </problem>
+    <solution id="eip-105">
+      <para id="eip-799">El nivel de confianza aumentaría.</para>
+    </solution>
+    </exercise>
+    <exercise id="eip-602"><problem id="eip-174">
+    <para id="eip-3">¿Qué pasaría si se tomaran muestras de 40 cabezas de lechuga en vez de 20, y el nivel de confianza siguiera siendo el mismo?</para>
+    </problem>
+    </exercise><para id="element-797"><newline/><emphasis effect="italics">Utilice la siguiente información para responder a los siguientes 14 ejercicios:</emphasis> La edad media de todos los estudiantes del Foothill College en el trimestre de otoño pasado fue de 33,2 años. La desviación típica de la población ha sido bastante constante en 15. Supongamos que se seleccionan al azar veinticinco estudiantes del semestre de invierno. La edad media de la muestra era de 30,4 años. Estamos interesados en la verdadera edad media de los estudiantes del semestre de invierno del Foothill College. Supongamos que <emphasis effect="italics">X</emphasis> = la edad de un estudiante del semestre de invierno del Foothill College.</para><exercise id="element-463"><problem id="id27460377">
+
+      <para id="element-111">Los términos <m:math>
+        <m:mover accent="true">
+          <m:mi>x</m:mi>
+          <m:mo>¯</m:mo>
+        </m:mover>
+      </m:math> = _____</para>
+    </problem>
+
+    <solution id="id27460420">
+      <para id="element-345">30,4</para>
+    </solution>
+    </exercise>
+
+    <exercise id="fs-idm37850320"><problem id="id24602664">
+      <para id="element-514"><emphasis effect="italics">n</emphasis> = _____</para>
+    </problem>
+    </exercise><exercise id="element-608"><problem id="id24602706">
+      <para id="element-390">________ = 15</para>
+    </problem>
+
+    <solution id="id24602722">
+      <para id="element-253"><emphasis effect="italics">σ</emphasis></para>
+    </solution>
+    </exercise>
+
+    <exercise id="element-440"><problem id="id24602748">
+      <para id="element-266">En palabras, defina la variable aleatoria <m:math>
+     <m:mover accent="true">
+      <m:mi>X</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math></para>
+    </problem>
+
+    </exercise><exercise id="element-917"><problem id="id27453935">
+      <para id="element-875">¿Cuál es el <m:math>
+          <m:mover accent="true">
+            <m:mi>x</m:mi>
+            <m:mo>¯</m:mo>
+          </m:mover>
+        </m:math> estimado?</para>
+    </problem>
+
+    <solution id="id27453976">
+      <para id="element-983"><emphasis effect="italics">μ</emphasis></para>
+    </solution>
+    </exercise>
+<exercise id="element-724"><problem id="id27454018">
+      <para id="element-451">¿Es <m:math>
+    <m:mrow>
+    <m:msub>
+    <m:mi>σ</m:mi>
+    <m:mi>x</m:mi>
+    </m:msub>
+    </m:mrow>
+    </m:math> conocido?
+
+      </para>
+    </problem>
+
+    </exercise><exercise id="element-524"><problem id="id27077775">
+      <para id="element-334">Como resultado de su respuesta en el <link target-id="element-440" document=""/>, indique la distribución exacta que se debe usar para calcular el intervalo de confianza.</para>
+    </problem>
+
+    <solution id="id27077795">
+      <para id="element-919">normal</para>
+    </solution>
+    </exercise>
+
+    <para id="element-251"><emphasis effect="italics">Construya un Intervalo de Confianza del 95 % para la edad media real de los estudiantes del semestre de invierno del Foothill College, elabore y responda los siguientes siete ejercicios</emphasis>.</para><exercise id="fs-idm67667568"><problem id="id27077853">
+      <para id="element-1">¿Cuánta superficie hay en ambas cruces (combinadas)? <emphasis effect="italics">α</emphasis> =________</para>
+    </problem>
+
+    </exercise><exercise id="element-888"><problem id="id27077926">
+      <para id="element-497">¿Cuánta superficie hay en cada cola? <m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>α</m:mi>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math> =________</para></problem>
+
+    <solution id="id27077976">
+      <para id="element-748">0,025</para>
+    </solution>
+    </exercise><exercise id="element-74"><problem id="id27078002">
+      <para id="element-402">Identifique las siguientes especificaciones <list id="list-24352436" list-type="enumerated" number-style="lower-alpha">
+    <item>límite inferior</item>
+    <item>límite superior</item>
+    <item>límite de error</item>
+    </list>
+      </para>
+    </problem>
+    </exercise><exercise id="element-767"><problem id="id27456560">
+      <para id="element-539">El intervalo de confianza del 95 % es: __________________.</para>
+    </problem>
+
+    <solution id="id27456579">
+      <para id="element-702">(24,52;36,28)</para>
+    </solution>
+    </exercise><exercise id="fs-idm6858288"><problem id="fs-idm6858032">
+      <para id="eip-810">Rellene los espacios en blanco del gráfico con las áreas, los límites superior e inferior del intervalo de confianza y la media muestral.</para>
+
+    <figure id="five-0"><media id="id27456676" alt="Curva de distribución normal con dos líneas verticales ascendentes desde el eje x hasta la curva. El intervalo de confianza está entre estas dos líneas. Las áreas residuales están a ambos lados."><image src="../../media/fig-ch08_06_01.jpg" mime-type="image/jpg" width="380"/></media></figure></problem>
+     </exercise><exercise id="element-158"><problem id="id27481688">
+      <para id="element-46">Explique el significado del intervalo en una oración completa.</para>
+      </problem>
+<solution id="fs-idm27075232"><para id="fs-idm27075104">Tenemos el 95 % de confianza en que la verdadera edad media de los estudiantes del semestre de invierno del Foothill College está entre 24,52 y 36,28.</para></solution>
+    </exercise><exercise id="element-449"><problem id="id27481732">
+      <para id="element-992">Utilizando las mismas media, desviación típica y nivel de confianza, supongamos que <emphasis effect="italics">n</emphasis> fuera 69 en vez de 25. ¿El límite de error sería mayor o menor? ¿Cómo lo sabe?</para>
+    </problem>
+
+    </exercise><exercise id="element-395"><problem id="id27481777">
+      <para id="element-630">Utilizando las mismas media, desviación típica y tamaño de la muestra, ¿cómo cambiaría el límite de error si el nivel de confianza se redujera al 90 %? ¿Por qué?</para>
+    </problem>
+      <solution id="fs-idm23029072"><para id="fs-idm23028944">El límite de error para la media disminuiría porque a medida que el nivel de confianza (confidence level, CL) disminuye, se necesita menos área debajo de la curva normal (lo que se traduce en un intervalo más pequeño) para capturar la verdadera media de la población.</para></solution>
+    </exercise>
+    </section>
+
+    <section id="fs-idm104841536" class="free-response">
+    <title>Tarea para la casa</title>
+    <exercise id="exer1">
+    <problem id="id4953529"><para id="para1">Se sabe que la desviación típica de las alturas entre los distintos grupos étnicos es de tres pulgadas aproximadamente. Queremos construir un intervalo de confianza del 95 % para la altura media de los hombres suecos. Se encuestaron cuarenta y ocho hombres suecos. La media muestral es de 71 pulgadas. La desviación típica de la muestra es de 2,8 pulgadas. <list id="list1" list-type="enumerated" number-style="lower-alpha">
+        <item>
+         <list id="list2" list-type="enumerated" number-style="lower-roman">
+           <item>Los términos <m:math>
+             <m:mover accent="true">
+               <m:mi>x</m:mi>
+               <m:mo>¯</m:mo>
+             </m:mover>
+           </m:math> =________</item>
+          <item><emphasis effect="italics">σ</emphasis> =________</item>
+           <item><emphasis effect="italics">n</emphasis> =________</item>
+         </list></item>
+          <item>En palabras, defina las variables aleatorias <emphasis effect="italics">X</emphasis> y <m:math>
+            <m:mover accent="true">
+              <m:mi>X</m:mi>
+              <m:mo>¯</m:mo>
+            </m:mover>
+          </m:math></item>
+          <item>¿Qué distribución debería utilizar para este problema? Explique su elección.</item>
+          <item>Construya un intervalo de confianza del 95 % para la altura media de la población de hombres suecos <list id="list4" list-type="enumerated" number-style="lower-roman">
+              <item>Indique el intervalo de confianza.</item>
+          <item>Dibuje el gráfico.</item>
+        <item>Calcule el límite de error.</item>
+            </list>
+          </item>
+    <item>¿Qué pasará con el nivel de confianza obtenido si se encuestan 1.000 hombres suecos en vez de 48? ¿Por qué?</item>
+    </list></para></problem>
+
+    <solution id="solution1"><para id="paras1">
+    <list id="list_s1" list-type="enumerated" number-style="lower-alpha"><item>
+        <list id="list_s2" list-type="enumerated" number-style="lower-roman"><item>71</item>
+    <item>3</item>
+    <item>48</item>
+        </list>
+        </item>
+          <item> X es la altura de un hombre suizo, y es la altura media de una muestra de 48 hombres suizos.
+    </item>
+<item>Normal. Conocemos la desviación típica de la población y el tamaño de la muestra es superior a 30.</item>
+    <item>
+      <list id="list_s3" list-type="enumerated" number-style="lower-roman"><item>CI: (70,151; 71,49)</item>
+        <item><figure id="figure1234"><media id="m1" alt=""><image src="../../media/fig-ch08_09_01.jpg" mime-type="image/jpg" width="380"/></media></figure></item>
+        <item><emphasis effect="italics">EBM</emphasis> = 0,849</item>
+        </list>
+    </item>
+    <item> El intervalo de confianza disminuirá en tamaño porque el tamaño de la muestra aumentó. Recordemos que cuando todos los factores permanecen inalterados, un aumento del tamaño de la muestra disminuye la variabilidad. Por lo tanto, no necesitamos un intervalo tan grande para capturar la verdadera media de la población.</item></list></para>
+    </solution>
+    </exercise>
+
+      <exercise id="exer8"><problem id="id6331607">
+    <para id="para17">Los anuncios de las 84 próximas conferencias de ingeniería se eligieron al azar de una pila de revistas IEEE Spectrum. La duración media de las conferencias fue de 3,94 días, con una desviación típica de 1,28 días. Supongamos que la población subyacente es normal.</para>
+          <list id="list18" list-type="enumerated" number-style="lower-alpha"><item>En palabras, defina las variables aleatorias <emphasis effect="italics">X</emphasis> y <m:math>
+     <m:mover accent="true">
+      <m:mi>X</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math></item>
+          <item>¿Qué distribución debería utilizar para este problema? Explique su elección.</item>
+          <item>Construya un intervalo de confianza del 95 % para la media poblacional de la duración de las conferencias de ingeniería <list id="list18_5" list-type="enumerated" number-style="lower-roman">
+              <item>Indique el intervalo de confianza. </item>
+          <item>Dibuje el gráfico.</item>
+        <item>Calcule el límite de error.</item>
+            </list>
+          </item>
+          </list>
+      </problem>
+      </exercise><exercise id="exer6"><problem id="id3373222">
+    <para id="para13">Supongamos que una compañía de contabilidad hace un estudio para determinar el tiempo necesario para rellenar los formularios de impuestos de una persona. Encuesta al azar a 100 personas. La media muestral es de 23,6 horas. Existe una desviación típica conocida de 7,0 horas. Se supone que la distribución de la población es normal.</para>
+
+    <list id="list15a" list-type="enumerated" number-style="lower-alpha">
+        <item>
+          <list id="list16" list-type="enumerated" number-style="lower-roman">
+            <item>Los términos <m:math>
+              <m:mover accent="true">
+                <m:mi>x</m:mi>
+                <m:mo>¯</m:mo>
+              </m:mover>
+            </m:math> =________</item>
+    <item><emphasis effect="italics">σ</emphasis> =________</item>
+            <item><emphasis effect="italics">n</emphasis> =________</item>
+          </list>
+          </item>
+            <item>En palabras, defina las variables aleatorias <emphasis effect="italics">X</emphasis> y <m:math>
+ <m:mover accent="true">
+  <m:mi>X</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math></item>
+          <item>¿Qué distribución debería utilizar para este problema? Explique su elección.</item>
+        <item>Construya un intervalo de confianza del 90 % para el tiempo medio de la población para completar los formularios de impuestos. <list id="list17" list-type="enumerated" number-style="lower-roman">
+            <item>Indique el intervalo de confianza.</item>
+           <item>Dibuje el gráfico.</item>
+           <item>Calcule el límite de error.</item>
+          </list>
+        </item>
+    <item>Si la compañía quisiera aumentar su nivel de confianza y mantener el límite de error igual realizando otra encuesta, ¿qué cambios debería hacer?</item>
+          <item>Si la compañía realizara otra encuesta, mantuviera el límite de error igual y encuestara 49 personas solamente, ¿qué pasaría con el nivel de confianza? ¿Por qué?</item>
+          <item>Supongamos que la compañía decide que necesita tener, al menos, el 96 % de confianza de la media de la población que se tarda una hora. ¿Cómo cambiaría el número de personas que la compañía encuesta? ¿Por qué?</item>
+        </list></problem>
+<solution id="eip-idm99051168">
+    <list id="list15" list-type="enumerated" number-style="lower-alpha"><item>
+<list id="list1a6" list-type="enumerated" number-style="lower-roman">
+<item>Los términos <m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math> = 23,6</item>
+<item>Los términos <m:math><m:mi>σ</m:mi></m:math> = 7</item>
+<item>n = 100</item>
+</list></item>
+<item><emphasis effect="italics">X</emphasis> es el tiempo necesario para rellenar un formulario de impuestos individual. <m:math>
+<m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:math> es el tiempo medio para rellenar los formularios de impuestos de una muestra de 100 clientes.</item>
+<item>Los términos <m:math><m:mrow><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>23,6</m:mn><m:mo>,</m:mo><m:mfrac>
+     <m:mn>7</m:mn>
+     <m:mrow>
+      <m:msqrt>
+       <m:mrow>
+        <m:mn>100</m:mn>
+       </m:mrow>
+      </m:msqrt>
+     </m:mrow>
+    </m:mfrac>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow></m:math> porque conocemos sigma.</item>
+<item>
+<list id="list1b6" list-type="enumerated" number-style="lower-roman">
+<item>(22,228; 24,972)</item>
+<item>
+<figure id="eip-idp4235472"><media id="eip-id1706129a" alt=""><image src="../../media/xx.jpg" mime-type="image/jpg" width="400"/></media>
+</figure></item>
+<item><emphasis effect="italics">EBM</emphasis> = 1,372</item>
+</list>
+</item>
+<item>Tendrá que cambiar el tamaño de la muestra. La compañía debe determinar cuál debe ser el nivel de confianza y, a continuación, aplicar la fórmula del límite de error para determinar el tamaño de la muestra necesario.</item>
+<item>El nivel de confianza aumentaría como consecuencia de un intervalo mayor. Muestras de menor tamaño generan mayor variabilidad. Para capturar la verdadera media de la población necesitamos un intervalo mayor.</item>
+<item>Según la fórmula del límite de error, la compañía necesita encuestar 206 personas. Dado que aumentamos el nivel de confianza, tenemos que aumentar nuestro límite de error o el tamaño de la muestra.</item>
+</list></solution></exercise><exercise id="exer9"><problem id="id6216617">
+    <para id="para19">Se seleccionó una muestra de 16 bolsas pequeñas de caramelos de la misma marca. Supongamos que la distribución poblacional de los pesos de las bolsas es normal. Luego se registró el peso de cada bolsa. El peso medio fue de dos onzas, con una desviación típica de 0,12 onzas. Se sabe que la desviación típica de la población es de 0,1 onzas.</para>
+
+        <list id="list19" list-type="enumerated" number-style="lower-alpha"><item>
+        <list id="list35" list-type="enumerated" number-style="lower-roman">
+          <item>Los términos <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math> =________
+          </item>
+          <item><emphasis effect="italics">σ</emphasis> =________</item>
+          <item>s<sub>x</sub> =________</item>
+        </list>
+        </item>
+
+
+          <item>Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</item>
+          <item>En palabras, defina la variable aleatoria <m:math>
+            <m:mover accent="true">
+              <m:mi>X</m:mi>
+              <m:mo>¯</m:mo>
+            </m:mover>
+          </m:math></item>
+          <item>¿Qué distribución debería utilizar para este problema? Explique su elección.</item>
+         <item>Construya un intervalo de confianza del 90 % para el peso medio poblacional de los caramelos <list id="list19_5" list-type="enumerated" number-style="lower-roman">
+             <item>Indique el intervalo de confianza. </item>
+    <item>Dibuje el gráfico.</item>
+    <item>Calcule el límite de error.</item></list>
+         </item>
+          <item>Construya un intervalo de confianza del 98 % para el peso medio poblacional de los caramelos. <list id="list20_5" list-type="enumerated" number-style="lower-roman">
+              <item>Indique el intervalo de confianza.</item>
+    <item>Dibuje el gráfico.</item>
+    <item>Calcule el límite de error.</item></list></item>
+          <item>Explique en oraciones completas por qué el intervalo de confianza de la parte f es mayor que el de la parte e.</item>
+          <item>Interprete en oraciones completas lo que significa el intervalo de la parte f.</item>
+        </list></problem>
+
+    </exercise><exercise id="exerci"><problem id="id6354041">
+      <para id="para39">El director de un campamento está interesado en el número medio de cartas que envía cada niño durante su sesión de campamento. Se conoce que la desviación típica de la población es de 2,5. Se realiza una encuesta entre 20 campistas. La media muestral es de 7,9, con una desviación típica de la muestra de 2,8.</para>
+
+    <list id="list39" list-type="enumerated" number-style="lower-alpha">
+        <item>
+        <list id="list39_5" list-type="enumerated" number-style="lower-roman">
+          <item>Los términos <m:math>
+            <m:mover accent="true">
+              <m:mi>x</m:mi>
+              <m:mo>¯</m:mo>
+            </m:mover>
+          </m:math> =________</item>
+          <item><emphasis effect="italics">σ</emphasis> =________</item>
+          <item><emphasis effect="italics">n</emphasis> =________</item>
+        </list>
+          </item>
+          <item>Defina las variables aleatorias <emphasis effect="italics">X</emphasis> y <m:math>
+            <m:mover accent="true">
+              <m:mi>X</m:mi>
+              <m:mo>¯</m:mo>
+            </m:mover>
+          </m:math> en palabras.</item>
+    <item>¿Qué distribución debería utilizar para este problema? Explique su elección.</item>
+    <item>Construya un intervalo de confianza del 90 % para la media poblacional del número de cartas que los campistas envían a casa <list id="list40_5" list-type="enumerated" number-style="lower-roman">
+        <item>Indique el intervalo de confianza. </item>
+        <item>Dibuje el gráfico.</item>
+    <item>Calcule el límite de error.</item>
+      </list>
+    </item>
+    <item>¿Qué ocurrirá con el límite de error y el intervalo de confianza si se encuestan 500 campistas? ¿Por qué?</item>
+      </list>
+    </problem>
+
+
+      <solution id="id5099589">
+    <para id="solutilllonnnn">
+        <list id="listlll_solution" list-type="enumerated" number-style="lower-alpha"><item>
+        <list id="listaishdaskkdhghdkdlsslskd" list-type="enumerated" number-style="lower-roman">
+    <item>7,9</item>
+    <item>2,5</item>
+    <item>20</item>
+    </list>
+      </item>
+    <item> X es el número de cartas que un solo campista enviará a casa. <m:math><m:mrow><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:math> es el número medio de cartas enviadas a casa de una muestra de 20 campistas.
+    </item>
+    <item><para id="eip-id1168835236326"><emphasis effect="italics">N</emphasis> <m:math><m:mrow><m:mn>7,9</m:mn><m:mo>(</m:mo><m:mfrac><m:mn>2,5</m:mn>
+<m:msqrt><m:mn>20</m:mn></m:msqrt></m:mfrac>
+<m:mo>)</m:mo></m:mrow></m:math></para>
+    </item>
+        <item><list id="eip-id1172668181207" list-type="enumerated" number-style="lower-roman"><item>CI: (6,98; 8,82)</item>
+<item><figure id="eip-id1169152005093"><media id="eip-id1169152053385" alt=""><image src="../../media/CNX_Stats_C08_M01_item001.jpg" mime-type="image/png" width="400"/></media>
+</figure></item>
+<item><emphasis effect="italics">EBM</emphasis>: 0,92</item></list></item>
+<item>El límite de error y el intervalo de confianza disminuirán.</item></list></para>
+      </solution>
+    </exercise><exercise id="exercising"><problem id="id6303452"><para id="para62">¿Qué significa el término “90 % de confianza” cuando se construye un intervalo de confianza para una media? </para>
+
+<list id="list62" list-type="enumerated" number-style="lower-alpha"><item>Si tomáramos muestras repetidas, aproximadamente el 90 % de las muestras producirían el mismo intervalo de confianza.</item>
+
+    <item>Si tomáramos muestras repetidas, aproximadamente el 90 % de los intervalos de confianza calculados a partir de esas muestras contendrían la media muestral.</item>
+
+    <item>Si tomáramos muestras repetidas, aproximadamente el 90 % de los intervalos de confianza calculados a partir de esas muestras contendrían el verdadero valor de la media poblacional.</item>
+
+    <item>Si tomáramos muestras repetidas, la media muestral sería igual a la media de la población en el 90 % de las muestras aproximadamente.</item></list>
+    </problem>
+</exercise><exercise id="eip-217"><problem id="eip-629">
+      <para id="eip-315">La Comisión Federal de Elecciones recopila información sobre los aportes y los desembolsos para la campaña de los candidatos y los comités políticos en cada ciclo electoral. Durante la temporada de campaña de 2012, hubo 1.619 candidatos a la Cámara de Representantes en Estados Unidos que recibieron aportes de particulares. La <link target-id="M02_CH08-tbl003" document=""/> muestra el total de ingresos procedentes de particulares para una selección aleatoria de 40 candidatos a la Cámara de Representantes, redondeado a los 100 dólares más cercanos. La desviación típica de estos datos a la centena más cercana es <emphasis effect="italics">σ</emphasis> = 909.200 dólares.</para>
+      <table id="M02_CH08-tbl003" summary="The total receipts from individuals for a random selection of 40 House candidates rounded to the nearest  00.">
+<tgroup cols="5"><tbody>
+    <row>
+    <entry>$3.600</entry>
+    <entry>$1.243.900</entry>
+    <entry>$10.900</entry>
+    <entry>$385.200</entry>
+    <entry>$581.500</entry>
+    </row>
+    <row>
+    <entry>$7.400</entry>
+    <entry>$2.900</entry>
+    <entry>$400</entry>
+    <entry>$3.714.500</entry>
+    <entry>$632.500</entry>
+    </row>
+    <row>
+    <entry>$391.000</entry>
+    <entry>$467.400</entry>
+    <entry>$56.800</entry>
+    <entry>$5.800</entry>
+    <entry>$405.200</entry>
+    </row>
+    <row>
+    <entry>$733.200</entry>
+    <entry>$8.000</entry>
+    <entry>$468.700</entry>
+    <entry>$75.200</entry>
+    <entry>$41.000</entry>
+    </row>
+    <row>
+    <entry>$13.300</entry>
+    <entry>$9.500</entry>
+    <entry>$953.800</entry>
+    <entry>$1.113.500</entry>
+    <entry>$1.109.300</entry>
+    </row>
+    <row>
+    <entry>$353.900</entry>
+    <entry>$986.100</entry>
+    <entry>$88.600</entry>
+    <entry>$378.200</entry>
+    <entry>$13.200</entry>
+    </row>
+    <row>
+    <entry>$3.800</entry>
+    <entry>$745.100</entry>
+    <entry>$5.800</entry>
+    <entry>$3.072.100</entry>
+    <entry>$1.626.700</entry>
+    </row>
+    <row>
+    <entry>$512.900</entry>
+    <entry>$2.309.200</entry>
+    <entry>$6.600</entry>
+    <entry>$202.400</entry>
+    <entry>$15.800</entry>
+    </row>
+    </tbody>
+
+</tgroup>
+</table><list id="eip-idm150440080" list-type="enumerated" number-style="lower-alpha">
+    <item>Calcule la estimación puntual de la media de la población.</item>
+    <item>Use el 95 % de confianza y calcule el límite de error.</item>
+    <item>Cree un intervalo de confianza del 95 % para la media de los aportes individuales totales.</item>
+    <item>Interprete el intervalo de confianza en el contexto del problema.</item>
+    </list>
+    </problem>
+    <solution id="eip-480">
+      <list id="fs-idm93426480" list-type="enumerated" number-style="lower-alpha">
+    <item>Los términos <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> = $568.873</item>
+    <item><emphasis effect="italics">CL</emphasis> = 0,95 <emphasis effect="italics">α</emphasis> = 1 – 0,95 = 0,05 <m:math>
+     <m:mrow>
+      <m:msub>
+       <m:mi>z</m:mi>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>α</m:mi>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+
+       </m:mrow>
+      </m:msub>
+
+     </m:mrow>
+    </m:math> = 1,96 <newline/> <emphasis effect="italics">EBM</emphasis> = <m:math>
+     <m:mrow>
+      <m:msub>
+       <m:mi>z</m:mi>
+       <m:mrow>
+        <m:mn>0,025</m:mn>
+       </m:mrow>
+      </m:msub>
+      <m:mfrac>
+       <m:mi>σ</m:mi>
+       <m:mrow>
+        <m:msqrt>
+         <m:mi>n</m:mi>
+        </m:msqrt>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math> = 1,96 <m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>909200</m:mn>
+       </m:mrow>
+       <m:mrow>
+        <m:msqrt>
+         <m:mrow>
+          <m:mn>40</m:mn>
+         </m:mrow>
+        </m:msqrt>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math> = $281.764</item>
+    <item>Los términos <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> – <emphasis effect="italics">EBM</emphasis> = 568.873 – 281.764 = 287.109 <newline/><m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math> + <emphasis effect="italics">EBM</emphasis> = 568.873 + 281.764 = 850.637
+
+      <para id="fs-idp4716768">	Solución alternativa:</para>
+      <note id="fs-idm110214288" class="statistics calculator">
+        <label/>
+      <list id="eip-idm75466352" list-type="enumerated" number-style="arabic">
+    <item>Pulse <code>STAT</code> y flecha hacia <code>TESTS</code>.</item>
+    <item>Desplace la flecha hacia abajo <code>7:ZInterval</code>.</item>
+    <item>Pulse <code>ENTER</code>.</item>
+    <item>Desplace la flecha hacia STATS y pulse <code>ENTER</code>.</item>
+    <item>Desplace la flecha hacia abajo e introduzca los siguientes valores: <list id="eip-idm85617648" list-type="labeled-item">
+    <item><emphasis effect="italics">σ</emphasis> : 909.200</item>
+    <item>Los términos <m:math>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+    </m:math>: 568.873</item>
+    <item><emphasis effect="italics">n</emphasis>: 40</item>
+    <item><emphasis effect="italics">CL</emphasis>: 0,95</item>
+    </list></item>
+    <item>Desplace la flecha hacia abajo hasta Calculate (Calcular) y pulse <code>ENTER</code>.</item>
+    <item>El intervalo de confianza es (287.114 dólares, 850.632 dólares).</item>
+    <item>Observe la pequeña diferencia entre las dos soluciones: estas diferencias se deben simplemente al error de redondeo en los cálculos manuales.</item>
+    </list></note>
+    </item>
+    <item>Estimamos con el 95 % de confianza que la media de los aportes que recibieron los candidatos a la Cámara de Representantes de parte de todas las personas está entre 287.109 dólares y 850.637 dólares.</item>
+    </list>
+
+    </solution>
+    </exercise>
+
+
+      <exercise id="eip-806"><problem id="eip-870">
+      <para id="eip-503">La Encuesta sobre la Comunidad Estadounidense (American Community Survey, ACS), que forma parte de la Oficina del Censo de Estados Unidos, realiza un censo anual similar al que se hace cada diez años, pero con un porcentaje de participantes menor. La encuesta más reciente estima, con el 90 % de confianza, que los ingresos medios de los hogares en EE. UU. se sitúa entre 69.720 y 69.922 dólares. Calcule la estimación puntual de los ingresos medios de los hogares de EE. UU. y su límite de error.</para>
+    </problem>
+    </exercise><exercise id="eip-580">
+    <problem id="eip-321">
+    <para id="eip-360">La estatura promedio de los hombres adultos jóvenes tiene una distribución normal, con una desviación típica de 2,5 pulgadas. Quiere estimar la altura media de los estudiantes de su instituto universitario o universidad con un margen de una pulgada, con el 93 % de confianza. ¿Cuántos estudiantes hombres hay que medir?</para>
+    </problem>
+    <solution id="eip-777">
+    <para id="eip-475">Utilice la fórmula del <emphasis effect="italics">EBM</emphasis>, resuelta para <emphasis effect="italics">n</emphasis>: <newline/><m:math>
+     <m:mrow>
+      <m:mi>n</m:mi><m:mo>=</m:mo><m:mo> </m:mo><m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mi>z</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+         <m:mi>σ</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+       <m:mrow>
+        <m:mi>E</m:mi><m:mi>B</m:mi><m:msup>
+         <m:mi>M</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:math>
+    </para><para id="eip-idm89942784">Por el enunciado del problema, se sabe que <emphasis effect="italics">σ</emphasis> = 2,5, y se necesita <emphasis effect="italics">EBM</emphasis> = 1.</para>
+    <para id="eip-idp13947008"><emphasis effect="italics">z</emphasis> = <emphasis effect="italics">z</emphasis><sub>0,035</sub> = 1,812</para>
+    <para id="eip-idm56424256">(Este es el valor de <emphasis effect="italics">z</emphasis> para el que el área bajo la curva de densidad a la <emphasis><emphasis effect="italics">derecha</emphasis></emphasis> de <emphasis effect="italics">z</emphasis> es 0,035)</para>
+    <para id="eip-idp85126192">Los términos <m:math>
+     <m:mrow>
+      <m:mi>n</m:mi><m:mo>=</m:mo><m:mo> </m:mo><m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mi>z</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+         <m:mi>σ</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+       <m:mrow>
+        <m:mi>E</m:mi><m:mi>B</m:mi><m:msup>
+         <m:mi>M</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mn>1,812</m:mn>
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+         <m:mrow>
+          <m:mn>2,5</m:mn>
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+       <m:mrow>
+        <m:msup>
+         <m:mn>1</m:mn>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+      </m:mfrac>
+      <m:mo> </m:mo><m:mo>≈</m:mo><m:mo> </m:mo><m:mn>20,52</m:mn>
+     </m:mrow>
+    </m:math></para>
+    <para id="eip-idm82999392">Es necesario medir al menos 21 estudiantes hombres para lograr su objetivo.</para>
+    </solution>
+    </exercise>
+
+    </section>
+     </content>
+
+    <glossary>
+    <definition id="conflevel">
+    <term>Nivel de confianza (CL)</term>
+    <meaning id="id17288738">la expresión porcentual de la probabilidad de que el intervalo de confianza contenga el verdadero parámetro poblacional; por ejemplo, si el CL = 90 %, entonces en 90 de cada 100 muestras la estimación del intervalo encerrará el verdadero parámetro poblacional.</meaning>
+    </definition>
+    <definition id="ebmbound">
+    <term>Límite de error para una media poblacional (<emphasis effect="italics">EBM</emphasis>)</term>
+    <meaning id="id16568632">el margen de error; depende del nivel de confianza, del tamaño de la muestra y de la desviación típica de la población conocida o estimada.</meaning>
+    </definition>
+    </glossary>
+
+</document>

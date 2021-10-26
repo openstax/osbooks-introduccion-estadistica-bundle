@@ -1,0 +1,109 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Regresión (costo de los libros de texto)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50285</md:content-id>
+  <md:title>Regresión (costo de los libros de texto)</md:title>
+  <md:abstract/>
+  <md:uuid>188481c1-d039-4227-be28-649cf4f7e022</md:uuid>
+</metadata>
+
+<content>
+  <note id="fs-id1172137875645" class="statistics lab"><label/><title>Regresión (costo de los libros de texto) </title>
+
+    <para id="fs-idm90448">Hora de la clase:</para>
+    <para id="fs-idp162776560">Nombres:</para>
+       <list id="fs-idp101503968" list-type="bulleted">
+<title>Resultados del aprendizaje de los estudiantes</title>      
+  <item>El estudiante calculará y proyectará la línea que mejor se ajuste entre las dos variables.</item>
+        <item>El estudiante evaluará la relación entre las dos variables para determinar si dicha relación es significativa. </item>
+      </list>
+
+
+<para id="fs-idp70571712">
+<title>Recopilación de datos</title>
+Haga una encuesta sobre diez libros de texto. Recopile datos bivariados (número de páginas del libro de texto, costo).</para>
+<list id="fs-idp53322144" list-type="enumerated"><item>Rellene la tabla.
+<table id="fs-idm40594000" summary="The blank table has number of pages in the first column and cost of textbook in the second column. 20 empty cells.">
+
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+					<colspec colnum="2" colname="c2"/>
+					<thead>
+						<row>
+							<entry>Número de páginas</entry>
+							<entry>Costo del libro de texto</entry>
+						</row>
+</thead>
+<tbody>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+					</tbody>
+				
+</tgroup>
+</table>
+</item>
+	<item>¿Cuál variable debe ser la dependiente y cuál la independiente? ¿Por qué?</item>
+	<item>Gráfico "páginas" en función del "costo". Trace los puntos en el gráfico en <link target-id="fs-idm37313136">Analice los datos</link>. Identifique ambos ejes con palabras. Escale ambos ejes.</item>
+</list><para id="fs-idm37313136">
+<title>Analice los datos</title>
+Introduzca los datos en su calculadora o en su computadora. Escriba la ecuación lineal y redondee a cuatro decimales.</para>
+
+<list id="fs-idm130060688" list-type="enumerated">
+<item>Calcule lo siguiente: <list id="fs-idm69177152" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">a</emphasis> = ______</item>
+<item><emphasis effect="italics">b</emphasis> = ______</item>
+<item>correlación = ______</item>
+<item><emphasis effect="italics">n</emphasis> = ______</item>
+<item>ecuación: <emphasis effect="italics">y</emphasis> = ______</item>
+<item>¿La correlación es significativa? ¿Por qué o por qué no? (Responda con frases completas).</item>
+</list>
+</item>
+	<item>Responda las siguientes situaciones: <list id="fs-idp3298784" list-type="enumerated" number-style="lower-alpha">
+<item>De un libro de texto de 400 páginas, prediga el costo.</item>
+<item>De un libro de texto de 600 páginas, prediga el costo.</item>
+</list>
+</item>
+	<item>Obtenga el gráfico en su calculadora o en su computadora. Dibuje la línea de regresión.
+<figure id="id19863024"><media id="id20268459" alt="Gráfico en blanco con ejes vertical y horizontal."><image src="../../media/fig-ch12_15_01.png" mime-type="image/png" width="380"/></media>
+</figure></item>
+</list> <list id="fs-idp7458256" list-type="enumerated">
+<title>Preguntas para el debate</title>
+<item>Responda a cada pregunta con frases completas. <list id="fs-idm37663456" list-type="enumerated" number-style="lower-alpha">
+<item>¿Parece que la línea se ajusta a los datos? ¿Por qué?</item>
+<item>¿Qué implica esta correlación sobre la relación entre el número de páginas y el costo?</item>
+</list>
+</item>
+<item>¿Hay valores atípicos? En caso afirmativo, ¿qué punto o puntos son atípicos? </item>
+<item>¿El valor atípico se debe eliminar si es que existe? ¿Por qué o por qué no?</item></list>
+</note> </content>
+
+</document>

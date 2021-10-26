@@ -1,0 +1,222 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>El coeficiente de correlación r</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55719</md:content-id>
+  <md:title>El coeficiente de correlación r</md:title>
+  <md:abstract/>
+  <md:uuid>065f8600-39dc-4b26-8957-5c9760c6ae47</md:uuid>
+</metadata>
+
+<content>
+  <para id="eip-8888">Al comenzar esta sección, observamos que el tipo de datos con los que vamos a trabajar ha cambiado. Tal vez no se note, pero todos los datos que hemos estado utilizando son para una sola variable. Puede ser de dos muestras, pero sigue siendo una variable univariante. El tipo de datos descrito en los ejemplos anteriores y para cualquier modelo de causa y efecto son datos <term id="term-00001">bivariados</term>; "bi" para dos variables. En realidad, los estadísticos utilizan datos <term id="term-00002">multivariantes</term>, es decir, muchas variables. </para><para id="eip-964">Para nuestro trabajo, podemos clasificar los datos en tres grandes categorías: de series temporales, de sección transversal y de panel. Aprendimos sobre los dos primeros al inicio. Los datos de series temporales miden una única unidad de observación a medida que pasa el tiempo, por ejemplo, una persona, una empresa o un país. Lo que se mide serán al menos dos características, por ejemplo, los ingresos de la persona, la cantidad de un determinado bien que compra y el precio que ha pagado. Se trataría de tres informaciones en un tiempo, digamos 1985. Si siguiéramos a esa persona a lo largo del tiempo, tendríamos esos mismos datos para 1985, 1986, 1987, etc. Esto constituiría un conjunto de datos de series temporales. Si hiciéramos esto durante 10 años, tendríamos 30 datos sobre los hábitos de consumo de este bien por parte de esta persona durante la última década y conoceríamos sus ingresos y el precio que ha pagado. </para><para id="eip-398">Un segundo tipo de conjunto de datos es el de los datos transversales. En este caso, la variación no es a través del tiempo para una sola unidad de observación, sino a través de las unidades de observación durante un punto en el tiempo. Para un tiempo determinado, reuniríamos el precio pagado, la cantidad comprada y los ingresos de muchas personas por separado. </para><para id="eip-940">Un tercer tipo de conjunto de datos son los datos de panel. Aquí se sigue un panel de unidades de observación a lo largo del tiempo. Si retomamos el ejemplo anterior, podríamos seguir a 500 personas, la unidad de observación, a lo largo del tiempo, diez años, y así observar sus ingresos, el precio pagado y la cantidad del bien adquirido. Si tuviéramos 500 personas y datos durante diez años sobre el precio, los ingresos y la cantidad comprada, tendríamos 15.000 datos. Este tipo de conjuntos de datos son muy costosos de construir y mantener. Sin embargo, proporcionan una enorme cantidad de información que puede utilizarse para responder preguntas muy importantes. Por ejemplo, ¿cuál es el efecto en la tasa de participación laboral de las mujeres a medida que su familia de origen, la madre y el padre, envejecen? ¿O existen efectos diferenciales en los resultados de salud, dependiendo de la edad a la que una persona empezó a fumar? Solo los datos de panel pueden dar respuesta a estas y otras cuestiones relacionadas, ya que debemos seguir a varias personas en el transcurso del tiempo. Sin embargo, el trabajo que realizamos aquí no será del todo apropiado para conjuntos de datos como estos. </para><para id="eip-80">Partiendo de un conjunto de datos con dos variables independientes, nos preguntamos: ¿están relacionadas? Una forma de responder visualmente a esta pregunta es crear un gráfica de dispersión de los datos. Antes no podíamos hacerlo cuando hacíamos estadística descriptiva porque esos datos eran univariantes. Ahora tenemos datos bivariados, por lo que podemos trazar en dos dimensiones. Las tres dimensiones son posibles en un trozo de papel plano, pero resultan muy difíciles de conceptualizar por completo. Por supuesto, no se pueden representar gráficamente más de tres dimensiones, aunque las relaciones pueden medirse matemáticamente.  </para><para id="eip-629">Para dotar de precisión matemática a la medición de lo que vemos, utilizamos el coeficiente de correlación. La correlación nos dice algo sobre el movimiento conjunto de dos variables, pero <emphasis>nada</emphasis> sobre el motivo de este movimiento. Formalmente, en el análisis de correlación supone que las dos variables analizadas son <emphasis>independientes</emphasis>. Esto significa que ninguna de los dos provoca el movimiento de la otra. Además, significa que ninguna de las dos variables depende de la otra, ni de ninguna otra. Incluso con estas limitaciones, el análisis de correlación puede arrojar algunos resultados interesantes.</para><para id="eip-113">El coeficiente de correlación, ρ (se pronuncia ro), es la estadística matemática para una población que nos proporciona una medida de la fuerza de una relación lineal entre las dos variables. Para una muestra de datos, la estadística r, desarrollada por Karl Pearson a principios de los 1900, es una estimación de la correlación de la población y se define matemáticamente como:</para><equation class="unnumbered" id="eip-495"><label/>Los términos <m:math>
+<m:mi>r</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>n</m:mi><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac>
+<m:mo>Σ</m:mo><m:mo>(</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mn>1</m:mn><m:mi>i</m:mi></m:mrow></m:msub>
+<m:mo>- −</m:mo>
+<m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>1</m:mn></m:msub><m:mo>)</m:mo><m:mo>(</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mn>2</m:mn><m:mi>i</m:mi></m:mrow></m:msub>
+<m:mo>- −</m:mo>
+<m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msub><m:mo>)</m:mo>
+</m:mrow>
+<m:mrow>
+<m:msub><m:mi>s</m:mi><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:msub><m:msub><m:mi>s</m:mi><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msub>
+</m:mrow>
+</m:mfrac>
+</m:math></equation><equation class="unnumbered" id="eip-936">O</equation><equation id="eip-158"><label/>Los términos <m:math>
+<m:mi>r</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo>Σ</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mn>1</m:mn><m:mi>i</m:mi></m:mrow></m:msub><m:msub><m:mi>X</m:mi><m:mrow><m:mn>2</m:mn><m:mi>i</m:mi></m:mrow></m:msub>
+<m:mo>- −</m:mo>
+<m:mi>n</m:mi><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>1</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msub>
+</m:mrow>
+
+<m:mrow>
+<m:msqrt><m:mrow>
+<m:mo>(</m:mo><m:mo>Σ</m:mo><m:msub><m:mrow><m:msubsup><m:mi>X</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>i</m:mi></m:msub><m:mo>- −</m:mo><m:mi>n</m:mi><m:msup><m:mrow><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>1</m:mn></m:msub></m:mrow><m:mn>2</m:mn></m:msup><m:mo>)</m:mo>
+
+<m:mo>(</m:mo><m:mo>Σ</m:mo><m:msub><m:mrow><m:msubsup><m:mi>X</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>i</m:mi></m:msub><m:mo>- −</m:mo><m:mi>n</m:mi><m:msup><m:mrow><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msub></m:mrow><m:mn>2</m:mn></m:msup><m:mo>)</m:mo>
+</m:mrow></m:msqrt>
+</m:mrow>
+</m:mfrac>
+</m:math></equation><para id="eip-441">donde s<sub>x1</sub> y s<sub>x2</sub> son las desviaciones estándar de las dos variables independientes X<sub>1</sub> y X<sub>2</sub>, <m:math><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>1</m:mn></m:msub></m:math> y <m:math><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msub></m:math> son las medias muestrales de las dos variables, y X<sub>1i</sub> y X<sub>2i</sub> son las observaciones individuales de X<sub>1</sub> y X<sub>2</sub>. El coeficiente de correlación r oscila entre -1 y 1. La segunda fórmula equivalente se utiliza a menudo porque puede ser más fácil de calcular. Aunque estas fórmulas parezcan espeluznantes, en realidad no son más que el cociente de la covarianza entre las dos variables y el producto de sus dos desviaciones estándar. Es decir, es una medida de las varianzas relativas.</para><para id="eip-688">En la práctica, todos los análisis de regresión y correlación se realizarán mediante programas informáticos diseñados para estos fines. Cualquier cosa que supere tal vez media docena de observaciones crea inmensos problemas computacionales. Por ello, la correlación y, más aun, la regresión, no fueron herramientas de investigación muy utilizadas hasta la llegada de las "máquinas de computación". En la actualidad, la potencia de cómputo necesaria para analizar los datos mediante paquetes de regresión se considera casi trivial en comparación con la de hace una década. </para><para id="eip-869">Para visualizar cualquier relación <emphasis>lineal</emphasis> que pueda existir, vea el trazado de un diagrama de dispersión de los datos estandarizados. La <link target-id="fs-id1170044566105"/> presenta varios diagramas de dispersión y el valor calculado de r. Observe en los paneles (a) y (b) que los datos tienden generalmente a moverse juntos, (a) hacia arriba y (b) hacia abajo. El panel (a) es un ejemplo de correlación positiva y el panel (b) es un ejemplo de correlación o relación negativa. El signo del coeficiente de correlación nos indica si la relación es positiva o negativa (inversa). Si todos los valores de X<sub>1</sub> y X<sub>2</sub> se encuentran en una línea recta, el coeficiente de correlación será 1 o -1, dependiendo de si la línea tiene una pendiente positiva o negativa, y cuanto más se acerque a uno o a uno negativo, más fuerte será la relación entre las dos variables. RECUERDE SIEMPRE QUE EL COEFICIENTE DE CORRELACIÓN NO NOS INDICA LA PENDIENTE.</para><figure id="fs-id1170044566105"><media id="fs-id1170042278554" alt="...">
+<image mime-type="image/jpeg" src="../../media/fig-ch12_04_01m-46db.jpg" width="550"/></media></figure><para id="eip-783">Recuerde que lo único que nos señala el coeficiente de correlación es si los datos están o no relacionados linealmente. En el panel (d) las variables tienen obviamente algún tipo de relación muy específica entre sí, pero el coeficiente de correlación es cero, lo que indica que no existe ninguna relación <emphasis>lineal</emphasis>. </para><para id="eip-523">Si se sospecha que existe una relación lineal entre X<sub>1</sub> y X<sub>2</sub>, entonces <emphasis effect="italics">r</emphasis> puede medir la fuerza de la relación lineal.</para><list id="eip-781"><title>Lo que nos dice el VALOR de <emphasis effect="italics">r</emphasis>:</title><item>El valor de <emphasis effect="italics">r</emphasis> está siempre entre –1 y +1: –1 ≤ r ≤ 1.</item>
+<item>El tamaño de la correlación <emphasis effect="italics">r</emphasis> indica la fuerza de la relación <emphasis>lineal</emphasis> entre X<sub>1</sub> y X<sub>2</sub>. Los valores de <emphasis effect="italics">r</emphasis> cercanos a -1 o a +1 indican una relación lineal más fuerte entre X<sub>1</sub> y X<sub>2</sub>.
+</item>
+<item>Si <emphasis effect="italics">r</emphasis> = 0, no hay ninguna relación lineal entre X<sub>1</sub> y X<sub>2</sub> <emphasis>(no hay correlación lineal)</emphasis>.</item>
+<item>Si <emphasis effect="italics">r</emphasis> = 1, hay una correlación positiva perfecta. Si <emphasis effect="italics">r</emphasis> = –1, hay una correlación negativa perfecta. En ambos casos, todos los puntos de datos originales se encuentran en una línea recta: CUALQUIER línea recta sin importar la pendiente. Por supuesto, en el mundo real, esto no suele ocurrir.</item></list><list id="eip-88"><title>Lo que nos dice el SIGNO de <emphasis effect="italics">r</emphasis></title><item>Un valor positivo de <emphasis effect="italics">r</emphasis> significa que, cuando X<sub>1</sub> aumenta, X<sub>2</sub> tiende a aumentar y cuando X<sub>1</sub> disminuye, X<sub>2</sub> tiende a disminuir <emphasis>(correlación positiva)</emphasis>.</item>
+<item>Un valor negativo de <emphasis effect="italics">r</emphasis> significa que, cuando X<sub>1</sub> aumenta, X<sub>2</sub> tiende a disminuir y cuando X<sub>1</sub> disminuye, X<sub>2</sub> tiende a aumentar <emphasis>(correlación negativa)</emphasis>.</item>
+</list>
+<note id="fs-id1170798796487" class="finger"><title>Nota</title>Una fuerte correlación no sugiere que X<sub>1</sub> cause X<sub>2</sub> o que X<sub>2</sub> cause X<sub>1</sub>. Decimos que <emphasis>“la correlación no implica causalidad”.</emphasis></note><section id="eip-188" class="practice"><exercise id="eip-idm338257568"><problem id="eip-idm881490176">
+<para id="eip-idm253167264">Para tener un coeficiente de correlación entre los rasgos A y B, es necesario tener:</para>
+
+<list id="eip-idm726974816" list-type="enumerated" number-style="lower-alpha"><item>un grupo de sujetos, algunos de los cuales poseen características del rasgo A, el restante posee las del rasgo B
+</item>
+<item>medidas del rasgo A en un grupo de sujetos y del rasgo B en otro grupo</item>
+<item>dos grupos de sujetos, uno que podría clasificarse como A o no A, y el otro como B o no B</item>
+<item>dos grupos de sujetos, uno que podría clasificarse como A o no A, y el otro como B o no B</item></list>
+</problem>
+
+<solution id="eip-idm587305680">
+<para id="eip-idm727088736">d</para>
+</solution></exercise><exercise id="eip-891"><problem id="eip-idm1239017024">
+  <para id="eip-idm1223572880">
+    Defina el coeficiente de correlación y dé un ejemplo único de su uso. 
+  </para>
+</problem>
+
+<solution id="eip-idm173081984">
+<para id="eip-idm188472800">Una medida del grado en que la variación de una variable está relacionada con la variación de otra u otras variables. El coeficiente de correlación más utilizado indica el grado en que la variación de una variable se describe mediante una relación de línea recta con otra variable.</para>
+<para id="eip-idm1149933168">Supongamos que se dispone de información muestral sobre el ingreso familiar y los años de escolaridad del cabeza de familia. Un coeficiente de correlación = 0 indicaría que no hay ninguna asociación lineal entre estas dos variables. Una correlación de 1 indicaría una asociación lineal perfecta (en la que toda la variación del ingreso familiar podría estar asociada a la escolarización y viceversa).</para>
+
+</solution>
+</exercise><exercise id="eip-153"><problem id="eip-677">
+  <para id="eip-663">
+    Si la correlación entre la edad de un automóvil y el dinero gastado en reparaciones es de +0,90
+  </para>
+
+<list id="eip-idm494839488" list-type="enumerated" number-style="lower-alpha"><item>El 81 % de la variación del dinero gastado en reparaciones se explica por la edad del automóvil</item>
+<item>El 81 % del dinero gastado en reparaciones no se explica por la edad del automóvil</item>
+<item>El 90 % del dinero que se gasta en reparaciones se explica por la edad del automóvil</item>
+<item>Ninguna de las anteriores</item>
+</list></problem>
+
+<solution id="eip-7">
+  <para id="eip-933">
+    a. El 81 % de la variación del dinero gastado en reparaciones se explica por la edad del automóvil
+  </para>
+</solution>
+</exercise><exercise id="eip-998"><problem id="eip-227">
+  <para id="eip-711">
+    Supongamos que el promedio general de calificaciones del instituto universitario y la parte verbal de una prueba de coeficiente intelectual tienen una correlación de 0,40. ¿Qué porcentaje de la varianza tienen ambas en común?</para>
+<list id="eip-idm917660256" list-type="enumerated" number-style="lower-alpha">
+<item>20</item>    
+<item>16</item>         
+<item>40</item>         
+<item>80</item> 
+</list>
+</problem>
+
+<solution id="eip-151">
+  <para id="eip-647">
+    b. 16
+  </para>
+</solution>
+</exercise><exercise id="eip-381"><problem id="eip-419">
+  <para id="eip-47">
+    ¿Verdadero o falso? Si es falso, explique por qué: El coeficiente de determinación puede tener valores entre -1 y +1.
+  </para>
+</problem>
+
+<solution id="eip-109">
+  <para id="eip-620">El coeficiente de determinación es r··2 con 0 ≤ r··2 ≤ 1, ya que -1 ≤ r ≤ 1.
+
+  </para></solution>
+</exercise><exercise id="eip-574"><problem id="eip-563">
+  <para id="eip-568">
+Verdadero o falso: Siempre que se calcula r a partir de una muestra, el valor que obtenemos es solo una estimación del verdadero coeficiente de correlación que obtendríamos si lo calculáramos para toda la población.
+  </para>
+</problem>
+
+<solution id="eip-995">
+  <para id="eip-86">
+    Verdadero
+  </para>
+</solution>
+</exercise><exercise id="eip-991"><problem id="eip-132">
+  <para id="eip-732">
+Bajo un "diagrama de dispersión" se anota que el coeficiente de correlación es de 0,10. ¿Qué significa esto?
+  </para>
+<list id="eip-idm1463690576" list-type="enumerated" number-style="lower-alpha">
+<item>más y menos el 10 % de la media incluye alrededor del 68 % de los casos</item>
+<item>una décima parte de la varianza de una variable se comparte con la otra variable</item>
+<item>una décima parte de una variable es causada por la otra variable</item>
+<item>en una escala de -1 a +1, el grado de relación lineal entre las dos variables es de +0,10</item>
+</list>
+
+</problem>
+
+<solution id="eip-557">
+  <para id="eip-756">d. en una escala de -1 a +1, el grado de relación lineal entre las dos variables es +0,10
+  </para></solution>
+</exercise><exercise id="eip-60"><problem id="eip-664">
+  <para id="eip-356">
+Se sabe que el coeficiente de correlación de la X y de la Y es cero. Entonces podemos concluir que:
+  </para>
+
+<list id="eip-idm280839712" list-type="enumerated" number-style="lower-alpha">
+<item>la X y la Y tienen distribuciones estándar</item>
+<item>las varianzas de la X y de la Y son iguales</item>
+<item>no existe ninguna relación entre la X y la Y</item>
+<item>no existe ninguna relación lineal entre la X y la Y</item>
+<item>ninguno de estos</item>
+</list>
+
+</problem>
+
+<solution id="eip-183">
+  <para id="eip-528">
+d. no existe ninguna relación lineal entre la X y la Y
+  </para>
+</solution>
+</exercise><exercise id="eip-559"><problem id="eip-40">
+  <para id="eip-393">
+    ¿Cuál cree que es el valor del coeficiente de correlación para el par de variables: "número de horas de trabajo" y "número de unidades de trabajo realizadas"?
+
+  </para>
+<list id="eip-idm1550513936" list-type="enumerated" number-style="lower-alpha">
+<item>Aproximadamente 0,9</item>
+<item>Aproximadamente 0,4</item>
+<item>Aproximadamente 0,0</item>
+<item>Aproximadamente -0,4</item>
+<item>Aproximadamente -0,9</item>
+</list>
+</problem>
+
+<solution id="eip-596">
+  <para id="eip-405">
+Aproximadamente 0,9
+  </para>
+</solution>
+</exercise><exercise id="eip-564"><problem id="eip-435">
+  <para id="eip-366">
+    En un grupo determinado, la correlación entre la estatura en pies y el peso en libras es de +0,68. ¿Cuál de las siguientes opciones alteraría el valor de r?
+  </para>
+<list id="eip-idm299547328" list-type="enumerated" number-style="lower-alpha">
+<item>la altura se expresa en centímetros.</item>
+<item>el peso se expresa en kilogramos.</item>
+<item>ambos afectarán a r.</item>
+<item>ninguno de los cambios anteriores afectará a r.</item>
+</list>
+
+</problem>
+
+<solution id="eip-179">
+  <para id="eip-29">
+    d. ninguno de los cambios anteriores afectará a r.
+  </para>
+</solution>
+</exercise></section> </content>
+<glossary>
+<definition id="fs-id1167000519824"><term>Bivariante</term>
+<meaning id="fs-id1167002660617">dos variables están presentes en el modelo, donde una es la "causa" o variable independiente y la otra es el "efecto" de la variable dependiente.
+</meaning>
+</definition>
+<definition id="fs-id1167006613095"><term>Multivariante</term>
+<meaning id="fs-id1167004847070">sistema o modelo en el que se utiliza más de una variable independiente para predecir un resultado. Solo puede haber una variable dependiente, aunque no hay límite en el número de variables independientes.
+</meaning>
+</definition>
+<definition id="fs-id4305412"><term><m:math><m:mi>R</m:mi></m:math> – Coeficiente de correlación</term>
+<meaning id="fs-id1167001806914">Un número entre −1 y 1 que representa la fuerza y la dirección de la relación entre la "X" y la "Y". El valor de "<emphasis effect="italics">r</emphasis>" será igual a 1 o −1 solo si todos los puntos trazados forman una línea perfectamente recta.
+</meaning>
+</definition>
+
+<definition id="fs-id2011324"><term>Lineal</term>
+<meaning id="fs-id2343270">modelo que toma los datos y los convierte en una ecuación de línea recta.
+</meaning>
+</definition></glossary>
+</document>

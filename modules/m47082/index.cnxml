@@ -1,0 +1,117 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Comparación de las pruebas chi-cuadrado</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47082</md:content-id>
+  <md:title>Comparación de las pruebas chi-cuadrado</md:title>
+  <md:abstract/>
+  <md:uuid>75dd680d-d3e1-4768-8dfd-1474134feb8f</md:uuid>
+</metadata>
+
+<content>
+ <para id="element-3814">Ha visto el estadístico de prueba <emphasis effect="italics">χ</emphasis><sup>2</sup> utilizado en tres circunstancias diferentes. La siguiente lista con viñetas es un resumen que le ayudará a decidir qué prueba <emphasis effect="italics">χ</emphasis><sup>2</sup> es la adecuada.</para>
+<list id="eip-id8185633"><item><emphasis>Bondad de ajuste:</emphasis> use la prueba de bondad de ajuste para decidir si una población con una distribución desconocida se “ajusta” a una distribución conocida. En este caso habrá una única pregunta de encuesta cualitativa o un único resultado de un experimento de una única población. La bondad de ajuste se utiliza normalmente para ver si la población es uniforme (todos los resultados se producen con la misma frecuencia), si la población es normal o si la población es la misma que otra población con una distribución conocida. Las hipótesis nula y alternativa son: <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: La población se ajusta a la distribución dada. <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: La población no se ajusta a la distribución dada.</item>
+<item><emphasis>Independencia:</emphasis> use la prueba de independencia para decidir si dos variables (factores) son independientes o dependientes. En este caso habrá dos preguntas o experimentos de encuesta cualitativa y se construirá una tabla de contingencia. La meta es ver si las dos variables no están relacionadas (independientes) o están relacionadas (dependientes). Las hipótesis nula y alternativa son: <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: Las dos variables (factores) son independientes. <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: Las dos variables (factores) son dependientes.</item>
+<item><emphasis>Homogeneidad:</emphasis> use la prueba de homogeneidad para decidir si dos poblaciones con distribuciones desconocidas tienen la misma distribución entre sí. En este caso, habrá una única pregunta o experimento de encuesta cualitativa que se aplicará a dos poblaciones diferentes. Las hipótesis nula y alternativa son: <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: Las dos poblaciones siguen la misma distribución. <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: Las dos poblaciones tienen distribuciones diferentes.
+</item></list><section id="fs-idm111900416" class="summary"><title>Revisión del capítulo</title><para id="eip-208">La prueba de bondad de ajuste se suele usar para determinar si los datos se ajustan a una determinada distribución. La prueba de independencia usa una tabla de contingencia para determinar la independencia de dos factores. La prueba de homogeneidad determina si dos poblaciones proceden de la misma distribución, aunque esta sea desconocida.</para></section><section id="fs-idm179333552" class="practice">
+ <exercise id="eip-117">
+ <problem id="eip-278">
+ <para id="eip-951">¿Qué prueba se usa para decidir si una distribución observada es la misma que una distribución esperada?</para>
+ </problem>
+<solution id="eip-542">
+ <para id="eip-666">una prueba de bondad de ajuste</para>
+</solution>
+ </exercise>
+
+ <exercise id="eip-610"><problem id="eip-684">
+ <para id="eip-753">¿Cuál es la hipótesis nula para el tipo de prueba de <link target-id="eip-117"/>?</para>
+</problem>
+</exercise><exercise id="eip-541">
+ <problem id="eip-195">
+ <para id="eip-360">¿Qué prueba utilizaría para decidir si dos factores tienen una relación?
+ </para>
+</problem>
+<solution id="eip-718">
+ <para id="eip-848">una prueba de independencia</para>
+</solution>
+ </exercise>
+
+ <exercise id="eip-795"><problem id="eip-81">
+ <para id="eip-733">¿Qué prueba utilizaría para decidir si dos poblaciones tienen la misma distribución?</para>
+ </problem>
+ </exercise><exercise id="eip-506">
+ <problem id="eip-427">
+ <para id="eip-830">¿En qué se parecen las pruebas de independencia a las pruebas de homogeneidad?</para></problem>
+<solution id="eip-945">
+ <para id="eip-614">Las respuestas variarán. Ejemplo de respuesta: tanto las pruebas de independencia como las de homogeneidad calculan el estadístico de prueba de la misma manera <m:math>
+ <m:mrow>
+ <m:munder>
+ <m:mstyle mathsize="140%" displaystyle="true"><m:mo>∑</m:mo></m:mstyle>
+ <m:mrow>
+ <m:mo stretchy="false">(</m:mo><m:mi>i</m:mi><m:mi>j</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+ </m:munder>
+ <m:mfrac>
+ <m:mrow>
+ <m:msup>
+ <m:mrow>
+ <m:mo stretchy="false">(</m:mo><m:mi>O</m:mi><m:mo>−</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+ <m:mn>2</m:mn>
+ </m:msup>
+
+ </m:mrow>
+ <m:mi>E</m:mi>
+ </m:mfrac>
+
+ </m:mrow>
+ </m:math>. Además, todos los valores deben ser mayores o iguales a cinco. </para></solution>
+</exercise><exercise id="eip-206"><problem id="eip-34">
+ <para id="eip-882">¿En qué se diferencian las pruebas de independencia de las pruebas de homogeneidad?</para></problem>
+</exercise></section>
+<section id="fs-idp35566032" class="free-response">
+ <title>Tarea para la casa</title>
+ <para id="fs-idm155789040"><emphasis effect="italics">Para cada problema de palabras use una hoja de soluciones para resolver el problema de la prueba de hipótesis. Vaya al <link document="m47882"/> para ver la hoja de soluciones de chi-cuadrada. Redondee la frecuencia esperada a dos decimales.</emphasis></para><exercise id="eip-519">
+ <problem id="eip-604">
+ <para id="eip-412">¿Existe una diferencia entre la distribución de los estudiantes de Estadística de colegios comunitarios y la distribución de los estudiantes de Estadística de universidades en cuanto a la tecnología que utilizan en sus tareas para la casa? De algunos estudiantes de colegios universitarios comunitarios seleccionados al azar, 43 utilizaron una computadora, 102 una calculadora con funciones estadísticas incorporadas y 65 una tabla de libro de texto. De algunos estudiantes de universidades seleccionados al azar, 28 utilizaron una computadora, 33 una calculadora con funciones estadísticas incorporadas y 40 una tabla de libro de texto. Haga una prueba de hipótesis adecuada utilizando un nivel de significación de 0,05.
+ </para></problem>
+<solution id="eip-860">
+ <list id="fs-idm31687136" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: La distribución del uso de la tecnología es igual para los estudiantes de colegios universitarios comunitarios y para los estudiantes universitarios.</item>
+ <item><emphasis effect="italics">H<sub>a</sub></emphasis>: La distribución del uso de la tecnología no es igual para los estudiantes de colegios universitarios comunitarios que para los estudiantes universitarios.</item>
+ <item>2</item>
+ <item>chi-cuadrado con <emphasis effect="italics">df</emphasis> = 2</item>
+ <item>7,05</item>
+ <item>valor <emphasis effect="italics">p</emphasis> = 0,0294</item>
+ <item>Compruebe la solución del estudiante</item>
+ <item>
+ <list id="fs-idm193418768" list-type="enumerated" number-style="lower-roman">
+ <item>Alfa: 0,05</item>
+ <item>Decisión: rechaza la hipótesis nula.</item>
+ <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> &lt; alfa</item>
+ <item>Conclusión: Hay pruebas suficientes para concluir que la distribución del uso de la tecnología para las tareas en casa de Estadística no es la misma para los estudiantes de Estadística en colegios universitarios comunitarios y en universidades.</item>
+ </list>
+ </item>
+ </list></solution>
+</exercise>
+<para id="fs-idm173269120">Lea la afirmación y decida si es verdadera o falsa.</para><exercise id="element-963"><problem id="id21088939">
+ <para id="element-324">
+ Si <emphasis effect="italics">df</emphasis> = 2, la distribución chi-cuadrado tiene una forma que recuerda a la exponencial.
+ </para>
+</problem>
+</exercise></section><section id="eip-idp90445392" class="bring-together-homework"><title>Resúmalo todo</title><exercise id="element-728">
+ <problem id="id20682914">
+ <list id="fs-idm248592976" list-type="enumerated" number-style="lower-alpha">
+ <item>Explique por qué una prueba de bondad de ajuste y una prueba de independencia suelen ser pruebas de cola derecha.</item>
+ <item>Si hiciera una prueba de cola izquierda, ¿qué estaría probando?</item>
+ </list>
+
+ </problem>
+ <solution id="fs-idm144548544">
+ <list id="fs-idm11228640" list-type="enumerated" number-style="lower-alpha">
+ <item>El estadístico de prueba siempre es positivo y si los valores esperados y observados no están próximos, el estadístico de prueba es grande y se rechazará la hipótesis nula.</item>
+ <item>Comprobación para verificar si los datos se ajustan a la distribución “demasiado bien” o son demasiado perfectos.</item>
+ </list>
+ </solution>
+</exercise>
+</section> </content>
+</document>

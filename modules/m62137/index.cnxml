@@ -1,0 +1,723 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Estimación de la binomial con la distribución normal</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m62137</md:content-id>
+  <md:title>Estimación de la binomial con la distribución normal</md:title>
+  <md:abstract/>
+  <md:uuid>ea0707f7-dbf7-441c-b228-520e37d655a5</md:uuid>
+</metadata>
+
+<content>
+  <para id="eip-965">Ya hemos visto que varias funciones de densidad de probabilidad son las distribuciones límite de otras; por tanto, podemos estimar una con otra en determinadas circunstancias. Aquí veremos que la distribución normal puede utilizarse para estimar un proceso binomial. La Poisson se utilizó para estimar la binomial previamente, y la binomial se utilizó para estimar la distribución hipergeométrica.</para><para id="eip-8888">En el caso de la relación entre la distribución hipergeométrica y la binomial, tuvimos que reconocer que un proceso binomial asume que la probabilidad de un éxito permanece constante de un ensayo a otro: una cara en el último lanzamiento no puede tener un efecto en la probabilidad de una cara en el siguiente lanzamiento. En la distribución hipergeométrica esta es la esencia de la cuestión porque el experimento asume que cualquier "extracción" es sin reemplazo. Si se extrae sin reemplazo, todos las "extracciones" posteriores son probabilidades condicionales. Descubrimos que si el experimento hipergeométrico saca extrae un pequeño porcentaje del total de objetos, entonces podemos ignorar el impacto en la probabilidad de una extracción a otra. </para><para id="eip-873">Imagine que hay 312 cartas en una baraja compuesta por 6 mazos normales. Si el experimento exigía extraer solo 10 cartas, menos del 5% del total, entonces aceptaremos la estimación binomial de la probabilidad, aunque en realidad se trata de una distribución hipergeométrica porque las cartas se extraen presumiblemente sin reemplazo.</para><para id="eip-635">La Poisson también se consideró una estimación adecuada de la binomial en determinadas circunstancias. En el <link document="m54262">capítulo 4</link> encontramos que si el número de ensayos de interés es grande y la probabilidad de éxito es pequeña, tal que <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>p</m:mi></m:math> &lt; <m:math><m:mn>7</m:mn></m:math>, la Poisson puede utilizarse para estimar la binomial con buenos resultados. Una vez más, estas reglas empíricas no pretenden en modo alguno que la probabilidad real sea la que determina la estimación, sino que la diferencia está en el tercer o cuarto decimal y, por tanto, es <emphasis effect="italics">de minimus</emphasis>.</para><para id="eip-199">Aquí, de nuevo, encontramos que la distribución normal hace estimaciones particularmente precisas de un proceso binomial bajo ciertas circunstancias. La <link target-id="fs-id1164447191327"/> es una distribución de frecuencia de un proceso binomial para el experimento de lanzar tres monedas donde la variable aleatoria es el número de caras. El espacio muestral se encuentra debajo de la distribución. En el experimento se ha asumido que la probabilidad de éxito es de 0,5; por tanto, la probabilidad de fracaso, de cola, es también de 0,5. Al observar la <link target-id="fs-id1164447191327"/> nos llama la atención que la distribución sea simétrica. La raíz de este resultado es que las probabilidades de éxito y de fracaso son las mismas, 0,5. Si la probabilidad de éxito fuera inferior a 0,5, la distribución se vuelve sesgada hacia la derecha. De hecho, a medida que la probabilidad de éxito disminuye, el grado de asimetría aumenta. Si la probabilidad de éxito aumenta a partir de 0,5, la asimetría aumenta en la cola inferior, lo que da lugar a una distribución sesgada a la izquierda.</para><figure id="fs-id1164447191327"><media id="fs-id1164447045657" alt="Un histograma que muestra la distribución de frecuencias al lanzar tres monedas, donde x representa el número de caras. El eje vertical y representa la probabilidad. Cada barra tiene una etiqueta en el eje horizontal en el centro de la barra. Las etiquetas son 0, 1, 2, 3. La altura de la barra que representa 0 caras es de 1/8. La altura de la barra que representa 1 cara es de 3/8. La altura de la barra que representa 2 caras es de 3/8. La altura de la barra que representa 3 caras es de 1/8. Debajo del histograma está el conjunto, s, que representa el espacio muestral. Los elementos del conjunto son HHH, HHT, HTH, THH, TTT, TTH, THT, HTT.">
+<image src="../../media/fig-ch06_07_03-b679.jpg" mime-type="image/png"/></media>
+</figure><para id="eip-344">La razón por la que la asimetría de la distribución binomial es importante es porque si se va a estimar con una distribución normal, entonces tenemos que reconocer que la distribución normal es simétrica. Cuanto más se acerque la distribución binomial subyacente a ser simétrica, mejor será la estimación producida por la distribución normal. La <link target-id="fs-id1169385635400"/> muestra una distribución normal simétrica transpuesta en un gráfico de una distribución binomial donde <emphasis effect="italics">p</emphasis> = 0,2 y <emphasis effect="italics">n</emphasis> = 5. La discrepancia entre la probabilidad estimada utilizando una distribución normal y la probabilidad de la distribución binomial original es evidente. El criterio para utilizar una distribución normal para estimar una binomial aborda, pues, este problema al exigir que TANTO <emphasis effect="italics">np</emphasis> COMO <emphasis effect="italics">n</emphasis>(1 - <emphasis effect="italics">p</emphasis>) sean mayores que cinco. De nuevo, se trata de una regla general, pero es eficaz y da lugar a estimaciones aceptables de la probabilidad binomial.</para><figure id="fs-id1169385635400"><media id="fs-id1169389005498" alt="Un histograma que muestra la distribución de frecuencias de una distribución binomial con p = 0,2 y n = 5. La variable aleatoria X representa el número de caras. El eje vertical y representa la probabilidad P(X). Cada barra tiene una etiqueta en el eje horizontal en el centro de la barra. Las etiquetas son 0, 1, 2, 3, 4, 5. La altura de la barra en el 0 es 0,3277. La altura de la barra en el 1 es 0,4096. La altura de la barra en el 2 es 0,2048. La altura de la barra en el 3 es de 0,0512. La altura de la barra en el 4 es de 0,0064. La altura de la barra en el 5 es de 0,0003. Sobre el histograma hay una curva de distribución normal con media mu = 1."><image src="../../media/fig-06_07_04.jpg" mime-type="image/png"/></media></figure><example id="eip-649"><para id="eip-978">
+  Imagínese que se sabe que solo el 10% de los cachorros de pastor australiano nacen con lo que se llama "simetría perfecta" en sus tres colores, negro, blanco y cobre. La simetría perfecta se define como una cobertura igual en todas las partes del perro cuando se mira en la cara y se mide a la izquierda y a la derecha por la línea central. Un criadero tendría una buena reputación en la cría de pastores australianos si tuviera un alto porcentaje de perros que cumplieran este criterio. Durante los últimos 5 años y de los 100 perros nacidos en Dundee Kennels, 16 han nacido con esta característica de coloración.
+</para>
+<exercise id="eip-id1169348112772"><problem id="eip-id1169348112774">
+<para id="eip-id1169348112776">¿Cuál es la probabilidad de que, en 100 nacimientos, más de 16 tengan esta característica? </para>
+</problem>
+<solution id="eip-id1169348112781">
+<para id="eip-id1169348112783">Si suponemos que la coloración de un perro es independiente de la de los demás, una suposición un poco valiente, esto se convierte en un problema clásico de probabilidad binomial.</para>
+<para id="eip-id1169348078984">El enunciado de la probabilidad solicitada es 1 - [<emphasis effect="italics">p</emphasis>(<emphasis effect="italics">X</emphasis> = 0) + <emphasis effect="italics">p</emphasis>(<emphasis effect="italics">X</emphasis> = 1) + <emphasis effect="italics">p</emphasis>(<emphasis effect="italics">X</emphasis> = 2) + ... + <emphasis effect="italics">p</emphasis>(<emphasis effect="italics">X</emphasis> = 16)]. Para ello debemos calcular 17 fórmulas binomiales y sumarlas y luego restar a una para obtener la parte derecha de la distribución. Como alternativa, podemos utilizar la distribución normal para obtener una respuesta aceptable y en mucho menos tiempo.</para>
+<para id="eip-id1166526633458">En primer lugar, tenemos que comprobar si la distribución binomial es lo suficientemente simétrica como para utilizar la distribución normal. Sabemos que la binomial de este problema está sesgada porque la probabilidad de éxito, 0,1, no es la misma que la probabilidad de fracaso, 0,9. Sin embargo, tanto <m:math><m:mi>np</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:math> como <m:math><m:mi>n</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>90</m:mn></m:math> son mayores que 5, el límite para utilizar la distribución normal para estimar la binomial.</para><para id="eip-id1166519577499">La <link target-id="eip-id1165089732504"/> a continuación muestra la distribución binomial y se marca el área que queremos conocer. También se marca la media de la binomial, 10, y se escribe la desviación típica en el lateral del gráfico: <emphasis effect="italics">σ</emphasis> = <m:math><m:msqrt><m:mrow><m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi></m:mrow></m:msqrt></m:math> = 3. El área bajo la distribución de cero a 16 es la probabilidad solicitada, y se ha sombreado. Debajo de la distribución binomial hay una distribución normal que se utiliza para estimar esta probabilidad. Esa probabilidad también ha sido sombreada.</para><figure id="eip-id1165089732504"><media id="eip-id1165091348310" alt="Un histograma que muestra la distribución de frecuencias de una distribución binomial con p = 0,1 y n = 100. La variable aleatoria X representa el número de aciertos. El eje vertical y representa la probabilidad P(X). Las barras superiores a 16 están sombreadas. Debajo del histograma está el gráfico de una distribución normal con media m = 10. El área bajo la curva para x > 16 está sombreada (correspondiente al área sombreada en el histograma anterior). Debajo del gráfico de la curva normal está la fórmula de la puntuación z: z 1 = (x - mu)/sigma y el cálculo: z 1 = (16 - 10)/3 = 2."><image src="../../media/fig-06_07_05.jpg" mime-type="image/png"/></media></figure><para id="eip-id1169348120694">Al estandarizar de la distribución binomial a la normal, como se hizo en el pasado, se muestra que estamos pidiendo la probabilidad de 16 a infinito positivo, o 100 en este caso. Tenemos que calcular el número de desviaciones típicas que 16 se aleja de la media: 10.</para>
+<equation class="unnumbered" id="fs-id1167119657987"><label/>Los términos <m:math><m:mi>Z</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>–</m:mo><m:mi>μ</m:mi></m:mrow><m:mrow><m:mi>σ</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>16</m:mn><m:mo>- −</m:mo><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn></m:math></equation>
+<para id="eip-id1169348075004">Estamos preguntando por la probabilidad más allá de dos desviaciones típicas, un evento muy improbable. Buscamos dos desviaciones típicas en la tabla normal estándar y encontramos que el área de cero a dos desviaciones típicas es 0,4772. Sin embargo, nos interesa la cola, así que restamos 0,4772 de 0,5 y así encontramos el área de la cola. Nuestra conclusión es que la probabilidad de que un criadero tenga 16 perros con "simetría perfecta" es de 0,0228. Dundee Kennels tiene un historial extraordinario en este sentido.</para>
+<para id="eip-id1169348067774">Matemáticamente, lo escribimos como:</para>
+<equation class="unnumbered" id="fs-id1167119941861"><label/>Los términos <m:math><m:mn>1</m:mn><m:mo>- −</m:mo><m:mo>[</m:mo><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mo>…</m:mo><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mn>16</m:mn><m:mo>)</m:mo><m:mo>]</m:mo><m:mo>=</m:mo><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>></m:mo><m:mn>16</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>Z</m:mi><m:mo>></m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0,0228</m:mn></m:math></equation>
+</solution>
+</exercise></example>
+<section id="eip-424" class="summary">
+<title>Revisión del capítulo</title>
+<para id="eip-960">La distribución normal, que es continua, es la más importante de todas las distribuciones de probabilidad. Su gráfico tiene forma de campana. Esta curva en forma de campana se utiliza en casi todas las disciplinas. Al tratarse de una distribución continua, el área total debajo de la curva es uno. Los parámetros de la normal son la media <emphasis effect="italics">µ</emphasis> y la desviación típica <emphasis effect="italics">σ</emphasis>. Una distribución normal especial, llamada distribución normal estándar, es la distribución de las puntuaciones <emphasis effect="italics">z</emphasis>. Su media es cero y su desviación típica es uno.</para></section>
+
+<section id="eip-108" class="formula-review">
+<title>Revisión de la fórmula</title>
+<para id="eip-790">Distribución normal: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(<emphasis effect="italics">µ</emphasis>, <emphasis effect="italics">σ</emphasis>) donde <emphasis effect="italics">µ</emphasis> es la media y <emphasis effect="italics">σ</emphasis> es la desviación típica.</para>
+
+<para id="eip-idm32653056">Distribución normal estándar: <emphasis effect="italics">Z</emphasis> ~ <emphasis effect="italics">N</emphasis>(0, 1).</para>
+
+
+</section>
+
+<section id="eip-527" class="practice">
+<exercise id="fs-idp83652864">
+<problem id="fs-idp3823216">
+<para id="fs-idp81012528">¿Cómo representaría el área a la izquierda de uno en un enunciado de probabilidad?</para>
+<figure id="eip-idp74682384">
+<media id="fs-idp31643648" alt="">
+<image mime-type="image/jpg" print-width="3in" src="../../media/CNX_Stats_C06_M04_item001.jpg"/>
+</media>
+</figure>
+</problem>
+<solution id="fs-idp124208464">
+<para id="fs-idp142221328">
+<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 1)</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idm18365728"><problem id="fs-idp30641696">
+<para id="fs-idp68913872">¿Cuál es el área a la derecha de uno?</para>
+<figure id="eip-idm26567824">
+<media id="fs-idp76787840" alt="" display="block">
+<image mime-type="image/jpg" print-width="3in" src="../../media/CNX_Stats_C06_M04_item001.jpg"/>
+</media></figure>
+</problem>
+<!-- <solution id="fs-idp151140256">
+<para id="fs-idp77511872">1 &#8211; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 1) or <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 1)</para>
+</solution> -->
+</exercise><exercise id="fs-idp76730048">
+<problem id="fs-idp98636864">
+<para id="fs-idm16173600">¿<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 1) es igual a <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 1)? ¿Por qué?</para>
+</problem>
+<solution id="fs-idp26550912">
+<para id="fs-idp101468880">Sí, porque son iguales en una distribución continua: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 1) = 0</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idp16475344"><problem id="fs-idm13017216">
+<para id="fs-idp83647168">¿Cómo representaría el área a la izquierda de tres en un enunciado de probabilidad?</para>
+<figure id="eip-idm45345808"><media id="fs-idp128136336" alt="">
+<image mime-type="image/jpg" print-width="3in" src="../../media/CNX_Stats_C06_M04_item002.jpg"/>
+</media></figure>
+</problem>
+
+<!-- <solution id="fs-idp146985792">
+<para id="fs-idp60178064"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 3)</para>
+</solution> -->
+</exercise><exercise id="fs-idp103778720">
+<problem id="fs-idp147171280">
+<para id="fs-idp41528880">¿Cuál es el área a la derecha de tres?</para>
+<figure id="eip-idp19359872"><media id="fs-idp2060576" alt="">
+<image mime-type="image/jpg" print-width="3in" src="../../media/CNX_Stats_C06_M04_item002.jpg"/>
+</media></figure>
+</problem>
+<solution id="fs-idp5045104">
+<para id="fs-idp110734480">1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 3) o <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 3)</para></solution>
+</exercise><exercise id="fs-idp880816"><problem id="fs-idp154035488">
+<para id="fs-idm221600">Si el área a la izquierda de <emphasis effect="italics">x</emphasis> en una distribución normal es 0,123, ¿cuál es el área a la derecha de <emphasis effect="italics">x</emphasis>?</para></problem>
+
+<!-- <solution id="fs-idm19166096">
+<para id="fs-idp102316448">1 &#8211; 0.123 = 0.877</para></solution> -->
+</exercise><exercise id="fs-idm33682096">
+<problem id="fs-idp53588304">
+<para id="fs-idp142371360">Si el área a la derecha de <emphasis effect="italics">x</emphasis> en una distribución normal es 0,543, ¿cuál es el área a la izquierda de <emphasis effect="italics">x</emphasis>?</para></problem>
+<solution id="fs-idp148923888">
+<para id="fs-idp70427440">1 – 0,543 = 0,457</para></solution>
+</exercise>
+
+<para id="eip-410"><emphasis effect="italics">Use la siguiente información para responder los próximos cuatro ejercicios:</emphasis></para>
+
+<para id="eip-926"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(54, 8)</para>
+
+<exercise id="fs-idp83610000"><problem id="fs-idp149250384">
+<para id="fs-idp151137280">Calcule la probabilidad de que <emphasis effect="italics">x</emphasis> > 56.</para></problem>
+
+<!-- <solution id="fs-idp74510448">
+<para id="fs-idp25510144">0.4013</para>
+</solution> -->
+</exercise><exercise id="fs-idp105059184">
+<problem id="fs-idm2106864">
+<para id="fs-idp88634736">Calcule la probabilidad de que <emphasis effect="italics">x</emphasis> &lt; 30.</para></problem>
+<solution id="fs-idp52756064">
+<para id="fs-idp81762128">0,0013</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idp65259648"><problem id="fs-idp122477920">
+<para id="fs-idp107088272"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(6, 2)</para><para id="fs-idp45580384">Calcule la probabilidad de que <emphasis effect="italics">x</emphasis> esté entre tres y nueve.</para></problem>
+
+<!-- <solution id="fs-idp53207040">
+<para id="fs-idp127782224">0.8664</para>
+</solution> -->
+</exercise><exercise id="fs-idp152542352">
+<problem id="fs-idp77204752">
+<para id="fs-idp25172544"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(–3, 4)</para><para id="fs-idp101237440">Calcule la probabilidad de que <emphasis effect="italics">x</emphasis> esté entre uno y cuatro.</para></problem>
+<solution id="fs-idm11629600">
+<para id="fs-idp146932464">0,1186</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idp153143568"><problem id="fs-idp121093952">
+<para id="fs-idp152391232"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(4, 5)</para><para id="fs-idm90444112">Calcule el máximo de <emphasis effect="italics">x</emphasis> en el cuartil inferior.</para></problem>
+
+<!-- <solution id="fs-idp30677232">
+<para id="fs-idp151050720">0.6276</para>
+</solution> -->
+</exercise><exercise id="element-942"><problem id="id44370927">
+<para id="element-390"><emphasis effect="italics">Use la siguiente información para responder el próximo ejercicio:</emphasis> La vida de los reproductores de CD de Sunshine se distribuye normalmente, con una media de 4,1 años y una desviación típica de 1,3 años. El reproductor de CD tiene una garantía de tres años. Nos interesa la duración de un reproductor de CD. Calcule la probabilidad de que un reproductor de CD se averíe durante el periodo de garantía.</para>
+<list id="element-652" list-type="enumerated" number-style="lower-alpha">
+<item>Haga un esquema de la situación. Identifique y escale los ejes. Sombree la región correspondiente a la probabilidad.
+<figure id="fig1">
+<media id="id43849343" alt="Curva de distribución normal vacía."><image src="../../media/fig-ch06_07_01.jpg" mime-type="image/jpg" print-width="3in"/></media>
+</figure>
+</item>
+
+<item><emphasis effect="italics">P</emphasis>(0 &lt; <emphasis effect="italics">x</emphasis> &lt; ____________) = ___________ (use el cero para el valor mínimo de <emphasis effect="italics">x</emphasis>.)</item></list></problem>
+
+<solution id="id44028319">
+<list id="element-226" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Compruebe la solución del estudiante</item>
+<item>3; 0,1979</item></list></solution>
+</exercise><exercise id="element-893"><problem id="id44542589">
+<para id="element-441">Calcule la probabilidad de que un reproductor de CD dure entre 2,8 y seis años.
+</para><list id="element-654" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Haga un esquema de la situación. Identifique y escale los ejes. Sombree la región correspondiente a la probabilidad.
+<figure id="fig-231"><media id="id44444856" alt="Curva de distribución normal vacía."><image src="../../media/fig-ch06_07_02.jpg" mime-type="image/jpg" print-width="3in"/></media></figure></item>
+<item><emphasis effect="italics">P</emphasis>(__________ &lt; <emphasis effect="italics">x</emphasis> &lt; __________) = __________</item></list></problem>
+
+<!-- <solution id="id44443502">
+<list id="element-671" mark-suffix="." list-type="enumerated" number-style="lower-alpha">
+<item>Check student&#8217;s solution</item>
+<item>2.8, 6, 0.7694</item>
+</list></solution> -->
+</exercise><exercise id="eip-56"><problem id="eip-271">
+  <para id="eip-588">
+    Un experimento con una probabilidad de acierto dada como 0,40 se repite 100 veces. Utilice la distribución normal para aproximar la distribución binomial y calcule la probabilidad de que el experimento tenga al menos 45 aciertos.
+  </para>
+</problem>
+
+<solution id="eip-656">
+  <para id="eip-270">
+    0,154
+  </para>
+</solution>
+</exercise><exercise id="eip-95"><problem id="eip-863">
+  <para id="eip-692">
+    Un experimento con una probabilidad de acierto dada como 0,30 se repite 90 veces. Utilice la distribución normal para aproximar la distribución binomial y calcule la probabilidad de que el experimento tenga al menos 22 aciertos.
+  </para>
+</problem>
+
+<solution id="eip-907">
+  <para id="eip-655">
+0,874  </para>
+</solution>
+</exercise><exercise id="eip-5"><problem id="eip-276">
+  <para id="eip-306">
+    Un experimento con una probabilidad de acierto dada como 0,40 se repite 100 veces. Utilizcela distribución normal para aproximar la distribución binomial, y calcule la probabilidad de que el experimento tenga de 35 a 45 aciertos.
+  </para>
+</problem>
+
+<solution id="eip-761">
+  <para id="eip-260">
+    0,693
+  </para>
+</solution>
+</exercise><exercise id="eip-77"><problem id="eip-275">
+  <para id="eip-984">
+Un experimento con una probabilidad de acierto dada como 0,30 se repite 90 veces. Utilice la distribución normal para aproximar la distribución binomial, y calcule la probabilidad de que el experimento tenga de 26 a 30 aciertos.  </para>
+</problem>
+
+<solution id="eip-477">
+  <para id="eip-884">
+0,346  </para>
+</solution>
+</exercise><exercise id="eip-131"><problem id="eip-121">
+  <para id="eip-935">
+Un experimento con una probabilidad de acierto dada como 0,40 se repite 100 veces. Utilice la distribución normal para aproximar la distribución binomial, y calcule la probabilidad de que el experimento tenga como máximo 34 aciertos.  </para>
+</problem>
+
+<solution id="eip-352">
+  <para id="eip-316">
+0,110  </para>
+</solution>
+</exercise><exercise id="eip-671"><problem id="eip-618">
+  <para id="eip-272">
+Un experimento con una probabilidad de acierto dada como 0,30 se repite 90 veces. Utilice la distribución normal para aproximar la distribución binomial, y calcule la probabilidad de que el experimento tenga como máximo 34 aciertos.  </para>
+</problem>
+
+<solution id="eip-396">
+  <para id="eip-954">
+0,946  </para>
+</solution>
+</exercise><exercise id="eip-554"><problem id="eip-615">
+  <para id="eip-254">
+Una prueba de opción múltiple tiene una probabilidad de que cualquier pregunta se estime correctamente de 0,25. Hay 100 preguntas, y un estudiante las acierta todas. Utilice la distribución normal para aproximar la distribución binomial y determine la probabilidad de que se adivinen correctamente al menos 30 preguntas, pero no más de 32.  </para>
+</problem>
+
+<solution id="eip-743">
+  <para id="eip-442">
+0,071  </para>
+</solution>
+</exercise><exercise id="eip-515"><problem id="eip-636">
+  <para id="eip-13">
+Una prueba de opción múltiple tiene una probabilidad de que cualquier pregunta se estime correctamente de 0,25. Hay 100 preguntas, y un estudiante las acierta todas. Utilice la distribución normal para aproximarse a la distribución binomial y determine la probabilidad de que se adivinen correctamente al menos 24 preguntas, pero no más de 28.  </para>
+</problem>
+
+<solution id="eip-423">
+  <para id="eip-587">
+0,347
+  </para>
+</solution>
+</exercise></section>
+
+<section id="eip-866" class="free-response"><title>Tarea para la casa</title><para id="eip-idp18302448"><emphasis effect="italics">Use la siguiente información para responder los dos próximos ejercicios:</emphasis> El tiempo de recuperación del paciente de un procedimiento quirúrgico en particular se distribuye normalmente, con una media de 5,3 días y una desviación típica de 2,1 días.</para>
+
+<exercise id="eip-181"><problem id="id3435957">
+<para id="element-6">¿Cuál es la probabilidad de pasar más de dos días en recuperación?</para>
+<list id="yep" list-type="enumerated" number-style="lower-alpha"><item>0,0580</item>
+<item>0,8447</item>
+<item>0,0553</item>
+<item>0,9420</item>
+</list></problem>
+
+<!-- <solution id="id12741946">
+<para id="element-646">d</para>
+</solution> --></exercise><para id="eip-164"><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios:</emphasis> El tiempo que se tarda en encontrar un puesto de estacionamiento a las 9 a. m. sigue una distribución normal con una media de cinco minutos y una desviación típica de dos minutos.</para>
+<exercise id="eip-486"><problem id="id20620841">
+<para id="element-349">Con base en la información dada y justificada numéricamente, ¿le sorprendería que tardara menos de un minuto en encontrar un puesto de estacionamiento?</para>
+<list id="yap" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Sí</item>
+<item>No</item>
+<item>No se puede determinar</item>
+</list></problem>
+
+<!-- <solution id="id15290500">
+<para id="element-245">a</para>
+</solution> --></exercise><exercise id="eip-231"><problem id="id4498978">
+<para id="element-560">Calcule la probabilidad de que se tarde al menos ocho minutos en encontrar un puesto de estacionamiento.</para>
+<list id="element-298s" list-type="enumerated" number-style="lower-alpha"><item>0,0001</item>
+<item>0,9270</item>
+<item>0,1862</item>
+<item>0,0668</item>
+</list></problem>
+<solution id="id9734192">
+<para id="element-481">d</para>
+</solution></exercise><exercise id="eip-295"><problem id="id25388640">
+<para id="element-930">El setenta por ciento de las veces, ¿cuántos minutos se tarda en encontrar un puesto de estacionamiento?</para>
+<list id="element-143" list-type="enumerated" number-style="lower-alpha"><item>1,24</item>
+<item>2,41</item>
+<item>3,95</item>
+<item>6,05</item>
+</list></problem>
+
+<!-- <solution id="id16763246">
+<para id="element-722">c</para>
+</solution> --></exercise><exercise id="eip-581"><problem id="id20593649">
+<para id="element-232">Según un estudio realizado por estudiantes de De Anza, la altura de los hombres adultos asiáticos se distribuye normalmente, con un promedio de 66 pulgadas y una desviación típica de 2,5 pulgadas. Supongamos que se elige al azar un hombre adulto asiático. Supongamos que <emphasis effect="italics">X</emphasis> = la altura de la persona.</para>
+<list id="element-602" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>Calcule la probabilidad de que la persona tenga entre 65 y 69 pulgadas de alto. Incluya un esquema del gráfico y escriba una declaración de probabilidad.</item>
+<item>¿Espera hallar muchos hombres adultos asiáticos de más de 72 pulgadas de alto? Explique por qué sí o por qué no, y justifique su respuesta numéricamente.</item>
+<item>¿El 40% de las alturas se encuentra entre cuáles dos valores? Dibuje el gráfico y escriba el enunciado de la probabilidad.</item>
+</list></problem>
+<solution id="fs-idp83361824">
+<list id="element-18" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(66; 2,5)</item>
+<item>0,5404</item>
+<item>No, la probabilidad de que un hombre asiático mida más de 72 pulgadas es de 0,0082</item>
+</list></solution></exercise><exercise id="eip-563"><problem id="id21466710">
+<para id="element-861">El IQ se distribuye normalmente, con una media de 100 y una desviación típica de 15. Supongamos que se elige una persona al azar. Supongamos que <emphasis effect="italics">X</emphasis> = IQ de una persona.</para>
+<list id="element-932" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>Calcule la probabilidad de que la persona tenga un IQ superior a 120. Incluya un esquema del gráfico y escriba una declaración de probabilidad.</item>
+<item>MENSA es una organización cuyos miembros tienen el 2 % más alto de todos los IQ. Calcule el IQ mínimo necesario para poder acceder a la organización MENSA. Dibuje el gráfico y escriba el enunciado de la probabilidad.</item></list></problem>
+
+<!-- <solution id="eip-idp25493760">
+<list id="element-932s" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">N</emphasis>(100, 15)</item>
+<item>The probability that a person has an IQ greater than 120 is 0.0918.</item>
+<item>A person has to have an IQ over 130 to qualify for MENSA.</item>
+<item>The middle 50% of IQ scores falls between 89.95 and 110.05.</item>
+</list></solution> --></exercise><exercise id="eip-516"><problem id="id25415343">
+<para id="element-811">El porcentaje de calorías de grasa que consume una persona en Estados Unidos cada día se distribuye normalmente, con una media de 36 aproximadamente y una desviación típica de 10. Supongamos que se elige una persona al azar. Supongamos que <emphasis effect="italics">X</emphasis> = porcentaje de calorías de grasa.</para>
+<list id="element-993" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>Calcule la probabilidad de que el porcentaje de calorías de grasa que consume una persona sea superior a 40. Grafique la situación. Sombree en la zona por determinar.</item>
+<item>Calcule el número máximo para el cuarto inferior del porcentaje de calorías de grasa. Dibuje el gráfico y escriba el enunciado de la probabilidad.</item>
+</list></problem>
+<solution id="eip-idp2232784">
+<list id="element-993s" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(36, 10)</item>
+<item>La probabilidad de que una persona consuma más del 40 % de sus calorías en forma de grasa es de 0,3446.</item>
+<item>Aproximadamente el 25 % de las personas consumen menos del 29,26 % de sus calorías en forma de grasa.</item>
+</list></solution></exercise><exercise id="eip-967"><problem id="id18000241">
+<para id="element-313">Supongamos que la distancia de los batazos de aire lanzados al campo (en béisbol) se distribuye normalmente, con una media de 250 pies y una desviación típica de 50 pies.</para>
+<list id="element-107" list-type="enumerated" number-style="lower-alpha"><item>Si <emphasis effect="italics">X</emphasis> = distancia en pies para un batazo de aire, entonces <emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>Si se elige al azar un batazo de aire de esta distribución, ¿cuál es la probabilidad de que la pelota haya volado menos de 220 pies? Dibuje el gráfico. Escale el eje horizontal <emphasis effect="italics">X</emphasis>. Sombree la región correspondiente a la probabilidad. Calcule la probabilidad.</item>
+
+</list></problem>
+
+<!-- <solution id="eip-idp105794048">
+<list id="element-107s" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(250, 50)</item>
+<item>The probability that a fly ball travels less than 220 feet is 0.2743.</item>
+<item>Eighty percent of the fly balls will travel less than 292 feet.</item>
+</list></solution> --></exercise><exercise id="eip-930"><problem id="id16003321">
+<para id="element-842">En China, los niños de cuatro años pasan un promedio de tres horas al día sin supervisión. La mayoría de los niños sin supervisión viven en zonas rurales, consideradas seguras. Supongamos que la desviación típica es de 1,5 horas y que la cantidad de tiempo que se pasa solo se distribuye normalmente. Seleccionamos al azar un niño chino de cuatro años que vive en una zona rural. Nos interesa la cantidad de tiempo que el niño pasa solo al día.</para><list id="element-265" list-type="enumerated" number-style="lower-alpha"><item>Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</item>
+<item><emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>Calcule la probabilidad de que el niño pase menos de una hora al día sin supervisión. Dibuje el gráfico y escriba el enunciado de la probabilidad.</item>
+<item>¿Qué porcentaje de niños pasa más de diez horas al día sin supervisión?</item>
+<item>¿Cuánto tiempo como mínimo pasan al día sin supervisión el setenta por ciento de los niños?</item>
+</list></problem>
+<solution id="fs-idp38795616">
+<list id="element-760" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> = número de horas que un niño chino de cuatro años en una zona rural está sin supervisión durante el día.</item>
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(3, 1,5)</item>
+<item>La probabilidad de que el niño pase menos de una hora al día sin supervisión es de 0,0918.</item>
+<item>La probabilidad de que un niño pase más de diez horas al día sin supervisión es inferior a 0,0001.</item>
+<item>2,21 horas</item>
+</list></solution></exercise><exercise id="eip-698"><problem id="id19993022">
+<para id="element-366">En las elecciones presidenciales de 1992, los 40 distritos electorales de Alaska obtuvieron un promedio de 1.956,8 votos por distrito para el presidente Clinton. La desviación típica fue de 572,3 (solo hay 40 distritos electorales en Alaska). La distribución de los votos por distrito para el presidente Clinton tuvo forma de campana. Supongamos que <emphasis effect="italics">X</emphasis> = número de votos para el presidente Clinton para un distrito electoral. </para>
+<list id="element-780" list-type="enumerated" number-style="lower-alpha"><item>Indique la distribución aproximada de <emphasis effect="italics">X</emphasis>.</item>
+<item>¿1.956,8 es una media poblacional o una media muestral? ¿Cómo lo sabe?</item>
+<item>Calcule la probabilidad de que un distrito seleccionado al azar tenga menos de 1.600 votos para el presidente Clinton. Dibuje el gráfico y escriba el enunciado de la probabilidad.</item>
+<item>Calcule la probabilidad de que un distrito seleccionado al azar tenga entre 1.800 y 2.000 votos para el presidente Clinton.</item>
+<item>Calcule el tercer cuartil de votos para el presidente Clinton.</item>
+</list></problem>
+
+<!-- <solution id="eip-idp28319056">
+<list id="element-780s" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(1956.8, 572.3)</item>
+<item>This is a population mean, because all election districts are included.</item>
+<item>The probability that a district had less than 1,600 votes for President Clinton is 0.2676.</item>
+<item>0.3798</item>
+<item>Seventy-five percent of the districts had fewer than 2,340 votes for President Clinton.</item>
+</list></solution> --></exercise><exercise id="eip-838"><problem id="id18019640">
+<para id="element-883">Supongamos que se sabe que la duración de un determinado tipo de juicio penal se distribuye normalmente, con una media de 21 días y una desviación típica de siete días.</para>
+<list id="element-720" list-type="enumerated" number-style="lower-alpha"><item>Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</item>
+<item><emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>Si uno de los juicios se elige al azar, calcule la probabilidad de que haya durado, al menos, 24 días. Dibuje el gráfico y escriba el enunciado de la probabilidad.</item>
+<item>¿En cuántos días se completan el sesenta por ciento de los juicios de este tipo?</item>
+</list></problem>
+<solution id="id20218475">
+<list id="element-705" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> = la distribución del número de días que durará un determinado tipo de juicio penal</item>
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(21, 7)</item>
+<item>La probabilidad de que un juicio seleccionado al azar dure más de 24 días es de 0,3336.</item>
+<item>22,77</item>
+</list></solution></exercise>
+
+<exercise id="eip-335"><problem id="id24511113">
+<para id="element-695">Terri Vogel, una corredora de motos aficionada, tiene un promedio de 129,71 segundos por vuelta de 2,5 millas (en una carrera de siete vueltas) con una desviación típica de 2,28 segundos. La distribución de sus tiempos de carrera se distribuye normalmente. Estamos interesados en una de sus vueltas seleccionadas al azar. </para>
+<list id="element-598" list-type="enumerated" number-style="lower-alpha"><item>Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</item>
+<item><emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>Calcule el porcentaje de sus vueltas que se completan en menos de 130 segundos.</item>
+<item>El 3 % de sus vueltas más rápidas están por debajo de _____.</item>
+<item>El 80 % de sus vueltas son de _______ segundos a _______ segundos.</item>
+</list></problem>
+
+<!-- <solution id="eip-idp63928720">
+<list id="element-598s" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> = the distribution of race times that Terry Vogel produces</item>
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(129.71, 2.28)</item>
+<item>Terri completes 55.17% of her laps in less than 130 seconds.</item>
+<item>Terri completes 55.17% of her laps in less than 130 seconds.</item>
+<item>124.4 and 135.02</item>
+</list></solution> --></exercise><exercise id="eip-923"><problem id="id3458007">
+<para id="element-20">Thuy Dau, Ngoc Bui, Sam Su y Lan Voung realizaron una encuesta sobre el tiempo que los clientes de Lucky afirmaron que esperaban en la fila de la caja hasta que les llegaba su turno. Supongamos que <emphasis effect="italics">X</emphasis> = tiempo en fila. La <link target-id="element-694" document=""/> muestra los datos reales ordenados (en minutos):
+
+<table id="element-694" summary="This table presents raw data in 50 cells.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<tbody>
+<row>
+<entry>0,50</entry>
+<entry>4,25</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7,25</entry>
+</row>
+<row>
+<entry>1,75</entry>
+<entry>4,25</entry>
+<entry>5,25</entry>
+<entry>6</entry>
+<entry>7,25</entry>
+</row>
+<row>
+<entry>2</entry>
+<entry>4,25</entry>
+<entry>5,25</entry>
+<entry>6,25</entry>
+<entry>7,25</entry>
+</row>
+<row>
+<entry>2,25</entry>
+<entry>4,25</entry>
+<entry>5,5</entry>
+<entry>6,25</entry>
+<entry>7,75</entry>
+</row>
+<row>
+<entry>2,25</entry>
+<entry>4,5</entry>
+<entry>5,5</entry>
+<entry>6,5</entry>
+<entry>8</entry>
+</row>
+<row>
+<entry>2,5</entry>
+<entry>4,75</entry>
+<entry>5,5</entry>
+<entry>6,5</entry>
+<entry>8,25</entry>
+</row>
+<row>
+<entry>2,75</entry>
+<entry>4,75</entry>
+<entry>5,75</entry>
+<entry>6,5</entry>
+<entry>9,5</entry>
+</row>
+<row>
+<entry>3,25</entry>
+<entry>4,75</entry>
+<entry>5,75</entry>
+<entry>6,75</entry>
+<entry>9,5</entry>
+</row>
+<row>
+<entry>3,75</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>6,75</entry>
+<entry>9,75</entry>
+</row>
+<row>
+<entry>3,75</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>6,75</entry>
+<entry>10,75</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<list id="element-403" list-type="enumerated" number-style="lower-alpha">
+<item>Calcule la media y la desviación típica de la muestra.</item>
+<item>Construya un histograma.</item>
+<item>Dibuje una curva suave a través de los puntos medios de la parte superior de las barras.</item>
+<item>Describa la forma de su histograma y la curva suave en palabras.</item>
+<item>Supongamos que la media muestral se aproxime a <emphasis effect="italics">μ</emphasis> y la desviación típica de la muestra se aproxime a <emphasis effect="italics">σ</emphasis>. La distribución de <emphasis effect="italics">X</emphasis> puede entonces ser aproximada por <emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>Utilice la distribución de la parte e para calcular la probabilidad de que una persona espere menos de 6,1 minutos.</item>
+<item>Determine la frecuencia relativa acumulada para esperar menos de 6,1 minutos.</item>
+<item>¿Por qué las respuestas de las partes f y g no son exactamente iguales?</item>
+<item>¿Por qué las respuestas de las partes f y g son tan cercanas?</item>
+<item>Si solo se hubiera encuestado a diez clientes en vez de 50, ¿cree que las respuestas de las partes f y g habrían estado más cerca o más lejos? Explique su conclusión.</item>
+</list>
+</para>
+</problem>
+<solution id="id23136376">
+<list id="element-545" list-type="enumerated" number-style="lower-alpha"><item>media = 5,51, <emphasis effect="italics">s</emphasis> = 2,15</item>
+<item>Compruebe la solución del estudiante.</item>
+<item>Compruebe la solución del estudiante.</item>
+<item>Compruebe la solución del estudiante.</item>
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(5,51; 2,15)</item>
+<item>0,6029</item>
+<item>La frecuencia acumulada para menos de 6,1 minutos es de 0,64.</item>
+<item>Las respuestas de las partes f y g no son exactamente iguales, ya que la distribución normal es solo una aproximación a la real.</item>
+<item>Las respuestas de las partes f y g son cercanas, ya que una distribución normal es una excelente aproximación cuando el tamaño de la muestra es superior a 30.</item>
+<item>La aproximación habría sido menos precisa porque el menor tamaño de la muestra hace que los datos no se ajusten tan bien a la curva normal.</item>
+</list></solution></exercise><exercise id="eip-24"><problem id="id14371352">
+<para id="element-897">Supongamos que Ricardo y Anita asisten a institutos universitarios diferentes. El GPA de Ricardo es igual al GPA de su escuela. El GPA de Anita está 0,70 desviaciones típicas por encima del GPA de su escuela. En oraciones completas, explique por qué cada una de las siguientes afirmaciones puede ser falsa.</para>
+<list id="element-264" list-type="enumerated" number-style="lower-alpha">
+<item>El GPA real de Ricardo es menor que el de Anita.</item>
+<item>Ricardo no aprueba porque su puntuación <emphasis effect="italics">z</emphasis>es cero.</item>
+<item>Anita está en el percentil 70<sup/> de los estudiantes de su instituto universitario.</item>
+</list></problem>
+
+<!-- <solution id="eip-idp7493680">
+<list id="element-264s" list-type="enumerated" number-style="lower-alpha"><item>If the average GPA is less at Anita&#8217;s school than it is at Ricardo&#8217;s, then Ricardo&#8217;s actual score could be higher.</item>
+<item>Passing can be defined differently at different schools. Also, since Ricardo&#8217;s <emphasis effect="italics">z</emphasis>-score is 0, his GPA is actually
+the average for his school, which is typically a passing GPA.</item>
+<item>Anita&#8217;s percentile is higher than the 70<sup>th</sup> percentile.</item>
+</list></solution> --></exercise><exercise id="eip-406"><problem id="eip-308">
+<para id="eip-309">Un perito de una demanda de paternidad declara que la duración de un embarazo se distribuye normalmente, con una media de 280 días y una desviación típica de 13 días. El presunto padre estuvo fuera del país entre 240 y 306 días antes del nacimiento del niño, por lo que el embarazo habría durado menos de 240 días o más de 306 días si era el padre. El parto no tuvo complicaciones y el niño no necesitó ninguna intervención médica. ¿Cuál es la probabilidad de que NO sea el padre? ¿Cuál es la probabilidad de que pueda ser el padre? Calcule primero las puntuaciones <emphasis effect="italics">z</emphasis>y luego utilícelas para calcular la probabilidad.</para></problem>
+
+<!-- <solution id="eip-102">
+<list id="fs-idp65442944" list-type="labeled-item"><item>For <emphasis effect="italics">x</emphasis> = 240, <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mi>X</m:mi><m:mo>&#8722;</m:mo><m:mi>&#956;</m:mi>
+   </m:mrow>
+   <m:mi>&#963;</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>240</m:mn><m:mo>&#8722;</m:mo><m:mn>280</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>13</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mo>&#8722;</m:mo><m:mn>3.0769</m:mn><m:mo>&#160;</m:mo>
+ </m:mrow>
+</m:math></item>
+<item>For <emphasis effect="italics">x</emphasis> = 306, <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>306</m:mn><m:mo>&#8722;</m:mo><m:mn>280</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>13</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math></item>
+<item><emphasis effect="italics">P</emphasis>(240 &lt; <emphasis effect="italics">x</emphasis> &lt; 306) = <emphasis effect="italics">P</emphasis>(&#8211;3.0769 &lt; <emphasis effect="italics">z</emphasis> &lt; 2) = normalcdf(&#8211;3.0769,2,0,1) = 0.9762.</item>
+</list><para id="fs-idm15286272">According to the scenario given, this means that there is a 97.62% chance that he is not the father.</para>
+<para id="fs-idp166170256">To answer the second part of the question, there is a 1 &#8211; 0.9762 = 0.0238 = 2.38% chance that he is the father.</para></solution> --></exercise><exercise id="eip-889"><problem id="eip-708">
+<para id="eip-536">La línea de montaje de NUMMI, que lleva funcionando desde 1984, ha construido un promedio de 6.000 automóviles y camiones a la semana. Por lo general, el 10 % de los automóviles salían defectuosos de la cadena de montaje. Supongamos que tomamos una muestra aleatoria de <emphasis effect="italics">n</emphasis> = 100 automóviles. Supongamos que <emphasis effect="italics">X</emphasis> el número de automóviles defectuosos de la muestra. ¿Qué podemos decir de <emphasis effect="italics">X</emphasis> con respecto a la regla empírica 68-95-99,7 (se habla de una desviación típica, dos desviaciones típicas y tres desviaciones típicas de la media)? Supongamos una distribución normal para los automóviles defectuosos de la muestra.</para>
+</problem>
+<solution id="eip-906">
+<list id="eip-idp126470336" list-type="labeled-item"><item><emphasis effect="italics">n</emphasis> = 100; <emphasis effect="italics">p</emphasis> = 0,1; <emphasis effect="italics">q</emphasis> = 0,9</item>
+<item><emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> = (100)(0,10) = 10</item>
+<item><emphasis effect="italics">σ</emphasis> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mtext>(100)(0</m:mtext><m:mtext>0,1)(0</m:mtext><m:mtext>0,9)</m:mtext>
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math> = 3</item>
+</list><list id="eip-idm100993808" list-type="enumerated" number-style="lower-roman"><item>Los términos <m:math><m:mi>z</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>1</m:mn><m:mo>:</m:mo>   <m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>µ</m:mi><m:mo>+</m:mo><m:mi>zσ</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>+</m:mo><m:mn>1(3)</m:mn><m:mo>=</m:mo><m:mn>13</m:mn></m:math> y <m:math><m:mi>x</m:mi><m:mn>2</m:mn><m:mo>=</m:mo><m:mi>µ</m:mi><m:mo>–</m:mo><m:mi>zσ</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>–</m:mo><m:mn>1(3)</m:mn><m:mo>=</m:mo><m:mn>7.68%</m:mn></m:math> de los automóviles defectuosos estará entre el siete y el 13.</item>
+<item>Los términos <m:math><m:mi>z</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>2</m:mn><m:mo>:</m:mo> <m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>µ</m:mi><m:mo>+</m:mo><m:mi>zσ</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>+</m:mo><m:mn>2(3)</m:mn><m:mo>=</m:mo><m:mn>16</m:mn></m:math> como <m:math><m:mi>x</m:mi><m:mn>2</m:mn><m:mo>=</m:mo><m:mi>µ</m:mi><m:mo>–</m:mo><m:mi>zσ</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>–</m:mo><m:mn>2(3)</m:mn><m:mo>=</m:mo><m:mn>4. 95 %</m:mn></m:math> de los automóviles defectuosos caerán entre cuatro y 16</item>
+<item>Los términos <m:math><m:mi>z</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>3</m:mn><m:mo>:</m:mo>   <m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>µ</m:mi><m:mo>+</m:mo> <m:mi>zσ</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>+</m:mo><m:mn>3(3)</m:mn><m:mo>=</m:mo><m:mn>19</m:mn></m:math> como <m:math><m:mi>x</m:mi><m:mn>2</m:mn><m:mo>=</m:mo><m:mi>µ</m:mi><m:mo>–</m:mo><m:mi>zσ</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>–</m:mo><m:mn>3(3)</m:mn><m:mo>=</m:mo><m:mn>1. 99.7%</m:mn></m:math> de los automóviles defectuosos estará entre uno y 19.</item></list></solution>
+</exercise>
+
+<exercise id="eip-35"><problem id="eip-299">
+<para id="eip-947">Lanzamos una moneda 100 veces (<emphasis effect="italics">n</emphasis> = 100) y observamos que solo sale cara el 20 % (<emphasis effect="italics">p</emphasis> = 0,20) de las veces. La media y la desviación típica del número de veces que la moneda cae cara es <emphasis effect="italics">µ =</emphasis> 20 y σ = <emphasis effect="italics">4</emphasis> (verifica la media y la desviación típica). Resuelva lo siguiente:</para>
+
+<list id="eip-idp64792544" list-type="enumerated" number-style="lower-alpha">
+<item>Hay un 68 % de posibilidades de que el número de caras esté entre ___ y ___.</item>
+<item>Hay una probabilidad de ____ de que el número de caras esté entre 12 y 28. </item>
+<item>Hay una probabilidad de ____ de que el número de caras esté entre ocho y 32.</item>
+</list>
+</problem>
+
+<!-- <solution id="eip-171">
+<list id="eip-idp58643840" list-type="enumerated" number-style="lower-alpha"><item>There is about a 68% chance that the number of heads will be somewhere between 16 and 24. <emphasis effect="italics">z</emphasis> = &#177;1: <emphasis effect="italics">x1</emphasis> = <emphasis effect="italics">&#181;</emphasis> + <emphasis effect="italics">z&#963;</emphasis> = 20 + 1(4) = 24 and <emphasis effect="italics">x2</emphasis> = <emphasis effect="italics">&#181;</emphasis>-<emphasis effect="italics">z&#963;</emphasis> = 20 &#8211; 1(4) = 16.</item>
+<item>There is about a 95% chance that the number of heads will be somewhere between 12 and 28. For this problem: normalcdf(12,28,20,4) = 0.9545 = 95.45%</item>
+<item>There is about a 99.73% chance that the number of heads will be somewhere between eight and 32. For this problem: normalcdf(8,32,20,4) = 0.9973 = 99.73%.</item>
+</list></solution> --></exercise><exercise id="eip-868"><problem id="eip-322">
+<para id="eip-842">Un billete de lotería de 1 dólar resultará ganador una de cada cinco veces. De un cargamento de <emphasis effect="italics">n</emphasis> = 190 billetes de lotería, calcule la probabilidad de que haya</para>
+<list id="eip-idp139727617865536" list-type="enumerated" number-style="lower-alpha">
+<item>entre 34 y 54 premios.</item>
+<item>entre 54 y 64 premios.</item>
+<item>más de 64 premios.</item>
+</list>
+</problem>
+<solution id="eip-916">
+<list id="xeip" list-type="labeled-item"><item><emphasis effect="italics">n</emphasis> = 190; <emphasis effect="italics">p</emphasis> = <m:math display="">
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+ </m:mrow>
+</m:math> = 0,2; <emphasis effect="italics">q</emphasis> = 0,8</item>
+<item><emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> = (190)(0,2) = 38</item>
+<item><emphasis effect="italics">σ</emphasis> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mtext>(190)(0</m:mtext><m:mtext>0,2)(0</m:mtext><m:mtext>0,8)</m:mtext>
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math> = 5,5136</item>
+</list><list id="eip-idp139727617865536s" list-type="enumerated" number-style="lower-alpha"><item>Para este problema: <emphasis effect="italics">P</emphasis>(34 &lt; <emphasis effect="italics">x</emphasis> &lt; 54) = 0,7641</item>
+<item>Para este problema: <emphasis effect="italics">P</emphasis>(54 &lt; <emphasis effect="italics">x</emphasis> &lt; 64) = 0,0018</item>
+<item>Para este problema: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 64) = 0,0000012 (aproximadamente 0)</item>
+</list></solution></exercise>
+
+<exercise id="eip-291"><problem id="eip-455">
+<para id="eip-630">Facebook ofrece una serie de estadísticas en su sitio web que detallan el crecimiento y la popularidad del sitio.</para>
+<para id="eip-idp26662736">En promedio, el 28 % de los jóvenes de 18 a 34 años consultan sus perfiles de Facebook antes de levantarse de la cama por la mañana. Supongamos que este porcentaje sigue una distribución normal con una desviación típica del cinco por ciento.</para>
+</problem>
+
+<!-- <solution id="eip-11">
+<para id="eip-360"><emphasis effect="italics">X</emphasis> = the percent of 18 to 34-year-olds who check Facebook before getting out of bed in the morning.</para>
+<para id="eip-idp16494464"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(28, 5)</para>
+<list id="eip-idp160307472s" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &#8805; 30) = 0.3446; normalcdf(30,1EE99,28,5) = 0.3446</item>
+<item>
+<para id="eip-idm3944144">invNorm(0.95,0.28,0.05) = 0.3622.</para><para id="eip-idm3943760">95% of the percent of 18 to 34 year olds who check Facebook before getting out of bed in the morning is at most 36.22%.</para></item>
+<item><para id="eip-idm7864096"><emphasis effect="italics">P</emphasis>(25 &lt; <emphasis effect="italics">x</emphasis> &lt; 55).</para>
+<para id="eip-idm16259024"><emphasis effect="italics">P</emphasis>(25 &lt; <emphasis effect="italics">x</emphasis> &lt; 55) = normalcdf(25,55,28,5) = 0.7257(0.7257)(400) = 290.28</para></item>
+</list>
+<para>Find the probability that the percent of 18 to 34-year-olds who check Facebook before getting out of bed in the morning is at least 30.
+
+</para></solution> -->
+</exercise><exercise id="eip-685"><problem id="eip-770">
+  <para id="eip-15">
+Un hospital tiene 49 nacimientos en un año. Se considera igual de probable que un nacimiento sea un niño que una niña.</para>
+<list id="eip-idm198479488" list-type="enumerated" number-style="lower-alpha"><item>¿Cuál es la media?</item>
+<item>¿Cuál es la desviación típica?</item>
+<item>¿Se puede aproximar esta distribución binomial con una distribución normal? </item>
+<item>Si es así, utilice la distribución normal para encontrar la probabilidad de que al menos 23 de los 49 nacimientos sean niños.</item></list></problem>
+
+<solution id="eip-672">
+<list id="eip-idm1776124320" list-type="enumerated" number-style="lower-alpha"><item>24,5</item>
+<item>3,5</item>
+<item>Sí</item>
+<item>0,67</item></list></solution>
+</exercise><exercise id="eip-958"><problem id="eip-358">
+  <para id="eip-85">
+ Históricamente, el examen final de un curso se aprueba con una probabilidad de 0,9. El examen se realiza a un grupo de 70 estudiantes.
+  </para>
+<list id="eip-idm605902688" list-type="enumerated" number-style="lower-alpha">
+<item>¿Cuál es la media de la distribución binomial?</item>
+<item>¿Cuál es la desviación típica?</item>
+<item>¿Se puede aproximar esta distribución binomial con una distribución normal?</item>
+<item>Si es así, utilice la distribución normal para calcular la probabilidad de que al menos 60 de los alumnos aprueben el examen</item>
+</list>
+</problem>
+
+<solution id="eip-225">
+<list id="eip-idm619447088" list-type="enumerated" number-style="lower-alpha">
+<item>63</item>
+<item>2,5</item>
+<item>Sí</item>
+<item>0,88</item>
+</list>
+</solution>
+</exercise><exercise id="eip-387"><problem id="eip-976">
+  <para id="eip-972">
+Un árbol de un huerto tiene 200 naranjas. De las naranjas, 40 no están maduras. Utilice la distribución normal para aproximar la distribución binomial, y determina la probabilidad de que una caja que contiene 35 naranjas tenga como máximo dos naranjas que no estén maduras.  </para>
+</problem>
+
+<solution id="eip-721">
+  <para id="eip-683">
+0,02  </para>
+</solution>
+</exercise><exercise id="eip-557"><problem id="eip-292">
+  <para id="eip-450">
+En una gran ciudad, uno de cada diez hidrantes necesita ser reparado. Si una cuadrilla examina 100 hidrantes en una semana, ¿cuál es la probabilidad de que encuentre menos de nueve hidrantes que necesiten reparación? Utilice la distribución normal para aproximar la distribución binomial.  </para>
+</problem>
+
+<solution id="eip-547">
+  <para id="eip-263">
+0,37  </para>
+</solution>
+</exercise><exercise id="eip-758"><problem id="eip-48">
+  <para id="eip-401">
+En una línea de montaje se determina que el 85% de los productos ensamblados no tienen defectos. Si un día se ensamblan 50 artículos, ¿cuál es la probabilidad de que al menos 4 y no más de 8 estés defectuosos? Utilice la distribución normal para aproximar la distribución binomial.  </para>
+</problem>
+
+<solution id="eip-963">
+  <para id="eip-727">
+0,50  </para>
+</solution>
+</exercise></section>
+ </content>
+
+</document>

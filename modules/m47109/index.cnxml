@@ -1,0 +1,327 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Diagramas de dispersión</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47109</md:content-id>
+  <md:title>Diagramas de dispersión</md:title>
+  <md:abstract/>
+  <md:uuid>44891352-21cf-454b-b803-1cd2ffc828a4</md:uuid>
+</metadata>
+
+<content>
+    <para id="element-38110">Antes de retomar el análisis de la regresión lineal y la correlación, necesitamos examinar una forma de mostrar la relación entre dos variables de la <emphasis effect="italics">x</emphasis> y de la <emphasis effect="italics">y</emphasis>. La forma más común y sencilla es el <emphasis>diagrama de dispersión</emphasis>. El siguiente ejemplo ilustra un diagrama de dispersión.</para>
+
+<example id="element-777"><para id="element-622">En Europa y Asia, el comercio móvil es muy popular. Los usuarios del comercio móvil disponen de teléfonos móviles especiales que funcionan como monederos electrónicos y ofrecen servicios de telefonía e Internet. Los usuarios pueden hacer de todo: desde pagar el estacionamiento hasta comprar un televisor o una gaseosa en una máquina, pasando por realizar operaciones bancarias o consultar los resultados deportivos en Internet. En el período que va desde 2000 hasta 2004, ¿existe alguna relación entre el año y el número de usuarios de comercio móvil? Construya un diagrama de dispersión. Supongamos que la <emphasis effect="italics">x</emphasis> = el año y la <emphasis effect="italics">y</emphasis> = el número de usuarios de comercio móvil, en millones.</para>
+<table id="linrgs_scater1" summary="">
+<tgroup cols="2"><thead>
+  <row>
+    <entry>Los términos <m:math><m:mi>x</m:mi></m:math> (año)</entry>
+    <entry>Los términos <m:math><m:mi>y</m:mi></m:math> (número de usuarios)</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>2000</entry>
+    <entry>0,5</entry>
+  </row>
+  <row>
+    <entry>2002</entry>
+    <entry>20,0</entry>
+  </row>
+  <row>
+    <entry>2003</entry>
+    <entry>33,0</entry>
+  </row>
+  <row>
+    <entry>2004</entry>
+    <entry>47,0</entry>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+<caption>Tabla que muestra el número de usuarios de comercio móvil (en millones) por año.</caption>
+</table>
+
+<figure id="linrgs_scater12">
+  <media id="id1171452159644" alt="Este es un diagrama de dispersión para los datos proporcionados. El eje de la x representa el año y el eje de la y representa el número de usuarios de comercio móvil en millones. Hay cuatro puntos trazados, en (2000, 0,5), (2002, 20,0), (2003, 33,0), (2004, 47,0)."><image src="../../media/fig-ch12_04_01.jpg" mime-type="image/jpeg" width="380"/></media>
+  <caption>Diagrama de dispersión que muestra el número de usuarios de comercio móvil (en millones) por año.</caption>
+</figure></example><note id="fs-idp52837344" class="statistics calculator"><label/>
+Para crear un diagrama de dispersión: <list id="fs-idp71144528" list-type="enumerated">
+<item>Introduzca sus datos X en la lista L1 y sus datos Y en la lista L2.</item>
+<item>Pulse 2nd STATPLOT ENTER para utilizar Plot 1. En la pantalla de entrada de PLOT 1, resalte On y pulse ENTER. (Asegúrese de que los otros gráficos estén deshabilitados).</item>
+<item>Para TYPE: resalte el primer icono, que es el diagrama de dispersión, y pulse ENTER.</item>
+<item>Para Xlist:, introduzca L1 ENTER y para Ylist: L2 ENTER.</item>
+<item>Para Mark: no importa qué símbolo resalte, aunque el cuadrado es el más visible. Pulse ENTER.</item>
+<item>Verifique que no haya otras ecuaciones que puedan trazarse. Pulse Y = y borre las ecuaciones.</item>
+<item>Pulse la tecla ZOOM y luego el número 9 (para la opción de menú "ZoomStat"); la calculadora ajustará la ventana a los datos. Puede pulsar WINDOW para ver la escala de los ejes.</item>
+</list>
+</note><note id="fs-idm16826784" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+
+<exercise id="eip-339">
+<problem id="eip-740">
+  <para id="eip-489">Amelia juega al baloncesto en su instituto. Quiere mejorar para jugar a nivel universitario. Se da cuenta de que el número de puntos que anota en un partido aumenta en respuesta al número de horas que practica su lanzamiento en suspensión cada semana. Ella anota los siguientes datos:</para>
+<table id="eip-idp1116432" summary="">
+<tgroup cols="2">
+<thead><row><entry><emphasis effect="italics">X</emphasis> (horas practicando el lanzamiento en suspensión)</entry>	<entry><emphasis effect="italics">Y</emphasis> (puntos anotados en un partido)</entry></row></thead>
+<tbody>
+<row><entry>5</entry>	<entry>15</entry></row>
+<row><entry>7</entry>	<entry>22</entry></row>
+<row><entry>9</entry>	<entry>28</entry></row>
+<row><entry>10</entry>	<entry>31</entry></row>
+<row><entry>11</entry>	<entry>33</entry></row>
+<row><entry>12</entry>	<entry>36</entry></row>
+</tbody>
+</tgroup>
+</table>
+<para id="eip-idm36661536">Construya un diagrama de dispersión e indique si lo que piensa Amelia sería cierto.</para>
+</problem>
+</exercise>
+
+</note>
+
+<para id="element-83">El diagrama de dispersión muestra la <emphasis>dirección</emphasis> de una relación entre las variables. Una dirección clara ocurre cuando hay: <list id="list1" list-type="bulleted">
+<item>Valores altos de una variable que se producen con valores altos de la otra variable o valores bajos de una variable que se producen con valores bajos de la otra variable.</item>
+<item>Valores altos de una variable que se producen con valores bajos de la otra variable.</item>
+</list></para>
+<para id="element-674">Puede determinar la <emphasis effect="bold">fuerza</emphasis> de la relación al observar en diagrama de dispersión lo cerca que están los puntos de una línea, una función de potencia, una función exponencial o algún otro tipo de función. Para la relación lineal hay una excepción. Considere un diagrama de dispersión en el que todos los puntos caen sobre una línea horizontal que proporciona un "ajuste perfecto". De hecho, la línea horizontal no mostraría ninguna relación.</para>
+
+<para id="element-708">Cuando se observa un diagrama de dispersión, hay que fijarse en el <emphasis>patrón general</emphasis> y en las <emphasis>desviaciones</emphasis> del patrón. Los siguientes ejemplos de diagramas de dispersión ilustran estos conceptos.</para>
+
+<figure id="lingrgs10"><media id="id1171450550347" alt="El primer gráfico es un diagrama de dispersión con 6 puntos trazados. Los puntos forman un patrón que se desplaza hacia arriba, hacia la derecha, casi en línea recta. El segundo gráfico es un diagrama de dispersión con los mismos 6 puntos del primer gráfico. En la esquina superior izquierda del cuadrante se traza un séptimo punto. Queda fuera del patrón general establecido por los otros 6 puntos."><image src="../../media/fig-ch12_04_02.jpg" mime-type="image/jpeg" width="380"/>
+</media></figure>
+<figure id="lingrgs20"><media id="id1171453496318" alt="El primer gráfico es un diagrama de dispersión con 6 puntos trazados. Los puntos forman un patrón que se desplaza hacia la derecha, casi en línea recta. El segundo gráfico es un diagrama de dispersión de 8 puntos. Estos puntos forman un patrón general descendente, pero el punto no se alinea en un patrón apretado."><image src="../../media/fig-ch12_04_03.jpg" mime-type="image/jpeg" width="380"/>
+</media></figure>
+<figure id="lingrgs30"><media id="id1171454842074" alt="El primer gráfico es un diagrama de dispersión de 7 puntos en un patrón exponencial. El patrón de los puntos comienza a lo largo del eje de la x, a la vez que se curva de forma pronunciada hacia el lado derecho del cuadrante. El segundo gráfico muestra un diagrama de dispersión con muchos puntos dispersos por todas partes, sin mostrar ningún patrón.">
+<image src="../../media/fig-ch12_04_04.jpg" mime-type="image/jpeg" width="380"/>
+</media></figure>
+<para id="element-243">En este capítulo, nos interesan los diagramas de dispersión que muestran un patrón lineal. Los patrones lineales son bastante comunes. La relación lineal es fuerte si los puntos se acercan a una línea recta, excepto en el caso de una línea horizontal donde no hay relación. Si pensamos que los puntos muestran una relación lineal, nos gustaría dibujar una línea en el diagrama de dispersión. Esta línea se calcula mediante un proceso denominado <term id="term-00001">regresión lineal</term>. Sin embargo, solo calculamos una línea de regresión si una de las variables explica o predice la otra variable. Si la <emphasis effect="italics">x</emphasis> es la variable independiente, mientras que la <emphasis effect="italics">y</emphasis> es la variable dependiente, podemos utilizar una línea de regresión para predecir la <emphasis effect="italics">y</emphasis> para un valor dado de la <emphasis effect="italics">x</emphasis></para><section id="eip-407" class="summary">
+<title>Revisión del capítulo</title>
+<para id="fs-idm18585216">Los diagramas de dispersión son especialmente útiles cuando queremos ver si existe una relación lineal entre los puntos de datos. Indican tanto la dirección de la relación entre las variables <emphasis effect="italics">x</emphasis> y las variables <emphasis effect="italics">y</emphasis>, como la fuerza de la relación. Calculamos la fuerza de la relación entre una variable independiente y una variable dependiente mediante una regresión lineal.</para></section>
+
+
+<section id="eip-98" class="practice">
+<exercise id="eip-379">
+<problem id="eip-474">
+  <para id="eip-780">¿El diagrama de dispersión parece lineal? ¿Fuerte o débil? ¿Positiva o negativa?</para>
+<figure id="fs-idp130114112"><media id="eip-idm143400624" alt="Se trata de un diagrama de dispersión con varios puntos trazados en el primer cuadrante. Los puntos forman un patrón claro, al moverse hacia arriba a la derecha. Los puntos no se alinean, pero el patrón general se puede modelar con una línea." display="block">
+  <image mime-type="image/jpeg" src="../../media/CNX_Stats_C012_M04_item001.jpg" width="450"/>
+</media></figure>
+</problem>
+<solution id="eip-206">
+  <para id="eip-989">Los datos parecen ser lineales con una fuerte correlación positiva.</para></solution>
+</exercise>
+
+<exercise id="eip-281"><problem id="eip-986">
+  <para id="eip-542">¿El diagrama de dispersión parece lineal? ¿Fuerte o débil? ¿Positiva o negativa?</para>
+<figure id="fs-idp68059856"><media id="eip-idp14193472" alt="Se trata de un diagrama de dispersión con varios puntos trazados en el primer cuadrante. Los puntos se mueven hacia abajo a la derecha. El patrón general puede modelarse con una línea, pero los puntos están muy dispersos." display="block">
+  <image mime-type="image/jpeg" src="../../media/CNX_Stats_C012_M04_item002.jpg" width="450"/>
+</media></figure>
+</problem></exercise><exercise id="eip-781">
+<problem id="eip-746">
+  <para id="eip-162">¿El diagrama de dispersión parece lineal? ¿Fuerte o débil? ¿Positiva o negativa?</para>
+
+<figure id="fs-idp63135408"><media id="eip-idp1376736" alt="Se trata de un diagrama de dispersión con varios puntos trazados en todo el primer cuadrante. No hay ningún patrón." display="block">
+  <image mime-type="image/jpeg" src="../../media/CNX_Stats_C012_M04_item003.jpg" width="450"/>
+</media></figure>
+
+</problem>
+
+<solution id="eip-921">
+  <para id="eip-529">Los datos parecen no tener correlación.</para></solution>
+</exercise>
+</section>
+<section id="fs-idm75649888" class="free-response">
+<title>Tarea para la casa</title>
+<exercise id="fs-idp128138576">
+<problem id="fs-idp35640784">
+<para id="fs-idp63162736">La Paridad de Poder Adquisitivo (PPA) del Producto Interno Bruto (PIB) es una indicación del valor de la moneda de un país en comparación con otro. La <link target-id="fs-idm59733200"/> muestra la PPA del PIB de Cuba en comparación con los dólares estadounidenses. Construya un diagrama de dispersión de los datos.</para><table id="fs-idm59733200" summary="..">
+ 
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry>Año</entry>
+<entry>PPA de Cuba </entry>
+<entry>Año</entry>
+<entry>PPA de Cuba</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>1999</entry>
+<entry>1.700</entry>
+<entry>2006</entry>
+<entry>4.000</entry>
+</row>
+<row>
+<entry>2000</entry>
+<entry>1.700</entry>
+<entry>2007</entry>
+<entry>11.000</entry>
+</row>
+<row>
+<entry>2002</entry>
+<entry>2.300</entry>
+<entry>2008</entry>
+<entry>9.500</entry>
+</row>
+<row>
+<entry>2003</entry>
+<entry>2.900</entry>
+<entry>2009</entry>
+<entry>9.700</entry>
+</row>
+<row>
+<entry>2004</entry>
+<entry>3.000</entry>
+<entry>2010</entry>
+<entry>9.900</entry>
+</row>
+<row>
+<entry>2005</entry>
+<entry>3.500</entry>
+<entry/>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+</problem>
+<solution id="fs-idm27096576">
+<para id="fs-idm47595680">Compruebe la solución del estudiante</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idm75154176"><problem id="fs-idm56634624">
+<para id="fs-idp103485488">La siguiente tabla muestra los índices de pobreza y el uso del teléfono móvil en Estados Unidos. Construya un diagrama de dispersión de los datos</para>
+<table id="fs-idm6414736" summary="..">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>Año</entry>
+<entry>Índice de pobreza</entry>
+<entry>Uso del teléfono móvil per cápita</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>2003</entry>
+<entry>12,7</entry>
+<entry>54,67</entry>
+</row>
+<row>
+<entry>2005</entry>
+<entry>12,6</entry>
+<entry>74,19</entry>
+</row>
+<row>
+<entry>2007</entry>
+<entry>12</entry>
+<entry>84,86</entry>
+</row>
+<row>
+<entry>2009</entry>
+<entry>12</entry>
+<entry>90,82</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem></exercise><exercise id="fs-idp83642048">
+<problem id="fs-idp127740240">
+<para id="fs-idm35544512">¿El mayor costo de la matrícula se traduce en empleos mejor pagados? La tabla muestra las diez mejores universidades en función del salario de mitad de carrera y los costos asociados de matrícula anual. Construya un diagrama de dispersión de los datos.</para>
+<table id="fs-idp39411984" summary="..">
+ 
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>Escuela</entry>
+<entry>Salario a mitad de carrera (en miles)</entry>
+<entry>Matrícula anual</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Princeton</entry>
+<entry>137</entry>
+<entry>28.540</entry>
+</row>
+<row>
+<entry>Harvey Mudd</entry>
+<entry>135</entry>
+<entry>40.133</entry>
+</row>
+<row>
+<entry>CalTech</entry>
+<entry>127</entry>
+<entry>39.900</entry>
+</row>
+<row>
+<entry>Academia Naval de EE. UU.</entry>
+<entry>122</entry>
+<entry>0</entry>
+</row>
+<row>
+<entry>West Point</entry>
+<entry>120</entry>
+<entry>0</entry>
+</row>
+<row>
+<entry>MIT</entry>
+<entry>118</entry>
+<entry>42.050</entry>
+</row>
+<row>
+<entry>Universidad de Lehigh</entry>
+<entry>118</entry>
+<entry>43.220</entry>
+</row>
+<row>
+<entry>NYU-Poly</entry>
+<entry>117</entry>
+<entry>39.565</entry>
+</row>
+<row>
+<entry>Babson College</entry>
+<entry>117</entry>
+<entry>40.400</entry>
+</row>
+<row>
+<entry>Stanford</entry>
+<entry>114</entry>
+<entry>54.506</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+
+<solution id="fs-idp37956800">
+<para id="fs-idp99428928">Para el gráfico: compruebe la solución del estudiante. Tenga en cuenta que la matrícula es la variable independiente y el salario es la variable dependiente.</para></solution>
+</exercise><exercise id="eip-201"><problem id="eip-875">
+  <para id="eip-910">
+Si el nivel de significación es 0,05 y el valor <emphasis effect="italics">p</emphasis> es 0,06, ¿a qué conclusión llega?
+  </para>
+</problem></exercise><exercise id="eip-951"><problem id="eip-idm68833888">
+  <para id="eip-idm163228576">Si hay 15 puntos de datos en un conjunto de datos, ¿cuál es el número de grados de libertad?</para>
+</problem>
+
+<solution id="eip-idm194939824">
+  <para id="eip-idp17840640">13</para>
+</solution></exercise>
+</section>
+ </content>
+</document>

@@ -1,0 +1,86 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Laboratorio 2: prueba de independencia de chi-cuadrado</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50280</md:content-id>
+  <md:title>Laboratorio 2: prueba de independencia de chi-cuadrado</md:title>
+  <md:abstract/>
+  <md:uuid>b67cca2b-a727-4f24-8173-14bec70c921a</md:uuid>
+</metadata>
+
+<content>
+  <note id="fs-id1170238033322" class="statistics lab"><label/><title>Laboratorio 2: prueba de independencia de chi-cuadrado</title>
+    <para id="id8363924">Hora de la clase: </para>
+  <para id="id7668722">Nombres:</para>
+  <list id="id3831121" list-type="bulleted">
+       <title>Resultado de aprendizaje del estudiante</title>
+    <item>El estudiante evaluará si existe una relación significativa entre el tipo de merienda favorita y el género. </item>
+   </list> <list id="list-8652384" list-type="enumerated">
+   <title>Recopilación de datos</title>
+   <item>Utilizando su clase como muestra, complete el siguiente cuadro. Pregúntense mutuamente cuál es su merienda favorita y sume los resultados.
+    <para id="fs-idm375259168"><emphasis>Note</emphasis>You may need to combine two food categories so that each cell has an expected value of at least five.
+    </para><table id="id89871qw3984l8" summary="This table presents the favorite type of snack in columns 2-5 and the total in the sixth column. The first row is male, the second row is female, and the third row is total.">
+     <title>Tipo de merienda favorita</title>
+     <tgroup cols="6"><colspec colnum="1" colname="c1"/>
+      <colspec colnum="2" colname="c2"/>
+      <colspec colnum="3" colname="c3"/>
+      <colspec colnum="4" colname="c4"/>
+      <colspec colnum="5" colname="c5"/>
+      <colspec colnum="6" colname="c6"/>
+      <thead>
+       <row>
+        <entry/>
+        <entry>dulces (caramelos y productos de pastelería)</entry>
+        <entry>helado</entry>
+        <entry>papas fritas y pretzels</entry>
+        <entry>frutas y verduras</entry>
+        <entry>Total</entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>hombre</entry>
+        <entry/>
+        <entry/>
+        <entry/>
+        <entry/>
+        <entry/>
+       </row>
+       <row>
+        <entry>mujer</entry>
+        <entry/>
+        <entry/>
+        <entry/>
+        <entry/>
+        <entry/>
+       </row>
+       <row>
+        <entry>Total</entry>
+        <entry/>
+        <entry/>
+        <entry/>
+        <entry/>
+        <entry/>
+       </row>
+      </tbody>
+     </tgroup>
+    </table></item>
+   <item>Al observar la <link target-id="id89871qw3984l8"/>, ¿le parece que hay una dependencia entre el género y el tipo de merienda favorita? ¿Por qué o por qué no?</item>
+  </list>
+     <para id="element-52">
+     <title>Prueba de hipótesis</title>
+   Realice una prueba de hipótesis para determinar si los factores son independientes:</para>
+   <list id="list-76474" list-type="enumerated"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: ________</item>
+    <item><emphasis effect="italics">H<sub>a</sub></emphasis>: ________</item>
+    <item>¿Qué distribución debe utilizar para una prueba de hipótesis?</item>
+    <item>¿Por qué ha elegido esta distribución?</item>
+    <item>Calcule el estadístico de prueba.</item>
+    <item>Calcule el valor <emphasis effect="italics">p</emphasis>.</item>
+    <item>Dibuje un gráfico de la situación. Identifique y escale el eje <emphasis effect="italics">x</emphasis>. Sombree el área correspondiente al valor <emphasis effect="italics">p</emphasis>. <figure id="id3390530"><media id="id3497794" alt="Gráfico en blanco con ejes vertical y horizontal."><image src="../../media/fig-ch11_16_01.png" mime-type="image/png" width="380"/></media></figure></item>
+    <item>Exponga su decisión.</item>
+    <item>Exponga su conclusión en una oración completa.</item>
+   </list><list id="list-87578324" list-type="enumerated"><title>Preguntas para el debate</title><item> ¿La conclusión de su estudio es igual o diferente a su respuesta a la segunda pregunta de la sección <link target-id="list-8652384">Recopilación de datos</link>?</item>
+    <item> ¿Por qué cree que es así?</item>
+     </list></note> </content>
+
+</document>

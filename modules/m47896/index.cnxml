@@ -1,0 +1,1243 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="appendix">
+
+<title>Notas para las calculadoras TI-83, 83+, 84, 84+</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47896</md:content-id>
+  <md:title>Notas para las calculadoras TI-83, 83+, 84, 84+</md:title>
+  <md:abstract/>
+  <md:uuid>d0ba1833-f0d2-4195-8765-3c436745f0fb</md:uuid>
+</metadata>
+
+<content class="appendix">
+  <section id="fs-id15632468">
+  <title>Consejos rápidos</title>
+   <para id="fs-id14313746">
+  <title>Leyenda</title>
+  <list id="fs-id15693270"><item><media id="fs-id15740147" display="inline" alt="Un botón de calculadora en blanco">
+              <image mime-type="image/png" src="../../media/ti83-button.png"/>
+           
+            </media> representa la pulsación de un botón</item>
+			<item><code>[ ]</code> representa el comando amarillo o la letra verde detrás de una tecla</item>
+			<item><code>&lt; ></code> representa elementos en la pantalla</item>
+  </list></para>
+  <para id="fs-id14248473"><title>Para ajustar el contraste</title>Pulse <media id="fs-id14772600" display="inline" alt="2.ª tecla">
+              <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+             
+            </media>y, a continuación, mantenga pulsada la <media id="fs-id13797489" display="inline" alt="flecha hacia arriba">
+              <image mime-type="image/png" src="../../media/ti83-dir-up.png"/>
+             
+            </media> para aumentar el contraste o la <media id="fs-id12745418" display="inline" alt="flecha hacia abajo">
+              <image mime-type="image/png" src="../../media/ti83-dir-down.png"/>
+            
+            </media> para disminuir el contraste.
+  </para><para id="fs-id15738732"><title>Para escribir letras y palabras en mayúsculas</title>Pulse <media id="fs-id15336309" display="inline" alt="la tecla ALPHA">
+              <image mime-type="image/png" src="../../media/ti83-alpha.png"/>
+             
+            </media> para escribir una letra mayúscula, o pulse la <media id="fs-id15256555" display="inline" alt="2.ª tecla">
+              <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+             
+            </media>, entonces <media id="fs-id14248475" display="inline" alt="la tecla ALPHA">
+              <image mime-type="image/png" src="../../media/ti83-alpha.png"/>
+             
+            </media> para establecer todas los botones pulsados en mayúsculas. Puede volver a los valores del botón del nivel superior pulsando la
+			<media id="fs-id13796242" display="inline" alt="la tecla ALPHA">
+              <image mime-type="image/png" src="../../media/ti83-alpha.png"/>
+            
+            </media> de nuevo.
+  </para><para id="fs-id15448816"><title>Para corregir un error</title>Si se equivoca de botón, solo tiene que pulsar la <media id="fs-id15674844" display="inline" alt="tecla CLEAR">
+              <image mime-type="image/png" src="../../media/ti83-clear.png"/>
+             
+            </media> y empezar de nuevo.
+  </para><para id="fs-id8629783"><title>Para escribir en notación científica</title>Los números en notación científica se expresan en la TI-83, 83+, 84 y 84+ utilizando la notación E, de forma que... <list id="fs-id12894103"><item>4,321 E 4 = <m:math>
+ <m:mrow>
+  <m:mtext>4</m:mtext><m:mtext>0,321</m:mtext><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mtext>10</m:mtext>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:msup>
+  
+ </m:mrow>
+</m:math></item>
+<item>4,321 E –4 = <m:math>
+ <m:mrow>
+  <m:mtext>4</m:mtext><m:mtext>0,321</m:mtext><m:mo>×</m:mo><m:msup>
+   <m:mrow>
+    <m:mtext>10</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>-4</m:mn>
+   </m:mrow>
+  </m:msup>
+  
+ </m:mrow>
+</m:math>
+</item>
+   </list></para><para id="fs-id14327214"><title>Para transferir programas o ecuaciones de una calculadora a otra:</title><emphasis>Ambas calculadoras:</emphasis> Inserte el extremo correspondiente del cable de enlace y pulse la <media id="fs-id15384266" display="inline" alt="tecla 2nd">
+              <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+    
+            </media>, luego <code>[LINK]</code>.
+  </para><para id="eip-607"><title>Calculadora que recibe la información:</title><list id="fs-id15504626" list-type="enumerated" number-style="arabic" class="stepwise"><item>Utilice las flechas para navegar y seleccionar <code>&lt;RECEIVE></code> </item>
+<item>Pulse <media id="fs-id14419024" display="inline" alt="la tecla ENTER">
+              <image mime-type="image/png" src="../../media/ti83-enter.png"/>
+        
+            </media>.</item>
+</list></para><para id="eip-442"><title>Calculadora que envía la información:</title><list id="fs-id13666196" list-type="enumerated" number-style="arabic" class="stepwise"><item>Pulse el número o la letra correspondiente.</item>
+<item>Utilice las flechas hacia arriba y hacia abajo para acceder al elemento correspondiente.</item>
+<item>Pulse <media id="fs-id14358160" display="inline" alt="la tecla ENTER">
+              <image mime-type="image/png" src="../../media/ti83-enter.png"/>
+    
+            </media> para seleccionar el elemento a transferir.</item>
+<item>Pulse la flecha derecha para navegar y seleccionar <code>&lt;TRANSMIT></code>.</item>
+<item>Pulse <media id="fs-id15557080" display="inline" alt="la tecla ENTER">
+              <image mime-type="image/png" src="../../media/ti83-enter.png"/>
+        
+            </media>.</item>
+</list></para><note id="eip-623"><label/><title>Nota</title>
+<para id="eip-idp123049456">ERROR 35 LINK significa generalmente que los cables no se han conectado correctamente.</para>
+</note><para id="eip-432"><emphasis>Ambas calculadoras:</emphasis> Inserte su extremo correspondiente del cable de enlace en ambas calculadoras: pulse la <media id="fs-id4481246" display="inline" alt="tecla 2nd">
+              <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+     
+            </media>, luego <code>[QUIT]</code> para salir cuando haya terminado.</para></section>
+    <section id="eip-367">
+      <title>Manipulación de estadísticas con una sola variable</title>
+      <note id="builtinprogram"><label/><title>Nota</title>
+<para id="eip-idp125210352">Estas instrucciones son para introducir datos con el programa estadístico incorporado.</para></note><table id="eip-886" summary="A table of sample data used throughout the rest of this section. The first column is data, while the second column represents the frequency of that data."><title>Datos de la muestra Estamos manipulando estadísticas de una variable.</title>
+<tgroup cols="2"><thead valign="top">
+            <row>
+              <entry align="center">Datos</entry>
+              <entry align="center">Frecuencia</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>-2</entry>
+              <entry>10</entry>
+            </row>
+            <row>
+              <entry>-1</entry>
+              <entry>3</entry>
+            </row>
+            <row>
+              <entry>0</entry>
+              <entry>4</entry>
+            </row>
+            <row>
+              <entry>1</entry>
+              <entry>5</entry>
+            </row>
+            <row>
+              <entry>3</entry>
+              <entry>8</entry>
+            </row>
+          </tbody>
+        
+
+
+</tgroup>
+</table><para id="eip-653"><title>Para comenzar:</title><list id="eip-idm14073664" list-type="enumerated" number-style="arabic"><item>
+<para id="fs-id15582062">Encienda la calculadora<newline/>
+<media id="fs-id14420511" display="inline" alt="tecla ON">
+<image mime-type="image/png" src="../../media/ti83-on.png"/>
+</media></para></item>
+<item>
+<para id="fs-id10641750">Acceda a modo estadística.<newline/>
+<media id="fs-id13748217" display="inline" alt="tecla STAT">
+<image mime-type="image/png" src="../../media/ti83-stat.png"/>
+</media>
+</para></item>
+<item>
+<para id="fs-id15437009">Seleccione <code>&lt;4:ClrList></code> para borrar los datos de las listas. <newline/><media id="fs-id15649038" display="inline" alt="tecla número 4">
+<image mime-type="image/png" src="../../media/ti83-four.png"/>
+</media> ,
+<media id="fs-id9695112" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para></item>
+<item><para id="fs-id13785018">Ingrese la lista <code>[L1]</code> que va a eliminar.<newline/>
+<media id="fs-id13768754" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[L1]</code> ,
+<media id="fs-id14335493" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para></item>
+
+<item><para id="fs-id14419501">Pida mostrar la última instrucción.<newline/>
+<media id="fs-id14831640" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[ENTRY]</code>
+</para></item>
+
+<item><para id="fs-id14326768">Continúe borrando las listas restantes de la misma manera si lo desea.<newline/>
+<media id="fs-id14329997" display="inline" alt="tecla de flecha izquierda">
+<image mime-type="image/png" src="../../media/ti83-dir-left.png"/>
+</media> ,
+<media id="fs-id15742818" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[L2]</code> ,
+<media id="fs-id15395962" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para></item>
+
+<item><para id="fs-id14832244">Acceda a modo estadística.<newline/>
+<media id="fs-id14891229" display="inline" alt="tecla STAT">
+<image mime-type="image/png" src="../../media/ti83-stat.png"/>
+</media>
+</para></item>
+
+<item><para id="fs-id10927723">Seleccione <code>&lt;1:Edit . . .></code><newline/>
+<media id="fs-id15712626" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para></item>
+
+<item><para id="eip-idm96290832">Introduzca los datos. Los valores de los datos van a <code>[L1]</code>. (Es posible que tenga que moverse con la fecha hacia <code>[L1]</code>). <list id="fs-id15712194" list-type="bulleted" bullet-style="bullet">
+<item><para id="fs-id14421999">Escriba un valor de datos e introdúzcalo. (Para los números negativos, utilice la teclanegativo (-) situada en la parte inferior del teclado).<newline/>
+<media id="fs-id15478563" display="inline" alt="tecla de signo negativo">
+<image mime-type="image/png" src="../../media/ti83-negate.png"/>
+</media> ,
+<media id="fs-id15648786" display="inline" alt="tecla número 9">
+<image mime-type="image/png" src="../../media/ti83-nine.png"/>
+</media> ,
+<media id="fs-id14357766" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para></item>
+<item>Continúe de la misma manera hasta introducir todos los valores de los datos.</item>
+</list>
+</para>
+</item>
+
+<item><para id="eip-idm74059056">En <code>[L2]</code>, introduzca las frecuencias de cada valor de los datos en <code>[L1]</code>. <list id="fs-id4481227" list-type="bulleted" bullet-style="bullet">
+<item><para id="fs-id15505645">Escriba una frecuencia e introdúzcala. (Si un valor de datos aparece solo una vez, la frecuencia es "1")<newline/>
+<media id="fs-id15710714" display="inline" alt="tecla número 4">
+<image mime-type="image/png" src="../../media/ti83-four.png"/>
+</media> ,
+<media id="fs-id15650017" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para></item>
+
+<item>Continúe de la misma manera hasta introducir todos los valores de los datos.</item>
+</list>
+</para>
+</item>
+
+<item><para id="fs-id15743532">Acceda a modo estadística.<newline/>
+<media id="fs-id14418553" display="inline" alt="tecla STAT">
+<image mime-type="image/png" src="../../media/ti83-stat.png"/>
+</media>
+</para></item>
+
+<item>Navegue hasta <code>&lt;CALC></code>.</item>
+
+<item><para id="fs-id14357978">Acceda a <code>&lt;1:1-var Stats></code><newline/>
+
+<media id="fs-id13797091" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para></item>
+
+<item><para id="fs-id13788979">Indique que los datos están en <code>[L1]</code>...<newline/>
+
+<media id="fs-id15374940" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[L1]</code> ,
+<media id="fs-id13776903" display="inline" alt="tecla de coma">
+<image mime-type="image/png" src="../../media/ti83-comma.png"/>
+</media>
+</para></item>
+
+<item><para id="fs-id15665979">...e indique que las frecuencias están en <code>[L2]</code><newline/>
+<media id="fs-id15677570" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[L2]</code> ,
+<media id="fs-id15735160" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para></item>
+
+<item>Deberían aparecer las estadísticas. Puede bajar la flecha para obtener las estadísticas restantes. Repita la operación si es necesario.</item></list></para></section>
+    <section id="fs-id15737311">
+      <title>Dibujar histogramas</title>
+      <note id="fs-id14426441"><label/><title>Nota</title>
+<para id="eip-idp35239360">Suponemos que ya se introdujeron los datos.</para></note><para id="fs-id15680349">Construiremos dos histogramas con la aplicación incorporada STATPLOT. La primera forma utilizará el ZOOM por defecto. La segunda forma implicará la personalización de un nuevo gráfico.</para>
+      <list id="fs-id15742651" list-type="enumerated" number-style="arabic"><item>
+<para id="fs-id15419737">Acceda a modo para graficar.<newline/>
+<media id="fs-id15448652" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[STAT PLOT]</code>
+</para>
+</item>
+
+<item>
+<para id="fs-id15557620">Seleccione <code>&lt;1:plot 1></code> para acceder al trazado - primer gráfico.<newline/>
+<media id="fs-id13682805" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+
+<item>
+<para id="fs-id15739558">Utilice las flechas para ir a <code>&lt;ON></code> para cambiar a Plot 1<newline/>
+<code>&lt;ON></code> ,
+<media id="fs-id10512380" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+
+<item>
+Utilice las flechas para ir a la imagen del histograma y seleccione el histograma. 
+<media id="fs-id13783163" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</item>
+
+<item>Use las flechas para navegar a <code>&lt;Xlist></code>.</item>
+
+<item>
+<para id="fs-id14329150">Si “L1” no está seleccionado, selecciónelo.<newline/>
+<media id="fs-id15663891" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[L1]</code> ,
+<media id="fs-id14338110" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para></item>
+
+<item>Use las flechas para navegar a <code>&lt;Freq></code>.</item>
+
+<item>
+<para id="fs-id14831268">Asigne las frecuencias a <code>[L2]</code><newline/>
+<media id="fs-id15664107" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[L2]</code> ,
+<media id="fs-id15681866" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para></item>
+
+<item><para id="fs-id15772224">Regrese para acceder a otros gráficos.<newline/>
+<media id="fs-id15861321" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[STAT PLOT]</code>
+</para></item>
+
+<item>Use las flechas para desactivar los diagramas restantes.</item>
+
+<item><emphasis>Asegúrese de desmarcar o borrar todas las ecuaciones antes de hacer el gráfico.</emphasis></item>
+      </list><para id="eip-907"><title>Para anular la selección de ecuaciones:</title><list id="eip-idm66550672" list-type="enumerated" number-style="arabic"><item><para id="fs-id10677318">Acceda a la lista de ecuaciones.<newline/>
+<media id="fs-id14831127" display="inline" alt="Y = tecla">
+<image mime-type="image/png" src="../../media/ti83-yequals.png"/>
+</media>
+</para></item>
+
+<item><para id="fs-id14360577">Seleccione cada signo de igual (=).<newline/>
+<media id="fs-id15443354" display="inline" alt="tecla de flecha hacia abajo">
+<image mime-type="image/png" src="../../media/ti83-dir-down.png"/>
+</media>
+<media id="fs-id15666036" display="inline" alt="tecla de flecha a la derecha">
+<image mime-type="image/png" src="../../media/ti83-dir-right.png"/>
+</media>
+<media id="fs-id15685297" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para></item>
+
+<item>Continúe hasta deseleccionar todas las ecuaciones.</item></list></para><para id="eip-556"><title>Para borrar las ecuaciones:</title><list id="eip-idp10993520" list-type="enumerated" number-style="arabic"><item><para id="fs-id15384255">Acceda a la lista de ecuaciones.<newline/>
+<media id="fs-id14831410" display="inline" alt="Y = tecla">
+<image mime-type="image/png" src="../../media/ti83-yequals.png"/>
+</media>
+</para></item>
+
+<item><para id="fs-id4458420">Utilice las teclas de flecha para desplazarse a la derecha de cada signo de igual (=) y borrarlos.<newline/>
+<media id="fs-id15399911" display="inline" alt="tecla de flecha hacia abajo">
+<image mime-type="image/png" src="../../media/ti83-dir-down.png"/>
+</media>
+<media id="fs-id15664574" display="inline" alt="tecla de flecha a la derecha">
+<image mime-type="image/png" src="../../media/ti83-dir-right.png"/>
+</media>
+<media id="fs-id15392714" display="inline" alt="tecla CLEAR">
+<image mime-type="image/png" src="../../media/ti83-clear.png"/>
+</media>
+</para></item>
+
+<item>Repita la operación hasta eliminar todas las ecuaciones.</item></list></para><para id="eip-649"><title>Para dibujar el histograma por defecto:</title><list id="eip-idm164199760" list-type="enumerated" number-style="arabic"><item><para id="fs-id12596788">Acceda al menú ZOOM.<newline/>
+<media id="fs-id15558179" display="inline" alt="Tecla ZOOM">
+<image mime-type="image/png" src="../../media/ti83-zoom.png"/>
+</media>
+</para></item>
+
+<item><para id="fs-id15743779">Seleccione <code>&lt;9:ZoomStat></code><newline/>
+<media id="fs-id15676186" display="inline" alt="tecla número 9">
+<image mime-type="image/png" src="../../media/ti83-nine.png"/>
+</media>
+</para></item>
+
+<item>El histograma se mostrará con una ventana que se fija automáticamente.</item></list></para><para id="eip-296"><title>Para dibujar un histograma personalizado:</title><list id="eip-idm110111776" list-type="enumerated" number-style="arabic"><item>Acceda al modo de ventana para ajustar los parámetros del gráfico.<newline/>
+<media id="fs-id15413869" display="inline" alt="tecla WINDOW"><image mime-type="image/png" src="../../media/ti83-window.png"/></media></item>
+<item>
+<list id="fs-id15770367" list-type="bulleted" bullet-style="bullet">
+<item>
+Los términos <m:math><m:mrow>
+  <m:msub>
+   <m:mi>X</m:mi>
+   <m:mrow>
+    <m:mi>min</m:mi>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>-2,5</m:mn>
+ </m:mrow>
+</m:math>
+</item>
+            <item>
+              Los términos <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>X</m:mi>
+   <m:mrow>
+    <m:mi>max</m:mi>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>3,5</m:mn>
+ </m:mrow>
+</m:math>
+
+            </item>
+            <item>
+              Los términos <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>X</m:mi>
+   <m:mrow>
+    <m:mi>s</m:mi><m:mi>c</m:mi><m:mi>l</m:mi>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math> (anchura de las barras)
+            </item>
+            <item>
+              Los términos <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Y</m:mi>
+   <m:mrow>
+    <m:mi>min</m:mi>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+
+            </item>
+            <item>
+              Los términos <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Y</m:mi>
+   <m:mrow>
+    <m:mi>max</m:mi>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>10</m:mn>
+ </m:mrow>
+</m:math>
+
+            </item>
+            <item>
+              Los términos <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Y</m:mi>
+   <m:mrow>
+    <m:mi>s</m:mi><m:mi>c</m:mi><m:mi>l</m:mi>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math> (espaciado de las marcas de verificación en el eje <emphasis effect="italics">y</emphasis>)
+            </item>
+            <item>
+              Los términos <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>X</m:mi>
+   <m:mrow>
+    <m:mi>r</m:mi><m:mi>e</m:mi><m:mi>s</m:mi>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math>
+</item>
+          </list>
+</item>
+        <item>Acceda al modo de gráficos para ver el histograma.<newline/>
+<media id="fs-id14338525" display="inline" alt="tecla GRAPH">
+            <image mime-type="image/png" src="../../media/ti83-graph.png"/>
+          </media></item> 
+</list></para><para id="eip-140"><title>Para dibujar diagramas de caja y bigotes:</title><list id="eip-idp73874128" list-type="enumerated" number-style="arabic"><item><para id="fs-id13795663">Acceda a modo para graficar.<newline/>
+<media id="fs-id8283012" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[STAT PLOT]</code>
+</para>
+</item>
+
+<item><para id="fs-id15609035">Seleccione <code>&lt;1:Plot 1></code> para acceder al primer gráfico<newline/>
+
+<media id="fs-id15436944" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+
+<item><para id="fs-id10982525">Utilice las flechas para seleccionar <code>&lt;ON></code> y active Plot 1.<newline/>
+<media id="fs-id15407549" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+
+<item><para id="fs-id14339453">Utilice las flechas para seleccionar el diagrama de caja y bigotes y habilitarlo.<newline/>
+<media id="fs-id15682750" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+
+<item>Use las flechas para navegar a <code>&lt;Xlist></code>.</item>
+
+<item><para id="fs-id12116579">Si “L1” no está seleccionado, selecciónelo.<newline/>
+<media id="fs-id13785172" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[L1]</code> ,
+<media id="fs-id13796670" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+
+<item>Use las flechas para navegar a <code>&lt;Freq></code>.</item>
+
+<item><para id="fs-id14792157">Indique que las frecuencias están en <code>[L2]</code><newline/>
+<media id="fs-id14857230" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[L2]</code> ,
+<media id="fs-id15400636" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+
+<item><para id="fs-id15259023">Regrese para acceder a otros gráficos.<newline/>
+<media id="fs-id3301526" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[STAT PLOT]</code>
+</para>
+</item>
+
+<item><emphasis>Asegúrese de deseleccionar o borrar todas las ecuaciones antes de hacer el gráfico</emphasis> utilizando el método mencionado anteriormente.</item>
+
+<item><para id="fs-id15428121">Vea el diagrama de caja y bigotes.<newline/>
+<media id="fs-id15743723" display="inline" alt="tecla GRAPH">
+<image mime-type="image/png" src="../../media/ti83-graph.png"/>
+</media> , <code>[STAT PLOT]</code>
+</para>
+</item></list></para></section>
+    <section id="fs-id14569516">
+      <title>Regresión lineal</title>
+      <section id="fs-id15377984">
+        <title>Datos de la muestra</title>
+        <para id="fs-id15306460">Los siguientes datos son reales. El porcentaje de estudiantes declarados como minorías étnicas en el De Anza College para los años seleccionados de 1970 a 1995 fue:</para><table id="fs-id14336458" summary=" The first column is data represents years, from 1970 to 1995, while the second column represents the percentage of declared ethnic minority students at De Anza College with respect to the entire student body for that year.">
+          <tgroup cols="2">
+            <thead valign="top">
+              <row>
+                <entry align="center">Año</entry>
+                <entry align="center">Porcentaje de estudiantes de minorías étnicas</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>1970</entry>
+                <entry>14,13</entry>
+              </row>
+              <row>
+                <entry>1973</entry>
+                <entry>12,27</entry>
+              </row>
+              <row>
+                <entry>1976</entry>
+                <entry>14,08</entry>
+              </row>
+              <row>
+                <entry>1979</entry>
+                <entry>18,16</entry>
+              </row>
+              <row>
+                <entry>1982</entry>
+                <entry>27,64</entry>
+              </row>
+              <row>
+                <entry>1983</entry>
+                <entry>28,72</entry>
+              </row>
+              <row>
+                <entry>1986</entry>
+                <entry>31,86</entry>
+              </row>
+              <row>
+                <entry>1989</entry>
+                <entry>33,14</entry>
+              </row>
+              <row>
+                <entry>1992</entry>
+                <entry>45,37</entry>
+              </row>
+              <row>
+                <entry>1995</entry>
+                <entry>53,1</entry>
+              </row>
+            </tbody>
+          </tgroup>
+          <caption>La variable independiente es "Año", mientras que la variable independiente es "Porcentaje de estudiantes de minorías étnicas".</caption>
+        </table>
+        <figure id="fs-id13815357"><title>Porcentaje de estudiantes de minorías étnicas</title><media id="fs-id15377645" display="block" alt="Este es un diagrama de dispersión para los datos proporcionados. El año se representa en el eje horizontal y el porcentaje en el eje vertical. Los puntos muestran una fuerte tendencia curvilínea al alza.">
+            <image mime-type="image/png" src="../../media/CNX_Stats_Appendix_ART_Figure_14.6.jpg" width="350"/>
+          </media>
+          
+        <caption>A mano, verifique el diagrama de dispersión anterior.</caption></figure><note id="fs-id15648837"><label/><title>Nota</title>
+<para id="eip-idp56972304">La TI-83 incorpora una función de regresión lineal que permite editar los datos. Los valores <emphasis effect="italics">x</emphasis> estarán en <code>[L1]</code>; los valores <emphasis effect="italics">y</emphasis> en <code>[L2]</code>.</para></note><para id="eip-901"><title>Para introducir datos y hacer una regresión lineal:</title><list id="eip-idp244900032" list-type="enumerated" number-style="arabic"><item><para id="fs-id5077977">Encienda la calculadora con ON.<newline/>
+<media id="fs-id7330302" display="inline" alt="tecla ON">
+<image mime-type="image/png" src="../../media/ti83-on.png"/>
+</media>
+</para>
+</item>
+
+<item>Antes de acceder a este programa, asegúrese de cerrar todos los gráficos. <list id="fs-id14326364" list-type="bulleted" bullet-style="bullet">
+<item><para id="fs-id14859632">Acceda a modo para graficar.<newline/>
+<media id="fs-id13808044" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[STAT PLOT]</code>
+</para>
+</item>
+
+<item><para id="fs-id10740237">Cierre todos los gráficos.<newline/>
+<media id="fs-id14046599" display="inline" alt="tecla número 4">
+<image mime-type="image/png" src="../../media/ti83-four.png"/>
+</media> ,
+<media id="fs-id13782731" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+</list>
+</item>
+
+<item>Redondee a tres decimales. Para ello: <list id="fs-id13796521" list-type="bulleted" bullet-style="bullet">
+<item><para id="fs-id13815985">Acceda al menú de modo.<newline/>
+<media id="fs-id15436477" display="inline" alt="tecla de modo">
+<image mime-type="image/png" src="../../media/ti83-mode.png"/>
+</media> , <code>[STAT PLOT]</code>
+</para>
+</item>
+
+<item>
+<para id="fs-id4472705">Navegue hasta <code>&lt;Float></code> y luego a la derecha a <code>&lt;3></code><newline/>
+<media id="fs-id12738760" display="inline" alt="tecla de flecha hacia abajo">
+<image mime-type="image/png" src="../../media/ti83-dir-down.png"/>
+</media>
+<media id="fs-id14332544" display="inline" alt="tecla de flecha a la derecha">
+<image mime-type="image/png" src="../../media/ti83-dir-right.png"/>
+</media>
+</para>
+</item>
+
+<item>
+<para id="fs-id14770838">Todas las cifras se redondearán a tres decimales hasta que se modifiquen.<newline/>
+<media id="fs-id14064149" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+</list>
+</item>
+
+<item>
+<para id="fs-id5168875">Entre en el modo de estadísticas y borre las listas <code>[L1]</code> y <code>[L2]</code>como se describió anteriormente.<newline/>
+<media id="fs-id13746924" display="inline" alt="tecla STAT">
+<image mime-type="image/png" src="../../media/ti83-stat.png"/>
+</media> ,
+<media id="fs-id14325808" display="inline" alt="tecla número 4">
+<image mime-type="image/png" src="../../media/ti83-four.png"/>
+</media>
+</para>
+</item>
+
+<item>
+<para id="fs-id15672446">Entre en el modo de edición para insertar los valores de <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">y</emphasis>.<newline/>
+<media id="fs-id15871012" display="inline" alt="tecla STAT">
+<image mime-type="image/png" src="../../media/ti83-stat.png"/>
+</media> ,
+<media id="fs-id15414493" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+
+<item>Introduzca cada valor. Pulse
+<media id="fs-id15320435" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media> para continuar. 
+</item></list></para><para id="eip-909"><title>Para mostrar el coeficiente de correlación:</title><list id="eip-idp108929536" list-type="enumerated" number-style="arabic"><item><para id="fs-id15415238">Acceda al catálogo.<newline/>
+<media id="fs-id13748163" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[CATALOG]</code>
+</para>
+</item>
+
+<item><para id="fs-id13412820">Flecha hacia abajo y seleccione <code>&lt;DiagnosticOn></code><newline/>
+<media id="fs-id14419965" display="inline" alt="tecla de flecha hacia abajo">
+<image mime-type="image/png" src="../../media/ti83-dir-down.png"/>
+</media>... ,
+<media id="fs-id14758720" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media> ,
+<media id="fs-id15298972" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+
+<item>
+Los términos <m:math>
+<m:ci>r</m:ci>
+</m:math> y <m:math>
+<m:apply>
+<m:power/>
+<m:ci>r</m:ci>
+<m:cn>2</m:cn>
+</m:apply>
+</m:math> se mostrarán durante los cálculos de regresión.
+</item>
+
+<item><para id="fs-id15861386">Acceda a la regresión lineal<newline/>
+<media id="fs-id14358803" display="inline" alt="tecla STAT">
+<image mime-type="image/png" src="../../media/ti83-stat.png"/>
+</media>
+<media id="fs-id15770182" display="inline" alt="tecla de flecha a la derecha">
+<image mime-type="image/png" src="../../media/ti83-dir-right.png"/>
+</media>
+</para>
+</item>
+
+<item>
+<para id="fs-id15677479">Seleccione la forma de <emphasis effect="italics">y</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>.<newline/>
+<media id="fs-id15413761" display="inline" alt="tecla número 8">
+<image mime-type="image/png" src="../../media/ti83-eight.png"/>
+</media> ,
+<media id="fs-id14568976" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item></list></para><para id="fs-id13602951"><newline/>La pantalla mostrará:</para><para id="eip-878"><title>LinReg</title><list id="fs-id13602953">
+<item><emphasis effect="italics">y</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis></item>
+            <item><emphasis effect="italics">a</emphasis> = –3176,909</item>
+            <item><emphasis effect="italics">b</emphasis> = 1,617 </item>
+            <item><emphasis effect="italics">r</emphasis> = 2 0,924 </item>
+            <item><emphasis effect="italics">r</emphasis> = 0,961 </item>
+            </list></para><para id="fs-id4451506">
+<newline/>Esto significa que la línea de mejor ajuste (línea de mínimos cuadrados) es <list id="fs-id10515055" list-type="bulleted" bullet-style="bullet">
+        <item><emphasis effect="italics">y</emphasis> = -3176,909 + 1,617<emphasis effect="italics">x</emphasis> </item>
+         <item>Porcentaje = -3176,909 + 1,617 (N.º de año) </item>
+        </list>El coeficiente de correlación <emphasis effect="italics">r</emphasis> = 0,961</para>
+
+<para id="fs-idm68992784"><title>Para ver el diagrama de dispersión:</title>
+<list id="fs-id14860854" list-type="enumerated" number-style="arabic"><item>
+<para id="fs-id15375252">Acceda a modo para graficar.<newline/>
+<media id="fs-id14743415" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[STAT PLOT]</code>
+</para>
+</item>
+
+<item>
+<para id="fs-id13782813">Seleccione <code>&lt;1:plot 1></code> Para acceder al trazado - primer gráfico.<newline/>
+<media id="fs-id13782817" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+
+<item>
+<para id="fs-id9642211">Navegue y seleccione <code>&lt;ON></code> para cambiar a Plot 1<newline/>
+<code>&lt;ON></code>
+<media id="fs-id15326624" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+
+<item>Navegue hasta la primera imagen.</item>
+
+<item>
+<para id="fs-id14425261">Seleccione el diagrama de dispersión<newline/>
+<media id="fs-id14425265" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+
+<item>Navegue hasta <code>&lt;Xlist></code>.</item>
+
+<item>
+Si <code>[L1]</code> no está seleccionada, pulse la
+<media id="fs-id15586352" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[L1]</code> para hacerlo.
+</item>
+
+<item>
+<para id="fs-id13616594">Confirme que los valores de los datos estén en <code>[L1]</code><newline/>
+<code>&lt;ON></code>
+<media id="fs-id15674802" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+
+<item>Navegue hasta <code>&lt;Ylist></code>.</item>
+
+<item>
+<para id="fs-id12292882">Seleccione que las frecuencias estén en <code>[L2]</code><newline/>
+<media id="fs-id12292887" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[L2]</code> ,
+<media id="fs-id13027628" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+
+<item>
+<para id="fs-id8794800">Regrese para acceder a otros gráficos.<newline/>
+<media id="fs-id15374874" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[STAT PLOT]</code>
+</para>
+</item>
+
+<item>Use las flechas para desactivar los diagramas restantes.</item>
+
+<item>Acceda al modo de ventana para ajustar los parámetros del gráfico.<newline/>
+<media id="fs-id15380303" display="inline" alt="tecla WINDOW">
+<image mime-type="image/png" src="../../media/ti83-window.png"/>
+</media>
+<list id="fs-id4833843" list-type="bulleted" bullet-style="bullet">
+<item>
+Los términos <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>X</m:mi>
+<m:mrow>
+<m:mi>min</m:mi>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mn>1970</m:mn>
+</m:mrow>
+</m:math>
+</item>
+<item>
+Los términos <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>X</m:mi>
+<m:mrow>
+<m:mi>max</m:mi>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mn>2000</m:mn>
+</m:mrow>
+</m:math>
+</item>
+<item>
+Los términos <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>X</m:mi>
+<m:mrow>
+<m:mi>s</m:mi><m:mi>c</m:mi><m:mi>l</m:mi>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mn>10</m:mn>
+</m:mrow>
+</m:math> (espaciado de las marcas de verificación en el eje <emphasis effect="italics">x</emphasis>)
+</item>
+<item>
+Los términos <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>Y</m:mi>
+<m:mrow>
+<m:mi>min</m:mi>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mo>–</m:mo><m:mn>0,05</m:mn>
+</m:mrow>
+</m:math>
+</item>
+<item>
+Los términos <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>Y</m:mi>
+<m:mrow>
+<m:mi>max</m:mi>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mn>60</m:mn>
+</m:mrow>
+</m:math>
+</item>
+<item>
+Los términos <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>Y</m:mi>
+<m:mrow>
+<m:mi>s</m:mi><m:mi>c</m:mi><m:mi>l</m:mi>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mn>10</m:mn>
+</m:mrow>
+</m:math> (espaciado de las marcas de verificación en el eje <emphasis effect="italics">y</emphasis>)
+</item>
+<item>
+Los términos <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>X</m:mi>
+<m:mrow>
+<m:mi>r</m:mi><m:mi>e</m:mi><m:mi>s</m:mi>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mn>1</m:mn>
+</m:mrow>
+</m:math>
+</item>
+</list>
+</item>
+
+<item>Asegúrese de desmarcar o borrar todas las ecuaciones antes de hacer el gráfico siguiendo las instrucciones anteriores.</item>
+
+<item>Pulse el botón graph para ver el diagrama de dispersión.
+<media id="fs-id11867940" display="inline" alt="tecla GRAPH">
+<image mime-type="image/png" src="../../media/ti83-graph.png"/>
+</media>
+</item></list></para>
+
+<para id="fs-idm30312176">
+<title>Para ver el gráfico de regresión:</title>
+<list id="fs-id15636297" list-type="enumerated" number-style="arabic"><item>
+<para id="fs-id14418754">Acceda al menú de ecuaciones. La ecuación de regresión se pondrá en Y1.<newline/>
+<media id="fs-id12873704" display="inline" alt="Y = tecla">
+<image mime-type="image/png" src="../../media/ti83-yequals.png"/>
+</media>
+</para>
+</item>
+
+<item>
+<para id="fs-id15318374">Acceda al menú vars y navegue hasta <code>&lt;5: Statistics></code><newline/>
+<media id="fs-id10268916" display="inline" alt="tecla vars">
+<image mime-type="image/png" src="../../media/ti83-vars.png"/>
+</media> ,
+<media id="fs-id14419539" display="inline" alt="tecla número 5">
+<image mime-type="image/png" src="../../media/ti83-five.png"/>
+</media>
+</para>
+</item>
+
+<item>Navegue hasta <code>&lt;EQ></code>.</item>
+
+<item>
+<para id="fs-id14622106"><code>&lt;1: RegEQ></code> contiene la ecuación de regresión que se introducirá en Y1.<newline/>
+<media id="fs-id15667622" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+
+<item>Pulse el botón del modo graficar. La línea de regresión se superpondrá al diagrama de dispersión<newline/>
+<media id="fs-id15399739" display="inline" alt="tecla GRAPH">
+<image mime-type="image/png" src="../../media/ti83-graph.png"/>
+</media>
+</item></list></para>
+        <para id="eip-385"><title>Para ver los residuos y utilizarlos para calcular el punto crítico de un valor atípico:</title><list id="eip-idp57821472" list-type="enumerated" number-style="arabic"><item>
+<para id="fs-id14885511">Acceda a la lista. RESID será un elemento del menú. Navegue hasta ese elemento.<newline/>
+<media id="fs-id15318284" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media>, <code>[LISTA]</code>, <code>&lt;RESID></code>
+</para>
+</item>
+
+<item>
+<para id="fs-id15771552">Confirme dos veces para ver la lista de residuos. Utilice las flechas para seleccionarlos.<newline/>
+<media id="fs-id13622621" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media> ,
+<media id="fs-id15558165" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+
+<item>El punto crítico para un valor atípico es: <m:math>
+<m:apply>
+<m:times/>
+<m:cn>1,9</m:cn>
+<m:ci>V</m:ci>
+<m:apply>
+<m:divide/>
+<m:ci>SSE</m:ci>
+<m:apply>
+<m:minus/>
+<m:ci>n</m:ci>
+<m:cn>2</m:cn>
+</m:apply>
+</m:apply>
+</m:apply>
+</m:math> donde: <list id="fs-id13668874">
+<item>
+Los términos <m:math>
+<m:ci>n</m:ci>
+</m:math> = número de pares de datos
+</item>
+<item>
+Los términos <m:math>
+<m:ci>SSE</m:ci>
+</m:math> = suma de errores cuadrados (sum of squared errors)
+</item>
+<item>
+Los términos <m:math>
+<m:apply>
+<m:sum/>
+<m:apply>
+<m:power/>
+<m:ci>residual</m:ci>
+<m:cn>2</m:cn>
+</m:apply>
+</m:apply>
+</m:math>
+</item>
+</list>
+</item>
+
+<item>
+<para id="fs-id13856017">Almacene los residuos en <code>[L3]</code><newline/>
+<media id="fs-id13855071" display="inline" alt="tecla STORE">
+<image mime-type="image/png" src="../../media/ti83-sto.png"/>
+</media> ,
+<media id="fs-id15769062" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[L3]</code> ,
+<media id="fs-id15401211" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+
+<item>
+<para id="fs-id15734182">Calcule el <m:math>
+<m:apply>
+<m:divide/>
+<m:apply>
+<m:power/>
+<m:ci>(residuo)</m:ci>
+<m:cn>2</m:cn>
+</m:apply>
+<m:apply>
+<m:minus/>
+<m:ci>n</m:ci>
+<m:cn>2</m:cn>
+</m:apply>
+</m:apply>
+</m:math>. Observe que <m:math>
+<m:apply>
+<m:eq/>
+<m:apply>
+<m:minus/>
+<m:ci>n</m:ci>
+<m:cn>2</m:cn>
+</m:apply>
+<m:cn>8</m:cn>
+</m:apply>
+</m:math> <newline/>
+<media id="fs-id15680372" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[L3]</code> ,
+<media id="fs-id15332654" display="inline" alt="tecla de x al cuadrado">
+<image mime-type="image/png" src="../../media/ti83-xsquared.png"/>
+</media> ,
+<media id="fs-id15664227" display="inline" alt="tecla de división">
+<image mime-type="image/png" src="../../media/ti83-divide.png"/>
+</media> ,
+<media id="fs-id15443531" display="inline" alt="tecla número 8">
+<image mime-type="image/png" src="../../media/ti83-eight.png"/>
+</media>
+</para>
+</item>
+
+<item>
+<para id="fs-id15492779">Almacene este valor en <code>[L4]</code><newline/>
+<media id="fs-id12493313" display="inline" alt="tecla STORE">
+<image mime-type="image/png" src="../../media/ti83-sto.png"/>
+</media> ,
+<media id="fs-id14857761" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[L4]</code> ,
+<media id="fs-id15330584" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+
+<item>
+<para id="fs-id13799897">Calcule el valor crítico utilizando la ecuación anterior.<newline/>
+<media id="fs-id15553710" display="inline" alt="tecla de número 1">
+<image mime-type="image/png" src="../../media/ti83-one.png"/>
+</media> ,
+<media id="fs-id13679088" display="inline" alt="tecla de punto decimal">
+<image mime-type="image/png" src="../../media/ti83-decimal.png"/>
+</media> ,
+<media id="fs-id15413832" display="inline" alt="tecla número 9">
+<image mime-type="image/png" src="../../media/ti83-nine.png"/>
+</media> ,
+<media id="fs-id13632053" display="inline" alt="tecla de multiplicación">
+<image mime-type="image/png" src="../../media/ti83-multiply.png"/>
+</media> ,
+<media id="fs-id15673395" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[V]</code> ,
+<media id="fs-id15682092" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[LISTA]</code>
+<media id="fs-id12746411" display="inline" alt="tecla de flecha a la derecha">
+<image mime-type="image/png" src="../../media/ti83-dir-right.png"/>
+</media> ,
+<media id="fs-id15385301" display="inline" alt="tecla de flecha a la derecha">
+<image mime-type="image/png" src="../../media/ti83-dir-right.png"/>
+</media> ,
+<media id="fs-id14854303" display="inline" alt="tecla número 5">
+<image mime-type="image/png" src="../../media/ti83-five.png"/>
+</media> ,
+<media id="fs-id15331426" display="inline" alt="tecla 2nd">
+<image mime-type="image/png" src="../../media/ti83-2nd.png"/>
+</media> , <code>[L4]</code> ,
+<media id="fs-id14040973" display="inline" alt="tecla de cierre de paréntesis">
+<image mime-type="image/png" src="../../media/ti83-rightparenthesis.png"/>
+</media> ,
+<media id="fs-id12262413" display="inline" alt="tecla de cierre de paréntesis">
+<image mime-type="image/png" src="../../media/ti83-rightparenthesis.png"/>
+</media> ,
+<media id="fs-id8733928" display="inline" alt="la tecla ENTER">
+<image mime-type="image/png" src="../../media/ti83-enter.png"/>
+</media>
+</para>
+</item>
+
+<item>Compruebe que la calculadora muestre: 7,642669563. Este es el valor crítico.</item>
+
+<item>Compare el valor absoluto de cada valor residual en <code>[L3]</code> con 7,64. Si el valor absoluto es superior a 7,64, el punto (X, y) correspondiente es un valor atípico. En este caso, ninguno de los puntos es un valor atípico.</item></list></para><para id="fs-id14035082"><title>Para obtener estimaciones de <emphasis effect="italics">y</emphasis> para varios valores de <emphasis effect="italics">x</emphasis>:</title>Hay varias formas de determinar las estimaciones de "<emphasis effect="italics">y</emphasis>". Una forma es sustituir los valores de "<emphasis effect="italics">x</emphasis>" en la ecuación. Otra forma es utilizar la
+          <media id="fs-id4485078" display="inline" alt="tecla trace">
+            <image mime-type="image/png" src="../../media/ti83-trace.png"/>
+      
+          </media> en el gráfico de la línea de regresión.
+        </para></section>
+    </section>
+    <section id="fs-id5169011">
+      <title>Instrucciones para distribuciones y pruebas en la TI-83, 83+, 84, 84+</title><section id="fs-id15450346">
+        <title>Distribuciones</title>
+        <para id="fs-id13791824">Acceda a <code display="inline">DISTR</code> (para "Distribuciones").</para>
+        <para id="fs-id15526075">Para obtener asistencia técnica, visite el sitio web de Texas Instruments en <link url="http://www.ti.com" window="new">http://www.ti.com</link> e introduzca su modelo de calculadora en la casilla "search" (búsqueda).</para>
+
+        <para id="fs-idm103615424"><title>Distribución binomial</title>
+    <list id="fs-id15384919"><item><code display="inline">binompdf(<emphasis effect="italics">n</emphasis>,<emphasis effect="italics">p</emphasis>,<emphasis effect="italics">x</emphasis>)</code> corresponde a <emphasis effect="italics">P</emphasis><emphasis effect="italics">(X</emphasis> = <emphasis effect="italics">x</emphasis>)</item>
+          <item><code display="inline">binomcdf(<emphasis effect="italics">n</emphasis>,<emphasis effect="italics">p</emphasis>,<emphasis effect="italics">x</emphasis>)</code> corresponde a <emphasis effect="italics">P</emphasis>(X ≤ x)</item>
+          <item>Para ver una lista de todas las probabilidades de <emphasis effect="italics">x</emphasis>: 0, 1, . . . , <emphasis effect="italics">n</emphasis>, omita el parámetro "<code display="inline"><emphasis effect="italics">x</emphasis></code>".</item>
+        </list></para>
+
+<para id="fs-idp1474048"><title>Distribución de Poisson</title>
+<list id="fs-id13783374"><item><code display="inline">poissonpdf(λ,<emphasis effect="italics">x</emphasis>)</code> corresponde a <emphasis effect="italics">P</emphasis><emphasis effect="italics">(X</emphasis> = <emphasis effect="italics">x</emphasis>)</item>
+          <item><code display="inline">poissoncdf(λ,<emphasis effect="italics">x</emphasis>)</code> corresponde a <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ <emphasis effect="italics">x</emphasis>)</item>
+        </list></para>
+        <para id="eip-283"><title>Distribuciones continuas (en general)</title><list id="eip-idp115972320">
+<item>
+            Los términos <m:math>
+ <m:mrow>
+  <m:mo>–</m:mo><m:mi>∞</m:mi>
+ </m:mrow>
+</m:math> utiliza el valor -1EE99 para el límite izquierdo</item>
+          <item>
+            Los términos <m:math>
+              <m:apply>
+                <m:plus/>
+                <m:infinity/>
+              </m:apply>
+            </m:math> utiliza el valor 1EE99 para el límite derecho</item>
+</list></para><para id="eip-402"><title>Distribución normal</title><list id="eip-idp89416480">
+
+<item><code display="inline">normalpdf(<emphasis effect="italics">x</emphasis>,<emphasis effect="italics">μ</emphasis>,<emphasis effect="italics">σ</emphasis>)</code>  produce un valor de la función de densidad de probabilidad (solo es útil para trazar la curva normal, en cuyo caso "<code display="inline"><emphasis effect="italics">x</emphasis></code>“ es la variable)</item>
+
+<item><code display="inline">normalcdf(left bound, right bound, <emphasis effect="italics">μ</emphasis>, <emphasis effect="italics">σ</emphasis>)</code> corresponde a <emphasis effect="italics">P</emphasis>(límite izquierdo &lt; <emphasis effect="italics">X</emphasis> &lt; límite derecho)</item>
+
+<item><code display="inline">normalcdf(left bound, right bound)</code> corresponde a <emphasis effect="italics">P</emphasis>(límite izquierdo &lt; <emphasis effect="italics">Z</emphasis> &lt; límite derecho) - normal estándar</item>
+
+<item><code display="inline">invNorm(<emphasis effect="italics">p</emphasis>,<emphasis effect="italics">μ</emphasis>,<emphasis effect="italics">σ</emphasis>)</code> da el valor crítico, <emphasis effect="italics">k</emphasis>: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">k</emphasis>) = <emphasis effect="italics">p</emphasis></item>
+
+<item><code display="inline">invNorm<emphasis effect="italics">(p</emphasis>)</code> da el valor crítico, <emphasis effect="italics">k</emphasis>: <emphasis effect="italics">P</emphasis><emphasis effect="italics">(Z</emphasis> &lt; <emphasis effect="italics">k</emphasis>) = <emphasis effect="italics">p</emphasis> para la normal estándar</item>
+
+</list></para><para id="eip-113"><title>Distribución <emphasis effect="italics">t</emphasis> de Student</title><list id="eip-idm52146688">
+<item><code display="inline">tpdf(<emphasis effect="italics">x</emphasis>,<emphasis effect="italics">df</emphasis>)</code> produce el valor de la función de densidad de probabilidad (solo para trazar la curva <emphasis effect="italics">t</emphasis> de Student, en cuyo caso "<code display="inline"><emphasis effect="italics">x</emphasis></code>“ es la variable)</item>
+          <item><code display="inline">tcdf(límite izquierdo, límite derecho, <emphasis effect="italics">df</emphasis>)</code> corresponde a <emphasis effect="italics">P</emphasis>(límite izquierdo &lt; <emphasis effect="italics">t</emphasis> &lt; límite derecho)</item>
+</list></para><para id="eip-771"><title>Distribución chi-cuadrado</title><list id="eip-idm44632080">
+
+<item><code display="inline">Χ<sup>2</sup>pdf(<emphasis effect="italics">x</emphasis>,<emphasis effect="italics">df</emphasis>)</code> produce el valor de la función de densidad de probabilidad (solo para trazar la curva chi2, en cuyo caso "<code display="inline"><emphasis effect="italics">x</emphasis></code>“ es la variable)</item>
+          <item><code display="inline">Χ<sup>2</sup>cdf(left bound, right bound, <emphasis effect="italics">df</emphasis>)</code> corresponde a <emphasis effect="italics">P</emphasis>(límite izquierdo &lt; <emphasis effect="italics">Χ</emphasis><sup>2</sup> &lt; límite derecho)</item>
+
+</list></para><para id="eip-380"><title>Distribución F</title><list id="eip-idm166766896">
+<item><code display="inline">Fpdf(<emphasis effect="italics">x</emphasis>,<emphasis effect="italics">dfnum</emphasis>,<emphasis effect="italics">dfdenom</emphasis>)</code> produce el valor de la función de densidad de probabilidad (solo para trazar la curva <emphasis effect="italics">F</emphasis>, en cuyo caso "<code display="inline"><emphasis effect="italics">x</emphasis></code>“ es la variable)</item>
+          <item><code display="inline">Fcdf(left bound,right bound,<emphasis effect="italics">dfnum</emphasis>,<emphasis effect="italics">dfdenom</emphasis>)</code> corresponde a <emphasis effect="italics">P</emphasis>(límite izquierdo &lt; <emphasis effect="italics">F</emphasis> &lt; límite derecho)</item>
+</list></para></section>
+      <section id="fs-id15677913">
+        <title>Pruebas e intervalos de confianza</title>
+        <para id="fs-id15287935">Acceda a <code display="inline">STAT</code> y <code display="inline">TESTS</code>.</para>
+        <para id="fs-id14324569">Para los intervalos de confianza y las pruebas de hipótesis, puede introducir los datos en las listas correspondientes y pulsar <code display="inline">DATA</code> para que la calculadora encuentre las medias muestrales y las desviaciones estándar, o puede introducir directamente las medias muestrales y las desviaciones típicas pulsando <code display="inline">STAT</code> una vez en las pruebas correspondientes.</para>
+<para id="fs-idp96939616">
+<title>Intervalos de confianza</title>
+<list id="fs-id14324572"><item><code display="inline">ZInterval</code> es el intervalo de confianza para la media cuando se conoce σ.</item>
+
+<item><code display="inline">TInterval</code> es el intervalo de confianza para la media cuando σ es desconocida; <emphasis effect="italics">s</emphasis> estima σ.</item>
+
+<item><code display="inline">1-PropZInt</code> es el intervalo de confianza de la proporción.</item>
+        </list></para>
+        <note id="fs-id14799914"><label/><title>Nota</title>
+<para id="eip-idp1918880">Los niveles de confianza deben indicarse en porcentajes (por ejemplo, introduzca "<code display="inline">95</code>" o "<code display="inline">0,95</code>" para un nivel de confianza del 95 %).</para></note>
+
+<para id="fs-idp36667376"><title>Pruebas de hipótesis</title>
+<list id="fs-id14799919"><item><code display="inline">Z-Test</code> es la prueba de hipótesis para una sola media cuando se conoce σ.</item>
+<item><code display="inline">T-Test</code> es la prueba de hipótesis para una sola media cuando σ es desconocida; <emphasis effect="italics">s</emphasis> estima σ.</item>
+<item><code display="inline">2-SampZTest</code> es la prueba de hipótesis para dos medias independientes cuando se conocen ambas σ.</item>
+<item><code display="inline">2-SampTTest</code> es la prueba de hipótesis para dos medias independientes cuando ambas σ son desconocidas.</item>
+<item><code display="inline">1-PropZTest</code> es la prueba de hipótesis para una sola proporción.</item>
+<item><code display="inline">2-PropZTest</code> es la prueba de hipótesis para dos proporciones.</item>
+<item><code display="inline">Χ<sup>2</sup>-Test</code> es la prueba de hipótesis de independencia.</item>
+<item><code display="inline">Χ<sup>2</sup>GOF-Test</code> es la prueba de hipótesis de bondad de ajuste (solo en la TI-84+).</item>
+<item><code display="inline">LinRegTTEST</code> es la prueba de hipótesis para la Regresión Lineal (solo en la TI-84+).</item></list></para>
+        <note id="fs-id15374930"><label/><title>Nota</title>
+<para id="eip-idp140444871127008">Introduzca el valor de la hipótesis nula en la fila de abajo "<code display="inline">Inpt</code>." En una prueba de una sola media, "<code display="inline">μ∅</code>“ representa la hipótesis nula. En una prueba de una sola proporción, "<code display="inline">p∅</code>“ representa la hipótesis nula. Introduzca la hipótesis alternativa en la fila inferior.</para></note></section>
+    </section>
+   </content>
+</document>

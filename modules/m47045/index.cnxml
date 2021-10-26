@@ -1,0 +1,1621 @@
+﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Muestras coincidentes o emparejadas</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47045</md:content-id>
+  <md:title>Muestras coincidentes o emparejadas</md:title>
+  <md:abstract/>
+  <md:uuid>7366eb58-b390-4868-a9e7-7983c0997af9</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-idp164310080">Cuando se utiliza una prueba de hipótesis para muestras coincidentes o emparejadas, deben darse las siguientes características:</para>
+<list id="element-139" list-type="enumerated">
+<item>Se utiliza un muestreo aleatorio simple.</item>
+<item>El tamaño de las muestras suele ser pequeño.</item>
+<item>Se toman dos medidas (muestras) del mismo par de personas u objetos.</item>
+<item>Las diferencias se calculan a partir de las muestras coincidentes o emparejadas.</item>
+<item>Las diferencias forman la muestra que se utiliza para la prueba de hipótesis.</item>
+<item>O bien los pares coincidentes tienen diferencias que provienen de una población que es normal o el número de diferencias es lo suficientemente grande como para que la distribución de la media muestral de las diferencias sea aproximadamente normal.</item>
+</list>
+<para id="element-1392">En una prueba de hipótesis para muestras coincidentes o emparejadas los sujetos son coincidentes en pares y se calculan las diferencias. Las diferencias son los datos. A continuación, se comprueba la media poblacional de las diferencias, <emphasis effect="italics">μ<sub>d</sub></emphasis>, mediante una prueba t de Student para una única media poblacional con <emphasis effect="italics">n</emphasis> - 1 grados de libertad, donde <emphasis effect="italics">n</emphasis> es el número de diferencias.</para>
+<equation class="unnumbered" id="element-403"><label/>
+<title>El estadístico de prueba (puntuación <emphasis effect="italics">t</emphasis>) es:</title>
+Los términos <m:math>
+<m:mrow>
+<m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+
+<m:mi>d</m:mi>
+</m:msub>
+<m:mo>- −</m:mo><m:msub>
+<m:mi>μ</m:mi>
+<m:mi>d</m:mi>
+</m:msub>
+
+</m:mrow>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>s</m:mi>
+<m:mi>d</m:mi>
+</m:msub>
+
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math></equation>
+
+<example id="element-457">
+<exercise id="element-366">
+<problem id="id24601264">
+<para id="element-889"><emphasis/> Se realizó un estudio para investigar la eficacia del hipnotismo en la reducción del dolor. Los resultados de los sujetos seleccionados al azar se muestran en la <link target-id="table-2345"/>. Una calificación más baja indica menos dolor. El valor “antes” es coincidente con un valor “después” y se calculan las diferencias. Las diferencias tienen una distribución normal. ¿Las medidas sensoriales son, en promedio, más bajas después del hipnotismo? Pruebe con un nivel de significación del 5 %.</para>
+<table id="table-2345" summary="This table presents results of subjects and effect of hypnotism in reducing pain. The second through ninth column are all subjects. The first row is for before and the second row is for after.">
+<tgroup cols="9">
+<colspec colnum="1" colname="header_c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<colspec colnum="8" colname="c8"/>
+<colspec colnum="9" colname="c9"/>
+<thead>
+<row>
+<entry>Sujeto:</entry>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+<entry>D</entry>
+<entry>E</entry>
+<entry>F</entry>
+<entry>G</entry>
+<entry>H</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Antes</entry>
+<entry>6,6</entry>
+<entry>6,5</entry>
+<entry>9,0</entry>
+<entry>10,3</entry>
+<entry>11,3</entry>
+<entry>8,1</entry>
+<entry>6,3</entry>
+<entry>11,6</entry>
+</row>
+<row>
+<entry>Después</entry>
+<entry>6,8</entry>
+<entry>2,4</entry>
+<entry>7,4</entry>
+<entry>8,5</entry>
+<entry>8,1</entry>
+<entry>6,1</entry>
+<entry>3,4</entry>
+<entry>2,0</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+</problem>
+<solution id="id24601284">
+<para id="element-215">Los valores correspondientes de “antes” y “después” forman pares coincidentes. (Calcule “después” – “antes”)</para>
+<table id="table-25832" summary="This table shows the after data in the first column, before data in the second column, and the difference in the third column.">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>Después de los datos</entry>
+<entry>Antes de los datos</entry>
+<entry>Diferencia</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>6,8</entry>
+<entry>6,6</entry>
+<entry>0,2</entry>
+</row>
+<row>
+<entry>2,4</entry>
+<entry>6,5</entry>
+<entry>-4,1</entry>
+</row>
+<row>
+<entry>7,4</entry>
+<entry>9</entry>
+<entry>-1,6</entry>
+</row>
+<row>
+<entry>8,5</entry>
+<entry>10,3</entry>
+<entry>-1,8</entry>
+</row>
+<row>
+<entry>8,1</entry>
+<entry>11,3</entry>
+<entry>-3,2</entry>
+</row>
+<row>
+<entry>6,1</entry>
+<entry>8,1</entry>
+<entry>-2</entry>
+</row>
+<row>
+<entry>3,4</entry>
+<entry>6,3</entry>
+<entry>-2,9</entry>
+</row>
+<row>
+<entry>2</entry>
+<entry>11,6</entry>
+<entry>-9,6</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="element-445">Los datos <emphasis>para la prueba</emphasis> son las diferencias: {0,2; –4,1; –1,6; –1,8; –3,2; –2; –2,9; –9,6}</para><para id="element-214">La media muestral y la desviación típica de la muestra de las diferencias son: <m:math>
+<m:mspace width="20pt"/>
+<m:apply>
+<m:conjugate/>
+<m:msub>
+<m:ci>x</m:ci>
+<m:mi>d</m:mi>
+</m:msub>
+</m:apply>
+<m:mo>=</m:mo>
+<m:mn>-3,13</m:mn>
+</m:math> y <m:math>
+<m:msub>
+<m:mi>s</m:mi>
+<m:mi>d</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mn>2,91</m:mn>
+</m:math> Verifique estos valores.</para><para id="element-700">Supongamos que <m:math>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>d</m:mi>
+</m:msub>
+</m:math> es la media poblacional de las diferencias. Utilizamos el subíndice <m:math><m:mi>d</m:mi></m:math> para denotar “diferencias”.</para>
+<para id="element-354"><emphasis>Variable aleatoria:</emphasis> <m:math>
+<m:mrow>
+<m:msub>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+
+<m:mi>d</m:mi>
+</m:msub>
+
+</m:mrow>
+</m:math> = la diferencia media de las mediciones sensoriales</para>
+<para id="fs-idp39645840"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>d</sub></emphasis> ≥ 0</para>
+<para id="element-805">La hipótesis nula es cero o positiva, lo que significa que se siente el mismo o más dolor después del hipnotismo. Eso significa que el sujeto no muestra ninguna mejora (<emphasis effect="italics">μ<sub>d</sub></emphasis> es la media poblacional de las diferencias).</para>
+
+<para id="fs-idp150170576"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ<sub>d</sub></emphasis> &lt; 0</para>
+<para id="element-102">La hipótesis alternativa es negativa, lo que significa que se siente menos dolor después del hipnotismo. Eso significa que el sujeto muestra una mejora. La calificación debería ser menor después del hipnotismo, por lo que la diferencia debería ser negativa para indicar una mejora.</para>
+
+<para id="element-543"><emphasis>Distribución para la prueba:</emphasis> La distribución es una <emphasis effect="italics">t</emphasis> de Student con <emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> – 1 = 8 – 1 = 7. Use <emphasis effect="italics">t</emphasis><sub>7</sub> <emphasis>(observe que la prueba es para una única media poblacional)</emphasis></para>
+
+<para id="element-94"><emphasis>Calcule el valor <emphasis effect="italics">p</emphasis>utilizando la distribución t de Student: </emphasis> valor <emphasis effect="italics">p</emphasis> = 0,0095</para>
+<para id="element-562"><emphasis>Gráfico:</emphasis></para>
+
+<figure id="hyptest22_samp1"><media id="id11476386" alt="Curva de distribución normal de la diferencia promedio de las mediciones sensoriales con valores de –3,13 y 0. Una línea vertical ascendente se extiende desde –3,13 hasta la curva, y el valor p se indica en el área a la izquierda de este valor.">
+<image src="../../media/fig-ch10_05_01.jpg" mime-type="image/jpg" width="380"/>
+</media>
+</figure><para id="element-281">Los términos <m:math>
+<m:mrow>
+<m:msub>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+
+<m:mi>d</m:mi>
+</m:msub>
+
+</m:mrow>
+</m:math> es la variable aleatoria de las diferencias.</para><para id="element-213">La media muestral y la desviación típica de la muestra de las diferencias son:</para>
+<para id="element-357">Los términos <m:math>
+<m:mrow>
+<m:msub>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+
+<m:mi>d</m:mi>
+</m:msub>
+
+</m:mrow>
+</m:math> = -3,13</para><para id="element-909">Los términos <m:math>
+<m:mrow>
+<m:msub>
+<m:mover accent="true">
+<m:mi>s</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+
+<m:mi>d</m:mi>
+</m:msub>
+
+</m:mrow>
+</m:math> = 2,91</para><para id="element-172"><emphasis>Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>:</emphasis> <emphasis effect="italics">α</emphasis> = 0,05 y valor <emphasis effect="italics">p</emphasis>= 0,0095. <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>.</para><para id="element-269"><emphasis>Tome una decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>, rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>. Esto significa que <emphasis effect="italics">μ<sub>d</sub></emphasis> &lt; 0 y que hay una mejora.</para><para id="element-795"><emphasis>Conclusión:</emphasis> A un nivel de significación del 5 %, a partir de los datos de la muestra, hay pruebas suficientes para concluir que las mediciones sensoriales, en promedio, son más bajas después del hipnotismo. El hipnotismo parece ser eficaz para reducir el dolor.</para>
+</solution>
+</exercise>
+
+<note id="id11476665" class="finger">
+<label/>
+<title>Nota:</title>
+<para id="fs-idp48132064">Para las calculadoras TI-83+ y TI-84, puede calcular las diferencias por adelantado (<emphasis>después - antes</emphasis>) y poner las diferencias en una lista o puede poner los datos <emphasis>después</emphasis> en una primera lista y los datos <emphasis>antes</emphasis> en una segunda lista. A continuación, vaya a una tercera lista y desplace la flecha hacia arriba hasta el nombre. Ingrese el 1.<sup>°</sup> nombre de la lista - 2.<sup>°</sup> nombre de la lista. La calculadora hará la resta, y tendrá las diferencias en la tercera lista.</para></note>
+
+
+<note id="id11476702" class="statistics calculator">
+<label/>
+<para id="fs-idp28416112">Utilice su lista de diferencias como datos. Pulse <code>STAT</code> y flecha hacia <code>TESTS</code>. Pulse <code>2:T-Test</code>. Desplace la flecha hacia <code>Datos</code> y pulse <code>ENTER</code>. Desplace la flecha hacia abajo y presione ENTER <code>0</code> para <m:math><m:msub><m:mi>μ</m:mi><m:mi>0</m:mi></m:msub></m:math>, el nombre de la lista donde se ponen los datos, y <code>1</code> para Frec:. Desplace la flecha hacia abajo <code>μ</code>: y flecha hacia <code>&lt;</code> Los términos <m:math><m:msub><m:mi>μ</m:mi><m:mi>0</m:mi></m:msub></m:math> Pulse <code>ENTER</code>. Desplace la flecha hacia abajo hasta <code>Calculate</code> y pulse <code>ENTER</code>. El valor <emphasis effect="italics">p</emphasis> es 0,0094, y el estadístico de prueba es -3,04. Vuelva a realizar estas instrucciones, excepto desplazar la flecha hacia <code>Draw</code> (en vez de <code>Calculate (Calcular)</code>). Pulse <code>ENTER</code>.</para>
+</note>
+</example>
+
+<note id="fs-idp46905536" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+<exercise id="fs-idp1097104">
+<problem id="fs-idp1097360">
+<para id="fs-idm54581328">Se realizó un estudio para investigar la eficacia de una nueva dieta para reducir el colesterol. Los resultados de los sujetos seleccionados aleatoriamente se muestran en la tabla. Las diferencias tienen una distribución normal. ¿Los niveles de colesterol de los sujetos son más bajos en promedio después de la dieta? Prueba al nivel del 5 %.</para><table id="fs-idm36821616" summary="">
+<tgroup cols="10">
+<tbody>
+<row>
+<entry>Sujeto</entry>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+<entry>D</entry>
+<entry>E</entry>
+<entry>F</entry>
+<entry>G</entry>
+<entry>H</entry>
+<entry>I</entry>
+</row>
+<row>
+<entry>Antes</entry>
+<entry>209</entry>
+<entry>210</entry>
+<entry>205</entry>
+<entry>198</entry>
+<entry>216</entry>
+<entry>217</entry>
+<entry>238</entry>
+<entry>240</entry>
+<entry>222</entry>
+</row>
+<row>
+<entry>Después</entry>
+<entry>199</entry>
+<entry>207</entry>
+<entry>189</entry>
+<entry>209</entry>
+<entry>217</entry>
+<entry>202</entry>
+<entry>211</entry>
+<entry>223</entry>
+<entry>201</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+</problem>
+</exercise>
+</note>
+
+<example id="element-752">
+<para id="element-486">Un entrenador de fútbol universitario estaba interesado en saber si la clase de desarrollo de fuerza del instituto universitario aumentaba el levantamiento máximo (en libras) de sus jugadores en el ejercicio de empuje en banca. Les pidió a cuatro de sus jugadores que participaran en un estudio. La cantidad de peso que podía levantar cada uno se registró antes de que tomaran la clase de desarrollo de fuerza. Tras completar la clase, se midió de nuevo la cantidad de peso que podía levantar cada uno. Los datos son los siguientes:</para>
+<table id="table-234678" summary="This table shows players and the amount of weight they are able to lift. The first column is the weight lifted and the second through the sixth columns represent the players. The first row is the amount of weight lifted before the class and the second row is the amount of weight lifted after the class.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<thead>
+<row>
+<entry align="center">Peso (en libras)</entry>
+<entry align="center">Jugador 1</entry>
+<entry align="center">Jugador 2</entry>
+<entry align="center">Jugador 3</entry>
+<entry align="center">Jugador 4</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Cantidad de peso levantado antes de la clase</entry>
+<entry>205</entry>
+<entry>241</entry>
+<entry>338</entry>
+<entry>368</entry>
+</row>
+<row>
+<entry>Cantidad de peso levantado después de la clase</entry>
+<entry>295</entry>
+<entry>252</entry>
+<entry>330</entry>
+<entry>360</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><para id="element-651"><emphasis>El entrenador quiere saber si la clase de desarrollo de fuerza hace que sus jugadores sean más fuertes, en promedio.</emphasis> <newline/>Registre los datos de las <emphasis>diferencias</emphasis>. Para calcular las diferencias reste la cantidad de peso levantado antes de la clase del peso levantado después de terminar la clase. Los datos de las diferencias son: {90, 11, –8, –8}. Supongamos que las diferencias tienen una distribución normal.</para>
+<para id="element-120">Utilizando los datos de las diferencias, calcule la media y la desviación típica de la muestra.</para>
+<para id="element-258">Los términos <m:math>
+<m:mrow>
+<m:msub>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+
+<m:mi>d</m:mi>
+</m:msub>
+
+</m:mrow>
+</m:math> = 21,3, <emphasis effect="italics">s<sub>d</sub></emphasis> = 46,7</para><note id="fs-idp43851248">
+<label/>
+<title>Nota:</title>
+<para id="fs-idp15765136">Los datos presentados aquí indicarían que la distribución es realmente asimétrica. ¿La diferencia de 90 puede ser un valor extremo? La media de la muestra es de 21,3 (positivo). Las medias de los otros tres datos son realmente negativas.</para></note>
+<para id="element-990">Utilizando los datos de la diferencia, esto se convierte en una prueba de un solo __________ (rellene el espacio en blanco).</para>
+<para id="element-208"><emphasis>Defina la variable aleatoria:</emphasis> <m:math>
+<m:mrow>
+<m:msub>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+<m:mi>d</m:mi>
+</m:msub>
+</m:mrow>
+</m:math> diferencia media en la elevación máxima por jugador.</para><para id="element-320">La distribución para la prueba de hipótesis es <emphasis effect="italics">t<sub>3</sub></emphasis>.</para>
+<para id="element-3201"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>d</sub></emphasis> ≤ 0, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ<sub>d</sub></emphasis> > 0</para>
+
+<para id="element-811"><emphasis>Gráfico:</emphasis></para>
+<figure id="hyptest22_samp2"><media id="id11476943" alt="Curva de distribución normal con valores de 0 y 21,3. Una línea vertical ascendente se extiende desde 21,3 hasta la curva y el valor p se indica en el área a la derecha de este valor.">
+<image src="../../media/fig-ch10_05_02.jpg" mime-type="image/jpg" width="380"/></media>
+</figure><para id="element-147"><emphasis>Calcule el valor <emphasis effect="italics">p</emphasis>:</emphasis> El valor <emphasis effect="italics">p</emphasis> es de 0,2150</para>
+
+<para id="element-931"><emphasis>Decisión:</emphasis> si el nivel de significación es del 5 %, la decisión es no rechazar la hipótesis nula, porque α &lt; valor <emphasis effect="italics">p</emphasis>.</para>
+<para id="element-802"><emphasis>¿Cuál es la conclusión?</emphasis></para>
+
+<para id="e106soln">A un nivel de significación del 5 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que la clase de desarrollo de fuerza ayudó a hacer más fuertes a los jugadores, en promedio.</para>
+</example>
+
+<note id="fs-idm13751200" class="statistics try"><label/><title>Ejercicio</title>
+
+<exercise id="fs-idp4946544"><problem id="fs-idp4946672">
+<para id="fs-idp112606336">Se ha diseñado una nueva clase de preparación para mejorar los resultados de la Prueba de Aptitud Académica (Scholastic Aptitude Test, SAT). Se seleccionaron cinco estudiantes aleatoriamente. Se registraron sus puntuaciones en dos exámenes de práctica, uno antes de la clase y otro después. Los datos registrados en la <link target-id="fs-idp42085840"/>. ¿Los resultados, en promedio, son más altos después de la clase? Prueba a un nivel del 5 %.</para>
+
+<table id="fs-idp42085840" summary="">
+<tgroup cols="5">
+<thead>
+<row>
+<entry>Resultados de prueba SAT</entry>
+<entry>Estudiante 1</entry>
+<entry>Estudiante 2</entry>
+<entry>Estudiante 3</entry>
+<entry>Estudiante 4</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Puntuación antes de la clase</entry>
+<entry>1840</entry>
+<entry>1960</entry>
+<entry>1920</entry>
+<entry>2150</entry>
+</row>
+<row>
+<entry>Puntuación después de la clase</entry>
+<entry>1920</entry>
+<entry>2160</entry>
+<entry>2200</entry>
+<entry>2100</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+
+</exercise>
+</note><example id="element-241">
+<para id="element-70">Siete estudiantes de octavo grado de la escuela Media Kennedy midieron hasta dónde podían empujar el lanzamiento de peso con su mano dominante (la que escribe) y su mano más débil (la que no escribe). Pensaban que podían empujar distancias iguales con cualquier mano. Los datos se recogieron y registraron en la <link target-id="table-2535678"/>.</para>
+
+<table id="table-2535678" summary="This table presents the students shot-put distances by their dominant and non-dominant hand. The first column lists the hand type and the second through the eighth column represent the students. The first row is for the dominant hand and the second row is for the weaker hand.">
+<tgroup cols="8">
+<colspec colnum="1" colname="header_c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<colspec colnum="8" colname="c8"/>
+<thead valign="top">
+<row>
+<entry align="center">Distancia (en pies) con</entry>
+<entry>Estudiante 1</entry>
+<entry>Estudiante 2</entry>
+<entry>Estudiante 3</entry>
+<entry>Estudiante 4</entry>
+<entry>Estudiante 5</entry>
+<entry>Estudiante 6</entry>
+<entry>Estudiante 7</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry>Mano dominante</entry>
+<entry>30</entry>
+<entry>26</entry>
+<entry>34</entry>
+<entry>17</entry>
+<entry>19</entry>
+<entry>26</entry>
+<entry>20</entry>
+</row>
+<row>
+<entry>Mano más débil</entry>
+<entry>28</entry>
+<entry>14</entry>
+<entry>27</entry>
+<entry>18</entry>
+<entry>17</entry>
+<entry>26</entry>
+<entry>16</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+
+<!--MAGTULOY DITO...-->
+<para id="fs-idm44594480">Realice una prueba de hipótesis para determinar si la diferencia media de las distancias entre las manos dominantes y las débiles de los niños es significativa.</para><para id="fs-idp12305744">Registre los datos de las <emphasis>diferencias</emphasis>. Calcule las diferencias restando las distancias con la mano más débil de las distancias con la mano dominante. Los datos de las diferencias son: {2, 12, 7, -1, 2, 0, 4}. Las diferencias tienen una distribución normal.</para>
+<para id="fs-idp35626608">Utilizando los datos de las diferencias, calcule la media y la desviación típica de la muestra. <m:math>
+<m:mrow>
+<m:msub>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+<m:mi>d</m:mi>
+</m:msub>
+</m:mrow>
+</m:math> = 3,71, <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>s</m:mi>
+<m:mi>d</m:mi>
+</m:msub>
+
+</m:mrow>
+</m:math> = 4,5.</para><para id="fs-idm28861824"><emphasis>Variable aleatoria:</emphasis> <m:math>
+<m:mrow>
+<m:msub>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+
+<m:mi>d</m:mi>
+</m:msub>
+
+</m:mrow>
+</m:math> = diferencia media de las distancias entre las manos.</para>
+<para id="fs-idm33656496"><emphasis>Distribución para la prueba de hipótesis:</emphasis> <emphasis effect="italics">t<sub>6</sub></emphasis></para>
+
+<para id="fs-idm15045744"><emphasis effect="italics">H</emphasis><sub>0</sub>: <emphasis effect="italics">μ<sub>d</sub></emphasis> = 0 <emphasis effect="italics">H</emphasis><emphasis effect="italics"><sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis><emphasis effect="italics"><sub>d</sub></emphasis> ≠ 0</para><para id="fs-idm14789184"><emphasis>Gráfico:</emphasis>
+<figure id="fs-idp32743168"><media id="fs-idp32743424" alt="Se trata de una curva de distribución normal con media igual a cero. Las colas derecha e izquierda de la curva están sombreadas. Cada cola representa 1/2(valor p) = 0,0358.">
+<image mime-type="image/jpg" src="../../media/CNX_Stats_C10_M05_001N.jpg" width="380"/>
+</media>
+</figure></para>
+<para id="fs-idm45951248"><emphasis>Calcule el valor <emphasis effect="italics">p</emphasis>:</emphasis> El valor <emphasis effect="italics">p</emphasis> es de 0,0716 (utilizando los datos directamente).</para>
+<para id="fs-idp16197920">(estadístico de prueba = 2,18. valor <emphasis effect="italics">p</emphasis>= 0,0719 utilizando <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mover accent="true">
+      <m:mi>x</m:mi>
+      <m:mo>¯</m:mo>
+     </m:mover>
+
+     <m:mi>d</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo><m:mn>3,71</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:msub>
+     <m:mi>s</m:mi>
+     <m:mi>d</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo><m:mn>4,5.</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></para><para id="fs-idp45183040"><emphasis>Decisión:</emphasis> supongamos que <emphasis effect="italics">α</emphasis> = 0,05. Dado que <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis>, no rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="fs-idp71022560"><emphasis>Conclusión:</emphasis> al nivel de significación del 5 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que existe una diferencia en las manos más débiles y dominantes de los niños para empujar el lanzamiento de peso.</para>
+</example>
+
+<note id="fs-idp98011888" class="statistics try">
+<label/>
+<title>Ejercicio</title>
+<exercise id="fs-idm3639952">
+<problem id="fs-idp119669552">
+<para id="fs-idp119669808">Cinco jugadores de béisbol creen que pueden lanzar la misma distancia con su mano dominante (lanzando) y con la mano contraria (atrapando). Los datos se recogieron y registraron en la <link target-id="fs-idp26621360"/>. Realice una prueba de hipótesis para determinar si la diferencia media de las distancias entre la mano dominante y la mano no dominante es significativa. Prueba al nivel del 5 %.</para>
+
+<table id="fs-idp26621360" summary="">
+<tgroup cols="6">
+<thead>
+<row>
+<entry/>
+<entry>Jugador 1</entry>
+<entry>Jugador 2</entry>
+<entry>Jugador 3</entry>
+<entry>Jugador 4</entry>
+<entry>Jugador 5</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Mano dominante</entry>
+<entry>120</entry>
+<entry>111</entry>
+<entry>135</entry>
+<entry>140</entry>
+<entry>125</entry>
+</row>
+<row>
+<entry>Mano no dominante</entry>
+<entry>105</entry>
+<entry>109</entry>
+<entry>98</entry>
+<entry>111</entry>
+<entry>99</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+</problem>
+</exercise>
+</note>
+
+<section id="fs-idp51883760" class="summary">
+<title>Revisión del capítulo</title>
+<para id="fs-idp192128">Una prueba de hipótesis para muestras coincidentes o emparejadas (prueba t) tiene estas características:</para>
+<list id="fs-idp192512" list-type="bulleted"><item>Compruebe las diferencias restando una medida de la otra</item>
+<item>Variable aleatoria: <m:math>
+<m:mrow>
+<m:msub>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+<m:mi>d</m:mi>
+</m:msub>
+</m:mrow>
+</m:math> = media de las diferencias</item>
+<item>Distribución: Distribución t de Student con <emphasis effect="italics">n</emphasis> – 1 grados de libertad</item>
+<item>Si el número de diferencias es pequeño (menos de 30), las diferencias deben seguir una distribución normal.</item>
+<item>Se extraen dos muestras del mismo conjunto de objetos.</item>
+<item>Las muestras son dependientes.</item>
+</list></section>
+
+<section id="fs-idm5585024" class="formula-review">
+<title>Revisión de la fórmula</title>
+<para id="fs-idp95152944">Estadístico de prueba (puntuación <emphasis effect="italics">t</emphasis>): <emphasis effect="italics">t</emphasis> = <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+
+<m:mi>d</m:mi>
+</m:msub>
+<m:mo>- −</m:mo><m:msub>
+<m:mi>μ</m:mi>
+<m:mi>d</m:mi>
+</m:msub>
+
+</m:mrow>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>s</m:mi>
+<m:mi>d</m:mi>
+</m:msub>
+
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math></para>
+<para id="fs-idm30659744">donde:</para>
+<para id="fs-idm8251264">Los términos <m:math>
+<m:mrow>
+<m:msub>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+
+<m:mi>d</m:mi>
+</m:msub>
+
+</m:mrow>
+</m:math> es la media de las diferencias de la muestra. <emphasis effect="italics">μ</emphasis><sub>d</sub> es la media de las diferencias de la población. <emphasis effect="italics">s<sub>d</sub></emphasis> es la desviación típica de la muestra de las diferencias. <emphasis effect="italics">n</emphasis> es el tamaño de la muestra.</para></section>
+
+<section id="fs-idm5499920" class="practice">
+<para id="fs-idp116024816"><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios.</emphasis> Se realizó un estudio para comprobar la eficacia de un parche de software en la reducción de fallos del sistema durante un periodo de seis meses. Los resultados de instalaciones seleccionadas al azar se muestran en la <link target-id="fs-idp116025200"/>. El valor “antes” se compara con un valor “después” y se calculan las diferencias. Las diferencias tienen una distribución normal. Prueba al nivel de significación del 1 %.</para><table id="fs-idp116025200" summary="">
+<tgroup cols="9">
+<thead>
+<row>
+<entry>Instalación</entry>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+<entry>D</entry>
+<entry>E</entry>
+<entry>F</entry>
+<entry>G</entry>
+<entry>H</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry>Antes</entry>
+<entry>3</entry>
+<entry>6</entry>
+<entry>4</entry>
+<entry>2</entry>
+<entry>5</entry>
+<entry>8</entry>
+<entry>2</entry>
+<entry>6</entry>
+</row>
+<row>
+<entry>Después</entry>
+<entry>1</entry>
+<entry>5</entry>
+<entry>2</entry>
+<entry>0</entry>
+<entry>1</entry>
+<entry>0</entry>
+<entry>2</entry>
+<entry>2</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<exercise id="fs-idm5499280">
+<problem id="fs-idp107935744">
+<para id="fs-idp9763376">¿Cuál es la variable aleatoria?</para>
+</problem>
+<solution id="fs-idp27834352">
+<para id="fs-idp27834608">la diferencia media de los fallos del sistema</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idp71083104">
+<problem id="fs-idp22060800">
+<para id="fs-idp22061056">Indique las hipótesis nula y alternativa.</para>
+</problem>
+</exercise>
+
+<exercise id="fs-idm10056224">
+<problem id="fs-idm120978416">
+<para id="fs-idm120978160">¿Cuál es el valor <emphasis effect="italics">p</emphasis>?</para>
+</problem>
+<solution id="fs-idp56985488">
+<para id="fs-idp56985744">0,0067</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idp119203856">
+<problem id="fs-idp119204112">
+<para id="fs-idp119204368">Dibuje el gráfico del valor <emphasis effect="italics">p</emphasis>.</para>
+</problem>
+</exercise>
+
+<exercise id="fs-idp92713024">
+<problem id="fs-idm6212864">
+<para id="fs-idm6212608">¿Qué conclusión puede sacar sobre el parche de software?</para>
+</problem>
+<solution id="fs-idp48368">
+<para id="fs-idp48624">Con un valor <emphasis effect="italics">p</emphasis> de 0,0067, podemos rechazar la hipótesis nula. Hay suficientes pruebas que demuestran que el parche de software es eficaz para reducir el número de fallos del sistema.</para>
+</solution>
+</exercise>
+
+<para id="fs-idp5775856"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios.</emphasis> Se realizó un estudio para comprobar la eficacia de una clase de malabares. Antes de que empezara la clase seis sujetos hicieron malabares con todas las pelotas que pudieron a la vez. Después de la clase, los mismos seis sujetos hicieron todos los malabares que pudieron con las pelotas. Se calculan las diferencias en el número de pelotas. Las diferencias tienen una distribución normal. Prueba al nivel de significación del 1 %.</para>
+<table id="fs-idp110216832" summary="">
+<tgroup cols="7">
+<thead>
+<row>
+<entry>Sujeto</entry>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+<entry>D</entry>
+<entry>E</entry>
+<entry>F</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Antes</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>3</entry>
+<entry>2</entry>
+<entry>4</entry>
+<entry>5</entry>
+</row>
+<row>
+<entry>Después</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>7</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<exercise id="fs-idm940496">
+<problem id="fs-idm54492608">
+<para id="fs-idp81273744">Indique las hipótesis nula y alternativa.</para>
+</problem>
+</exercise>
+
+<exercise id="fs-idp15011664">
+<problem id="fs-idp15011920">
+<para id="fs-idp15012176">¿Cuál es el valor <emphasis effect="italics">p</emphasis>?</para>
+</problem>
+<solution id="fs-idp112806592">
+<para id="fs-idp112806848">0,0021</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idp12451552">
+<problem id="fs-idp12451808">
+<para id="fs-idm14064240">¿Cuál es la diferencia de la media muestral?</para>
+</problem>
+</exercise>
+<exercise id="fs-idp9592768">
+<problem id="fs-idp9593024">
+<para id="fs-idp9593280">Dibuje el gráfico del valor <emphasis effect="italics">p</emphasis>.</para>
+</problem>
+<solution id="fs-idp27275328">
+<figure id="fs-idp27275584"><media id="fs-idp79897888" alt="Se trata de una curva de distribución normal con media igual a cero. Los valores 0 y 1,67 están marcados en el eje horizontal. Una línea vertical se extiende desde 1,67 hasta la curva. La región debajo de la curva a la derecha de la línea está sombreada para representar el valor p = 0,0021.">
+<image mime-type="image/jpg" src="../../media/CNX_Stats_C10_M05_item002anno.jpg" width="380"/>
+</media>
+</figure></solution>
+</exercise>
+
+<exercise id="fs-idm16412208">
+<problem id="fs-idp41873440">
+<para id="fs-idp41873696">¿Qué conclusión puedes sacar sobre la clase de malabares?</para>
+</problem>
+</exercise>
+
+<para id="fs-idm27879072"><newline/><emphasis effect="italics">Use la siguiente información para responder los siguientes cinco ejercicios.</emphasis> Un médico quiere saber si un medicamento para la presión arterial es eficaz. A seis sujetos se les toma la presión arterial y se registra. Después de doce semanas de uso del medicamento, se vuelve a tomar la presión arterial de los mismos seis sujetos. Para esta prueba, solo se considera la presión sistólica. Prueba al nivel de significación del 1 %.</para>
+<table id="fs-idm32701392" summary="">
+<tgroup cols="7">
+<thead>
+<row>
+<entry>Paciente</entry>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+<entry>D</entry>
+<entry>E</entry>
+<entry>F</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Antes</entry>
+<entry>161</entry>
+<entry>162</entry>
+<entry>165</entry>
+<entry>162</entry>
+<entry>166</entry>
+<entry>171</entry>
+</row>
+<row>
+<entry>Después</entry>
+<entry>158</entry>
+<entry>159</entry>
+<entry>166</entry>
+<entry>160</entry>
+<entry>167</entry>
+<entry>169</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<exercise id="fs-idp5612992">
+<problem id="fs-idp5613248">
+<para id="fs-idp119813056">Indique las hipótesis nula y alternativa.</para>
+</problem>
+<solution id="fs-idp119813568">
+<para id="fs-idm49836624"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>d</sub></emphasis> ≥ 0</para>
+<para id="fs-idm47657296"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ<sub>d</sub></emphasis> &lt; 0</para>
+</solution>
+</exercise>
+<exercise id="fs-idm60519136">
+<problem id="fs-idm60518880">
+<para id="fs-idp8433040">¿Cuál es el estadístico de prueba?</para>
+</problem>
+</exercise>
+
+<exercise id="fs-idp69509280">
+<problem id="fs-idp8847888">
+<para id="fs-idp8848144">¿Cuál es el valor <emphasis effect="italics">p</emphasis>?</para>
+</problem>
+<solution id="fs-idp113313936">
+<para id="fs-idp113314192">0,0699</para>
+</solution>
+</exercise>
+<exercise id="fs-idp22543728">
+<problem id="fs-idp22543984">
+<para id="fs-idm72860048">¿Cuál es la diferencia de la media muestral?</para>
+</problem>
+</exercise>
+
+<exercise id="fs-idm55198624">
+<problem id="fs-idm27177184">
+<para id="fs-idm27176928">¿Cuál es la conclusión?</para>
+</problem>
+<solution id="fs-idp22337696">
+<para id="fs-idp22337952">No rechazamos la hipótesis nula. No hay pruebas suficientes que respalden la eficacia del medicamento.</para>
+</solution>
+</exercise>
+</section>
+
+<section id="fs-idp14136208" class="free-response">
+<title>Tarea para la casa</title>
+<para id="fs-idp84148336"><emphasis effect="italics">INSTRUCCIONES: Para cada uno de los problemas de palabras use una hoja de soluciones para hacer la prueba de hipótesis. La hoja de soluciones se encuentra en el <link document="m47882">apéndice E</link>. No dude en hacer copias de las hojas de soluciones. Para la versión en línea del libro se sugiere copiar los archivos .doc o .pdf.</emphasis></para><note id="eip-250"><label/><title>Nota:</title>
+<para id="eip-idm140675200">Si usa una distribución <emphasis effect="italics">t</emphasis> de Student para los problemas de tarea para la casa, incluso para datos emparejados, puede suponer que la población subyacente está distribuida normalmente. (sin embargo, cuando se utilicen estas pruebas en una situación real, primero hay que demostrar ese supuesto).</para></note>
+
+<exercise id="fs-idp64398288">
+<problem id="fs-idp64398544">
+<para id="fs-idp64398800">Diez personas siguieron una dieta baja en grasas durante 12 semanas para reducir el colesterol. Los datos se registran en la <link target-id="fs-idp16051952"/>. ¿Cree que sus niveles de colesterol se redujeron significativamente?</para>
+<table id="fs-idp16051952" summary="The table presents the starting cholesterol level in the first row and the ending cholesterol level in the second row.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry>Nivel de colesterol inicial</entry>
+<entry>Nivel de colesterol final</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>140</entry>
+<entry>140</entry>
+</row>
+<row>
+<entry>220</entry>
+<entry>230</entry>
+</row>
+<row>
+<entry>110</entry>
+<entry>120</entry>
+</row>
+<row>
+<entry>240</entry>
+<entry>220</entry>
+</row>
+<row>
+<entry>200</entry>
+<entry>190</entry>
+</row>
+<row>
+<entry>180</entry>
+<entry>150</entry>
+</row>
+<row>
+<entry>190</entry>
+<entry>200</entry>
+</row>
+<row>
+<entry>360</entry>
+<entry>300</entry>
+</row>
+<row>
+<entry>280</entry>
+<entry>300</entry>
+</row>
+<row>
+<entry>260</entry>
+<entry>240</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+<solution id="fs-idp21115136">
+<para id="fs-idp6749856">valor <emphasis effect="italics">p</emphasis>= 0,1494</para><para id="fs-idp164535872">Con un nivel de significación del 5 %, no hay pruebas suficientes para concluir que el medicamento reduzca los niveles de colesterol después de 12 semanas.</para>
+</solution>
+</exercise>
+
+<para id="eip-637"><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios.</emphasis> Se probó un nuevo medicamento para la prevención del sida en un grupo de 224 pacientes con VIH positivo. Cuarenta y cinco pacientes desarrollaron sida después de cuatro años. En un grupo de control de 224 pacientes con VIH positivo, 68 desarrollaron sida al cabo de cuatro años. Queremos comprobar si el método de tratamiento reduce la proporción de pacientes que desarrollan sida al cabo de cuatro años o si las proporciones del grupo tratado y del grupo no tratado se mantienen igual.</para>
+
+<para id="eip-793">Supongamos que el subíndice <emphasis effect="italics">t</emphasis> = paciente tratado y <emphasis effect="italics">nt</emphasis> = paciente no tratado.</para><exercise id="element-719"><problem id="id17683497">
+<para id="element-505">Las hipótesis adecuadas son:</para>
+<list id="element-722" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>t</sub></emphasis> &lt; <emphasis effect="italics">p<sub>nt</sub></emphasis> y <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>t</sub></emphasis> ≥ <emphasis effect="italics">p<sub>nt</sub></emphasis></item>
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>t</sub></emphasis> ≤ <emphasis effect="italics">p<sub>nt</sub></emphasis> y <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>t</sub></emphasis> > <emphasis effect="italics">p<sub>nt</sub></emphasis></item>
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>t</sub></emphasis> = <emphasis effect="italics">p<sub>nt</sub></emphasis> y <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>t</sub></emphasis> ≠ <emphasis effect="italics">p<sub>nt</sub></emphasis></item>
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>t</sub></emphasis> = <emphasis effect="italics">p<sub>nt</sub></emphasis> y <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>t</sub></emphasis> &lt; <emphasis effect="italics">p<sub>nt</sub></emphasis></item>
+</list>
+
+</problem>
+</exercise>
+
+<exercise id="element-198"><problem id="id12277184">
+<para id="element-849">Si el valor <emphasis effect="italics">p</emphasis> es 0,0062, ¿cuál es la conclusión (utilice <emphasis effect="italics">α</emphasis> = 0,05)?</para>
+<list id="list1111" list-type="enumerated" number-style="lower-alpha">
+<item>El método no tiene ningún efecto.</item>
+<item>Hay pruebas suficientes para concluir que el método reduce la proporción de pacientes seropositivos que desarrollan el sida al cabo de cuatro años.</item>
+<item>Existen pruebas suficientes para concluir que el método aumenta la proporción de pacientes seropositivos que desarrollan el sida al cabo de cuatro años.</item>
+<item>No hay pruebas suficientes para concluir que el método reduce la proporción de pacientes seropositivos que desarrollan el sida al cabo de cuatro años. </item>
+</list>
+</problem>
+<solution id="id7050591">
+<para id="element-967">b</para>
+</solution>
+</exercise>
+<para id="eip-338"><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios.</emphasis> Se realiza un experimento para demostrar que la presión arterial se puede reducir conscientemente en personas entrenadas en un “programa de ejercicios de biorrealimentación”. Se seleccionaron seis sujetos al azar y se registraron las mediciones de la presión arterial antes y después del entrenamiento. Se calculó la diferencia entre las presiones sanguíneas (después – antes) lo que arrojó los siguientes resultados <m:math>
+<m:mrow>
+<m:msub>
+<m:mover accent="true">
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+
+<m:mi>d</m:mi>
+</m:msub>
+
+</m:mrow>
+</m:math> = −10,2 <emphasis effect="italics">s<sub>d</sub></emphasis> = 8,4. Use los datos y compruebe la hipótesis de que la presión arterial ha disminuido después del entrenamiento.</para><exercise id="element-38"><problem id="id4488558">
+<para id="element-865">La distribución para la prueba es:</para>
+<list id="element-492" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">t<sub>5</sub></emphasis></item>
+<item><emphasis effect="italics">t<sub>6</sub></emphasis></item>
+<item><emphasis effect="italics">N</emphasis>(−10,2; 8,4)</item>
+<item>N(−10,2, <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>8,4</m:mn>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mn>6</m:mn>
+</m:msqrt>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math>) </item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="element-954"><problem id="id6323430">
+<para id="element-815">Si <emphasis effect="italics">α</emphasis> = 0,05, el valor <emphasis effect="italics">p</emphasis> y la conclusión son</para>
+<list id="element-595" list-type="enumerated" number-style="lower-alpha">
+<item>0,0014; hay pruebas suficientes para concluir que la presión arterial disminuyó después del entrenamiento.</item>
+<item>0,0014; hay pruebas suficientes para concluir que la presión arterial aumentó después del entrenamiento.</item>
+<item>0,0155; hay pruebas suficientes para concluir que la presión arterial disminuyó después del entrenamiento.</item>
+<item>0,0155; hay pruebas suficientes para concluir que la presión arterial aumentó después del entrenamiento.</item>
+</list>
+
+</problem>
+<solution id="id12581096">
+<para id="element-981">c</para>
+</solution>
+</exercise>
+<exercise id="element-841">
+<problem id="id4419960">
+<para id="eip-961">Una instructora de golf está interesada en determinar si su nueva técnica para mejorar los resultados de los jugadores de golf es eficaz. Toma cuatro nuevos estudiantes. Registra sus calificaciones de 18 hoyos antes de aprender la técnica y después de haber tomado su clase. Realiza una prueba de hipótesis. Los datos son los siguientes.</para>
+<table id="eip-526" summary="...">
+<tgroup cols="5">
+<thead>
+<row>
+<entry/>
+<entry>Jugador 1</entry>
+<entry>Jugador 2</entry>
+<entry>Jugador 3</entry>
+<entry>Jugador 4</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry>Puntuación media antes de la clase</entry>
+<entry>83</entry>
+<entry>78</entry>
+<entry>93</entry>
+<entry>87</entry>
+</row>
+<row>
+<entry>Puntuación media después de la clase</entry>
+<entry>80</entry>
+<entry>80</entry>
+<entry>86</entry>
+<entry>86</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="element-821">
+La decisión correcta es:
+</para>
+<list id="element-523" list-type="enumerated" number-style="lower-alpha">
+<item>Rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>.</item>
+<item>No rechace la <emphasis effect="italics">H<sub>0</sub></emphasis>.</item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="fs-idp31663264">
+<problem id="fs-idp31663520">
+<para id="fs-idm44180368">Un grupo local de apoyo al cáncer cree que la estimación de nuevos casos de cáncer de mama femenino en el sur es mayor en 2013 que en 2012. El grupo comparó las estimaciones de nuevos casos de cáncer de mama femenino por estados del sur en 2012 y en 2013. Los resultados están en la <link target-id="fs-idp20856160"/>.</para><table id="fs-idp20856160" summary="">
+<tgroup cols="3">
+<thead>
+<row>
+<entry>Estados del sur</entry>
+<entry>2012</entry>
+<entry>2013</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Alabama</entry>
+<entry>3.450</entry>
+<entry>3.720</entry>
+</row>
+<row>
+<entry>Arkansas</entry>
+<entry>2.150</entry>
+<entry>2.280</entry>
+</row>
+<row>
+<entry>Florida</entry>
+<entry>15.540</entry>
+<entry>15.710</entry>
+</row>
+<row>
+<entry>Georgia</entry>
+<entry>6.970</entry>
+<entry>7.310</entry>
+</row>
+<row>
+<entry>Kentucky</entry>
+<entry>3.160</entry>
+<entry>3.300</entry>
+</row>
+<row>
+<entry>Luisiana</entry>
+<entry>3.320</entry>
+<entry>3.630</entry>
+</row>
+<row>
+<entry>Misisipi</entry>
+<entry>1.990</entry>
+<entry>2.080</entry>
+</row>
+<row>
+<entry>Carolina del Norte</entry>
+<entry>7.090</entry>
+<entry>7.430</entry>
+</row>
+<row>
+<entry>Oklahoma</entry>
+<entry>2.630</entry>
+<entry>2.690</entry>
+</row>
+<row>
+<entry>Carolina del Sur</entry>
+<entry>3.570</entry>
+<entry>3.580</entry>
+</row>
+<row>
+<entry>Tennessee</entry>
+<entry>4.680</entry>
+<entry>5.070</entry>
+</row>
+<row>
+<entry>Texas</entry>
+<entry>15.050</entry>
+<entry>14.980</entry>
+</row>
+<row>
+<entry>Virginia</entry>
+<entry>6.190</entry>
+<entry>6.280</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+<solution id="fs-idp65561056">
+<para id="fs-idp65561312">Prueba: dos pares coincidentes o muestras emparejadas (<emphasis effect="italics">prueba t</emphasis>)</para><para id="fs-idp123141440">Variable aleatoria: <m:math>
+<m:mrow>
+<m:msub>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+<m:mi>d</m:mi>
+</m:msub>
+</m:mrow>
+</m:math></para>
+<para id="fs-idp45658064">Distribución: <emphasis effect="italics">t</emphasis><sub>12</sub></para>
+<para id="fs-idp85679904"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis><emphasis effect="italics"><sub>d</sub></emphasis> = 0 <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis><emphasis effect="italics"><sub>d</sub></emphasis> > 0</para>
+<para id="fs-idm70033392">La media de las diferencias de nuevos casos de cáncer de mama femenino en el sur entre 2013 y 2012 es mayor de cero. La estimación de nuevos casos de cáncer de mama femenino en el sur es mayor en 2013 que en 2012.</para>
+<para id="fs-idp16018656">Gráfico: cola derecha</para>
+<para id="fs-idp14099296">valor <emphasis effect="italics">p</emphasis>: 0,0004</para>
+<figure id="fs-idp14099680"><media id="fs-idm6747376" alt="Se trata de una curva de distribución normal con media igual a cero. Una línea vertical cerca de la cola de la curva a la derecha de cero se extiende desde el eje hasta la curva. La región debajo de la curva a la derecha de la línea está sombreada y representa un valor p = 0,0004.">
+<image mime-type="image/jpg" src="../../media/CNX_Stats_C10_M05_002annoN.jpg" width="380"/>
+</media>
+</figure><para id="fs-idp11877696">Decisión: rechaza <emphasis effect="italics">H<sub>0</sub></emphasis></para>
+<para id="fs-idp84781280">Conclusión: Con un nivel de significación del 5 %, a partir de los datos de la muestra, hay pruebas suficientes para concluir que hubo una mayor estimación de nuevos casos de cáncer de mama femenino en 2013 que en 2012.</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idp83186240">
+<problem id="fs-idp70867824">
+<para id="fs-idp70868080">Un viajero quería saber si los precios de los hoteles son diferentes en las diez ciudades que visita con más frecuencia. La lista de las ciudades con los precios correspondientes de sus dos cadenas hoteleras favoritas está en la <link target-id="fs-idp126693504"/>. Pruebe al nivel de significación del 1 %.</para>
+<table id="fs-idp126693504" summary="">
+<tgroup cols="3">
+<thead>
+<row>
+<entry>Ciudades</entry>
+<entry>Precios del Hyatt Regency en dólares</entry>
+<entry>Precios del Hilton en dólares</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Atlanta</entry>
+<entry>107</entry>
+<entry>169</entry>
+</row>
+<row>
+<entry>Boston</entry>
+<entry>358</entry>
+<entry>289</entry>
+</row>
+<row>
+<entry>Chicago</entry>
+<entry>209</entry>
+<entry>299</entry>
+</row>
+<row>
+<entry>Dallas</entry>
+<entry>209</entry>
+<entry>198</entry>
+</row>
+<row>
+<entry>Denver</entry>
+<entry>167</entry>
+<entry>169</entry>
+</row>
+<row>
+<entry>Indianápolis</entry>
+<entry>179</entry>
+<entry>214</entry>
+</row>
+<row>
+<entry>Los Ángeles</entry>
+<entry>179</entry>
+<entry>169</entry>
+</row>
+<row>
+<entry>Ciudad de Nueva York</entry>
+<entry>625</entry>
+<entry>459</entry>
+</row>
+<row>
+<entry>Filadelfia</entry>
+<entry>179</entry>
+<entry>159</entry>
+</row>
+<row>
+<entry>Washington, DC</entry>
+<entry>245</entry>
+<entry>239</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+</exercise>
+
+<exercise id="fs-idp111440192">
+<problem id="fs-idp111440448">
+<para id="fs-idp14986256">Un político les pidió a sus colaboradores que determinaran si la tasa de subempleo en el noreste disminuyó de 2011 a 2012. Los resultados están en la <link target-id="fs-idp10131504"/>.</para>
+<table id="fs-idp10131504" summary="">
+<tgroup cols="3">
+<thead>
+<row>
+<entry>Estados del noreste</entry>
+<entry>2011</entry>
+<entry>2012</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Connecticut</entry>
+<entry>17,3</entry>
+<entry>16,4</entry>
+</row>
+<row>
+<entry>Delaware</entry>
+<entry>17,4</entry>
+<entry>13,7</entry>
+</row>
+<row>
+<entry>Maine</entry>
+<entry>19,3</entry>
+<entry>16,1</entry>
+</row>
+<row>
+<entry>Maryland</entry>
+<entry>16,0</entry>
+<entry>15,5</entry>
+</row>
+<row>
+<entry>Massachusetts</entry>
+<entry>17,6</entry>
+<entry>18,2</entry>
+</row>
+<row>
+<entry>Nuevo Hampshire</entry>
+<entry>15,4</entry>
+<entry>13,5</entry>
+</row>
+<row>
+<entry>Nueva Jersey</entry>
+<entry>19,2</entry>
+<entry>18,7</entry>
+</row>
+<row>
+<entry>Nueva York</entry>
+<entry>18,5</entry>
+<entry>18,7</entry>
+</row>
+<row>
+<entry>Ohio</entry>
+<entry>18,2</entry>
+<entry>18,8</entry>
+</row>
+<row>
+<entry>Pensilvania</entry>
+<entry>16,5</entry>
+<entry>16,9</entry>
+</row>
+<row>
+<entry>Rhode Island</entry>
+<entry>20,7</entry>
+<entry>22,4</entry>
+</row>
+<row>
+<entry>Vermont</entry>
+<entry>14,7</entry>
+<entry>12,3</entry>
+</row>
+<row>
+<entry>Virginia Occidental</entry>
+<entry>15,5</entry>
+<entry>17,3</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+<solution id="fs-idm813936">
+<para id="fs-idm813680">Prueba: muestras coincidentes o emparejadas (prueba<emphasis effect="italics">t</emphasis>)</para><para id="fs-idp27663120">Datos de diferencia: {–0,9; –3,7; –3,2; –0,5; 0,6; –1,9; –0,5; 0,2; 0,6; 0,4; 1,7; –2,4; 1,8}</para>
+<para id="fs-idp27663504">Variable aleatoria: <m:math>
+<m:mrow>
+<m:msub>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+
+<m:mi>d</m:mi>
+</m:msub>
+
+</m:mrow>
+</m:math></para>
+<para id="fs-idm32460304">Distribución: <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>d</sub></emphasis> = 0 <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ<sub>d</sub></emphasis> &lt; 0</para>
+<para id="fs-idp91580896">La media de las diferencias de la tasa de subempleo en los estados del noreste entre 2012 y 2011 es inferior a cero. La tasa de subempleo bajó de 2011 a 2012.</para>
+<para id="fs-idp91581472">Gráfico: cola izquierda.
+<figure id="fs-idm60026752"><media id="fs-idm60026496" alt="Se trata de una curva de distribución normal con media igual a cero. Una línea vertical cerca de la cola de la curva a la derecha de cero se extiende desde el eje hasta la curva. La región debajo de la curva a la derecha de la línea está sombreada y representa un valor p = 0,1207.">
+<image mime-type="image/jpg" src="../../media/CNX_Stats_C10_M05_004annoN.jpg" width="380"/>
+</media>
+</figure></para>
+<para id="fs-idm57153840">valor <emphasis effect="italics">p</emphasis>: 0,1207</para>
+<para id="fs-idm57153456">Decisión: No rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
+<para id="fs-idp36520624">Conclusión: Al nivel de significación del 5 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que hubo una disminución en las tasas de subempleo de los estados del noreste de 2011 a 2012.</para>
+</solution>
+</exercise>
+
+
+</section>
+<section id="fs-idm68580000" class="bring-together-homework">
+<title>Resúmalo todo</title>
+<para id="fs-idp56242144"><emphasis effect="italics">Use la siguiente información para responder los próximos diez ejercicios.</emphasis> Indique cuál de las siguientes opciones identifica mejor la prueba de hipótesis.</para>
+<list id="eip-688" list-type="enumerated" number-style="lower-alpha">
+<item>medias de grupos independientes, desviaciones típicas de la población o varianzas conocidas</item>
+<item>medias de grupos independientes, desviaciones típicas de la población o varianzas desconocidas</item>
+<item>muestras coincidentes o emparejadas</item>
+<item>media simple</item>
+<item>dos proporciones</item>
+<item>proporción única</item>
+</list>
+<exercise id="fs-idm69867264">
+<problem id="fs-idp4767888">
+<para id="fs-idp4768144">Se prueba una dieta en polvo en 49 personas, y una dieta líquida en 36 personas diferentes. Las desviaciones típicas de la población son de dos y tres libras, respectivamente. Nos interesa saber si la dieta líquida produce una mayor pérdida de peso media que la dieta en polvo.</para>
+</problem>
+</exercise>
+
+<exercise id="fs-idm89593504">
+<problem id="fs-idm89593248">
+<para id="fs-idm68777296">Se hace una prueba de sabor de una nueva barra de chocolate entre consumidores. Nos interesa saber si la proporción de niños a quienes les gusta la nueva barra de chocolate es mayor que la de adultos.</para>
+</problem>
+<solution id="fs-idp32894736">
+<para id="fs-idp32894992">e</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idm66474352">
+<problem id="fs-idm151765440">
+<para id="fs-idm151765184">Se cree que el número medio de cursos de inglés realizados en un periodo de dos años por los estudiantes de educación superior hombres y mujeres es aproximadamente igual. Se realiza un experimento y se recopilan datos de nueve hombres y 16 mujeres.</para>
+</problem>
+</exercise>
+<exercise id="fs-idm53146784">
+<problem id="fs-idm20367904">
+<para id="fs-idm20367648">Una liga de fútbol informó que la media de anotaciones por partido era de cinco. Se hace un estudio para determinar si el número medio de anotaciones ha disminuido.</para>
+</problem>
+<solution id="fs-idp145517728">
+<para id="fs-idp145517984">d</para>
+</solution>
+</exercise>
+<exercise id="fs-idm118453520">
+<problem id="fs-idm118453264">
+<para id="fs-idm66098144">Se realiza un estudio para determinar si los estudiantes del sistema universitario estatal de California tardan más en graduarse que los inscritos en universidades privadas. Se encuestaron cien estudiantes del sistema universitario estatal de California y de universidades privadas. A partir de años de investigación se sabe que las desviaciones típicas de la población son de 1,5811 años y de un año, respectivamente.</para>
+</problem>
+</exercise>
+
+<exercise id="fs-idp12095488">
+<problem id="fs-idm80698688">
+<para id="fs-idm80698432">Según un boletín del Centro de Crisis por Violación de la Asociación Cristiana de Mujeres Jóvenes (Young Women's Christian Association, YWCA), el 75 % de las víctimas de violación conocen a sus agresores. Se realiza un estudio para comprobarlo.</para>
+</problem>
+<solution id="fs-idm10304768">
+<para id="fs-idm10304512">f</para>
+</solution>
+</exercise>
+<exercise id="fs-idm63898096">
+<problem id="fs-idm63897840">
+<para id="fs-idm84604768">Según un estudio reciente, las compañías estadounidenses tienen una ausencia media por maternidad de seis semanas. </para>
+</problem>
+</exercise>
+
+<exercise id="fs-idm45776544">
+<problem id="fs-idm45776288">
+<para id="fs-idm135539360">Una encuesta reciente sobre drogas mostró un aumento del consumo de drogas y alcohol entre los estudiantes de secundaria locales en comparación con el porcentaje nacional. Supongamos que se realiza una encuesta entre 100 jóvenes locales y 100 nacionales para ver si la proporción de consumo de drogas y alcohol es mayor localmente que en todo el país.</para>
+</problem>
+<solution id="fs-idm13080224">
+<para id="fs-idp101006144">e</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idm129031904"><problem id="fs-idm129031648">
+<para id="fs-idm88824880">Un nuevo curso de estudio de la SAT se pone a prueba en 12 personas. Se registran las calificaciones antes y después del curso. Nos interesa el aumento medio de las calificaciones de la SAT. Se recopilan los siguientes datos:</para>
+<table id="eip-idp6708160" summary="">
+<tgroup cols="2">
+<thead>
+<row>
+<entry>Calificación antes del curso</entry>
+<entry>Calificación después del curso</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>1</entry>
+<entry>300</entry>
+</row>
+<row>
+<entry>960</entry>
+<entry>920</entry>
+</row>
+<row>
+<entry>1010</entry>
+<entry>1100</entry>
+</row>
+<row>
+<entry>840</entry>
+<entry>880</entry>
+</row>
+<row>
+<entry>1100</entry>
+<entry>1070</entry>
+</row>
+<row>
+<entry>1250</entry>
+<entry>1320</entry>
+</row>
+<row>
+<entry>860</entry>
+<entry>860</entry>
+</row>
+<row>
+<entry>1330</entry>
+<entry>1370</entry>
+</row>
+<row>
+<entry>790</entry>
+<entry>770</entry>
+</row>
+<row>
+<entry>990</entry>
+<entry>1040</entry>
+</row>
+<row>
+<entry>1110</entry>
+<entry>1200</entry>
+</row>
+<row>
+<entry>740</entry>
+<entry>850</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+</exercise>
+
+<exercise id="fs-idm28383952">
+<problem id="fs-idm28383696">
+<para id="fs-idm15629152">Investigadores de la Universidad de Michigan informaron en la <cite id="cite-00001"><cite-title>Revista del Instituto Nacional del Cáncer</cite-title></cite> que dejar de fumar es especialmente beneficioso para los menores de 49 años. En este estudio de la Sociedad Americana del Cáncer, el riesgo (probabilidad) de morir de cáncer de pulmón era prácticamente igual que el de quienes nunca habían fumado.</para>
+</problem>
+<solution id="fs-idp58402592">
+<para id="fs-idp58402848">f</para></solution>
+</exercise>
+<exercise id="eip-787">
+<problem id="eip-435">
+<para id="eip-929">Lesley E. Tan investigó la relación entre ser zurdo o diestro y la competencia motriz en niños de preescolar. Se realizaron varias pruebas de habilidades motrices a muestras aleatorias de 41 niños de preescolar zurdos y 41 diestros para determinar si hay pruebas de una diferencia entre los niños basada en este experimento. El experimento produjo las medias y las desviaciones típicas que se muestran en la <link target-id="fs-idp128816944"/>. Determine la prueba adecuada y la mejor distribución que debe utilizar para esa prueba.</para><table id="fs-idp128816944" summary="...">
+<tgroup cols="3"><tbody>
+<row>
+<entry/>
+<entry>Zurdo</entry>
+<entry>Diestro</entry>
+</row>
+<row>
+<entry>Tamaño de la muestra</entry>
+<entry>41</entry>
+<entry>41</entry>
+</row>
+<row>
+<entry>Media muestral</entry>
+<entry>97,5</entry>
+<entry>98,1</entry>
+</row>
+<row>
+<entry>Desviación típica de la muestra</entry>
+<entry>17,5</entry>
+<entry>19,2</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list id="eip-idm67605488" list-type="enumerated" number-style="lower-alpha">
+<item>Dos medias independientes, distribución normal</item>
+<item>Dos medias independientes, distribución t de Student</item>
+<item>Muestras coincidentes o emparejadas, distribución t de Student</item>
+<item>Dos proporciones de población, distribución normal</item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="fs-idp144471136">
+<problem id="fs-idp144471392">
+<para id="eip-407">Una instructora de golf está interesada en determinar si su nueva técnica para mejorar los resultados de los jugadores de golf es eficaz. Lleva a cuatro (4) nuevos estudiantes. Registra sus calificaciones de 18 hoyos antes de aprender la técnica y después de haber tomado su clase. Realiza una prueba de hipótesis. Los datos son los siguientes: <link target-id="fs-idp136885584"/>.</para><table id="fs-idp136885584" summary="table question">
+<tgroup cols="5"><thead>
+<row>
+<entry/>
+<entry>Jugador 1</entry>
+<entry>Jugador 2</entry>
+<entry>Jugador 3</entry>
+<entry>Jugador 4</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Puntuación media antes de la clase</entry>
+<entry>83</entry>
+<entry>78</entry>
+<entry>93</entry>
+<entry>87</entry>
+</row>
+<row>
+<entry>Puntuación media después de la clase</entry>
+<entry>80</entry>
+<entry>80</entry>
+<entry>86</entry>
+<entry>86</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="eip-765">Esto es:</para>
+<list id="eip-idm74615072" list-type="enumerated" number-style="lower-alpha"><item>una prueba de dos medias independientes.</item>
+<item>una prueba de dos proporciones.</item>
+<item>una prueba de una sola media.</item>
+<item>una prueba de una sola proporción.</item>
+</list></problem>
+<solution id="eip-938">
+<para id="eip-idm32992400">a</para></solution>
+</exercise>
+</section>
+ </content>
+</document>
