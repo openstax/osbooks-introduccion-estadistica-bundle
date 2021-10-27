@@ -7,148 +7,148 @@
     <md:uuid>f346fe75-ae39-4d11-ad32-d80c03df58cb</md:uuid>
     <md:slug>introducción-estadística-empresarial</md:slug>
   </col:metadata>
-  <col:content>
-    <col:module document="m53808"/>
-    <col:subcollection>
-      <md:title>Sampling and Data</md:title>
-      <col:content>
-        <col:module document="m54035"/>
-        <col:module document="m54033"/>
-        <col:module document="m54036"/>
-        <col:module document="m54038"/>
-        <col:module document="m54056"/>
-      </col:content>
-    </col:subcollection>
-    <col:subcollection>
-      <md:title>Descriptive Statistics</md:title>
-      <col:content>
-        <col:module document="m53786"/>
-        <col:module document="m53791"/>
-        <col:module document="m53795"/>
-        <col:module document="m53802"/>
-        <col:module document="m53799"/>
-        <col:module document="m62299"/>
-        <col:module document="m53804"/>
-        <col:module document="m53806"/>
-      </col:content>
-    </col:subcollection>
-    <col:subcollection>
-      <md:title>Probability Topics</md:title>
-      <col:content>
-        <col:module document="m54216"/>
-        <col:module document="m54218"/>
-        <col:module document="m54219"/>
-        <col:module document="m54220"/>
-        <col:module document="m54259"/>
-        <col:module document="m62128"/>
-      </col:content>
-    </col:subcollection>
-    <col:subcollection>
-      <md:title>Discrete Random Variables</md:title>
-      <col:content>
-        <col:module document="m54262"/>
-        <col:module document="m54393"/>
-        <col:module document="m54267"/>
-        <col:module document="m54422"/>
-        <col:module document="m54398"/>
-      </col:content>
-    </col:subcollection>
-    <col:subcollection>
-      <md:title>Continuous Random Variables</md:title>
-      <col:content>
-        <col:module document="m54469"/>
-        <col:module document="m54471"/>
-        <col:module document="m54473"/>
-        <col:module document="m54480"/>
-      </col:content>
-    </col:subcollection>
-    <col:subcollection>
-      <md:title>The Normal Distribution</md:title>
-      <col:content>
-        <col:module document="m54495"/>
-        <col:module document="m54496"/>
-        <col:module document="m54497"/>
-        <col:module document="m62137"/>
-      </col:content>
-    </col:subcollection>
-    <col:subcollection>
-      <md:title>The Central Limit Theorem</md:title>
-      <col:content>
-        <col:module document="m54530"/>
-        <col:module document="m54534"/>
-        <col:module document="m54537"/>
-        <col:module document="m62151"/>
-        <col:module document="m62557"/>
-      </col:content>
-    </col:subcollection>
-    <col:subcollection>
-      <md:title>Confidence Intervals</md:title>
-      <col:content>
-        <col:module document="m55460"/>
-        <col:module document="m55461"/>
-        <col:module document="m55462"/>
-        <col:module document="m55463"/>
-        <col:module document="m56644"/>
-      </col:content>
-    </col:subcollection>
-    <col:subcollection>
-      <md:title>Hypothesis Testing with One Sample</md:title>
-      <col:content>
-        <col:module document="m55603"/>
-        <col:module document="m55606"/>
-        <col:module document="m55607"/>
-        <col:module document="m55608"/>
-        <col:module document="m55610"/>
-      </col:content>
-    </col:subcollection>
-    <col:subcollection>
-      <md:title>Hypothesis Testing with Two Samples</md:title>
-      <col:content>
-        <col:module document="m55613"/>
-        <col:module document="m55671"/>
-        <col:module document="m64420"/>
-        <col:module document="m64421"/>
-        <col:module document="m55672"/>
-        <col:module document="m55673"/>
-        <col:module document="m55674"/>
-      </col:content>
-    </col:subcollection>
-    <col:subcollection>
-      <md:title>The Chi-Square Distribution</md:title>
-      <col:content>
-        <col:module document="m55691"/>
-        <col:module document="m55693"/>
-        <col:module document="m55694"/>
-        <col:module document="m55696"/>
-        <col:module document="m55697"/>
-        <col:module document="m55698"/>
-        <col:module document="m55700"/>
-      </col:content>
-    </col:subcollection>
-    <col:subcollection>
-      <md:title>F Distribution and One-Way ANOVA</md:title>
-      <col:content>
-        <col:module document="m55702"/>
-        <col:module document="m55703"/>
-        <col:module document="m55706"/>
-        <col:module document="m55712"/>
-        <col:module document="m55704"/>
-      </col:content>
-    </col:subcollection>
-    <col:subcollection>
-      <md:title>Linear Regression and Correlation</md:title>
-      <col:content>
-        <col:module document="m55715"/>
-        <col:module document="m55719"/>
-        <col:module document="m55726"/>
-        <col:module document="m55718"/>
-        <col:module document="m55838"/>
-        <col:module document="m64846"/>
-        <col:module document="m56649"/>
-        <col:module document="m55852"/>
-      </col:content>
-    </col:subcollection>
-    <col:module document="m56641"/>
-    <col:module document="m56640"/>
-  </col:content>
+  <content>
+    <module document="m53808"/>
+    <subcollection>
+      <md:title>Muestreo y datos</md:title>
+      <content>
+        <module document="m54035"/>
+        <module document="m54033"/>
+        <module document="m54036"/>
+        <module document="m54038"/>
+        <module document="m54056"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>Estadística descriptiva</md:title>
+      <content>
+        <module document="m53786"/>
+        <module document="m53791"/>
+        <module document="m53795"/>
+        <module document="m53802"/>
+        <module document="m53799"/>
+        <module document="m62299"/>
+        <module document="m53804"/>
+        <module document="m53806"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>Temas de probabilidad</md:title>
+      <content>
+        <module document="m54216"/>
+        <module document="m54218"/>
+        <module document="m54219"/>
+        <module document="m54220"/>
+        <module document="m54259"/>
+        <module document="m62128"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>Variables aleatorias discretas</md:title>
+      <content>
+        <module document="m54262"/>
+        <module document="m54393"/>
+        <module document="m54267"/>
+        <module document="m54422"/>
+        <module document="m54398"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>Variables aleatorias continuas</md:title>
+      <content>
+        <module document="m54469"/>
+        <module document="m54471"/>
+        <module document="m54473"/>
+        <module document="m54480"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>La distribución normal</md:title>
+      <content>
+        <module document="m54495"/>
+        <module document="m54496"/>
+        <module document="m54497"/>
+        <module document="m62137"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>El teorema del límite central</md:title>
+      <content>
+        <module document="m54530"/>
+        <module document="m54534"/>
+        <module document="m54537"/>
+        <module document="m62151"/>
+        <module document="m62557"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>Intervalos de confianza</md:title>
+      <content>
+        <module document="m55460"/>
+        <module document="m55461"/>
+        <module document="m55462"/>
+        <module document="m55463"/>
+        <module document="m56644"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>Pruebas de hipótesis con una muestra</md:title>
+      <content>
+        <module document="m55603"/>
+        <module document="m55606"/>
+        <module document="m55607"/>
+        <module document="m55608"/>
+        <module document="m55610"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>Pruebas de hipótesis con dos muestras</md:title>
+      <content>
+        <module document="m55613"/>
+        <module document="m55671"/>
+        <module document="m64420"/>
+        <module document="m64421"/>
+        <module document="m55672"/>
+        <module document="m55673"/>
+        <module document="m55674"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>La distribución chi-cuadrado</md:title>
+      <content>
+        <module document="m55691"/>
+        <module document="m55693"/>
+        <module document="m55694"/>
+        <module document="m55696"/>
+        <module document="m55697"/>
+        <module document="m55698"/>
+        <module document="m55700"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>La distribución F y el ANOVA de una vía</md:title>
+      <content>
+        <module document="m55702"/>
+        <module document="m55703"/>
+        <module document="m55706"/>
+        <module document="m55712"/>
+        <module document="m55704"/>
+      </content>
+    </subcollection>
+    <subcollection>
+      <md:title>Regresión lineal y correlación</md:title>
+      <content>
+        <module document="m55715"/>
+        <module document="m55719"/>
+        <module document="m55726"/>
+        <module document="m55718"/>
+        <module document="m55838"/>
+        <module document="m64846"/>
+        <module document="m56649"/>
+        <module document="m55852"/>
+      </content>
+    </subcollection>
+    <module document="m56641"/>
+    <module document="m56640"/>
+  </content>
 </col:collection>
