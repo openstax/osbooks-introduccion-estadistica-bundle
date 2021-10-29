@@ -27,7 +27,7 @@
 </m:math> produce la distribución <emphasis effect="italics">Z</emphasis> ~ <emphasis effect="italics">N</emphasis>(0, 1). El valor <emphasis effect="italics">x</emphasis> en la ecuación dada proviene de una distribución normal con una media <emphasis effect="italics">μ</emphasis> y una desviacióntípica <emphasis effect="italics">σ</emphasis>.</para><section id="fs-idp52480624">
 <title>Puntuaciones <emphasis effect="italics">z</emphasis></title>
  <para id="fs-idm81546736">Si <emphasis effect="italics">X</emphasis> es una variable aleatoria normalmente distribuida y <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N(μ, σ)</emphasis>, entonces la puntuación <emphasis effect="italics">z</emphasis> es:</para>
- <equation id="element-521" class="unnumbered"><label/>Los términos <m:math>
+ <equation id="element-521" class="unnumbered">Los términos <m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -41,7 +41,7 @@
 
 <example id="element-49">
 <para id="element-161">Supongamos que <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N(5, 6)</emphasis>. Esto dice que <emphasis effect="italics">X</emphasis> es una variable aleatoria normalmente distribuida, con media <emphasis effect="italics">μ</emphasis> = 5 y desviación típica <emphasis effect="italics">σ</emphasis> = 6. Supongamos que <emphasis effect="italics">x</emphasis> = 17. Entonces:</para>
-<equation id="element-160" class="unnumbered"><label/>Los términos <m:math>
+<equation id="element-160" class="unnumbered">Los términos <m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -82,7 +82,7 @@
 
 
 <note id="fs-idp69782784" class="statistics try">
-<label/><title>Ejercicio</title>
+<title>Ejercicio</title>
 <exercise id="eip-949">
 <problem id="eip-264">
   <para id="eip-653">¿Cuál es la puntuación <emphasis effect="italics">z</emphasis> de <emphasis effect="italics">x</emphasis>, cuando <emphasis effect="italics">x</emphasis> = 1 y <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(12,3)?</para>
@@ -139,7 +139,7 @@
 
 
 <note id="fs-idp126867120" class="statistics try">
-<label/><title>Ejercicio</title>
+<title>Ejercicio</title>
 <exercise id="eip-24">
 <problem id="eip-151">
 <para id="eip-idm83673168">Complete los espacios en blanco.</para>
@@ -182,7 +182,7 @@
 </example>
 
 <note id="fs-idp103857616" class="statistics try">
-<label/><title>Ejercicio</title>
+<title>Ejercicio</title>
 <exercise id="eip-893">
 <problem id="eip-929">
 <para id="fs-idp74289648">Utilice la información del <link target-id="eip-736" document=""/> para responder a las siguientes preguntas.</para>
@@ -212,7 +212,7 @@
 </example>
 
 <note id="fs-idp90060128" class="statistics try">
-<label/><title>Ejercicio</title>
+<title>Ejercicio</title>
 <exercise id="eip-11">
 <problem id="eip-695">
 <para id="eip-881">En 2012, 1.664.479 estudiantes realizaron la Prueba de Aptitud Académica (Scholastic Aptitude Test, SAT). La distribución de las puntuaciones en la sección verbal del SAT tenía una media <emphasis effect="italics">µ</emphasis> = 496 y una desviación típica <emphasis effect="italics">σ</emphasis> = 114. Supongamos que <emphasis effect="italics">X</emphasis> = la puntuación de la sección verbal de la prueba SAT en 2012. Entonces <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(496, 114).</para>
@@ -228,7 +228,7 @@
 </list></example>
 
 <note id="fs-idp63750176" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="eip-897">
 <problem id="eip-714">
@@ -257,7 +257,7 @@
 </example>
 
 <note id="fs-idp139717168" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="eip-188">
 <problem id="eip-401">

@@ -12,7 +12,7 @@
 
 <para id="element-12498">Suponga que quiere estimar, o predecir, la calificación media del examen final de los estudiantes de Estadística que obtuvieron 73 en el tercer examen. Las calificaciones del examen <emphasis>(valores<emphasis effect="italics">x</emphasis>)</emphasis> oscilan entre 65 y 75. <emphasis> Dado que 73 está entre los valores de la <emphasis effect="italics">x</emphasis> 65 y 75</emphasis>, sustituya <emphasis effect="italics">x</emphasis> = 73 en la ecuación. Entonces:</para>
 
-<equation class="unnumbered" id="element-735"><label/>Los términos <m:math>
+<equation class="unnumbered" id="element-735">Los términos <m:math>
  <m:mrow>
   <m:mover accent="true">
    <m:mi>y</m:mi>
@@ -48,13 +48,13 @@
 <m:mo>=</m:mo>
 <m:mn>261,19</m:mn>
 </m:math> <newline/><newline/> Se prevé que la calificación del examen final sea de 261,19. La mayor calificación del examen final puede ser 200. <newline/>
-<note id="eip-id1168998191288"><label/><title>Nota</title>
+<note id="eip-id1168998191288"><title>Nota</title>
 <para id="eip-idp117960960">El proceso de predicción dentro de los valores de la <emphasis effect="italics">x</emphasis> que se observan en los datos se denomina <term id="term-00001">interpolación</term>. El proceso de predicción fuera de los valores de la <emphasis effect="italics">x</emphasis> que se observan en los datos se denomina <term id="term-00002">extrapolación</term>.</para></note></para></solution>
 </exercise>
 </example>
 
 <note id="fs-idp125531648" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="eip-375">
 <problem id="eip-637">

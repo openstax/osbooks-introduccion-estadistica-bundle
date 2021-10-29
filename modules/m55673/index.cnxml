@@ -90,7 +90,7 @@
    </m:mrow>
   </m:math>
  </equation>
- <para id="eip-908"><newline/></para><equation class="unnumbered" id="element-465"><label/><title>El <term id="term-00002">estadístico de prueba</term> (puntuación<emphasis effect="italics">z</emphasis>) es:</title><m:math display="block">
+ <para id="eip-908"><newline/></para><equation class="unnumbered" id="element-465"><title>El <term id="term-00002">estadístico de prueba</term> (puntuación<emphasis effect="italics">z</emphasis>) es:</title><m:math display="block">
  <m:mrow><m:msub>
   <m:mi>Z</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -223,7 +223,7 @@
 
  </m:mrow>
 </m:math> = diferencia en el número medio de meses que duran las ceras para suelos de la competencia.</para><para id="element-735">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≤</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></para><para id="element-608">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>></m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></para><para id="element-696">La expresión <emphasis>“es más eficaz”</emphasis> dice que la cera 1 <emphasis>dura más que la cera 2</emphasis>, en promedio. “Más que” es el símbolo “>” y entra en <emphasis effect="italics">H<sub>a</sub></emphasis>. Por lo tanto, se trata de una prueba de cola derecha.</para>
- <para id="element-690"><emphasis>Distribución para la prueba:</emphasis> Las desviaciones típicas de la población son conocidas, por lo que la distribución es normal. Con la fórmula del estadístico de prueba calculamos el valor para el problema. </para><equation class="unnumbered" id="element-406"><label/>Los términos <m:math>
+ <para id="element-690"><emphasis>Distribución para la prueba:</emphasis> Las desviaciones típicas de la población son conocidas, por lo que la distribución es normal. Con la fórmula del estadístico de prueba calculamos el valor para el problema. </para><equation class="unnumbered" id="element-406">Los términos <m:math>
 <m:msub><m:mi>Z</m:mi><m:mi>c</m:mi></m:msub>
 <m:mo>=</m:mo>
 
@@ -286,7 +286,7 @@
 
 
 <note id="fs-idm64723040" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 
 <exercise id="fs-idm106881952">
@@ -613,7 +613,7 @@
 <section id="fs-idp58644992" class="free-response">
 <title>Tarea para la casa</title>
 <note id="fs-idm71956336">
-<label/>
+
 <title>Nota</title>
 <para id="eip-idp76319008">Si usa una distribución <emphasis effect="italics">t</emphasis>de Student para uno de los siguientes problemas de tarea para la casa, incluso para datos emparejados, puede suponer que la población subyacente está distribuida normalmente (sin embargo, cuando se utilicen estas pruebas en una situación real, primero hay que demostrar ese supuesto).</para></note>
 

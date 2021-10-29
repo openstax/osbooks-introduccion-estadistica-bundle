@@ -25,7 +25,7 @@
 <example id="element-375">
 <para id="element-545">En el Colegio ABC, la tasa de abandono de un curso de Física elemental es del 30 % en cualquier trimestre. Esto implica que, en cualquier trimestre, el 70 % de los alumnos permanecen en la clase durante todo el trimestre. Un “acierto" podría definirse como un individuo que se retira. La variable aleatoria <emphasis effect="italics">X</emphasis> = el número de estudiantes que se retiran de la clase de Física elemental seleccionada al azar.</para></example>
 
-<note id="fs-idm41846320" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm41846320" class="statistics try"><title>Ejercicio</title>
 
 <exercise id="fs-idm40705376">
 <problem id="fs-idm68456256">
@@ -34,7 +34,7 @@
 </note><example id="fs-idm62623744">
 <para id="element-284">Supongamos que está en un juego en el que solo puede ganar o perder. La probabilidad de que gane cualquier partido es del 55 %, y la de que pierda es del 45 %. Cada partido que se juega es independiente. Si juega el juego 20 veces, escriba la función que describa la probabilidad de que gane 15 de las 20 veces. Aquí, si se define <emphasis effect="italics">X</emphasis> como el número de victorias, entonces <emphasis effect="italics">X</emphasis> toma los valores 0, 1, 2, 3, ..., 20. La probabilidad de acierto es <emphasis effect="italics">p</emphasis> = 0,55. La probabilidad de fallo es <emphasis effect="italics">q</emphasis> = 0,45. El número de ensayos es <emphasis effect="italics">n</emphasis> = 20. La pregunta de la probabilidad se puede enunciar matemáticamente como <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 15).</para></example>
 
-<note id="fs-idm55323584" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm55323584" class="statistics try"><title>Ejercicio</title>
 <exercise id="fs-idm35562192">
 <problem id="fs-idm43643408">
 <para id="fs-idm43925792">Un entrenador está enseñando a un delfín a hacer trucos. La probabilidad de que el delfín acierte al desempeñar el truco es del 35 %, y la probabilidad de que el delfín no acierte al desempeñar el truco es del 65 %. De 20 intentos, se quiere hallar la probabilidad de que el delfín acierte 12 veces. Plantee la pregunta de la probabilidad de forma matemática.</para></problem>
@@ -44,7 +44,7 @@
 <para id="element-104">Una moneda imparcial se lanza 15 veces. Cada lanzada es independiente. ¿Cuál es la probabilidad de obtener más de diez caras? Supongamos que <emphasis effect="italics">X</emphasis> = el número de caras en 15 lanzamientos de la moneda imparcial. <emphasis effect="italics">X</emphasis> toma los valores 0, 1, 2, 3, ..., 15. Como la moneda es imparcial, <emphasis effect="italics">p</emphasis> = 0,5 y <emphasis effect="italics">q</emphasis> = 0,5. El número de ensayos es <emphasis effect="italics">n</emphasis> = 15. Plantee la pregunta de la probabilidad de forma matemática.</para>
 </problem>
 </exercise>
-</example><note id="fs-idm26333440" class="statistics try"><label/><title>Ejercicio</title>
+</example><note id="fs-idm26333440" class="statistics try"><title>Ejercicio</title>
 <exercise id="fs-idm77060880">
 <problem id="fs-idm123194928"><para id="fs-idm39905824">Se lanza un dado justo de seis caras diez veces. Cada tirada es independiente. Quiere encontrar la probabilidad de sacar un uno más de tres veces. Plantee la pregunta de la probabilidad de forma matemática.</para></problem>
 </exercise>
@@ -68,7 +68,7 @@
  <para id="element-23532">f. mayor o igual que (≥) <newline count="1"/>La pregunta de probabilidad es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 40).</para></solution>
 </exercise></example>
 
-<note id="fs-idm63118928" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm63118928" class="statistics try"><title>Ejercicio</title>
 <exercise id="fs-idp231440">
 <problem id="fs-idm386096">
 <para id="fs-idm59210304">El sesenta y cinco por ciento de las personas aprueba el examen estatal de conducir en el primer intento. Se selecciona al azar un grupo de 50 personas que han tomado el examen de conducir. Dé dos justificaciones por las que este es un problema binomial.</para></problem>
@@ -84,12 +84,12 @@
 <para id="element-570"><emphasis effect="italics">X</emphasis> toma los valores 0, 1, 2, ..., 20 donde <emphasis effect="italics">n</emphasis> = 20, <emphasis effect="italics">p</emphasis> = 0,41 y <emphasis effect="italics">q</emphasis> = 1 - 0,41 = 0,59. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(20, 0,41)</para><para id="fs-idm48754320" class="finger">Halle <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12) = 0,9738. (calculadora o computadora)</para>
 
 
-<note id="fs-idm73072400" class="statistics calculator"><label/>
+<note id="fs-idm73072400" class="statistics calculator">
 <para id="element-224">Entra en<sup>el 2.º</sup> DISTR. La sintaxis de las instrucciones es la siguiente:</para>
 
 <para id="element-853"><emphasis>Para calcular (<emphasis effect="italics">x</emphasis> = valor): binompdf(<emphasis effect="italics">n</emphasis>, <emphasis effect="italics">p</emphasis>, número)</emphasis> si se omite "número", el resultado es la tabla de probabilidad binomial. <newline/><emphasis>Para calcular <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ valor): binomcdf(<emphasis effect="italics">n</emphasis>, <emphasis effect="italics">p</emphasis>, número)</emphasis> si se omite "número", el resultado es la tabla de probabilidad binomial acumulada. <newline/><emphasis>Para este problema: Una vez que esté en la<sup>2.º</sup> DISTR, baje a binomcdf. Pulse ENTER. Introduzca 20,0.41,12). El resultado es <emphasis effect="italics">P</emphasis><emphasis effect="italics">(x</emphasis> ≤ 12) = 0,9738.</emphasis></para>
 </note><note id="id5442988">
-<label/>
+
 <title>NOTA</title>
 <para id="fs-idm93661872">Si quiere hallar <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 12), utilice la pdf (binompdf). Si quiere hallar <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 12), utilice 1 - binomcdf(20; 0,41;12).</para></note>
 
@@ -129,7 +129,7 @@
  </m:mrow>
 </m:math> = 2.20.</para></example>
 
-<note id="fs-idm83776992" class="statistics try finger"><label/><title>Ejercicio</title>
+<note id="fs-idm83776992" class="statistics try finger"><title>Ejercicio</title>
 <exercise id="fs-idm41424160">
 <problem id="fs-idp5897264">
 <para id="fs-idm41014848">Alrededor del 32 % de los estudiantes participan en un programa de voluntariado comunitario fuera de la escuela. Si se seleccionan 30 estudiantes al azar, calcule la probabilidad de que como máximo 14 de ellos participen en un programa de voluntariado comunitario fuera de la escuela. Utilice la calculadora TI-83+ o TI-84 para hallar la respuesta.</para></problem>
@@ -285,7 +285,7 @@
 </exercise></example>
 
 
-<note id="fs-idm76778272" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm76778272" class="statistics try"><title>Ejercicio</title>
 
 <exercise id="eip-771"><problem id="eip-idm151880496">
 <para id="eip-4">Según una encuesta de Gallup, el 60 % de los adultos estadounidenses prefieren ahorrar a gastar. Supongamos que <emphasis effect="italics">X</emphasis> = el número de adultos estadounidenses de una muestra aleatoria de 50 que prefieren ahorrar a gastar.</para>
@@ -315,7 +315,7 @@
 </exercise>
 </example>
 
-<note id="fs-idm113648656" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm113648656" class="statistics try"><title>Ejercicio</title>
 
 <exercise id="fs-idp4381328">
 <problem id="fs-idm2089568">
@@ -362,7 +362,7 @@
  </m:mrow>
 </m:math>, cuando en la primera extracción se selecciona a un miembro del personal. La probabilidad de sacar el nombre de un alumno cambia en cada uno de los ensayos y, por tanto, viola la condición de independencia.</para></example>
 
-<note id="fs-idm127539840" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm127539840" class="statistics try"><title>Ejercicio</title>
 <exercise id="fs-idm74755088">
 <problem id="fs-idp7533680">
 <para id="fs-idm63476304">Un equipo de lacrosse elige un capitán. Los nombres de todos los mayores se meten en un sombrero y los tres primeros que se extraigan serán los capitanes. Los nombres no se reemplazan una vez extraídos (una persona no puede ser dos capitanes). Quiere ver si los capitanes juegan todos en la misma posición. Indique si se trata de una probabilidad binomial o no y explique por qué.</para></problem>

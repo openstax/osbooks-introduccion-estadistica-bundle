@@ -9,7 +9,7 @@
 
 <content>
 <para id="element-112">En este tipo de prueba de hipótesis se determina si los datos <emphasis>“se ajustan”</emphasis> a una determinada distribución o no. Por ejemplo, puede sospechar que sus datos desconocidos se ajustan a una distribución binomial. Se utiliza una prueba de chi-cuadrado (lo que significa que la distribución para la prueba de hipótesis es chi-cuadrado) para determinar si hay un ajuste o no. <emphasis>Las hipótesis nula y alternativa de esta prueba se pueden escribir en oraciones o plantear como ecuaciones o desigualdades.</emphasis></para><para id="element-908">El estadístico de prueba para una prueba de bondad de ajuste es:</para>
-<equation id="element-252" class="unnumbered"><label/>Los términos <m:math>
+<equation id="element-252" class="unnumbered">Los términos <m:math>
  <m:mrow>
   <m:munder>
    <m:mi>Σ</m:mi>
@@ -51,7 +51,7 @@
 
  </m:mrow>
 </m:math>.</para>
-<para id="element-304">El número de grados de libertad es <emphasis effect="italics">df</emphasis> = (número de categorías – 1).</para><para id="element-838"><emphasis>La <term id="term-00003">prueba de bondad de ajuste</term> es casi siempre de cola derecha.</emphasis> Si los valores observados y los correspondientes valores esperados no se aproximan entre sí, el estadístico de prueba puede ser muy grande y se situará en la cola derecha de la curva de chi-cuadrado.</para><note id="eip-587"><label/><title>Nota</title>
+<para id="element-304">El número de grados de libertad es <emphasis effect="italics">df</emphasis> = (número de categorías – 1).</para><para id="element-838"><emphasis>La <term id="term-00003">prueba de bondad de ajuste</term> es casi siempre de cola derecha.</emphasis> Si los valores observados y los correspondientes valores esperados no se aproximan entre sí, el estadístico de prueba puede ser muy grande y se situará en la cola derecha de la curva de chi-cuadrado.</para><note id="eip-587"><title>Nota</title>
 <para id="fs-idm98728224">El valor esperado de cada celda debe ser, al menos, cinco para poder utilizar esta prueba.</para></note><example id="element-719"><para id="element-615">El ausentismo de los estudiantes universitarios a las clases de Matemáticas es una de las principales preocupaciones de los instructores de Matemáticas, ya que ausentarse de clase parece aumentar la tasa de abandono. Supongamos que se realiza un estudio para determinar si la tasa real de ausentismo de los estudiantes sigue la percepción del profesorado. El profesorado esperaba que un grupo de 100 estudiantes se ausentara de clase según <link target-id="M03_Ch03_tbl001"/>.</para><table id="M03_Ch03_tbl001" summary="The table consists of two columns with headings Number of absences and Expected number of students. There are 5 entries under each heading. Under Number of absences are the entries 0 to 2, 3 to 5, 6 to 8, 9 to 11, 12 plus. Under Expected number of students are the entries 50, 30, 12, 6, 2.">
 <tgroup cols="2"><thead>
   <row>
@@ -186,7 +186,7 @@
   <para id="element-496">b. ¿Cuál es el número de grados de libertad (<emphasis effect="italics">df</emphasis>)?</para></problem>
 <solution id="id6198915">
   <para id="element-601">b. Hay cuatro “celdas” o categorías en cada una de las nuevas tablas.</para><para id="element-6012"><emphasis effect="italics">df</emphasis> = número de celdas – 1 = 4 – 1 = 3</para></solution>
-</exercise></example><note id="fs-idm289894560" class="statistics try"><label/><title>Ejercicio</title>
+</exercise></example><note id="fs-idm289894560" class="statistics try"><title>Ejercicio</title>
 <exercise id="eip-31">
 <problem id="eip-864">
   <para id="eip-988">El gerente de una fábrica necesita saber cuántos productos son defectuosos frente a cuántos se producen. El número de defectos previstos figura en la <link target-id="M03_Ch03_tbl005"/>.</para>
@@ -297,13 +297,13 @@
  </m:mrow>
 </m:math></item>
 </list><para id="element-231">Ahora, añada (sume) la última columna. La suma es de tres. Se trata del estadístico de prueba <emphasis effect="italics">χ<sup>2</sup></emphasis>.</para>
-<para id="element-290">Para hallar el valor <emphasis effect="italics">p</emphasis>, calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">χ</emphasis><sup>2</sup> > 3). Esta prueba es de cola derecha. (Utilice una computadora o una calculadora para hallar el valor <emphasis effect="italics">p</emphasis>. Debería obtener un valor <emphasis effect="italics">p</emphasis>= 0,5578)</para><para id="element-894">Los <emphasis effect="italics">dfs</emphasis> son el número de celdas - 1 = 5 - 1 = 4</para><note id="fs-idm116498656" class="statistics calculator"><label/>
+<para id="element-290">Para hallar el valor <emphasis effect="italics">p</emphasis>, calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">χ</emphasis><sup>2</sup> > 3). Esta prueba es de cola derecha. (Utilice una computadora o una calculadora para hallar el valor <emphasis effect="italics">p</emphasis>. Debería obtener un valor <emphasis effect="italics">p</emphasis>= 0,5578)</para><para id="element-894">Los <emphasis effect="italics">dfs</emphasis> son el número de celdas - 1 = 5 - 1 = 4</para><note id="fs-idm116498656" class="statistics calculator">
 <para id="fs-idm110710848">Pulse <code>2nd DISTR</code>. Flecha hacia abajo <code>χ<sup>2</sup>cdf</code>. Pulse <code>ENTER</code>. Enter <code>(3,10^99,4)</code>. Redondeado a cuatro decimales, debería ver 0,5578, que es el valor p.</para></note><para id="element-724">Luego, complete un gráfico como el siguiente con el identificado y el sombreado adecuados (debería sombrear la cola derecha).</para>
 <figure id="eip-idm102621328"><media id="id6207852" alt="Esta es una curva chi-cuadrado no simétrica en blanco para el estadístico de prueba de los días de la semana y las ausencias." display="block"><image src="../../media/fig-ch11_04_01.jpg" mime-type="image/jpg" width="380"/></media></figure>
 <para id="element-545">La decisión es no rechazar la hipótesis nula.</para>
-<para id="element-1000"><emphasis>Conclusión:</emphasis> A un nivel de significación del 5 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que los días de ausencia no se producen con igual frecuencia.</para><note id="fs-idm74937360" class="statistics calculator"><label/>
+<para id="element-1000"><emphasis>Conclusión:</emphasis> A un nivel de significación del 5 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que los días de ausencia no se producen con igual frecuencia.</para><note id="fs-idm74937360" class="statistics calculator">
 <para id="fs-idm210045248">Las calculadoras TI-83+ y algunas TI-84 no tienen un programa especial para el estadístico de prueba para la prueba de bondad de ajuste. El siguiente ejemplo <link target-id="example3"/> tiene las instrucciones de la calculadora. Las nuevas calculadoras TI-84 tienen en <code>STAT TESTS</code> la prueba <code>Chi2 GOF</code>. Para ejecutar la prueba, ponga los valores observados (los datos) en una primera lista y los valores esperados (los valores que espera si la hipótesis nula es verdadera) en una segunda lista. Pulse <code>STAT TESTS</code> y <code>Chi2 GOF</code>. Introduzca los nombres de la lista observada y de la lista esperada. Introduzca los grados de libertad y pulse <code>Calculate</code> o <code>dibujar</code>. Asegúrese de borrar cualquier lista antes de empezar. <emphasis>Para borrar las listas en las calculadoras:</emphasis> Entra en <code>STAT EDIT</code> y pulse la flecha hacia arriba hasta el área del nombre de la lista en particular. Pulse <code>CLEAR</code> y luego la flecha hacia abajo. La lista se borrará. Como alternativa, puede pulsar <code>STAT</code> y pulsar 4 (para <code>ClrList</code>). Introduzca el nombre de la lista y pulse <code>ENTER</code>.</para></note></solution>
-</exercise></example><note id="fs-idm3127168" class="statistics try"><label/><title>Ejercicio</title>
+</exercise></example><note id="fs-idm3127168" class="statistics try"><title>Ejercicio</title>
 <exercise id="eip-723"><problem id="eip-375">
   <para id="eip-426">Los maestros quieren saber qué noche de la semana sus estudiantes hacen la mayor parte de las tareas para la casa. La mayoría de los maestros piensan que los estudiantes hacen las tareas para la casa por igual a lo largo de la semana. Supongamos que se pregunta a una muestra aleatoria de 56 estudiantes en qué noche de la semana hacen más tareas para la casa. Los resultados se distribuyeron como en la <link target-id="M03_Ch03_tbl008"/>.</para><table id="M03_Ch03_tbl008" summary="">
 <tgroup cols="8">
@@ -438,7 +438,7 @@
 
  </m:mrow>
 </m:math> donde <emphasis effect="italics">df</emphasis> = (el número de celdas) – 1 = 5 – 1 = 4.</para><note id="id6229977">
-<label/>
+
 <title>Nota</title>
 <para id="fs-idm1659296"><emphasis effect="italics">df</emphasis> ≠ 600 - 1</para></note>
 <para id="element-65"><emphasis>Calcule el estadístico de prueba:</emphasis> <emphasis effect="italics">χ</emphasis>2 = 29,65</para>
@@ -448,9 +448,9 @@
 <item><emphasis effect="italics">α</emphasis> = 0,01</item>
 <item>valor <emphasis effect="italics">p</emphasis> = 0,000006</item>
 </list> Así que, <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>.</para><para id="element-251"><emphasis>Tome una decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>, rechace <emphasis effect="italics">H<sub>o</sub></emphasis>.</para>
-<para id="element-717">Esto significa que usted rechaza la creencia de que la distribución para los estados del extremo oeste es igual a la de la población estadounidense en su conjunto.</para><para id="element-387"><emphasis>Conclusión:</emphasis> Al nivel de significación del 1 %, a partir de los datos, hay pruebas suficientes para concluir que la distribución del “número de televisores” para el extremo oeste de Estados Unidos es diferente de la distribución del “número de televisores” para el conjunto de la población estadounidense.</para><note id="fs-idm137892176" class="statistics calculator"><label/>
+<para id="element-717">Esto significa que usted rechaza la creencia de que la distribución para los estados del extremo oeste es igual a la de la población estadounidense en su conjunto.</para><para id="element-387"><emphasis>Conclusión:</emphasis> Al nivel de significación del 1 %, a partir de los datos, hay pruebas suficientes para concluir que la distribución del “número de televisores” para el extremo oeste de Estados Unidos es diferente de la distribución del “número de televisores” para el conjunto de la población estadounidense.</para><note id="fs-idm137892176" class="statistics calculator">
 <para id="fs-idm136592240">Pulse <code>STAT</code> y <code>ENTER</code>. Borre las listas <code>L1</code>, <code>L2</code>, y <code>L3</code> si tienen datos en ellas (vea la nota al final del <link target-id="element-962"/>). En <code>L1</code>, ponga las frecuencias observadas <code>66</code>, <code>119</code>, <code>340</code>, <code>60</code>, <code>15</code>. En <code>L2</code>, ponga las frecuencias esperadas <code>.10*600, .16*600</code>, <code>.55*600</code>, <code>.11*600</code>, <code>.08*600</code>. Flecha hacia la lista <code>L3</code> y hasta el área de nombres <code>"L3"</code>. Enter <code>(L1-L2)^2/L2</code> y <code>ENTER</code>. Pulse <code>2nd QUIT</code>. Pulse <code>2nd LIST</code> y flecha hacia <code>MATH</code>. Pulse <code>5</code>. Debería ver <code>"sum" (Introduzca L3)</code>. Redondeando a 2 decimales, debería ver <code>29,65</code>. Pulse <code>2nd DISTR</code>. Pulse <code>7</code> o flecha hacia abajo a <code>7:χ2cdf</code> y pulse <code>ENTER</code>. Enter <code>(29.65,1E99,4)</code>. Redondeado a cuatro cifras, debería ver <code>5.77E-6 = 0,000006</code> (redondeado a seis decimales), que es el valor p.</para><para id="fs-idm63894800">Las nuevas calculadoras TI-84 tienen en <code>STAT TESTS</code> la prueba <code>Chi2 GOF</code>. Para ejecutar la prueba, ponga los valores observados (los datos) en una primera lista y los valores esperados (los valores que espera si la hipótesis nula es verdadera) en una segunda lista. Pulse <code>STAT TESTS</code> y <code>Chi2 GOF</code>. Introduzca los nombres de la lista observada y de la lista esperada. Introduzca los grados de libertad y pulse <code>Calculate</code> o <code>dibujar</code>. Asegúrese de borrar cualquier lista antes de empezar.</para></note></solution>
-</exercise></example><note id="fs-idm99666800" class="statistics try"><label/><title>Ejercicio</title>
+</exercise></example><note id="fs-idm99666800" class="statistics try"><title>Ejercicio</title>
 
     <exercise id="eip-521">
       <problem id="eip-211">
@@ -504,14 +504,14 @@
   <para id="element-58"><emphasis>Tome una decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis>, no se rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>.
   </para><para id="element-995"><emphasis>Conclusión:</emphasis> No hay pruebas suficientes para concluir que las monedas no son imparciales.</para>
 
-  <note id="fs-idm114779376" class="statistics calculator"><label/>
+  <note id="fs-idm114779376" class="statistics calculator">
 
     <para id="eip-idm32430496">Pulse <code>STAT</code> y <code>ENTER</code>. Borre las listas <code>L1</code>, <code>L2</code>, y <code>L3</code> si tienen datos en ellas. En <code>L1</code>, ponga las frecuencias observadas <code>20</code>, <code>57</code>, <code>23</code>. En <code>L2</code>, ponga las frecuencias esperadas <code>25</code>, <code>50</code>, <code>25</code>. Flecha hacia la lista <code>L3</code> y hasta el área de nombres <code>"L3"</code>. Enter <code>(L1-L2)^2/L2</code> y
 <code>ENTER</code>. Pulse <code>2nd QUIT</code>. Pulse <code>2nd LIST</code> y flecha hacia <code>MATH</code>. Pulse
 <code>5</code>. Debería ver <code>"sum"</code>.<code>Introduzca L3</code>. Redondeado a dos decimales, debería ver <code>2,14</code>. Pulse <code>2nd DISTR</code>. Flecha hacia abajo <code>7:χ2cdf</code> (o pulse <code>7</code>). Pulse
 <code>ENTER</code>. Enter <code>2,14, 1E99,2)</code>. Redondeado a cuatro cifras, debería ver <code>0,3430</code>, que es el valor p.</para><para id="eip-idp7978272">Las nuevas calculadoras TI-84 tienen en <code>STAT TESTS</code> la prueba <code>Chi2 GOF</code>. Para ejecutar la prueba, ponga los valores observados (los datos) en una primera lista y los valores esperados (los valores que espera si la hipótesis nula es verdadera) en una segunda lista. Pulse <code>STAT TESTS</code> y <code>Chi2 GOF</code>. Introduzca los nombres de la lista observada y de la lista esperada. Introduzca los grados de libertad y pulse <code>Calculate</code> o <code>dibujar</code>. Asegúrese de borrar cualquier lista antes de empezar.</para></note></solution>
     </exercise></example>
-  <note id="fs-idm153122384" class="statistics try finger"><label/><title>Ejercicio</title>
+  <note id="fs-idm153122384" class="statistics try finger"><title>Ejercicio</title>
 
     <exercise id="eip-860"><problem id="eip-476">
         <para id="eip-907">Los estudiantes de una clase de estudios sociales plantean la hipótesis de que las tasas de alfabetización en todo el mundo para cada región son del 82 %. La <link target-id="fs-idm84960960"/> muestra las tasas reales de alfabetización en todo el mundo desglosadas por regiones. ¿Cuáles son el estadístico de prueba y los grados de libertad?</para><table id="fs-idm84960960" summary="">

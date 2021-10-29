@@ -293,7 +293,7 @@
 
 </tgroup>
 </table><para id="id3561407">La última entrada de la columna de frecuencia relativa acumulada es uno, lo que indica que se ha acumulado el cien por ciento de los datos.</para>
-<note id="id16479556"><label/><title>NOTA</title>
+<note id="id16479556"><title>NOTA</title>
 <para id="eip-idp27462880">Debido al redondeo, es posible que la columna de frecuencia relativa no sume siempre uno, y que la última entrada de la columna de frecuencia relativa acumulada no sea uno. Sin embargo, cada uno de ellos debería estar cerca de uno.</para></note><para id="element-305">La <link target-id="id9703284" document=""/> representa las alturas, en pulgadas, de una muestra de 100 hombres jugadores de fútbol semiprofesionales.</para><table id="id9703284" summary="This table presents a range of heights in inches in the first column, the number of students whose height falls within that range in the second column, the relative frequency of students in this range (expressed as both a fraction and a decimal) in the third column, and the cumulative relative frequency (expressed as a sum of current and previous relative frequency values) in the fourth column."><title>Tabla de frecuencias de la altura de los jugadores de fútbol</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -510,7 +510,7 @@ Los términos <m:math>
 </exercise>
 </example>
 
-<note id="fs-idm40908240" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm40908240" class="statistics try"><title>Ejercicio</title>
 <!--1-->
 <exercise id="fs-idp57790448"><problem id="fs-idm58055472">
 <para id="fs-idm72824256">La <link target-id="fs-idm82680048" document=""/> muestra la cantidad, en pulgadas, de precipitaciones anuales en una muestra de ciudades.</para>
@@ -600,7 +600,7 @@ Los términos <m:math>
 </table><para id="fs-idm81784864">A partir de <link target-id="fs-idm82680048" document=""/>, calcule el porcentaje de precipitación que es inferior a 9,01 pulgadas.</para>
 </problem>
 <solution id="fs-idm82851248" class="solutions">
-<label/>
+
 <title>Ejercicio Soluciones</title>
 <para id="fs-idm76738800">0,56 o 56 %</para>
 </solution>
@@ -617,12 +617,12 @@ Los términos <m:math>
 </exercise>
 </example>
 
-<note id="fs-idp124591904" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idp124591904" class="statistics try"><title>Ejercicio</title>
 <exercise id="fs-idm61239616"><problem id="fs-idm61142976">
 <para id="fs-idm71703488">A partir de la <link target-id="fs-idm82680048" document=""/>, calcule el porcentaje de precipitaciones que se encuentra entre 6,99 y 13,05 pulgadas.</para>
 </problem>
 <solution id="fs-idm64829776" class="solutions">
-<label/><title>Ejercicio Soluciones</title>
+<title>Ejercicio Soluciones</title>
 <para id="fs-idm72952848">0,30 + 0,16 + 0,18 = 0,64 o 64 %</para>
 </solution>
 </exercise></note><example id="element-235235"><exercise id="element-994"><problem id="id16927469">
@@ -813,14 +813,14 @@ Los términos <m:math>
 <m:mfrac><m:mn>7</m:mn><m:mn>19</m:mn></m:mfrac></m:math>, <m:math><m:mfrac><m:mn>12</m:mn><m:mn>19</m:mn></m:mfrac></m:math>, <m:math><m:mfrac><m:mn>7</m:mn><m:mn>19</m:mn></m:mfrac></m:math></item>
 </list></solution>
 </exercise>
-</example><note id="fs-idp46953216" class="statistics try"><label/><title>Ejercicio</title>
+</example><note id="fs-idp46953216" class="statistics try"><title>Ejercicio</title>
 
 <exercise id="fs-idm57469440">
 <problem id="fs-idm86905392">
 <para id="fs-idm12777216">La <link target-id="fs-idm82680048" document=""/> representa la cantidad, en pulgadas, de precipitaciones anuales en una muestra de ciudades. ¿Qué fracción de las ciudades recibe entre 11,03 y 13,05 pulgadas de lluvia al año?</para>
 </problem>
 <solution id="fs-idm39703984" class="solutions">
-<label/>
+
 <title>Ejercicio Soluciones</title>
 <para id="fs-idm57705408">Los términos <m:math>
  <m:semantics>
@@ -880,7 +880,7 @@ Los términos <m:math>
 </exercise>
 </example>
 
-<note id="fs-idm44002848" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm44002848" class="statistics try"><title>Ejercicio</title>
 <exercise id="fs-idm62775664">
 <problem id="fs-idm9924272">
 <para id="fs-idm65128336">La <link target-id="fs-idm74902768" document=""/> contiene el número total de accidentes mortales de tráfico de vehículos de motor en Estados Unidos para el periodo de 1994 a 2011.</para>
@@ -946,7 +946,7 @@ Los términos <m:math>
 <item>¿Cuál es la frecuencia relativa acumulada en 2006? Explique qué le dice este número sobre los datos.</item>
 </list></problem>
 <solution id="fs-idm101720064" class="solutions">
-<label/>
+
 <title>Ejercicio Soluciones</title>
 <list id="fs-idm84107376" list-type="enumerated" number-style="lower-alpha"><item>190.800 (29,2%)</item>
 <item>24,9%</item>

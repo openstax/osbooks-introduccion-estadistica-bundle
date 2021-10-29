@@ -293,7 +293,7 @@
 <para id="element-807">La hipótesis nula dice que todos los grupos son muestras de poblaciones que tienen la misma distribución normal. La hipótesis alternativa dice que, al menos, dos de los grupos de la muestra proceden de poblaciones con distribuciones normales diferentes. Si la hipótesis nula es verdadera, tanto <emphasis effect="italics">MS</emphasis><sub>entre</sub> como <emphasis effect="italics">MS</emphasis><sub>dentro</sub> deberían estimar el mismo valor.</para>
 
 <note id="eip-82">
-<label/>
+
 <title>Nota</title>
 <para id="eip-idp56014144">La hipótesis nula dice que todas las medias poblacionales del grupo son iguales. La hipótesis de igualdad de medias implica que las poblaciones tienen la misma distribución normal, ya que se supone que las poblaciones son normales y que tienen varianzas iguales.</para></note>
 
@@ -593,7 +593,7 @@
 </m:math> 
 </equation>
 
-<para id="eip-idp15158384">donde <emphasis effect="italics">n</emphasis><sub>1</sub> = 4, <emphasis effect="italics">n</emphasis><sub>2</sub> = 3, <emphasis effect="italics">n</emphasis><sub>3</sub> = 3 y <emphasis effect="italics">n</emphasis> = <emphasis effect="italics">n</emphasis><sub>1</sub> + <emphasis effect="italics">n</emphasis><sub>2</sub> + <emphasis effect="italics">n</emphasis><sub>3</sub> = 10</para><equation class="unnumbered" id="fs-idp1558352"><label/>Los términos <m:math>
+<para id="eip-idp15158384">donde <emphasis effect="italics">n</emphasis><sub>1</sub> = 4, <emphasis effect="italics">n</emphasis><sub>2</sub> = 3, <emphasis effect="italics">n</emphasis><sub>3</sub> = 3 y <emphasis effect="italics">n</emphasis> = <emphasis effect="italics">n</emphasis><sub>1</sub> + <emphasis effect="italics">n</emphasis><sub>2</sub> + <emphasis effect="italics">n</emphasis><sub>3</sub> = 10</para><equation class="unnumbered" id="fs-idp1558352">Los términos <m:math>
 <m:mrow>
 <m:mo> </m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -873,7 +873,7 @@
 </table></example>
 
 <note id="fs-idp19091024" class="statistics try finger">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm48661072">
 <problem id="fs-idp24724224">
@@ -908,7 +908,7 @@
 <para id="fs-idp30767328"><newline/>Cree la tabla ANOVA de una vía.</para></problem>
 
 <solution id="fs-idp130292784">
-<label/>
+
 <para id="fs-idp49360912">Introduzca los datos en las listas L1, L2, L3, L4 y L5. Pulse STAT y desplace la flecha hacia TESTS. Flecha hacia abajo a ANOVA. Pulse ENTER e introduzca L1, L2, L3, L4, L5). Pulse ENTER. La tabla se completó con los resultados de la calculadora.</para>
 
 
@@ -1091,7 +1091,7 @@
 
 
 <note id="fs-idm197200" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="eip-746"><problem id="eip-675">
 <para id="eip-437">El SARM, o <emphasis effect="italics">Staphylococcus aureus resistente a la meticilina</emphasis>, puede causar una grave infección bacteriana en pacientes del hospital. La <link target-id="eip-755"/> muestra varios recuentos de colonias de diferentes pacientes que pueden o no tener SARM. Los datos de la tabla se representan en la <link target-id="fs-idm170381520"/>.</para><table id="eip-755" summary="..">
@@ -1259,7 +1259,7 @@
 <para id="element-75">Supongamos que <emphasis effect="italics">μ<sub>1</sub></emphasis>, <emphasis effect="italics">μ<sub>2</sub></emphasis>, <emphasis effect="italics">μ<sub>3</sub></emphasis>, <emphasis effect="italics">μ<sub>4</sub></emphasis> son las medias poblacionales de las hermandades de mujeres. Recuerde que la hipótesis nula afirma que los grupos de hermandades de mujeres proceden de la misma distribución normal. La hipótesis alternativa dice que, al menos, dos de los grupos de hermandades de mujeres proceden de poblaciones con distribuciones normales diferentes. Observe que los cuatro tamaños de muestra son cinco cada uno.</para>
 
 <note id="eip-id1170641699184">
-<label/>
+
 <title>Nota</title>
 <para id="eip-idp65526416">Este es un ejemplo de <term id="term-00007">diseño equilibrado</term>, ya que cada factor (es decir, la hermandad) tiene el mismo número de observaciones.</para>
 </note>
@@ -1284,7 +1284,7 @@
 
 
 <note id="fs-idm126089872" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="eip-935"><problem id="eip-188">
 <para id="dfgdgffgh">Cuatro equipos deportivos tomaron una muestra aleatoria de jugadores en relación con su GPA del último año. Los resultados se muestran en la <link target-id="eip-440"/>.</para><table id="eip-440" summary=".."><title>Promedio general de los cuatro equipos deportivos</title>

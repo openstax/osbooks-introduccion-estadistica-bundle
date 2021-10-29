@@ -52,7 +52,7 @@
 </m:mrow>
 </m:mfrac>
 </m:msub>
-</m:math> son las proporciones de la muestra para los dos conjuntos de datos en cuestión. X<sub>A</sub> y X<sub>B</sub> son el número de aciertos en cada grupo de la muestra, respectivamente, y n<sub>A</sub> y n<sub>B</sub> son los tamaños de muestra respectivos de los dos grupos. De nuevo acudimos al teorema del límite central para encontrar la distribución muestral con respecto a las diferencias en las proporciones de la muestra. También nos encontramos con que esta distribución muestral, al igual que las anteriores, se distribuye normalmente, tal y como demuestra el teorema del límite central, como se ve en la <link target-id="fs-id1171052108018"/>.</para><figure id="fs-id1171052108018"><media id="fs-id1171049570695" alt=""><image src="../../media/fig-ch10_01_02.jpg" mime-type="image/png"/></media></figure><para id="eip-50">En general, la hipótesis nula permite probar una diferencia de un valor determinado, 𝛿<sub>0</sub>, tal como hicimos para el caso de las diferencias de medias.</para><equation id="eip-671" class="unnumbered"><label/>Los términos <m:math>
+</m:math> son las proporciones de la muestra para los dos conjuntos de datos en cuestión. X<sub>A</sub> y X<sub>B</sub> son el número de aciertos en cada grupo de la muestra, respectivamente, y n<sub>A</sub> y n<sub>B</sub> son los tamaños de muestra respectivos de los dos grupos. De nuevo acudimos al teorema del límite central para encontrar la distribución muestral con respecto a las diferencias en las proporciones de la muestra. También nos encontramos con que esta distribución muestral, al igual que las anteriores, se distribuye normalmente, tal y como demuestra el teorema del límite central, como se ve en la <link target-id="fs-id1171052108018"/>.</para><figure id="fs-id1171052108018"><media id="fs-id1171049570695" alt=""><image src="../../media/fig-ch10_01_02.jpg" mime-type="image/png"/></media></figure><para id="eip-50">En general, la hipótesis nula permite probar una diferencia de un valor determinado, 𝛿<sub>0</sub>, tal como hicimos para el caso de las diferencias de medias.</para><equation id="eip-671" class="unnumbered">Los términos <m:math>
 <m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
 <m:mo>:</m:mo>
 <m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub>
@@ -60,7 +60,7 @@
 <m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub>
 <m:mo>=</m:mo>
 <m:msub><m:mi>𝛿</m:mi><m:mn>0</m:mn></m:msub>
-</m:math></equation><equation id="eip-633" class="unnumbered"><label/>Los términos <m:math>
+</m:math></equation><equation id="eip-633" class="unnumbered">Los términos <m:math>
 <m:msub><m:mi>H</m:mi><m:mn>1</m:mn></m:msub>
 <m:mo>:</m:mo>
 <m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub>
@@ -68,7 +68,7 @@
 <m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub>
 <m:mo>≠</m:mo>
 <m:msub><m:mi>𝛿</m:mi><m:mn>0</m:mn></m:msub>
-</m:math></equation><para id="eip-743">Sin embargo, lo más común es la prueba de que las dos proporciones son iguales. Esto es,  </para><equation id="eip-457" class="unnumbered"><label/>Los términos <m:math>
+</m:math></equation><para id="eip-743">Sin embargo, lo más común es la prueba de que las dos proporciones son iguales. Esto es,  </para><equation id="eip-457" class="unnumbered">Los términos <m:math>
 <m:msub>
 <m:mi>H</m:mi>
 <m:mn>0</m:mn>
@@ -83,7 +83,7 @@
 <m:mi>p</m:mi>
 <m:mi>B</m:mi>
 </m:msub>
-</m:math></equation><equation id="eip-978" class="unnumbered"><label/>Los términos <m:math>
+</m:math></equation><equation id="eip-978" class="unnumbered">Los términos <m:math>
 <m:msub>
 <m:mi>H</m:mi>
 <m:mi>a</m:mi>
@@ -134,7 +134,7 @@
   </m:math>
 
 </equation>
-<para id="eip-251"><newline/></para><equation id="element-225" class="unnumbered"><label/><title>El estadístico de prueba (puntuación<emphasis effect="italics">z</emphasis>) es:</title>Los términos <m:math>
+<para id="eip-251"><newline/></para><equation id="element-225" class="unnumbered"><title>El estadístico de prueba (puntuación<emphasis effect="italics">z</emphasis>) es:</title>Los términos <m:math>
   <m:msub><m:mi>Z</m:mi><m:mi>c</m:mi></m:msub>
 <m:mo>=</m:mo>
   <m:mfrac>
@@ -325,7 +325,7 @@
 </m:mrow>
 </m:math></para>
 <para id="element-478">La diferencia estimada entre los dos grupos es: <emphasis effect="italics">p′<sub>A</sub></emphasis> – <emphasis effect="italics">p′<sub>B</sub></emphasis> = 0,1 – 0,06 = 0,04.<figure id="hyptest22_cmp_3_1"><media id="id3811123" alt="Curva de distribución normal de la diferencia en los porcentajes de pacientes adultos que no reaccionan a los medicamentos A y B después de 30 minutos. La media es igual a cero y los valores –0,04, 0 y 0,04 están marcados en el eje horizontal. Dos líneas verticales se extienden desde –0,04 y 0,04 hasta la curva. La región a la izquierda de –0,04 y la región a la derecha de 0,04 están sombreadas para representar 1/2(valor-p) = 0,0702."><image src="../../media/fig-ch10_01_04n.jpg" mime-type="image/jpg" width="380"/></media></figure>
-<equation id="eip-id1165388470277" class="unnumbered"><label/>Los términos <m:math><m:msub><m:mi>Z</m:mi><m:mi>c</m:mi></m:msub>
+<equation id="eip-id1165388470277" class="unnumbered">Los términos <m:math><m:msub><m:mi>Z</m:mi><m:mi>c</m:mi></m:msub>
 <m:mo>=</m:mo>
 
 <m:mfrac>
@@ -345,7 +345,7 @@
 
 
 <note id="fs-idp38726464" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm6482160"><problem id="fs-idm135837088"><para id="fs-idm99465232">Se están probando dos tipos de válvulas para determinar si hay una diferencia en las tolerancias de presión. Quince de una muestra aleatoria de 100 de la válvula <emphasis effect="italics">A</emphasis> se agrietaron por debajo de 4.500 psi. Seis de una muestra aleatoria de 100 de la válvula <emphasis effect="italics">B</emphasis> se agrietaron por debajo de 4.500 psi. Pruebe con un nivel de significación del 5 %.</para></problem>
 <solution id="fs-idm65740832"><para id="fs-idp18572320">El valor <emphasis effect="italics">p</emphasis> es 0,0379, por lo que podemos rechazar la hipótesis nula. A un nivel de significación del 5 %, los datos respaldan que hay una diferencia en las tolerancias de presión entre las dos válvulas.</para></solution>

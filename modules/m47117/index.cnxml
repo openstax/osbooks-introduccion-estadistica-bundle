@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-    <para id="element-38111">Los datos rara vez se ajustan exactamente a una línea recta. Por lo general, hay que conformarse con predicciones aproximadas. Normalmente, se tiene un conjunto de datos cuyo diagrama de dispersión parece <emphasis>"ajustarse"</emphasis> a una línea recta. Esto se llama <term id="term-00001">línea de mejor ajuste</term> <emphasis>o</emphasis> <term id="term-00002">línea de mínimos cuadrados</term>.</para><note id="fs-idm66386384" class="statistics collab"><label/> 
+    <para id="element-38111">Los datos rara vez se ajustan exactamente a una línea recta. Por lo general, hay que conformarse con predicciones aproximadas. Normalmente, se tiene un conjunto de datos cuyo diagrama de dispersión parece <emphasis>"ajustarse"</emphasis> a una línea recta. Esto se llama <term id="term-00001">línea de mejor ajuste</term> <emphasis>o</emphasis> <term id="term-00002">línea de mínimos cuadrados</term>.</para><note id="fs-idm66386384" class="statistics collab"> 
 <para id="element-900">Si conoce la longitud del dedo meñique (el más pequeño) de una persona, ¿cree que podría predecir su altura? Recopile los datos de su clase (longitud del dedo meñique, en pulgadas). La variable independiente, <emphasis effect="italics">x</emphasis>, es la longitud del dedo meñique y la variable dependiente, <emphasis effect="italics">y</emphasis>, es la altura. Para cada conjunto de datos, trace los puntos en papel cuadriculado. Haga su gráfico lo suficientemente grande y <emphasis>utilice una regla</emphasis>. Luego, "a ojo", dibuja una línea que parezca "ajustarse" a los datos. Para su línea, elija dos puntos convenientes y utilícelos para calcular la pendiente de la línea. Halle la intersección en <emphasis effect="italics">y</emphasis> de la línea extendiendo su línea para que cruce el eje de la <emphasis effect="italics">y</emphasis>. Con las pendientes y las intersecciones en <emphasis effect="italics">y</emphasis>, escriba su ecuación de "mejor ajuste". ¿Cree que todos tendrán la misma ecuación? ¿Por qué sí o por qué no? Según su ecuación, ¿cuál es la altura prevista para una longitud del meñique de 2,5 pulgadas?
 </para></note><example id="element-22"><para id="element-998">Una muestra aleatoria de 11 estudiantes de Estadística produjo los siguientes datos, donde <emphasis effect="italics">x</emphasis> es la calificación del tercer examen sobre 80, y <emphasis effect="italics">y</emphasis> es la calificación del examen final sobre 200. ¿Puede predecir la nota del examen final de un estudiante al azar si conoce la nota del tercer examen?</para>
 
@@ -78,7 +78,7 @@
 <media id="id1164262330756" alt="Este es un diagrama de dispersión de los datos proporcionados. La calificación del tercer examen se representa en el eje x y la del examen final en el eje y. Los puntos forman un patrón fuerte, positivo y lineal."><image src="../../media/fig-ch12_05_01.jpg" mime-type="image/jpeg" width="380"/></media>
 <caption>Diagrama de dispersión que muestra las calificaciones del examen final con base en las del tercer examen.</caption>
 </figure></example><note id="fs-idp122176240" class="statistics try finger">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="eip-397"><problem id="eip-266">
   <para id="eip-937">Los buceadores tienen tiempos máximos de inmersión que no pueden superar cuando van a diferentes profundidades. Los datos en la <link target-id="eip-idm70490496" document=""/> muestran diferentes profundidades con los tiempos máximos de inmersión en minutos. Use su calculadora para hallar la línea de regresión de mínimos cuadrados y predecir el tiempo máximo de inmersión para 110 pies.</para><table id="eip-idm70490496" summary="">
@@ -160,7 +160,7 @@
 <para id="element-215">Esto se denomina <term id="term-00006">suma de errores al cuadrado (Sum of Squared Errors, SSE)</term>.</para><para id="element-640">Utilizando el cálculo, puede determinar los valores de <emphasis effect="italics">a</emphasis> y <emphasis effect="italics">b</emphasis> que hacen que la <emphasis>SSE</emphasis> sea un mínimo. Cuando hace la <emphasis>SSE</emphasis> un mínimo, ha determinado los puntos que están en la línea de mejor ajuste. Resulta que la línea de mejor ajuste tiene la ecuación:
 </para>
 
-<equation class="unnumbered" id="element-710"><label/>Los términos <m:math>
+<equation class="unnumbered" id="element-710">Los términos <m:math>
  <m:mrow>
   <m:mover accent="true">
    <m:mi>y</m:mi>
@@ -265,13 +265,13 @@
 <title>Criterio de mínimos cuadrados para el mejor ajuste</title>
 <para id="eip-996">El proceso de ajuste de la línea de mejor ajuste se denomina <emphasis>regresión lineal</emphasis>. La idea de hallar la línea de mejor ajuste se basa en la suposición de que los datos están dispersos alrededor de una línea recta. El criterio para la línea de mejor ajuste es que la suma de errores al cuadrado (SSE) se minimice, es decir, que sea lo más pequeña posible. Cualquier otra línea que se elija tendrá una SSE mayor que la línea de mejor ajuste. Esta línea de mejor ajuste se denomina <emphasis> línea de regresión por mínimos cuadrados </emphasis>.</para>
 
-<note id="id1164273503037" class="finger"><label/><title>Nota</title>
+<note id="id1164273503037" class="finger"><title>Nota</title>
 <para id="fs-idp15798576">Las hojas de cálculo, los programas estadísticos y muchas calculadoras pueden calcular rápidamente la línea de mejor ajuste y crear los gráficos. Los cálculos suelen ser tediosos si se hacen a mano. Al final de esta sección se muestran las instrucciones para utilizar las calculadoras TI-83, TI-83+ y TI-84+ para hallar la línea de mejor ajuste y crear un diagrama de dispersión.</para></note><para id="element-27">
 <title>EJEMPLO DEL TERCER EXAMEN versus el EXAMEN FINAL:</title>
 El gráfico de la línea de mejor ajuste para el ejemplo del tercer examen o examen final es el siguiente:</para>
 
 <figure id="linrgs_regeq3"><media id="id1164250764889" alt="El diagrama de dispersión de las calificaciones de los exámenes con una línea de mejor ajuste. Un punto de datos se resalta junto con el punto correspondiente en la línea de mejor ajuste."><image src="../../media/fig-ch12_05_03.jpg" mime-type="image/jpeg" width="380"/></media></figure><para id="element-689">La línea de regresión de mínimos cuadrados (línea de mejor ajuste) para el ejemplo del tercer examen o examen final viene dada por la ecuación:</para>
-<equation class="unnumbered" id="element-643"><label/>Los términos <m:math>
+<equation class="unnumbered" id="element-643">Los términos <m:math>
  <m:mrow>
   <m:mover accent="true">
    <m:mi>y</m:mi>
@@ -281,7 +281,7 @@ El gráfico de la línea de mejor ajuste para el ejemplo del tercer examen o exa
  </m:mrow>
 </m:math></equation>
 
-<note id="eip-923"><label/><title>Recordatorio</title>
+<note id="eip-923"><title>Recordatorio</title>
 
 <para id="fs-idp965680">Recuerde que siempre es importante trazar primero un diagrama de dispersión. Si el diagrama de dispersión indica que existe una relación lineal entre las variables, entonces es razonable utilizar una línea de mejor ajuste para hacer predicciones para <emphasis effect="italics">y</emphasis> dada <emphasis effect="italics">x</emphasis> dentro del dominio de los valores de <emphasis effect="italics">x</emphasis> en los datos de la muestra, <emphasis>pero no necesariamente para los valores de <emphasis effect="italics">x</emphasis></emphasis> fuera de ese dominio. Podría utilizar la línea para predecir la puntuación del examen final de un estudiante que obtuvo una puntuación de 73 en el tercer examen. NO debería utilizar la línea para predecir la puntuación del examen final de un estudiante que obtuvo una puntuación de 50 en el tercer examen, porque 50 no está dentro del dominio de los valores de <emphasis effect="italics">x</emphasis> de los datos de la muestra, que están entre 65 y 75.</para>
 </note></section>
@@ -295,7 +295,7 @@ El gráfico de la línea de mejor ajuste para el ejemplo del tercer examen o exa
 
 <para id="fs-idm33827856"><title>EJEMPLO DEL TERCER EXAMEN versus el EXAMEN FINAL</title>Pendiente: La pendiente de la línea es <emphasis effect="italics">b</emphasis> = 4,83. <newline/>Interpretación: Por un aumento de un punto en la puntuación del tercer examen, la puntuación del examen final aumenta en 4,83 puntos, en promedio.
 </para><note id="fs-idm68284544" class="statistics calculator">
-<label/>
+
 <para id="eip-772">Uso de la prueba T de regresión lineal: LinRegTTest<newline count="2"/></para><list id="eip-480" list-type="enumerated" number-style="arabic"><item> En el editor de listas STAT, introduzca los datos X en la lista L1 y los datos Y en la lista L2, emparejados de forma que los valores(<emphasis effect="italics">x</emphasis>,<emphasis effect="italics">y</emphasis>) correspondientes estén uno al lado del otro en las listas. (Si un par de valores concreto se repite, introdúzcalo tantas veces como aparezca en los datos).</item>
 <item> En el menú STAT TESTS, desplácese hacia abajo con el cursor para seleccionar LinRegTTest. (Tenga cuidado al seleccionar LinRegTTest, ya que algunas calculadoras pueden tener también un elemento diferente llamado LinRegTInt).</item>
 <item>En la pantalla de entrada de LinRegTTest introduzca: Xlist: L1 ; Ylist: L2 ; Freq: 1</item>
@@ -317,7 +317,7 @@ El gráfico de la línea de mejor ajuste para el ejemplo del tercer examen o exa
 <item> Para graficar la línea de mejor ajuste, presione la tecla "Y=" y escriba la ecuación -173,5 + 4,83X en la ecuación Y1. (La tecla X está inmediatamente a la izquierda de la tecla STAT). Vuelva a pulsar ZOOM 9 para graficarla. </item>
 <item>Opcional: Si desea cambiar la ventana de visualización, pulse la tecla WINDOW. Introduzca la ventana deseada mediante Xmin, Xmax, Ymin, Ymax</item></list></note>
 
-<note id="fs-idm135623232"><label/><title>NOTA</title>
+<note id="fs-idm135623232"><title>NOTA</title>
 <para id="fs-idm70635232">Otra forma de graficar la línea después de crear un diagrama de dispersión es utilizar LinRegTTest <list id="eip-idm46438656" list-type="enumerated" number-style="arabic">
 <item>Asegúrese de haber hecho el diagrama de dispersión. Compruébelo en su pantalla.</item>
 <item>Vaya a LinRegTTest e introduzca las listas.</item>
@@ -335,7 +335,7 @@ El gráfico de la línea de mejor ajuste para el ejemplo del tercer examen o exa
 </para>
 
 <para id="eip-344">El coeficiente de correlación se calcula como</para>
-<para id="element-48"><equation class="unnumbered" id="eip-id4561593"><label/>Los términos <m:math>
+<para id="element-48"><equation class="unnumbered" id="eip-id4561593">Los términos <m:math>
  <m:mrow>
   <m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -398,7 +398,7 @@ El gráfico de la línea de mejor ajuste para el ejemplo del tercer examen o exa
 </list>
 </para>
 
-<note id="eip-131"><label/><title>Nota</title>
+<note id="eip-131"><title>Nota</title>
 Una fuerte correlación no sugiere que <emphasis effect="italics">x</emphasis> sea la causa de <emphasis effect="italics">y</emphasis> o que <emphasis effect="italics">y</emphasis> sea la causa de <emphasis effect="italics">x</emphasis>. Decimos que <emphasis>“la correlación no implica causalidad”.</emphasis>
 </note><figure id="linrgs_facts_pics"><media id="eip-idp8185984" alt="Tres diagramas de dispersión con líneas de mejor ajuste. El primer diagrama de dispersión muestra puntos que ascienden desde la parte inferior izquierda hasta la superior derecha. La línea de mejor ajuste tiene pendiente positiva. El segundo diagrama de dispersión muestra los puntos que descienden desde la parte superior izquierda hasta la inferior derecha. La línea de mejor ajuste tiene pendiente negativa. El tercer diagrama de dispersión de puntos forma un patrón horizontal. La línea de mejor ajuste es una línea horizontal.">
 <image src="../../media/fig-ch12_06_01.jpg" mime-type="image/jpeg" width="380"/>
@@ -543,7 +543,7 @@ Una fuerte correlación no sugiere que <emphasis effect="italics">x</emphasis> s
 <definition id="coeffcorr">
     <term>Coeficiente de correlación</term>
     <meaning id="id1167925021109">medida desarrollada por Karl Pearson (a principios del siglo XX), que da la fuerza de asociación entre la variable independiente y la variable dependiente; la fórmula es:
-    <equation class="unnumbered" id="id5499555"><label/>Los términos <m:math>
+    <equation class="unnumbered" id="id5499555">Los términos <m:math>
  <m:mrow>
   <m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>

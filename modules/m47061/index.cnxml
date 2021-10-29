@@ -33,7 +33,7 @@
 
  </m:mrow>
 </m:math> La distribución normal tiene el siguiente formato:
-<equation class="unnumbered" id="normal"><label/><title>La <term id="term-00001">distribución normal</term> es:</title>Los términos <m:math>
+<equation class="unnumbered" id="normal"><title>La <term id="term-00001">distribución normal</term> es:</title>Los términos <m:math>
  <m:mrow>
   <m:msub>
    <m:mover accent="true">
@@ -114,7 +114,7 @@
  </m:mrow>
 </m:math></equation></para>
 
-<equation class="unnumbered" id="element-970"><label/>
+<equation class="unnumbered" id="element-970">
   <title><term id="term-00002">La desviación típica</term> es:</title>
 Los términos <m:math>
    <m:mrow>
@@ -171,7 +171,7 @@ Los términos <m:math>
    </m:mrow>
   </m:math>
  </equation>
- <equation class="unnumbered" id="element-465"><label/><title>El <term id="term-00003">estadístico de prueba</term> (puntuación<emphasis effect="italics">z</emphasis>) es:</title>Los términos <m:math>
+ <equation class="unnumbered" id="element-465"><title>El <term id="term-00003">estadístico de prueba</term> (puntuación<emphasis effect="italics">z</emphasis>) es:</title>Los términos <m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -409,13 +409,13 @@ Los términos <m:math>
 
  <para id="element-132"><emphasis>Conclusión:</emphasis> Al nivel de significación del 5 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que el tiempo medio de duración de la cera 1 sea mayor (la cera 1 es más eficaz) que el tiempo medio de duración de la cera 2.</para>
 
-<note id="fs-idp34028208" class="statistics calculator"><label/>
+<note id="fs-idp34028208" class="statistics calculator">
 <para id="eip-idp126677488">Pulse <code>STAT</code>. Desplace la flecha hacia <code>TESTS</code> y pulse <code>3:2-SampZTest</code>. Desplace la flecha hacia <code>STATS</code> y pulse <code>ENTER</code>. Desplace la flecha hacia abajo y presione ENTER <code>0,33</code> para sigma1, <code>0,36</code> para sigma2, <code>3</code> para la primera media muestral, <code>20</code> para n1, <code>2,9</code> para la segunda media muestral, y <code>20</code> para n2. Desplace la flecha hacia abajo hasta <emphasis effect="italics">μ</emphasis>1: y la flecha hacia > <emphasis effect="italics">μ</emphasis><sub>2</sub>. Pulse <code>ENTER</code>. Desplace la flecha hacia abajo hasta <code>Calculate</code> y pulse <code>ENTER</code>. El valor <emphasis effect="italics">p</emphasis> es <emphasis effect="italics">p</emphasis> = 0,1799 y el estadístico de prueba es 0,9157. Vuelva a realizar el procedimiento, pero en vez de <code>Calculate</code> presione <code>Draw</code>.</para></note></solution>
 </exercise></example>
 
 
 <note id="fs-idm64723040" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 
 <exercise id="fs-idm106881952">
@@ -927,7 +927,7 @@ Los términos <m:math>
 <section id="fs-idp58644992" class="free-response">
 <title>Tarea para la casa</title>
 <para id="eip-idm126171328"><emphasis effect="italics">INSTRUCCIONES: Para cada uno de los problemas de palabras use una hoja de soluciones para hacer la prueba de hipótesis. La hoja de soluciones se encuentra en el <link document="m47882"/>. No dude en hacer copias de las hojas de soluciones. Para la versión en línea del libro se sugiere copiar los archivos .doc o .pdf.</emphasis></para><note id="fs-idm71956336">
-<label/>
+
 <title>Nota</title>
 <para id="eip-idp76319008">Si usa una distribución <emphasis effect="italics">t</emphasis>de Student para uno de los siguientes problemas de tarea para la casa, incluso para datos emparejados, puede suponer que la población subyacente está distribuida normalmente (sin embargo, cuando se utilicen estas pruebas en una situación real, primero hay que demostrar ese supuesto).</para></note>
 

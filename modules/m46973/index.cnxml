@@ -15,11 +15,11 @@
 <title>Cálculo de probabilidades</title>
 <para id="eip-idp126141922" class="finger">Las probabilidades se calculan mediante la tecnología. Se dan las instrucciones necesarias para las calculadoras TI-83+ y TI-84.</para>
 
-<note id="id1168986691838"><label/><title>NOTA</title>
+<note id="id1168986691838"><title>NOTA</title>
 <para id="eip-idp12614192">Para calcular la probabilidad, utilice las tablas de probabilidad proporcionadas en <link document="m47875"/> sin utilizar la tecnología. Las tablas incluyen instrucciones para su uso.</para></note><example id="element-375">
 <para id="element-437">Si el área de la izquierda es 0,0228, el área de la derecha es 1 - 0,0228 = 0,9772.</para></example>
 
-<note id="fs-idm96786656" class="statistics try"><label/>
+<note id="fs-idm96786656" class="statistics try">
 <title>Ejercicio</title>
 <exercise id="fs-idm159222080">
 <problem id="fs-idm32590832">
@@ -45,11 +45,11 @@
 </media>
 </figure><para id="element-45">La probabilidad de que cualquier estudiante seleccionado al azar obtenga una calificación superior a 65 es de 0,3446.
 </para><note id="fs-idm55987936" class="statistics calculator">
-<label/>
+
 <para id="element-736">Entra en <code>2.ª DISTR</code>. <newline/>Después de pulsar <code>2.ª DISTR</code>, pulse <code>2:normalcdf</code>.</para><para id="element-56">La sintaxis de las instrucciones es la siguiente:</para>
 <para id="element-657">normalcdf(valor inferior, valor superior, media, desviación típica). Para este problema: normalcdf(65,1E99,63,5) = 0,3446. Se obtiene 1E99 (= 10<sup>99</sup>) al pulsar <code>1</code>, la <code>EE</code> tecla (una segunda tecla) y luego <code>99</code>. O bien, puede ingresar <code>10^99</code> en su lugar. El número 10<sup>99</sup> está en la cola derecha de la curva normal. Estamos calculando el área entre 65 y 10<sup>99</sup>. En algunos casos, el número inferior del área puede ser -1E99 (= -10<sup>99</sup>). El número -10<sup>99</sup> está en la cola izquierda de la curva normal.</para></note>
 
-<note id="id1168986705026"><label/>
+<note id="id1168986705026">
 <title>Nota histórica</title>
 <para id="fs-idm194168736">El programa de probabilidad de TI calcula una puntuación <emphasis effect="italics">z</emphasis>y luego la probabilidad a partir de la puntuación <emphasis effect="italics">z</emphasis>. Antes de la tecnología, la puntuación <emphasis effect="italics">z</emphasis> se buscaba en una tabla de probabilidad normal (porque la matemática implicada es demasiado engorrosa) para calcular la probabilidad. En este ejemplo, se utilizó una tabla normal estándar con el área a la izquierda de la puntuación <emphasis effect="italics">z</emphasis>. Se calcula la puntuación <emphasis effect="italics">z</emphasis> y se busca el área a la izquierda. La probabilidad es el área de la derecha.</para></note>
 
@@ -69,7 +69,7 @@
 <para id="fs-idm125027840"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 65) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">z</emphasis> >  0,4) = 1 - 0,6554 = 0,3446</para></solution>
 </exercise>
 
-<note id="fs-idm98690992" class="statistics calculator"><label/>
+<note id="fs-idm98690992" class="statistics calculator">
 <para id="fs-idm197852304">Encuentre el percentil de un estudiante con una puntuación de 65:</para><para id="fs-idm20771216">*Pulse <code>2.ª Distr</code>
 <newline/>*Pulse <code>2:normalcdf</code>( <newline/>*Ingrese el límite inferior, límite superior, media, desviación típica seguido de ) <newline/>*Pulse <code>ENTER</code>. <newline/>Para este ejemplo, los pasos son <newline/><code>2.ª Distr</code>
 <newline/><code>2:normalcdf</code>(65,1,2nd EE,99,63,5) <code>ENTER</code>
@@ -103,7 +103,7 @@
 </exercise>
 
 <note id="fs-idm89013760" class="statistics calculator">
-<label/>
+
 <para id="fs-idm78070144"><code>invNorm</code> pulgada <code>2.ª DISTR</code>. invNorm(área a la izquierda, media, desviación típica) <newline/>Para este problema, invNorm(0,90;63;5) = 69,4</para></note>
 
 <exercise id="element-322">
@@ -116,7 +116,7 @@
 <para id="element-71">invNorm(0,70;63;5) = 65,6</para></solution>
 </exercise>
 </example><note id="fs-idm83435856" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm160100784">
 <problem id="fs-idm31461824">
@@ -160,7 +160,7 @@
 
 </example>
 
-<note id="fs-idm101393328" class="statistics try"><label/>
+<note id="fs-idm101393328" class="statistics try">
 <title>Ejercicio</title>
 <exercise id="fs-idm193708112"><problem id="fs-idm168992208">
 <para id="fs-idm120157248">Las puntuaciones de golf de un equipo escolar se distribuyen normalmente, con una media de 68 y una desviación típica de tres. Calcule la probabilidad de que un golfista obtenga una puntuación entre 66 y 70.</para></problem>
@@ -184,7 +184,7 @@
 </exercise>
 </example>
 
-<note id="fs-idm126739248" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm126739248" class="statistics try"><title>Ejercicio</title>
 
 <para id="eip-idm1584896">Utilice la información del <link target-id="eip-562" document=""/> para responder las siguientes preguntas.</para>
 <exercise id="eip-idm1584512">
@@ -226,7 +226,7 @@
 </example>
 
 <note id="fs-idm81547104" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm64657232">
 <problem id="fs-idm78477504">
@@ -265,7 +265,7 @@
 </exercise>
 </example>
 
-<note id="fs-idm127937776" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm127937776" class="statistics try"><title>Ejercicio</title>
 <exercise id="eip-786">
 <problem id="eip-686">
 <para id="eip-973">Utilizando la información del <link target-id="eip-662" document=""/>, responda a lo siguiente:</para>

@@ -14,13 +14,13 @@
 <item>Las diferencias se calculan a partir de las muestras coincidentes o emparejadas.</item>
 <item>Las diferencias forman la muestra que se utiliza para la prueba de hipótesis.</item>
 <item>O bien los pares coincidentes tienen diferencias que provienen de una población que es normal o el número de diferencias es lo suficientemente grande como para que la distribución de la media muestral de las diferencias sea aproximadamente normal.</item>
-</list><para id="eip-8888">En una prueba de hipótesis para muestras coincidentes o emparejadas los sujetos son coincidentes en pares y se calculan las diferencias. Las diferencias son los datos. A continuación, la media poblacional de las diferencias, <emphasis effect="italics">μ<sub>d</sub></emphasis>, se verifica con la prueba t de Student para una única media poblacional con <emphasis effect="italics">n</emphasis> – 1 grados de libertad, donde <emphasis effect="italics">n</emphasis> es el número de diferencias, es decir, el número de pares, no el número de observaciones.</para><equation class="unnumbered" id="eip-467"><label/><title>Las hipótesis nula y alternativa para esta prueba son:</title>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
+</list><para id="eip-8888">En una prueba de hipótesis para muestras coincidentes o emparejadas los sujetos son coincidentes en pares y se calculan las diferencias. Las diferencias son los datos. A continuación, la media poblacional de las diferencias, <emphasis effect="italics">μ<sub>d</sub></emphasis>, se verifica con la prueba t de Student para una única media poblacional con <emphasis effect="italics">n</emphasis> – 1 grados de libertad, donde <emphasis effect="italics">n</emphasis> es el número de diferencias, es decir, el número de pares, no el número de observaciones.</para><equation class="unnumbered" id="eip-467"><title>Las hipótesis nula y alternativa para esta prueba son:</title>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
 <m:mo>:</m:mo> 
 <m:msub><m:mi>µ</m:mi><m:mi>d</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn>
-</m:math></equation><equation class="unnumbered" id="eip-724"><label/>Los términos <m:math>
+</m:math></equation><equation class="unnumbered" id="eip-724">Los términos <m:math>
 <m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub>
 <m:mo>:</m:mo> 
-<m:msub><m:mi>µ</m:mi><m:mi>d</m:mi></m:msub><m:mo>≠</m:mo><m:mn>0</m:mn></m:math></equation><equation class="unnumbered" id="element-403"><label/><title>El estadístico de prueba es:</title>Los términos <m:math>
+<m:msub><m:mi>µ</m:mi><m:mi>d</m:mi></m:msub><m:mo>≠</m:mo><m:mn>0</m:mn></m:math></equation><equation class="unnumbered" id="element-403"><title>El estadístico de prueba es:</title>Los términos <m:math>
 <m:mrow>
 <m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -87,7 +87,7 @@ Los términos <m:math>
 </m:math>
 </equation>
 Esta forma refleja la afirmación implícita de que el curso de formación mejora las puntuaciones; la prueba es de una cola y la afirmación está en la hipótesis alternativa. Dado que el experimento se llevó a cabo como una muestra emparejada, en lugar de tomar simplemente las puntuaciones de las personas que realizaron el curso de formación de las que no lo hicieron, utilizamos el estadístico de prueba de pares emparejados:
-<equation class="unnumbered" id="eip-id1476519"><label/>Los términos <m:math><m:mtext>Estadística de la prueba: </m:mtext><m:mspace width="0.2em"/>
+<equation class="unnumbered" id="eip-id1476519">Los términos <m:math><m:mtext>Estadística de la prueba: </m:mtext><m:mspace width="0.2em"/>
 <m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub>
 <m:mo>=</m:mo>
 <m:mfrac><m:mrow><m:msub><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mi>d</m:mi></m:msub><m:mo>- −</m:mo><m:msub><m:mi>µ</m:mi><m:mi>d</m:mi></m:msub></m:mrow>
@@ -104,7 +104,7 @@ Para resolver esta ecuación, hay que utilizar cada una las puntuaciones, el cur
 Los términos <m:math><m:msub><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mi>d</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mn>2</m:mn></m:msub></m:math>
 </equation>
 A partir de estas diferencias podemos calcular la desviación estándar de cada una de las diferencias:
-<equation class="unnumbered" id="eip-id4727950"><label/>Los términos <m:math><m:msub><m:mi>S</m:mi><m:mi>d</m:mi></m:msub><m:mo>=</m:mo>
+<equation class="unnumbered" id="eip-id4727950">Los términos <m:math><m:msub><m:mi>S</m:mi><m:mi>d</m:mi></m:msub><m:mo>=</m:mo>
 <m:mfrac><m:mrow><m:mi>Σ</m:mi><m:mo>(</m:mo><m:msub><m:mi>d</m:mi><m:mi>i</m:mi></m:msub><m:mo>- −</m:mo><m:msub><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mi>d</m:mi></m:msub><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup></m:mrow>
 <m:mrow><m:mi>n</m:mi><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac>
 <m:mtext> donde </m:mtext><m:mspace width="0.2em"/>

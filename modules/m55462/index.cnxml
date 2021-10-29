@@ -77,7 +77,7 @@
 
 </item>
 <item>
-Los términos <m:math><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>s</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:math></item></list><para id="eip-921">Hay que replantear la fórmula de un intervalo de confianza para la media para los casos en que el tamaño de la muestra es inferior a 30 y no conocemos la desviación típica de la población, σ:</para><equation id="eip-546" class="unnumbered"><label/>Los términos <m:math>
+Los términos <m:math><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>s</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:math></item></list><para id="eip-921">Hay que replantear la fórmula de un intervalo de confianza para la media para los casos en que el tamaño de la muestra es inferior a 30 y no conocemos la desviación típica de la población, σ:</para><equation id="eip-546" class="unnumbered">Los términos <m:math>
 <m:mover><m:mi>intersecciones en x</m:mi><m:mo>–</m:mo></m:mover>
 <m:mo>-</m:mo>
 <m:msub>
@@ -110,7 +110,7 @@ Los términos <m:math><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>s</m:mi><m:msqr
 </m:mfrac>
 <m:mo>)</m:mo>
 </m:math></equation><para id="eip-573">Aquí la estimación puntual de la desviación típica de la población, s ha sido sustituida por la desviación típica de la población, σ, y t<sub>ν</sub>,α ha sido sustituida por Z<sub>α</sub>. La letra griega ν (pronunciada niu) se coloca en la fórmula general en reconocimiento de que hay muchas distribuciones de Student t<sub>v</sub>, una para cada tamaño de muestra. ν es el símbolo de los grados de libertad de la distribución y depende del tamaño de la muestra. A menudo se utiliza “df” para abreviar los grados de libertad. <emphasis>Para este tipo de problema,</emphasis> los grados de libertad son ν = n-1, donde n es el tamaño de la muestra. Para buscar una probabilidad en la tabla t de Student tenemos que conocer los grados de libertad del problema.  </para><example id="fs-id1170684098224"><exercise id="eip-33"><problem id="eip-id4891760">
-<para id="eip-id7764553">El beneficio medio por acción (BPA) de 10 acciones industriales seleccionadas al azar entre las que se cotizan en el Dow-Jones Industrial Average resultó ser <m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover></m:math> = 1,85 con una desviación típica de s=0,395. Calcule un intervalo de confianza del 99 % para el BPA medio de todas las empresas industriales que cotizan en el Dow-Jones Industrial Average (DJIA).</para><equation id="eip-372" class="unnumbered"><label/>Los términos <m:math>
+<para id="eip-id7764553">El beneficio medio por acción (BPA) de 10 acciones industriales seleccionadas al azar entre las que se cotizan en el Dow-Jones Industrial Average resultó ser <m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover></m:math> = 1,85 con una desviación típica de s=0,395. Calcule un intervalo de confianza del 99 % para el BPA medio de todas las empresas industriales que cotizan en el Dow-Jones Industrial Average (DJIA).</para><equation id="eip-372" class="unnumbered">Los términos <m:math>
 <m:mover><m:mi>intersecciones en x</m:mi><m:mo>–</m:mo></m:mover>
 <m:mo>-</m:mo>
 <m:msub>
@@ -150,7 +150,7 @@ Los términos <m:math><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>s</m:mi><m:msqr
   </media>
 
 </figure>
-  <para id="eip-id1169756770305">Para encontrar el valor t adecuado se necesitan dos datos, el nivel de confianza deseado y los grados de libertad. La pregunta pedía un nivel de confianza del 99 %. En el gráfico esto se muestra donde (1-α), el nivel de confianza, está en el área no sombreada. Las colas, por tanto, tienen 0,005 de probabilidad cada una, α/2. Los grados de libertad para este tipo de problema son n-1= 9. En la tabla t de Student, en la fila marcada como 9 y en la columna marcada como 0,005, se halla el número de desviaciones típicas para capturar el 99 % de la probabilidad, 3,2498. A continuación, se colocan en el gráfico recordando que la t de Student es simétrica y que, por lo tanto, el valor t está tanto del lado más como del lado menos de la media.</para><para id="eip-id1169966923680">Al insertar estos valores en la fórmula se obtiene el resultado. Estos valores pueden colocarse en el gráfico para ver la relación entre la distribución de las medias muestrales, <m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover></m:math> y la distribución <emphasis effect="italics">t</emphasis> de Student.  </para><equation id="eip-id1171263782198" class="unnumbered"><label/>Los términos <m:math>
+  <para id="eip-id1169756770305">Para encontrar el valor t adecuado se necesitan dos datos, el nivel de confianza deseado y los grados de libertad. La pregunta pedía un nivel de confianza del 99 %. En el gráfico esto se muestra donde (1-α), el nivel de confianza, está en el área no sombreada. Las colas, por tanto, tienen 0,005 de probabilidad cada una, α/2. Los grados de libertad para este tipo de problema son n-1= 9. En la tabla t de Student, en la fila marcada como 9 y en la columna marcada como 0,005, se halla el número de desviaciones típicas para capturar el 99 % de la probabilidad, 3,2498. A continuación, se colocan en el gráfico recordando que la t de Student es simétrica y que, por lo tanto, el valor t está tanto del lado más como del lado menos de la media.</para><para id="eip-id1169966923680">Al insertar estos valores en la fórmula se obtiene el resultado. Estos valores pueden colocarse en el gráfico para ver la relación entre la distribución de las medias muestrales, <m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover></m:math> y la distribución <emphasis effect="italics">t</emphasis> de Student.  </para><equation id="eip-id1171263782198" class="unnumbered">Los términos <m:math>
 <m:mi>μ</m:mi><m:mo>=</m:mo>
 <m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover>
 <m:mo>±</m:mo>
@@ -172,13 +172,13 @@ Los términos <m:math><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>s</m:mi><m:msqr
 <m:mn>1,8551</m:mn><m:mo>±</m:mo><m:mn>0,406</m:mn>
 
 </m:math></equation>
-<equation id="eip-id1169768034722" class="unnumbered"><label/>Los términos <m:math><m:mn>1,445</m:mn><m:mo>≤</m:mo><m:mi>μ</m:mi><m:mo>≤</m:mo><m:mn>2,257</m:mn></m:math></equation><para id="eip-id1165395973931">La conclusión formal es la siguiente:</para><para id="eip-id1165395962781">Con un nivel de confianza del 99 %, el BPA medio de todas las industrias que figuran en el DJIA es de 1,44 dólares a 2,26 dólares.</para></solution>
+<equation id="eip-id1169768034722" class="unnumbered">Los términos <m:math><m:mn>1,445</m:mn><m:mo>≤</m:mo><m:mi>μ</m:mi><m:mo>≤</m:mo><m:mn>2,257</m:mn></m:math></equation><para id="eip-id1165395973931">La conclusión formal es la siguiente:</para><para id="eip-id1165395962781">Con un nivel de confianza del 99 %, el BPA medio de todas las industrias que figuran en el DJIA es de 1,44 dólares a 2,26 dólares.</para></solution>
 </exercise></example><note id="fs-idm181001040" class="statistics try">
- <label/>
+ 
  <title>Ejercicio</title>
  <exercise id="eip-496"><problem id="eip-247">
   <para id="eip-331">Usted hace un estudio sobre la hipnoterapia para determinar su eficacia a la hora de aumentar el número de horas de sueño de los sujetos cada noche. Se miden las horas de sueño de 12 sujetos con los siguientes resultados. Construya un intervalo de confianza del 95 % para la media de horas dormidas para la población (que se supone normal) de la que ha tomado los datos.</para><para id="eip-idm108202576">8,2; 9,1; 7,7; 8,6; 6,9; 11,2; 10,1; 9,9; 8,9; 9,2; 7,5; 10,5</para></problem>
-<solution id="eip-415"><label/>
+<solution id="eip-415">
   <para id="eip-720">(8,1634, 9,8032)</para></solution>
 </exercise>
 </note>

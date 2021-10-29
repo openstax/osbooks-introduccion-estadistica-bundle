@@ -33,7 +33,7 @@
 </list></para>
 
 <note id="eip-939">
-<label/>
+
 <title>Nota</title>
 <list id="eip-id1164926616686">
 <item>Si <emphasis effect="italics">r</emphasis> es significativo y el diagrama de dispersión muestra una tendencia lineal, la línea puede utilizarse para predecir el valor de la <emphasis effect="italics">y</emphasis> para los valores de la <emphasis effect="italics">x</emphasis> que están dentro del dominio de los valores observados de la <emphasis effect="italics">x</emphasis>.</item>
@@ -58,10 +58,10 @@
 </list>
 <para id="eip-870">En este capítulo de este libro de texto, utilizaremos siempre un nivel de significación del 5 %, <emphasis effect="italics">α</emphasis> = 0,05</para>
 
-<note id="eip-128"><label/><title>Nota</title>
+<note id="eip-128"><title>Nota</title>
 <para id="fs-idp138109680">Con el método del valor <emphasis effect="italics">p</emphasis>, puede elegir cualquier nivel de significación apropiado que desee; no está limitado a utilizar <emphasis effect="italics">α</emphasis> = 0,05. Sin embargo, la tabla de valores críticos proporcionada en este libro de texto supone que estamos utilizando un nivel de significación del 5 %, <emphasis effect="italics">α</emphasis> = 0,05. (Si quisiéramos utilizar un nivel de significación diferente al 5 % con el método del valor crítico, necesitaríamos diferentes tablas de valores críticos que no se proporcionan en este libro de texto).</para>
 </note><section id="fs-idp18638240"><title>MÉTODO 1: Utilizar un valor <emphasis effect="italics">p</emphasis>para tomar una decisión</title><note id="fs-idp16405840" class="statistics calculator">
-<label/>
+
 <para id="fs-idp82841104">Para calcular el valor <emphasis effect="italics">p</emphasis> con la función LinRegTTEST:<newline/> En la pantalla de entrada de LinRegTTEST, en la línea que pide <emphasis effect="italics">β</emphasis> o <emphasis effect="italics">ρ</emphasis>, resalte "<emphasis>≠ 0</emphasis>"<newline/> La pantalla de salida muestra el valor p en la línea que dice "p =".<newline/> (La mayoría de los programas informáticos de estadística pueden calcular el valor <emphasis effect="italics">p</emphasis>).
 </para></note>
 
@@ -126,7 +126,7 @@
 </example>
 
 <note id="fs-idp24557360" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 
 <exercise id="eip-97">
@@ -142,7 +142,7 @@
 <para id="element-206">Suponga que ha calculado <emphasis effect="italics">r</emphasis> = -0,624 con 14 puntos de datos. <emphasis effect="italics">df</emphasis> = 14 - 2 = 12. Los valores críticos son -0,532 y 0,532. Dado que -0,624 &lt; -0,532, <emphasis effect="italics">r</emphasis> es significativo y la línea puede utilizarse para la predicción.</para><figure id="id1165447908929"><media id="id1165447908933" alt="Línea numérica horizontal con valores de -0,624, -0,532 y 0,532."><image src="../../media/fig-ch12_07_02.jpg" mime-type="image/jpeg" width="380"/></media><caption>r = -0,624 &lt; -0,532. Por lo tanto, <emphasis effect="italics">r</emphasis> es significativo.</caption></figure></example>
 
 <note id="fs-idp165498288" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 
 <exercise id="eip-847">
@@ -160,7 +160,7 @@ Para una línea de mejor ajuste dada, se calcula que <emphasis effect="italics">
 </example>
 
 <note id="fs-idp121877392" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="eip-610">
 <problem id="eip-276">
@@ -189,7 +189,7 @@ Para una línea de mejor ajuste dada, se calcula que <emphasis effect="italics">
 <item><emphasis effect="italics">r</emphasis> = 0,134 y el tamaño de la muestra, <emphasis effect="italics">n</emphasis>, es 14. Los <emphasis effect="italics">df</emphasis> = 14 - 2 = 12. El valor crítico es 0,532. 0,134 está entre -0,532 y 0,532 por lo que <emphasis effect="italics">r</emphasis> es despreciable.</item>
 <item><emphasis effect="italics">r</emphasis> = 0 y el tamaño de la muestra, <emphasis effect="italics">n</emphasis>, es cinco. No importa cuáles sean los dfs, <emphasis effect="italics">r</emphasis> = 0 está entre los dos valores críticos, por lo que <emphasis effect="italics">r</emphasis> es despreciable.</item>
 </list></example><note id="fs-idp56886288" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 
 <exercise id="eip-316">

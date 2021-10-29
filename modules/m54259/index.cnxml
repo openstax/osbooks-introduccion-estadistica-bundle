@@ -158,7 +158,7 @@
 </solution>
 </exercise>
 </example>
-<note id="fs-idm8469088" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm8469088" class="statistics try"><title>Ejercicio</title>
 <exercise id="fs-idm7340080">
 <problem id="fs-idm53303712">
 <para id="fs-idp10168704">La<link target-id="M05_ch03-tbl002"/> muestra el número de atletas que hacen estiramientos antes del ejercicio y cuántos tuvieron lesiones durante el año pasado.
@@ -199,7 +199,7 @@
 <item>¿Qué es <emphasis effect="italics">P</emphasis>(el atleta se estira antes de hacer ejercicio<m:math><m:mo>|</m:mo></m:math>ninguna lesión en el último año)?</item>
 </list></problem>
 <solution id="fs-idp74774320">
-<label/>
+
 <list id="fs-idp34704128" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(el atleta se estira antes de hacer ejercicio) = <m:math>
 <m:mrow>
 <m:mfrac>
@@ -484,7 +484,7 @@
 </exercise>
 </example>
 <note id="fs-idm2360992" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idp7366752">
 <problem id="fs-idm68351312">
@@ -867,7 +867,7 @@
 </exercise>
 </example>
 <note id="fs-idm31309776" class="statistics try">
-<label/><title>Ejercicio</title>
+<title>Ejercicio</title>
 <exercise id="fs-idm30200592">
 <problem id="fs-idm54491920">
 <para id="fs-idm50410048">La<link target-id="M05_ch03-tbl009"/> relaciona los pesos y las alturas de un grupo de personas que participan en un estudio de observación.</para><table id="M05_ch03-tbl009" summary="---">
@@ -925,7 +925,7 @@
 <item>¿Los eventos obeso y alto son independientes?</item>
 </list></problem>
 <solution id="fs-idm7009168">
-<label/>
+
 <table id="fs-idm96747024" summary="---">
 <tgroup cols="5"><thead>
 <row>
@@ -1327,14 +1327,14 @@
 </exercise>
 </example>
 <note id="fs-idp102479616" class="statistics try">
-<label/><title>Ejercicio</title>
+<title>Ejercicio</title>
 <exercise id="fs-idm22506096"><problem id="fs-idp17589872">
 <para id="fs-idp67142992">En un mazo estándar hay 52 cartas. 12 cartas son de figura (evento <emphasis effect="italics">F</emphasis>) y 40 cartas no lo son (evento <emphasis effect="italics">N</emphasis>). Saque dos cartas, una a la vez, con reemplazo. Todos los resultados posibles se muestran en el diagrama de árbol como frecuencias. Use el diagrama de árbol y calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">FF</emphasis>).</para>
 <figure id="eip-idp41385280"><media id="fs-idm2866400" alt="Se trata de un diagrama de árbol con ramas que muestran las frecuencias de cada vez que saca una. La primera rama muestra dos líneas: 12F y 40N. La segunda rama tiene un conjunto de dos líneas (12F y 40N) para cada línea de la primera rama. Multiplique a lo largo de cada línea para hallar 144FF, 480FN, 480NF y 1.600NN." display="block"><image src="../../media/CNX_Stats_C03_M07_tryit001N.jpg" mime-type="image/jpg" width="380"/></media>
 </figure>
 </problem>
 <solution id="fs-idp48259824">
-<label/>
+
 <para id="fs-idp43748400">El número total de resultados es 144 + 480 + 480 + 1600 = 2704.</para>
 <para id="fs-idp7078848"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">FF</emphasis>) = <m:math>
  <m:mrow>
@@ -1419,7 +1419,7 @@
 </m:math></caption></figure>
 
 <note id="id47078390">
-<label/>
+
 <title>NOTA</title>
 <para id="eip-idp61215856">Si saca una roja en la primera extracción de las tres posibilidades rojas, quedan dos canicas rojas para sacar en la segunda extracción. No se vuelve a colocar o reemplazar la primera canica después de haberla sacado. Extraiga <emphasis>sin reemplazo</emphasis>, de modo que en la segunda extracción quedan diez canicas en la urna.</para></note>
 <para id="element-993"><newline/>Calcule las siguientes probabilidades y use el diagrama de árbol.<newline count="2"/></para><exercise id="element-366">
@@ -1683,7 +1683,7 @@
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">R</emphasis>) significa aquí <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> en la 2.°<m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">R</emphasis> en la 1.ª)</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">B</emphasis>) significa aquí <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis> en la 2.°<m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">B</emphasis> en la 1.ª)</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">B</emphasis>) significa aquí <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> en la 2.°<m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">B</emphasis> en la 1.ª)</item>
-</list></example><note id="fs-idp64832640" class="statistics try"><label/><title>Ejercicio</title>
+</list></example><note id="fs-idp64832640" class="statistics try"><title>Ejercicio</title>
 <exercise id="fs-idp40630704"><problem id="fs-idp516608">
 <para id="fs-idp47082864">En un mazo estándar hay 52 cartas. Doce cartas son de figura (<emphasis effect="italics">F</emphasis>) y 40 cartas no lo son (<emphasis effect="italics">N</emphasis>). Saque dos cartas, una a la vez, sin reemplazo. El diagrama de árbol está identificado con todas las probabilidades posibles.</para>
 <figure id="eip-idm127200928"><media id="fs-idp88881552" alt="Se trata de un diagrama de árbol con ramas que muestran las frecuencias de cada vez que saca una. La primera rama muestra 2 líneas: F 12/52 y N 40/52. La segunda rama tiene un conjunto de 2 líneas (F 11/52 y N 40/51) para cada línea de la primera rama. Multiplique a lo largo de cada línea para hallar FF 121/2.652, FN 480/2.652, NF 480/2.652 y NN 1.560/2.652." display="block"><image src="../../media/CNX_Stats_C03_M07_tryit002.jpg" mime-type="image/jpg" width="400" print-width="4in"/></media></figure>
@@ -1693,7 +1693,7 @@
 <item>Calcule <emphasis effect="italics">P</emphasis>(al menos una carta de figura). <newline/>Pista: “Al menos una carta de figura” significa una o dos cartas de figura.</item>
 </list></problem>
 <solution id="fs-idp73204176">
-<label/>
+
 <list id="fs-idp96767584" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi fontstyle="italic">FN</m:mi><m:mo>∪</m:mo><m:mi fontstyle="italic">NF</m:mi><m:mo>)</m:mo></m:math> = <m:math>
  <m:mrow>
   <m:mfrac>
@@ -2066,13 +2066,13 @@
 </solution>
 </exercise></example>
 <note id="fs-idp64465776" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm62426848">
 <problem id="fs-idp61299152">
 <para id="fs-idm3074160">Supongamos que en una caja hay cuatro pelotas rojas y tres amarillas. Se extraen dos pelotas de la caja sin reemplazarlas. ¿Cuál es la probabilidad de que se seleccione una pelota de cada color?</para></problem>
 <solution id="fs-idp19481824">
-<label/>
+
 <para id="fs-idp131025616">Los términos <m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>

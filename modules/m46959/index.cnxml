@@ -12,7 +12,7 @@
 
 <para id="fs-idm122105344">Se lanza una moneda y se anota el resultado. ¿Cuál es la probabilidad de que el resultado sea cara? Si lanza una moneda dos veces, ¿la probabilidad le dice que estos lanzamientos darán como resultado una cara y una cruz? Puede lanzar una moneda diez veces y registrar nueve caras. Como aprendió en el <link document="m46938"/>, la probabilidad no describe los resultados a corto plazo de un experimento. Ofrece información sobre lo que cabe esperar a largo plazo. ¡Para demostrarlo, Karl Pearson lanzó una vez una moneda justa 24.000 veces! Registró los resultados de cada lanzamiento, obteniendo cara 12.012 veces. <emphasis effect="bold">En su experimento, Pearson ilustró la ley de los grandes números</emphasis>.</para><para id="fs-idm32245968"><emphasis effect="bold">La ley de los grandes números</emphasis> establece que, a medida que aumenta el número de ensayos en un experimento de probabilidad, la diferencia entre la probabilidad teórica de un suceso y la frecuencia relativa se aproxima a cero <emphasis effect="bold">(la probabilidad teórica y la frecuencia relativa se acercan cada vez más)</emphasis>. Al evaluar los resultados a largo plazo de los experimentos estadísticos, a menudo queremos conocer el resultado de la “media". Esta "media a largo plazo" se conoce como la <term id="term-00002">media</term> o <term id="term-00003">valor esperado</term> del experimento y se denota con la letra griega <emphasis effect="italics">μ</emphasis>. En otras palabras, después de realizar muchos ensayos de un experimento, se esperaría este valor medio.</para>
 
-<note id="id8737934"><label/><title>NOTA</title>
+<note id="id8737934"><title>NOTA</title>
 <para id="eip-idp95250624">Para hallar el valor esperado o media a largo plazo, <emphasis effect="italics">μ</emphasis>, basta con multiplicar cada valor de la variable aleatoria por su probabilidad y sumar los productos.</para></note>
 
 <example id="fs-idp56252608">
@@ -337,11 +337,11 @@
  </m:mrow>
 </m:math> ≈ 1.0247
 </para><para id="eip-332">La media, <emphasis effect="italics">μ</emphasis>, de una función de probabilidad discreta es el valor esperado. </para>
-<equation class="unnumbered" id="eip-226"><label/>
+<equation class="unnumbered" id="eip-226">
 Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>∙</m:mo><m:mi>P</m:mi><m:mfenced separators="|"><m:mrow><m:mi>x</m:mi></m:mrow></m:mfenced><m:mo>)</m:mo></m:mrow></m:mrow></m:math></equation><para id="eip-436">La desviación típica, Σ, de la PDF es la raíz cuadrada de la varianza.</para><equation class="unnumbered" id="eip-365">Los términos <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow><m:mo>[</m:mo><m:msup><m:mrow><m:mfenced separators="|"><m:mrow><m:mi>x</m:mi><m:mi> </m:mi><m:mo>–</m:mo><m:mi> </m:mi><m:mi>μ</m:mi></m:mrow></m:mfenced></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi> </m:mi><m:mo>∙</m:mo><m:mi> </m:mi><m:mi>Ρ</m:mi><m:mfenced separators="|"><m:mrow><m:mi>x</m:mi></m:mrow></m:mfenced><m:mo>]</m:mo><m:mi> </m:mi></m:mrow></m:mrow></m:msqrt></m:math></equation><para id="eip-988">Cuando todos los resultados de la distribución de probabilidad son igualmente probables, estas fórmulas coinciden con la media y la desviación típica del conjunto de resultados posibles.</para></example>
 
 
-<note id="fs-idm80414512" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm80414512" class="statistics try"><title>Ejercicio</title>
 <exercise id="fs-idm131173600">
 <problem id="fs-idm112686784">
 <para id="fs-idm86997008">Un investigador de un hospital se interesa por el número de veces que el paciente promedio de posoperatorio llama al personal de enfermería durante un turno de 12 horas. Para una muestra aleatoria de 50 pacientes se obtuvo la siguiente información. ¿Cuál es el valor esperado?</para>
@@ -444,7 +444,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 
 <para id="element-996">Para ganar, debe acertar los cinco números, en orden. La probabilidad de elegir un número correcto es <m:math><m:mfrac><m:mn>1</m:mn><m:mn>10</m:mn></m:mfrac></m:math> porque hay diez números. Puede elegir un número más de una vez. La probabilidad de elegir los cinco números correctamente y en orden es</para>
 
-<equation class="unnumbered" id="eip-10"><label/>Los términos <m:math>
+<equation class="unnumbered" id="eip-10">Los términos <m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -509,7 +509,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 </m:math></equation>
 
 <para id="element-800">Por lo tanto, la probabilidad de ganar es 0,00001 y la de perder es</para>
-<equation class="unnumbered" id="eip-755"><label/>Los términos <m:math>
+<equation class="unnumbered" id="eip-755">Los términos <m:math>
  <m:mrow>
   <m:mn>1</m:mn><m:mo>–</m:mo><m:mn>0,00001</m:mn><m:mo>=</m:mo><m:mn>0.99999.</m:mn>
  </m:mrow>
@@ -549,7 +549,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 </tgroup>
 </table><para id="element-406">Dado que -0,99998 es aproximadamente -1, esperaría, en promedio, perder aproximadamente $1 por cada juego que juegue. Sin embargo, cada vez que juega, pierde 2 dólares o gana 100.000 dólares. Un dólar es la media o la PÉRDIDA esperada por partida después de jugar este juego una y otra vez.</para></example>
 
-<note id="fs-idm7487840" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm7487840" class="statistics try"><title>Ejercicio</title>
 <exercise id="fs-idm58858880"><problem id="fs-idm58346384">
 <para id="fs-idm147804448">Está jugando a un juego de azar en el que se extraen cuatro cartas de una baraja estándar de 52 cartas. Adivine el palo de cada carta antes de que se extraiga. Las cartas se sustituyen en la baraja en cada sorteo. Paga un dólar para jugar. Si adivina el palo correcto todas las veces, le devuelven el dinero y 256 dólares. ¿Cuál es el beneficio que espera obtener del juego a largo plazo?</para></problem>
 </exercise></note><example id="element-341">
@@ -645,7 +645,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 </m:math> Pierde, una media de aproximadamente 67 céntimos cada vez que juega, por lo que no sale ganando.</para></solution>
 </exercise></example>
 
-<note id="fs-idp157498240" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idp157498240" class="statistics try"><title>Ejercicio</title>
 
 <exercise id="fs-idm123810544"><problem id="fs-idm43455984">
 <para id="fs-idm133743184">Supongamos que juega un juego con una ruleta. Se juega cada partida haciendo girar la ruleta una vez. <emphasis effect="italics">P</emphasis>(rojo) = <m:math>
@@ -999,7 +999,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
   <m:mo>≈</m:mo><m:mn>28,7186</m:mn>
  </m:mrow>
 </m:math></para></solution>
-</exercise></example><note id="fs-idp152488176" class="statistics try"><label/><title>Ejercicio</title>
+</exercise></example><note id="fs-idp152488176" class="statistics try"><title>Ejercicio</title>
 <exercise id="fs-idm88593344"><problem id="eip-idp52574576">
 <para id="eip-idp52574832">El 11 de mayo de 2013 a las 9:30 p. m., la probabilidad de que se produjera una actividad sísmica moderada (un terremoto moderado) en las próximas 48 horas en Japón era de aproximadamente 1,08 %. Al igual que en el <link target-id="example1.8" document=""/>, se apuesta por que se produzca un terremoto moderado en Japón durante este periodo. Si gana la apuesta, gana 100 dólares. Si pierde la apuesta, paga 10 dólares. Supongamos que <emphasis effect="italics">X</emphasis> = el monto de ganancia de una apuesta. Calcule la media y la desviación típica de <emphasis effect="italics">X</emphasis>.</para>
 </problem>

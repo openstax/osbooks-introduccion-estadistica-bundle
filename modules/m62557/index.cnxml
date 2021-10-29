@@ -10,7 +10,7 @@
 
 <content>
 <para id="eip-806">Hemos visto que el tamaño de la muestra tiene un efecto importante en la varianza y, por tanto, en la desviación típica de la distribución muestral. También es interesante la proporción de la población total que ha sido muestreada. Hemos asumido que la población es extremadamente grande y que hemos muestreado una pequeña parte de ella. A medida que la población se hace más pequeña y muestreamos un mayor número de observaciones, las observaciones de la muestra no son independientes entre sí. Para corregir el impacto de esto, se puede utilizar el factor de corrección finito para ajustar la varianza de la distribución de muestreo. Es apropiado cuando se muestrea más del 5 % de la población y esta tiene un tamaño poblacional conocido. Hay casos en los que se conoce la población, por lo que hay que aplicar el factor de corrección. El problema se plantea tanto para la distribución muestral de las medias como para la distribución muestral de las proporciones. El factor de corrección de la población finita para la varianza de las medias que aparece en la fórmula de normalización es: 
-<equation class="unnumbered" id="eip-id1167115536024"><label/>Los términos <m:math><m:mi>Z</m:mi><m:mo>=</m:mo>
+<equation class="unnumbered" id="eip-id1167115536024">Los términos <m:math><m:mi>Z</m:mi><m:mo>=</m:mo>
 <m:mfrac>
 <m:mrow>
 <m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover>
@@ -58,7 +58,7 @@ Los términos <m:math>
 <m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>10,37</m:mn><m:mo>,</m:mo><m:mspace width="1.0em"/>
 <m:mi>µ</m:mi><m:mo>=</m:mo><m:mn>75,45</m:mn><m:mo>,</m:mo><m:mspace width="1.0em"/>
 <m:mo>(</m:mo><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>- −</m:mo><m:mi>µ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>2</m:mn></m:math> <newline/>
-<equation class="unnumbered" id="eip-id1170375284175"><label/>Los términos <m:math><m:mi>Z</m:mi><m:mo>=</m:mo>
+<equation class="unnumbered" id="eip-id1170375284175">Los términos <m:math><m:mi>Z</m:mi><m:mo>=</m:mo>
 <m:mfrac>
 <m:mrow><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>- −</m:mo><m:mi>µ</m:mi></m:mrow>
 <m:mrow>
@@ -86,7 +86,7 @@ Los términos <m:math>
 </m:mfrac>
 <m:mo>=</m:mo>
 <m:mo>±</m:mo><m:mn>1,95</m:mn>
-</m:math></equation><equation class="unnumbered" id="eip-id1172107488931"><label/>Los términos <m:math>
+</m:math></equation><equation class="unnumbered" id="eip-id1172107488931">Los términos <m:math>
 <m:mi>f</m:mi><m:mo>(</m:mo><m:mi>Z</m:mi><m:mo>)</m:mo><m:mo>=</m:mo>
 <m:mn>0,4744</m:mn>
 <m:mo>·</m:mo>
@@ -109,7 +109,7 @@ Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de
   <para id="eip-355">Los términos <m:math><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>3000</m:mn><m:mo>,</m:mo><m:mspace width="1.0em"/>
 <m:mi>n</m:mi><m:mo>=</m:mo><m:mn>360</m:mn><m:mo>,</m:mo><m:mspace width="1.0em"/>
 <m:mi>p</m:mi><m:mo>=</m:mo><m:mn>0,06</m:mn></m:math>
-<equation class="unnumbered" id="eip-id1169346645985"><label/>Los términos <m:math>
+<equation class="unnumbered" id="eip-id1169346645985">Los términos <m:math>
 <m:msub><m:mi>σ</m:mi><m:mi>p'</m:mi></m:msub><m:mo>=</m:mo>
 <m:msqrt>
 <m:mfrac><m:mrow><m:mi>p</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow>
@@ -139,7 +139,7 @@ Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de
 <m:mo>=</m:mo>
 <m:mn>0,0117</m:mn>
 </m:math>
-</equation><equation class="unnumbered" id="eip-id1166518467981"><label/>Los términos <m:math><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>10</m:mn><m:mn>360</m:mn></m:mfrac>
+</equation><equation class="unnumbered" id="eip-id1166518467981">Los términos <m:math><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>10</m:mn><m:mn>360</m:mn></m:mfrac>
 <m:mo>=</m:mo>
 <m:mn>0,0278</m:mn>
 <m:mo>,</m:mo><m:mspace width="1.0em"/>
@@ -149,7 +149,7 @@ Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de
 <m:mo>=</m:mo>
 <m:mn>0,0556</m:mn>
 </m:math></equation>
-<equation class="unnumbered" id="eip-id1166529871916"><label/>Los términos <m:math>
+<equation class="unnumbered" id="eip-id1166529871916">Los términos <m:math>
 <m:mi>Z</m:mi><m:mo>=</m:mo>
 <m:mfrac>
 <m:mrow>
@@ -175,7 +175,7 @@ Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de
 <m:mo>=</m:mo>
 <m:mn>−2,74</m:mn>
 </m:math>
-</equation><equation class="unnumbered" id="eip-id8375126"><label/>Los términos <m:math><m:mi>Z</m:mi><m:mo>=</m:mo>
+</equation><equation class="unnumbered" id="eip-id8375126">Los términos <m:math><m:mi>Z</m:mi><m:mo>=</m:mo>
 <m:mfrac>
 <m:mrow><m:mi>p</m:mi><m:mo>'</m:mo><m:mo>- −</m:mo><m:mi>p</m:mi></m:mrow>
 <m:mrow>
@@ -200,7 +200,7 @@ Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de
 <m:mo>=</m:mo>
 <m:mn>−0,38</m:mn>
 </m:math>
-</equation><equation class="unnumbered" id="eip-id1169387147873"><label/>Los términos <m:math>
+</equation><equation class="unnumbered" id="eip-id1169387147873">Los términos <m:math>
 <m:mi>p</m:mi>
 <m:mo>(</m:mo>
 <m:mfrac><m:mrow><m:mn>0,0278</m:mn><m:mo>- −</m:mo><m:mn>0,06</m:mn></m:mrow>

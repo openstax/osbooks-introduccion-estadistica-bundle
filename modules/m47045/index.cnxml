@@ -18,7 +18,7 @@
 <item>O bien los pares coincidentes tienen diferencias que provienen de una población que es normal o el número de diferencias es lo suficientemente grande como para que la distribución de la media muestral de las diferencias sea aproximadamente normal.</item>
 </list>
 <para id="element-1392">En una prueba de hipótesis para muestras coincidentes o emparejadas los sujetos son coincidentes en pares y se calculan las diferencias. Las diferencias son los datos. A continuación, se comprueba la media poblacional de las diferencias, <emphasis effect="italics">μ<sub>d</sub></emphasis>, mediante una prueba t de Student para una única media poblacional con <emphasis effect="italics">n</emphasis> - 1 grados de libertad, donde <emphasis effect="italics">n</emphasis> es el número de diferencias.</para>
-<equation class="unnumbered" id="element-403"><label/>
+<equation class="unnumbered" id="element-403">
 <title>El estadístico de prueba (puntuación <emphasis effect="italics">t</emphasis>) es:</title>
 Los términos <m:math>
 <m:mrow>
@@ -272,19 +272,19 @@ Los términos <m:math>
 </exercise>
 
 <note id="id11476665" class="finger">
-<label/>
+
 <title>Nota:</title>
 <para id="fs-idp48132064">Para las calculadoras TI-83+ y TI-84, puede calcular las diferencias por adelantado (<emphasis>después - antes</emphasis>) y poner las diferencias en una lista o puede poner los datos <emphasis>después</emphasis> en una primera lista y los datos <emphasis>antes</emphasis> en una segunda lista. A continuación, vaya a una tercera lista y desplace la flecha hacia arriba hasta el nombre. Ingrese el 1.<sup>°</sup> nombre de la lista - 2.<sup>°</sup> nombre de la lista. La calculadora hará la resta, y tendrá las diferencias en la tercera lista.</para></note>
 
 
 <note id="id11476702" class="statistics calculator">
-<label/>
+
 <para id="fs-idp28416112">Utilice su lista de diferencias como datos. Pulse <code>STAT</code> y flecha hacia <code>TESTS</code>. Pulse <code>2:T-Test</code>. Desplace la flecha hacia <code>Datos</code> y pulse <code>ENTER</code>. Desplace la flecha hacia abajo y presione ENTER <code>0</code> para <m:math><m:msub><m:mi>μ</m:mi><m:mi>0</m:mi></m:msub></m:math>, el nombre de la lista donde se ponen los datos, y <code>1</code> para Frec:. Desplace la flecha hacia abajo <code>μ</code>: y flecha hacia <code>&lt;</code> Los términos <m:math><m:msub><m:mi>μ</m:mi><m:mi>0</m:mi></m:msub></m:math> Pulse <code>ENTER</code>. Desplace la flecha hacia abajo hasta <code>Calculate</code> y pulse <code>ENTER</code>. El valor <emphasis effect="italics">p</emphasis> es 0,0094, y el estadístico de prueba es -3,04. Vuelva a realizar estas instrucciones, excepto desplazar la flecha hacia <code>Draw</code> (en vez de <code>Calculate (Calcular)</code>). Pulse <code>ENTER</code>.</para>
 </note>
 </example>
 
 <note id="fs-idp46905536" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idp1097104">
 <problem id="fs-idp1097360">
@@ -385,7 +385,7 @@ Los términos <m:math>
 
 </m:mrow>
 </m:math> = 21,3, <emphasis effect="italics">s<sub>d</sub></emphasis> = 46,7</para><note id="fs-idp43851248">
-<label/>
+
 <title>Nota:</title>
 <para id="fs-idp15765136">Los datos presentados aquí indicarían que la distribución es realmente asimétrica. ¿La diferencia de 90 puede ser un valor extremo? La media de la muestra es de 21,3 (positivo). Las medias de los otros tres datos son realmente negativas.</para></note>
 <para id="element-990">Utilizando los datos de la diferencia, esto se convierte en una prueba de un solo __________ (rellene el espacio en blanco).</para>
@@ -413,7 +413,7 @@ Los términos <m:math>
 <para id="e106soln">A un nivel de significación del 5 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que la clase de desarrollo de fuerza ayudó a hacer más fuertes a los jugadores, en promedio.</para>
 </example>
 
-<note id="fs-idm13751200" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm13751200" class="statistics try"><title>Ejercicio</title>
 
 <exercise id="fs-idp4946544"><problem id="fs-idp4946672">
 <para id="fs-idp112606336">Se ha diseñado una nueva clase de preparación para mejorar los resultados de la Prueba de Aptitud Académica (Scholastic Aptitude Test, SAT). Se seleccionaron cinco estudiantes aleatoriamente. Se registraron sus puntuaciones en dos exámenes de práctica, uno antes de la clase y otro después. Los datos registrados en la <link target-id="fs-idp42085840"/>. ¿Los resultados, en promedio, son más altos después de la clase? Prueba a un nivel del 5 %.</para>
@@ -566,7 +566,7 @@ Los términos <m:math>
 </example>
 
 <note id="fs-idp98011888" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm3639952">
 <problem id="fs-idp119669552">
@@ -926,7 +926,7 @@ Los términos <m:math>
 
 <section id="fs-idp14136208" class="free-response">
 <title>Tarea para la casa</title>
-<para id="fs-idp84148336"><emphasis effect="italics">INSTRUCCIONES: Para cada uno de los problemas de palabras use una hoja de soluciones para hacer la prueba de hipótesis. La hoja de soluciones se encuentra en el <link document="m47882">apéndice E</link>. No dude en hacer copias de las hojas de soluciones. Para la versión en línea del libro se sugiere copiar los archivos .doc o .pdf.</emphasis></para><note id="eip-250"><label/><title>Nota:</title>
+<para id="fs-idp84148336"><emphasis effect="italics">INSTRUCCIONES: Para cada uno de los problemas de palabras use una hoja de soluciones para hacer la prueba de hipótesis. La hoja de soluciones se encuentra en el <link document="m47882">apéndice E</link>. No dude en hacer copias de las hojas de soluciones. Para la versión en línea del libro se sugiere copiar los archivos .doc o .pdf.</emphasis></para><note id="eip-250"><title>Nota:</title>
 <para id="eip-idm140675200">Si usa una distribución <emphasis effect="italics">t</emphasis> de Student para los problemas de tarea para la casa, incluso para datos emparejados, puede suponer que la población subyacente está distribuida normalmente. (sin embargo, cuando se utilicen estas pruebas en una situación real, primero hay que demostrar ese supuesto).</para></note>
 
 <exercise id="fs-idp64398288">

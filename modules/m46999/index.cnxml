@@ -268,7 +268,7 @@
 
  <para id="eip-711">El intervalo de confianza solo puede utilizarse si el número de aciertos <emphasis effect="italics">np′</emphasis> y el número de fallos <emphasis effect="italics">nq′</emphasis> son ambos superiores a cinco.</para>
 
-<note id="id24362956"><label/>
+<note id="id24362956">
 <title>Nota</title>
 <para id="fs-idp79319136">Para la distribución normal de proporciones, la fórmula de la puntuación <emphasis effect="italics">z</emphasis> es la siguiente</para>
   <para id="element-272">Si <m:math>
@@ -483,12 +483,12 @@
 </solution>
 <solution id="fs-idm19757088">
 <note id="fs-idm86739552" class="statistics calculator">
-<label/>
+
 <para id="element-387">Pulse <code>STAT</code> y flecha hacia <code>TESTS</code>.<newline/> Desplace la flecha hacia abajo hasta <code>A:1-PropZint</code>. Pulse <code>ENTER</code>.<newline/> Desplace la flecha hacia abajo hasta <m:math><m:mi>x</m:mi></m:math> e introduzca 421.<newline/> Desplace la flecha hacia abajo hasta <m:math><m:mi>n</m:mi></m:math> e introduzca 500.<newline/> Desplace la flecha hacia abajo hasta <code>C-Level</code> e introduzca 0,95.<newline/> Desplace la flecha hacia abajo hasta <code>Calculate</code> y pulse <code>ENTER</code>.<newline/> El intervalo de confianza es (0,81003, 0,87397).</para>
 </note>
 </solution>
 </exercise></example>
-<note id="fs-idp89365680" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idp89365680" class="statistics try"><title>Ejercicio</title>
    <exercise id="eip-890"><problem id="eip-454">
   <para id="eip-844">
 Supongamos que se encuestan 250 personas seleccionadas al azar para determinar si tienen una tableta. De los 250 encuestados, 98 declararon que tienen una tableta. Utilizando un nivel de confianza del 95 %, calcule una estimación del intervalo de confianza para la verdadera proporción de personas que tienen tabletas.
@@ -642,12 +642,12 @@ Los términos <m:math>
 </solution>
 <solution id="fs-idp10495376">
 <note id="fs-idm49834128" class="statistics calculator">
-<label/>
+
 <para id="eip-833">Pulse <code>STAT</code> y flecha hacia <code>TESTS</code>. <newline/>Desplace la flecha hacia abajo hasta <code>A:1-PropZint</code>. Pulse <code>ENTER</code>. <newline/>Desplace la flecha hacia abajo hasta <m:math><m:mi>x</m:mi></m:math> e introduzca 300. <newline/>Desplace la flecha hacia abajo hasta <m:math><m:mi>n</m:mi></m:math> e introduzca 500. <newline/>Desplace la flecha hacia abajo hasta <code>C-Level</code> e introduzca 0,90. <newline/>Desplace la flecha hacia abajo hasta <code>Calculate</code> y pulse <code>ENTER</code>. <newline/>El intervalo de confianza es (0,564; 0,636).</para>
   </note>
 </solution>
  </exercise></example><note id="fs-idp55027792" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm23330928">
 <problem id="eip-165">
@@ -785,17 +785,17 @@ Los términos <m:math>
  <para id="eip-idm46666976">Tenemos un 95 % de confianza en que la verdadera proporción de estudiantes de estadística que fuman cigarrillos está entre 0,113 y 0,439.</para>
 </solution>
 <solution id="fs-idp68718096">
-<note id="fs-idp48064384" class="statistics calculator"><label/>
+<note id="fs-idp48064384" class="statistics calculator">
 <para id="fs-idp140335584">Pulse STAT y desplace la flecha hacia TESTS.<newline/> Desplace la flecha hacia abajo a A:1-PropZint. Pulse ENTER<newline/></para>
  <note id="fs-idp12207696">
-    <label/>
+    
   <title>Recordatorio</title>
 <para id="fs-idp183978608">Recuerde que el método más cuatro supone cuatro ensayos adicionales: dos aciertos y dos fallos. No es necesario cambiar el proceso de cálculo del intervalo de confianza; basta con actualizar los valores de x y n para reflejar estos ensayos adicionales.</para>
  </note>
  <para id="fs-idm64251984">Desplace la flecha hacia abajo a la <emphasis effect="italics">x</emphasis> e introduce el ocho.<newline/> Desplace la flecha hacia abajo hasta <emphasis effect="italics">n</emphasis> e ingrese 29.<newline/> Desplace la flecha hacia abajo al nivel C e introduzca 0,95.<newline/> Desplace la flecha hacia abajo hasta Calculate (Calcular) y pulse ENTER.<newline/> El intervalo de confianza es (0,113; 0,439)<newline/></para>
 </note></solution>
   </exercise></example><note id="fs-idp89200688" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
       <exercise id="eip-479">
        <problem id="eip-517">
@@ -923,7 +923,7 @@ Los términos <m:math>
 <para id="eip-idp61146144">Estamos seguros en un 90 % de que entre el 17,8 % y el 37,8 % de todos los adolescentes declaran tener más de 500 amigos en Facebook.</para></solution>
 <solution id="fs-idp141579680">
 <note id="fs-idm93286128" class="statistics calculator">
-<label/>
+
 <para id="fs-idp57846688">
   <newline/>Pulse STAT y desplace la flecha hacia TESTS. <newline/>Desplace la flecha hacia abajo hasta A:1-PropZint. Pulse ENTER. <newline/>Desplace la flecha hacia abajo hasta <emphasis effect="italics">x</emphasis> e ingrese 15. <newline/>Desplace la flecha hacia abajo hasta <emphasis effect="italics">n</emphasis> e ingrese 54. <newline/>Desplace la flecha hacia abajo al nivel C e introduzca 0,90. <newline/> Desplace la flecha hacia abajo hasta Calculate (Calcular) y pulse ENTER. <newline/>El intervalo de confianza es (0,178; 0,378).
 </para>
@@ -932,7 +932,7 @@ Los términos <m:math>
 
    </exercise></example>
 <note id="fs-idp15135760" class="statistics try">
-<label/>
+
  <title>Ejercicio</title>
  <exercise id="eip-375"><problem id="eip-391">
  <para id="eip-879">El estudio del Centro Berkman al que se hace referencia en el <link target-id="eip-251" document=""/> habló con adolescentes en grupos de discusión más pequeños, pero también entrevistó a otros adolescentes por teléfono. Al finalizar el estudio, 588 adolescentes habían respondido a la pregunta sobre sus amigos de Facebook, y 159 dijeron que tenían más de 500 amigos. Utilice el método de "más cuatro" para hallar un intervalo de confianza del 90 % para la verdadera proporción de adolescentes que declararían tener más de 500 amigos en Facebook basándose en esta muestra más amplia. Compare los resultados con los del <link target-id="eip-251" document=""/>.
@@ -1113,7 +1113,7 @@ Si los investigadores desean un margen de error específico, pueden utilizar la 
 
  </exercise></example>
 <note id="fs-idp13131184" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
       <exercise id="eip-143">
     <problem id="eip-26">
@@ -1966,7 +1966,7 @@ Calcule lo siguiente: <list id="fs-idp23913648" list-type="enumerated" number-st
 </m:math> <newline/>(<emphasis effect="italics">p</emphasis>′ – <emphasis effect="italics">EBP</emphasis>, <emphasis effect="italics">p</emphasis>′ + <emphasis effect="italics">EBP</emphasis>) = (0,52 – 0,018, 0,52 + 0,018) = (0,502, 0,538)
 <para id="eip-idp88904352">Solución alternativa</para>
 <note id="fs-idp94228912" class="statistics calculator">
-<label/>
+
    <para id="fs-idm22151456">STAT TESTS A: 1-PropZinterval con <emphasis effect="italics">x</emphasis> = (0,52)(1.000), <emphasis effect="italics">n</emphasis> = 1.000, CL = 0,75.</para>
     <para id="fs-idm20874816">La respuesta es (0,502, 0,538)</para>
 </note>

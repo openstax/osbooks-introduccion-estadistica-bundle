@@ -10,13 +10,13 @@
 <content>
 <para id="element-848">El “centro” de un conjunto de datos también es una forma de describir la ubicación. Las dos medidas más utilizadas del “centro” de los datos son la <term id="term-00001">media</term> (promedio) y la <term id="term-00002">mediana</term>. Para calcular el <emphasis>peso medio</emphasis> de 50 personas, sume los 50 pesos y los divide entre 50. Para calcular la <emphasis> mediana del peso</emphasis> de las 50 personas, ordene los datos y halle el número que divide los datos en dos partes iguales. La mediana suele ser una mejor medida del centro cuando hay valores extremos o atípicos porque no se ve afectada por los valores numéricos precisos de los atípicos. La media es la medida más común del centro.</para>
 
-<note id="eip-13"><label/>
+<note id="eip-13">
 <title>NOTA</title>
 <para id="fs-idp62684352">Las palabras “media” y “promedio” se suelen usar indistintamente. La sustitución de una palabra por otra es una práctica habitual. El término técnico es “media aritmética” y “promedio” es técnicamente un lugar central. Sin embargo, en la práctica, entre los no estadísticos, se suele aceptar “promedio” por “media aritmética”.</para></note>
 
 <para id="element-44">Cuando cada valor del conjunto de datos no es único, la media se puede calcular multiplicando cada valor distinto por su frecuencia y dividiendo después la suma por el número total de valores de los datos. La letra utilizada para representar la <emphasis>media muestral</emphasis> es una <emphasis effect="italics">x</emphasis> con una barra encima (se pronuncia “barra de <emphasis effect="italics">x</emphasis>”): <m:math><m:apply><m:conjugate/><m:ci>x</m:ci></m:apply></m:math>.</para><para id="element-705">La letra griega <emphasis effect="italics">μ</emphasis> (se pronuncia “mu”) representa la <emphasis>media de la población</emphasis>. Uno de los requisitos para que la <emphasis>media muestral</emphasis> sea una buena estimación de la <emphasis>media de la población</emphasis> es que la muestra tomada sea realmente aleatoria.</para>
 
-<para id="element-228">Para ver que ambas formas de calcular la media son iguales, considere la muestra: <newline/>1; 1; 1; 2; 2; 3; 4; 4; 4; 4; 4</para><equation class="unnumbered" id="element-46"><label/>Los términos <m:math>
+<para id="element-228">Para ver que ambas formas de calcular la media son iguales, considere la muestra: <newline/>1; 1; 1; 2; 2; 3; 4; 4; 4; 4; 4</para><equation class="unnumbered" id="element-46">Los términos <m:math>
 <m:mover>
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
@@ -52,7 +52,7 @@
 <m:mn>2,7</m:mn>
 </m:math>
 </equation>
-<equation class="unnumbered" id="element-662"><label/>Los términos <m:math>
+<equation class="unnumbered" id="element-662">Los términos <m:math>
  <m:mrow>
   <m:mover accent="true">
    <m:mi>x</m:mi>
@@ -228,7 +228,7 @@ Los términos <m:math>
 </example>
 
 <note id="fs-idp50763088" class="statistics calculator">
-<label/>
+
 <para id="fs-idp54507328">Calcular la media y la mediana:</para>
 <para id="fs-idp87775312">Borre lista L1. Pulse STAT 4:ClrList. Introduzca el 2.º 1 para la lista L1. Pulse ENTER.</para>
 <para id="fs-idm47103392">Introduzca los datos en el editor de listas. Pulse STAT 1:EDIT.</para>
@@ -244,7 +244,7 @@ Los términos <m:math>
 </note>
 
 <note id="fs-idp48953680" class="statistics try">
-<label/><title>Ejercicio</title>
+<title>Ejercicio</title>
 <exercise id="fs-idm28353888"><problem id="fs-idm72704208">
 <para id="fs-idm46796800">Los siguientes datos muestran el número de meses que los pacientes suelen esperar en una lista de trasplantes antes de ser operados. Los datos están ordenados de menor a mayor. Calcule la media y la mediana.</para><para id="fs-idm114142640">
 <list list-type="labeled-item" display="inline" id="list-00001">
@@ -320,7 +320,7 @@ Los términos <m:math>
 </example>
 
 <note id="fs-idp18783360" class="statistics try">
-<label/><title>Ejercicio</title>
+<title>Ejercicio</title>
 <exercise id="fs-idm79009152"><problem id="fs-idm79009024"><para id="fs-idm10019504">En una muestra de 60 hogares, una casa vale 2.500.000 dólares. Veintinueve casas valen 280.000 dólares y todas las demás valen 315.000 dólares. ¿Cuál es la mejor medida del "centro": la media o la mediana?</para></problem>
 
 </exercise></note>
@@ -341,7 +341,7 @@ Los términos <m:math>
 </example>
 
 <note id="fs-idp45793968" class="statistics try">
-<label/><title>Ejercicio</title>
+<title>Ejercicio</title>
 <exercise id="fs-idm24402032"><problem id="fs-idm24643648"><para id="fs-idp74555792">El número de libros retirados de la biblioteca por 25 estudiantes es el siguiente:</para>
 <para id="fs-idm901328"><list list-type="labeled-item" display="inline" id="list-00002"><item>0</item><item>0</item><item>0</item><item>1</item><item>2</item><item>3</item><item>3</item><item>4</item><item>4</item><item>5</item><item>5</item><item>7</item><item>7</item><item>7</item><item>7</item><item>8</item><item>8</item><item>8</item><item>9</item><item>10</item><item>10</item><item>11</item><item>11</item><item>12</item><item>12</item></list> <newline/>Calcule la moda.
 </para>
@@ -351,13 +351,13 @@ Los términos <m:math>
 <example id="element-725">
 <para id="element-622">Las cinco calificaciones del examen sobre bienes raíces son 430, 430, 480, 480, 495. El conjunto de datos es bimodal porque las calificaciones 430 y 480 aparecen dos veces cada una.</para>
 <para id="element-353">¿Cuándo la moda es la mejor medida del “centro”? Piense en un programa de adelgazamiento que anuncia una pérdida media de peso de seis libras la primera semana del programa. La moda podría indicar que la mayoría de las personas pierden dos libras la primera semana, lo que hace que el programa sea menos atractivo.</para>
-<note id="eip-146"><label/><title>NOTA</title>
+<note id="eip-146"><title>NOTA</title>
 <para id="fs-idm78257648">La moda puede calcularse tanto para datos cualitativos como para cuantitativos. Por ejemplo, si el conjunto de datos es: rojo, rojo, rojo, verde, verde, amarillo, púrpura, negro, azul, la moda es rojo.</para></note>
 
 <para id="element-660" class="finger">El programa informático estadístico calculará fácilmente la media, la mediana y la moda. Algunas calculadoras gráficas también pueden realizar estos cálculos. En el mundo real, la gente hace estos cálculos utilizando programas informáticos.</para>
 </example>
 
-<note id="fs-idp55881696" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idp55881696" class="statistics try"><title>Ejercicio</title>
 <exercise id="fs-idm2098096"><problem id="fs-idm2097968">
 <para id="fs-idm5923360">Las cinco puntuaciones de crédito son 680, 680, 700, 720, 720. El conjunto de datos es bimodal porque las puntuaciones 680 y 720 aparecen dos veces. Consideremos los ingresos anuales de los trabajadores de una fábrica. La modalidad es de 25.000 dólares y se produce 150 veces de cada 301. La mediana es de 50.000 dólares y la media de 47.500 dólares. ¿Cuál sería la mejor medida del "centro"?</para></problem>
 </exercise>
@@ -589,7 +589,7 @@ Los términos <m:math>
 </exercise>
 </example>
 
-<note id="fs-idm52755520" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm52755520" class="statistics try"><title>Ejercicio</title>
 <exercise id="fs-idp22476928">
 <problem id="fs-idp50951968">
 <para id="fs-idm11216000">Maris realizó un estudio sobre el efecto que tiene jugar videojuegos en el recuerdo. Como parte de su estudio recopiló los siguientes datos:</para>

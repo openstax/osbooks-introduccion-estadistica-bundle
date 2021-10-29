@@ -67,7 +67,7 @@ Los términos <m:math>
 </m:math>
 </item>
 	</list></item></list><note id="fs-idm172522384" class="statistics calculator">
-<label/>
+
 <para id="fs-idp42629152">Para calcular las probabilidades de las sumas en la calculadora, siga estos pasos.</para>
 <para id="fs-idm146409264">2.º<sup/> <code>DISTR</code>
 <newline/>2:<code>normalcdf</code>
@@ -139,7 +139,7 @@ Los términos <m:math>
 </figure>
 
 <note id="fs-idm202010592" class="statistics calculator">
-<label/>
+
 <para id="element-389">
 <code>normalcdf</code>(valor inferior, valor superior, media de las sumas, <code>stdev</code> de sumas)</para>
 <para id="element-503">La lista de parámetros se abrevia (inferior, superior, (<emphasis effect="italics">n</emphasis>)(<emphasis effect="italics">μ<sub>X</sub></emphasis>, <m:math><m:mrow>
@@ -168,7 +168,7 @@ Los términos <m:math>
 </m:math>(15)) = 0.0127</para></note>
 
 <note id="fs-idm71809936" type="Reminder">
-<label/>
+
 <title>Recordatorio</title>
 <para id="element-565"><emphasis>1E99 = 10<sup>99</sup></emphasis>.</para>
 <para id="fs-idm138173168">Pulse <code>EE</code> para E.</para>
@@ -200,7 +200,7 @@ Los términos <m:math>
 </exercise></example>
 
 <note id="fs-idm51983600" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm105647824"><problem id="fs-idm71758576">
 <para id="fs-idp18637136">Una distribución desconocida tiene una media de 45 y una desviación típica de ocho. Se extrae aleatoriamente una muestra de tamaño 50 de la población. Calcule la probabilidad de que la suma de los 50 valores sea superior a 2.400.</para>
@@ -208,7 +208,7 @@ Los términos <m:math>
 </exercise></note>
 
 <note id="fs-idm133155984" class="statistics calculator">
-<label/>
+
 <para id="fs-idm82544544">Para encontrar los percentiles de las sumas en la calculadora, siga estos pasos.</para>
 <para id="fs-idm25568352">2<sup>º</sup> DIStR <newline/>3:invNorm <newline/><emphasis effect="italics">k</emphasis> = invNorm (área a la izquierda de <emphasis effect="italics">k</emphasis>, (<emphasis effect="italics">n</emphasis>)(media), <m:math>
  <m:mrow>
@@ -281,7 +281,7 @@ Los términos <m:math>
 </example>
 
 <note id="fs-idp87073664" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm67768928">
 <problem id="fs-idm16414224">
@@ -360,7 +360,7 @@ Los términos <m:math>
 </example>
 
 <note id="fs-idp10112640" class="statistics try">
-<label/>
+
 <exercise id="fs-idp7815296"><problem id="fs-idm10364128">
 <para id="fs-idp93890400">El número de la media de minutos de participación en la aplicación por el uso de una mesa es de 8,2 minutos. Supongamos que la desviación típica es de un minuto. Tome una muestra de tamaño 70.</para>
 <list id="fs-idm85536928" list-type="enumerated" number-style="lower-alpha"><item>¿Cuál es la probabilidad de que la suma de la muestra esté entre siete y diez horas? ¿Qué significa esto en el contexto del problema?</item>

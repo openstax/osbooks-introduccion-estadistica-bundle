@@ -42,7 +42,7 @@ Los términos <m:math>
 
 <para id="eip-8888"><emphasis effect="italics">IQR</emphasis> = <emphasis effect="italics">Q</emphasis><sub>3</sub> – <emphasis effect="italics">Q</emphasis><sub>1</sub></para><para id="element-847">El <emphasis effect="italics">IQR</emphasis> puede ayudar a determinar posibles <emphasis>valores atípicos</emphasis>. <emphasis>Se sospecha que un valor es un posible valor atípico si está menos de (1,5)(<emphasis effect="italics">IQR</emphasis>) por debajo del primer cuartil o más de (1,5)(<emphasis effect="italics">IQR</emphasis>) por encima del tercer cuartil</emphasis>. Los posibles valores atípicos siempre requieren una investigación más profunda.</para>
 
-<note id="fs-idm10803744"><label/><title>NOTA</title>
+<note id="fs-idm10803744"><title>NOTA</title>
 <para id="fs-idp4345696">Un valor atípico potencial es un punto de datos que es significativamente diferente de los otros puntos de datos. Estos puntos de datos especiales pueden ser errores o algún tipo de anormalidad o pueden ser una clave para entender los datos.</para></note>
 
 <example id="element-826">
@@ -192,7 +192,7 @@ Los términos <m:math>
 </example>
 
 <note id="fs-idm52647472" class="statistics try">
-<label/><title>Ejercicio</title>
+<title>Ejercicio</title>
 <exercise id="fs-idm18606176"><problem id="fs-idm21314496">
 <para id="fs-idm44305856">Se les ha preguntado a cuarenta conductores de autobús cuántas horas dedican cada día a recorrer sus rutas (redondeadas a la hora más cercana). Calcule el percentil 65<sup/>.</para>
 <table id="fs-idm24649760" summary="">
@@ -326,13 +326,13 @@ Los términos <m:math>
  </m:mrow>
 </m:math>)(29 + 1) = 24,9, que NO es un número entero. Redondee a 24 hacia abajo y a 25 hacia arriba. La edad en el puesto 24<sup/> es de 71 años y la edad en el puesto 25<sup/> es de 72 años. Promedio 71 y 72. El percentil 83<sup/> es de 71,5 años.</item>
 </list></solution>
-</exercise></example><note id="fs-idm16529696" class="statistics try"><label/><title>Ejercicio</title>
+</exercise></example><note id="fs-idm16529696" class="statistics try"><title>Ejercicio</title>
 <exercise id="fs-idm3894192">
 <problem id="fs-idp25866864">
 <para id="fs-idp25866992">Se enumeran 29 edades de los mejores actores ganadores del Oscar <emphasis effect="italics">en orden de menor a mayor.</emphasis></para>
 <para id="fs-idm19734064">18; 21; 22; 25; 26; 27; 29; 30; 31; 33; 36; 37; 41; 42; 47; 52; 55; 57; 58; 62; 64; 67; 69; 71; 72; 73; 74; 76; 77 <newline/>Calcule el percentil 20<sup/> y el percentil 55<sup/>.</para></problem>
 <solution id="fs-idp26576896">
-<label/>
+
 <para id="fs-idp26577152"><emphasis effect="italics">k</emphasis> = 20. Índice = <emphasis effect="italics">i</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
@@ -455,7 +455,7 @@ Contando desde el final de la lista hay tres valores de datos inferiores a 25. H
 <para id="fs-idm23920480">Entender cómo interpretar correctamente los percentiles es importante no solo a la hora de describir los datos, sino también a la hora de calcular las probabilidades en capítulos posteriores de este texto.</para>
 </section>
 
-<note id="fs-idm106923680"><label/><title>NOTA</title>
+<note id="fs-idm106923680"><title>NOTA</title>
 
 <para id="fs-idm20251376">Al escribir la interpretación de un percentil en el contexto de los datos dados, la oración debe contener la siguiente información.</para>
 <list id="eip-id1168197264788" list-type="bulleted">
@@ -486,13 +486,13 @@ Contando desde el final de la lista hay tres valores de datos inferiores a 25. H
 </example>
 
 <note id="fs-idp77029680" class="statistics try">
-<label/><title>Ejercicio</title>
+<title>Ejercicio</title>
 <exercise id="fs-idp34034288">
 <problem id="fs-idp48692144">
 <para id="fs-idp55037680">En una asignación escrita de 60 puntos, el percentil 80<sup/> del número de puntos obtenidos fue de 49. Interprete el percentil 80<sup/> en el contexto de esta situación.</para>
 </problem>
 <solution id="fs-idp89340800">
-<label/>
+
 <para id="fs-idp75133760">El 80 % de los estudiantes obtuvo 49 puntos o menos. El 20 % de los estudiantes obtuvo 49 o más puntos. Un percentil más alto es bueno porque obtener más puntos en una tarea es deseable.</para></solution>
 </exercise>
 </note>

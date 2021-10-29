@@ -17,7 +17,7 @@
 
 
 <para id="element-681">La <term id="term-00003">mediana</term> es un número que mide el “centro” de los datos. Se puede pensar en la mediana como el “valor medio”, pero no tiene por qué ser uno de los valores observados. Es un número que separa los datos ordenados en mitades. La mitad de los valores son iguales o menores que la mediana, y la mitad de los valores son iguales o mayores. Por ejemplo, considere los siguientes datos. <newline/>1; 11,5; 6; 7,2; 4; 8; 9; 10; 6,8; 8,3; 2; 2; 10; 1 <newline/>Ordenado de menor a mayor: <newline/>1; 1; 2; 2; 4; 6; 6,8; 7,2; 8; 8,3; 9; 10; 10; 11,5</para><para id="element-546">Como hay 14 observaciones, la mediana está entre el séptimo valor, 6,8, y el octavo, 7,2. Para hallar la mediana, sume los dos valores y divídalos entre dos.</para>
-<equation id="element-293" class="unnumbered"><label/>
+<equation id="element-293" class="unnumbered">
 Los términos <m:math>
 <m:apply>
 <m:eq/>
@@ -43,7 +43,7 @@ Los términos <m:math>
 
 <para id="element-7162"><emphasis effect="italics">IQR</emphasis> = <emphasis effect="italics">Q</emphasis><sub>3</sub> – <emphasis effect="italics">Q</emphasis><sub>1</sub></para><para id="element-847">El <emphasis effect="italics">IQR</emphasis> puede ayudar a determinar posibles <emphasis>valores atípicos</emphasis>. <emphasis>Se sospecha que un valor es un posible valor atípico si está menos de (1,5)(<emphasis effect="italics">IQR</emphasis>) por debajo del primer cuartil o más de (1,5)(<emphasis effect="italics">IQR</emphasis>) por encima del tercer cuartil</emphasis>. Los posibles valores atípicos siempre requieren una investigación más profunda.</para>
 
-<note id="fs-idm10803744"><label/><title>NOTA</title>
+<note id="fs-idm10803744"><title>NOTA</title>
 <para id="fs-idp4345696">Un valor atípico potencial es un punto de datos que es significativamente diferente de los otros puntos de datos. Estos puntos de datos especiales pueden ser errores o algún tipo de anormalidad o pueden ser una clave para entender los datos.</para></note>
 
 <example id="element-826">
@@ -75,7 +75,7 @@ Los términos <m:math>
 </example>
 
 <note id="fs-idp16250528" class="statistics try">
-<label/><title>Ejercicio</title>
+<title>Ejercicio</title>
 <exercise id="fs-idp63302352">
 <problem id="fs-idm22548992">
 <para id="fs-idp42507600">Para los siguientes 11 salarios, calcule el <emphasis effect="italics">IQR</emphasis> y determine si algún salario es un valor atípico. Los sueldos son en dólares.</para><para id="fs-idm25187088"><list list-type="labeled-item" display="inline" id="list-00001">
@@ -149,7 +149,7 @@ Los términos <m:math>
 </exercise>
 </example>
 
-<note id="fs-idp58037360" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idp58037360" class="statistics try"><title>Ejercicio</title>
 <exercise id="fs-idp23368176"><problem id="fs-idp23368304">
 <para id="fs-idp5269648">Calcule el rango intercuartil para los dos conjuntos de datos siguientes y compárelos.</para>
 <para id="fs-idp4060048">Resultados de las pruebas de la clase <emphasis effect="italics">A</emphasis> <newline/>69; 96; 81; 79; 65; 76; 83; 99; 89; 67; 90; 77; 85; 98; 66; 91; 77; 69; 80; 94 <newline/>Resultados de las pruebas de la clase <emphasis effect="italics">B</emphasis> <newline/>90; 72; 80; 92; 90; 97; 92; 75; 79; 68; 70; 80; 99; 95; 78; 73; 71; 68; 95; 100</para></problem>
@@ -218,7 +218,7 @@ Los términos <m:math>
 </example>
 
 <note id="fs-idm52647472" class="statistics try">
-<label/><title>Ejercicio</title>
+<title>Ejercicio</title>
 <exercise id="fs-idm18606176">
 <problem id="fs-idm21314496">
 <para id="fs-idm44305856">Se les ha preguntado a cuarenta conductores de autobús cuántas horas dedican cada día a recorrer sus rutas (redondeadas a la hora más cercana). Calcule el percentil 65<sup/>.</para>
@@ -268,7 +268,7 @@ Los términos <m:math>
 </exercise></example>
 
 <note id="fs-idm56651440" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idp38065168">
 <problem id="fs-idm27880528">
@@ -276,7 +276,7 @@ Los términos <m:math>
 </exercise>
 </note>
 
-<note id="fs-idm13393536" class="statistics collab"><label/>
+<note id="fs-idm13393536" class="statistics collab">
 
 <para id="element-758">El instructor o un miembro de la clase preguntará a todos los asistentes cuántos suéteres poseen. Responda las siguientes preguntas <list id="exlist" list-type="enumerated"><item> ¿A cuántos estudiantes se encuestó?</item>
 <item>¿Qué tipo de muestreo realizó?</item>
@@ -372,12 +372,12 @@ Los términos <m:math>
  </m:mrow>
 </m:math>)(29 + 1) = 24,9, que NO es un número entero. Redondee a 24 hacia abajo y a 25 hacia arriba. La edad en el puesto 24<sup/> es de 71 años y la edad en el puesto 25<sup/> es de 72 años. Promedio 71 y 72. El percentil 83<sup/> es de 71,5 años.</item>
 </list></solution>
-</exercise></example><note id="fs-idm16529696" class="statistics try"><label/><title>Ejercicio</title>
+</exercise></example><note id="fs-idm16529696" class="statistics try"><title>Ejercicio</title>
 <exercise id="fs-idm3894192">
 <problem id="fs-idp25866864">
 <para id="fs-idp25866992">Se enumeran 29 edades de los mejores actores ganadores del Oscar <emphasis effect="italics">en orden de menor a mayor.</emphasis></para>
 <para id="fs-idm19734064">18; 21; 22; 25; 26; 27; 29; 30; 31; 33; 36; 37; 41; 42; 47; 52; 55; 57; 58; 62; 64; 67; 69; 71; 72; 73; 74; 76; 77 <newline/>Calcule el percentil 20<sup/> y el percentil 55<sup/>.</para></problem>
-</exercise></note><note id="eip-404" class="finger"><label/><title>NOTA</title>
+</exercise></note><note id="eip-404" class="finger"><title>NOTA</title>
 <para id="fs-idp26669920">Puede calcular los percentiles con calculadoras y computadoras. Hay una gran variedad de calculadoras en línea.</para>
 </note></section><section id="fs-idp2972176">
 <title>Una fórmula para hallar el percentil de un valor en un conjunto de datos</title>
@@ -452,7 +452,7 @@ Contando desde el final de la lista hay tres valores de datos inferiores a 25. H
 </exercise>
 </example>
 
-<note id="fs-idm170943360" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm170943360" class="statistics try"><title>Ejercicio</title>
 <exercise id="fs-idm170942864"><problem id="fs-idp35294448"><para id="fs-idp35294576">Se enumeran las 30 edades de los mejores actores ganadores del Oscar <emphasis effect="underline">en orden de menor a mayor.</emphasis></para>
 <para id="fs-idp13252768">18; 21; 22; 25; 26; 27; 29; 30; 31, 31; 33; 36; 37; 41; 42; 47; 52; 55; 57; 58; 62; 64; 67; 69; 71; 72; 73; 74; 76; 77 <newline/>Halle los percentiles de 47 y 31.</para></problem>
 </exercise></note></section>
@@ -467,7 +467,7 @@ Contando desde el final de la lista hay tres valores de datos inferiores a 25. H
 <para id="fs-idm23920480">Entender cómo interpretar correctamente los percentiles es importante no solo a la hora de describir los datos, sino también a la hora de calcular las probabilidades en capítulos posteriores de este texto.</para>
 </section>
 
-<note id="fs-idm106923680"><label/><title>NOTA</title>
+<note id="fs-idm106923680"><title>NOTA</title>
 
 <para id="fs-idm20251376">Al escribir la interpretación de un percentil en el contexto de los datos dados, la oración debe contener la siguiente información.</para>
 <list id="eip-id1168197264788" list-type="bulleted">
@@ -489,7 +489,7 @@ Contando desde el final de la lista hay tres valores de datos inferiores a 25. H
 </example>
 
 <note id="fs-idp16945648" class="statistics try">
-<label/><title>Ejercicio</title>
+<title>Ejercicio</title>
 <exercise id="fs-idp33388848">
 <problem id="fs-idm41955616">
 <para id="fs-idp20699248">En los 100 metros planos, el tercer cuartil de los tiempos para terminar la carrera fue de 11,5 segundos. Interprete el tercer cuartil en el contexto de la situación.</para>
@@ -503,7 +503,7 @@ Contando desde el final de la lista hay tres valores de datos inferiores a 25. H
 </example>
 
 <note id="fs-idp77029680" class="statistics try">
-<label/><title>Ejercicio</title>
+<title>Ejercicio</title>
 <exercise id="fs-idp34034288">
 <problem id="fs-idp48692144">
 <para id="fs-idp55037680">En una asignación escrita de 60 puntos, el percentil 80<sup/> del número de puntos obtenidos fue de 49. Interprete el percentil 80<sup/> en el contexto de esta situación.</para>
@@ -520,7 +520,7 @@ Contando desde el final de la lista hay tres valores de datos inferiores a 25. H
 </example>
 
 <note id="fs-idp80590208" class="statistics try">
-<label/><title>Ejercicio</title>
+<title>Ejercicio</title>
 <exercise id="fs-idp73731328">
 <problem id="fs-idp42792528">
 <para id="fs-idm23433888">Durante una temporada, el percentil 40.<sup>°</sup> de puntos anotados por jugador en un partido es de ocho. Interprete el percentil 40 en el contexto de esta situación.</para>

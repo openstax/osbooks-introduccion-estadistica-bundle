@@ -12,7 +12,7 @@
 <image mime-type="image/jpg" width="500" src="../../media/CNX_Stats_C07_CO.jpg"/>
 </media>
 
-<caption>Si quiere determinar la distribución del cambio que la gente lleva en sus bolsillos, utilizando el teorema del límite central y suponiendo que su muestra es lo suficientemente grande, encontrará que la distribución es normal y tiene forma de campana (crédito: John Lodder)</caption></figure><note id="fs-idp26371136" class="chapter-objectives"><label/><title>Objetivos del capítulo</title>
+<caption>Si quiere determinar la distribución del cambio que la gente lleva en sus bolsillos, utilizando el teorema del límite central y suponiendo que su muestra es lo suficientemente grande, encontrará que la distribución es normal y tiene forma de campana (crédito: John Lodder)</caption></figure><note id="fs-idp26371136" class="chapter-objectives"><title>Objetivos del capítulo</title>
 <para id="element-745">Al final de este capítulo el estudiante podrá:</para>
 <list id="list6234" list-type="bulleted"><item>Reconocer los problemas del teorema central del límite.</item>
 <item>Clasificar los problemas de palabras continuas por sus distribuciones.</item>
@@ -25,7 +25,7 @@
 <para id="element-164">El <term id="term-00001">teorema del límite central</term> (abreviado TLC) es una de las ideas más poderosas y útiles de toda la estadística. Hay dos formas alternativas del teorema, y ambas alternativas se refieren a la extracción de muestras finitas de tamaño <emphasis effect="italics">n</emphasis> de una población con una media conocida, <emphasis effect="italics">μ</emphasis>, y una desviación típica conocida, <emphasis effect="italics">σ</emphasis>. La primera alternativa indica que si recogemos muestras de tamaño <emphasis effect="italics">n</emphasis> con una "<emphasis effect="italics">n</emphasis> suficientemente grande", calculamos la media de cada muestra y creamos un histograma de esas medias, entonces el histograma resultante tenderá a tener una forma de campana normal aproximada. La segunda alternativa indica que si volvemos a recoger muestras de tamaño <emphasis effect="italics">n</emphasis> que sean "suficientemente grandes", calculamos la suma de cada muestra y creamos un histograma, entonces el histograma resultante volverá a tener una forma de campana normal.</para><para id="element-17">El tamaño de la muestra, <emphasis effect="italics">n</emphasis>, que se requiere para ser “suficientemente grande” depende de la población original de la que se extraen las muestras (el tamaño de la muestra debe ser, al menos, 30 o los datos deben proceder de una distribución normal). Si la población original está lejos de ser normal, se necesitan más observaciones para que las medias o sumas de la muestra sean normales. <emphasis>El muestreo se realiza con sustitución.</emphasis></para>
 
 <para id="eip-536">Sería difícil exagerar la importancia del teorema del límite central en la teoría estadística. Saber que los datos, aunque su distribución no sea normal, se comportan de forma predecible es una herramienta poderosa.</para><note id="fs-idp64638656" class="statistics collab">
-<label/>
+
 <title>Actividad colaborativa en el aula</title>
 
 

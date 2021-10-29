@@ -17,7 +17,7 @@
 </item>
 </list>
 
-<note id="fs-idm107349216"><label/><title>NOTA</title><para id="fs-idm165699296">
+<note id="fs-idm107349216"><title>NOTA</title><para id="fs-idm165699296">
 La prueba que compara dos medias poblacionales independientes con desviaciones típicas poblacionales desconocidas y posiblemente desiguales se denomina prueba t de Aspin-Welch. Aspin Welch desarrolló la fórmula de los grados de libertad.</para>
 </note>
 
@@ -57,7 +57,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
    <m:mn>2</m:mn>
   </m:msub>
 </m:math>
-<equation class="unnumbered" id="std_err"><label/><title>El error estándar es:</title>Los términos <m:math>
+<equation class="unnumbered" id="std_err"><title>El error estándar es:</title>Los términos <m:math>
 <m:msqrt>
 <m:mfrac>
 <m:mrow>
@@ -100,7 +100,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
 </m:mfrac>
 </m:msqrt>
 </m:math></equation></para><para id="element-817">El estadístico de prueba<emphasis effect="italics">(puntuación t</emphasis>) se calcula como sigue:
-  <equation class="unnumbered" id="t-score2"><label/>Los términos <m:math>
+  <equation class="unnumbered" id="t-score2">Los términos <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -210,7 +210,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
 </m:math> son las medias muestrales. <emphasis effect="italics">μ</emphasis><sub>1</sub> y <emphasis effect="italics">μ</emphasis><sub>2</sub> son las medias poblacionales.</item>
 </list></para>
 <para id="element-256" class="finger">El número de <term id="term-00002">grados de libertad (<emphasis effect="italics">df</emphasis>)</term> requiere un cálculo algo complicado. Sin embargo, la computadora o la calculadora lo calculan fácilmente. Los <emphasis effect="italics">df</emphasis> no son siempre un número entero. El estadístico de prueba calculado anteriormente se determina aproximadamente mediante la distribución <emphasis effect="italics">t</emphasis> de Student con <emphasis effect="italics">df</emphasis> de la siguiente manera:
-<equation class="unnumbered" id="eq_df"><label/><title>Grados de libertad</title>Los términos <m:math>
+<equation class="unnumbered" id="eq_df"><title>Grados de libertad</title>Los términos <m:math>
  <m:mrow>
   <m:mi>d</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -365,7 +365,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
 
  </m:mrow>
 </m:math></equation></para><para id="element-316">Cuando los tamaños de las muestras <emphasis effect="italics">n1</emphasis>y <emphasis effect="italics">n2</emphasis>son cinco o más, la aproximación <emphasis effect="italics">t</emphasis> de Student es bastante apropiada. Obsérvese que las varianzas muestrales (<emphasis effect="italics">s</emphasis><sub>1</sub>)<sup>2</sup> y (<emphasis effect="italics">s</emphasis><sub>2</sub>)<sup>2</sup> no están agrupadas. (Si se plantea la cuestión, no agrupe las varianzas).</para>
-<note id="fs-idm74088160" class="finger"><label/><title>NOTA</title><para id="fs-idm378573120">No es necesario calcularlo a mano. La calculadora o la computadoras lo harán fácilmente.</para></note>
+<note id="fs-idm74088160" class="finger"><title>NOTA</title><para id="fs-idm378573120">No es necesario calcularlo a mano. La calculadora o la computadoras lo harán fácilmente.</para></note>
 <example id="element-208">
 <title>Grupos independientes</title>
   <para id="element-687">Se cree que la media de tiempo que los niños y niñas de entre siete y once años practican deportes cada día es la misma. Se hace un estudio y se recopilan datos, lo que da como resultado los datos en la <link target-id="uid888"/>. Cada población tiene una distribución normal.</para>
@@ -481,7 +481,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
 </m:math> = 2 – 3.2 = –1.2 <newline/>La mitad del valor <emphasis effect="italics">p</emphasis> es inferior a -1,2 y la otra mitad es superior a 1,2.</para><para id="element-823"><emphasis>Tome una decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>, rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>. Esto significa que se rechaza <emphasis effect="italics">μ<sub>g</sub></emphasis> = <emphasis effect="italics">μ<sub>b</sub></emphasis>. Las medias son diferentes.</para>
 
 <note id="fs-idp61535456" class="statistics calculator">
-<label/>
+
 <para id="fs-idp144406384">Pulse <code>STAT</code>. Desplace la flecha hacia <code>TESTS</code> y pulse <code>4:2-SampTTest</code>. Flecha hacia STATS y pulse <code>ENTER</code>. Flecha hacia abajo e ingrese <code>2</code> para la primera media muestral, <code>
 Los términos <m:math>
 <m:mn>0,866</m:mn>
@@ -495,7 +495,7 @@ Los términos <m:math>
 </example>
 
 <note id="fs-idp67783984" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm235264144">
 <problem id="fs-idm162906288">
@@ -538,7 +538,7 @@ Los términos <m:math>
 </note>
 
 <note id="fs-idm50414208">
-<label/>
+
 <title>NOTA</title>
 <para id="fs-idm204425680">Cuando la suma de los tamaños de las muestras es mayor que 30 (<emphasis effect="italics">n</emphasis><sub>1</sub> + <emphasis effect="italics">n</emphasis><sub>2</sub> > 30), se puede utilizar la distribución normal para calcular aproximadamente la <emphasis effect="italics">t</emphasis> de Student.</para></note>
 
@@ -655,7 +655,7 @@ Los términos <m:math>
 <problem id="fs-idm153855872"><para id="fs-idm41056320">i. <emphasis>Conclusión:</emphasis></para></problem>
 <solution id="fs-idm31976880"><para id="fs-idm31976752">i. Al nivel de significación del 1 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que un estudiante que se gradúa en la universidad A haya tomado más clases de matemáticas, en promedio, que un estudiante que se gradúa en la universidad B.</para></solution>
 </exercise>
-</example><note id="fs-idp145514592" class="statistics try"><label/><title>Ejercicio</title>
+</example><note id="fs-idp145514592" class="statistics try"><title>Ejercicio</title>
 <exercise id="eip-idp166826064">
 <problem id="eip-idp166826320">
   <para id="fs-idm170467472">Se realiza un estudio para determinar si la empresa A retiene a sus trabajadores más tiempo que la empresa B. La empresa A toma una muestra de 15 trabajadores, y su tiempo promedio en la empresa es de cinco años con desviación estándar de 1,2. La empresa B cuenta con una muestra de 20 trabajadores, cuyo promedio de antigüedad en la empresa es de 4,5 años con desviación estándar de 0,8. Las poblaciones se distribuyen normalmente.</para>
@@ -774,9 +774,9 @@ Los términos <m:math>
 
 <para id="fs-idp169691824">(Vea la conclusión en <link target-id="element-968"/>, y escriba la suya de forma similar).</para>
 
-<note id="fs-idm11616112" class="statistics calculator"><label/>
+<note id="fs-idm11616112" class="statistics calculator">
 <para id="fs-idm206958928">Primero ponga los datos de cada grupo en dos listas (como L1 y L2). Pulse STAT. Flecha hacia TESTS y pulse 4:2SampTTest. Asegúrese de que Data (Datos) esté resaltado y pulse ENTER. Flecha hacia abajo; introduzca L1 para la primera lista y L2 para la segunda. Arrow down to <emphasis effect="italics">μ</emphasis><sub>1</sub>: and arrow to &lt; <emphasis effect="italics">μ</emphasis><sub>2</sub> (less than). Pulse ENTER. Flecha hacia abajo a Pooled: No. Pulse ENTER. Flecha hacia abajo hasta Calculate (Calcular); pulse ENTER.</para>
-</note><note id="fs-idm107478368"><label/><title>Nota:</title>
+</note><note id="fs-idm107478368"><title>Nota:</title>
 <para id="fs-idm218153776">¡No mezcle la información del Grupo 1 y del Grupo 2!</para>
 </note></problem>
 
@@ -952,7 +952,7 @@ Los términos <m:math>
 </exercise>
 </example>
 
-<note id="fs-idp145071264" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idp145071264" class="statistics try"><title>Ejercicio</title>
 <para id="fs-idm62120944">El alfa ponderado es una medida del rendimiento ajustado al riesgo de las acciones durante un período de un año. Un alfa ponderado positivo alto significa una acción cuyo precio ha subido, mientras que un alfa ponderado positivo pequeño indica un precio de la acción sin cambios durante el período. El alfa ponderado se utiliza para identificar empresas con fuertes tendencias al alza o a la baja. El alfa ponderado de los 30 principales títulos  valores de los bancos del noreste y del oeste identificados por el Nasdaq el 24 de mayo de 2013 figura en <link target-id="fs-idm242901296"/> y <link target-id="fs-idm167801152"/>, respectivamente.</para>
 <table id="fs-idm242901296" summary="">
 <title>Noreste</title>
@@ -1738,7 +1738,7 @@ Los términos <m:math>
 
 <section id="fs-idm173509824" class="free-response">
 <title>Tarea para la casa</title>
-<para id="eip-747"><emphasis effect="italics">INSTRUCCIONES: Para cada uno de los problemas de palabras use una hoja de soluciones para hacer la prueba de hipótesis. La hoja de soluciones se encuentra en el <link document="m47882">apéndice E</link>. No dude en hacer copias de las hojas de soluciones. Para la versión en línea del libro, se sugiere copiar los archivos .doc o .pdf.</emphasis></para><note id="eip-792"><label/>
+<para id="eip-747"><emphasis effect="italics">INSTRUCCIONES: Para cada uno de los problemas de palabras use una hoja de soluciones para hacer la prueba de hipótesis. La hoja de soluciones se encuentra en el <link document="m47882">apéndice E</link>. No dude en hacer copias de las hojas de soluciones. Para la versión en línea del libro, se sugiere copiar los archivos .doc o .pdf.</emphasis></para><note id="eip-792">
 <title>NOTA</title>
     <para id="eip-idp140444868962512">Si utiliza la distribución <emphasis effect="italics">t</emphasis> de Student para un problema de tarea en lo que sigue, incluso para datos emparejados, puede suponer que la población subyacente está distribuida normalmente. (Sin embargo, cuando se utilicen estas pruebas en una situación real, primero hay que demostrar esa suposición).</para></note><exercise id="fs-idm164128"><problem id="fs-idm163872">
 <para id="fs-idm163616">Se cree que el número medio de cursos de inglés que toman en un período de dos años los estudiantes universitarios masculinos y femeninos es aproximadamente el mismo. Se realiza un experimento y se recopilan datos de 29 hombres y 16 mujeres. Los hombres tomaron una media de tres cursos de inglés, con desviación estándar de 0,8. Las mujeres tomaron una media de cuatro cursos de inglés, con desviación estándar de 1,0. ¿Son las medias estadísticamente iguales?</para>

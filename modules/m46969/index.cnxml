@@ -41,7 +41,7 @@
 <para id="fs-idm725296">Observe que el gráfico es una curva descendente. Cuando <emphasis effect="italics">x</emphasis> = 0,</para>
 <para id="fs-idm61837632"><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = 0,25<emphasis effect="italics">e</emphasis><sup>(−0,25)(0)</sup> = (0,25)(1) = 0,25 = <emphasis effect="italics">m</emphasis>. El valor máximo en el eje <emphasis effect="italics">y</emphasis> es <emphasis effect="italics">m</emphasis>.</para></example>
 <note id="fs-idm39150960" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm37492592">
 <problem id="fs-idp79313392">
@@ -60,12 +60,12 @@
 </media>
 </figure>
 <note id="fs-idp59726080">
-<label/>
+
 <title>NOTA</title>
 <para id="fs-idm24272592">Puede hacer estos cálculos fácilmente en una calculadora.</para>
 </note>
 <para id="fs-idp1927968"><newline/> La probabilidad de que un empleado de correos pase de cuatro a cinco minutos con un cliente seleccionado al azar es <emphasis effect="italics">P</emphasis>(4 &lt; <emphasis effect="italics">x</emphasis> &lt; 5) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 5) – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 4) = 0,7135 - 0,6321 = 0,0814.</para><note id="fs-idp55383888" class="statistics calculator">
-<label/>
+
 <para id="fs-idp125894928">En la pantalla de inicio, ingrese (1 - e^(-0,25*5))-(1-e^(-0,25*4)) o ingrese e^(-0,25*4) - e^(-0,25*5).</para>
 </note>
 </solution>
@@ -98,7 +98,7 @@
 </m:math> minutos. La calculadora simplifica el cálculo del percentil <emphasis effect="italics">k</emphasis>. Vea las dos notas siguientes.</para>
 
 <note id="fs-idp114975808">
-<label/>
+
 <title>Nota</title>
 <para id="fs-idm164380848">Una fórmula para el percentil <emphasis effect="italics">k</emphasis> es <m:math>
  <m:mrow>
@@ -114,7 +114,7 @@
  </m:mrow>
 </m:math> donde <emphasis effect="italics">ln</emphasis> es el logaritmo natural.</para>
 </note>
-<note id="fs-idm48901520" class="statistics calculator"><label/>
+<note id="fs-idm48901520" class="statistics calculator">
 
 <para id="fs-idm160482432">En la pantalla de inicio, introduzca ln(1 - 0,50)/-0,25. Pulse el (-) para el negativo.</para>
 </note></solution>
@@ -128,7 +128,7 @@
 <para id="fs-idp53461120">c. De la parte b, la mediana o percentil 50<sup/> es de 2,8 minutos. La media teórica es de cuatro minutos. La media es mayor.</para></solution>
 </exercise>
 </example><note id="fs-idp37171808" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idp69715216">
 <problem id="fs-idm17706272">
@@ -137,7 +137,7 @@
 </exercise>
 </note>
 <note id="fs-idm13164528" class="statistics collab">
-<label/>
+
  
 <para id="fs-idm38401216">Haga que cada miembro de la clase cuente el cambio que tiene en su bolsillo o monedero. Su instructor registrará las cantidades en dólares y centavos. Construya un histograma de los datos tomados por la clase. Utilice cinco intervalos. Dibuje una curva suave a través de las barras. El gráfico debe tener un aspecto aproximadamente exponencial. A continuación, calcule la media.</para>
 <para id="fs-idp24026224">Sea <emphasis effect="italics">X</emphasis> = la cantidad de dinero que un estudiante de su clase tiene en su bolsillo o monedero.</para>
@@ -169,7 +169,7 @@
 </m:math> <newline/>Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 7). Dibuje el gráfico. <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 7) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 7). <newline/>Como <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">x</emphasis>) = 1 – <emphasis effect="italics">e<sup>–mx</sup></emphasis> entonces <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">x</emphasis>) = 1 – (1 –<emphasis effect="italics">e<sup>–mx</sup></emphasis>) = <emphasis effect="italics">e<sup>–mx</sup></emphasis> <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 7) = <emphasis effect="italics">e</emphasis><sup>(–0,1)(7)</sup> = 0,4966. La probabilidad de que una pieza de computadora dure más de siete años es de 0,4966.</para>
 </solution>
 </exercise><note id="fs-idm37926768" class="statistics calculator">
-<label/>
+
 <para id="fs-idp98577776">En la pantalla de inicio, ingrese e^(-.1*7).</para>
 </note>
 <figure id="fs-idm49565232">
@@ -211,7 +211,7 @@
 
 
 <note id="fs-idm26222928" class="statistics calculator">
-<label/>
+
 <para id="fs-idm132774320">En la pantalla de inicio, ingrese <m:math>
  <m:mrow>
   <m:mfrac>
@@ -243,12 +243,12 @@
 
 
 <note id="fs-idp64620208" class="statistics calculator">
-<label/>
+
 <para id="fs-idp127070960">En la pantalla de inicio, ingrese <emphasis effect="italics">e^</emphasis>(-0,1*9) - <emphasis effect="italics">e^</emphasis>(-0,1*11).</para>
 </note>
 </example>
 <note id="fs-idp37483984" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idp160524848">
 <problem id="fs-idp143017440">
@@ -290,7 +290,7 @@
 </exercise>
 </example>
 <note id="fs-idp114002624" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idp171920384">
 <problem id="fs-idp50292576">
@@ -331,7 +331,7 @@
 </m:mrow>
 </m:math> = 0,5. <newline/>Por lo tanto, <emphasis effect="italics">X</emphasis> ∼ <emphasis effect="italics">Exp</emphasis>(0,5). <newline/>La función de distribución acumulativa es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">x</emphasis>) = 1 – <emphasis effect="italics">e</emphasis><sup>(-0,5)(x)</sup>. <newline/><emphasis>Por lo tanto,</emphasis> <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 1) = 1 - e<sup>(-0,5)(1)</sup> ≈ 0,3935.
 <note id="fs-idm151753536" class="statistics calculator">
-<label/>
+
 <para id="fs-idm49583248">1 - <emphasis effect="italics">e</emphasis>^(–0,5) ≈ 0,3935</para>
 </note>
 <figure id="fs-idp55682592">
@@ -347,7 +347,7 @@
 </media>
 </figure>
 <note id="fs-idm57824464" class="statistics calculator">
-<label/>
+
 <para id="fs-idm142138736">1 - (1 - e^((-0,50)(5))) o e^( - 5*0,5)</para>
 </note>
 </item>
@@ -404,7 +404,7 @@
 
 
 <note id="fs-idm8049696" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm82243888">
 <problem id="fs-idm82243632">
@@ -461,11 +461,11 @@
 </media>
 </figure>
 <note id="fs-idp45251104" class="statistics calculator">
-<label/>
+
 <para id="fs-idp114743232">1-(1-e^(-0,25*3)) = e^(-0,25*3).</para></note>
 </example>
 <note id="fs-idm77006064" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm127426368">
 <problem id="fs-idp1742048">
@@ -498,7 +498,7 @@
 
 </m:mrow>
 </m:math> Por el contrario, si el número de eventos por unidad de tiempo sigue una distribución de Poisson, entonces la cantidad de tiempo entre eventos sigue la distribución exponencial.(<emphasis effect="italics">k</emphasis>! = <emphasis effect="italics">k</emphasis>*(<emphasis effect="italics">k</emphasis>–1*)(<emphasis effect="italics">k</emphasis>–2)*(<emphasis effect="italics">k</emphasis>–3)*…3*2*1)</para><note id="fs-idm148932176" class="statistics calculator">
-<label/>
+
 <para id="fs-idp35150608">Supongamos que <emphasis effect="italics">X</emphasis> tiene la distribución de Poisson con media <emphasis effect="italics">λ</emphasis>. Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = <emphasis effect="italics">k</emphasis>) introduciendo 2<sup>nd</sup>, VARS(DISTR), C: poissonpdf<emphasis effect="italics">(λ</emphasis>, <emphasis effect="italics">k</emphasis>). Para calcular <emphasis effect="italics">P</emphasis><emphasis effect="italics">(X</emphasis> ≤ <emphasis effect="italics">k</emphasis>), ingrese 2<sup>nd</sup>, VARS (DISTR), D:poissoncdf(<emphasis effect="italics">λ</emphasis>, <emphasis effect="italics">k</emphasis>).</para></note>
 </section>
 <example id="fs-idp35148784">
@@ -584,16 +584,16 @@
 </m:mrow>
 </m:math> ≈ 0,1563. (5! = (5)(4)(3)(2)(1))
 
-<note id="fs-idp140339744" class="statistics calculator"><label/>
+<note id="fs-idp140339744" class="statistics calculator">
 <para id="fs-idp115054976">poissonpdf(4, 5) = 0,1563.</para>
 </note></item>
 
 <item>Tenga en cuenta que <emphasis effect="italics">X</emphasis> debe ser un número entero, por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 5) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 4). <newline/>Para calcular esto, podríamos tomar <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = 0) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = 1) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = 2) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = 3) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = 4). <newline/>Utilizando la tecnología, vemos que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 4) = 0,6288.
-<note id="fs-idp70409712" class="statistics calculator"><label/>
+<note id="fs-idp70409712" class="statistics calculator">
 <para id="fs-idp165812304">poisssoncdf(4, 4) = 0,6288</para>
 </note></item>
 <item>Sea <emphasis effect="italics">Y</emphasis> = el número de llamadas que se producen durante un periodo de ocho minutos. <newline/>Como hay una media de cuatro llamadas por minuto, hay una media de (8)(4) = 32 llamadas durante cada periodo de ocho minutos. <newline/>Por lo tanto, <emphasis effect="italics">Y</emphasis> ∼ <emphasis effect="italics">Poisson</emphasis>(32). Por tanto, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Y</emphasis> > 40) = 1 – <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">Y</emphasis> ≤ 40) = 1 – 0,9294 = 0,0707.
-<note id="fs-idp161494592" class="statistics calculator"><label/>
+<note id="fs-idp161494592" class="statistics calculator">
 <para id="fs-idp137845728">1 - poissoncdf(32, 40). = 0,0707</para>
 </note></item>
 </list></solution>
@@ -602,7 +602,7 @@
 
 
 <note id="fs-idp97352064" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm15154880">
 <problem id="fs-idm15154624">
@@ -1521,7 +1521,7 @@
   <m:mo>)</m:mo></m:mrow><m:mo>≈</m:mo><m:mn>0,1084.</m:mn>
  </m:mrow>
 </m:math></item>
-</list><note id="fs-idm18595152"><label/><title>Nota</title>
+</list><note id="fs-idm18595152"><title>Nota</title>
 <para id="fs-idm44681536">También podríamos deducir que cada persona que llega tiene una probabilidad de 8/9 de no tener sangre de tipo B. Así que la probabilidad de que ninguna de las primeras 20 personas que lleguen tenga sangre tipo B es <m:math>
  <m:mrow>
   <m:msup>

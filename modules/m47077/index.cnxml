@@ -10,7 +10,7 @@
 <content>
 <para id="element-834">Las pruebas de independencia implican el uso de una <term id="term-00001">tabla de contingencia</term> de valores observados (datos).</para>
 <para id="element-230">El estadístico de <term id="term-00002">prueba de independencia</term> es similar al de la prueba de bondad de ajuste:</para>
-<equation class="unnumbered" id="element-164"><label/>Los términos <m:math>
+<equation class="unnumbered" id="element-164">Los términos <m:math>
  <m:mrow>
   <m:munder>
    <m:mi>Σ</m:mi>
@@ -49,7 +49,7 @@
    <m:mi>E</m:mi>
   </m:mfrac>
  </m:mrow>
-</m:math>. </para><para id="element-518"><emphasis>Una prueba de independencia determina si dos factores son independientes o no.</emphasis> La primera vez que se topó con el término independencia fue en <link document="m46938">Temas de probabilidad</link>. A modo de repaso, considere el siguiente ejemplo.</para><note id="eip-155"><label/><title>Nota</title>
+</m:math>. </para><para id="element-518"><emphasis>Una prueba de independencia determina si dos factores son independientes o no.</emphasis> La primera vez que se topó con el término independencia fue en <link document="m46938">Temas de probabilidad</link>. A modo de repaso, considere el siguiente ejemplo.</para><note id="eip-155"><title>Nota</title>
 <para id="eip-idp140445076868880">El valor esperado de cada celda debe ser, al menos, cinco para poder utilizar esta prueba.</para></note><example id="element-54">
 <para id="element-904">Supongamos que <emphasis effect="italics">A</emphasis> = una infracción por exceso de velocidad en el último año y <emphasis effect="italics">B</emphasis> = un usuario de teléfono móvil mientras conduce. Si <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son independientes, entonces <emphasis effect="italics">P</emphasis><emphasis effect="italics">(A</emphasis> Y <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>). <emphasis effect="italics">A</emphasis> Y <emphasis effect="italics">B</emphasis> es el evento en que un conductor recibió una infracción por exceso de velocidad el año pasado y también utilizaba el teléfono móvil mientras conducía. Supongamos que se encuestaron 755 personas en un estudio sobre conductores que recibieron infracciones por exceso de velocidad durante el año pasado que usaron el teléfono móvil mientras conducían. De los 755, 70 tenían una infracción por exceso de velocidad y 685 no; 305 usaba el teléfono móvil mientras conducían y 450 no.</para><para id="element-427">Supongamos que <emphasis effect="italics">y</emphasis> = número esperado de conductores que usaron un teléfono móvil mientras conducían y recibieron infracciones por exceso de velocidad.</para>
  <para id="element-367">Si <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son independientes, entonces <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> Y <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>). Por sustitución,</para>
@@ -103,7 +103,7 @@
 <para id="element-197"><emphasis>La prueba de independencia es siempre de cola derecha</emphasis> debido al cálculo del estadístico de prueba. Si los valores esperados y observados no están cerca, entonces el estadístico de prueba es muy grande y se encuentra en la cola derecha de la curva de chi-cuadrado, al igual que en una bondad de ajuste.</para><para id="element-35">El número de grados de libertad para la prueba de independencia es:</para><para id="element-12412"><emphasis effect="italics">df</emphasis> = (número de columnas – 1)(número de filas – 1)</para>
 <para id="element-928">La siguiente fórmula calcula el <emphasis>número esperado</emphasis> (<emphasis effect="italics">E</emphasis>):</para>
 <para id="element-32">Los términos <m:math><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mtext>(total de filas)(total de columnas)</m:mtext><m:mtext>número total de encuestados</m:mtext></m:mfrac></m:math></para></example>
-<note id="fs-idp45633632" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idp45633632" class="statistics try"><title>Ejercicio</title>
 <exercise id="eip-298">
  <problem id="eip-721">
  <para id="eip-935">Se toma una muestra de 300 estudiantes. De los estudiantes encuestados, 50 estudiaban música, mientras que 250 no. Un total de 97 estaban en el cuadro de honor, mientras que 203 no. Si suponemos que ser estudiante de música y estar en el cuadro de honor son hechos independientes, ¿cuál es el número esperado de estudiantes de música que también están en el cuadro de honor?</para></problem>
@@ -209,9 +209,9 @@
  <para id="fs-idp19708320"><emphasis effect="italics">df</emphasis> = (3 columnas – 1)(3 filas – 1) = (2)(2) = 4</para><para id="element-48"><emphasis>Gráfico:</emphasis></para>
  <figure id="fs-idm32439392"><media id="id8547662" alt="Curva de chi-cuadrado no simétrica con valores de 0 y 12,99 en el eje x que representa el estadístico de prueba del número de horas trabajadas por los voluntarios de diferentes tipos. Una línea vertical ascendente se extiende desde 12,99 hasta la curva y el área a la derecha de esta es igual al valor p." display="block"><image src="../../media/fig-ch11_05_01N.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-117"><emphasis>Declaración de probabilidad:</emphasis> valor <emphasis effect="italics">p</emphasis>=<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">χ<sup>2</sup></emphasis> > 12,99) = 0,0113</para><para id="element-347"><emphasis>Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>:</emphasis> Ya que no se da <emphasis effect="italics">α</emphasis>, suponga que <emphasis effect="italics">α</emphasis> = 0,05. valor <emphasis effect="italics">p</emphasis> = 0,0113. <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>.</para>
 <para id="fs-idm62402592"><emphasis>Tome una decisión:</emphasis> Dado el valor de <emphasis effect="italics">α</emphasis> > <emphasis effect="italics">p</emphasis>, se rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>. Esto significa que los factores no son independientes.</para><para id="element-590"><emphasis>Conclusión:</emphasis> A un nivel de significación del 5 %, a partir de los datos, hay pruebas suficientes para concluir que el número de horas de voluntariado y el tipo de voluntariado dependen el uno del otro.</para>
- <para id="element-956">Para el ejemplo de la <link target-id="table-73248"/>, de haber otro tipo de voluntarios, adolescentes, ¿cuáles serían los grados de libertad?</para><note id="fs-idp30286464" class="statistics calculator"><label/>
+ <para id="element-956">Para el ejemplo de la <link target-id="table-73248"/>, de haber otro tipo de voluntarios, adolescentes, ¿cuáles serían los grados de libertad?</para><note id="fs-idp30286464" class="statistics calculator">
 <para id="element-854">Pulse <code>MATRX</code> y flecha hacia <code>EDIT</code>. Pulse <code>1:[A]</code>. Pulse <code>3 ENTER 3 ENTER</code>. Introduzca los valores de la tabla por fila, desde la <link target-id="table-73248"/>. Pulse <code>ENTER</code> después de cada uno. Pulse <code>2nd QUIT</code>. Pulse <code>STAT</code> y flecha hacia <code>TESTS</code>. Flecha hacia abajo <code>C:χ2-TEST</code>. Pulse <code>ENTER</code>. Debería ver <code>Observed:[A] y Expected:[B]</code>. Si es necesario, utilice las teclas de flecha para mover el cursor después de <code>Observed: (Observado:)</code> y pulse <code>2nd MATRX</code>. Pulse <code>1:[A]</code> para seleccionar la matriz A. No es necesario introducir los valores esperados. La matriz que aparece después de <code>Expected: (Previsto:)</code> puede estar en blanco. Flecha hacia abajo <code>Calculate</code>. Pulse <code>ENTER</code>. El estadístico de prueba es 12,9909 y el valor <emphasis effect="italics">p</emphasis> = 0,0113. Repita el procedimiento, pero con la flecha hacia abajo a <code>Draw</code> en vez de <code>Calculate</code>.</para></note></solution></exercise></example>
-<note id="fs-idm24618832" class="statistics try finger"><label/><title>Ejercicio</title>
+<note id="fs-idm24618832" class="statistics try finger"><title>Ejercicio</title>
 <exercise id="eip-685"><problem id="eip-903">
  <para id="eip-845">La Oficina de Estadísticas Laborales recopila datos sobre empleo en Estados Unidos. Se toma una muestra para calcular el número de ciudadanos de EE. UU. que trabajan en uno de varios sectores industriales a lo largo del tiempo. La <link target-id="fs-idp61742592"/> muestra los resultados: </para>
 <table id="fs-idp61742592" summary="">
@@ -371,7 +371,7 @@
 <para id="eip-idm130717088">d. 8</para>
 </solution>
 </exercise></example>
-<note id="fs-idm15185536" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm15185536" class="statistics try"><title>Ejercicio</title>
 <exercise id="eip-358"><problem id="eip-928">
  <para id="eip-757">Consulte la información en el <link target-id="fs-idm24618832"/>. ¿Cuántos puestos de trabajo en el sector de los servicios se espera que haya en 2020? ¿Cuántos empleos asalariados no relacionados con la agricultura se espera que haya en 2020?</para></problem>
 </exercise>

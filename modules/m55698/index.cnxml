@@ -9,7 +9,7 @@
 </metadata>
 
 <content>
-  <para id="eip-8888">La prueba de bondad de ajuste se puede usar para decidir si una población se ajusta a una distribución determinada, pero no bastará para decidir si dos poblaciones siguen la misma distribución desconocida. Una prueba diferente, llamada <term id="term-00001">prueba de homogeneidad</term>, se puede usar para sacar una conclusión sobre si dos poblaciones tienen la misma distribución. Para calcular el estadístico de prueba de homogeneidad siga el mismo procedimiento que con la prueba de independencia.</para><note id="eip-195"><label/><title>Nota</title>
+  <para id="eip-8888">La prueba de bondad de ajuste se puede usar para decidir si una población se ajusta a una distribución determinada, pero no bastará para decidir si dos poblaciones siguen la misma distribución desconocida. Una prueba diferente, llamada <term id="term-00001">prueba de homogeneidad</term>, se puede usar para sacar una conclusión sobre si dos poblaciones tienen la misma distribución. Para calcular el estadístico de prueba de homogeneidad siga el mismo procedimiento que con la prueba de independencia.</para><note id="eip-195"><title>Nota</title>
 <para id="eip-idp34705152">El valor esperado dentro de cada celda debe ser, al menos, cinco para que pueda usar esta prueba.</para></note><para id="eip-705"><title>Hipótesis</title><newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: Las distribuciones de las dos poblaciones son iguales.<newline/> <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: Las distribuciones de las dos poblaciones no son iguales.</para><para id="eip-703"> <title>Estadístico de prueba</title>Utilice un <m:math> <m:msup> <m:mi>χ</m:mi> <m:mn>2</m:mn> </m:msup></m:math> estadístico de prueba. Se calcula de la misma manera que la prueba de independencia.  </para>
 <para id="eip-577"> <title>Grados de libertad (<emphasis effect="italics">df</emphasis>)</title><emphasis effect="italics">df</emphasis> = número de columnas – 1</para>
 <para id="eip-572"> <title>Requisitos</title>Todos los valores de la tabla deben ser mayores o iguales a cinco. </para>
@@ -47,7 +47,7 @@
 <solution id="eip-996">
   <para id="eip-724"><emphasis effect="italics">H<sub>0</sub></emphasis>: La distribución de la vivienda de los estudiantes universitarios es igual que la de las estudiantes universitarias.<newline/> <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: La distribución de la vivienda de los estudiantes universitarios no es igual que la de las estudiantes universitarias.<newline/><newline/> <emphasis>Grados de libertad (<emphasis effect="italics">df</emphasis>):</emphasis><newline/> <emphasis effect="italics">df</emphasis> = número de columnas – 1 = 4 – 1 = 3 <newline/><newline/> <emphasis>Distribución de la prueba:</emphasis><m:math><m:msubsup><m:mi>χ</m:mi><m:mn>3</m:mn> <m:mn>2</m:mn></m:msubsup></m:math><newline/><newline/> <emphasis>Calcule el estadístico de prueba:</emphasis> <m:math><m:msubsup><m:mi>χ</m:mi><m:mi>c</m:mi><m:mn>2</m:mn></m:msubsup></m:math> = 10.129 <newline/><newline/><figure id="eip-id2107181"><media id="eip-id1167834211881" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch11_04_07n.jpg" width="380"/></media></figure></para><para id="fs-idm273008"><newline/>El gráfico de chi cuadrado muestra la distribución y marca el valor crítico con tres grados de libertad a un nivel de confianza del 95 %, α = 0,05; 7,815. El gráfico también marca el valor calculado del estadístico de prueba <emphasis effect="italics">χ</emphasis><sup>2</sup> de 10,129. Al comparar el estadístico de prueba con el valor crítico, como hemos hecho con todas las demás pruebas de hipótesis, llegamos a la conclusión. <newline/><newline/> <emphasis>Tome una decisión:</emphasis> Como el estadístico de prueba calculado está en la cola, no podemos aceptar <emphasis effect="italics">H<sub>0</sub></emphasis>. Esto significa que las distribuciones no son iguales. <newline/><newline/> <emphasis>Conclusión:</emphasis> a un nivel de significación del 5 %, a partir de los datos, hay pruebas suficientes para concluir que las distribuciones de los tipos de vivienda de los estudiantes universitarios hombres y mujeres no son iguales.<newline/><newline/> Observe que la conclusión es solo que las distribuciones no son iguales. No podemos utilizar la prueba de homogeneidad para obtener conclusiones sobre sus diferencias.
 </para></solution>
-</exercise></example><note id="fs-idp99198384" class="statistics try"><label/><title>Ejercicio</title>
+</exercise></example><note id="fs-idp99198384" class="statistics try"><title>Ejercicio</title>
     <exercise id="eip-976">
       <problem id="eip-39">
         <para id="eip-658">¿Las familias y los solteros tienen la misma distribución de automóviles? Utilice un nivel de significación de 0,05. Supongamos que se les pregunta a 100 familias y a 200 solteros seleccionados al azar qué tipo de automóvil conducen: deportivo, sedán, utilitario, camioneta, van/suv. Los resultados se muestran en la <link target-id="eip-idm93309648"/>. ¿Las familias y los solteros tienen la misma distribución de automóviles? Pruebe con un nivel de significación de 0,05.</para><table id="eip-idm93309648" summary="">
@@ -84,11 +84,11 @@
 </table>
 </problem>
 <solution id="eip-idp127134288">
-<label/>
+
   <para id="eip-235">Con un valor <emphasis effect="italics">p</emphasis> de casi cero, rechazamos la hipótesis nula. Los datos muestran que la distribución de los automóviles no es la misma para las familias que para los solteros.</para>
 </solution>
 </exercise>
-</note><note id="fs-idm61233888" class="statistics try finger"><label/><title>Ejercicio</title>
+</note><note id="fs-idm61233888" class="statistics try finger"><title>Ejercicio</title>
     <exercise id="eip-680">
     <problem id="eip-625">
       <para id="eip-895">Las escuelas Ivy League reciben muchas solicitudes, pero solo algunas pueden ser aceptadas. En las escuelas que aparecen en la <link target-id="fs-idm19368736"/> se aceptan dos tipos de solicitudes: regulares y de decisión anticipada.</para>
@@ -128,10 +128,10 @@
 </tgroup>
 </table><para id="eip-896">Queremos saber si el número de solicitudes regulares aceptadas sigue la misma distribución que el número de solicitudes anticipadas aceptadas. Indique las hipótesis nula y alternativa, los grados de libertad y el estadístico de prueba, dibuje el gráfico de la distribución <emphasis effect="italics">χ</emphasis><sup>2</sup> y muestre el valor crítico y el valor calculado del estadístico de prueba, y saque una conclusión sobre la prueba de homogeneidad.</para></problem>
 <solution id="eip-idp110188800">
-<label/>
+
 <para id="eip-822"><emphasis effect="italics">H<sub>0</sub></emphasis>: La distribución de las solicitudes ordinarias aceptadas es la misma que la de las solicitudes anticipadas aceptadas.</para><para id="eip-824"><emphasis effect="italics">H<sub>a</sub></emphasis> : La distribución de las solicitudes ordinarias aceptadas no es la misma que la de las solicitudes anticipadas aceptadas. <newline/><emphasis effect="italics">df</emphasis> = 5 <newline/><emphasis effect="italics">χ<sup>2</sup></emphasis> estadística de la prueba = 430,06</para><figure id="fs-idp12140192"><media id="fs-idp12704" alt="Se trata de una curva asimétrica de chi cuadrado con df = 5. Los valores 0, 5 y 430,06 están marcados en el eje horizontal. El valor 5 coincide con el pico de la curva. Una línea vertical ascendente se extiende desde 430,06 hasta la curva, y la región a la derecha de esta línea está sombreada. El área sombreada es igual al valor p." display="block">
   <image mime-type="image/jpeg" src="../../media/CNX_Stats_C11_M06_tryit001.jpg" width="380"/>
-</media></figure><note id="fs-idp12880128" class="statistics calculator"><label/>
+</media></figure><note id="fs-idp12880128" class="statistics calculator">
   <para id="eip-idm17817856">Pulse <code>MATRX</code> y flecha hacia <code>EDIT</code>. Pulse <code>1:[A]</code>. Pulse <code>3 ENTER 3 ENTER</code>. Introduzca los valores de la tabla por fila. Pulse <code>ENTER</code> después de cada uno. Pulse <code>2nd QUIT</code>. Pulse <code>STAT</code> y flecha hacia <code>TESTS</code>. Flecha hacia abajo<code>C:χ2-TEST</code>. Pulse <code>ENTER</code>. Debería ver <code>Observed:[A] y Expected:[B]</code>. Desplace la flecha hacia abajo hasta <code>Calculate</code>. Pulse <code>ENTER</code>. El estadístico de prueba es 430,06 y el valor <emphasis effect="italics">p</emphasis> = 9,80E-91. Realice el procedimiento por segunda vez pero desplace la flecha hacia abajo hasta <code>Draw</code> en vez de <code>Calculate</code>.</para>
 </note></solution>
 </exercise></note><section id="fs-idm80427920" class="references">

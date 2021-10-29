@@ -66,7 +66,7 @@
     </example>
 
     <note id="fs-idp2956752" class="statistics try">
-    <label/>
+    
     <title>Ejercicio</title>
     <exercise id="eip-273"><problem id="eip-404">
     <para id="eip-488">Supongamos que tenemos datos de una muestra. La media de la muestra es 15, y el límite de error para la media es 3,2.</para>
@@ -249,11 +249,11 @@
 </m:math>, utilizando una calculadora, una computadora o una tabla de probabilidad normal estándar.</para>
 
 <note id="fs-idm6917168" class="statistics calculator">
-<label/>
+
 <para id="fs-idp47831024"><code>invNorm</code>(0,975, 0, 1) = 1,96</para>
 </note>
 <note id="eip-831">
-<label/><title>Nota</title>
+<title>Nota</title>
 <para id="fs-idm49071376">Recuerde utilizar el área a la IZQUIERDA de <m:math>
      <m:mrow>
       <m:msub>
@@ -492,7 +492,7 @@
 <solution id="eip-idp129183584">
 <para id="eip-idm50696864"/>
     <note id="fs-idp129429152" class="statistics calculator">
-    <label/>
+    
     <para id="eip-542">Pulse <code>STAT</code> y flecha hacia <code>TESTS</code>. <newline/>Desplace la flecha hacia abajo <code>7:ZInterval</code>. <newline/>Pulse <code>ENTER</code>. <newline/>Desplace la flecha hacia <code>STATS</code> y pulse <code>ENTER</code>. <newline/>Desplace la flecha hacia abajo e introduzca tres para <emphasis effect="italics">σ</emphasis>, 68 para <m:math>
      <m:mover accent="true">
       <m:mi>x</m:mi>
@@ -506,7 +506,7 @@
 
     <para id="eip-id1171264042411">Explicación del nivel de confianza del 90 %: El noventa por ciento de los intervalos de confianza construidos de este modo contienen la verdadera puntuación media del examen estadístico. Por ejemplo, si construyéramos 100 de estos intervalos de confianza, esperaríamos que 90 de ellos contuvieran la verdadera puntuación media del examen de la población.</para>
     </solution>
-    </exercise></example><note id="fs-idm85249264" class="statistics try"><label/><title>Ejercicio</title>
+    </exercise></example><note id="fs-idm85249264" class="statistics try"><title>Ejercicio</title>
 
     <para id="eip-idm104826624">Supongamos que los tiempos medios de entrega de las pizzas se distribuyen normalmente con una media poblacional desconocida y una desviación típica desviación típica de la población de seis minutos. Se toma una muestra aleatoria de 28 pizzerías y se obtiene una media de tiempo de entrega de 36 minutos.</para>
     <exercise id="eip-24">
@@ -514,7 +514,7 @@
     <para id="eip-887">Calcule una estimación del intervalo de confianza del 90 % para el tiempo medio de entrega de la población.</para>
     </problem>
     <solution id="eip-337">
-<label/>
+
     <para id="eip-637">(34,1347, 37,8653)</para>
     </solution>
     </exercise>
@@ -692,7 +692,7 @@
     <solution id="eip-idm108144592">
 <para id="eip-idm52012352"/>
     <note id="fs-idm71087104" class="statistics calculator">
-    <label/>
+    
     <list id="eip-idp8586624" list-type="labeled-item">
     <item>Pulse STAT y desplace la flecha hasta TESTS.</item>
     <item>Desplace la flecha hacia abajo hasta 7:ZInterval.</item>
@@ -718,7 +718,7 @@
     </exercise></example>
 
     <note id="fs-idp77326048" class="statistics try">
-<label/><title>Ejercicio</title>
+<title>Ejercicio</title>
     <exercise id="eip-158">
     <problem id="eip-555">
       <para id="eip-136"><link target-id="M02_CH08-tbl002" document=""/> muestra un muestreo aleatorio de 20 modelos de teléfonos móviles. Utilice estos datos para calcular un intervalo de confianza del 93 % para la verdadera media de SAR de los teléfonos móviles certificados para su uso en Estados Unidos. Como en el caso anterior, supongamos que la desviación típica de la población es <emphasis effect="italics">σ</emphasis> = 0,337.</para>
@@ -956,7 +956,7 @@
   </commentary>
     </exercise></example>
     <note id="fs-idm35811600" class="statistics try">
-    <label/>
+    
     <title>Ejercicio</title>
     <exercise id="eip-847"><problem id="eip-565">
       <para id="eip-idp138029248">Vuelva a consultar el <link target-id="fs-idm85249264" document="">Ejercicio</link> de entrega de pizzas. La desviación típica de la población es de seis minutos y la media de la muestra del tiempo de entrega es de 36 minutos. Utilice un tamaño de muestra de 20. Encuentre una estimación del intervalo de confianza del 95 % para la media real del tiempo de entrega de la pizza.</para></problem>
@@ -1123,7 +1123,7 @@
     </list>
     </example>
 
-    <note id="fs-idm59608800" class="statistics try"><label/><title>Ejercicio</title>
+    <note id="fs-idm59608800" class="statistics try"><title>Ejercicio</title>
     <exercise id="eip-159">
     <problem id="eip-53">
       <para id="eip-929">Vuelva a consultar el <link target-id="fs-idm85249264">Ejercicio</link> de entrega de pizzas. La media de tiempo de entrega es de 36 minutos y la desviación típica de la población es de seis minutos. Supongamos que el tamaño de la muestra se cambia a 50 restaurantes con la misma media muestral. Calcule una estimación del intervalo de confianza del 90 % para el tiempo medio de entrega de la población.</para></problem>
@@ -1187,7 +1187,7 @@
 
 
     <note id="fs-idm38498176" class="statistics try">
-    <label/>
+    
     <title>Ejercicio</title>
     <exercise id="eip-998">
     <problem id="eip-253">
@@ -1341,7 +1341,7 @@
     </list><para id="eip-893">Por lo tanto, habría que encuestar a 217 estudiantes de Foothill College para estar seguros en un 95 % de que estamos dentro de los dos años de la verdadera edad media de la población de estudiantes del Foothill College.</para>
     </example>
 
-    <note id="fs-idm26211984" class="statistics try"><label/>
+    <note id="fs-idm26211984" class="statistics try">
     <title>Ejercicio</title>
     <exercise id="eip-669">
     <problem id="eip-635">
@@ -2335,7 +2335,7 @@
 
       <para id="fs-idp4716768">	Solución alternativa:</para>
       <note id="fs-idm110214288" class="statistics calculator">
-        <label/>
+        
       <list id="eip-idm75466352" list-type="enumerated" number-style="arabic">
     <item>Pulse <code>STAT</code> y flecha hacia <code>TESTS</code>.</item>
     <item>Desplace la flecha hacia abajo <code>7:ZInterval</code>.</item>

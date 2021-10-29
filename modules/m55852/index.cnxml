@@ -16,7 +16,7 @@
 </para><para id="eip-62">Vaya a la ventana de regresión, introduzca los datos, seleccione un nivel de confianza del 95 % y presione en "Aceptar". Puede incluir las etiquetas en el rango de entrada si ha puesto un título en la parte superior de cada columna. No obstante, asegúrese de presionar en la casilla "etiquetas" en la página principal de la regresión si lo hace.
 </para><para id="eip-163">El resultado de la regresión debería aparecer automáticamente en una nueva hoja de cálculo.</para><figure id="eip-idm375448256"><media id="eip-idm506631744" alt="..."><image mime-type="image/png" src="../../media/fig_13_01.png" width="500"/></media></figure><para id="eip-18">El primer resultado presentado es el R-cuadrado, una medida de la fuerza de la correlación entre Y y X<sub>1</sub>, X<sub>2</sub> y X<sub>3</sub> tomados como grupo. Nuestro R cuadrado de 0,699, ajustado por grados de libertad, significa que el 70% de la variación de Y, la demanda de rosas, puede explicarse por las variaciones de X<sub>1</sub>, X<sub>2</sub> y X<sub>3</sub>, el precio de las rosas, el precio de los claveles y los ingresos. No existe ninguna prueba estadística para determinar la "importancia" de un R<sup>2</sup>. Of course a higher R<sup>2</sup> is preferred, but it is really the significance of the coefficients that will determine the value of the theory being tested and which will become part of any policy discussion if they are demonstrated to be significantly different from zero.  
 </para><para id="eip-74">Mirando el tercer panel de resultados podemos escribir la ecuación como:
-</para><equation class="unnumbered" id="eip-259"><label/>Los términos <m:math>
+</para><equation class="unnumbered" id="eip-259">Los términos <m:math>
 <m:mi>Y</m:mi>
 <m:mo>=</m:mo>
 <m:msub><m:mi>b</m:mi><m:mn>0</m:mn></m:msub>
@@ -29,7 +29,7 @@
 <m:mo>+</m:mo>
 <m:mi>e</m:mi>
 </m:math> </equation><para id="eip-717">donde b<sub>0</sub> es la intersección, b<sub>1</sub> es el coeficiente estimado del precio de las rosas, y b<sub>2</sub> es el coeficiente estimado del precio de los claveles, b<sub>3</sub> es el efecto estimado del ingreso y e es el término de error. La ecuación está escrita en letras romanas para indicar que se trata de los valores estimados y no de los parámetros poblacionales, β.
-</para><para id="eip-106">Nuestra ecuación estimada es: </para><equation class="unnumbered" id="eip-20"><label/>Los términos <m:math>
+</para><para id="eip-106">Nuestra ecuación estimada es: </para><equation class="unnumbered" id="eip-20">Los términos <m:math>
 <m:mtext>Cantidad de rosas vendidas</m:mtext>
 <m:mo>=</m:mo>
 <m:mn>183.475</m:mn>
@@ -42,13 +42,13 @@
 </m:math>
 </equation><para id="eip-379">En primer lugar, observamos que los signos de los coeficientes son los esperados por la teoría. La curva de demanda tiene una pendiente descendente con signo negativo para el precio de las rosas. Además, los signos de los coeficientes del precio de los claveles y del ingreso son positivos, como cabría esperar de la teoría económica.</para><para id="eip-16">La interpretación de los coeficientes nos indica el impacto de un cambio en cada variable sobre la demanda de rosas. Es esta capacidad lo que hace que el análisis de regresión sea una herramienta tan valiosa. Los coeficientes estimados nos indican que un aumento de un dólar en el precio de las rosas provocará una reducción de 1,76 en el número de rosas compradas. El precio de los claveles parece desempeñar un papel importante en la demanda de rosas. Observamos que el aumento en el precio de los claveles en un dólar incrementaría la demanda de rosas en 1,33 unidades, ya que los consumidores sustituirían los claveles, ahora más caros. Del mismo modo, el aumento en el ingreso per cápita en un dólar supondrá un incremento de 3,03 unidades de rosas compradas. 
 </para><para id="eip-715">Estos resultados se ajustan a las predicciones de la teoría económica con respecto a las tres variables incluidas en esta estimación de la demanda de rosas. Es importante tener primero una teoría que prediga la importancia o al menos la dirección de los coeficientes. Sin ninguna teoría que poner a prueba, esta herramienta de investigación no es mucho más útil que los coeficientes de correlación que aprendimos antes.</para><para id="eip-601">Sin embargo, no podemos detenernos ahí. Primero, tenemos que comprobar si nuestros coeficientes son estadísticamente significativos con respecto a cero. Establecimos una hipótesis de:
-</para><equation class="unnumbered" id="eip-241"><label/>Los términos <m:math>
+</para><equation class="unnumbered" id="eip-241">Los términos <m:math>
 <m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
 <m:mo>:</m:mo>
 <m:msub><m:mi>β</m:mi><m:mn>1</m:mn></m:msub>
 <m:mo>=</m:mo>
 <m:mn>0</m:mn>
-</m:math> </equation><equation class="unnumbered" id="eip-764"><label/>Los términos <m:math>
+</m:math> </equation><equation class="unnumbered" id="eip-764">Los términos <m:math>
 <m:msub><m:mi>H</m:mi><m:mn>a</m:mn></m:msub>
 <m:mo>:</m:mo>
 <m:msub><m:mi>β</m:mi><m:mn>1</m:mn></m:msub>
@@ -56,7 +56,7 @@
 <m:mn>0</m:mn>
 </m:math> </equation><para id="eip-209">para los tres coeficientes en la regresión. Recordemos que no podremos decir definitivamente que nuestra b<sub>1</sub> estimada es la población real de β<sub>1</sub>, sino solo que con (1-α)% de nivel de confianza que no podemos rechazar la hipótesis nula de que nuestra β<sub>1</sub> estimada es significativamente diferente de cero. El analista afirma que el precio de las rosas influye en la cantidad demandada. De hecho, cada una de las variables incluidas tiene un impacto en la cantidad de rosas demandadas. Por consiguiente, la afirmación está en las hipótesis alternativas. Se necesitará una probabilidad muy grande, 0,95 en este caso, para derrocar la hipótesis nula, el statu quo, de que β = 0. En todas las pruebas de hipótesis de regresión la afirmación está en la alternativa y la afirmación es que la teoría ha encontrado una variable que tiene un impacto significativo en la variable Y.  
 </para><para id="eip-712">El estadístico de prueba para esta hipótesis sigue la conocida fórmula normalizadora que cuenta el número de desviaciones típicas, t, que el valor estimado del parámetro, b<sub>1</sub>, se aleja del valor hipotético, β<sub>0</sub>, que es cero en este caso:
-</para><equation class="unnumbered" id="eip-735"><label/>Los términos <m:math>
+</para><equation class="unnumbered" id="eip-735">Los términos <m:math>
 <m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub>
 <m:mo>=</m:mo>
 <m:mfrac>
@@ -70,7 +70,7 @@
 </m:math>
 </equation><para id="eip-372">La computadora calcula el estadístico de prueba y lo presenta como "t stat". Puede encontrar este valor a la derecha del error estándar de la estimación del coeficiente. El error estándar del coeficiente de b<sub>1</sub> es S<sub>b<sub>1</sub></sub> en la fórmula. Para llegar a una conclusión, comparamos estadística de la prueba con el valor crítico de la t de Student con grados de libertad n-3-1 = 29 y alfa = 0,025 (nivel de significación del 5 % para una prueba de dos colas). Nuestro estadístico t para b<sub>1</sub> es aproximadamente 5,90, que es mayor que 1,96 (el valor crítico que buscamos en la tabla t), por lo que no podemos aceptar nuestra hipótesis nula de ausencia de efecto. Llegamos a la conclusión de que el precio tiene un efecto significativo porque el valor t calculado está en la cola. Realizamos la misma prueba para b<sub>2</sub> y b<sub>3</sub>. Para cada variable, comprobamos que no podemos aceptar la hipótesis nula de ausencia de relación porque los valores calculados de la estadística t están en la cola para cada caso, es decir, son mayores que el valor crítico. Se ha determinado que todas las variables de esta regresión tienen un efecto significativo en la demanda de rosas.  
 </para><para id="eip-353">Estas pruebas nos indican si un coeficiente individual es significativamente diferente de cero, pero no abordan la calidad general del modelo. Hemos visto que el R cuadrado ajustado a los grados de libertad indica que este modelo con estas tres variables explica el 70 % de la variación de la cantidad de rosas demandadas. También podemos realizar una segunda prueba del modelo en su conjunto. Se trata de la prueba F presentada en la sección 13.4 de este capítulo. Como se trata de una regresión múltiple (más de una X), utilizamos la prueba F para determinar si nuestros coeficientes afectan colectivamente a Y. La hipótesis es:
-</para><equation class="unnumbered" id="eip-534"><label/>Los términos <m:math>
+</para><equation class="unnumbered" id="eip-534">Los términos <m:math>
 <m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
 <m:mo>:</m:mo>
 <m:msub><m:mi>β</m:mi><m:mn>1</m:mn></m:msub>
@@ -83,7 +83,7 @@
 <m:mi>i</m:mi>
 <m:mo>=</m:mo>
 <m:mn>0</m:mn>
-</m:math></equation><equation class="unnumbered" id="eip-97"><label/>Los términos <m:math>
+</m:math></equation><equation class="unnumbered" id="eip-97">Los términos <m:math>
 <m:msub><m:mi>H</m:mi><m:mn>a</m:mn></m:msub>
 <m:mo>:</m:mo>
 <m:mtext>"al menos uno de los</m:mtext><m:mspace width="0.1em"/>

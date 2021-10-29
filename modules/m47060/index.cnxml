@@ -18,7 +18,7 @@
 <para id="element-3812">La comparación de dos proporciones, al igual que la comparación de dos medias, es de uso común. Si dos proporciones estimadas son diferentes, puede deberse a una diferencia en las poblaciones o al azar. Una prueba de hipótesis puede ayudar a determinar si una diferencia en las proporciones estimadas refleja una diferencia en las proporciones de la población.</para>
   <para id="fs-idm58849136">La diferencia de dos proporciones sigue una distribución normal aproximada. En general, la hipótesis nula afirma que las dos proporciones son iguales. Es decir, <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> = <emphasis effect="italics">p<sub>B</sub></emphasis>. Para llevar a cabo la prueba utilizamos una proporción combinada, <emphasis effect="italics">p<sub>c</sub></emphasis>. </para>
 
-<equation class="unnumbered" id="element-845"><label/>
+<equation class="unnumbered" id="element-845">
   <title>La proporción combinada se calcula de la siguiente manera:</title>Los términos <m:math>
     <m:mrow>
       <m:msub>
@@ -54,7 +54,7 @@
   </m:math>
 
 </equation>
-<equation class="unnumbered" id="element-630"><label/>
+<equation class="unnumbered" id="element-630">
 <title>La distribución de las diferencias es:</title>
 Los términos <m:math>
  <m:mrow>
@@ -111,7 +111,7 @@ Los términos <m:math>
  </m:mrow>
 </m:math></equation>
 
-  <equation class="unnumbered" id="element-225"><label/>
+  <equation class="unnumbered" id="element-225">
 <title>El estadístico de prueba (puntuación<emphasis effect="italics">z</emphasis>) es:</title>
 Los términos <m:math>
  <m:mrow>
@@ -363,7 +363,7 @@ Los términos <m:math>
 <para id="element-846">La mitad del valor <emphasis effect="italics">p</emphasis> es inferior a -0,04, y la otra mitad es superior a 0,04.</para>
 <para id="element-748">Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>: <emphasis effect="italics">α</emphasis> = 0,01 y el valor <emphasis effect="italics">p</emphasis>= 0,1404. <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis>.</para><para id="element-439">Tome una decisión: Dado que <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis>, no rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
 <para id="element-632"><emphasis>Conclusión:</emphasis> A un nivel de significación del 1 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que existe una diferencia en las proporciones de pacientes adultos que no reaccionaron después de 30 minutos al medicamento <emphasis effect="italics">A</emphasis> y al medicamento <emphasis effect="italics">B</emphasis>.</para><note id="fs-idm4331904" class="statistics calculator">
-<label/>
+
 <para id="fs-idm55744576">Pulse <code>STAT</code>. Desplace la flecha hacia <code>TESTS</code> y pulse
 <code>6:2-PropZTest</code>. Desplace la flecha hacia abajo y pulse ENTER <code>20</code> para x1, <code>200</code> para n1, <code>12</code> para x2, y <code>200</code> para n2. Desplace la flecha hacia abajo <code>p1</code>: y la flecha hacia <code>diferente a p2</code>. Pulse <code>ENTER</code>. Desplace la flecha hacia abajo hasta <code>Calculate</code> y pulse <code>ENTER</code>. El valor <emphasis effect="italics">p</emphasis> es <emphasis effect="italics">p</emphasis> = 0,1404 y el estadístico de prueba es 1,47. Vuelva a realizar el procedimiento, pero en vez de <code>Calculate</code> presione <code>Draw</code>.</para></note>
 </solution>
@@ -372,7 +372,7 @@ Los términos <m:math>
 
 
 <note id="fs-idp38726464" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm6482160"><problem id="fs-idm135837088"><para id="fs-idm99465232">Se están probando dos tipos de válvulas para determinar si hay una diferencia en las tolerancias de presión. Quince de una muestra aleatoria de 100 de la válvula <emphasis effect="italics">A</emphasis> se agrietaron por debajo de 4.500 psi. Seis de una muestra aleatoria de 100 de la válvula <emphasis effect="italics">B</emphasis> se agrietaron por debajo de 4.500 psi. Pruebe con un nivel de significación del 5 %.</para></problem>
 </exercise></note>
@@ -509,7 +509,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
 </para>
 
 <note id="fs-idm151141472" class="statistics calculator">
-<label/>
+
 <para id="fs-idm112689104">Pulse STAT. Desplace la flecha hacia TESTS y pulse 6:2-PropZTest. Desplace la flecha hacia abajo e ingrese 156 para x1, 2169 para n1, 183 para x2 y 2231 para n2. Desplace la flecha hacia abajo a p1: y flecha a menos de p2. Pulse <code>ENTER</code>. Desplace la flecha hacia abajo hasta Calculate (Calcular) y pulse ENTER. El valor <emphasis effect="italics">p</emphasis> es <emphasis effect="italics">P</emphasis> = 0,1045 y el estadístico de prueba es <emphasis effect="italics">z</emphasis> = -1,256.</para>
 </note>
 </solution>
@@ -654,14 +654,14 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
   <figure id="id12575638"><media id="id12575642" alt="Se trata de una curva de distribución normal con media igual a cero. Una línea vertical cerca de la cola de la curva a la derecha de cero se extiende desde el eje hasta la curva. La región debajo de la curva a la derecha de la línea está sombreada y representa un valor p = 0,00004."><image src="../../media/CNX_Stats_C10_M04_007anno2.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="fs-idm17894912"><emphasis>Decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>, rechace el <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
   <para id="fs-idp74257664"><emphasis>Conclusión:</emphasis> At the 5% level of significance, from the sample data, there is sufficient evidence to conclude that a larger proportion of White cell phone owners use iPhones compared to African Americans.</para>
   <note id="fs-idp15799920" class="statistics calculator">
-<label/>
+
     <para id="fs-idm46927376">TI-83+ y TI-84: Pulse STAT. Desplace la flecha hacia TESTS y pulse 6:2-PropZTest. Desplace la flecha hacia abajo e ingrese 135 para x1, 1343 para n1, 12 para x2 y 232 para n2. Desplace la flecha hacia abajo a p1: y flecha a mayor de p2. Pulse ENTER. Desplace la flecha hacia abajo hasta Calculate (Calcular) y pulse ENTER. El valor P es P = 0,0092 y el estadístico de prueba es Z = 2,33.</para>
   </note>
 </solution></exercise>
 </example>
 
   <note id="fs-idp142829376" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 
 <para id="fs-idp32122976">Un grupo de ciudadanos preocupados quería saber si la proporción de violaciones en Texas era diferente en 2011 que en 2010. Su investigación mostró que de los 113.231 delitos violentos en Texas en 2010, 7.622 de ellos fueron violaciones. En 2011, 7.439 de los 104.873 delitos violentos pertenecían a la categoría de violación. Pruebe con un nivel de significación del 5 %. Responda las siguientes preguntas:<newline/></para>
@@ -1045,7 +1045,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
 <section id="fs-idp49279360" class="free-response">
 <title>Tarea para la casa</title>
 <para id="fs-idm14172688"><emphasis effect="italics">INSTRUCCIONES: Para cada uno de los problemas de palabras use una hoja de soluciones para hacer la prueba de hipótesis. La hoja de soluciones se encuentra en el <link document="m47882"/>. No dude en hacer copias de las hojas de soluciones. Para la versión en línea del libro se sugiere copiar los archivos .doc o .pdf.</emphasis></para><note id="id17215905">
-<label/>
+
 <title>Nota</title>
 <para id="fs-idm44775184">Si usa una distribución <emphasis effect="italics">t</emphasis>de Student para uno de los siguientes problemas de tarea para la casa, incluso para datos emparejados, puede suponer que la población subyacente está distribuida normalmente (Sin embargo, en general, primero hay que demostrar ese supuesto).</para></note>
 

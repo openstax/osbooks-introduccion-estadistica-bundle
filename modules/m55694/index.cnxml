@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-<para id="eip-858">Hasta ahora nuestro interés se ha centrado exclusivamente en el parámetro poblacional μ o su contrapartida en la binomial, p. Seguramente la media de una población es el dato más crítico que se tiene, pero en algunos casos nos interesa la variabilidad de los resultados de alguna distribución. En casi todos los procesos de producción, la calidad se mide no solo por el grado de adecuación de la máquina al objetivo, sino también por la variabilidad del proceso. Si se llenaran bolsas con patas fritas, no solo interesaría el peso promedio de la bolsa, sino también la variación de los pesos. Nadie quiere que se le asegure que el peso promedio es exacto cuando su bolsa no tiene papas fritas. El voltaje eléctrico puede alcanzar cierto nivel promedio, pero una gran variabilidad, los picos, pueden causar graves daños a las máquinas eléctricas, especialmente a las computadoras. No solo me gustaría obtener una nota media alta en mis clases, sino también una baja variación en torno a esta media. En resumen, las pruebas estadísticas relativas a la varianza de una distribución tienen un gran valor y muchas aplicaciones.</para><para id="element-194">Una <term id="term-00001">prueba de una sola varianza</term> supone que la distribución subyacente es <emphasis>normal</emphasis>. Las hipótesis nula y alternativa se plantean en términos de la <term id="term-00002">varianza de la población</term>. El estadístico de prueba es:</para><equation class="unnumbered" id="element-740"><label/>Los términos <m:math>
+<para id="eip-858">Hasta ahora nuestro interés se ha centrado exclusivamente en el parámetro poblacional μ o su contrapartida en la binomial, p. Seguramente la media de una población es el dato más crítico que se tiene, pero en algunos casos nos interesa la variabilidad de los resultados de alguna distribución. En casi todos los procesos de producción, la calidad se mide no solo por el grado de adecuación de la máquina al objetivo, sino también por la variabilidad del proceso. Si se llenaran bolsas con patas fritas, no solo interesaría el peso promedio de la bolsa, sino también la variación de los pesos. Nadie quiere que se le asegure que el peso promedio es exacto cuando su bolsa no tiene papas fritas. El voltaje eléctrico puede alcanzar cierto nivel promedio, pero una gran variabilidad, los picos, pueden causar graves daños a las máquinas eléctricas, especialmente a las computadoras. No solo me gustaría obtener una nota media alta en mis clases, sino también una baja variación en torno a esta media. En resumen, las pruebas estadísticas relativas a la varianza de una distribución tienen un gran valor y muchas aplicaciones.</para><para id="element-194">Una <term id="term-00001">prueba de una sola varianza</term> supone que la distribución subyacente es <emphasis>normal</emphasis>. Las hipótesis nula y alternativa se plantean en términos de la <term id="term-00002">varianza de la población</term>. El estadístico de prueba es:</para><equation class="unnumbered" id="element-740">Los términos <m:math>
 <m:msubsup><m:mi>χ</m:mi><m:mi>c</m:mi><m:mn>2</m:mn></m:msubsup>
 <m:mo>=</m:mo>
 <m:mfrac>
@@ -36,12 +36,12 @@
  </list></solution>
 </exercise>
  </example>
- <note id="fs-idp75827040" class="statistics try"><label/><title>Ejercicio</title>
+ <note id="fs-idp75827040" class="statistics try"><title>Ejercicio</title>
     <exercise id="eip-420">
    <problem id="eip-641">
   <para id="eip-133">Un instructor de submarinismo quiere registrar las profundidades colectivas de cada una de las inmersiones de sus alumnos durante su entrenamiento. Se interesa por cómo varían las profundidades, aunque todos deberían estar a la misma profundidad. Cree que la desviación típica es de tres pies. Su asistente cree que la desviación típica es de menos de tres pies. Si el instructor tuviera que realizar una prueba, ¿cuáles serían las hipótesis nula y alternativa?</para></problem>
 <solution id="eip-idp87344640">
-<label/>
+
  <para id="eip-712"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 3<sup>2</sup> </para><para id="eip-idp38169856"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> &lt; 3<sup>2</sup> </para></solution>
   </exercise>
  </note><example id="element-28"><exercise id="element-853"><problem id="id2871589"><para id="element-271">Con colas individuales en sus distintas ventanillas, una oficina de correos comprueba que la desviación estándar de los tiempos de espera de los clientes el viernes por la tarde es de 7,2 minutos. La oficina de correos experimenta con una única línea de espera principal y concluye que, para una muestra aleatoria de 25 clientes, el tiempo de espera tiene una desviación estándar de 3,5 minutos un viernes por la tarde.
@@ -107,14 +107,14 @@
 
 <solution id="eip-682">
   <para id="eip-311">Es evidente que se trata de un problema que tiene que ver con las varianzas. En este caso, estamos analizando una sola muestra en lugar de comparar dos muestras de poblaciones diferentes. Las hipótesis nula y alternativa son las siguientes:
-<equation class="unnumbered" id="eip-id1170359587783"><label/>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo>
+<equation class="unnumbered" id="eip-id1170359587783">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo>
 <m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0,04</m:mn></m:math>
 </equation>
-<equation class="unnumbered" id="eip-id1170361384669"><label/>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo>
+<equation class="unnumbered" id="eip-id1170361384669">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo>
 <m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:mo>≠</m:mo><m:mn>0,04</m:mn></m:math>
 </equation>
 La prueba está configurada como de dos colas porque el profesor Hadley ha expresado su preocupación por una variación excesiva en el relleno, así como por una variación insuficiente: su disgusto por las sorpresas es cualquier nivel de relleno fuera del promedio previsto de 0,04 tazas. Se calcula que el estadístico de prueba es:
-<equation class="unnumbered" id="eip-id1164614336450"><label/>Los términos <m:math>
+<equation class="unnumbered" id="eip-id1164614336450">Los términos <m:math>
 <m:mi>χ</m:mi><m:mover><m:mi>c</m:mi><m:mn>2</m:mn></m:mover>
 <m:mo>=</m:mo>
 <m:mfrac><m:mrow><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>–</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mrow>
@@ -134,17 +134,17 @@ El valor calculado del estadístico de prueba <m:math><m:msup><m:mi>χ</m:mi><m:
 <figure id="eip-id1165734451518"><media id="eip-id1165743440253" alt=".">
 <image mime-type="image/jpeg" src="../../media/fig-ch11_04_06.jpg"/>
 </media>
-</figure></example><note id="fs-idp108749600" class="statistics try"><label/><title>Ejercicio</title>
+</figure></example><note id="fs-idp108749600" class="statistics try"><title>Ejercicio</title>
     <exercise id="eip-209">
    <problem id="eip-849">
   <para id="eip-37">La Comisión Federal de Comunicaciones (Federal Communications Commission, FCC) hace pruebas de velocidad de banda ancha para medir cuántos datos por segundo pasan entre la computadora de un consumidor e internet. En agosto de 2012, la desviación típica de las velocidades de internet entre los proveedores de servicios de internet (PSI) era del 12,2 %. Supongamos que se toma una muestra de 15 PSI y que la desviación típica es de 13,2. Un analista afirma que la desviación típica de las velocidades es mayor que la comunicada. Plantee las hipótesis nula y alternativa, calcule los grados de libertad, el estadístico de prueba, trace el gráfico de la distribución, marque el área asociada al nivel de confianza y extraiga una conclusión. Prueba al nivel de significación del 1 %.</para></problem>
 <solution id="eip-idp33472464">
-<label/>
+
  <para id="eip-546"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 12,2<sup>2</sup></para><para id="eip-idm82917168"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> > 12,2<sup>2</sup> <newline/><emphasis effect="italics">df</emphasis> = 14 estadística de la prueba <newline/>chi<sup>2</sup> = 16,39</para><figure id="fs-idp135068032"><media id="eip-idm127786800" alt="" display="block">
   <image mime-type="image/jpeg" src="../../media/CNX_Stats_C11_M08_tryit001.jpg" width="380"/>
 </media></figure><para id="eip-idm175783712">El valor <emphasis effect="italics">p</emphasis> es de 0,2902, por lo que rechazamos la hipótesis nula. No hay pruebas suficientes para sugerir que la varianza sea superior al 12,2<sup>2</sup>.</para>
 <note id="eip-idp106427424" class="statistics calculator">
-<label/>
+
 <para id="eip-idm5589248">Pulgadas <code>2nd DISTR</code>, use7:<code>χ2cdf</code>. La sintaxis es <code>(inferior, superior, df)</code> para la lista de parámetros. <code>χ2cdf(16,39; 10^99; 14)</code>. El valor <emphasis effect="italics">p</emphasis> = 0,2902.</para>
 </note>
  </solution>

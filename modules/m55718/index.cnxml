@@ -9,7 +9,7 @@
 
 <content>
     <para id="eip-8888">La regresión lineal para dos variables se basa en una ecuación lineal con una variable independiente. La ecuación tiene la forma</para>
-<equation class="unnumbered" id="element-987"><label/><m:math display="block">
+<equation class="unnumbered" id="element-987"><m:math display="block">
 <m:mi>y</m:mi>
 <m:mo>=</m:mo>
 <m:mi>a</m:mi>
@@ -19,8 +19,8 @@
 </equation>
 <para id="eip-743"><newline/>donde <emphasis effect="italics">a</emphasis> y <emphasis effect="italics">b</emphasis> son números constantes.</para><para id="element-708">La variable <emphasis><emphasis effect="italics">x</emphasis> es la variable independiente, y <emphasis effect="italics">y</emphasis> es la variable dependiente.</emphasis> Otra forma de pensar en esta ecuación es una declaración de causa y efecto. La variable X es la causa y la variable Y es el efecto hipotético. Normalmente, se elige un valor para sustituir la variable independiente y luego se resuelve la variable dependiente.</para><example id="element-906">
 <para id="element-12">Los siguientes ejemplos son ecuaciones lineales.</para>
-<equation class="unnumbered" id="element-12495"><label/>Los términos <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mtext>2x</m:mtext></m:math></equation>
-<equation class="unnumbered" id="element-357238"><label/>Los términos <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>-0,01</m:mn><m:mo>+</m:mo><m:mtext>1,2x</m:mtext></m:math></equation></example>
+<equation class="unnumbered" id="element-12495">Los términos <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mtext>2x</m:mtext></m:math></equation>
+<equation class="unnumbered" id="element-357238">Los términos <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>-0,01</m:mn><m:mo>+</m:mo><m:mtext>1,2x</m:mtext></m:math></equation></example>
 <para id="eip-498">El gráfico de una ecuación lineal de la forma <emphasis effect="italics">y</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis> es una <emphasis>línea recta</emphasis>. Cualquier línea que no sea vertical puede ser descrita por esta ecuación.</para><example id="element-44">
 <para id="eip-153">Grafique la ecuación <emphasis effect="italics">y</emphasis> = –1 + 2<emphasis effect="italics">x</emphasis>.</para><figure id="linrgs_lineq1"><media id="idp38882144" alt="Gráfico de la ecuación y = –1 + 2x. Se trata de una línea que cruza el eje y en –1 y tiene una pendiente hacia arriba y hacia la derecha, que sube 2 unidades por cada unidad de recorrido.">
 <image src="../../media/fig-ch12_02_01m.jpg" mime-type="image/jpeg" width="400"/>
@@ -29,7 +29,7 @@
 </figure></example>
 
 <note id="fs-idp3088096" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 
 <exercise id="eip-46">

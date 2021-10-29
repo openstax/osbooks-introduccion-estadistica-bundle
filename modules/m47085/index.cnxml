@@ -9,7 +9,7 @@
 
 <content>
 <para id="element-194">Una <term id="term-00001">prueba de una sola varianza</term> supone que la distribución subyacente es <emphasis>normal</emphasis>. Las hipótesis nula y alternativa se plantean en términos de la <term id="term-00002">varianza de la población</term> (o desviación estándar de la población). El estadístico de prueba es:</para>
-<equation class="unnumbered" id="element-740"><label/>Los términos <m:math>
+<equation class="unnumbered" id="element-740">Los términos <m:math>
 <m:mfrac>
 <m:mrow>
 <m:mo>(</m:mo>
@@ -50,7 +50,7 @@
  </list></solution>
 </exercise>
  </example>
- <note id="fs-idp75827040" class="statistics try"><label/><title>Ejercicio</title>
+ <note id="fs-idp75827040" class="statistics try"><title>Ejercicio</title>
     <exercise id="eip-420">
    <problem id="eip-641">
   <para id="eip-133">Un instructor de buceo quiere registrar las profundidades colectivas a las que se sumerge cada uno de sus estudiantes durante su entrenamiento. Se interesa por cómo varían las profundidades, aunque todos deberían estar a la misma profundidad. Cree que la desviación típica es de tres pies. Su asistente cree que la desviación típica es de menos de tres pies. Si el instructor tuviera que realizar una prueba, ¿cuáles serían las hipótesis nula y alternativa?</para>
@@ -115,12 +115,12 @@
 <item>valor <emphasis effect="italics">p</emphasis>= 0,000042</item>
 <item><emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis></item>
 </list></para><para id="element-726"><emphasis>Tome una decisión:</emphasis> Dado el valor de <emphasis effect="italics">α</emphasis> > <emphasis effect="italics">p</emphasis>, se rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>. Esto significa que rechaza <emphasis effect="italics">σ</emphasis><sup>2</sup> = 7,2<sup>2</sup>. En otras palabras, no cree que la variación de los tiempos de espera sea de 7,2 minutos; cree que la variación de los tiempos de espera es menor.</para><para id="element-952"><emphasis>Conclusión:</emphasis> A un nivel de significación del 5 %, a partir de los datos, hay pruebas suficientes para concluir que una sola fila provoca una menor variación entre los tiempos de espera <emphasis>o</emphasis> que con una sola fila, los tiempos de espera de los clientes varían menos de 7,2 minutos.</para>
- <note id="fs-idm81061344" class="statistics calculator"><label/>
+ <note id="fs-idm81061344" class="statistics calculator">
  <para id="element-528">En <code>2nd DISTR</code>Utilice <code>7:χ2cdf</code>. La sintaxis es
 <code>(inferior, superior, df)</code> para la lista de parámetros. Para el <link target-id="element-28"/>, <code>χ2cdf(-1E99,5,67,24)</code>. El valor <emphasis effect="italics">p</emphasis> = 0,000042.</para></note></solution>
  </exercise>
  </example>
- <note id="fs-idp108749600" class="statistics try"><label/><title>Ejercicio</title>
+ <note id="fs-idp108749600" class="statistics try"><title>Ejercicio</title>
     <exercise id="eip-209">
    <problem id="eip-849">
   <para id="eip-37">La Comisión Federal de Comunicaciones (Federal Communications Commission, FCC) hace pruebas de velocidad de banda ancha para medir cuántos datos por segundo pasan entre la computadora de un consumidor e internet. En agosto de 2012, la desviación típica de las velocidades de internet entre los proveedores de servicios de internet (PSI) era del 12,2 %. Supongamos que se toma una muestra de 15 PSI y que la desviación típica es de 13,2. Un analista afirma que la desviación típica de las velocidades es mayor que la comunicada. Plantee las hipótesis nula y alternativa, calcule los grados de libertad, el estadístico de prueba, dibuje el gráfico del valor <emphasis effect="italics">p</emphasis> y saque una conclusión. Prueba al nivel de significación del 1 %.</para></problem>

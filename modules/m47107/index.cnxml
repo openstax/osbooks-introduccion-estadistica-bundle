@@ -38,7 +38,7 @@
 <figure id="eip-idp140675136"><media id="id1170917557779" alt="El diagrama de dispersión de las puntuaciones de los exámenes con una línea de mejor ajuste. Dos líneas discontinuas amarillas son paralelas a la línea de mejor ajuste. Las líneas discontinuas van por encima y por debajo de la línea de mejor ajuste a distancias iguales. Un punto de datos queda fuera del límite creado por las líneas discontinuas: es un valor atípico."><image src="../../media/fig-ch12_09_01.jpg" mime-type="image/jpeg" width="380"/></media></figure></solution>
 </exercise>
 </example><note id="fs-idp112103840" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 
 <exercise id="eip-365">
@@ -76,7 +76,7 @@
 </m:math></para>
 
 <note id="fs-idm68726848">
-<label/>
+
 <title>Nota</title>
 <para id="fs-idp95645280">Dividimos entre (<emphasis effect="italics">n</emphasis> - 2) porque el modelo de regresión implica dos estimaciones.</para></note>
 
@@ -303,7 +303,7 @@ Con las funciones TI-83, TI-83+, TI-84+ de la calculadora, elimine el valor atí
 
 <para id="eip-799">A continuación, multiplique <emphasis effect="italics">s</emphasis> por 2: <newline/>(2)(16,47) = 32,94 <newline/>32,94 está 2 desviaciones típicas lejos de la media de los valores <emphasis effect="italics">y</emphasis> - <emphasis effect="italics">ŷ</emphasis>.</para><para id="eip-28">Si midiéramos la distancia vertical desde cualquier punto de datos hasta el punto correspondiente de la línea de mejor ajuste y esa distancia fuera de al menos 2<emphasis effect="italics">s</emphasis>, entonces consideraríamos que el punto de datos está "demasiado lejos" de la línea de mejor ajuste. A ese punto lo llamamos un <term id="term-00003">potencial valor atípico</term>.</para><para id="eip-130">Para el ejemplo, si alguno de los valores de <emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| es <emphasis>al menos</emphasis> 32,94, el punto de datos correspondiente (<emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>) es un posible valor atípico.</para><para id="eip-696">Para el problema del tercer examen o examen final, todos los |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| son menores que 31,29, excepto el primero que es 35.</para><para id="eip-994">35 > 31,29 Es decir, |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| ≥ (2)(s)</para><para id="eip-980">El punto que corresponde a |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| = 35 es (65, 175). <emphasis>Por lo tanto, el punto de datos (65, 175) es un potencial valor atípico.</emphasis> Para este ejemplo, lo borraremos. (Recuerde que no siempre eliminamos un valor atípico).</para>
 
-<note id="fs-idp12863088"><label/><title>Nota</title>
+<note id="fs-idp12863088"><title>Nota</title>
 <para id="fs-idp101044864">Cuando se eliminan los valores atípicos, el investigador debería dejar constancia de que se han eliminado los datos y por qué, o bien debería proporcionar los resultados con y sin los datos eliminados. Si los datos son erróneos y se conocen los valores correctos (por ejemplo, el estudiante uno obtuvo realmente una puntuación de 70 en lugar de 65), se puede realizar esta corrección en los datos.</para></note>
 
 <para id="fs-idm274617664"><newline/><newline/>El siguiente paso es calcular una nueva línea de mejor ajuste con los diez puntos restantes. La nueva línea de mejor ajuste y el coeficiente de correlación son:</para><para id="eip-451"><emphasis effect="italics">ŷ</emphasis> = –355,19 + 7,39<emphasis effect="italics">x</emphasis> y <emphasis effect="italics">r</emphasis> = 0,9121</para>
@@ -320,7 +320,7 @@ Con las funciones TI-83, TI-83+, TI-84+ de la calculadora, elimine el valor atí
 </example>
 
 <note id="fs-idp77690080" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 
 <exercise id="eip-846"><problem id="eip-372">
@@ -409,12 +409,12 @@ Con las funciones TI-83, TI-83+, TI-84+ de la calculadora, elimine el valor atí
 </media>
 </figure>
 </solution>
-</exercise><note id="eip-413"><label/><title>Nota</title><para id="fs-idp122850352">En el ejemplo, observe el patrón de los puntos en comparación con la línea. Aunque el coeficiente de correlación es significativo, el patrón del diagrama de dispersión indica que una curva sería el modelo más apropiado que una línea. En este ejemplo, un estadístico preferiría utilizar otros métodos para ajustar una curva a estos datos, en lugar de modelar los datos con la línea que hemos hallado. Además de realizar los cálculos, siempre es importante observar el diagrama de dispersión para decidir si un modelo lineal es adecuado.</para></note>
+</exercise><note id="eip-413"><title>Nota</title><para id="fs-idp122850352">En el ejemplo, observe el patrón de los puntos en comparación con la línea. Aunque el coeficiente de correlación es significativo, el patrón del diagrama de dispersión indica que una curva sería el modelo más apropiado que una línea. En este ejemplo, un estadístico preferiría utilizar otros métodos para ajustar una curva a estos datos, en lugar de modelar los datos con la línea que hemos hallado. Además de realizar los cálculos, siempre es importante observar el diagrama de dispersión para decidir si un modelo lineal es adecuado.</para></note>
 
 <para id="eip-983">Si le interesa ver más años de datos, visite la página web del IPC de la Oficina de Estadísticas Laborales ftp://ftp.bls.gov/pub/special.requests/cpi/cpiai.txt; nuestros datos están tomados de la columna titulada "Annual Avg." (tercera columna de la derecha). Por ejemplo, podría añadir más años de datos actuales. Sume los años más recientes: 2004: IPC = 188,9; 2008: IPC = 215,3; 2011: IPC = 224,9. Vea cómo incide en el modelo. (Compruebe: <emphasis effect="italics">ŷ</emphasis> = -4436 + 2,295<emphasis effect="italics">x</emphasis>; <emphasis effect="italics">r</emphasis> = 0,9018. ¿Es <emphasis effect="italics">r</emphasis> significativo? ¿Se ha mejorado el ajuste con la adición de los nuevos puntos)?</para></example>
 
 <note id="fs-idm58078240" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 
 <exercise id="eip-298"><problem id="eip-109">

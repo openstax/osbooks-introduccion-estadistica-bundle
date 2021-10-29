@@ -14,7 +14,7 @@
 <item><emphasis effect="italics">RF</emphasis> = frecuencia relativa,</item>
 </list>
 <para id="element-700">entonces:
-<equation class="unnumbered" id="element-1000"><label/>Los términos <m:math>
+<equation class="unnumbered" id="element-1000">Los términos <m:math>
 <m:semantics>
 <m:mrow>
 <m:mstyle fontsize="12pt">
@@ -51,7 +51,7 @@
 <para id="element-743">Los siguientes datos son las estaturas (en pulgadas con una aproximación de media pulgada) de 100 jugadores masculinos de fútbol semiprofesional. Las alturas son datos <emphasis>continuos</emphasis>, ya que la altura se mide. <newline/>60; 60,5; 61; 61; 61,5 <newline/>63,5; 63,5; 63,5 <newline/>64; 64; 64; 64; 64; 64; 64; 64,5; 64,5; 64,5; 64,5; 64,5; 64,5; 64,5; 64,5 <newline/>66; 66; 66; 66; 66; 66; 66; 66; 66; 66; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67,5; 67,5; 67,5; 67,5; 67,5; 67,5; 67,5 <newline/>68; 68; 69; 69; 69; 69; 69; 69; 69; 69; 69; 69; 69,5; 69,5; 69,5; 69,5; 69,5 <newline/>70; 70; 70; 70; 70; 70; 70,5; 70,5; 70,5; 71; 71; 71 <newline/>72; 72; 72; 72,5; 72,5; 73; 73,5 <newline/>74
 </para><para id="element-364">El valor de datos más pequeño es 60. Como los datos con más decimales tienen un decimal (por ejemplo, 61,5), queremos que nuestro punto de partida tenga dos decimales. Dado que los números 0,5, 0,05, 0,005, etc. son números convenientes, utilice 0,05 y réstelo a 60, el valor más pequeño, para el punto de partida conveniente.</para>
 <para id="element-906">60 – 0,05 = 59,95 que es más preciso que, por ejemplo, 61,5 por un decimal. El punto de partida es, pues, 59,95.</para><para id="element-291">El valor mayor es 74, por lo que 74 + 0,05 = 74,05 es el valor final.</para><para id="element-236">Luego, calcule el ancho de cada barra o intervalo de clase. Para calcular este ancho, reste el punto inicial del valor final y divídalo entre el número de barras (debe elegir el número de barras que desee). Suponga que elige ocho barras.</para>
-<equation class="unnumbered" id="element-2133"><label/>
+<equation class="unnumbered" id="element-2133">
 Los términos <m:math>
 <m:apply>
 <m:eq/>
@@ -70,7 +70,7 @@ Los términos <m:math>
 </equation>
 
 <note id="id7476385">
-<label/><title>NOTA</title>
+<title>NOTA</title>
 <para id="fs-idm11623536">Redondearemos a dos y haremos que cada barra o intervalo de clase tenga dos unidades de ancho. Redondear a dos es una forma de evitar que un valor caiga en un límite. El redondeo al número siguiente es a menudo necesario, incluso si va en contra de las reglas estándar de redondeo. Para este ejemplo, utilizar 1,76 como ancho también funcionaría. Una pauta que siguen algunos para el número de barras o intervalos de clase es tomar la raíz cuadrada del número de valores de datos y luego redondear al número entero más cercano, si es necesario. Por ejemplo, si hay 150 valores de datos, tome la raíz cuadrada de 150 y redondee a 12 barras o intervalos.</para></note>
 <para id="element-209">Los límites son:</para>
 <list id="element-790" list-type="bulleted">
@@ -92,7 +92,7 @@ Los términos <m:math>
 </example>
 
 <note id="fs-idp304592" class="statistics try">
-<label/><title>Ejercicio</title>
+<title>Ejercicio</title>
 
 <exercise id="fs-idm28791888">
 <problem id="fs-idp77099632">
@@ -116,7 +116,7 @@ Los términos <m:math>
 </list>
 </solution>
 </exercise><para id="element-20">Calcule el número de barras de la siguiente manera: </para>
-<equation class="unnumbered" id="element-48"><label/>
+<equation class="unnumbered" id="element-48">
 Los términos <m:math>
 <m:apply>
 <m:eq/>
@@ -141,7 +141,7 @@ Los términos <m:math>
 </example>
 
 <note id="fs-idm25803056" class="statistics calculator">
-<label/>
+
 <para id="fs-idm23601024">Diríjase a la <link document="m47896"/>. Hay instrucciones de la calculadora para introducir datos y para crear un histograma personalizado. Cree el histograma para el <link target-id="exampid2"/>.</para><list id="fs-idp2836464" list-type="bulleted"><item>Pulse Y=. Pulse CLEAR para borrar las ecuaciones.</item>
 <item>Pulse STAT 1:EDIT. Si L1 tiene datos, flecha hacia arriba en el nombre L1, pulse CLEAR y luego flecha hacia abajo. Si es necesario, haga lo mismo con L2.</item>
 <item>En L1, introduzca 1, 2, 3, 4, 5, 6.</item>
@@ -154,7 +154,7 @@ Los términos <m:math>
 <item>Utilice la tecla TRACE y las teclas de flecha para examinar el histograma.</item>
 </list></note>
 
-<note id="fs-idm93603984" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm93603984" class="statistics try"><title>Ejercicio</title>
 
 <exercise id="fs-idp68031136"><problem id="fs-idp68031392">
 <para id="fs-idp62894704">Los siguientes datos son el número de deportes practicados por 50 estudiantes deportistas. El número de deportes es un dato discreto, ya que los deportes se cuentan.</para>
@@ -227,7 +227,7 @@ Los términos <m:math>
 </exercise>
 </example>
 
-<note id="fs-idm161572864" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm161572864" class="statistics try"><title>Ejercicio</title>
 
 <exercise id="fs-idm32934816"><problem id="fs-idm4304416">
 <para id="fs-idp57423888">Los siguientes datos representan el número de empleados de varios restaurantes de la ciudad de Nueva York. Con estos datos, cree un histograma.</para>
@@ -243,7 +243,7 @@ Los términos <m:math>
 </para>
 </problem>
 </exercise>
-</note><note id="fs-idm107220592" class="statistics collab"><label/>
+</note><note id="fs-idm107220592" class="statistics collab">
 <para id="element-326">Cuente el dinero (billetes y monedas) que lleva en el bolsillo o en el bolso. Su instructor registrará las cantidades. En clase, construya un histograma que muestre los datos. Analice cuántos intervalos cree que son apropiados. Puede experimentar con el número de intervalos.</para>
 </note>
 
@@ -282,7 +282,7 @@ Los términos <m:math>
 
 
 <note id="fs-idm37683552" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="eip-idp12732512">
 <problem id="eip-idp12732768">
@@ -518,7 +518,7 @@ Los términos <m:math>
 
 </example>
 
-<note id="fs-idm11029344" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm11029344" class="statistics try"><title>Ejercicio</title>
 
 <exercise id="fs-idm10087584"><problem id="fs-idp2285280">
 <para id="fs-idp25953376">La siguiente tabla es una parte de un conjunto de datos de www.worldbank.org. Utilice la tabla para construir un gráfico de la serie temporal de las emisiones de CO<sub>2</sub> de Estados Unidos.</para>

@@ -29,7 +29,7 @@
 <m:mfrac><m:mrow><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover><m:mo>–</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow>
 <m:mrow><m:mi>σ</m:mi><m:mo>/</m:mo><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac></m:math></para><para id="eip-id1164384054820"><emphasis effect="italics">μ</emphasis><sub>0</sub> = 16,43 proviene de <emphasis effect="italics">H<sub>0</sub></emphasis> y no de los datos. <m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover></m:math> = 16. <emphasis effect="italics">s</emphasis> = 0,8; y <emphasis effect="italics">n</emphasis> = 15.</para><para id="element-770">Nuestro paso 2, establecer el nivel de significación, ya se ha determinado en el problema, 0,05 para un nivel de significación del 95 %. Merece la pena reflexionar sobre el significado de esta elección. El error tipo I consiste en concluir que Jeffrey nada las 25 yardas en estilo libre, en promedio, en menos de 16,43 segundos cuando, en realidad, nada las 25 yardas en estilo libre, en promedio, en 16,43 segundos (rechaza la hipótesis nula cuando la hipótesis nula es verdadera). Para este caso, la única preocupación de un error de tipo I parece ser que el padre de Jeffery puede no apostar por la victoria de su hijo porque no le convence el efecto de las gafas.
 </para><para id="element-706">Para calcular el valor crítico tenemos que seleccionar la estadística apropiada de la prueba. Hemos llegado a la conclusión de que se trata de una prueba t en función del tamaño de la muestra y de que nos interesa una media poblacional. Ahora podemos dibujar el gráfico de la distribución t y marcar el valor crítico. Para este problema los grados de libertad son n-1, es decir, 14. Al buscar 14 grados de libertad en la columna 0,05 de la tabla t, hallamos 1,761. Este es el valor crítico y podemos ponerlo en nuestro gráfico.
-</para><para id="element-656">El paso 3 es el cálculo de la estadístico de la prueba con la fórmula seleccionada. Hallamos que el estadístico de prueba es 2,08, lo que significa que la media muestral está a 2,08 desviaciones estándar de la media hipotética de 16,43. </para><equation id="fs-id1170503119212" class="unnumbered"><label/>Los términos <m:math>
+</para><para id="element-656">El paso 3 es el cálculo de la estadístico de la prueba con la fórmula seleccionada. Hallamos que el estadístico de prueba es 2,08, lo que significa que la media muestral está a 2,08 desviaciones estándar de la media hipotética de 16,43. </para><equation id="fs-id1170503119212" class="unnumbered">Los términos <m:math>
 
 <m:msub>
 <m:mi>t</m:mi>
@@ -96,7 +96,7 @@
 En el paso 4 tenemos que comparar el estadístico de prueba y el valor crítico y marcarlos en el gráfico. Vemos que el estadístico de prueba está en la cola; por ende, pasamos al paso 4 y llegamos a una conclusión. La probabilidad de que el tiempo promedio de 16 minutos proceda de una distribución con una media poblacional de 16,43 minutos es demasiado improbable para que aceptemos la hipótesis nula. No podemos aceptar la hipótesis nula. </para>
 <para id="fs-id1170805796526">El paso 5 nos hace exponer nuestras conclusiones primero de manera formal y luego de manera menos formal. La conclusión formal sería la siguiente: "Con un nivel de significación del 95 %, no podemos aceptar la hipótesis nula de que el tiempo de natación con gafas procede de una distribución con una media poblacional de 16,43 minutos". De manera menos formal: "Con un 95 % de significación, creemos que las gafas mejoran la velocidad de nado".   
 </para><para id="fs-id1170801423604">Si quisiéramos utilizar el sistema de valores p para llegar a una conclusión, calcularíamos la estadística y daríamos el paso adicional de la probabilidad de estar a 2,08 desviaciones estándar de la media en una distribución t. Este valor es de 0,0187. Al compararlo con el nivel α de 0,05, nos damos cuenta de que no podemos aceptar la hipótesis nula. El valor p se ha puesto en el gráfico como el área sombreada más allá de -2,08 y muestra que es menor que el área sombreada, que es el nivel alfa de 0,05. Con ambos métodos se llega a la misma conclusión de que no podemos aceptar la hipótesis nula. 
-</para><note id="fs-idm112426112" class="statistics try"><label/><title>Ejercicio</title>
+</para><note id="fs-idm112426112" class="statistics try"><title>Ejercicio</title>
 
 
 <exercise id="fs-idp78508304">
@@ -129,7 +129,7 @@ Dado que el problema se refiere a una media, se trata de una prueba de una únic
 <item>Valor crítico: <m:math><m:msub><m:mi>t</m:mi><m:mi>a</m:mi></m:msub><m:mo>=</m:mo><m:mn>1,753</m:mn></m:math> con n-1 grados de libertad = 15</item>
 </list></para>
 <para id="eip-id1165105401617">La estadística de la prueba es una t de Student porque el tamaño de la muestra es inferior a 30; por ende, no podemos utilizar la distribución normal. Al comparar el valor calculado del estadístico de prueba y el valor crítico de <m:math><m:mi>t</m:mi></m:math> <m:math><m:mo>(</m:mo><m:msub><m:mi>t</m:mi><m:mi>a</m:mi></m:msub><m:mo>)</m:mo></m:math> a un nivel de significación del 5 %, vemos que el valor calculado está en la cola de la distribución. Así, concluimos que 108 dólares por contrato es significativamente mayor que el valor hipotético de 100; por ende, no podemos aceptar la hipótesis nula. Hay pruebas que apoyan que el rendimiento de Jane cumple con los estándares de la empresa.</para><figure id="eip-id1169369014682"><media id="eip-id1169342879021" alt=""><image src="../../media/fig-ch09_01_08.jpg" mime-type="image/png"/></media></figure></solution>
-</exercise></example><note id="fs-idm186895712" class="statistics try"><label/><title>Ejercicio</title>
+</exercise></example><note id="fs-idm186895712" class="statistics try"><title>Ejercicio</title>
 
 <exercise id="eip-454">
 <problem id="eip-806">
@@ -149,7 +149,7 @@ Dado que el problema se refiere a una media, se trata de una prueba de una únic
 </m:msup>
 </m:math>. ¿Hay pruebas de que la máquina debería detenerse y la producción debería esperar a que se repare? La pérdida de producción por una parada es potencialmente tan grande que la dirección considera que el nivel de significación en el análisis debería ser del 99 %.</para><para id="eip-id1165937500718">De nuevo, seguiremos los pasos de nuestro análisis de este problema.</para></problem>
 <solution id="eip-id1165936652556"><para id="eip-id1165941187151"><emphasis>PASO 1</emphasis>: Formule las hipótesis nula y alternativa. La variable aleatoria es la cantidad de líquido que se coloca en los frascos. Se trata de una variable aleatoria continua y el parámetro que nos interesa es la media. Por lo tanto, nuestra hipótesis se refiere a la media. En este caso, nos preocupa que la máquina no esté haciendo el llenado correctamente. Por lo que nos dicen, no importa si la máquina está llenando de más o de menos, ambos parecen ser un error igual de malo. Esto nos indica que se trata de una prueba de dos colas: si la máquina funciona mal, se apagará, sea por exceso o insuficiencia de llenado. Las hipótesis nula y alternativa son las siguientes:
-<equation id="fs-id1171901685579" class="unnumbered"><label/>Los términos <m:math>
+<equation id="fs-id1171901685579" class="unnumbered">Los términos <m:math>
 <m:msub>
 <m:mi>H</m:mi>
 <m:mn>0</m:mn>
@@ -158,7 +158,7 @@ Dado que el problema se refiere a una media, se trata de una prueba de una únic
 <m:mi>μ</m:mi>
 <m:mo>=</m:mo>
 <m:mn>8</m:mn>
-</m:math></equation><equation id="fs-id1168799926313" class="unnumbered"><label/>Los términos <m:math>
+</m:math></equation><equation id="fs-id1168799926313" class="unnumbered">Los términos <m:math>
 <m:msub>
 <m:mi>H</m:mi>
 <m:mi>a</m:mi>
@@ -172,7 +172,7 @@ Dado que el problema se refiere a una media, se trata de una prueba de una únic
     <image mime-type="image/jpeg" src="../../media/fig-ch09_01_05m.jpg" width="380"/>
   </media>
   
-</figure><para id="eip-id1165950291002"><emphasis>PASO 3</emphasis>: Calcule los parámetros de la muestra y el estadístico de prueba. Los parámetros de la muestra se proporcionan, la media muestral es 7,91 y la varianza de la muestra es 0,03 y el tamaño de la muestra es 35. Hay que tener en cuenta que se proporcionó la varianza de la muestra y no la desviación estándar de la muestra, que es lo que necesitamos para la fórmula. Al recordar que la desviación estándar es simplemente la raíz cuadrada de la varianza, sabemos, por ende, que la desviación estándar de la muestra, s, es 0,173. Con esta información calculamos el estadístico de prueba como -3,07, y la marcamos en el gráfico. </para><equation id="fs-id1170118462633" class="unnumbered"><label/>Los términos <m:math>
+</figure><para id="eip-id1165950291002"><emphasis>PASO 3</emphasis>: Calcule los parámetros de la muestra y el estadístico de prueba. Los parámetros de la muestra se proporcionan, la media muestral es 7,91 y la varianza de la muestra es 0,03 y el tamaño de la muestra es 35. Hay que tener en cuenta que se proporcionó la varianza de la muestra y no la desviación estándar de la muestra, que es lo que necesitamos para la fórmula. Al recordar que la desviación estándar es simplemente la raíz cuadrada de la varianza, sabemos, por ende, que la desviación estándar de la muestra, s, es 0,173. Con esta información calculamos el estadístico de prueba como -3,07, y la marcamos en el gráfico. </para><equation id="fs-id1170118462633" class="unnumbered">Los términos <m:math>
 
 <m:msub>
 <m:mi>Z</m:mi>
@@ -238,7 +238,7 @@ Dado que el problema se refiere a una media, se trata de una prueba de una únic
 <section id="eip-100"><title>Prueba de hipótesis para las proporciones</title><para id="eip-493">Al igual que existían intervalos de confianza para las proporciones, o más formalmente, el parámetro poblacional <emphasis effect="italics">p</emphasis> de la distribución binomial, existe la posibilidad de contrastar hipótesis relativas a <emphasis effect="italics">p</emphasis>. 
 </para><para id="eip-319">El parámetro poblacional para la binomial es <emphasis effect="italics">p</emphasis>. El valor estimado (estimación puntual) para <emphasis effect="italics">p</emphasis> es <emphasis effect="italics">p′</emphasis> donde <emphasis effect="italics">p′ = x/n</emphasis>, <emphasis effect="italics">x</emphasis> es el número de aciertos en la muestra y <emphasis effect="italics">n</emphasis> es el tamaño de la muestra.</para><para id="eip-24">Cuando se realiza una prueba de hipótesis de una proporción poblacional <emphasis effect="italics">p</emphasis>, se toma una muestra aleatoria simple de la población. Deberán cumplirse las condiciones de la <term id="term-00001">distribución binomial</term>, a saber: que haya un cierto número <emphasis effect="italics">n</emphasis> de ensayos independientes, lo que significa un muestreo aleatorio; que los resultados de cualquier ensayo sean binarios, éxito o fracaso, y que cada ensayo tenga la misma probabilidad de éxito <emphasis effect="italics">p</emphasis>. La forma de la distribución binomial debe ser similar a la forma de la distribución normal. Para ello, las cantidades <emphasis effect="italics">np′</emphasis> y <emphasis effect="italics">nq′</emphasis> deben ser ambas mayores que cinco (<emphasis effect="italics">np′</emphasis> > 5 y <emphasis effect="italics">nq′</emphasis> > 5). En este caso, la distribución binomial de una proporción muestral (estimada) se calcula aproximadamente por la distribución normal con <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mi>np</m:mi></m:math> y <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mi>npq</m:mi></m:msqrt></m:math>. Recuerde que <m:math><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi></m:math>. No hay ninguna distribución que corrija este pequeño sesgo de la muestra; por ende, si no se cumplen estas condiciones, simplemente no podemos probar la hipótesis con los datos disponibles en ese momento. Cumplimos esta condición cuando estimamos por primera vez los intervalos de confianza para <emphasis effect="italics">p</emphasis>. 
 </para><para id="eip-383">Nuevamente, comenzamos con la fórmula normalizadora modificada porque se trata de la distribución de una binomial.</para>
-<equation id="fs-id1170343275188" class="unnumbered"><label/>Los términos <m:math>
+<equation id="fs-id1170343275188" class="unnumbered">Los términos <m:math>
 <m:mi>Z</m:mi>
 
 <m:mo>=</m:mo>
@@ -258,7 +258,7 @@ Dado que el problema se refiere a una media, se trata de una prueba de una únic
 </m:msqrt>
 </m:mfrac>
 </m:math></equation>
-<para id="eip-584">Al sustituir <m:math><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub></m:math>, el valor hipotético de <emphasis effect="italics">p</emphasis>, tenemos:</para><equation id="fs-id1168195327694" class="unnumbered"><label/>Los términos <m:math>
+<para id="eip-584">Al sustituir <m:math><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub></m:math>, el valor hipotético de <emphasis effect="italics">p</emphasis>, tenemos:</para><equation id="fs-id1168195327694" class="unnumbered">Los términos <m:math>
 <m:msub>
 <m:mi>Z</m:mi>
 <m:mi>c</m:mi>
@@ -332,7 +332,7 @@ Dado que el problema se refiere a una media, se trata de una prueba de una únic
 <para id="element-399"><emphasis>PASO 1</emphasis>: Formule las hipótesis nula y alternativa.</para>
 
 <para id="element-724"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> = 0,50 <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≠ 0,50</para><para id="element-2">Las palabras <emphasis>“es igual o diferente de”</emphasis> indican que se trata de una prueba de dos colas. Los errores tipo I y II son los siguientes: El error de tipo I consiste en concluir que la proporción de prestatarios es diferente del 50 % cuando, en realidad, la proporción es del 50 %. (Rechaza la hipótesis nula cuando la hipótesis nula es verdadera). El error de tipo II consiste en que no hay pruebas suficientes para concluir que la proporción de prestatarios primerizos difiere del 50 % cuando, de hecho, sí difiere del 50 %. (No se rechaza la hipótesis nula cuando esta es falsa).</para><para id="eip-418"><emphasis>PASO 2</emphasis>: Decida el nivel de significación y dibuje el gráfico que muestre el valor crítico.</para><para id="eip-106">El nivel de significación se ha fijado por el problema en el 95 %. Por tratarse de una prueba de dos colas, la mitad del valor alfa estará en la cola superior y la otra mitad en la cola inferior, como se muestra en el gráfico. El valor crítico de la distribución normal con un nivel de confianza del 95 % es de 1,96. Esto se halla fácilmente en la tabla t de Student en la parte inferior a infinitos grados de libertad, recordando que en el infinito la distribución t es la distribución normal. Por supuesto, el valor también se halla en la tabla normal, pero hay que buscar la mitad de 95 (0,475) dentro de la tabla y luego leer hacia los lados y la parte superior el número de desviaciones estándar.  </para><figure id="eip-id1172760521640"><media id="eip-id1172764700088" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch09_01_06m.jpg" width="380"/></media></figure><para id="eip-254"><emphasis>PASO 3</emphasis>: Calcule los parámetros de la muestra y el valor crítico del estadístico de prueba.</para><para id="eip-685">La estadística de la prueba es una distribución normal, Z, para probar proporciones y es:  </para>
-<equation id="fs-id1170125300765" class="unnumbered"><label/>Los términos <m:math>
+<equation id="fs-id1170125300765" class="unnumbered">Los términos <m:math>
 
 <m:mi>Z</m:mi>
 
@@ -393,7 +393,7 @@ Dado que el problema se refiere a una media, se trata de una prueba de una únic
 <para id="eip-id1172764703098">El valor calculado se encuentra dentro de los valores críticos de ± 1,96 desviaciones estándar, por lo que no podemos rechazar la hipótesis nula. Para rechazar la hipótesis nula, la diferencia significativa entre el valor hipotético y el valor de la muestra tiene que ser evidente. En este caso, el valor de la muestra es muy parecido al valor hipotético medido en términos de desviaciones estándar. </para>
 <para id="eip-id1172760912145"><emphasis>PASO 5</emphasis>: Llegue a una conclusión</para>
 <para id="eip-id1172764681654">La conclusión formal sería: "A un nivel de significación del 95 %, no podemos rechazar la hipótesis nula de que el 50 % de los prestatarios primerizos tienen préstamos del mismo tamaño que los demás". De manera menos formal, diríamos que: "No hay pruebas de que la mitad de los prestatarios primerizos sean significativamente diferentes en cuanto al tamaño del préstamo de los demás". Fíjese en lo lejos que llega la conclusión para incluir todas las condiciones correspondientes. Los estadísticos, a pesar de todas las críticas que reciben, se preocupan por ser muy específicos, incluso cuando esto parece trivial. Los estadísticos no pueden decir más de lo que saben y los datos obligan a que la conclusión esté dentro de los límites de los datos.</para></solution>
-</exercise></example><note id="fs-idp8711616" class="statistics try"><label/><title>Ejercicio</title>
+</exercise></example><note id="fs-idp8711616" class="statistics try"><title>Ejercicio</title>
 
 <exercise id="eip-466">
 <problem id="eip-697">
@@ -412,7 +412,7 @@ Dado que el problema se refiere a una media, se trata de una prueba de una únic
 
 <solution id="id4213559">
   
-<para id="element-434">He aquí una versión abreviada del sistema de resolución de pruebas de hipótesis, aplicado a una prueba de proporciones.</para><equation id="fs-id1170316286338" class="unnumbered"><label/>Los términos <m:math> 
+<para id="element-434">He aquí una versión abreviada del sistema de resolución de pruebas de hipótesis, aplicado a una prueba de proporciones.</para><equation id="fs-id1170316286338" class="unnumbered">Los términos <m:math> 
 <m:msub>
 <m:mi>H</m:mi>
 <m:mn>0</m:mn>
@@ -421,7 +421,7 @@ Dado que el problema se refiere a una media, se trata de una prueba de una únic
 <m:mi>p</m:mi>
 <m:mo>=</m:mo>
 <m:mn>0,3</m:mn>
-</m:math></equation><equation id="fs-id1170196937409" class="unnumbered"><label/>Los términos <m:math> 
+</m:math></equation><equation id="fs-id1170196937409" class="unnumbered">Los términos <m:math> 
 <m:msub>
 <m:mi>H</m:mi>
 <m:mi>a</m:mi>
@@ -430,11 +430,11 @@ Dado que el problema se refiere a una media, se trata de una prueba de una únic
 <m:mi>p</m:mi>
 <m:mo>≠</m:mo>
 <m:mn>0,3</m:mn>
-</m:math></equation><equation id="fs-id1170200255054" class="unnumbered"><label/>Los términos <m:math>
+</m:math></equation><equation id="fs-id1170200255054" class="unnumbered">Los términos <m:math>
 <m:mi>n</m:mi>
 <m:mo>=</m:mo>
 <m:mn>150</m:mn>
-</m:math></equation><equation id="fs-id1170199823538" class="unnumbered"><label/>Los términos <m:math>
+</m:math></equation><equation id="fs-id1170199823538" class="unnumbered">Los términos <m:math>
 <m:mn>p'</m:mn>
 <m:mo>=</m:mo>
 <m:mfrac>
@@ -449,7 +449,7 @@ Dado que el problema se refiere a una media, se trata de una prueba de una únic
 <m:mo>=</m:mo>
 <m:mn>0,287</m:mn>
 </m:math>
-</equation><equation id="fs-id1164793054850" class="unnumbered"><label/>Los términos <m:math>
+</equation><equation id="fs-id1164793054850" class="unnumbered">Los términos <m:math>
 <m:msub>
 <m:mi>Z</m:mi>
 <m:mi>c</m:mi>

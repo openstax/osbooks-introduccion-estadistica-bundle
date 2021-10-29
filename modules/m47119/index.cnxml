@@ -101,7 +101,7 @@
 <para id="eip-idm141674128"><emphasis>Tome una decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>, rechazamos <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="eip-idm156731472"><emphasis>Conclusión:</emphasis> Al nivel de significación del 5 % tenemos pruebas razonablemente sólidas de que las diferencias en los rendimientos medios de las plantas de tomate de corte cultivadas en diferentes condiciones de cubierta de suelo es poco probable que se deban únicamente al azar. Podemos concluir que, al menos, algunas de las cubiertas produjeron diferentes rendimientos medios.</para>
 
 <note id="fs-idm170385984" class="statistics calculator">
-<label/>
+
 <para id="fs-idp101537296">Para calcular estos resultados en la calculadora:</para>
 <para id="eip-idm156731216">Pulse STAT. Pulse 1:EDIT. Introduzca los datos en las listas <emphasis effect="italics">L<sub>1</sub></emphasis>, <emphasis effect="italics">L<sub>2</sub></emphasis>, <emphasis effect="italics">L<sub>3</sub></emphasis>, <emphasis effect="italics">L<sub>4</sub></emphasis>, <emphasis effect="italics">L<sub>5</sub></emphasis>.</para>
 <para id="eip-idp71266096">Pulse STAT, y la flecha hacia TESTS, y la flecha abajo hacia ANOVA. Pulse ENTER, y a continuación introduzca <emphasis effect="italics">L<sub>1</sub></emphasis>, <emphasis effect="italics">L<sub>2</sub></emphasis>, <emphasis effect="italics">L<sub>3</sub></emphasis>, <emphasis effect="italics">L<sub>4</sub></emphasis>, <emphasis effect="italics">L<sub>5</sub></emphasis>). Pulse ENTER. Verá que la calculadora arroja fácilmente los valores de la tabla ANOVA anterior, incluso el estadístico de prueba y el valor <emphasis effect="italics">p</emphasis>.</para>
@@ -113,7 +113,7 @@
 
 
 <note id="fs-idm197200" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="eip-746"><problem id="eip-675">
 <para id="eip-437">El SARM, o <emphasis effect="italics">Staphylococcus aureus resistente a la meticilina</emphasis>, puede causar una grave infección bacteriana en pacientes del hospital. La <link target-id="eip-755"/> muestra varios recuentos de colonias de diferentes pacientes que pueden o no tener SARM. Los datos de la tabla se representan en la Figura 13.5.</para><table id="eip-755" summary="..">
@@ -188,7 +188,7 @@
 <para id="element-75">Supongamos que <emphasis effect="italics">μ<sub>1</sub></emphasis>, <emphasis effect="italics">μ<sub>2</sub></emphasis>, <emphasis effect="italics">μ<sub>3</sub></emphasis>, <emphasis effect="italics">μ<sub>4</sub></emphasis> son las medias poblacionales de las hermandades de mujeres. Recuerde que la hipótesis nula afirma que los grupos de hermandades de mujeres proceden de la misma distribución normal. La hipótesis alternativa dice que, al menos, dos de los grupos de hermandades de mujeres proceden de poblaciones con distribuciones normales diferentes. Observe que los cuatro tamaños de muestra son cinco cada uno.</para>
 
 <note id="eip-id1170641699184">
-<label/>
+
 <title>Nota</title>
 <para id="eip-idp65526416">Este es un ejemplo de <term id="term-00001">diseño equilibrado</term>, ya que cada factor (es decir, la hermandad) tiene el mismo número de observaciones.</para>
 </note>
@@ -213,7 +213,7 @@
 <para id="element-483"><emphasis>Conclusión:</emphasis> No hay pruebas suficientes para concluir que existe una diferencia entre las calificaciones medias de las hermandades de mujeres.</para>
 
 <note id="fs-idm12292144" class="statistics calculator">
-<label/>
+
 <para id="element-171">Introduzca los datos en las listas L<sub>1</sub>, L<sub>2</sub>, L<sub>3</sub>, and L<sub>4</sub>. Pulse <code>STAT</code> y flecha hacia <code>TESTS</code>. Flecha hacia abajo <code>F:ANOVA</code>. Pulse <code>ENTER</code> e introduzca (<code>L1,L2,L3,L4</code>).</para>
 
 <para id="fs-idm127882432">La calculadora muestra la estadística F, el valor <emphasis effect="italics">p</emphasis> y los valores de la tabla ANOVA de una vía: <newline/><emphasis effect="italics">F</emphasis> = 2,2303 <newline/><emphasis effect="italics">p</emphasis> = 0,1241 (valor <emphasis effect="italics">p</emphasis>) <newline/>Factor <newline/><emphasis effect="italics">df</emphasis> = 3 <newline/><emphasis effect="italics">SS</emphasis> = 2,88732 <newline/><emphasis effect="italics">MS</emphasis> = 0,96244 <newline/>Error <newline/><emphasis effect="italics">df</emphasis> = 16 <newline/><emphasis effect="italics">SS</emphasis> = 6,9044 <newline/><emphasis effect="italics">MS</emphasis> = 0,431525</para></note>
@@ -222,7 +222,7 @@
 
 
 <note id="fs-idm126089872" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="eip-935"><problem id="eip-188">
 <para id="eip-668">Cuatro equipos deportivos tomaron una muestra aleatoria de jugadores en relación con su GPA del último año. Los resultados se indican en la <link target-id="eip-440"/>.</para><table id="eip-440" summary=".."><title>GPA PARA CUATRO EQUIPOS DEPORTIVOS</title>
@@ -480,7 +480,7 @@
 <para id="element-886"><emphasis>Conclusión:</emphasis> Con un nivel de significación del 3 %, a partir de los datos de la muestra, las pruebas no son suficientes para concluir que las alturas medias de las plantas de judías son diferentes.</para>
 
 <note id="fs-idm97032400" class="statistics calculator">
-<label/>
+
 <para id="fs-idm144926064">Para calcular el valor <emphasis effect="italics">p</emphasis>:</para>
 <para id="fs-idp56648304">*Pulse <code>2nd DISTR</code></para>
 <para id="fs-idm129639712">*Flecha hacia abajo a <code>Fcdf</code>(y pulse <code>ENTER</code>.</para>
@@ -494,7 +494,7 @@
 
 
 <note id="fs-idm141365552" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="element-3252">
 <problem id="id6378299">
@@ -505,7 +505,7 @@
 
 
 <note id="element-866" class="statistics collab">
-<label/>
+
  
 <para id="element-746">A partir de la clase, cree cuatro grupos del mismo tamaño como sigue: hombres menores de 22 años, hombres de al menos 22 años, mujeres menores de 22 años, mujeres de al menos 22 años. Haga que cada miembro de cada grupo registre el número de estados de Estados Unidos que ha visitado. Realice un ANOVA para determinar si el promedio de estados visitados en los cuatro grupos es el mismo. Pruebe con un nivel de significación del 1 %. Utilice una de las hojas de solución en el <link document="m47882"/>.</para></note>
 
@@ -792,7 +792,7 @@ Este
 </exercise>
 </section>
 
-<section id="fs-idp159138080" class="free-response"><title>Tarea para la casa</title><note id="fs-idm3376448"><label/><title>INSTRUCCIONES</title>
+<section id="fs-idp159138080" class="free-response"><title>Tarea para la casa</title><note id="fs-idm3376448"><title>INSTRUCCIONES</title>
 
 <para id="eip-660">Utilice una hoja de soluciones para realizar las siguientes pruebas de hipótesis. La hoja de soluciones se encuentra en el <link document="m47882"/>.</para></note><exercise id="element-240">
 <problem id="id19304316">

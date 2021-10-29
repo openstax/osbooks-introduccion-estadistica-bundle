@@ -21,7 +21,7 @@
  </m:mrow>
 </m:math> produce la distribución <emphasis effect="italics">Z</emphasis> ~ <emphasis effect="italics">N</emphasis>(0, 1). El valor <emphasis effect="italics">x</emphasis> en la ecuación dada proviene de una distribución normal conocida con media conocida <emphasis effect="italics">μ</emphasis> y desviación típica conocida <emphasis effect="italics">σ</emphasis>. La puntuación <emphasis effect="italics">z</emphasis>indica cuántas desviaciones típicas se aleja una determinada x de la media.</para><section id="fs-idp52480624">
 <title>Puntuaciones <emphasis effect="italics">z</emphasis></title>
- <para id="fs-idm81546736">Si <emphasis effect="italics">X</emphasis> es una variable aleatoria normalmente distribuida y <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N(μ, σ)</emphasis>, entonces la puntuación <emphasis effect="italics">z</emphasis>para una determinada <emphasis effect="italics">x</emphasis> es:</para><equation id="element-521" class="unnumbered"><label/>Los términos <m:math>
+ <para id="fs-idm81546736">Si <emphasis effect="italics">X</emphasis> es una variable aleatoria normalmente distribuida y <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N(μ, σ)</emphasis>, entonces la puntuación <emphasis effect="italics">z</emphasis>para una determinada <emphasis effect="italics">x</emphasis> es:</para><equation id="element-521" class="unnumbered">Los términos <m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -34,7 +34,7 @@
 </m:math></equation><para id="element-272"><emphasis>La puntuación <emphasis effect="italics">z</emphasis> indica cuántas desviaciones típicas tiene el valor <emphasis effect="italics">x</emphasis> por encima (a la derecha) o por debajo (a la izquierda) de la media, <emphasis effect="italics">μ</emphasis>.</emphasis> Los valores de <emphasis effect="italics">x</emphasis> que son mayores que la media tienen calificaciones <emphasis effect="italics">z</emphasis> positivas, y los valores de <emphasis effect="italics">x</emphasis> que son menores que la media tienen calificaciones <emphasis effect="italics">z</emphasis> negativas. Si <emphasis effect="italics">x</emphasis> es igual a la media, entonces <emphasis effect="italics">x</emphasis> tiene una puntuación <emphasis effect="italics">z</emphasis> de cero.</para>
 
 <example id="element-49">
-<para id="element-161">Supongamos que <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N(5, 6)</emphasis>. Esto dice que <emphasis effect="italics">X</emphasis> es una variable aleatoria normalmente distribuida, con media <emphasis effect="italics">μ</emphasis> = 5 y desviación típica <emphasis effect="italics">σ</emphasis> = 6. Supongamos que <emphasis effect="italics">x</emphasis> = 17. Entonces:</para><equation id="element-160" class="unnumbered"><label/>Los términos <m:math>
+<para id="element-161">Supongamos que <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N(5, 6)</emphasis>. Esto dice que <emphasis effect="italics">X</emphasis> es una variable aleatoria normalmente distribuida, con media <emphasis effect="italics">μ</emphasis> = 5 y desviación típica <emphasis effect="italics">σ</emphasis> = 6. Supongamos que <emphasis effect="italics">x</emphasis> = 17. Entonces:</para><equation id="element-160" class="unnumbered">Los términos <m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>

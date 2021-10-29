@@ -13,7 +13,7 @@
 <para id="element-674">Por ejemplo, si <emphasis effect="italics">F</emphasis> sigue una distribución <emphasis effect="italics">F</emphasis> y el número de grados de libertad para el numerador es cuatro y el número de grados de libertad para el denominador es diez, entonces <emphasis effect="italics">F</emphasis> ~ <emphasis effect="italics">F<sub>4, 10</sub></emphasis>.</para>
 
 <note id="eip-261">
-<label/>
+
 <title>Nota</title>
 <para id="eip-idm170830672">La distribución <emphasis effect="italics">F</emphasis> se deriva de la distribución t de Student. Los valores de la distribución <emphasis effect="italics">F</emphasis> son los cuadrados de los valores correspondientes de la distribución <emphasis effect="italics">t</emphasis>. El ANOVA de una vía amplía la prueba <emphasis effect="italics">t</emphasis> para comparar más de dos grupos. El alcance de esa derivación está más allá del nivel de este curso. Es preferible utilizar el ANOVA cuando hay más de dos grupos en lugar de realizar pruebas <emphasis effect="italics">t</emphasis> por pares porque la realización de pruebas múltiples introduce la probabilidad de cometer un error de tipo 1.</para></note>
 
@@ -303,7 +303,7 @@
 <para id="element-807">La hipótesis nula dice que todos los grupos son muestras de poblaciones que tienen la misma distribución normal. La hipótesis alternativa dice que, al menos, dos de los grupos de la muestra proceden de poblaciones con distribuciones normales diferentes. Si la hipótesis nula es verdadera, tanto <emphasis effect="italics">MS</emphasis><sub>entre</sub> como <emphasis effect="italics">MS</emphasis><sub>dentro</sub> deberían estimar el mismo valor.</para>
 
 <note id="eip-82">
-<label/>
+
 <title>Nota</title>
 <para id="eip-idp56014144">La hipótesis nula dice que todas las medias poblacionales del grupo son iguales. La hipótesis de igualdad de medias implica que las poblaciones tienen la misma distribución normal, ya que se supone que las poblaciones son normales y que tienen varianzas iguales.</para></note>
 
@@ -480,7 +480,7 @@
 </table>
 
 <para id="fs-idp93901056"><emphasis effect="italics">s</emphasis><sub>1</sub> = 16,5, <emphasis effect="italics">s</emphasis><sub>2</sub> =15, <emphasis effect="italics">s</emphasis><sub>3</sub> = 15,5</para><para id="fs-idp76691888">A continuación se presentan los cálculos necesarios para completar la tabla de ANOVA de una vía. La tabla se utiliza para realizar una prueba de hipótesis.</para>
-<equation class="unnumbered" id="fs-idp76692400"><label/> Los términos <m:math>
+<equation class="unnumbered" id="fs-idp76692400"> Los términos <m:math>
 <m:mrow>
 <m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mi>e</m:mi><m:mi>t</m:mi><m:mi>w</m:mi><m:mi>e</m:mi><m:mi>e</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>∑</m:mo><m:mrow><m:mo>[</m:mo> <m:mrow>
 <m:mfrac>
@@ -532,7 +532,7 @@
 </m:mrow>
 </m:math>
 </equation>
-<equation class="unnumbered" id="fs-idm399264"><label/>
+<equation class="unnumbered" id="fs-idm399264">
  Los términos <m:math>
 <m:mrow>
 <m:mo>=</m:mo><m:mo> </m:mo><m:mfrac>
@@ -604,7 +604,7 @@
 </equation>
 
 <para id="eip-idp15158384">donde <emphasis effect="italics">n</emphasis><sub>1</sub> = 4, <emphasis effect="italics">n</emphasis><sub>2</sub> = 3, <emphasis effect="italics">n</emphasis><sub>3</sub> = 3 y <emphasis effect="italics">n</emphasis> = <emphasis effect="italics">n</emphasis><sub>1</sub> + <emphasis effect="italics">n</emphasis><sub>2</sub> + <emphasis effect="italics">n</emphasis><sub>3</sub> = 10</para>
-<equation class="unnumbered" id="fs-idp1558352"><label/>Los términos <m:math>
+<equation class="unnumbered" id="fs-idp1558352">Los términos <m:math>
 <m:mrow>
 <m:mo> </m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -675,7 +675,7 @@
 
 </m:mrow>
 </m:math>
-</equation><equation class="unnumbered" id="fs-idp47211392"><label/>
+</equation><equation class="unnumbered" id="fs-idp47211392">
  Los términos <m:math>
 <m:mrow>
 <m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mi>e</m:mi><m:mi>t</m:mi><m:mi>w</m:mi><m:mi>e</m:mi><m:mi>e</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2,2458</m:mn>
@@ -683,7 +683,7 @@
 </m:math>
 </equation>
 
-<equation class="unnumbered" id="fs-idm43777664"><label/> Los términos <m:math>
+<equation class="unnumbered" id="fs-idm43777664"> Los términos <m:math>
 <m:mrow>
 <m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mi>o</m:mi><m:mi>t</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>∑</m:mo><m:msup>
 <m:mi>x</m:mi>
@@ -708,7 +708,7 @@
 
 </m:mrow>
 </m:math>
-</equation><equation class="unnumbered" id="fs-idp28622176"><label/> Los términos <m:math>
+</equation><equation class="unnumbered" id="fs-idp28622176"> Los términos <m:math>
 <m:mrow>
 <m:mo> </m:mo><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
 <m:mrow>
@@ -767,7 +767,7 @@
 </m:math> grandes.
 </equation>
 
-<equation class="unnumbered" id="fs-idp99714192"><label/> Los términos <m:math>
+<equation class="unnumbered" id="fs-idp99714192"> Los términos <m:math>
 <m:mrow>
 <m:mo>-</m:mo><m:mfrac>
 <m:mrow>
@@ -787,7 +787,7 @@
 </m:mrow>
 </m:math> </equation>
 
-<equation class="unnumbered" id="fs-idp13819792"><label/> Los términos <m:math>
+<equation class="unnumbered" id="fs-idp13819792"> Los términos <m:math>
 <m:mrow>
 <m:mo>=</m:mo><m:mn>244</m:mn><m:mo>- −</m:mo><m:mfrac>
 <m:mrow>
@@ -808,21 +808,21 @@
 </m:math>
 </equation>
 
-<equation class="unnumbered" id="fs-idm45074976"><label/>
+<equation class="unnumbered" id="fs-idm45074976">
  Los términos <m:math>
 <m:mrow>
 <m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mi>o</m:mi><m:mi>t</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>23,1</m:mn>
 </m:mrow>
 </m:math> </equation>
 
-<equation class="unnumbered" id="fs-idp85849072"><label/>
+<equation class="unnumbered" id="fs-idp85849072">
  Los términos <m:math>
 <m:mrow>
 <m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>w</m:mi><m:mi>i</m:mi><m:mi>t</m:mi><m:mi>h</m:mi><m:mi>i</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mi>o</m:mi><m:mi>t</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mo stretchy="false">)</m:mo><m:mo>-</m:mo><m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mi>e</m:mi><m:mi>t</m:mi><m:mi>w</m:mi><m:mi>e</m:mi><m:mi>e</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
 </m:mrow>
 </m:math> grandes. </equation>
 
-<equation class="unnumbered" id="fs-idp97238064"><label/>
+<equation class="unnumbered" id="fs-idp97238064">
  Los términos <m:math>
 <m:mrow>
 <m:mo>=</m:mo><m:mo> </m:mo><m:mn>23,1</m:mn><m:mo>- −</m:mo><m:mn>2,2458</m:mn>
@@ -830,7 +830,7 @@
 </m:math>
 </equation>
 
-<equation class="unnumbered" id="fs-idp19006144"><label/>
+<equation class="unnumbered" id="fs-idp19006144">
  Los términos <m:math>
 <m:mrow>
 <m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>w</m:mi><m:mi>i</m:mi><m:mi>t</m:mi><m:mi>h</m:mi><m:mi>i</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>20,8542</m:mn>
@@ -840,7 +840,7 @@
 
 
 <note id="fs-idp86961312" class="statistics calculator">
-<label/>
+
 <para id="eip-786">Tabla de ANOVA de una vía: Las fórmulas para <emphasis effect="italics">SS</emphasis>(total), <emphasis effect="italics">SS</emphasis>(factor) = <emphasis effect="italics">SS</emphasis>(entre) y <emphasis effect="italics">SS</emphasis>(error) = <emphasis effect="italics">SS</emphasis>(dentro) como se ha mostrado anteriormente. La misma información es proporcionada por la función de prueba de hipótesis de la calculadora TI ANOVA en STAT TESTS (la sintaxis es ANOVA(L1, L2, L3) donde L1, L2, L3 tienen los datos del Plan 1, Plan 2, Plan 3 respectivamente).</para></note>
 
 <table id="eip-id1172005012068" summary="General One-Way ANOVA Table with 3 rows and 4 columns.">
@@ -889,7 +889,7 @@
 </example>
 
 <note id="fs-idp19091024" class="statistics try finger">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm48661072">
 <problem id="fs-idp24724224">

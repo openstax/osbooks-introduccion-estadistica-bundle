@@ -30,7 +30,7 @@
 
 <para id="element-749">La pregunta de probabilidad le pide que encuentre <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 3).</para></example>
 
-<note id="fs-idp39470352" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idp39470352" class="statistics try"><title>Ejercicio</title>
 
 <exercise id="fs-idm102800576">
 <problem id="fs-idm136652096">
@@ -45,7 +45,7 @@
 </example>
 
 
-<note id="fs-idm3960864" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm3960864" class="statistics try"><title>Ejercicio</title>
 
 <exercise id="fs-idm122013280">
 <problem id="fs-idp1855472">
@@ -73,7 +73,7 @@
 </example>
 
 
-<note id="fs-idm101937776" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm101937776" class="statistics try"><title>Ejercicio</title>
 
 <exercise id="fs-idm138494832">
 <problem id="fs-idm76741440">
@@ -111,12 +111,12 @@
 
 <para id="element-697" class="finger">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1) = 0,1734 (calculadora o computadora)</para>
 
-<note id="fs-idm23681840" class="statistics calculator"><label/>
+<note id="fs-idm23681840" class="statistics calculator">
 <list id="fs-idp1265216" list-type="bulleted"><item>Pulse 1 y luego pulse 2.<sup>º</sup> DISTR.</item>
 <item>Pulse la flecha hacia abajo y seleccione poissoncdf. Pulse ENTER.</item>
 <item>Introduzca (0,75,1).</item>
 <item>El resultado es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1) = 0,1734.</item>
-</list><note id="eip-706" class="finger"><label/><title>Nota</title>
+</list><note id="eip-706" class="finger"><title>Nota</title>
 <para id="fs-idm154468640">Las calculadoras de TI utilizan <emphasis effect="italics">λ</emphasis> (lambda) para la media.</para>
 </note></note><para id="element-886">La probabilidad de que Leah reciba más de una llamada telefónica en los próximos 15 minutos es de 0,1734: <newline count="1"/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1) = 1 - poissoncdf(0,75, 1).</para><para id="element-89">El gráfico de <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(0,75) es:</para>
 
@@ -125,7 +125,7 @@
 </media></figure><para id="element-869">El eje <emphasis effect="italics">y</emphasis> contiene la probabilidad de <emphasis effect="italics">x</emphasis>, donde <emphasis effect="italics">X</emphasis> = el número de llamadas durante 15 minutos.</para></example>
 
 
-<note id="fs-idm14071904" class="statistics try finger"><label/><title>Ejercicio</title>
+<note id="fs-idm14071904" class="statistics try finger"><title>Ejercicio</title>
 
 <exercise id="fs-idm114328016" class="finger">
 <problem id="fs-idm126244848">
@@ -164,7 +164,7 @@
 
 </example>
 
-<note id="fs-idm17831600" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm17831600" class="statistics try"><title>Ejercicio</title>
 
 <exercise id="fs-idm128601120">
 <problem id="fs-idm195364880">
@@ -203,7 +203,7 @@
 </exercise>
 </example>
 
-<note id="fs-idm6127376" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm6127376" class="statistics try"><title>Ejercicio</title>
 
 <exercise id="eip-693">
 <problem id="fs-idm114876624">
@@ -228,7 +228,7 @@
 
 </example>
 
-<note id="fs-idp26868464" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idp26868464" class="statistics try"><title>Ejercicio</title>
 <exercise id="eip-idp124175712">
 <problem id="eip-idp124175968">
 <para id="eip-idp124176224">El 13 de mayo de 2013, a partir de las 4:30 p. m., se informó de que la probabilidad de actividad sísmica moderada para las próximas 48 horas en las islas Kuriles, frente a la costa de Japón, era de alrededor del 1,43 %. Utilice esta información para los próximos 100 días para hallar la probabilidad de que haya una actividad sísmica baja en cinco de los próximos 100 días. Utilice las distribuciones binomial y de Poisson para calcular las probabilidades. ¿Están cerca?</para></problem>

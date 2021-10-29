@@ -20,7 +20,7 @@
 </list><list id="eip-819"><title>Lo que significan las hipótesis en palabras</title><item><emphasis>Hipótesis nula <emphasis effect="italics">H<sub>0</sub></emphasis></emphasis>: El coeficiente de correlación de la población NO ES significativamente diferente de cero. NO HAY una relación lineal significativa (correlación) entre X<sub>1</sub> y X<sub>2</sub> en la población.</item>
 <item><emphasis>Hipótesis alternativa <emphasis effect="italics">H<sub>a</sub></emphasis></emphasis>: El coeficiente de correlación de la población es significativamente diferente de cero. Existe una relación lineal significativa (correlación) entre X<sub>1</sub> y X<sub>2</sub> en la población.</item>
 </list><para id="eip-911"><title>Llegar a una conclusión</title>Hay dos métodos para tomar la decisión sobre la hipótesis. La estadística de la prueba para comprobar esta hipótesis es: 
-</para><equation class="unnumbered" id="eip-678"><label/>Los términos <m:math>
+</para><equation class="unnumbered" id="eip-678">Los términos <m:math>
 <m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub>
 <m:mo>=</m:mo>
 <m:mfrac>
@@ -33,7 +33,7 @@
 </m:msqrt>
 </m:mrow>
 </m:mfrac>
-</m:math> grandes.</equation><equation class="unnumbered" id="eip-525">Los términos <m:math><m:mtext>O</m:mtext></m:math></equation><equation id="eip-193"><label/>Los términos <m:math>
+</m:math> grandes.</equation><equation class="unnumbered" id="eip-525">Los términos <m:math><m:mtext>O</m:mtext></m:math></equation><equation id="eip-193">Los términos <m:math>
 <m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub>
 <m:mo>=</m:mo>
 <m:mfrac>
@@ -41,7 +41,7 @@
 <m:mrow><m:msqrt><m:mn>1</m:mn><m:mo>-</m:mo><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:msqrt></m:mrow>
 </m:mfrac>
 </m:math></equation><para id="eip-185">Donde la segunda fórmula es una forma equivalente al estadístico de prueba, n es el tamaño de la muestra y los grados de libertad son n-2. Se trata de la estadística t y funciona de la misma manera que otras pruebas t. Calcule el valor t y compárelo con el valor crítico de la tabla t con los grados de libertad adecuados y el nivel de confianza que desee mantener. Si el valor calculado está en la cola, entonces no se puede aceptar la hipótesis nula de que no existe ninguna relación lineal entre estas dos variables aleatorias independientes. Si el valor t calculado NO está en la cola, entonces no se puede rechazar la hipótesis nula de que no existe ninguna relación lineal entre las dos variables.</para><para id="eip-824">Una forma rápida de comprobar las correlaciones es la relación entre el tamaño de la muestra y la correlación. Si:</para>
-<equation class="unnumbered" id="eip-id7124990"><label/>Los términos <m:math><m:mo stretchy="false">|</m:mo><m:mi>r</m:mi><m:mo stretchy="false">|</m:mo><m:mo>≥</m:mo><m:mfrac><m:mn>2</m:mn><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:math></equation>
+<equation class="unnumbered" id="eip-id7124990">Los términos <m:math><m:mo stretchy="false">|</m:mo><m:mi>r</m:mi><m:mo stretchy="false">|</m:mo><m:mo>≥</m:mo><m:mfrac><m:mn>2</m:mn><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:math></equation>
 <para id="fs-id1165110291919">entonces esto implica que la correlación entre las dos variables demuestra que existe una relación lineal y es estadísticamente significativa a un nivel de significación aproximado de 0,05. Como indica la fórmula, existe una relación inversa entre el tamaño de la muestra y la correlación necesaria para la significación de una relación lineal. Con solo 10 observaciones, la correlación requerida para la significación es de 0,6325, para 30 observaciones la correlación requerida para la significación disminuye a 0,3651 y a 100 observaciones el nivel requerido es solo de 0,2000.</para><para id="eip-659">Las correlaciones sirven para visualizar los datos, pero no se utilizan adecuadamente para "explicar" una relación entre dos variables. Tal vez no haya una estadística más mal utilizada que el coeficiente de correlación. Citar correlaciones entre las condiciones de salud y todo lo demás, desde el lugar de residencia hasta el color de los ojos, tiene el efecto de implicar una relación de causa y efecto. Esto no se logra con un coeficiente de correlación. El coeficiente de correlación es, por supuesto, inocente de esta mala interpretación. El analista tiene el deber de utilizar una estadística diseñada para comprobar las relaciones de causa y efecto y comunicar solo esos resultados si pretende hacer tal afirmación. El problema es que pasar esta prueba más rigurosa es difícil, por lo que los "investigadores" perezosos o inescrupulosos recurren a las correlaciones cuando no pueden presentar sus argumentos de forma legítima.  </para><section id="eip-962" class="practice"><exercise id="eip-856"><problem id="eip-905">
   <para id="eip-278">Defina la prueba t de un coeficiente de regresión y dé un ejemplo único de su uso.
   </para></problem>

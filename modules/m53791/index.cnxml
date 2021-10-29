@@ -64,13 +64,13 @@
 </m:math> estaban en los 90 o 100, un número bastante alto de calificaciones con A.</para>
 </example>
 
-<note id="fs-idp6114880" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idp6114880" class="statistics try"><title>Ejercicio</title>
 
 <exercise id="fs-idp3142256">
 <problem id="fs-idm28250320">
 <para id="fs-idp29192512">Para el equipo de baloncesto de Park City los resultados de los últimos 30 partidos fueron los siguientes (de menor a mayor): <newline/> 32; 32; 33; 34; 38; 40; 42; 42; 43; 44; 46; 47; 47; 48; 48; 48; 49; 50; 50; 51; 52; 52; 52; 53; 54; 56; 57; 57; 60; 61 <newline/>Construya un diagrama de tallo para los datos.</para></problem>
 <solution id="fs-idm41489584" class="solutions">
-<label/>
+
 <table id="fs-idm19851440" summary="">
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
@@ -90,7 +90,7 @@
 </exercise></note><para id="eip-522">El diagrama de tallo es una forma rápida de representar datos gráficamente y ofrece una imagen exacta de la información. Hay que buscar un patrón general y los valores atípicos. Un <term id="term-00001">valor atípico</term> es una observación de datos que no se ajusta al resto de los datos. A veces se le llama <emphasis>valor extremo.</emphasis> Cuando grafique un valor atípico parecerá que no se ajusta al patrón del gráfico. Algunos valores atípicos se deben a errores (por ejemplo, anotar 50 en vez de 500), mientras que otros pueden indicar que está ocurriendo algo inusual. Para explicar los valores atípicos se necesita información de fondo, por lo que los trataremos con más detalle más adelante.</para><example id="element-798">
 <para id="element-534">Los datos son las distancias (en kilómetros) de un hogar a supermercados locales. Cree un diagrama de tallo con los datos: <newline/>1,1; 1,5; 2,3; 2,5; 2,7; 3,2; 3,3; 3,3; 3,5; 3,8; 4,0; 4,2; 4,5; 4,5; 4,7; 4,8; 5,5; 5,6; 6,5; 6,7; 12,3</para><exercise id="element-6923"><problem id="id8567884">
 <para id="fs-idp11807920">¿Los datos parecen tener alguna concentración de valores?</para>
-<note id="id8559724"><label/><title>NOTA</title>
+<note id="id8559724"><title>NOTA</title>
 <para id="fs-idp145995424">Las hojas están a la derecha del decimal.</para>
 </note></problem>
 <solution id="id8559734" print-placement="end">
@@ -146,14 +146,14 @@
 </exercise></example>
 
 <note id="fs-idp4001472" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm40603312"><problem id="fs-idm28790944">
 <para id="fs-idp73770272">Los siguientes datos muestran las distancias (en millas) desde los hogares de los estudiantes de Estadística fuera del campus hasta el instituto universitario. Cree un diagrama de tallo con los datos e identifique los valores atípicos:</para>
 <para id="fs-idp20460656">0,5; 0,7; 1,1; 1,2; 1,2; 1,3; 1,3; 1,5; 1,5; 1,7; 1,7; 1,8; 1,9; 2,0; 2,2; 2,5; 2,6; 2,8; 2,8; 2,8; 3,5; 3,8; 4,4; 4,8; 4,9; 5,2; 5,5; 5,7; 5,8; 8,0
 </para></problem>
 <solution id="fs-idp22705856" class="solutions">
-<label/>
+
 <table id="fs-idm52067568" summary="">
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
@@ -327,7 +327,7 @@
 
 
 <note id="fs-idm28536512" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm95574864"><problem id="fs-idp19862832">
 
@@ -350,7 +350,7 @@
 </table>
 </problem>
 <solution id="fs-idp56781792" class="solutions">
-<label/>
+
 <figure id="eip-idp32593792"><media id="fs-idp61812880" alt="" display="block">
 <image src="../../media/CNX_Stats_C02_M03_tryit003.png" mime-type="image/png" width="380"/>
 </media>
@@ -400,7 +400,7 @@
 
 
 <note id="fs-idp2492880" class="statistics try">
-<label/><title>Ejercicio</title>
+<title>Ejercicio</title>
 <exercise id="fs-idm47906688">
 <problem id="fs-idm7708128">
 
@@ -424,7 +424,7 @@
 </problem>
 
 <solution id="fs-idm119263088" class="solutions">
-<label/>
+
 <figure id="eip-idm94855488"><media id="fs-idm4405616" alt="Este es un gráfico de barras que coincide con los datos suministrados. El eje x muestra los grupos de edad y el eje y muestra los porcentajes de la población de Park City." display="block">
 <image src="../../media/CNX_Stats_C02_M03_tryit004.png" width="350" mime-type="image/png"/>
 </media>
@@ -487,7 +487,7 @@
 </example>
 
 <note id="fs-idp41522672" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm43065520">
 <problem id="fs-idp3652336">
@@ -513,7 +513,7 @@
 </problem>
 
 <solution id="fs-idm7917072" class="solutions">
-<label/>
+
 <figure id="M01_Ch02_fig004"><media id="fs-idm63847024" display="block" alt="Este es un gráfico de barras que coincide con los datos suministrados. El eje x muestra los distritos electorales de Park City, y el eje y muestra los porcentajes de la población votante registrada.">
 <image src="../../media/CNX_Stats_C02_M03_tryit005.png" mime-type="image/png" width="400"/>
 </media>
@@ -570,7 +570,7 @@
 <item><emphasis effect="italics">n</emphasis> = número total de valores de datos (o la suma de las frecuencias individuales) y</item>
 <item><emphasis effect="italics">RF</emphasis> = frecuencia relativa,</item>
 </list><para id="eip-151">entonces:
-<equation class="unnumbered" id="element-1000"><label/>Los términos <m:math>
+<equation class="unnumbered" id="element-1000">Los términos <m:math>
 <m:semantics>
 <m:mrow>
 <m:mstyle fontsize="12pt">
@@ -623,7 +623,7 @@ Los términos <m:math>
 </equation>
 
 <note id="eip-id1167908046053">
-<label/><title>NOTA</title>
+<title>NOTA</title>
 <para id="eip-id1167907308537">Redondearemos a dos y haremos que cada barra o intervalo de clase tenga dos unidades de ancho. Redondear a dos es una forma de evitar que un valor caiga en un límite. El redondeo al número siguiente es a menudo necesario, incluso si va en contra de las reglas estándar de redondeo. Para este ejemplo, utilizar 1,76 como ancho también funcionaría. Una pauta que siguen algunos para el ancho de una barra o intervalo de clase es tomar la raíz cuadrada del número de valores de los datos y luego redondear al número entero más cercano, si es necesario. Por ejemplo, si hay 150 valores de datos, tome la raíz cuadrada de 150 y redondee a 12 barras o intervalos.</para></note>
 <para id="eip-id1167912963495">Los límites son:</para>
 <list id="eip-id1167895853518" list-type="bulleted">
@@ -642,14 +642,14 @@ Los términos <m:math>
 <figure id="eip-id1167910242965">
 <media id="eip-id8485603" alt="El histograma consta de 8 barras con el eje y en incrementos de 0,05 desde 0 hasta 0,4 y el eje x en intervalos de 2 desde 59,95 hasta 75,95." display="block"><image src="../../media/fig-ch_02_04_01.jpg" mime-type="image/png" width="350"/></media>
 </figure>
-</example><note id="eip-467" class="statistics try"><label/><title>Ejercicio</title>
+</example><note id="eip-467" class="statistics try"><title>Ejercicio</title>
 
 <exercise id="eip-id1167302010399">
 <problem id="eip-id1167302034000">
 <para id="eip-id1167305649518">Los siguientes datos son las tallas de los zapatos de 50 estudiantes hombres. Las tallas son datos continuos ya que se mide la talla de zapato. Construya un histograma y calcule el ancho de cada barra o intervalo de clase. Suponga que elige seis barras. <newline/>9; 9; 9,5; 9,5; 10; 10; 10; 10; 10; 10; 10,5; 10,5; 10,5; 10,5; 10,5; 10,5; 10,5; 10,5 <newline/>11; 11; 11; 11; 11; 11; 11; 11; 11; 11; 11; 11; 11; 11,5; 11,5; 11,5; 11,5; 11,5; 11,5; 11,5 <newline/>12; 12; 12; 12; 12; 12; 12; 12,5; 12,5; 12,5; 12,5; 14</para></problem>
 
 <solution id="eip-id1167295062995" class="solutions">
-<label/>
+
 <para id="eip-id1167306042977">El valor más pequeño es: 9</para>
 <para id="eip-id1167306631262">El valor más grande es: 14</para>
 <para id="eip-id1167309251362">El valor inicial conveniente es: 9 – 0,05 = 8,95</para>
@@ -796,7 +796,7 @@ Los términos <m:math>
 
 
 <note id="eip-id1166383329059" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="eip-id1166383494238"><problem id="eip-id1166383496203">
 <para id="eip-id1166383495068">Construya un polígono de frecuencias de las edades de los presidentes de EE. UU. en el momento de la investidura que se muestra en la <link target-id="fs-idp36852784"/>.</para><table id="fs-idp36852784" summary="---">
@@ -1027,7 +1027,7 @@ Los términos <m:math>
 
 </example>
 
-<note id="eip-id1170178622023" class="statistics try"><label/><title>Ejercicio</title>
+<note id="eip-id1170178622023" class="statistics try"><title>Ejercicio</title>
 
 <exercise id="eip-id1170189102780"><problem id="eip-id1170190162429">
 <para id="eip-id1170181886526">La siguiente tabla es una parte de un conjunto de datos de www.worldbank.org. Utilice la tabla para construir un gráfico de la serie temporal de las emisiones de CO<sub>2</sub> de Estados Unidos.</para>
@@ -1097,7 +1097,7 @@ Los términos <m:math>
 </table></problem>
 
 <solution id="eip-id1170183528009" class="solutions">
-<label/>
+
 <figure id="eip-id1170193302065"><media id="eip-id1170185012071" display="block" alt="Este es un gráfico de series temporales que coincide con los datos suministrados. El eje x muestra los años comprendidos entre 2003 y 2012, y el eje y muestra el IPC anual.">
 <image mime-type="image/png" src="../../media/CNX_Stats_C02_M05b_004.png" width="450"/>
 </media>

@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-    <para id="fs-idp59629922">Es importante que entienda cuándo utilizar el <term id="term-00001">teorema del límite central</term>. Si se le pide que encuentre la probabilidad de la media, utilice el TLC para la media. Si se le pide que encuentre la probabilidad de una suma o un total, utilice el TLC para sumas. Esto también se aplica a los percentiles para las medias y las sumas.</para><note id="id11030776"><label/><title>NOTA</title>
+    <para id="fs-idp59629922">Es importante que entienda cuándo utilizar el <term id="term-00001">teorema del límite central</term>. Si se le pide que encuentre la probabilidad de la media, utilice el TLC para la media. Si se le pide que encuentre la probabilidad de una suma o un total, utilice el TLC para sumas. Esto también se aplica a los percentiles para las medias y las sumas.</para><note id="id11030776"><title>NOTA</title>
 <para id="fs-idm90223456">Si se le pide que encuentre la probabilidad de un valor <emphasis>individual</emphasis>, <emphasis>no</emphasis> utilice el TLC. <emphasis>Utilice la distribución de su variable aleatoria.</emphasis></para></note><section id="element-733">
 <title>Ejemplos del teorema del límite central</title>
 <section id="fs-idp5962992">
@@ -204,7 +204,7 @@
  </m:mrow>
 </m:math> = 0
 </para><note id="note-1" type="Reminder">
-<label/>
+
 <title>Recordatorio</title>
 <para id="fs-idm90269648">La menor puntuación de estrés es uno.</para>
 </note>
@@ -298,7 +298,7 @@
   <m:mo stretchy="false">)</m:mo>
  </m:mrow>
 </m:math>(1,15)).</para><note id="note-2" type="Reminder">
-<label/>
+
 <title>Recordatorio</title>
 <para id="fs-idm105410608">El total más pequeño de 75 puntuaciones de estrés es 75, porque la puntuación individual más pequeña es uno.</para></note>
 
@@ -333,7 +333,7 @@
 </exercise></example>
 
 <note id="fs-idm56169616" class="statistics try">
-<label/><title>Ejercicio</title>
+<title>Ejercicio</title>
 
 <exercise id="fs-idm127013136">
 <problem id="fs-idm53684704">
@@ -462,7 +462,7 @@
 </figure>
 
 <note id="note-5" class="finger" type="Reminder">
-<label/>
+
 <title>Recordatorio</title>
 <para id="fs-idm69813456"><emphasis>1E99 = 10<sup>99</sup> y –1E99 = –10<sup>99</sup></emphasis>. Pulse <code>EE</code> la tecla para la E. O simplemente utilice 10<sup>99</sup> en lugar de 1E99.</para></note>
 </item>
@@ -571,7 +571,7 @@
 
 
 <note id="fs-idm50063488" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm113638352"><problem id="fs-idm60469088">
 <para id="eip-823">Utilice la información del <link target-id="example2" document=""/>, pero cambie el tamaño de la muestra a 144.</para>
@@ -682,7 +682,7 @@
 </example>
 
 <note id="fs-idm67893584" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm59759104">
 <problem id="fs-idm113132656">
@@ -732,7 +732,7 @@
 </example>
 
 <note id="fs-idm102859984" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm123966224">
 <problem id="fs-idm146706672">
@@ -743,7 +743,7 @@
 </exercise>
 </note>
 
-<note id="eip-713"><label/><title>NOTA HISTÓRICA</title>
+<note id="eip-713"><title>NOTA HISTÓRICA</title>
 
 <para id="fs-idm36895584"><emphasis>: Aproximación normal a la binomial</emphasis></para>
 <para id="eip-614">Históricamente, poder calcular las probabilidades binomiales era una de las aplicaciones más importantes del teorema del límite central. Las probabilidades binomiales con un valor pequeño para <emphasis effect="italics">n</emphasis>(digamos, 20) se mostraban en una tabla en un libro. Para calcular las probabilidades con valores grandes de <emphasis effect="italics">n</emphasis>, había que utilizar la fórmula binomial, que podía ser muy complicada. El uso de la <term id="term-00006">aproximación normal a la distribución binomial</term> simplificó el proceso. Para calcular la aproximación normal a la distribución binomial, tome una muestra aleatoria simple de una población. Debe cumplir las condiciones de una <term id="term-00007">distribución binomial</term>:</para>
@@ -785,7 +785,7 @@
 
 
 <note id="fs-idm31488240" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm78234832"><problem id="fs-idm12123632">
 <para id="fs-idm152181632">En una ciudad, el 46 % de la población está a favor del titular, Dawn Morgan, para la alcaldía. Se toma una muestra aleatoria simple de 500 personas. Utilizando el factor de corrección de la continuidad, halle la probabilidad de que al menos 250 favorezcan a Dawn Morgan como alcaldesa.</para>

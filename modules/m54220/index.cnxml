@@ -223,14 +223,14 @@
 </exercise>
 </example>
 
-<note id="fs-idm59654416" class="statistics try"><label/>
+<note id="fs-idm59654416" class="statistics try">
 <title>Ejercicio</title>
 <exercise id="fs-idm50677584">
 <problem id="fs-idm61670400">
 <para id="fs-idm37435328">Helen juega baloncesto. En cuanto a los tiros libres, acierta el tiro el 75 % de las veces. Helen debe intentar ahora dos tiros libres. <emphasis effect="italics">C</emphasis> = el evento en el que Helen anota el primer tiro. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis>) = 0,75. <emphasis effect="italics">D</emphasis> = el evento en el que Helen anota el segundo tiro. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis>) = 0,75. La probabilidad de que Helen anote el segundo tiro libre dado que anotó el primero es de 0,85. ¿Cuál es la probabilidad de que Helen anote ambos tiros libres?</para>
 </problem>
 <solution id="fs-idm43619200">
-<label/>
+
 <para id="fs-idm129776032"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">C</emphasis>) = 0,85</para><para id="fs-idm40372512"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">D</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">C</emphasis>) <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">C</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis>|<emphasis effect="italics">C</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis>) = (0,85)(0,75) = 0,6375 <newline/>Helen lanza el primer y el segundo tiro libre con una probabilidad de 0,6375.</para></solution>
 </exercise>
 </note>
@@ -260,14 +260,14 @@
 </example>
 
 <note id="fs-idm17775392" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm36460112">
 <problem id="fs-idm11280848">
 <para id="fs-idp1767312">Una escuela tiene 200 estudiantes de último año, de los cuales 140 irán al instituto universitario el año siguiente. Cuarenta irán directamente a trabajar. El resto se está tomando un año sabático. Cincuenta de los estudiantes de último año que van al instituto universitario practican deportes. Treinta de los estudiantes de último año que van directamente a trabajar practican deportes. Cinco de los estudiantes de último año que se toman un año sabático practican deportes. ¿Cuál es la probabilidad de que un estudiante de último año se tome un año sabático?</para>
 </problem>
 <solution id="fs-idm57500720" class="solutions">
-<label/>
+
 <para id="fs-idm40178064">Los términos <m:math>
 <m:mrow>
 <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
@@ -306,7 +306,7 @@
 </example>
 
 <note id="eip-400" class="statistics try">
-<label/>
+
 <title>Ejercicio</title>
 <exercise id="fs-idm68914864">
 <problem id="fs-idm57353328">
@@ -314,7 +314,7 @@
 <item>Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∪</m:mo></m:math> <emphasis effect="italics">D</emphasis>).</item>
 </list></problem>
 <solution id="fs-idm8804848">
-<label/>
+
 <list id="fs-idm50454928" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">D</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = (0,5)(0,4) = 0,20.</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∪</m:mo></m:math> <emphasis effect="italics">D</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis>) - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">D</emphasis>) = 0,40 + 0,30 - 0,20 = 0,50</item></list></solution>
 </exercise>
@@ -345,13 +345,13 @@
 </solution>
 </exercise>
 </example>
-<note id="fs-idp45632144" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idp45632144" class="statistics try"><title>Ejercicio</title>
 <exercise id="fs-idm57543872">
 <problem id="fs-idm69233152">
 <para id="fs-idm39897552">Una escuela tiene 200 estudiantes de último año, de los cuales 140 irán al instituto universitario el año siguiente. Cuarenta irán directamente a trabajar. El resto se está tomando un año sabático. Cincuenta de los estudiantes de último año que van al instituto universitario practican deportes. Treinta de los estudiantes de último año que van directamente a trabajar practican deportes. Cinco de los estudiantes de último año que se toman un año sabático practican deportes. ¿Cuál es la probabilidad de que un estudiante de último año vaya al instituto universitario y practique deportes?</para>
 </problem>
 <solution id="fs-idm36466384">
-<label/>
+
 <para id="fs-idm50385984">Supongamos que <emphasis effect="italics">A</emphasis> = el estudiante está en el último año de la universidad.</para>
 <para id="fs-idm68316896">Supongamos que <emphasis effect="italics">B</emphasis> = el estudiante hace deporte.</para>
 <para id="fs-idp57419856"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = <m:math><m:mrow>
@@ -425,7 +425,7 @@
 <para id="fs-idm40210528">a. 0,98; b. 0,1401; c. 0,857; d. 0,15</para>
 </solution>
 </exercise></example>
-<note id="fs-idm25110496" class="statistics try"><label/><title>Ejercicio</title>
+<note id="fs-idm25110496" class="statistics try"><title>Ejercicio</title>
 <exercise id="fs-idp6951808">
 <problem id="fs-idm846464">
 <para id="fs-idm37086800">Un estudiante va a la biblioteca. Supongamos que los eventos <emphasis effect="italics">B</emphasis> = el estudiante pide prestado un libro y <emphasis effect="italics">D</emphasis> = el estudiante pide prestado un DVD. Supongamos que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = 0,40, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis>) = 0,30 y <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">B</emphasis>) = 0,5.</para><list id="fs-idm40366288" list-type="enumerated" number-style="lower-alpha"><item>Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B′</emphasis>).</item>
@@ -434,7 +434,7 @@
 <item>Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B′</emphasis>).</item>
 <item>Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">B′</emphasis>).</item></list></problem>
 <solution id="fs-idm39605792">
-<label/>
+
 <list id="fs-idm120640464" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B′</emphasis>) = 0,60</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = 0,20</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>|<emphasis effect="italics">D</emphasis>) = <m:math>
@@ -776,7 +776,7 @@
 <item>Supongamos que <emphasis effect="italics">C</emphasis> es el evento para que se elija una roja o una azul seguido de que salga cara en el lanzamiento de la moneda. ¿Los eventos <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">C</emphasis> son mutuamente excluyentes? Explique su respuesta en una o tres oraciones completas incluida la justificación numérica.</item></list></problem>
 <solution id="fs-idp74477648">
 <note id="fs-idm40299392">
-<label/>
+
 <title>NOTA</title>
 <para id="eip-idm18483184">El lanzamiento de la moneda es independiente de la carta que se sacó primero.</para></note>
 <list id="fs-idp29257280" list-type="enumerated" number-style="lower-alpha"><item>{(<emphasis effect="italics">G</emphasis>,<emphasis effect="italics">H</emphasis>) (<emphasis effect="italics">G</emphasis>,<emphasis effect="italics">T</emphasis>) (<emphasis effect="italics">B</emphasis>,<emphasis effect="italics">H</emphasis>) (<emphasis effect="italics">B</emphasis>,<emphasis effect="italics">T</emphasis>) (<emphasis effect="italics">R</emphasis>,<emphasis effect="italics">H</emphasis>) (<emphasis effect="italics">R</emphasis>,<emphasis effect="italics">T</emphasis>)}</item>
