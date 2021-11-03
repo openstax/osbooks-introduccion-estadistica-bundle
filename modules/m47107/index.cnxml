@@ -55,7 +55,7 @@
 
 <section id="eip-212">
 <title>Identificación numérica de los valores atípicos</title>
-<para id="element-1763">En la <link target-id="element-4662" document=""/>, las dos primeras columnas son los datos del tercer examen y del examen final. La tercera columna muestra los valores <emphasis effect="italics">ŷ</emphasis> predichos, calculados a partir de la línea de mejor ajuste: <emphasis effect="italics">ŷ</emphasis> = -173,5 + 4,83<emphasis effect="italics">x</emphasis>. Los residuales, o errores, se han calculado en la cuarta columna de la tabla: valor <emphasis effect="italics">y</emphasis> observado - valor y predicho = <emphasis effect="italics">y</emphasis> - <emphasis effect="italics">ŷ</emphasis>.</para><para id="element-973"><emphasis effect="italics">s</emphasis> es la desviación típica de todos los valores <emphasis effect="italics">y</emphasis> - <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">ε</emphasis> donde <emphasis effect="italics">n</emphasis> = el número total de puntos de datos. Si se calcula cada residual, se eleva al cuadrado y se suman los resultados, se obtiene la suma de errores al cuadrado (Sum of Squared Errors, SSE). La desviación típica de los residuales se calcula a partir de la SSE como:</para>
+<para id="element-1763">En la <link target-id="element-4662"/>, las dos primeras columnas son los datos del tercer examen y del examen final. La tercera columna muestra los valores <emphasis effect="italics">ŷ</emphasis> predichos, calculados a partir de la línea de mejor ajuste: <emphasis effect="italics">ŷ</emphasis> = -173,5 + 4,83<emphasis effect="italics">x</emphasis>. Los residuales, o errores, se han calculado en la cuarta columna de la tabla: valor <emphasis effect="italics">y</emphasis> observado - valor y predicho = <emphasis effect="italics">y</emphasis> - <emphasis effect="italics">ŷ</emphasis>.</para><para id="element-973"><emphasis effect="italics">s</emphasis> es la desviación típica de todos los valores <emphasis effect="italics">y</emphasis> - <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">ε</emphasis> donde <emphasis effect="italics">n</emphasis> = el número total de puntos de datos. Si se calcula cada residual, se eleva al cuadrado y se suman los resultados, se obtiene la suma de errores al cuadrado (Sum of Squared Errors, SSE). La desviación típica de los residuales se calcula a partir de la SSE como:</para>
 <para id="element-797">Los términos <m:math>
  <m:mrow>
   <m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt>
@@ -1147,7 +1147,7 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 <item>Calcule la línea de mínimos cuadrados. Ponga la ecuación en la forma de: <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis></item>
 <item>Halle el coeficiente de correlación. ¿Es significativo?</item>
 <item>Elija dos años entre 1969 y 1991 y calcule aproximadamente el número de integrantes de la familia que asisten a la universidad. </item>
-<item>Según los datos de la <link target-id="id1034sdfa0215" document=""/>, ¿existe una relación lineal entre el año y el número medio de integrantes de la familia que asisten a la universidad?</item>
+<item>Según los datos de la <link target-id="id1034sdfa0215"/>, ¿existe una relación lineal entre el año y el número medio de integrantes de la familia que asisten a la universidad?</item>
 <item>Utilizando la línea de mínimos cuadrados, estime el número de integrantes de la familia que asisten a la universidad para 1960 y 1995. ¿Da la línea de mínimos cuadrados una estimación precisa para esos años? Explique por qué sí o por qué no.</item>
 <item>¿Existen valores atípicos en los datos?</item>
 <item>¿Cuál es el número medio estimado de integrantes de la familia que asisten a la universidad para 1986? ¿La línea de mínimos cuadrados da una estimación precisa para ese año? Explique por qué sí o por qué no.</item>
@@ -1236,7 +1236,7 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 </list></solution>
 </exercise>
 
-<para id="id9018511"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios.</emphasis> El costo de un detergente líquido líder en el mercado en diferentes tamaños se indica en la <link target-id="id10105430" document=""/>.</para><table id="id10105430" summary="This table presents the size of laundry detergent in ounces in the first column and cost in the second column. The third column is left blank for you to calculate the cost per ounce.">
+<para id="id9018511"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios.</emphasis> El costo de un detergente líquido líder en el mercado en diferentes tamaños se indica en la <link target-id="id10105430"/>.</para><table id="id10105430" summary="This table presents the size of laundry detergent in ounces in the first column and cost in the second column. The third column is left blank for you to calculate the cost per ounce.">
 
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
@@ -1289,7 +1289,7 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 </list>
 </problem></exercise><exercise id="element-952"><problem id="id44894852">
   <list id="element-636" list-type="enumerated" number-style="lower-alpha">
-<item>Complete la <link target-id="id10105430" document=""/> para el costo por onza de los diferentes tamaños.</item>
+<item>Complete la <link target-id="id10105430"/> para el costo por onza de los diferentes tamaños.</item>
 <item>Utilizando el "tamaño" como variable independiente y el "costo por onza" como variable dependiente, dibuje un diagrama de dispersión.</item>
 <item>¿Se desprende de la inspección que existe una relación entre las variables? ¿Por qué sí o por qué no?</item>
 <item>Calcule la línea de mínimos cuadrados. Ponga la ecuación en la forma de: <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis></item>
@@ -1484,7 +1484,7 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 </exercise>
 
 <exercise id="element-188"><problem id="id44845835">
-  <para id="element-654">La <link target-id="id797832aawwee6" document=""/> muestra la estatura promedio de los niños estadounidenses en 1990.</para><table id="id797832aawwee6" summary="This table presents the boys' ages in years in the first column and average heights in centimeters in the second column.">
+  <para id="element-654">La <link target-id="id797832aawwee6"/> muestra la estatura promedio de los niños estadounidenses en 1990.</para><table id="id797832aawwee6" summary="This table presents the boys' ages in years in the first column and average heights in centimeters in the second column.">
 
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
