@@ -438,9 +438,11 @@ Para este problema, <m:math>
 
   </m:mrow>
  <m:mo>)</m:mo></m:mrow>
-</m:math></para><para id="fs-idm107085552">donde <emphasis effect="italics">p</emphasis> = 0,50, <emphasis effect="italics">q</emphasis> = 1−<emphasis effect="italics">p</emphasis> = 0,50 y <emphasis effect="italics">n</emphasis> = 100</para>
+</m:math></para>
+
+<para id="fs-idm107085552">donde <emphasis effect="italics">p</emphasis> = 0,50, <emphasis effect="italics">q</emphasis> = 1−<emphasis effect="italics">p</emphasis> = 0,50 y <emphasis effect="italics">n</emphasis> = 100</para>
 <para id="fs-idp14246672">Calcule el valor <emphasis effect="italics">p</emphasis> con la distribución normal para las proporciones:</para>
- <para id="element-518">valor <emphasis effect="italics">p</emphasis>= <emphasis effect="italics">P<emphasis effect="italics"> (p′</emphasis> &lt; 0,47 o <emphasis effect="italics">p′</emphasis> > 0,53) = 0,5485
+<para id="element-518">valor <emphasis effect="italics">p</emphasis>= <emphasis effect="italics">P<emphasis effect="italics"> (p′</emphasis> &lt; 0,47 o <emphasis effect="italics">p′</emphasis> > 0,53) = 0,5485</emphasis></para>
 <para id="fs-idp133040416">donde <emphasis effect="italics">x</emphasis> = 53, <emphasis effect="italics">p′</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
@@ -470,7 +472,8 @@ Para este problema, <m:math>
 <para id="element-699">Los errores tipo I y II son los siguientes:</para>
 <para id="element-414">El error tipo I consiste en concluir que la proporción de novias primerizas que son más jóvenes que sus novios es diferente del 50 % cuando, en realidad, la proporción es del 50 %. (Rechaza la hipótesis nula cuando la hipótesis nula es verdadera). </para>
 <para id="fs-idp134008544">El error tipo II es que no hay pruebas suficientes para concluir que la proporción de novias primerizas que son más jóvenes que sus novios difiere del 50 % cuando, de hecho, la proporción sí difiere del 50 %. (No rechace la hipótesis nula cuando la hipótesis nula es falsa).</para>
-
+</solution>
+</exercise></example>
 
 
 <note id="fs-idp8711616" class="statistics try"><title>Ejercicio</title>
@@ -810,8 +813,11 @@ Dibuje el gráfico de una prueba de dos colas.
 </section>
 
 
-  <section id="fs-idp139727497473120" class="free-response"><title>Tarea para la casa</title><para id="eip-idm30094416"><emphasis effect="italics">En cada uno de los problemas, utilice una hoja de soluciones para comprobar la hipótesis. La hoja de soluciones se encuentra en el <link document="m47882"/>. No dude en hacer copias de las hojas de soluciones. Para la versión en línea del libro se sugiere copiar los archivos .doc o .pdf.</emphasis></para><note id="id8395739"><title>Nota:</title>
-<para id="eip-idm120632832">Si usa una distribución <emphasis effect="italics">t</emphasis> de Student para uno de los siguientes problemas de tarea para la casa, puede suponer que la población subyacente está distribuida normalmente. (Sin embargo, en general, primero hay que demostrar ese supuesto).</para></note><exercise id="element-816"><problem id="id8395759">
+  <section id="fs-idp139727497473120" class="free-response"><title>Tarea para la casa</title><para id="eip-idm30094416"><emphasis effect="italics">En cada uno de los problemas, utilice una hoja de soluciones para comprobar la hipótesis. La hoja de soluciones se encuentra en el <link document="m47882"/>. No dude en hacer copias de las hojas de soluciones. Para la versión en línea del libro se sugiere copiar los archivos .doc o .pdf.</emphasis></para>
+    <note id="id-8395739"><title>Nota:</title>
+<para id="eip-idm120632832">Si usa una distribución <emphasis effect="italics">t</emphasis> de Student para uno de los siguientes problemas de tarea para la casa, puede suponer que la población subyacente está distribuida normalmente. (Sin embargo, en general, primero hay que demostrar ese supuesto).</para></note>
+
+<exercise id="element-816"><problem id="id8395759">
   <para id="fs-idp44498592">Una marca particular de neumáticos afirma que su neumático de lujo recorre un promedio de 50.000 millas antes de necesitar reemplazo. Por estudios anteriores de este neumático, se sabe que la desviación típica es de 8.000. Se realiza una encuesta entre los propietarios de ese diseño de neumático. De los 28 neumáticos revisados la vida media fue de 46.500 millas con una desviación típica de 9.800 millas. Utilizando alfa = 0,05, ¿los datos son altamente incoherentes con la afirmación?</para></problem>
   <solution id="fs-idm164410224">
     <list id="fs-idp21859504" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≥ 50.000</item>
@@ -1604,7 +1610,7 @@ Dibuje el gráfico de una prueba de dos colas.
 <para id="eip-753">Oficina Federal de Investigaciones. “Uniform Crime Reports and Index of Crime in Daviess in the State of Kentucky enforced by Daviess County from 1985 to 2005”. Disponible en línea en http://www.disastercenter.com/kentucky/crime/3868.htm (consultado el 27 de junio de 2013).</para>
 <para id="eip-219">“Foothill-De Anza Community College District”. De Anza College, invierno de 2006. Disponible en línea en http://research.fhda.edu/factbook/DAdemofs/Fact_sheet_da_2006w.pdf.</para>
 <para id="eip-363">Johansen, C., J. Boice, Jr., J. McLaughlin, J. Olsen. “Cellular Telephones and Cancer—a Nationwide Cohort Study in Denmark”. Institute of Cancer Epidemiology and the Danish Cancer Society, 93(3):203-7. Disponible en línea en http://www.ncbi.nlm.nih.gov/pubmed/11158188 (consultado el 27 de junio de 2013).</para>
-<para id="eip-215">Rape, Abuse &amp; Incest National Network. “How often does sexual assault occur?”. RAINN, 2009. Disponible en línea en http://www.rainn.org/get-information/statistics/frequency-of-sexual-assault (consultado el 27 de junio de 2013).</para></section> 
+<para id="eip-215">Rape, Abuse &amp; Incest National Network. “How often does sexual assault occur?”. RAINN, 2009. Disponible en línea en http://www.rainn.org/get-information/statistics/frequency-of-sexual-assault (consultado el 27 de junio de 2013).</para></section> </content>
 
 <glossary>
  <definition id="centlimit">
@@ -1660,4 +1666,4 @@ Dibuje el gráfico de una prueba de dos colas.
 
 
 </glossary>
-</emphasis></para></solution></exercise></example></content></document>
+</document>
