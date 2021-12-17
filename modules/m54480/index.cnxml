@@ -10,25 +10,25 @@
 <content>
 <para id="fs-idm32858512">La <term id="term-00001">distribución exponencial</term> suele referirse a la cantidad de tiempo que transcurre hasta que se produce algún evento específico. Por ejemplo, la cantidad de tiempo (que comienza ahora) hasta que se produzca un terremoto tiene una distribución exponencial. Otros ejemplos son la duración, en minutos, de las llamadas telefónicas de larga distancia comerciales y la cantidad de tiempo, en meses, que dura la batería de un automóvil. También se puede demostrar que el valor del cambio que se tiene en el bolsillo o en el monedero sigue una distribución exponencial aproximadamente.</para>
 <para id="fs-idp21035296">Los valores de una variable aleatoria exponencial se producen de la siguiente manera. Hay menos valores grandes y más valores pequeños. Por ejemplo, los estudios de marketing han demostrado que la cantidad de dinero que los clientes gastan en una visita al supermercado sigue una distribución exponencial. Hay más gente que gasta pequeñas cantidades de dinero y menos gente que gasta grandes cantidades de dinero.</para><para id="fs-idp25761408">Las distribuciones exponenciales se utilizan habitualmente en cálculos de fiabilidad de productos, es decir, el tiempo que dura un producto.</para>
-<para id="eip-128">La variable aleatoria de la distribución exponencial es continua y suele medir el paso del tiempo, aunque puede utilizarse en otras aplicaciones. Las preguntas típicas pueden ser: "¿cuál es la probabilidad de que algún evento ocurra en los próximos <m:math><m:mi>x</m:mi></m:math> horas o días, o cuál es la probabilidad de que algún evento ocurra entre <m:math><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math> horas y <m:math><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:math> horas, o cuál es la probabilidad de que el evento dure más de <m:math><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math> horas para llevarse a cabo" En resumen, la variable aleatoria <emphasis effect="italics">X</emphasis> es iguala (<emphasis effect="italics">a</emphasis>) el tiempo entre eventos o(<emphasis effect="italics">b</emphasis>) el paso del tiempo para completar una acción, por ejemplo, esperar a un cliente. La función de densidad de probabilidad viene dada por:</para><equation class="unnumbered" id="eip-164">Los términos <m:math> <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mo>-</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:mi>x</m:mi></m:mrow></m:msup></m:math></equation>
-<para id="eip-825">donde μ es el tiempo medio de espera histórico.</para><para id="eip-5">y tiene una media y una desviación típica de 1/μ.</para><para id="eip-36">Una forma alternativa de la fórmula de la distribución exponencial reconoce lo que suele llamarse el factor de decaimiento. El factor de decaimiento simplemente mide la rapidez con la que la probabilidad de un evento disminuye a medida que la variable aleatoria <emphasis effect="italics">X</emphasis> aumenta. Cuando se utiliza la notación con el parámetro de decaimiento <emphasis effect="italics">m</emphasis>, la función de densidad de probabilidad se presenta como</para>
-<equation class="unnumbered" id="eip-955">Los términos <m:math><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mi>m</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mo>–</m:mo><m:mi>m</m:mi><m:mi>x</m:mi></m:mrow></m:msup></m:math></equation><para id="eip-786">donde <m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac></m:math></para><para id="eip-551">Para calcular las probabilidades de determinadas funciones de densidad de probabilidad, se utiliza la función de densidad acumulada. La función de densidad acumulativa (cdf) es simplemente la integral de la pdf y es:</para><equation id="eip-649">Los términos <m:math><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msubsup><m:mi>∫</m:mi><m:mn>0</m:mn><m:mo>∞</m:mo></m:msubsup><m:mo>[</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:msup><m:mrow><m:mi>e</m:mi></m:mrow><m:mrow><m:mo>-</m:mo><m:mfrac><m:mi>x</m:mi><m:mi>μ</m:mi></m:mfrac></m:mrow></m:msup><m:mo>]</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:msup><m:mrow><m:mi>e</m:mi></m:mrow><m:mrow><m:mo>-</m:mo><m:mfrac><m:mi>x</m:mi><m:mi>μ</m:mi></m:mfrac></m:mrow></m:msup></m:math></equation><example id="eip-887"><para id="eip-532">Supongamos que <emphasis effect="italics">X</emphasis> = la cantidad de tiempo (en minutos) que un empleado de correos pasa con un cliente. A partir de los datos históricos, se sabe que el tiempo medio es de cuatro minutos.</para><para id="eip-id1167603858490">Dado que <emphasis effect="italics">μ</emphasis> = 4 minutos, es decir, el tiempo medio que el dependiente pasa con un cliente es de 4 minutos. Recuerde que seguimos calculando probabilidad y por tanto nos tienen que decir los parámetros poblacionales como la media. Para hacer cualquier cálculo, necesitamos conocer la media de la distribución: el tiempo histórico de prestación de un servicio, por ejemplo. Conocer la media histórica permite calcular el parámetro de decaimiento, <emphasis effect="italics">m</emphasis>.</para>
-<para id="eip-id2830062">Los términos <m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac></m:math> Por lo tanto, <m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>0,25</m:mn></m:math></para>
-<para id="fs-idm18148336" class="finger">Cuando la notación utiliza el parámetro de decaimiento, <emphasis effect="italics">m</emphasis>, la función de densidad de probabilidad se presenta como <m:math><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mi>m</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mo>–</m:mo><m:mi>m</m:mi><m:mi>x</m:mi></m:mrow></m:msup></m:math>, que es simplemente la fórmula original con <emphasis effect="italics">m</emphasis> sustituido por <m:math><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac></m:math>, o <m:math> <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mo>-</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:mi>x</m:mi></m:mrow></m:msup></m:math></para><para id="fs-idm74833712">Para calcular las probabilidades de una función de densidad de probabilidad exponencial, tenemos que utilizar la función de densidad acumulada. Como se muestra a continuación, la curva de la función de densidad acumulada es:</para><para id="fs-idp44233136"><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = 0,25<emphasis effect="italics">e</emphasis><sup>–0,25<emphasis effect="italics">x</emphasis></sup> donde <emphasis effect="italics">x</emphasis> es al menos cero y <emphasis effect="italics">m</emphasis> = 0,25.</para><para id="fs-idp127275616">Por ejemplo, <emphasis effect="italics">f</emphasis>(5) = 0,25<emphasis effect="italics">e</emphasis><sup>(–0,25)(5)</sup> = 0,072. Es decir, la función tiene un valor de 0,072 cuando <emphasis effect="italics">x</emphasis> = 5.</para><para id="fs-idm23774336">El gráfico es el siguiente:</para>
+<para id="eip-128">La variable aleatoria de la distribución exponencial es continua y suele medir el paso del tiempo, aunque puede utilizarse en otras aplicaciones. Las preguntas típicas pueden ser: "¿cuál es la probabilidad de que algún evento ocurra en los próximos <m:math><m:mi>x</m:mi></m:math> horas o días, o cuál es la probabilidad de que algún evento ocurra entre <m:math><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math> horas y <m:math><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:math> horas, o cuál es la probabilidad de que el evento dure más de <m:math><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math> horas para llevarse a cabo" En resumen, la variable aleatoria <emphasis effect="italics">X</emphasis> es iguala (<emphasis effect="italics">a</emphasis>) el tiempo entre eventos o(<emphasis effect="italics">b</emphasis>) el paso del tiempo para completar una acción, por ejemplo, esperar a un cliente. La función de densidad de probabilidad viene dada por:</para><equation class="unnumbered" id="eip-164"><m:math> <m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mo>–</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:mi>x</m:mi></m:mrow></m:msup></m:math></equation>
+<para id="eip-825">donde μ es el tiempo promedio de espera histórico.</para><para id="eip-5">y tiene una media y una desviación típica de 1/μ.</para><para id="eip-36">Una forma alternativa de la fórmula de la distribución exponencial reconoce lo que suele llamarse el factor de decaimiento. El factor de decaimiento simplemente mide la rapidez con la que la probabilidad de un evento disminuye a medida que la variable aleatoria <emphasis effect="italics">X</emphasis> aumenta. Cuando se utiliza la notación con el parámetro de decaimiento <emphasis effect="italics">m</emphasis>, la función de densidad de probabilidad se presenta como</para>
+<equation class="unnumbered" id="eip-955"><label/><m:math><m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mi>m</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mo>–</m:mo><m:mi>m</m:mi><m:mi>x</m:mi></m:mrow></m:msup></m:math></equation><para id="eip-786">donde <m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac></m:math></para><para id="eip-551">Para calcular las probabilidades de determinadas funciones de densidad de probabilidad, se utiliza la función de densidad acumulada. La función de densidad acumulativa (cdf) es simplemente la integral de la pdf y es:</para><equation id="eip-649"><m:math><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msubsup><m:mi>∫</m:mi><m:mn>0</m:mn><m:mo>∞</m:mo></m:msubsup><m:mo>[</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:msup><m:mrow><m:mi>e</m:mi></m:mrow><m:mrow><m:mo>–</m:mo><m:mfrac><m:mi>x</m:mi><m:mi>μ</m:mi></m:mfrac></m:mrow></m:msup><m:mo>]</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:msup><m:mrow><m:mi>e</m:mi></m:mrow><m:mrow><m:mo>–</m:mo><m:mfrac><m:mi>x</m:mi><m:mi>μ</m:mi></m:mfrac></m:mrow></m:msup></m:math></equation><example id="eip-887"><para id="eip-532">Supongamos que <emphasis effect="italics">X</emphasis> = la cantidad de tiempo (en minutos) que un empleado de correos pasa con un cliente. A partir de los datos históricos, se sabe que el tiempo promedio es de cuatro minutos.</para><para id="eip-id1167603858490">Dado que <emphasis effect="italics">μ</emphasis> = 4 minutos, es decir, el tiempo promedio que el dependiente pasa con un cliente es de 4 minutos. Recuerde que seguimos calculando probabilidad y por tanto nos tienen que decir los parámetros poblacionales como la media. Para hacer cualquier cálculo, necesitamos conocer la media de la distribución: el tiempo histórico de prestación de un servicio, por ejemplo. Conocer la media histórica permite calcular el parámetro de decaimiento, <emphasis effect="italics">m</emphasis>.</para>
+<para id="eip-id2830062"><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac></m:math>. Por lo tanto, <m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>0,25</m:mn></m:math>.</para>
+<para id="fs-idm18148336" class="finger">Cuando la notación utiliza el parámetro de decaimiento, <emphasis effect="italics">m</emphasis>, la función de densidad de probabilidad se presenta como <m:math><m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mi>m</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mo>–</m:mo><m:mi>m</m:mi><m:mi>x</m:mi></m:mrow></m:msup></m:math>, que es simplemente la fórmula original con <emphasis effect="italics">m</emphasis> sustituido por <m:math><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac></m:math>, o <m:math> <m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mo>–</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:mi>x</m:mi></m:mrow></m:msup></m:math>.</para><para id="fs-idm74833712">Para calcular las probabilidades de una función de densidad de probabilidad exponencial, tenemos que utilizar la función de densidad acumulada. Como se muestra a continuación, la curva de la función de densidad acumulada es:</para><para id="fs-idp44233136"><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = 0,25<emphasis effect="italics">e</emphasis><sup>–0,25<emphasis effect="italics">x</emphasis></sup> donde <emphasis effect="italics">x</emphasis> es al menos cero y <emphasis effect="italics">m</emphasis> = 0,25.</para><para id="fs-idp127275616">Por ejemplo, <emphasis effect="italics">f</emphasis>(5) = 0,25<emphasis effect="italics">e</emphasis><sup>(–0,25)(5)</sup> = 0,072. Es decir, la función tiene un valor de 0,072 cuando <emphasis effect="italics">x</emphasis> = 5.</para><para id="fs-idm23774336">El gráfico es el siguiente:</para>
 <figure id="fs-idp49716608">
 <media id="fs-idp114542640" alt="Gráfico exponencial con incrementos de 2 desde 0-20 en el eje x de μ = 4 e incrementos de 0,05 desde 0,05-0,25 en el eje y de m = 0,25. La línea curva comienza en la parte superior en el punto (0, 0,25) y se curva hacia abajo hasta el punto (20, 0). El eje x es igual a una variable aleatoria continua.">
 <image src="../../media/fig-ch05_04_01N.jpg" mime-type="image/jpg" width="380"/>
 </media>
 </figure>
 <para id="fs-idm725296">Observe que el gráfico es una curva descendente. Cuando <emphasis effect="italics">x</emphasis> = 0,</para>
-<para id="fs-idm61837632"><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = 0,25<emphasis effect="italics">e</emphasis><sup>(−0,25)(0)</sup> = (0,25)(1) = 0,25 = <emphasis effect="italics">m</emphasis>. El valor máximo en el eje <emphasis effect="italics">y</emphasis>es siempre <emphasis effect="italics">m</emphasis>, uno dividido entre la media.</para></example><note id="fs-idm39150960" class="statistics try">
-
+<para id="fs-idm61837632"><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = 0,25<emphasis effect="italics">e</emphasis><sup>(−0,25)(0)</sup> = (0,25)(1) = 0,25 = <emphasis effect="italics">m</emphasis>. El valor máximo en el eje <emphasis effect="italics">y</emphasis> es siempre <emphasis effect="italics">m</emphasis>, uno dividido entre la media.</para></example><note id="fs-idm39150960" class="statistics try">
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm37492592">
 <problem id="fs-idp79313392">
 <para id="fs-idm18125728">El tiempo que los cónyuges dedican a la compra de tarjetas de aniversario se puede modelar mediante una distribución exponencial con un promedio de tiempo igual a ocho minutos. Escriba la distribución, indique la función de densidad de probabilidad y haga un gráfico de la distribución.</para></problem>
 <solution id="fs-idp9621504">
-
+<label/>
 <para id="fs-idm11378640"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">Exp</emphasis>(0,125); <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = 0,125e<sup>–0,125<emphasis effect="italics">x</emphasis></sup>;</para><figure id="fs-idm51878624">
 <media id="fs-idp93846320" alt="">
 <image mime-type="image/jpg" src="../../media/CNX_Stats_C05_M04_tryit001annoN.jpg" width="380"/>
@@ -51,16 +51,16 @@
 </solution>
 </exercise>
 </example><note id="fs-idp37171808" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idp69715216">
 <problem id="fs-idm17706272">
 <para id="fs-idm34762896">El número de días de antelación con el que los viajeros compran sus billetes de avión se puede modelar mediante una distribución exponencial con un tiempo promedio igual a 15 días. Calcule la probabilidad de que un viajero compre un billete con menos de diez días de antelación. ¿Cuántos días esperan la mitad de los viajeros?</para>
 </problem>
 <solution id="fs-idm19301024">
-
+<label/>
 <para id="fs-idp307360"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 10) = 0,4866</para>
-<para id="fs-idp137414800">El percentil 50.<sup>°</sup> = 10,40</para>
+<para id="fs-idp137414800">El percentil 50<sup/> = 10,40</para>
 </solution>
 </exercise>
 </note>
@@ -112,17 +112,17 @@
 
 </example>
 <note id="fs-idp37483984" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idp160524848">
 <problem id="fs-idp143017440">
 <para id="fs-idm23273856">En promedio, un par de zapatillas para correr puede durar 18 meses si se usan a diario. La duración de las zapatillas de correr se distribuye exponencialmente. ¿Cuál es la probabilidad de que un par de zapatillas para correr dure más de 15 meses? En promedio, ¿cuánto durarían seis pares de zapatillas para correr si se usan una tras otra? ¿Cuánto tiempo duran como máximo el ochenta por ciento de las zapatillas de correr si se usan todos los días?</para>
 </problem>
 <solution id="fs-idm139334096">
-
+<label/>
 <para id="fs-idp64736064"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 15) = 0,4346</para>
-<para id="fs-idm17449552">Seis pares de zapatos para correr durarían una media de 108 meses.</para>
-<para id="fs-idp120731568">El percentil 80.<sup>°</sup> = 28,97 meses</para>
+<para id="fs-idm17449552">Seis pares de zapatos para correr durarían 108 meses en promedio.</para>
+<para id="fs-idp120731568">El percentil 80<sup/> = 28,97 meses</para>
 </solution>
 </exercise>
 </note>
@@ -136,7 +136,7 @@
 </m:mrow>
 </m:mfrac>
 </m:mrow>
-</m:math> El decaimiento p[parámetro] es otra forma de ver 1/λ. Si otra persona llega a un teléfono público justo antes que usted, calcule la probabilidad de que tenga que esperar más de cinco minutos. Supongamos que <emphasis effect="italics">X</emphasis> = la duración de una llamada telefónica en minutos.</para><exercise id="fs-idm10254256">
+</m:math>. El decaimiento p[parámetro] es otra forma de ver 1/λ. Si otra persona llega a un teléfono público justo antes que usted, calcule la probabilidad de que tenga que esperar más de cinco minutos. Supongamos que <emphasis effect="italics">X</emphasis> = la duración de una llamada telefónica en minutos.</para><exercise id="fs-idm10254256">
 <problem id="fs-idm26812224">
 <para id="fs-idm16486960">¿Qué son <emphasis effect="italics">m</emphasis>, <emphasis effect="italics">μ</emphasis> y <emphasis effect="italics">σ</emphasis>? La probabilidad de que deba esperar más de cinco minutos es _______.</para>
 </problem>
@@ -262,11 +262,11 @@
 </m:mfrac>
 
 </m:mrow>
-</m:math> </para><para id="eip-971">La fórmula de la distribución exponencial <m:math><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mrow><m:mi>m</m:mi><m:mi>e</m:mi></m:mrow><m:mrow><m:mo>-</m:mo><m:mi>m</m:mi><m:mi>x</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mo>-</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:mi>x</m:mi></m:mrow></m:msup></m:math> Donde m = el parámetro de la tasa, o μ = tiempo medio entre ocurrencias. </para><para id="eip-102">Vemos que la exponencial es la pariente de la distribución de Poisson y se relacionan a través de esta fórmula. Existen importantes diferencias que hacen que cada distribución sea relevante para diferentes tipos de problemas de probabilidad.</para><para id="eip-220">En primer lugar, la Poisson tiene una variable aleatoria discreta, x, en la que el tiempo; una variable continua se divide artificialmente en trozos discretos. Vimos que el número de ocurrencias de un evento en un intervalo de tiempo dado, x, sigue la distribución de Poisson. </para><para id="eip-150">Por ejemplo, el <emphasis effect="bold">número</emphasis> de veces que suena el teléfono por hora. En cambio, el tiempo <emphasis effect="bold">entre</emphasis> ocurrencias sigue la distribución exponencial. Por ejemplo. El teléfono acaba de sonar, ¿cuánto tiempo pasará hasta que vuelva a sonar? Estamos midiendo la duración del intervalo, una variable aleatoria continua, exponencial, no los eventos durante un intervalo, Poisson.</para><section id="eip-914"><title>La distribución exponencial frente a la distribución de Poisson</title><para id="eip-434">
+</m:math>. </para><para id="eip-971">La fórmula de la distribución exponencial <m:math><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mrow><m:mi>m</m:mi><m:mi>e</m:mi></m:mrow><m:mrow><m:mo>–</m:mo><m:mi>m</m:mi><m:mi>x</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mo>–</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:mi>x</m:mi></m:mrow></m:msup></m:math> Donde m = el parámetro de la tasa, o μ = tiempo promedio entre ocurrencias. </para><para id="eip-102">Vemos que la exponencial es la pariente de la distribución de Poisson y se relacionan a través de esta fórmula. Existen importantes diferencias que hacen que cada distribución sea relevante para diferentes tipos de problemas de probabilidad.</para><para id="eip-220">En primer lugar, la Poisson tiene una variable aleatoria discreta, x, en la que el tiempo; una variable continua se divide artificialmente en trozos discretos. Vimos que el número de ocurrencias de un evento en un intervalo de tiempo dado, x, sigue la distribución de Poisson. </para><para id="eip-150">Por ejemplo, el <emphasis effect="bold">número</emphasis> de veces que suena el teléfono por hora. En cambio, el tiempo <emphasis effect="bold">entre</emphasis> ocurrencias sigue la distribución exponencial. Por ejemplo. El teléfono acaba de sonar, ¿cuánto tiempo pasará hasta que vuelva a sonar? Estamos midiendo la duración del intervalo, una variable aleatoria continua, exponencial, no los eventos durante un intervalo, Poisson.</para><section id="eip-914"><title>La distribución exponencial frente a la distribución de Poisson</title><para id="eip-434">
 Una forma visual de mostrar tanto las similitudes como las diferencias entre estas dos distribuciones es con una línea del tiempo.
 </para>
 <figure id="eip-id1164266974561"><media id="eip-id1164266596773" alt=""><image src="../../media/fig-ch05_04_07.jpg" mime-type="image/png"/></media>
-</figure><para id="eip-863">La variable aleatoria de la distribución de Poisson es discreta y, por tanto, cuenta los eventos durante un periodo de tiempo determinado, de <emphasis effect="italics">t</emphasis><sub>1</sub> a <emphasis effect="italics">t</emphasis><sub>2</sub> en la <link target-id="eip-id1164266974561"/>, y calcula la probabilidad de que se produzca ese número. El número de eventos, cuatro en el gráfico, se mide en números que se pueden contar; por lo tanto, la variable aleatoria de Poisson es una variable aleatoria discreta.</para><para id="eip-961">La distribución de probabilidad exponencial calcula las probabilidades del paso del tiempo, una variable aleatoria continua. En la <link target-id="eip-id1164266974561"/> esto se muestra como el paréntesis desde <emphasis effect="italics">t</emphasis><sub>1</sub> hasta la siguiente ocurrencia del evento marcada con un triángulo.</para></section><para id="eip-376">Las preguntas clásicas de la distribución de Poisson son "¿cuántas personas llegarán a mi caja en la próxima hora?".</para><para id="eip-977">Las preguntas clásicas de la distribución exponencial son "¿cuánto tiempo pasará hasta que llegue la siguiente persona?", o una variante, "¿cuánto tiempo permanecerá la persona una vez que haya llegado?".</para><para id="eip-715">De nuevo, la fórmula de la distribución exponencial es:</para><para id="eip-273"><equation class="unnumbered" id="eip-id1169799851331">Los términos <m:math><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mo>-</m:mo><m:mi>m</m:mi><m:mi>x</m:mi></m:mrow></m:msup><m:mo> </m:mo><m:mtext> o </m:mtext><m:mo> </m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mo>-</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:mi>x</m:mi></m:mrow></m:msup></m:math></equation></para><para id="eip-818">Vemos inmediatamente la similitud entre la fórmula exponencial y la fórmula de Poisson.</para><para id="eip-859"><equation id="eip-id1167209109201">Los términos <m:math><m:mi>P</m:mi><m:mo maxsize="100%">(</m:mo><m:mi>x</m:mi><m:mo maxsize="100%">)</m:mo> <m:mo>=</m:mo><m:mfrac>
+</figure><para id="eip-863">La variable aleatoria de la distribución de Poisson es discreta y, por tanto, cuenta los eventos durante un periodo determinado, de <emphasis effect="italics">t</emphasis><sub>1</sub> a <emphasis effect="italics">t</emphasis><sub>2</sub> en la <link target-id="eip-id1164266974561"/>, y calcula la probabilidad de que se produzca ese número. El número de eventos, cuatro en el gráfico, se mide en números que se pueden contar; por lo tanto, la variable aleatoria de Poisson es una variable aleatoria discreta.</para><para id="eip-961">La distribución de probabilidad exponencial calcula las probabilidades del paso del tiempo, una variable aleatoria continua. En la <link target-id="eip-id1164266974561"/> esto se muestra como el paréntesis desde <emphasis effect="italics">t</emphasis><sub>1</sub> hasta la siguiente ocurrencia del evento marcada con un triángulo.</para></section><para id="eip-376">Las preguntas clásicas de la distribución de Poisson son "¿cuántas personas llegarán a mi caja en la próxima hora?".</para><para id="eip-977">Las preguntas clásicas de la distribución exponencial son "¿cuánto tiempo pasará hasta que llegue la siguiente persona?", o una variante, "¿cuánto tiempo permanecerá la persona una vez que haya llegado?".</para><para id="eip-715">De nuevo, la fórmula de la distribución exponencial es:</para><para id="eip-273"><equation class="unnumbered" id="eip-id1169799851331"><m:math><m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mo>–</m:mo><m:mi>m</m:mi><m:mi>x</m:mi></m:mrow></m:msup><m:mo> </m:mo><m:mtext> o </m:mtext><m:mo> </m:mo><m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mo>–</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:mi>x</m:mi></m:mrow></m:msup></m:math></equation></para><para id="eip-818">Vemos inmediatamente la similitud entre la fórmula exponencial y la fórmula de Poisson.</para><para id="eip-859"><equation id="eip-id1167209109201"><label/><m:math><m:mi>P</m:mi><m:mo maxsize="100%">(</m:mo><m:mi>x</m:mi><m:mo maxsize="100%">)</m:mo> <m:mo>=</m:mo><m:mfrac>
 <m:mrow>
 <m:msup>
 <m:mi>μ</m:mi>
@@ -286,8 +286,8 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
 </m:mfrac>
 
 
-</m:math></equation></para><para id="eip-386">Ambas funciones de densidad de probabilidad se basan en la relación entre el tiempo y el crecimiento o decaimiento exponencial. La "e" de la fórmula es una constante con el valor aproximado de 2,71828 y es la base de la fórmula del crecimiento exponencial logarítmica natural. Cuando la gente dice que algo ha crecido exponencialmente, se refiere a esto. </para><para id="eip-474">Un ejemplo de la exponencial y la Poisson dejará claras las diferencias entre ambas. También mostrará las interesantes aplicaciones que tienen. </para><section id="eip-464"><para id="eip-656"/></section><para id="eip-725"><title>Distribución de Poisson</title>Supongamos que históricamente llegan 10 clientes a las filas de espera en las cajas registradoras cada hora. Recuerde que esto es todavía una probabilidad, por lo que nos tienen que decir estos valores históricos. Vemos que se trata de un problema de probabilidad de Poisson.</para><para id="eip-603">Podemos introducir esta información en la función de densidad de probabilidad de Poisson y obtener una fórmula general que calculará la probabilidad de que llegue <emphasis effect="bold">algún</emphasis> número determinado de clientes en la próxima hora. </para><para id="eip-65">La fórmula es para cualquier valor de la variable aleatoria que hayamos elegido y, por tanto, la x se pone en la fórmula. Esta es la fórmula: </para><equation class="unnumbered" id="eip-202">Los términos <m:math>
-  <m:mi>f</m:mi>
+</m:math></equation></para><para id="eip-386">Ambas funciones de densidad de probabilidad se basan en la relación entre el tiempo y el crecimiento o decaimiento exponencial. La "e" de la fórmula es una constante con el valor aproximado de 2,71828 y es la base de la fórmula del crecimiento exponencial logarítmica natural. Cuando la gente dice que algo ha crecido exponencialmente, se refiere a esto. </para><para id="eip-474">Un ejemplo de la exponencial y la Poisson dejará claras las diferencias entre ambas. También mostrará las interesantes aplicaciones que tienen. </para><section id="eip-464"><para id="eip-656"/></section><para id="eip-725"><title>Distribución de Poisson</title>Supongamos que históricamente llegan 10 clientes a las filas de espera en las cajas registradoras cada hora. Recuerde que esto es todavía una probabilidad, por lo que nos tienen que decir estos valores históricos. Vemos que se trata de un problema de probabilidad de Poisson.</para><para id="eip-603">Podemos introducir esta información en la función de densidad de probabilidad de Poisson y obtener una fórmula general que calculará la probabilidad de que llegue <emphasis effect="bold">algún</emphasis> número determinado de clientes en la próxima hora. </para><para id="eip-65">La fórmula es para cualquier valor de la variable aleatoria que hayamos elegido y, por tanto, la x se pone en la fórmula. Esta es la fórmula: </para><equation class="unnumbered" id="eip-202"><label/><m:math>
+  <m:mi>e</m:mi>
     <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
   <m:mo>=</m:mo>
   <m:mfrac>
@@ -299,7 +299,7 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
       <m:mi>x</m:mi><m:mo>!</m:mo>
     </m:mrow>
   </m:mfrac>
-</m:math></equation><para id="eip-723">Como ejemplo, la probabilidad de que lleguen 15 personas a la caja registradora en la próxima hora sería</para><para id="eip-989"><equation class="unnumbered" id="eip-id1166615293026">Los términos <m:math>
+</m:math></equation><para id="eip-723">Como ejemplo, la probabilidad de que lleguen 15 personas a la caja registradora en la próxima hora sería</para><para id="eip-989"><equation class="unnumbered" id="eip-id1166615293026"><label/><m:math>
   <m:mi>P</m:mi>
     <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>15</m:mn><m:mo stretchy="false">)</m:mo>
   <m:mo>=</m:mo>
@@ -316,8 +316,8 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
    <m:mn>0,0611</m:mn>
 
 </m:math>
-</equation></para><para id="eip-616">Aquí insertamos x = 15 y calculamos que la probabilidad de que en la próxima hora lleguen 15 personas es de 0,061. </para><para id="eip-173"><title>Distribución exponencial</title>Si mantenemos los mismos hechos históricos de que llegan 10 clientes cada hora, pero ahora nos interesa el tiempo de servicio que pasa una persona en el mostrador, entonces utilizaríamos la distribución exponencial. La función de probabilidad exponencial para cualquier valor de x, la variable aleatoria, para estos datos históricos de la caja registradora es:</para><para id="eip-374"><equation class="unnumbered" id="eip-id1166613604051">Los términos <m:math>
-  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+</equation></para><para id="eip-616">Aquí insertamos x = 15 y calculamos que la probabilidad de que en la próxima hora lleguen 15 personas es de 0,061. </para><para id="eip-173"><title>Distribución exponencial</title>Si mantenemos los mismos hechos históricos de que llegan 10 clientes cada hora, pero ahora nos interesa el tiempo de servicio que pasa una persona en el mostrador, entonces utilizaríamos la distribución exponencial. La función de probabilidad exponencial para cualquier valor de x, la variable aleatoria, para estos datos históricos de la caja registradora es:</para><para id="eip-374"><equation class="unnumbered" id="eip-id1166613604051"><label/><m:math>
+  <m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
   <m:mo>=</m:mo>
   <m:mfrac>
     <m:mn>1</m:mn>
@@ -338,11 +338,11 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
     </m:mrow>
   </m:msup>
 </m:math>
-</equation></para><para id="eip-968">Para calcular <emphasis effect="italics">µ,</emphasis> el tiempo medio de servicio histórico, simplemente dividimos el número de personas que llegan por hora, 10, entre el periodo de tiempo, una hora, y tenemos <emphasis effect="italics">µ</emphasis> = 0,1. Históricamente, la gente pasa el 0,1 de una hora en la caja registradora, es decir, 6 minutos. Esto explica el 0,1 de la fórmula.</para><para id="eip-246">Existe una confusión natural con <emphasis effect="italics">µ</emphasis> tanto en las fórmulas de Poisson como en las exponenciales. Tienen significados diferentes, aunque tengan el mismo símbolo. La media de la exponencial es uno dividido entre la media de Poisson. Si se da el número histórico de llegadas se tiene la media de Poisson. Si se da una duración histórica entre eventos, se tiene la media de una exponencial.  </para><para id="eip-739">Siguiendo con nuestro ejemplo de la caja, si quisiéramos saber la probabilidad de que una persona tarde 9 minutos o menos en pasar por caja registradora, utilizaríamos esta fórmula. En primer lugar, convertimos a las mismas unidades de tiempo que son partes de una hora. Nueve minutos son 0,15 de una hora. A continuación, observamos que estamos pidiendo un rango de valores. Este es siempre el caso de una variable aleatoria continua. Escribimos la pregunta de probabilidad como </para><equation class="unnumbered" id="eip-710">Los términos <m:math>
+</equation></para><para id="eip-968">Para calcular <emphasis effect="italics">µ,</emphasis> el tiempo promedio de servicio histórico, simplemente dividimos el número de personas que llegan por hora, 10, entre el periodo, una hora, y tenemos <emphasis effect="italics">µ</emphasis> = 0,1. Históricamente, la gente pasa el 0,1 de una hora en la caja registradora, es decir, 6 minutos. Esto explica el 0,1 de la fórmula.</para><para id="eip-246">Existe una confusión natural con <emphasis effect="italics">µ</emphasis> tanto en las fórmulas de Poisson como en las exponenciales. Tienen significados diferentes, aunque tengan el mismo símbolo. La media de la exponencial es uno dividido entre la media de Poisson. Si se da el número histórico de llegadas se tiene la media de Poisson. Si se da una duración histórica entre eventos, se tiene la media de una exponencial.  </para><para id="eip-739">Siguiendo con nuestro ejemplo de la caja, si quisiéramos saber la probabilidad de que una persona tarde 9 minutos o menos en pasar por caja registradora, utilizaríamos esta fórmula. En primer lugar, convertimos a las mismas unidades de tiempo que son partes de una hora. Nueve minutos son 0,15 de una hora. A continuación, observamos que estamos pidiendo un rango de valores. Este es siempre el caso de una variable aleatoria continua. Escribimos la pregunta de probabilidad como </para><equation class="unnumbered" id="eip-710"><label/><m:math>
 <m:mi>p</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>9</m:mn><m:mo>)</m:mo>
 <m:mo>=</m:mo>
 <m:mn>1</m:mn>
-<m:mo>-</m:mo>
+<m:mo>–</m:mo>
 <m:mn>10</m:mn>
 <m:msup>
   <m:mi>e</m:mi>
@@ -351,10 +351,10 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
     <m:mi>x</m:mi>
   </m:mrow>
 </m:msup>
-</m:math></equation><para id="eip-976">Ahora podemos poner los números en la fórmula y obtenemos nuestro resultado. </para><para id="eip-196"><equation class="unnumbered" id="eip-id1172202714086">Los términos <m:math>
+</m:math></equation><para id="eip-976">Ahora podemos poner los números en la fórmula y obtenemos nuestro resultado. </para><para id="eip-196"><equation class="unnumbered" id="eip-id1172202714086"><label/><m:math>
 <m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0,15</m:mn><m:mo stretchy="false">)</m:mo>
 <m:mo>=</m:mo>
-<m:mn>1</m:mn><m:mo>-</m:mo><m:mn>10</m:mn>
+<m:mn>1</m:mn><m:mo>–</m:mo><m:mn>10</m:mn>
 <m:msup><m:mi>e</m:mi>
   <m:mrow><m:mn>-10</m:mn><m:mo>(</m:mo><m:mn>0,15</m:mn><m:mo>)</m:mo></m:mrow>
 </m:msup>
@@ -364,7 +364,7 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
 </equation></para><para id="eip-83">La probabilidad de que un cliente emplee 9 minutos o menos en pasar por caja es de 0,7769. </para><para id="eip-461">Vemos que tenemos una alta probabilidad de salir en menos de nueve minutos y una mínima probabilidad de que lleguen 15 clientes en la próxima hora.
 </para></section>
 <section id="fs-idp72211680" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idp72212448">Si <emphasis effect="italics">X</emphasis> tiene una <emphasis>distribución exponencial</emphasis> con media <emphasis effect="italics">μ</emphasis>, entonces el <emphasis>parámetro de decaimiento</emphasis> es <emphasis effect="italics">m</emphasis> = <m:math>
 <m:mrow>
 <m:mfrac>
@@ -372,9 +372,9 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
 <m:mi>μ</m:mi>
 </m:mfrac>
 </m:mrow>
-</m:math> La función de densidad de probabilidad de <emphasis effect="italics">X</emphasis> es <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">me<sup>–mx</sup></emphasis> (o equivalentemente <m:math>
+</m:math>. La función de densidad de probabilidad de <emphasis effect="italics">X</emphasis> es <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">me<sup>–mx</sup></emphasis> (o equivalentemente <m:math>
  <m:mrow>
-  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+  <m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
    <m:mn>1</m:mn>
    <m:mi>μ</m:mi>
   </m:mfrac>
@@ -385,7 +385,7 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
    </m:mrow>
   </m:msup>
  </m:mrow>
-</m:math> La función de distribución acumulativa de <emphasis effect="italics">X</emphasis> es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ <emphasis effect="italics">x</emphasis>) = 1 – <emphasis effect="italics">e</emphasis><sup>–<emphasis effect="italics">mx</emphasis></sup>.</para></section>
+</m:math>. La función de distribución acumulativa de <emphasis effect="italics">X</emphasis> es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ <emphasis effect="italics">x</emphasis>) = 1 – <emphasis effect="italics">e</emphasis><sup>–<emphasis effect="italics">mx</emphasis></sup>.</para></section>
 <section id="fs-idp8617136" class="formula-review">
 <title>Revisión de la fórmula</title>
 
@@ -757,7 +757,7 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
 
 <item>cinco</item>
 <item>cinco</item>
-<item>Compruebe la solución del estudiante</item>
+<item>Compruebe la solución del estudiante.</item>
 <item>0,1353</item>
 <item>antes</item>
 <item>18,3</item>
@@ -820,7 +820,7 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
 
 <exercise id="fs-idm65827552">
 <problem id="fs-idp18748656">
-<para id="fs-idp18748912">Las llamadas al 911 entran a una tasa media de una llamada cada dos minutos. Supongamos que el tiempo que transcurre entre una llamada y la siguiente tiene la distribución exponencial.</para>
+<para id="fs-idp18748912">Las llamadas al 911 entran a una tasa promedio de una llamada cada dos minutos. Supongamos que el tiempo que transcurre entre una llamada y la siguiente tiene la distribución exponencial.</para>
 <list id="fs-idp91268000" list-type="enumerated" number-style="lower-alpha">
 <item>En promedio, ¿cuánto tiempo pasa entre cinco llamadas consecutivas?</item>
 <item>Calcule la probabilidad de que, tras recibir una llamada, la siguiente tarde más de tres minutos en producirse.</item>
@@ -881,7 +881,7 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
   </m:mfrac>
 
  </m:mrow>
-</m:math> <newline/>Por lo tanto, <emphasis effect="italics">m</emphasis> = <m:math>
+</m:math>. <newline/>Por lo tanto, <emphasis effect="italics">m</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>
@@ -938,13 +938,13 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
   </m:mfrac>
 
  </m:mrow>
-</m:math> La función de distribución acumulativa de <emphasis effect="italics">X</emphasis> es <m:math>
+</m:math>. La función de distribución acumulativa de <emphasis effect="italics">X</emphasis> es <m:math>
  <m:mrow>
   <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
    <m:mrow>
     <m:mi>X</m:mi><m:mo>&lt;</m:mo><m:mi>x</m:mi>
    </m:mrow>
-  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:msup>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:msup>
    <m:mi>e</m:mi>
    <m:mrow>
     <m:mo>–</m:mo><m:mfrac>
@@ -956,14 +956,14 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
   </m:msup>
 
  </m:mrow>
-</m:math> Así que, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 20) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 20) = <m:math>
+</m:math>. Así que, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 20) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 20) = <m:math>
  <m:mrow>
-  <m:mn>1</m:mn><m:mo>-</m:mo><m:mrow><m:mo>(</m:mo>
+  <m:mn>1</m:mn><m:mo>–</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
-    <m:mn>1</m:mn><m:mo>-</m:mo><m:msup>
+    <m:mn>1</m:mn><m:mo>–</m:mo><m:msup>
      <m:mi>e</m:mi>
      <m:mrow>
-      <m:mo>- −</m:mo><m:mfrac>
+      <m:mo>–</m:mo><m:mfrac>
        <m:mrow>
         <m:mn>20</m:mn>
        </m:mrow>
@@ -977,7 +977,7 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
   <m:mo>)</m:mo></m:mrow><m:mo>≈</m:mo><m:mn>0,1084.</m:mn>
  </m:mrow>
 </m:math></item>
-</list><note id="fs-idm18595152"><title>Nota</title>
+</list><note id="fs-idm18595152"><label/><title>Nota</title>
 <para id="fs-idm44681536">También podríamos deducir que cada persona que llega tiene una probabilidad de 8/9 de no tener sangre de tipo B. Así que la probabilidad de que ninguna de las primeras 20 personas que lleguen tenga sangre tipo B es <m:math>
  <m:mrow>
   <m:msup>
@@ -998,7 +998,7 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
   </m:msup>
   <m:mo>≈</m:mo><m:mn>0,0948</m:mn>
  </m:mrow>
-</m:math> (la distribución geométrica es más apropiada que la exponencial porque el número de personas entre el tipo B es discreto en vez de continuo).</para></note></solution>
+</m:math>. (la distribución geométrica es más apropiada que la exponencial porque el número de personas entre el tipo B es discreto en vez de continuo).</para></note></solution>
 </exercise>
 
 <exercise id="fs-idm65311088">
@@ -1015,7 +1015,7 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
 
 <exercise id="fs-idm90634192">
 <problem id="fs-idm54069632">
-<para id="fs-idm54069376">En un centro de atención de urgencias los pacientes llegan a una tasa media de un paciente cada siete minutos. Supongamos que la duración entre llegadas se distribuye exponencialmente.</para>
+<para id="fs-idm54069376">En un centro de atención de urgencias los pacientes llegan a una tasa promedio de un paciente cada siete minutos. Supongamos que la duración entre llegadas se distribuye exponencialmente.</para>
 <list id="fs-idm54068800" list-type="enumerated" number-style="lower-alpha">
 <item>Calcule la probabilidad de que el tiempo entre dos visitas sucesivas al centro de atención de urgencias sea inferior a 2 minutos.</item>
 <item>Calcule la probabilidad de que el tiempo entre dos visitas sucesivas al centro de atención de urgencias sea superior a 15 minutos.</item>
@@ -1032,9 +1032,9 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
   </m:mfrac>
 
  </m:mrow>
-</m:math> La cdf es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &lt; <emphasis effect="italics">t</emphasis>) = <m:math>
+</m:math>. La cdf es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &lt; <emphasis effect="italics">t</emphasis>) = <m:math>
  <m:mrow>
-  <m:mn>1</m:mn><m:mo>-</m:mo><m:msup>
+  <m:mn>1</m:mn><m:mo>–</m:mo><m:msup>
    <m:mi>e</m:mi>
    <m:mrow>
     <m:mfrac>
@@ -1049,10 +1049,10 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
 </m:math></para>
 <list id="fs-idp33483200" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &lt; 2) = 1 – <m:math>
  <m:mrow>
-  <m:mn>1</m:mn><m:mo>-</m:mo><m:msup>
+  <m:mn>1</m:mn><m:mo>–</m:mo><m:msup>
    <m:mi>e</m:mi>
    <m:mrow>
-    <m:mo>- −</m:mo><m:mfrac>
+    <m:mo>–</m:mo><m:mfrac>
      <m:mn>2</m:mn>
      <m:mn>7</m:mn>
     </m:mfrac>
@@ -1068,12 +1068,12 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
    <m:mrow>
     <m:mi>T</m:mi><m:mo>&lt;</m:mo><m:mn>15</m:mn>
    </m:mrow>
-  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mrow><m:mo>(</m:mo>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
-    <m:mn>1</m:mn><m:mo>-</m:mo><m:msup>
+    <m:mn>1</m:mn><m:mo>–</m:mo><m:msup>
      <m:mi>e</m:mi>
      <m:mrow>
-      <m:mo>- −</m:mo><m:mfrac>
+      <m:mo>–</m:mo><m:mfrac>
        <m:mrow>
         <m:mn>15</m:mn>
        </m:mrow>
@@ -1087,7 +1087,7 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
   <m:mo>)</m:mo></m:mrow><m:mo>≈</m:mo><m:msup>
    <m:mi>e</m:mi>
    <m:mrow>
-    <m:mo>- −</m:mo><m:mfrac>
+    <m:mo>–</m:mo><m:mfrac>
      <m:mrow>
       <m:mn>15</m:mn>
      </m:mrow>
@@ -1098,15 +1098,15 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
   </m:msup>
   <m:mo>≈</m:mo><m:mn>0,1173</m:mn>
  </m:mrow>
-</m:math></item>
+</m:math>.</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> > 15|<emphasis effect="italics">T</emphasis> > 10) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> > 5) = <m:math>
  <m:mrow>
-  <m:mn>1</m:mn><m:mo>-</m:mo><m:mrow><m:mo>(</m:mo>
+  <m:mn>1</m:mn><m:mo>–</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
-    <m:mn>1</m:mn><m:mo>-</m:mo><m:msup>
+    <m:mn>1</m:mn><m:mo>–</m:mo><m:msup>
      <m:mi>e</m:mi>
      <m:mrow>
-      <m:mo>-</m:mo><m:mfrac>
+      <m:mo>–</m:mo><m:mfrac>
        <m:mn>5</m:mn>
        <m:mn>7</m:mn>
       </m:mfrac>
@@ -1118,7 +1118,7 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
    <m:mi>e</m:mi>
    <m:mrow>
-    <m:mo>-</m:mo><m:mfrac>
+    <m:mo>–</m:mo><m:mfrac>
      <m:mn>5</m:mn>
      <m:mn>7</m:mn>
     </m:mfrac>
@@ -1127,7 +1127,7 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
   </m:msup>
   <m:mo>≈</m:mo><m:mn>0,4895</m:mn>
  </m:mrow>
-</m:math></item>
+</m:math>.</item>
 <item>Supongamos que <emphasis effect="italics">X</emphasis> = número de pacientes que llegan durante un periodo de media hora. Entonces <emphasis effect="italics">X</emphasis> tiene la distribución de Poisson con una media de <m:math>
  <m:mrow>
   <m:mfrac>
@@ -1152,7 +1152,7 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math> Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 8) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 8) ≈ 0,0311.</item></list></solution>
+</m:math>. Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 8) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 8) ≈ 0,0311.</item></list></solution>
 </exercise>
 
 </section>
@@ -1160,7 +1160,7 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
 <glossary>
 <definition id="fs-idp71683472">
 <term>parámetro de decaimiento</term>
-<meaning id="fs-idp71684112">El parámetro de decaimiento describe la velocidad a la que las probabilidades decaen a cero para valores crecientes de <emphasis effect="italics">x</emphasis>. Es el valor <emphasis effect="italics">m</emphasis> en la función de densidad de probabilidad <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">me</emphasis><sup>(–<emphasis effect="italics">mx</emphasis>)</sup> de una variable aleatoria exponencial. También es igual a <emphasis effect="italics">m</emphasis> = <m:math>
+<meaning id="fs-idp71684112">el parámetro de decaimiento describe la velocidad a la que las probabilidades decaen a cero para valores crecientes de <emphasis effect="italics">x</emphasis>. Es el valor <emphasis effect="italics">m</emphasis> en la función de densidad de probabilidad <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">me</emphasis><sup>(–<emphasis effect="italics">mx</emphasis>)</sup> de una variable aleatoria exponencial. También es igual a <emphasis effect="italics">m</emphasis> = <m:math>
  <m:mrow>
   <m:mrow>
    <m:mrow>
@@ -1177,11 +1177,11 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
 
 <definition id="fs-idm87843664">
 <term>propiedad de falta de memoria</term>
-<meaning id="fs-idm76302032">Para una variable aleatoria exponencial <emphasis effect="italics">X</emphasis>, la propiedad de falta de memoria es la afirmación de que el conocimiento de lo que ha ocurrido en el pasado no tiene ningún efecto sobre las probabilidades futuras. Esto significa que la probabilidad de que <emphasis effect="italics">X</emphasis> supere a <emphasis effect="italics">x</emphasis> + <emphasis effect="italics">t</emphasis>, dado que ha superado a <emphasis effect="italics">x</emphasis>, es la misma que la probabilidad de que <emphasis effect="italics">X</emphasis> supere a <emphasis effect="italics">t</emphasis> si no tuviéramos conocimiento de ello. En símbolos decimos que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">x</emphasis> + <emphasis effect="italics">t</emphasis>|<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">t</emphasis>).</meaning>
+<meaning id="fs-idm76302032">para una variable aleatoria exponencial <emphasis effect="italics">X</emphasis>, la propiedad de falta de memoria es la afirmación de que el conocimiento de lo que ha ocurrido en el pasado no tiene ningún efecto sobre las probabilidades futuras. Esto significa que la probabilidad de que <emphasis effect="italics">X</emphasis> supere a <emphasis effect="italics">x</emphasis> + <emphasis effect="italics">t</emphasis>, dado que ha superado a <emphasis effect="italics">x</emphasis>, es la misma que la probabilidad de que <emphasis effect="italics">X</emphasis> supere a <emphasis effect="italics">t</emphasis> si no tuviéramos conocimiento de ello. En símbolos decimos que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">x</emphasis> + <emphasis effect="italics">t</emphasis>|<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">t</emphasis>).</meaning>
 </definition>
 <definition id="fs-idp21495392">
 <term>Distribución de Poisson</term>
-<meaning id="fs-idp21496032">Si se conoce una media de eventos <emphasis effect="italics">μ</emphasis> que ocurren por unidad de tiempo, y estos eventos son independientes entre sí, entonces el número de eventos <emphasis effect="italics">X</emphasis> que ocurren en una unidad del tiempo tiene la distribución de Poisson. La probabilidad de que ocurran eventos <emphasis effect="italics">x</emphasis> en una unidad del tiempo es igual a <m:math>
+<meaning id="fs-idp21496032">si se conoce un promedio de eventos <emphasis effect="italics">μ</emphasis> que ocurren por unidad de tiempo, y estos eventos son independientes entre sí, entonces el número de eventos <emphasis effect="italics">X</emphasis> que ocurren en una unidad del tiempo tiene la distribución de Poisson. La probabilidad de que ocurran eventos <emphasis effect="italics">x</emphasis> en una unidad del tiempo es igual a <m:math>
 <m:mrow>
 <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -1203,7 +1203,7 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
 </m:mfrac>
 
 </m:mrow>
-</m:math></meaning>
+</m:math>.</meaning>
 </definition>
 </glossary>
 </document>

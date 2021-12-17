@@ -52,7 +52,7 @@
 </m:mrow>
 </m:mfrac>
 </m:msub>
-</m:math> son las proporciones de la muestra para los dos conjuntos de datos en cuestión. X<sub>A</sub> y X<sub>B</sub> son el número de aciertos en cada grupo de la muestra, respectivamente, y n<sub>A</sub> y n<sub>B</sub> son los tamaños de muestra respectivos de los dos grupos. De nuevo acudimos al teorema del límite central para encontrar la distribución muestral con respecto a las diferencias en las proporciones de la muestra. También nos encontramos con que esta distribución muestral, al igual que las anteriores, se distribuye normalmente, tal y como demuestra el teorema del límite central, como se ve en la <link target-id="fs-id1171052108018"/>.</para><figure id="fs-id1171052108018"><media id="fs-id1171049570695" alt=""><image src="../../media/fig-ch10_01_02.jpg" mime-type="image/png"/></media></figure><para id="eip-50">En general, la hipótesis nula permite probar una diferencia de un valor determinado, 𝛿<sub>0</sub>, tal como hicimos para el caso de las diferencias de medias.</para><equation id="eip-671" class="unnumbered">Los términos <m:math>
+</m:math> son las proporciones de la muestra para los dos conjuntos de datos en cuestión. X<sub>A</sub> y X<sub>B</sub> son el número de aciertos en cada grupo de la muestra, respectivamente, y n<sub>A</sub> y n<sub>B</sub> son los tamaños de muestra respectivos de los dos grupos. De nuevo acudimos al teorema del límite central para hallar la distribución muestral con respecto a las diferencias en las proporciones de la muestra. También nos encontramos con que esta distribución muestral, al igual que las anteriores, se distribuye normalmente, tal y como demuestra el teorema del límite central, como se ve en la <link target-id="fs-id1171052108018"/>.</para><figure id="fs-id1171052108018"><media id="fs-id1171049570695" alt=""><image src="../../media/fig-ch10_01_02.jpg" mime-type="image/png"/></media></figure><para id="eip-50">En general, la hipótesis nula permite probar una diferencia de un valor determinado, 𝛿<sub>0</sub>, tal como hicimos para el caso de las diferencias de medias.</para><equation id="eip-671" class="unnumbered"><label/><m:math>
 <m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
 <m:mo>:</m:mo>
 <m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub>
@@ -60,7 +60,7 @@
 <m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub>
 <m:mo>=</m:mo>
 <m:msub><m:mi>𝛿</m:mi><m:mn>0</m:mn></m:msub>
-</m:math></equation><equation id="eip-633" class="unnumbered">Los términos <m:math>
+</m:math></equation><equation id="eip-633" class="unnumbered"><label/><m:math>
 <m:msub><m:mi>H</m:mi><m:mn>1</m:mn></m:msub>
 <m:mo>:</m:mo>
 <m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub>
@@ -68,7 +68,7 @@
 <m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub>
 <m:mo>≠</m:mo>
 <m:msub><m:mi>𝛿</m:mi><m:mn>0</m:mn></m:msub>
-</m:math></equation><para id="eip-743">Sin embargo, lo más común es la prueba de que las dos proporciones son iguales. Esto es,  </para><equation id="eip-457" class="unnumbered">Los términos <m:math>
+</m:math></equation><para id="eip-743">Sin embargo, lo más común es la prueba de que las dos proporciones son iguales. Esto es,  </para><equation id="eip-457" class="unnumbered"><label/><m:math>
 <m:msub>
 <m:mi>H</m:mi>
 <m:mn>0</m:mn>
@@ -83,7 +83,7 @@
 <m:mi>p</m:mi>
 <m:mi>B</m:mi>
 </m:msub>
-</m:math></equation><equation id="eip-978" class="unnumbered">Los términos <m:math>
+</m:math></equation><equation id="eip-978" class="unnumbered"><label/><m:math>
 <m:msub>
 <m:mi>H</m:mi>
 <m:mi>a</m:mi>
@@ -99,7 +99,7 @@
 <m:mi>B</m:mi>
 </m:msub>
 </m:math></equation><para id="eip-217">Para llevar a cabo la prueba utilizamos una proporción combinada, <emphasis effect="italics">p<sub>c</sub></emphasis>. </para><equation id="element-845">
-  <title>La proporción combinada se calcula de la siguiente manera:</title>Los términos <m:math>
+  <title>La proporción combinada se calcula de la siguiente manera:</title><m:math>
     <m:mrow>
       <m:msub>
         <m:mi>p</m:mi>
@@ -134,7 +134,7 @@
   </m:math>
 
 </equation>
-<para id="eip-251"><newline/></para><equation id="element-225" class="unnumbered"><title>El estadístico de prueba (puntuación<emphasis effect="italics">z</emphasis>) es:</title>Los términos <m:math>
+<para id="eip-251"><newline/></para><equation id="element-225" class="unnumbered"><label/><title>El estadístico de prueba (puntuación <emphasis effect="italics">z</emphasis>) es:</title><m:math>
   <m:msub><m:mi>Z</m:mi><m:mi>c</m:mi></m:msub>
 <m:mo>=</m:mo>
   <m:mfrac>
@@ -146,7 +146,7 @@
       <m:mo>′</m:mo>
      </m:msubsup>
 
-    <m:mo>- −</m:mo>
+    <m:mo>–</m:mo>
      <m:msubsup>
       <m:mi>p</m:mi>
       <m:mi>B</m:mi>
@@ -154,7 +154,7 @@
      </m:msubsup>
 
     <m:mo stretchy="false">)</m:mo>
-    <m:mo>- −</m:mo>
+    <m:mo>–</m:mo>
     <m:msub><m:mi>δ</m:mi><m:mo>0</m:mo></m:msub>
    </m:mrow>
    <m:mrow>
@@ -202,9 +202,9 @@
 <para id="element-410">Un banco acaba de adquirir otra sucursal, por lo que tiene clientes en este nuevo territorio. Les interesa la tasa de morosidad en su nuevo territorio. Desean comprobar la hipótesis de que la tasa de morosidad es diferente a la de su actual base de clientes. Hacen un muestreo de 200 expedientes en el área A, sus clientes actuales, y descubren que 20 han incumplido. En el área B, la de los nuevos clientes, otra muestra de 200 expedientes muestra que 12 han dejado de pagar sus préstamos. A un nivel de significación del 10 %, ¿podemos decir que los índices de impago son iguales o diferentes?  </para></problem>
 
 <solution id="fs-idm163830832">
-<para id="element-567">Esto es una prueba de proporciones. Lo sabemos porque la variable aleatoria subyacente es binaria: impago o no impago. Además, sabemos que se trata de una prueba de diferencias de proporciones porque tenemos dos grupos de muestra, la base de clientes actual y la recién adquirida. Supongamos que A y B son los subíndices de los dos grupos de clientes. Entonces p<sub>A</sub> y p<sub>B</sub> son las dos proporciones de la población que deseamos probar. </para><para id="element-5"><title>Variable aleatoria:</title><emphasis effect="italics">P′<sub>A</sub></emphasis> – <emphasis effect="italics">P′<sub>B</sub></emphasis> = diferencia en las proporciones de clientes con impago en los dos grupos.</para><para id="element-791">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mi>A</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mi>B</m:mi></m:msub></m:math></para><para id="element-516">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mi>A</m:mi></m:msub><m:mo>≠</m:mo><m:msub><m:mi>p</m:mi><m:mi>B</m:mi></m:msub></m:math></para><para id="element-799">Las palabras <emphasis>“es una diferencia”</emphasis> le indican que la prueba es de dos colas.</para>
+<para id="element-567">Esto es una prueba de proporciones. Lo sabemos porque la variable aleatoria subyacente es binaria: impago o no impago. Además, sabemos que se trata de una prueba de diferencias de proporciones porque tenemos dos grupos de muestra, la base de clientes actual y la recién adquirida. Supongamos que A y B son los subíndices de los dos grupos de clientes. Entonces p<sub>A</sub> y p<sub>B</sub> son las dos proporciones de la población que deseamos probar. </para><para id="element-5"><title>Variable aleatoria:</title><emphasis effect="italics">P′<sub>A</sub></emphasis> – <emphasis effect="italics">P′<sub>B</sub></emphasis> = diferencia en las proporciones de clientes con impago en los dos grupos.</para><para id="element-791"><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mi>A</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mi>B</m:mi></m:msub></m:math></para><para id="element-516"><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mi>A</m:mi></m:msub><m:mo>≠</m:mo><m:msub><m:mi>p</m:mi><m:mi>B</m:mi></m:msub></m:math></para><para id="element-799">Las palabras <emphasis>“es una diferencia”</emphasis> le indican que la prueba es de dos colas.</para>
 <para id="element-610"><emphasis>Distribución para la prueba:</emphasis> como se trata de una prueba de dos proporciones poblacionales binomiales, la distribución es normal:</para>
-<para id="element-42">Los términos <m:math>
+<para id="element-42"><m:math>
 <m:mrow>
 <m:msub>
 <m:mi>p</m:mi>
@@ -324,12 +324,12 @@
 <m:mo>=</m:mo><m:mn>0,06</m:mn>
 </m:mrow>
 </m:math></para>
-<para id="element-478">La diferencia estimada entre los dos grupos es: <emphasis effect="italics">p′<sub>A</sub></emphasis> – <emphasis effect="italics">p′<sub>B</sub></emphasis> = 0,1 – 0,06 = 0,04.<figure id="hyptest22_cmp_3_1"><media id="id3811123" alt="Curva de distribución normal de la diferencia en los porcentajes de pacientes adultos que no reaccionan a los medicamentos A y B después de 30 minutos. La media es igual a cero y los valores –0,04, 0 y 0,04 están marcados en el eje horizontal. Dos líneas verticales se extienden desde –0,04 y 0,04 hasta la curva. La región a la izquierda de –0,04 y la región a la derecha de 0,04 están sombreadas para representar 1/2(valor-p) = 0,0702."><image src="../../media/fig-ch10_01_04n.jpg" mime-type="image/jpg" width="380"/></media></figure>
-<equation id="eip-id1165388470277" class="unnumbered">Los términos <m:math><m:msub><m:mi>Z</m:mi><m:mi>c</m:mi></m:msub>
+<para id="element-478">La diferencia estimada entre los dos grupos es: <emphasis effect="italics">p′<sub>A</sub></emphasis> – <emphasis effect="italics">p′<sub>B</sub></emphasis> = 0,1 – 0,06 = 0,04.<figure id="hyptest22_cmp_3_1"><media id="id3811123" alt="Curva de distribución normal de la diferencia en los porcentajes de pacientes adultos que no reaccionan a los medicamentos A y B después de 30 minutos. La media es igual a cero y los valores –0,04, 0 y 0,04 están marcados en el eje horizontal. Dos líneas verticales se extienden desde –0,04 y 0,04 hasta la curva. La región a la izquierda de –0,04 y la región a la derecha de 0,04 están sombreadas para representar 1/2(valor p) = 0,0702."><image src="../../media/fig-ch10_01_04n.jpg" mime-type="image/jpg" width="380"/></media></figure>
+<equation id="eip-id1165388470277" class="unnumbered"><label/><m:math><m:msub><m:mi>Z</m:mi><m:mi>c</m:mi></m:msub>
 <m:mo>=</m:mo>
 
 <m:mfrac>
-<m:mrow><m:mo>(</m:mo><m:msub><m:mi>P′</m:mi><m:mi>A</m:mi></m:msub><m:mo>- −</m:mo><m:msub><m:mi>P′</m:mi><m:mi>B</m:mi></m:msub><m:mo>)</m:mo><m:mo>- −</m:mo><m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:msub><m:mi>P′</m:mi><m:mi>A</m:mi></m:msub><m:mo>–</m:mo><m:msub><m:mi>P′</m:mi><m:mi>B</m:mi></m:msub><m:mo>)</m:mo><m:mo>–</m:mo><m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub></m:mrow>
 <m:mrow><m:msqrt>
 <m:msub><m:mi>P</m:mi><m:mi>c</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:msub><m:mi>P</m:mi><m:mi>c</m:mi></m:msub><m:mo stretchy="false">)</m:mo>
 <m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>n</m:mi><m:mi>A</m:mi></m:msub></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>n</m:mi><m:mi>B</m:mi></m:msub></m:mfrac><m:mo>)</m:mo></m:msqrt>
@@ -339,13 +339,13 @@
 <m:mo>=</m:mo>
 <m:mn>1,47</m:mn>
 
-</m:math></equation></para><para id="element-748">The calculated test statistic is 1.47 and is not in the tail of the distribution. </para><para id="element-439">Tome una decisión: Dado que el valor calculado del estadístico de prueba no está en la cola de la distribución, no podemos rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-632"><emphasis>Conclusión:</emphasis> A un nivel de significación del 1 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que exista una diferencia entre las proporciones de clientes con impagos en los dos grupos.</para></solution>
+</m:math></equation></para><para id="element-748">El valor calculado del estadístico de prueba es de 1,47 y no se encuentra en la cola de la distribución. </para><para id="element-439">Tome una decisión: Dado que el valor calculado del estadístico de prueba no está en la cola de la distribución, no podemos rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-632"><emphasis>Conclusión:</emphasis> A un nivel de significación del 1 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que exista una diferencia entre las proporciones de clientes con impagos en los dos grupos.</para></solution>
 </exercise>
 </example>
 
 
 <note id="fs-idp38726464" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm6482160"><problem id="fs-idm135837088"><para id="fs-idm99465232">Se están probando dos tipos de válvulas para determinar si hay una diferencia en las tolerancias de presión. Quince de una muestra aleatoria de 100 de la válvula <emphasis effect="italics">A</emphasis> se agrietaron por debajo de 4.500 psi. Seis de una muestra aleatoria de 100 de la válvula <emphasis effect="italics">B</emphasis> se agrietaron por debajo de 4.500 psi. Pruebe con un nivel de significación del 5 %.</para></problem>
 <solution id="fs-idm65740832"><para id="fs-idp18572320">El valor <emphasis effect="italics">p</emphasis> es 0,0379, por lo que podemos rechazar la hipótesis nula. A un nivel de significación del 5 %, los datos respaldan que hay una diferencia en las tolerancias de presión entre las dos válvulas.</para></solution>
@@ -364,7 +364,7 @@
 </section>
 
 <section id="fs-idm55267024" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idp68961936">Prueba de dos proporciones poblacionales a partir de muestras independientes <list id="fs-idp68962192" list-type="bulleted">
   <item>Variable aleatoria: <m:math>
  <m:mrow>
@@ -419,7 +419,7 @@
       </m:mfrac>
 
     </m:mrow>
-  </m:math></para><para id="fs-idp35988640">Estadístico de prueba (puntuación<emphasis effect="italics">z</emphasis>): <m:math>
+  </m:math></para><para id="fs-idp35988640">Estadístico de prueba (puntuación <emphasis effect="italics">z</emphasis>): <m:math>
  <m:mrow><m:msub>
   <m:mi>Z</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -431,7 +431,7 @@
      <m:mrow/>
      <m:mi>A</m:mi>
     </m:msub>
-    <m:mo>- −</m:mo><m:msup>
+    <m:mo>–</m:mo><m:msup>
      <m:mi>p</m:mi>
      <m:mo>′</m:mo>
     </m:msup>
@@ -488,7 +488,7 @@
 
 <para id="fs-idm12253536">donde</para>
 
-  <para id="fs-idm12253152">Los términos <m:math><m:msubsup><m:mi>p</m:mi><m:mi>A</m:mi><m:mi>'</m:mi></m:msubsup></m:math> y <m:math><m:msubsup><m:mi>p</m:mi><m:mi>B</m:mi><m:mi>'</m:mi></m:msubsup></m:math> son las proporciones de la muestra, <m:math><m:msub><m:mi>p</m:mi><m:mi>A</m:mi></m:msub></m:math> y <m:math><m:msub><m:mi>p</m:mi><m:mi>B</m:mi></m:msub></m:math> son las proporciones de la población,</para><para id="fs-idp68599952"><emphasis effect="italics">P<sub>c</sub></emphasis> es la proporción combinada, y <emphasis effect="italics">n<sub>A</sub></emphasis> y <emphasis effect="italics">n<sub>B</sub></emphasis> son los tamaños de las muestras.</para>
+  <para id="fs-idm12253152"><m:math><m:msubsup><m:mi>p</m:mi><m:mi>A</m:mi><m:mi>'</m:mi></m:msubsup></m:math> y <m:math><m:msubsup><m:mi>p</m:mi><m:mi>B</m:mi><m:mi>'</m:mi></m:msubsup></m:math> son las proporciones de la muestra, <m:math><m:msub><m:mi>p</m:mi><m:mi>A</m:mi></m:msub></m:math> y <m:math><m:msub><m:mi>p</m:mi><m:mi>B</m:mi></m:msub></m:math> son las proporciones de la población,</para><para id="fs-idp68599952"><emphasis effect="italics">P<sub>c</sub></emphasis> es la proporción combinada, y <emphasis effect="italics">n<sub>A</sub></emphasis> y <emphasis effect="italics">n<sub>B</sub></emphasis> son los tamaños de las muestras.</para>
 </section>
 
 <section id="fs-idp47236640" class="practice">
@@ -586,7 +586,7 @@
 <solution id="id18024766">
   <list id="fs-idp68589888" list-type="enumerated" number-style="lower-alpha">
     <item>No se puede aceptar la hipótesis nula</item>
-      <item>valor <emphasis effect="italics">p</emphasis>&lt; alfa</item>
+      <item>valor <emphasis effect="italics">p</emphasis> &lt; alfa</item>
       <item>Con un nivel de significación del 5 % hay pruebas suficientes para concluir que la proporción (porcentaje) de la población que es de dos o más razas en Nevada es estadísticamente mayor que la de Dakota del Norte.</item>
   </list>
 </solution>
@@ -609,13 +609,13 @@
 
 <exercise id="exer18">
   <problem id="id4902537">
-    <para id="id12924042">We are interested in whether the proportions of female suicide victims for ages 15 to 24 are the same for White and the Black people in the United States. Elegimos al azar un año, 1992, para comparar las razas. The number of suicides estimated in the United States in 1992 for White females is 4,930. Quinientos ochenta tenían entre 15 y 24 años. The estimate for Black females is 330. Cuarenta tenían entre 15 y 24 años. Supondremos que las mujeres víctimas de suicidio sean nuestra población.</para>
+    <para id="id12924042">Nos interesa saber si las proporciones de mujeres víctimas de suicidio entre 15 y 24 años son iguales para las razas blanca y negra en Estados Unidos. Elegimos al azar un año, 1992, para comparar las razas. El número de suicidios estimado en Estados Unidos en 1992 para mujeres blancas es de 4.930. Quinientos ochenta tenían entre 15 y 24 años. La estimación para las mujeres negras es de 330. Cuarenta tenían entre 15 y 24 años. Supondremos que las mujeres víctimas de suicidio sean nuestra población.</para>
   </problem>
   <solution id="fs-idm32452768">
     <list id="fs-idm32452512" list-type="enumerated" number-style="lower-alpha">
       <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">P<sub>W</sub></emphasis> = <emphasis effect="italics">P<sub>B</sub></emphasis></item>
       <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">P<sub>W</sub></emphasis> ≠ <emphasis effect="italics">P<sub>B</sub></emphasis></item>
-        <item>The random variable is the difference in the proportions of White and Black suicide victims, aged 15 to 24.</item>
+        <item>La variable aleatoria es la diferencia en las proporciones de víctimas de suicidio blancas y negras, de 15 a 24 años.</item>
         <item>normal para dos proporciones</item>
         <item>estadístico de prueba: –0,1944</item>
         <item>valor <emphasis effect="italics">p</emphasis>: 0,8458 </item>
@@ -625,7 +625,7 @@
           <item>Alfa: 0,05</item>
           <item>Decisión: No se puede aceptar la hipótesis nula</item>
           <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> > alfa</item>
-          <item>Conclusión: At the 5% significance level, there is insufficient evidence to conclude that the proportions of White and Black female suicide victims, aged 15 to 24, are different. </item>
+          <item>Conclusión: Al nivel de significación del 5 %, no hay pruebas suficientes para concluir que las proporciones de mujeres blancas y negras víctimas de suicidio, de entre 15 y 24 años, sean diferentes. </item>
         </list>
       </item>
     </list>
@@ -658,8 +658,8 @@
   <solution id="fs-idm6549984">
     <para id="fs-idm23261552">Subíndices: 1 = Cabrillo College, 2 = Lake Tahoe College</para>
     <list id="fs-idp93991872" list-type="enumerated" number-style="lower-alpha">
-      <item>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
-        <item>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>≠</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+      <item><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+        <item><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>≠</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
         <item>La variable aleatoria es la diferencia entre las proporciones de estudiantes hispanos en el Cabrillo College y el Lake Tahoe College.</item>
         <item>normal para dos proporciones</item>
         <item>estadístico de prueba: 4,29</item>
@@ -761,7 +761,7 @@
         <para id="fs-idp35036048">Prueba: dos proporciones de muestras independientes</para>
         <para id="fs-idp35036432">Variable aleatoria: <emphasis effect="italics">p′<sub>1</sub></emphasis> − <emphasis effect="italics">p′<sub>2</sub></emphasis></para>
         <para id="fs-idm9404992">Distribución:</para>
-        <para id="fs-idp46050528">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math><newline/><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>></m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></para>
+        <para id="fs-idp46050528"><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math><newline/><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>></m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></para>
         <para id="fs-idm39674464">La proporción de propietarios de tabletas es mayor entre 16 y 29 años que entre 30 y más.</para>
         <para id="fs-idm39673968">Gráfico: cola derecha</para>
 
@@ -783,9 +783,9 @@
     <solution id="fs-idm111468704">
       <para id="fs-idp35259328">Subíndices: 1: hombres; 2: mujeres</para>
       <list id="fs-idp66491504" list-type="enumerated" number-style="lower-alpha">
-        <item>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>≤</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
-        <item>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>></m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
-        <item>Los términos <m:math>
+        <item><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>≤</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+        <item><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>></m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+        <item><m:math>
  <m:mrow>
   <m:msub>
    <m:msup>
@@ -814,7 +814,7 @@
           <list id="fs-idp134826688" list-type="enumerated" number-style="lower-roman">
             <item>Alfa: 0,05</item>
             <item>Decisión: No se puede rechazar la hipótesis nula.</item>
-            <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>> alfa</item>
+            <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> > alfa</item>
             <item>Conclusión: Con un nivel de significación del 5 % no hay pruebas suficientes para concluir que la proporción de hombres que disfrutan comprando equipos electrónicos es mayor que la de mujeres.</item>
           </list>
         </item>
@@ -834,8 +834,8 @@
       <para id="fs-idm10004016">Joan Nguyen afirmó recientemente que la proporción de hombres en edad universitaria con al menos una oreja perforada es tan alta como la proporción de mujeres universitarias. Hizo una encuesta en sus clases. De los 107 hombres, 20 tenían, al menos, una oreja perforada. De las 92 mujeres, 47 tenían, al menos, una oreja perforada. ¿Cree que la proporción de hombres ha alcanzado a la de mujeres?</para>
     </problem>
     <solution id="fs-idm75362416">
-      <list id="fs-idm11471360" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
-        <item>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>≠</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+      <list id="fs-idm11471360" list-type="enumerated" number-style="lower-alpha"><item><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+        <item><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>≠</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
         <item><m:math display="">
  <m:mrow>
   <m:msub>

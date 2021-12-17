@@ -9,12 +9,12 @@
 
 <content>
     <para id="element-364">La notación para la <term id="term-00001">distribución chi-cuadrado</term> es:</para>
-    <equation class="unnumbered" id="eip-171">Los términos <m:math>
+    <equation class="unnumbered" id="eip-171"><label/><m:math>
  <m:mrow>
   <m:mi>χ</m:mi><m:mo>∼</m:mo><m:msubsup>
    <m:mi>χ</m:mi>
    <m:mrow>
-    <m:mi>d</m:mi><m:mi>f</m:mi>
+    <m:mi>d</m:mi><m:mi>e</m:mi>
    </m:mrow>
    <m:mn>2</m:mn>
   </m:msubsup>
@@ -24,7 +24,7 @@
  <m:mrow>
   <m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt>
    <m:mrow>
-    <m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mi>f</m:mi><m:mo stretchy="false">)</m:mo>
+    <m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mi>e</m:mi><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:msqrt>
 
@@ -57,7 +57,7 @@
  </m:mrow>
 </m:math> = 44,7. Por tanto, <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(1.000, 44,7), aproximadamente.</item>
 <item>La media, <emphasis effect="italics">μ</emphasis>, se encuentra justo a la derecha del pico.
-<figure id="chisq_curvedf2"><media id="id1169723113430" alt="Se trata de una curva chi cuadrado asimétrica que es desigual hacia la derecha. La media, m, se marca en el eje horizontal y se sitúa a la derecha del pico de la curva.">
+<figure id="chisq_curvedf2"><media id="id1169723113430" alt="Se trata de una curva chi-cuadrado asimétrica que es desigual hacia la derecha. La media, m, se marca en el eje horizontal y se sitúa a la derecha del pico de la curva.">
 <image src="../../media/fig-ch11_03_02-02.jpg" mime-type="image/png" print-width="3in"/></media></figure></item>
 </list><section id="fs-idm72973008" class="references">
 <title>Referencias</title>
@@ -65,11 +65,11 @@
 <para id="fs-idm82439456">“HIV/AIDS Epidemiology Santa Clara County”, Departamento de Salud Pública del condado de Santa Clara, mayo de 2011.</para>
 </section>
 <section id="eip-648" class="summary">
-<title>Revisión del capítulo</title>
-<para id="eip-38">La distribución chi-cuadrado es una herramienta útil para la evaluación en una serie de categorías de problemas. Estas categorías de problemas incluyen principalmente (i) si un conjunto de datos se ajusta a una determinada distribución; (ii) si las distribuciones de dos poblaciones son iguales; (iii) si dos eventos pueden ser independientes; y (iv) si hay una variabilidad diferente a la esperada dentro de una población.</para><para id="eip-227">Un parámetro importante en una distribución chi-cuadrado son los grados de libertad <emphasis effect="italics">df</emphasis> en un problema dado. La variable aleatoria en la distribución chi-cuadrado es la suma de cuadrados de <emphasis effect="italics">df</emphasis> variables normales estándar, los cuales deben ser independientes. Las características clave de la distribución chi-cuadrado también dependen directamente de los grados de libertad.</para><para id="eip-26">La curva de la distribución chi-cuadrada es asimétrica hacia la derecha, y su forma depende de los grados de libertad <emphasis effect="italics">df</emphasis>. Para <emphasis effect="italics">df</emphasis> > 90, la curva se aproxima a la distribución normal. Los estadísticos de prueba basados en la distribución chi-cuadrada son siempre mayores o iguales a cero. Estas pruebas de aplicación son casi siempre pruebas de cola derecha.</para></section>
+<title>Repaso del capítulo</title>
+<para id="eip-38">La distribución chi-cuadrado es una herramienta útil para la evaluación en una serie de categorías de problemas. Estas categorías de problemas incluyen principalmente (i) si un conjunto de datos se ajusta a una determinada distribución; (ii) si las distribuciones de dos poblaciones son iguales; (iii) si dos eventos pueden ser independientes; y (iv) si hay una variabilidad diferente a la esperada dentro de una población.</para><para id="eip-227">Un parámetro importante en una distribución chi-cuadrado son los grados de libertad <emphasis effect="italics">df</emphasis> en un problema dado. La variable aleatoria en la distribución chi-cuadrado es la suma de cuadrados de <emphasis effect="italics">df</emphasis> variables normales estándar, los cuales deben ser independientes. Las características clave de la distribución chi-cuadrado también dependen directamente de los grados de libertad.</para><para id="eip-26">La curva de la distribución chi-cuadrado es asimétrica hacia la derecha, y su forma depende de los grados de libertad <emphasis effect="italics">df</emphasis>. Para <emphasis effect="italics">df</emphasis> > 90, la curva se aproxima a la distribución normal. Los estadísticos de prueba basados en la distribución chi-cuadrado son siempre mayores o iguales a cero. Estas pruebas de aplicación son casi siempre pruebas de cola derecha.</para></section>
 <section id="eip-257" class="formula-review">
 <title>Revisión de la fórmula</title>
-<para id="eip-153"><emphasis effect="italics">χ</emphasis><sup>2</sup> = (<emphasis effect="italics">Z</emphasis><sub>1</sub>)<sup>2</sup> + (<emphasis effect="italics">Z</emphasis><sub>2</sub>)<sup>2</sup> + … (<emphasis effect="italics">Z<sub>df</sub></emphasis>)<sup>2</sup> variable aleatoria de distribución chi-cuadrado</para><para id="eip-800"><emphasis effect="italics">μ<sub>χ<sup>2</sup></sub></emphasis> = <emphasis effect="italics">df</emphasis> distribución chi-cuadrado media de la población</para><para id="eip-477">Los términos <m:math>
+<para id="eip-153"><emphasis effect="italics">χ</emphasis><sup>2</sup> = (<emphasis effect="italics">Z</emphasis><sub>1</sub>)<sup>2</sup> + (<emphasis effect="italics">Z</emphasis><sub>2</sub>)<sup>2</sup> + … (<emphasis effect="italics">Z<sub>df</sub></emphasis>)<sup>2</sup> variable aleatoria de distribución chi-cuadrado</para><para id="eip-800"><emphasis effect="italics">μ<sub>χ<sup>2</sup></sub></emphasis> = <emphasis effect="italics">df</emphasis> distribución chi-cuadrado media de la población</para><para id="eip-477"><m:math>
  <m:mrow>
   <m:msub>
    <m:mi>σ</m:mi>
@@ -85,7 +85,7 @@
    <m:mrow>
     <m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
      <m:mrow>
-      <m:mi>d</m:mi><m:mi>f</m:mi>
+      <m:mi>d</m:mi><m:mi>e</m:mi>
      </m:mrow>
     <m:mo>)</m:mo></m:mrow>
    </m:mrow>
@@ -126,18 +126,18 @@
 <para id="fs-idp40574880"><emphasis effect="italics">Decida si las siguientes afirmaciones son verdaderas o falsas.</emphasis></para>
 <exercise id="element-612">
 <problem id="id21088269">
-  <para id="fs-idm37824272">A medida que aumenta el número de grados de libertad, el gráfico de la distribución chi-cuadrada parece cada vez más simétrico.</para>
+  <para id="fs-idm37824272">A medida que aumenta el número de grados de libertad, el gráfico de la distribución chi-cuadrado parece cada vez más simétrico.</para>
 </problem>
 <solution id="id21088289">
   <para id="fs-idp108949152">verdadero</para>
 </solution>
 </exercise>
 <exercise id="element-859"><problem id="id21088318">
-  <para id="element-303">La desviación típica de la distribución chi-cuadrada es el doble de la media.</para>
+  <para id="element-303">La desviación típica de la distribución chi-cuadrado es el doble de la media.</para>
 </problem>
 </exercise><exercise id="element-389">
 <problem id="id21088366">
-  <para id="element-110">La media y la mediana de la distribución chi-cuadrada son iguales si <emphasis effect="italics">df</emphasis> = 24.</para>
+  <para id="element-110">La media y la mediana de la distribución chi-cuadrado son iguales si <emphasis effect="italics">df</emphasis> = 24.</para>
 </problem>
 <solution id="id21088416">
   <para id="element-97">falso</para>

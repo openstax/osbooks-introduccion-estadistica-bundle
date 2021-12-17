@@ -9,7 +9,7 @@
 </metadata>
 
 <content>
-  <note id="fs-id1164807092370" class="statistics lab"><title>Intervalo de confianza (altura de las mujeres)</title>
+  <note id="fs-id1164807092370" class="statistics lab"><label/><title>Intervalo de confianza (altura de las mujeres)</title>
 
 <para id="id11579196">Hora de la clase:</para>
 <para id="id13027182">Nombres:</para>
@@ -163,9 +163,9 @@
 </tgroup>
 </table>
 <list id="fs-idp7345344" list-type="enumerated">
-<item><link target-id="id1319758f0167"/> enumera las estaturas de 100 mujeres. Utilice un generador de números aleatorios para seleccionar diez valores de datos aleatorios.</item>
-<item>Calcule la media y la desviación típica de la muestra. Supongamos que se sabe que la desviación típica de la población es de 3,3 pulgadas. Con estos valores, construya un intervalo de confianza del 90 % para su muestra de diez valores. Escriba el intervalo de confianza que obtuvo en el primer espacio de la <link target-id="element-838"/>.</item>
-<item>Ahora escriba su intervalo de confianza en la pizarra. Mientras los demás miembros de la clase escriben sus intervalos de confianza en la pizarra, cópielos en la <link target-id="element-838"/>.
+<item>La <link target-id="id1319758f0167" document=""/> enumera las estaturas de 100 mujeres. Utilice un generador de números aleatorios para seleccionar diez valores de datos aleatorios.</item>
+<item>Calcule la media y la desviación típica de la muestra. Supongamos que se sabe que la desviación típica de la población es de 3,3 pulgadas. Con estos valores, construya un intervalo de confianza del 90 % para su muestra de diez valores. Escriba el intervalo de confianza que obtuvo en el primer espacio de la <link target-id="element-838" document=""/>.</item>
+<item>Ahora escriba su intervalo de confianza en la pizarra. Mientras los demás miembros de la clase escriben sus intervalos de confianza en la pizarra, cópielos en la <link target-id="element-838" document=""/>.
 <table id="element-838" summary="Blank table of 40 empty cells.">
 <title>Intervalos de confianza del 90 %</title>
 <tgroup cols="5"><tbody>
@@ -230,7 +230,7 @@
 </table>
 </item></list> <list id="element-563" list-type="enumerated">
 <title>Preguntas para el debate</title>
-<item>La media real de la población para las 100 estaturas dadas en la <link target-id="id1319758f0167"/> es <emphasis effect="italics">μ</emphasis> = 63,4. Utilizando el listado de clase de los intervalos de confianza, cuente cuántos de ellos contienen la media poblacional <emphasis effect="italics">μ</emphasis>; es decir, para cuántos intervalos el valor de <emphasis effect="italics">μ</emphasis> se encuentra entre los puntos extremos del intervalo de confianza</item>
+<item>La media real de la población para las 100 estaturas dadas en la <link target-id="id1319758f0167" document=""/> es <emphasis effect="italics">μ</emphasis> = 63,4. Utilizando el listado de clase de los intervalos de confianza, cuente cuántos de ellos contienen la media poblacional <emphasis effect="italics">μ</emphasis>; es decir, para cuántos intervalos el valor de <emphasis effect="italics">μ</emphasis> se encuentra entre los puntos extremos del intervalo de confianza</item>
 <item>Divida este número por el número total de intervalos de confianza generados por la clase para determinar el porcentaje de intervalos de confianza que contiene la media <emphasis effect="italics">μ</emphasis>. Escriba este porcentaje aquí: _____________.</item>
 <item>El porcentaje de intervalos de confianza que contienen la media poblacional <emphasis effect="italics">μ</emphasis>, ¿se acerca al 90 %? </item>
 <item>Supongamos que hemos generado 100 intervalos de confianza. ¿Qué cree que pasaría con el porcentaje de intervalos de confianza que contienen la media de la población?</item>

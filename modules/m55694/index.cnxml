@@ -8,12 +8,12 @@
 </metadata>
 
 <content>
-<para id="eip-858">Hasta ahora nuestro interés se ha centrado exclusivamente en el parámetro poblacional μ o su contrapartida en la binomial, p. Seguramente la media de una población es el dato más crítico que se tiene, pero en algunos casos nos interesa la variabilidad de los resultados de alguna distribución. En casi todos los procesos de producción, la calidad se mide no solo por el grado de adecuación de la máquina al objetivo, sino también por la variabilidad del proceso. Si se llenaran bolsas con patas fritas, no solo interesaría el peso promedio de la bolsa, sino también la variación de los pesos. Nadie quiere que se le asegure que el peso promedio es exacto cuando su bolsa no tiene papas fritas. El voltaje eléctrico puede alcanzar cierto nivel promedio, pero una gran variabilidad, los picos, pueden causar graves daños a las máquinas eléctricas, especialmente a las computadoras. No solo me gustaría obtener una nota media alta en mis clases, sino también una baja variación en torno a esta media. En resumen, las pruebas estadísticas relativas a la varianza de una distribución tienen un gran valor y muchas aplicaciones.</para><para id="element-194">Una <term id="term-00001">prueba de una sola varianza</term> supone que la distribución subyacente es <emphasis>normal</emphasis>. Las hipótesis nula y alternativa se plantean en términos de la <term id="term-00002">varianza de la población</term>. El estadístico de prueba es:</para><equation class="unnumbered" id="element-740">Los términos <m:math>
+<para id="eip-858">Hasta ahora nuestro interés se ha centrado exclusivamente en el parámetro poblacional μ o su contrapartida en la binomial, p. Seguramente la media de una población es el dato más crítico que se tiene, pero en algunos casos nos interesa la variabilidad de los resultados de alguna distribución. En casi todos los procesos de producción, la calidad se mide no solo por el grado de adecuación de la máquina al objetivo, sino también por la variabilidad del proceso. Si se llenaran bolsas con patas fritas, no solo interesaría el peso promedio de la bolsa, sino también la variación de los pesos. Nadie quiere que se le asegure que el peso promedio es exacto cuando su bolsa no tiene papas fritas. El voltaje eléctrico puede alcanzar cierto nivel promedio, pero una gran variabilidad, los picos, pueden causar graves daños a las máquinas eléctricas, especialmente a las computadoras. No solo me gustaría obtener una nota media alta en mis clases, sino también una baja variación en torno a esta media. En resumen, las pruebas estadísticas relativas a la varianza de una distribución tienen un gran valor y muchas aplicaciones.</para><para id="element-194">Una <term id="term-00001">prueba de una sola varianza</term> supone que la distribución subyacente es <emphasis>normal</emphasis>. Las hipótesis nula y alternativa se plantean en términos de la <term id="term-00002">varianza de la población</term>. El estadístico de prueba es:</para><equation class="unnumbered" id="element-740"><label/><m:math>
 <m:msubsup><m:mi>χ</m:mi><m:mi>c</m:mi><m:mn>2</m:mn></m:msubsup>
 <m:mo>=</m:mo>
 <m:mfrac>
 <m:mrow>
-<m:mo>(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mspace/>
+<m:mo>(</m:mo><m:mi>n</m:mi><m:mo>–</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mspace/>
 <m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup>
 </m:mrow>
 <m:mrow>
@@ -21,9 +21,9 @@
 </m:mrow></m:mfrac></m:math></equation><para id="element-706">donde:</para>
 <list id="element-706l" list-type="bulleted"><item> <emphasis effect="italics">n</emphasis> = el número total de observaciones en los datos de la muestra </item>
  <item id="element-646"><emphasis effect="italics">s</emphasis><sup>2</sup> = varianza de la muestra </item>
- <item id="element-502">Los términos <m:math><m:msubsup><m:mi>σ</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:math> = valor hipotético de la varianza de la población</item>
-<item>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:math></item>
-<item>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:mo>≠</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:math></item> </list><para id="element-416">Puede pensar en <emphasis effect="italics">s</emphasis> como la variable aleatoria en esta prueba. El número de grados de libertad es <emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> – 1. Una prueba de una sola varianza puede ser de cola derecha, de cola izquierda o de dos colas. El <link target-id="element-174"/> le mostrará cómo establecer las hipótesis nula y alternativa. Las hipótesis nula y alternativa contienen afirmaciones sobre la varianza de la población.</para><example id="element-174">
+ <item id="element-502"><m:math><m:msubsup><m:mi>σ</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:math> = valor hipotético de la varianza de la población</item>
+<item><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:math></item>
+<item><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:mo>≠</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:math></item> </list><para id="element-416">Puede pensar en <emphasis effect="italics">s</emphasis> como la variable aleatoria en esta prueba. El número de grados de libertad es <emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> – 1. Una prueba de una sola varianza puede ser de cola derecha, de cola izquierda o de dos colas. El <link target-id="element-174"/> le mostrará cómo establecer las hipótesis nula y alternativa. Las hipótesis nula y alternativa contienen afirmaciones sobre la varianza de la población.</para><example id="element-174">
   <exercise id="element-514">
    <problem id="id1168324983513">
 <para id="element-687">A los instructores de Matemáticas no solo les interesa saber cómo les va a sus estudiantes en los exámenes, en promedio, sino cómo varían las calificaciones. Para muchos instructores, la varianza (o desviación típica) puede ser más importante que el promedio.</para>
@@ -36,15 +36,15 @@
  </list></solution>
 </exercise>
  </example>
- <note id="fs-idp75827040" class="statistics try"><title>Ejercicio</title>
+ <note id="fs-idp75827040" class="statistics try"><label/><title>Ejercicio</title>
     <exercise id="eip-420">
    <problem id="eip-641">
-  <para id="eip-133">Un instructor de submarinismo quiere registrar las profundidades colectivas de cada una de las inmersiones de sus alumnos durante su entrenamiento. Se interesa por cómo varían las profundidades, aunque todos deberían estar a la misma profundidad. Cree que la desviación típica es de tres pies. Su asistente cree que la desviación típica es de menos de tres pies. Si el instructor tuviera que realizar una prueba, ¿cuáles serían las hipótesis nula y alternativa?</para></problem>
+  <para id="eip-133">Un instructor de submarinismo quiere registrar las profundidades colectivas de cada una de las inmersiones de sus estudiantes durante su entrenamiento. Se interesa por cómo varían las profundidades, aunque todos deberían estar a la misma profundidad. Cree que la desviación típica es de tres pies. Su asistente cree que la desviación típica es de menos de tres pies. Si el instructor tuviera que realizar una prueba, ¿cuáles serían las hipótesis nula y alternativa?</para></problem>
 <solution id="eip-idp87344640">
-
+<label/>
  <para id="eip-712"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 3<sup>2</sup> </para><para id="eip-idp38169856"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> &lt; 3<sup>2</sup> </para></solution>
   </exercise>
- </note><example id="element-28"><exercise id="element-853"><problem id="id2871589"><para id="element-271">Con colas individuales en sus distintas ventanillas, una oficina de correos comprueba que la desviación estándar de los tiempos de espera de los clientes el viernes por la tarde es de 7,2 minutos. La oficina de correos experimenta con una única línea de espera principal y concluye que, para una muestra aleatoria de 25 clientes, el tiempo de espera tiene una desviación estándar de 3,5 minutos un viernes por la tarde.
+ </note><example id="element-28"><exercise id="element-853"><problem id="id2871589"><para id="element-271">Con filas individuales en sus distintas ventanillas, una oficina de correos comprueba que la desviación típica de los tiempos de espera de los clientes el viernes por la tarde es de 7,2 minutos. La oficina de correos experimenta con una única línea de espera principal y concluye que, para una muestra aleatoria de 25 clientes, el tiempo de espera tiene una desviación típica de 3,5 minutos un viernes por la tarde.
 </para><para id="element-677">Con un nivel de significación del 5 %, pruebe la afirmación de que <emphasis>una línea única provoca una variación menor entre los tiempos de espera de los clientes</emphasis>.
   </para></problem>
 <solution id="id1168321500398">
@@ -54,7 +54,7 @@
 </list><para id="element-789">La palabra <emphasis>“menos”</emphasis> indica que se trata de una prueba de cola izquierda.</para><para id="element-760"><emphasis>Distribución para la prueba:</emphasis> <m:math><m:msubsup><m:mi>χ</m:mi><m:mn>24</m:mn><m:mn>2</m:mn></m:msubsup></m:math>, donde: <list id="element-12421" list-type="bulleted"><item><emphasis effect="italics">n</emphasis> = el número de clientes muestreados</item>
  <item><emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> – 1 = 25 – 1 = 24</item>
 </list></para><para id="element-85"><emphasis>Calcule el estadístico de prueba:</emphasis>
-</para><para id="element-10">Los términos <m:math>
+</para><para id="element-10"><m:math>
  <m:mrow>
   <m:msubsup>
    <m:mi>χ</m:mi>
@@ -77,7 +77,7 @@
   </m:mfrac>
   <m:mo>=</m:mo><m:mfrac>
    <m:mrow>
-    <m:mo stretchy="false">(</m:mo><m:mn>25</m:mn><m:mtext> </m:mtext><m:mo>- −</m:mo><m:mtext> </m:mtext><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:msup>
+    <m:mo stretchy="false">(</m:mo><m:mn>25</m:mn><m:mtext> </m:mtext><m:mo>–</m:mo><m:mtext> </m:mtext><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:msup>
      <m:mrow>
       <m:mo stretchy="false">(</m:mo><m:mn>3,5</m:mn><m:mo stretchy="false">)</m:mo>
      </m:mrow>
@@ -96,32 +96,32 @@
   <m:mo>=</m:mo><m:mn>5,67</m:mn>
  </m:mrow>
 </m:math></para><para id="element-801">donde <emphasis effect="italics">n</emphasis> = 25, <emphasis effect="italics">s</emphasis> = 3,5 y <emphasis effect="italics">σ</emphasis> = 7,2.</para>
- <figure id="fs-idp135015696"><media id="id1168325355960" alt="Se trata de una curva de chi-cuadrado no simétrica con valores de 0 y 5,67 identificados en el eje horizontal. El punto 5,67 está a la izquierda del pico de la curva. Una línea vertical ascendente se extiende desde 5,67 hasta la curva y la región a la izquierda de esta línea está sombreada. El área sombreada es igual al valor p." display="block"><image src="../../media/fig-ch11_04_02m.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-970">El gráfico de chi cuadrado muestra la distribución y marca el valor crítico con 24 grados de libertad a un nivel de confianza del 95 %, α = 0,05, 13,85. El valor crítico de 13,85 procede de la tabla de chi cuadrado, que se lee de forma muy parecida a la tabla t de Student. La diferencia es que la distribución <emphasis effect="italics">t</emphasis> de Student es simétrica y la distribución de chi cuadrado no lo es. En la parte superior de la tabla de chi cuadrado no solo vemos los valores conocidos 0,05, 0,10, etc., sino también 0,95, 0,975, etc. Estas son las columnas que se utilizan para hallar el valor crítico de la izquierda. El gráfico también marca el valor <emphasis effect="italics">χ</emphasis><sup>2</sup> calculado del estadístico de prueba de 5,67. Al comparar el estadístico de prueba con el valor crítico, como hemos hecho con todas las demás pruebas de hipótesis, llegamos a la conclusión.</para><para id="element-726"><emphasis>Tome una decisión:</emphasis> Como el estadístico de prueba calculado está en la cola, no podemos aceptar <emphasis effect="italics">H<sub>0</sub></emphasis>. Esto significa que se rechaza <emphasis effect="italics">σ</emphasis><sup>2</sup> ≥ 7,2<sup>2</sup>. En otras palabras, no cree que la variación de los tiempos de espera sea de 7,2 minutos o más, sino que es menor.</para><para id="element-952"><emphasis>Conclusión:</emphasis> A un nivel de significación del 5 %, a partir de los datos, hay pruebas suficientes para concluir que una sola fila provoca una menor variación entre los tiempos de espera <emphasis>o</emphasis> que con una sola fila, los tiempos de espera de los clientes varían menos de 7,2 minutos.</para>
+ <figure id="fs-idp135015696"><media id="id1168325355960" alt="Se trata de una curva de chi-cuadrado no simétrica con valores de 0 y 5,67 identificados en el eje horizontal. El punto 5,67 está a la izquierda del pico de la curva. Una línea vertical ascendente se extiende desde 5,67 hasta la curva y la región a la izquierda de esta línea está sombreada. El área sombreada es igual al valor p." display="block"><image src="../../media/fig-ch11_04_02m.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-970">El gráfico de chi-cuadrado muestra la distribución y marca el valor crítico con 24 grados de libertad a un nivel de confianza del 95 %, α = 0,05, 13,85. El valor crítico de 13,85 procede de la tabla de chi-cuadrado, que se lee de forma muy parecida a la tabla t de Student. La diferencia es que la distribución <emphasis effect="italics">t</emphasis> de Student es simétrica y la distribución de chi-cuadrado no lo es. En la parte superior de la tabla de chi-cuadrado no solo vemos los valores conocidos 0,05, 0,10, etc., sino también 0,95, 0,975, etc. Estas son las columnas que se utilizan para hallar el valor crítico de la izquierda. El gráfico también marca el valor <emphasis effect="italics">χ</emphasis><sup>2</sup> calculado del estadístico de prueba de 5,67. Al comparar el estadístico de prueba con el valor crítico, como hemos hecho con todas las demás pruebas de hipótesis, llegamos a la conclusión.</para><para id="element-726"><emphasis>Tome una decisión:</emphasis> Como el estadístico de prueba calculado está en la cola, no podemos aceptar <emphasis effect="italics">H<sub>0</sub></emphasis>. Esto significa que se rechaza <emphasis effect="italics">σ</emphasis><sup>2</sup> ≥ 7,2<sup>2</sup>. En otras palabras, no cree que la variación de los tiempos de espera sea de 7,2 minutos o más, sino que es menor.</para><para id="element-952"><emphasis>Conclusión:</emphasis> A un nivel de significación del 5 %, a partir de los datos, hay pruebas suficientes para concluir que una sola fila provoca una menor variación entre los tiempos de espera <emphasis>o</emphasis> que con una sola fila, los tiempos de espera de los clientes varían menos de 7,2 minutos.</para>
  </solution>
  </exercise>
  </example>
- <example id="eip-892"><para id="eip-389">El profesor Hadley tiene debilidad por las donas rellenas de crema, pero cree que algunas panaderías no las rellenan adecuadamente. Una muestra de 24 donas revela una cantidad media de relleno igual a 0,04 tazas, y la desviación estándar de la muestra es de 0,11 tazas. Obviamente, al profesor Hadley le interesa la cantidad promedio de relleno, pero le angustia el hecho de que una dona sea radicalmente diferente de otra. Al profesor Hadley no le gustan las sorpresas.
+ <example id="eip-892"><para id="eip-389">El profesor Hadley tiene debilidad por las donas rellenas de crema, pero cree que algunas panaderías no las rellenan adecuadamente. Una muestra de 24 donas revela una cantidad media de relleno igual a 0,04 tazas, y la desviación típica de la muestra es de 0,11 tazas. Obviamente, al profesor Hadley le interesa la cantidad promedio de relleno, pero le angustia el hecho de que una dona sea radicalmente diferente de otra. Al profesor Hadley no le gustan las sorpresas.
 </para><exercise id="eip-456"><problem id="eip-503">
   <para id="eip-914">Pruebe al 95% la hipótesis nula de que la varianza poblacional del relleno de las donas es significativamente diferente de la cantidad promedio de relleno.
   </para></problem>
 
 <solution id="eip-682">
   <para id="eip-311">Es evidente que se trata de un problema que tiene que ver con las varianzas. En este caso, estamos analizando una sola muestra en lugar de comparar dos muestras de poblaciones diferentes. Las hipótesis nula y alternativa son las siguientes:
-<equation class="unnumbered" id="eip-id1170359587783">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo>
+<equation class="unnumbered" id="eip-id1170359587783"><label/><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo>
 <m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0,04</m:mn></m:math>
 </equation>
-<equation class="unnumbered" id="eip-id1170361384669">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo>
+<equation class="unnumbered" id="eip-id1170361384669"><label/><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo>
 <m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:mo>≠</m:mo><m:mn>0,04</m:mn></m:math>
 </equation>
 La prueba está configurada como de dos colas porque el profesor Hadley ha expresado su preocupación por una variación excesiva en el relleno, así como por una variación insuficiente: su disgusto por las sorpresas es cualquier nivel de relleno fuera del promedio previsto de 0,04 tazas. Se calcula que el estadístico de prueba es:
-<equation class="unnumbered" id="eip-id1164614336450">Los términos <m:math>
+<equation class="unnumbered" id="eip-id1164614336450"><label/><m:math>
 <m:mi>χ</m:mi><m:mover><m:mi>c</m:mi><m:mn>2</m:mn></m:mover>
 <m:mo>=</m:mo>
 <m:mfrac><m:mrow><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>–</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mrow>
-<m:mrow><m:msubsup><m:mi>σ</m:mi><m:mi>i</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow>
+<m:mrow><m:msubsup><m:mi>σ</m:mi><m:mi>o</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow>
 </m:mfrac>
 <m:mo>=</m:mo>
-<m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>24</m:mn><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:msup><m:mn>0,11</m:mn><m:mn>2</m:mn></m:msup></m:mrow>
+<m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>24</m:mn><m:mo>–</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:msup><m:mn>0,11</m:mn><m:mn>2</m:mn></m:msup></m:mrow>
 <m:mrow><m:msup><m:mn>0,04</m:mn><m:mn>2</m:mn></m:msup></m:mrow>
 </m:mfrac>
 <m:mo>=</m:mo>
@@ -134,17 +134,17 @@ El valor calculado del estadístico de prueba <m:math><m:msup><m:mi>χ</m:mi><m:
 <figure id="eip-id1165734451518"><media id="eip-id1165743440253" alt=".">
 <image mime-type="image/jpeg" src="../../media/fig-ch11_04_06.jpg"/>
 </media>
-</figure></example><note id="fs-idp108749600" class="statistics try"><title>Ejercicio</title>
+</figure></example><note id="fs-idp108749600" class="statistics try"><label/><title>Ejercicio</title>
     <exercise id="eip-209">
    <problem id="eip-849">
   <para id="eip-37">La Comisión Federal de Comunicaciones (Federal Communications Commission, FCC) hace pruebas de velocidad de banda ancha para medir cuántos datos por segundo pasan entre la computadora de un consumidor e internet. En agosto de 2012, la desviación típica de las velocidades de internet entre los proveedores de servicios de internet (PSI) era del 12,2 %. Supongamos que se toma una muestra de 15 PSI y que la desviación típica es de 13,2. Un analista afirma que la desviación típica de las velocidades es mayor que la comunicada. Plantee las hipótesis nula y alternativa, calcule los grados de libertad, el estadístico de prueba, trace el gráfico de la distribución, marque el área asociada al nivel de confianza y extraiga una conclusión. Prueba al nivel de significación del 1 %.</para></problem>
 <solution id="eip-idp33472464">
-
- <para id="eip-546"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 12,2<sup>2</sup></para><para id="eip-idm82917168"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> > 12,2<sup>2</sup> <newline/><emphasis effect="italics">df</emphasis> = 14 estadística de la prueba <newline/>chi<sup>2</sup> = 16,39</para><figure id="fs-idp135068032"><media id="eip-idm127786800" alt="" display="block">
+<label/>
+ <para id="eip-546"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 12,2<sup>2</sup></para><para id="eip-idm82917168"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> > 12,2<sup>2</sup> <newline/><emphasis effect="italics">df</emphasis> = 14 estadístico de prueba <newline/>chi<sup>2</sup> = 16,39</para><figure id="fs-idp135068032"><media id="eip-idm127786800" alt="" display="block">
   <image mime-type="image/jpeg" src="../../media/CNX_Stats_C11_M08_tryit001.jpg" width="380"/>
 </media></figure><para id="eip-idm175783712">El valor <emphasis effect="italics">p</emphasis> es de 0,2902, por lo que rechazamos la hipótesis nula. No hay pruebas suficientes para sugerir que la varianza sea superior al 12,2<sup>2</sup>.</para>
 <note id="eip-idp106427424" class="statistics calculator">
-
+<label/>
 <para id="eip-idm5589248">Pulgadas <code>2nd DISTR</code>, use7:<code>χ2cdf</code>. La sintaxis es <code>(inferior, superior, df)</code> para la lista de parámetros. <code>χ2cdf(16,39; 10^99; 14)</code>. El valor <emphasis effect="italics">p</emphasis> = 0,2902.</para>
 </note>
  </solution>
@@ -155,11 +155,11 @@ El valor calculado del estadístico de prueba <m:math><m:msup><m:mi>χ</m:mi><m:
 <para id="fs-idm155607568">Datos del Banco Mundial, 5 de junio de 2012.</para>
 </section>
 <section id="fs-idm93039536" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="eip-212">Para comprobar la variabilidad, utilice la prueba de chi-cuadrado de una sola varianza. La prueba puede ser de cola izquierda, derecha o doble, y sus hipótesis se expresan siempre en términos de varianza (o desviación típica).</para></section>
 <section id="fs-idm8553712" class="formula-review">
 <title>Revisión de la fórmula</title>
-<para id="fs-idm93679184">Los términos <m:math>
+<para id="fs-idm93679184"><m:math>
  <m:mrow>
   <m:msup>
    <m:mi>χ</m:mi>
@@ -185,7 +185,7 @@ El valor calculado del estadístico de prueba <m:math><m:msup><m:mi>χ</m:mi><m:
    </m:mrow>
   </m:mfrac>
  </m:mrow>
-</m:math> Prueba de una estadística de varianza única donde:<newline/> <emphasis effect="italics">n</emphasis>: tamaño de la muestra<newline/> <emphasis effect="italics">s</emphasis>: desviación estándar de la muestra<newline/> <m:math><m:msub><m:mi>σ</m:mi><m:mn>0</m:mn></m:msub></m:math>: valor hipotético de la desviación estándar de la población</para><para id="eip-902"><emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> – 1 grado de libertad</para><list id="eip-29" list-type="bulleted"><title>Prueba de una sola varianza</title><item>Utilice la prueba para determinar la variación.</item>
+</m:math> Prueba de una estadística de varianza única donde:<newline/> <emphasis effect="italics">n</emphasis>: tamaño de la muestra<newline/> <emphasis effect="italics">s</emphasis>: desviación típica de la muestra<newline/> <m:math><m:msub><m:mi>σ</m:mi><m:mn>0</m:mn></m:msub></m:math>: valor hipotético de la desviación típica de la población</para><para id="eip-902"><emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> – 1 grado de libertad</para><list id="eip-29" list-type="bulleted"><title>Prueba de una sola varianza</title><item>Utilice la prueba para determinar la variación.</item>
 <item>Los grados de libertad son el número de muestras – 1.</item>
 <item>El estadístico de prueba es <m:math>
  <m:mrow>
@@ -290,7 +290,7 @@ El valor calculado del estadístico de prueba <m:math><m:msup><m:mi>χ</m:mi><m:
   <problem id="fs-idm73044992">
    <para id="fs-idm74715968">Grafique la situación. Identifique y escale el eje horizontal. Marque la media y el estadístico de prueba. Sombree el área asociada al nivel de confianza.</para></problem>
   <solution id="fs-idp93898016">
-   <para id="fs-idp3655968">Compruebe la solución del estudiante</para>
+   <para id="fs-idp3655968">Compruebe la solución del estudiante.</para>
   </solution>
  </exercise>
  <exercise id="fs-idm73610688"><problem id="fs-idm57687392">
@@ -326,7 +326,7 @@ El valor calculado del estadístico de prueba <m:math><m:msup><m:mi>χ</m:mi><m:
 <item>chi-cuadrado con <emphasis effect="italics">df</emphasis> = 42</item>
 <item>estadístico de prueba = 26,88</item>
 
-<item>Compruebe la solución del estudiante</item>
+<item>Compruebe la solución del estudiante.</item>
 <item>
      <list id="fs-idp14221792" list-type="enumerated" number-style="lower-roman"><item>Alfa = 0,05</item>
       <item>Decisión: No se puede rechazar la hipótesis nula.</item>
@@ -348,7 +348,7 @@ El valor calculado del estadístico de prueba <m:math><m:msup><m:mi>χ</m:mi><m:
     <item><emphasis effect="italics">df</emphasis> = 17</item>
     <item>distribución chi-cuadrado con <emphasis effect="italics">df</emphasis> = 17</item>
     <item>estadístico de prueba = 28,73</item>
-    <item>Compruebe la solución del estudiante</item>
+    <item>Compruebe la solución del estudiante.</item>
     <item>
      <list id="fs-idp134836976" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
       <item>Decisión: No se puede aceptar la hipótesis nula</item>
@@ -396,10 +396,10 @@ El valor calculado del estadístico de prueba <m:math><m:msup><m:mi>χ</m:mi><m:
    <list id="fs-idp70912512" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis> = 2</item>
     <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis> ≠ 2</item>
     <item><emphasis effect="italics">df</emphasis> = 14</item>
-    <item>chi-square distribution with <emphasis effect="italics">df</emphasis> = 14</item>
+    <item>distribución chi-cuadrado con <emphasis effect="italics">df</emphasis> = 14</item>
     <item>estadístico de prueba chi-cuadrado = 5,2094</item>
 
-    <item>Compruebe la solución del estudiante</item>
+    <item>Compruebe la solución del estudiante.</item>
     <item>
      <list id="fs-idp46969120" list-type="enumerated" number-style="lower-roman"><item>Alfa = 0,05</item>
       <item>Decisión: No se puede aceptar la hipótesis nula</item>

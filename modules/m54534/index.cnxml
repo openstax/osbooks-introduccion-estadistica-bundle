@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-<para id="eip-125">La distribución muestral es una distribución teórica. It is created by taking many samples of size n from a population. Cada media muestral se trata entonces como una única observación de esta nueva distribución, la distribución muestral. La genialidad de pensar de esta manera es que reconoce que cuando tomamos una muestra estamos creando una observación y esa observación debe provenir de alguna distribución particular. El teorema del límite central responde a la pregunta: ¿de qué distribución procede la media de una muestra? Si se descubre esto, entonces podemos tratar una media muestral como cualquier otra observación y calcular probabilidades sobre los valores que puede tomar. En efecto, hemos pasado del mundo de la estadística, en el que solo conocemos lo que tenemos de la muestra, al mundo de la probabilidad, en el que conocemos la distribución de la que procede la media muestral y los parámetros de esa distribución. </para><para id="eip-663">Las razones por las que se toma una muestra de una población son obvias. El tiempo y el gasto de comprobar cada factura para determinar su validez o cada envío para ver si contiene todos los artículos puede superar con creces el coste de los errores de facturación o envío. En el caso de algunos productos, el muestreo requeriría su destrucción, lo que se denomina muestreo destructivo. Un ejemplo de ello es la medición de la capacidad de un metal para resistir la corrosión del agua salada en las piezas de los buques oceánicos.</para><para id="eip-500">El muestreo plantea, pues, una cuestión importante: qué muestra se ha extraído. Incluso si la muestra se extrajera al azar, en teoría hay un número casi infinito de muestras. Con solo 100 artículos, se pueden extraer más de 75 millones de muestras únicas de tamaño cinco. Si hay seis en la muestra, el número de muestras posibles aumenta a algo más de mil millones. Entonces, de los 75 millones de muestras posibles, ¿cuál obtuvo? Si hay variación en los artículos que se van a muestrear, habrá variación en las muestras. Se podría extraer una muestra "desafortunada" y sacar conclusiones muy erróneas sobre la población. Este reconocimiento de que cualquier muestra que extraigamos es en realidad solo una de una distribución de muestras nos proporciona el que probablemente sea el teorema más importante de la estadística: <term id="term-00001">el teorema del límite central</term>. Sin el teorema del límite central sería imposible pasar a la estadística inferencial a partir de la teoría de la probabilidad simple. En su forma más básica, el teorema del límite central establece que, <emphasis effect="bold">independientemente</emphasis> de la función de densidad de probabilidad subyacente de los datos de la población, la distribución teórica de las medias de las muestras de la población se distribuirá normalmente. En esencia, esto dice que la media de una muestra debe tratarse como una observación extraída de una distribución normal. El Teorema del Límite Central solo se cumple si el tamaño de la muestra es "suficientemente grande", lo que se ha demostrado que es de solo 30 observaciones o más. </para><para id="eip-143">La <link target-id="fs-id7367289"/> muestra gráficamente esta importante propuesta. </para><figure id="fs-id7367289"><media id="fs-id1166512578484" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch07_01_01n.jpg" width="420"/></media></figure><para id="eip-30">Observe que el eje horizontal del panel superior está etiquetado como X. Se trata de las observaciones individuales de la población. Esta es la distribución <emphasis effect="bold">desconocida</emphasis> de los valores de la población. El gráfico está dibujado a propósito de forma cuadriculada para mostrar que no importa lo extraña que sea en realidad. Recuerde que nunca sabremos cómo es esta distribución, ni su media ni su desviación típica.</para><para id="eip-184">El eje horizontal del panel inferior está etiquetado como <m:math>
+<para id="eip-125">La distribución muestral es una distribución teórica. Se crea tomando muchas muestras de tamaño n de una población. Cada media muestral se trata entonces como una única observación de esta nueva distribución, la distribución muestral. La genialidad de pensar de esta manera es que reconoce que cuando tomamos una muestra estamos creando una observación y esa observación debe provenir de alguna distribución particular. El teorema del límite central responde a la pregunta: ¿de qué distribución procede la media de una muestra? Si se descubre esto, entonces podemos tratar una media muestral como cualquier otra observación y calcular probabilidades sobre los valores que puede tomar. En efecto, hemos pasado del mundo de la estadística, en el que solo conocemos lo que tenemos de la muestra, al mundo de la probabilidad, en el que conocemos la distribución de la que procede la media muestral y los parámetros de esa distribución. </para><para id="eip-663">Las razones por las que se toma una muestra de una población son obvias. El tiempo y el gasto de comprobar cada factura para determinar su validez o cada envío para ver si contiene todos los artículos puede superar con creces el coste de los errores de facturación o envío. En el caso de algunos productos, el muestreo requeriría su destrucción, lo que se denomina muestreo destructivo. Un ejemplo de ello es la medición de la capacidad de un metal para resistir la corrosión del agua salada en las piezas de los buques oceánicos.</para><para id="eip-500">El muestreo plantea, pues, una cuestión importante: qué muestra se ha extraído. Incluso si la muestra se extrajera al azar, en teoría hay un número casi infinito de muestras. Con solo 100 artículos, se pueden extraer más de 75 millones de muestras únicas de tamaño cinco. Si hay seis en la muestra, el número de muestras posibles aumenta a algo más de mil millones. Entonces, de los 75 millones de muestras posibles, ¿cuál obtuvo? Si hay variación en los artículos que se van a muestrear, habrá variación en las muestras. Se podría extraer una muestra "desafortunada" y sacar conclusiones muy erróneas sobre la población. Este reconocimiento de que cualquier muestra que extraigamos es en realidad solo una de una distribución de muestras nos proporciona el que probablemente sea el teorema más importante de la estadística: <term id="term-00001">el teorema del límite central</term>. Sin el teorema del límite central sería imposible pasar a la estadística inferencial a partir de la teoría de la probabilidad simple. En su forma más básica, el teorema del límite central establece que, <emphasis effect="bold">independientemente</emphasis> de la función de densidad de probabilidad subyacente de los datos de la población, la distribución teórica de las medias de las muestras de la población se distribuirá normalmente. En esencia, esto dice que la media de una muestra debe tratarse como una observación extraída de una distribución normal. El Teorema del Límite Central solo se cumple si el tamaño de la muestra es "suficientemente grande", lo que se ha demostrado que es de solo 30 observaciones o más. </para><para id="eip-143">La <link target-id="fs-id7367289"/> muestra gráficamente esta importante propuesta. </para><figure id="fs-id7367289"><media id="fs-id1166512578484" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch07_01_01n.jpg" width="420"/></media></figure><para id="eip-30">Observe que el eje horizontal del panel superior está etiquetado como X. Se trata de las observaciones individuales de la población. Esta es la distribución <emphasis effect="bold">desconocida</emphasis> de los valores de la población. El gráfico está dibujado a propósito de forma cuadriculada para mostrar que no importa lo extraña que sea en realidad. Recuerde que nunca sabremos cómo es esta distribución, ni su media ni su desviación típica.</para><para id="eip-184">El eje horizontal del panel inferior está etiquetado como <m:math>
 <m:mover><m:mi>X</m:mi><m:mo>–</m:mo>
 </m:mover>
 </m:math>'s. Se trata de la distribución teórica denominada distribución muestral de las medias. Cada observación de esta distribución es una media muestral. Todas estas medias muestrales se calcularon a partir de muestras individuales con el mismo tamaño de muestra. La distribución muestral teórica contiene todos los valores medios muestrales de todas las muestras posibles que podrían haberse tomado de la población. Por supuesto, nadie tomaría realmente todas estas muestras, pero si lo hicieran, este es el aspecto que tendrían. Y el teorema del límite central dice que se distribuirán normalmente.</para><para id="eip-665">El teorema del límite central va más allá y nos indica la media y la desviación típica de esta distribución teórica. </para><table id="eip-121" summary="Table">
@@ -29,14 +29,14 @@
   <row>
     <entry>Media</entry>
     <entry>μ</entry>
-    <entry>Los términos <m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:math></entry>
-    <entry>Los términos <m:math><m:msub><m:mi>μ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub><m:mspace width="1em"/><m:mtext>y E</m:mtext><m:mo>(</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>μ</m:mi></m:math></entry>
+    <entry><m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:math></entry>
+    <entry><m:math><m:msub><m:mi>μ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub><m:mspace width="1em"/><m:mtext>y E</m:mtext><m:mo>(</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>μ</m:mi></m:math></entry>
   </row>
   <row>
     <entry>Desviación típica</entry>
     <entry>σ</entry>
     <entry>s</entry>
-    <entry>Los términos <m:math><m:msub><m:mi>σ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>σ</m:mi></m:mrow><m:mrow><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac></m:math></entry>
+    <entry><m:math><m:msub><m:mi>σ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>σ</m:mi></m:mrow><m:mrow><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac></m:math></entry>
   </row>
 </tbody>
 
@@ -67,7 +67,7 @@
 <m:mo>–</m:mo>
 </m:mover>
 </m:math>, de la misma manera que lo hicimos para extraer observaciones específicas, X's, cuando conocíamos la media y la desviación típica de la población y que los datos de la población estaban distribuidos normalmente. La fórmula de estandarización tiene que modificarse para reconocer que la media y la desviación típica de la distribución muestral, a veces llamada error estándar de la media, son diferentes de las de la distribución de la población, pero por lo demás no ha cambiado nada. La nueva fórmula de estandarización es
-</para><para id="eip-584"><equation class="unnumbered" id="eip-id1167359909290"><m:math display="block">
+</para><para id="eip-584"><equation class="unnumbered" id="eip-id1167359909290"><label/><m:math display="block">
 <m:mrow>
 <m:mi>Z</m:mi><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -75,7 +75,7 @@
 <m:mi>X</m:mi>
 <m:mo>–</m:mo>
 </m:mover>
-<m:mo>- −</m:mo><m:msub>
+<m:mo>–</m:mo><m:msub>
 <m:mi>μ</m:mi>
 <m:mover>
 <m:mi>X</m:mi>
@@ -129,13 +129,13 @@
 </section>
 
 <section id="fs-idm33599328" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idm66102448">En una población cuya distribución puede ser conocida o desconocida, si el tamaño (<emphasis effect="italics">n</emphasis>) de las muestras es suficientemente grande, la distribución de las medias muestrales será aproximadamente normal. La media de las medias muestrales será igual a la media poblacional. La desviación típica de la distribución de las medias muestrales, denominada error estándar de la media, es igual a la desviación típica de la población dividida entre la raíz cuadrada del tamaño de la muestra (<emphasis effect="italics">n</emphasis>).</para></section>
 
 
 <section id="fs-idm104045584" class="formula-review">
 <title>Revisión de la fórmula</title>
-<para id="fs-idm43969232">El teorema del límite central para las medias muestrales: <newline/></para><para id="eip-55">Los términos <m:math>
+<para id="fs-idm43969232">El teorema del límite central para las medias muestrales: <newline/></para><para id="eip-55"><m:math>
 <m:mover>
 <m:mi>X</m:mi>
 <m:mo>–</m:mo>
@@ -164,7 +164,7 @@
 </m:mrow>
 <m:mo>)</m:mo></m:mrow>
 </m:mrow>
-</m:math> grandes.</para><para id="eip-218">Los términos <m:math>
+</m:math></para><para id="eip-218"><m:math>
 <m:mrow>
 <m:mi>Z</m:mi><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -172,7 +172,7 @@
 <m:mi>X</m:mi>
 <m:mo>–</m:mo>
 </m:mover>
-<m:mo>- −</m:mo><m:msub>
+<m:mo>–</m:mo><m:msub>
 <m:mi>μ</m:mi>
 <m:mover>
 <m:mi>X</m:mi>
@@ -213,7 +213,7 @@
   <m:mo>–</m:mo>
  </m:mover>
 
-<m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub></m:math></para><para id="fs-idp59416400">Teorema del límite central de las medias muestrales de Puntuación z <m:math>
+<m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub></m:math></para><para id="fs-idp59416400">Teorema del límite central de las medias muestrales de puntuación z <m:math>
 <m:mrow>
 <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -221,7 +221,7 @@
 <m:mi>x</m:mi>
 <m:mo>–</m:mo>
 </m:mover>
-<m:mo>- −</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub>
+<m:mo>–</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub>
 </m:mrow>
 <m:mrow>
 <m:mrow><m:mo>(</m:mo>
@@ -267,7 +267,7 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math></para><para id="eip-69">Factor de corrección de la población finita para la distribución muestral de las medias: <m:math><m:mi>Z</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>-</m:mo><m:mi>μ</m:mi></m:mrow><m:mrow><m:mfrac><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac><m:mo>·</m:mo><m:msqrt><m:mfrac><m:mrow><m:mi>N</m:mi><m:mo>- −</m:mo><m:mi>n</m:mi></m:mrow><m:mrow><m:mi>N</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:msqrt></m:mrow></m:mfrac></m:math></para><para id="eip-225">Factor de corrección de la población finita para la distribución muestral de las proporciones: <m:math><m:msub><m:mi>σ</m:mi><m:mi>p'</m:mi></m:msub><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:msqrt><m:mo>×</m:mo><m:msqrt><m:mfrac><m:mrow><m:mi>N</m:mi><m:mo>- −</m:mo><m:mi>n</m:mi></m:mrow><m:mrow><m:mi>N</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:msqrt></m:math></para></section>
+</m:math></para><para id="eip-69">Factor de corrección de la población finita para la distribución muestral de las medias: <m:math><m:mi>Z</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>–</m:mo><m:mi>μ</m:mi></m:mrow><m:mrow><m:mfrac><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac><m:mo>·</m:mo><m:msqrt><m:mfrac><m:mrow><m:mi>N</m:mi><m:mo>–</m:mo><m:mi>n</m:mi></m:mrow><m:mrow><m:mi>N</m:mi><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:msqrt></m:mrow></m:mfrac></m:math></para><para id="eip-225">Factor de corrección de la población finita para la distribución muestral de las proporciones: <m:math><m:msub><m:mi>σ</m:mi><m:mi>p'</m:mi></m:msub><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:msqrt><m:mo>×</m:mo><m:msqrt><m:mfrac><m:mrow><m:mi>N</m:mi><m:mo>–</m:mo><m:mi>n</m:mi></m:mrow><m:mrow><m:mi>N</m:mi><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:msqrt></m:math></para></section>
 
 
 <section id="fs-idp66376176" class="free-response">
@@ -285,7 +285,7 @@
  </m:mover>
 
 </m:math> = ____________</item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mover>
 <m:mi>X</m:mi>
 <m:mo>–</m:mo>
@@ -298,13 +298,13 @@
 <solution id="fs-idp10454080">
 <list id="fs-idm137132816" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">Χ</emphasis> = cantidad de cambio que llevan los estudiantes</item>
 <item><emphasis effect="italics">Χ</emphasis> ~ <emphasis effect="italics">E</emphasis>(0,88; 0,88)</item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mover>
 <m:mi>X</m:mi>
 <m:mo>–</m:mo>
 </m:mover>
-</m:math> = cantidad de cambio media llevada por una muestra de 25 estudiantes.</item>
-<item>Los términos <m:math>
+</m:math> = cantidad de cambio promedio llevada por una muestra de 25 estudiantes.</item>
+<item><m:math>
 <m:mover>
 <m:mi>X</m:mi>
 <m:mo>–</m:mo>
@@ -377,7 +377,7 @@
  </m:mover>
 
 </m:math> = _____________</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
@@ -416,7 +416,7 @@
 </m:math> el promedio de las 49 carreras.</para>
 
 <list id="element-45" list-type="enumerated" number-style="lower-alpha">
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
@@ -425,7 +425,7 @@
 </m:math> ~ _____(_____,_____)</item>
 <item>Calcule la probabilidad de que el corredor tenga un promedio entre 142 y 146 minutos en estos 49 maratones.</item>
 <item>Calcule el percentil 80<sup/> del promedio de estos 49 maratones.</item>
-<item>Calcule la mediana de los tiempos medios de ejecución.</item></list></problem>
+<item>Calcule la mediana de los tiempos promedio de ejecución.</item></list></problem>
 
 <!-- <solution id="id6533816">
 <list id="element-402" list-type="enumerated" number-style="lower-alpha">
@@ -466,15 +466,15 @@
  </m:mover>
 
 </m:math> = _____________</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
 
 </m:math> ~ _____(_____,_____)</item>
-<item>Calcule el primer cuartil para la duración media de la canción.</item>
-<item>El IQR (rango intercuartil) para la longitud media de la canción es de _______-_______.</item></list></problem>
+<item>Calcule el primer cuartil para la duración promedio de la canción.</item>
+<item>El IQR (rango intercuartil) para la longitud promedio de la canción es de _______-_______.</item></list></problem>
 <solution id="fs-idm135637280">
 <list id="fs-idm135637024" list-type="enumerated" number-style="lower-alpha"><item>la duración de una canción, en minutos, en la colección</item>
 <item><emphasis effect="italics">U</emphasis>(2, 3,5)</item>
@@ -492,11 +492,11 @@
 <item>En palabras, <m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
-  <m:mo>-</m:mo>
+  <m:mo>–</m:mo>
  </m:mover>
 
 </m:math> = _____________</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
@@ -579,7 +579,7 @@
 
 </m:math> = porcentaje promedio de calorías de grasa.</para>
 <list id="eip-idm27753728" list-type="enumerated" number-style="lower-alpha">
-<item>Los términos <m:math>
+<item><m:math>
 <m:mover accent="true">
 <m:mi>X</m:mi>
 <m:mo>–</m:mo>
@@ -626,14 +626,14 @@
 <item>En palabras, <m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
-  <m:mo>-</m:mo>
+  <m:mo>–</m:mo>
  </m:mover>
 
 </m:math> = _____________</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
-  <m:mo>-</m:mo>
+  <m:mo>–</m:mo>
  </m:mover>
 
 </m:math> ~ _____(_____,_____)</item>
@@ -642,7 +642,7 @@
 <solution id="fs-idm50399184">
 <list id="fs-idp55008880" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> = los ingresos anuales de alguien en un país del tercer mundo</item>
 <item>el salario promedio de las muestras de 1.000 residentes de un país del tercer mundo</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
@@ -659,7 +659,7 @@
      <m:mrow>
       <m:msqrt>
        <m:mrow>
-        <m:mtext>1000</m:mtext>
+        <m:mtext>1.000</m:mtext>
        </m:mrow>
       </m:msqrt>
 
@@ -670,7 +670,7 @@
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math></item>
-<item>Las diferencias muy amplias en los valores de los datos pueden tener medias más pequeñas que las desviaciones típicas.</item>
+<item>Las diferencias muy amplias en los valores de los datos pueden tener promedios más pequeños que las desviaciones típicas.</item>
 <item>La distribución de la media muestral tendrá mayores probabilidades de acercarse a la media de la población. <newline/><emphasis effect="italics">P</emphasis>(2.000 &lt; <m:math>
 <m:mover accent="true">
 <m:mi>X</m:mi>
@@ -687,7 +687,7 @@
 </exercise>
 
 <exercise id="element-338"><problem id="id6538396">
-<para id="element-943">¿Cuál de las siguientes opciones NO ES CIERTA sobre la distribución de las medias?</para>
+<para id="element-943">¿Cuál de las siguientes opciones NO ES CIERTA sobre la distribución de los promedios?</para>
 <list id="element-992" list-type="enumerated" number-style="lower-alpha"><item>La media, la mediana y la moda son iguales.</item>
 <item>El área debajo de la curva es uno.</item>
 <item>La curva nunca toca el eje <emphasis effect="italics">x</emphasis>.</item>
@@ -698,17 +698,17 @@
 <para id="element-60">d</para>
 </solution> -->
 </exercise><exercise id="element-680"><problem id="id6538522">
-<para id="fs-idp43800992">El costo de la gasolina sin plomo en el Área de la Bahía seguía antes una distribución desconocida con una media de 4,59 dólares y una desviación típica de 0,10 dólares. Se eligen al azar dieciséis gasolineras del Área de la Bahía. Nos interesa el costo promedio de la gasolina en las 16 gasolineras. La distribución que se va a usar para el costo promedio de la gasolina para las 16 gasolineras es <list id="element-728" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math>
+<para id="fs-idp43800992">El costo de la gasolina sin plomo en el Área de la Bahía seguía antes una distribución desconocida con una media de 4,59 dólares y una desviación típica de 0,10 dólares. Se eligen al azar dieciséis gasolineras del Área de la Bahía. Nos interesa el costo promedio de la gasolina en las 16 gasolineras. La distribución que se va a usar para el costo promedio de la gasolina para las 16 gasolineras es <list id="element-728" list-type="enumerated" number-style="lower-alpha"><item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
-  <m:mo>-</m:mo>
+  <m:mo>–</m:mo>
  </m:mover>
 
 </m:math> ~ <emphasis effect="italics">N</emphasis>(4,59; 0,10)</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
-  <m:mo>-</m:mo>
+  <m:mo>–</m:mo>
  </m:mover>
 
 </m:math> ~ <emphasis effect="italics">N</emphasis><m:math>
@@ -732,8 +732,8 @@
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math> grandes.</item>
-<item>Los términos <m:math>
+</m:math></item>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
@@ -755,8 +755,8 @@
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math> grandes.</item>
-<item>Los términos <m:math>
+</m:math></item>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
@@ -801,7 +801,7 @@
   </definition>
   <definition id="centlimit">
     <term>Teorema del límite central</term>
-    <meaning id="id43867050">Dada una variable aleatoria con media conocida <emphasis effect="italics">μ</emphasis> y desviación típica conocida, <emphasis effect="italics">σ</emphasis>, estamos muestreando con tamaño <emphasis effect="italics">n</emphasis>, y nos interesan dos nuevas VR: la media muestral, <m:math>
+    <meaning id="id43867050">dada una variable aleatoria con media conocida <emphasis effect="italics">μ</emphasis> y desviación típica conocida, <emphasis effect="italics">σ</emphasis>, estamos muestreando con tamaño <emphasis effect="italics">n</emphasis>, y nos interesan dos nuevas VR: la media muestral, <m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
@@ -826,7 +826,7 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math>). Si el tamaño (<emphasis effect="italics">n</emphasis>) de la muestra es suficientemente grande, la distribución de las medias muestrales se aproximará a una distribución normal, independientemente de la forma de la población. La media de las medias muestrales será igual a la media poblacional. La desviación estándar de la distribución de las medias muestrales, <m:math>
+</m:math>). Si el tamaño (<emphasis effect="italics">n</emphasis>) de la muestra es suficientemente grande, la distribución de las medias muestrales se aproximará a una distribución normal, independientemente de la forma de la población. La media de las medias muestrales será igual a la media poblacional. La desviación típica de la distribución de las medias muestrales, <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mi>σ</m:mi>
@@ -857,7 +857,7 @@
    </m:mrow>
   </m:mfrac>
  </m:mrow>
-</m:math></meaning>
+</m:math>.</meaning>
 </definition>
 </glossary>
 </document>

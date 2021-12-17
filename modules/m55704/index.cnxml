@@ -27,7 +27,7 @@
 
 <para id="eip-idm183141328">Mackowiak, P. A., Wasserman, S. S. y Levine, M. M. (1992), “A Critical Appraisal of 98,6 Degrees F, the Upper Limit of the Normal Body Temperature, and Other Legacies of Carl Reinhold August Wunderlich”, <emphasis effect="italics">Journal of the American Medical Association</emphasis>, 268, 1578-1580.</para></section>
 <section id="fs-idm51047200" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="eip-684">El gráfico de la distribución <emphasis effect="italics">F</emphasis> es siempre positivo y es asimétrico hacia la derecha, aunque la forma puede ser redondeada o exponencial dependiendo de la combinación de grados de libertad del numerador y del denominador. El estadístico <emphasis effect="italics">F</emphasis> es el cociente entre una medida de la variación de las medias de los grupos y una medida similar de la variación dentro de los grupos. Si la hipótesis nula es correcta, el numerador debe ser pequeño en comparación con el denominador. El resultado será un estadístico <emphasis effect="italics">F</emphasis> pequeño y el área debajo de la curva <emphasis effect="italics">F</emphasis> a la derecha será grande, lo que representa un valor <emphasis effect="italics">p</emphasis> grande. Cuando la hipótesis nula de la igualdad de las medias de los grupos es incorrecta, el numerador debe ser grande comparado con el denominador, lo que da un estadístico <emphasis effect="italics">F</emphasis> grande y un área pequeña (valor <emphasis effect="italics">p</emphasis> pequeño) a la derecha del estadístico debajo de la curva <emphasis effect="italics">F</emphasis>.</para>
 
 <para id="eip-833">Cuando los datos tienen tamaños de grupo desiguales (datos no equilibrados), hay que utilizar las técnicas de la <link document="m55712"/> para los cálculos manuales. Sin embargo, en el caso de datos equilibrados (los grupos tienen el mismo tamaño), se pueden utilizar cálculos simplificados basados en las medias y varianzas de los grupos. En la práctica, por supuesto, se suelen emplear softwares en el análisis. Como en cualquier análisis, se deben usar gráficos de diversa índole junto con técnicas numéricas. ¡Siempre mire sus datos!</para></section>
@@ -97,7 +97,7 @@
 <para id="eip-346">¿Cuáles son los factores de la suma de los cuadrados y de las medias cuadráticas?</para>
 </problem></exercise><exercise id="eip-213">
 <problem id="eip-514">
-<para id="eip-826">¿Cuáles son la suma de los cuadrados y los errores cuadráticos medios?</para>
+<para id="eip-826">¿Cuáles son la suma de los cuadrados y los errores de la media cuadrática?</para>
 </problem>
 
 <solution id="eip-600">
@@ -236,7 +236,7 @@ Este
 </row>
 <row>
 <entry>
-  Los términos <m:math>
+  <m:math>
 <m:mrow>
 <m:mover accent="true">
 <m:mi>x</m:mi>
@@ -254,7 +254,7 @@ Este
 </row>
 <row>
 <entry>
-  Los términos <m:math>
+  <m:math>
 <m:mrow>
 <m:msup>
 <m:mi>s</m:mi>
@@ -348,7 +348,7 @@ Este
 <item>Distribución <emphasis effect="italics">F</emphasis></item>
 <item>0,67</item>
 <item>0,5305</item>
-<item>Compruebe la solución del estudiante</item>
+<item>Compruebe la solución del estudiante.</item>
 <item>Decisión: No se puede rechazar la hipótesis nula. Conclusión: No hay pruebas suficientes para concluir que las medias son diferentes.</item>
 </list></solution>
 </exercise>
@@ -481,7 +481,7 @@ Este
 <item>Distribución <emphasis effect="italics">F</emphasis></item>
 <item><emphasis effect="italics">F</emphasis> = 15,28</item>
 <item>valor <emphasis effect="italics">p</emphasis> = 0,001</item>
-<item>Compruebe la solución del estudiante</item>
+<item>Compruebe la solución del estudiante.</item>
 <item>
 <list id="eip-idm15104944" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
 <item>Decisión: No se puede aceptar la hipótesis nula</item>
@@ -603,7 +603,7 @@ Este
 <item><emphasis effect="italics">F</emphasis><sub>2,13</sub></item>
 <item>0,64</item>
 <item>0,5437</item>
-<item>Compruebe la solución del estudiante</item>
+<item>Compruebe la solución del estudiante.</item>
 <item>
 <list id="eip-idm119829920" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
 <item>Decisión: No se puede rechazar la hipótesis nula.</item>
@@ -612,7 +612,7 @@ Este
 </list></item>
 </list>
 </solution></exercise><exercise id="fs-idm81211824"><problem id="fs-idm81211696">
-<para id="fs-idm81211440">Are the mean number of times a month a person eats out the same for White, Black, Hispanic and Asian people? Supongamos que la <link target-id="fs-idm13269984"/> muestra los resultados de un estudio.</para><table id="fs-idm13269984" summary="The Table consists of 4 columns: White, Black, Hispanic and Asian. The table entries are the mean number of times a month that people who are White, Black, Hispanic and Asian eat out.">
+<para id="fs-idm81211440">¿El número medio de veces al mes que una persona come fuera es el mismo para personas blancas, negras, hispanas y asiáticas? Supongamos que la <link target-id="fs-idm13269984"/> muestra los resultados de un estudio.</para><table id="fs-idm13269984" summary="The Table consists of 4 columns: White, Black, Hispanic and Asian. The table entries are the mean number of times a month that people who are White, Black, Hispanic and Asian eat out.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -620,7 +620,7 @@ Este
 <thead>
 <row>
 <entry>Blancos</entry>
-<entry>Afroamericanos</entry>
+<entry>Negros</entry>
 <entry>Hispanos</entry>
 <entry>Asiático</entry>
 </row>
@@ -723,7 +723,7 @@ Este
 <item><emphasis effect="italics">F</emphasis><sub>2,12</sub></item>
 <item>3,13</item>
 <item>0,0807</item>
-<item>Compruebe la solución del estudiante</item>
+<item>Compruebe la solución del estudiante.</item>
 <item>
 <list id="eip-idm129088112" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
 <item>Decisión: No se puede rechazar la hipótesis nula.</item>
@@ -928,7 +928,7 @@ Este
 
 <solution id="eip-601">
 <para id="eip-313">Los datos parecen normalmente distribuidos en el gráfico y una dispersión similar. No parece haber ningún valor atípico grave, por lo que podemos seguir con nuestros cálculos de ANOVA, para ver si tenemos buenas pruebas de una diferencia entre los tres grupos.</para>
-<para id="eip-idp9408976">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>µ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>µ</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>µ</m:mi><m:mn>3</m:mn></m:msub></m:math>;</para><para id="eip-idp2303648">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>µ</m:mi><m:mi>i</m:mi></m:msub><m:mo>≠</m:mo><m:mo>;</m:mo></m:math> algunos <m:math><m:mi>i</m:mi><m:mo>≠</m:mo><m:mi>j</m:mi></m:math></para><para id="eip-idm63708960">Defina <emphasis effect="italics">μ</emphasis><sub>1</sub>, <emphasis effect="italics">μ</emphasis><sub>2</sub>, <emphasis effect="italics">μ</emphasis><sub>3</sub>, como la media poblacional del número de huevos puestos por los tres grupos de moscas de la fruta.</para>
+<para id="eip-idp9408976"><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>µ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>µ</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>µ</m:mi><m:mn>3</m:mn></m:msub></m:math>;</para><para id="eip-idp2303648"><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>µ</m:mi><m:mi>i</m:mi></m:msub><m:mo>≠</m:mo><m:mo>;</m:mo></m:math> algunos <m:math><m:mi>i</m:mi><m:mo>≠</m:mo><m:mi>j</m:mi></m:math></para><para id="eip-idm63708960">Defina <emphasis effect="italics">μ</emphasis><sub>1</sub>, <emphasis effect="italics">μ</emphasis><sub>2</sub>, <emphasis effect="italics">μ</emphasis><sub>3</sub>, como la media poblacional del número de huevos puestos por los tres grupos de moscas de la fruta.</para>
 <para id="eip-idm1853136">estadístico <emphasis effect="italics">F</emphasis> = 8,6657;</para>
 <para id="eip-idm1852752">valor <emphasis effect="italics">p</emphasis> = 0,0004 </para>
 

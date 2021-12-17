@@ -24,7 +24,7 @@
 
 <solution id="id1170917505276">
 <para id="element-435" class="finger">
-<title>Identificación gráfica de los valores atípicos</title>Con las calculadoras gráficas TI-83, 83+, 84+ es fácil identificar los valores atípicos de forma gráfica y visual. Si midiéramos la distancia vertical de cualquier punto de datos al punto correspondiente de la línea de mejor ajuste y esa distancia fuera igual a 2<emphasis effect="italics">s</emphasis> o más, entonces consideraríamos que el punto de datos está "demasiado lejos" de la línea de mejor ajuste. Tenemos que encontrar y graficar las líneas que están dos desviaciones típicas por debajo y por encima de la línea de regresión. Los puntos que estén fuera de estas dos líneas son valores atípicos. Llamaremos a estas líneas Y2 y Y3:</para>
+<title>Identificación gráfica de los valores atípicos</title>Con las calculadoras gráficas TI-83, 83+ u 84+ es fácil identificar los valores atípicos de forma gráfica y visual. Si midiéramos la distancia vertical de cualquier punto de datos al punto correspondiente de la línea de mejor ajuste y esa distancia fuera igual a 2<emphasis effect="italics">s</emphasis> o más, entonces consideraríamos que el punto de datos está "demasiado lejos" de la línea de mejor ajuste. Tenemos que calcular y graficar las líneas que están dos desviaciones típicas por debajo y por encima de la línea de regresión. Los puntos que estén fuera de estas dos líneas son valores atípicos. Llamaremos a estas líneas Y2 y Y3:</para>
 
 <para id="element-20965">Al igual que hicimos con la ecuación de la línea de regresión y el coeficiente de correlación, utilizaremos la tecnología para calcular esta desviación típica. Utilizando la función <emphasis>LinRegTTest</emphasis> con estos datos, desplácese por las pantallas de salida hasta hallar <emphasis><emphasis effect="italics">s</emphasis> = 16,412</emphasis>.</para>
 
@@ -38,7 +38,7 @@
 <figure id="eip-idp140675136"><media id="id1170917557779" alt="El diagrama de dispersión de las puntuaciones de los exámenes con una línea de mejor ajuste. Dos líneas discontinuas amarillas son paralelas a la línea de mejor ajuste. Las líneas discontinuas van por encima y por debajo de la línea de mejor ajuste a distancias iguales. Un punto de datos queda fuera del límite creado por las líneas discontinuas: es un valor atípico."><image src="../../media/fig-ch12_09_01.jpg" mime-type="image/jpeg" width="380"/></media></figure></solution>
 </exercise>
 </example><note id="fs-idp112103840" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 
 <exercise id="eip-365">
@@ -55,8 +55,8 @@
 
 <section id="eip-212">
 <title>Identificación numérica de los valores atípicos</title>
-<para id="element-1763">En la <link target-id="element-4662"/>, las dos primeras columnas son los datos del tercer examen y del examen final. La tercera columna muestra los valores <emphasis effect="italics">ŷ</emphasis> predichos, calculados a partir de la línea de mejor ajuste: <emphasis effect="italics">ŷ</emphasis> = -173,5 + 4,83<emphasis effect="italics">x</emphasis>. Los residuales, o errores, se han calculado en la cuarta columna de la tabla: valor <emphasis effect="italics">y</emphasis> observado - valor y predicho = <emphasis effect="italics">y</emphasis> - <emphasis effect="italics">ŷ</emphasis>.</para><para id="element-973"><emphasis effect="italics">s</emphasis> es la desviación típica de todos los valores <emphasis effect="italics">y</emphasis> - <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">ε</emphasis> donde <emphasis effect="italics">n</emphasis> = el número total de puntos de datos. Si se calcula cada residual, se eleva al cuadrado y se suman los resultados, se obtiene la suma de errores al cuadrado (Sum of Squared Errors, SSE). La desviación típica de los residuales se calcula a partir de la SSE como:</para>
-<para id="element-797">Los términos <m:math>
+<para id="element-1763">En la <link target-id="element-4662" document=""/>, las dos primeras columnas son los datos del tercer examen y del examen final. La tercera columna muestra los valores <emphasis effect="italics">ŷ</emphasis> predichos, calculados a partir de la línea de mejor ajuste: <emphasis effect="italics">ŷ</emphasis> = -173,5 + 4,83<emphasis effect="italics">x</emphasis>. Los residuales, o errores, se han calculado en la cuarta columna de la tabla: valor <emphasis effect="italics">y</emphasis> observado - valor y predicho = <emphasis effect="italics">y</emphasis> - <emphasis effect="italics">ŷ</emphasis>.</para><para id="element-973"><emphasis effect="italics">s</emphasis> es la desviación típica de todos los valores <emphasis effect="italics">y</emphasis> - <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">ε</emphasis> donde <emphasis effect="italics">n</emphasis> = el número total de puntos de datos. Si se calcula cada residual, se eleva al cuadrado y se suman los resultados, se obtiene la suma de errores al cuadrado (Sum of Squared Errors, SSE). La desviación típica de los residuales se calcula a partir de la SSE como:</para>
+<para id="element-797"><m:math>
  <m:mrow>
   <m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt>
    <m:mrow>
@@ -76,11 +76,11 @@
 </m:math></para>
 
 <note id="fs-idm68726848">
-
+<label/>
 <title>Nota</title>
 <para id="fs-idp95645280">Dividimos entre (<emphasis effect="italics">n</emphasis> - 2) porque el modelo de regresión implica dos estimaciones.</para></note>
 
-<para id="element-42" class="finger">En lugar de calcular el valor de <emphasis effect="italics">s</emphasis> nosotros mismos, podemos calcular <emphasis effect="italics">s</emphasis> con la computadora o la calculadora. Para este ejemplo, la función de la calculadora LinRegTTest calculó <emphasis effect="italics">s</emphasis> = 16,4 como la desviación típica de los residuales <list id="set-list2" list-type="labeled-item" display="inline"><item>35</item>
+<para id="element-42" class="finger">En vez de calcular el valor de <emphasis effect="italics">s</emphasis> nosotros mismos, podemos calcular <emphasis effect="italics">s</emphasis> con la computadora o la calculadora. Para este ejemplo, la función de la calculadora LinRegTTest calculó <emphasis effect="italics">s</emphasis> = 16,4 como la desviación típica de los residuales <list id="set-list2" list-type="labeled-item" display="inline"><item>35</item>
 <item>-17</item>
 <item>16</item>
 <item>-6</item>
@@ -192,7 +192,7 @@
 <para id="element-8021">Numérica y gráficamente, hemos identificado el punto (65, 175) como un valor atípico. Deberíamos repasar los datos de este punto para ver si hay algún problema con estos. Si hay un error, debemos corregirlo si es posible o eliminar los datos. Si son correctos, los dejaríamos en el conjunto de datos. Para este problema, supondremos que examinamos y descubrimos que estos datos atípicos son un error. Por lo tanto, seguiremos adelante y eliminaremos el valor atípico, para poder explorar cómo afecta los resultados, como experiencia de aprendizaje.</para>
 
 <para id="element-6691" class="finger"><title>Calcule una nueva línea de mejor ajuste y el coeficiente de correlación con los diez puntos restantes:</title>
-Con las funciones TI-83, TI-83+, TI-84+ de la calculadora, elimine el valor atípico de L1 y L2. Con la función LinRegTTest, la nueva línea de mejor ajuste y el coeficiente de correlación son:</para>
+En las calculadoras TI-83, TI-83+ y TI-84+, elimine el valor atípico de L1 y L2. Con la función LinRegTTest, la nueva línea de mejor ajuste y el coeficiente de correlación son:</para>
 <para id="element-669"><emphasis effect="italics">ŷ</emphasis> = –355,19 + 7,39<emphasis effect="italics">x</emphasis> y <emphasis effect="italics">r</emphasis> = 0,9121</para><para id="element-101">La nueva línea con <emphasis effect="italics">r</emphasis> = 0,9121 es una correlación más fuerte que la original (<emphasis effect="italics">r</emphasis> = 0,6631) porque <emphasis effect="italics">r</emphasis> = 0,9121 está más cerca de uno. Esto significa que la nueva línea se ajusta mejor a los diez valores de datos restantes. La línea puede predecir mejor la puntuación del examen final, dada la puntuación del tercer examen.</para>
 </section>
 
@@ -215,7 +215,7 @@ Con las funciones TI-83, TI-83+, TI-84+ de la calculadora, elimine el valor atí
 </para>
 <para id="eip-912"><emphasis>A continuación, añada (sume) todos los términos |<emphasis effect="italics">y</emphasis> - <emphasis effect="italics">ŷ</emphasis>| al cuadrado</emphasis> mediante la fórmula:</para>
 
-<para id="eip-187">Los términos <m:math>
+<para id="eip-187"><m:math>
  <m:mrow>
   <m:mover>
    <m:mrow>
@@ -239,7 +239,7 @@ Con las funciones TI-83, TI-83+, TI-84+ de la calculadora, elimine el valor atí
        <m:mi>y</m:mi>
        <m:mi>i</m:mi>
       </m:msub>
-      <m:mo>- −</m:mo><m:msub>
+      <m:mo>–</m:mo><m:msub>
        <m:mover accent="true">
         <m:mi>y</m:mi>
         <m:mo>^</m:mo>
@@ -303,7 +303,7 @@ Con las funciones TI-83, TI-83+, TI-84+ de la calculadora, elimine el valor atí
 
 <para id="eip-799">A continuación, multiplique <emphasis effect="italics">s</emphasis> por 2: <newline/>(2)(16,47) = 32,94 <newline/>32,94 está 2 desviaciones típicas lejos de la media de los valores <emphasis effect="italics">y</emphasis> - <emphasis effect="italics">ŷ</emphasis>.</para><para id="eip-28">Si midiéramos la distancia vertical desde cualquier punto de datos hasta el punto correspondiente de la línea de mejor ajuste y esa distancia fuera de al menos 2<emphasis effect="italics">s</emphasis>, entonces consideraríamos que el punto de datos está "demasiado lejos" de la línea de mejor ajuste. A ese punto lo llamamos un <term id="term-00003">potencial valor atípico</term>.</para><para id="eip-130">Para el ejemplo, si alguno de los valores de <emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| es <emphasis>al menos</emphasis> 32,94, el punto de datos correspondiente (<emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>) es un posible valor atípico.</para><para id="eip-696">Para el problema del tercer examen o examen final, todos los |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| son menores que 31,29, excepto el primero que es 35.</para><para id="eip-994">35 > 31,29 Es decir, |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| ≥ (2)(s)</para><para id="eip-980">El punto que corresponde a |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| = 35 es (65, 175). <emphasis>Por lo tanto, el punto de datos (65, 175) es un potencial valor atípico.</emphasis> Para este ejemplo, lo borraremos. (Recuerde que no siempre eliminamos un valor atípico).</para>
 
-<note id="fs-idp12863088"><title>Nota</title>
+<note id="fs-idp12863088"><label/><title>Nota</title>
 <para id="fs-idp101044864">Cuando se eliminan los valores atípicos, el investigador debería dejar constancia de que se han eliminado los datos y por qué, o bien debería proporcionar los resultados con y sin los datos eliminados. Si los datos son erróneos y se conocen los valores correctos (por ejemplo, el estudiante uno obtuvo realmente una puntuación de 70 en lugar de 65), se puede realizar esta corrección en los datos.</para></note>
 
 <para id="fs-idm274617664"><newline/><newline/>El siguiente paso es calcular una nueva línea de mejor ajuste con los diez puntos restantes. La nueva línea de mejor ajuste y el coeficiente de correlación son:</para><para id="eip-451"><emphasis effect="italics">ŷ</emphasis> = –355,19 + 7,39<emphasis effect="italics">x</emphasis> y <emphasis effect="italics">r</emphasis> = 0,9121</para>
@@ -320,7 +320,7 @@ Con las funciones TI-83, TI-83+, TI-84+ de la calculadora, elimine el valor atí
 </example>
 
 <note id="fs-idp77690080" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 
 <exercise id="eip-846"><problem id="eip-372">
@@ -329,7 +329,7 @@ Con las funciones TI-83, TI-83+, TI-84+ de la calculadora, elimine el valor atí
 </note>
 
 <example id="element-986">
-<para id="element-719">El índice de precios al consumidor (IPC) mide la variación media en el tiempo de los precios que pagan los consumidores urbanos por los bienes y servicios de consumo. El IPC afecta a casi todos los estadounidenses debido a las múltiples formas en que se utiliza. Uno de sus mayores usos es como medida de la inflación. Al suministrar información sobre la evolución de los precios en la economía nacional al gobierno, las empresas y los trabajadores, el IPC permite tomar decisiones económicas. El Presidente, el Congreso y la Junta de la Reserva Federal utilizan las tendencias del IPC para formular políticas monetarias y fiscales. En la siguiente tabla, <emphasis effect="italics">x</emphasis> es el año y <emphasis effect="italics">y</emphasis> es el IPC.</para>
+<para id="element-719">El índice de precios al consumidor (IPC) mide la variación promedio en el tiempo de los precios que pagan los consumidores urbanos por los bienes y servicios de consumo. El IPC afecta a casi todos los estadounidenses debido a las múltiples formas en que se utiliza. Uno de sus mayores usos es como medida de la inflación. Al suministrar información sobre la evolución de los precios en la economía nacional al gobierno, las empresas y los trabajadores, el IPC permite tomar decisiones económicas. El Presidente, el Congreso y la Junta de la Reserva Federal utilizan las tendencias del IPC para formular políticas monetarias y fiscales. En la siguiente tabla, <emphasis effect="italics">x</emphasis> es el año y <emphasis effect="italics">y</emphasis> es el IPC.</para>
 
 <table id="element-127" summary=".."><title>Datos</title>
 <tgroup cols="4">
@@ -394,7 +394,7 @@ Con las funciones TI-83, TI-83+, TI-84+ de la calculadora, elimine el valor atí
 <item>Calcule la línea de mínimos cuadrados. Escriba la ecuación en la forma <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>.</item>
 <item>Dibuje la línea en el diagrama de dispersión.</item>
 <item>Halle el coeficiente de correlación. ¿Es significativo?</item>
-<item>¿Cuál es el IPC medio del año 1990?</item>
+<item>¿Cuál es el IPC promedio del año 1990?</item>
 </list></problem>
 
 <solution id="id1171157206888">
@@ -402,19 +402,19 @@ Con las funciones TI-83, TI-83+, TI-84+ de la calculadora, elimine el valor atí
 <item><emphasis effect="italics">ŷ</emphasis> = -3204 + 1,662<emphasis effect="italics">x</emphasis> es la ecuación de la línea de mejor ajuste.</item>
 <item><emphasis effect="italics">r</emphasis> = 0,8694</item>
 <item>El número de puntos de datos es <emphasis effect="italics">n</emphasis> = 14. Utilice los valores críticos al 95 % de la tabla de coeficientes de correlación de la muestra que aparecen al final del Capítulo 12. <emphasis effect="italics">n</emphasis> - 2 = 12. El valor crítico correspondiente es 0,532. Dado que 0,8694 > 0,532, <emphasis effect="italics">r</emphasis> es significativo. <newline/><emphasis effect="italics">ŷ</emphasis> = -3204 + 1,662(1990) = 103,4 IPC</item>
-<item>Con la función LinRegTTest de la calculadora, hallamos que <emphasis effect="italics">s</emphasis> = 25,4 ; al graficar las líneas Y2 = -3204 + 1,662X - 2(25,4) y Y3 = -3204 + 1,662X + 2(25,4) se observa que ningún valor de los datos está fuera de esas líneas, por lo cual se identifica que no hay valores atípicos. (Observe que el año 1999 estaba muy cerca de la línea superior, pero todavía dentro de ella).</item>
+<item>Con la función LinRegTTest de la calculadora hallamos que <emphasis effect="italics">s</emphasis> = 25,4 ; al graficar las líneas Y2 = –3.204 + 1,662X – 2(25,4) y Y3 = –204 + 1,662X + 2(25,4) se observa que ningún valor de los datos está fuera de esas líneas, por lo cual se identifica que no hay valores atípicos. (Observe que el año 1999 estaba muy cerca de la línea superior, pero todavía dentro de ella).</item>
 </list><figure id="eip-idp35936320">
-<media id="id1171151867848" alt="Diagrama de dispersión y línea de mejor ajuste de los datos del índice de precios al consumidor, en el eje de la y, así como de los datos del año, en el eje de la x.">
+<media id="id1171151867848" alt="Diagrama de dispersión y línea de mejor ajuste de los datos del índice de precios al consumidor, en el eje y, así como de los datos del año, en el eje x.">
 <image src="../../media/fig-ch12_09_02.jpg" mime-type="image/jpeg" width="380"/>
 </media>
 </figure>
 </solution>
-</exercise><note id="eip-413"><title>Nota</title><para id="fs-idp122850352">En el ejemplo, observe el patrón de los puntos en comparación con la línea. Aunque el coeficiente de correlación es significativo, el patrón del diagrama de dispersión indica que una curva sería el modelo más apropiado que una línea. En este ejemplo, un estadístico preferiría utilizar otros métodos para ajustar una curva a estos datos, en lugar de modelar los datos con la línea que hemos hallado. Además de realizar los cálculos, siempre es importante observar el diagrama de dispersión para decidir si un modelo lineal es adecuado.</para></note>
+</exercise><note id="eip-413"><label/><title>Nota</title><para id="fs-idp122850352">En el ejemplo, observe el patrón de los puntos en comparación con la línea. Aunque el coeficiente de correlación es significativo, el patrón del diagrama de dispersión indica que una curva sería el modelo más apropiado que una línea. En este ejemplo, un estadístico preferiría utilizar otros métodos para ajustar una curva a estos datos, en lugar de modelar los datos con la línea que hemos hallado. Además de realizar los cálculos, siempre es importante observar el diagrama de dispersión para decidir si un modelo lineal es adecuado.</para></note>
 
 <para id="eip-983">Si le interesa ver más años de datos, visite la página web del IPC de la Oficina de Estadísticas Laborales ftp://ftp.bls.gov/pub/special.requests/cpi/cpiai.txt; nuestros datos están tomados de la columna titulada "Annual Avg." (tercera columna de la derecha). Por ejemplo, podría añadir más años de datos actuales. Sume los años más recientes: 2004: IPC = 188,9; 2008: IPC = 215,3; 2011: IPC = 224,9. Vea cómo incide en el modelo. (Compruebe: <emphasis effect="italics">ŷ</emphasis> = -4436 + 2,295<emphasis effect="italics">x</emphasis>; <emphasis effect="italics">r</emphasis> = 0,9018. ¿Es <emphasis effect="italics">r</emphasis> significativo? ¿Se ha mejorado el ajuste con la adición de los nuevos puntos)?</para></example>
 
 <note id="fs-idm58078240" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 
 <exercise id="eip-298"><problem id="eip-109">
@@ -656,9 +656,9 @@ Con las funciones TI-83, TI-83+, TI-84+ de la calculadora, elimine el valor atí
 <para id="eip-idm84869712">Datos de Microsoft Bookshelf.</para>
 <para id="eip-idm84869328">Datos del Departamento del Trabajo de Estados Unidos, Oficina de Estadísticas Laborales.</para>
 <para id="eip-idm84868944">Datos del Manual de Médico, 1990.</para>
-<para id="eip-idm84868560">Datos del Departamento del Trabajo de Estados Unidos, Oficina de Estadísticas Laborales.</para></section><section id="eip-380" class="summary"><title>Revisión del capítulo</title><para id="eip-idm88717792">
+<para id="eip-idm84868560">Datos del Departamento del Trabajo de Estados Unidos, Oficina de Estadísticas Laborales.</para></section><section id="eip-380" class="summary"><title>Repaso del capítulo</title><para id="eip-idm88717792">
 Para determinar si un punto es un valor atípico, realice una de las siguientes acciones: <list id="eip-idp16278896" list-type="enumerated" number-style="arabic"><item class="finger">Introduzca las siguientes ecuaciones en la TI 83, 83+, 84, 84+:
-        <para id="eip-idp42255472">Los términos <m:math>
+        <para id="eip-idp42255472"><m:math>
          <m:mrow>
           <m:mtable columnalign="left">
            <m:mtr columnalign="left">
@@ -690,7 +690,7 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
                <m:mi>y</m:mi>
                <m:mn>3</m:mn>
               </m:msub>
-              <m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>s</m:mi>
+              <m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>–</m:mo><m:mn>2</m:mn><m:mi>s</m:mi>
              </m:mrow>
             </m:mtd>
            </m:mtr>
@@ -799,7 +799,7 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 <item>Calcule la línea de mínimos cuadrados. Ponga la ecuación en la forma de: <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis></item>
 <item>Halle el coeficiente de correlación. ¿Es significativo?</item>
 <item>Halle las alturas estimadas para 32 pisos y para 94 pisos.</item>
-<item>Según los datos de la <link target-id="id1aa0827143"/>, ¿existe una relación lineal entre el número de pisos de los edificios altos y la altura de los mismos?</item>
+<item>Según los datos de la <link target-id="id1aa0827143"/>, ¿existe una relación lineal entre el número de pisos de los edificios altos y su altura?</item>
 <item>¿Existen valores atípicos en los datos? En caso afirmativo, ¿qué puntos?</item>
 <item>¿Cuál es la altura estimada de un edificio de seis pisos? ¿La línea de mínimos cuadrados da una estimación precisa de la altura? Explique por qué sí o por qué no.</item>
 <item>Con base en la línea de mínimos cuadrados, se predice que añadir un piso más añadirá aproximadamente cuántos pies a un edificio?</item>
@@ -819,13 +819,13 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 </list>
 </problem>
 <solution id="fs-idm56676800">
-<para id="fs-idp172680496">a. y b. Compruebe la solución del estudiante</para>
-<para id="fs-idp172680880">c. La pendiente de la línea de regresión es -0,3031 con una intersección en y de 31,93. En el contexto, la intersección en y indica que, cuando no haya gavilanes que regresen, habrá casi un 32 % de gavilanes nuevos. Esto no tiene sentido, ya que si no hay aves que regresen, entonces el nuevo porcentaje tendría que ser del 100 % (este es un ejemplo de por qué no extrapolamos). La pendiente nos indica que, por cada incremento porcentual de aves que regresan, el porcentaje de aves nuevas en la colonia disminuye en un 30,3 %. </para><para id="fs-idp36047136">d. Si examinamos r2, vemos que solo el 57,52 % de la variación en el porcentaje de aves nuevas se explica por el modelo y el coeficiente de correlación, r = -,7584 solo indica una correlación algo fuerte entre los porcentajes de retorno y los nuevos. </para><para id="fs-idp137409168">e. El par ordenado (66, 6) genera el mayor residuo de 6,0. Esto significa que cuando el porcentaje de retorno observado es del 66 %, nuestro nuevo porcentaje observado, el 6 %, es casi un 6 % menos que el nuevo valor predicho del 11,98 %. Si eliminamos este par de datos, solo vemos una pendiente ajustada de -0,2789 y un intersección ajustada de 30,9816. En otras palabras, aunque este dato genera el mayor residual, no es un valor atípico, ni el par de datos es un punto influyente.</para><para id="fs-idp89140080">f. Si hay un 70 % de aves que regresan, esperaríamos ver y = -,2789(70) + 30,9816 = 0,114 o 11,4 % de aves nuevas en la colonia.</para></solution>
+<para id="fs-idp172680496">a. y b. Compruebe la solución del estudiante.</para>
+<para id="fs-idp172680880">c. La pendiente de la línea de regresión es –0,3031 con una intersección en y de 31,93. En el contexto, la intersección en y indica que, cuando no haya gavilanes que regresen, habrá casi un 32 % de gavilanes nuevos. Esto no tiene sentido, ya que si no hay aves que regresen, entonces el nuevo porcentaje tendría que ser del 100 % (este es un ejemplo de por qué no extrapolamos). La pendiente nos indica que, por cada incremento porcentual de aves que regresan, el porcentaje de aves nuevas en la colonia disminuye en un 30,3 %. </para><para id="fs-idp36047136">d. Si examinamos r2, vemos que solo el 57,52 % de la variación en el porcentaje de aves nuevas se explica por el modelo y el coeficiente de correlación, r = -,7584 solo indica una correlación algo fuerte entre los porcentajes de retorno y los nuevos. </para><para id="fs-idp137409168">e. El par ordenado (66, 6) genera el mayor residuo de 6,0. Esto significa que cuando el porcentaje de retorno observado es del 66 %, nuestro nuevo porcentaje observado, el 6 %, es casi un 6 % menos que el nuevo valor predicho del 11,98 %. Si eliminamos este par de datos, solo vemos una pendiente ajustada de -0,2789 y un intersección ajustada de 30,9816. En otras palabras, aunque este dato genera el mayor residual, no es un valor atípico, ni el par de datos es un punto influyente.</para><para id="fs-idp89140080">f. Si hay un 70 % de aves que regresan, esperaríamos ver y = -,2789(70) + 30,9816 = 0,114 o 11,4 % de aves nuevas en la colonia.</para></solution>
 </exercise>
 
 
 <exercise id="fs-idp82285104"><problem id="fs-idp127976160">
-<para id="fs-idp127976416">La siguiente tabla muestra datos sobre el consumo medio de café per cápita y la tasa de cardiopatías en una muestra aleatoria de 10 países.</para><table id="fs-idp129320512" summary="..">
+<para id="fs-idp127976416">La siguiente tabla muestra datos sobre el consumo promedio de café per cápita y la tasa de cardiopatías en una muestra aleatoria de 10 países.</para><table id="fs-idp129320512" summary="..">
 <tgroup cols="11"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -940,13 +940,13 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 </list>
 </problem>
 <solution id="fs-idm82387040">
-<list id="eip-idm38243616" list-type="enumerated" number-style="lower-alpha"><item>Compruebe la solución del estudiante</item>
-<item>Compruebe la solución del estudiante</item>
-<item>Tenemos una pendiente de -1,4946 con una intersección en <emphasis effect="italics">y</emphasis> de 193,88. La pendiente, en contexto, indica que, por cada minuto adicional que se añada al tiempo de natación, la frecuencia cardíaca disminuirá en 1,5 latidos por minuto. Si el estudiante no está nadando en absoluto, la <emphasis effect="italics">intersección en y</emphasis> indica que su frecuencia cardíaca será de 193,88 latidos por minuto. Mientras que la pendiente tiene sentido (cuanto más tiempo se tarda en nadar 2.000 metros, menos esfuerzo hace el corazón), la <emphasis effect="italics">intersección en y</emphasis> no tiene sentido. Si el atleta no está nadando (descansando), su frecuencia cardíaca debe ser muy baja.</item>
+<list id="eip-idm38243616" list-type="enumerated" number-style="lower-alpha"><item>Compruebe la solución del estudiante.</item>
+<item>Compruebe la solución del estudiante.</item>
+<item>Tenemos una pendiente de –1,4946 con una intersección en <emphasis effect="italics">y</emphasis> de 193,88. La pendiente, en contexto, indica que, por cada minuto adicional que se añada al tiempo de natación, la frecuencia cardíaca disminuirá en 1,5 latidos por minuto. Si el estudiante no está nadando en absoluto, la <emphasis effect="italics">intersección en y</emphasis> indica que su frecuencia cardíaca será de 193,88 latidos por minuto. Mientras que la pendiente tiene sentido (cuanto más tiempo se tarda en nadar 2.000 metros, menos esfuerzo hace el corazón), la <emphasis effect="italics">intersección en y</emphasis> no tiene sentido. Si el atleta no está nadando (descansando), su frecuencia cardíaca debe ser muy baja.</item>
 <item>Dado que solo el 1,5 % de la variación de la frecuencia cardíaca se explica mediante esta ecuación de regresión, debemos concluir que esta asociación no se explica con una relación lineal.</item>
-<item>El punto (34,72, 124) genera el mayor residuo de -11,82. Esto significa que nuestra frecuencia cardíaca observada es casi 12 latidos menos que nuestra frecuencia prevista de 136 latidos por minuto. Cuando se elimina este punto, la pendiente se convierte en -2,953 y la intersección en y cambia a 247,1616. Aunque la asociación lineal sigue siendo muy débil, vemos que el par de datos eliminado puede considerarse un punto influyente en el sentido de que la intersección en <emphasis effect="italics">y</emphasis> adquiere mayor significado.</item>
+<item>El punto (34,72, 124) genera el mayor residuo de -11,82. Esto significa que nuestra frecuencia cardíaca observada es casi 12 latidos menos que nuestra frecuencia prevista de 136 latidos por minuto. Cuando se elimina este punto, la pendiente se convierte en –2,953 y la intersección en y cambia a 247,1616. Aunque la asociación lineal sigue siendo muy débil, vemos que el par de datos eliminado puede considerarse un punto influyente en el sentido de que la intersección en <emphasis effect="italics">y</emphasis> adquiere mayor significado.</item>
 </list></solution></exercise><exercise id="fs-idp111074400"><problem id="fs-idp111074656">
-<para id="fs-idm34344064">Un investigador estudia si la población influye en la tasa de homicidios. He uses demographic data from Detroit, MI to compare homicide rates and the number of the population that are White males.</para><table id="fs-idp10781040" summary="..">
+<para id="fs-idm34344064">Un investigador estudia si la población influye en la tasa de homicidios. Utiliza datos demográficos de Detroit, MI, para comparar las tasas de homicidio y el número de habitantes que son hombres blancos.</para><table id="fs-idp10781040" summary="..">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <thead>
@@ -1147,10 +1147,10 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 <item>Calcule la línea de mínimos cuadrados. Ponga la ecuación en la forma de: <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis></item>
 <item>Halle el coeficiente de correlación. ¿Es significativo?</item>
 <item>Elija dos años entre 1969 y 1991 y calcule aproximadamente el número de integrantes de la familia que asisten a la universidad. </item>
-<item>Según los datos de la <link target-id="id1034sdfa0215"/>, ¿existe una relación lineal entre el año y el número medio de integrantes de la familia que asisten a la universidad?</item>
+<item>Según los datos de la <link target-id="id1034sdfa0215" document=""/>, ¿existe una relación lineal entre el año y el número promedio de integrantes de la familia que toman educación universitaria?</item>
 <item>Utilizando la línea de mínimos cuadrados, estime el número de integrantes de la familia que asisten a la universidad para 1960 y 1995. ¿Da la línea de mínimos cuadrados una estimación precisa para esos años? Explique por qué sí o por qué no.</item>
 <item>¿Existen valores atípicos en los datos?</item>
-<item>¿Cuál es el número medio estimado de integrantes de la familia que asisten a la universidad para 1986? ¿La línea de mínimos cuadrados da una estimación precisa para ese año? Explique por qué sí o por qué no.</item>
+<item>¿Cuál es el número promedio estimado de integrantes de la familia que toman educación universitaria para 1986? ¿La línea de mínimos cuadrados da una estimación precisa para ese año? Explique por qué sí o por qué no.</item>
 <item>¿Cuál es la pendiente de la línea de mínimos cuadrados (de mejor ajuste)? Interprete la pendiente.</item>
 </list></problem></exercise><exercise id="element-402">
 <problem id="id44890157">
@@ -1236,7 +1236,7 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 </list></solution>
 </exercise>
 
-<para id="id9018511"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios.</emphasis> El costo de un detergente líquido líder en el mercado en diferentes tamaños se indica en la <link target-id="id10105430"/>.</para><table id="id10105430" summary="This table presents the size of laundry detergent in ounces in the first column and cost in the second column. The third column is left blank for you to calculate the cost per ounce.">
+<para id="id9018511"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios.</emphasis> El costo de un detergente líquido líder en el mercado en diferentes tamaños se indica en la <link target-id="id10105430" document=""/>.</para><table id="id10105430" summary="This table presents the size of laundry detergent in ounces in the first column and cost in the second column. The third column is left blank for you to calculate the cost per ounce.">
 
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
@@ -1289,7 +1289,7 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 </list>
 </problem></exercise><exercise id="element-952"><problem id="id44894852">
   <list id="element-636" list-type="enumerated" number-style="lower-alpha">
-<item>Complete la <link target-id="id10105430"/> para el costo por onza de los diferentes tamaños.</item>
+<item>Complete la <link target-id="id10105430" document=""/> para el costo por onza de los diferentes tamaños.</item>
 <item>Utilizando el "tamaño" como variable independiente y el "costo por onza" como variable dependiente, dibuje un diagrama de dispersión.</item>
 <item>¿Se desprende de la inspección que existe una relación entre las variables? ¿Por qué sí o por qué no?</item>
 <item>Calcule la línea de mínimos cuadrados. Ponga la ecuación en la forma de: <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis></item>
@@ -1343,7 +1343,7 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 </tgroup>
 </table>
 </item>
-<item>Compruebe la solución del estudiante </item>
+<item>Compruebe la solución del estudiante. </item>
 <item>Existe una relación lineal para los tamaños 16 a 64, pero esa tendencia lineal no continúa hasta el tamaño de 200 onzas.</item>
 <item><emphasis effect="italics">ŷ</emphasis> = 20,2368 - 0,0819x</item>
 <item><emphasis effect="italics">r</emphasis> = -0,8086</item>
@@ -1472,7 +1472,7 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 </list></problem>
 <solution id="fs-idm8083616">
 <list id="fs-idm47882016" list-type="enumerated" number-style="lower-alpha"><item>El tamaño es <emphasis effect="italics">x</emphasis>, la variable independiente, el precio es <emphasis effect="italics">y</emphasis>, la variable dependiente.</item>
-<item>Compruebe la solución del estudiante</item>
+<item>Compruebe la solución del estudiante.</item>
 <item>La relación no parece ser lineal.</item>
 <item><emphasis effect="italics">ŷ</emphasis> = -745,252 + 54,75569<emphasis effect="italics">x</emphasis></item>
 <item><emphasis effect="italics">r</emphasis> = 0,8944, sí es significativo</item>
@@ -1484,7 +1484,7 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 </exercise>
 
 <exercise id="element-188"><problem id="id44845835">
-  <para id="element-654">La <link target-id="id797832aawwee6"/> muestra la estatura promedio de los niños estadounidenses en 1990.</para><table id="id797832aawwee6" summary="This table presents the boys' ages in years in the first column and average heights in centimeters in the second column.">
+  <para id="element-654">La <link target-id="id797832aawwee6" document=""/> muestra la estatura promedio de los niños estadounidenses en 1990.</para><table id="id797832aawwee6" summary="This table presents the boys' ages in years in the first column and average heights in centimeters in the second column.">
 
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
@@ -1538,7 +1538,7 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 <item>Calcule la altura promedio estimada para un niño de un año. Calcule la altura promedio estimada para un niño de once años.</item>
 <item>¿Parece que una línea es la mejor forma de ajustar los datos? ¿Por qué sí o por qué no?</item>
 <item>¿Existen valores atípicos en los datos?</item>
-<item>Utilice la línea de mínimos cuadrados para estimar la altura media de un hombre de sesenta y dos años. ¿Cree que su respuesta es razonable? ¿Por qué sí o por qué no?</item>
+<item>Utilice la línea de mínimos cuadrados para estimar la altura promedio de un hombre de sesenta y dos años. ¿Cree que su respuesta es razonable? ¿Por qué sí o por qué no?</item>
 <item>¿Cuál es la pendiente de la línea de mínimos cuadrados (de mejor ajuste)? Interprete la pendiente.</item>
 </list></problem>
 </exercise><exercise id="element-133">
@@ -1662,7 +1662,7 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 </problem>
 <solution id="fs-idp131481968">
 <list id="fs-idp131482224" list-type="enumerated" number-style="lower-alpha"><item>Supongamos que la clasificación es la variable independiente y el área la variable dependiente.</item>
-<item>Compruebe la solución del estudiante</item>
+<item>Compruebe la solución del estudiante.</item>
 <item>Parece haber una relación lineal, con un valor atípico.</item>
 <item><emphasis effect="italics">ŷ</emphasis> (área) = 24177,06 + 1010,478<emphasis effect="italics">x</emphasis></item>
 <item><emphasis effect="italics">r</emphasis> = 0,50047, <emphasis effect="italics">r</emphasis> no es significativa por lo que no hay relación entre las variables.</item>

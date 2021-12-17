@@ -8,10 +8,10 @@
 </metadata>
 
 <content>
-<para id="eip-idp953206882">Los<term id="term-00001">diagramas de caja</term> (también llamados <term id="term-00002">diagramas de caja y bigotes</term> o <term id="term-00003">gráficos de caja y bigotes</term>) ofrecen una buena imagen gráfica de la concentración de los datos. También muestran lo lejos que están los valores extremos de la mayoría de los datos. Un diagrama de caja se construye a partir de cinco valores: el valor mínimo, el primer cuartil, la mediana, el tercer cuartil y el valor máximo. Utilizamos estos valores para comparar la proximidad de otros valores de datos.</para><para id="element-175">Para construir un diagrama de caja, utilice una línea numérica horizontal o vertical y una caja rectangular. Los valores de datos más pequeños y más grandes marcan los puntos finales del eje. El primer cuartil marca un extremo de la caja y el tercer cuartil marca el otro extremo de la caja. Aproximadamente <emphasis>el 50 % de los datos están dentro de la caja.</emphasis> Los "bigotes" se extienden desde los extremos de la caja hasta los valores de datos más pequeños y más grandes. La mediana o el segundo cuartil pueden estar entre el primer y el tercer cuartil, o puede ser uno, el otro, o ambos. El diagrama de caja ofrece una buena y rápida imagen de los datos.</para>
+<para id="eip-idp953206882">Los <term id="term-00001">diagramas de caja</term> (también llamados <term id="term-00002">diagramas de caja y bigotes</term> o <term id="term-00003">gráficos de caja y bigotes</term>) ofrecen una buena imagen gráfica de la concentración de los datos. También muestran lo lejos que están los valores extremos de la mayoría de los datos. Un diagrama de caja se construye a partir de cinco valores: el valor mínimo, el primer cuartil, la mediana, el tercer cuartil y el valor máximo. Utilizamos estos valores para comparar la proximidad de otros valores de datos.</para><para id="element-175">Para construir un diagrama de caja, utilice una línea numérica horizontal o vertical y una caja rectangular. Los valores de datos más pequeños y más grandes marcan los puntos finales del eje. El primer cuartil marca un extremo de la caja y el tercer cuartil marca el otro extremo de la caja. Aproximadamente <emphasis>el 50 % de los datos están dentro de la caja.</emphasis> Los "bigotes" se extienden desde los extremos de la caja hasta los valores de datos más pequeños y más grandes. La mediana o el segundo cuartil pueden estar entre el primer y el tercer cuartil, o puede ser uno, el otro, o ambos. El diagrama de caja ofrece una buena y rápida imagen de los datos.</para>
 
 <note id="eip-724">
-<title>NOTA</title>
+<label/><title>NOTA</title>
 <para id="eip-idp95320688">Es posible que encuentre diagramas de caja y bigotes con puntos que marcan los valores atípicos. En esos casos, los bigotes no se extienden hasta los valores mínimos y máximos.</para>
 </note>
 
@@ -34,12 +34,12 @@
 </list>
 </para><para id="element-23123">El primer cuartil es dos, la mediana es siete y el tercer cuartil es nueve. El valor más pequeño es uno y el más grande es 11,5. La siguiente imagen muestra el diagrama de caja construido.</para>
 
-<note id="fs-idp40306080"><title>NOTA</title>
+<note id="fs-idp40306080"><label/><title>NOTA</title>
 <para id="eip-idp22327712">Consulte las instrucciones de la calculadora en el <link url="http://education.ti.com/educationportal/sites/US/sectionHome/support.html">sitio web de TI</link> o en el apéndice.</para></note>
 <figure id="fs-idp11793488"><media id="id8621327" alt="El primer bigote del diagrama de caja horizontal se extiende desde el valor más pequeño, 1, hasta el primer cuartil, 2, la caja comienza en el primer cuartil y se extiende hasta el tercer cuartil, 9, se traza una línea discontinua vertical en la mediana, 7, y el segundo bigote se extiende desde el tercer cuartil hasta el valor más grande, 11,5." display="block"><image src="../../media/fig-ch_02_05_01.jpg" mime-type="image/jpg" width="420"/></media>
 </figure><para id="element-303">Los dos bigotes se extienden desde el primer cuartil hasta el valor más pequeño y desde el tercer cuartil hasta el valor más grande. La mediana se muestra con una línea discontinua.</para>
 
-<note id="fs-idp59493440"><title>NOTA</title>
+<note id="fs-idp59493440"><label/><title>NOTA</title>
 <para id="fs-idp69379904">Es importante comenzar un diagrama de caja con una <emphasis effect="bold">línea numérica a escala</emphasis>. De lo contrario, el diagrama de caja puede no ser útil.</para>
 </note><example id="element-32"><para id="element-676">Los siguientes datos son las estaturas de 40 estudiantes en una clase de Estadística.</para>
 <para id="element-731">
@@ -103,8 +103,8 @@
 <item>El 50 % de los datos (la mitad) tiene un rango de 5,5 pulgadas.</item>
 </list></example>
 
-<note id="fs-idp87772032" class="statistics calculator">
-<para id="fs-idm41967520">Para encontrar el mínimo, el máximo y los cuartiles:</para>
+<note id="fs-idp87772032" class="statistics calculator"><label/>
+<para id="fs-idm41967520">Para calcular el mínimo, el máximo y los cuartiles:</para>
 <para id="fs-idp68357280">Introduzca los datos en el editor de listas (Pres STAT 1:EDIT). Si necesita borrar la lista, pulse flecha hacia arriba hasta el nombre L1, pulse BORRAR y luego flecha hacia abajo.</para>
 <para id="fs-idp62743968">Ponga los valores de los datos en la lista L1.</para>
 <para id="fs-idp69578208">Pulse STAT y la flecha hacia CALC. Pulse 1:1-VarStats. Ingrese L1.</para>
@@ -119,7 +119,7 @@
 <para id="fs-idp72873744">Flecha hacia abajo a Freq: Pulse ALPHA. Pulse 1.</para>
 <para id="fs-idp75665280">Pulse Zoom. Pulse 9: ZoomStat.</para>
 <para id="fs-idp65135968">Pulse TRACE y utilice las teclas de flecha para examinar el diagrama de caja.</para>
-</note><note id="fs-idp31328448" class="statistics try">
+</note><note id="fs-idp31328448" class="statistics try"><label/>
 <title>Ejercicio</title>
 <exercise id="fs-idp52595328"><problem id="fs-idm27882400">
 <para id="fs-idp69268960">Los siguientes datos son el número de páginas de 40 libros en una estantería. Construya un diagrama de caja utilizando una calculadora gráfica e indique el rango intercuartílico.</para>
@@ -240,36 +240,36 @@
 <solution id="element-601s" print-placement="end">
 <list id="element-106" list-type="enumerated" number-style="lower-alpha"><item><list id="eip-idp9991488" list-type="labeled-item">
 <!--<title>First Data Set</title>-->
-<item>Mínimo = 32</item>
+<item>Mín. = 32</item>
 <item><emphasis effect="italics">Q</emphasis><sub>1</sub> = 56</item>
 <item><emphasis effect="italics">M</emphasis> = 74,5</item>
 <item><emphasis effect="italics">Q</emphasis><sub>3</sub> = 82,5</item>
-<item>Máximo = 99</item>
+<item>Máx. = 99</item>
 
 </list>
 </item>
 <item>
 <list id="element-1062" list-type="labeled-item">
 <!--<title>Second Data Set</title>-->
-<item>Mínimo = 25,5</item>
+<item>Mín. = 25,5</item>
 <item><emphasis effect="italics">Q</emphasis><sub>1</sub> = 78</item>
 <item><emphasis effect="italics">M</emphasis> = 81</item>
 <item><emphasis effect="italics">Q</emphasis><sub>3</sub> = 89</item>
-<item>Max = 98</item>
+<item>Máx. = 98</item>
 </list></item>
-<item>Clase diurna: Hay seis valores de datos que van de 32 a 56: 30%. Hay seis valores de datos que van de 56 a 74,5: 30%. Hay cinco valores de datos que van de 74,5 a 82,5: 25%. Hay cinco valores de datos que van de 82,5 a 99: 25%. Hay 16 valores de datos entre el primer cuartil, 56, y el valor más grande, 99: 75%. Clase nocturna: </item>
+<item>Clase diurna: hay seis valores de datos que van de 32 a 56: 30 %. Hay seis valores de datos que van de 56 a 74,5: 30 %. Hay cinco valores de datos que van de 74,5 a 82,5: 25 %. Hay cinco valores de datos que van de 82,5 a 99: 25 %. Hay 16 valores de datos entre el primer cuartil, 56, y el valor más grande, 99: 75 %. Clase nocturna: </item>
 <item>
 <figure id="fs-idp65829088">
-<media id="id1164411411845" alt="Dos gráficos de caja sobre una línea numérica de 0 a 100. El gráfico superior muestra un bigote de 32 a 56, una línea sólida a 56, una línea discontinua a 74,5, una línea sólida a 82,5 y un bigote de 82,5 a 99. El gráfico inferior muestra un bigote de 25,5 a 78, una línea sólida en 78, una línea discontinua en 81, una línea sólida en 89 y un bigote de 89 a 98." display="block"><image src="../../media/fig-ch02_sol_01.jpg" mime-type="image/jpg" width="380"/></media>
+<media id="id1164411411845" alt="dos gráficos de caja sobre una línea numérica de 0 a 100. El gráfico superior muestra un bigote de 32 a 56, una línea sólida a 56, una línea discontinua a 74,5, una línea sólida a 82,5 y un bigote de 82,5 a 99. El gráfico inferior muestra un bigote de 25,5 a 78, una línea sólida en 78, una línea discontinua en 81, una línea sólida en 89 y un bigote de 89 a 98." display="block"><image src="../../media/fig-ch02_sol_01.jpg" mime-type="image/jpg" width="380"/></media>
 </figure>
 </item>
 <item>El primer conjunto de datos tiene la mayor dispersión para el 50 % de los datos. El <emphasis effect="italics">IQR</emphasis> del primer conjunto de datos es mayor que el <emphasis effect="italics">IQR</emphasis> del segundo conjunto. Esto significa que hay más variabilidad en el 50 % medio del primer conjunto de datos.</item>
 </list></solution></exercise></example>
 
-<note id="fs-idp63834272" class="statistics try finger"><title>Ejercicio</title>
+<note id="fs-idp63834272" class="statistics try finger"><label/><title>Ejercicio</title>
 <exercise id="fs-idm19314304">
 <problem id="fs-idm1151200">
-<para id="fs-idp29298016">El siguiente conjunto de datos muestra las estaturas en pulgadas de los chicos de una clase de 40 alumnos.</para><para id="fs-idm35019456">66; 66; 67; 67; 68; 68; 68; 68; 68; 69; 69; 69; 70; 71; 72; 72; 72; 73; 73; 74 <newline/>El siguiente conjunto de datos muestra las alturas en pulgadas de las chicas de una clase de 40 estudiantes. <newline/>61; 61; 62; 62; 63; 63; 63; 65; 65; 65; 66; 66; 66; 67; 68; 68; 68; 69; 69; 69 <newline/>Construya un diagrama de caja utilizando una calculadora gráfica para cada conjunto de datos, e indique qué diagrama de caja tiene la mayor dispersión para el 50 % medio de los datos.</para></problem>
+<para id="fs-idp29298016">El siguiente conjunto de datos muestra las estaturas en pulgadas de los chicos de una clase de 40 estudiantes.</para><para id="fs-idm35019456">66; 66; 67; 67; 68; 68; 68; 68; 68; 69; 69; 69; 70; 71; 72; 72; 72; 73; 73; 74 <newline/>El siguiente conjunto de datos muestra las alturas en pulgadas de las chicas de una clase de 40 estudiantes. <newline/>61; 61; 62; 62; 63; 63; 63; 65; 65; 65; 66; 66; 66; 67; 68; 68; 68; 69; 69; 69 <newline/>Construya un diagrama de caja utilizando una calculadora gráfica para cada conjunto de datos, e indique qué diagrama de caja tiene la mayor dispersión para el 50 % medio de los datos.</para></problem>
 </exercise></note>
 
 
@@ -282,11 +282,11 @@
 </para>
 <para id="fs-idp59445184">Los cinco números utilizados para crear un diagrama de caja y bigotes son:</para>
 <list id="fs-idp3956176" list-type="labeled-item">
-<item>Min: 10</item>
+<item>Mín.: 10</item>
 <item><emphasis effect="italics">Q</emphasis><sub>1</sub>: 15</item>
-<item>Med: 95</item>
+<item>Med.: 95</item>
 <item><emphasis effect="italics">Q</emphasis><sub>3</sub>: 490</item>
-<item>Máx: 790</item>
+<item>Máx.: 790</item>
 </list>
 <para id="fs-idp68810672">El siguiente gráfico muestra el diagrama de cajas y bigotes.</para><figure id="fs-idm67197680"><media id="fs-idp52050960" alt="Diagrama de caja horizontal con el primer bigote que se extiende desde el valor más pequeño, 10, hasta el Q1, 15, la caja que comienza desde el Q1 hasta el Q3, 490, la línea discontinua mediana en el Q2, 95, y el segundo bigote que se extiende desde el Q3 hasta el valor más grande, 790."><image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M05_015.jpg" width="420"/>
 </media>
@@ -294,7 +294,7 @@
 
 
 
-<note id="fs-idp43137808" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idp43137808" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="eip-idp22858976">
 <problem id="eip-idp22859232">
     <para id="fs-idm36238000">Siga los pasos que utilizó para graficar un diagrama de caja y bigotes para los valores de datos que se muestran a continuación.</para>
@@ -310,11 +310,11 @@
 <para id="fs-idm91067600">Datos de la <emphasis effect="italics">Revista West</emphasis>.</para></section>
 
 <section id="fs-idp44166016" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idp62162768">Los gráficos de caja son un tipo de gráfico que puede ayudar a organizar los datos visualmente. Para elaborar un diagrama de caja se deben calcular los siguientes puntos de datos: el valor mínimo, el primer cuartil, la mediana, el tercer cuartil y el valor máximo. Una vez que el diagrama de caja se ha graficado, se pueden visualizar y comparar las distribuciones de los datos.</para></section>
 
 <section id="fs-idm61864272" class="practice">
-<para id="fs-idp75507648">Use la siguiente información para responder los próximos dos ejercicios. Se preguntó a sesenta y cinco vendedores de automóviles seleccionados al azar el número de automóviles que suelen vender en una semana. Catorce personas respondieron que generalmente venden tres, diecinueve que venden cuatro, doce que venden cinco, nueve que venden seis y once que venden siete.</para><exercise id="fs-idm23427584">
+<para id="fs-idp75507648">Use la siguiente información para responder los próximos dos ejercicios. se preguntó a sesenta y cinco vendedores de automóviles seleccionados al azar el número de automóviles que suelen vender en una semana. Catorce personas respondieron que generalmente venden tres, diecinueve que venden cuatro, doce que venden cinco, nueve que venden seis y once que venden siete.</para><exercise id="fs-idm23427584">
 <problem id="fs-idm58196288">
 <para id="element-580">Construya un diagrama de caja a continuación. Utilice una regla para medir con una escala exacta.</para>
 </problem>
@@ -493,7 +493,7 @@
         </figure>
       </problem>
       <solution id="fs-idp100901312">
-        <list id="fs-idp68335440" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Para el gráfico, compruebe la solución del alumno. </item>
+        <list id="fs-idp68335440" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Para el gráfico, compruebe la solución del estudiante. </item>
           <item>El 49,7 % de la comunidad tiene menos de 35 años.</item>
           <item>A partir de la información de la tabla, el gráfico (a) es el que mejor representa los datos.</item>
         </list></solution>

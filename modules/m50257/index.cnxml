@@ -9,13 +9,13 @@
 </metadata>
 
 <content>
-  <note id="fs-id1167902738757" class="statistics lab"><title>Distribución discreta (experimento con cartas) </title>
+  <note id="fs-id1167902738757" class="statistics lab"><label/><title>Distribución discreta (experimento con cartas) </title>
 
 <para id="id6097603">Hora de la clase:</para>
 <para id="id3675915">Nombres:</para>
 
-<list id="id11235020" list-type="bulleted"><title>Resultados del aprendizaje de los estudiantes</title><item>El alumno comparará los datos empíricos y una distribución teórica para determinar si un experimento cotidiano se ajusta a una distribución discreta.</item>
-<item>El alumno comparará la simulación generada por la tecnología y una distribución teórica.</item>
+<list id="id11235020" list-type="bulleted"><title>Resultados del aprendizaje de los estudiantes</title><item>El estudiante comparará los datos empíricos y una distribución teórica para determinar si un experimento cotidiano se ajusta a una distribución discreta.</item>
+<item>El estudiante comparará la simulación generada por la tecnología y una distribución teórica.</item>
 <item>El estudiante demostrará que comprende las probabilidades a largo plazo.</item>
 </list><list id="id3383537" list-type="bulleted"><title>Suministros</title><item>Una baraja completa de cartas</item>
 <item>Una calculadora de programación</item></list><para id="proceduresec"><title>Procedimiento</title>El procedimiento experimental para los datos empíricos consiste en elegir una carta de una baraja.</para><list id="list-982763895" list-type="enumerated"><item>La probabilidad teórica de escoger un diamante de una baraja es _________.</item>
@@ -26,7 +26,7 @@
 <item>Haga esto un total de diez veces.</item>
 <item>Anote el número de diamantes extraídos.</item>
 <item>Supongamos que <emphasis effect="italics">X</emphasis> = número de diamantes. Teóricamente, <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(_____,_____)</item>
-</list><list id="list-23562621" list-type="enumerated"><title id="OrgData">Organice los datos</title><item>Registre el número de diamantes extraídos para su clase con las cartas en la <link target-id="lab1_tbl001"/>. A continuación, calcule la frecuencia relativa.
+</list><list id="list-23562621" list-type="enumerated"><title id="OrgData">Organice los datos</title><item>Registre el número de diamantes extraídos para su clase con las cartas en la <link target-id="lab1_tbl001" document=""/>. A continuación, calcule la frecuencia relativa.
 <table id="lab1_tbl001" summary="Table for recording values with. The first column is for number of diamonds picked (x) from 0-10, blank second column is for frequency, and the blank third column is for relative frequency.">
 <tgroup cols="3">
 <colspec colnum="1" colname="c1"/>
@@ -97,7 +97,7 @@
 </tbody>
 </tgroup>
 </table></item>
-<item>Calcule lo siguiente: <list id="list-2356" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math>
+<item>Calcule lo siguiente: <list id="list-2356" list-type="enumerated" number-style="lower-alpha"><item><m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
@@ -112,8 +112,8 @@
 <image src="../../media/fig-ch04_17_01.png" mime-type="image/png" width="400" print-width="4in"/></media>
 </figure>
 </item>
-</list><list id="list-742309876" list-type="enumerated" number-style="lower-alpha"><title id="TheoDist">Distribución teórica</title><item>Construya el gráfico PDF teórico basado en la distribución de la sección <link target-id="proceduresec">Procedimiento</link>.
-<table id="lab1_tbl002" class="unnumbered" summary="The experiment is for each class member or group to shuffle a 52-card deck of cards, pick one card and record if it is a diamond. This is done 10 times. The table shows the results of the number of diamonds picked and the relative frequency.">
+</list><list id="list-742309876" list-type="enumerated" number-style="lower-alpha"><title id="TheoDist">Distribución teórica</title><item>Construya el gráfico PDF teórico basado en la distribución de la sección <link target-id="proceduresec" document="">Procedimiento</link>.
+<table id="lab1_tbl002" class="unnumbered" summary="The experiment is for each class member or group to shuffle a 52-card deck of cards, pick one card and record if it is a diamond. This is done 10 times. The table shows the results of the number of diamonds picked and the relative frequency."><label/>
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -181,9 +181,9 @@
 <image src="../../media/fig-ch04_17_02.png" mime-type="image/png" width="400"/></media>
 </figure></item>
 </list><para id="fs-idp120856768"><title>Uso de los datos</title></para>
-<note id="id5378437"><title>NOTA</title>
+<note id="id5378437"><label/><title>NOTA</title>
 <para id="eip-idp140551535389872"><emphasis effect="italics">RF</emphasis> = frecuencia relativa (relative frequency, RF)</para>
-</note><para id="element-982735">Utilice la tabla de la sección <link target-id="TheoDist">Distribución teórica</link> para calcular las siguientes respuestas. Redondee sus respuestas a cuatro decimales.</para>
+</note><para id="element-982735">Utilice la tabla de la sección <link target-id="TheoDist" document="">Distribución teórica</link> para calcular las siguientes respuestas. Redondee sus respuestas a cuatro decimales.</para>
 
 <list id="list-928735" list-type="bulleted">
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 3) = _______________________</item>
@@ -191,7 +191,7 @@
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 8) = _______________________</item>
 </list>
 
-<para id="element-806">Utilice los datos de la sección <link target-id="OrgData">Organizar los datos</link> para calcular las siguientes respuestas. Redondee sus respuestas a cuatro decimales <list id="list-92763594" list-type="bulleted"><item><emphasis effect="italics">RF</emphasis>(<emphasis effect="italics">x</emphasis> = 3) = _______________________</item>
+<para id="element-806">Utilice los datos de la sección <link target-id="OrgData" document="">Organizar los datos</link> para calcular las siguientes respuestas. Redondee sus respuestas a cuatro decimales <list id="list-92763594" list-type="bulleted"><item><emphasis effect="italics">RF</emphasis>(<emphasis effect="italics">x</emphasis> = 3) = _______________________</item>
 <item><emphasis effect="italics">RF</emphasis>(1 &lt; <emphasis effect="italics">x</emphasis> &lt; 4) = _______________________</item>
 <item><emphasis effect="italics">RF</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 8) = _______________________</item>
 </list></para>
@@ -200,7 +200,7 @@
 <para id="element-420"><title>Preguntas para el debate</title>Para las preguntas 1 y 2, piense en las formas de los dos gráficos, las probabilidades, las frecuencias relativas, las medias y las desviaciones típicas.</para><list id="list-23526" list-type="enumerated"><item id="q1">Sabiendo que los datos varían, describa tres similitudes entre los gráficos y las distribuciones teóricas, empíricas y de simulación. Utilice oraciones completas.</item>
 <item id="q2">Describa las tres diferencias más significativas entre los gráficos o las distribuciones teórica, empírica y de simulación.</item>
 <item id="q3">Utilizando sus respuestas a las preguntas 1 y 2, ¿le parece que los dos conjuntos de datos se ajustan a la distribución teórica? Explique por qué sí o por qué no en oraciones completas.</item>
-<item id="q4">Supongamos que el experimento se ha repetido 500 veces. ¿Espera que la <link target-id="lab1_tbl001"/> o la <link target-id="lab1_tbl002"/> cambien, y cómo lo harían? ¿Por qué? ¿Por qué no cambiarían la(s) otra(s) tabla(s)?</item>
+<item id="q4">Supongamos que el experimento se ha repetido 500 veces. ¿Espera que la <link target-id="lab1_tbl001" document=""/> o la <link target-id="lab1_tbl002" document=""/> cambien, y cómo lo harían? ¿Por qué? ¿Por qué no cambiarían la(s) otra(s) tabla(s)?</item>
 </list></note> </content>
 
 </document>

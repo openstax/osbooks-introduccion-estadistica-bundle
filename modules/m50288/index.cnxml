@@ -9,7 +9,7 @@
 </metadata>
 
 <content>
-  <note id="fs-id1164890505043" class="statistics lab"><title>ANOVA de una vía </title>
+  <note id="fs-id1164890505043" class="statistics lab"><label/><title>ANOVA de una vía </title>
 <para id="id11393456">Hora de la clase: </para>
 <para id="id11393462">Nombres:</para>
 
@@ -18,14 +18,14 @@
 <item>El estudiante llevará a cabo una prueba simple de ANOVA de una vía que incluya tres variables.</item>
 </list> <list id="list-97632874" list-type="enumerated">
 <title>Recopilación de datos</title>
-<item>Anote el precio por libra de ocho frutas, ocho verduras y ocho panes en su supermercado local.
+<item>Anote el precio por libra de ocho frutas, ocho vegetales y ocho panes en su supermercado local.
 <table id="table38247y9" summary="The blank table has fruits in the first column, vegetables in the second column, and bread in the third column. 24 empty cells">
 
 <tgroup cols="3">
 <thead>
 <row>
 <entry>Frutas</entry>
-<entry>Verduras</entry>
+<entry>Vegetales</entry>
 <entry>Panes</entry>
 </row>
 </thead>
@@ -78,14 +78,14 @@
 </list> <list id="list-3249345685" list-type="enumerated"><title>Analice los datos y compruebe la hipótesis</title><item>Indique la hipótesis nula y la hipótesis alternativa.</item>
 <item>Calcule lo siguiente: <list id="list-234235" list-type="enumerated" number-style="lower-alpha">
 <item>Frutas: <list id="list-2343456235" list-type="enumerated" number-style="lower-roman">
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
  
 </m:math> = ______</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:msub>
    <m:mi>s</m:mi>
@@ -96,8 +96,8 @@
 </m:math> = ______</item>
 <item><emphasis effect="italics">n</emphasis> = ______</item>
 </list></item>
-<item>Verduras: <list id="list-2344634235" list-type="enumerated" number-style="lower-roman">
-<item>Los términos <m:math>
+<item>Vegetales: <list id="list-2344634235" list-type="enumerated" number-style="lower-roman">
+<item><m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
@@ -105,7 +105,7 @@
  
 </m:math> = ______</item>
 <item>
-Los términos <m:math>
+<m:math>
  <m:mrow>
   <m:msub>
    <m:mi>s</m:mi>
@@ -117,14 +117,14 @@ Los términos <m:math>
 <item><emphasis effect="italics">n</emphasis> = ______</item>
 </list></item>
 <item>Panes: <list id="list-2343346235" list-type="enumerated" number-style="lower-roman">
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
  
 </m:math> = ______</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:msub>
    <m:mi>s</m:mi>

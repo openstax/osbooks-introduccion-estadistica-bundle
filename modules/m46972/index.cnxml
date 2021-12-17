@@ -106,7 +106,7 @@
 
 </m:mrow>
 </m:math> para 0 ≤ <emphasis effect="italics">X</emphasis> ≤ 23.</para><para id="element-771">Las fórmulas para la media teórica y la desviación típica son</para>
-<para id="element-147">Los términos <m:math>
+<para id="element-147"><m:math>
  <m:mrow>
   <m:mi>μ</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -139,7 +139,7 @@
 </m:msqrt>
 
 </m:mrow>
-</m:math></para><para id="element-729">En este problema, la media teórica y la desviación estándar son</para>
+</m:math></para><para id="element-729">En este problema, la media teórica y la desviación típica son</para>
 <para id="element-623"><emphasis effect="italics">μ</emphasis> = <m:math>
 <m:mrow>
 <m:mfrac>
@@ -173,7 +173,7 @@
 </example>
 
 <note id="fs-idp70845248" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idp158465216">
 <problem id="fs-idp127611104">
@@ -274,7 +274,7 @@
 </m:mrow>
 </m:mrow>
 </m:mrow>
-</m:math></para><para id="element-179"><figure id="eip-idp133938240">
+</m:math>.</para><para id="element-179"><figure id="eip-idp133938240">
 <media id="id15176560" alt="Este gráfico muestra una distribución uniforme. El eje horizontal va de 0 a 15. La distribución se modela mediante un rectángulo que se extiende desde x = 0 hasta x = 15. En el interior del rectángulo hay una sombreada desde x = 2 hasta x = 18.">
 <image src="../../media/fig-ch05_03_01N.jpg" mime-type="image/jpg" width="380"/>
 </media></figure></para></solution>
@@ -284,15 +284,15 @@
 <para id="element-483">b. Halle el percentil 90<sup/> para el tiempo de sonrisa de un bebé de ocho semanas.
 </para></problem>
 <solution id="id14797739">
-<para id="element-6">b. El noventa por ciento de los tiempos de sonrisa están por debajo del percentil 90<sup/>, <emphasis effect="italics">k</emphasis>, por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">k</emphasis>) = 0,90.</para><para id="element-180">Los términos <m:math>
+<para id="element-6">b. El noventa por ciento de los tiempos de sonrisa están por debajo del percentil 90<sup/>, <emphasis effect="italics">k</emphasis>, por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">k</emphasis>) = 0,90.</para><para id="element-180"><m:math>
 <m:mrow>
 <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mi>k</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0,90</m:mn>
 </m:mrow>
 </m:math></para>
 <para id="element-182">
-Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(</m:mo><m:mtext>altura</m:mtext><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0,90</m:mn></m:math>
+<m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(</m:mo><m:mtext>altura</m:mtext><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0,90</m:mn></m:math>
 </para>
-<para id="element-183">Los términos <m:math>
+<para id="element-183"><m:math>
  <m:mrow>
   <m:mtext>(</m:mtext><m:mi>k</m:mi><m:mo>–</m:mo><m:mn>0</m:mn><m:mtext>)</m:mtext><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -306,7 +306,7 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0,90</m:mn>
  </m:mrow>
-</m:math></para><para id="element-184">Los términos <m:math>
+</m:math></para><para id="element-184"><m:math>
 <m:mrow>
 <m:mi>k</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
 <m:mrow>
@@ -457,7 +457,7 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
 </exercise>
 </example>
 <note id="fs-idp61080304" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idp178484384">
 <problem id="fs-idp81255648">
@@ -496,9 +496,9 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
 </m:mfrac>
 </m:mrow>
 </m:math> para 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="element-577">Calcule <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">x</emphasis> &lt; 12,5). Dibuje un gráfico.</para>
-<para id="element-770">Los términos <m:math>
+<para id="element-770"><m:math>
 <m:mrow>
-<m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mi>k</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>base</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>altura</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>12,5</m:mn><m:mo>-</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mi>k</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>base</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>altura</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>12,5</m:mn><m:mo>–</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -535,11 +535,11 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
 
 </m:mrow>
 </m:math> = 7,5. En promedio, una persona debe esperar 7,5 minutos. <newline/> <newline/> <emphasis effect="italics">σ</emphasis> = <m:math><m:msqrt><m:mfrac>
-<m:mrow><m:mo>(</m:mo><m:mi>b</m:mi><m:mo>-</m:mo><m:mi>a</m:mi><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mi>b</m:mi><m:mo>–</m:mo><m:mi>a</m:mi><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup></m:mrow>
 <m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:msqrt>
 <m:mo>=</m:mo>
 <m:msqrt><m:mfrac>
-<m:mrow><m:mo>(</m:mo><m:mi>15</m:mi><m:mo>-</m:mo><m:mi>0</m:mi><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mi>15</m:mi><m:mo>–</m:mo><m:mi>0</m:mi><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup></m:mrow>
 <m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:msqrt>
 </m:math> = 4,3. La desviación típica es de 4,3 minutos. <newline/></para>
 <para id="element-12">c. Calcule el percentil 90<sup/>. Dibuje un gráfico. Supongamos que <emphasis effect="italics">k</emphasis> = el percentil 90<sup/>. <newline/> <newline/><m:math>
@@ -579,7 +579,7 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
 </exercise>
 </example>
 <note id="fs-idp13010016" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 
 <exercise id="fs-idp51205632">
@@ -594,9 +594,9 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
 </exercise>
 
 </note>
-<example id="element-321"><para id="element-637">Supongamos que el tiempo que tarda un niño de nueve años en comerse una rosquilla está entre 0,5 y 4 minutos, ambos inclusive. Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en minutos, que tarda un niño de nueve años en comerse una rosquilla. Entonces <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (0,5, 4).<newline/></para><exercise id="eip-idp102263568">
+<example id="element-321"><para id="element-637">Supongamos que el tiempo que tarda un niño de nueve años en comerse una rosquilla está entre 0,5 y 4 minutos, ambos inclusive. Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en minutos, que tarda un niño de nueve años en comerse una rosquilla. Entonces <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (0,5, 4).<newline/></para><exercise id="eip-idp102263568"><label/>
 <problem id="eip-idp95256048">
-
+<label/>
 <para id="eip-idp95256304">a. La probabilidad de que un niño de nueve años seleccionado al azar se coma una rosquilla en al menos dos minutos es _______.</para></problem>
 <solution id="eip-idp95256944">
 <para id="eip-idp95257200">a. 0,5714<newline/></para></solution>
@@ -619,7 +619,7 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
 </m:mfrac>
 </m:mrow>
 </m:math> para 1,5 ≤ <emphasis effect="italics">x</emphasis> ≤ 4.</para><para id="eip-idm60988032">Halle <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 2|<emphasis effect="italics">x</emphasis> > 1,5). Dibuje un gráfico.</para><para id="eip-idp116156944"><figure id="eip-idp101580400">
-<media id="id13790135" alt="Gráfico f(X)=2/5 que muestra una región delimitada formada por una línea horizontal que se extiende hacia la derecha desde el punto 2/5 del eje y, una línea vertical ascendente desde los puntos 1,5 y 4 del eje x, y el eje x. La región sombreada de los puntos 2-4 se encuentra dentro de esa región.">
+<media id="id13790135" alt="Gráfico f(X) = 2/5 que muestra una región delimitada formada por una línea horizontal que se extiende hacia la derecha desde el punto 2/5 del eje y, una línea vertical ascendente desde los puntos 1,5 y 4 del eje x, y el eje x. La región sombreada de los puntos 2-4 se encuentra dentro de esa región.">
 <image src="../../media/fig-ch05_03_07N.jpg" mime-type="image/jpg" width="380"/>
 </media>
 </figure></para><para id="eip-idm48182144"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">2</emphasis>|<emphasis effect="italics">x</emphasis> > 1,5) = (base)(nueva altura) = (4 - 2)<m:math>
@@ -639,7 +639,7 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
 <para id="eip-idp15120208">b. <m:math><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:math>
 </para></solution>
 </exercise>
-<para id="eip-idm70960944">La probabilidad de que un niño de nueve años se coma una rosquilla en más de dos minutos, dado que el niño ya ha estado comiendo la rosquilla durante más de 1,5 minutos, es <m:math><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:math></para>
+<para id="eip-idm70960944">La probabilidad de que un niño de nueve años se coma una rosquilla en más de dos minutos, dado que el niño ya ha estado comiendo la rosquilla durante más de 1,5 minutos, es <m:math><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:math>.</para>
 <para id="eip-idm39713200"><emphasis>Segunda forma:</emphasis> Dibuje el gráfico original para <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (0,5, 4). Utilice la fórmula condicional</para><para id="eip-idm39711312"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 2|<emphasis effect="italics">x</emphasis> > 1,5) = <m:math>
  <m:mrow>
   <m:mo> </m:mo><m:mfrac>
@@ -687,7 +687,7 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
 
  </m:mrow>
 </m:math></para></example><note id="fs-idp42235264" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 
 <exercise id="fs-idp177663840">
@@ -809,7 +809,7 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
 </exercise></example>
 
 <note id="fs-idm9097392" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idp8673008">
 <problem id="fs-idp161676800">
@@ -825,7 +825,7 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
 </exercise>
 </note>
 <section id="fs-idp87344528" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idp24264368">Si <emphasis effect="italics">X</emphasis> tiene una distribución uniforme donde <emphasis effect="italics">a</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">b</emphasis> o <emphasis effect="italics">a</emphasis> ≤ <emphasis effect="italics">x</emphasis> ≤ <emphasis effect="italics">b</emphasis>, entonces <emphasis effect="italics">X</emphasis> toma valores entre <emphasis effect="italics">a</emphasis> y <emphasis effect="italics">b</emphasis> (puede incluir <emphasis effect="italics">a</emphasis> y <emphasis effect="italics">b</emphasis>). Todos los valores <emphasis effect="italics">x</emphasis> son igualmente probables. Escribimos <emphasis effect="italics">X</emphasis> ∼ <emphasis effect="italics">U</emphasis>(<emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis>). La media de <emphasis effect="italics">X</emphasis> es <m:math>
 <m:mrow>
 <m:mi>μ</m:mi><m:mo>=</m:mo><m:mfrac>
@@ -835,7 +835,7 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
 <m:mn>2</m:mn>
 </m:mfrac>
 </m:mrow>
-</m:math> La desviación típica de <emphasis effect="italics">X</emphasis> es <m:math>
+</m:math>. La desviación típica de <emphasis effect="italics">X</emphasis> es <m:math>
 <m:mrow>
 <m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt>
 <m:mrow>
@@ -857,7 +857,7 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
 </m:mrow>
 </m:math>. La función de densidad de probabilidad de <emphasis effect="italics">X</emphasis> es <m:math>
 <m:mrow>
-<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
 <m:mn>1</m:mn>
 <m:mrow>
 <m:mi>b</m:mi><m:mo>–</m:mo><m:mi>a</m:mi>
@@ -924,7 +924,7 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
  </m:mrow>
 </m:math></para><para id="element-104"><emphasis>Función de densidad de probabilidad:</emphasis> <m:math>
 <m:mrow>
-<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
 <m:mn>1</m:mn>
 <m:mrow>
 <m:mi>b</m:mi><m:mo>–</m:mo><m:mi>a</m:mi>
@@ -983,7 +983,7 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
 <para id="fs-idp10903536">Uniforme: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(<emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis>) donde <emphasis effect="italics">a</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">b</emphasis></para>
 <list id="fs-idm1322784" list-type="bulleted"><item>pdf: <m:math>
 <m:mrow>
-<m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>e</m:mi><m:mrow><m:mo>(</m:mo>
 <m:mi>x</m:mi>
 <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
 <m:mn>1</m:mn>
@@ -1059,7 +1059,7 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
 </section>
 
 <section id="fs-idp174729104" class="practice">
-<para id="fs-idp8065584"><emphasis effect="italics">Use la siguiente información para responder las próximas diez preguntas.</emphasis> Los datos que siguen son los metros cuadrados (en 1.000 pies cuadrados) de 28 viviendas.</para><table id="fs-idp58203216" summary="">
+<para id="fs-idp8065584"><emphasis effect="italics">Use la siguiente información para responder las próximas diez preguntas.</emphasis> Los datos que siguen son los pies cuadrados (en 1.000 pies cuadrados) de 28 viviendas.</para><table id="fs-idp58203216" summary="">
 <tgroup cols="7">
 <tbody>
 <row>
@@ -1159,7 +1159,7 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
 
 <exercise id="fs-idp82566640">
 <problem id="fs-idm63308704">
-<para id="fs-idp130119312">¿Cuál es el percentil 90<sup/> de los metros cuadrados de las viviendas?</para>
+<para id="fs-idp130119312">¿Cuál es el percentil 90<sup/> de los pies cuadrados de las viviendas?</para>
 </problem>
 </exercise>
 
@@ -1345,8 +1345,8 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
 <item>Calcule la probabilidad. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 4|<emphasis effect="italics">x</emphasis> &lt; 7,5) = _______</item>
 </list></problem>
 <solution id="fs-idp55294432">
-<list id="element-200212" list-type="enumerated" number-style="lower-alpha"><item>Compruebe la solución del estudiante</item>
-<item>Los términos <m:math>
+<list id="element-200212" list-type="enumerated" number-style="lower-alpha"><item>Compruebe la solución del estudiante.</item>
+<item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -1395,14 +1395,14 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
 <title>Tarea para la casa</title>
 <para id="eip-902"><emphasis effect="italics">Para cada problema de probabilidad y percentil, haga el dibujo.</emphasis></para><exercise id="fs-idp2934064">
 <problem id="fs-idp51132496">
-<para id="fs-idp77684160">Births are approximately uniformly distributed throughout the year. They can be said to follow a uniform distribution from 0 to 2 (spread of 52 weeks).</para>
+<para id="fs-idp77684160">Los nacimientos se distribuyen de forma aproximadamente uniforme a lo largo del año. Se puede decir que siguen una distribución uniforme de 0 a 2 (extensión de 52 semanas).</para>
 <list id="fs-idp77684416" list-type="enumerated" number-style="lower-alpha">
 <item><emphasis effect="italics">X</emphasis> ~ _________</item>
 <item>Grafique la distribución de probabilidad.</item>
 <item><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = _________</item>
 <item><emphasis effect="italics">μ</emphasis> = _________</item>
 <item>σ = _________</item>
-<item>Find the probability that a person is born at the exact moment week 19 ends. Es decir, calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 19) = _________</item>
+<item>Calcule la probabilidad de que una persona nazca en el momento exacto en que termina la semana 19. Es decir, calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 19) = _________</item>
 <item><emphasis effect="italics">P</emphasis>(2 &lt; <emphasis effect="italics">x</emphasis> &lt; 31) = _________</item>
 <item>Calcule la probabilidad de que una persona nazca después de la semana 40.</item>
 <item><emphasis effect="italics">P</emphasis>(12 &lt; <emphasis effect="italics">x</emphasis>|<emphasis effect="italics">x</emphasis> &lt; 28) = _________</item>
@@ -1425,10 +1425,10 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
 </list></problem>
 <solution id="eip-idp101962176">
 <list id="eip-idp101962432" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(1, 9)</item>
-<item>Compruebe la solución del estudiante</item>
-<item>Los términos <m:math>
+<item>Compruebe la solución del estudiante.</item>
+<item><m:math>
  <m:mrow>
-  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+  <m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>8</m:mn>
   </m:mfrac>
@@ -1441,7 +1441,7 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
 </m:math></item>
 <item>cinco</item>
 <item>2,3</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -1520,10 +1520,10 @@ Los términos <m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(
 
 
 <item>
-Los términos <m:math>
+<m:math>
  <m:mrow>
 
-	<m:mi>f</m:mi>
+	<m:mi>e</m:mi>
 	<m:mo stretchy="false">(</m:mo>
 	<m:mi>x</m:mi>
 	<m:mo stretchy="false">)</m:mo>
@@ -1552,7 +1552,7 @@ Los términos <m:math>
 
 
 <item>
-Los términos <m:math>
+<m:math>
 	<m:mrow>
 		<m:mfrac>
 			<m:mn>1</m:mn>
@@ -1564,7 +1564,7 @@ Los términos <m:math>
 
 
 <item>
-Los términos <m:math>
+<m:math>
 	<m:mrow>
 		<m:mfrac>
 			<m:mn>1</m:mn>
@@ -1861,7 +1861,7 @@ Los términos <m:math>
 <list id="fs-idp182386704" list-type="enumerated" number-style="lower-alpha">
 <item>Calcule la probabilidad de que el camionero recorra más de 650 millas en un día.</item>
 <item>Calcule la probabilidad de que los camioneros recorran entre 400 y 650 millas en un día.</item>
-<item>Al menos, ¿cuántos kilómetros recorre el camionero en el 10 % de los días con recorridos más lejanos?</item>
+<item>Al menos, ¿cuántas millas recorre el camionero en el 10 % de los días con recorridos más lejanos?</item>
 </list>
 </problem>
 <solution id="fs-idp168190128">

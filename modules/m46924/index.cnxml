@@ -14,7 +14,7 @@
 <item><emphasis effect="italics">RF</emphasis> = frecuencia relativa,</item>
 </list>
 <para id="element-700">entonces:
-<equation class="unnumbered" id="element-1000">Los términos <m:math>
+<equation class="unnumbered" id="element-1000"><label/><m:math>
 <m:semantics>
 <m:mrow>
 <m:mstyle fontsize="12pt">
@@ -29,7 +29,7 @@
 <m:mfrac>
 <m:mstyle fontsize="8pt">
 <m:mrow>
-<m:mi>f</m:mi>
+<m:mi>e</m:mi>
 </m:mrow>
 </m:mstyle>
 <m:mstyle fontsize="8pt">
@@ -47,12 +47,12 @@
 </m:math>
 </equation></para>
 
-<para id="element-323">Por ejemplo, si tres estudiantes de la clase de Inglés del Sr. Ahab compuesta por 40 estudiantes obtuvieron del 90 % al 100 %, entonces, <!--<newline count="1"/>--><emphasis effect="italics">f</emphasis> = 3, <emphasis effect="italics">n</emphasis> = 40 y <emphasis effect="italics">RF</emphasis> = <m:math> <m:mrow><m:mfrac><m:mi>f</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow></m:math> = <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>40</m:mn></m:mrow></m:mfrac></m:mrow></m:math> = 0,075. El 7,5 % de los estudiantes obtuvieron del 90 % al 100 %. Del 90 % al 100 % son medidas cuantitativas.</para><para id="element-237"><emphasis>Para construir un histograma</emphasis>, primero hay que decidir cuántas <emphasis>barras</emphasis> o <emphasis>intervalos</emphasis> (también llamados clases) representan los datos. Muchos histogramas constan de cinco a 15 barras o clases para mayor claridad. Hay que elegir el número de barras. Elija un punto de partida para que el primer intervalo sea menor que el valor más pequeño de los datos. Un <emphasis>punto de partida conveniente</emphasis> es un valor inferior llevado a un decimal más que el valor con más decimales. Por ejemplo, si el valor con más decimales es 6,1 y este es el valor más pequeño, un punto de partida conveniente es 6,05 (6,1 – 0,05 = 6,05). Decimos que 6,05 tiene más precisión. Si el valor con más decimales es 2,23 y el valor más bajo es 1,5, un punto de partida conveniente es 1,495 (1,5 – 0,005 = 1,495). Si el valor con más decimales es 3,234 y el valor más bajo es 1,0, un punto de partida conveniente es 0,9995 (1,0 – 0,0005 = 0,9995). Si todos los datos son enteros y el valor más pequeño es dos, un punto de partida conveniente es 1,5 (2 – 0,5 = 1,5). Además, cuando el punto de partida y otros límites se llevan a un decimal adicional, ningún valor de los datos caerá en un límite. Los dos siguientes ejemplos detallan cómo construir un histograma utilizando datos continuos y cómo crear un histograma utilizando datos discretos.</para><example id="exampid1">
-<para id="element-743">Los siguientes datos son las estaturas (en pulgadas con una aproximación de media pulgada) de 100 jugadores masculinos de fútbol semiprofesional. Las alturas son datos <emphasis>continuos</emphasis>, ya que la altura se mide. <newline/>60; 60,5; 61; 61; 61,5 <newline/>63,5; 63,5; 63,5 <newline/>64; 64; 64; 64; 64; 64; 64; 64,5; 64,5; 64,5; 64,5; 64,5; 64,5; 64,5; 64,5 <newline/>66; 66; 66; 66; 66; 66; 66; 66; 66; 66; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67,5; 67,5; 67,5; 67,5; 67,5; 67,5; 67,5 <newline/>68; 68; 69; 69; 69; 69; 69; 69; 69; 69; 69; 69; 69,5; 69,5; 69,5; 69,5; 69,5 <newline/>70; 70; 70; 70; 70; 70; 70,5; 70,5; 70,5; 71; 71; 71 <newline/>72; 72; 72; 72,5; 72,5; 73; 73,5 <newline/>74
+<para id="element-323">Por ejemplo, si tres estudiantes de la clase de Inglés del Sr. Ahab compuesta por 40 estudiantes obtuvieron del 90 % al 100 %, entonces, <!--<newline count="1"/>--><emphasis effect="italics">f</emphasis> = 3, <emphasis effect="italics">n</emphasis> = 40 y <emphasis effect="italics">RF</emphasis> = <m:math> <m:mrow><m:mfrac><m:mi>e</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow></m:math> = <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>40</m:mn></m:mrow></m:mfrac></m:mrow></m:math> = 0,075. El 7,5 % de los estudiantes obtuvieron del 90 % al 100 %. Del 90 % al 100 % son medidas cuantitativas.</para><para id="element-237"><emphasis>Para construir un histograma</emphasis>, primero hay que decidir cuántas <emphasis>barras</emphasis> o <emphasis>intervalos</emphasis> (también llamados clases) representan los datos. Muchos histogramas constan de cinco a 15 barras o clases para mayor claridad. Hay que elegir el número de barras. Elija un punto de partida para que el primer intervalo sea menor que el valor más pequeño de los datos. Un <emphasis>punto de partida conveniente</emphasis> es un valor inferior llevado a un decimal más que el valor con más decimales. Por ejemplo, si el valor con más decimales es 6,1 y este es el valor más pequeño, un punto de partida conveniente es 6,05 (6,1 – 0,05 = 6,05). Decimos que 6,05 tiene más precisión. Si el valor con más decimales es 2,23 y el valor más bajo es 1,5, un punto de partida conveniente es 1,495 (1,5 – 0,005 = 1,495). Si el valor con más decimales es 3,234 y el valor más bajo es 1,0, un punto de partida conveniente es 0,9995 (1,0 – 0,0005 = 0,9995). Si todos los datos son enteros y el valor más pequeño es dos, un punto de partida conveniente es 1,5 (2 – 0,5 = 1,5). Además, cuando el punto de partida y otros límites se llevan a un decimal adicional, ningún valor de los datos caerá en un límite. Los dos siguientes ejemplos detallan cómo construir un histograma utilizando datos continuos y cómo crear un histograma utilizando datos discretos.</para><example id="exampid1">
+<para id="element-743">Los siguientes datos son las estaturas (en pulgadas con una aproximación de media pulgada) de 100 jugadores hombres de fútbol semiprofesional. Las alturas son datos <emphasis>continuos</emphasis>, ya que la altura se mide. <newline/>60; 60,5; 61; 61; 61,5 <newline/>63,5; 63,5; 63,5 <newline/>64; 64; 64; 64; 64; 64; 64; 64,5; 64,5; 64,5; 64,5; 64,5; 64,5; 64,5; 64,5 <newline/>66; 66; 66; 66; 66; 66; 66; 66; 66; 66; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67,5; 67,5; 67,5; 67,5; 67,5; 67,5; 67,5 <newline/>68; 68; 69; 69; 69; 69; 69; 69; 69; 69; 69; 69; 69,5; 69,5; 69,5; 69,5; 69,5 <newline/>70; 70; 70; 70; 70; 70; 70,5; 70,5; 70,5; 71; 71; 71 <newline/>72; 72; 72; 72,5; 72,5; 73; 73,5 <newline/>74
 </para><para id="element-364">El valor de datos más pequeño es 60. Como los datos con más decimales tienen un decimal (por ejemplo, 61,5), queremos que nuestro punto de partida tenga dos decimales. Dado que los números 0,5, 0,05, 0,005, etc. son números convenientes, utilice 0,05 y réstelo a 60, el valor más pequeño, para el punto de partida conveniente.</para>
 <para id="element-906">60 – 0,05 = 59,95 que es más preciso que, por ejemplo, 61,5 por un decimal. El punto de partida es, pues, 59,95.</para><para id="element-291">El valor mayor es 74, por lo que 74 + 0,05 = 74,05 es el valor final.</para><para id="element-236">Luego, calcule el ancho de cada barra o intervalo de clase. Para calcular este ancho, reste el punto inicial del valor final y divídalo entre el número de barras (debe elegir el número de barras que desee). Suponga que elige ocho barras.</para>
-<equation class="unnumbered" id="element-2133">
-Los términos <m:math>
+<equation class="unnumbered" id="element-2133"><label/>
+<m:math>
 <m:apply>
 <m:eq/>
 <m:apply>
@@ -70,7 +70,7 @@ Los términos <m:math>
 </equation>
 
 <note id="id7476385">
-<title>NOTA</title>
+<label/><title>NOTA</title>
 <para id="fs-idm11623536">Redondearemos a dos y haremos que cada barra o intervalo de clase tenga dos unidades de ancho. Redondear a dos es una forma de evitar que un valor caiga en un límite. El redondeo al número siguiente es a menudo necesario, incluso si va en contra de las reglas estándar de redondeo. Para este ejemplo, utilizar 1,76 como ancho también funcionaría. Una pauta que siguen algunos para el número de barras o intervalos de clase es tomar la raíz cuadrada del número de valores de datos y luego redondear al número entero más cercano, si es necesario. Por ejemplo, si hay 150 valores de datos, tome la raíz cuadrada de 150 y redondee a 12 barras o intervalos.</para></note>
 <para id="element-209">Los límites son:</para>
 <list id="element-790" list-type="bulleted">
@@ -85,14 +85,14 @@ Los términos <m:math>
 <item>73,95 + 2 = 75,95</item>
 </list>
 <para id="element-159">Las alturas de 60 a 61,5 pulgadas están en el intervalo de 59,95 a 61,95. Las alturas que son 63,5 están en el intervalo de 61,95 a 63,95. Las alturas que van de 64 a 64,5 están en el intervalo de 63,95 a 65,95. Las alturas de 66 a 67,5 están en el intervalo de 65,95 a 67,95. Las alturas de 68 a 69,5 están en el intervalo de 67,95 a 69,95. Las alturas de 70 a 71 están en el intervalo de 69,95 a 71,95. Las alturas de 72 a 73,5 están en el intervalo de 71,95 a 73,95. La altura 74 está en el intervalo de 73,95 a 75,95.</para>
-<para id="element-451">El siguiente histograma muestra las alturas en el eje <emphasis effect="italics">x</emphasis>y la frecuencia relativa en el eje <emphasis effect="italics">y</emphasis>.</para>
+<para id="element-451">El siguiente histograma muestra las alturas en el eje <emphasis effect="italics">x</emphasis> y la frecuencia relativa en el eje <emphasis effect="italics">y</emphasis>.</para>
 <figure id="eip-idm88475792">
 <media id="id7474144" alt="El histograma consta de 8 barras con el eje y en incrementos de 0,05 desde 0 hasta 0,4 y el eje x en intervalos de 2 desde 59,95 hasta 75,95." display="block"><image src="../../media/fig-ch_02_04_01.jpg" mime-type="image/png" width="350"/></media>
 </figure>
 </example>
 
 <note id="fs-idp304592" class="statistics try">
-<title>Ejercicio</title>
+<label/><title>Ejercicio</title>
 
 <exercise id="fs-idm28791888">
 <problem id="fs-idp77099632">
@@ -101,7 +101,7 @@ Los términos <m:math>
 </note>
 
 <example id="exampid2">
-<para id="element-972">Cree un histograma para los siguientes datos: el número de libros comprados por 50 estudiantes de institutos universitarios a tiempo parcial en el ABC College. El número de libros es un <emphasis>dato discreto</emphasis>, ya que los libros se cuentan. <newline/>1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1 <newline/>2; 2; 2; 2; 2; 2; 2; 2; 2; 2 <newline/>3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3 <newline/>4; 4; 4; 4; 4; 4 <newline/>5; 5; 5; 5; 5 <newline/>6; 6</para><para id="element-760">Once estudiantes compran un libro. Diez estudiantes compran dos libros. Dieciséis estudiantes compran tres libros. Seis estudiantes compran cuatro libros. Cinco estudiantes compran cinco libros. Dos estudiantes compran seis libros.</para>
+<para id="element-972">Cree un histograma para los siguientes datos: el número de libros comprados por 50 estudiantes universitarios a tiempo parcial en el ABC College. El número de libros es un <emphasis>dato discreto</emphasis>, ya que los libros se cuentan. <newline/>1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1 <newline/>2; 2; 2; 2; 2; 2; 2; 2; 2; 2 <newline/>3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3 <newline/>4; 4; 4; 4; 4; 4 <newline/>5; 5; 5; 5; 5 <newline/>6; 6</para><para id="element-760">Once estudiantes compran un libro. Diez estudiantes compran dos libros. Dieciséis estudiantes compran tres libros. Seis estudiantes compran cuatro libros. Cinco estudiantes compran cinco libros. Dos estudiantes compran seis libros.</para>
 <para id="element-728">Como los datos son enteros, reste 0,5 a 1, el valor más pequeño de los datos, y sume 0,5 a 6, el valor más grande de los datos. Entonces el punto de partida es 0,5 y el valor final es 6,5.</para>
 
 <exercise id="element-545"><problem id="id8093949">
@@ -116,8 +116,8 @@ Los términos <m:math>
 </list>
 </solution>
 </exercise><para id="element-20">Calcule el número de barras de la siguiente manera: </para>
-<equation class="unnumbered" id="element-48">
-Los términos <m:math>
+<equation class="unnumbered" id="element-48"><label/>
+<m:math>
 <m:apply>
 <m:eq/>
 <m:apply>
@@ -134,27 +134,27 @@ Los términos <m:math>
 </m:math>
 </equation>
 <para id="element-600">donde 1 es el ancho de una barra. Por lo tanto, barras = 6.</para>
-<para id="element-756">El siguiente histograma muestra el número de libros en el eje <emphasis effect="italics">x</emphasis>y la frecuencia en el eje <emphasis effect="italics">y</emphasis>.</para>
+<para id="element-756">El siguiente histograma muestra el número de libros en el eje <emphasis effect="italics">x</emphasis> y la frecuencia en el eje <emphasis effect="italics">y</emphasis>.</para>
 <figure id="eip-idp35221648">
 <media id="id5693638" alt="El histograma consta de 6 barras con el eje y en incrementos de 2 de 0 a 16 y el eje x en intervalos de 1 de 0,5 a 6,5." display="block"><image src="../../media/fig-ch_02_04_02.jpg" mime-type="image/png" width="380"/></media>
 </figure>
 </example>
 
 <note id="fs-idm25803056" class="statistics calculator">
-
-<para id="fs-idm23601024">Diríjase a la <link document="m47896"/>. Hay instrucciones de la calculadora para introducir datos y para crear un histograma personalizado. Cree el histograma para el <link target-id="exampid2"/>.</para><list id="fs-idp2836464" list-type="bulleted"><item>Pulse Y=. Pulse CLEAR para borrar las ecuaciones.</item>
+<label/>
+<para id="fs-idm23601024">Diríjase al <link document="m47896"/>. Hay instrucciones de la calculadora para introducir datos y para crear un histograma personalizado. Cree el histograma para el <link target-id="exampid2"/>.</para><list id="fs-idp2836464" list-type="bulleted"><item>Pulse Y=. Pulse CLEAR para borrar las ecuaciones.</item>
 <item>Pulse STAT 1:EDIT. Si L1 tiene datos, flecha hacia arriba en el nombre L1, pulse CLEAR y luego flecha hacia abajo. Si es necesario, haga lo mismo con L2.</item>
 <item>En L1, introduzca 1, 2, 3, 4, 5, 6.</item>
 <item>En L2, introduzca 11, 10, 16, 6, 5, 2.</item>
 <item>Pulse WINDOW. Escriba Xmin = 0,5, Xmax = 6,5, Xscl = (6,5 – 0.5)/6, Ymin = –1, Ymax = 20, Yscl = 1, Xres = 1.</item>
 <item>Pulse 2.<sup>º</sup> Y =. Comience pulsando 4:Plotsoff ENTER.</item>
-<item>Pulse 2.<sup>º</sup> Y =. Pulse 1: Plot1. Pulse ENTER. Flecha hacia abajo para TYPE. Flecha hacia la 3.<sup>°</sup> imagen (histograma). Pulse ENTER.</item>
+<item>Pulse 2.<sup>º</sup> Y =. Pulse 1: Plot1. Pulse ENTER. Flecha hacia abajo para TYPE. Flecha hacia la 3.ª<sup/> imagen (histograma). Pulse ENTER.</item>
 <item>Flecha hacia abajo a Xlist: Introduzca L1 (2,<sup>º</sup> 1). Flecha hacia abajo hasta Freq. Introduzca L2 (<sup>2.º</sup> 2).</item>
 <item>Pulse GRAPH.</item>
 <item>Utilice la tecla TRACE y las teclas de flecha para examinar el histograma.</item>
 </list></note>
 
-<note id="fs-idm93603984" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm93603984" class="statistics try"><label/><title>Ejercicio</title>
 
 <exercise id="fs-idp68031136"><problem id="fs-idp68031392">
 <para id="fs-idp62894704">Los siguientes datos son el número de deportes practicados por 50 estudiantes deportistas. El número de deportes es un dato discreto, ya que los deportes se cuentan.</para>
@@ -227,7 +227,7 @@ Los términos <m:math>
 </exercise>
 </example>
 
-<note id="fs-idm161572864" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm161572864" class="statistics try"><label/><title>Ejercicio</title>
 
 <exercise id="fs-idm32934816"><problem id="fs-idm4304416">
 <para id="fs-idp57423888">Los siguientes datos representan el número de empleados de varios restaurantes de la ciudad de Nueva York. Con estos datos, cree un histograma.</para>
@@ -243,7 +243,7 @@ Los términos <m:math>
 </para>
 </problem>
 </exercise>
-</note><note id="fs-idm107220592" class="statistics collab">
+</note><note id="fs-idm107220592" class="statistics collab"><label/>
 <para id="element-326">Cuente el dinero (billetes y monedas) que lleva en el bolsillo o en el bolso. Su instructor registrará las cantidades. En clase, construya un histograma que muestre los datos. Analice cuántos intervalos cree que son apropiados. Puede experimentar con el número de intervalos.</para>
 </note>
 
@@ -282,22 +282,22 @@ Los términos <m:math>
 
 
 <note id="fs-idm37683552" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="eip-idp12732512">
 <problem id="eip-idp12732768">
 <para id="fs-idp42868544">Construya un polígono de frecuencias de las edades de los presidentes de EE. UU. en el momento de la investidura que se muestra en la <link target-id="fs-idp36852784"/>.</para><table id="fs-idp36852784" summary="">
 <tgroup cols="2" align="center">
 <thead>
-<row><entry>Edad en el momento de la toma de posesión</entry><entry>Frecuencia</entry></row>
+<row><entry>Edad en la investidura</entry><entry>Frecuencia</entry></row>
 </thead>
 <tbody>
-<row><entry>41,5–46,5</entry><entry>4</entry></row>
-<row><entry>46,5–51,5</entry><entry>11</entry></row>
-<row><entry>51,5–56,5</entry><entry>14</entry></row>
-<row><entry>56,5–61,5</entry><entry>9</entry></row>
-<row><entry>61,5–66,5</entry><entry>4</entry></row>
-<row><entry>66,5–71,5</entry><entry>2</entry></row>
+<row><entry>41,5-46,5</entry><entry>4</entry></row>
+<row><entry>46,5-51,5</entry><entry>11</entry></row>
+<row><entry>51,5-56,5</entry><entry>14</entry></row>
+<row><entry>56,5-61,5</entry><entry>9</entry></row>
+<row><entry>61,5-66,5</entry><entry>4</entry></row>
+<row><entry>66,5-71,5</entry><entry>2</entry></row>
 </tbody>
 </tgroup>
 </table>
@@ -307,7 +307,7 @@ Los términos <m:math>
 
 <para id="fs-idp48307936">Los polígonos de frecuencia son útiles para comparar distribuciones. Esto se consigue superponiendo los polígonos de frecuencia dibujados para diferentes conjuntos de datos.</para>
 
-<example id="fs-idp21707856"><para id="fs-idm34843712">Construiremos un polígono de frecuencias superpuestas comparando las puntuaciones del <link target-id="example4"/> con la calificación numérica final de los alumnos.</para>
+<example id="fs-idp21707856"><para id="fs-idm34843712">Construiremos un polígono de frecuencias superpuestas comparando las puntuaciones del <link target-id="example4"/> con la nota numérica final de los estudiantes.</para>
 <table id="fs-idm10950720" summary=""><tgroup cols="4" align="center">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -332,7 +332,7 @@ Los términos <m:math>
 <colspec colnum="3" colname="c3"/>
 <colspec colnum="4" colname="c4"/>
 <thead>
-<row><entry namest="c1" nameend="c4">Distribución de frecuencias para las notas finales de Cálculo</entry></row>
+<row><entry namest="c1" nameend="c4">Distribución de frecuencias de las notas finales de Cálculo</entry></row>
 <row><entry>Límite inferior</entry>	<entry>Límite superior</entry>	<entry>Frecuencia</entry><entry>Frecuencia acumulada</entry></row>
 </thead>
 <tbody>
@@ -345,7 +345,7 @@ Los términos <m:math>
 </tgroup>
 </table>
 <figure id="eip-id1165746871888">
-<media id="fs-idm24364960" display="block" alt="Este es un polígono de frecuencia superpuesto que coincide con los datos suministrados. El eje x muestra las calificaciones y el eje y muestra la frecuencia.">
+<media id="fs-idm24364960" display="block" alt="Este es un polígono de frecuencia superpuesto que coincide con los datos suministrados. El eje x muestra las notas y el eje y muestra la frecuencia.">
 <image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M05a_002N.jpg" width="350"/>
 </media></figure>
 </example><para id="fs-idp59234016">Supongamos que queremos estudiar el rango de temperaturas de una región durante todo un mes. Todos los días a mediodía anotamos la temperatura y la anotamos en un registro. Con estos datos se podrían realizar diversos estudios estadísticos. Podemos hallar la media o la mediana de la temperatura del mes. Podemos construir un histograma que muestre el número de días en que las temperaturas alcanzan un determinado rango de valores. Sin embargo, todos estos métodos ignoran una parte de los datos que hemos recopilado.</para>
@@ -518,7 +518,7 @@ Los términos <m:math>
 
 </example>
 
-<note id="fs-idm11029344" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm11029344" class="statistics try"><label/><title>Ejercicio</title>
 
 <exercise id="fs-idm10087584"><problem id="fs-idp2285280">
 <para id="fs-idp25953376">La siguiente tabla es una parte de un conjunto de datos de www.worldbank.org. Utilice la tabla para construir un gráfico de la serie temporal de las emisiones de CO<sub>2</sub> de Estados Unidos.</para>
@@ -600,13 +600,13 @@ Los términos <m:math>
 <para id="eip-idp40473408">“CO2 emissions (kt)”. The World Bank, 2013. Disponible en línea en http://databank.worldbank.org/data/home.aspx (consultado el 3 de abril de 2013).</para>
 <para id="eip-idm30096368">“Births Time Series Data”. General Register Office For Scotland, 2013. Disponible en línea en http://www.gro-scotland.gov.uk/statistics/theme/vital-events/births/time-series.html (consultado el 3 de abril de 2013).</para>
 <para id="eip-idp118761552">“Demographics: Children under the age of 5 years underweight”. Indexmundi. Disponible en línea en http://www.indexmundi.com/g/r.aspx?t=50&amp;v=2224&amp;aml=en (consultado el 3 de abril de 2013).</para><para id="eip-idm82959152">Gunst, Richard, Robert Mason. <emphasis effect="italics">Regression Analysis and Its Application: A Data-Oriented Approach</emphasis>. CRC Press: 1980.</para><para id="eip-idm33032480">“Overweight and Obesity: Adult Obesity Facts”. Centers for Disease Control and Prevention. Disponible en línea en http://www.cdc.gov/obesity/data/adult.html (consultado el 13 de septiembre de 2013).</para></section><section id="fs-idp3035824" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idp16958096">Un <emphasis>histograma</emphasis> es una versión gráfica de una distribución de frecuencias. El gráfico consiste en barras de igual ancho dibujadas de forma adyacente. La escala horizontal representa clases de valores de datos cuantitativos y la escala vertical representa frecuencias. Las alturas de las barras corresponden a valores de frecuencia. Los histogramas se suelen utilizar para conjuntos de datos cuantitativos, continuos y de gran tamaño. Un polígono de frecuencias también se puede usar cuando se grafican grandes conjuntos de datos con puntos de datos que se repiten. Los datos suelen ir en el eje <emphasis effect="italics">y</emphasis>, y la frecuencia se representa en el eje <emphasis effect="italics">x</emphasis>. Los gráficos de series temporales pueden ser útiles cuando se observan grandes cantidades de datos de una variable durante un periodo.</para></section>
 
 <section id="fs-idm3046592" class="practice">
 <exercise id="eip-341">
 <problem id="fs-idp82639856">
-<para id="fs-idp82640112">Se preguntó a sesenta y cinco vendedores de automóviles seleccionados al azar el número de automóviles que suelen vender en una semana. Catorce personas respondieron que generalmente venden tres, diecinueve que venden cuatro, doce que venden cinco, nueve que venden seis y once que venden siete. Rellene la tabla.</para>
+<para id="fs-idp82640112">se preguntó a sesenta y cinco vendedores de automóviles seleccionados al azar el número de automóviles que suelen vender en una semana. Catorce personas respondieron que generalmente venden tres, diecinueve que venden cuatro, doce que venden cinco, nueve que venden seis y once que venden siete. Rellene la tabla.</para>
 <table id="table001" summary="Blank table where data can be reported with the first column designated for the data value, or number of cars, the second column for frequency, the third column for relative frequency, and the fourth column for cumulative frequency.">
 <tgroup cols="4">
 <colspec colnum="1" colname="c1"/>
@@ -691,13 +691,13 @@ Los términos <m:math>
 <row><entry>Frecuencia cardiaca de las mujeres</entry>	<entry>Frecuencia</entry></row>
 </thead>
 <tbody>
-<row><entry>60–69</entry><entry>12</entry></row>
-<row><entry>70–79</entry><entry>14</entry></row>
-<row><entry>80–89</entry><entry>11</entry></row>
-<row><entry>90–99</entry><entry>1</entry></row>
-<row><entry>100–109</entry><entry>1</entry></row>
-<row><entry>110–119</entry><entry>0</entry></row>
-<row><entry>120–129</entry><entry>1</entry></row>
+<row><entry>60-69</entry><entry>12</entry></row>
+<row><entry>70-79</entry><entry>14</entry></row>
+<row><entry>80-89</entry><entry>11</entry></row>
+<row><entry>90-99</entry><entry>1</entry></row>
+<row><entry>100-109</entry><entry>1</entry></row>
+<row><entry>110-119</entry><entry>0</entry></row>
+<row><entry>120-129</entry><entry>1</entry></row>
 </tbody>
 </tgroup>
 </table></item>
@@ -707,11 +707,11 @@ Los términos <m:math>
 <row><entry>Velocidad real en una zona de 30 MPH (48,28 km)</entry>	<entry>Frecuencia</entry></row>
 </thead>
 <tbody>
-<row><entry>42–45</entry><entry>25</entry></row>
-<row><entry>46–49</entry><entry>14</entry></row>
-<row><entry>50–53</entry><entry>7</entry></row>
-<row><entry>54–57</entry><entry>3</entry></row>
-<row><entry>58–61</entry><entry>1</entry></row>
+<row><entry>42-45</entry><entry>25</entry></row>
+<row><entry>46-49</entry><entry>14</entry></row>
+<row><entry>50-53</entry><entry>7</entry></row>
+<row><entry>54-57</entry><entry>3</entry></row>
+<row><entry>58-61</entry><entry>1</entry></row>
 </tbody>
 </tgroup>
 </table></item>
@@ -721,11 +721,11 @@ Los términos <m:math>
 <row><entry>Alquitrán (mg) en cigarrillos no filtrados</entry>	<entry>Frecuencia</entry></row>
 </thead>
 <tbody>
-<row><entry>10–13</entry><entry>1</entry></row>
-<row><entry>14–17</entry><entry>0</entry></row>
-<row><entry>18–21</entry><entry>15</entry></row>
-<row><entry>22–25</entry><entry>7</entry></row>
-<row><entry>26–29</entry><entry>2</entry></row>
+<row><entry>10-13</entry><entry>1</entry></row>
+<row><entry>14-17</entry><entry>0</entry></row>
+<row><entry>18-21</entry><entry>15</entry></row>
+<row><entry>22-25</entry><entry>7</entry></row>
+<row><entry>26-29</entry><entry>2</entry></row>
 </tbody>
 </tgroup>
 </table></item>
@@ -739,13 +739,13 @@ Los términos <m:math>
 <tgroup cols="2" align="center">
 <thead><row><entry>Magnitud del hambre</entry>	<entry>Frecuencia</entry></row></thead>
 <tbody>
-<row><entry>230–259</entry><entry>21</entry></row>
-<row><entry>260–289</entry><entry>13</entry></row>
-<row><entry>290–319</entry><entry>5</entry></row>
-<row><entry>320–349</entry><entry>7</entry></row>
-<row><entry>350–379</entry><entry>1</entry></row>
-<row><entry>380–409</entry><entry>1</entry></row>
-<row><entry>410–439</entry><entry>1</entry></row>
+<row><entry>230-259</entry><entry>21</entry></row>
+<row><entry>260-289</entry><entry>13</entry></row>
+<row><entry>290-319</entry><entry>5</entry></row>
+<row><entry>320-349</entry><entry>7</entry></row>
+<row><entry>350-379</entry><entry>1</entry></row>
+<row><entry>380-409</entry><entry>1</entry></row>
+<row><entry>410-439</entry><entry>1</entry></row>
 </tbody>
 </tgroup>
 </table>
@@ -766,12 +766,12 @@ Los términos <m:math>
 <row><entry>Esperanza de vida al nacer: mujeres</entry>	<entry>Frecuencia</entry></row>
 </thead>
 <tbody>
-<row><entry>49–55</entry><entry>3</entry></row>
-<row><entry>56–62</entry><entry>3</entry></row>
-<row><entry>63–69</entry><entry>1</entry></row>
-<row><entry>70–76</entry><entry>3</entry></row>
-<row><entry>77–83</entry><entry>8</entry></row>
-<row><entry>84–90</entry><entry>2</entry></row>
+<row><entry>49-55</entry><entry>3</entry></row>
+<row><entry>56-62</entry><entry>3</entry></row>
+<row><entry>63-69</entry><entry>1</entry></row>
+<row><entry>70-76</entry><entry>3</entry></row>
+<row><entry>77-83</entry><entry>8</entry></row>
+<row><entry>84-90</entry><entry>2</entry></row>
 </tbody>
 </tgroup>
 </table>
@@ -781,12 +781,12 @@ Los términos <m:math>
 <row><entry>Esperanza de vida al nacer: hombres</entry>	<entry>Frecuencia</entry>
 </row></thead>
 <tbody>
-<row><entry>49–55</entry><entry>3</entry></row>
-<row><entry>56–62</entry><entry>3</entry></row>
-<row><entry>63–69</entry><entry>1</entry></row>
-<row><entry>70–76</entry><entry>1</entry></row>
-<row><entry>77–83</entry><entry>7</entry></row>
-<row><entry>84–90</entry><entry>5</entry></row>
+<row><entry>49-55</entry><entry>3</entry></row>
+<row><entry>56-62</entry><entry>3</entry></row>
+<row><entry>63-69</entry><entry>1</entry></row>
+<row><entry>70-76</entry><entry>1</entry></row>
+<row><entry>77-83</entry><entry>7</entry></row>
+<row><entry>84-90</entry><entry>5</entry></row>
 </tbody>
 </tgroup>
 </table>
@@ -1159,32 +1159,32 @@ Los términos <m:math>
 </thead>
 <tbody>
 <row>
-<entry>51–100</entry>
+<entry>51-100</entry>
 <entry>5</entry>
 <entry/>
 </row>
 <row>
-<entry>101–150</entry>
+<entry>101-150</entry>
 <entry>10</entry>
 <entry/>
 </row>
 <row>
-<entry>151–200</entry>
+<entry>151-200</entry>
 <entry>15</entry>
 <entry/>
 </row>
 <row>
-<entry>201–250</entry>
+<entry>201-250</entry>
 <entry>15</entry>
 <entry/>
 </row>
 <row>
-<entry>251–300</entry>
+<entry>251-300</entry>
 <entry>10</entry>
 <entry/>
 </row>
 <row>
-<entry>301–350</entry>
+<entry>301-350</entry>
 <entry>5</entry>
 <entry/>
 </row>
@@ -1203,52 +1203,52 @@ Los términos <m:math>
 </thead>
 <tbody>
 <row>
-<entry>100–150</entry>
+<entry>100-150</entry>
 <entry>5</entry>
 <entry/>
 </row>
 <row>
-<entry>201–250</entry>
+<entry>201-250</entry>
 <entry>5</entry>
 <entry/>
 </row>
 <row>
-<entry>251–300</entry>
+<entry>251-300</entry>
 <entry>5</entry>
 <entry/>
 </row>
 <row>
-<entry>301–350</entry>
+<entry>301-350</entry>
 <entry>5</entry>
 <entry/>
 </row>
 <row>
-<entry>351–400</entry>
+<entry>351-400</entry>
 <entry>10</entry>
 <entry/>
 </row>
 <row>
-<entry>401–450</entry>
+<entry>401-450</entry>
 <entry>10</entry>
 <entry/>
 </row>
 <row>
-<entry>451–500</entry>
+<entry>451-500</entry>
 <entry>10</entry>
 <entry/>
 </row>
 <row>
-<entry>501–550</entry>
+<entry>501-550</entry>
 <entry>10</entry>
 <entry/>
 </row>
 <row>
-<entry>551–600</entry>
+<entry>551-600</entry>
 <entry>5</entry>
 <entry/>
 </row>
 <row>
-<entry>601–650</entry>
+<entry>601-650</entry>
 <entry>5</entry>
 <entry/>
 </row>
@@ -1286,32 +1286,32 @@ Los términos <m:math>
 </thead>
 <tbody>
 <row>
-<entry>51–100</entry>
+<entry>51-100</entry>
 <entry>5</entry>
 <entry>0,08</entry>
 </row>
 <row>
-<entry>101–150</entry>
+<entry>101-150</entry>
 <entry>10</entry>
 <entry>0,17</entry>
 </row>
 <row>
-<entry>151–200</entry>
+<entry>151-200</entry>
 <entry>15</entry>
 <entry>0,25</entry>
 </row>
 <row>
-<entry>201–250</entry>
+<entry>201-250</entry>
 <entry>15</entry>
 <entry>0,25</entry>
 </row>
 <row>
-<entry>251–300</entry>
+<entry>251-300</entry>
 <entry>10</entry>
 <entry>0,17</entry>
 </row>
 <row>
-<entry>301–350</entry>
+<entry>301-350</entry>
 <entry>5</entry>
 <entry>0,08</entry>
 </row>
@@ -1333,59 +1333,59 @@ Los términos <m:math>
 </thead>
 <tbody>
 <row>
-<entry>100–150</entry>
+<entry>100-150</entry>
 <entry>5</entry>
 <entry>0,07</entry>
 </row>
 <row>
-<entry>201–250</entry>
+<entry>201-250</entry>
 <entry>5</entry>
 <entry>0,07</entry>
 </row>
 <row>
-<entry>251–300</entry>
+<entry>251-300</entry>
 <entry>5</entry>
 <entry>0,07</entry>
 </row>
 <row>
-<entry>301–350</entry>
+<entry>301-350</entry>
 <entry>5</entry>
 <entry>0,07</entry>
 </row>
 <row>
-<entry>351–400</entry>
+<entry>351-400</entry>
 <entry>10</entry>
 <entry>0,14</entry>
 </row>
 <row>
-<entry>401–450</entry>
+<entry>401-450</entry>
 <entry>10</entry>
 <entry>0,14</entry>
 </row>
 <row>
-<entry>451–500</entry>
+<entry>451-500</entry>
 <entry>10</entry>
 <entry>0,14</entry>
 </row>
 <row>
-<entry>501–550</entry>
+<entry>501-550</entry>
 <entry>10</entry>
 <entry>0,14</entry>
 </row>
 <row>
-<entry>551–600</entry>
+<entry>551-600</entry>
 <entry>5</entry>
 <entry>0,07</entry>
 </row>
 <row>
-<entry>601–650</entry>
+<entry>601-650</entry>
 <entry>5</entry>
 <entry>0,07</entry>
 </row>
 </tbody>
 </tgroup>
 </table>
-<list id="fs-idp1651760" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Vea la <link target-id="Singles"/> y la <link target-id="Couples"/>.</item>
+<list id="fs-idp1651760" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Vea la <link target-id="Singles" document=""/> y la <link target-id="Couples" document=""/>.</item>
 <item>En el siguiente histograma los valores de los datos que caen en el límite de la derecha se cuentan en el intervalo de la clase, mientras que los valores que caen en el límite de la izquierda no se cuentan (con la excepción del primer intervalo en el que se incluyen ambos valores del límite).
 <figure id="eip-idp10303088">
 <media id="fs-idp32280736" display="block" alt="Este es un histograma que coincide con los datos suministrados para los solteros. El eje x muestra los cargos totales en intervalos de 50 desde 50 hasta 350, y el eje y muestra la frecuencia relativa en incrementos de 0,05 desde 0 hasta 0,3.">
@@ -1479,7 +1479,7 @@ Los términos <m:math>
 </list></problem>
 </exercise>
 
-<para id="fs-idp72793344"><emphasis effect="italics">Use la siguiente información para responder los dos próximos ejercicios:</emphasis> Supongamos que se les pregunta a ciento once personas que compran en una tienda especial de camisetas el número de camisetas que tienen y que cuestan más de 19 dólares cada una.</para><para id="fs-idp19635040"><media id="fs-idp52038080" alt="Un histograma que muestra los resultados de una encuesta. De los 111 encuestados, 5 tienen 1 camiseta que cuesta más de 19 dólares, 17 tienen 2, 23 tienen 3, 39 tienen 4, 25 tienen 5, 2 tienen 6 y entre los no encuestados tienen 7." display="block">
+<para id="fs-idp72793344"><emphasis effect="italics">Use la siguiente información para responder los dos próximos ejercicios:</emphasis> supongamos que se les pregunta a ciento once personas que compran en una tienda especial de camisetas el número de camisetas que tienen y que cuestan más de 19 dólares cada una.</para><para id="fs-idp19635040"><media id="fs-idp52038080" alt="Un histograma que muestra los resultados de una encuesta. De los 111 encuestados, 5 tienen 1 camiseta que cuesta más de 19 dólares, 17 tienen 2, 23 tienen 3, 39 tienen 4, 25 tienen 5, 2 tienen 6 y entre los no encuestados tienen 7." display="block">
 <image src="../../media/fig-ch02_13_11.jpg" mime-type="image/JPG" width="350"/>
 </media></para>
 

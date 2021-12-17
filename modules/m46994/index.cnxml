@@ -18,7 +18,7 @@
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
-</m:math> que consiste en las medias muestrales, tiende a <term id="term-00001">distribuirse normalmente</term> y</para><para id="element-810">Los términos <m:math>
+</m:math> que consiste en las medias muestrales, tiende a <term id="term-00001">distribuirse normalmente</term> y</para><para id="element-810"><m:math>
 <m:mover accent="true">
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
@@ -44,7 +44,7 @@
 </m:mrow>
 <m:mo>)</m:mo></m:mrow>
 </m:mrow>
-</m:math></para>
+</m:math>.</para>
 
 <para id="element-489">El <term id="term-00002">teorema del límite central</term> para las medias muestrales indica que si se extraen repetidamente muestras de un tamaño determinado (como lanzar repetidamente diez dados) y se calculan sus medias, estas tienden a seguir una distribución normal (la distribución muestral). A medida que aumenta el tamaño de la muestra, la distribución de las medias se ajusta más a la distribución normal. La distribución normal tiene la misma media que la distribución original y una varianza que es igual a la varianza original dividida por el tamaño de la muestra. La desviación típica es la raíz cuadrada de la varianza, por lo que la desviación típica de la distribución muestral es la desviación típica de la distribución original dividida por la raíz cuadrada de <emphasis effect="italics">n</emphasis>. La variable <emphasis effect="italics">n</emphasis> es el número de valores que se promedian juntos, no el número de veces que se realiza el experimento.</para><para id="fs-idm26555216">Para decirlo de manera más formal, si se extraen muestras aleatorias de tamaño <emphasis effect="italics">n</emphasis>, la distribución de la variable aleatoria <m:math>
 <m:mover accent="true">
@@ -68,7 +68,7 @@
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
-</m:math> en una muestra.</para><equation class="unnumbered" id="element-684">Los términos <m:math>
+</m:math> en una muestra.</para><equation class="unnumbered" id="element-684"><label/><m:math>
 <m:mrow>
 <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -76,7 +76,7 @@
 <m:mi>x</m:mi>
 <m:mo stretchy="true">¯</m:mo>
 </m:mover>
-<m:mo>-</m:mo><m:msub>
+<m:mo>–</m:mo><m:msub>
 <m:mi>μ</m:mi>
 <m:mi>x</m:mi>
 </m:msub>
@@ -109,7 +109,7 @@
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
-</m:math></para><para id="element-455">Los términos <m:math>
+</m:math>.</para><para id="element-455"><m:math>
 <m:mrow>
 <m:mi>σ</m:mi><m:mover accent="true">
 <m:mi>x</m:mi>
@@ -137,14 +137,14 @@
 </m:math> y se denomina <term id="term-00004">error estándar de la media.</term></para>
 
 <note id="fs-idm74236704" class="statistics calculator">
-
+<label/>
 <para id="fs-idm164143744">Para calcular las probabilidades de las medias en la calculadora, siga estos pasos.</para>
 <para id="fs-idm81814896">2.º DISTR<newline/>2:normalcdf</para>
-<para id="fs-idm32771680">Los términos <m:math>
+<para id="fs-idm32771680"><m:math>
  <m:mrow>
-  <m:mi>n</m:mi><m:mi>o</m:mi><m:mi>r</m:mi><m:mi>m</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mi>c</m:mi><m:mi>d</m:mi><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+  <m:mi>n</m:mi><m:mi>o</m:mi><m:mi>r</m:mi><m:mi>m</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mi>c</m:mi><m:mi>d</m:mi><m:mi>e</m:mi><m:mrow><m:mo>(</m:mo>
    <m:mrow>
-    <m:mi>l</m:mi><m:mi>o</m:mi><m:mi>w</m:mi><m:mi>e</m:mi><m:mi>r</m:mi><m:mtext> </m:mtext><m:mi>v</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mi>u</m:mi><m:mi>e</m:mi><m:mtext> </m:mtext><m:mi>o</m:mi><m:mi>f</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mi>h</m:mi><m:mi>e</m:mi><m:mtext> </m:mtext><m:mi>a</m:mi><m:mi>r</m:mi><m:mi>e</m:mi><m:mi>a</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>u</m:mi><m:mi>p</m:mi><m:mi>p</m:mi><m:mi>e</m:mi><m:mi>r</m:mi><m:mtext> </m:mtext><m:mi>v</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mi>u</m:mi><m:mi>e</m:mi><m:mtext> </m:mtext><m:mi>o</m:mi><m:mi>f</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mi>h</m:mi><m:mi>e</m:mi><m:mtext> </m:mtext><m:mi>a</m:mi><m:mi>r</m:mi><m:mi>e</m:mi><m:mi>a</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>m</m:mi><m:mi>e</m:mi><m:mi>a</m:mi><m:mi>n</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>
+    <m:mi>l</m:mi><m:mi>o</m:mi><m:mi>w</m:mi><m:mi>e</m:mi><m:mi>r</m:mi><m:mtext> </m:mtext><m:mi>v</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mi>u</m:mi><m:mi>e</m:mi><m:mtext> </m:mtext><m:mi>o</m:mi><m:mi>e</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mi>h</m:mi><m:mi>e</m:mi><m:mtext> </m:mtext><m:mi>a</m:mi><m:mi>r</m:mi><m:mi>e</m:mi><m:mi>a</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>u</m:mi><m:mi>p</m:mi><m:mi>p</m:mi><m:mi>e</m:mi><m:mi>r</m:mi><m:mtext> </m:mtext><m:mi>v</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mi>u</m:mi><m:mi>e</m:mi><m:mtext> </m:mtext><m:mi>o</m:mi><m:mi>e</m:mi><m:mtext> </m:mtext><m:mi>t</m:mi><m:mi>h</m:mi><m:mi>e</m:mi><m:mtext> </m:mtext><m:mi>a</m:mi><m:mi>r</m:mi><m:mi>e</m:mi><m:mi>a</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>m</m:mi><m:mi>e</m:mi><m:mi>a</m:mi><m:mi>n</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>
      <m:mrow>
       <m:mi>s</m:mi><m:mi>t</m:mi><m:mi>a</m:mi><m:mi>n</m:mi><m:mi>d</m:mi><m:mi>a</m:mi><m:mi>t</m:mi><m:mi>d</m:mi><m:mo> </m:mo><m:mi>d</m:mi><m:mi>e</m:mi><m:mi>v</m:mi><m:mi>i</m:mi><m:mi>a</m:mi><m:mi>t</m:mi><m:mi>i</m:mi><m:mi>o</m:mi><m:mi>n</m:mi>
      </m:mrow>
@@ -185,7 +185,7 @@
 
 </m:math> = la media de una muestra de tamaño 25. Dado que <emphasis effect="italics">μ</emphasis><sub><emphasis effect="italics">X</emphasis></sub> = 90, <emphasis effect="italics">σ<sub>X</sub></emphasis> = 15 y <emphasis effect="italics">n</emphasis> = 25, </para>
 
-<para id="element-756">Los términos <m:math>
+<para id="element-756"><m:math>
 <m:mover accent="true">
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
@@ -212,9 +212,9 @@
 </m:mrow>
 <m:mo>)</m:mo></m:mrow>
 </m:mrow>
-</m:math></para>
+</m:math>.</para>
 
-<para id="element-181">Encuentre <emphasis effect="italics">P</emphasis>(85 &lt; <m:math>
+<para id="element-181">Calcule <emphasis effect="italics">P</emphasis>(85 &lt; <m:math>
 <m:mover accent="true">
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
@@ -241,7 +241,7 @@
 
 
 <note id="fs-idm146534448" class="statistics calculator">
-
+<label/>
 <para id="element-868"><code>normalcdf</code>(valor inferior, valor superior, media, error estándar de la media)</para>
 <para id="element-106">La lista de parámetros se abrevia (valor inferior, valor superior, <emphasis effect="italics">μ</emphasis>, <m:math>
 <m:mrow>
@@ -361,7 +361,7 @@
 </exercise></example>
 
 <note id="fs-idm83395104" class="statistics try">
-<title>Ejercicio</title>
+<label/><title>Ejercicio</title>
 
 <exercise id="fs-idm18823760">
 <problem id="fs-idp5202224">
@@ -382,7 +382,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 <para id="element-302">La pregunta de probabilidad le pide que calcule una probabilidad para la <emphasis>media de tiempo de la muestra, en horas</emphasis>, que se necesita para jugar un partido de fútbol.</para>
 
 <para id="element-849">Supongamos que <m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math> = la <term id="term-00006">media</term> de tiempo, en horas, que se necesita para jugar un partido de fútbol.</para>
-<para id="fs-idm28701424">If <emphasis effect="italics">μ<sub>X</sub></emphasis> = _________, <emphasis effect="italics">σ<sub>X</sub></emphasis> = __________, and <emphasis effect="italics">n</emphasis> = ___________, then <m:math><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:math> ~ <emphasis effect="italics">N</emphasis>(______, ______) by the <term id="term-00007">central limit theorem for means</term>.</para>
+<para id="fs-idm28701424">Si <emphasis effect="italics">μ<sub>X</sub></emphasis> = _________, <emphasis effect="italics">σ<sub>X</sub></emphasis> = __________, y <emphasis effect="italics">n</emphasis> = <m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover> ~ <emphasis effect="italics">N</emphasis>(______, ______) por el teorema del límite central para las medias muestrales</para>
 
 <para id="fs-idm68643920"><emphasis effect="italics">μ<sub>X</sub></emphasis> = 2, <emphasis effect="italics">σ<sub>X</sub></emphasis> = 0,5, <emphasis effect="italics">n</emphasis> = 50, y <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis><m:math>
  <m:mrow>
@@ -407,7 +407,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
  </m:mrow>
 </m:math></para>
 
-<para id="fs-idm39125184">Encuentre <emphasis effect="italics">P</emphasis>(1,8 &lt; <m:math>
+<para id="fs-idm39125184">Calcule <emphasis effect="italics">P</emphasis>(1,8 &lt; <m:math>
 <m:mover accent="true">
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
@@ -421,7 +421,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 </m:mover>
 </m:math> &lt; 2,3) = 0,9977</para>
 
-<para id="element-290" class="finger"><code>normalcdf</code>Los términos <m:math>
+<para id="element-290" class="finger"><code>normalcdf</code><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -447,7 +447,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 
 
 <note id="fs-idm109373536" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idp55734224">
 <problem id="fs-idp43500160">
@@ -457,9 +457,9 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 </exercise></note>
 
 <note id="fs-idm13085488" class="statistics calculator">
-
-<para id="fs-idm146458576">Para encontrar los percentiles de las medias en la calculadora, siga estos pasos.</para>
-<para id="fs-idm39446144">2.<sup>º</sup> DIStR <newline/>3:invNorm</para>
+<label/>
+<para id="fs-idm146458576">Para calcular los percentiles de las medias en la calculadora, siga estos pasos.</para>
+<para id="fs-idm39446144">2<sup>nd</sup> DIStR <newline/>3:invNorm</para>
 
 <para id="fs-idm50856880"><emphasis effect="italics">k</emphasis> = invNorm<m:math>
  <m:mrow>
@@ -498,7 +498,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 <item>¿Cuál es la media y la desviación típica de la muestra de edades medias de los usuarios de tabletas?</item>
 <item>¿Cómo es la distribución?</item>
 <item>Calcule la probabilidad de que la media de edad de la muestra sea superior a 30 años (la media de edad declarada de los usuarios de tabletas en este estudio en particular).</item>
-<item>Encuentre el percentil 95<sup/> de la edad media de la muestra (con un decimal).</item>
+<item>Calcule el percentil 95<sup/> de la edad media de la muestra (con un decimal).</item>
 </list></problem>
 <solution id="fs-idp42522512">
 <list id="fs-idm50017008" list-type="enumerated" number-style="lower-alpha"><item>Como la media muestral tiende a apuntar a la media poblacional, tenemos <emphasis effect="italics">μ<sub>χ</sub></emphasis> = <emphasis effect="italics">μ</emphasis> = 34. La desviación típica de la muestra viene dada por <emphasis effect="italics">σ<sub>χ</sub></emphasis> = <m:math>
@@ -541,7 +541,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 </m:mrow>
 </m:math> = 1,5</item>
 <item>El teorema del límite central establece que para tamaños de muestra grandes (<emphasis effect="italics">n</emphasis>), la distribución de la muestra será aproximadamente normal.</item>
-<item>The probability that the sample mean age is more than 30 is given by <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo> </m:mo><m:mo>></m:mo><m:mo> </m:mo><m:mn>30</m:mn><m:mo>)</m:mo></m:math> = <code>normalcdf</code>(30,E99,34;1,5) = 0,9962</item>
+<item>La probabilidad de que la edad media de la muestra sea superior a 30 años viene dada por <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo> </m:mo><m:mo>></m:mo><m:mo> </m:mo><m:mn>30</m:mn><m:mo>)</m:mo></m:math> =  <code>normalcdf</code>(30,E99,34;1,5) = 0,9962</item>
 <item>Supongamos que <emphasis effect="italics">k</emphasis> = el percentil 95<sup/>. <newline count="1"/><emphasis effect="italics">k</emphasis> = invNorm<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
@@ -569,7 +569,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 </example>
 
 <note id="fs-idm63776496" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm62512800">
 <problem id="fs-idm44878080">
@@ -585,7 +585,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 <list id="fs-idm51964960" list-type="enumerated" number-style="lower-alpha">
 <item>¿Cuál es la media y la desviación típica de la muestra del número de la media de participación en aplicaciones por parte de un usuario de tableta?</item>
 <item>¿Cuál es el error estándar de la media?</item>
-<item>Encuentre el percentil 90<sup/> para la media de tiempo de la muestra para la participación en la aplicación para un usuario de la tableta. Interprete este valor en una oración completa.</item>
+<item>Calcule el percentil 90<sup/> para la media de tiempo de la muestra para la participación en la aplicación para un usuario de la tableta. Interprete este valor en una oración completa.</item>
 <item>Calcule la probabilidad de que la media de la muestra esté entre 8 minutos y 8,5 minutos.</item>
 </list></problem>
 <solution id="fs-idp4823088">
@@ -633,12 +633,12 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 <m:mo>=</m:mo><m:mn>0,13</m:mn>
 </m:mrow>
 </m:math></item>
-<item>This allows us to calculate the probability of sample means of a particular distance from the mean, in repeated samples of size 60.</item>
-<item>Let <emphasis effect="italics">k</emphasis> = the 90<sup>th</sup> percentile <newline/> <emphasis effect="italics">k</emphasis> = <code>invNorm</code>Los términos <m:math>
+<item>Esto nos permite calcular la probabilidad de que las medias muestrales estén a una determinada distancia de la media, en muestras repetidas de tamaño 60.</item>
+<item>Supongamos que <emphasis effect="italics">k</emphasis> = el percentil 90<sup/> <newline/><emphasis effect="italics">k</emphasis> = <code>invNorm</code><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
-    <m:mn>0,</m:mn><m:mtext>90.8</m:mtext><m:mtext>.2,</m:mtext><m:mfrac>
+    <m:mn>0,</m:mn><m:mtext>90.8</m:mtext><m:mtext>0,2,</m:mtext><m:mfrac>
      <m:mn>1</m:mn>
      <m:mrow>
       <m:msqrt>
@@ -653,18 +653,18 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math> = 8.37. This values indicates that 90 percent of the average app engagement time for table users is less than 8.37 minutes.</item>
-<item><emphasis effect="italics">P</emphasis>(8 &lt; <m:math>
+</m:math> = 8.37. Estos valores indican que el 90 por ciento del tiempo promedio de interacción en la aplicación para los usuarios de la mesa es inferior a 8,37 minutos.</item>
+<item><emphasis effect="italics">P</emphasis>(<m:math>X &lt; 5)
 <m:mover accent="true">
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 
-</m:math> &lt; 8.5) = <code>normalcdf</code>Los términos <m:math>
+</m:math> &lt; 8,5) = <code>normalcdf</code><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
-    <m:mtext>8.8</m:mtext><m:mtext>.5,8</m:mtext><m:mtext>.2,</m:mtext><m:mfrac>
+    <m:mtext>8.8</m:mtext><m:mtext>.5,8</m:mtext><m:mtext>0,2,</m:mtext><m:mfrac>
      <m:mn>1</m:mn>
      <m:mrow>
       <m:msqrt>
@@ -679,13 +679,13 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math> = 0.9293</item>
+</m:math> = 0,9293</item>
 </list></solution>
 </exercise>
 </example>
 
 <note id="fs-idm70207568" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idp8586512">
 <problem id="fs-idm57780000">
@@ -709,7 +709,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 </section>
 
 <section id="fs-idm33599328" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idm66102448">En una población cuya distribución puede ser conocida o desconocida, si el tamaño (<emphasis effect="italics">n</emphasis>) de las muestras es suficientemente grande, la distribución de las medias muestrales será aproximadamente normal. La media de las medias muestrales será igual a la media poblacional. La desviación típica de la distribución de las medias muestrales, denominada error estándar de la media, es igual a la desviación típica de la población dividida entre la raíz cuadrada del tamaño de la muestra (<emphasis effect="italics">n</emphasis>).</para></section>
 
 
@@ -757,7 +757,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 <m:mi>x</m:mi>
 <m:mo stretchy="true">¯</m:mo>
 </m:mover>
-<m:mo>-</m:mo><m:msub>
+<m:mo>–</m:mo><m:msub>
 <m:mi>μ</m:mi>
 <m:mi>x</m:mi>
 </m:msub>
@@ -824,7 +824,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 <solution id="eip-id1165897421719"><para id="eip-id1165895503793">media = 4 horas; desviación típica = 1,2 horas; tamaño de la muestra = 16</para></solution></exercise><exercise id="fs-idp17869408"><problem id="fs-idm62741104">
 <para id="fs-idm25207024">Complete las distribuciones. <list id="fs-idm16577088" list-type="enumerated" number-style="lower-alpha">
 <item><emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
@@ -891,7 +891,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 <!-- <solution id="id18025798">
 <para id="element-710">b. 0.7499</para></solution> --></exercise><exercise id="fs-idm42157984">
 <problem id="fs-idm42157728">
-<para id="fs-idm42157472">¿Qué hace que las probabilidades en el <link target-id="element-446"/> y el <link target-id="element-322"/> sean diferentes?</para>
+<para id="fs-idm42157472">¿Qué hace que las probabilidades en el <link target-id="element-446" document=""/> y el <link target-id="element-322" document=""/> sean diferentes?</para>
 </problem>
 <solution id="fs-idm43625488">
 <para id="fs-idm67842816">El hecho de que las dos distribuciones sean diferentes explica las distintas probabilidades.</para>
@@ -899,7 +899,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 </exercise>
 
 <exercise id="fs-idm70816816"><problem id="fs-idm70816560">
-<para id="fs-idm70816304">Encuentre el percentil 95<sup/> para la media de tiempo para completar las revisiones de un mes. Dibuje el gráfico.</para>
+<para id="fs-idm70816304">Calcule el percentil 95<sup/> para la media de tiempo para completar las revisiones de un mes. Dibuje el gráfico.</para>
 <list id="fs-idm62305696" list-type="enumerated" number-style="lower-alpha">
 <item><figure id="fs-idm79810480">
 <media id="fs-idm101235264" alt="Esta es una curva de frecuencia para una distribución normal. Muestra un único pico en el centro con la curva disminuyendo hacia el eje horizontal a cada lado. La distribución es simétrica. El eje horizontal representa la variable aleatoria X.">
@@ -954,7 +954,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
  </m:mover>
 
 </m:math> = ____________</item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mover accent="true">
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
@@ -967,13 +967,13 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 <solution id="fs-idp10454080">
 <list id="fs-idm137132816" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">Χ</emphasis> = cantidad de cambio que llevan los estudiantes</item>
 <item><emphasis effect="italics">Χ</emphasis> ~ <emphasis effect="italics">E</emphasis>(0,88; 0,88)</item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mover accent="true">
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
-</m:math> = cantidad media de cambio que lleva a cabo una muestra de 25 estudiantes.</item>
-<item>Los términos <m:math>
+</m:math> = cantidad promedio de cambio que lleva a cabo una muestra de 25 estudiantes.</item>
+<item><m:math>
 <m:mover accent="true">
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
@@ -1005,7 +1005,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
-</m:math> Sombree la región correspondiente a la probabilidad. Calcule la probabilidad.</item>
+</m:math>. Sombree la región correspondiente a la probabilidad. Calcule la probabilidad.</item>
 <item>Calcule el percentil 80<sup/> de la distribución del promedio de 49 batazos de aire.</item>
 </list></problem>
 
@@ -1046,7 +1046,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
  </m:mover>
 
 </m:math> = _____________</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
@@ -1085,7 +1085,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 </m:math> el promedio de las 49 carreras.</para>
 
 <list id="element-45" list-type="enumerated" number-style="lower-alpha">
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
@@ -1094,7 +1094,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 </m:math> ~ _____(_____,_____)</item>
 <item>Calcule la probabilidad de que el corredor tenga un promedio entre 142 y 146 minutos en estos 49 maratones.</item>
 <item>Calcule el percentil 80<sup/> del promedio de estos 49 maratones.</item>
-<item>Calcule la mediana de los tiempos medios de ejecución.</item></list></problem>
+<item>Calcule la mediana de los tiempos promedio de ejecución.</item></list></problem>
 
 <!-- <solution id="id6533816">
 <list id="element-402" list-type="enumerated" number-style="lower-alpha">
@@ -1135,19 +1135,19 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
  </m:mover>
 
 </m:math> = _____________</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
 
 </m:math> ~ _____(_____,_____)</item>
-<item>Encuentre el primer cuartil para la duración promedio de la canción, <m:math>
+<item>Calcule el primer cuartil para la duración promedio de la canción, <m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-</m:math></item>
+</m:math>.</item>
 <item>El IQR (rango intercuartil) para la longitud promedio de la canción, <m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
@@ -1175,7 +1175,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
  </m:mover>
 
 </m:math> = _____________</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
@@ -1258,7 +1258,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 
 </m:math> = porcentaje promedio de calorías de grasa.</para>
 <list id="eip-idm27753728" list-type="enumerated" number-style="lower-alpha">
-<item>Los términos <m:math>
+<item><m:math>
 <m:mover accent="true">
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
@@ -1309,7 +1309,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
  </m:mover>
 
 </m:math> = _____________</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
@@ -1321,7 +1321,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 <solution id="fs-idm50399184">
 <list id="fs-idp55008880" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> = los ingresos anuales de alguien en un país del tercer mundo</item>
 <item>el salario promedio de las muestras de 1.000 residentes de un país del tercer mundo</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
@@ -1338,7 +1338,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
      <m:mrow>
       <m:msqrt>
        <m:mrow>
-        <m:mtext>1000</m:mtext>
+        <m:mtext>1.000</m:mtext>
        </m:mrow>
       </m:msqrt>
 
@@ -1349,7 +1349,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math></item>
-<item>Las diferencias muy amplias en los valores de los datos pueden tener medias más pequeñas que las desviaciones típicas.</item>
+<item>Las diferencias muy amplias en los valores de los datos pueden tener promedios más pequeños que las desviaciones típicas.</item>
 <item>La distribución de la media muestral tendrá mayores probabilidades de acercarse a la media de la población. <newline/><emphasis effect="italics">P</emphasis>(2.000 &lt; <m:math>
 <m:mover accent="true">
 <m:mi>x</m:mi>
@@ -1366,7 +1366,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 </exercise>
 
 <exercise id="element-338"><problem id="id6538396">
-<para id="element-943">¿Cuál de las siguientes opciones NO ES CIERTA sobre la distribución de las medias?</para>
+<para id="element-943">¿Cuál de las siguientes opciones NO ES CIERTA sobre la distribución de los promedios?</para>
 <list id="element-992" list-type="enumerated" number-style="lower-alpha"><item>La media, la mediana y la moda son iguales.</item>
 <item>El área debajo de la curva es uno.</item>
 <item>La curva nunca toca el eje <emphasis effect="italics">x</emphasis>.</item>
@@ -1377,14 +1377,14 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
 <para id="element-60">d</para>
 </solution> -->
 </exercise><exercise id="element-680"><problem id="id6538522">
-<para id="fs-idp43800992">El costo de la gasolina sin plomo en el Área de la Bahía seguía antes una distribución desconocida con una media de 4,59 dólares y una desviación típica de 0,10 dólares. Se eligen al azar dieciséis gasolineras del Área de la Bahía. Nos interesa el costo promedio de la gasolina en las 16 gasolineras. La distribución que se va a usar para el costo promedio de la gasolina para las 16 gasolineras es <list id="element-728" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math>
+<para id="fs-idp43800992">El costo de la gasolina sin plomo en el Área de la Bahía seguía antes una distribución desconocida con una media de 4,59 dólares y una desviación típica de 0,10 dólares. Se eligen al azar dieciséis gasolineras del Área de la Bahía. Nos interesa el costo promedio de la gasolina en las 16 gasolineras. La distribución que se va a usar para el costo promedio de la gasolina para las 16 gasolineras es <list id="element-728" list-type="enumerated" number-style="lower-alpha"><item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
 
 </m:math> ~ <emphasis effect="italics">N</emphasis>(4,59; 0,10)</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
@@ -1411,8 +1411,8 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math> grandes.</item>
-<item>Los términos <m:math>
+</m:math></item>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
@@ -1434,8 +1434,8 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math> grandes.</item>
-<item>Los términos <m:math>
+</m:math></item>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
@@ -1480,7 +1480,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
   </definition>
   <definition id="centlimit">
     <term>Teorema del límite central</term>
-    <meaning id="id43867050">Dada una variable aleatoria (RV) con media conocida <emphasis effect="italics">μ</emphasis> y desviación típica conocida, <emphasis effect="italics">σ</emphasis>, estamos muestreando con tamaño <emphasis effect="italics">n</emphasis>, y nos interesan dos nuevas RV: la media muestral, <m:math>
+    <meaning id="id43867050">dada una variable aleatoria (RV) con media conocida <emphasis effect="italics">μ</emphasis> y desviación típica conocida, <emphasis effect="italics">σ</emphasis>, estamos muestreando con tamaño <emphasis effect="italics">n</emphasis>, y nos interesan dos nuevas RV: la media muestral, <m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
@@ -1532,7 +1532,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
     <term>Distribución normal</term>
     <meaning id="id42733014">una variable aleatoria (RV) continua con pdf <m:math>
  <m:mrow>
-  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> = </m:mtext><m:mfrac>
+  <m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> = </m:mtext><m:mfrac>
    <m:mn>1</m:mn>
    <m:mrow>
     <m:mi>σ</m:mi><m:msqrt>
@@ -1585,7 +1585,7 @@ Supongamos que <emphasis effect="italics">X</emphasis> = el tiempo, en horas, qu
    </m:mrow>
   </m:mfrac>
  </m:mrow>
-</m:math></meaning>
+</m:math>.</meaning>
 </definition>
 </glossary>
 </document>

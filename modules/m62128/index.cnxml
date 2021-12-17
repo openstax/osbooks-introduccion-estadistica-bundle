@@ -9,24 +9,24 @@
 </metadata>
 
 <content>
- <section id="eip-39"><title>Diagramas de Venn</title><para id="eip-8888">Un <term id="term-00001">diagrama de Venn</term> es una imagen que representa los resultados de un experimento. Generalmente consiste en un recuadro que representa el espacio muestral S junto con círculos u óvalos. Los círculos u óvalos representan eventos. Los diagramas de Venn también nos ayudan a convertir palabras comunes del idioma en términos matemáticos que ayudan a agregar precisión.</para><para id="eip-842">Los diagramas de Venn deben su nombre a su inventor, John Venn, profesor de matemáticas en Cambridge y ministro anglicano. Su trabajo principal se llevó a cabo a finales de la década de 1870 y dio lugar a toda una rama de las matemáticas y a una nueva forma de abordar los problemas de lógica. Desarrollaremos las reglas de probabilidad que acabamos de abarcar utilizando esta poderosa forma de demostrar los postulados de la probabilidad, que incluye la regla de la adición, la regla de la multiplicación, la regla del complemento, la independencia y la probabilidad condicional.</para><example id="element-513"><para id="element-756">Supongamos que un experimento tiene los resultados 1, 2, 3, ..., 12 donde cada resultado tiene la misma probabilidad de ocurrir. Supongamos que el evento <emphasis effect="italics">A</emphasis> = {1, 2, 3, 4, 5, 6} y el evento <emphasis effect="italics">B</emphasis> = {6, 7, 8, 9}. Entonces <emphasis effect="italics">A</emphasis> interseca a <emphasis effect="italics">B</emphasis> = <m:math><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>=</m:mo><m:mtext>{6}</m:mtext></m:math> y <emphasis effect="italics">A</emphasis> unión <emphasis effect="italics">B</emphasis> = <m:math><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>=</m:mo><m:mtext>{1, 2, 3, 4, 5, 6, 7, 8, 9}.</m:mtext></m:math> El diagrama de Venn es el siguiente:</para><figure id="eip-idm17287840"><media id="id18119489" alt="Un diagrama de Venn. Un óvalo que representa el conjunto A contiene los valores 1, 2, 3, 4, 5 y 6. Un óvalo que representa el conjunto B también contiene el 6, junto con el 7, el 8 y el 9. Los valores 10, 11 y 12 están presentes pero no están contenidos en ninguno de los dos conjuntos." display="block"><image src="../../media/fig-ch03_06_01.jpg" mime-type="image/png" width="380"/></media>
-</figure></example><para id="eip-968">La <link target-id="eip-idm17287840"/> muestra la relación más básica entre estos números. En primer lugar, los números están en grupos llamados conjuntos; conjunto A y conjunto B. Algunos números están en ambos conjuntos; decimos que en el conjunto A <m:math><m:mo>∩</m:mo></m:math> en el conjunto B. La palabra “y” significa inclusivo, es decir, que tiene las características tanto de A como de B, o en este caso, que forma parte tanto de A como de B. Esta condición se llama INTERSECCIÓN de los dos conjuntos. Todos los miembros que forman parte de ambos conjuntos constituyen la intersección de los dos conjuntos. La intersección se escribe como <m:math><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi></m:math> donde <m:math><m:mo>∩</m:mo></m:math> es el símbolo matemático de la intersección. La afirmación <m:math><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi></m:math> se lee como "A interseca B". Puede recordarlo pensando en la intersección de dos calles.</para><para id="eip-540">También están los números que forman un grupo que, para ser miembro, el número debe estar en uno u otro grupo. El número no tiene que estar en AMBOS grupos, sino solamente en uno de los dos. Estos números se llaman la UNIÓN de los dos conjuntos y en este caso son los números 1-5 (de A exclusivamente), 7-9 (del conjunto B exclusivamente) y también el 6, que está en ambos conjuntos A y B. El símbolo de la UNIÓN es <m:math><m:mo>∪</m:mo></m:math>, por lo tanto <m:math><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>=</m:mo></m:math> los números 1-9, pero excluye los números 10, 11 y 12. Los valores 10, 11 y 12 forman parte del universo, pero no están en ninguno de los dos conjuntos.</para><para id="eip-73">Traducir la palabra “Y” al símbolo lógico matemático <m:math><m:mo>∩</m:mo></m:math>, intersección, y la palabra "O" al símbolo matemático <m:math><m:mo>∪</m:mo></m:math>, la unión, proporciona una forma muy precisa de discutir los temas de la probabilidad y la lógica. La terminología general de las tres áreas del diagrama de Venn en la <link target-id="eip-idm17287840"/> se muestra en la <link target-id="eip-idm154602320"/>.</para><note id="fs-idp42923984" class="statistics try"><title>Ejercicio</title>
+ <section id="eip-39"><title>Diagramas de Venn</title><para id="eip-8888">Un <term id="term-00001">diagrama de Venn</term> es una imagen que representa los resultados de un experimento. Generalmente consiste en un recuadro que representa el espacio muestral S junto con círculos u óvalos. Los círculos u óvalos representan eventos. Los diagramas de Venn también nos ayudan a convertir palabras comunes del idioma en términos matemáticos que ayudan a agregar precisión.</para><para id="eip-842">Los diagramas de Venn deben su nombre a su inventor, John Venn, profesor de matemáticas en Cambridge y ministro anglicano. Su trabajo principal se llevó a cabo a finales de la década de 1870 y dio lugar a toda una rama de las matemáticas y a una nueva forma de abordar los problemas de lógica. Desarrollaremos las reglas de probabilidad que acabamos de abarcar utilizando esta poderosa forma de demostrar los postulados de la probabilidad, que incluye la regla de la adición, la regla de la multiplicación, la regla del complemento, la independencia y la probabilidad condicional.</para><example id="element-513"><para id="element-756">Supongamos que un experimento tiene los resultados 1, 2, 3, ..., 12 donde cada resultado tiene la misma probabilidad de ocurrir. Supongamos que el evento <emphasis effect="italics">A</emphasis> = {1, 2, 3, 4, 5, 6} y el evento <emphasis effect="italics">B</emphasis> = {6, 7, 8, 9}. Entonces <emphasis effect="italics">A</emphasis> interseca a <emphasis effect="italics">B</emphasis> = <m:math><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>=</m:mo><m:mtext>{6}</m:mtext></m:math> y <emphasis effect="italics">A</emphasis> unión <emphasis effect="italics">B</emphasis> = <m:math><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>=</m:mo><m:mtext>{1, 2, 3, 4, 5, 6, 7, 8, 9}.</m:mtext></m:math>. El diagrama de Venn es el siguiente:</para><figure id="eip-idm17287840"><media id="id18119489" alt="Un diagrama de Venn. Un óvalo que representa el conjunto A contiene los valores 1, 2, 3, 4, 5 y 6. Un óvalo que representa el conjunto B también contiene el 6, junto con el 7, el 8 y el 9. Los valores 10, 11 y 12 están presentes pero no están contenidos en ninguno de los dos conjuntos." display="block"><image src="../../media/fig-ch03_06_01.jpg" mime-type="image/png" width="380"/></media>
+</figure></example><para id="eip-968">La <link target-id="eip-idm17287840"/> muestra la relación más básica entre estos números. En primer lugar, los números están en grupos llamados conjuntos; conjunto A y conjunto B. Algunos números están en ambos conjuntos; decimos que en el conjunto A <m:math><m:mo>∩</m:mo></m:math> en el conjunto B. La palabra “y” significa inclusivo, es decir, que tiene las características tanto de A como de B, o en este caso, que forma parte tanto de A como de B. Esta condición se llama INTERSECCIÓN de los dos conjuntos. Todos los miembros que forman parte de ambos conjuntos constituyen la intersección de los dos conjuntos. La intersección se escribe como <m:math><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi></m:math> donde <m:math><m:mo>∩</m:mo></m:math> es el símbolo matemático de la intersección. La afirmación <m:math><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi></m:math> se lee como "A interseca B". Puede recordarlo pensando en la intersección de dos calles.</para><para id="eip-540">También están los números que forman un grupo que, para ser miembro, el número debe estar en uno u otro grupo. El número no tiene que estar en AMBOS grupos, sino solamente en uno de los dos. Estos números se llaman la UNIÓN de los dos conjuntos y en este caso son los números 1-5 (de A exclusivamente), 7-9 (del conjunto B exclusivamente) y también el 6, que está en ambos conjuntos A y B. El símbolo de la UNIÓN es <m:math><m:mo>∪</m:mo></m:math>, por lo tanto <m:math><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>=</m:mo></m:math> los números 1-9, pero excluye los números 10, 11 y 12. Los valores 10, 11 y 12 forman parte del universo, pero no están en ninguno de los dos conjuntos.</para><para id="eip-73">Traducir la palabra “Y” al símbolo lógico matemático <m:math><m:mo>∩</m:mo></m:math>, intersección, y la palabra "O" al símbolo matemático <m:math><m:mo>∪</m:mo></m:math>, la unión, proporciona una forma muy precisa de discutir los temas de la probabilidad y la lógica. La terminología general de las tres áreas del diagrama de Venn en la <link target-id="eip-idm17287840"/> se muestra en la <link target-id="eip-idm154602320"/>.</para><note id="fs-idp42923984" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idp129832272"><problem id="fs-idp89658416">
 <para id="fs-idp136729728">Supongamos que un experimento tiene los resultados negro, blanco, rojo, anaranjado, amarillo, verde, azul y morado, donde cada resultado tiene la misma probabilidad de ocurrir. Supongamos que el evento <emphasis effect="italics">C</emphasis> = {verde, azul, morado} y el evento <emphasis effect="italics">P</emphasis> = {rojo, amarillo, azul}. Entonces <m:math><m:mi>C</m:mi><m:mo>∩</m:mo><m:mi>P</m:mi><m:mo>=</m:mo><m:mtext>{azul}</m:mtext></m:math> y <m:math><m:mi>C</m:mi><m:mo>∪</m:mo><m:mi>P</m:mi><m:mo>=</m:mo><m:mtext>{verde, azul, morado, rojo, amarillo}</m:mtext></m:math>. Dibuje un diagrama de Venn que represente esta situación.</para></problem>
 <solution id="fs-idp82935792">
-
+<label/>
 <figure id="eip-idp39366912"><media id="fs-idp117955072" alt="">
 <image src="../../media/CNX_Stats_C03_M06_tryit001.jpg" mime-type="image/png" width="400"/></media>
 </figure></solution>
 </exercise></note><example id="element-872"><para id="element-491">Lance dos monedas imparciales Supongamos que <emphasis effect="italics">A</emphasis> = cruz en la primera moneda. Supongamos que <emphasis effect="italics">B</emphasis> = cruz en la segunda moneda. Entonces <emphasis effect="italics">A</emphasis> = {<emphasis effect="italics">TT</emphasis>, <emphasis effect="italics">TH</emphasis>} y <emphasis effect="italics">B</emphasis> = {<emphasis effect="italics">TT</emphasis>, <emphasis effect="italics">HT</emphasis>}. Por lo tanto, <m:math><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>=</m:mo><m:mtext>{TT}</m:mtext></m:math>. <m:math><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>=</m:mo><m:mtext>{TH, TT, HT}</m:mtext></m:math>.</para><para id="element-245">El espacio muestral al lanzar dos monedas imparciales es <emphasis effect="italics">X</emphasis> = {<emphasis effect="italics">HH</emphasis>, <emphasis effect="italics">HT</emphasis>, <emphasis effect="italics">TH</emphasis>, <emphasis effect="italics">TT</emphasis>}. El resultado <emphasis effect="italics">HH</emphasis> no es NI <emphasis effect="italics">A</emphasis> NI <emphasis effect="italics">B</emphasis>. El diagrama de Venn es el siguiente:</para>
 <figure id="eip-idm154602320"><media id="id18154607" alt="Esto es un diagrama de Venn. Un óvalo que representa el conjunto A contiene cruz + cara y cruz + cruz. Un óvalo que representa el conjunto B también contiene cruz + cruz, junto con cara + cruz. El universo S contiene cara + cara, pero este valor no está contenido ni en el conjunto A ni en el B." display="block">
 <image src="../../media/fig-ch03_06_02.jpg" mime-type="image/jpg" width="400"/></media>
-</figure></example><note id="fs-idm20878064" class="statistics try"><title>Ejercicio</title>
+</figure></example><note id="fs-idm20878064" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="eip-idm77418224">
 <problem id="eip-idm66827488">
 <para id="eip-idp2578208">Usted lanza un dado imparcial de seis lados. Supongamos que <emphasis effect="italics">A</emphasis> = se obtiene un número primo de puntos. Supongamos que <emphasis effect="italics">B</emphasis> = se obtiene un número impar de puntos. Entonces <emphasis effect="italics">A</emphasis> = {2, 3, 5} y <emphasis effect="italics">B</emphasis> = {1, 3, 5}. Por lo tanto, <m:math><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>=</m:mo><m:mtext>{3, 5}</m:mtext></m:math>. <m:math><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>=</m:mo><m:mtext>{1, 2, 3, 5}</m:mtext></m:math>. El espacio muestral para lanzar un dado imparcial es <emphasis effect="italics">S</emphasis> = {1, 2, 3, 4, 5, 6}. Dibuje un diagrama de Venn que represente esta situación.</para></problem>
 <solution id="eip-idm66331712">
-
+<label/>
 <figure id="eip-idm11530608"><media id="eip-idm84522896" alt="">
 <image src="../../media/CNX_Stats_C03_M06_tryit002.jpg" mime-type="image/jpg" width="400"/></media>
 </figure></solution>
@@ -42,8 +42,8 @@
 <para id="fs-idp107178080">Tomaremos el promedio del 5 % y del 10 % y utilizaremos el 7,5 % como el porcentaje de afroamericanos que tienen el factor Rh–. Supongamos que <emphasis effect="italics">O</emphasis> = afroamericano con sangre tipo O y <emphasis effect="italics">R</emphasis> = afroamericano con factor Rh–.</para>
 <list id="fs-idp55980272" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">O</emphasis>) = ___________</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>) = ___________</item>
-<item>Los términos <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>O</m:mi><m:mo>∩</m:mo><m:mi>R</m:mi><m:mo>)</m:mo><m:mo>=</m:mo></m:math> ___________</item>
-<item>Los términos <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>O</m:mi><m:mo>∪</m:mo><m:mi>R</m:mi><m:mo>)</m:mo><m:mo>=</m:mo></m:math> ____________</item>
+<item><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>O</m:mi><m:mo>∩</m:mo><m:mi>R</m:mi><m:mo>)</m:mo><m:mo>=</m:mo></m:math> ___________</item>
+<item><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>O</m:mi><m:mo>∪</m:mo><m:mi>R</m:mi><m:mo>)</m:mo><m:mo>=</m:mo></m:math> ____________</item>
 <item>En el diagrama de Venn, describa con una oración completa la zona de solapamiento.</item>
 <item>En el diagrama de Venn, describa con una oración completa el área que se encuentra en el rectángulo pero fuera del círculo y del óvalo.</item></list></problem>
 <solution id="fs-idp133204112">
@@ -81,22 +81,22 @@
   <m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>0,1</m:mn>
  </m:mrow>
 </m:math></item>
-<item>la probabilidad de que el estudiante pertenezca a un club <emphasis>o</emphasis> trabaje a tiempo parcial <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>∪</m:mo><m:mi>PT</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>PT</m:mi><m:mo>)</m:mo><m:mo>-</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>∩</m:mo><m:mi>PT</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0,40</m:mn><m:mo>+</m:mo><m:mn>0,50</m:mn><m:mo>-</m:mo><m:mn>0,05</m:mn><m:mo>=</m:mo><m:mn>0,85</m:mn></m:math></item>
+<item>la probabilidad de que el estudiante pertenezca a un club <emphasis>o</emphasis> trabaje a tiempo parcial <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>∪</m:mo><m:mi>PT</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>PT</m:mi><m:mo>)</m:mo><m:mo>–</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>∩</m:mo><m:mi>PT</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0,40</m:mn><m:mo>+</m:mo><m:mn>0,50</m:mn><m:mo>–</m:mo><m:mn>0,05</m:mn><m:mo>=</m:mo><m:mn>0,85</m:mn></m:math></item>
 </list></example>
-<para id="eip-109">Para resolver <link target-id="element-554"/> tuvimos que recurrir al concepto de probabilidad condicional de la sección anterior. Allí utilizamos diagramas de árbol para seguir los cambios en las probabilidades, porque el espacio muestral cambiaba a medida que dibujábamos sin reemplazo. En resumen, la probabilidad condicional es la posibilidad de que algo ocurra dado que algún otro evento ya ha ocurrido. Dicho de otro modo, la probabilidad de que algo ocurra condicionada a la situación de que otra cosa también sea cierta. En el <link target-id="element-554"/> la probabilidad <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis><m:math><m:mo> | </m:mo></m:math><emphasis effect="italics">PT</emphasis>) es la probabilidad condicional de que el estudiante extraído al azar sea socio del club, condicionada al hecho de que el estudiante también trabaje a tiempo parcial. Esto nos permite ver la relación entre los diagramas de Venn y los postulados de probabilidad.</para><note id="fs-idm55345616" class="statistics try"><title>Ejercicio</title>
+<para id="eip-109">Para resolver el <link target-id="element-554"/> tuvimos que recurrir al concepto de probabilidad condicional de la sección anterior. Allí utilizamos diagramas de árbol para seguir los cambios en las probabilidades, porque el espacio muestral cambiaba a medida que dibujábamos sin reemplazo. En resumen, la probabilidad condicional es la posibilidad de que algo ocurra dado que algún otro evento ya ha ocurrido. Dicho de otro modo, la probabilidad de que algo ocurra condicionada a la situación de que otra cosa también sea cierta. En el <link target-id="element-554"/> la probabilidad <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis><m:math><m:mo> | </m:mo></m:math><emphasis effect="italics">PT</emphasis>) es la probabilidad condicional de que el estudiante extraído al azar sea socio del club, condicionada al hecho de que el estudiante también trabaje a tiempo parcial. Esto nos permite ver la relación entre los diagramas de Venn y los postulados de probabilidad.</para><note id="fs-idm55345616" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idp89579120">
 <problem id="fs-idp89636640">
 <para id="fs-idp120162528">El cincuenta por ciento de los trabajadores de una fábrica tiene un segundo empleo, el 25 % tiene un cónyuge que también trabaja, el 5 % tiene un segundo empleo y un cónyuge que también trabaja. Dibuje un diagrama de Venn que muestre las relaciones. Supongamos que <emphasis effect="italics">W</emphasis> = trabaja en un segundo empleo y <emphasis effect="italics">S</emphasis> = el cónyuge también trabaja.</para>
 </problem>
 <solution id="fs-idp91665296">
-
+<label/>
 <figure id="fs-idp77159920"><media id="fs-idp135208336" display="block" alt="Se trata de un diagrama de Venn en el que un conjunto contiene a los estudiantes de los clubes y otro conjunto contiene a los estudiantes que trabajan a tiempo parcial. Ambos conjuntos comparten estudiantes que son miembros de clubes y también trabajan a tiempo parcial.">
 <image src="../../media/CNX_Stats_C03_M06_tryit003.jpg" mime-type="image/jpg" width="400"/>
 </media></figure></solution>
 </exercise>
 </note>
 <note id="fs-idp47601696" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idp85340096"><problem id="fs-idp129244656">
 <para id="fs-idp200572912">En una librería, la probabilidad de que el cliente compre una novela es de 0,6, y la de que compre un libro que no es de ficción es de 0,4. Supongamos que la probabilidad de que el cliente compre ambos es de 0,2.</para>
@@ -129,7 +129,7 @@
 <para id="eip-id3923323"> Dibuje un segundo diagrama de Venn que ilustre que 10 de los perros machos tienen coloración marrón.</para>
 </problem>
 <solution id="eip-id3167637">
-<para id="eip-id3873436">El siguiente diagrama de Venn muestra la superposición entre macho y marrón en el que se coloca el número 10. Esto representa <m:math><m:mtext>Macho</m:mtext><m:mo>∩</m:mo><m:mtext>Marrón</m:mtext></m:math>: macho y marrón. Es la intersección de estas dos características. La unión de macho y marrón, entonces es simplemente las dos áreas circuladas menos la superposición. En términos adecuados, <m:math><m:mtext>Macho</m:mtext><m:mo>∪</m:mo><m:mtext>Marrón</m:mtext><m:mo>=</m:mo><m:mtext>Macho</m:mtext><m:mo>+</m:mo><m:mtext>Marrón</m:mtext><m:mo>- −</m:mo><m:mtext>Macho</m:mtext><m:mo>∩</m:mo><m:mtext>Marrón</m:mtext></m:math> nos dará el número de perros en la unión de estos dos conjuntos. Si no restáramos la intersección, habríamos contado dos veces algunos de los perros.</para><figure id="eip-id3278288"><media id="eip-id3278289" alt="Esto es un diagrama de Venn, dos círculos superpuestos dentro de un rectángulo. El círculo de la izquierda está identificado como macho. El círculo de la derecha está marcado como marrón. La sección superpuesta muestra el número 10."><image src="../../media/fig-ch03_11_03.jpg" mime-type="image/png"/></media></figure></solution>
+<para id="eip-id3873436">El siguiente diagrama de Venn muestra la superposición entre macho y marrón en el que se coloca el número 10. Esto representa <m:math><m:mtext>Macho</m:mtext><m:mo>∩</m:mo><m:mtext>Marrón</m:mtext></m:math>: macho y marrón. Es la intersección de estas dos características. La unión de macho y marrón, entonces es simplemente las dos áreas circuladas menos la superposición. En términos adecuados, <m:math><m:mtext>Macho</m:mtext><m:mo>∪</m:mo><m:mtext>Marrón</m:mtext><m:mo>=</m:mo><m:mtext>Macho</m:mtext><m:mo>+</m:mo><m:mtext>Marrón</m:mtext><m:mo>–</m:mo><m:mtext>Macho</m:mtext><m:mo>∩</m:mo><m:mtext>Marrón</m:mtext></m:math> nos dará el número de perros en la unión de estos dos conjuntos. Si no restáramos la intersección, habríamos contado dos veces algunos de los perros.</para><figure id="eip-id3278288"><media id="eip-id3278289" alt="Esto es un diagrama de Venn, dos círculos superpuestos dentro de un rectángulo. El círculo de la izquierda está identificado como macho. El círculo de la derecha está marcado como marrón. La sección superpuesta muestra el número 10."><image src="../../media/fig-ch03_11_03.jpg" mime-type="image/png"/></media></figure></solution>
 </exercise>
 <exercise id="eip-id4457985">
 <problem id="eip-id4471067">
@@ -139,7 +139,7 @@
 </exercise></example><section id="eip-89"><title>La regla de la suma de probabilidades</title><para id="eip-456">
 Antes conocimos la regla de la adición, pero sin la ayuda de los diagramas de Venn. Los diagramas de Venn ayudan a visualizar el proceso de recuento inherente al cálculo de la probabilidad. Para reafirmar la regla de la suma de probabilidades:
 </para>
-<equation id="eip-id1170394007631" class="unnumbered">Los términos <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mn>A</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>-</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math></equation><para id="eip-id5140127">Recuerde que la probabilidad es simplemente la proporción de los objetos que nos interesan en relación con el número total de objetos. Por eso podemos ver la utilidad de los diagramas de Venn. El <link target-id="eip-715"/> muestra cómo podemos utilizar los diagramas de Venn para contar el número de perros en la unión de marrón y macho recordándonos que hay que restar la intersección de marrón y macho. Podemos ver el efecto de esto directamente en las probabilidades en la regla de adición.</para>
+<equation id="eip-id1170394007631" class="unnumbered"><label/><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mn>A</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>–</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math></equation><para id="eip-id5140127">Recuerde que la probabilidad es simplemente la proporción de los objetos que nos interesan en relación con el número total de objetos. Por eso podemos ver la utilidad de los diagramas de Venn. El <link target-id="eip-715"/> muestra cómo podemos utilizar los diagramas de Venn para contar el número de perros en la unión de marrón y macho recordándonos que hay que restar la intersección de marrón y macho. Podemos ver el efecto de esto directamente en las probabilidades en la regla de adición.</para>
 
 <example id="eip-id6560162">
 <para id="eip-id6089332">Tomemos una muestra de 50 estudiantes que están en una clase de estadística. 20 son de primer año y 30 de segundo. 15 estudiantes obtienen una "B" en el curso, y 5 estudiantes obtienen una "B" y son de primer año. </para>
@@ -152,32 +152,32 @@ Antes conocimos la regla de la adición, pero sin la ayuda de los diagramas de V
 
 <para id="eip-id4067776">La <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>20</m:mn><m:mn>50</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>0,40</m:mn></m:math>, <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>15</m:mn><m:mn>50</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>0,30</m:mn></m:math> y <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>50</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>0,10</m:mn></m:math>.</para>
 
-<para id="eip-id6553201">Por lo tanto, <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0,40</m:mn><m:mo>+</m:mo><m:mn>0,30</m:mn><m:mo>- −</m:mo><m:mn>0,10</m:mn><m:mo>=</m:mo><m:mn>0,60</m:mn></m:math>.</para>
+<para id="eip-id6553201">Por lo tanto, <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0,40</m:mn><m:mo>+</m:mo><m:mn>0,30</m:mn><m:mo>–</m:mo><m:mn>0,10</m:mn><m:mo>=</m:mo><m:mn>0,60</m:mn></m:math>.</para>
 
-<figure id="eip-id4231146"><media id="eip-id4110364" alt="Los diagramas de Venn modelan la fórmula de P(A y B). El primer diagrama de Venn muestra dos círculos superpuestos dentro de un rectángulo. El círculo de la izquierda está marcado como A, el círculo de la derecha está marcado como B, y la sección superpuesta está marcada como A intersección B. Este diagrama está marcado como P(A unión B). Después de este diagrama hay un signo de igualdad. Debajo del primer diagrama hay una serie de diagramas. Cada uno muestra la misma disposición: círculos A y B superpuestos. El primer diagrama muestra el círculo A completamente sombreado. El segundo diagrama muestra el círculo B completamente sombreado. El tercer diagrama muestra la parte superpuesta de los círculos A y B sombreada. La expresión es primer diagrama más segundo diagrama – tercer diagrama."><image src="../../media/fig-ch03_11_05.jpg" mime-type="image/png"/></media></figure><para id="eip-id5944124">Si dos eventos son mutuamente excluyentes, entonces, como en el ejemplo en el que diagramamos los perros macho y hembra, la regla de adición se simplifica a solo <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mn>A</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>0</m:mn></m:math>. Esto es cierto porque, como vimos antes, la unión de eventos mutuamente excluyentes es el conjunto nulo, ∅. Los siguientes diagramas lo demuestran.</para>
+<figure id="eip-id4231146"><media id="eip-id4110364" alt="Los diagramas de Venn modelan la fórmula de P(A y B). El primer diagrama de Venn muestra dos círculos superpuestos dentro de un rectángulo. El círculo de la izquierda está marcado como A, el círculo de la derecha está marcado como B, y la sección superpuesta está marcada como A intersección B. Este diagrama está marcado como P(A unión B). Después de este diagrama hay un signo de igualdad. Debajo del primer diagrama hay una serie de diagramas. Cada uno muestra la misma disposición: círculos A y B superpuestos. El primer diagrama muestra el círculo A completamente sombreado. El segundo diagrama muestra el círculo B completamente sombreado. El tercer diagrama muestra la parte superpuesta de los círculos A y B sombreada. La expresión es primer diagrama más segundo diagrama – tercer diagrama."><image src="../../media/fig-ch03_11_05.jpg" mime-type="image/png"/></media></figure><para id="eip-id5944124">Si dos eventos son mutuamente excluyentes, entonces, como en el ejemplo en el que diagramamos los perros macho y hembra, la regla de adición se simplifica a solo <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mn>A</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>–</m:mo><m:mn>0</m:mn></m:math>. Esto es cierto porque, como vimos antes, la unión de eventos mutuamente excluyentes es el conjunto nulo, ∅. Los siguientes diagramas lo demuestran.</para>
 
-<figure id="eip-id5553528"><media id="eip-id6443441" alt="Los diagramas de Venn modelan la fórmula de P(A y B) en el caso especial de que A y B no se superpongan. P(A unión B) se representa mediante dos círculos separados (no superpuestos) dentro de un rectángulo. El círculo de la izquierda está identificado como macho. El círculo de la derecha está marcado como hembra. A la derecha de este diagrama hay un signo de igualdad. En la línea de abajo se observa una suma de diagramas. El diagrama de la izquierda muestra solo el círculo de macho dentro del rectángulo y está marcado como P(A). Entre los diagramas hay un signo de más. El diagrama de la derecha muestra solo el círculo femenino dentro del rectángulo y está marcado como P(B)."><image src="../../media/fig-ch03_11_06.jpg" mime-type="image/png"/></media></figure></solution></exercise></example>
+<figure id="eip-id5553528"><media id="eip-id6443441" alt="Los diagramas de Venn modelan la fórmula de P(A y B) en el caso especial de que A y B no se superpongan. P(A unión B) se representa mediante dos círculos separados (no superpuestos) dentro de un rectángulo. El círculo de la izquierda está identificado como macho. El círculo de la derecha está marcado como hembra. A la derecha de este diagrama hay un signo de igualdad. En la línea de abajo se observa una suma de diagramas. El diagrama de la izquierda muestra solo el círculo de macho dentro del rectángulo y está marcado como P(A). Entre los diagramas hay un signo de más. El diagrama de la derecha muestra solo el círculo de mujeres dentro del rectángulo y está marcado como P(B)."><image src="../../media/fig-ch03_11_06.jpg" mime-type="image/png"/></media></figure></solution></exercise></example>
 </section><section id="eip-432"><title>La regla de la multiplicación de la probabilidad</title><para id="eip-304">Reformulando la regla de multiplicación de la probabilidad utilizando la notación de los diagramas de Venn, tenemos:</para>
-<equation id="eip-id1166521862820" class="unnumbered">Los términos <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>|</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>⋅</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math></equation>
+<equation id="eip-id1166521862820" class="unnumbered"><label/><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>|</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>⋅</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math></equation>
 <para id="eip-id6627769">La regla de la multiplicación puede modificarse con un poco de álgebra en la siguiente regla condicional. A continuación, se pueden utilizar diagramas de Venn para demostrar el proceso.</para>
 <para id="eip-id5737284">La regla condicional: <m:math><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mo stretchy="false">|</m:mo><m:mi>B</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:mrow></m:mfrac></m:math></para>
 <para id="eip-id5495026">Utilizando los mismos datos del <link target-id="eip-id6560162"/> de arriba, halle la probabilidad de que alguien obtenga una "B" si es un "novato".</para>
-<equation id="eip-id1166533204187" class="unnumbered">Los términos <m:math><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mo stretchy="false">|</m:mo><m:mi>B</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>0,10</m:mn><m:mn>0,30</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math></equation><figure id="eip-id2323853"><media id="eip-id4491502" alt="Los diagramas de Venn modelan la fórmula de P(A dado B). Los diagramas utilizados muestran círculos superpuestos A (a la izquierda) y B (a la derecha) dentro de un rectángulo. La ecuación es P(A | B) = Diagrama de Venn que muestra P(A intersección B) como la sección sombreada donde el círculo izquierdo A interseca al círculo derecho B dividido por el diagrama de Venn que muestra P(B) al sombrear completamente el círculo derecho B."><image src="../../media/fig-ch03_11_07.jpg" mime-type="image/png"/></media></figure><para id="eip-id6093052">La regla de multiplicación también debe modificarse si los dos eventos son independientes. Los eventos independientes se definen como una situación en la que la probabilidad condicional es simplemente la probabilidad del evento de interés. Formalmente, la independencia de los eventos se define como <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>|</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo></m:math> o <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>|</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math>. Al lanzar monedas, el resultado de la segunda tirada es independiente del resultado de la primera; las monedas no tienen memoria. La regla de multiplicación de la probabilidad para eventos independientes pasa a ser:</para>
-<equation id="eip-id1166515670546" class="unnumbered">Los términos <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mo>⋅</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math></equation>
+<equation id="eip-id1166533204187" class="unnumbered"><label/><m:math><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mo stretchy="false">|</m:mo><m:mi>B</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>0,10</m:mn><m:mn>0,30</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math></equation><figure id="eip-id2323853"><media id="eip-id4491502" alt="Los diagramas de Venn modelan la fórmula de P(A dado B). Los diagramas utilizados muestran círculos superpuestos A (a la izquierda) y B (a la derecha) dentro de un rectángulo. La ecuación es P(A | B) = Diagrama de Venn que muestra P(A intersección B) como la sección sombreada donde el círculo izquierdo A interseca al círculo derecho B dividido por el diagrama de Venn que muestra P(B) al sombrear completamente el círculo derecho B."><image src="../../media/fig-ch03_11_07.jpg" mime-type="image/png"/></media></figure><para id="eip-id6093052">La regla de multiplicación también debe modificarse si los dos eventos son independientes. Los eventos independientes se definen como una situación en la que la probabilidad condicional es simplemente la probabilidad del evento de interés. Formalmente, la independencia de los eventos se define como <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>|</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo></m:math> o <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>|</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math>. Al lanzar monedas, el resultado de la segunda tirada es independiente del resultado de la primera; las monedas no tienen memoria. La regla de multiplicación de la probabilidad para eventos independientes pasa a ser:</para>
+<equation id="eip-id1166515670546" class="unnumbered"><label/><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mo>⋅</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math></equation>
 <para id="eip-id4129512">Una forma fácil de recordar esto es considerar lo que queremos decir con la palabra "y". Vemos que la regla de multiplicación ha traducido la palabra "y" a la notación Venn para intersección. Por lo tanto, el resultado debe cumplir las dos condiciones de primer año y nota de "B" en el ejemplo anterior. Es más difícil, menos probable, cumplir dos condiciones que una sola o alguna otra. Podemos intentar ver la lógica de la regla de la multiplicación de la probabilidad debido a que las fracciones multiplicadas entre sí se hacen más pequeñas.</para>
 <para id="eip-id4894389">El desarrollo de las reglas de la probabilidad con el uso de los diagramas de Venn puede mostrarse como una ayuda al querer calcular probabilidades a partir de datos dispuestos en una tabla de contingencia.</para><example id="eip-524"><para id="eip-881">La <link target-id="eip-95"/> es de una muestra de 200 personas a las que se les preguntó por su nivel de estudios. Las columnas representan la educación más alta que completaron y las filas separan a los individuos por hombres y mujeres.
 </para><table id="eip-95" summary="Table of education complete vs. gender">
 <tgroup cols="6"><tbody>
   <row>
     <entry/>
-    <entry><emphasis>Menos de un grado de bachillerato</emphasis></entry>
+    <entry><emphasis>Menos de un grado de escuela secundaria</emphasis></entry>
     <entry><emphasis>Graduado de la escuela secundaria</emphasis></entry>
-    <entry><emphasis>Algunos años en la universidad</emphasis></entry>
+    <entry><emphasis>Algunos años de educación universitaria</emphasis></entry>
     <entry><emphasis>Graduado universitario</emphasis></entry>
     <entry><emphasis>Total</emphasis></entry>
   </row>
   <row>
-    <entry>Macho</entry>
+    <entry>Hombres</entry>
     <entry>5</entry>
     <entry>15</entry>
     <entry>40</entry>
@@ -214,7 +214,7 @@ Antes conocimos la regla de la adición, pero sin la ayuda de los diagramas de V
 <solution id="eip-21">
   <para id="eip-236">
     Se trata de una tarea sencilla que consiste en hallar el valor en el que se cruzan las dos características en la tabla y, a continuación, aplicar el postulado de la probabilidad, que establece que la probabilidad de un evento es la proporción de resultados que coinciden con el evento en el que estamos interesados como proporción de todos los resultados posibles totales.</para>
-<para id="eip-id1169409514417"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">graduado de la educación superior</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">mujer</emphasis>) = <m:math><m:mfrac><m:mn>30</m:mn><m:mn>200</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>0,15</m:mn></m:math></para></solution>
+<para id="eip-id1169409514417"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">graduado universitario</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">mujer</emphasis>) = <m:math><m:mfrac><m:mn>30</m:mn><m:mn>200</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>0,15</m:mn></m:math></para></solution>
 </exercise><exercise id="eip-138"><problem id="eip-749">
   <para id="eip-956">
     ¿Cuál es la probabilidad de seleccionar a una mujer o a alguien que haya terminado la universidad?
@@ -225,7 +225,7 @@ Antes conocimos la regla de la adición, pero sin la ayuda de los diagramas de V
   <para id="eip-342">
     Esta tarea implica el uso de la regla de la suma para resolver esta probabilidad.
   </para>
-<para id="eip-id3094731"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">graduado de la educación superior</emphasis> <m:math><m:mo>∪</m:mo></m:math> <emphasis effect="italics">Mujer</emphasis>) = <emphasis effect="italics">P</emphasis><emphasis effect="italics">(F</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">CG</emphasis>)- <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">CG</emphasis>)</para><para id="eip-id1169346246202"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">graduado de la educación superior</emphasis> <m:math><m:mo>∪</m:mo></m:math> <emphasis effect="italics">mujer</emphasis>) = <m:math><m:mfrac><m:mn>80</m:mn><m:mn>200</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>90</m:mn><m:mn>200</m:mn></m:mfrac><m:mo>- −</m:mo><m:mfrac><m:mn>30</m:mn><m:mn>200</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>140</m:mn><m:mn>200</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>0,70</m:mn></m:math></para></solution></exercise><exercise id="eip-934"><problem id="eip-313">
+<para id="eip-id3094731"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">graduado universitario</emphasis> <m:math><m:mo>∪</m:mo></m:math> <emphasis effect="italics">Mujer</emphasis>) = <emphasis effect="italics">P</emphasis><emphasis effect="italics">(F</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">CG</emphasis>)- <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">CG</emphasis>)</para><para id="eip-id1169346246202"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">graduado universitario</emphasis> <m:math><m:mo>∪</m:mo></m:math> <emphasis effect="italics">mujer</emphasis>) = <m:math><m:mfrac><m:mn>80</m:mn><m:mn>200</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>90</m:mn><m:mn>200</m:mn></m:mfrac><m:mo>–</m:mo><m:mfrac><m:mn>30</m:mn><m:mn>200</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>140</m:mn><m:mn>200</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>0,70</m:mn></m:math></para></solution></exercise><exercise id="eip-934"><problem id="eip-313">
   <para id="eip-546">
     ¿Cuál es la probabilidad de seleccionar un graduado de secundaria si solo seleccionamos del grupo de hombres?
   </para>
@@ -235,7 +235,7 @@ Antes conocimos la regla de la adición, pero sin la ayuda de los diagramas de V
   <para id="eip-270">
     Aquí debemos utilizar la regla de la probabilidad condicional (la regla de la multiplicación modificada) para resolver esta probabilidad.
   </para>
-<para id="eip-id1172117136121"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Graduación escuela secundaria</emphasis> <m:math><m:mo>|</m:mo></m:math> <emphasis effect="italics">Hombre</emphasis> = <m:math><m:mfrac><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mtext>Graduado de escuela secundaria</m:mtext><m:mspace width="0.2em"/><m:mo>∩</m:mo><m:mspace width="0.2em"/><m:mtext>Macho</m:mtext><m:mo>)</m:mo></m:mrow><m:mrow><m:mtext>P</m:mtext><m:mo>(</m:mo><m:mtext>Macho</m:mtext><m:mo>)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>(</m:mo><m:mfrac><m:mn>15</m:mn><m:mn>200</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mfrac><m:mn>120</m:mn><m:mn>200</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>15</m:mn><m:mn>120</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>0,125</m:mn></m:math></para></solution>
+<para id="eip-id1172117136121"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Graduación escuela secundaria</emphasis> <m:math><m:mo>|</m:mo></m:math> <emphasis effect="italics">Hombre</emphasis> = <m:math><m:mfrac><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mtext>Graduado de escuela secundaria</m:mtext><m:mspace width="0.2em"/><m:mo>∩</m:mo><m:mspace width="0.2em"/><m:mtext>Hombres</m:mtext><m:mo>)</m:mo></m:mrow><m:mrow><m:mtext>P</m:mtext><m:mo>(</m:mo><m:mtext>Hombres</m:mtext><m:mo>)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>(</m:mo><m:mfrac><m:mn>15</m:mn><m:mn>200</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mfrac><m:mn>120</m:mn><m:mn>200</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>15</m:mn><m:mn>120</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>0,125</m:mn></m:math></para></solution>
 </exercise><exercise id="eip-902"><problem id="eip-548">
   <para id="eip-125">
     ¿Podemos concluir que el nivel de educación alcanzado por estas 200 personas es independiente del sexo de la persona?
@@ -243,14 +243,14 @@ Antes conocimos la regla de la adición, pero sin la ayuda de los diagramas de V
 </problem>
 
 <solution id="eip-650">
-  <para id="eip-686">Hay dos maneras de abordar esta prueba. El primer método trata de comprobar si la intersección de dos eventos es igual al producto de los eventos por separado recordando que si dos eventos son independientes entonces <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis>). Para simplificar, podemos utilizar los valores calculados anteriormente. </para><para id="eip-id1171814595079"><emphasis effect="italics">¿P(Graduado universitario) <m:math><m:mo>∩</m:mo></m:math> Mujer) = P(Graduado universitario) ⋅ P(M)?</emphasis></para><para id="eip-id1171811825350">Los términos <m:math><m:mfrac><m:mn>30</m:mn><m:mn>200</m:mn></m:mfrac><m:mo>≠</m:mo><m:mfrac><m:mn>90</m:mn><m:mn>200</m:mn></m:mfrac><m:mo>⋅</m:mo><m:mfrac><m:mn>80</m:mn><m:mn>200</m:mn></m:mfrac></m:math> <emphasis effect="italics">porque</emphasis> 0,15 ≠ 0,18.
+  <para id="eip-686">Hay dos maneras de abordar esta prueba. El primer método trata de comprobar si la intersección de dos eventos es igual al producto de los eventos por separado recordando que si dos eventos son independientes entonces <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis>). Para simplificar, podemos utilizar los valores calculados anteriormente. </para><para id="eip-id1171814595079"><emphasis effect="italics">¿P(Graduado universitario) <m:math><m:mo>∩</m:mo></m:math> Mujer) = P(Graduado universitario) ⋅ P(M)?</emphasis></para><para id="eip-id1171811825350"><m:math><m:mfrac><m:mn>30</m:mn><m:mn>200</m:mn></m:mfrac><m:mo>≠</m:mo><m:mfrac><m:mn>90</m:mn><m:mn>200</m:mn></m:mfrac><m:mo>⋅</m:mo><m:mfrac><m:mn>80</m:mn><m:mn>200</m:mn></m:mfrac></m:math> <emphasis effect="italics">porque</emphasis> 0,15 ≠ 0,18.
   </para>
 <para id="eip-id1171812675493">Por lo tanto, aquí el sexo y la educación <emphasis>no</emphasis> son independientes.</para>
 <para id="eip-id2028865"> El segundo método consiste en comprobar si la probabilidad condicional de <emphasis effect="italics">A dado B</emphasis> es igual a la probabilidad de <emphasis effect="italics">A</emphasis>. De nuevo, para simplificar, podemos utilizar un valor ya calculado anteriormente.</para>
-<para id="eip-id2767396"><emphasis effect="italics">¿P(Graduado de escuela secundaria <m:math><m:mo>|</m:mo></m:math> Hombre) = P(Graduado de escuela secundaria)?</emphasis></para><para id="eip-id2744789">Los términos <m:math><m:mfrac><m:mn>15</m:mn><m:mn>120</m:mn></m:mfrac><m:mo>≠</m:mo><m:mfrac><m:mn>27</m:mn><m:mn>200</m:mn></m:mfrac></m:math><emphasis effect="italics">porque</emphasis> 0,125 ≠ 0,135.</para>
+<para id="eip-id2767396"><emphasis effect="italics">¿P(Graduado de escuela secundaria <m:math><m:mo>|</m:mo></m:math> Hombre) = P(Graduado de escuela secundaria)?</emphasis></para><para id="eip-id2744789"><m:math><m:mfrac><m:mn>15</m:mn><m:mn>120</m:mn></m:mfrac><m:mo>≠</m:mo><m:mfrac><m:mn>27</m:mn><m:mn>200</m:mn></m:mfrac></m:math><emphasis effect="italics">porque</emphasis> 0,125 ≠ 0,135.</para>
 <para id="eip-id1171813955601">Por lo tanto, de nuevo el sexo y la educación <emphasis>no</emphasis> son independientes.</para>
 </solution>
-</exercise></example></section></section><section id="fs-idm68934880" class="summary"><title>Revisión del capítulo</title><para id="eip-id1168267602065">Un diagrama de Venn es una imagen que representa los resultados de un experimento. Generalmente consiste en una caja que representa el espacio muestral S o universo de los objetos de interés junto con círculos u óvalos. Los círculos u óvalos representan grupos de eventos llamados conjuntos. Un diagrama de Venn es especialmente útil para visualizar la <m:math><m:mo>∪</m:mo></m:math> de eventos, la <m:math><m:mo>∩</m:mo></m:math> de eventos, y el complemento de un evento y para entender las probabilidades condicionales. Un diagrama de Venn es especialmente útil para visualizar una Intersección de dos eventos, una Unión de dos eventos o un Complemento de un evento. Un sistema de diagramas de Venn también puede ayudar a entender las probabilidades condicionales. Los diagramas de Venn conectan el cerebro y los ojos haciendo coincidir la aritmética literal con una imagen. Es importante señalar que se necesita más de un diagrama de Venn para resolver las fórmulas de reglas de probabilidad introducidas en la <link document="m54220">Sección 3.3</link>.</para></section><section id="fs-idp46156576" class="practice"><para id="eip-173"><emphasis effect="italics">Use la siguiente información para responder los próximos cuatro ejercicios.</emphasis> La <link target-id="M05_ch03-tbl011"/> muestra una muestra aleatoria de músicos y cómo aprendieron a tocar sus instrumentos.</para><table id="M05_ch03-tbl011" summary="The table shows a random sample of musicians and how they learned to play their instruments.">
+</exercise></example></section></section><section id="fs-idm68934880" class="summary"><title>Repaso del capítulo</title><para id="eip-id1168267602065">Un diagrama de Venn es una imagen que representa los resultados de un experimento. Generalmente consiste en una caja que representa el espacio muestral S o universo de los objetos de interés junto con círculos u óvalos. Los círculos u óvalos representan grupos de eventos llamados conjuntos. Un diagrama de Venn es especialmente útil para visualizar la <m:math><m:mo>∪</m:mo></m:math> de eventos, la <m:math><m:mo>∩</m:mo></m:math> de eventos, y el complemento de un evento y para entender las probabilidades condicionales. Un diagrama de Venn es especialmente útil para visualizar una Intersección de dos eventos, una Unión de dos eventos o un Complemento de un evento. Un sistema de diagramas de Venn también puede ayudar a entender las probabilidades condicionales. Los diagramas de Venn conectan el cerebro y los ojos haciendo coincidir la aritmética literal con una imagen. Es importante señalar que se necesita más de un diagrama de Venn para resolver las fórmulas de reglas de probabilidad introducidas en la <link document="m54220">Sección 3.3</link>.</para></section><section id="fs-idp46156576" class="practice"><para id="eip-173"><emphasis effect="italics">Use la siguiente información para responder los próximos cuatro ejercicios.</emphasis> La <link target-id="M05_ch03-tbl011"/> muestra una muestra aleatoria de músicos y cómo aprendieron a tocar sus instrumentos.</para><table id="M05_ch03-tbl011" summary="The table shows a random sample of musicians and how they learned to play their instruments.">
 <tgroup cols="5"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -349,7 +349,7 @@ Antes conocimos la regla de la adición, pero sin la ayuda de los diagramas de V
 </exercise>
 
 
-</section><section id="fs-idm32828224" class="bring-together-exercises"><title>Resúmalo todo</title><para id="element-12">Use la siguiente información para responder los próximos siete ejercicios. Un artículo en la <cite id="cite-00001"><cite-title>New England Journal of Medicine</cite-title></cite>, informó sobre un estudio de fumadores en California y Hawái. En una parte del informe se indicaba el origen étnico autodeclarado y la cantidad de cigarrillos por día. Of the people smoking at most ten cigarettes per day, there were 9,886 African American people, 2,745 Native Hawaiian people, 12,831 Latino people, 8,378 Japanese American people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 African American people, 3,062 Native Hawaiian people, 4,932 Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 African American people, 1,419 Native Hawaiian people, 1,406 Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 African American people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people.</para><exercise id="element-841"><problem id="id24840283">
+</section><section id="fs-idm32828224" class="bring-together-exercises"><title>Resúmalo todo</title><para id="element-12">Use la siguiente información para responder los próximos siete ejercicios. Un artículo en la <cite id="cite-00001"><cite-title>New England Journal of Medicine</cite-title></cite>, informó sobre un estudio de fumadores en California y Hawái. En una parte del informe se indicaba el origen étnico autodeclarado y la cantidad de cigarrillos por día. De las personas que fumaban como máximo diez cigarrillos al día, había 9.886 afroamericanos, 2.745 nativos de Hawái, 12.831 latinos, 8.378 japoneses americanos y 7.650 blancos. De las personas que fumaban como máximo diez cigarrillos al día, había 6.514 afroamericanos, 3.062 nativos de Hawái, 4.932 latinos, 10.680 japoneses americanos y 9.877 blancos. De las personas que fumaban como máximo diez cigarrillos al día, había 1.671 afroamericanos, 1.419 nativos de Hawái, 1.406 latinos, 4.715 japoneses americanos y 6.062 blancos. De las personas que fumaban al menos 31 cigarrillos al día, había 759 afroamericanos, 788 nativos de Hawái, 800 latinos, 2.305 japoneses americanos y 3.970 blancos.</para><exercise id="element-841"><problem id="id24840283">
 <para id="element-2314">Rellene la tabla con los datos proporcionados.</para><table id="element-762" summary="Partially filled ethnicity by smoking level table with the first column listing the smoking levels (4 rows plus the total), the blank second column lists African American people values, blank third column for Native Hawaiian people, blank fourth column for Latino people, blank fifth column for Japanese American people, blank sixth column for White people, and blank seventh column for the Total."><title>Hábito de fumar por grupo étnico</title>
 <tgroup cols="7"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -360,18 +360,18 @@ Antes conocimos la regla de la adición, pero sin la ayuda de los diagramas de V
 <colspec colnum="7" colname="c7"/>
 <thead>
 <row>
-<entry>Nivel de tabaquismo</entry>
+<entry>Nivel de hábito de fumar</entry>
 <entry>Afroamericanos</entry>
 <entry>Nativos de Hawái</entry>
 <entry>Latinos</entry>
-<entry>Japanese American</entry>
+<entry>Japoneses americanos</entry>
 <entry>Blancos</entry>
 <entry>TOTALES</entry>
 </row>
 </thead>
 <tbody>
 <row>
-<entry>1–10</entry>
+<entry>1-10</entry>
 <entry/>
 <entry/>
 <entry/>
@@ -380,7 +380,7 @@ Antes conocimos la regla de la adición, pero sin la ayuda de los diagramas de V
 <entry/>
 </row>
 <row>
-<entry>11–20</entry>
+<entry>11-20</entry>
 <entry/>
 <entry/>
 <entry/>
@@ -389,7 +389,7 @@ Antes conocimos la regla de la adición, pero sin la ayuda de los diagramas de V
 <entry/>
 </row>
 <row>
-<entry>21–30</entry>
+<entry>21-30</entry>
 <entry/>
 <entry/>
 <entry/>
@@ -425,7 +425,7 @@ Antes conocimos la regla de la adición, pero sin la ayuda de los diagramas de V
 </problem>
 <solution id="id24840301">
 <para id="element-603">
-Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac></m:math>
+<m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac></m:math>
 </para>
 </solution></exercise><exercise id="element-120"><problem id="id24840332">
 <para id="element-250">Calcule la probabilidad de que la persona sea latina.</para>
@@ -451,7 +451,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 <item>Halle <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">G</emphasis><sub>1</sub> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">G</emphasis><sub>2</sub>).</item>
 <item>Calcule <emphasis effect="italics">P</emphasis>(al menos una verde).</item>
 <item>Halle <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">G</emphasis><sub>2</sub><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">G</emphasis><sub>1</sub>).</item>
-<item>¿<emphasis effect="italics">G</emphasis><sub>2</sub> y <emphasis effect="italics">G</emphasis><sub>1</sub> son eventos independientes? Explique por qué o por qué no.</item>
+<item>¿<emphasis effect="italics">G</emphasis><sub>2</sub> y <emphasis effect="italics">G</emphasis><sub>1</sub> son eventos independientes? Explique por qué sí o por qué no.</item>
 </list></problem>
 <solution id="fs-idp20236912">
 <list id="fs-idp23896432" list-type="enumerated" number-style="lower-alpha"><item><figure id="eip-idp101566032">
@@ -561,9 +561,9 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 <item>Halle <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">G<sub>1</sub></emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">G<sub>2</sub></emphasis>).</item>
 <item>Calcule <emphasis effect="italics">P</emphasis>(al menos una verde).</item>
 <item>Halle <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">G<sub>2</sub></emphasis> <m:math><m:mo>|</m:mo></m:math> <emphasis effect="italics">G<sub>1</sub></emphasis>).</item>
-<item>¿<emphasis effect="italics">G<sub>2</sub></emphasis> y <emphasis effect="italics">G<sub>1</sub></emphasis> son eventos independientes? Explique por qué o por qué no.</item>
+<item>¿<emphasis effect="italics">G<sub>2</sub></emphasis> y <emphasis effect="italics">G<sub>1</sub></emphasis> son eventos independientes? Explique por qué sí o por qué no.</item>
 </list></problem>
-</exercise><para id="fs-idp143517536"><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios.</emphasis> El porcentaje de conductores de EE. UU. con licencia (de un año reciente) que son mujeres es del 48,60. De las mujeres, el 5,03 % tienen 19 años o menos; el 81,36 % tienen entre 20 y 64 años; el 13,61 % tienen 65 años o más. De los conductores masculinos con licencia en EE. UU., el 5,04 % tiene 19 años o menos; el 81,43 % tiene entre 20 y 64 años; el 13,53 % tiene 65 años o más.</para>
+</exercise><para id="fs-idp143517536"><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios.</emphasis> El porcentaje de conductores de EE. UU. con licencia (de un año reciente) que son mujeres es del 48,60. De las mujeres, el 5,03 % tienen 19 años o menos; el 81,36 % tienen entre 20 y 64 años; el 13,61 % tienen 65 años o más. De los conductores hombres con licencia en EE. UU., el 5,04 % tiene 19 años o menos; el 81,43 % tiene entre 20 y 64 años; el 13,53 % tiene 65 años o más.</para>
 <exercise id="element-950">
 <problem id="eip-idm29557008">
   <para id="element-591">Complete lo siguiente.</para>
@@ -594,7 +594,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 <entry>0,486</entry>
 </row>
 <row>
-<entry>Hombre</entry>
+<entry>Hombres</entry>
 <entry>0,0259</entry>
 <entry>0,4186</entry>
 <entry>0,0695</entry>
@@ -742,7 +742,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 <para id="eip-287">¿Cuál es la probabilidad de que un senador seleccionado al azar sea demócrata y se presente a la reelección en noviembre de 2016?</para>
 </problem>
 <solution id="eip-54">
-<para id="eip-496">Los términos <m:math>
+<para id="eip-496"><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -763,7 +763,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 <para id="eip-264">Supongamos que se selecciona al azar un miembro del Senado de Estados Unidos. Dado que el senador seleccionado al azar se presenta a la reelección en noviembre de 2016, ¿cuál es la probabilidad de que este senador sea demócrata?</para>
 </problem>
 <solution id="eip-492">
-<para id="eip-365">Los términos <m:math>
+<para id="eip-365"><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -804,7 +804,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 </problem>
 </exercise><exercise id="tablular-ex">
 <problem id="id43571370">
-<para id="element-563"><link target-id="M05_ch03-tbl020"/> da el número de participantes en la reciente Encuesta Nacional de Salud que habían sido tratados por cáncer en los 12 meses anteriores. The results are sorted by age, race (Black or White), and sex. Nos interesan las posibles relaciones entre la edad, la raza y el sexo. Supongamos que los suicidas son nuestra población.
+<para id="element-563">La <link target-id="M05_ch03-tbl020"/> da el número de participantes en la reciente Encuesta Nacional de Salud que habían sido tratados por cáncer en los 12 meses anteriores. Los resultados se clasifican por edad, raza (blanca o negra) y sexo. Nos interesan las posibles relaciones entre la edad, la raza y el sexo. Supongamos que los suicidas son nuestra población.
 <table id="M05_ch03-tbl020" summary="This partially filled table presents the data of suicides by age and race and sex. The first column lists the race and sex, the second column lists ages 1-14, third column lists 15-24, fourth column lists 25-64, blank fifth column lists over 64, and the sixth column lists the totals. The first row lists White, male, the second row is White, female, the third row is Black, male, the fourth row is Black, female, the blank fifth row is all others, and the total is on the sixth row.">
 <tgroup cols="6"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -815,9 +815,9 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 <thead>
 <row>
 <entry>Raza y sexo</entry>
-<entry>15–24</entry>
-<entry>25–40</entry>
-<entry>41–65</entry>
+<entry>15-24</entry>
+<entry>25-40</entry>
+<entry>41-65</entry>
 <entry>Más de 65 años</entry>
 <entry>TOTALES</entry>
 </row>
@@ -880,11 +880,11 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 <para id="eip-idp27013472">No incluya “todos los demás” para las partes f y g. <list id="element-956" list-type="enumerated" number-style="lower-alpha">
 <item>Rellene la columna correspondiente al tratamiento del cáncer para personas mayores de 65 años.</item>
 <item>Rellene la fila de todas las demás razas.</item>
-<item>Find the probability that a randomly selected individual was a White male.</item>
-<item>Find the probability that a randomly selected individual was a Black female.</item>
-<item>Find the probability that a randomly selected individual was Black</item>
+<item>Calcule la probabilidad de que una persona seleccionada al azar sea un hombre blanco.</item>
+<item>Calcule la probabilidad de que una persona seleccionada al azar sea una mujer negra.</item>
+<item>Calcule la probabilidad de que una persona seleccionada al azar sea negra.</item>
 <item>Halle la probabilidad de que un individuo seleccionado al azar sea hombre.</item>
-<item>Out of the individuals over age 65, find the probability that a randomly selected individual was a Black or White male.</item>
+<item>De las personas mayores de 65 años, calcule la probabilidad de que una persona seleccionada al azar sea un hombre blanco o negro.</item>
 </list></para></problem>
 <solution id="id43572030">
 <list id="element-271" list-type="enumerated" number-style="lower-alpha"><item>
@@ -898,9 +898,9 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 <thead>
 <row>
 <entry>Raza y sexo</entry>
-<entry>1–14</entry>
-<entry>15–24</entry>
-<entry>25–64</entry>
+<entry>1-14</entry>
+<entry>15-24</entry>
+<entry>25-64</entry>
 <entry>Más de 64</entry>
 <entry>TOTALES</entry>
 </row>
@@ -970,9 +970,9 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 <thead>
 <row>
 <entry>Raza y sexo</entry>
-<entry>1–14</entry>
-<entry>15–24</entry>
-<entry>25–64</entry>
+<entry>1-14</entry>
+<entry>15-24</entry>
+<entry>25-64</entry>
 <entry>Más de 64</entry>
 <entry>TOTALES</entry>
 </row>
@@ -1032,7 +1032,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 
 </tgroup>
 </table></item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -1046,7 +1046,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 <m:mn>0,3982</m:mn>
 </m:mrow>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -1060,7 +1060,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 <m:mn>0,0503</m:mn>
 </m:mrow>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -1074,7 +1074,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 <m:mn>0,0894</m:mn>
 </m:mrow>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -1088,7 +1088,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 <m:mn>0,4373</m:mn>
 </m:mrow>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -1169,7 +1169,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 </table><exercise id="element-680"><problem id="id43574123">
 <para id="element-564">Calcule <emphasis effect="italics">P</emphasis>(Babe Ruth hizo el batazo imparable).</para>
 <list id="element-444" list-type="enumerated" number-style="lower-alpha">
-<item>Los términos <m:math>
+<item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -1183,7 +1183,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 </m:mrow>
 </m:math>
 </item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -1197,7 +1197,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 </m:mrow>
 </m:math>
 </item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -1211,7 +1211,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 </m:mrow>
 </m:math>
 </item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -1229,7 +1229,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 </exercise><exercise id="element-940"><problem id="id43574389">
 <para id="element-634">Calcule <emphasis effect="italics">P</emphasis>(Ty Cobb hizo el batazo imparable|el batazo imparable fue un jonrón).</para>
 <list id="element-901" list-type="enumerated" number-style="lower-alpha">
-<item>Los términos <m:math>
+<item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -1243,7 +1243,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 </m:mrow>
 </m:math>
 </item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -1257,7 +1257,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 </m:mrow>
 </m:math>
 </item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -1271,7 +1271,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 </m:mrow>
 </m:math>
 </item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -1346,7 +1346,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 <item>En palabras, ¿qué representa el complemento de <emphasis effect="italics">B</emphasis>?</item>
 </list></problem>
 </exercise><exercise id="element-738"><problem id="id43569944">
-<para id="element-699">En un año anterior, los pesos de los miembros de los <emphasis>San Francisco 49ers</emphasis> y los <emphasis>Dallas Cowboys</emphasis> se publicaron en el <cite id="cite-00003"><cite-title>Mercury News de San José</cite-title></cite>. Los datos fácticos se recopilaron en la siguiente tabla.
+<para id="element-699">En un año anterior, los pesos de los miembros de los <emphasis>San Francisco 49ers</emphasis> y los <emphasis>Dallas Cowboys</emphasis> se publicaron en el <cite id="cite-00003"><cite-title>The Mercury News de San José</cite-title></cite>. Los datos fácticos se recopilaron en la siguiente tabla.
 <table id="element-13" summary="This table presents weight in pounds by shirt number. The first column lists the shirt number, the second column lists weight ≤ 210, the third column lists 211-250, fourth column lists 251-290, and the fifth column lists 291 ≤. The first row lists shirt numbers 1-33, second row lists 34-66, and the third row lists 66-99.">
 <tgroup cols="5"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1396,7 +1396,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 <item>Calcule la probabilidad de que el número de su camisa sea del 1 al 33, DADO que pesa como máximo 210 libras.</item>
 </list></para></problem>
 <solution id="fs-idm65248128">
-<list id="fs-idm65247872" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math>
+<list id="fs-idm65247872" list-type="enumerated" number-style="lower-alpha"><item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -1410,7 +1410,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 </m:mrow>
 </m:math>
 </item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -1423,7 +1423,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 
 </m:mrow>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -1436,7 +1436,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 
 </m:mrow>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mrow>
 <m:mrow><m:mo>(</m:mo>
 <m:mrow>
@@ -1500,8 +1500,8 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 </m:mrow>
 <m:mo>)</m:mo></m:mrow>
 </m:mrow>
-</m:math> grandes.</item>
-<item>Los términos <m:math>
+</m:math></item>
+<item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -1536,7 +1536,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 </m:math> donde <emphasis effect="italics">H</emphasis> es cara y <emphasis effect="italics">T</emphasis> es cruz.</para><figure id="id43573084"><media id="id43573089" alt="Diagrama de árbol con 2 ramas. La primera rama consta de 2 líneas de H = 2/3 y T = 1/3. La segunda rama consta de 2 conjuntos de 3 líneas cada uno con los dos conjuntos que contienen R = 3/12, Y = 4/12 y B = 5/12."><image src="../../media/fig-ch03_11_01_new.jpg" mime-type="image/jpg" width="180"/></media></figure><exercise id="element-92"><problem id="id43573133">
   <para id="element-4">Calcule <emphasis effect="italics">P</emphasis>(lanzando una cara en la moneda Y una cuenta roja)</para>
 <list id="element-67" list-type="enumerated" number-style="lower-alpha">
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>2</m:mn>
@@ -1544,7 +1544,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
   </m:mfrac>
  </m:mrow>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>5</m:mn>
@@ -1553,7 +1553,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 
  </m:mrow>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>6</m:mn>
@@ -1562,7 +1562,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 
  </m:mrow>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>5</m:mn>
@@ -1576,7 +1576,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 </exercise><exercise id="element-684"><problem id="id43573398">
   <para id="element-573">Calcule <emphasis effect="italics">P</emphasis>(cuenta azul).</para>
 <list id="element-161" list-type="enumerated" number-style="lower-alpha">
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -1589,7 +1589,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 
  </m:mrow>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -1602,7 +1602,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 
  </m:mrow>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -1615,7 +1615,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 
  </m:mrow>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -1634,7 +1634,7 @@ Los términos <m:math><m:mfrac><m:mn>35.065</m:mn><m:mn>100.450</m:mn></m:mfrac>
 </solution>
 </exercise>
 <exercise id="eip-346"><problem id="eip-id1171744729232">
-  <para id="eip-id1171737024994">Una caja de galletas contiene tres de chocolate y siete de mantequilla. Miguel elige al azar una galleta y se la come. Luego selecciona al azar otra galleta y se la come. (¿Cuántas galletas ha tomado?)</para>
+  <para id="eip-id1171737024994">Una caja de galletas contiene tres de chocolate y siete de mantequilla. Miguel elige al azar una galleta y se la come. Luego selecciona al azar otra galleta y se la come (¿cuántas galletas ha tomado?).</para>
 <list id="eip-id1171740927516" list-type="enumerated" number-style="lower-alpha">
 <item>Dibuje el árbol que representa las posibilidades de las selecciones de galletas. Escriba las probabilidades a lo largo de cada rama del árbol.</item>
 <item>¿Las probabilidades del sabor de la SEGUNDA galleta que elige Miguel es independientes de su primera selección? Explique.</item>

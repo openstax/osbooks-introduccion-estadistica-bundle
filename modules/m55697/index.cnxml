@@ -9,7 +9,7 @@
 
 <content>
 <para id="element-834">Las pruebas de independencia implican el uso de una <term id="term-00001">tabla de contingencia</term> de valores observados (datos).</para>
-<para id="element-230">El estadístico de <term id="term-00002">prueba de independencia</term> es similar al de la prueba de bondad de ajuste:</para><equation class="unnumbered" id="element-164">Los términos <m:math>
+<para id="element-230">El estadístico de <term id="term-00002">prueba de independencia</term> es similar al de la prueba de bondad de ajuste:</para><equation class="unnumbered" id="element-164"><label/><m:math>
  <m:mrow>
   <m:munder>
    <m:mi fontsize="2">Σ</m:mi>
@@ -48,7 +48,7 @@
    <m:mi>E</m:mi>
   </m:mfrac>
  </m:mrow>
-</m:math>. </para><para id="element-518"><emphasis>Una prueba de independencia determina si dos factores son independientes o no.</emphasis> La primera vez que vio el término independencia fue en la <link document="m54219"/>. A modo de repaso, considere el siguiente ejemplo.</para><note id="eip-155"><title>Nota</title>
+</m:math>. </para><para id="element-518"><emphasis>Una prueba de independencia determina si dos factores son independientes o no.</emphasis> La primera vez que vio el término independencia fue en la <link document="m54219"/>. A modo de repaso, considere el siguiente ejemplo.</para><note id="eip-155"><label/><title>Nota</title>
 <para id="eip-idp140445076868880">El valor esperado dentro de cada celda debe ser, al menos, cinco para que pueda usar esta prueba.</para></note><example id="element-54">
 <para id="element-904">Supongamos que <emphasis effect="italics">A</emphasis> = una infracción por exceso de velocidad en el último año y <emphasis effect="italics">B</emphasis> = un usuario de teléfono móvil mientras conduce. Si <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son independientes, entonces <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>). <emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis> es el caso de que un conductor recibiera una infracción por exceso de velocidad el año pasado y también utilizara un teléfono móvil mientras conducía. Supongamos que se encuestaron 755 personas en un estudio sobre conductores que recibieron infracciones por exceso de velocidad durante el año pasado que usaron el teléfono móvil mientras conducían. De los 755, 70 tenían una infracción por exceso de velocidad y 685 no; 305 usaba el teléfono móvil mientras conducían y 450 no.</para><para id="element-427">Supongamos que <emphasis effect="italics">y</emphasis> = número esperado de conductores que usaron un teléfono móvil mientras conducían y recibieron infracciones por exceso de velocidad.</para>
  <para id="element-367">Si <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son independientes, entonces <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>). Por sustitución,</para><para id="element-329"><m:math display="block">
@@ -97,21 +97,21 @@
   </m:mfrac>
   <m:mo>=</m:mo><m:mn>28,3</m:mn>
  </m:mrow>
-</m:math> </para><para id="element-249">Se espera que unas 28 personas de la muestra usen teléfonos móviles mientras conducen y reciban infracciones por exceso de velocidad.</para><para id="element-365">En una prueba de independencia planteamos las hipótesis nula y alternativa con palabras. Dado que la tabla de contingencia consta de <emphasis>dos factores</emphasis>, la hipótesis nula afirma que los factores son <emphasis>independientes</emphasis> y la hipótesis alternativa afirma que <emphasis>no son independientes (dependientes)</emphasis>. Si hacemos una prueba de independencia usando el ejemplo, entonces la hipótesis nula es:</para><para id="element-337">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>: Ser usuario de un teléfono móvil mientras se conduce y recibir una infracción por exceso de velocidad son hechos independientes; en otras palabras, no tienen ningún efecto entre sí.</para><para id="element-903">Si la hipótesis nula fuera cierta, esperaríamos que unas 28 personas usaran el móvil mientras conducen y recibieran una infracción por exceso de velocidad.</para>
+</m:math> </para><para id="element-249">Se espera que unas 28 personas de la muestra usen teléfonos móviles mientras conducen y reciban infracciones por exceso de velocidad.</para><para id="element-365">En una prueba de independencia planteamos las hipótesis nula y alternativa con palabras. Dado que la tabla de contingencia consta de <emphasis>dos factores</emphasis>, la hipótesis nula afirma que los factores son <emphasis>independientes</emphasis> y la hipótesis alternativa afirma que <emphasis>no son independientes (dependientes)</emphasis>. Si hacemos una prueba de independencia usando el ejemplo, entonces la hipótesis nula es:</para><para id="element-337"><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>: Ser usuario de un teléfono móvil mientras se conduce y recibir una infracción por exceso de velocidad son hechos independientes; en otras palabras, no tienen ningún efecto entre sí.</para><para id="element-903">Si la hipótesis nula fuera cierta, esperaríamos que unas 28 personas usaran el móvil mientras conducen y recibieran una infracción por exceso de velocidad.</para>
 <para id="element-197"><emphasis>La prueba de independencia es siempre de cola derecha</emphasis> debido al cálculo del estadístico de prueba. Si los valores esperados y observados no están cerca, entonces el estadístico de prueba es muy grande y se encuentra en la cola derecha de la curva de chi-cuadrado, al igual que en una bondad de ajuste.</para><para id="element-35">El número de grados de libertad para la prueba de independencia es:</para><para id="element-12412"><emphasis effect="italics">df</emphasis> = (número de columnas – 1)(número de filas – 1)</para>
 <para id="element-928">La siguiente fórmula calcula el <emphasis>número esperado</emphasis> (<emphasis effect="italics">E</emphasis>):</para>
 <para id="element-32"><m:math display="block"><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mtext>(total de filas)(total de columnas)</m:mtext><m:mtext>número total de encuestados</m:mtext></m:mfrac></m:math></para></example>
-<note id="fs-idp45633632" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idp45633632" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="eip-298">
  <problem id="eip-721">
  <para id="eip-935">Se toma una muestra de 300 estudiantes. De los estudiantes encuestados, 50 estudiaban música, mientras que 250 no. Noventa y siete de los 300 encuestados estaban en el cuadro de honor, mientras que 203 no estaban. Si suponemos que ser estudiante de música y estar en el cuadro de honor son hechos independientes, ¿cuál es el número esperado de estudiantes de música que también están en el cuadro de honor?</para></problem>
 <solution id="eip-idp106474304">
-
- <para id="eip-308">Se espera que unos 16 alumnos sean estudiantes de música y estén en el cuadro de honor. </para>
+<label/>
+ <para id="eip-308">Se espera que unos 16 estudiantes sean estudiantes de música y estén en el cuadro de honor. </para>
 </solution>
 </exercise>
 </note><example id="element-272">
- <para id="element-84">Un grupo de voluntarios dedica de una a nueve horas cada semana a personas mayores con discapacidades. El programa recluta entre estudiantes de institutos universitarios comunitarios, estudiantes de institutos universitarios de cuatro años y no estudiantes. En la <link target-id="table-73248"/> se encuentra una <emphasis>muestra</emphasis> de los voluntarios adultos y el número de horas que ofrecen a la semana. </para><table id="table-73248" summary="This table presents the observed hours per week volunteered by type of volunteer. The first row represents community-college students, the second row represents four-year college students, and the third row represents non-students. The second column is 1-3 hours per week, the third column is 4-6 hours per week, and the fourth column is 7-9 hours per week."><title>Número de horas trabajadas por semana por tipo de voluntario (observado)</title>
+ <para id="element-84">Un grupo de voluntarios dedica de una a nueve horas cada semana a personas mayores con discapacidades. El programa recluta entre estudiantes de colegios comunitarios, estudiantes de institutos universitarios de cuatro años y no estudiantes. En la <link target-id="table-73248"/> se encuentra una <emphasis>muestra</emphasis> de los voluntarios adultos y el número de horas que ofrecen a la semana. </para><table id="table-73248" summary="This table presents the observed hours per week volunteered by type of volunteer. The first row represents community-college students, the second row represents four-year college students, and the third row represents non-students. The second column is 1-3 hours per week, the third column is 4-6 hours per week, and the fourth column is 7-9 hours per week."><title>Número de horas trabajadas por semana por tipo de voluntario (observado)</title>
 <tgroup cols="5"><colspec colnum="1" colname="header_c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -214,9 +214,9 @@
  </para>
 <para id="element-558" class="finger"><emphasis>Calcule el estadístico de prueba:</emphasis> <emphasis effect="italics">χ</emphasis><sup>2</sup> = 12,99 (calculadora o computadora)</para><para id="element-775"><emphasis>Distribución para la prueba:</emphasis><m:math><m:msubsup><m:mi>χ</m:mi><m:mn>4</m:mn><m:mn>2</m:mn></m:msubsup></m:math></para>
  <para id="fs-idp19708320"><emphasis effect="italics">df</emphasis> = (3 columnas – 1)(3 filas – 1) = (2)(2) = 4</para><para id="element-48"><emphasis>Gráfico:</emphasis></para>
- <figure id="fs-idm32439392"><media id="id8547662" alt="Curva de chi-cuadrado no simétrica con valores de 0 y 12,99 en el eje x que representa el estadístico de prueba del número de horas trabajadas por los voluntarios de diferentes tipos. Una línea vertical ascendente se extiende desde 12,99 hasta la curva y el área a la derecha de esta es igual al valor p." display="block"><image src="../../media/fig-ch11_04_05m.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-117">El gráfico de chi cuadrado muestra la distribución y marca el valor crítico con cuatro grados de libertad a un nivel de confianza del 95 %, α = 0,05; 9,488. El gráfico también marca el valor calculado del estadístico de prueba <m:math><m:msubsup><m:mi>χ</m:mi><m:mi>c</m:mi><m:mn>2</m:mn></m:msubsup></m:math> de 12,99. Al comparar el estadístico de prueba con el valor crítico, como hemos hecho con todas las demás pruebas de hipótesis, llegamos a la conclusión. </para><para id="fs-idm62402592"><emphasis>Tome una decisión:</emphasis> Como el estadístico de prueba calculado está en la cola, no podemos aceptar <emphasis effect="italics">H<sub>0</sub></emphasis>. Esto significa que los factores no son independientes.</para><para id="element-590"><emphasis>Conclusión:</emphasis> A un nivel de significación del 5 %, a partir de los datos, hay pruebas suficientes para concluir que el número de horas de voluntariado y el tipo de voluntariado dependen el uno del otro.</para>
+ <figure id="fs-idm32439392"><media id="id8547662" alt="Curva de chi-cuadrado no simétrica con valores de 0 y 12,99 en el eje x que representa el estadístico de prueba del número de horas trabajadas por los voluntarios de diferentes tipos. Una línea vertical ascendente se extiende desde 12,99 hasta la curva y el área a la derecha de esta es igual al valor p." display="block"><image src="../../media/fig-ch11_04_05m.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-117">El gráfico de chi-cuadrado muestra la distribución y marca el valor crítico con cuatro grados de libertad a un nivel de confianza del 95 %, α = 0,05; 9,488. El gráfico también marca el valor calculado del estadístico de prueba <m:math><m:msubsup><m:mi>χ</m:mi><m:mi>c</m:mi><m:mn>2</m:mn></m:msubsup></m:math> de 12,99. Al comparar el estadístico de prueba con el valor crítico, como hemos hecho con todas las demás pruebas de hipótesis, llegamos a la conclusión. </para><para id="fs-idm62402592"><emphasis>Tome una decisión:</emphasis> Como el estadístico de prueba calculado está en la cola, no podemos aceptar <emphasis effect="italics">H<sub>0</sub></emphasis>. Esto significa que los factores no son independientes.</para><para id="element-590"><emphasis>Conclusión:</emphasis> A un nivel de significación del 5 %, a partir de los datos, hay pruebas suficientes para concluir que el número de horas de voluntariado y el tipo de voluntariado dependen el uno del otro.</para>
  <para id="element-956">Para el ejemplo de la <link target-id="table-73248a"/>, de haber otro tipo de voluntarios, adolescentes, ¿cuáles serían los grados de libertad?</para></solution></exercise></example>
-<note id="fs-idm24618832" class="statistics try finger"><title>Ejercicio</title>
+<note id="fs-idm24618832" class="statistics try finger"><label/><title>Ejercicio</title>
 <exercise id="eip-685"><problem id="eip-903">
  <para id="eip-845">La Oficina de Estadísticas Laborales recopila datos sobre empleo en Estados Unidos. Se toma una muestra para calcular el número de ciudadanos de EE. UU. que trabajan en uno de varios sectores industriales a lo largo del tiempo. La <link target-id="fs-idp61742592"/> muestra los resultados: </para>
 <table id="fs-idp61742592" summary=".">
@@ -292,11 +292,11 @@
 </table><para id="eip-idp2741344">Queremos saber si el cambio en el número de empleos es independiente del cambio en los años. Indique las hipótesis nula y alternativa y los grados de libertad.</para>
 </problem>
 <solution id="eip-idm75764640">
-
+<label/>
  <para id="eip-663"><emphasis effect="italics">H</emphasis><sub>0</sub>: El número de empleos es independiente del año.</para><para id="eip-792"><emphasis effect="italics">H<sub>a</sub></emphasis> : El número de empleos depende del año.<newline/><emphasis effect="italics">df</emphasis> = 12</para>
 <para id="eip-761"><figure id="fs-idp37345056"><media id="eip-idp74543680" alt="" display="block"><image src="../../media/CNX_Stats_C11_M05_tryit001annoN.jpg" mime-type="image/jpg" width="380"/></media></figure></para>
 <para id="eip-idm36315600">
-Pulse <code>MATRX</code> y flecha hacia <code>EDIT</code>. Pulse <code>1:[A]</code>. Pulse <code>3 ENTER 3 ENTER</code>. Introduzca los valores de la tabla por fila. Pulse <code>ENTER</code> después de cada uno. Pulse <code>2nd QUIT</code>. Pulse <code>STAT</code> y flecha hacia <code>TESTS</code>. Flecha hacia abajo <code>C:χ2-TEST</code>. Pulse <code>ENTER</code>. Debería ver <code>Observed:[A] y Expected:[B]</code>. Desplace la flecha hacia abajo hasta <code>Calculate</code>. Pulse <code>ENTER</code>. La estadística de la prueba es 227,73 y el valor <emphasis effect="italics">p</emphasis> = 5,90E - 42 = 0. Realice el procedimiento por segunda vez pero desplace la flecha hacia abajo hasta <code>Draw</code> en vez de <code>Calculate</code>.</para></solution>
+Pulse <code>MATRX</code> y flecha hacia <code>EDIT</code>. Pulse <code>1:[A]</code>. Pulse <code>3 ENTER 3 ENTER</code>. Introduzca los valores de la tabla por fila. Pulse <code>ENTER</code> después de cada uno. Pulse <code>2nd QUIT</code>. Pulse <code>STAT</code> y flecha hacia <code>TESTS</code>. Flecha hacia abajo <code>C:χ2-TEST</code>. Pulse <code>ENTER</code>. Debería ver <code>Observed:[A] y Expected:[B]</code>. Desplace la flecha hacia abajo hasta <code>Calculate</code>. Pulse <code>ENTER</code>. El estadístico de prueba es 227,73 y el valor <emphasis effect="italics">p</emphasis> = 5,90E – 42 = 0. Realice el procedimiento por segunda vez pero desplace la flecha hacia abajo hasta <code>Dibujar</code> en vez de <code>calcular</code>.</para></solution>
 </exercise></note><example id="element-505">
  <para id="element-311">El De Anza College está interesado en la relación entre el nivel de ansiedad y la necesidad de tener éxito en la escuela. Una muestra aleatoria de 400 estudiantes realizó una prueba que medía el nivel de ansiedad y la necesidad de tener éxito en la escuela. La <link target-id="element-875"/> muestra los resultados. El De Anza College quiere saber si el nivel de ansiedad y la necesidad de tener éxito en la escuela son eventos independientes.</para><table id="element-875" summary="This table presents the need to succeed in school in the first column and the various anxiety levels (high to low) and the row total in the second to seventh columns. The first row is for high need, the second row is for medium need, third row is for low need, and the column total is in the fourth row."><title>Necesidad de tener éxito en la escuela versus nivel de ansiedad</title>
 <tgroup cols="7"><colspec colnum="1" colname="header_c1"/>
@@ -387,7 +387,7 @@ Pulse <code>MATRX</code> y flecha hacia <code>EDIT</code>. Pulse <code>1:[A]</co
 <para id="fs-idp88629920">“Youngest Online Entrepreneurs List”. Disponible en línea en http://www.statisticbrain.com/youngest-online-entrepreneur-list (consultado el 24 de mayo de 2013).</para>
 </section>
 <section id="fs-idm174129504" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="eip-409">Para evaluar si dos factores son independientes o no, puede aplicar la prueba de independencia que utiliza la distribución chi-cuadrado. La hipótesis nula de esta prueba afirma que los dos factores son independientes. La prueba compara valores observados con valores esperados. La prueba es de cola derecha. Cada observación o categoría de celda debe tener un valor esperado de, al menos, 5.</para></section>
 <section id="fs-idm165691616" class="formula-review">
 <title>Revisión de la fórmula</title>
@@ -519,7 +519,7 @@ Pulse <code>MATRX</code> y flecha hacia <code>EDIT</code>. Pulse <code>1:[A]</co
 </exercise><exercise id="eip-629"><problem id="eip-818">
  <para id="eip-788">¿Qué puede concluir con un nivel de significación del 5 %?</para>
  </problem>
-</exercise><para id="element-538"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos ocho ejercicios:</emphasis> En un artículo publicado en el New England Journal of Medicine, se habla de un estudio sobre los fumadores de California y Hawái. En una parte del informe se indicaba el origen étnico autodeclarado y la cantidad de cigarrillos por día. Of the people smoking at most ten cigarettes per day, there were 9,886 African American people, 2,745 Native Hawaiian people, 12,831 Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 African American people, 3,062 Native Hawaiian people, 4,932 Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 African American people, 1,419 Native Hawaiian people, 1,406 Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 African American people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people.</para><exercise id="fs-idm12518016"><problem id="fs-idp16845632">
+</exercise><para id="element-538"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos ocho ejercicios:</emphasis> en un artículo publicado en el New England Journal of Medicine, se habla de un estudio sobre los fumadores de California y Hawái. En una parte del informe se indicaba el origen étnico autodeclarado y la cantidad de cigarrillos por día. De las personas que fumaban como máximo diez cigarrillos al día, había 9.886 afroamericanos, 2.745 nativos de Hawái, 12.831 latinos, 8.378 japoneses americanos y 7.650 blancos. De las personas que fumaban como máximo diez cigarrillos al día, había 6.514 afroamericanos, 3.062 nativos de Hawái, 4.932 latinos, 10.680 japoneses americanos y 9.877 blancos. De las personas que fumaban como máximo diez cigarrillos al día, había 1.671 afroamericanos, 1.419 nativos de Hawái, 1.406 latinos, 4.715 japoneses americanos y 6.062 blancos. De las personas que fumaban al menos 31 cigarrillos al día, había 759 afroamericanos, 788 nativos de Hawái, 800 latinos, 2.305 japoneses americanos y 3.970 blancos.</para><exercise id="fs-idm12518016"><problem id="fs-idp16845632">
 <para id="eip-idp205148416">Rellene la tabla.</para><table id="element-894" summary="This is a partially filled observation table with Ethnicity for the columns (2nd to 6th) and Total for the seventh column. The smoking level (4 rows) and the total constitute the rows of the table. 30 blank cells are available."><title>Hábito de fumar por grupo étnico (observado)</title>
 <tgroup cols="7"><colspec colnum="1" colname="header_c1" colwidth="150"/>
 <colspec colnum="2" colname="c2" colwidth="120"/>
@@ -534,7 +534,7 @@ Pulse <code>MATRX</code> y flecha hacia <code>EDIT</code>. Pulse <code>1:[A]</co
 <entry>Afroamericanos</entry>
 <entry>Nativos de Hawái</entry>
 <entry>Latinos</entry>
-<entry>Japanese American</entry>
+<entry>Japoneses americanos</entry>
 <entry>Blancos</entry>
 <entry>Totales</entry>
 </row>
@@ -662,7 +662,7 @@ Pulse <code>MATRX</code> y flecha hacia <code>EDIT</code>. Pulse <code>1:[A]</co
 <entry>19.969</entry>
 <entry>26.078</entry>
 <entry>27.559</entry>
-<entry>10,0450</entry>
+<entry>10.0450</entry>
 </row>
 </tbody>
 
@@ -698,35 +698,35 @@ Pulse <code>MATRX</code> y flecha hacia <code>EDIT</code>. Pulse <code>1:[A]</co
    <tbody>
     <row>
      <entry>1-10</entry>
-     <entry>7777,57</entry>
-     <entry>3310,11</entry>
-     <entry>8248,02</entry>
-     <entry>10771,29</entry>
-     <entry>11383,01</entry>
+     <entry>7.777,57</entry>
+     <entry>3.310,11</entry>
+     <entry>8.248,02</entry>
+     <entry>10.771,29</entry>
+     <entry>11.383,01</entry>
     </row>
     <row>
      <entry>11-20</entry>
-     <entry>6573,16</entry>
-     <entry>2797,52</entry>
-     <entry>6970,76</entry>
-     <entry>9103,29</entry>
-     <entry>9620,27</entry>
+     <entry>6.573,16</entry>
+     <entry>2.797,52</entry>
+     <entry>6.970,76</entry>
+     <entry>9.103,29</entry>
+     <entry>9.620,27</entry>
     </row>
     <row>
      <entry>21-30</entry>
-     <entry>2863,02</entry>
-     <entry>1218,49</entry>
-     <entry>3036,20</entry>
-     <entry>3965,05</entry>
-     <entry>4190,23</entry>
+     <entry>2.863,02</entry>
+     <entry>1.218,49</entry>
+     <entry>3.036,20</entry>
+     <entry>3.965,05</entry>
+     <entry>4.190,23</entry>
     </row>
     <row>
      <entry>31 o más</entry>
-     <entry>1616,25</entry>
+     <entry>1.616,25</entry>
      <entry>687,87</entry>
-     <entry>1714,01</entry>
-     <entry>2238,37</entry>
-     <entry>2365,49</entry>
+     <entry>1.714,01</entry>
+     <entry>2.238,37</entry>
+     <entry>2.365,49</entry>
     </row>
    </tbody>
 
@@ -737,7 +737,7 @@ Pulse <code>MATRX</code> y flecha hacia <code>EDIT</code>. Pulse <code>1:[A]</co
 </problem>
  </exercise><exercise id="element-607">
  <problem id="id3392008">
-  <para id="element-615">Los términos <m:math>
+  <para id="element-615"><m:math>
    <m:mrow>
     <m:msup>
      <m:mi>χ</m:mi>
@@ -873,7 +873,7 @@ Pulse <code>MATRX</code> y flecha hacia <code>EDIT</code>. Pulse <code>1:[A]</co
   <item>distribución chi-cuadrado con <emphasis effect="italics">df</emphasis> = 9</item>
   <item>estadístico de prueba = 15,8284</item>
 
-  <item>Compruebe la solución del estudiante</item>
+  <item>Compruebe la solución del estudiante.</item>
   <item>
    <list id="fs-idp124357408" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
     <item>Decisión: No se puede rechazar la hipótesis nula.</item>
@@ -987,7 +987,7 @@ Pulse <code>MATRX</code> y flecha hacia <code>EDIT</code>. Pulse <code>1:[A]</co
    <item><emphasis effect="italics">df</emphasis> = 9</item>
    <item>distribución chi-cuadrado con <emphasis effect="italics">df</emphasis> = 9</item>
    <item>estadístico de prueba = 15,7027</item>
-   <item>Compruebe la solución del estudiante</item>
+   <item>Compruebe la solución del estudiante.</item>
    <item>
     <list id="fs-idm28786192" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
      <item>Decisión: No se puede rechazar la hipótesis nula.</item>
@@ -1086,7 +1086,7 @@ Pulse <code>MATRX</code> y flecha hacia <code>EDIT</code>. Pulse <code>1:[A]</co
   <item><emphasis effect="italics">df</emphasis> = 6</item>
   <item> distribución chi-cuadrado con <emphasis effect="italics">df</emphasis> = 6</item>
   <item>estadístico de prueba =18,8369</item>
-  <item> Compruebe la solución del estudiante</item>
+  <item> Compruebe la solución del estudiante.</item>
   <item>
    <list id="fs-idp36061776" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
     <item>Decisión: No se puede aceptar la hipótesis nula</item>
@@ -1163,7 +1163,7 @@ Pulse <code>MATRX</code> y flecha hacia <code>EDIT</code>. Pulse <code>1:[A]</co
  <entry>Salario anual </entry>
  <entry>No se graduó de escuela secundaria</entry>
  <entry>Graduado de escuela secundaria</entry>
- <entry>Graduado de la educación superior</entry>
+ <entry>Graduado universitario</entry>
  <entry>Maestría o doctorado</entry>
  </row>
  </thead>
@@ -1213,7 +1213,7 @@ Pulse <code>MATRX</code> y flecha hacia <code>EDIT</code>. Pulse <code>1:[A]</co
 <item><emphasis effect="italics">df</emphasis> = 12</item>
 <item>distribución chi-cuadrado con <emphasis effect="italics">df</emphasis> = 12</item>
 <item>estadístico de prueba = 255,7704</item>
-<item>Compruebe la solución del estudiante</item>
+<item>Compruebe la solución del estudiante.</item>
 <item>
 <para id="eip-idp3905728">Alfa: 0,05</para>
 <para id="eip-idp3906112">Decisión: No se puede aceptar la hipótesis nula</para><para id="eip-idm66838512">Motivo de la decisión: El valor calculado de los estadísticos de prueba está dentro o fuera de la cola de la distribución.</para>
@@ -1242,7 +1242,7 @@ Pulse <code>MATRX</code> y flecha hacia <code>EDIT</code>. Pulse <code>1:[A]</co
   <para id="eip-735">Un fabricante de helados hace una encuesta nacional sobre los sabores de helado favoritos en distintas zonas geográficas de EE. UU. Según la <link target-id="fs-idp162013328"/>, ¿los números sugieren que la ubicación geográfica es independiente de los sabores de helado favoritos? Prueba al nivel de significación del 5 %. </para><table id="fs-idp162013328" summary=".">
 <tgroup cols="8"><thead>
 <row>
-<entry>Región de EE. UU. / Sabor</entry>
+<entry>Región de EE. UU./Sabor</entry>
 <entry>Fresa</entry>
 <entry>Chocolate</entry>
 <entry>Vainilla</entry>
@@ -1354,7 +1354,7 @@ Pulse <code>MATRX</code> y flecha hacia <code>EDIT</code>. Pulse <code>1:[A]</co
     <item>distribución chi-cuadrado con <emphasis effect="italics">df</emphasis> = 2 </item>
     <item>estadístico de prueba = 1,76</item>
 
-    <item>Compruebe la solución del estudiante</item>
+    <item>Compruebe la solución del estudiante.</item>
     <item>
      <list id="fs-idp21843088" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
       <item>Decisión: No se puede rechazar la hipótesis nula.</item>

@@ -34,7 +34,7 @@
 
 
 </tgroup>
-</table><para id="eip-358">La <emphasis effect="italics">d</emphasis> de Cohen es la medida de la diferencia entre dos medias dividida entre la desviación estándar combinada: <m:math>
+</table><para id="eip-358">La <emphasis effect="italics">d</emphasis> de Cohen es la medida de la diferencia entre dos medias dividida entre la desviación típica combinada: <m:math>
 <m:mrow>
 <m:mi>d</m:mi><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -117,15 +117,15 @@
 </m:mrow>
 </m:math></para><para id="eip-188">Cabe destacar que la d de Cohen no proporciona un nivel de confianza en cuanto al tamaño del efecto comparable a las otras comprobaciones de hipótesis que hemos estudiado. Los tamaños de los efectos son simplemente indicativos. </para><example id="eip-48"><exercise id="fs-idm122689856">
 <problem id="fs-idm122689600">
-<para id="fs-idm1441280">Calcule la <emphasis effect="italics">d</emphasis> de Cohen para el <link document="m55671" target-id="element-968">ejemplo 10.2</link>. ¿El tamaño del efecto es pequeño, mediano o grande? Explique qué significa el tamaño del efecto para este problema.</para></problem>
+<para id="fs-idm1441280">Calcule la <emphasis effect="italics">d</emphasis> de Cohen para el <link document="m55671" target-id="element-968">Ejemplo 10.2</link>. ¿El tamaño del efecto es pequeño, mediano o grande? Explique qué significa el tamaño del efecto para este problema.</para></problem>
 
 <solution id="fs-idm42685344">
-  <para id="fs-idp179952160"><emphasis effect="italics">x̅</emphasis><sub>1</sub> = 4 <emphasis effect="italics">s</emphasis><sub>1</sub> = 1,5 <emphasis effect="italics">n</emphasis><sub>1</sub> = 11 <newline/><newline/><emphasis effect="italics">x̅</emphasis><sub>2</sub> = 3,5 <emphasis effect="italics">s</emphasis><sub>2</sub> = 1 <emphasis effect="italics">n</emphasis><sub>2</sub> = 9 <newline/><newline/><emphasis effect="italics">d</emphasis> = 0,384 <newline/><newline/>El efecto es pequeño porque 0,384 está entre el valor de Cohen de 0,2 para un tamaño de efecto pequeño y 0,5 para un tamaño de efecto medio. El tamaño de las diferencias de las medias de las dos empresas es pequeño, lo que indica que no hay ninguna diferencia significativa entre sí.</para></solution>
+  <para id="fs-idp179952160"><emphasis effect="italics">x̅</emphasis><sub>1</sub> = 4 <emphasis effect="italics">s</emphasis><sub>1</sub> = 1,5 <emphasis effect="italics">n</emphasis><sub>1</sub> = 11 <newline/><newline/><emphasis effect="italics">x̅</emphasis><sub>2</sub> = 3,5 <emphasis effect="italics">s</emphasis><sub>2</sub> = 1 <emphasis effect="italics">n</emphasis><sub>2</sub> = 9 <newline/><newline/><emphasis effect="italics">d</emphasis> = 0,384 <newline/><newline/>El efecto es pequeño porque 0,384 está entre el valor de Cohen de 0,2 para un tamaño de efecto pequeño y 0,5 para un tamaño de efecto medio. El tamaño de las diferencias de las medias de las dos compañías es pequeño, lo que indica que no hay ninguna diferencia significativa entre sí.</para></solution>
 </exercise></example>
-<section id="fs-idm625985488" class="summary"><title>Revisión del capítulo</title><para id="fs-idm574257312">La <emphasis effect="italics">d</emphasis> de Cohen es una medida del "tamaño del efecto", basada en las diferencias entre dos medias.</para>
+<section id="fs-idm625985488" class="summary"><title>Repaso del capítulo</title><para id="fs-idm574257312">La <emphasis effect="italics">d</emphasis> de Cohen es una medida del "tamaño del efecto", basada en las diferencias entre dos medias.</para>
 
 <para id="fs-idm461069152">Cabe destacar que la <emphasis effect="italics">d</emphasis> de Cohen no proporciona un nivel de confianza en cuanto al tamaño del efecto comparable a las otras comprobaciones de hipótesis que hemos estudiado. Los tamaños de los efectos son simplemente indicativos.</para></section>
-<section id="fs-idm1230133296" class="formula-review"><title>Revisión de la fórmula</title><para id="eip-57">La <emphasis effect="italics">d</emphasis> de Cohen es la medida del tamaño del efecto:</para><para id="fs-idm423396560">Los términos <m:math>
+<section id="fs-idm1230133296" class="formula-review"><title>Revisión de la fórmula</title><para id="eip-57">La <emphasis effect="italics">d</emphasis> de Cohen es la medida del tamaño del efecto:</para><para id="fs-idm423396560"><m:math>
  <m:mrow>
   <m:mi>d</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -137,7 +137,7 @@
      
      <m:mn>1</m:mn>
     </m:msub>
-    <m:mo>-</m:mo><m:msub>
+    <m:mo>–</m:mo><m:msub>
      <m:mover accent="true">
       <m:mi>x</m:mi>
       <m:mo>¯</m:mo>
@@ -175,7 +175,7 @@
        <m:mi>n</m:mi>
        <m:mn>1</m:mn>
       </m:msub>
-      <m:mo>-</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:msubsup>
+      <m:mo>–</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:msubsup>
        <m:mi>s</m:mi>
        <m:mn>1</m:mn>
        <m:mn>2</m:mn>
@@ -200,7 +200,7 @@
        <m:mi>n</m:mi>
        <m:mn>2</m:mn>
       </m:msub>
-      <m:mo>-</m:mo><m:mn>2</m:mn>
+      <m:mo>–</m:mo><m:mn>2</m:mn>
      </m:mrow>
     </m:mfrac>
     

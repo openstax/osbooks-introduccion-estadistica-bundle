@@ -18,7 +18,7 @@
 </m:mfrac>
 
 </m:mrow>
-</m:math> para <emphasis effect="italics">a</emphasis> ≤ <emphasis effect="italics">x</emphasis> ≤ <emphasis effect="italics">b</emphasis> </para><para id="eip-899">donde <emphasis effect="italics">a</emphasis> = el menor valor de <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">b</emphasis> = el mayor valor de <emphasis effect="italics">x</emphasis>.</para><para id="eip-424">Las fórmulas para la media teórica y la desviación típica son</para><para id="eip-404">Los términos <m:math>
+</m:math> para <emphasis effect="italics">a</emphasis> ≤ <emphasis effect="italics">x</emphasis> ≤ <emphasis effect="italics">b</emphasis> </para><para id="eip-899">donde <emphasis effect="italics">a</emphasis> = el menor valor de <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">b</emphasis> = el mayor valor de <emphasis effect="italics">x</emphasis>.</para><para id="eip-424">Las fórmulas para la media teórica y la desviación típica son</para><para id="eip-404"><m:math>
  <m:mrow>
   <m:mi>μ</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -52,7 +52,7 @@
 
 </m:mrow>
 </m:math></para><note id="fs-idp70845248" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idp158465216">
 <problem id="fs-idp127611104">
@@ -147,7 +147,7 @@
 </m:math> para 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="element-577">Calcule <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">x</emphasis> &lt; 12,5). Dibuje un gráfico.</para>
 <para id="element-770"><m:math display="block">
 <m:mrow>
-<m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mi>k</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>base</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>altura</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>12,5</m:mn><m:mo>-</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mi>k</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>base</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>altura</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>12,5</m:mn><m:mo>–</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -189,18 +189,18 @@
 
 </m:mrow>
 </m:math> = 7,5. En promedio, una persona debe esperar 7,5 minutos. <newline/> <newline/> <emphasis effect="italics">σ</emphasis> = <m:math><m:msqrt><m:mfrac>
-<m:mrow><m:mo>(</m:mo><m:mi>b</m:mi><m:mo>-</m:mo><m:mi>a</m:mi><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mi>b</m:mi><m:mo>–</m:mo><m:mi>a</m:mi><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup></m:mrow>
 <m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:msqrt>
 <m:mo>=</m:mo>
 <m:msqrt><m:mfrac>
-<m:mrow><m:mo>(</m:mo><m:mi>15</m:mi><m:mo>-</m:mo><m:mi>0</m:mi><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mi>15</m:mi><m:mo>–</m:mo><m:mi>0</m:mi><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup></m:mrow>
 <m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:msqrt>
 </m:math> = 4,3. La desviación típica es de 4,3 minutos. <newline/></para></solution>
 </exercise>
 <exercise id="element-375">
 <problem id="id14859813">
 <para id="element-44">c. ¿A qué valor es inferior el tiempo que debe esperar una persona el noventa por ciento de las veces?</para>
-<note id="id15337317" type="Note"><title>NOTA</title><para id="fs-idm447631072">Esto pide calcular el percentil 90<sup/>.</para></note></problem>
+<note id="id15337317" type="Note"><label/><title>NOTA</title><para id="fs-idm447631072">Esto pide calcular el percentil 90<sup/>.</para></note></problem>
 <solution id="id15337330">
 <para id="element-12">c. Calcule el percentil 90<sup/>. Dibuje un gráfico. Supongamos que <emphasis effect="italics">k</emphasis> = el percentil 90<sup/>. <newline/> <newline/><m:math>
 <m:mrow>
@@ -232,14 +232,14 @@
 <m:mrow>
 <m:mi>k</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,90</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>15</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>13,5</m:mn>
 </m:mrow>
-</m:math> <newline/> <newline/>El percentil 90<sup>°</sup> es de 13,5 minutos. El noventa por ciento de las veces una persona debe esperar como máximo 13,5 minutos.</para><para id="element-545"><figure id="eip-idp75195312">
+</m:math> <newline/> <newline/>El percentil 90<sup/> es de 13,5 minutos. El noventa por ciento de las veces una persona debe esperar como máximo 13,5 minutos.</para><para id="element-545"><figure id="eip-idp75195312">
 <media id="id16334803" alt="gráfico de f(X) = 1/15 que muestra una región delimitada que consiste en una línea horizontal que se extiende hacia la derecha desde el punto 1/15 en el eje y, una línea vertical ascendente desde un punto arbitrario en el eje x y los ejes x y y. Dentro de esta zona hay una región sombreada donde ocurren los puntos 0-k. El área de esta región de probabilidad es igual a 0,90.">
 <image src="../../media/fig-ch05_03_06N.jpg" mime-type="image/jpg" width="380"/></media>
 </figure></para></solution>
 </exercise>
 </example>
 <note id="fs-idp13010016" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 
 <exercise id="fs-idp51205632">
@@ -266,7 +266,7 @@
 
 </note>
 <section id="fs-idp87344528" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idp24264368">Si <emphasis effect="italics">X</emphasis> tiene una distribución uniforme donde <emphasis effect="italics">a</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">b</emphasis> o <emphasis effect="italics">a</emphasis> ≤ <emphasis effect="italics">x</emphasis> ≤ <emphasis effect="italics">b</emphasis>, entonces <emphasis effect="italics">X</emphasis> toma valores entre <emphasis effect="italics">a</emphasis> y <emphasis effect="italics">b</emphasis> (puede incluir <emphasis effect="italics">a</emphasis> y <emphasis effect="italics">b</emphasis>). Todos los valores <emphasis effect="italics">x</emphasis> son igualmente probables. Escribimos <emphasis effect="italics">X</emphasis> ∼ <emphasis effect="italics">U</emphasis>(<emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis>). La media de <emphasis effect="italics">X</emphasis> es <m:math>
 <m:mrow>
 <m:mi>μ</m:mi><m:mo>=</m:mo><m:mfrac>
@@ -276,7 +276,7 @@
 <m:mn>2</m:mn>
 </m:mfrac>
 </m:mrow>
-</m:math> La desviación típica de <emphasis effect="italics">X</emphasis> es <m:math>
+</m:math>. La desviación típica de <emphasis effect="italics">X</emphasis> es <m:math>
 <m:mrow>
 <m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt>
 <m:mrow>
@@ -298,7 +298,7 @@
 </m:mrow>
 </m:math>. La función de densidad de probabilidad de <emphasis effect="italics">X</emphasis> es <m:math>
 <m:mrow>
-<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
 <m:mn>1</m:mn>
 <m:mrow>
 <m:mi>b</m:mi><m:mo>–</m:mo><m:mi>a</m:mi>
@@ -365,7 +365,7 @@
  </m:mrow>
 </m:math></para><para id="element-104"><emphasis>Función de densidad de probabilidad:</emphasis> <m:math>
 <m:mrow>
-<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
 <m:mn>1</m:mn>
 <m:mrow>
 <m:mi>b</m:mi><m:mo>–</m:mo><m:mi>a</m:mi>
@@ -423,7 +423,7 @@
 </m:math></para>
 <list id="fs-idm1322784" list-type="bulleted"><item>pdf: <m:math>
 <m:mrow>
-<m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>e</m:mi><m:mrow><m:mo>(</m:mo>
 <m:mi>x</m:mi>
 <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
 <m:mn>1</m:mn>
@@ -499,7 +499,7 @@
 </section>
 
 <section id="fs-idp174729104" class="practice">
-<para id="fs-idp8065584"><emphasis effect="italics">Use la siguiente información para responder las próximas diez preguntas.</emphasis> Los datos que siguen son los metros cuadrados (en 1.000 pies cuadrados) de 28 viviendas.</para><table id="fs-idp58203216" summary="">
+<para id="fs-idp8065584"><emphasis effect="italics">Use la siguiente información para responder las próximas diez preguntas.</emphasis> Los datos que siguen son los pies cuadrados (en 1.000 pies cuadrados) de 28 viviendas.</para><table id="fs-idp58203216" summary="">
 <tgroup cols="7">
 <tbody>
 <row>
@@ -769,8 +769,8 @@
 <item>Calcule la probabilidad. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 4 <m:math><m:mo>|</m:mo></m:math> <emphasis effect="italics">x</emphasis> &lt; 7,5) = _______</item>
 </list></problem>
 <solution id="fs-idp55294432">
-<list id="element-200212" list-type="enumerated" number-style="lower-alpha"><item>Compruebe la solución del estudiante</item>
-<item>Los términos <m:math>
+<list id="element-200212" list-type="enumerated" number-style="lower-alpha"><item>Compruebe la solución del estudiante.</item>
+<item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -843,10 +843,10 @@
 
 </list></problem>
 <solution id="eip-idp101962176">
-<list id="eip-idp101962432" list-type="enumerated" number-style="lower-alpha"><item>Compruebe la solución del estudiante</item>
-<item>Los términos <m:math>
+<list id="eip-idp101962432" list-type="enumerated" number-style="lower-alpha"><item>Compruebe la solución del estudiante.</item>
+<item><m:math>
  <m:mrow>
-  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+  <m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>8</m:mn>
   </m:mfrac>
@@ -859,7 +859,7 @@
 </m:math></item>
 <item>cinco</item>
 <item>2,3</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -901,7 +901,7 @@
 </list></solution></exercise>
 
 <exercise id="eip-994"><problem id="fs-idp69073824">
-<para id="fs-idp126144656">Según un estudio realizado por el Dr. John McDougall sobre su programa de pérdida de peso en vivo en el Hospital de Santa Elena, las personas que siguen su programa pierden entre 6 y 15 libras (2,72 y 6,80 kilogramos) al mes hasta acercarse a supeso corporal ideal. Supongamos que la pérdida de peso se distribuye uniformemente. Nos interesa la pérdida de peso de una persona seleccionada al azar que sigue el programa durante un mes.</para>
+<para id="fs-idp126144656">Según un estudio realizado por el Dr. John McDougall sobre su programa de pérdida de peso en vivo en el Hospital de Santa Elena, las personas que siguen su programa pierden entre 6 y 15 libras al mes hasta acercarse a su peso corporal ideal. Supongamos que la pérdida de peso se distribuye uniformemente. Nos interesa la pérdida de peso de una persona seleccionada al azar que sigue el programa durante un mes.</para>
 
 <list id="fs-idp80387648" list-type="enumerated" number-style="lower-alpha"><item>Defina la variable aleatoria. <emphasis effect="italics">X</emphasis> = _________</item>
 
@@ -930,9 +930,9 @@
 <solution id="fs-idp53345328">
 <list id="fs-idp164234448" list-type="enumerated" number-style="lower-alpha"><item>La <emphasis effect="italics">X</emphasis> representa el tiempo que un viajero debe esperar a que llegue un tren en la línea roja.</item>
 <item>Grafique la distribución de probabilidad.</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
-  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+  <m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>8</m:mn>
   </m:mfrac>
@@ -941,7 +941,7 @@
 </m:math> donde 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 8</item>
 <item>cuatro</item>
 <item>2,31</item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -950,7 +950,7 @@
 
 </m:mrow>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>

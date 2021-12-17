@@ -18,8 +18,8 @@
 <para id="element-3812">La comparación de dos proporciones, al igual que la comparación de dos medias, es de uso común. Si dos proporciones estimadas son diferentes, puede deberse a una diferencia en las poblaciones o al azar. Una prueba de hipótesis puede ayudar a determinar si una diferencia en las proporciones estimadas refleja una diferencia en las proporciones de la población.</para>
   <para id="fs-idm58849136">La diferencia de dos proporciones sigue una distribución normal aproximada. En general, la hipótesis nula afirma que las dos proporciones son iguales. Es decir, <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> = <emphasis effect="italics">p<sub>B</sub></emphasis>. Para llevar a cabo la prueba utilizamos una proporción combinada, <emphasis effect="italics">p<sub>c</sub></emphasis>. </para>
 
-<equation class="unnumbered" id="element-845">
-  <title>La proporción combinada se calcula de la siguiente manera:</title>Los términos <m:math>
+<equation class="unnumbered" id="element-845"><label/>
+  <title>La proporción combinada se calcula de la siguiente manera:</title><m:math>
     <m:mrow>
       <m:msub>
         <m:mi>p</m:mi>
@@ -54,9 +54,9 @@
   </m:math>
 
 </equation>
-<equation class="unnumbered" id="element-630">
+<equation class="unnumbered" id="element-630"><label/>
 <title>La distribución de las diferencias es:</title>
-Los términos <m:math>
+<m:math>
  <m:mrow>
   <m:msub>
    <m:msup>
@@ -66,7 +66,7 @@ Los términos <m:math>
 
    <m:mi>A</m:mi>
   </m:msub>
-  <m:mo>- −</m:mo><m:msub>
+  <m:mo>–</m:mo><m:msub>
    <m:msup>
     <m:mi>P</m:mi>
     <m:mo>′</m:mo>
@@ -111,9 +111,9 @@ Los términos <m:math>
  </m:mrow>
 </m:math></equation>
 
-  <equation class="unnumbered" id="element-225">
-<title>El estadístico de prueba (puntuación<emphasis effect="italics">z</emphasis>) es:</title>
-Los términos <m:math>
+  <equation class="unnumbered" id="element-225"><label/>
+<title>El estadístico de prueba (puntuación <emphasis effect="italics">z</emphasis>) es:</title>
+<m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -125,7 +125,7 @@ Los términos <m:math>
 
      <m:mi>A</m:mi>
     </m:msub>
-    <m:mo>- −</m:mo><m:msub>
+    <m:mo>–</m:mo><m:msub>
      <m:msup>
       <m:mi>p</m:mi>
       <m:mo>′</m:mo>
@@ -133,11 +133,11 @@ Los términos <m:math>
 
      <m:mi>B</m:mi>
     </m:msub>
-    <m:mo stretchy="false">)</m:mo><m:mo>-</m:mo><m:mo stretchy="false">(</m:mo><m:msub>
+    <m:mo stretchy="false">)</m:mo><m:mo>–</m:mo><m:mo stretchy="false">(</m:mo><m:msub>
      <m:mi>p</m:mi>
      <m:mi>A</m:mi>
     </m:msub>
-    <m:mo>- −</m:mo><m:msub>
+    <m:mo>–</m:mo><m:msub>
      <m:mi>p</m:mi>
      <m:mi>B</m:mi>
     </m:msub>
@@ -201,7 +201,7 @@ Los términos <m:math>
 <para id="fs-idp82118096"><emphasis effect="italics">p<sub>A</sub></emphasis> – <emphasis effect="italics">p<sub>B</sub></emphasis> ≠ 0</para>
 <para id="element-799">Las palabras <emphasis>“es una diferencia”</emphasis> le indican que la prueba es de dos colas.</para>
 <para id="element-610"><emphasis>Distribución para la prueba:</emphasis> como se trata de una prueba de dos proporciones poblacionales binomiales, la distribución es normal:</para>
-<para id="element-42">Los términos <m:math>
+<para id="element-42"><m:math>
 <m:mrow>
 <m:msub>
 <m:mi>p</m:mi>
@@ -247,7 +247,7 @@ Los términos <m:math>
 </m:mrow>
 </m:math>
 </para>
-<para id="element-3">Los términos <m:math>
+<para id="element-3"><m:math>
  <m:mrow>
   <m:msub>
    <m:msup>
@@ -289,7 +289,7 @@ Los términos <m:math>
 </m:math></para>
 
 <para id="element-838"><emphasis effect="italics">P′<sub>A</sub></emphasis> - <emphasis effect="italics">P′<sub>B</sub></emphasis> sigue una distribución normal aproximada.</para>
-<para id="element-961"><emphasis>Calcule el valor <emphasis effect="italics">p</emphasis> utilizando la distribución normal:</emphasis> valor <emphasis effect="italics">p</emphasis>= 0,1404.</para><para id="element-270">Proporción estimada para el grupo A: <m:math>
+<para id="element-961"><emphasis>Calcule el valor <emphasis effect="italics">p</emphasis> utilizando la distribución normal:</emphasis> valor <emphasis effect="italics">p</emphasis> = 0,1404.</para><para id="element-270">Proporción estimada para el grupo A: <m:math>
 <m:mrow>
 <m:msub>
 <m:msup>
@@ -359,20 +359,20 @@ Los términos <m:math>
 <m:mo>=</m:mo><m:mn>0,06</m:mn>
 </m:mrow>
 </m:math></para>
-<para id="element-478">Gráfico: <figure id="hyptest22_cmp_3_1"><media id="id3811123" alt="Curva de distribución normal de la diferencia en los porcentajes de pacientes adultos que no reaccionan a los medicamentos A y B después de 30 minutos. La media es igual a cero y los valores –0,04, 0 y 0,04 están marcados en el eje horizontal. Dos líneas verticales se extienden desde –0,04 y 0,04 hasta la curva. La región a la izquierda de –0,04 y la región a la derecha de 0,04 están sombreadas para representar 1/2(valor-p) = 0,0702."><image src="../../media/fig-ch10_04_01.jpg" mime-type="image/jpg" width="380"/></media></figure></para><para id="element-172"> <emphasis effect="italics">P′<sub>A</sub></emphasis> – <emphasis effect="italics">P′<sub>B</sub></emphasis> = 0,1 – 0,06 = 0,04.</para>
-<para id="element-846">La mitad del valor <emphasis effect="italics">p</emphasis> es inferior a -0,04, y la otra mitad es superior a 0,04.</para>
-<para id="element-748">Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>: <emphasis effect="italics">α</emphasis> = 0,01 y el valor <emphasis effect="italics">p</emphasis>= 0,1404. <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis>.</para><para id="element-439">Tome una decisión: Dado que <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis>, no rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
+<para id="element-478">Gráfico: <figure id="hyptest22_cmp_3_1"><media id="id3811123" alt="Curva de distribución normal de la diferencia en los porcentajes de pacientes adultos que no reaccionan a los medicamentos A y B después de 30 minutos. La media es igual a cero y los valores –0,04, 0 y 0,04 están marcados en el eje horizontal. Dos líneas verticales se extienden desde –0,04 y 0,04 hasta la curva. La región a la izquierda de –0,04 y la región a la derecha de 0,04 están sombreadas para representar 1/2(valor p) = 0,0702."><image src="../../media/fig-ch10_04_01.jpg" mime-type="image/jpg" width="380"/></media></figure></para><para id="element-172"> <emphasis effect="italics">P′<sub>A</sub></emphasis> – <emphasis effect="italics">P′<sub>B</sub></emphasis> = 0,1 – 0,06 = 0,04.</para>
+<para id="element-846">La mitad del valor <emphasis effect="italics">p</emphasis> es inferior a –0,04, y la otra mitad es superior a 0,04.</para>
+<para id="element-748">Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>: <emphasis effect="italics">α</emphasis> = 0,01 y el valor <emphasis effect="italics">p</emphasis> = 0,1404. <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis>.</para><para id="element-439">Tome una decisión: Dado que <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis>, no rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
 <para id="element-632"><emphasis>Conclusión:</emphasis> A un nivel de significación del 1 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que existe una diferencia en las proporciones de pacientes adultos que no reaccionaron después de 30 minutos al medicamento <emphasis effect="italics">A</emphasis> y al medicamento <emphasis effect="italics">B</emphasis>.</para><note id="fs-idm4331904" class="statistics calculator">
-
+<label/>
 <para id="fs-idm55744576">Pulse <code>STAT</code>. Desplace la flecha hacia <code>TESTS</code> y pulse
-<code>6:2-PropZTest</code>. Desplace la flecha hacia abajo y pulse ENTER <code>20</code> para x1, <code>200</code> para n1, <code>12</code> para x2, y <code>200</code> para n2. Desplace la flecha hacia abajo <code>p1</code>: y la flecha hacia <code>diferente a p2</code>. Pulse <code>ENTER</code>. Desplace la flecha hacia abajo hasta <code>Calculate</code> y pulse <code>ENTER</code>. El valor <emphasis effect="italics">p</emphasis> es <emphasis effect="italics">p</emphasis> = 0,1404 y el estadístico de prueba es 1,47. Vuelva a realizar el procedimiento, pero en vez de <code>Calculate</code> presione <code>Draw</code>.</para></note>
+<code>6:2-PropZTest</code>. Desplace la flecha hacia abajo y pulse ENTER <code>20</code> para x1, <code>200</code> para n1, <code>12</code> para x2, y <code>200</code> para n2. Desplace la flecha hacia abajo <code>p1</code>: y la flecha hacia <code>diferente a p2</code>. Pulse <code>ENTER</code>. Desplace la flecha hacia abajo hasta <code>Calculate</code> y pulse <code>ENTER</code>. El valor <emphasis effect="italics">p</emphasis> es <emphasis effect="italics">p</emphasis> = 0,1404 y el estadístico de prueba es 1,47. Vuelva a realizar el procedimiento, pero en vez de <code>Calculate</code> presione <code>Dibujar</code>.</para></note>
 </solution>
 </exercise>
 </example>
 
 
 <note id="fs-idp38726464" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm6482160"><problem id="fs-idm135837088"><para id="fs-idm99465232">Se están probando dos tipos de válvulas para determinar si hay una diferencia en las tolerancias de presión. Quince de una muestra aleatoria de 100 de la válvula <emphasis effect="italics">A</emphasis> se agrietaron por debajo de 4.500 psi. Seis de una muestra aleatoria de 100 de la válvula <emphasis effect="italics">B</emphasis> se agrietaron por debajo de 4.500 psi. Pruebe con un nivel de significación del 5 %.</para></problem>
 </exercise></note>
@@ -388,7 +388,7 @@ Los términos <m:math>
 <thead><row><entry/><entry>Hombres</entry><entry>Mujeres</entry></row></thead>
 <tbody>
 <row><entry>Envío de "mensajes con contenido sexual"</entry>	  <entry>183</entry>	    <entry>156</entry></row>
-<row><entry>Número total de encuestados</entry>	<entry>2231</entry>	  <entry>2169</entry></row>
+<row><entry>Número total de encuestados</entry>	<entry>2.231</entry>	  <entry>2.169</entry></row>
 </tbody>
 </tgroup>
 </table>
@@ -407,7 +407,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
 
 <para id="fs-idp27327440"><emphasis>Distribución para la prueba:</emphasis> como se trata de una prueba de dos proporciones de población, la distribución es normal:</para>
 
-    <para id="fs-idm83512624">Los términos <m:math>
+    <para id="fs-idm83512624"><m:math>
  <m:mrow>
   <m:msub>
    <m:mi>p</m:mi>
@@ -442,7 +442,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
     <m:mn>156</m:mn><m:mo>+</m:mo><m:mn>183</m:mn>
    </m:mrow>
    <m:mrow>
-    <m:mn>2169</m:mn><m:mo>+</m:mo><m:mn>2231</m:mn>
+    <m:mn>2.169</m:mn><m:mo>+</m:mo><m:mn>2.231</m:mn>
    </m:mrow>
   </m:mfrac>
   <m:mo>=</m:mo><m:mtext>0</m:mtext><m:mtext>0,077</m:mtext>
@@ -482,13 +482,13 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
         <m:mfrac>
          <m:mn>1</m:mn>
          <m:mrow>
-          <m:mn>2169</m:mn>
+          <m:mn>2.169</m:mn>
          </m:mrow>
         </m:mfrac>
         <m:mo>+</m:mo><m:mfrac>
          <m:mn>1</m:mn>
          <m:mrow>
-          <m:mn>2231</m:mn>
+          <m:mn>2.231</m:mn>
          </m:mrow>
         </m:mfrac>
 
@@ -500,7 +500,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math> <newline/><emphasis effect="italics">p′<sub>F</sub></emphasis> - <emphasis effect="italics">p′<sub>M</sub></emphasis> sigue una distribución normal aproximada.</para><para id="fs-idm37724704"><emphasis>Calcule el valor <emphasis effect="italics">p</emphasis> utilizando la distribución normal:</emphasis> Valor <newline/><emphasis effect="italics">p</emphasis>= 0,1045 <newline/>Proporción estimada para las mujeres: 0,0719 <newline/>Proporción estimada para los hombres: 0,082</para><para id="fs-idm93495920">Gráfico: <figure id="fs-idp39056128"><media id="fs-idp49042304" alt="Se trata de una curva de distribución normal con media igual a cero. Una línea vertical cerca de la cola de la curva a la izquierda de cero se extiende desde el eje hasta la curva. La región debajo de la curva a la izquierda de la línea está sombreada y representa un valor p = 0,1045." display="block">
+</m:math> <newline/><emphasis effect="italics">p′<sub>F</sub></emphasis> - <emphasis effect="italics">p′<sub>M</sub></emphasis> sigue una distribución normal aproximada.</para><para id="fs-idm37724704"><emphasis>Calcule el valor <emphasis effect="italics">p</emphasis> utilizando la distribución normal:</emphasis> Valor <newline/><emphasis effect="italics">p</emphasis> = 0,1045 <newline/>Proporción estimada para las mujeres: 0,0719 <newline/>Proporción estimada para los hombres: 0,082</para><para id="fs-idm93495920">Gráfico: <figure id="fs-idp39056128"><media id="fs-idp49042304" alt="Se trata de una curva de distribución normal con media igual a cero. Una línea vertical cerca de la cola de la curva a la izquierda de cero se extiende desde el eje hasta la curva. La región debajo de la curva a la izquierda de la línea está sombreada y representa un valor p = 0,1045." display="block">
 <image mime-type="image/jpg" width="380" src="../../media/CNX_Stats_C10_M04_001N.jpg"/>
 </media></figure></para>
     <para id="fs-idm29799616"><emphasis>Decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis>, no rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
@@ -509,8 +509,8 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
 </para>
 
 <note id="fs-idm151141472" class="statistics calculator">
-
-<para id="fs-idm112689104">Pulse STAT. Desplace la flecha hacia TESTS y pulse 6:2-PropZTest. Desplace la flecha hacia abajo e ingrese 156 para x1, 2169 para n1, 183 para x2 y 2231 para n2. Desplace la flecha hacia abajo a p1: y flecha a menos de p2. Pulse <code>ENTER</code>. Desplace la flecha hacia abajo hasta Calculate (Calcular) y pulse ENTER. El valor <emphasis effect="italics">p</emphasis> es <emphasis effect="italics">P</emphasis> = 0,1045 y el estadístico de prueba es <emphasis effect="italics">z</emphasis> = -1,256.</para>
+<label/>
+<para id="fs-idm112689104">Pulse STAT. Desplace la flecha hacia TESTS y pulse 6:2-PropZTest. Desplace la flecha hacia abajo e ingrese 156 para x1, 2169 para n1, 183 para x2 y 2231 para n2. Desplace la flecha hacia abajo a p1: y flecha a menos de p2. Pulse <code>ENTER</code>. Desplace la flecha hacia abajo hasta Calculate (Calcular) y pulse ENTER. El valor <emphasis effect="italics">p</emphasis> es <emphasis effect="italics">P</emphasis> = 0,1045 y el estadístico de prueba es <emphasis effect="italics">z</emphasis> = –1,256.</para>
 </note>
 </solution>
 </exercise>
@@ -518,14 +518,14 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
 
 <example id="fs-idp9035712">
 <exercise id="fs-idm70907200">
-<problem id="fs-idm90651728"><para id="fs-idp52326208">Los investigadores realizaron un estudio sobre el uso de los teléfonos inteligentes entre los adultos. A cell phone company claimed that iPhone smartphones are more popular with White people (non-Hispanic) than with African Americans. Los resultados de la encuesta indican que de los 232 propietarios de teléfonos móviles afroamericanos incluidos en la muestra aleatoria, el 5 % tiene un iPhone. Of the 1,343 White cell phone owners randomly sampled, 10% own an iPhone. Prueba al nivel de significación del 5 %. Is the proportion of White iPhone owners greater than the proportion of African American iPhone owners?</para></problem>
+<problem id="fs-idm90651728"><para id="fs-idp52326208">Los investigadores realizaron un estudio sobre el uso de los teléfonos inteligentes entre los adultos. Una compañía de telefonía móvil afirma que los teléfonos inteligentes iPhone son más populares entre los blancos (no hispanos) que entre los afroamericanos. Los resultados de la encuesta indican que de los 232 propietarios de teléfonos móviles afroamericanos incluidos en la muestra aleatoria, el 5 % tiene un iPhone. De los 1.343 propietarios de teléfonos móviles blancos incluidos en la muestra aleatoria, el 10 % tiene un iPhone. Prueba al nivel de significación del 5 %. ¿Es mayor la proporción de propietarios de iPhone blancos que la de afroamericanos?</para></problem>
 
 <solution id="fs-idm244330848">
-<para id="fs-idp4139616">Se trata de una prueba de dos proporciones de población. Let W and A be the subscripts for the White people and African American people. Entonces <emphasis effect="italics">p<sub>W</sub></emphasis> y <emphasis effect="italics">p<sub>A</sub></emphasis> son las proporciones poblacionales deseadas.</para>
+<para id="fs-idp4139616">Se trata de una prueba de dos proporciones de población. Supongamos que W y A sean los subíndices de los blancos y los afroamericanos. Entonces <emphasis effect="italics">p<sub>W</sub></emphasis> y <emphasis effect="italics">p<sub>A</sub></emphasis> son las proporciones poblacionales deseadas.</para>
 
-<para id="fs-idp85441184">Random Variable: <emphasis effect="italics">p′<sub>W</sub></emphasis> – <emphasis effect="italics">p′<sub>A</sub></emphasis> = difference in the proportions of White and African American cell phone users who own iPhones.</para><para id="fs-idp129126752"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>W</sub></emphasis> = <emphasis effect="italics">p<sub>A</sub></emphasis> <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>W</sub></emphasis> – <emphasis effect="italics">p<sub>A</sub></emphasis> = 0</para><para id="fs-idm200846096"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>W</sub></emphasis> > <emphasis effect="italics">p<sub>A</sub></emphasis> <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>W</sub></emphasis> – <emphasis effect="italics">p<sub>A</sub></emphasis> > 0</para><para id="fs-idm11108992">Las palabras "más popular" indican que la prueba es de cola derecha.</para>
+<para id="fs-idp85441184">Variable aleatoria: <emphasis effect="italics">p′<sub>W</sub></emphasis> - <emphasis effect="italics">p′<sub>A</sub></emphasis> = diferencia en las proporciones de usuarios blancos y afroamericanos de telefonos celulares que tienen iPhones.</para><para id="fs-idp129126752"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>W</sub></emphasis> = <emphasis effect="italics">p<sub>A</sub></emphasis> <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>W</sub></emphasis> – <emphasis effect="italics">p<sub>A</sub></emphasis> = 0</para><para id="fs-idm200846096"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>W</sub></emphasis> > <emphasis effect="italics">p<sub>A</sub></emphasis> <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>W</sub></emphasis> – <emphasis effect="italics">p<sub>A</sub></emphasis> > 0</para><para id="fs-idm11108992">Las palabras "más popular" indican que la prueba es de cola derecha.</para>
   <para id="fs-idp137504160">Distribución para la prueba: la distribución es aproximadamente normal:</para>
-  <para id="fs-idm35602240">Los términos <m:math>
+  <para id="fs-idm35602240"><m:math>
     <m:mrow>
       <m:msub>
         <m:mi>p</m:mi>
@@ -565,7 +565,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
       </m:mfrac>
       <m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>0,0927</m:mn>
     </m:mrow>
-  </m:math></para><para id="fs-idp116231296">Los términos <m:math>
+  </m:math></para><para id="fs-idp116231296"><m:math>
  <m:mrow>
   <m:mn>1</m:mn><m:mo>–</m:mo><m:msub>
    <m:mi>p</m:mi>
@@ -574,7 +574,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
   <m:mo>=</m:mo><m:mn>0,9073</m:mn>
  </m:mrow>
 </m:math></para><para id="fs-idp68984592">Por lo tanto,</para>
-  <para id="fs-idp87185952">Los términos <m:math>
+  <para id="fs-idp87185952"><m:math>
     <m:mrow>
       <m:msub>
         <m:msup>
@@ -627,7 +627,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
         </m:mrow>
         <m:mo>)</m:mo></m:mrow>
     </m:mrow>
-  </m:math> grandes.</para><para id="fs-idp16865808">Los términos <m:math>
+  </m:math></para><para id="fs-idp16865808"><m:math>
     <m:mrow>
       <m:msub>
         <m:msup>
@@ -652,16 +652,16 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
 <para id="fs-idp153346256">Calcule el valor <emphasis effect="italics">p</emphasis> utilizando la distribución normal: valor <newline/><emphasis effect="italics">p</emphasis>= 0,0077<newline/> Proporción estimada para el grupo A: 0,10<newline/> Proporción estimada para el grupo B: 0,05</para>
   <para id="fs-idp26516352"><emphasis>Gráfico:</emphasis></para>
   <figure id="id12575638"><media id="id12575642" alt="Se trata de una curva de distribución normal con media igual a cero. Una línea vertical cerca de la cola de la curva a la derecha de cero se extiende desde el eje hasta la curva. La región debajo de la curva a la derecha de la línea está sombreada y representa un valor p = 0,00004."><image src="../../media/CNX_Stats_C10_M04_007anno2.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="fs-idm17894912"><emphasis>Decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>, rechace el <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
-  <para id="fs-idp74257664"><emphasis>Conclusión:</emphasis> At the 5% level of significance, from the sample data, there is sufficient evidence to conclude that a larger proportion of White cell phone owners use iPhones compared to African Americans.</para>
+  <para id="fs-idp74257664"><emphasis>Conclusión:</emphasis> Al nivel de significación del 5 %, a partir de los datos de la muestra, hay pruebas suficientes para concluir que una mayor proporción de propietarios de teléfonos móviles blancos utilizan iPhones que los afroamericanos.</para>
   <note id="fs-idp15799920" class="statistics calculator">
-
+<label/>
     <para id="fs-idm46927376">TI-83+ y TI-84: Pulse STAT. Desplace la flecha hacia TESTS y pulse 6:2-PropZTest. Desplace la flecha hacia abajo e ingrese 135 para x1, 1343 para n1, 12 para x2 y 232 para n2. Desplace la flecha hacia abajo a p1: y flecha a mayor de p2. Pulse ENTER. Desplace la flecha hacia abajo hasta Calculate (Calcular) y pulse ENTER. El valor P es P = 0,0092 y el estadístico de prueba es Z = 2,33.</para>
   </note>
 </solution></exercise>
 </example>
 
   <note id="fs-idp142829376" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 
 <para id="fs-idp32122976">Un grupo de ciudadanos preocupados quería saber si la proporción de violaciones en Texas era diferente en 2011 que en 2010. Su investigación mostró que de los 113.231 delitos violentos en Texas en 2010, 7.622 de ellos fueron violaciones. En 2011, 7.439 de los 104.873 delitos violentos pertenecían a la categoría de violación. Pruebe con un nivel de significación del 5 %. Responda las siguientes preguntas:<newline/></para>
@@ -711,7 +711,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
 </section>
 
 <section id="fs-idm55267024" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idp68961936">Prueba de dos proporciones poblacionales a partir de muestras independientes <list id="fs-idp68962192" list-type="bulleted">
   <item>Variable aleatoria: <m:math>
  <m:mrow>
@@ -781,7 +781,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
 
    <m:mi>A</m:mi>
   </m:msub>
-  <m:mo>- −</m:mo><m:msub>
+  <m:mo>–</m:mo><m:msub>
    <m:msup>
     <m:mi>p</m:mi>
     <m:mo>′</m:mo>
@@ -832,7 +832,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
  </m:mrow>
 </m:math></para>
 
-<para id="fs-idm64589136">donde la hipótesis nula es <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> = <emphasis effect="italics">p<sub>B</sub></emphasis> o <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> – <emphasis effect="italics">p<sub>B</sub></emphasis> = 0.</para><para id="fs-idp35988640">Estadístico de prueba (puntuación<emphasis effect="italics">z</emphasis>): <m:math>
+<para id="fs-idm64589136">donde la hipótesis nula es <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> = <emphasis effect="italics">p<sub>B</sub></emphasis> o <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> – <emphasis effect="italics">p<sub>B</sub></emphasis> = 0.</para><para id="fs-idp35988640">Estadístico de prueba (puntuación <emphasis effect="italics">z</emphasis>): <m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -844,7 +844,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
      <m:mrow/>
      <m:mi>A</m:mi>
     </m:msub>
-    <m:mo>- −</m:mo><m:msup>
+    <m:mo>–</m:mo><m:msup>
      <m:mi>p</m:mi>
      <m:mo>′</m:mo>
     </m:msup>
@@ -987,7 +987,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
 <solution id="eip-idm88064848">
 <para id="eip-idm88064592">La variable aleatoria es la diferencia de proporciones (porcentajes) de las poblaciones que son de dos o más razas en Nevada y Dakota del Norte.</para></solution>
 </exercise><exercise id="element-7"><problem id="id16485244">
-  <para id="element-189">¿Qué distribución (normal o <emphasis effect="italics">t</emphasis>de Student) utilizaría para esta prueba de hipótesis?</para></problem>
+  <para id="element-189">¿Qué distribución (normal o <emphasis effect="italics">t</emphasis> de Student) utilizaría para esta prueba de hipótesis?</para></problem>
 </exercise>
 
 <exercise id="element-464"><problem id="id13843081">
@@ -1003,7 +1003,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
   <para id="element-359">Dibuje un gráfico de la situación. Marque la diferencia hipotética y la diferencia muestral. Sombree el área correspondiente al valor <emphasis effect="italics">p</emphasis>.
     <figure id="id12575638a"><media id="id12575642a" alt="Se trata de un eje horizontal con flechas en cada extremo. El eje está marcado como p'N - p'ND"><image src="../../media/fig-ch10_07_01.jpg" mime-type="image/jpg" width="380"/></media></figure></para>
   </problem>
-  <solution id="fs-idm55153680"><para id="fs-idm55153552">Compruebe la solución del estudiante</para></solution>
+  <solution id="fs-idm55153680"><para id="fs-idm55153552">Compruebe la solución del estudiante.</para></solution>
 </exercise>
 
   <exercise id="element-287">
@@ -1027,7 +1027,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
 <solution id="id18024766">
   <list id="fs-idp68589888" list-type="enumerated" number-style="lower-alpha">
     <item>rechaza la hipótesis nula.</item>
-      <item>valor <emphasis effect="italics">p</emphasis>&lt; alfa</item>
+      <item>valor <emphasis effect="italics">p</emphasis> &lt; alfa</item>
       <item>Con un nivel de significación del 5 % hay pruebas suficientes para concluir que la proporción (porcentaje) de la población que es de dos o más razas en Nevada es estadísticamente mayor que la de Dakota del Norte.</item>
   </list>
 </solution>
@@ -1045,9 +1045,9 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
 <section id="fs-idp49279360" class="free-response">
 <title>Tarea para la casa</title>
 <para id="fs-idm14172688"><emphasis effect="italics">INSTRUCCIONES: Para cada uno de los problemas de palabras use una hoja de soluciones para hacer la prueba de hipótesis. La hoja de soluciones se encuentra en el <link document="m47882"/>. No dude en hacer copias de las hojas de soluciones. Para la versión en línea del libro se sugiere copiar los archivos .doc o .pdf.</emphasis></para><note id="id17215905">
-
+<label/>
 <title>Nota</title>
-<para id="fs-idm44775184">Si usa una distribución <emphasis effect="italics">t</emphasis>de Student para uno de los siguientes problemas de tarea para la casa, incluso para datos emparejados, puede suponer que la población subyacente está distribuida normalmente (Sin embargo, en general, primero hay que demostrar ese supuesto).</para></note>
+<para id="fs-idm44775184">Si usa una distribución <emphasis effect="italics">t</emphasis> de Student para uno de los siguientes problemas de tarea para la casa, incluso para datos emparejados, puede suponer que la población subyacente está distribuida normalmente (Sin embargo, en general, primero hay que demostrar ese supuesto).</para></note>
 
 <exercise id="exer15">
 <problem id="id9504371"><para id="id11960146">Una reciente encuesta sobre drogas mostró un aumento del consumo de drogas y alcohol entre estudiantes locales de último año de escuela secundaria en comparación con el porcentaje nacional. Supongamos que se realiza una encuesta entre 100 estudiantes de último año de escuela secundaria locales y 100 nacionales para ver si la proporción de consumo de drogas y alcohol es mayor localmente que en todo el país. Localmente, 65 estudiantes de último año de escuela secundaria declararon haber consumido drogas o alcohol durante el mes anterior, mientras que el número nacional fue de 60.</para></problem>
@@ -1055,23 +1055,23 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
 
 <exercise id="exer18">
   <problem id="id4902537">
-    <para id="id12924042">We are interested in whether the proportions of female suicide victims for ages 15 to 24 are the same for White and Black in the United States. Elegimos al azar un año, 1992, para comparar las razas. The number of suicides estimated in the United States in 1992 for White females is 4,930. Quinientos ochenta tenían entre 15 y 24 años. The estimate for Black females is 330. Cuarenta tenían entre 15 y 24 años. Supondremos que las mujeres víctimas de suicidio sean nuestra población.</para>
+    <para id="id12924042">Nos interesa saber si las proporciones de mujeres víctimas de suicidio entre 15 y 24 años son iguales para las razas blanca y negra en Estados Unidos. Elegimos al azar un año, 1992, para comparar las razas. El número de suicidios estimado en Estados Unidos en 1992 para mujeres blancas es de 4.930. Quinientos ochenta tenían entre 15 y 24 años. La estimación para las mujeres negras es de 330. Cuarenta tenían entre 15 y 24 años. Supondremos que las mujeres víctimas de suicidio sean nuestra población.</para>
   </problem>
   <solution id="fs-idm32452768">
     <list id="fs-idm32452512" list-type="enumerated" number-style="lower-alpha">
       <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">P<sub>W</sub></emphasis> = <emphasis effect="italics">P<sub>B</sub></emphasis></item>
       <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">P<sub>W</sub></emphasis> ≠ <emphasis effect="italics">P<sub>B</sub></emphasis></item>
-        <item>The random variable is the difference in the proportions of White and Black suicide victims, aged 15 to 24.</item>
+        <item>La variable aleatoria es la diferencia en las proporciones de víctimas de suicidio blancas y negras, de 15 a 24 años.</item>
         <item>normal para dos proporciones</item>
         <item>estadístico de prueba: –0,1944</item>
         <item>valor <emphasis effect="italics">p</emphasis>: 0,8458 </item>
-        <item>Compruebe la solución del estudiante</item>
+        <item>Compruebe la solución del estudiante.</item>
         <item>
         <list id="fs-idp6439728" list-type="enumerated" number-style="lower-roman">
           <item>Alfa: 0,05</item>
           <item>Decisión: rechaza la hipótesis nula.</item>
           <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>> alfa</item>
-          <item>Conclusión: At the 5% significance level, there is insufficient evidence to conclude that the proportions of White and Black female suicide victims, aged 15 to 24, are different. </item>
+          <item>Conclusión: Al nivel de significación del 5 %, no hay pruebas suficientes para concluir que las proporciones de mujeres blancas y negras víctimas de suicidio, de entre 15 y 24 años, sean diferentes. </item>
         </list>
       </item>
     </list>
@@ -1110,7 +1110,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
         <item>normal para dos proporciones</item>
         <item>estadístico de prueba: 4,29</item>
         <item>valor <emphasis effect="italics">p</emphasis>: 0,00002</item>
-        <item>Compruebe la solución del estudiante</item>
+        <item>Compruebe la solución del estudiante.</item>
         <item>
         <list id="fs-idm32250112" list-type="enumerated" number-style="lower-roman">
           <item>Alfa: 0,05</item>
@@ -1182,7 +1182,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
 
         </para><para id="fs-idm37090640">Decisión: rechazar la hipótesis nula.</para>
 
-        <para id="fs-idm37090256">Conclusión: con un nivel de significación del 5 %, a partir de los datos de la muestra, hay pruebas suficientes para concluir que la proporción de usuarios de eReader de 16 a 29 años es diferente de la proporción de usuarios de eReader de 30 años o más.</para>
+        <para id="fs-idm37090256">Conclusión: con un nivel de significación del 5 %, a partir de los datos de la muestra, hay pruebas suficientes para concluir que la proporción de usuarios de lectores de libros electrónicos de 16 a 29 años es diferente de la proporción de usuarios de lectores de libros electrónicos de 30 años o más.</para>
       </solution>
     </exercise>
 
@@ -1249,7 +1249,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
       <list id="fs-idp66491504" list-type="enumerated" number-style="lower-alpha">
         <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p<sub>1</sub></emphasis> ≤ <emphasis effect="italics">p<sub>2</sub></emphasis></item>
         <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>1</sub></emphasis> > <emphasis effect="italics">p<sub>2</sub></emphasis></item>
-        <item>Los términos <m:math>
+        <item><m:math>
  <m:mrow>
   <m:msub>
    <m:msup>
@@ -1273,12 +1273,12 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
         <item>normal para dos proporciones</item>
         <item>estadístico de prueba: 0,22</item>
         <item>valor <emphasis effect="italics">p</emphasis>: 0,4133</item>
-        <item>Compruebe la solución del estudiante</item>
+        <item>Compruebe la solución del estudiante.</item>
         <item>
           <list id="fs-idp134826688" list-type="enumerated" number-style="lower-roman">
             <item>Alfa: 0,05</item>
             <item>Decisión: No rechaza la hipótesis nula.</item>
-            <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>> alfa</item>
+            <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> > alfa</item>
             <item>Conclusión: Con un nivel de significación del 5 % no hay pruebas suficientes para concluir que la proporción de hombres que disfrutan comprando equipos electrónicos es mayor que la de mujeres.</item>
           </list>
         </item>
@@ -1324,11 +1324,11 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
         <item>normal para dos proporciones</item>
         <item>estadístico de prueba: –4,82</item>
         <item>valor <emphasis effect="italics">p</emphasis>: cero</item>
-        <item>Compruebe la solución del estudiante</item>
+        <item>Compruebe la solución del estudiante.</item>
         <item>
           <list id="fs-idp115516720" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
             <item>Decisión: rechaza la hipótesis nula.</item>
-            <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>&lt; alfa</item>
+            <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> &lt; alfa</item>
             <item>Conclusión: Con un nivel de significación del 5 % hay pruebas suficientes para concluir que las proporciones de hombres y mujeres con, al menos, una oreja perforada son diferentes.</item>
           </list></item>
       </list></solution>
@@ -1336,7 +1336,7 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
 
   <exercise id="fs-idm103490000">
     <problem id="fs-idm103489744">
-      <para id="fs-idm103489488">Utilice los conjuntos de datos que se encuentran en <link document="m47873"/> para responder este ejercicio. ¿La proporción de vueltas en la carrera que Terri completa más lento que 130 segundos es menor que la proporción de vueltas de práctica que completa más lento que 135 segundos?</para></problem>
+      <para id="fs-idm103489488">Utilice los conjuntos de datos que se encuentran en el <link document="m47873"/> para responder este ejercicio. ¿La proporción de vueltas en la carrera que Terri completa más lento que 130 segundos es menor que la proporción de vueltas de práctica que completa más lento que 135 segundos?</para></problem>
   </exercise>
 
   <exercise id="fs-idm104246192"><problem id="fs-idp505328">
@@ -1408,12 +1408,12 @@ Variable aleatoria: <emphasis effect="italics">p′<sub>F</sub></emphasis> - <em
 <item><emphasis effect="italics">t</emphasis><sub>9</sub></item>
 <item>estadístico de prueba: 4,8963</item>
 <item>valor <emphasis effect="italics">p</emphasis>: 0,0004</item>
-<item>Compruebe la solución del estudiante</item>
+<item>Compruebe la solución del estudiante.</item>
 <item>
 <list id="eip-idp81211424" list-type="enumerated" number-style="lower-roman">
 <item>Alfa: 0,05</item>
 <item>Decisión: rechaza la hipótesis nula.</item>
-<item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>&lt; alfa</item>
+<item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> &lt; alfa</item>
 <item>Conclusión: Con un nivel de significación del 5 % hay pruebas suficientes para concluir que la diferencia media de los tiempos de trabajo en los días en que se desayuna y en los días en que no se desayuna ha aumentado.</item>
 </list>
 </item>

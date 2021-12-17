@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-<para id="element-38123">Aunque esta situación no es probable (conocer las desviaciones estándar de la población no es probable), el siguiente ejemplo ilustra la prueba de hipótesis para medias independientes, conociendo las desviaciones típicas de la población. La distribución muestral para la diferencia entre las medias es normal y ambas poblaciones deben ser normales. La variable aleatoria es <m:math>
+<para id="element-38123">Aunque esta situación no es probable (conocer las desviaciones típicas de la población no es probable), el siguiente ejemplo ilustra la prueba de hipótesis para medias independientes, conociendo las desviaciones típicas de la población. La distribución muestral para la diferencia entre las medias es normal y ambas poblaciones deben ser normales. La variable aleatoria es <m:math>
  <m:mrow>
   <m:mover accent="true">
    <m:mrow>
@@ -32,8 +32,8 @@
   </m:mover>
 
  </m:mrow>
-</m:math> La distribución normal tiene el siguiente formato:
-<equation class="unnumbered" id="normal"><title>La <term id="term-00001">distribución normal</term> es:</title>Los términos <m:math>
+</m:math>. La distribución normal tiene el siguiente formato:
+<equation class="unnumbered" id="normal"><label/><title>La <term id="term-00001">distribución normal</term> es:</title><m:math>
  <m:mrow>
   <m:msub>
    <m:mover accent="true">
@@ -114,9 +114,9 @@
  </m:mrow>
 </m:math></equation></para>
 
-<equation class="unnumbered" id="element-970">
+<equation class="unnumbered" id="element-970"><label/>
   <title><term id="term-00002">La desviación típica</term> es:</title>
-Los términos <m:math>
+<m:math>
    <m:mrow>
     <m:msqrt>
      <m:mrow>
@@ -171,7 +171,7 @@ Los términos <m:math>
    </m:mrow>
   </m:math>
  </equation>
- <equation class="unnumbered" id="element-465"><title>El <term id="term-00003">estadístico de prueba</term> (puntuación<emphasis effect="italics">z</emphasis>) es:</title>Los términos <m:math>
+ <equation class="unnumbered" id="element-465"><label/><title>El <term id="term-00003">estadístico de prueba</term> (puntuación<emphasis effect="italics">z</emphasis>) es:</title><m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -316,7 +316,7 @@ Los términos <m:math>
  <para id="element-696">La expresión <emphasis>“es más eficaz”</emphasis> dice que la cera 1 <emphasis>dura más que la cera 2</emphasis>, en promedio. “Más que” es el símbolo “>” y entra en <emphasis effect="italics">H<sub>a</sub></emphasis>. Por lo tanto, se trata de una prueba de cola derecha.</para>
  <para id="element-690"><emphasis>Distribución para la prueba:</emphasis> Las desviaciones típicas de la población son conocidas, por lo que la distribución es normal. Utilizando la fórmula, la distribución es:</para>
 
-<para id="element-406">Los términos <m:math>
+<para id="element-406"><m:math>
  <m:mrow>
         <m:msub>
         <m:mover accent="true">
@@ -373,13 +373,13 @@ Los términos <m:math>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math>
-</para><para id="element-990">Como <emphasis effect="italics">μ<sub>1</sub></emphasis> ≤ <emphasis effect="italics">μ<sub>2</sub></emphasis> entonces <emphasis effect="italics">μ<sub>1</sub></emphasis> - <emphasis effect="italics">μ<sub>2</sub></emphasis> ≤ 0 y la media de la distribución normal es cero.</para><para id="element-503"><emphasis>Calcule el valor <emphasis effect="italics">p</emphasis>utilizando la distribución normal:</emphasis> valor <emphasis effect="italics">p</emphasis> = 0,1799</para>
+</para><para id="element-990">Como <emphasis effect="italics">μ<sub>1</sub></emphasis> ≤ <emphasis effect="italics">μ<sub>2</sub></emphasis> entonces <emphasis effect="italics">μ<sub>1</sub></emphasis> - <emphasis effect="italics">μ<sub>2</sub></emphasis> ≤ 0 y la media de la distribución normal es cero.</para><para id="element-503"><emphasis>Calcule el valor <emphasis effect="italics">p</emphasis> utilizando la distribución normal:</emphasis> valor <emphasis effect="italics">p</emphasis> = 0,1799</para>
 
  <para id="element-542"><emphasis>Gráfico:</emphasis></para>
  <figure id="hyptest22_cmp_2_1"><media id="id48414007" alt="Se trata de una curva de distribución normal con media igual a cero. Los valores 0 y 0,1 están marcados en el eje horizontal. Una línea vertical se extiende desde 0,1 hasta la curva. La región debajo de la curva a la derecha de la línea está sombreada para representar el valor p = 0,1799."><image src="../../media/fig-ch10_03_01.jpg" mime-type="image/jpg" width="380"/>
  </media></figure>
 
- <para id="element-311">Los términos <m:math>
+ <para id="element-311"><m:math>
   <m:mrow>
    <m:msub>
     <m:mover accent="true">
@@ -409,13 +409,13 @@ Los términos <m:math>
 
  <para id="element-132"><emphasis>Conclusión:</emphasis> Al nivel de significación del 5 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que el tiempo medio de duración de la cera 1 sea mayor (la cera 1 es más eficaz) que el tiempo medio de duración de la cera 2.</para>
 
-<note id="fs-idp34028208" class="statistics calculator">
-<para id="eip-idp126677488">Pulse <code>STAT</code>. Desplace la flecha hacia <code>TESTS</code> y pulse <code>3:2-SampZTest</code>. Desplace la flecha hacia <code>STATS</code> y pulse <code>ENTER</code>. Desplace la flecha hacia abajo y presione ENTER <code>0,33</code> para sigma1, <code>0,36</code> para sigma2, <code>3</code> para la primera media muestral, <code>20</code> para n1, <code>2,9</code> para la segunda media muestral, y <code>20</code> para n2. Desplace la flecha hacia abajo hasta <emphasis effect="italics">μ</emphasis>1: y la flecha hacia > <emphasis effect="italics">μ</emphasis><sub>2</sub>. Pulse <code>ENTER</code>. Desplace la flecha hacia abajo hasta <code>Calculate</code> y pulse <code>ENTER</code>. El valor <emphasis effect="italics">p</emphasis> es <emphasis effect="italics">p</emphasis> = 0,1799 y el estadístico de prueba es 0,9157. Vuelva a realizar el procedimiento, pero en vez de <code>Calculate</code> presione <code>Draw</code>.</para></note></solution>
+<note id="fs-idp34028208" class="statistics calculator"><label/>
+<para id="eip-idp126677488">Pulse <code>STAT</code>. Desplace la flecha hacia <code>TESTS</code> y pulse <code>3:2-SampZTest</code>. Desplace la flecha hacia <code>STATS</code> y pulse <code>ENTER</code>. Desplace la flecha hacia abajo y presione ENTER <code>0,33</code> para sigma1, <code>0,36</code> para sigma2, <code>3</code> para la primera media muestral, <code>20</code> para n1, <code>2,9</code> para la segunda media muestral, y <code>20</code> para n2. Desplace la flecha hacia abajo hasta <emphasis effect="italics">μ</emphasis>1: y la flecha hacia > <emphasis effect="italics">μ</emphasis><sub>2</sub>. Pulse <code>ENTER</code>. Desplace la flecha hacia abajo hasta <code>Calculate</code> y pulse <code>ENTER</code>. El valor <emphasis effect="italics">p</emphasis> es <emphasis effect="italics">p</emphasis> = 0,1799 y el estadístico de prueba es 0,9157. Vuelva a realizar el procedimiento, pero en vez de <code>Calculate</code> presione <code>Dibujar</code>.</para></note></solution>
 </exercise></example>
 
 
 <note id="fs-idm64723040" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 
 <exercise id="fs-idm106881952">
@@ -523,7 +523,7 @@ Los términos <m:math>
   </m:msqrt>
   <m:mo stretchy="false">]</m:mo>
  </m:mrow>
-</m:math></para><para id="fs-idp2020752">Como <emphasis effect="italics">µ<sub>1</sub></emphasis> ≤ <emphasis effect="italics">µ<sub>2</sub></emphasis>, <emphasis effect="italics">µ<sub>1</sub></emphasis> - <emphasis effect="italics">µ<sub>2</sub></emphasis> ≤ 0 y la media de la distribución normal es cero.</para><para id="fs-idm100426736"><emphasis>(Calcular el valor <emphasis effect="italics">p</emphasis>utilizando la distribución normal da un valor</emphasis> <emphasis effect="italics">p</emphasis> = 0,4955)</para><para id="fs-idm98812432"><emphasis>Gráfico:</emphasis>
+</m:math></para><para id="fs-idp2020752">Como <emphasis effect="italics">µ<sub>1</sub></emphasis> ≤ <emphasis effect="italics">µ<sub>2</sub></emphasis>, <emphasis effect="italics">µ<sub>1</sub></emphasis> - <emphasis effect="italics">µ<sub>2</sub></emphasis> ≤ 0 y la media de la distribución normal es cero.</para><para id="fs-idm100426736"><emphasis>(Calcular el valor <emphasis effect="italics">p</emphasis> utilizando la distribución normal da un valor</emphasis> <emphasis effect="italics">p</emphasis> = 0,4955)</para><para id="fs-idm98812432"><emphasis>Gráfico:</emphasis>
  <figure id="fs-idp45038880"><media id="fs-idm86987792" alt="Se trata de una curva de distribución normal con media igual a cero. Una línea vertical a la derecha del cero se extiende desde el eje hasta la curva. La región debajo de la curva a la derecha de la línea está sombreada y representa un valor p = 0,4955." display="block">
 <image mime-type="image/jpg" src="../../media/CNX_Stats_C10_M03_001.jpg" width="380"/>
 </media></figure></para><para id="fs-idm41062352"><emphasis>Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>:</emphasis> <emphasis effect="italics">α</emphasis> = 0,05 y valor <emphasis effect="italics">p</emphasis> = 0,4955. Por lo tanto, <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis>.</para><para id="fs-idm49745696"><emphasis>Tome una decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis>, no se rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
@@ -544,7 +544,7 @@ Los términos <m:math>
 </section>
 
 <section id="fs-idm120175008" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idm9601152">Una prueba de hipótesis de dos medias poblacionales de muestras independientes en las que se conocen las desviaciones típicas de la población tendrá estas características: <list id="fs-idm193455088" list-type="bulleted"><item>Variable aleatoria: <m:math>
  <m:mrow>
   <m:msub>
@@ -651,7 +651,7 @@ Los términos <m:math>
 
   </m:mrow> <m:mo>]</m:mo></m:mrow>
  </m:mrow>
-</m:math> <newline/>Generalmente <emphasis><emphasis effect="italics">µ</emphasis><sub>1</sub> – <emphasis effect="italics">µ</emphasis><sub>2</sub> = 0.</emphasis></para><para id="fs-idm35490512">Estadístico de prueba (puntuación<emphasis effect="italics">z</emphasis>):<newline count="2"/> <m:math>
+</m:math>. <newline/>Generalmente <emphasis><emphasis effect="italics">µ</emphasis><sub>1</sub> – <emphasis effect="italics">µ</emphasis><sub>2</sub> = 0.</emphasis></para><para id="fs-idm35490512">Estadístico de prueba (puntuación<emphasis effect="italics">z</emphasis>):<newline count="2"/> <m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -663,7 +663,7 @@ Los términos <m:math>
 
      <m:mn>1</m:mn>
     </m:msub>
-    <m:mo>-</m:mo><m:msub>
+    <m:mo>–</m:mo><m:msub>
      <m:mover accent="true">
       <m:mi>x</m:mi>
       <m:mo>¯</m:mo>
@@ -671,7 +671,7 @@ Los términos <m:math>
 
      <m:mn>2</m:mn>
     </m:msub>
-    <m:mo stretchy="false">)</m:mo><m:mo>-</m:mo><m:mo stretchy="false">(</m:mo><m:msub>
+    <m:mo stretchy="false">)</m:mo><m:mo>–</m:mo><m:mo stretchy="false">(</m:mo><m:msub>
      <m:mi>μ</m:mi>
      <m:mn>1</m:mn>
     </m:msub>
@@ -736,7 +736,7 @@ Los términos <m:math>
   </m:mfrac>
 
  </m:mrow>
-</m:math> <newline count="2"/>Generalmente <emphasis><emphasis effect="italics">µ</emphasis><sub>1</sub> - <emphasis effect="italics">µ</emphasis><sub>2</sub> = 0.</emphasis></para><para id="fs-idm51475072"><emphasis>donde:</emphasis> <newline/> <emphasis effect="italics">σ</emphasis><sub>1</sub> y <emphasis effect="italics">σ</emphasis><sub>2</sub> son las desviaciones estándar poblacionales conocidas. <emphasis effect="italics">n</emphasis><sub>1</sub> y <emphasis effect="italics">n</emphasis><sub>2</sub> son los tamaños de las muestras. <m:math>
+</m:math> <newline count="2"/>Generalmente <emphasis><emphasis effect="italics">µ</emphasis><sub>1</sub> - <emphasis effect="italics">µ</emphasis><sub>2</sub> = 0.</emphasis></para><para id="fs-idm51475072"><emphasis>donde:</emphasis> <newline/> <emphasis effect="italics">σ</emphasis><sub>1</sub> y <emphasis effect="italics">σ</emphasis><sub>2</sub> son las desviaciones típicas poblacionales conocidas. <emphasis effect="italics">n</emphasis><sub>1</sub> y <emphasis effect="italics">n</emphasis><sub>2</sub> son los tamaños de las muestras. <m:math>
  <m:mrow>
   <m:msub>
    <m:mover accent="true">
@@ -927,9 +927,9 @@ Los términos <m:math>
 <section id="fs-idp58644992" class="free-response">
 <title>Tarea para la casa</title>
 <para id="eip-idm126171328"><emphasis effect="italics">INSTRUCCIONES: Para cada uno de los problemas de palabras use una hoja de soluciones para hacer la prueba de hipótesis. La hoja de soluciones se encuentra en el <link document="m47882"/>. No dude en hacer copias de las hojas de soluciones. Para la versión en línea del libro se sugiere copiar los archivos .doc o .pdf.</emphasis></para><note id="fs-idm71956336">
-
+<label/>
 <title>Nota</title>
-<para id="eip-idp76319008">Si usa una distribución <emphasis effect="italics">t</emphasis>de Student para uno de los siguientes problemas de tarea para la casa, incluso para datos emparejados, puede suponer que la población subyacente está distribuida normalmente (sin embargo, cuando se utilicen estas pruebas en una situación real, primero hay que demostrar ese supuesto).</para></note>
+<para id="eip-idp76319008">Si usa una distribución <emphasis effect="italics">t</emphasis> de Student para uno de los siguientes problemas de tarea para la casa, incluso para datos emparejados, puede suponer que la población subyacente está distribuida normalmente (sin embargo, cuando se utilicen estas pruebas en una situación real, primero hay que demostrar ese supuesto).</para></note>
 
 <exercise id="exer13">
 <problem id="id18237239">
@@ -949,12 +949,12 @@ Los términos <m:math>
     <item>normal</item>
     <item>estadístico de prueba: <emphasis effect="italics">z</emphasis> = 2,50</item>
     <item>valor <emphasis effect="italics">p</emphasis>: 0,0062</item>
-    <item>Compruebe la solución del estudiante</item>
+    <item>Compruebe la solución del estudiante.</item>
     <item>
     <list id="fs-idp146441584" list-type="enumerated" number-style="lower-roman">
      <item>Alfa: 0,05</item>
      <item>Decisión: rechaza la hipótesis nula.</item>
-     <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>&lt; alfa</item>
+     <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> &lt; alfa</item>
      <item>Conclusión: Con un nivel de significación del 5 % hay pruebas suficientes para concluir que el costo medio del seguro de automóvil de los adolescentes hombres es mayor que el de las adolescentes.</item>
     </list>
    </item>
@@ -974,7 +974,7 @@ Los términos <m:math>
     <item>normal</item>
     <item>estadístico de prueba: 6,36</item>
     <item>valor <emphasis effect="italics">p</emphasis>: 0</item>
-    <item>Compruebe la solución del estudiante</item>
+    <item>Compruebe la solución del estudiante.</item>
     <item>
     <list id="fs-idp76801312" list-type="enumerated" number-style="lower-roman">
      <item>Alfa: 0,05</item>
@@ -1050,8 +1050,8 @@ Los términos <m:math>
 <item><list id="eip-idm9745248" list-type="enumerated" number-style="lower-roman">
 <item>Alfa: 0,05</item>
 <item>Decisión: rechaza la hipótesis nula, pero realiza otra prueba.</item>
-<item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>&lt; alfa</item>
-<item>Conclusión: Se trata de una prueba débil porque alfa y el valor <emphasis effect="italics">p</emphasis>están cerca. Sin embargo, no hay pruebas suficientes para concluir que la diferencia media es negativa.</item>
+<item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> &lt; alfa</item>
+<item>Conclusión: Se trata de una prueba débil porque alfa y el valor <emphasis effect="italics">p</emphasis> están cerca. Sin embargo, no hay pruebas suficientes para concluir que la diferencia media es negativa.</item>
 </list>
 </item>
 </list></solution></exercise>

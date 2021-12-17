@@ -65,7 +65,7 @@
 </example>
 
 <note id="fs-idp6114880" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idp3142256">
 <problem id="fs-idm28250320">
@@ -77,7 +77,7 @@
 <para id="element-534">Los datos son las distancias (en kilómetros) de un hogar a supermercados locales. Cree un diagrama de tallo con los datos: <newline/>1,1; 1,5; 2,3; 2,5; 2,7; 3,2; 3,3; 3,3; 3,5; 3,8; 4,0; 4,2; 4,5; 4,5; 4,7; 4,8; 5,5; 5,6; 6,5; 6,7; 12,3</para><exercise id="element-6923"><problem id="id8567884">
 <para id="fs-idp11807920">¿Los datos parecen tener alguna concentración de valores?</para>
 <note id="id8559724">
-<title>NOTA</title>
+<label/><title>NOTA</title>
 <para id="fs-idp145995424">Las hojas están a la derecha del decimal.</para>
 </note>
 </problem>
@@ -134,7 +134,7 @@
 </exercise></example>
 
 <note id="fs-idp4001472" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm40603312">
 <problem id="fs-idm28790944">
@@ -249,7 +249,7 @@
 </table>
 </example>
 <note id="fs-idp9770768" class="statistics try">
-
+<label/>
 <exercise id="fs-idp35107968">
 <problem id="fs-idm2063072">
 <para id="fs-idm4586448">La tabla muestra el número de victorias y derrotas que han tenido los Atlanta Hawks en 42 temporadas. Cree un gráfico de tallo y hoja de estas victorias y derrotas.</para>
@@ -448,7 +448,7 @@
 </exercise>
 </note>
 
-<para id="eip-313">Otro tipo de gráfico que resulta útil para valores de datos específicos es el <emphasis>gráfico de líneas</emphasis>. En el gráfico de líneas en particular que se muestra en la <link target-id="example4"/>, el <emphasis>eje <emphasis effect="italics">x</emphasis></emphasis> (eje horizontal) está formado por los <emphasis>valores de los datos</emphasis> y el <emphasis>eje <emphasis effect="italics">y</emphasis></emphasis> (eje vertical) por <emphasis>puntos de frecuencia</emphasis>. Los puntos de frecuencia se conectan mediante segmentos de la línea.</para>
+<para id="eip-313">Otro tipo de gráfico que resulta útil para valores de datos específicos es el <emphasis>gráfico de líneas</emphasis>. En el gráfico de líneas en particular que se muestra en el <link target-id="example4"/>, el <emphasis>eje <emphasis effect="italics">x</emphasis></emphasis> (eje horizontal) está formado por los <emphasis>valores de los datos</emphasis> y el <emphasis>eje <emphasis effect="italics">y</emphasis></emphasis> (eje vertical) por <emphasis>puntos de frecuencia</emphasis>. Los puntos de frecuencia se conectan mediante segmentos de la línea.</para>
 
 <example id="example4">
 <para id="eip-682">En una encuesta, se preguntó a 40 madres cuántas veces a la semana hay que recordarle a un adolescente que haga sus tareas. Los resultados se muestran en la <link target-id="M01_Ch02_tbl008"/> y en la <link target-id="M01_Ch02_fig001"/>.</para><table id="M01_Ch02_tbl008" summary="The first column of the table consists of the number of times a teenager must be reminded to do his/her chores and the second column consists of frequency.">
@@ -494,7 +494,7 @@
 
 
 <note id="fs-idm28536512" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm95574864"><problem id="fs-idp19862832">
 
@@ -518,7 +518,7 @@
 </problem>
 </exercise></note>
 
-<para id="eip-136">Los <emphasis>gráficos de barras</emphasis> están formados por barras separadas entre sí. Las barras pueden ser rectángulos o recuadros rectangulares (usados en representaciones tridimensionales), y pueden ser verticales u horizontales. El <emphasis>gráfico de barras</emphasis> que se muestra en la <link target-id="example5"/> tiene los grupos de edad representados en el <emphasis>eje <emphasis effect="italics">x</emphasis></emphasis> y las proporciones en el <emphasis>eje <emphasis effect="italics">y</emphasis></emphasis>.</para><example id="example5">
+<para id="eip-136">Los <emphasis>gráficos de barras</emphasis> están formados por barras separadas entre sí. Las barras pueden ser rectángulos o recuadros rectangulares (usados en representaciones tridimensionales), y pueden ser verticales u horizontales. El <emphasis>gráfico de barras</emphasis> que se muestra en el <link target-id="example5"/> tiene los grupos de edad representados en el <emphasis>eje <emphasis effect="italics">x</emphasis></emphasis> y las proporciones en el <emphasis>eje <emphasis effect="italics">y</emphasis></emphasis>.</para><example id="example5">
 <exercise id="fs-idm7260336">
 <problem id="fs-idp99169968">
 <para id="eip-666">A finales de 2011, Facebook tenía más de 146 millones de usuarios en Estados Unidos. La <link target-id="M01_Ch02_tbl010"/> muestra tres grupos de edad, el número de usuarios en cada grupo de edad y la proporción (%) de usuarios en cada grupo de edad. Construya un gráfico de barras con estos datos.</para><table id="M01_Ch02_tbl010" summary="The information is from Facebook. The first row of the table displays age groups, the second row displays number of Facebook users and the third row displays percentages.">
@@ -534,19 +534,19 @@
 </row>
 </thead><tbody>
 <row>
-<entry>13–25</entry>
+<entry>13-25</entry>
 <entry>65.082.280</entry>
-<entry>45%</entry>
+<entry>45 %</entry>
 </row>
 <row>
-<entry>26–44</entry>
+<entry>26-44</entry>
 <entry>53.300.200</entry>
-<entry>36%</entry>
+<entry>36 %</entry>
 </row>
 <row>
-<entry>45–64</entry>
+<entry>45-64</entry>
 <entry>27.885.100</entry>
-<entry>19%</entry>
+<entry>19 %</entry>
 </row>
 </tbody>
 </tgroup>
@@ -561,7 +561,7 @@
 
 
 <note id="fs-idp2492880" class="statistics try">
-<title>Ejercicio</title>
+<label/><title>Ejercicio</title>
 <exercise id="fs-idm47906688">
 <problem id="fs-idm7708128">
 
@@ -576,9 +576,9 @@
 <row><entry>Grupos de edad</entry><entry>Número de personas</entry><entry>Proporción de la población</entry></row>
 </thead>
 <tbody>
-<row><entry>Niños</entry>	<entry>67.059</entry>	<entry>19%</entry></row>
-<row><entry>Adultos en edad de trabajar</entry>	<entry>152.198</entry>	<entry>43%</entry></row>
-<row><entry>Jubilados</entry>	<entry>131.662</entry>	<entry>38%</entry></row>
+<row><entry>Niños</entry>	<entry>67.059</entry>	<entry>19 %</entry></row>
+<row><entry>Adultos en edad de trabajar</entry>	<entry>152.198</entry>	<entry>43 %</entry></row>
+<row><entry>Jubilados</entry>	<entry>131.662</entry>	<entry>38 %</entry></row>
 </tbody>
 </tgroup>
 </table>
@@ -601,32 +601,32 @@
 <tbody>
 <row>
 <entry>1 = asiático, asiático americano o isleño del Pacífico</entry>
-<entry>10,3%</entry>
-<entry>5,7%</entry>
+<entry>10,3 %</entry>
+<entry>5,7 %</entry>
 </row>
 <row>
 <entry>2 = negro o afroamericano</entry>
-<entry>9,0%</entry>
-<entry>14,7%</entry>
+<entry>9,0 %</entry>
+<entry>14,7 %</entry>
 </row>
 <row>
 <entry>3 = hispano o latino</entry>
-<entry>17,0%</entry>
-<entry>17,6%</entry>
+<entry>17,0 %</entry>
+<entry>17,6 %</entry>
 </row>
 <row>
 <entry>4 = amerindio o nativo de Alaska</entry>
-<entry>0,6%</entry>
-<entry>1,1%</entry>
+<entry>0,6 %</entry>
+<entry>1,1 %</entry>
 </row>
 <row>
 <entry>5 = blanco</entry>
-<entry>57,1%</entry>
-<entry>59,2%</entry>
+<entry>57,1 %</entry>
+<entry>59,2 %</entry>
 </row>
 <row>
-<entry>6 = No informado/otro</entry>
-<entry>6,0%</entry>
+<entry>6 = no informado/otro</entry>
+<entry>6,0 %</entry>
 <entry>1,7%</entry>
 </row>
 </tbody>
@@ -641,7 +641,7 @@
 </example>
 
 <note id="fs-idp41522672" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm43065520">
 <problem id="fs-idp3652336">
@@ -655,12 +655,12 @@
 <row><entry>Distrito</entry><entry>Población de votantes registrados</entry><entry>Población total de la ciudad</entry></row>
 </thead>
 <tbody>
-<row><entry>1</entry><entry>15,5%</entry><entry>19,4%</entry></row>
-<row><entry>2</entry><entry>12,2%</entry><entry>15,6%</entry></row>
-<row><entry>3</entry><entry>9,8%</entry><entry>9,0%</entry></row>
-<row><entry>4</entry><entry>17,4%</entry><entry>18,5%</entry></row>
-<row><entry>5</entry><entry>22,8%</entry><entry>20,7%</entry></row>
-<row><entry>6</entry><entry>22,3%</entry><entry>16,8%</entry></row>
+<row><entry>1</entry><entry>15,5 %</entry><entry>19,4 %</entry></row>
+<row><entry>2</entry><entry>12,2 %</entry><entry>15,6 %</entry></row>
+<row><entry>3</entry><entry>9,8 %</entry><entry>9,0 %</entry></row>
+<row><entry>4</entry><entry>17,4 %</entry><entry>18,5 %</entry></row>
+<row><entry>5</entry><entry>22,8 %</entry><entry>20,7 %</entry></row>
+<row><entry>6</entry><entry>22,3 %</entry><entry>16,8 %</entry></row>
 </tbody>
 </tgroup>
 </table>
@@ -675,8 +675,8 @@
 </section>
 
 <section id="fs-idp18706816" class="summary">
-<title>Revisión del capítulo</title>
-<para id="fs-idp5119792">Un <emphasis>gráfico de tallo y hoja</emphasis> es una forma de representar los datos y observar la distribución. En un gráfico de tallo y hoja todos los valores de los datos de una clase son visibles. La ventaja de un gráfico de tallo y hoja es que se enumeran todos los valores, a diferencia de un histograma, que da clases de valores de datos. Un <emphasis>gráfico de líneas</emphasis> se suele usar para representar un conjunto de valores de datos en los que una cantidad varía con el tiempo. Estos gráficos son útiles para hallar tendencias. Es decir, hallar un patrón general en conjuntos de datos que incluyan temperatura, ventas, empleo, beneficios o costos de la compañía durante un periodo. Un <emphasis>gráfico de barras</emphasis> es un gráfico que utiliza barras horizontales o verticales para mostrar comparaciones entre categorías. Un eje del gráfico muestra las categorías específicas que se comparan, y el otro eje representa un valor discreto. Algunos gráficos de barras presentan las barras agrupadas en grupos de más de uno (gráficos de barras agrupados), y otros muestran las barras divididas en subpartes para mostrar el efecto acumulativo (gráficos de barras apilados). Los gráficos de barras son especialmente útiles cuando se utilizan datos categóricos.</para></section>
+<title>Repaso del capítulo</title>
+<para id="fs-idp5119792">Un <emphasis>gráfico de tallo y hoja</emphasis> es una forma de representar los datos y observar la distribución. En un gráfico de tallo y hoja todos los valores de los datos de una clase son visibles. La ventaja de un gráfico de tallo y hoja es que se enumeran todos los valores, a diferencia de un histograma, que da clases de valores de datos. Un <emphasis>gráfico de líneas</emphasis> se suele usar para representar un conjunto de valores de datos en los que una cantidad varía con el tiempo. Estos gráficos son útiles para hallar tendencias. Es decir, hallar un patrón general en conjuntos de datos que incluyan temperatura, ventas, empleo, ganancias o costos de la compañía durante un periodo. Un <emphasis>gráfico de barras</emphasis> es un gráfico que utiliza barras horizontales o verticales para mostrar comparaciones entre categorías. Un eje del gráfico muestra las categorías específicas que se comparan, y el otro eje representa un valor discreto. Algunos gráficos de barras presentan las barras agrupadas en grupos de más de uno (gráficos de barras agrupados), y otros muestran las barras divididas en subpartes para mostrar el efecto acumulativo (gráficos de barras apilados). Los gráficos de barras son especialmente útiles cuando se utilizan datos categóricos.</para></section>
 
 <section id="fs-idp51353072" class="practice">
 <para id="fs-idp2088992"><emphasis effect="italics">Para cada uno de los siguientes conjuntos de datos, cree un gráfico de tallo e identifique los valores atípicos.</emphasis></para>
@@ -815,10 +815,10 @@
 <row><entry>Estaciones</entry>	<entry align="center">Número de estudiantes</entry>	<entry align="center">Proporción de la población</entry></row>
 </thead>
 <tbody>
-<row><entry>Primavera</entry>	<entry>8</entry>	<entry>24%</entry></row>
-<row><entry>Verano</entry>	<entry>9</entry>	<entry>26%</entry></row>
-<row><entry>Otoño</entry>	<entry>11</entry>	<entry>32%</entry></row>
-<row><entry>Invierno</entry>	<entry>6</entry>	<entry>18%</entry></row>
+<row><entry>Primavera</entry>	<entry>8</entry>	<entry>24 %</entry></row>
+<row><entry>Verano</entry>	<entry>9</entry>	<entry>26 %</entry></row>
+<row><entry>Otoño</entry>	<entry>11</entry>	<entry>32 %</entry></row>
+<row><entry>Invierno</entry>	<entry>6</entry>	<entry>18 %</entry></row>
 </tbody>
 </tgroup>
 </table>
@@ -826,14 +826,14 @@
 </exercise>
 
 <exercise id="fs-idp114173136">
-<problem id="fs-idp114173392"><para id="fs-idp114173520">Use los datos de la clase de Matemáticas de la Sra. Ramírez suministrados en la <link target-id="exercise13"/> y construya un gráfico de barras que muestre los porcentajes.</para></problem>
+<problem id="fs-idp114173392"><para id="fs-idp114173520">Use los datos de la clase de Matemáticas de la Sra. Ramírez suministrados en el <link target-id="exercise13"/> y construya un gráfico de barras que muestre los porcentajes.</para></problem>
 <solution id="fs-idp107574416">
 <figure id="fs-idp48344576"><media id="fs-idp74133360" display="block" alt="Este es un gráfico de barras que coincide con los datos suministrados. El eje x muestra las estaciones del año y el eje y muestra la proporción de cumpleaños."><image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M03_009.jpg" width="350"/></media></figure></solution>
 </exercise>
 
 <exercise id="exercise10">
 <problem id="fs-idm2655872">
-<para id="fs-idp32116368">El condado de David tiene seis escuelas secundarias. Cada escuela envió a sus estudiantes a participar en un concurso de ciencias de todo el condado. La <link target-id="M01_Ch02_tbl022"/> muestra el desglose porcentual de los competidores de cada escuela y el porcentaje de toda la población estudiantil del condado que va a cada escuela. Construya un gráfico de barras que muestre el porcentaje de población de los competidores de cada escuela.</para>
+<para id="fs-idp32116368">El condado de David tiene seis escuelas secundarias. Cada escuela envió a sus estudiantes a participar en un concurso de Ciencias de todo el condado. La <link target-id="M01_Ch02_tbl022"/> muestra el desglose porcentual de los competidores de cada escuela y el porcentaje de toda la población estudiantil del condado que va a cada escuela. Construya un gráfico de barras que muestre el porcentaje de población de los competidores de cada escuela.</para>
 
 <table id="M01_Ch02_tbl022" summary="">
 <tgroup cols="3">
@@ -842,12 +842,12 @@
 <colspec colnum="3" align="left"/>
 <thead><row><entry>Escuela Secundaria</entry><entry align="center">Población de la competición científica</entry><entry align="center">Población estudiantil total</entry></row></thead>
 <tbody>
-<row><entry>Alabaster</entry><entry>28,9%</entry><entry>8,6%</entry></row>
-<row><entry>Concordia</entry><entry>7,6%</entry><entry>23,2%</entry></row>
-<row><entry>Genoa</entry><entry>12,1%</entry><entry>15,0%</entry></row>
-<row><entry>Mocksville</entry><entry>18,5%</entry><entry>14,3%</entry></row>
-<row><entry>Tynneson</entry><entry>24,2%</entry><entry>10,1%</entry></row>
-<row><entry>West End</entry><entry>8,7%</entry><entry>28,8%</entry></row>
+<row><entry>Alabaster</entry><entry>28,9 %</entry><entry>8,6 %</entry></row>
+<row><entry>Concordia</entry><entry>7,6 %</entry><entry>23,2 %</entry></row>
+<row><entry>Genoa</entry><entry>12,1 %</entry><entry>15,0 %</entry></row>
+<row><entry>Mocksville</entry><entry>18,5 %</entry><entry>14,3 %</entry></row>
+<row><entry>Tynneson</entry><entry>24,2 %</entry><entry>10,1 %</entry></row>
+<row><entry>West End</entry><entry>8,7 %</entry><entry>28,8 %</entry></row>
 </tbody>
 </tgroup>
 </table>
@@ -857,7 +857,7 @@
 
 <exercise id="fs-idp107146752">
 <problem id="fs-idp107568048">
-<para id="fs-idp107568176">Utilice los datos del concurso de ciencias del condado de David que se facilitan en la <link target-id="exercise10"/>. Construya un gráfico de barras que muestre el porcentaje de población de todo el condado de los estudiantes en cada escuela.</para></problem>
+<para id="fs-idp107568176">Utilice los datos del concurso de Ciencias del condado de David que se facilitan en el <link target-id="exercise10"/>. Construya un gráfico de barras que muestre el porcentaje de población de todo el condado de los estudiantes en cada escuela.</para></problem>
 <solution id="fs-idp4118704">
 <figure id="fs-idp86744448"><media id="fs-idp112012640" display="block" alt="Este es un gráfico de barras que coincide con los datos suministrados. El eje x muestra las escuelas secundarias del condado y el eje y muestra la proporción de estudiantes del condado."><image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M03_011.jpg" width="420"/></media></figure></solution>
 </exercise>

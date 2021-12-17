@@ -12,15 +12,15 @@
 <media id="fs-idm115166448" alt="Esta es una foto tomada del cielo nocturno. Se muestra un meteorito y su cola entrando en la atmósfera terrestre.">
 <image mime-type="image/jpg" src="../../media/CNX_Stats_C03_CO.jpg" width="500"/>
 </media>
-<caption>Las lluvias de meteoros son poco comunes, pero se puede calcular la probabilidad de que se produzcan (crédito: Navicore/flickr).</caption>
+<caption>Las lluvias de meteoros son poco comunes, pero se puede calcular la probabilidad de que se produzcan (créditos: Navicore/flickr).</caption>
 </figure>
 <note id="fs-idm7161872" class="chapter-objectives">
-
+<label/>
 <title>Objetivos del capítulo</title>
 <para id="fs-idm75575520">Al final de este capítulo el estudiante podrá:</para>
 <list id="list1523423">
 <item>Comprender y utilizar la terminología de la probabilidad.</item>
-<item>Determinar si dos sucesos son mutuamente exclusivos y si dos sucesos son independientes.</item>
+<item>Determinar si dos eventos son mutuamente excluyentes y si dos eventos son independientes.</item>
 <item>Calcular las probabilidades utilizando las reglas de adición y de multiplicación.</item>
 <item>Construir e interpretar tablas de contingencia.</item>
 <item>Construir e interpretar diagramas de Venn.</item>
@@ -30,9 +30,9 @@
 <para id="intro01">A menudo es necesario “estimar” el resultado de un evento para tomar una decisión. Los políticos estudian los sondeos para estimar sus posibilidades de ganar unas elecciones. Los maestros eligen un curso de estudio particular con base en lo que creen que los estudiantes pueden comprender. Los médicos eligen los tratamientos necesarios para las distintas enfermedades con base en su evaluación de los resultados probables. Es posible que haya visitado un casino en el que las personas participan en juegos elegidos por la creencia de que la probabilidad de ganar es buena. Es posible que haya elegido sus estudios según la probable disponibilidad de trabajo.</para>
 <para id="element-209">Es más que posible que haya utilizado la probabilidad. De hecho, posiblemente tenga un sentido intuitivo de la probabilidad. La probabilidad se refiere a la posibilidad de que se produzca un evento. Cada vez que sopesa las probabilidades de hacer o no la tarea para la casa o de estudiar para un examen está utilizando la probabilidad. En este capítulo aprenderá a resolver problemas de probabilidad mediante un enfoque sistemático. </para>
 <note id="fs-idm8566848" class="statistics collab">
-
+<label/>
  
-<para id="element-663">Su instructor hará una encuesta en su clase. Cuente el número de alumnos que hay hoy en la clase.</para>
+<para id="element-663">Su instructor hará una encuesta en su clase. Cuente el número de estudiantes que hay hoy en la clase.</para>
 <list id="element-577" list-type="bulleted">
 <item>Levante la mano quien tenga algunas monedas en el bolsillo o en el bolso. Anote el número de manos levantadas.</item>
 <item>Levante la mano quien haya viajado en autobús en el último mes. Anote el número de manos levantadas.</item>
@@ -41,8 +41,8 @@
 <para id="element-352">Utilice los datos de la clase como estimaciones de las siguientes probabilidades. <emphasis effect="italics">P</emphasis>(monedas) significa la probabilidad de que una persona elegida al azar en su clase tenga monedas en su bolsillo o bolso. <emphasis effect="italics">P</emphasis>(autobús) significa la probabilidad de que una persona elegida al azar de su clase haya viajado en autobús en el último mes y así sucesivamente. Discuta sus respuestas.</para>
 <list id="element-204" list-type="bulleted"><item>Calcule <emphasis effect="italics">P</emphasis>(monedas).</item>
 <item>Calcule <emphasis effect="italics">P</emphasis>(autobús).</item>
-<item>Calcule <emphasis effect="italics">P</emphasis>(monedas Y autobús). Calcule la probabilidad de que un estudiante de su clase elegido al azar tenga monedas en su bolsillo o bolso y haya viajado en autobús en el último mes.</item>
-<item>Calcule <emphasis effect="italics">P</emphasis>(monedas|autobús). Calcule la probabilidad de que un estudiante elegido al azar tenga monedas dado que ha viajado en autobús en el último mes. Cuente todos los estudiantes que han viajado en autobús. Del grupo de alumnos que han viajado en autobús, cuente a los que tienen monedas. La probabilidad es igual a la de los que tienen monedas y han viajado en autobús dividida por la de los que han viajado en autobús.</item>
+<item>Calcule <emphasis effect="italics">P</emphasis>(monedas Y autobús). Calcule la probabilidad de que un estudiante de su clase elegido al azar tenga monedas en su bolsillo o bolso y haya viajado en autobús durante el mes pasado.</item>
+<item>Calcule <emphasis effect="italics">P</emphasis>(monedas|autobús). Calcule la probabilidad de que un estudiante elegido al azar tenga monedas dado que ha viajado en autobús durante el mes pasado. Cuente todos los estudiantes que han viajado en autobús. Del grupo de estudiantes que han viajado en autobús, cuente a los que tienen monedas. La probabilidad es igual a la de los que tienen monedas y han viajado en autobús dividida por la de los que han viajado en autobús.</item>
 </list>
 </note>
  </content> 

@@ -8,9 +8,9 @@
 </metadata>
 
 <content>
-    <para id="eip-494">Durante un año electoral vemos artículos en el periódico que indican <term id="term-00001">intervalos de confianza</term> en términos de proporciones o porcentajes. Por ejemplo, un sondeo para un candidato determinado que se presenta a las elecciones presidenciales puede mostrar que el candidato tiene el 40 % de los votos con una diferencia de tres puntos porcentuales (si la muestra es lo suficientemente grande). A menudo, las encuestas electorales se calculan con un 95 % de confianza, por lo que los encuestadores tendrían un 95 % de confianza en que la verdadera proporción de votantes que favorecen al candidato estaría entre el 0,37 y el 0,43.</para><para id="element-292">Los inversores en bolsa se interesan por la proporción real de acciones que suben y bajan cada semana. Las compañías que venden computadores personales están interesadas en la proporción de hogares de Estados Unidos que tienen computadores personales. Se pueden calcular intervalos de confianza para la proporción real de acciones que suben o bajan cada semana y para la proporción real de hogares en Estados Unidos que poseen computadores personales.</para>
+    <para id="eip-494">Durante un año electoral vemos artículos en el periódico que indican <term id="term-00001">intervalos de confianza</term> en términos de proporciones o porcentajes. Por ejemplo, un sondeo para un candidato determinado que se presenta a las elecciones presidenciales puede mostrar que el candidato tiene el 40 % de los votos con una diferencia de tres puntos porcentuales (si la muestra es lo suficientemente grande). A menudo, las encuestas electorales se calculan con un 95 % de confianza, por lo que los encuestadores tendrían un 95 % de confianza en que la verdadera proporción de votantes que favorecen al candidato estaría entre el 0,37 y el 0,43.</para><para id="element-292">Los inversores en bolsa se interesan por la proporción real de acciones que suben y bajan cada semana. Las compañías que venden computadoras personales están interesadas en la proporción de hogares de Estados Unidos que tienen computadoras personales. Se pueden calcular intervalos de confianza para la proporción real de acciones que suben o bajan cada semana y para la proporción real de hogares en Estados Unidos que poseen computadoras personales.</para>
  <para id="element-918">El procedimiento para calcular el intervalo de confianza de una proporción poblacional es similar al de la media poblacional, pero las fórmulas son un poco diferentes, aunque conceptualmente idénticas. Aunque las fórmulas son diferentes, se basan en el mismo fundamento matemático que nos proporciona el teorema central del límite. Por ello, veremos el mismo formato básico utilizando los mismos tres datos: el valor muestral del parámetro en cuestión, la desviación típica de la distribución muestral correspondiente y el número de desviaciones típicas que necesitamos para tener la confianza en nuestra estimación que deseamos.</para><para id="element-574"><emphasis>¿Cómo sabe que está ante un problema de proporción?</emphasis> En primer lugar, la <emphasis>distribución subyacente tiene una variable aleatoria binaria y, por tanto, es una</emphasis> <term id="term-00002">distribución binomial</term>. (No se menciona la media o el promedio). Si <emphasis effect="italics">X</emphasis> es una variable aleatoria binomial, entonces <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n</emphasis>, <emphasis effect="italics">p</emphasis>) donde <emphasis effect="italics">n</emphasis> es el número de ensayos y <emphasis effect="italics">p</emphasis> es la probabilidad de acierto Para formar una proporción de la muestra, tome <emphasis effect="italics">X</emphasis>, la variable aleatoria para el número de aciertos y divídala por <emphasis effect="italics">n</emphasis>, el número de ensayos (o el tamaño de la muestra). La variable aleatoria <emphasis effect="italics">P′</emphasis> (léase "P prima") es la proporción de la muestra,
-  </para><para id="element-771">Los términos <m:math>
+  </para><para id="element-771"><m:math>
    <m:mrow>
     <m:msup>
      <m:mi>P</m:mi>
@@ -34,11 +34,11 @@
 
  <para id="element-142"><emphasis effect="italics">p′</emphasis> = la <emphasis>proporción estimada</emphasis> de éxitos o la proporción muestral de éxitos<emphasis effect="italics">(p′</emphasis> es una <emphasis>estimación puntual</emphasis> de <emphasis effect="italics">p</emphasis>, la verdadera proporción poblacional, y, por tanto, <emphasis effect="italics">q</emphasis> es la probabilidad de un fracaso en cualquier ensayo).</para><para id="element-818"><emphasis effect="italics">x</emphasis> = <emphasis>número</emphasis> de aciertos en la muestra</para><para id="element-434"><emphasis effect="italics">n</emphasis> = el tamaño de la muestra</para>
 
-<para id="eip-199">La fórmula del intervalo de confianza para una proporción de la población sigue el mismo formato que el de la estimación de una media de la población. Recordando la distribución de muestreo para la proporción del <link document="m54530">Capítulo 7</link>, se encontró que la desviación típica es:</para><equation class="unnumbered" id="eip-602">Los términos <m:math><m:msub><m:mi>σ</m:mi><m:mi>p'</m:mi></m:msub><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:msqrt></m:math></equation><para id="eip-172">Por lo tanto, el intervalo de confianza para una proporción poblacional se convierte en</para><equation id="eip-194">Los términos <m:math><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>±</m:mo><m:mo>[</m:mo><m:msub><m:mi>Z</m:mi><m:mrow><m:mo>(</m:mo><m:mfrac><m:mi>a</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow></m:msub><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>]</m:mo></m:math></equation><para id="eip-973">Los términos <m:math><m:msub><m:mi>Z</m:mi><m:mrow><m:mo>(</m:mo><m:mfrac><m:mi>a</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow></m:msub></m:math> se fija en función del grado de confianza que deseemos y <m:math><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt></m:math> es la desviación típica de la distribución muestral.</para><para id="element-685">Las <emphasis> proporciones muestrales <emphasis effect="italics">p′</emphasis> y <emphasis effect="italics">q′</emphasis> son estimaciones de las proporciones poblacionales desconocidas <emphasis effect="italics">p</emphasis> y <emphasis effect="italics">q</emphasis></emphasis>. Se utilizan las proporciones estimadas <emphasis effect="italics">p′</emphasis> y <emphasis effect="italics">q′</emphasis> porque <emphasis effect="italics">p</emphasis> y <emphasis effect="italics">q</emphasis> no se conocen. </para><para id="eip-247">Recuerde que a medida que <emphasis effect="italics">p</emphasis> se aleja de 0,5 la distribución binomial se vuelve menos simétrica. Como estamos estimando la binomial con la distribución normal simétrica, cuanto más se aleje de la simetría la binomial, menos confianza tendremos en la estimación.</para><para id="eip-436">Esta conclusión puede demostrarse mediante el siguiente análisis. Las proporciones se basan en la distribución de probabilidad binomial. Los posibles resultados son binarios, "éxito" o "fracaso". Esto da lugar a una proporción, es decir, el porcentaje de los resultados que son "éxitos". Se demostró que la distribución binomial podía entenderse completamente si solo conocíamos la probabilidad de éxito en un ensayo cualquiera, llamada p. Se encontró que la media y la desviación típica de la binomial eran:</para><equation id="eip-107">Los términos <m:math>
+<para id="eip-199">La fórmula del intervalo de confianza para una proporción de la población sigue el mismo formato que el de la estimación de una media de la población. Recordando la distribución de muestreo para la proporción del <link document="m54530">Capítulo 7</link>, se encontró que la desviación típica es:</para><equation class="unnumbered" id="eip-602"><m:math><m:msub><m:mi>σ</m:mi><m:mi>p'</m:mi></m:msub><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:msqrt></m:math></equation><para id="eip-172">Por lo tanto, el intervalo de confianza para una proporción poblacional se convierte en</para><equation id="eip-194"><m:math><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>±</m:mo><m:mo>[</m:mo><m:msub><m:mi>Z</m:mi><m:mrow><m:mo>(</m:mo><m:mfrac><m:mi>a</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow></m:msub><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>]</m:mo></m:math></equation><para id="eip-973"><m:math><m:msub><m:mi>Z</m:mi><m:mrow><m:mo>(</m:mo><m:mfrac><m:mi>a</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow></m:msub></m:math> se fija en función del grado de confianza que deseemos y <m:math><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt></m:math> es la desviación típica de la distribución muestral.</para><para id="element-685">Las <emphasis> proporciones muestrales <emphasis effect="italics">p′</emphasis> y <emphasis effect="italics">q′</emphasis> son estimaciones de las proporciones poblacionales desconocidas <emphasis effect="italics">p</emphasis> y <emphasis effect="italics">q</emphasis></emphasis>. Se utilizan las proporciones estimadas <emphasis effect="italics">p′</emphasis> y <emphasis effect="italics">q′</emphasis> porque <emphasis effect="italics">p</emphasis> y <emphasis effect="italics">q</emphasis> no se conocen. </para><para id="eip-247">Recuerde que a medida que <emphasis effect="italics">p</emphasis> se aleja de 0,5 la distribución binomial se vuelve menos simétrica. Como estamos estimando la binomial con la distribución normal simétrica, cuanto más se aleje de la simetría la binomial, menos confianza tendremos en la estimación.</para><para id="eip-436">Esta conclusión puede demostrarse mediante el siguiente análisis. Las proporciones se basan en la distribución de probabilidad binomial. Los posibles resultados son binarios, "éxito" o "fracaso". Esto da lugar a una proporción, es decir, el porcentaje de los resultados que son "éxitos". Se demostró que la distribución binomial podía entenderse completamente si solo conocíamos la probabilidad de éxito en un ensayo cualquiera, llamada p. Se encontró que la media y la desviación típica de la binomial eran:</para><equation id="eip-107"><label/><m:math>
 <m:mi>
 μ</m:mi><m:mo> =</m:mo><m:mi> np
 </m:mi>
-</m:math></equation><equation class="unnumbered" id="eip-455">Los términos <m:math>
+</m:math></equation><equation class="unnumbered" id="eip-455"><label/><m:math>
 <m:mi>σ</m:mi>
 <m:mo>=</m:mo>
 <m:msqrt>
@@ -47,7 +47,7 @@
 <m:mi>q</m:mi>
 
 </m:msqrt>
-</m:math></equation><para id="eip-700">También se demostró que la binomial podía ser estimada por la distribución normal si TANTO np COMO nq eran mayores que 5. A partir de la discusión anterior, se encontró que la fórmula de estandarización para la distribución binomial es:</para><equation class="unnumbered" id="eip-181">Los términos <m:math>
+</m:math></equation><para id="eip-700">También se demostró que la binomial podía ser estimada por la distribución normal si TANTO np COMO nq eran mayores que 5. A partir de la discusión anterior, se encontró que la fórmula de estandarización para la distribución binomial es:</para><equation class="unnumbered" id="eip-181"><label/><m:math>
 <m:mi>Z</m:mi>
 <m:mo>=</m:mo>
 <m:mfrac>
@@ -55,7 +55,7 @@
 
 <m:mi>p'</m:mi>
 
-<m:mo>-</m:mo>
+<m:mo>–</m:mo>
 <m:mi>p</m:mi>
 </m:mrow>
 <m:mrow>
@@ -80,9 +80,9 @@
 
 
 </m:mfrac>
-</m:math></equation><para id="eip-308">que no es más que un replanteamiento de la fórmula general de normalización con las sustituciones adecuadas para μ y σ del binomio. Podemos utilizar la distribución normal estándar, la razón por la que Z está en la ecuación, porque la distribución normal es la distribución limitante de la binomial. Este es otro ejemplo del teorema del límite central. Ya hemos visto que la distribución muestral de las medias se distribuye normalmente. Recordemos la extensa discusión del <link document="m54530">Capítulo 7</link> sobre la distribución muestral de las proporciones y las conclusiones del teorema del límite central.</para><para id="eip-359">Ahora podemos manipular esta fórmula de la misma manera que hicimos para encontrar los intervalos de confianza para una media, pero para encontrar el intervalo de confianza para el parámetro poblacional binomial, p.</para><equation class="unnumbered" id="eip-511">Los términos <m:math>
+</m:math></equation><para id="eip-308">que no es más que un replanteamiento de la fórmula general de normalización con las sustituciones adecuadas para μ y σ del binomio. Podemos utilizar la distribución normal estándar, la razón por la que Z está en la ecuación, porque la distribución normal es la distribución limitante de la binomial. Este es otro ejemplo del teorema del límite central. Ya hemos visto que la distribución muestral de las medias se distribuye normalmente. Recordemos la extensa discusión del <link document="m54530">Capítulo 7</link> sobre la distribución muestral de las proporciones y las conclusiones del teorema del límite central.</para><para id="eip-359">Ahora podemos manipular esta fórmula de la misma manera que hicimos para calcular los intervalos de confianza para una media, pero para calcular el intervalo de confianza para el parámetro poblacional binomial, p.</para><equation class="unnumbered" id="eip-511"><label/><m:math>
 <m:mi>p'</m:mi>
-<m:mo>-</m:mo>
+<m:mo>–</m:mo>
 <m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub>
 <m:msqrt><m:mfrac><m:mrow><m:mi>p'q'</m:mi></m:mrow>
 <m:mrow><m:mi>n</m:mi></m:mrow>
@@ -108,8 +108,8 @@
 </problem>
 <solution id="id24363164">
 <list id="element-757" list-type="bulleted"><item>La solución paso a paso.</item>
-</list><para id="element-386">Supongamos que <emphasis effect="italics">X</emphasis> = el número de personas de la muestra que tienen teléfonos móviles. <emphasis effect="italics">X</emphasis> es binomial: la variable aleatoria es binaria, la gente o tiene un teléfono móvil o no lo tiene. </para><para id="element-985">Para calcular el intervalo de confianza, debemos encontrar <emphasis effect="italics">p′</emphasis>, <emphasis effect="italics">q′</emphasis>.</para><para id="element-227"><emphasis effect="italics">n</emphasis> = 500</para>
-<para id="eip-idm67964976"><emphasis effect="italics">x</emphasis> = número de aciertos en la muestra = 421</para><para id="element-513">Los términos <m:math>
+</list><para id="element-386">Supongamos que <emphasis effect="italics">X</emphasis> = el número de personas de la muestra que tienen teléfonos móviles. <emphasis effect="italics">X</emphasis> es binomial: la variable aleatoria es binaria, la gente o tiene un teléfono móvil o no lo tiene. </para><para id="element-985">Para calcular el intervalo de confianza, debemos hallar <emphasis effect="italics">p′</emphasis>, <emphasis effect="italics">q′</emphasis>.</para><para id="element-227"><emphasis effect="italics">n</emphasis> = 500</para>
+<para id="eip-idm67964976"><emphasis effect="italics">x</emphasis> = número de aciertos en la muestra = 421</para><para id="element-513"><m:math>
   <m:mrow>
    <m:msup>
     <m:mi>p</m:mi>
@@ -167,9 +167,9 @@
 <m:mo>=</m:mo>
 <m:mn>1,96</m:mn>
 </m:math></para>
- <para id="element-88" class="finger">Esto se puede encontrar utilizando la tabla de probabilidad normal estándar en la <link document="m56641"/>. Esto también se puede encontrar en la tabla t de los estudiantes en la columna de 0,025 y en infinitos grados de libertad porque en infinitos grados de libertad la distribución <emphasis effect="italics">t</emphasis>de los estudiantes se convierte en la distribución normal estándar, Z.</para><para id="element-144">El intervalo de confianza para la proporción poblacional binomial verdadera es <equation class="unnumbered" id="eip-id1169963537277">Los términos <m:math>
+ <para id="element-88" class="finger">Esto se puede calcular utilizando la tabla de probabilidad normal estándar del <link document="m56641"/>. Esto también se puede encontrar en la tabla t de los estudiantes en la columna de 0,025 y en infinitos grados de libertad porque en infinitos grados de libertad la distribución <emphasis effect="italics">t</emphasis>de los estudiantes se convierte en la distribución normal estándar, Z.</para><para id="element-144">El intervalo de confianza para la proporción poblacional binomial verdadera es <equation class="unnumbered" id="eip-id1169963537277"><label/><m:math>
 <m:mi>p'</m:mi>
-<m:mo>-</m:mo>
+<m:mo>–</m:mo>
 <m:msub>
 <m:mi>Z</m:mi>
 <m:mi>α</m:mi>
@@ -206,38 +206,38 @@
 </m:mrow>
 </m:mfrac>
 </m:msqrt>
-</m:math></equation><equation class="unnumbered" id="eip-id1169961103996">Los términos <m:math><m:mtext>Sustituyendo los valores anteriores encontramos que el intervalo de confianza es: </m:mtext><m:mn>0,810</m:mn><m:mo>≤</m:mo><m:mi>p</m:mi><m:mo>≤</m:mo><m:mn>0,874</m:mn></m:math></equation></para><para id="element-822">
+</m:math></equation><equation class="unnumbered" id="eip-id1169961103996"><label/><m:math><m:mtext>Sustituyendo los valores anteriores encontramos que el intervalo de confianza es: </m:mtext><m:mn>0,810</m:mn><m:mo>≤</m:mo><m:mi>p</m:mi><m:mo>≤</m:mo><m:mn>0,874</m:mn></m:math></equation></para><para id="element-822">
 <title>Interpretación</title>Estimamos con el 95 % de confianza que entre el 81 % y el 87,4 % de todos los residentes adultos de esta ciudad tienen teléfonos móviles.</para>
  <para id="element-415">
 <title>Explicación del nivel de confianza del 95 %</title>El noventa y cinco por ciento de los intervalos de confianza construidos de este modo contendrían el valor real de la proporción de población de todos los residentes adultos de esta ciudad que tienen teléfonos móviles.<newline/></para>
 </solution>
 
 </exercise></example>
-<note id="fs-idp89365680" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idp89365680" class="statistics try"><label/><title>Ejercicio</title>
    <exercise id="eip-890"><problem id="eip-454">
   <para id="eip-844">
 Supongamos que se encuestan 250 personas seleccionadas al azar para determinar si tienen una tableta. De los 250 encuestados, 98 declararon que tienen una tableta. Utilizando un nivel de confianza del 95 %, calcule una estimación del intervalo de confianza para la verdadera proporción de personas que tienen tabletas.
   </para>
 </problem>
-<solution id="eip-206">
+<solution id="eip-206"><label/>
   <para id="eip-90">(0,3315, 0,4525)</para>
 </solution>
    </exercise>
 </note><example id="eip-786"><exercise id="eip-id1172122788985"><problem id="eip-id1172107422772">
-  <para id="eip-id1172117840401">La Escuela de Adiestramiento Canino de Dundee tiene una proporción mayor que la media de clientes que compiten en eventos profesionales. Se construye un intervalo de confianza para la proporción poblacional de perros que compiten en eventos profesionales de 150 escuelas de adiestramiento diferentes. El límite inferior se determina en 0,08 y el superior en 0,16. Determine el nivel de confianza utilizado para construir el intervalo de la proporción poblacional de perros que compiten en eventos profesionales.</para></problem>
+  <para id="eip-id1172117840401">La Escuela de Adiestramiento Canino de Dundee tiene una proporción mayor que el promedio de clientes que compiten en eventos profesionales. Se construye un intervalo de confianza para la proporción poblacional de perros que compiten en eventos profesionales de 150 escuelas de adiestramiento diferentes. El límite inferior se determina en 0,08 y el superior en 0,16. Determine el nivel de confianza utilizado para construir el intervalo de la proporción poblacional de perros que compiten en eventos profesionales.</para></problem>
 <solution id="eip-id1172102325982">
-  <para id="eip-id1172099368827">Comenzamos con la fórmula de un intervalo de confianza para una proporción porque la variable aleatoria es binaria; el cliente compite en eventos caninos profesionales o no lo hace.</para><equation class="unnumbered" id="eip-id1172122574035">Los términos <m:math><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>±</m:mo><m:mo>[</m:mo><m:msub><m:mi>Z</m:mi><m:mrow><m:mo>(</m:mo><m:mfrac><m:mi>a</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow></m:msub><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>]</m:mo></m:math></equation>
+  <para id="eip-id1172099368827">Comenzamos con la fórmula de un intervalo de confianza para una proporción porque la variable aleatoria es binaria; el cliente compite en eventos caninos profesionales o no lo hace.</para><equation class="unnumbered" id="eip-id1172122574035"><label/><m:math><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>±</m:mo><m:mo>[</m:mo><m:msub><m:mi>Z</m:mi><m:mrow><m:mo>(</m:mo><m:mfrac><m:mi>a</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow></m:msub><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>]</m:mo></m:math></equation>
    <para id="eip-id1172100365957">A continuación, calculamos la proporción de la muestra:</para>
-   <equation class="unnumbered" id="eip-id1172101566261">Los términos <m:math><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0,08</m:mn><m:mo>+</m:mo><m:mn>0,16</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,12</m:mn></m:math></equation>
+   <equation class="unnumbered" id="eip-id1172101566261"><label/><m:math><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0,08</m:mn><m:mo>+</m:mo><m:mn>0,16</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0,12</m:mn></m:math></equation>
    <para id="eip-id6479480">El ± que compone el intervalo de confianza es, pues, 0,04; 0,12 + 0,04 = 0,16 y 0,12 - 0,04 = 0,08, los límites del intervalo de confianza. Por último, resolvemos para <emphasis effect="italics">Z</emphasis>.</para>
-   <para id="eip-id1169335320053">Los términos <m:math><m:mo>[</m:mo><m:mi>Z</m:mi><m:mo>⋅</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>0,12</m:mn><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>- −</m:mo><m:mn>0,12</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>150</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>]</m:mo><m:mo>=</m:mo><m:mn>0,04</m:mn></m:math>, <emphasis><emphasis effect="italics">por lo que Z</emphasis> = 1,51</emphasis></para>
-   <para id="eip-id1169337927448">Y luego buscamos la probabilidad para 1,51 desviaciones estándar en la tabla normal estándar.</para><para id="eip-id1166885205984">Los términos <m:math><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>1,51</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0,4345</m:mn></m:math>, <m:math><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>Z</m:mi><m:mo>)</m:mo><m:mo>⋅</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0,8690</m:mn></m:math> <emphasis effect="italics"><emphasis>o</emphasis></emphasis> <m:math><m:mn>86,90</m:mn><m:mo>%</m:mo></m:math></para></solution>
+   <para id="eip-id1169335320053"><m:math><m:mo>[</m:mo><m:mi>Z</m:mi><m:mo>⋅</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>0,12</m:mn><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mn>0,12</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>150</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>]</m:mo><m:mo>=</m:mo><m:mn>0,04</m:mn></m:math>, <emphasis><emphasis effect="italics">por lo que Z</emphasis> = 1,51</emphasis></para>
+   <para id="eip-id1169337927448">Y luego buscamos la probabilidad para 1,51 desviaciones típicas en la tabla normal estándar.</para><para id="eip-id1166885205984"><m:math><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>Z</m:mi><m:mo>=</m:mo><m:mn>1,51</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0,4345</m:mn></m:math>, <m:math><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>Z</m:mi><m:mo>)</m:mo><m:mo>⋅</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0,8690</m:mn></m:math> <emphasis effect="italics"><emphasis>o</emphasis></emphasis> <m:math><m:mn>86,90</m:mn><m:mo>%</m:mo></m:math>.</para></solution>
 </exercise></example><example id="eip-164"><exercise id="element-2"><problem id="id1164699825510">
-  <para id="element-182">Un responsable financiero de una empresa quiere estimar el porcentaje de cuentas por cobrar que llevan más de 30 días de retraso. Analiza 500 cuentas y descubre que 300 tienen más de 30 días de retraso. Calcule un intervalo de confianza del 90 % para el verdadero porcentaje de cuentas por cobrar con más de 30 días de retraso, e interprete el intervalo de confianza.</para></problem>
+  <para id="element-182">Un responsable financiero de una compañía quiere estimar el porcentaje de cuentas por cobrar que llevan más de 30 días de retraso. Analiza 500 cuentas y descubre que 300 tienen más de 30 días de retraso. Calcule un intervalo de confianza del 90 % para el verdadero porcentaje de cuentas por cobrar con más de 30 días de retraso, e interprete el intervalo de confianza.</para></problem>
 <solution id="id1164685709005">
 <list id="eip-id1168006547279"><item>La solución paso a paso:</item>
 </list><para id="element-829"><emphasis effect="italics">x</emphasis> = 300 y <emphasis effect="italics">n</emphasis> = 500</para>
- <para id="element-896">Los términos <m:math>
+ <para id="element-896"><m:math>
   <m:mrow>
    <m:msup>
     <m:mi>p</m:mi>
@@ -258,17 +258,17 @@ Supongamos que se encuestan 250 personas seleccionadas al azar para determinar s
    <m:mo>=</m:mo><m:mn>0,600</m:mn>
   </m:mrow>
  </m:math></para>
- <para id="element-994">Los términos <m:math>
+ <para id="element-994"><m:math>
   <m:mrow>
    <m:msup>
     <m:mi>q</m:mi>
     <m:mo>′</m:mo>
    </m:msup>
-   <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:msup>
+   <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:msup>
     <m:mi>p</m:mi>
     <m:mo>′</m:mo>
    </m:msup>
-   <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>0,600</m:mn><m:mo>=</m:mo><m:mn>0,400</m:mn>
+   <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mn>0,600</m:mn><m:mo>=</m:mo><m:mn>0,400</m:mn>
   </m:mrow>
  </m:math></para>
 <para id="element-702">Dado que el nivel de confianza = 0,90, entonces <emphasis effect="italics">α</emphasis> = 1 - nivel de confianza = (1 - 0,90) = 0,10<m:math>
@@ -284,7 +284,7 @@ Supongamos que se encuestan 250 personas seleccionadas al azar para determinar s
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math> = 0,05
-</para><para id="eip-idm146395264">Los términos <m:math>
+</para><para id="eip-idm146395264"><m:math>
     <m:msub>
       <m:mi>Z</m:mi>
       <m:mfrac>
@@ -297,9 +297,9 @@ Supongamos que se encuestan 250 personas seleccionadas al azar para determinar s
       </m:mfrac>
     </m:msub>
     </m:math> = <emphasis effect="italics">Z</emphasis><sub>0,05</sub> = 1,645</para>
- <para id="element-803" class="finger">Este valor Z se puede hallar utilizando una tabla de probabilidad normal. También se puede utilizar la tabla t de Student entrando en la tabla en la columna de 0,05 y leyendo en la línea de infinitos grados de libertad. La distribución t es la distribución normal con infinitos grados de libertad. Se trata de un truco práctico que hay que recordar para encontrar los valores Z de los niveles de confianza más utilizados. Utilizamos esta fórmula para un intervalo de confianza para una proporción:</para><equation class="unnumbered" id="eip-id1167998436031">Los términos <m:math>
+ <para id="element-803" class="finger">Este valor Z se puede hallar utilizando una tabla de probabilidad normal. También se puede utilizar la tabla t de Student entrando en la tabla en la columna de 0,05 y leyendo en la línea de infinitos grados de libertad. La distribución t es la distribución normal con infinitos grados de libertad. Se trata de un truco práctico que hay que recordar para calcular los valores Z de los niveles de confianza más utilizados. Utilizamos esta fórmula para un intervalo de confianza para una proporción:</para><equation class="unnumbered" id="eip-id1167998436031"><label/><m:math>
 <m:mi>p'</m:mi>
-<m:mo>-</m:mo>
+<m:mo>–</m:mo>
 <m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub>
 <m:msqrt><m:mfrac><m:mrow><m:mi>p'q'</m:mi></m:mrow>
 <m:mrow><m:mi>n</m:mi></m:mrow>
@@ -326,14 +326,14 @@ Supongamos que se encuestan 250 personas seleccionadas al azar para determinar s
  </list><para id="element-828"><title>Explicación del nivel de confianza del 90 %</title>El noventa por ciento de los intervalos de confianza construidos de esta manera contienen el valor real del porcentaje de la población de cuentas por cobrar que tienen un retraso de 30 días.</para></solution>
 
  </exercise></example><note id="fs-idp55027792" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm23330928">
 <problem id="eip-165">
 <para id="eip-183">Un estudiante hace un sondeo en su escuela para ver si los estudiantes del distrito escolar están a favor o en contra de la nueva legislación relativa a los uniformes escolares. Hace una encuesta entre 600 estudiantes y halla que 480 están en contra de la nueva legislación.<newline count="2"/></para><para id="fs-idp17812400">a. Calcule un intervalo de confianza del 90 % para el verdadero porcentaje de estudiantes que están en contra de la nueva legislación e interprete el intervalo de confianza.</para>
 </problem>
 <solution id="eip-587">
-
+<label/>
   <para id="eip-819">
 (0,7731, 0,8269); estimamos con un 90 % de confianza que el verdadero porcentaje de todos los estudiantes del distrito que están en contra de la nueva legislación está entre el 77,31 % y el 82,69 %.
   </para>
@@ -343,11 +343,11 @@ Supongamos que se encuestan 250 personas seleccionadas al azar para determinar s
 <para id="eip-207">b. En una muestra de 300 estudiantes, el 68 % dijo que tenían un iPod y un teléfono inteligente. Calcule un intervalo de confianza del 97 % para el verdadero porcentaje de estudiantes que tienen un iPod y un teléfono inteligente.</para>
  </problem>
 <solution id="eip-92">
-
+<label/>
 <title>Solución</title>
 <para id="eip-763">
 El 68 % de los estudiantes posee un iPod y un teléfono inteligente.</para>
- <para id="eip-idm4721728">Los términos <m:math>
+ <para id="eip-idm4721728"><m:math>
   <m:mrow>
    <m:msup>
     <m:mi>p</m:mi>
@@ -356,7 +356,7 @@ El 68 % de los estudiantes posee un iPod y un teléfono inteligente.</para>
    <m:mo>=</m:mo><m:mn>0,68</m:mn>
   </m:mrow>
  </m:math></para>
- <para id="eip-idm93260480">Los términos <m:math>
+ <para id="eip-idm93260480"><m:math>
  <m:mrow>
   <m:msup>
    <m:mi>q</m:mi>
@@ -382,9 +382,9 @@ El 68 % de los estudiantes posee un iPod y un teléfono inteligente.</para>
 
    <para id="eip-idp73380688">El área a la izquierda de <emphasis effect="italics">z</emphasis><sub>0,015</sub> es 0,015, y el área a la derecha de <emphasis effect="italics">z</emphasis><sub>0,015</sub> es 1 - 0,015 = 0,985.</para>
 
-    <para id="fs-idm106841376" class="finger">Utilizar la función InvNorm(.985,0,1) de la calculadora TI 83, 83+ u 84+,</para>
+    <para id="fs-idm106841376" class="finger">Utilizar la función InvNorm(.985,0,1) de las calculadoras TI 83, 83+ u 84+,</para>
 
- <para id="eip-idm10150800">Los términos <m:math>
+ <para id="eip-idm10150800"><m:math>
   <m:mrow>
    <m:msub>
     <m:mi>z</m:mi>
@@ -465,12 +465,12 @@ El 68 % de los estudiantes posee un iPod y un teléfono inteligente.</para>
 <para id="eip-idm58658768">The Field Poll. Disponible en línea en http://field.com/fieldpollonline/subscribers/ (consultado el 2 de julio de 2013).</para>
 <para id="eip-idm58658256">Zogby. “New SUNYIT/Zogby Analytics Poll: Few Americans Worry about Emergency Situations Occurring in Their Community; Only one in three have an Emergency Plan; 70% Support Infrastructure ‘Investment’ for National Security”. Zogby Analytics, 2013. Disponible en línea en http://www.zogbyanalytics.com/news/299-americans-neither-worried-nor-prepared-in-case-of-a-disaster-sunyit-zogby-analytics-poll (consultado el 2 de julio de 2013).</para>
 <para id="eip-idm58656656">“52% Say Big-Time College Athletics Corrupt Education Process”. Rasmussen Reports, 2013. Disponible en línea en http://www.rasmussenreports.com/public_content/lifestyle/sports/may_2013/52_say_big_time_college_athletics_corrupt_education_process (consultado el 2 de julio de 2013).</para></section><section id="eip-854" class="summary">
-  <title>Revisión del capítulo</title>
+  <title>Repaso del capítulo</title>
   <para id="eip-idm15657920">Algunas medidas estadísticas, como muchas preguntas de las encuestas, miden datos cualitativos en vez de cuantitativos. En este caso, el parámetro poblacional que se estima es una proporción. Es posible crear un intervalo de confianza para la verdadera proporción de la población siguiendo procedimientos similares a los utilizados para crear intervalos de confianza para las medias de la población. Las fórmulas son ligeramente diferentes, pero siguen el mismo razonamiento.</para>
 
-  <para id="eip-idm15657536">Supongamos que <emphasis effect="italics">p′</emphasis> representa la proporción de la muestra, <emphasis effect="italics">x/n</emphasis>, donde <emphasis effect="italics">x</emphasis> representa el número de aciertos y <emphasis effect="italics">n</emphasis> el tamaño de la muestra. Supongamos que <emphasis effect="italics">q′</emphasis> = 1 – <emphasis effect="italics">p′</emphasis>. Entonces el intervalo de confianza para una proporción poblacional viene dado por la siguiente fórmula:</para><para id="eip-idp121742160">Los términos <m:math>
+  <para id="eip-idm15657536">Supongamos que <emphasis effect="italics">p′</emphasis> representa la proporción de la muestra, <emphasis effect="italics">x/n</emphasis>, donde <emphasis effect="italics">x</emphasis> representa el número de aciertos y <emphasis effect="italics">n</emphasis> el tamaño de la muestra. Supongamos que <emphasis effect="italics">q′</emphasis> = 1 – <emphasis effect="italics">p′</emphasis>. Entonces el intervalo de confianza para una proporción poblacional viene dado por la siguiente fórmula:</para><para id="eip-idp121742160"><m:math>
 <m:mi>p'</m:mi>
-<m:mo>-</m:mo>
+<m:mo>–</m:mo>
 <m:msub>
 <m:mi>Z</m:mi>
 <m:mi>α</m:mi>
@@ -513,9 +513,9 @@ El 68 % de los estudiantes posee un iPod y un teléfono inteligente.</para>
 <section id="eip-826" class="formula-review">
 <title>Revisión de la fórmula</title>
  <para id="eip-idm44244000"><emphasis effect="italics">p′= </emphasis> <m:math><m:mfrac><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:math> donde <emphasis effect="italics">x</emphasis> representa el número de aciertos en una muestra y <emphasis effect="italics">n</emphasis> representa el tamaño de la muestra. La variable <emphasis effect="italics">p</emphasis>′ es la proporción de la muestra y sirve como estimación puntual de la verdadera proporción de la población.</para><para id="eip-idm61459360"><emphasis effect="italics">q</emphasis>′ = 1 – <emphasis effect="italics">p</emphasis>′</para>
- <para id="eip-idm163551632">La variable <emphasis effect="italics">p′</emphasis> tiene una distribución binomial que se puede aproximar con la distribución normal que se muestra aquí. El intervalo de confianza para la verdadera proporción de la población que viene dado por la fórmula:</para><para id="eip-idm90817904">Los términos <m:math>
+ <para id="eip-idm163551632">La variable <emphasis effect="italics">p′</emphasis> tiene una distribución binomial que se puede aproximar con la distribución normal que se muestra aquí. El intervalo de confianza para la verdadera proporción de la población que viene dado por la fórmula:</para><para id="eip-idm90817904"><m:math>
 <m:mi>p'</m:mi>
-<m:mo>-</m:mo>
+<m:mo>–</m:mo>
 <m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub>
 <m:msqrt><m:mfrac><m:mrow><m:mi>p'q'</m:mi></m:mrow>
 <m:mrow><m:mi>n</m:mi></m:mrow>
@@ -535,7 +535,7 @@ El 68 % de los estudiantes posee un iPod y un teléfono inteligente.</para>
 </m:msqrt>
 
 </m:math></para>
- <para id="eip-idm111094496">Los términos <m:math>
+ <para id="eip-idm111094496"><m:math>
  <m:mrow>
   <m:mi>n</m:mi><m:mo>=</m:mo><m:mo> </m:mo><m:mfrac>
    <m:mrow>
@@ -587,7 +587,7 @@ Si más adelante se determinara que es importante tener más de un 90 % de conf
   </para>
 </problem>
 <solution id="eip-204">
-  <para id="eip-269">The sample size needed would increase. As the confidence level increases, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>α</m:mi></m:math> decreases and <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>z</m:mi><m:mrow><m:mo>(</m:mo><m:mfrac><m:mi>a</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow></m:msub></m:math> aumenta. To maintain the same error bound, the size of the sample needs to increase.</para>
+  <para id="eip-269">El tamaño de la muestra necesaria aumentaría. A medida que aumenta el nivel de confianza,<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>α</m:mi></m:math> disminuye y <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>z</m:mi><m:mrow><m:mo>(</m:mo><m:mfrac><m:mi>a</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow></m:msub></m:math> aumenta. Para mantener el mismo límite de error, es necesario aumentar el tamaño de la muestra.</para>
 </solution>
 </exercise>
  <para id="eip-471"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios:</emphasis> Supongamos que la compañía de mercadeo hace una encuesta. Encuestaron al azar 200 hogares y hallaron que en 120 de ellos la mujer tomaba la mayoría de las decisiones de compra. Nos interesa la proporción de hogares en los que las mujeres toman la mayoría de las decisiones de compra.</para><exercise id="eip-616"><problem id="eip-108">
@@ -622,7 +622,7 @@ Identifique lo siguiente:
  <exercise id="eip-839"><problem id="eip-166">
   <para id="eip-idp170819776">Enumere dos dificultades que podría tener la compañía para obtener resultados aleatorios, si esta encuesta se realizara por correo electrónico.</para>
 </problem>
-</exercise><para id="eip-488"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios:</emphasis> De 1.050 adultos seleccionados al azar, 360 se identificaron como trabajadores manuales, 280 se identificaron como asalariados no manuales, 250 se identificaron como gerentes de nivel medio y 160 se identificaron como ejecutivos. En la encuesta, el 82 % de los trabajadores manuales prefieren camiones, así como el 62 % de los asalariados no manuales, el 54 % de los gerentes de nivel medio y el 26 % de los ejecutivos.
+</exercise><para id="eip-488"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios:</emphasis> de 1.050 adultos seleccionados al azar, 360 se identificaron como trabajadores manuales, 280 se identificaron como asalariados no manuales, 250 se identificaron como gerentes de nivel medio y 160 se identificaron como ejecutivos. En la encuesta, el 82 % de los trabajadores manuales prefieren camiones, así como el 62 % de los asalariados no manuales, el 54 % de los gerentes de nivel medio y el 26 % de los ejecutivos.
 </para><exercise id="eip-115"><problem id="eip-837">
  <para id="eip-idm93454256">Nos interesa hallar el intervalo de confianza del 95 % para el porcentaje de ejecutivos que prefieren camiones. Defina las variables aleatorias <emphasis effect="italics">X</emphasis> y <emphasis effect="italics">P</emphasis>′ en palabras.</para>
 </problem>
@@ -652,7 +652,7 @@ Identifique lo siguiente:
 <para id="eip-idp36786320">El error de muestreo significa que la media real puede estar un 2 % por encima o por debajo de la media muestral.</para>
 </solution>
 </exercise>
- <para id="eip-770"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios:</emphasis> Un sondeo realizado a 1.200 votantes preguntaba cuál era el asunto más importante en las próximas elecciones. El sesenta y cinco por ciento respondió que la economía. Nos interesa la proporción de población de los votantes que consideran que la economía es lo más importante.</para><exercise id="eip-808"><problem id="eip-294">
+ <para id="eip-770"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios:</emphasis> un sondeo realizado a 1.200 votantes preguntaba cuál era el asunto más importante en las próximas elecciones. El sesenta y cinco por ciento respondió que la economía. Nos interesa la proporción de población de los votantes que consideran que la economía es lo más importante.</para><exercise id="eip-808"><problem id="eip-294">
 <para id="eip-idp73640048">Defina la variable aleatoria <emphasis effect="italics">X</emphasis> con palabras.</para>
 </problem>
 </exercise><exercise id="eip-94"><problem id="eip-929">
@@ -676,7 +676,7 @@ Identifique lo siguiente:
 <exercise id="eip-209"><problem id="eip-65">
 <para id="eip-idp87563392">¿Qué ocurriría con el intervalo de confianza si el nivel de confianza fuera del 95 %?</para>
 </problem>
-</exercise><para id="fs-idp85734416"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos 16 ejercicios:</emphasis> El Ice Chalet ofrece docenas de clases de patinaje sobre hielo para principiantes. Todos los nombres de las clases se ponen en una cubeta. Se eligió la clase de patinaje sobre hielo para principiantes de 8 a 12 años a las 5 p. m. del lunes. En esa clase había 64 niñas y 16 niños. Supongamos que estamos interesados en la proporción real de niñas, de 8 a 12 años, en todas las clases de patinaje sobre hielo para principiantes en el Ice Chalet. Supongamos que los niños de la clase seleccionada son una muestra aleatoria de la población.</para><exercise id="element-193"><problem id="id8180231">
+</exercise><para id="fs-idp85734416"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos 16 ejercicios:</emphasis> el Ice Chalet ofrece docenas de clases de patinaje sobre hielo para principiantes. Todos los nombres de las clases se ponen en una cubeta. Se eligió la clase de patinaje sobre hielo para principiantes de 8 a 12 años a las 5 p. m. del lunes. En esa clase había 64 niñas y 16 niños. Supongamos que estamos interesados en la proporción real de niñas, de 8 a 12 años, en todas las clases de patinaje sobre hielo para principiantes en el Ice Chalet. Supongamos que los niños de la clase seleccionada son una muestra aleatoria de la población.</para><exercise id="element-193"><problem id="id8180231">
   <para id="element-79">¿Qué se cuenta?</para>
 </problem>
  <solution id="fs-idp114007216">
@@ -720,7 +720,7 @@ Calcule lo siguiente: <list id="fs-idp23913648" list-type="enumerated" number-st
  <para id="element-678">Indique la distribución estimada de <emphasis effect="italics">P</emphasis>′. Construya un intervalo de confianza del 92 % para la verdadera proporción de niñas de 8 a 12 años que comienzan las clases de patinaje sobre hielo en el Ice Chalet.</para>
 </problem>
 <solution id="fs-idm95519424">
- <para id="fs-idm36051552">Los términos <m:math>
+ <para id="fs-idm36051552"><m:math>
   <m:mrow>
    <m:msup>
     <m:mi>P</m:mi>
@@ -741,7 +741,7 @@ Calcule lo siguiente: <list id="fs-idp23913648" list-type="enumerated" number-st
    </m:msqrt>
    <m:mo stretchy="true">)</m:mo>
   </m:mrow>
- </m:math> (0,72171, 0,87829).</para></solution>
+ </m:math>. (0,72171, 0,87829).</para></solution>
 </exercise>
 <exercise id="element-669"><problem id="id9812907">
   <para id="element-480">¿Cuánta superficie hay en ambas colas (combinadas)?</para>
@@ -845,7 +845,7 @@ Calcule lo siguiente: <list id="fs-idp23913648" list-type="enumerated" number-st
    <para id="fs-idm2730480"><emphasis effect="italics">X</emphasis> = el número de personas que consideran que el presidente está haciendo un trabajo aceptable;</para>
    <para id="fs-idm2729840"><emphasis effect="italics">P</emphasis>′ = la proporción de personas de una muestra que consideran que el presidente está haciendo un trabajo aceptable.</para>
   </item>
-  <item>Los términos <m:math>
+  <item><m:math>
  <m:mrow>
   <m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -856,7 +856,7 @@ Calcule lo siguiente: <list id="fs-idp23913648" list-type="enumerated" number-st
         <m:mo stretchy="false">(</m:mo><m:mn>0,61</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,39</m:mn><m:mo stretchy="false">)</m:mo>
        </m:mrow>
        <m:mrow>
-        <m:mn>1200</m:mn>
+        <m:mn>1.200</m:mn>
        </m:mrow>
       </m:mfrac>
 
@@ -872,8 +872,8 @@ Calcule lo siguiente: <list id="fs-idp23913648" list-type="enumerated" number-st
     <item>Compruebe la solución del estudiante</item>
    </list></item></list></solution>
  </exercise><exercise id="eip-idp49345824"><problem id="eip-idp49345952">
- <para id="eip-idp49346080">Recientemente apareció un artículo sobre citas y matrimonios interraciales en el <cite-title>Washington Post.</cite-title>. Of the 1,709 randomly selected adults, 315 identified themselves as Latino, 323 identified themselves as Black, 254 identified themselves as Asian, and 779 identified themselves as White. In this survey, 86% of Blacks said that they would welcome a White person into their families. Among Asians, 77% would welcome a White person into their families, 71% would welcome a Latino, and 66% would welcome a Black person.</para>
-   <list id="eip-idm65104512" list-type="enumerated" number-style="lower-alpha"><item>We are interested in finding the 95% confidence interval for the percent of all Black adults who would welcome a White person into their families. Defina las variables aleatorias <emphasis effect="italics">X</emphasis> y <emphasis effect="italics">P</emphasis>′ en palabras.</item>
+ <para id="eip-idp49346080">Recientemente apareció un artículo sobre citas y matrimonios interraciales en el <cite-title>Washington Post.</cite-title>. De los 1.709 adultos seleccionados al azar, 315 se identificaron como latinos, 323 como negros, 254 como asiáticos y 779 como blancos. En esta encuesta, el 86 % de los negros afirmaron que acogerían a una persona blanca en su familia. Entre los asiáticos, el 77 % acogería a una persona blanca en su familia, el 71 % a un latino y el 66 % a una persona negra.</para>
+   <list id="eip-idm65104512" list-type="enumerated" number-style="lower-alpha"><item>Nos interesa hallar el intervalo de confianza del 95 % para el porcentaje de adultos negros que acogerían a una persona blanca en su familia. Defina las variables aleatorias <emphasis effect="italics">X</emphasis> y <emphasis effect="italics">P</emphasis>′ en palabras.</item>
 <item>¿Qué distribución debería utilizar para este problema? Explique su elección.</item>
 <item>Construya un intervalo de confianza del 95 % <list id="eip-idm5084416" list-type="enumerated" number-style="lower-roman"><item>Indique el intervalo de confianza.</item>
 <item>Dibuje el gráfico.</item>
@@ -882,9 +882,9 @@ Calcule lo siguiente: <list id="fs-idp23913648" list-type="enumerated" number-st
  </exercise><exercise id="exe1"><problem id="id5306840">
    <para id="para37">Consulte la información en el <link target-id="eip-idp49345824"/>.</para><list id="list37" list-type="enumerated" number-style="lower-alpha">
 <item>Construya tres intervalos de confianza del 95 %. <list id="eip-id1164398498310" list-type="enumerated" number-style="lower-roman">
-  <item>percent of all Asians who would welcome a White person into their families.</item>
+  <item>porcentaje de todos los asiáticos que acogerían a una persona blanca en su familia.</item>
   <item>porcentaje de los asiáticos que acogerían a un latino en su familia.</item>
-  <item>percent of all Asians who would welcome a Black person into their families.</item>
+  <item>porcentaje de los asiáticos que acogerían a una persona negra en su familia.</item>
   </list>
 </item>
 <item>Aunque las tres estimaciones puntuales son diferentes, ¿hay superposición en alguno de los intervalos de confianza? ¿Cuál?</item>
@@ -902,8 +902,8 @@ Calcule lo siguiente: <list id="fs-idp23913648" list-type="enumerated" number-st
      </list>
     </item>
     <item>Sí, en los intervalos (0,72, 0,82) y (0,65, 0,76) hay superposición, y en los intervalos (0,65, 0,76) y (0,60, 0,72) hay superposición.</item>
-    <item>We can say that there does not appear to be a significant difference between the proportion of Asian adults who say that their families would welcome a White person into their families and the proportion of Asian adults who say that their families would welcome a Latino person into their families.</item>
-    <item>We can say that there is a significant difference between the proportion of Asian adults who say that their families would welcome a White person into their families and the proportion of Asian adults who say that their families would welcome a Black person into their families.</item>
+    <item>Podemos decir que no parece haber una diferencia significativa entre la proporción de adultos asiáticos que dicen que sus familias acogerían a una persona blanca en sus familias y la proporción de adultos asiáticos que dicen que sus familias acogerían a una persona latina en sus familias.</item>
+    <item>Podemos decir que hay una diferencia significativa entre la proporción de adultos asiáticos que dicen que sus familias acogerían a una persona blanca y la proporción de adultos asiáticos que dicen que sus familias acogerían a una persona negra.</item>
    </list>
   </solution>
 </exercise><exercise id="exerr1"><problem id="id5266159">
@@ -942,7 +942,7 @@ Calcule lo siguiente: <list id="fs-idp23913648" list-type="enumerated" number-st
         <m:mo stretchy="false">(</m:mo><m:mn>0,2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0,8</m:mn><m:mo stretchy="false">)</m:mo>
        </m:mrow>
        <m:mrow>
-        <m:mn>1000</m:mn>
+        <m:mn>1.000</m:mn>
        </m:mrow>
       </m:mfrac>
 
@@ -952,17 +952,17 @@ Calcule lo siguiente: <list id="fs-idp23913648" list-type="enumerated" number-st
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math></item>
+</m:math>.</item>
     <item>
      <list id="fs-idm23582576" list-type="enumerated" number-style="lower-roman"><item>CI: (0,18, 0,22)</item>
-      <item>Compruebe la solución del estudiante</item>
+      <item>Compruebe la solución del estudiante.</item>
      </list></item>
     <item>Una forma de reducir el error de muestreo es aumentar el tamaño de la muestra.</item>
     <item>El “± 3 %” indicado representa el límite máximo de error. Esto significa que los que hacen el estudio informan de un error máximo del 3 %. Así, estiman que el porcentaje de estadounidenses adultos que consideran que la delincuencia es el principal problema se sitúa entre el 18 % y el 22 %.</item>
   </list></solution>
 </exercise></para>
 <para id="id7660428"><exercise id="exerrrrcise1"><problem id="id5247798">
-  <para id="para47">Consulte el <link target-id="exercise111"/>. Otra de las preguntas del sondeo era “[Cuánto le preocupa] la calidad de la educación en nuestras escuelas”. El sesenta y tres por ciento respondió que “mucho”. Nos interesa la proporción de población adulta estadounidense que está muy preocupada por la calidad de la educación en nuestras escuelas.</para><list id="list47" list-type="enumerated" number-style="lower-alpha">
+  <para id="para47">Consulte el <link target-id="exercise111" document=""/>. Otra de las preguntas del sondeo era “¿[Cuánto le preocupa] la calidad de la educación en nuestras escuelas?”. El sesenta y tres por ciento respondió que “mucho”. Nos interesa la proporción de población adulta estadounidense que está muy preocupada por la calidad de la educación en nuestras escuelas.</para><list id="list47" list-type="enumerated" number-style="lower-alpha">
    <item>Defina las variables aleatorias <emphasis effect="italics">X</emphasis> y <emphasis effect="italics">P</emphasis>′ con palabras.</item>
       <item>¿Qué distribución debería utilizar para este problema? Explique su elección.</item>
       <item>Construya un intervalo de confianza del 95 % para la proporción de población adulta estadounidense que está muy preocupada por la calidad de la educación en nuestras escuelas. <list id="list47_5" list-type="enumerated" number-style="lower-roman"><item>Indique el intervalo de confianza.</item>
@@ -971,7 +971,7 @@ Calcule lo siguiente: <list id="fs-idp23913648" list-type="enumerated" number-st
 <item>El error de muestreo dado por Yankelovich Partners, Inc. (que realizó el sondeo) es de ±3 %. Explique lo que representa el ±3 % en una, dos o tres oraciones completas. </item></list>
 
 </problem>
-</exercise></para><para id="id7660726"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios:</emphasis> Según Field Poll, el 79 % de los adultos de California (los resultados reales son 400 de 506 encuestados) consideran que “la educación y nuestras escuelas” es uno de los principales problemas a los que se enfrenta California. Queremos construir un intervalo de confianza del 90 % para la verdadera proporción de adultos de California que piensan que la educación y las escuelas son uno de los principales problemas a los que se enfrenta el estado.</para><exercise id="exercise3289720"><problem id="id6273772">
+</exercise></para><para id="id7660726"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios:</emphasis> según Field Poll, el 79 % de los adultos de California (los resultados reales son 400 de 506 encuestados) consideran que “la educación y nuestras escuelas” es uno de los principales problemas a los que se enfrenta California. Queremos construir un intervalo de confianza del 90 % para la verdadera proporción de adultos de California que piensan que la educación y las escuelas son uno de los principales problemas a los que se enfrenta el estado.</para><exercise id="exercise3289720"><problem id="id6273772">
  <para id="para52">Una estimación puntual de la verdadera proporción de la población es:</para>
 <list id="list52" list-type="enumerated" number-style="lower-alpha">
   <item>0,90</item>
@@ -990,7 +990,7 @@ Calcule lo siguiente: <list id="fs-idp23913648" list-type="enumerated" number-st
 <item>(0,755, 0,826)</item>
 <item>(0,130, 0,183)</item></list>
 </problem>
- </exercise><para id="id7661014"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios:</emphasis> Se encuestaron aleatoriamente quinientos once (511) hogares de una determinada comunidad del sur de California para determinar si cumplen las recomendaciones mínimas de preparación ante un terremoto. Ciento setenta y tres (173) de las viviendas encuestadas cumplían las recomendaciones mínimas de preparación para terremotos y 338 no.</para><exercise id="exercising1"><problem id="id6353916">
+ </exercise><para id="id7661014"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios:</emphasis> se encuestaron aleatoriamente quinientos once (511) hogares de una determinada comunidad del sur de California para averiguar si cumplen las recomendaciones mínimas de preparación ante un terremoto. Ciento setenta y tres (173) de las viviendas encuestadas cumplían las recomendaciones mínimas de preparación para terremotos y 338 no.</para><exercise id="exercising1"><problem id="id6353916">
       <para id="para64">Calcule el intervalo de confianza con un nivel de confianza del 90 % para la verdadera proporción de población de los hogares de la comunidad del sur de California que cumplen, al menos, las recomendaciones mínimas de preparación para terremotos.</para>
 <list id="list64" list-type="enumerated" number-style="lower-alpha"><item>(0,2975, 0,3796)</item>
 <item>(0,6270, 0,6959)</item>
@@ -1059,7 +1059,7 @@ Calcule lo siguiente: <list id="fs-idp23913648" list-type="enumerated" number-st
   </m:msub>
   <m:mo>=</m:mo><m:mn>1,150</m:mn>
  </m:mrow>
-</m:math> (el área a la derecha de esta <emphasis effect="italics">z</emphasis> es 0,125, por lo que el área a la izquierda es 1 – 0,125 = 0,875) <newline/><m:math>
+</m:math>. (el área a la derecha de esta <emphasis effect="italics">z</emphasis> es 0,125, por lo que el área a la izquierda es 1 – 0,125 = 0,875) <newline/><m:math>
  <m:mrow>
   <m:mi>E</m:mi><m:mi>B</m:mi><m:mi>P</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1,150</m:mn><m:mo stretchy="false">)</m:mo><m:msqrt>
    <m:mrow>
@@ -1103,7 +1103,7 @@ Calcule lo siguiente: <list id="fs-idp23913648" list-type="enumerated" number-st
     </m:mrow>
    </m:msqrt>
 
-  </m:math> La probabilidad de obtener exactamente <emphasis effect="italics">x</emphasis> aciertos en <emphasis effect="italics">n</emphasis> ensayos es <m:math>
+  </m:math>. La probabilidad de obtener exactamente <emphasis effect="italics">x</emphasis> aciertos en <emphasis effect="italics">n</emphasis> ensayos es <m:math>
   <m:mi>P</m:mi>
   <m:mo>(</m:mo>
   <m:mi>X</m:mi>
@@ -1124,7 +1124,7 @@ Calcule lo siguiente: <list id="fs-idp23913648" list-type="enumerated" number-st
       <m:mi>x</m:mi>
     </m:mrow>
   </m:msup>
-</m:math>
+</m:math>.
     </meaning>
   </definition>
 <definition id="ebpbound">

@@ -18,9 +18,9 @@
 <title>Uso de la muestra para probar la hipótesis nula</title>
 
 
-<para id="fs-idp165373232">Utilice los datos de la muestra para calcular la probabilidad real de obtener el resultado de la prueba, denominada valor <term id="term-00003"><emphasis effect="italics">p</emphasis></term>. El valor <emphasis effect="italics">p</emphasis>es la <emphasis>probabilidad de que, si la hipótesis nula es cierta, los resultados de otra muestra seleccionada al azar sean tan extremos o más extremos que los resultados obtenidos en la muestra dada.</emphasis></para>
+<para id="fs-idp165373232">Utilice los datos de la muestra para calcular la probabilidad real de obtener el resultado de la prueba, denominada valor <term id="term-00003"><emphasis effect="italics">p</emphasis></term>. El valor <emphasis effect="italics">p</emphasis> es la <emphasis>probabilidad de que, si la hipótesis nula es cierta, los resultados de otra muestra seleccionada al azar sean tan extremos o más extremos que los resultados obtenidos en la muestra dada.</emphasis></para>
 
-<para id="element-188">Un valor <emphasis effect="italics">p</emphasis>grande calculado a partir de los datos indica que no debemos rechazar la <term id="term-00004">hipótesis nula</term>. Cuanto más pequeño sea el valor <emphasis effect="italics">p</emphasis>, más improbable es el resultado y más fuerte es la evidencia contra la hipótesis nula. Rechazaremos la hipótesis nula si las pruebas son contundentes en su contra.</para>
+<para id="element-188">Un valor <emphasis effect="italics">p</emphasis> grande calculado a partir de los datos indica que no debemos rechazar la <term id="term-00004">hipótesis nula</term>. Cuanto más pequeño sea el valor <emphasis effect="italics">p</emphasis>, más improbable es el resultado y más fuerte es la evidencia contra la hipótesis nula. Rechazaremos la hipótesis nula si las pruebas son contundentes en su contra.</para>
 
 <para id="fs-idm72636976"><emphasis>Dibuje un gráfico que muestre el valor <emphasis effect="italics">p</emphasis>. La prueba de hipótesis es más fácil de realizar si se utiliza un gráfico porque se ve el problema con más claridad.</emphasis></para>
 <example id="element-804">
@@ -50,19 +50,19 @@
 </m:mfrac>
 <m:mo>=</m:mo><m:mn>0,16</m:mn>
 </m:mrow>
-</m:math></para><para id="element-910">Supongamos que la hipótesis nula es verdadera (la altura media de los panes no es superior a 15 cm). Entonces, ¿la altura media (17 cm) calculada a partir de la muestra es inesperadamente grande? La prueba de hipótesis funciona planteando la pregunta de cuán <emphasis>improbable</emphasis> sería la media de la muestra si la hipótesis nula fuera cierta. El gráfico muestra lo alejada que está la media de la muestra en la curva normal. El valor <emphasis effect="italics">p</emphasis> es la probabilidad de que, si tomáramos otras muestras, cualquier otra media muestral caería al menos tan lejos como 17 cm.</para>
+</m:math>.</para><para id="element-910">Supongamos que la hipótesis nula es verdadera (la altura media de los panes no es superior a 15 cm). Entonces, ¿la altura media (17 cm) calculada a partir de la muestra es inesperadamente grande? La prueba de hipótesis funciona planteando la pregunta de cuán <emphasis>improbable</emphasis> sería la media de la muestra si la hipótesis nula fuera cierta. El gráfico muestra lo alejada que está la media de la muestra en la curva normal. El valor <emphasis effect="italics">p</emphasis> es la probabilidad de que, si tomáramos otras muestras, cualquier otra media muestral caería al menos tan lejos como 17 cm.</para>
 
-<para id="element-537"><emphasis>El valor <emphasis effect="italics">p</emphasis>, por tanto, es la probabilidad de que una media muestral sea igual o superior a 17 cm. cuando la media de la población es, en realidad, de 15 cm.</emphasis> Podemos calcular esta probabilidad utilizando la distribución normal para las medias. </para><figure id="fs-idm112264608"><media id="id9446267" alt="Curva de distribución normal de la altura media del pan con los valores 15, como media de la población, y 17, como punto para determinar el valor p, en el eje de la x."><image src="../../media/fig-ch09_07_01N.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="fs-idp85594448">valor <emphasis effect="italics">p</emphasis>= <emphasis effect="italics">P</emphasis>(<m:math>
+<para id="element-537"><emphasis>El valor <emphasis effect="italics">p</emphasis>, por tanto, es la probabilidad de que una media muestral sea igual o superior a 17 cm. cuando la media de la población es, en realidad, de 15 cm.</emphasis> Podemos calcular esta probabilidad utilizando la distribución normal para las medias. </para><figure id="fs-idm112264608"><media id="id9446267" alt="Curva de distribución normal de la altura promedio del pan con los valores 15, como media de la población, y 17, como punto para determinar el valor p, en el eje x."><image src="../../media/fig-ch09_07_01N.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="fs-idp85594448">valor <emphasis effect="italics">p</emphasis> = <emphasis effect="italics">P</emphasis>(<m:math>
 <m:mover accent="true">
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 
-</m:math> > 17) que es aproximadamente cero.</para><para id="element-710">Un valor <emphasis effect="italics">p</emphasis>de aproximadamente cero nos dice que es muy poco probable que una barra de pan no suba más de 15 cm, en promedio. Es decir, casi el 0 % de todas las barras de pan tendrían una altura mínima de 17 cm. <emphasis>por pura CASUALIDAD</emphasis> si la altura media de la población hubiera sido realmente de 15 cm. Dado que el resultado de 17 cm. es tan <emphasis>improbable (lo que significa que no se produce solo por azar)</emphasis>, concluimos que las pruebas están fuertemente en contra de la hipótesis nula (la altura media es como máximo de 15 cm). Hay pruebas suficientes de que la verdadera altura media de la población de panes de la panadería es superior a 15 cm.</para>
+</m:math> > 17) que es aproximadamente cero.</para><para id="element-710">Un valor <emphasis effect="italics">p</emphasis> de aproximadamente cero nos dice que es muy poco probable que una barra de pan no suba más de 15 cm, en promedio. Es decir, casi el 0 % de todas las barras de pan tendrían una altura mínima de 17 cm. <emphasis>por pura CASUALIDAD</emphasis> si la altura media de la población hubiera sido realmente de 15 cm. Dado que el resultado de 17 cm. es tan <emphasis>improbable (lo que significa que no se produce solo por azar)</emphasis>, concluimos que las pruebas están fuertemente en contra de la hipótesis nula (la altura media es como máximo de 15 cm). Hay pruebas suficientes de que la verdadera altura media de la población de panes de la panadería es superior a 15 cm.</para>
 </example>
 
 <note id="fs-idm19107408" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 
 <exercise id="eip-440"><problem id="eip-747">
@@ -75,7 +75,7 @@
 <section id="fs-idp139727505143696">
 <title>Decisión y conclusión</title>
 
-<para id="fs-idp169707568">Una forma sistemática de tomar la decisión de rechazar o no la <term id="term-00006">hipótesis nula</term> es comparar el valor <emphasis effect="italics">p</emphasis>y un <emphasis><term id="term-00007">α</term> preestablecido o preconcebido (también llamado "nivel de significación").</emphasis> Un <emphasis effect="italics">α</emphasis> preestablecido es la probabilidad de un <term id="term-00008">error tipo I</term> (rechazar la hipótesis nula cuando la hipótesis nula es verdadera). Puede que se le entregue o no al principio del problema.</para><para id="element-259">Cuando tome una <emphasis>decisión</emphasis> de rechazar o no rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>, haga lo siguiente: <list id="list-1" list-type="bulleted"><item>Si <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>, rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>. Los resultados de los datos de la muestra son significativos. Hay pruebas suficientes para concluir que <emphasis effect="italics">H<sub>0</sub></emphasis> es una creencia incorrecta y que la <emphasis>hipótesis alternativa</emphasis>, <emphasis effect="italics">H<sub>a</sub></emphasis>, puede ser correcta.</item>
+<para id="fs-idp169707568">Una forma sistemática de tomar la decisión de rechazar o no la <term id="term-00006">hipótesis nula</term> es comparar el valor <emphasis effect="italics">p</emphasis> y un <emphasis><term id="term-00007">α</term> preestablecido o preconcebido (también llamado "nivel de significación").</emphasis> Un <emphasis effect="italics">α</emphasis> preestablecido es la probabilidad de un <term id="term-00008">error tipo I</term> (rechazar la hipótesis nula cuando la hipótesis nula es verdadera). Puede que se le entregue o no al principio del problema.</para><para id="element-259">Cuando tome una <emphasis>decisión</emphasis> de rechazar o no rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>, haga lo siguiente: <list id="list-1" list-type="bulleted"><item>Si <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>, rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>. Los resultados de los datos de la muestra son significativos. Hay pruebas suficientes para concluir que <emphasis effect="italics">H<sub>0</sub></emphasis> es una creencia incorrecta y que la <emphasis>hipótesis alternativa</emphasis>, <emphasis effect="italics">H<sub>a</sub></emphasis>, puede ser correcta.</item>
 <item>Si <emphasis effect="italics">α</emphasis> ≤ valor <emphasis effect="italics">p</emphasis>, no rechace <emphasis effect="italics">H<sub>0</sub></emphasis>. Los resultados de los datos de la muestra no son significativos. No hay pruebas suficientes para concluir que la hipótesis alternativa,<emphasis effect="italics">H<sub>a</sub></emphasis>, pueda ser correcta.</item>
 <item>Cuando "no se rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>", no significa que se deba creer que <emphasis effect="italics">H<sub>0</sub></emphasis> es verdadera. Significa simplemente que los datos de la muestra <emphasis>no</emphasis> han aportado pruebas suficientes para arrojar serias dudas sobre la veracidad de <emphasis effect="italics">H<sub>o.</sub></emphasis></item>
 </list></para>
@@ -83,7 +83,7 @@
 <para id="element-734"><emphasis>Conclusión:</emphasis> Una vez tomada la decisión, escriba una <emphasis>conclusión</emphasis> reflexiva sobre las hipótesis en función del problema planteado.</para>
 <example id="eip-514">
 <para id="eip-701">Cuando se utiliza el valor <emphasis effect="italics">p</emphasis> para evaluar una prueba de hipótesis, a veces es útil utilizar el siguiente mecanismo de memoria.</para>
-<para id="eip-494">Si el valor <emphasis effect="italics">p</emphasis>es bajo, la hipótesis nula debe rechazarse.</para>
+<para id="eip-494">Si el valor <emphasis effect="italics">p</emphasis> es bajo, la hipótesis nula debe rechazarse.</para>
 <para id="eip-295">Si el valor <emphasis effect="italics">p</emphasis> es alto, la hipótesis nula no debe rechazarse.</para>
 <para id="eip-244">Esta ayuda de memoria relaciona un valor <emphasis effect="italics">p</emphasis> menor que el alfa establecido (la <emphasis effect="italics">p</emphasis> es baja) como rechazo de la hipótesis nula y, del mismo modo, relaciona un valor <emphasis effect="italics">p</emphasis> mayor que el alfa establecido (la <emphasis effect="italics">p</emphasis> es alta) como no rechazo de la hipótesis nula.</para><exercise id="eip-573"><problem id="eip-890">
 <para id="eip-idp111480688">Complete los espacios en blanco.</para>
@@ -99,13 +99,13 @@
 </exercise></example>
 
 <note id="fs-idm142970080" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 
 <exercise id="eip-437">
 <problem id="eip-594">
 <para id="eip-860">It’s a Boy Genetics Labs afirman que sus procedimientos mejoran las posibilidades de que nazca un niño. Los resultados para una prueba de una sola proporción de población son los siguientes:</para>
-<para id="eip-idm34336112"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> = 0,50, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> > 0,50</para><para id="eip-idp6354960"><emphasis effect="italics">α</emphasis> = 0,01</para><para id="eip-idp119018688">valor <emphasis effect="italics">p</emphasis>= 0,025</para>
+<para id="eip-idm34336112"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> = 0,50, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> > 0,50</para><para id="eip-idp6354960"><emphasis effect="italics">α</emphasis> = 0,01</para><para id="eip-idp119018688">valor <emphasis effect="italics">p</emphasis> = 0,025</para>
 <para id="eip-idm52481600">Interprete los resultados y exponga una conclusión en términos sencillos y no técnicos.</para>
 </problem>
 </exercise>
@@ -116,9 +116,9 @@
 
 <section id="fs-idp139727500433008" class="summary">
 
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 
-<para id="fs-idp139727500433648">Cuando la probabilidad de que ocurra un evento es baja, y ocurre, se denomina evento poco común. Es importante tener en cuenta los eventos pocos comunes en las pruebas de hipótesis porque pueden informar de su voluntad de no rechazar o rechazar una hipótesis nula. Para probar una hipótesis nula, encuentre el valor <emphasis effect="italics">p</emphasis> para los datos de la muestra y grafique los resultados. A la hora de decidir si se rechaza o no la hipótesis nula, hay que tener en cuenta estos dos parámetros: <list id="fs-idp139727498090720" list-type="enumerated" number-style="arabic"><item><emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>, rechaza la hipótesis nula</item>
+<para id="fs-idp139727500433648">Cuando la probabilidad de que ocurra un evento es baja, y ocurre, se denomina evento poco común. Es importante tener en cuenta los eventos pocos comunes en las pruebas de hipótesis porque pueden informar de su voluntad de no rechazar o rechazar una hipótesis nula. Para probar una hipótesis nula, calcule el valor <emphasis effect="italics">p</emphasis> para los datos de la muestra y grafique los resultados. A la hora de decidir si se rechaza o no la hipótesis nula, hay que tener en cuenta estos dos parámetros: <list id="fs-idp139727498090720" list-type="enumerated" number-style="arabic"><item><emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>, rechaza la hipótesis nula</item>
 <item><emphasis effect="italics">α</emphasis> ≤ valor <emphasis effect="italics">p</emphasis>, no rechaza la hipótesis nula</item>
 </list></para></section>
 
@@ -139,10 +139,10 @@
 <para id="fs-idp139727500343232">La probabilidad de ganar el gran premio en un juego de feria en particular es de 0,005. Michele gana el gran premio. ¿Se considera un evento poco común o común? ¿Por qué?</para>
 </problem></exercise><exercise id="fs-idp139727500456320">
 <problem id="fs-idp139727500456576">
-<para id="fs-idp139727500456832">Se cree que la altura media de los estudiantes de secundaria que juegan al baloncesto en el equipo del colegio es de 73 pulgadas con una desviación típica de 1,8 pulgadas. Se elige una muestra aleatoria de 40 jugadores. La media de la muestra fue de 71 pulgadas, y la desviación típica de la muestra fue de 1,5 años. ¿Apoyan los datos la afirmación de que la altura media es inferior a 73 pulgadas? El valor <emphasis effect="italics">p</emphasis> es casi cero. Indique las hipótesis nula y alternativa e interprete el valor <emphasis effect="italics">p</emphasis>.</para>
+<para id="fs-idp139727500456832">Se cree que la altura media de los estudiantes de secundaria que juegan baloncesto en el equipo escolar es de 73 pulgadas con una desviación típica de 1,8 pulgadas. Se elige una muestra aleatoria de 40 jugadores. La media de la muestra fue de 71 pulgadas, y la desviación típica de la muestra fue de 1,5 años. ¿Apoyan los datos la afirmación de que la altura media es inferior a 73 pulgadas? El valor <emphasis effect="italics">p</emphasis> es casi cero. Indique las hipótesis nula y alternativa e interprete el valor <emphasis effect="italics">p</emphasis>.</para>
 </problem>
 <solution id="fs-idp139727500328080">
-<para id="eip-idp77616272"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > = 73 <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &lt; 73 <newline/>El valor <emphasis effect="italics">p</emphasis> es casi cero, lo que significa que hay datos suficientes para concluir que la altura media de los estudiantes de secundaria que juegan al baloncesto en el equipo del colegio es inferior a 73 pulgadas al nivel del 5 %. Los datos apoyan la afirmación.</para>
+<para id="eip-idp77616272"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > = 73 <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &lt; 73 <newline/>El valor <emphasis effect="italics">p</emphasis> es casi cero, lo que significa que hay datos suficientes para concluir que la altura media de los estudiantes de secundaria que juegan baloncesto en el equipo escolar es inferior a 73 pulgadas al nivel del 5 %. Los datos apoyan la afirmación.</para>
 </solution>
 </exercise>
 <exercise id="fs-idp139727497515136"><problem id="fs-idp139727497515392">
@@ -165,7 +165,7 @@
 </exercise>
 
 <exercise id="fs-idp139727500315024"><problem id="fs-idp139727500315280">
-<para id="fs-idp139727500315536">Si no se rechaza la hipótesis nula, entonces debe ser cierta. ¿Esta afirmación es correcta? Indique por qué o por qué no en oraciones completas.</para>
+<para id="fs-idp139727500315536">Si no se rechaza la hipótesis nula, entonces debe ser cierta. ¿Esta afirmación es correcta? Indique por qué sí o por qué no en oraciones completas.</para>
 </problem></exercise><para id="eip-972"><emphasis effect="italics">Use la siguiente información para responder los próximos siete ejercicios:</emphasis> supongamos que un artículo reciente afirma que la media de tiempo que pasa en prisión un ladrón condenado por primera vez es de 2,5 años. A continuación se realizó un estudio para comprobar si el tiempo medio ha aumentado en el nuevo siglo. Se eligió una muestra aleatoria de 26 ladrones condenados por primera vez en un año reciente. La media de tiempo en prisión de la encuesta fue de tres años con una desviación típica de 1,8 años. Supongamos que se sabe de algún modo que la desviación típica de la población es 1,5. Realice una prueba de hipótesis para determinar si la duración media del tiempo de encarcelamiento ha aumentado. Supongamos que la distribución de los tiempos en prisión es aproximadamente normal.</para><exercise id="eip-714">
 <problem id="fs-idm64220592">
 <para id="fs-idp26378528">¿Se trata de una prueba de medias o de proporciones?</para>
@@ -188,7 +188,7 @@
   <exercise id="element-797"><problem id="id9153163">
   <para id="element-922">¿Se conoce σ y, si es así, cuál es?</para></problem></exercise><exercise id="element-877">
     <problem id="id9153210">
-    <para id="element-235235">Calcule lo siguiente: <list id="list-8276387645" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math>
+    <para id="element-235235">Calcule lo siguiente: <list id="list-8276387645" list-type="enumerated" number-style="lower-alpha"><item><m:math>
           <m:mover accent="true">
             <m:mi>x</m:mi>
             <m:mo>¯</m:mo>
@@ -225,7 +225,7 @@
 </problem>
 
 <solution id="id13779818">
-  <para id="element-1000">Los términos <m:math>
+  <para id="element-1000"><m:math>
     <m:mrow>
       <m:mover accent="true">
         <m:mi>X</m:mi>
@@ -267,7 +267,7 @@
 <item>Defina la variable aleatoria para esta prueba en palabras.</item>
 <item>¿Se conoce la desviación típica de la población y, en caso afirmativo, cuál es? </item>
 <item>Calcule lo siguiente: <list id="fs-idp42891616" list-type="enumerated" number-style="lower-roman">
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
@@ -304,7 +304,7 @@
 <item>Calcule lo siguiente: <list id="fs-idp150758080" list-type="enumerated" number-style="lower-roman">
 <item><emphasis effect="italics">x</emphasis> = ________________</item>
 <item><emphasis effect="italics">n</emphasis> = ________________</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:msup>
   <m:mi>p</m:mi>
   <m:mo>′</m:mo>

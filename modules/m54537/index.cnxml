@@ -35,7 +35,7 @@
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover></m:math> debe estar más cerca de la media poblacional <emphasis effect="italics">μ</emphasis> a medida que <emphasis effect="italics">n</emphasis> aumenta. Podemos decir que <emphasis effect="italics">μ</emphasis> es el valor al que se acercan las medias muestrales a medida que <emphasis effect="italics">n</emphasis> es mayor. El teorema del límite central ilustra la ley de los grandes números.</para><para id="eip-268">Este concepto es tan importante y desempeña un papel tan decisivo en lo que sigue que merece un mayor desarrollo. De hecho, hay dos cuestiones críticas que se derivan del teorema del límite central y de la aplicación de la ley de los grandes números a este. Estos son</para><list id="eip-950" list-type="enumerated" number-style="arabic"><item>La función de densidad de probabilidad de la distribución muestral de las medias se distribuye normalmente <emphasis effect="bold">independientemente</emphasis> de la distribución subyacente de las observaciones de la población y</item>
-<item>la desviación típica de la distribución muestral disminuye a medida que aumenta el tamaño de las muestras que se utilizaron para calcular las medias de la distribución muestral.</item></list><para id="eip-881">Tomando estos en orden. Parece contradictorio que la población pueda tener <emphasis effect="bold">cualquier</emphasis> distribución y que la distribución de las medias procedentes de ella se distribuya normalmente. Con el uso de computadoras, se pueden simular experimentos que muestren el proceso por el cual la distribución de muestreo cambia a medida que aumenta el tamaño de la muestra. Estas simulaciones muestran visualmente los resultados de la demostración matemática del teorema del límite central.</para><para id="eip-697">He aquí tres ejemplos de distribuciones poblacionales muy diferentes y la evolución de la distribución muestral hacia una distribución normal a medida que aumenta el tamaño de la muestra. El panel superior en estos casos representa el histograma de los datos originales. Los tres paneles muestran los histogramas de 1000 muestras extraídas al azar para diferentes tamaños de muestra: n=10, n= 25 y n=50. A medida que aumenta el tamaño de la muestra, y el número de muestras tomadas se mantiene constante, la distribución de las medias de 1000 muestras se acerca más a la línea suave que representa la distribución normal.</para><para id="eip-183">La<link target-id="eip-id1169478792440"/> es para una distribución normal de las observaciones individuales y esperaríamos que la distribución de muestreo convergiera en la normal rápidamente. Los resultados lo demuestran y muestran que, incluso con un tamaño de muestra muy pequeño, la distribución se aproxima a la distribución normal.    </para><figure id="eip-id1169478792440"><media id="eip-id1169473724931" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch06_07_01m.jpg" width="400"/></media></figure><para id="eip-9">La <link target-id="eip-id1170498321883"/> es una distribución uniforme que, de forma un poco sorprendente, se acerca rápidamente a la distribución normal incluso con solo una muestra de 10.  </para><figure id="eip-id1170498321883"><media id="eip-id1170503521704" alt="..."><image mime-type="image/jpg" src="../../media/fig-ch07_04_01m.jpg" width="400"/></media></figure><para id="eip-61">La <link target-id="eip-id7266344"/> es una distribución sesgada. Esta última podría ser una exponencial, geométrica o binomial con una pequeña probabilidad de éxito creando el sesgo en la distribución. En el caso de las distribuciones asimétricas, nuestra intuición nos dice que se necesitarán tamaños de muestra mayores para pasar a una distribución normal y de hecho, eso es lo que observamos en la simulación. Sin embargo, con un tamaño de muestra de 50, que no se considera muy grande, la distribución de las medias muestrales ha adquirido muy decididamente la forma de la distribución normal.  </para><figure id="eip-id7266344"><media id="eip-id1689066" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch07_04_02m.jpg" width="400"/></media></figure><para id="eip-79">El teorema del límite central proporciona algo más que la prueba de que la distribución muestral de las medias se distribuye normalmente. También nos proporciona la media y la desviación típica de esta distribución. Además, como se ha comentado anteriormente, el valor esperado de la media, <m:math><m:msub><m:mtext>μ</m:mtext><m:mover>
+<item>la desviación típica de la distribución muestral disminuye a medida que aumenta el tamaño de las muestras que se utilizaron para calcular las medias de la distribución muestral.</item></list><para id="eip-881">Tomando estos en orden. Parece contradictorio que la población pueda tener <emphasis effect="bold">cualquier</emphasis> distribución y que la distribución de las medias procedentes de ella se distribuya normalmente. Con el uso de computadoras, se pueden simular experimentos que muestren el proceso por el cual la distribución de muestreo cambia a medida que aumenta el tamaño de la muestra. Estas simulaciones muestran visualmente los resultados de la demostración matemática del teorema del límite central.</para><para id="eip-697">He aquí tres ejemplos de distribuciones poblacionales muy diferentes y la evolución de la distribución muestral hacia una distribución normal a medida que aumenta el tamaño de la muestra. El panel superior en estos casos representa el histograma de los datos originales. Los tres paneles muestran los histogramas de 1000 muestras extraídas al azar para diferentes tamaños de muestra: n=10, n= 25 y n=50. A medida que aumenta el tamaño de la muestra, y el número de muestras tomadas se mantiene constante, la distribución de las medias de 1000 muestras se acerca más a la línea suave que representa la distribución normal.</para><para id="eip-183">La <link target-id="eip-id1169478792440"/> es para una distribución normal de las observaciones individuales y esperaríamos que la distribución de muestreo convergiera en la normal rápidamente. Los resultados lo demuestran y muestran que, incluso con un tamaño de muestra muy pequeño, la distribución se aproxima a la distribución normal.    </para><figure id="eip-id1169478792440"><media id="eip-id1169473724931" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch06_07_01m.jpg" width="400"/></media></figure><para id="eip-9">La <link target-id="eip-id1170498321883"/> es una distribución uniforme que, de forma un poco sorprendente, se acerca rápidamente a la distribución normal incluso con solo una muestra de 10.  </para><figure id="eip-id1170498321883"><media id="eip-id1170503521704" alt="..."><image mime-type="image/jpg" src="../../media/fig-ch07_04_01m.jpg" width="400"/></media></figure><para id="eip-61">La <link target-id="eip-id7266344"/> es una distribución sesgada. Esta última podría ser una exponencial, geométrica o binomial con una pequeña probabilidad de éxito creando el sesgo en la distribución. En el caso de las distribuciones asimétricas, nuestra intuición nos dice que se necesitarán tamaños de muestra mayores para pasar a una distribución normal y de hecho, eso es lo que observamos en la simulación. Sin embargo, con un tamaño de muestra de 50, que no se considera muy grande, la distribución de las medias muestrales ha adquirido muy decididamente la forma de la distribución normal.  </para><figure id="eip-id7266344"><media id="eip-id1689066" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch07_04_02m.jpg" width="400"/></media></figure><para id="eip-79">El teorema del límite central proporciona algo más que la prueba de que la distribución muestral de las medias se distribuye normalmente. También nos proporciona la media y la desviación típica de esta distribución. Además, como se ha comentado anteriormente, el valor esperado de la media, <m:math><m:msub><m:mtext>μ</m:mtext><m:mover>
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover></m:msub>
@@ -52,13 +52,13 @@
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-</m:math> y la desviación estándar se ha escrito a la derecha sobre la distribución. Observe que la desviación típica de la distribución muestral es la desviación típica original de la población, dividida entre el tamaño de la muestra. Ya hemos visto que, a medida que aumenta el tamaño de la muestra, la distribución muestral se acerca cada vez más a la distribución normal. Como esto ocurre, la desviación típica de la distribución muestral cambia de otra manera; la desviación típica disminuye a medida que n aumenta. At very large n, the standard deviation of the sampling distribution becomes very small and at infinity it collapses on top of the population mean. Esto es lo que significa que el valor esperado de <m:math><m:msub><m:mi>µ</m:mi><m:mrow><m:mover>
+</m:math> y la desviación típica se ha escrito a la derecha sobre la distribución. Observe que la desviación típica de la distribución muestral es la desviación típica original de la población, dividida entre el tamaño de la muestra. Ya hemos visto que, a medida que aumenta el tamaño de la muestra, la distribución muestral se acerca cada vez más a la distribución normal. Como esto ocurre, la desviación típica de la distribución muestral cambia de otra manera; la desviación típica disminuye a medida que n aumenta. Cuando n es muy grande, la desviación típica de la distribución muestral se hace muy pequeña y en el infinito colapsa sobre la media de la población. Esto es lo que significa que el valor esperado de <m:math><m:msub><m:mi>µ</m:mi><m:mrow><m:mover>
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover></m:mrow></m:msub>
 </m:math> es la media de la población, µ. </para><figure id="fs-id1168335762577"><media id="fs-id1170967292809" alt=".."><image mime-type="image/jpeg" src="../../media/fig-ch06_02_05n.jpg" width="420"/></media></figure><para id="eip-597">En valores no extremos de n, esta relación entre la desviación típica de la distribución muestral y el tamaño de la muestra desempeña un papel muy importante en nuestra capacidad para estimar los parámetros que nos interesan. </para><para id="eip-887">La <link target-id="fs-id1171528778810"/> muestra tres distribuciones de muestreo. El único cambio que se ha realizado es el tamaño de la muestra que se utilizó para obtener las medias muestrales de cada distribución. A medida que aumenta el tamaño de la muestra, n pasa de 10 a 30 a 50, las desviaciones típicas de las respectivas distribuciones muestrales disminuyen porque el tamaño de la muestra está en el denominador de las desviaciones típicas de las distribuciones muestrales. </para><figure id="fs-id1171528778810"><media id="fs-id1171512251668" alt=".."><image mime-type="image/jpeg" src="../../media/fig-ch06_02_07n.jpg" width="420"/></media></figure>
 <para id="eip-551">Las implicaciones de esto son muy importantes. La <link target-id="fs-id1165504658019"/> muestra el efecto del tamaño de la muestra en la confianza que tendremos en nuestras estimaciones. Se trata de dos distribuciones muestrales de la misma población. Una distribución de muestreo se creó con muestras de tamaño 10 y la otra con muestras de tamaño 50. Si todo lo demás es constante, la distribución de muestreo con un tamaño de muestra de 50 tiene una desviación típica menor que hace que el gráfico sea más alto y estrecho. El efecto importante de esto es que para la misma probabilidad de una desviación típica de la media, esta distribución cubre mucho menos rango de valores posibles que la otra distribución. Una desviación típica está marcada en el eje <m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:math> para cada distribución. Esto se muestra con las dos flechas que son más o menos una desviación típica para cada distribución. Si la probabilidad de que la verdadera media esté a una desviación típica de la media, entonces para la distribución de muestreo con el tamaño de muestra más pequeño, el rango posible de valores es mucho mayor. Una pregunta sencilla es: ¿preferiría tener una media muestral de la distribución estrecha y ajustada o de la distribución plana y amplia como estimación de la media de la población? Su respuesta nos dice por qué la gente intuitivamente siempre elegirá datos de una muestra grande en lugar de una muestra pequeña. La media muestral que obtienen procede de una distribución más compacta. Este concepto será la base de lo que se llamará nivel de confianza en la siguiente unidad.  </para><figure id="fs-id1165504658019"><media id="fs-id8850305" alt=".."><image mime-type="image/jpeg" src="../../media/fig-ch06_02_08n.jpg" width="420"/></media></figure></section></section><section id="fs-idm72155760" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idm147861760">El teorema del límite central puede utilizarse para ilustrar la ley de los grandes números. La ley de los grandes números establece que cuanto mayor sea el tamaño de la muestra que se tome de una población, más se acercará la media muestral <m:math>
  <m:mover>
   <m:mi>x</m:mi>
@@ -67,12 +67,12 @@
 
 </m:math> llega a <emphasis effect="italics">μ</emphasis>.</para></section>
 
-<section id="fs-idm65344016" class="practice"><para id="fs-idp5239552"><emphasis effect="italics">Use la siguiente información para responder los próximos diez ejercicios:</emphasis> Un fabricante produce pesas de 25 libras. El peso real más bajo es de 24 libras, y el más alto de 26 libras. Cada pesa tiene la misma probabilidad, por lo que la distribución de los pesos es uniforme. Se toma una muestra de 100 pesas.</para>
+<section id="fs-idm65344016" class="practice"><para id="fs-idp5239552"><emphasis effect="italics">Use la siguiente información para responder los próximos diez ejercicios:</emphasis> un fabricante produce pesas de 25 libras. El peso real más bajo es de 24 libras, y el más alto de 26 libras. Cada pesa tiene la misma probabilidad, por lo que la distribución de los pesos es uniforme. Se toma una muestra de 100 pesas.</para>
 
 <exercise id="exercise4">
 <problem id="fs-idm108112736">
 <list id="fs-idm44419104" list-type="enumerated" number-style="lower-alpha">
-<item>¿Cuál es la distribución de los pesos de una pesa de 25 libras? What is the mean and standard deviation?</item>
+<item>¿Cuál es la distribución de los pesos de una pesa de 25 libras? ¿Cuál es la media y la desviación típica?</item>
 <item>¿Cuál es la distribución del peso medio de 100 pesas de 25 libras?</item>
 <item>Calcule la probabilidad de que la media del peso real de las 100 pesas sea inferior a 24,9.</item>
 </list>
@@ -86,7 +86,7 @@
 </exercise>
 
 <exercise id="fs-idm84240544"><problem id="fs-idp8363072">
-<para id="fs-idm117442736">Dibuje el gráfico de la <link target-id="exercise4"/></para></problem>
+<para id="fs-idm117442736">Dibuje el gráfico del <link target-id="exercise4" document=""/></para></problem>
 
 <!-- <solution id="fs-idm124774096">
 <figure id="fs-idm129645712"><media id="fs-idm66137264" alt="This is a normal distribution curve which extends from 24 to 26. The peak of the curve  coincides with the point 25 on the horizontal axis. An arrow points to 25 showing P(x-bar &lt; 24.9).">
@@ -104,7 +104,7 @@
 
 
 <exercise id="fs-idm30735600"><problem id="fs-idm87184416">
-<para id="fs-idm68751264">Dibuje el gráfico de la <link target-id="exercise6"/></para></problem>
+<para id="fs-idm68751264">Dibuje el gráfico de la <link target-id="exercise6" document=""/></para></problem>
 
 <!-- <solution id="fs-idm90694544">
 <figure id="eip-idp936112">
@@ -124,7 +124,7 @@
 
 
 <exercise id="fs-idm167897040"><problem id="fs-idm61920032">
-<para id="fs-idm111847536">Dibuje el gráfico de la <link target-id="exercise8"/></para></problem>
+<para id="fs-idm111847536">Dibuje el gráfico de la <link target-id="exercise8" document=""/></para></problem>
 
 <!-- <solution id="fs-idm110267328">
 <figure id="eip-idp3873008"><media id="fs-idm113411344" alt="This is a normal distribution curve which extends from 24 to 26. The peak of the curve  coincides with the point 25 on the horizontal axis. A point, k, is labeled to the right of 25. A vertical line extends from k to the curve. An arrow points to 25 showing P(x-bar &lt; k) = 0.90.">
@@ -146,7 +146,7 @@
 </exercise>
 
 <exercise id="exercise11"><problem id="fs-idm29117824">
-<para id="fs-idm110263040">Dibuje el gráfico de la <link target-id="exercise10"/></para></problem>
+<para id="fs-idm110263040">Dibuje el gráfico de la <link target-id="exercise10" document=""/></para></problem>
 
 <!-- <solution id="fs-idp11678144">
 <figure id="eip-idm64321520">
@@ -163,7 +163,7 @@
 </exercise>
 
 <exercise id="fs-idm54084400"><problem id="fs-idm58526640">
-<para id="fs-idp2153120">Dibuje el gráfico de la <link target-id="exercise12"/></para></problem>
+<para id="fs-idp2153120">Dibuje el gráfico de la <link target-id="exercise12" document=""/></para></problem>
 
 <!-- <solution id="fs-idm17187952">
 <figure id="eip-idp76755600">
@@ -182,7 +182,7 @@
 <solution id="fs-idm119290064">
 <list id="fs-idp20993168" list-type="enumerated" number-style="lower-alpha">
 <item>10</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>
@@ -267,7 +267,7 @@
 </problem>
 
 <!-- <solution id="fs-idm72677136"><para id="fs-idm12285840">205.05</para></solution> -->
-</exercise><para id="fs-idm65293824"><emphasis effect="italics"><newline/>Use la siguiente información para responder los próximos ocho ejercicios:</emphasis> Una distribución uniforme tiene un mínimo de seis y un máximo de diez. Se toma una muestra de 50 personas.</para><exercise id="fs-idm1612656">
+</exercise><para id="fs-idm65293824"><emphasis effect="italics"><newline/>Use la siguiente información para responder los próximos ocho ejercicios:</emphasis> una distribución uniforme tiene un mínimo de seis y un máximo de diez. Se toma una muestra de 50 personas.</para><exercise id="fs-idm1612656">
 <problem id="fs-idm47127360">
 <para id="fs-idm47127232">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> > 420).</para>
 </problem>
@@ -407,7 +407,7 @@
 <term>Distribución normal</term>
 <meaning id="fs-idm63436064">variable aleatoria continua con pdf <m:math>
  <m:mrow>
-  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> = </m:mtext><m:mfrac>
+  <m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> = </m:mtext><m:mfrac>
    <m:mn>1</m:mn>
    <m:mrow>
     <m:mi>σ</m:mi><m:msqrt>

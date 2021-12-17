@@ -20,7 +20,7 @@
 
 <section id="fs-idm34509216">
 <title>La desviación típica proporciona una medida de la variación global de un conjunto de datos</title>
-<para id="fs-idm111390400">La desviación típica es siempre positiva o cero. La desviación típica es pequeña cuando todos los datos se concentran cerca de la media y muestran poca variación o dispersión. La desviación típica es mayor cuando los valores de los datos están más alejados de la media y muestran más variación.</para><para id="eip-419">Supongamos que estamos estudiando el tiempo que los clientes esperan en la fila de la caja del supermercado <emphasis effect="italics">A</emphasis> y del supermercado <emphasis effect="italics">B</emphasis>. El tiempo medio de espera en ambos supermercados es de cinco minutos. En el supermercado <emphasis effect="italics">A</emphasis>, la desviación típica del tiempo de espera es de dos minutos; en el supermercado <emphasis effect="italics">B</emphasis>, la desviación típica del tiempo de espera es de cuatro minutos.</para><para id="fs-idm8407856">Como el supermercado <emphasis effect="italics">B</emphasis> tiene una desviación típica más alta, sabemos que hay más variación en los tiempos de espera en el supermercado <emphasis effect="italics">B</emphasis>. En general, los tiempos de espera en el supermercado <emphasis effect="italics">B</emphasis> están más dispersos del promedio; los tiempos de espera en el supermercado <emphasis effect="italics">A</emphasis> están más concentrados cerca del promedio.</para></section>
+<para id="fs-idm111390400">La desviación típica es siempre positiva o cero. La desviación típica es pequeña cuando todos los datos se concentran cerca de la media y muestran poca variación o dispersión. La desviación típica es mayor cuando los valores de los datos están más alejados de la media y muestran más variación.</para><para id="eip-419">Supongamos que estamos estudiando el tiempo que los clientes esperan en la fila de la caja del supermercado <emphasis effect="italics">A</emphasis> y del supermercado <emphasis effect="italics">B</emphasis>. El tiempo promedio de espera en ambos supermercados es de cinco minutos. En el supermercado <emphasis effect="italics">A</emphasis>, la desviación típica del tiempo de espera es de dos minutos; en el supermercado <emphasis effect="italics">B</emphasis>, la desviación típica del tiempo de espera es de cuatro minutos.</para><para id="fs-idm8407856">Como el supermercado <emphasis effect="italics">B</emphasis> tiene una desviación típica más alta, sabemos que hay más variación en los tiempos de espera en el supermercado <emphasis effect="italics">B</emphasis>. En general, los tiempos de espera en el supermercado <emphasis effect="italics">B</emphasis> están más dispersos del promedio; los tiempos de espera en el supermercado <emphasis effect="italics">A</emphasis> están más concentrados cerca del promedio.</para></section>
 
 <section id="fs-idm36185184">
 <title>Cálculo de la desviación típica</title>
@@ -30,7 +30,7 @@
   <m:mo>–</m:mo>
  </m:mover>
 
-</m:math></para><para id="eip-45">El procedimiento para calcular la desviación típica depende de si los números son toda la población o son datos de una muestra. Los cálculos son similares, pero no idénticos. Por tanto, el símbolo utilizado para representar la desviación típica depende de si se calcula a partir de una población o de una muestra. La letra minúscula s representa la desviación típica de la muestra y la letra griega <emphasis effect="italics">σ</emphasis> (sigma, minúscula) representa la desviación típica de la población. Si la muestra tiene las mismas características que la población, entonces s debería ser una buena estimación de <emphasis effect="italics">σ</emphasis>.</para>
+</m:math>.</para><para id="eip-45">El procedimiento para calcular la desviación típica depende de si los números son toda la población o son datos de una muestra. Los cálculos son similares, pero no idénticos. Por tanto, el símbolo utilizado para representar la desviación típica depende de si se calcula a partir de una población o de una muestra. La letra minúscula s representa la desviación típica de la muestra y la letra griega <emphasis effect="italics">σ</emphasis> (sigma, minúscula) representa la desviación típica de la población. Si la muestra tiene las mismas características que la población, entonces s debería ser una buena estimación de <emphasis effect="italics">σ</emphasis>.</para>
 <para id="eip-689">Para calcular la desviación típica, tenemos que calcular primero la varianza. La <term id="term-00002">varianza</term> es el <emphasis>promedio de los cuadrados de las desviaciones</emphasis> (la <emphasis effect="italics">x</emphasis> – <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
@@ -41,7 +41,7 @@
 
 <section id="fs-idm36483152">
 <title>Fórmulas para la desviación típica de la muestra</title>
-<list id="eip-id1172772662272"><item> Los términos <m:math>
+<list id="eip-id1172772662272"><item> <m:math>
  <m:mrow>
   <m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt>
    <m:mrow>
@@ -95,15 +95,15 @@
   </m:msqrt>
 
  </m:mrow>
-</m:math> o <m:math><m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mo>(</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>n</m:mi></m:munderover></m:mstyle><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo><m:mo>-</m:mo><m:mi>n</m:mi><m:msup><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:msqrt></m:math>
+</m:math> o <m:math><m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mo>(</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>n</m:mi></m:munderover></m:mstyle><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo><m:mo>–</m:mo><m:mi>n</m:mi><m:msup><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:msqrt></m:math>
     </item>
-<item> Para la desviación típica de la muestra, el denominador es <emphasis><emphasis effect="italics">n</emphasis> - 1</emphasis>, es decir, el tamaño de la muestra menos 1.</item>
+<item> Para la desviación típica de la muestra, el denominador es <emphasis><emphasis effect="italics">n</emphasis> – 1</emphasis>, es decir, el tamaño de la muestra menos 1.</item>
 </list></section>
 
 <section id="fs-idm102220704">
 <title>Fórmulas para la desviación típica de la población</title>
 <list id="eip-id1171740197716"><item>
-Los términos <m:math>
+<m:math>
  <m:mrow>
    <m:mi>σ</m:mi>
   <m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:msqrt>
@@ -147,7 +147,7 @@ Los términos <m:math>
   </m:msqrt>
 
  </m:mrow>
-</m:math> o <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover></m:mstyle><m:msubsup><m:mi>x</m:mi><m:mi>i</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>N</m:mi></m:mfrac><m:mo>-</m:mo><m:msup><m:mi>μ</m:mi><m:mn>2</m:mn></m:msup></m:msqrt></m:math></item>
+</m:math> o <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover></m:mstyle><m:msubsup><m:mi>x</m:mi><m:mi>i</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>N</m:mi></m:mfrac><m:mo>–</m:mo><m:msup><m:mi>μ</m:mi><m:mn>2</m:mn></m:msup></m:msqrt></m:math></item>
 <item>Para la desviación típica de la población el denominador es <emphasis effect="italics">N</emphasis>, el número de elementos de la población.</item>
 </list><para id="eip-465">En estas fórmulas, <emphasis effect="italics">f</emphasis> representa la frecuencia con la que aparece un valor. Por ejemplo, si un valor aparece una vez, <emphasis effect="italics">f</emphasis> es uno. Si un valor aparece tres veces en el conjunto de datos o población, <emphasis effect="italics">f</emphasis> es tres. Dos observaciones importantes sobre la varianza y la desviación típica: las desviaciones se miden a partir de la media y las desviaciones se elevan al cuadrado. En principio, las desviaciones podrían medirse desde cualquier punto, sin embargo, nuestro interés es la medición desde el peso central de los datos, lo que es el valor "normal" o más habitual de la observación. Más adelante trataremos de medir lo “inusual" de una observación o de una media muestral y, por tanto, necesitamos una medida a partir de la media. La segunda observación es que las desviaciones son al cuadrado. Esto tiene dos efectos: primero, hace que las desviaciones sean todas positivas y segundo, cambia las unidades de medida de la media y de las observaciones originales. Si los datos son pesos, la media se mide en libras, pero la varianza se mide en libras al cuadrado. Una de las razones para utilizar la desviación típica es volver a las unidades de medida originales tomando la raíz cuadrada de la varianza. Además, cuando las desviaciones se elevan al cuadrado su valor aumenta en gran medida. Por ejemplo, una desviación de 10 de la media al cuadrado es 100, pero una desviación de 100 de la media es 10.000. Lo que hace esto es dar un gran peso a los valores atípicos al calcular la varianza.</para></section><section id="eip-379"><title>Tipos de variabilidad en las muestras</title><para id="eip-550">
 Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya sea por conveniencia o porque no es posible acceder a toda la población. La variabilidad es el término utilizado para describir las diferencias que pueden darse en estos resultados. Los tipos de variabilidad más comunes son los siguientes:
@@ -156,12 +156,12 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 <item>Variabilidad inducida</item>
 <item>Variabilidad de la muestra</item>
 </list><para id="eip-55">He aquí algunos ejemplos para describir cada tipo de variabilidad.
-</para><para id="eip-935"><title>Ejemplo 1: Variabilidad de la medición</title>La variabilidad de la medición se produce cuando hay diferencias en los instrumentos utilizados para medir o en las personas que utilizan esos instrumentos. Si recopilamos datos sobre el tiempo que tarda una pelota en caer desde una altura haciendo que los alumnos midan el tiempo de la caída con un cronómetro, podemos experimentar una variabilidad en la medición si los dos cronómetros utilizados son de diferentes fabricantes: Por ejemplo, un cronómetro mide al segundo más cercano, mientras que el otro mide a la décima de segundo más cercana. También podemos experimentar la variabilidad de las mediciones porque dos personas diferentes recopilan los datos. Sus tiempos de reacción al pulsar el botón del cronómetro pueden ser diferentes, por lo que los resultados variarán en consecuencia. Las diferencias en los resultados pueden verse afectadas por la variabilidad de las mediciones.</para><para id="eip-121"><title>Ejemplo 2: Variabilidad natural</title>La variabilidad natural surge de las diferencias que se producen de forma natural porque los miembros de una población difieren entre sí. Por ejemplo, si tenemos dos plantas de maíz idénticas y las exponemos a la misma cantidad de agua y luz solar, pueden crecer a ritmos diferentes simplemente porque son dos plantas de maíz diferentes. La diferencia de resultados puede explicarse por la variabilidad natural.
-</para><para id="eip-482"><title>Ejemplo 3: Variabilidad inducida</title>La variabilidad inducida es la contrapartida de la variabilidad natural; se produce porque hemos inducido artificialmente un elemento de variación (que, por definición, no estaba presente de forma natural): Por ejemplo, asignamos  personas a dos grupos diferentes paraestudiar la memoria, e inducimos una variable en un grupo limitando la cantidad de sueño que tienen. La diferencia de resultados puede verse afectada por la variabilidad inducida.
-</para><para id="eip-645"><title>Ejemplo 4: Variabilidad de la muestra</title>La variabilidad de la muestra se produce cuando se toman múltiples muestras aleatorias de la misma población. Por ejemplo, si se realizan cuatro encuestas a 50 personas seleccionadas al azar de una población determinada, las diferencias en los resultados pueden verse afectadas por la variabilidad de la muestra.
-</para></section><example id="eip-637"><para id="element-440">En una clase de quinto grado, la maestra estaba interesada en la edad promedio y la desviación típica de la muestra de las edades de sus estudiantes. Los siguientes datos son las edades de una MUESTRA de <emphasis effect="italics">n</emphasis> = 20 estudiantes de quinto grado. Las edades están redondeadas al medio año más cercano: </para>
+</para><para id="eip-935"><title>Ejemplo 1: Variabilidad de la medición</title>La variabilidad de la medición se produce cuando hay diferencias en los instrumentos utilizados para medir o en las personas que utilizan esos instrumentos. Si recopilamos datos sobre el tiempo que tarda una pelota en caer desde una altura haciendo que los estudiantes midan el tiempo de la caída con un cronómetro, podemos experimentar una variabilidad en la medición si los dos cronómetros utilizados son de diferentes fabricantes: Por ejemplo, un cronómetro mide al segundo más cercano, mientras que el otro mide a la décima de segundo más cercana. También podemos experimentar la variabilidad de las mediciones porque dos personas diferentes recopilan los datos. Sus tiempos de reacción al pulsar el botón del cronómetro pueden ser diferentes, por lo que los resultados variarán en consecuencia. Las diferencias en los resultados pueden verse afectadas por la variabilidad de las mediciones.</para><para id="eip-121"><title>Ejemplo 2: Variabilidad natural</title>La variabilidad natural surge de las diferencias que se producen de forma natural porque los miembros de una población difieren entre sí. Por ejemplo, si tenemos dos plantas de maíz idénticas y las exponemos a la misma cantidad de agua y luz solar, pueden crecer a ritmos diferentes simplemente porque son dos plantas de maíz diferentes. La diferencia de resultados puede explicarse por la variabilidad natural.
+</para><para id="eip-482"><title>Ejemplo 3: Variabilidad inducida</title>La variabilidad inducida es la contrapartida de la variabilidad natural; se produce porque hemos inducido artificialmente un elemento de variación (que, por definición, no estaba presente de forma natural): Por ejemplo, asignamos personas a dos grupos diferentes para estudiar la memoria, e inducimos una variable en un grupo limitando la cantidad de sueño que tienen. La diferencia de resultados puede verse afectada por la variabilidad inducida.
+</para><para id="eip-645"><title>Ejemplo 4: Variabilidad de la muestra</title>La variabilidad de la muestra se produce cuando se toman varias muestras aleatorias de la misma población. Por ejemplo, si se realizan cuatro encuestas a 50 personas seleccionadas al azar de una población determinada, las diferencias en los resultados pueden verse afectadas por la variabilidad de la muestra.
+</para></section><example id="eip-637"><para id="element-440">En una clase de quinto grado la maestra estaba interesada en la edad promedio y la desviación típica de la muestra de las edades de sus estudiantes. Los siguientes datos son las edades de una MUESTRA de <emphasis effect="italics">n</emphasis> = 20 estudiantes de quinto grado. Las edades están redondeadas al medio año más cercano: </para>
 
-<para id="element-433">9; 9,5; 9,5; 10; 10; 10; 10; 10,5; 10,5; 10,5; 10,5; 11; 11; 11; 11; 11; 11; 11,5; 11,5; 11,5;</para><equation class="unnumbered" id="element-320">Los términos <m:math>
+<para id="element-433">9; 9,5; 9,5; 10; 10; 10; 10; 10,5; 10,5; 10,5; 10,5; 11; 11; 11; 11; 11; 11; 11,5; 11,5; 11,5;</para><equation class="unnumbered" id="element-320"><label/><m:math>
  <m:mrow>
   <m:mover accent="true">
    <m:mi>x</m:mi>
@@ -226,29 +226,29 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
   <row>
     <entry>9</entry>
     <entry>1</entry>
-    <entry>9 – 10,525 = -1,525</entry>
-    <entry>(-1,525)<sup>2</sup> = 2,325625</entry>
+    <entry>9 – 10,525 = –1,525</entry>
+    <entry>(–1,525)<sup>2</sup> = 2,325625</entry>
     <entry>1 × 2,325625 = 2,325625</entry>
   </row>
   <row>
     <entry>9,5</entry>
     <entry>2</entry>
-    <entry>9,5 – 10,525 = -1,025</entry>
-    <entry>(-1,025)<sup>2</sup> = 1,050625</entry>
+    <entry>9,5 – 10,525 = –1,025</entry>
+    <entry>(–1,025)<sup>2</sup> = 1,050625</entry>
     <entry>2 × 1,050625 = 2,101250</entry>
   </row>
   <row>
     <entry>10</entry>
     <entry>4</entry>
-    <entry>10 – 10,525 = -0,525</entry>
-    <entry>(-0,525)<sup>2</sup> = 0,275625</entry>
+    <entry>10 – 10,525 = –0,525</entry>
+    <entry>(–0,525)<sup>2</sup> = 0,275625</entry>
     <entry>4 × 0,275625 = 1,1025</entry>
   </row>
   <row>
     <entry>10,5</entry>
     <entry>4</entry>
-    <entry>10,5 – 10,525 = -0,025</entry>
-    <entry>(-0,025)<sup>2</sup> = 0,000625</entry>
+    <entry>10,5 – 10,525 = –0,025</entry>
+    <entry>(–0,025)<sup>2</sup> = 0,000625</entry>
     <entry>4 × 0,000625 = 0,0025</entry>
   </row>
   <row>
@@ -270,14 +270,14 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 <entry/>
 <entry/>
 <entry/>
-<entry>El total es de 9,7375</entry>
+<entry>El total es 9,7375</entry>
 </row>
 </tbody>
 
 
 
 </tgroup>
-</table><para id="element-367">La varianza de la muestra, <emphasis effect="italics">s</emphasis><sup>2</sup>, es igual a la suma de la última columna (9,7375) dividida entre el número total de valores de datos menos uno (20 – 1):</para><para id="element-631">Los términos <m:math>
+</table><para id="element-367">La varianza de la muestra, <emphasis effect="italics">s</emphasis><sup>2</sup>, es igual a la suma de la última columna (9,7375) dividida entre el número total de valores de datos menos uno (20 – 1):</para><para id="element-631"><m:math>
  <m:mrow>
   <m:msup>
    <m:mi>s</m:mi>
@@ -296,7 +296,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 </m:math></para>
 
 <para id="element-424">La <emphasis>desviación típica de la muestra</emphasis> <emphasis effect="italics">s</emphasis> es igual a la raíz cuadrada de la varianza de la muestra:</para>
-<para id="element-127">Los términos <m:math>
+<para id="element-127"><m:math>
  <m:mrow>
   <m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt>
    <m:mrow>
@@ -310,7 +310,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 
 
 
-<section id="fs-idm60688208"><title/><section id="fs-idm66792288"><title>Explicación del cálculo de la desviación típica que aparece en la tabla</title><para id="element-877">Las desviaciones muestran la dispersión de los datos respecto a la media. El valor de los datos 11,5 está más alejado de la media que el valor de los datos 11, lo que se indica con las desviaciones 0,97 y 0,47. Una desviación positiva se produce cuando el valor de los datos es mayor que la media, mientras que una desviación negativa se produce cuando el valor de los datos es menor que la media. La desviación es de –1,525 para el noveno valor de los datos. <emphasis>Si se suman las desviaciones, la suma es siempre cero</emphasis>. (Según el <link target-id="eip-637"/>, hay <emphasis effect="italics">n</emphasis> = 20 desviaciones) Por lo tanto, no se puede simplemente sumar las desviaciones para obtener la dispersión de los datos. Al elevar al cuadrado las desviaciones se convierten en números positivos, y la suma también será positiva. La varianza, por tanto, es la desviación promedio al cuadrado. Al elevar al cuadrado las desviaciones, estamos penalizando en extremo las observaciones que se alejan de la media; estas observaciones tienen mayor peso en los cálculos de la varianza. Más adelante veremos que la varianza (desviación típica) desempeña un papel fundamental para determinar nuestras conclusiones en la estadística inferencial. Podemos empezar ahora utilizando la desviación típica como medida de lo "inusual": "¿Cómo te fue en el examen?" "¡Fantástico! Dos desviaciones típicas por encima de la media". Esto, como veremos, es una nota de examen excepcionalmente buena.</para><para id="element-969">La varianza es una medida al cuadrado y no tiene las mismas unidades que los datos. Calcular la raíz cuadrada resuelve el problema. La desviación típica mide la dispersión en las mismas unidades que los datos.</para>
+<section id="fs-idm60688208"><title/><section id="fs-idm66792288"><title>Explicación del cálculo de la desviación típica que aparece en la tabla</title><para id="element-877">Las desviaciones muestran la dispersión de los datos respecto a la media. El valor de los datos 11,5 está más alejado de la media que el valor de los datos 11, lo que se indica con las desviaciones 0,97 y 0,47. Una desviación positiva se produce cuando el valor de los datos es mayor que la media, mientras que una desviación negativa se produce cuando el valor de los datos es menor que la media. La desviación es de –1,525 para el noveno valor de los datos. <emphasis>Si se suman las desviaciones, la suma es siempre cero</emphasis> (según el <link target-id="eip-637"/>, hay <emphasis effect="italics">n</emphasis> = 20 desviaciones). Por lo tanto, no se puede simplemente sumar las desviaciones para obtener la dispersión de los datos. Al elevar al cuadrado las desviaciones se convierten en números positivos, y la suma también será positiva. La varianza, por tanto, es la desviación promedio al cuadrado. Al elevar al cuadrado las desviaciones, estamos penalizando en extremo las observaciones que se alejan de la media; estas observaciones tienen mayor peso en los cálculos de la varianza. Más adelante veremos que la varianza (desviación típica) desempeña un papel fundamental para determinar nuestras conclusiones en la estadística inferencial. Podemos empezar ahora utilizando la desviación típica como medida de lo "inusual": "¿Cómo te fue en el examen?" "¡Fantástico! Dos desviaciones típicas por encima de la media". Esto, como veremos, es una nota de examen excepcionalmente buena.</para><para id="element-969">La varianza es una medida al cuadrado y no tiene las mismas unidades que los datos. Calcular la raíz cuadrada resuelve el problema. La desviación típica mide la dispersión en las mismas unidades que los datos.</para>
 
 <para id="eip-880">Observe que en vez de dividir entre <emphasis effect="italics">n</emphasis> = 20, el cálculo divide entre <emphasis effect="italics">n</emphasis> – 1 = 20 – 1 = 19 porque los datos son una muestra. Para la varianza de la <emphasis>muestra</emphasis>, se divide entre el tamaño de la muestra menos uno (<emphasis effect="italics">n</emphasis> – 1). ¿Por qué no dividir entre <emphasis effect="italics">n</emphasis>? La respuesta tiene que ver con la varianza de la población. <emphasis>La varianza de la muestra es una estimación de la varianza de la población.</emphasis> Esta estimación nos obliga a utilizar una cifra estimada de la media de la población en lugar de la media real de la población. Basándose en la matemática teórica que hay detrás de estos cálculos, al dividir entre (<emphasis effect="italics">n</emphasis> – 1) da una mejor estimación de la varianza de la población.</para><para id="eip-323">La desviación típica, <emphasis effect="italics">s</emphasis> o <emphasis effect="italics">σ</emphasis>, es cero o mayor que cero. La descripción de los datos con referencia a la dispersión se denomina “variabilidad”. La variabilidad de los datos depende del método con el que se obtienen los resultados; por ejemplo, por medición o por muestreo aleatorio. Cuando la desviación típica es cero, no hay dispersión; es decir, todos los valores de los datos son iguales entre sí. La desviación típica es pequeña cuando todos los datos se concentran cerca de la media, y es mayor cuando los valores de los datos muestran más variación con respecto a la media. Cuando la desviación típica es mucho mayor que cero, los valores de los datos están muy dispersos alrededor de la media; los valores atípicos pueden hacer que <emphasis effect="italics">s</emphasis> o <emphasis effect="italics">σ</emphasis> sean muy grandes.</para><example id="element-649">
 <exercise id="exer2"><problem id="id6379302">
@@ -507,8 +507,8 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 <row>
 <entry>Clase</entry>
 <entry>Frecuencia, <emphasis effect="italics">f</emphasis></entry>
-<entry>Punto medio, <emphasis effect="italics">m</emphasis></entry><entry>Los términos <m:math><m:mi>f</m:mi><m:mo>·</m:mo><m:mi> m</m:mi></m:math></entry>
-            <entry>Los términos <m:math><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>-</m:mo><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:math></entry>
+<entry>Punto medio, <emphasis effect="italics">m</emphasis></entry><entry><m:math><m:mi>f</m:mi><m:mo>·</m:mo><m:mi> m</m:mi></m:math></entry>
+            <entry><m:math><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>–</m:mo><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:math></entry>
 </row>
 </thead>
 <tbody>
@@ -516,43 +516,43 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
   <entry>0–2</entry>
   <entry>1</entry>
   <entry>1</entry>
-  <entry>Los términos <m:math><m:mn>1</m:mn><m:mo>·</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>1</m:mn></m:math></entry>
-  <entry>Los términos <m:math><m:mn>1</m:mn><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>6,88</m:mn><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>34,57</m:mn></m:math></entry>
+  <entry><m:math><m:mn>1</m:mn><m:mo>·</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>1</m:mn></m:math></entry>
+  <entry><m:math><m:mn>1</m:mn><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mn>6,88</m:mn><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>34,57</m:mn></m:math></entry>
 </row>
 <row>
   <entry>3–5</entry>
   <entry>6</entry>
   <entry>4</entry>
-  <entry>Los términos <m:math><m:mn>6</m:mn><m:mo>·</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>24</m:mn></m:math></entry>
-  <entry>Los términos <m:math><m:mn>6</m:mn><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>-</m:mo><m:mn>6,88</m:mn><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>49,77</m:mn></m:math></entry>
+  <entry><m:math><m:mn>6</m:mn><m:mo>·</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>24</m:mn></m:math></entry>
+  <entry><m:math><m:mn>6</m:mn><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>–</m:mo><m:mn>6,88</m:mn><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>49,77</m:mn></m:math></entry>
 </row>
 <row>
   <entry>6-8</entry>
   <entry>10</entry>
   <entry>7</entry>
-  <entry>Los términos <m:math><m:mn>10</m:mn><m:mo>·</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>70</m:mn></m:math></entry>
-  <entry>Los términos <m:math><m:mn>10</m:mn><m:mo>(</m:mo><m:mn>7</m:mn><m:mo>-</m:mo><m:mn>6,88</m:mn><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0,14</m:mn></m:math></entry>
+  <entry><m:math><m:mn>10</m:mn><m:mo>·</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>70</m:mn></m:math></entry>
+  <entry><m:math><m:mn>10</m:mn><m:mo>(</m:mo><m:mn>7</m:mn><m:mo>–</m:mo><m:mn>6,88</m:mn><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0,14</m:mn></m:math></entry>
 </row>
 <row>
   <entry>9-11</entry>
   <entry>7</entry>
   <entry>10</entry>
-  <entry>Los términos <m:math><m:mn>7</m:mn><m:mo>·</m:mo><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>70</m:mn></m:math></entry>
-  <entry>Los términos <m:math><m:mn>7</m:mn><m:mo>(</m:mo><m:mn>10</m:mn><m:mo>-</m:mo><m:mn>6,88</m:mn><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>68,14</m:mn></m:math></entry>
+  <entry><m:math><m:mn>7</m:mn><m:mo>·</m:mo><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>70</m:mn></m:math></entry>
+  <entry><m:math><m:mn>7</m:mn><m:mo>(</m:mo><m:mn>10</m:mn><m:mo>–</m:mo><m:mn>6,88</m:mn><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>68,14</m:mn></m:math></entry>
 </row>
 <row>
   <entry>12-14</entry>
   <entry>0</entry>
   <entry>13</entry>
-  <entry>Los términos <m:math><m:mn>0</m:mn><m:mo>·</m:mo><m:mn>13</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:math></entry>
-  <entry>Los términos <m:math><m:mn>0</m:mn><m:mo>(</m:mo><m:mn>13</m:mn><m:mo>-</m:mo><m:mn>6,88</m:mn><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0</m:mn></m:math></entry>
+  <entry><m:math><m:mn>0</m:mn><m:mo>·</m:mo><m:mn>13</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:math></entry>
+  <entry><m:math><m:mn>0</m:mn><m:mo>(</m:mo><m:mn>13</m:mn><m:mo>–</m:mo><m:mn>6,88</m:mn><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0</m:mn></m:math></entry>
 </row>
 <row>
   <entry/>
   <entry>n = 24</entry>
   <entry/>
-  <entry>Los términos <m:math><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>165</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6,88</m:mn></m:math></entry>
-  <entry>Los términos <m:math><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>152,62</m:mn></m:mrow><m:mrow><m:mn>24</m:mn><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6,64</m:mn></m:math></entry>
+  <entry><m:math><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>165</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6,88</m:mn></m:math></entry>
+  <entry><m:math><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>152,62</m:mn></m:mrow><m:mrow><m:mn>24</m:mn><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6,64</m:mn></m:math></entry>
 </row>
 </tbody>
 </tgroup>
@@ -603,12 +603,12 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 <title>Comparación de valores de diferentes conjuntos de datos</title>
 <para id="eip-176">La desviación típica es útil cuando se comparan valores de datos que provienen de diferentes conjuntos de datos. Si los conjuntos de datos tienen medias y desviaciones típicas diferentes, la comparación directa de los valores de los datos puede ser engañosa.</para>
 <list id="eip-id1170599203736"><item>Para cada valor de los datos x, calcule a cuántas desviaciones típicas de su media se encuentra el valor.</item>
-<item>Utilice la fórmula: x = media + (n.º de STDEV)(desviación típica); resuelva para n.º deSTDEV.</item>
-<item>Los términos <m:math>
+<item>Utilice la fórmula: x = media + (n.º de STDEV)(de STandard DEViation o desviación típica); resuelva para n.º de STDEV.</item>
+<item><m:math>
  <m:mrow>
-  <m:mo>N.º</m:mo><m:mi>o</m:mi><m:mi>f</m:mi><m:mi>S</m:mi><m:mi>T</m:mi><m:mi>D</m:mi><m:mi>E</m:mi><m:mi>V</m:mi><m:mi>s</m:mi><m:mo>=</m:mo><m:mfrac>
+  <m:mo>n.º</m:mo><m:mi>d</m:mi><m:mi>e</m:mi><m:mi>S</m:mi><m:mi>T</m:mi><m:mi>D</m:mi><m:mi>E</m:mi><m:mi>V</m:mi><m:mi> </m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
-    <m:mtext>x - media</m:mtext>
+    <m:mtext>x – media</m:mtext>
    </m:mrow>
    <m:mrow>
     <m:mtext>desviación típica</m:mtext>
@@ -618,18 +618,18 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
  </m:mrow>
 </m:math></item>
 <item>Compare los resultados de este cálculo.</item>
-</list><para id="eip-946">N.º de STDEV (de STandard DEViation, o desviación típica) suele llamarse “puntuación <emphasis effect="italics">z</emphasis>”; podemos utilizar el símbolo <emphasis effect="italics">z</emphasis>. En símbolos, las fórmulas se convierten en:</para>
+</list><para id="eip-946">N.º de STDEV suele llamarse “puntuación <emphasis effect="italics">z</emphasis>”; podemos utilizar el símbolo <emphasis effect="italics">z</emphasis>. En símbolos, las fórmulas se convierten en:</para>
 <table id="eip-329" summary="The table shows the z-score formula.">
 <tgroup cols="3"><tbody>
   <row>
     <entry><emphasis>Muestra</emphasis></entry>
-    <entry>Los términos <m:math><m:mi>x</m:mi></m:math> = <m:math>
+    <entry><m:math><m:mi>x</m:mi></m:math> = <m:math>
 <m:apply>
   <m:conjugate/>
   <m:ci>x</m:ci>
 </m:apply>
 </m:math> + <emphasis effect="italics">zs</emphasis> </entry>
-    <entry>Los términos <m:math>
+    <entry><m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -647,10 +647,10 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
   </row>
   <row>
     <entry><emphasis>Población</emphasis></entry>
-    <entry>Los términos <m:math><m:mi>x</m:mi></m:math> = <m:math>
+    <entry><m:math><m:mi>x</m:mi></m:math> = <m:math>
 <m:mi>μ</m:mi>
 </m:math> + <emphasis effect="italics">zσ</emphasis></entry>
-    <entry>Los términos <m:math>
+    <entry><m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -676,7 +676,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
   <row>
     <entry>Estudiante</entry>
     <entry>GPA</entry>
-    <entry>Media de las calificaciones de la escuela (Grade Point Average, GPA)</entry>
+    <entry>GPA media escolar</entry>
     <entry>Desviación típica escolar</entry>
   </row>
 </thead>
@@ -699,7 +699,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 </table></para></problem>
 <solution id="id7180364">
 <para id="element-71">Para cada estudiante, determine cuántas desviaciones típicas (n.º de STDEV) se aleja su GPA del promedio, para su escuela. Preste mucha atención a los signos al comparar e interpretar la respuesta.</para>
-<para id="element-590">Los términos <m:math>
+<para id="element-590"><m:math>
  <m:mrow><m:mi>z</m:mi><m:mo>=</m:mo>
   <m:mo>N.º de STDEV</m:mo><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -711,7 +711,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
   </m:mfrac>
   <m:mo>=</m:mo><m:mfrac>
    <m:mrow>
-    <m:mi>x</m:mi><m:mo>-</m:mo><m:mi>μ</m:mi>
+    <m:mi>x</m:mi><m:mo>–</m:mo><m:mi>μ</m:mi>
    </m:mrow>
    <m:mi>σ</m:mi>
   </m:mfrac>
@@ -720,7 +720,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 </m:math>
 </para><para id="element-378">Para John, <m:math display="">
  <m:mrow>
-  <m:mi>z</m:mi><m:mo>=</m:mo><m:mo>N.º</m:mo><m:mi>o</m:mi><m:mi>f</m:mi><m:mi>S</m:mi><m:mi>T</m:mi><m:mi>D</m:mi><m:mi>E</m:mi><m:mi>V</m:mi><m:mi>s</m:mi><m:mo>=</m:mo><m:mfrac>
+  <m:mi>z</m:mi><m:mo>=</m:mo><m:mo>n.º</m:mo><m:mi>d</m:mi><m:mi>e</m:mi><m:mi>S</m:mi><m:mi>T</m:mi><m:mi>D</m:mi><m:mi>E</m:mi><m:mi>V</m:mi><m:mi> </m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
     <m:mn>2,85</m:mn><m:mo>–</m:mo><m:mn>3,0</m:mn>
    </m:mrow>
@@ -733,7 +733,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 </m:math>
 </para><para id="element-712">Para Ali, <m:math>
  <m:mrow>
-  <m:mi>z</m:mi><m:mo>=</m:mo><m:mo>N.º</m:mo><m:mi>o</m:mi><m:mi>f</m:mi><m:mi>S</m:mi><m:mi>T</m:mi><m:mi>D</m:mi><m:mi>E</m:mi><m:mi>V</m:mi><m:mi>s</m:mi><m:mo>=</m:mo><m:mfrac>
+  <m:mi>z</m:mi><m:mo>=</m:mo><m:mo>n.º</m:mo><m:mi>d</m:mi><m:mi>e</m:mi><m:mi>S</m:mi><m:mi>T</m:mi><m:mi>D</m:mi><m:mi>E</m:mi><m:mi>V</m:mi><m:mi> </m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
     <m:mn>77</m:mn><m:mo>–</m:mo><m:mn>80</m:mn>
    </m:mrow>
@@ -741,13 +741,13 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
     <m:mn>10</m:mn>
    </m:mrow>
   </m:mfrac>
-  <m:mo>=</m:mo><m:mo>-</m:mo><m:mn>0,3</m:mn>
+  <m:mo>=</m:mo><m:mo>–</m:mo><m:mn>0,3</m:mn>
  </m:mrow>
 </m:math>
 </para><para id="element-344">John tiene el mejor GPA en comparación con su escuela porque su GPA está 0,21 desviaciones típicas <emphasis>por debajo</emphasis> de la media de su escuela mientras que el GPA de Ali está 0,3 desviaciones típicas <emphasis>por debajo</emphasis> de la media de su escuela.</para>
 <para id="fs-idp36263696">La puntuación <emphasis effect="italics">z</emphasis> de John, de –0,21, es mayor que la puntuación <emphasis effect="italics">z</emphasis> de Ali, de –0,3. Para el GPA, los valores más altos son mejores, por lo que concluimos que John tiene el mejor GPA en comparación con su escuela.</para>
 </solution>
-</exercise></example><note id="fs-idm22007088" class="statistics try">
+</exercise></example><note id="fs-idm22007088" class="statistics try"><label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm30975248">
 <problem id="fs-idm30974992">
@@ -795,14 +795,14 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 
 <section id="eip-494"><title>Coeficiente de variación</title><para id="eip-125">Otra forma útil de comparar distribuciones, además de las simples comparaciones de medias o desviaciones típicas, es ajustar las diferencias en la escala de los datos que se miden. Sencillamente, una gran variación en los datos con una media grande es diferente a la misma variación en los datos con una media pequeña. Para ajustar la escala de los datos subyacentes se ha desarrollado el coeficiente de variación (CV). Matemáticamente, el:
 
-</para><equation class="unnumbered" id="eip-638">Los términos <m:math><m:mi>C</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>s</m:mi><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mfrac><m:mo>*</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>condicionado a</m:mtext><m:mspace width="0.2em"/><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>≠</m:mo><m:mn>0,</m:mn><m:mspace width="0.2em"/><m:mtext>donde</m:mtext><m:mspace width="0.2em"/><m:mi>s</m:mi><m:mspace width="0.2em"/><m:mtext>es la desviación típica de los datos y</m:mtext><m:mspace width="0.2em"/><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mspace width="0.2em"/><m:mtext>es la media.</m:mtext></m:math></equation><para id="eip-411">Podemos ver que esto mide la variabilidad de los datos subyacentes como un porcentaje del valor medio; el peso central del conjunto de datos. Esta medida es útil para comparar el riesgo cuando se justifica un ajuste debido a las diferencias de escala de dos conjuntos de datos. En efecto, la escala se cambia a escala común, diferencias porcentuales, y permite la comparación directa de las dos o más magnitudes de variación de diferentes conjuntos de datos.</para></section><section id="fs-idp5887184" class="references">
+</para><equation class="unnumbered" id="eip-638"><label/><m:math><m:mi>C</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>s</m:mi><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mfrac><m:mo>*</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>condicionado a</m:mtext><m:mspace width="0.2em"/><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>≠</m:mo><m:mn>0,</m:mn><m:mspace width="0.2em"/><m:mtext>donde</m:mtext><m:mspace width="0.2em"/><m:mi>s</m:mi><m:mspace width="0.2em"/><m:mtext>es la desviación típica de los datos y</m:mtext><m:mspace width="0.2em"/><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mspace width="0.2em"/><m:mtext>es la media.</m:mtext></m:math></equation><para id="eip-411">Podemos ver que esto mide la variabilidad de los datos subyacentes como un porcentaje del valor medio; el peso central del conjunto de datos. Esta medida es útil para comparar el riesgo cuando se justifica un ajuste debido a las diferencias de escala de dos conjuntos de datos. En efecto, la escala se cambia a escala común, diferencias porcentuales, y permite la comparación directa de las dos o más magnitudes de variación de diferentes conjuntos de datos.</para></section><section id="fs-idp5887184" class="references">
 <title>Referencias</title>
 <para id="fs-idm65006032">Datos de Microsoft Bookshelf.</para>
 <para id="fs-idm65005648">King, Bill.“Graphically Speaking”. Institutional Research, Lake Tahoe Community College. Disponible en línea en http://www.ltcc.edu/web/about/institutional-research (consultado el 3 de abril de 2013).</para>
 </section>
 
 <section id="fs-idm30772592" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idm30771952">La desviación típica puede ayudarlo a calcular la dispersión de los datos. Existen diferentes ecuaciones para calcular la desviación típica de una muestra o de una población. </para><list id="fs-idm41288176" list-type="bulleted">
 <item>La desviación típica nos permite comparar numéricamente datos individuales o clases con la media del conjunto de datos.</item>
 <item><emphasis effect="italics">s</emphasis> = <m:math>
@@ -846,7 +846,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
        <m:mstyle mathsize="140%" displaystyle="true"><m:mo>∑</m:mo></m:mstyle>
        <m:mtext>​</m:mtext>
       </m:msup>
-      <m:mi>f</m:mi><m:msup>
+      <m:mi>e</m:mi><m:msup>
        <m:mrow>
         <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mover accent="true">
          <m:mi>x</m:mi>
@@ -902,7 +902,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
        <m:mstyle mathsize="140%" displaystyle="true"><m:mo>∑</m:mo></m:mstyle>
        <m:mtext>​</m:mtext>
       </m:msup>
-      <m:mi>f</m:mi><m:msup>
+      <m:mi>e</m:mi><m:msup>
        <m:mrow>
         <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mi>μ</m:mi><m:mo stretchy="false">)</m:mo>
        </m:mrow>
@@ -917,16 +917,16 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
   </m:msqrt>
 
  </m:mrow>
-</m:math></item>
+</m:math>.</item>
 </list>
 </section>
 
 <section id="fs-idm71113376" class="formula-review">
 <title>Revisión de la fórmula</title>
-<para id="fs-idm727968">Los términos <m:math><m:mrow><m:msub><m:mi>s</m:mi>
+<para id="fs-idm727968"><m:math><m:mrow><m:msub><m:mi>s</m:mi>
     <m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow>
      <m:mfrac><m:mrow><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow>
-         <m:mi>f</m:mi><m:msup><m:mi>m</m:mi><m:mn>2</m:mn>
+         <m:mi>e</m:mi><m:msup><m:mi>m</m:mi><m:mn>2</m:mn>
          </m:msup></m:mrow></m:mstyle></m:mrow><m:mi>n</m:mi>
      </m:mfrac><m:mo>–</m:mo><m:msup><m:mrow>
        <m:mover accent="true"><m:mi>x</m:mi>
@@ -972,7 +972,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
    <m:mrow>
     <m:mfrac>
      <m:mrow>
-      <m:mi>Σ</m:mi><m:mi>f</m:mi><m:msup>
+      <m:mi>Σ</m:mi><m:mi>e</m:mi><m:msup>
        <m:mrow>
         <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mover accent="true">
          <m:mi>x</m:mi>
@@ -993,7 +993,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
   </m:msqrt>
 
  </m:mrow>
-</m:math> o <m:math><m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mo>(</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>n</m:mi></m:munderover></m:mstyle><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo><m:mo>-</m:mo><m:mi>n</m:mi><m:msup><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:msqrt></m:math> Para la desviación típica de la muestra, el denominador es <emphasis><emphasis effect="italics">n</emphasis> - 1</emphasis>, es decir, el tamaño de la muestra - 1.
+</m:math> o <m:math><m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mo>(</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>n</m:mi></m:munderover></m:mstyle><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo><m:mo>–</m:mo><m:mi>n</m:mi><m:msup><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:msqrt></m:math> Para la desviación típica de la muestra, el denominador es <emphasis><emphasis effect="italics">n</emphasis> – 1</emphasis>, es decir, el tamaño de la muestra – 1.
 </para><para id="eip-116">Fórmulas para la desviación típica de la población <m:math>
  <m:mrow>
    <m:mi>σ</m:mi>
@@ -1023,7 +1023,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
    <m:mrow>
     <m:mfrac>
      <m:mrow>
-      <m:mi>Σ</m:mi><m:mi>f</m:mi><m:msup>
+      <m:mi>Σ</m:mi><m:mi>e</m:mi><m:msup>
        <m:mrow>
         <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mi>μ</m:mi><m:mo stretchy="false">)</m:mo>
        </m:mrow>
@@ -1038,7 +1038,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
   </m:msqrt>
 
  </m:mrow>
-</m:math> o <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover></m:mstyle><m:msubsup><m:mi>x</m:mi><m:mi>i</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>N</m:mi></m:mfrac><m:mo>-</m:mo><m:msup><m:mi>μ</m:mi><m:mn>2</m:mn></m:msup></m:msqrt></m:math> Para la desviación típica de la población, el denominador es <emphasis effect="italics">N</emphasis>, el número de elementos de la población.
+</m:math> o <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>N</m:mi></m:munderover></m:mstyle><m:msubsup><m:mi>x</m:mi><m:mi>i</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>N</m:mi></m:mfrac><m:mo>–</m:mo><m:msup><m:mi>μ</m:mi><m:mn>2</m:mn></m:msup></m:msqrt></m:math> Para la desviación típica de la población, el denominador es <emphasis effect="italics">N</emphasis>, el número de elementos de la población.
 </para></section>
 
 <section id="fs-idm102658016" class="practice">
@@ -1060,7 +1060,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 <problem id="fs-idm41792944">
 <para id="fs-idm41792688">Dos jugadores de béisbol, Fredo y Karl, de equipos diferentes, querían averiguar quién tenía el promedio de bateo más alto en comparación con su equipo. ¿Cuál jugador de béisbol tenía el promedio de bateo más alto en comparación con su equipo?</para>
 <table id="fs-idm133764640" summary="---">
-<tgroup cols="4"><thead><row><entry>Jugador de béisbol</entry>	<entry>Media de bateo</entry>	<entry>Media de bateo del equipo</entry>	<entry>Desviación típica del equipo</entry></row></thead>
+<tgroup cols="4"><thead><row><entry>Jugador de béisbol</entry>	<entry>Promedio de bateo</entry>	<entry>Promedio de bateo del equipo</entry>	<entry>Desviación típica del equipo</entry></row></thead>
 <tbody>
 <row><entry>Fredo</entry>	<entry>0,158</entry>	<entry>0,166</entry>	<entry>0,012</entry></row>
 <row><entry>Karl</entry>	<entry>0,177</entry>	<entry>0,189</entry>	<entry>0,015</entry></row>
@@ -1111,22 +1111,22 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 <tgroup cols="2">
 <thead><row><entry>Grado</entry><entry>Frecuencia</entry></row></thead>
 <tbody>
-<row><entry>49,5–59,5</entry><entry>2</entry></row>
-<row><entry>59,5–69,5</entry><entry>3</entry></row>
-<row><entry>69,5–79,5</entry><entry>8</entry></row>
-<row><entry>79,5–89,5</entry><entry>12</entry></row>
-<row><entry>89,5–99,5</entry><entry>5</entry></row>
+<row><entry>49,5-59,5</entry><entry>2</entry></row>
+<row><entry>59,5-69,5</entry><entry>3</entry></row>
+<row><entry>69,5-79,5</entry><entry>8</entry></row>
+<row><entry>79,5-89,5</entry><entry>12</entry></row>
+<row><entry>89,5-99,5</entry><entry>5</entry></row>
 </tbody>
 </tgroup>
 </table></item>
 <item><table id="fs-idm26532112" summary="---">
 <tgroup cols="2"><thead><row><entry>Temperatura mínima diaria</entry>	<entry>Frecuencia</entry></row></thead>
 <tbody>
-<row><entry>49,5–59,5</entry>	<entry>53</entry></row>
-<row><entry>59,5–69,5</entry>	<entry>32</entry></row>
-<row><entry>69,5–79,5</entry>	<entry>15</entry></row>
-<row><entry>79,5–89,5</entry>	<entry>1</entry></row>
-<row><entry>89,5–99,5</entry>	<entry>0</entry></row>
+<row><entry>49,5-59,5</entry>	<entry>53</entry></row>
+<row><entry>59,5-69,5</entry>	<entry>32</entry></row>
+<row><entry>69,5-79,5</entry>	<entry>15</entry></row>
+<row><entry>79,5-89,5</entry>	<entry>1</entry></row>
+<row><entry>89,5-99,5</entry>	<entry>0</entry></row>
 </tbody>
 
 </tgroup>
@@ -1134,38 +1134,38 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 <item><table id="fs-idm21103120" summary="---">
 <tgroup cols="2"><thead><row><entry>Puntos por partido</entry>	<entry>Frecuencia</entry></row></thead>
 <tbody>
-<row><entry>49,5–59,5</entry>	<entry>14</entry></row>
-<row><entry>59,5–69,5</entry>	<entry>32</entry></row>
-<row><entry>69,5–79,5</entry>	<entry>15</entry></row>
-<row><entry>79,5–89,5</entry>	<entry>23</entry></row>
-<row><entry>89,5–99,5</entry>	<entry>2</entry></row>
+<row><entry>49,5-59,5</entry>	<entry>14</entry></row>
+<row><entry>59,5-69,5</entry>	<entry>32</entry></row>
+<row><entry>69,5-79,5</entry>	<entry>15</entry></row>
+<row><entry>79,5-89,5</entry>	<entry>23</entry></row>
+<row><entry>89,5-99,5</entry>	<entry>2</entry></row>
 </tbody>
 
 </tgroup>
 </table></item>
 </list></problem>
 <solution id="fs-idm18306912">
-<list id="fs-idm49462512" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math>
+<list id="fs-idm49462512" list-type="enumerated" number-style="lower-alpha"><item><m:math>
 <m:mrow><m:msub><m:mi>s</m:mi><m:mi>x</m:mi></m:msub>
    <m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow>
-         <m:mi>f</m:mi><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow>
+         <m:mi>e</m:mi><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow>
        </m:mstyle></m:mrow><m:mi>n</m:mi></m:mfrac><m:mo>–</m:mo><m:msup><m:mrow>
        <m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="true">–</m:mo>      </m:mover></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow>
      <m:mfrac><m:mrow><m:mn>193157,45</m:mn></m:mrow><m:mrow><m:mn>30</m:mn></m:mrow>
      </m:mfrac><m:mo>–</m:mo><m:msup><m:mrow><m:mn>79,5</m:mn></m:mrow><m:mn>2</m:mn>
      </m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>10,88</m:mn></m:mrow>
    </m:math></item>
-<item>Los términos <m:math> <m:mrow><m:msub><m:mi>s</m:mi><m:mi>x</m:mi>
-   </m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow><m:mi>f</m:mi><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mstyle></m:mrow>
+<item><m:math> <m:mrow><m:msub><m:mi>s</m:mi><m:mi>x</m:mi>
+   </m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow><m:mi>e</m:mi><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mstyle></m:mrow>
       <m:mi>n</m:mi></m:mfrac><m:mo>–</m:mo><m:msup><m:mrow>
        <m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="true">–</m:mo></m:mover></m:mrow>
       <m:mn>2</m:mn></m:msup></m:mrow></m:msqrt>
    <m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>380945,3</m:mn></m:mrow><m:mrow>
        <m:mn>101</m:mn></m:mrow></m:mfrac><m:mo>–</m:mo><m:msup>      <m:mrow><m:mn>60,94</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>7,62</m:mn></m:mrow></m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
 <m:mrow><m:msub><m:mi>s</m:mi><m:mi>x</m:mi></m:msub>
    <m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mstyle displaystyle="true">
-        <m:mo>∑</m:mo> <m:mrow><m:mi>f</m:mi><m:msup><m:mi>m</m:mi>
+        <m:mo>∑</m:mo> <m:mrow><m:mi>e</m:mi><m:msup><m:mi>m</m:mi>
           <m:mn>2</m:mn></m:msup></m:mrow></m:mstyle></m:mrow><m:mi>n</m:mi>
      </m:mfrac><m:mo>–</m:mo><m:msup><m:mrow><m:mover accent="true">
         <m:mi>x</m:mi><m:mo stretchy="true">–</m:mo></m:mover></m:mrow><m:mn>2</m:mn>
@@ -1227,12 +1227,12 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 <tgroup cols="7"><tbody>
               <row>
                 <entry><emphasis>Año</emphasis></entry>
-                <entry><emphasis>2005–06</emphasis></entry>
-                <entry><emphasis>2006–07</emphasis></entry>
-                <entry><emphasis>2007–08</emphasis></entry>
-                <entry><emphasis>2008–09</emphasis></entry>
-                <entry><emphasis>2009–10</emphasis></entry>
-                <entry><emphasis>2010–11</emphasis></entry>
+                <entry><emphasis>2005-2006</emphasis></entry>
+                <entry><emphasis>2006-2007</emphasis></entry>
+                <entry><emphasis>2007-2008</emphasis></entry>
+                <entry><emphasis>2008-2009</emphasis></entry>
+                <entry><emphasis>2009-2010</emphasis></entry>
+                <entry><emphasis>2010-2011</emphasis></entry>
               </row>
               <row>
                 <entry><emphasis>Total de FTES</emphasis></entry>
@@ -1321,7 +1321,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 </exercise>
 
 <exercise id="element-799"><problem id="id6038456">
-<para id="fs-idm25455232">Una clase de escuela primaria corrió una milla con una media de 11 minutos y una desviación típica de tres minutos. Rachel, una estudiante de la clase, corrió una milla en ocho minutos. Una clase de penúltimo año corrió una milla con una media de nueve minutos y una desviación típica de dos minutos. Kenji, un estudiante de la clase, corrió 1 milla en 8,5 minutos. Una clase de escuela secundaria corrió una milla con una media de siete minutos y una desviación típica de cuatro minutos. Nedda, una estudiante de la clase, corrió una milla en ocho minutos.</para>
+<para id="fs-idm25455232">Una clase de escuela primaria corrió una milla con una media de 11 minutos y una desviación típica de tres minutos. Rachel, una estudiante de la clase, corrió una milla en ocho minutos. Una clase de escuela secundaria júnior corrió una milla con una media de nueve minutos y una desviación típica de dos minutos. Kenji, un estudiante de la clase, corrió 1 milla en 8,5 minutos. Una clase de escuela secundaria corrió una milla con una media de siete minutos y una desviación típica de cuatro minutos. Nedda, una estudiante de la clase, corrió una milla en ocho minutos.</para>
 <list id="element-895" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>¿Por qué se considera a Kenji mejor corredor que Nedda, a pesar de que esta corría más rápido que él?</item>
 <item>¿Quién es el corredor más rápido con respecto a su clase? Explique por qué.</item>
 </list></problem>
@@ -1334,22 +1334,22 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 <colspec colnum="2" colname="c2"/>
 <thead><row><entry>Porcentaje de población obesa</entry><entry>Número de países</entry></row></thead>
 <tbody>
-<row><entry>11,4–20,45</entry><entry>29</entry></row>
-<row><entry>20,45–29,45</entry><entry>13</entry></row>
-<row><entry>29,45–38,45</entry><entry>4</entry></row>
-<row><entry>38,45–47,45</entry><entry>0</entry></row>
-<row><entry>47,45–56,45</entry><entry>2</entry></row>
-<row><entry>56,45–65,45</entry><entry>1</entry></row>
-<row><entry>65,45–74,45</entry><entry>0</entry></row>
-<row><entry>74,45–83,45</entry><entry>1</entry></row>
+<row><entry>11,4-20,45</entry><entry>29</entry></row>
+<row><entry>20,45-29,45</entry><entry>13</entry></row>
+<row><entry>29,45-38,45</entry><entry>4</entry></row>
+<row><entry>38,45-47,45</entry><entry>0</entry></row>
+<row><entry>47,45-56,45</entry><entry>2</entry></row>
+<row><entry>56,45-65,45</entry><entry>1</entry></row>
+<row><entry>65,45-74,45</entry><entry>0</entry></row>
+<row><entry>74,45-83,45</entry><entry>1</entry></row>
 </tbody>
 
 </tgroup>
-</table><para id="fs-idm115073344">¿Cuál es la mejor estimación del porcentaje promedio de obesidad en estos países? ¿Cuál es la desviación típica de las tasas de obesidad indicadas? Estados Unidos tiene una tasa promedio de obesidad del 33,9 %. ¿Esta tasa está por encima o por debajo del promedio? ¿Cuán “inusual” es la tasa de obesidad de Estados Unidos en comparación con la tasa media? Explique.</para>
+</table><para id="fs-idm115073344">¿Cuál es la mejor estimación del porcentaje promedio de obesidad en estos países? ¿Cuál es la desviación típica de las tasas de obesidad indicadas? Estados Unidos tiene una tasa promedio de obesidad del 33,9 %. ¿Esta tasa está por encima o por debajo del promedio? ¿Cuán “inusual” es la tasa de obesidad de Estados Unidos en comparación con la tasa promedio? Explique.</para>
 </problem>
 
 <solution id="fs-idm115072832">
-<list id="fs-idm65872400" list-type="bulleted"><item>Los términos <m:math>
+<list id="fs-idm65872400" list-type="bulleted"><item><m:math>
    <m:mrow>
    <m:mover accent="true">
     <m:mi>x</m:mi>
@@ -1374,15 +1374,15 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 
 <exercise id="fs-idm70000608">
 <problem id="fs-idm70000352">
-<para id="fs-idm116547040"><link target-id="fs-idm116546656"/> da el porcentaje de niños menores de cinco años considerados con bajo peso.</para><table id="fs-idm116546656" summary="---">
+<para id="fs-idm116547040">La <link target-id="fs-idm116546656"/> da el porcentaje de niños menores de cinco años considerados con bajo peso.</para><table id="fs-idm116546656" summary="---">
 <tgroup cols="2"><thead><row><entry>Porcentaje de niños con bajo peso</entry>	<entry>Número de países</entry></row></thead>
 <tbody>
-<row><entry>16–21,45</entry><entry>23</entry></row>
-<row><entry>21,45–26,9</entry><entry>4</entry></row>
-<row><entry>26,9–32,35</entry><entry>9</entry></row>
-<row><entry>32,35–37,8</entry><entry>7</entry></row>
-<row><entry>37,8–43,25</entry><entry>6</entry></row>
-<row><entry>43,25–48,7</entry><entry>1</entry></row>
+<row><entry>16-21,45</entry><entry>23</entry></row>
+<row><entry>21,45-26,9</entry><entry>4</entry></row>
+<row><entry>26,9-32,35</entry><entry>9</entry></row>
+<row><entry>32,35-37,8</entry><entry>7</entry></row>
+<row><entry>37,8-43,25</entry><entry>6</entry></row>
+<row><entry>43,25-48,7</entry><entry>1</entry></row>
 </tbody>
 
 </tgroup>
@@ -1434,7 +1434,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
   <m:conjugate/>
   <m:ci>x</m:ci>
 </m:apply>
-</m:math></item>
+</m:math>.</item>
 <item>Calcule la desviación típica aproximada de la muestra, <emphasis effect="italics">s</emphasis>.</item>
 </list></problem>
 <solution id="id6101341">
@@ -1573,7 +1573,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 </exercise>
 
 <exercise id="element-891"><problem id="id3671813">
-<para id="element-707">Una encuesta sobre las inscripciones en 35 institutos universitarios comunitarios de Estados Unidos arrojó las siguientes cifras:</para><para id="element-23455">6414; 1550; 2109; 9350; 21828; 4300; 5944; 5722; 2825; 2044; 5481; 5200; 5853; 2750; 10012; 6357; 27000; 9414; 7681; 3200; 17500; 9200; 7380; 18314; 6557; 13713; 17768; 7493; 2771; 2861; 1263; 7285; 28165; 5080; 11622</para><list id="id12992735" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Organice los datos en un gráfico con cinco intervalos de igual ancho. Identifique las dos columnas “inscripción” y “frecuencia”.</item>
+<para id="element-707">Una encuesta sobre las inscripciones en 35 colegios comunitarios de Estados Unidos arrojó las siguientes cifras:</para><para id="element-23455">6414; 1550; 2109; 9350; 21828; 4300; 5944; 5722; 2825; 2044; 5481; 5200; 5853; 2750; 10012; 6357; 27000; 9414; 7681; 3200; 17500; 9200; 7380; 18314; 6557; 13713; 17768; 7493; 2771; 2861; 1263; 7285; 28165; 5080; 11622</para><list id="id12992735" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Organice los datos en un gráfico con cinco intervalos de igual ancho. Identifique las dos columnas “inscripción” y “frecuencia”.</item>
 <item>Construya un histograma de los datos.</item>
 <item>Si tuviera que construir un nuevo colegio comunitario, ¿qué información sería más valiosa: la moda o la media?</item>
 <item>Calcule la media muestral.</item>
@@ -1587,18 +1587,18 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 <tgroup cols="2">
 <thead><row><entry>Inscripción</entry><entry>Frecuencia</entry></row></thead>
 <tbody>
-<row><entry>1000-5000</entry><entry>10</entry></row>
-<row><entry>5000-10000</entry><entry>16</entry></row>
-<row><entry>10000-15000</entry><entry>3</entry></row>
-<row><entry>15000-20000</entry><entry>3</entry></row>
-<row><entry>20000-25000</entry><entry>1</entry></row>
-<row><entry>25000-30000</entry><entry>2</entry></row>
+<row><entry>1.000-5.000</entry><entry>10</entry></row>
+<row><entry>5.000-10.000</entry><entry>16</entry></row>
+<row><entry>10.000-15.000</entry><entry>3</entry></row>
+<row><entry>150.00-20.000</entry><entry>3</entry></row>
+<row><entry>20.000-25.000</entry><entry>1</entry></row>
+<row><entry>25.000-30.000</entry><entry>2</entry></row>
 </tbody>
 </tgroup>
 </table>
 
 </item>
-<item>Compruebe la solución del estudiante</item>
+<item>Compruebe la solución del estudiante.</item>
 <item>moda</item>
 <item>8628,74</item>
 <item>6943,88</item>

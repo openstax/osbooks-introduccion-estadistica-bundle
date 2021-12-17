@@ -8,12 +8,12 @@
 </metadata>
 
 <content>
-    <para id="fs-idp399448482">Hay dos características principales de un experimento de Poisson.</para><list id="element-1" list-type="enumerated"><item>La <term id="term-00001">distribución de probabilidad de Poisson</term> da la probabilidad de que se produzca un número de sucesos en un <emphasis>intervalo fijo</emphasis> de tiempo o espacio si estos sucesos se producen con una tasa media conocida y con independencia del tiempo transcurrido desde el último suceso. Por ejemplo, un editor de libros podría estar interesado en el número de palabras escritas incorrectamente en un libro en particular. Puede ser que, en promedio, haya cinco palabras mal escritas en 100 páginas. El intervalo son las 100 páginas.</item>
+    <para id="fs-idp399448482">Hay dos características principales de un experimento de Poisson.</para><list id="element-1" list-type="enumerated"><item>La <term id="term-00001">distribución de probabilidad de Poisson</term> da la probabilidad de que se produzca un número de eventos en un <emphasis>intervalo fijo</emphasis> de tiempo o espacio si estos eventos se producen con una tasa promedio conocida y con independencia del tiempo transcurrido desde el último evento. Por ejemplo, un editor de libros podría estar interesado en el número de palabras escritas incorrectamente en un libro en particular. Puede ser que, en promedio, haya cinco palabras mal escritas en 100 páginas. El intervalo son las 100 páginas.</item>
 <item>La distribución de Poisson puede utilizarse para aproximarse a la binomial si la probabilidad de éxito es "pequeña" (del orden de 0,01) y el número de intentos es "grande" (del orden de 1000). Comprobará la relación en los ejercicios de los deberes. <emphasis effect="italics">n</emphasis> es el número de intentos, y <emphasis effect="italics">p</emphasis> es la probabilidad de un “acierto".</item>
 </list><para id="fs-idp39944848">La variable aleatoria <emphasis effect="italics">X</emphasis> = el número de ocurrencias en el intervalo de interés.</para>
 
 <example id="element-743">
-<para id="element-746">El número medio de panes colocados en un estante de una panadería en un periodo de media hora es de 12. Es interesante el número de panes que se ponen en la estantería en cinco minutos. El intervalo de tiempo de interés es de cinco minutos. ¿Cuál es la probabilidad de que el número de panes, seleccionados al azar, puestos en la estantería en cinco minutos sea tres?</para><para id="element-747">Supongamos que <emphasis effect="italics">X</emphasis> = el número de barras de pan puestas en la estantería en cinco minutos. Si el número medio de panes colocados en el estante en 30 minutos (media hora) es 12, <emphasis>entonces el número medio de panes colocados en el estante en cinco minutos es</emphasis> <m:math>
+<para id="element-746">El número promedio de panes colocados en un estante de una panadería en un periodo de media hora es de 12. Es interesante el número de panes que se ponen en la estantería en cinco minutos. El intervalo de tiempo de interés es de cinco minutos. ¿Cuál es la probabilidad de que el número de panes, seleccionados al azar, puestos en la estantería en cinco minutos sea tres?</para><para id="element-747">Supongamos que <emphasis effect="italics">X</emphasis> = el número de barras de pan puestas en la estantería en cinco minutos. Si el número promedio de panes colocados en el estante en 30 minutos (media hora) es 12, <emphasis>entonces el número promedio de panes colocados en el estante en cinco minutos es</emphasis> <m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -28,13 +28,13 @@
  </m:mrow>
 </m:math>(12) = 2 panes.</para>
 
-<para id="element-749">La pregunta de probabilidad le pide que encuentre <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 3).</para></example>
+<para id="element-749">La pregunta de probabilidad le pide que halle <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 3).</para></example>
 
-<note id="fs-idp39470352" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idp39470352" class="statistics try"><label/><title>Ejercicio</title>
 
 <exercise id="fs-idm102800576">
 <problem id="fs-idm136652096">
-<para id="fs-idm76340608">El número medio de peces capturados en una hora es de ocho. Es interesante el número de peces capturados en 15 minutos. El intervalo de tiempo de interés es de 15 minutos. ¿Cuál es el número medio de peces capturados en 15 minutos?</para></problem>
+<para id="fs-idm76340608">El número promedio de peces capturados en una hora es de ocho. Es interesante el número de peces capturados en 15 minutos. El intervalo de tiempo de interés es de 15 minutos. ¿Cuál es el número promedio de peces capturados en 15 minutos?</para></problem>
 
 </exercise>
 </note><example id="element-403">
@@ -45,11 +45,11 @@
 </example>
 
 
-<note id="fs-idm3960864" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm3960864" class="statistics try"><label/><title>Ejercicio</title>
 
 <exercise id="fs-idm122013280">
 <problem id="fs-idp1855472">
-<para id="fs-idm64281696">Una tienda de electrónica espera tener una media de diez devoluciones al día. El administrador quiere saber la probabilidad de que la tienda reciba menos de ocho devoluciones en un día determinado. Plantee la pregunta de la probabilidad de forma matemática.</para>
+<para id="fs-idm64281696">Una tienda de electrónica espera tener un promedio de diez devoluciones al día. El administrador quiere saber la probabilidad de que la tienda reciba menos de ocho devoluciones en un día determinado. Plantee la pregunta de la probabilidad de forma matemática.</para>
 </problem>
 </exercise>
 </note><example id="element-774">
@@ -73,11 +73,11 @@
 </example>
 
 
-<note id="fs-idm101937776" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm101937776" class="statistics try"><label/><title>Ejercicio</title>
 
 <exercise id="fs-idm138494832">
 <problem id="fs-idm76741440">
-<para id="fs-idm124704784">La sala de urgencias de un determinado hospital recibe una media de cinco pacientes por hora. Un médico quiere saber la probabilidad de que Urgencias reciba más de cinco pacientes por hora. Indique la razón por la que se trata de una distribución de Poisson.</para></problem>
+<para id="fs-idm124704784">La sala de urgencias de un determinado hospital recibe un promedio de cinco pacientes por hora. Un médico quiere saber la probabilidad de que Urgencias reciba más de cinco pacientes por hora. Indique la razón por la que se trata de una distribución de Poisson.</para></problem>
 </exercise>
 </note><section id="element-210">
 <title>Notación para el Poisson: P = Función de distribución de probabilidad de Poisson</title>
@@ -94,7 +94,7 @@
   </m:mfrac>
  </m:mrow>
 </m:math> hora)</para><para id="element-692"><emphasis effect="italics">x</emphasis> = 0, 1, 2, 3, ...</para>
-<para id="element-693">Si Leah recibe, en promedio, seis llamadas telefónicas en dos horas, y hay ocho intervalos de 15 minutos en dos horas, entonces Leah recibe</para><para id="element-694">Los términos <m:math>
+<para id="element-693">Si Leah recibe, en promedio, seis llamadas telefónicas en dos horas, y hay ocho intervalos de 15 minutos en dos horas, entonces Leah recibe</para><para id="element-694"><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -111,12 +111,12 @@
 
 <para id="element-697" class="finger">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1) = 0,1734 (calculadora o computadora)</para>
 
-<note id="fs-idm23681840" class="statistics calculator">
+<note id="fs-idm23681840" class="statistics calculator"><label/>
 <list id="fs-idp1265216" list-type="bulleted"><item>Pulse 1 y luego pulse 2.<sup>º</sup> DISTR.</item>
 <item>Pulse la flecha hacia abajo y seleccione poissoncdf. Pulse ENTER.</item>
 <item>Introduzca (0,75,1).</item>
 <item>El resultado es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1) = 0,1734.</item>
-</list><note id="eip-706" class="finger"><title>Nota</title>
+</list><note id="eip-706" class="finger"><label/><title>Nota</title>
 <para id="fs-idm154468640">Las calculadoras de TI utilizan <emphasis effect="italics">λ</emphasis> (lambda) para la media.</para>
 </note></note><para id="element-886">La probabilidad de que Leah reciba más de una llamada telefónica en los próximos 15 minutos es de 0,1734: <newline count="1"/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1) = 1 - poissoncdf(0,75, 1).</para><para id="element-89">El gráfico de <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(0,75) es:</para>
 
@@ -125,7 +125,7 @@
 </media></figure><para id="element-869">El eje <emphasis effect="italics">y</emphasis> contiene la probabilidad de <emphasis effect="italics">x</emphasis>, donde <emphasis effect="italics">X</emphasis> = el número de llamadas durante 15 minutos.</para></example>
 
 
-<note id="fs-idm14071904" class="statistics try finger"><title>Ejercicio</title>
+<note id="fs-idm14071904" class="statistics try finger"><label/><title>Ejercicio</title>
 
 <exercise id="fs-idm114328016" class="finger">
 <problem id="fs-idm126244848">
@@ -133,7 +133,7 @@
 </exercise>
 </note><example id="fs-idm98662832">
 
-<para id="fs-idm122953024">Según Baydin, una empresa de gestión de correo electrónico, un usuario de correo electrónico recibe, de media, 147 correos electrónicos al día. Supongamos que <emphasis effect="italics">X</emphasis> = el número de correos electrónicos que recibe un usuario por día. La variable aleatoria discreta <emphasis effect="italics">X</emphasis> toma los valores <emphasis effect="italics">x</emphasis> = 0, 1, 2 ... La variable aleatoria <emphasis effect="italics">X</emphasis> tiene una distribución de Poisson: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(147). La media es de 147 correos electrónicos.</para>
+<para id="fs-idm122953024">Según Baydin, una compañía de gestión de correo electrónico, un usuario de correo electrónico recibe, en promedio, 147 correos electrónicos al día. Supongamos que <emphasis effect="italics">X</emphasis> = el número de correos electrónicos que recibe un usuario por día. La variable aleatoria discreta <emphasis effect="italics">X</emphasis> toma los valores <emphasis effect="italics">x</emphasis> = 0, 1, 2 ... La variable aleatoria <emphasis effect="italics">X</emphasis> tiene una distribución de Poisson: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(147). La media es de 147 correos electrónicos.</para>
 
 <exercise id="fs-idm81055280">
 <problem id="fs-idm139603200">
@@ -164,12 +164,12 @@
 
 </example>
 
-<note id="fs-idm17831600" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm17831600" class="statistics try"><label/><title>Ejercicio</title>
 
 <exercise id="fs-idm128601120">
 <problem id="fs-idm195364880">
 
-<para id="fs-idm191065552">Según una encuesta reciente del Pew Internet Project, las chicas de entre 14 y 17 años envían una media de 187 mensajes de texto al día. Supongamos que <emphasis effect="italics">X</emphasis> = el número de mensajes de texto que una chica de 14 a 17 años envía al día. La variable aleatoria discreta <emphasis effect="italics">X</emphasis> toma los valores <emphasis effect="italics">x</emphasis> = 0, 1, 2 ... La variable aleatoria <emphasis effect="italics">X</emphasis> tiene una distribución de Poisson: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(187). La media es de 187 mensajes de texto.</para>
+<para id="fs-idm191065552">Según una encuesta reciente del Pew Internet Project, las chicas de entre 14 y 17 años envían un promedio de 187 mensajes de texto al día. Supongamos que <emphasis effect="italics">X</emphasis> = el número de mensajes de texto que una chica de 14 a 17 años envía al día. La variable aleatoria discreta <emphasis effect="italics">X</emphasis> toma los valores <emphasis effect="italics">x</emphasis> = 0, 1, 2 ... La variable aleatoria <emphasis effect="italics">X</emphasis> tiene una distribución de Poisson: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(187). La media es de 187 mensajes de texto.</para>
 
 <list id="fs-idm153913056" list-type="enumerated" number-style="lower-alpha"><item>¿Cuál es la probabilidad de que una adolescente envíe exactamente 175 mensajes de texto al día?</item>
 <item>¿Cuál es la probabilidad de que una adolescente envíe como máximo 150 mensajes de texto al día?</item>
@@ -203,11 +203,11 @@
 </exercise>
 </example>
 
-<note id="fs-idm6127376" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm6127376" class="statistics try"><label/><title>Ejercicio</title>
 
 <exercise id="eip-693">
 <problem id="fs-idm114876624">
-<para id="fs-idm31960976">El aeropuerto internacional Hartsfield-Jackson de Atlanta es el más concurrido del mundo. Cada día hay una media de 2500 llegadas y salidas.</para>
+<para id="fs-idm31960976">El aeropuerto internacional Hartsfield-Jackson de Atlanta es el más concurrido del mundo. En promedio, cada día hay 2.500 llegadas y salidas.</para>
 
 
 <list id="fs-idm85294848" list-type="enumerated" number-style="lower-alpha"><item>¿Cuántos aviones llegan y salen del aeropuerto por hora?</item>
@@ -228,7 +228,7 @@
 
 </example>
 
-<note id="fs-idp26868464" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idp26868464" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="eip-idp124175712">
 <problem id="eip-idp124175968">
 <para id="eip-idp124176224">El 13 de mayo de 2013, a partir de las 4:30 p. m., se informó de que la probabilidad de actividad sísmica moderada para las próximas 48 horas en las islas Kuriles, frente a la costa de Japón, era de alrededor del 1,43 %. Utilice esta información para los próximos 100 días para hallar la probabilidad de que haya una actividad sísmica baja en cinco de los próximos 100 días. Utilice las distribuciones binomial y de Poisson para calcular las probabilidades. ¿Están cerca?</para></problem>
@@ -242,8 +242,8 @@
 <para id="eip-idp231756384">Vanderkam, Laura. “Stop Checking Your Email, Now”. CNNMoney, 2013. Disponible en línea en http://management.fortune.cnn.com/2012/10/08/stop-checking-your-email-now/ (consultado el 15 de mayo de 2013).</para>
 <para id="fs-idm47256464">“World Earthquakes: Live Earthquake News and Highlights”, World Earthquakes, 2012. http://www.world-earthquakes.com/index.php?option=ethq_prediction (consultado el 15 de mayo de 2013).</para>
 </section><section id="fs-idm134097152" class="summary">
-<title>Revisión del capítulo</title>
-<para id="fs-idm58971248">Una <term id="term-00002">distribución de probabilidad de Poisson</term> de una variable aleatoria discreta da la probabilidad de que se produzca un número de eventos en un intervalo fijo de tiempo o espacio, si estos eventos se producen a una tasa media conocida y con independencia del tiempo transcurrido desde el último evento. La distribución de Poisson puede utilizarse para aproximarse a la binomial, si la probabilidad de éxito es "pequeña" (menor o igual a 0,05) y el número de intentos es "grande" (mayor o igual a 20).</para>
+<title>Repaso del capítulo</title>
+<para id="fs-idm58971248">Una <term id="term-00002">distribución de probabilidad de Poisson</term> de una variable aleatoria discreta da la probabilidad de que se produzca un número de eventos en un intervalo fijo de tiempo o espacio, si estos eventos se producen a una tasa promedio conocida y con independencia del tiempo transcurrido desde el último evento. La distribución de Poisson puede utilizarse para aproximarse a la binomial, si la probabilidad de éxito es "pequeña" (menor o igual a 0,05) y el número de intentos es "grande" (mayor o igual a 20).</para>
 </section>
 
 <section id="fs-idm139197072" class="formula-review">
@@ -257,12 +257,12 @@
    <m:mi>μ</m:mi>
   </m:msqrt>
  </m:mrow>
-</m:math></para>
+</m:math>.</para>
 <para id="fs-idm63034992">Cuando se utiliza <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">μ</emphasis>) para aproximar una distribución binomial, <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> donde <emphasis effect="italics">n</emphasis> representa el número de ensayos independientes y <emphasis effect="italics">p</emphasis> representa la probabilidad de aciertos en un solo ensayo.</para>
 </section>
 
 <section id="fs-idm62678864" class="practice">
-<para id="fs-idm5290048"><emphasis effect="italics">Use la siguiente información para responder los próximos seis ejercicios:</emphasis> En promedio, una tienda de ropa recibe 120 clientes al día.</para>
+<para id="fs-idm5290048"><emphasis effect="italics">Use la siguiente información para responder los próximos seis ejercicios:</emphasis> en promedio, una tienda de ropa recibe 120 clientes al día.</para>
 <exercise id="fs-idm137455952"><problem id="fs-idm15562000">
 <para id="fs-idm141921744">Supongamos que el evento se produce de forma independiente en un día determinado. Defina la variable aleatoria <emphasis effect="italics">X</emphasis>.</para>
 </problem>
@@ -315,7 +315,7 @@
 <!-- <solution id="fs-idm58434144">
 <para id="fs-idm141703168">The Poisson distribution can approximate a binomial distribution, which you would do if the probability of success is small and the number of trials is large.</para>
 </solution> -->
-</exercise><para id="fs-idm115873936"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos seis ejercicios:</emphasis> En EE. UU. mueren un promedio de ocho adolescentes al día por accidentes de tráfico. Como consecuencia, los estados de todo el país están debatiendo el aumento de la edad para conducir.</para><exercise id="exerciseone">
+</exercise><para id="fs-idm115873936"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos seis ejercicios:</emphasis> en EE. UU. mueren un promedio de ocho adolescentes al día por accidentes de tráfico. Como consecuencia, los estados de todo el país están debatiendo el aumento de la edad para conducir.</para><exercise id="exerciseone">
 <problem id="id10004804">
 <para id="prob_1">Supongamos que el evento se produce de forma independiente en un día determinado. Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</para>
 </problem>
@@ -635,7 +635,7 @@
 </exercise>
 
 
-<para id="fs-idm93659760"><emphasis effect="italics">Use la siguiente información para responder los dos próximos ejercicios:</emphasis> Los gatos de la señora Plum la despiertan por la noche porque quieren jugar un promedio de diez veces a la semana. Nos interesa saber el número de veces que sus gatos la despiertan cada semana.</para>
+<para id="fs-idm93659760"><emphasis effect="italics">Use la siguiente información para responder los dos próximos ejercicios:</emphasis> los gatos de la señora Plum la despiertan por la noche porque quieren jugar un promedio de diez veces a la semana. Nos interesa saber el número de veces que sus gatos la despiertan cada semana.</para>
 
 
 <exercise id="element-528"><problem id="id18796029">

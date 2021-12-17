@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-<para id="eip-8888">Aunque difícilmente se dé esta situación (conocer las desviaciones estándar de la población es improbable), el siguiente ejemplo ilustra las pruebas de hipótesis para medias independientes con desviaciones estándar conocidas de la población. La distribución muestral para la diferencia entre las medias es normal de acuerdo con el teorema del límite central. La variable aleatoria es <m:math>
+<para id="eip-8888">Aunque difícilmente se dé esta situación (conocer las desviaciones típicas de la población es improbable), el siguiente ejemplo ilustra las pruebas de hipótesis para medias independientes con desviaciones típicas conocidas de la población. La distribución muestral para la diferencia entre las medias es normal de acuerdo con el teorema del límite central. La variable aleatoria es <m:math>
  <m:mrow>
   <m:mover accent="true">
    <m:mrow>
@@ -90,7 +90,7 @@
    </m:mrow>
   </m:math>
  </equation>
- <para id="eip-908"><newline/></para><equation class="unnumbered" id="element-465"><title>El <term id="term-00002">estadístico de prueba</term> (puntuación<emphasis effect="italics">z</emphasis>) es:</title><m:math display="block">
+ <para id="eip-908"><newline/></para><equation class="unnumbered" id="element-465"><label/><title>El <term id="term-00002">estadístico de prueba</term> (puntuación<emphasis effect="italics">z</emphasis>) es:</title><m:math display="block">
  <m:mrow><m:msub>
   <m:mi>Z</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -222,8 +222,8 @@
   </m:msub>
 
  </m:mrow>
-</m:math> = diferencia en el número medio de meses que duran las ceras para suelos de la competencia.</para><para id="element-735">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≤</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></para><para id="element-608">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>></m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></para><para id="element-696">La expresión <emphasis>“es más eficaz”</emphasis> dice que la cera 1 <emphasis>dura más que la cera 2</emphasis>, en promedio. “Más que” es el símbolo “>” y entra en <emphasis effect="italics">H<sub>a</sub></emphasis>. Por lo tanto, se trata de una prueba de cola derecha.</para>
- <para id="element-690"><emphasis>Distribución para la prueba:</emphasis> Las desviaciones típicas de la población son conocidas, por lo que la distribución es normal. Con la fórmula del estadístico de prueba calculamos el valor para el problema. </para><equation class="unnumbered" id="element-406">Los términos <m:math>
+</m:math> = diferencia en el número medio de meses que duran las ceras para suelos de la competencia.</para><para id="element-735"><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≤</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></para><para id="element-608"><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>></m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></para><para id="element-696">La expresión <emphasis>“es más eficaz”</emphasis> dice que la cera 1 <emphasis>dura más que la cera 2</emphasis>, en promedio. “Más que” es el símbolo “>” y entra en <emphasis effect="italics">H<sub>a</sub></emphasis>. Por lo tanto, se trata de una prueba de cola derecha.</para>
+ <para id="element-690"><emphasis>Distribución para la prueba:</emphasis> Las desviaciones típicas de la población son conocidas, por lo que la distribución es normal. Con la fórmula del estadístico de prueba calculamos el valor para el problema. </para><equation class="unnumbered" id="element-406"><label/><m:math>
 <m:msub><m:mi>Z</m:mi><m:mi>c</m:mi></m:msub>
 <m:mo>=</m:mo>
 
@@ -231,10 +231,10 @@
 
 <m:mrow><m:mo>(</m:mo>
 <m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub>
-<m:mo>-</m:mo>
+<m:mo>–</m:mo>
 <m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub>
 <m:mo>)</m:mo>
-<m:mo>-</m:mo>
+<m:mo>–</m:mo>
 <m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub>
 </m:mrow>
 
@@ -279,14 +279,14 @@
    </m:msub>
 
   </m:mrow>
-</m:math> = 3 – 2,9 = 0,1</para><para id="element-803"><emphasis>Compare el valor calculado, el valor crítico y Z<sub>α</sub>:</emphasis> We mark the calculated value on the graph and find the calculated value is not in the tail therefore we cannot reject the null hypothesis.</para><para id="element-962"><emphasis>Tome una decisión:</emphasis> el valor calculado del estadístico de prueba no está en la cola, por lo que no se puede rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-132"><emphasis>Conclusión:</emphasis> Al nivel de significación del 5 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que el tiempo medio de duración de la cera 1 sea mayor (la cera 1 es más eficaz) que el tiempo medio de duración de la cera 2.</para>
+</m:math> = 3 – 2,9 = 0,1</para><para id="element-803"><emphasis>Compare el valor calculado, el valor crítico y Z<sub>α</sub>:</emphasis> Marcamos el valor calculado en el gráfico y determinamos que el valor calculado no está en la cola, por lo que no podemos rechazar la hipótesis nula.</para><para id="element-962"><emphasis>Tome una decisión:</emphasis> el valor calculado del estadístico de prueba no está en la cola, por lo que no se puede rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-132"><emphasis>Conclusión:</emphasis> Al nivel de significación del 5 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que el tiempo medio de duración de la cera 1 sea mayor (la cera 1 es más eficaz) que el tiempo medio de duración de la cera 2.</para>
 
 </solution>
 </exercise></example>
 
 
 <note id="fs-idm64723040" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 
 <exercise id="fs-idm106881952">
@@ -339,10 +339,10 @@
   </m:mrow>
  </m:math> = diferencia en la edad media de los senadores estadounidenses demócratas y republicanos.</para>
 
- <para id="fs-idm49757440">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≤</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub>
-</m:math> <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub><m:mo>≤</m:mo><m:mn>0</m:mn>
-</m:math></para><para id="fs-idm175162192">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>></m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub>
-</m:math> <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub><m:mo>></m:mo><m:mn>0</m:mn>
+ <para id="fs-idm49757440"><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≤</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub>
+</m:math> <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub><m:mo>≤</m:mo><m:mn>0</m:mn>
+</m:math></para><para id="fs-idm175162192"><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>></m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub>
+</m:math> <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub><m:mo>></m:mo><m:mn>0</m:mn>
 </m:math></para><para id="fs-idm173135600">Las palabras “mayor que” se traducen en un símbolo “>” y entran en <emphasis effect="italics">H<sub>a</sub></emphasis>. Por lo tanto, se trata de una prueba de cola derecha.</para><para id="fs-idm98812432"><figure id="fs-idp45038880"><media id="fs-idm86987792" alt="Se trata de una curva de distribución normal con media igual a cero. Una línea vertical a la derecha del cero se extiende desde el eje hasta la curva. La región debajo de la curva a la derecha de la línea está sombreada y representa un valor p = 0,4955." display="block">
 <image mime-type="image/jpg" src="../../media/fig-ch10_01_10n.jpg" width="380"/>
 </media></figure></para><para id="fs-idm49745696"><emphasis>Tome una decisión:</emphasis> El valor p es superior al 5 %, por lo que no podemos rechazar la hipótesis nula. Al calcular el estadístico de prueba, observamos que no cae en la cola, por lo que no podemos rechazar la hipótesis nula. Llegamos a la misma conclusión al utilizar cualquiera de los dos métodos para tomar esta decisión estadística.</para><para id="fs-idm113348080"><emphasis>Conclusión:</emphasis> Al nivel de significación del 5 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que la edad media de los senadores demócratas sea mayor que la de los republicanos.</para>
@@ -353,7 +353,7 @@
 
 <section id="eip-752" class="references">
 <title>Referencias</title>
-<para id="eip-193">Datos de la Oficina del Censo de Estados Unidos. Disponible en línea en http://www.census.gov/prod/cen2010/briefs/c2010br-02.pdf</para><para id="fs-idp17452848">Hinduja, Sameer. “Sexting Research and Gender Differences”. Cyberbullying Research Center, 2013. Disponible en línea en http://cyberbullying.us/blog/sexting-research-and-gender-differences/ (consultado el 17 de junio de 2013).</para>
+<para id="eip-193">Datos de la Oficina del Censo de Estados Unidos. Disponible en línea en http://www.census.gov/prod/cen2010/briefs/c2010br-02.pdf</para><para id="fs-idp17452848">Hinduja, Sameer. “Sexting Research and Gender Differences”. Cyberbulling Research Center, 2013. Disponible en línea en http://cyberbullying.us/blog/sexting-research-and-gender-differences/ (consultado el 17 de junio de 2013).</para>
 
 <para id="fs-idp109642176">“Smart Phone Users, By the Numbers”. Visually, 2013. Disponible en línea en http://visual.ly/smart-phone-users-numbers (consultado el 17 de junio de 2013).</para><para id="fs-idp119668928">Smith, Aaron. “35% of American adults own a Smartphone”. Pew Internet, 2013. Disponible en línea en http://www.pewinternet.org/~/media/Files/Reports/2011/PIP_Smartphones.pdf (consultado el 17 de junio de 2013).</para>
 
@@ -361,7 +361,7 @@
 </section>
 
 <section id="fs-idm120175008" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idm9601152">Una prueba de hipótesis de dos medias poblacionales de muestras independientes en las que se conocen las desviaciones típicas de la población tendrá estas características: <list id="fs-idm193455088" list-type="bulleted"><item>Variable aleatoria: <m:math>
  <m:mrow>
   <m:msub>
@@ -401,7 +401,7 @@
 
      <m:mn>1</m:mn>
     </m:msub>
-    <m:mo>-</m:mo><m:msub>
+    <m:mo>–</m:mo><m:msub>
      <m:mover accent="true">
       <m:mi>x</m:mi>
       <m:mo>–</m:mo>
@@ -409,7 +409,7 @@
 
      <m:mn>2</m:mn>
     </m:msub>
-    <m:mo stretchy="false">)</m:mo><m:mo>- −</m:mo><m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub>
+    <m:mo stretchy="false">)</m:mo><m:mo>–</m:mo><m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub>
    </m:mrow>
    <m:mrow>
     <m:msqrt>
@@ -613,9 +613,9 @@
 <section id="fs-idp58644992" class="free-response">
 <title>Tarea para la casa</title>
 <note id="fs-idm71956336">
-
+<label/>
 <title>Nota</title>
-<para id="eip-idp76319008">Si usa una distribución <emphasis effect="italics">t</emphasis>de Student para uno de los siguientes problemas de tarea para la casa, incluso para datos emparejados, puede suponer que la población subyacente está distribuida normalmente (sin embargo, cuando se utilicen estas pruebas en una situación real, primero hay que demostrar ese supuesto).</para></note>
+<para id="eip-idp76319008">Si usa una distribución <emphasis effect="italics">t</emphasis> de Student para uno de los siguientes problemas de tarea para la casa, incluso para datos emparejados, puede suponer que la población subyacente está distribuida normalmente (sin embargo, cuando se utilicen estas pruebas en una situación real, primero hay que demostrar ese supuesto).</para></note>
 
 <exercise id="exer13">
 <problem id="id18237239">
@@ -629,13 +629,13 @@
 
 <solution id="id17616631">
  <para id="fs-idp33457664">Subíndices: 1 = hombres, 2 = mujeres</para>
- <list id="fs-idp165211984" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≤</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
-    <item>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>></m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+ <list id="fs-idp165211984" list-type="enumerated" number-style="lower-alpha"><item><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≤</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+    <item><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>></m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
     <item>La variable aleatoria es la diferencia en la media de los costos de los seguros de automóviles de hombres y mujeres.</item>
     <item>normal</item>
     <item>estadístico de prueba: <emphasis effect="italics">z</emphasis> = 2,50</item>
     <item>valor <emphasis effect="italics">p</emphasis>: 0,0062</item>
-    <item>Compruebe la solución del estudiante</item>
+    <item>Compruebe la solución del estudiante.</item>
     <item>
     <list id="fs-idp146441584" list-type="enumerated" number-style="lower-roman">
      <item>Alfa: 0,05</item>
@@ -654,15 +654,15 @@
  <solution id="fs-idp138247120">
   <para id="fs-idm951328">Subíndices: 1 = sedanes no híbridos, 2 = sedanes híbridos</para>
   <list id="fs-idm950944" list-type="enumerated" number-style="lower-alpha">
-   <item>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≥</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
-    <item>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+   <item><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≥</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+    <item><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
 
 
     <item>La variable aleatoria es la diferencia en la media de millas por galón de los sedanes no híbridos y los sedanes híbridos.</item>
     <item>normal</item>
     <item>estadístico de prueba: 6,36</item>
     <item>valor <emphasis effect="italics">p</emphasis>: 0</item>
-    <item>Compruebe la solución del estudiante</item>
+    <item>Compruebe la solución del estudiante.</item>
     <item>
     <list id="fs-idp76801312" list-type="enumerated" number-style="lower-roman">
      <item>Alfa: 0,05</item>

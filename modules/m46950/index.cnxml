@@ -20,12 +20,12 @@
   </m:msqrt>
 
  </m:mrow>
-</m:math></para><para id="element-612">Cualquier experimento que tenga las características dos y tres y en el que <emphasis effect="italics">n</emphasis> = 1 se llama <term id="term-00002">Ensayo de Bernoulli</term> (llamado así por Jacob Bernoulli que, a finales de 1600, los estudió ampliamente). Un experimento binomial se produce cuando se cuenta el número de aciertos en uno o más ensayos de Bernoulli.</para>
+</m:math>.</para><para id="element-612">Cualquier experimento que tenga las características dos y tres y en el que <emphasis effect="italics">n</emphasis> = 1 se llama <term id="term-00002">Ensayo de Bernoulli</term> (llamado así por Jacob Bernoulli que, a finales de 1600, los estudió ampliamente). Un experimento binomial se produce cuando se cuenta el número de aciertos en uno o más ensayos de Bernoulli.</para>
 
 <example id="element-375">
-<para id="element-545">En el Colegio ABC, la tasa de abandono de un curso de Física elemental es del 30 % en cualquier trimestre. Esto implica que, en cualquier trimestre, el 70 % de los alumnos permanecen en la clase durante todo el trimestre. Un “acierto" podría definirse como un individuo que se retira. La variable aleatoria <emphasis effect="italics">X</emphasis> = el número de estudiantes que se retiran de la clase de Física elemental seleccionada al azar.</para></example>
+<para id="element-545">En el Colegio ABC, la tasa de abandono de un curso de Física elemental es del 30 % en cualquier trimestre. Esto implica que, en cualquier trimestre, el 70 % de los estudiantes permanecen en la clase durante todo el trimestre. Un “acierto" podría definirse como un individuo que se retira. La variable aleatoria <emphasis effect="italics">X</emphasis> = el número de estudiantes que se retiran de la clase de Física elemental seleccionada al azar.</para></example>
 
-<note id="fs-idm41846320" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm41846320" class="statistics try"><label/><title>Ejercicio</title>
 
 <exercise id="fs-idm40705376">
 <problem id="fs-idm68456256">
@@ -34,7 +34,7 @@
 </note><example id="fs-idm62623744">
 <para id="element-284">Supongamos que está en un juego en el que solo puede ganar o perder. La probabilidad de que gane cualquier partido es del 55 %, y la de que pierda es del 45 %. Cada partido que se juega es independiente. Si juega el juego 20 veces, escriba la función que describa la probabilidad de que gane 15 de las 20 veces. Aquí, si se define <emphasis effect="italics">X</emphasis> como el número de victorias, entonces <emphasis effect="italics">X</emphasis> toma los valores 0, 1, 2, 3, ..., 20. La probabilidad de acierto es <emphasis effect="italics">p</emphasis> = 0,55. La probabilidad de fallo es <emphasis effect="italics">q</emphasis> = 0,45. El número de ensayos es <emphasis effect="italics">n</emphasis> = 20. La pregunta de la probabilidad se puede enunciar matemáticamente como <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 15).</para></example>
 
-<note id="fs-idm55323584" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm55323584" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idm35562192">
 <problem id="fs-idm43643408">
 <para id="fs-idm43925792">Un entrenador está enseñando a un delfín a hacer trucos. La probabilidad de que el delfín acierte al desempeñar el truco es del 35 %, y la probabilidad de que el delfín no acierte al desempeñar el truco es del 65 %. De 20 intentos, se quiere hallar la probabilidad de que el delfín acierte 12 veces. Plantee la pregunta de la probabilidad de forma matemática.</para></problem>
@@ -44,9 +44,9 @@
 <para id="element-104">Una moneda imparcial se lanza 15 veces. Cada lanzada es independiente. ¿Cuál es la probabilidad de obtener más de diez caras? Supongamos que <emphasis effect="italics">X</emphasis> = el número de caras en 15 lanzamientos de la moneda imparcial. <emphasis effect="italics">X</emphasis> toma los valores 0, 1, 2, 3, ..., 15. Como la moneda es imparcial, <emphasis effect="italics">p</emphasis> = 0,5 y <emphasis effect="italics">q</emphasis> = 0,5. El número de ensayos es <emphasis effect="italics">n</emphasis> = 15. Plantee la pregunta de la probabilidad de forma matemática.</para>
 </problem>
 </exercise>
-</example><note id="fs-idm26333440" class="statistics try"><title>Ejercicio</title>
+</example><note id="fs-idm26333440" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idm77060880">
-<problem id="fs-idm123194928"><para id="fs-idm39905824">Se lanza un dado justo de seis caras diez veces. Cada tirada es independiente. Quiere encontrar la probabilidad de sacar un uno más de tres veces. Plantee la pregunta de la probabilidad de forma matemática.</para></problem>
+<problem id="fs-idm123194928"><para id="fs-idm39905824">Se lanza un dado justo de seis caras diez veces. Cada tirada es independiente. Quiere calcular la probabilidad de sacar un uno más de tres veces. Plantee la pregunta de la probabilidad de forma matemática.</para></problem>
 </exercise>
 </note><example id="element-807">
 <para id="element-175">Aproximadamente el 70 % de los estudiantes de Estadística hacen sus tareas para la casa a tiempo para que sean recopiladas y calificadas. Cada estudiante lo hace de forma independiente. En una clase de Estadística de 50 estudiantes, ¿cuál es la probabilidad de que, al menos, 40 hagan la tarea para la casa a tiempo? Los estudiantes son seleccionados al azar.<newline count="2"/></para><exercise id="element-1751"><problem id="id5317083">
@@ -68,7 +68,7 @@
  <para id="element-23532">f. mayor o igual que (≥) <newline count="1"/>La pregunta de probabilidad es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 40).</para></solution>
 </exercise></example>
 
-<note id="fs-idm63118928" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm63118928" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idp231440">
 <problem id="fs-idm386096">
 <para id="fs-idm59210304">El sesenta y cinco por ciento de las personas aprueba el examen estatal de conducir en el primer intento. Se selecciona al azar un grupo de 50 personas que han tomado el examen de conducir. Dé dos justificaciones por las que este es un problema binomial.</para></problem>
@@ -84,12 +84,12 @@
 <para id="element-570"><emphasis effect="italics">X</emphasis> toma los valores 0, 1, 2, ..., 20 donde <emphasis effect="italics">n</emphasis> = 20, <emphasis effect="italics">p</emphasis> = 0,41 y <emphasis effect="italics">q</emphasis> = 1 - 0,41 = 0,59. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(20, 0,41)</para><para id="fs-idm48754320" class="finger">Halle <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12) = 0,9738. (calculadora o computadora)</para>
 
 
-<note id="fs-idm73072400" class="statistics calculator">
-<para id="element-224">Entra en<sup>el 2.º</sup> DISTR. La sintaxis de las instrucciones es la siguiente:</para>
+<note id="fs-idm73072400" class="statistics calculator"><label/>
+<para id="element-224">Vaya a 2<sup>nd</sup> DISTR. La sintaxis de las instrucciones es la siguiente:</para>
 
-<para id="element-853"><emphasis>Para calcular (<emphasis effect="italics">x</emphasis> = valor): binompdf(<emphasis effect="italics">n</emphasis>, <emphasis effect="italics">p</emphasis>, número)</emphasis> si se omite "número", el resultado es la tabla de probabilidad binomial. <newline/><emphasis>Para calcular <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ valor): binomcdf(<emphasis effect="italics">n</emphasis>, <emphasis effect="italics">p</emphasis>, número)</emphasis> si se omite "número", el resultado es la tabla de probabilidad binomial acumulada. <newline/><emphasis>Para este problema: Una vez que esté en la<sup>2.º</sup> DISTR, baje a binomcdf. Pulse ENTER. Introduzca 20,0.41,12). El resultado es <emphasis effect="italics">P</emphasis><emphasis effect="italics">(x</emphasis> ≤ 12) = 0,9738.</emphasis></para>
+<para id="element-853"><emphasis>Para calcular (<emphasis effect="italics">x</emphasis> = valor): binompdf(<emphasis effect="italics">n</emphasis>, <emphasis effect="italics">p</emphasis>, número)</emphasis> si se omite "número", el resultado es la tabla de probabilidad binomial. <newline/><emphasis>Para calcular <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ valor): binomcdf(<emphasis effect="italics">n</emphasis>, <emphasis effect="italics">p</emphasis>, número)</emphasis> si se omite "número", el resultado es la tabla de probabilidad binomial acumulada. <newline/><emphasis>Para este problema: una vez que esté en 2<sup>nd</sup> DISTR, use la flecha hacia abajo hasta binomcdf. Pulse ENTER. Introduzca 20,0.41,12). El resultado es <emphasis effect="italics">P</emphasis><emphasis effect="italics">(x</emphasis> ≤ 12) = 0,9738.</emphasis></para>
 </note><note id="id5442988">
-
+<label/>
 <title>NOTA</title>
 <para id="fs-idm93661872">Si quiere hallar <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 12), utilice la pdf (binompdf). Si quiere hallar <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 12), utilice 1 - binomcdf(20; 0,41;12).</para></note>
 
@@ -129,7 +129,7 @@
  </m:mrow>
 </m:math> = 2.20.</para></example>
 
-<note id="fs-idm83776992" class="statistics try finger"><title>Ejercicio</title>
+<note id="fs-idm83776992" class="statistics try finger"><label/><title>Ejercicio</title>
 <exercise id="fs-idm41424160">
 <problem id="fs-idp5897264">
 <para id="fs-idm41014848">Alrededor del 32 % de los estudiantes participan en un programa de voluntariado comunitario fuera de la escuela. Si se seleccionan 30 estudiantes al azar, calcule la probabilidad de que como máximo 14 de ellos participen en un programa de voluntariado comunitario fuera de la escuela. Utilice la calculadora TI-83+ o TI-84 para hallar la respuesta.</para></problem>
@@ -179,7 +179,7 @@
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math> = 0.2466</item>
+</m:math> = 0,2466</item>
   <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 6) = binomcdf<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
@@ -194,7 +194,7 @@
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math> = 0.9994</item>
+</m:math> = 0,9994</item>
   <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 3) = 1 - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 3) = 1 - binomcdf<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
@@ -209,7 +209,7 @@
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math> = 1 – 0.9443 = 0.0557</item>
+</m:math> = 1 – 0,9443 = 0,0557</item>
   </list></item>
 <item>
 <list id="fs-idp38091616" list-type="enumerated" number-style="lower-roman">
@@ -237,7 +237,7 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math> ≈ 1.4286</item>
+</m:math> ≈ 1,4286</item>
 <item>Desviación típica = <m:math>
  <m:mrow>
   <m:msqrt>
@@ -278,14 +278,14 @@
   </m:msqrt>
 
  </m:mrow>
-</m:math> ≈ 1.1867</item>
+</m:math> ≈ 1,1867</item>
 </list>
 </item>
 </list></solution>
 </exercise></example>
 
 
-<note id="fs-idm76778272" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm76778272" class="statistics try"><label/><title>Ejercicio</title>
 
 <exercise id="eip-771"><problem id="eip-idm151880496">
 <para id="eip-4">Según una encuesta de Gallup, el 60 % de los adultos estadounidenses prefieren ahorrar a gastar. Supongamos que <emphasis effect="italics">X</emphasis> = el número de adultos estadounidenses de una muestra aleatoria de 50 que prefieren ahorrar a gastar.</para>
@@ -315,7 +315,7 @@
 </exercise>
 </example>
 
-<note id="fs-idm113648656" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm113648656" class="statistics try"><label/><title>Ejercicio</title>
 
 <exercise id="fs-idp4381328">
 <problem id="fs-idm2089568">
@@ -331,7 +331,7 @@
 </problem>
 </exercise>
 </note><example id="element-678">
-<para id="element-532">El siguiente ejemplo ilustra un problema que <emphasis>no es</emphasis> binomial. Viola la condición de independencia. El Colegio ABC cuenta con un comité consultivo de estudiantes formado por diez miembros del personal y seis estudiantes. El comité desea elegir un presidente y un secretario. ¿Cuál es la probabilidad de que el presidente y el registrador sean ambos estudiantes? Los nombres de todos los miembros de la comisión se introducen en una urna y se extraen dos nombres <emphasis>sin reemplazo</emphasis>. El primer nombre extraído determina el presidente y el segundo el registrador. Hay dos ensayos. Sin embargo, los ensayos no son independientes porque el resultado del primer ensayo afecta al resultado del segundo. La probabilidad de que un alumno salga en la primera extracción es <m:math>
+<para id="element-532">El siguiente ejemplo ilustra un problema que <emphasis>no es</emphasis> binomial. Viola la condición de independencia. El Colegio ABC cuenta con un comité consultivo de estudiantes formado por diez miembros del personal y seis estudiantes. El comité desea elegir un presidente y un secretario. ¿Cuál es la probabilidad de que el presidente y el registrador sean ambos estudiantes? Los nombres de todos los miembros de la comisión se introducen en una urna y se extraen dos nombres <emphasis>sin reemplazo</emphasis>. El primer nombre extraído determina el presidente y el segundo el registrador. Hay dos ensayos. Sin embargo, los ensayos no son independientes porque el resultado del primer ensayo afecta al resultado del segundo. La probabilidad de que un estudiante salga en la primera extracción es <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>6</m:mn>
@@ -341,7 +341,7 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math>. La probabilidad de que un alumno salga en la segunda extracción es <m:math>
+</m:math>. La probabilidad de que un estudiante salga en la segunda extracción es <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>5</m:mn>
@@ -351,7 +351,7 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math>, cuando en la primera extracción se selecciona a un alumno. La probabilidad es <m:math>
+</m:math>, cuando en la primera extracción se selecciona a un estudiante. La probabilidad es <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>6</m:mn>
@@ -360,9 +360,9 @@
    </m:mrow>
   </m:mfrac>
  </m:mrow>
-</m:math>, cuando en la primera extracción se selecciona a un miembro del personal. La probabilidad de sacar el nombre de un alumno cambia en cada uno de los ensayos y, por tanto, viola la condición de independencia.</para></example>
+</m:math>, cuando en la primera extracción se selecciona a un miembro del personal. La probabilidad de sacar el nombre de un estudiante cambia en cada uno de los ensayos y, por tanto, viola la condición de independencia.</para></example>
 
-<note id="fs-idm127539840" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm127539840" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idm74755088">
 <problem id="fs-idp7533680">
 <para id="fs-idm63476304">Un equipo de lacrosse elige un capitán. Los nombres de todos los mayores se meten en un sombrero y los tres primeros que se extraigan serán los capitanes. Los nombres no se reemplazan una vez extraídos (una persona no puede ser dos capitanes). Quiere ver si los capitanes juegan todos en la misma posición. Indique si se trata de una probabilidad binomial o no y explique por qué.</para></problem>
@@ -377,7 +377,7 @@
 <para id="fs-idm147318720">“What are the key statistics about pancreatic cancer?” American Cancer Society, 2013. Disponible en línea en http://www.cancer.org/cancer/pancreaticcancer/detailedguide/pancreatic-cancer-key-statistics (consultado el 15 de mayo de 2013).</para>
 </section>
 
-<section id="fs-idm59813888" class="summary"><title>Revisión del capítulo</title><para id="fs-idp48275616">Un experimento estadístico se puede clasificar como experimento binomial si se cumplen las siguientes condiciones:</para>
+<section id="fs-idm59813888" class="summary"><title>Repaso del capítulo</title><para id="fs-idp48275616">Un experimento estadístico se puede clasificar como experimento binomial si se cumplen las siguientes condiciones:</para>
 <list id="fs-idm159853952" list-type="enumerated"><item>Hay un número fijo de ensayos, <emphasis effect="italics">n</emphasis>.</item>
 <item>Solo hay dos resultados posibles, denominados “acierto ” y “fallo” para cada ensayo. La letra <emphasis effect="italics">p</emphasis> indica la probabilidad de acierto en un ensayo y la <emphasis effect="italics">q</emphasis> la probabilidad de fallo en un ensayo.</item>
 <item>Los <emphasis effect="italics">n</emphasis> ensayos son independientes y se repiten utilizando condiciones idénticas.</item>
@@ -600,7 +600,7 @@
 <para id="eip-idm142934256">one</para>
 </solution> -->
 </exercise><exercise id="fs-idp24682912"><problem id="fs-idp24683040">
-  <para id="fs-idm1731712">Las personas que acuden a los videoclubs suelen alquilar más de un DVD a la vez. La distribución de probabilidad de los alquileres de DVD por cliente en Video To Go es <link target-id="M04_Ch04_tbl005"/>. En esta tienda hay un límite de cinco videos por cliente, por lo que nadie alquila nunca más de cinco DVD.</para>
+  <para id="fs-idm1731712">Las personas que acuden a los videoclubs suelen alquilar más de un DVD a la vez. La distribución de probabilidad de los alquileres de DVD por cliente en Video To Go es <link target-id="M04_Ch04_tbl005" document=""/>. En esta tienda hay un límite de cinco videos por cliente, por lo que nadie alquila nunca más de cinco DVD.</para>
 
 <table id="M04_Ch04_tbl005" summary="The table lists the number of video rentals (1, 2, 3, 4, 5) and the respective probabilities.">
 <tgroup cols="2"><thead>
@@ -676,7 +676,7 @@
   </para>
 <list id="eip-idm77891776" list-type="enumerated" number-style="lower-alpha"><item>1,67</item>
 <item>12</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -907,14 +907,14 @@
 <item>3.3</item></list></solution> -->
 </exercise><exercise id="element-650">
 <problem id="id16155444">
-  <para id="element-424">Hay dos juegos similares para el Año Nuevo chino y el Año Nuevo vietnamita. En la versión china, se utilizan dados imparciales con los números 1, 2, 3, 4, 5 y 6 junto con un tablero con esos números. En la versión vietnamita, se utilizan dados de feria con dibujos de calabaza, pez, gallo, cangrejo, cangrejo de río y ciervo. El tablero también tiene esos seis objetos. Jugaremos con apuestas de 1 dólar. El jugador apuesta por un número u un objeto. La “casa” tira tres dados. Si ninguno de los dados muestra el número u objeto al que se apostó, la casa se queda con el 1 dólar apostado. Si uno de los dados muestra el número u objeto al que se apostó (y los otros dos no lo muestran), el jugador recupera su apuesta de 1 dólar, más 1 dólar de beneficio. Si dos de los dados muestran el número u objeto al que se apostó (y el tercer dado no lo muestra), el jugador recupera su apuesta de 1 dólar, más 2 dólares de beneficio. Si los tres dados muestran el número u objeto al que se apostó, el jugador recupera su apuesta de 1 dólar, más 3 dólares de beneficio. Supongamos que <emphasis effect="italics">X</emphasis> = número de coincidencias y <emphasis effect="italics">Y</emphasis> = beneficio por juego.</para>
+  <para id="element-424">Hay dos juegos similares para el Año Nuevo chino y el Año Nuevo vietnamita. En la versión china, se utilizan dados imparciales con los números 1, 2, 3, 4, 5 y 6 junto con un tablero con esos números. En la versión vietnamita, se utilizan dados de feria con dibujos de calabaza, pez, gallo, cangrejo, cangrejo de río y ciervo. El tablero también tiene esos seis objetos. Jugaremos con apuestas de 1 dólar. El jugador apuesta por un número u un objeto. La “casa” tira tres dados. Si ninguno de los dados muestra el número u objeto al que se apostó, la casa se queda con el 1 dólar apostado. Si uno de los dados muestra el número u objeto al que se apostó (y los otros dos no lo muestran), el jugador recupera su apuesta de 1 dólar, más 1 dólar de ganancia. Si dos de los dados muestran el número u objeto al que se apostó (y el tercer dado no lo muestra), el jugador recupera su apuesta de 1 dólar, más 2 dólares de ganancia. Si los tres dados muestran el número u objeto al que se apostó, el jugador recupera su apuesta de 1 dólar, más 3 dólares de ganancia. Supongamos que <emphasis effect="italics">X</emphasis> = número de coincidencias y <emphasis effect="italics">Y</emphasis> = ganancia por juego.</para>
 
 <list id="element-82" list-type="enumerated" number-style="lower-alpha"><item>Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</item>
 <item>Enumere los valores que puede tomar <emphasis effect="italics">X</emphasis>.</item>
 <item>Describa la distribución de <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
 <item>Enumere los valores que puede adoptar <emphasis effect="italics">Y</emphasis>. Luego, construya una tabla de PDF que incluya tanto <emphasis effect="italics">X</emphasis> como <emphasis effect="italics">Y</emphasis> y sus probabilidades.</item>
 <item>Calcule el promedio de coincidencias esperadas a largo plazo de jugar este juego para el jugador.</item>
-<item>Calcule las ganancias medias esperadas a largo plazo de este juego para el jugador.</item>
+<item>Calcule las ganancias promedio esperadas a largo plazo de este juego para el jugador.</item>
 <item>Determine quién tiene la ventaja, el jugador o la casa.</item></list>
 </problem>
 <solution id="eip-idm75680048">

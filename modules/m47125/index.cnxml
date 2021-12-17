@@ -49,9 +49,9 @@
   </m:msubsup>
 
  </m:mrow>
-</m:math> sean las varianzas de la muestra. Supongamos que los tamaños de las muestras son <emphasis effect="italics">n</emphasis><sub>1</sub> y <emphasis effect="italics">n</emphasis><sub>2</sub>. Como nos interesa comparar las dos varianzas de la muestra, utilizamos el cociente de <emphasis effect="italics">F</emphasis>:</para>
+</m:math> sean las varianzas de la muestra. Supongamos que los tamaños de las muestras son <emphasis effect="italics">n</emphasis><sub>1</sub> y <emphasis effect="italics">n</emphasis><sub>2</sub>. Como nos interesa comparar las dos varianzas de la muestra, utilizamos el cociente <emphasis effect="italics">F</emphasis>:</para>
 <para id="element-321">
-Los términos <m:math>
+<m:math>
  <m:mrow>
   <m:mi>F</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -247,7 +247,7 @@ Los términos <m:math>
 </m:math>.</para>
 
 <note id="eip-545">
-
+<label/>
 <title>Nota</title>
 <para id="fs-idp20528432">El cociente <emphasis effect="italics">F</emphasis> también podría ser <m:math>
  <m:mrow>
@@ -449,7 +449,7 @@ Los términos <m:math>
 <example id="element-315">
 <exercise id="element-888">
 <problem id="id17653959">
-<para id="element-33">Dos instructores de institutos universitarios están interesados en saber si existe alguna variación en la forma de calificar los exámenes de Matemáticas. Cada uno de ellos califica el mismo conjunto de 30 exámenes. Las calificaciones del primer instructor tienen una varianza de 52,3. Las calificaciones del segundo instructor tienen una varianza de 89,9. Pruebe la afirmación de que la varianza del primer instructor es menor (en la mayoría de los institutos universitarios es deseable que las varianzas de las calificaciones de los exámenes sean casi iguales entre los instructores). El nivel de significación es del 10 %.</para>
+<para id="element-33">Dos instructores de institutos universitarios están interesados en saber si existe alguna variación en la forma de calificar los exámenes de Matemáticas. Cada uno de ellos califica el mismo conjunto de 30 exámenes. Las notas del primer instructor tienen una varianza de 52,3. Las notas del segundo instructor tienen una varianza de 89,9. Pruebe la afirmación de que la varianza del primer instructor es menor (en la mayoría de los institutos universitarios es deseable que las varianzas de las notas de los exámenes sean casi iguales entre los instructores). El nivel de significación es del 10 %.</para>
 </problem>
 
 <solution id="id17653979">
@@ -502,7 +502,7 @@ Los términos <m:math>
  </m:mrow>
 </m:math>, el estadístico <emphasis effect="italics">F</emphasis> es:</para>
 
-<para id="element-932">Los términos <m:math>
+<para id="element-932"><m:math>
  <m:mrow>
   <m:mi>F</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -618,28 +618,28 @@ Los términos <m:math>
 
 <figure id="anova_twotests"><media id="id18591379" alt="Este gráfico muestra una curva de distribución F no simétrica. La curva está ligeramente distorsionada hacia la derecha, pero es aproximadamente normal. El valor 0,5818 está marcado en el eje vertical a la derecha del pico de la curva. Una línea vertical ascendente se extiende desde 0,5818 hasta la curva, y el área a la izquierda de esta línea está sombreada para representar el valor p.">
 <image src="../../media/fig-ch13_05_01N.jpg" mime-type="image/png" width="380"/>
-</media></figure><para id="element-561"><emphasis>Enunciado de probabilidad:</emphasis> valor <emphasis effect="italics">p</emphasis>= <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &lt; 0,5818) = 0,0753</para>
+</media></figure><para id="element-561"><emphasis>Enunciado de probabilidad:</emphasis> valor <emphasis effect="italics">p</emphasis> = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &lt; 0,5818) = 0,0753</para>
 
 <para id="element-186"><emphasis>Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis></emphasis>: <emphasis effect="italics">α</emphasis> = 0,10 <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>.</para>
 
 <para id="element-153"><emphasis>Tome una decisión:</emphasis> Dado que <emphasis effect="italics">α</emphasis> > valor <emphasis effect="italics">p</emphasis>, rechaza <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
 
-<para id="element-760"><emphasis>Conclusión:</emphasis> Con un nivel de significación del 10 %, a partir de los datos hay pruebas suficientes para concluir que la varianza de las calificaciones del primer instructor es menor.</para>
+<para id="element-760"><emphasis>Conclusión:</emphasis> Con un nivel de significación del 10 %, a partir de los datos hay pruebas suficientes para concluir que la varianza de las notas del primer instructor es menor.</para>
 
 <note id="fs-idm25711872" class="statistics calculator">
-
-<para id="element-44">Pulse <code>STAT</code> y flecha hacia <code>TESTS</code>. Flecha hacia abajo <code>D:2-SampFTest</code>. Pulse <code>ENTER</code>. Mueva la flecha hasta <code>STATS</code> y pulse <code>ENTER</code>. Para <code>Sx1</code>, <code>n1</code>, <code>Sx2</code>, y <code>n2</code>, introduzca <code>Los términos <m:math><m:msqrt><m:mo>(</m:mo><m:mn>52,3</m:mn><m:mo>)</m:mo></m:msqrt></m:math></code>, <code>30</code>, <code>Los términos <m:math><m:msqrt><m:mo>(</m:mo><m:mn>89,9</m:mn><m:mo>)</m:mo></m:msqrt></m:math></code>, y <code>30</code>. Pulse <code>ENTER</code> después de cada uno. Mueva la flecha hasta <code>σ1:</code> y <code>Los términos <m:math><m:reln><m:lt/></m:reln></m:math>σ2</code>. Pulse <code>ENTER</code>. Desplace la flecha hacia abajo hasta <code>Calculate</code> y pulse <code>ENTER</code>. <emphasis effect="italics">F</emphasis> = 0,5818 y valor <emphasis effect="italics">p</emphasis>= 0,0753. Vuelva a realizar el procedimiento y pruebe con <code>Draw</code> en vez de <code>Calculate</code>.</para>
+<label/>
+<para id="element-44">Pulse <code>STAT</code> y flecha hacia <code>TESTS</code>. Flecha hacia abajo <code>D:2-SampFTest</code>. Pulse <code>ENTER</code>. Mueva la flecha hasta <code>STATS</code> y pulse <code>ENTER</code>. Para <code>Sx1</code>, <code>n1</code>, <code>Sx2</code>, y <code>n2</code>, introduzca <code><m:math><m:msqrt><m:mo>(</m:mo><m:mn>52,3</m:mn><m:mo>)</m:mo></m:msqrt></m:math></code>, <code>30</code>, <code><m:math><m:msqrt><m:mo>(</m:mo><m:mn>89,9</m:mn><m:mo>)</m:mo></m:msqrt></m:math></code>, y <code>30</code>. Pulse <code>ENTER</code> después de cada uno. Mueva la flecha hasta <code>σ1:</code> y <code><m:math><m:reln><m:lt/></m:reln></m:math>σ2</code>. Pulse <code>ENTER</code>. Desplace la flecha hacia abajo hasta <code>Calculate</code> y pulse <code>ENTER</code>. <emphasis effect="italics">F</emphasis> = 0,5818 y valor <emphasis effect="italics">p</emphasis> = 0,0753. Vuelva a realizar el procedimiento y pruebe con <code>Dibujar</code> en vez de <code>Calculate</code>.</para>
 </note>
 </solution>
 </exercise>
 </example>
 
 <note id="fs-idm172461040" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idp56175568">
 <problem id="fs-idm162549056">
-<para id="fs-idm215565200">La Sociedad Coral de Nueva York divide a los cantantes hombres en cuatro categorías, desde las voces más altas hasta las más bajas: Tenor1, Tenor2, Bass1, Bass2. En la tabla están las estaturas de los hombres de los grupos tenor 1 y bajo 2. Uno sospecha que los hombres más altos tendrán voces más graves, y que la varianza de la altura puede subir también con las voces más graves. ¿Tenemos pruebas fehacientes de que la varianza de las alturas de los cantantes en cada uno de estos dos grupos (tenor 1 y bajo 2) es diferente?</para>
+<para id="fs-idm215565200">La Sociedad Coral de Nueva York divide a los cantantes hombres en cuatro categorías, desde las voces más altas hasta las más bajas: tenor 1, tenor 2, bajo 1, bajo 2. En la tabla están las estaturas de los hombres de los grupos tenor 1 y bajo 2. Uno sospecha que los hombres más altos tendrán voces más graves, y que la varianza de la altura puede subir también con las voces más graves. ¿Tenemos pruebas fehacientes de que la varianza de las alturas de los cantantes en cada uno de estos dos grupos (tenor 1 y bajo 2) es diferente?</para>
 
 
 <table id="fs-idm140456080" summary="">
@@ -648,8 +648,8 @@ Los términos <m:math>
 <colspec colnum="2" colname="c2"/>
 <thead>
 <row>
-<entry>Tenor1</entry>
-<entry>Bass2</entry>
+<entry>Tenor 1</entry>
+<entry>Bajo 2</entry>
 <entry>Tenor 1</entry>
 <entry>Bajo 2</entry>
 <entry>Tenor 1</entry>
@@ -737,7 +737,7 @@ Los términos <m:math>
 </note>
 
 <section id="eip-873" class="references"><title>Referencias</title><para id="eip-45">“MLB Vs. Division Standings – 2012” (MLB versus Clasificación de la División-2012) Disponible en línea en http://espn.go.com/mlb/standings/_/year/2012/type/vs-division/order/true.</para></section><section id="fs-idm88248672" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="eip-30">La prueba <emphasis effect="italics">F</emphasis> para la igualdad de dos varianzas se basa en gran medida en el supuesto de distribuciones normales. La prueba no es fiable si no se cumple este supuesto. Si ambas distribuciones son normales, el cociente de las dos varianzas muestrales se distribuye como un estadístico <emphasis effect="italics">F</emphasis>, con grados de libertad en el numerador y el denominador que son uno menos que los tamaños de las muestras de los dos grupos correspondientes. Una prueba de hipótesis de <emphasis>prueba de dos varianzas</emphasis> determina si dos varianzas son iguales. La distribución para la prueba de hipótesis es la distribución <emphasis effect="italics">F</emphasis> con dos grados de libertad diferentes.</para><list id="list2" list-type="enumerated"><title>Supuestos:</title><item>Las poblaciones de las que se extraen las dos muestras se distribuyen normalmente.</item>
 <item>Las dos poblaciones son independientes entre sí.</item>
 </list></section>
@@ -918,7 +918,7 @@ Los términos <m:math>
 </solution>
 </exercise>
 
-<para id="eip-896"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos cuatro ejercicios.</emphasis> Dos estudiantes están interesados en saber si hay o no variación en los resultados de sus exámenes en la clase de Matemáticas. En total son 15 los exámenes de Matemáticas que han presentado hasta ahora. Las calificaciones del primer estudiante tienen una desviación típica de 38,1. Las calificaciones del segundo estudiante tienen una desviación típica de 22,5. El segundo estudiante cree que sus resultados son más coherentes.</para><exercise id="eip-292"><problem id="eip-514">
+<para id="eip-896"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos cuatro ejercicios.</emphasis> Dos estudiantes están interesados en saber si hay o no variación en los resultados de sus exámenes en la clase de Matemáticas. En total son 15 los exámenes de Matemáticas que han presentado hasta ahora. Las notas del primer estudiante tienen una desviación típica de 38,1. Las notas del segundo estudiante tienen una desviación típica de 22,5. El segundo estudiante cree que sus resultados son más coherentes.</para><exercise id="eip-292"><problem id="eip-514">
   <para id="eip-548">Indique las hipótesis nula y alternativa.</para>
 </problem></exercise><exercise id="eip-932">
 <problem id="eip-69">
@@ -938,7 +938,7 @@ Los términos <m:math>
 </problem>
 
 <solution id="eip-84">
-  <para id="eip-395">rechaza la hipótesis nula. Hay pruebas suficientes para decir que la varianza de las calificaciones del primer estudiante es mayor que la del segundo.</para>
+  <para id="eip-395">rechaza la hipótesis nula. Hay pruebas suficientes para decir que la varianza de las notas del primer estudiante es mayor que la del segundo.</para>
 </solution>
 </exercise>
 
@@ -1008,7 +1008,7 @@ Los términos <m:math>
 </problem>
 
 <solution id="id19296291">
-<list id="eip-idm237758528" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math>
+<list id="eip-idm237758528" list-type="enumerated" number-style="lower-alpha"><item><m:math>
  <m:mrow>
   <m:msub>
    <m:mi>H</m:mi>
@@ -1028,7 +1028,7 @@ Los términos <m:math>
  </m:mrow>
 </m:math>
 </item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:msub>
    <m:mi>H</m:mi>
@@ -1051,7 +1051,7 @@ Los términos <m:math>
 <item><emphasis effect="italics">df</emphasis>(<emphasis effect="italics">num</emphasis>) = 4; <emphasis effect="italics">df</emphasis>(<emphasis effect="italics">denom</emphasis>) = 4</item>
 <item><emphasis effect="italics">F</emphasis><sub>4, 4</sub></item>
 <item>3,00</item>
-<item class="finger">2(0,1563) = 0,3126. Utilizando la función 2-SampFtest en la TI-83+/84+ se obtiene el estadístico de prueba como 2,9986 y el valor <emphasis effect="italics">p</emphasis>directamente como 0,3127. Si se introducen las listas en un orden diferente, se obtiene un estadístico de prueba de 0,3335, pero el valor<emphasis effect="italics">p</emphasis>permanece igual porque se trata de una prueba de dos colas.</item>
+<item class="finger">2(0,1563) = 0,3126. Utilizando la función 2-SampFtest en la TI-83+/84+ se obtiene el estadístico de prueba como 2,9986 y el valor <emphasis effect="italics">p</emphasis> directamente como 0,3127. Si se introducen las listas en un orden diferente, se obtiene un estadístico de prueba de 0,3335, pero el valor<emphasis effect="italics">p</emphasis> permanece igual porque se trata de una prueba de dos colas.</item>
 <item>Compruebe la solución del estudiante.</item>
 <item>Decisión: No se rechaza la hipótesis nula; conclusión: no hay pruebas suficientes para concluir que las varianzas son diferentes.</item>
 </list></solution>
@@ -1290,7 +1290,7 @@ Los términos <m:math>
 <item><emphasis effect="italics">F</emphasis><sub>7,6</sub></item>
 <item>0,8117</item>
 <item>0,7825</item>
-<item>Compruebe la solución del estudiante</item>
+<item>Compruebe la solución del estudiante.</item>
 <item>
 <list id="eip-idm187473360" list-type="enumerated" number-style="lower-roman">
 <item>Alfa: 0,05</item>
@@ -1508,7 +1508,7 @@ Los términos <m:math>
     <entry>26,272</entry>
   </row>
   <row>
-    <entry>Error (intra)</entry>
+    <entry>Error (dentro)</entry>
     <entry>11,015</entry>
     <entry>27 – 4 = 23</entry>
     <entry>0,4789</entry>
@@ -1692,7 +1692,7 @@ Los términos <m:math>
     <entry/>
   </row>
   <row>
-    <entry>Error (intra)</entry>
+    <entry>Error (dentro)</entry>
     <entry>1.219,55</entry>
     <entry>14 – 3 = 11</entry>
     <entry>110,87</entry>

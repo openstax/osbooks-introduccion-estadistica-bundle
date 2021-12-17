@@ -61,7 +61,7 @@
 
 
   <note id="fs-idm72148080" class="statistics try">
-    
+    <label/>
      <title>Ejercicio</title>
     <exercise id="eip-808">
     <problem id="eip-569">
@@ -77,7 +77,7 @@
   </example>
 
  <note id="fs-idp97501776" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 
 <exercise id="eip-200"><problem id="eip-582">
@@ -89,7 +89,7 @@
 <example id="eip-550"><para id="eip-646">Los laboratorios genéticos It’s a Boy afirman poder aumentar la probabilidad de elegir el sexo del bebé, en ese caso, masculino. Los estadísticos quieren poner a prueba esta afirmación. Supongamos que la hipótesis nula, <emphasis effect="italics">H<sub>0</sub></emphasis>, es: Los laboratorios genéticos It’s a Boy no tienen efecto en el resultado del sexo.</para><para id="eip-idp12866608"><emphasis>Error tipo I</emphasis>: Esto resulta cuando se rechaza una hipótesis nula verdadera. En el contexto de este escenario, afirmaríamos que creemos que los laboratorios genéticos It’s a Boy influyen en el resultado del sexo, cuando en realidad no tienen ningún efecto. La probabilidad de que se produzca este error se denota con la letra griega alfa, <emphasis effect="italics">α</emphasis>.</para><para id="eip-idp92458272"><emphasis>Error tipo II</emphasis>: Esto se produce cuando no se rechaza una hipótesis nula falsa. En el contexto, afirmaríamos que los laboratorios genéticos It’s a Boy no influyen en el resultado del sexo de un bebé cuando, de hecho, sí lo hacen. La probabilidad de que se produzca este error se denota con la letra griega beta, <emphasis effect="italics">β</emphasis>.</para><para id="eip-idp109344384">El error de mayor consecuencia sería el tipo I, ya que las parejas utilizarían el producto de los laboratorios genéticos It’s a Boy con la esperanza de aumentar las posibilidades de concebir un bebé de sexo masculino.</para>
 </example>
 
-  <note id="fs-idp114758848" class="statistics try"><title>Ejercicio</title>
+  <note id="fs-idp114758848" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="eip-idp106437392">
 <problem id="eip-idm60347984">
 <para id="eip-326">La “marea roja” es una floración de algas productoras de veneno, algunas especies diferentes de un tipo de plancton llamado dinoflagelado. Cuando las condiciones meteorológicas y del agua provocan estas floraciones, los mariscos, como las almejas que viven en la zona, desarrollan niveles peligrosos de una toxina que induce parálisis. En Massachusetts, la División de Pesquerías Marinas (Division of Marine Fisheries, DMF) controla los niveles de la toxina en los mariscos mediante muestreos regulares de mariscos a lo largo de la costa. Si el nivel medio de toxina en las almejas supera los 800 μg (microgramos) de toxina por kg de carne de almeja en cualquier zona, se prohíbe la recolección de almejas de allí hasta que la floración haya terminado y los niveles de toxina en las almejas disminuyan. Describa un error tipo I y uno tipo II en este contexto e indique qué error tiene mayores consecuencias.</para></problem>
@@ -97,7 +97,7 @@
 </exercise></note><example id="eip-168"><para id="eip-90">Un determinado fármaco experimental afirma tener una tasa de curación de, al menos, el 75 % para los hombres con cáncer de próstata. Describa los errores tipo I y tipo II en su contexto. ¿Cuál error es más grave?</para><para id="eip-141"><emphasis>Tipo I</emphasis>: Un paciente con cáncer cree que la tasa de curación del fármaco es inferior al 75 %, cuando en realidad es de, al menos, el 75 %.</para><para id="eip-695"><emphasis>Tipo II</emphasis>: Un paciente con cáncer cree que el fármaco experimental tiene un índice de curación de, al menos, el 75 % cuando su índice de curación es inferior al 75 %.</para><para id="eip-806">En este escenario, el error tipo II contiene la consecuencia más grave. Si un paciente cree que el fármaco funciona, al menos, el 75 % de las veces, lo más probable es que esto influya en la elección del paciente (y del médico) sobre la conveniencia de utilizar el fármaco como opción de tratamiento.</para></example>
 
   <note id="fs-idm49523424" class="statistics try">
-    
+    <label/>
     <title>Ejercicio</title>
     <para id="eip-198">Determine los errores de tipo I y de tipo II para el siguiente escenario:</para>
 <para id="eip-idp26159712">Supongamos una hipótesis nula, <emphasis effect="italics">H<sub>0</sub></emphasis>, que afirma que el porcentaje de adultos con empleo es al menos del 88 %.</para>
@@ -118,7 +118,7 @@
   </note>
 
   <section id="eip-566" class="summary">
-    <title>Revisión del capítulo</title>
+    <title>Repaso del capítulo</title>
 
     <para id="eip-483">En toda prueba de hipótesis, los resultados dependen de una interpretación correcta de los datos. Los cálculos incorrectos o el resumen de estadísticas mal entendidos pueden producir errores que afecten los resultados. Un error <emphasis>tipo I</emphasis> se produce cuando se rechaza una hipótesis nula verdadera. Un <emphasis>error tipo II</emphasis> se produce cuando no se rechaza una hipótesis nula falsa.</para>
     <para id="eip-idm63626992">Las probabilidades de estos errores se indican con las letras griegas <emphasis effect="italics">α</emphasis> y <emphasis effect="italics">β</emphasis>, para un error tipo I y el tipo II, respectivamente. La potencia de la prueba, 1 – <emphasis effect="italics">β</emphasis>, cuantifica la probabilidad de que una prueba arroje el resultado correcto de que se acepte una hipótesis alternativa verdadera. Es deseable una alta potencia.</para></section>
@@ -273,14 +273,14 @@ Tipo I: El procedimiento saldrá bien, pero los médicos creen que no.
 <glossary>
 <definition id="type1err">
     <term>Error de tipo 1</term>
-    <meaning id="id2292288">La decisión es rechazar la hipótesis nula cuando, de hecho, es verdadera.
+    <meaning id="id2292288">la decisión es rechazar la hipótesis nula cuando, de hecho, es verdadera.
     </meaning>
   </definition>
 
 
 <definition id="type2err">
     <term>Error de tipo 2</term>
-    <meaning id="id1169217218486">La decisión es no rechazar la hipótesis nula cuando, de hecho, es falsa.
+    <meaning id="id1169217218486">la decisión es no rechazar la hipótesis nula cuando, de hecho, es falsa.
     </meaning>
 </definition>
 

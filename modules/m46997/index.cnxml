@@ -23,7 +23,7 @@
 </m:math>)(<emphasis effect="italics">σ<sub>Χ</sub></emphasis>)).</para><para id="element-603"><emphasis>El</emphasis> <term id="term-00002">teorema del límite central para las sumas</term> indica que si se extraen repetidamente muestras de un tamaño determinado (como lanzar repetidamente diez dados) y se calcula la suma de cada muestra, estas sumas tienden a seguir una distribución normal. A medida que aumenta el tamaño de la muestra, la distribución de las medias se ajusta más a la distribución normal. <emphasis>La distribución normal tiene una media igual a la media original multiplicada por el tamaño de la muestra y una desviación típica igual a la desviación típica original multiplicada por la raíz cuadrada del tamaño de la muestra.</emphasis></para><para id="element-7">La variable aleatoria Σ<emphasis effect="italics">X</emphasis> tiene asociada la siguiente puntuación <emphasis effect="italics">z</emphasis>:</para>
 
 <list id="element-434" list-type="enumerated" number-style="lower-alpha"><item>Σ<emphasis effect="italics">x</emphasis> es una suma.</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mtext> = </m:mtext><m:mfrac>
    <m:mrow>
@@ -49,7 +49,7 @@
 </m:math> <list id="element-444" list-type="enumerated" number-style="lower-roman">
 <item>(<emphasis effect="italics">n</emphasis>)(<emphasis effect="italics">μ<sub>X</sub></emphasis>) = la media de Σ<emphasis effect="italics">X</emphasis></item>
 	<item>
-Los términos <m:math>
+<m:math>
  <m:mrow>
   <m:mo stretchy="false">(</m:mo><m:msqrt>
    <m:mi>n</m:mi>
@@ -67,7 +67,7 @@ Los términos <m:math>
 </m:math>
 </item>
 	</list></item></list><note id="fs-idm172522384" class="statistics calculator">
-
+<label/>
 <para id="fs-idp42629152">Para calcular las probabilidades de las sumas en la calculadora, siga estos pasos.</para>
 <para id="fs-idm146409264">2.º<sup/> <code>DISTR</code>
 <newline/>2:<code>normalcdf</code>
@@ -139,7 +139,7 @@ Los términos <m:math>
 </figure>
 
 <note id="fs-idm202010592" class="statistics calculator">
-
+<label/>
 <para id="element-389">
 <code>normalcdf</code>(valor inferior, valor superior, media de las sumas, <code>stdev</code> de sumas)</para>
 <para id="element-503">La lista de parámetros se abrevia (inferior, superior, (<emphasis effect="italics">n</emphasis>)(<emphasis effect="italics">μ<sub>X</sub></emphasis>, <m:math><m:mrow>
@@ -165,10 +165,10 @@ Los términos <m:math>
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math>(15)) = 0.0127</para></note>
+</m:math>(15)) = 0,0127</para></note>
 
 <note id="fs-idm71809936" type="Reminder">
-
+<label/>
 <title>Recordatorio</title>
 <para id="element-565"><emphasis>1E99 = 10<sup>99</sup></emphasis>.</para>
 <para id="fs-idm138173168">Pulse <code>EE</code> para E.</para>
@@ -195,12 +195,12 @@ Los términos <m:math>
    </m:mrow>
   </m:msqrt>
  </m:mrow>
-</m:math>)(15) = 7,401.2</para>
+</m:math>)(15) = 7.401,2</para>
 </solution>
 </exercise></example>
 
 <note id="fs-idm51983600" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm105647824"><problem id="fs-idm71758576">
 <para id="fs-idp18637136">Una distribución desconocida tiene una media de 45 y una desviación típica de ocho. Se extrae aleatoriamente una muestra de tamaño 50 de la población. Calcule la probabilidad de que la suma de los 50 valores sea superior a 2.400.</para>
@@ -208,9 +208,9 @@ Los términos <m:math>
 </exercise></note>
 
 <note id="fs-idm133155984" class="statistics calculator">
-
-<para id="fs-idm82544544">Para encontrar los percentiles de las sumas en la calculadora, siga estos pasos.</para>
-<para id="fs-idm25568352">2<sup>º</sup> DIStR <newline/>3:invNorm <newline/><emphasis effect="italics">k</emphasis> = invNorm (área a la izquierda de <emphasis effect="italics">k</emphasis>, (<emphasis effect="italics">n</emphasis>)(media), <m:math>
+<label/>
+<para id="fs-idm82544544">Para calcular los percentiles de las sumas en la calculadora, siga estos pasos.</para>
+<para id="fs-idm25568352">2<sup>nd</sup> DIStR <newline/>3:invNorm <newline/><emphasis effect="italics">k</emphasis> = invNorm (área a la izquierda de <emphasis effect="italics">k</emphasis>, (<emphasis effect="italics">n</emphasis>)(media), <m:math>
  <m:mrow>
   <m:mtext>(</m:mtext><m:msqrt>
    <m:mi>n</m:mi>
@@ -256,7 +256,7 @@ Los términos <m:math>
  </m:mrow>
 </m:math>(15) = 106,07 <newline count="1"/>La distribución es normal para las sumas por el teorema del límite central.</item>
 <item><emphasis effect="italics">P</emphasis>(1500 &lt; Σ<emphasis effect="italics">x</emphasis> &lt; 1800) = <code>normalcdf</code>
-(1,500, 1,800, (50)(34), <m:math>
+(1.500, 1.800, (50)(34), <m:math>
  <m:mrow>
   <m:mo stretchy="false">(</m:mo><m:msqrt>
    <m:mrow>
@@ -265,8 +265,8 @@ Los términos <m:math>
   </m:msqrt>
   <m:mtext> )</m:mtext>
  </m:mrow>
-</m:math>(15)) = 0.7974</item>
-<item>Supongamos que <emphasis effect="italics">k</emphasis> = el percentil 80<sup/>. <newline count="1"/><emphasis effect="italics">k</emphasis> = <code>invNorm</code>(0.80,(50)(34),<m:math>
+</m:math>(15)) = 0,7974</item>
+<item>Supongamos que <emphasis effect="italics">k</emphasis> = el percentil 80<sup/>. <newline count="1"/><emphasis effect="italics">k</emphasis> = <code>invNorm</code>(0,80,(50)(34),<m:math>
  <m:mrow>
   <m:mo stretchy="false">(</m:mo><m:msqrt>
    <m:mrow>
@@ -275,13 +275,13 @@ Los términos <m:math>
   </m:msqrt>
   <m:mtext> )</m:mtext>
  </m:mrow>
-</m:math>(15)) = 1,789.3</item>
+</m:math>(15)) = 1.789,3</item>
 </list></solution>
 </exercise>
 </example>
 
 <note id="fs-idp87073664" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm67768928">
 <problem id="fs-idm16414224">
@@ -345,7 +345,7 @@ Los términos <m:math>
   <m:mtext>)</m:mtext>
  </m:mrow>
 </m:math>(1)) = 587,76 minutos <newline count="1"/>El noventa y cinco por ciento de las sumas de los tiempos de participación en la aplicación son como máximo 587,76 minutos.</item>
-<item>diez horas = 600 minutos <newline/><emphasis effect="italics">P</emphasis>(Σ<emphasis effect="italics">x</emphasis> ≥ 600) = <code>normalcdf</code>(600,E99,(70)(8.2),<m:math>
+<item>diez horas = 600 minutos <newline/><emphasis effect="italics">P</emphasis>(Σ<emphasis effect="italics">x</emphasis> ≥ 600) = <code>normalcdf</code>(600,E99,(70)(8,2),<m:math>
  <m:mrow>
   <m:mo stretchy="false">(</m:mo><m:msqrt>
    <m:mrow>
@@ -354,13 +354,13 @@ Los términos <m:math>
   </m:msqrt>
   <m:mtext>)</m:mtext>
  </m:mrow>
-</m:math>(1)) = 0.0009</item>
+</m:math>(1)) = 0,0009</item>
 </list></solution>
 </exercise>
 </example>
 
 <note id="fs-idp10112640" class="statistics try">
-
+<label/>
 <exercise id="fs-idp7815296"><problem id="fs-idm10364128">
 <para id="fs-idp93890400">El número de la media de minutos de participación en la aplicación por el uso de una mesa es de 8,2 minutos. Supongamos que la desviación típica es de un minuto. Tome una muestra de tamaño 70.</para>
 <list id="fs-idm85536928" list-type="enumerated" number-style="lower-alpha"><item>¿Cuál es la probabilidad de que la suma de la muestra esté entre siete y diez horas? ¿Qué significa esto en el contexto del problema?</item>
@@ -376,7 +376,7 @@ Los términos <m:math>
 </section>
 
 <section id="fs-idp3599840" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idm3318224">El teorema del límite central nos indica que para una población con cualquier distribución, la distribución de las sumas de las medias muestrales se aproxima a una distribución normal a medida que aumenta el tamaño de la muestra. En otras palabras, si el tamaño de la muestra es lo suficientemente grande, la distribución de las sumas puede aproximarse a una distribución normal aunque la población original no esté distribuida normalmente. Además, si la población original tiene una media de <emphasis effect="italics">μ<sub>X</sub></emphasis> y una desviación típica de <emphasis effect="italics">σ<sub>x</sub></emphasis>, la media de las sumas es <emphasis effect="italics">nμ<sub>x</sub></emphasis> y la desviación típica es <m:math>
  <m:mrow>
   <m:mo stretchy="false">(</m:mo><m:msqrt>
@@ -419,7 +419,7 @@ Los términos <m:math>
   </m:mfrac>
 
  </m:mrow>
-</m:math></para><para id="fs-idm85860000">Desviación estándar para las sumas (<emphasis effect="italics">∑X</emphasis>): <m:math>
+</m:math></para><para id="fs-idm85860000">Desviación típica para las sumas (<emphasis effect="italics">∑X</emphasis>): <m:math>
  <m:mrow>
   <m:mo stretchy="false">(</m:mo><m:msqrt>
    <m:mi>n</m:mi>
@@ -498,7 +498,7 @@ Los términos <m:math>
 </problem>
 
 <solution id="eip-673">
-  <para id="eip-467">77.45%</para>
+  <para id="eip-467">77,45%</para>
 </solution>
 </exercise>
 
@@ -521,7 +521,7 @@ Los términos <m:math>
 </exercise>
 
 <exercise id="eip-718"><problem id="eip-127">
-  <para id="eip-143">Calcule la probabilidad de que la suma de los 100 valores esté entre los números que ha encontrado en el <link target-id="eip-311"/> y el <link target-id="eip-886"/>.</para>
+  <para id="eip-143">Calcule la probabilidad de que la suma de los 100 valores esté entre los números que ha encontrado en el <link target-id="eip-311" document=""/> y el <link target-id="eip-886" document=""/>.</para>
 </problem>
 
 <!-- <solution id="eip-908">
@@ -601,7 +601,7 @@ Los términos <m:math>
 </exercise>
 
 <exercise id="eip-266"><problem id="eip-412">
-  <para id="eip-125">¿Qué tres cosas debe saber sobre una distribución para encontrar la probabilidad de las sumas?</para>
+  <para id="eip-125">¿Qué tres cosas debe saber sobre una distribución para calcular la probabilidad de las sumas?</para>
 </problem>
 
 <!-- <solution id="eip-865">
@@ -742,7 +742,7 @@ Los términos <m:math>
 <item><emphasis effect="italics">ΣX</emphasis> ~ suma de los salarios de diez maestros de primaria de la muestra</item>
 <item><emphasis effect="italics">ΣX</emphasis> ~ <emphasis effect="italics">N</emphasis>(44000, 20554,80)</item>
 <item>0,9742</item>
-<item>$52,330.09</item>
+<item>$52.330,09</item>
 <item>466342.04</item>
 <item>El muestreo de 70 maestros en lugar de diez haría que la distribución estuviera más repartida. Sería una curva normal más simétrica.</item>
 <item>Si cada maestro recibiera un aumento de 3.000 dólares, la distribución de <emphasis effect="italics">X</emphasis> se desplazaría hacia la derecha en 3.000 dólares. En otras palabras, tendría una media de 47.000 dólares.</item>

@@ -2,19 +2,19 @@
   <title>Eventos mutuamente excluyentes e independientes</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m54219</md:content-id>
-  <md:title>Eventos mutuamente exclusivos e independientes</md:title>
+  <md:title>Eventos mutuamente excluyentes e independientes</md:title>
   <md:abstract/>
   <md:uuid>db56f9e4-c8b3-43f3-b71c-958321947efb</md:uuid>
 </metadata>
 
 <content>
-<para id="element-755">Independiente y mutuamente exclusivo <emphasis>no</emphasis> significan lo mismo.</para>
+<para id="element-755">Independiente y mutuamente excluyente <emphasis>no</emphasis> significan lo mismo.</para>
 
 <section id="element-20">
 <title>Eventos independientes</title>
-<para id="element-990">Dos sucesos son independientes si uno de los siguientes es cierto:</para><list id="element-344" list-type="bulleted"><item>Los términos <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>|</m:mo><m:mi>B</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo></m:math> grandes.</item>
-	<item>Los términos <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>|</m:mo><m:mi>A</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math> grandes.</item>
-	<item>Los términos <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi> <m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math></item>
+<para id="element-990">Dos eventos son independientes si uno de los siguientes es cierto:</para><list id="element-344" list-type="bulleted"><item><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>|</m:mo><m:mi>B</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo></m:math></item>
+	<item><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>|</m:mo><m:mi>A</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math></item>
+	<item><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi> <m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math></item>
 </list><para id="eip-8888">Dos eventos <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son <term id="term-00001">independientes</term> si el conocimiento de que uno ha ocurrido no afecta la posibilidad de que ocurra el otro. Por ejemplo, los resultados de lanzar dos veces un dado imparcial son eventos independientes. El resultado de la primera lanzada no cambia la probabilidad del resultado de la segunda. Para demostrar que dos eventos son independientes, debe mostrar <emphasis>solo una</emphasis> de las condiciones anteriores. Si dos eventos NO son independientes, decimos que son <emphasis>dependientes</emphasis>.</para>
 
 <para id="element-405">El muestreo se puede hacer <emphasis>con</emphasis> <term id="term-00002">reemplazo</term> o <emphasis>sin reemplazo</emphasis>.</para>
@@ -30,7 +30,7 @@
 <para id="fs-idm176528">b. Muestreo sin reemplazo: <newline count="1"/>Supongamos que elige tres cartas sin reemplazo. La primera carta que saca de las 52 cartas es la <emphasis effect="italics">K</emphasis> de corazones. Pone esta carta a un lado y saca la segunda carta de las 51 que quedan en el mazo. Es el tres de diamantes. Pone esta carta a un lado y saca la tercera carta de las 50 restantes del mazo. La tercera carta es la <emphasis effect="italics">J</emphasis> de picas. Sus elecciones son {<emphasis effect="italics">K</emphasis> de corazones, tres de diamantes, <emphasis effect="italics">J</emphasis> de picas}. Como ha escogido las cartas sin reemplazo, no puede escoger la misma carta dos veces. La probabilidad de elegir el tres de diamantes se llama probabilidad condicional porque está condicionada a lo que se haya elegido primero. Esto es cierto también para la probabilidad de elegir la J de picas. La probabilidad de elegir la J de picas está realmente condicionada a las <emphasis effect="italics">dos</emphasis> elecciones anteriores. </para></example>
 
 <note id="fs-idm17445584" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm1262752">
 <problem id="fs-idm318128">
@@ -40,7 +40,7 @@
 <item>Suponga que sabe que las cartas elegidas son <emphasis effect="italics">Q</emphasis> de picas, <emphasis effect="italics">K</emphasis> de corazones y <emphasis effect="italics">J</emphasis> de picas. ¿Puede decidir si el muestreo fue con o sin reemplazo?</item></list>
 </problem>
 <solution id="fs-idm1325952">
-
+<label/>
 <list id="fs-idm4170576" list-type="enumerated" number-style="lower-alpha">
 <item>Con reemplazo</item>
 <item>No</item>
@@ -56,13 +56,13 @@
 <item>Supongamos que toma cuatro cartas y devuelve cada una de ellas antes de tomar la siguiente. Sus cartas son <emphasis effect="italics">KC</emphasis>, 7<emphasis effect="italics">D</emphasis>, 6<emphasis effect="italics">D</emphasis>, <emphasis effect="italics">KC</emphasis>.</item>
 </list><para id="fs-idm61714144">¿Cuál de a. o b. se muestreó con reemplazo y cuál se muestreó sin reemplazo?</para></problem>
 <solution id="fs-idm4167824">
-
+<label/>
 <para id="fs-idm4124432">a. Sin reemplazo; b. Con reemplazo</para></solution>
 </exercise>
 </example>
 
 <note id="fs-idm64621712" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm1421520">
 <problem id="fs-idm5372176">
@@ -89,7 +89,7 @@
 	<m:mo>)</m:mo>
 	<m:mo>=</m:mo>
 	<m:mn>0</m:mn>
-</m:math></para><para id="element-810">Por ejemplo, supongamos que el espacio muestral <emphasis effect="italics">S</emphasis> = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}. Supongamos que <emphasis effect="italics">A</emphasis> = {1, 2, 3, 4, 5}, <emphasis effect="italics">B</emphasis> = {4, 5, 6, 7, 8}, y <emphasis effect="italics">C</emphasis> = {7, 9}. A <m:math><m:mo>∩</m:mo></m:math> B = {4, 5}. <m:math>
+</m:math>.</para><para id="element-810">Por ejemplo, supongamos que el espacio muestral <emphasis effect="italics">S</emphasis> = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}. Supongamos que <emphasis effect="italics">A</emphasis> = {1, 2, 3, 4, 5}, <emphasis effect="italics">B</emphasis> = {4, 5, 6, 7, 8}, y <emphasis effect="italics">C</emphasis> = {7, 9}. A <m:math><m:mo>∩</m:mo></m:math> B = {4, 5}. <m:math>
 	<m:mi>P</m:mi>
 	<m:mo stretchy="false">(</m:mo>
 	<m:mi>A</m:mi>
@@ -110,7 +110,7 @@
 	<m:mo stretchy="false">)</m:mo>
 	<m:mo>=</m:mo>
 	<m:mn>0</m:mn>
-</m:math> Por lo tanto, <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">C</emphasis> son mutuamente excluyentes.</para><para id="element-529">Si no se sabe si <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son mutuamente excluyentes, <emphasis>suponga que no lo son hasta que pueda demostrar lo contrario</emphasis>. Los siguientes ejemplos ilustran estas definiciones y términos.</para>
+</m:math>. Por lo tanto, <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">C</emphasis> son mutuamente excluyentes.</para><para id="element-529">Si no se sabe si <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son mutuamente excluyentes, <emphasis>suponga que no lo son hasta que pueda demostrar lo contrario</emphasis>. Los siguientes ejemplos ilustran estas definiciones y términos.</para>
 
 <example id="element-931">
 <para id="element-482">Lance dos monedas imparciales (esto es un experimento).</para>
@@ -118,7 +118,7 @@
 
 <list id="element-96" list-type="bulleted"><item>Supongamos que <emphasis effect="italics">A</emphasis> = el evento de obtener <emphasis>como máximo una cruz</emphasis> (como máximo una cruz significa cero o una cruz). Entonces <emphasis effect="italics">A</emphasis> se puede escribir como {<emphasis effect="italics">HH</emphasis>, <emphasis effect="italics">HT</emphasis>, <emphasis effect="italics">TH</emphasis>}. El resultado <emphasis effect="italics">HH</emphasis> muestra cero cruces. <emphasis effect="italics">HT</emphasis> y <emphasis effect="italics">TH</emphasis> muestran una cruz cada uno.</item>
 <item>Supongamos que <emphasis effect="italics">B</emphasis> = el evento de obtener siempre cruces. <emphasis effect="italics">B</emphasis> se puede escribir como {<emphasis effect="italics">TT</emphasis>}. <emphasis effect="italics">B</emphasis> es el <emphasis>complemento</emphasis> de <emphasis effect="italics">A</emphasis>, por lo que <emphasis effect="italics">B</emphasis> = <emphasis effect="italics">A′</emphasis>. Además, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A′</emphasis>) = 1.</item>
-<item>Las probabilidades para <emphasis effect="italics">A</emphasis> y para <emphasis effect="italics">B</emphasis> son <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> y <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></item>
+<item>Las probabilidades para <emphasis effect="italics">A</emphasis> y para <emphasis effect="italics">B</emphasis> son <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> y <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math>.</item>
 <item>Supongamos que <emphasis effect="italics">C</emphasis> = el evento de obtener siempre caras. <emphasis effect="italics">C</emphasis> = {<emphasis effect="italics">HH</emphasis>}. Dado que <emphasis effect="italics">B</emphasis> = {<emphasis effect="italics">TT</emphasis>}, <m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
@@ -128,7 +128,7 @@
 	<m:mo>)</m:mo>
 	<m:mo>=</m:mo>
 	<m:mn>0</m:mn>
-</m:math> <emphasis effect="italics">B</emphasis> y <emphasis effect="italics">C</emphasis> son mutuamente excluyentes. (<emphasis effect="italics">B</emphasis> y <emphasis effect="italics">C</emphasis> no tienen miembros en común porque no se pueden tener siempre cruces y siempre caras al mismo tiempo).</item>
+</m:math>. <emphasis effect="italics">B</emphasis> y <emphasis effect="italics">C</emphasis> son mutuamente excluyentes. (<emphasis effect="italics">B</emphasis> y <emphasis effect="italics">C</emphasis> no tienen miembros en común porque no se pueden tener siempre cruces y siempre caras al mismo tiempo).</item>
 <item>Supongamos que <emphasis effect="italics">D</emphasis> = evento de obtener <emphasis>más de una</emphasis> cruz. <emphasis effect="italics">D</emphasis> = {<emphasis effect="italics">TT</emphasis>}. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis>) = <m:math>
  <m:mrow>
   <m:mfrac>
@@ -153,13 +153,13 @@
  </m:mrow>
 </m:math></item></list></example>
 <note id="fs-idp18707552" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idp250992">
 <problem id="fs-idm1214672">
 <para id="fs-idm5147344">Saque dos cartas de un mazo estándar de 52 cartas con reemplazo. Calcule la probabilidad de obtener una carta negra como mínimo.</para></problem>
 <solution id="fs-idm3385856">
-
+<label/>
 <title>Ejercicio Soluciones</title>
 <para id="fs-idm4230560">El espacio muestral de tomar dos cartas con reemplazo de un mazo estándar de 52 cartas con respecto al color [B: black (negro) y R: red (rojo] es {<emphasis effect="italics">BB</emphasis>, <emphasis effect="italics">BR</emphasis>, <emphasis effect="italics">RB</emphasis>, <emphasis effect="italics">RR</emphasis>}.</para><para id="fs-idm3504224">Evento <emphasis effect="italics">A</emphasis> = Obtener al menos una carta negra = {<emphasis effect="italics">BB</emphasis>, <emphasis effect="italics">BR</emphasis>, <emphasis effect="italics">RB</emphasis>}</para><para id="fs-idm2490704"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = <m:math><m:mrow>
   <m:mfrac>
@@ -183,7 +183,7 @@
 <item>Supongamos que <emphasis effect="italics">J</emphasis> = el evento de obtener siempre cruces. ¿<emphasis effect="italics">J</emphasis> y <emphasis effect="italics">H</emphasis> son mutuamente excluyentes?</item>
 </list></problem>
 <solution id="fs-idp66096">
-<para id="fs-idm5054528">Observe el espacio muestral en <link target-id="element-931"/>.</para>
+<para id="fs-idm5054528">Observe el espacio muestral en el <link target-id="element-931"/>.</para>
 <list id="fs-idm4693632" list-type="enumerated" number-style="lower-alpha"><item>Cero (0) o una (1) cruz se producen cuando aparecen los resultados <emphasis effect="italics">HH</emphasis>, <emphasis effect="italics">TH</emphasis>, <emphasis effect="italics">HT</emphasis>. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis>) = <m:math>
  <m:mrow>
   <m:mfrac>
@@ -205,7 +205,7 @@
 </list><para id="fs-idm12598624"><emphasis effect="italics">J</emphasis> y <emphasis effect="italics">H</emphasis> no tienen nada en común así que <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>J</m:mi><m:mo>∩</m:mo><m:mi>H</m:mi><m:mo>)</m:mo></m:math> = 0. <emphasis effect="italics">J</emphasis> y <emphasis effect="italics">H</emphasis> son mutuamente excluyentes.</para></solution>
 </exercise></example>
 <note id="fs-idm101726688" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm3945968">
 <problem id="fs-idm4652384">
@@ -218,7 +218,7 @@
 </list>
 </problem>
 <solution id="fs-idm4064592">
-
+<label/>
 <list id="fs-idm2757712" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis>) = <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow>
 </m:math></item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">G</emphasis>) = <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>
@@ -229,7 +229,7 @@
 </exercise>
 </note>
 <example id="element-56"><para id="example-3-2-para">Lance un dado imparcial de seis caras. El espacio muestral es {1, 2, 3, 4, 5, 6}. Supongamos que el evento <emphasis effect="italics">A</emphasis> = una cara es impar. Entonces <emphasis effect="italics">A</emphasis> = {1, 3, 5}. Supongamos que el evento <emphasis effect="italics">B</emphasis> = una cara es par. Entonces <emphasis effect="italics">B</emphasis> = {2, 4, 6}.</para>
-<list id="element-677" list-type="bulleted"><item>Calcule el complemento de <emphasis effect="italics">A</emphasis>, <emphasis effect="italics">A′</emphasis>. El complemento de <emphasis effect="italics">A</emphasis>, <emphasis effect="italics">A′</emphasis>, es <emphasis effect="italics">B</emphasis> porque <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> juntos constituyen el espacio muestral. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A′</emphasis>) = 1. Además, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> y <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math></item>
+<list id="element-677" list-type="bulleted"><item>Calcule el complemento de <emphasis effect="italics">A</emphasis>, <emphasis effect="italics">A′</emphasis>. El complemento de <emphasis effect="italics">A</emphasis>, <emphasis effect="italics">A′</emphasis>, es <emphasis effect="italics">B</emphasis> porque <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> juntos constituyen el espacio muestral. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A′</emphasis>) = 1. Además, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> y <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math>.</item>
 <item>Supongamos que el evento <emphasis effect="italics">C</emphasis> = caras impares mayores que dos. Entonces <emphasis effect="italics">C</emphasis> = {3, 5}. Supongamos que el evento <emphasis effect="italics">D</emphasis> = todas las caras pares menores que cinco. Entonces <emphasis effect="italics">D</emphasis> = {2, 4} <m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
@@ -241,21 +241,21 @@
 	<m:mn>0</m:mn>
 </m:math> porque no se puede tener una cara par y otra impar al mismo tiempo. Por lo tanto, <emphasis effect="italics">C</emphasis> y <emphasis effect="italics">D</emphasis> son eventos mutuamente excluyentes.</item>
 <item>Supongamos que el evento <emphasis effect="italics">E</emphasis> = todas las caras menores de cinco. <emphasis effect="italics">E</emphasis> = {1, 2, 3, 4}.</item></list><exercise id="element-12341"><problem id="id9852986">
-<para id="element-73455">¿<emphasis effect="italics">C</emphasis> y <emphasis effect="italics">E</emphasis> son eventos mutuamente excluyentes? (Responda sí o no). ¿Por qué o por qué no?</para>
+<para id="element-73455">¿<emphasis effect="italics">C</emphasis> y <emphasis effect="italics">E</emphasis> son eventos mutuamente excluyentes? (Responda sí o no). ¿Por qué sí o por qué no?</para>
 </problem>
 <solution id="id10118020">
-
-<para id="element-032545">No. <emphasis effect="italics">C</emphasis> = {3, 5} y <emphasis effect="italics">E</emphasis> = {1, 2, 3, 4}. <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>∩</m:mo> <m:mi>E</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> Para poder ser mutuamente excluyentes, <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>∩</m:mo><m:mi>E</m:mi><m:mo>)</m:mo></m:math> debe ser cero.</para></solution>
-</exercise><list id="fs-idm67063616" list-type="bulleted"><item>Halle <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>|</m:mo><m:mi>A</m:mi><m:mo>)</m:mo></m:math> Se trata de una probabilidad condicional. Recordemos que el evento <emphasis effect="italics">C</emphasis> es {3, 5} y el evento <emphasis effect="italics">A</emphasis> es {1, 3, 5}. Para hallar <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>|</m:mo><m:mi>A</m:mi><m:mo>)</m:mo></m:math>, calcule la probabilidad de <emphasis effect="italics">C</emphasis> utilizando el espacio muestral <emphasis effect="italics">A</emphasis>. Ha reducido el espacio muestral del original espacio muestral {1, 2, 3, 4, 5, 6} a {1, 3, 5}. Así que, <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>|</m:mo><m:mi>A</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo>
+<label/>
+<para id="element-032545">No. <emphasis effect="italics">C</emphasis> = {3, 5} y <emphasis effect="italics">E</emphasis> = {1, 2, 3, 4}. <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>∩</m:mo> <m:mi>E</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math>. Para poder ser mutuamente excluyentes, <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>∩</m:mo><m:mi>E</m:mi><m:mo>)</m:mo></m:math> debe ser cero.</para></solution>
+</exercise><list id="fs-idm67063616" list-type="bulleted"><item>Halle <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>|</m:mo><m:mi>A</m:mi><m:mo>)</m:mo></m:math>. Se trata de una probabilidad condicional. Recordemos que el evento <emphasis effect="italics">C</emphasis> es {3, 5} y el evento <emphasis effect="italics">A</emphasis> es {1, 3, 5}. Para hallar <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>|</m:mo><m:mi>A</m:mi><m:mo>)</m:mo></m:math>, calcule la probabilidad de <emphasis effect="italics">C</emphasis> utilizando el espacio muestral <emphasis effect="italics">A</emphasis>. Ha reducido el espacio muestral del original espacio muestral {1, 2, 3, 4, 5, 6} a {1, 3, 5}. Así que, <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>|</m:mo><m:mi>A</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo>
  <m:mrow>
   <m:mfrac>
    <m:mn>2</m:mn>
    <m:mn>3</m:mn>
   </m:mfrac>
 </m:mrow>
-</m:math>
+</m:math>.
 </item>
-</list></example><note id="fs-idm51413200" class="statistics try"><title>Ejercicio</title>
+</list></example><note id="fs-idm51413200" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idm3558336">
 <problem id="fs-idm4126272">
 <para id="fs-idm832352">Supongamos que el evento <emphasis effect="italics">A</emphasis> = aprender español. Supongamos que el evento <emphasis effect="italics">B</emphasis> = aprender alemán. Entonces <m:math><m:mi>A</m:mi> <m:mo>∩</m:mo> <m:mi>B</m:mi> <m:mo>=</m:mo></m:math> aprender español y alemán. Supongamos que <m:math>
@@ -281,7 +281,7 @@
 	<m:mo>)</m:mo>
 	<m:mo>=</m:mo>
 	<m:mn>0,08</m:mn>
-</m:math> ¿Los eventos <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son independientes? Pista: Debe demostrar UNO de los siguientes aspectos:</para><list id="fs-idm143307488" list-type="bulleted"><item>Los términos <m:math>
+</m:math>. ¿Los eventos <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son independientes? Pista: Debe demostrar UNO de los siguientes aspectos:</para><list id="fs-idm143307488" list-type="bulleted"><item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>A</m:mi>
@@ -293,8 +293,8 @@
 	<m:mo>(</m:mo>
 	<m:mi>A</m:mi>
 	<m:mo>)</m:mo>
-</m:math> grandes.</item>
-<item>Los términos <m:math>
+</m:math></item>
+<item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>B</m:mi>
@@ -305,8 +305,8 @@
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>B</m:mi>
-	<m:mo>)</m:mo></m:math> grandes.</item>
-<item>Los términos <m:math>
+	<m:mo>)</m:mo></m:math></item>
+<item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>A</m:mi>
@@ -324,8 +324,8 @@
 	<m:mo>)</m:mo>
 </m:math></item></list></problem>
 <solution id="fs-idm4021072">
-
-<para id="fs-idm882096">Los términos <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>|</m:mo><m:mi>B</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mrow>
+<label/>
+<para id="fs-idm882096"><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>|</m:mo><m:mi>B</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mrow>
   <m:mfrac>
    <m:mrow>
     <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo stretchy="false">)</m:mo>
@@ -348,7 +348,7 @@
 </solution>
 </exercise>
 </note><example id="element-579">
-<para id="example-3-3-para">Supongamos que el evento <emphasis effect="italics">G</emphasis> = tomar una clase de Matemáticas. Supongamos que el evento <emphasis effect="italics">H</emphasis> = tomar una clase de Ciencias. Entonces, G <m:math><m:mo>∩</m:mo></m:math> H = tomar una clase de Matemáticas y otra de Ciencias. Supongamos que <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>G</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mn>0,6</m:mn><m:mo>,</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>H</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mn>0,5</m:mn></m:math> y <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>G</m:mi><m:mo>∩</m:mo><m:mi>H</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mn>0,3</m:mn><m:mo>.</m:mo></m:math> ¿<emphasis effect="italics">G</emphasis> y <emphasis effect="italics">H</emphasis> son independientes?</para><para id="element-456">Si <emphasis effect="italics">G</emphasis> y <emphasis effect="italics">H</emphasis> son independientes, entonces debe demostrar <emphasis>UNA</emphasis> de las siguientes cosas:</para><list id="element-358" list-type="bulleted"><item>Los términos <m:math>
+<para id="example-3-3-para">Supongamos que el evento <emphasis effect="italics">G</emphasis> = tomar una clase de Matemáticas. Supongamos que el evento <emphasis effect="italics">H</emphasis> = tomar una clase de Ciencias. Entonces, G <m:math><m:mo>∩</m:mo></m:math> H = tomar una clase de Matemáticas y otra de Ciencias. Supongamos que <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>G</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mn>0,6</m:mn><m:mo>,</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>H</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mn>0,5</m:mn></m:math> y <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>G</m:mi><m:mo>∩</m:mo><m:mi>H</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mn>0,3</m:mn><m:mo>.</m:mo></m:math> ¿<emphasis effect="italics">G</emphasis> y <emphasis effect="italics">H</emphasis> son independientes?</para><para id="element-456">Si <emphasis effect="italics">G</emphasis> y <emphasis effect="italics">H</emphasis> son independientes, entonces debe demostrar <emphasis>UNA</emphasis> de las siguientes cosas:</para><list id="element-358" list-type="bulleted"><item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>G</m:mi>
@@ -360,8 +360,8 @@
 	<m:mo>(</m:mo>
 	<m:mi>G</m:mi>
 	<m:mo>)</m:mo>
-</m:math> grandes.</item>
-<item>Los términos <m:math>
+</m:math></item>
+<item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>H</m:mi>
@@ -373,8 +373,8 @@
 	<m:mo>(</m:mo>
 	<m:mi>H</m:mi>
 	<m:mo>)</m:mo>
-</m:math> grandes.</item>
-<item>Los términos <m:math>
+</m:math></item>
+<item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>G</m:mi>
@@ -391,14 +391,14 @@
 	<m:mi>H</m:mi>
 	<m:mo>)</m:mo>
 </m:math>
-</item></list><note id="id9660801">
+</item></list><note id="id9660801"><label/>
 <title>NOTA</title>
 <para id="eip-idp52179728"><emphasis>La elección que haga depende de la información que tenga.</emphasis> Puede elegir cualquiera de los métodos aquí porque tiene la información necesaria.</para></note>
 
 <exercise id="element-3525"><problem id="id9660827">
-   <para id="element-52356">a. Demuestre que <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>G</m:mi><m:mo>|</m:mo><m:mi>H</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>G</m:mi><m:mo>)</m:mo></m:math></para></problem>
+   <para id="element-52356">a. Demuestre que <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>G</m:mi><m:mo>|</m:mo><m:mi>H</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>G</m:mi><m:mo>)</m:mo></m:math>.</para></problem>
 <solution id="id9660856">
- <para id="fs-idm4674864">Los términos <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>G</m:mi><m:mo>|</m:mo><m:mi>H</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo>
+ <para id="fs-idm4674864"><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>G</m:mi><m:mo>|</m:mo><m:mi>H</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -425,13 +425,13 @@
 </exercise>
 
 <exercise id="element-32525"><problem id="id9660930">
-   <para id="element-52456">b. Demuestre que <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>G</m:mi> <m:mo>∩</m:mo><m:mi>H</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>G</m:mi><m:mo>)</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>H</m:mi><m:mo>)</m:mo></m:math></para></problem>
+   <para id="element-52456">b. Demuestre que <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>G</m:mi> <m:mo>∩</m:mo><m:mi>H</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>G</m:mi><m:mo>)</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>H</m:mi><m:mo>)</m:mo></m:math>.</para></problem>
 <solution id="id9660965">
- <para id="element-3462">Los términos <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>G</m:mi><m:mo>)</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>H</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mo>(</m:mo><m:mn>0,6</m:mn><m:mo>)</m:mo><m:mn>(</m:mn><m:mn>0,5</m:mn><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mn>0,3</m:mn> <m:mo>=</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>G</m:mi> <m:mo>∩</m:mo><m:mi>H</m:mi><m:mo>)</m:mo></m:math></para></solution>
+ <para id="element-3462"><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>G</m:mi><m:mo>)</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>H</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mo>(</m:mo><m:mn>0,6</m:mn><m:mo>)</m:mo><m:mn>(</m:mn><m:mn>0,5</m:mn><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mn>0,3</m:mn> <m:mo>=</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>G</m:mi> <m:mo>∩</m:mo><m:mi>H</m:mi><m:mo>)</m:mo></m:math></para></solution>
 </exercise>
 <para id="element-798">Dado que <emphasis effect="italics">G</emphasis> y <emphasis effect="italics">H</emphasis> son independientes, saber que una persona está tomando una clase de Ciencias no cambia la posibilidad de que esté tomando una clase de Matemáticas. Si los dos eventos no fueran independientes (es decir, son dependientes), entonces saber que una persona está tomando una clase de Ciencias cambiaría la probabilidad de que esté tomando la clase de Matemáticas. Para la práctica, demuestre que <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>H</m:mi><m:mo>|</m:mo><m:mi>G</m:mi><m:mo>)</m:mo><m:mo>=</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>H</m:mi><m:mo>)</m:mo></m:math> para demostrar que <emphasis effect="italics">G</emphasis> y <emphasis effect="italics">H</emphasis> son eventos independientes.</para></example>
 <note id="fs-idm13687712" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm4055200"><problem id="fs-idm3236672">
 <para id="fs-idm3236416">En una bolsa hay seis canicas rojas y cuatro verdes. Las canicas rojas están marcadas con los números 1, 2, 3, 4, 5 y 6. Las canicas verdes están marcadas con los números 1, 2, 3 y 4.</para>
@@ -448,9 +448,9 @@
 	<m:mo>)</m:mo>
 	</m:math>?</para></problem>
 <solution id="fs-idm4683712">
-
+<label/>
 <para id="fs-idm4683456">Evento <emphasis effect="italics">G</emphasis> y <emphasis effect="italics">O</emphasis> = {<emphasis effect="italics">G</emphasis>1, <emphasis effect="italics">G</emphasis>3}</para>
-<para id="fs-idm1319536">Los términos <m:math>
+<para id="fs-idm1319536"><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>G</m:mi>
@@ -490,7 +490,7 @@
 	<m:mi>C</m:mi>
 	<m:mo>)</m:mo></m:math>?</item>
 </list></problem>
-<solution id="fs-idm4625248">
+<solution id="fs-idm4625248"><label/>
 <list id="fs-idm316704" list-type="enumerated" number-style="lower-alpha"><item>Sí, porque <m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
@@ -511,7 +511,7 @@
 	<m:mo>∩</m:mo>
 	<m:mi>D</m:mi>
 	<m:mo>)</m:mo></m:math> no sea igual a cero.</item>
-<item>Los términos <m:math>
+<item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>D</m:mi>
@@ -541,7 +541,7 @@
  </m:mrow>
 <m:mo>=</m:mo> <m:mn>0,3</m:mn></m:math></item></list></solution>
 </exercise></example>
-<note id="fs-idp11259824" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idp11259824" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idm3333552"><problem id="fs-idm4100544">
 <para id="fs-idm4100288">Un estudiante va a la biblioteca. Supongamos que los eventos <emphasis effect="italics">B</emphasis> = el estudiante pide prestado un libro y <emphasis effect="italics">D</emphasis> = el estudiante pide prestado un DVD. Supongamos que <m:math>
 	<m:mi>P</m:mi>
@@ -586,8 +586,8 @@
 <item>¿<emphasis effect="italics">B</emphasis> y <emphasis effect="italics">D</emphasis> son mutuamente excluyentes?</item>
 </list></problem>
 <solution id="fs-idm4326480">
-
-<list id="fs-idm4326224" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math>
+<label/>
+<list id="fs-idm4326224" list-type="enumerated" number-style="lower-alpha"><item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>B</m:mi>
@@ -597,7 +597,7 @@
 	<m:mo>=</m:mo>
 	<m:mn>0,6667</m:mn>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>D</m:mi>
@@ -611,7 +611,7 @@
 <item>No</item>
 </list></solution>
 </exercise></note><example id="element-184">
-<para id="example-3-4-para">En una caja hay tres tarjetas rojas y cinco azules. Las cartas rojas están marcadas con los números 1, 2 y 3, y las azules con los números 1, 2, 3, 4 y 5. Las cartas están bien barajadas. Usted mete la mano en la caja (no puede ver dentro de ella) y saca una carta.</para><para id="fs-idm1909360">Supongamos que <emphasis effect="italics">R</emphasis> = se saca la tarjeta roja (red), <emphasis effect="italics">B</emphasis> = se saca la tarjeta azul (blue), <emphasis effect="italics">E</emphasis> = se saca la tarjeta par (even).</para><para id="element-541">El espacio muestral <emphasis effect="italics">S</emphasis> = <emphasis effect="italics">R</emphasis>1, <emphasis effect="italics">R</emphasis>2, <emphasis effect="italics">R</emphasis>3, <emphasis effect="italics">B</emphasis>1, <emphasis effect="italics">B</emphasis>2, <emphasis effect="italics">B</emphasis>3, <emphasis effect="italics">B</emphasis>4, <emphasis effect="italics">B</emphasis>5. <emphasis effect="italics">S</emphasis> tiene ocho resultados.</para><list id="element-131" list-type="bulleted"><item>Los términos <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>R</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo>
+<para id="example-3-4-para">En una caja hay tres tarjetas rojas y cinco azules. Las cartas rojas están marcadas con los números 1, 2 y 3, y las azules con los números 1, 2, 3, 4 y 5. Las cartas están bien barajadas. Usted mete la mano en la caja (no puede ver dentro de ella) y saca una carta.</para><para id="fs-idm1909360">Supongamos que <emphasis effect="italics">R</emphasis> = se saca la tarjeta roja (red), <emphasis effect="italics">B</emphasis> = se saca la tarjeta azul (blue), <emphasis effect="italics">E</emphasis> = se saca la tarjeta par (even).</para><para id="element-541">El espacio muestral <emphasis effect="italics">S</emphasis> = <emphasis effect="italics">R</emphasis>1, <emphasis effect="italics">R</emphasis>2, <emphasis effect="italics">R</emphasis>3, <emphasis effect="italics">B</emphasis>1, <emphasis effect="italics">B</emphasis>2, <emphasis effect="italics">B</emphasis>3, <emphasis effect="italics">B</emphasis>4, <emphasis effect="italics">B</emphasis>5. <emphasis effect="italics">S</emphasis> tiene ocho resultados.</para><list id="element-131" list-type="bulleted"><item><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>R</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo>
  <m:mrow>
   <m:mfrac>
    <m:mn>3</m:mn>
@@ -635,7 +635,7 @@
 	<m:mo>=</m:mo>
 	<m:mn>0</m:mn>
 </m:math>. (No puede sacar una tarjeta que sea roja y azul a la vez).</item>
-<item>Los términos <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo>
+<item><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo>
  <m:mrow>
   <m:mfrac>
    <m:mn>3</m:mn>
@@ -643,7 +643,7 @@
   </m:mfrac>
  </m:mrow>
 </m:math>. (Hay tres cartas con números pares, <emphasis effect="italics">R</emphasis>2, <emphasis effect="italics">B</emphasis>2 y <emphasis effect="italics">B</emphasis>4).</item>
-<item>Los términos <m:math>
+<item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo stretchy="false">(</m:mo>
 	<m:mi>E</m:mi>
@@ -658,7 +658,7 @@
   </m:mfrac>
  </m:mrow>
 </m:math>. (Hay cinco tarjetas azules: <emphasis effect="italics">B</emphasis>1, <emphasis effect="italics">B</emphasis>2, <emphasis effect="italics">B</emphasis>3, <emphasis effect="italics">B</emphasis>4 y <emphasis effect="italics">B</emphasis>5. De las tarjetas azules, hay dos tarjetas pares; <emphasis effect="italics">B</emphasis>2 y <emphasis effect="italics">B</emphasis>4).</item>
-<item>Los términos <m:math>
+<item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo stretchy="false">(</m:mo>
 	<m:mi>B</m:mi>
@@ -730,7 +730,7 @@
 	<m:mi>H</m:mi>
 	<m:mo>)</m:mo>
 </m:math>, lo que significa que <emphasis effect="italics">G</emphasis> y <emphasis effect="italics">H</emphasis> son independientes.</item></list></example>
-<note id="fs-idm85337200" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm85337200" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idm4149344"><problem id="fs-idm5137744">
 <para id="fs-idm3390208">En un estadio de baloncesto,</para>
 <list id="fs-idm626832" list-type="bulleted">
@@ -742,8 +742,8 @@
 <para id="fs-idm2657904">Supongamos que <emphasis effect="italics">A</emphasis> es el evento en el que un aficionado apoya al equipo visitante. <newline/>Supongamos que <emphasis effect="italics">B</emphasis> es el evento en el que un aficionado esté vestido de color azul. <newline/>¿Los eventos de animar al equipo visitante y vestir de color azul son eventos independientes? ¿Son mutuamente excluyentes?</para>
 </problem>
 <solution id="fs-idm339216">
-
-<para id="fs-idm4109904">Los términos <m:math>
+<label/>
+<para id="fs-idm4109904"><m:math>
 
 	<m:mi>P</m:mi><m:mo>(</m:mo>
 	<m:mi>B</m:mi>
@@ -752,7 +752,7 @@
 	<m:mo>)</m:mo>
 	<m:mo>=</m:mo>
 	<m:mn>0,67</m:mn>
-</m:math></para><para id="fs-idm4109520">Los términos <m:math>
+</m:math></para><para id="fs-idm4109520"><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>B</m:mi>
@@ -784,7 +784,7 @@
 </note>
 <example id="eip-31">
 <para id="eip-311">En una clase en el instituto universitario, el 60 % de los estudiantes son mujeres. El cincuenta por ciento de los estudiantes de la clase tienen el cabello largo. El cuarenta y cinco por ciento de los estudiantes son mujeres y tienen el cabello largo. De las estudiantes, el 75 % tiene el cabello largo. Supongamos que <emphasis effect="italics">F</emphasis> es el evento en el que un estudiante es mujer. Supongamos que <emphasis effect="italics">L</emphasis> es el evento en el que un estudiante tiene el cabello largo. Se elige un estudiante al azar. ¿Los hechos de ser mujer y tener el cabello largo son independientes?</para><list id="eip-637" list-type="bulleted"><item>En este ejemplo se dan las siguientes probabilidades:</item>
-<item>Los términos <m:math>
+<item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>F</m:mi>
@@ -799,7 +799,7 @@
 	<m:mn>=</m:mn>
 	<m:mn>0,50</m:mn>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>F</m:mi>
@@ -809,7 +809,7 @@
 	<m:mo>=</m:mo>
 	<m:mn>0,45</m:mn>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>L</m:mi>
@@ -818,7 +818,7 @@
 	<m:mo>)</m:mo>
 	<m:mo>=</m:mo>
 	<m:mn>0,75</m:mn>
-</m:math></item></list><note id="eip-843">
+</m:math></item></list><note id="eip-843"><label/>
 <title>NOTA</title>
 <para id="eip-idm110347232"><emphasis>La elección que haga depende de la información que tenga.</emphasis> Para este ejemplo puede utilizar la primera o la última condición de la lista. Todavía no conoce <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis>|<emphasis effect="italics">L</emphasis>), por lo que no puede utilizar la segunda condición.</para></note>
 <para id="eip-166">Compruebe si <m:math>
@@ -912,11 +912,11 @@
 	<m:mn>0,50</m:mn>
 </m:math>; no son iguales. Los eventos de ser mujer y tener el cabello largo no son independientes.</para><para id="eip-103"><title>Interpretación de los resultados</title>Los eventos de ser mujer y tener el cabello largo no son independientes; saber que un estudiante es mujer cambia la probabilidad de que un estudiante tenga el cabello largo.</para></example>
 <note id="fs-idp15300304" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm4091904">
 <problem id="fs-idm4091648">
-<para id="fs-idm2370976">Mark está decidiendo qué ruta tomar para ir al trabajo. Sus opciones son la <emphasis effect="italics">I</emphasis> = Interestatal y la <emphasis effect="italics">F</emphasis> = Fifth Street</para><list id="fs-idm5051536" list-type="bulleted"><item>Los términos <m:math>
+<para id="fs-idm2370976">Mark está decidiendo qué ruta tomar para ir al trabajo. Sus opciones son la <emphasis effect="italics">I</emphasis> = Interestatal y la <emphasis effect="italics">F</emphasis> = Fifth Street</para><list id="fs-idm5051536" list-type="bulleted"><item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>I</m:mi>
@@ -931,7 +931,7 @@
 	<m:mo>=</m:mo>
 	<m:mn>0,56</m:mn>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>I</m:mi>
@@ -948,7 +948,7 @@
 	<m:mi>F</m:mi>
 	<m:mo>)</m:mo></m:math>?</para></problem>
 <solution id="fs-idm3318384">
-
+<label/>
 <para id="fs-idm3318128">Dado que <m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
@@ -958,7 +958,7 @@
 	<m:mo>)</m:mo>
 	<m:mo>=</m:mo>
 	<m:mn>0</m:mn>
-</m:math>,</para><para id="fs-idm2323552">Los términos <m:math>
+</m:math>,</para><para id="fs-idm2323552"><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>I</m:mi>
@@ -975,7 +975,7 @@
 	<m:mo>(</m:mo>
 	<m:mi>F</m:mi>
 	<m:mo>)</m:mo>
-	<m:mo>-</m:mo>
+	<m:mo>–</m:mo>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>I</m:mi>
@@ -986,7 +986,7 @@
 	<m:mn>0,44</m:mn>
 	<m:mo>+</m:mo>
 	<m:mn>0,56</m:mn>
-	<m:mo>- −</m:mo>
+	<m:mo>–</m:mo>
 	<m:mn>0</m:mn>
 	<m:mo>=</m:mo>
 	<m:mn>1</m:mn>
@@ -1051,7 +1051,7 @@
 	<m:mi>B</m:mi>
 	<m:mo>)</m:mo>
 </m:math>, entonces <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son independientes. Si no es así, entonces son dependientes).</item></list></problem>
-<solution id="fs-idm3508544">
+<solution id="fs-idm3508544"><label/>
 <list id="fs-idm15568720" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H</emphasis> y <emphasis effect="italics">T</emphasis>; 2</item>
 <item>1, 2, 3, 4, 5, 6; 6</item>
 <item>2(6) = 12</item>
@@ -1085,7 +1085,7 @@
 	<m:mo>=</m:mo>
 	<m:mn>0</m:mn>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>A</m:mi>
@@ -1135,7 +1135,7 @@
 </list></solution>
 </exercise></example>
 <note id="fs-idp34076080" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm5094416">
 <problem id="fs-idm340208">
@@ -1158,7 +1158,7 @@
 <item>¿<emphasis effect="italics">F</emphasis> y <emphasis effect="italics">S</emphasis> son mutuamente excluyentes?</item>
 <item>¿<emphasis effect="italics">F</emphasis> y <emphasis effect="italics">S</emphasis> son independientes?</item></list></problem>
 <solution id="fs-idm1927168">
-<list id="fs-idm1926912" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math>
+<list id="fs-idm1926912" list-type="enumerated" number-style="lower-alpha"><item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>T</m:mi>
@@ -1166,7 +1166,7 @@
 	<m:mo>=</m:mo>
 	<m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>T</m:mi>
@@ -1190,7 +1190,7 @@
 </section>
 
 <section id="fs-idm1912144" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idm750784">Dos eventos <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son independientes si el conocimiento de que uno ha ocurrido no afecta a la posibilidad de que ocurra el otro. Si dos eventos no son independientes, decimos que son dependientes.</para>
 
 <para id="fs-idm3534560">En el muestreo con reemplazo, cada miembro de una población se sustituye después de que lo seleccionen, por lo que ese miembro tiene la posibilidad de que lo seleccionen más de una vez, y los eventos se consideran independientes. En el muestreo sin reemplazo, cada miembro de una población solo lo pueden seleccionar una vez, y se considera que los eventos no son independientes. Cuando los eventos no comparten resultados, son mutuamente excluyentes.</para></section>
@@ -1202,13 +1202,13 @@
 <section id="fs-idp62639840" class="practice">
 <exercise id="element-863">
 <problem id="id43759125">
-  <para id="element-743">Los términos <m:math><m:mi>E</m:mi></m:math> y <m:math><m:mi>F</m:mi></m:math> son eventos mutuamente excluyentes. <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mn>0,4</m:mn><m:mo>;</m:mo></m:math> <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>F</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mn>0,5</m:mn><m:mo>.</m:mo></m:math> Calcule <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>∣</m:mo><m:mi>F</m:mi><m:mo>)</m:mo><m:mo>.</m:mo></m:math></para></problem>
+  <para id="element-743"><m:math><m:mi>E</m:mi></m:math> y <m:math><m:mi>F</m:mi></m:math> son eventos mutuamente excluyentes. <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mn>0,4</m:mn><m:mo>;</m:mo></m:math> <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>F</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mn>0,5</m:mn><m:mo>.</m:mo></m:math> Calcule <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>∣</m:mo><m:mi>F</m:mi><m:mo>)</m:mo><m:mo>.</m:mo></m:math></para></problem>
 </exercise>
 
 <exercise id="element-867">
 <problem id="id43759323">
-<para id="element-18">Los términos <m:math><m:mi>J</m:mi></m:math> y <m:math><m:mi>K</m:mi></m:math> son eventos independientes. <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>J</m:mi><m:mo>|</m:mo><m:mi>K</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mn>0,3</m:mn><m:mo>.</m:mo></m:math> Calcule <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>J</m:mi><m:mo>)</m:mo><m:mo>.</m:mo></m:math></para></problem>
-<solution id="fs-idm2098384">
+<para id="element-18"><m:math><m:mi>J</m:mi></m:math> y <m:math><m:mi>K</m:mi></m:math> son eventos independientes. <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>J</m:mi><m:mo>|</m:mo><m:mi>K</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mn>0,3</m:mn><m:mo>.</m:mo></m:math> Calcule <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>J</m:mi><m:mo>)</m:mo><m:mo>.</m:mo></m:math></para></problem>
+<solution id="fs-idm2098384"><label/>
 <para id="fs-idp3820560"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">J</emphasis>) = 0,3</para>
 </solution>
 </exercise>
@@ -1216,15 +1216,15 @@
 <exercise id="element-588">
 <problem id="id43759426">
 <para id="element-226"><emphasis effect="italics">U</emphasis> y <emphasis effect="italics">V</emphasis> son eventos mutuamente excluyentes. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">U</emphasis>) = 0,26; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">V</emphasis>) = 0,37. Calcule:</para>
-<list id="element-896" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>U</m:mi> <m:mspace width="0.2ems"/><m:mo>∩</m:mo><m:mspace width="0.2ems"/> <m:mi>V</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo></m:math></item>
-<item>Los términos <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>U</m:mi><m:mo>|</m:mo><m:mi>V</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo></m:math></item>
-<item>Los términos <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>U</m:mi> <m:mo>∪</m:mo><m:mi>V</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo></m:math></item>
+<list id="element-896" list-type="enumerated" number-style="lower-alpha"><item><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>U</m:mi> <m:mspace width="0.2ems"/><m:mo>∩</m:mo><m:mspace width="0.2ems"/> <m:mi>V</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo></m:math></item>
+<item><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>U</m:mi><m:mo>|</m:mo><m:mi>V</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo></m:math></item>
+<item><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>U</m:mi> <m:mo>∪</m:mo><m:mi>V</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo></m:math></item>
 </list></problem>
 </exercise>
 
 <exercise id="element-930">
 <problem id="id43759701">
-<para id="element-445">Los términos <m:math>
+<para id="element-445"><m:math>
 <m:mi>Q</m:mi></m:math> y <m:math><m:mi>R</m:mi> </m:math> son eventos independientes. <m:math><m:mi>P</m:mi>
 <m:mo>(</m:mo>
 <m:mtext>Q</m:mtext>
@@ -1246,8 +1246,8 @@
 <m:mo>)</m:mo>
 <m:mo>.</m:mo>
 </m:math></para></problem>
-<solution id="fs-idp48870976">
-<para id="fs-idp48871360">Los términos <m:math>
+<solution id="fs-idp48870976"><label/>
+<para id="fs-idp48871360"><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>Q</m:mi>
@@ -1268,18 +1268,18 @@
 </exercise>
 </section>
 
-<section id="fs-idm88736" class="free-response"><title>Tarea para la casa</title><para id="eip-idp126196880"><emphasis effect="italics">Use la siguiente información para responder los próximos 12 ejercicios.</emphasis> From January through December 2012, Gallup interviewed more than 170,000 employed Americans 18 years of age or order. The graph shown is compiled from data collected by Gallup. Las calificaciones del Índice de Salud Emocional son el espacio muestral. Tomamos una muestra aleatoria de la calificación del Índice de Salud Emocional.</para>
+<section id="fs-idm88736" class="free-response"><title>Tarea para la casa</title><para id="eip-idp126196880"><emphasis effect="italics">Use la siguiente información para responder los próximos 12 ejercicios.</emphasis> Entre enero y diciembre de 2012, Gallup entrevistó a más de 170.000 estadounidenses de 18 años o más con empleo. El gráfico que se muestra está elaborado a partir de datos recogidos por Gallup. Las calificaciones del Índice de Salud Emocional son el espacio muestral. Tomamos una muestra aleatoria de la calificación del Índice de Salud Emocional.</para>
 <figure id="eip-id1171405227589"><media id="eip-id1171388484061" alt="calificación del índice de salud emocional">
        <image mime-type="image/jpeg" src="../../media/CNX_Stats_C03_RWP_001.jpg" width="500"/>
      </media>
    </figure><exercise id="eip-807"><problem id="eip-85">
-  <para id="eip-26">Find the probability that the selected Emotional Health Index Score is 82.7.</para>
+  <para id="eip-26">Calcule la probabilidad de que la Puntuación del Índice de Salud Emocional seleccionada sea 82,7.</para>
 </problem>
 </exercise>
 
 <exercise id="eip-790">
 <problem id="eip-102">
-  <para id="eip-329">Find the probability that the selected Emotional Health Index Score is 81.0.</para>
+  <para id="eip-329">Calcule la probabilidad de que la Puntuación del Índice de Salud Emocional seleccionada sea 81,0.</para>
 </problem>
 <solution id="eip-841">
   <para id="eip-869">0</para>
@@ -1288,13 +1288,13 @@
 
 <exercise id="eip-538">
 <problem id="eip-976">
-  <para id="eip-640">Find the probability that the selected Emotional Health Index Score is more than 81?</para>
+  <para id="eip-640">Halle la probabilidad de que la puntuación del Índice de Salud Emocional seleccionada sea superior a 81</para>
 </problem>
 </exercise>
 
 <exercise id="eip-42">
 <problem id="eip-714">
-<para id="eip-674">Find the probability that the selected Emotional Health Index Score is between 80.5 and 82?</para>
+<para id="eip-674">Calcule la probabilidad de que la puntuación del Índice de Salud Emocional seleccionada esté entre 80,5 y 82</para>
 </problem>
 <solution id="eip-118">
   <para id="eip-636">0,3571</para>
@@ -1302,25 +1302,25 @@
 </exercise>
 
 <exercise id="eip-44"><problem id="eip-761">
-  <para id="eip-515">If we know the selected Emotional Health Index Score is 81.5 or more, what is the probability that it is 82.7?</para>
+  <para id="eip-515">Si sabemos que la puntuación del Índice de Salud Emocional seleccionada es de 81,5 o más, ¿cuál es la probabilidad de que sea de 82,7?</para>
 </problem>
 </exercise>
 
 <exercise id="eip-347"><problem id="eip-479">
-  <para id="eip-134">What is the probability that the selected Emotional Health Index Score is 80.7 or 82.7?</para>
+  <para id="eip-134">¿Cuál es la probabilidad de que la puntuación del Índice de Salud Emocional seleccionada sea 80,7 u 82,7?</para>
 </problem>
-<solution id="eip-923">
+<solution id="eip-923"><label/>
   <para id="eip-927">0,2142</para></solution>
 </exercise>
 <exercise id="eip-197"><problem id="eip-299">
-  <para id="eip-147">What is the probability that the selected Emotional Health Index Score is less than 80.2 given that it is already less than 81.</para>
+  <para id="eip-147">¿Cuál es la probabilidad de que la Puntuación del Índice de Salud Emocional seleccionada sea inferior a 80,2 dado que ya es inferior a 81?</para>
 </problem>
 </exercise>
 
 <exercise id="eip-545"><problem id="eip-62">
   <para id="eip-901">¿Qué ocupación tiene la calificación más alta del índice emocional?</para>
 </problem>
-<solution id="eip-427">
+<solution id="eip-427"><label/>
   <para id="eip-420">Médico (83,7)</para>
 </solution>
 </exercise>
@@ -1330,14 +1330,14 @@
 </exercise><exercise id="eip-386"><problem id="eip-143">
   <para id="eip-533">¿Cuál es el rango de los datos?</para>
 </problem>
-<solution id="eip-718">
+<solution id="eip-718"><label/>
   <para id="eip-37">83,7 − 79,6 = 4,1</para></solution>
 </exercise>
 <exercise id="eip-221"><problem id="eip-432">
   <para id="eip-929">Calcule el promedio de la Calificación del Índice de Salud Emocional (Emotional Health Index Score, EHIS).</para></problem>
 </exercise><exercise id="eip-743"><problem id="eip-520">
   <para id="eip-314">Si todas las ocupaciones son igualmente probables para una determinada persona, ¿cuál es la probabilidad de que tenga una ocupación con un EHIS inferior al promedio?</para></problem>
-<solution id="eip-983">
+<solution id="eip-983"><label/>
   <para id="eip-466"><emphasis effect="italics">P</emphasis>(ocupación &lt; 81,3) = 0,5</para>
 </solution>
 </exercise>
@@ -1347,7 +1347,7 @@
 </section><section id="fs-idm4259888" class="bring-together-homework">
 <title>Resúmalo todo</title>
 <exercise id="element-738"><problem id="id43569944">
-<para id="element-699">Un año antes, los pesos de los miembros de los <emphasis>San Francisco 49ers</emphasis> y los <emphasis>Dallas Cowboys</emphasis> se publicaron en el <cite id="cite-00001"><cite-title>Mercury News de San José</cite-title></cite>. Los datos fácticos se recopilan en la <link target-id="ch03_M03-tbl001"/>.
+<para id="element-699">Un año antes, los pesos de los miembros de los <emphasis>San Francisco 49ers</emphasis> y los <emphasis>Dallas Cowboys</emphasis> se publicaron en el <cite id="cite-00001"><cite-title>The Mercury News de San José</cite-title></cite>. Los datos fácticos se recopilan en la <link target-id="ch03_M03-tbl001"/>.
     </para><table id="ch03_M03-tbl001" summary="This table presents weight in pounds by shirt number. The first column lists the shirt number, the second column lists weight ≤ 210, the third column lists 211-250, fourth column lists 251-290, and the fifth column lists 291 ≤. The first row lists shirt numbers 1-33, second row lists 34-66, and the third row lists 66-99.">
 <tgroup cols="5"><colspec colnum="1" colname="c1"/>
   <colspec colnum="2" colname="c2"/>
@@ -1393,14 +1393,14 @@
 </exercise>
 
 <exercise id="element-750"><problem id="id43570745">
-  <para id="element-88">La probabilidad de que un hombre desarrolle algún tipo de cáncer a lo largo de su vida es de 0,4567. La probabilidad de que un hombre tenga, al menos, un resultado falso positivo (es decir, que la prueba arroje un resultado de cáncer cuando no lo tiene) es de 0,51. Algunas de las siguientes preguntas no tienen suficiente información para responderlas. Escriba “no hay suficiente información” en esas respuestas. Supongamos que <emphasis effect="italics">C</emphasis> = un hombre desarrolla cáncer en su vida y <emphasis effect="italics">P</emphasis> = el hombre tiene al menos un falso positivo. <list id="element-196" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math>
+  <para id="element-88">La probabilidad de que un hombre desarrolle algún tipo de cáncer a lo largo de su vida es de 0,4567. La probabilidad de que un hombre tenga, al menos, un resultado falso positivo (es decir, que la prueba arroje un resultado de cáncer cuando no lo tiene) es de 0,51. Algunas de las siguientes preguntas no tienen suficiente información para responderlas. Escriba “no hay suficiente información” en esas respuestas. Supongamos que <emphasis effect="italics">C</emphasis> = un hombre desarrolla cáncer en su vida y <emphasis effect="italics">P</emphasis> = el hombre tiene al menos un falso positivo. <list id="element-196" list-type="enumerated" number-style="lower-alpha"><item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>C</m:mi>
 	<m:mo>)</m:mo>
 	<m:mo>=</m:mo>
 </m:math> ______</item>
-<item>Los términos <m:math>
+<item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>P</m:mi>
@@ -1409,7 +1409,7 @@
 	<m:mo>)</m:mo>
 	<m:mo>=</m:mo>
 </m:math> ______</item>
-<item>Los términos <m:math>
+<item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>P</m:mi>
@@ -1420,7 +1420,7 @@
 </m:math> ______</item>
 <item>Si una prueba da positivo, con base en los valores numéricos, ¿se puede asumir que ese hombre tiene cáncer? Justifique numéricamente y explique por qué sí o por qué no.</item>
 </list></para></problem>
-<solution id="fs-idm6556256">
+<solution id="fs-idm6556256"><label/>
 <list id="fs-idm62553312" list-type="enumerated" number-style="lower-alpha">
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis>) = 0,4567</item>
 <item>no hay suficiente información</item>
@@ -1512,8 +1512,8 @@
 	<m:mo>)</m:mo>
 	<m:mo>.</m:mo>
 </m:math></item></list></problem>
-<solution id="eip-id1164325147049">
-  <list id="eip-id1164335526487" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math>
+<solution id="eip-id1164325147049"><label/>
+  <list id="eip-id1164335526487" list-type="enumerated" number-style="lower-alpha"><item><m:math>
 	<m:mo>(</m:mo>
 	<m:mi>J</m:mi>
 	<m:mo>∪</m:mo>
@@ -1529,7 +1529,7 @@
 	<m:mo>(</m:mo>
 	<m:mi>K</m:mi>
 	<m:mo>)</m:mo>
-	<m:mo>-</m:mo>
+	<m:mo>–</m:mo>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>J</m:mi>
@@ -1541,7 +1541,7 @@
 	<m:mn>0,18</m:mn>
 	<m:mo>+</m:mo>
 	<m:mn>0,37</m:mn>
-	<m:mo>- −</m:mo>
+	<m:mo>–</m:mo>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mi>J</m:mi>
@@ -1557,7 +1557,7 @@
 	<m:mo>=</m:mo>
 	<m:mn>0,10</m:mn>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mtext>NO</m:mtext>
@@ -1577,12 +1577,12 @@
 	<m:mi>K</m:mi>
 	<m:mo>)</m:mo></m:math> <m:math>	<m:mo>=</m:mo>
 	<m:mn>1</m:mn>
-	<m:mo>- −</m:mo>
+	<m:mo>–</m:mo>
 	<m:mn>0,10</m:mn>
 	<m:mo>=</m:mo>
 	<m:mn>0,90</m:mn>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
 	<m:mi>P</m:mi>
 	<m:mo>(</m:mo>
 	<m:mtext>NO</m:mtext>
@@ -1602,7 +1602,7 @@
 	<m:mi>K</m:mi>
 	<m:mo>)</m:mo></m:math> <m:math><m:mo>=</m:mo>
 	<m:mn>1</m:mn>
-	<m:mo>-</m:mo>
+	<m:mo>–</m:mo>
 	<m:mn>0,45</m:mn>
 	<m:mo>=</m:mo>
 	<m:mn>0,55</m:mn>
@@ -1614,7 +1614,7 @@
 
 <glossary>
 <definition id="fs-idm19024">
-<term>Eventos dependientes</term> <meaning id="fs-idm18384">Si dos eventos NO son independientes, decimos que son dependientes.</meaning>
+<term>Eventos dependientes</term> <meaning id="fs-idm18384">si dos eventos NO son independientes, decimos que son dependientes</meaning>
 </definition>
 <definition id="fs-idm5236464">
 <term>Muestreo con reemplazo</term>

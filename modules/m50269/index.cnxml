@@ -9,7 +9,7 @@
 </metadata>
 
 <content>
-  <note id="fs-id1171897709330" class="statistics lab"><title>Teorema del límite central (recetas de galletas)</title>
+  <note id="fs-id1171897709330" class="statistics lab"><label/><title>Teorema del límite central (recetas de galletas)</title>
 
 <para id="id5609695">Hora de la clase: </para>
 <para id="id5609702">Nombres:</para>
@@ -255,7 +255,7 @@
 
 
 <para id="element-453" class="finger">
-<title>Recopilación de datos</title>Utilice un generador de números aleatorios para seleccionar al azar cuatro muestras de tamaño <emphasis effect="italics">n</emphasis> = 5 de la población dada. Registre sus muestras en la <link target-id="Ch07_lab2_tbl002"/>. A continuación, para cada muestra, calcule la media a la décima más cercana. Anótelos en los espacios previstos. Anote las medias muestrales para el resto de la clase.</para>
+<title>Recopilación de datos</title>Utilice un generador de números aleatorios para seleccionar al azar cuatro muestras de tamaño <emphasis effect="italics">n</emphasis> = 5 de la población dada. Registre sus muestras en la <link target-id="Ch07_lab2_tbl002" document=""/>. A continuación, para cada muestra, calcule la media a la décima más cercana. Anótelos en los espacios previstos. Anote las medias muestrales para el resto de la clase.</para>
 <list id="list-98698565" list-type="enumerated"><item> Rellene la tabla:
 <table id="Ch07_lab2_tbl002" summary="Partially filled table with samples (4) in columns and 5 blank rows plus a blank Means row.">
 
@@ -319,28 +319,28 @@
 </row>
 <row>
 <entry>Medias:</entry>
-<entry>Los términos <m:math>
+<entry><m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
  
 </m:math> = ____</entry>
-<entry>Los términos <m:math>
+<entry><m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
  
 </m:math> = ____</entry>
-<entry>Los términos <m:math>
+<entry><m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
  
 </m:math> = ____</entry>
-<entry>Los términos <m:math>
+<entry><m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
@@ -353,7 +353,7 @@
 </tgroup>
 </table></item>
 <item>Calcule lo siguiente: <list id="eip-idp136101696" list-type="enumerated" number-style="lower-alpha">
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
@@ -370,7 +370,7 @@
 </m:math></sub> = _______</item></list>
 </item>
 
-<item class="finger">De nuevo, utilice un generador de números aleatorios para seleccionar al azar cuatro muestras de la población. Esta vez, haga las muestras de tamaño <emphasis effect="italics">n</emphasis> = 10. Registre las muestras en la <link target-id="Ch07_lab2_tbl003"/>. Como ya lo hizo, calcule la media a la décima más cercana en cada ejemplo. Anótelos en los espacios previstos. Anote las medias muestrales para el resto de la clase.
+<item class="finger">De nuevo, utilice un generador de números aleatorios para seleccionar al azar cuatro muestras de la población. Esta vez, haga las muestras de tamaño <emphasis effect="italics">n</emphasis> = 10. Registre las muestras en la <link target-id="Ch07_lab2_tbl003" document=""/>. Como ya lo hizo, calcule la media a la décima más cercana en cada ejemplo. Anótelos en los espacios previstos. Anote las medias muestrales para el resto de la clase.
 <table id="Ch07_lab2_tbl003" summary="Same as the above table except with 10 blank rows and a means row.">
 <tgroup cols="6" align="center">
 <colspec colnum="1" colname="c1"/>
@@ -472,28 +472,28 @@
 </row>
 <row>
 <entry>Medias:</entry>
-<entry>Los términos <m:math>
+<entry><m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
  
 </m:math> = ____</entry>
-<entry>Los términos <m:math>
+<entry><m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
  
 </m:math> = ____</entry>
-<entry>Los términos <m:math>
+<entry><m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
  
 </m:math> = ____</entry>
-<entry>Los términos <m:math>
+<entry><m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
@@ -507,7 +507,7 @@
 </tgroup>
 </table></item>
 <item>Calcule lo siguiente: <list id="element-8475643" list-type="enumerated" number-style="lower-alpha">
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
@@ -537,7 +537,7 @@
 <figure id="id6597892"><media id="id6597897" alt="Esta es una plantilla de gráfico en blanco. El eje horizontal se identifica como tiempo (días) y el vertical, como frecuencia."><image src="../../media/fig-ch07_10_02.png" mime-type="image/png" width="380"/></media>
 </figure></item>
 <item>Dibuje una curva suave a través de la parte superior de las barras del histograma. Use una o dos oraciones completas para describir la forma general de la curva.</item>
-</list><list id="list-2764646" list-type="enumerated"><title>Repita el procedimiento para <emphasis effect="italics">n</emphasis> = 10</title><item>Para la muestra de <emphasis effect="italics">n</emphasis> = 10 días promediados juntos, construya un histograma de las medias (sus medias junto con las de los otros grupos). Haga intervalos con anchos de barra de <m:math>
+</list><list id="list-2764646" list-type="enumerated"><title>Repita el procedimiento para <emphasis effect="italics">n</emphasis> = 10</title><item>Para la muestra de <emphasis effect="italics">n</emphasis> = 10 días promediados juntos, construya un histograma de los promedios (sus medias junto con las de los otros grupos). Haga intervalos con anchos de barra de <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>
@@ -566,7 +566,7 @@
  
 </m:math> ~ _____(_____,_____)</item>
 </list></item>
-<item>Las medias muestrales de <emphasis effect="italics">n</emphasis> = 5 y <emphasis effect="italics">n</emphasis> = 10, ¿están "próximas" a la media teórica, <emphasis effect="italics">μ<sub>x</sub></emphasis>? Explique por qué o por qué no.</item>
+<item>Las medias muestrales de <emphasis effect="italics">n</emphasis> = 5 y <emphasis effect="italics">n</emphasis> = 10, ¿están "próximas" a la media teórica, <emphasis effect="italics">μ<sub>x</sub></emphasis>? Explique por qué sí o por qué no.</item>
 <item>¿Cuál de las dos distribuciones de las medias muestrales tiene la menor desviación típica? ¿Por qué?</item>
 <item>Al cambiar <emphasis effect="italics">n</emphasis>, ¿por qué cambió la forma de la distribución de los datos? Utilice una o dos oraciones completas para explicar lo sucedido.</item>
 </list></note> </content>

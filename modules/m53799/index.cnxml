@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-948"><title>Fórmula de la media de la población</title><equation class="unnumbered" id="eip-id2068065">Los términos <m:math>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-948"><title>Fórmula de la media de la población</title><equation class="unnumbered" id="eip-id2068065"><label/><m:math>
 <m:mi>μ</m:mi>
 <m:mo>=</m:mo>
 <m:mfrac><m:mn>1</m:mn><m:mi>N</m:mi></m:mfrac>
@@ -17,7 +17,7 @@
 <m:mi>N</m:mi>
 </m:munderover>
 <m:msub><m:mi>x</m:mi><m:mi>i</m:mi></m:msub>
-</m:math></equation></para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-405"><title>Fórmula de la media de la muestra</title><equation class="unnumbered" id="eip-id1170728866591">Los términos <m:math>
+</m:math></equation></para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-405"><title>Fórmula de la media muestral</title><equation class="unnumbered" id="eip-id1170728866591"><label/><m:math>
 <m:mover>
 <m:mi>x</m:mi>
 <m:mo>–</m:mo>
@@ -29,7 +29,7 @@
 <m:mi>n</m:mi>
 </m:munderover>
 <m:msub><m:mi>x</m:mi><m:mi>i</m:mi></m:msub>
-</m:math></equation></para><para id="eip-275">Esta unidad está aquí para recordarte el material que una vez estudió y dijo en su momento "¡estoy seguro de que nunca necesitaré esto!"</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-21">Estas son las fórmulas de la media poblacional y de la media muestral. La letra griega μ es el símbolo de la media poblacional y <m:math><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:math> es el símbolo de la media muestral. Ambas fórmulas tienen un símbolo matemático que nos indica cómo hacer los cálculos. Se llama notación Sigma porque el símbolo es la letra griega mayúscula sigma: Σ. Como todos los símbolos matemáticos nos dice lo que hay que hacer: igual que el signo más nos dice que hay que sumar y la x nos dice que hay que multiplicar. Se denominan operadores matemáticos. El símbolo Σ nos dice que hay que añadir una lista específica de números. </para><para id="eip-489">Supongamos que tenemos una muestra de animales del refugio de animales local y nos interesa su edad media. Si enumeramos cada valor, u observación, en una columna, se puede dar a cada uno un número de índice. El primer número será el número 1 y el segundo el número 2 y así sucesivamente. </para><table id="eip-471" summary="A table with 11 rows and 2 columns. Animal with the age: 1-9; 2-1; 3-8.5; 4-10.5; 5-10; 6-8.5; 7-12; 8-8; 9-1; 10-9.5">
+</m:math></equation></para><para id="eip-275">Esta unidad está aquí para recordarle el material que una vez estudió y en su momento dijo: “¡Estoy seguro de que nunca necesitaré esto!”.</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-21">Estas son las fórmulas de la media poblacional y de la media muestral. La letra griega μ es el símbolo de la media poblacional y <m:math><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:math> es el símbolo de la media muestral. Ambas fórmulas tienen un símbolo matemático que nos indica cómo hacer los cálculos. Se llama notación Sigma porque el símbolo es la letra griega mayúscula sigma: Σ. Como todos los símbolos matemáticos nos dice lo que hay que hacer: igual que el signo más nos dice que hay que sumar y la x nos dice que hay que multiplicar. Se denominan operadores matemáticos. El símbolo Σ nos dice que hay que añadir una lista específica de números. </para><para id="eip-489">Supongamos que tenemos una muestra de animales del refugio de animales local y nos interesa su edad promedio. Si enumeramos cada valor, u observación, en una columna, se puede dar a cada uno un número de índice. El primer número será el número 1 y el segundo el número 2 y así sucesivamente. </para><table id="eip-471" summary="A table with 11 rows and 2 columns. Animal with the age: 1-9; 2-1; 3-8.5; 4-10.5; 5-10; 6-8.5; 7-12; 8-8; 9-1; 10-9.5">
 <tgroup cols="2"><tbody>
   <row>
     <entry><emphasis>Animal</emphasis></entry>
@@ -140,7 +140,7 @@
 </problem>
 
 </exercise><exercise id="eip-745"><problem id="eip-9">
-  <para id="eip-503">Se mide a un grupo de niños para determinar la estatura media del grupo. Los resultados se encuentran en la <link target-id="eip-619"/>. ¿Cuál es la estatura media del grupo con una precisión de una centésima de pulgada?</para>
+  <para id="eip-503">Se mide a un grupo de niños para determinar la estatura promedio del grupo. Los resultados se encuentran en la <link target-id="eip-619"/>. ¿Cuál es la estatura media del grupo con una precisión de una centésima de pulgada?</para>
 <table id="eip-619" summary="---">
 <tgroup cols="2"><tbody>
   <row>
@@ -223,7 +223,7 @@
 </solution>
 </exercise><exercise id="eip-969"><problem id="eip-580">
   <para id="eip-254">
-    Un servicio de protección al cliente ha obtenido 8 bolsas de caramelos que supuestamente contienen 16 onzas de caramelos cada una. Los caramelos se pesan para determinar si el peso medio es al menos las 16 onzas declaradas. Los resultados figuran en la <link target-id="eip-14"/>. ¿Cuál es el peso medio de una bolsa de caramelos en la muestra?
+    Un servicio de protección al cliente ha obtenido 8 bolsas de caramelos que supuestamente contienen 16 onzas de caramelos cada una. Los caramelos se pesan para determinar si el peso promedio es al menos las 16 onzas declaradas. Los resultados figuran en la <link target-id="eip-14"/>. ¿Cuál es el peso medio de una bolsa de caramelos en la muestra?
   </para>
 <table id="eip-14" summary="---">
 <tgroup cols="1"><tbody>
@@ -267,7 +267,7 @@
 </solution>
 </exercise><exercise id="eip-508"><problem id="eip-698">
   <para id="eip-790">
-    Un profesor registra las notas de una clase de 70, 72, 79, 81, 82, 82, 83, 90 y 95. ¿Cuál es la media de estas calificaciones?
+    Un maestro registra las notas de una clase de 70, 72, 79, 81, 82, 82, 83, 90 y 95. ¿Cuál es la media de estas notas?
   </para>
 </problem>
 
@@ -278,7 +278,7 @@
 </solution>
 </exercise><exercise id="eip-720"><problem id="eip-793">
   <para id="eip-636">
-Se hace una encuesta a una familia para ver la media del número de horas al día que el televisor está encendido. Los resultados, empezando por el domingo, son 6, 3, 2, 3, 1, 3 y 7 horas. ¿Cuál es el número medio de horas que la familia ha tenido la televisión encendida, redondeando al número entero más cercano?
+Se hace una encuesta a una familia para ver la media del número de horas al día que el televisor está encendido. Los resultados, empezando por el domingo, son 6, 3, 2, 3, 1, 3 y 7 horas. ¿Cuál es el número promedio de horas que la familia ha tenido la televisión encendida, redondeando al número entero más cercano?
   </para>
 </problem>
 
@@ -457,7 +457,7 @@ Un equipo de fútbol anotó los siguientes puntos en sus primeros 8 partidos de 
 </solution>
 </exercise><exercise id="fs-idm412528960"><problem id="fs-idm598213584">
 <para id="fs-idm338066656">Al principio del curso escolar se realiza una prueba estandarizada a diez personas, cuyos resultados se recogen en la <link target-id="eip-222"/>. Al final del año se volvió a examinar a las mismas personas.</para><list id="fs-idm303378928" list-type="enumerated" number-style="lower-alpha">
-<item>¿Cuál es la mejora media?</item>
+<item>¿Cuál es la mejora promedio?</item>
 <item>¿Importa si se restan las medias o si se restan los valores individuales?</item>
 </list>
 <table id="eip-222" summary="---">
@@ -469,23 +469,23 @@ Un equipo de fútbol anotó los siguientes puntos en sus primeros 8 partidos de 
   </row>
   <row>
     <entry>1</entry>
-    <entry>1100</entry>
-    <entry>1120</entry>
+    <entry>1.100</entry>
+    <entry>1.120</entry>
   </row>
   <row>
     <entry>2</entry>
     <entry>980</entry>
-    <entry>1030</entry>
+    <entry>1.030</entry>
   </row>
   <row>
     <entry>3</entry>
-    <entry>1200</entry>
-    <entry>1208</entry>
+    <entry>1.200</entry>
+    <entry>1.208</entry>
   </row>
   <row>
     <entry>4</entry>
     <entry>998</entry>
-    <entry>1000</entry>
+    <entry>1.000</entry>
   </row>
   <row>
     <entry>5</entry>
@@ -494,18 +494,18 @@ Un equipo de fútbol anotó los siguientes puntos en sus primeros 8 partidos de 
   </row>
   <row>
     <entry>6</entry>
-    <entry>1015</entry>
-    <entry>1030</entry>
+    <entry>1.015</entry>
+    <entry>1.030</entry>
   </row>
   <row>
     <entry>7</entry>
-    <entry>1217</entry>
-    <entry>1224</entry>
+    <entry>1.217</entry>
+    <entry>1.224</entry>
   </row>
   <row>
     <entry>8</entry>
-    <entry>1232</entry>
-    <entry>1245</entry>
+    <entry>1.232</entry>
+    <entry>1.245</entry>
   </row>
   <row>
     <entry>9</entry>
@@ -528,7 +528,7 @@ Un equipo de fútbol anotó los siguientes puntos en sus primeros 8 partidos de 
 </solution>
 </exercise><exercise id="fs-idm470311408"><problem id="fs-idm289435504">
   <para id="fs-idm611310032">
-    Una clase pequeña de 7 alumnos tiene una nota media de 82 en un examen. Si seis de las notas son 80, 82,86, 90, 90 y 95, ¿cuál es la otra nota?
+    Una clase pequeña de 7 estudiantes tiene una nota media de 82 en un examen. Si seis de las notas son 80, 82,86, 90, 90 y 95, ¿cuál es la otra nota?
   </para>
 </problem>
 
@@ -539,7 +539,7 @@ Un equipo de fútbol anotó los siguientes puntos en sus primeros 8 partidos de 
 </solution>
 </exercise><exercise id="fs-idm995780112"><problem id="fs-idm377468544">
   <para id="fs-idm1001012112">
-Una clase de 20 alumnos tiene una nota media de 80 en un examen. Diecinueve de los estudiantes tienen una nota media entre 79 y 82, ambas inclusive.</para><list id="fs-idm468963424" list-type="enumerated" number-style="lower-alpha">
+Una clase de 20 estudiantes tiene una nota media de 80 en un examen. Diecinueve de los estudiantes tienen una nota media entre 79 y 82, ambas inclusive.</para><list id="fs-idm468963424" list-type="enumerated" number-style="lower-alpha">
 <item>¿Cuál es la nota más baja posible de otro estudiante?</item>
 <item>¿Cuál es la nota más alta posible de otro estudiante?</item></list>
 </problem>

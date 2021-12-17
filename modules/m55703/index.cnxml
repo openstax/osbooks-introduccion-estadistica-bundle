@@ -48,7 +48,7 @@
   </m:msubsup>
 
  </m:mrow>
-</m:math> sean las varianzas de la muestra. Supongamos que los tamaños de las muestras son <emphasis effect="italics">n</emphasis><sub>1</sub> y <emphasis effect="italics">n</emphasis><sub>2</sub>. Como nos interesa comparar las dos varianzas de la muestra, utilizamos el cociente de <emphasis effect="italics">F</emphasis>:</para><para id="element-321">Los términos <m:math>
+</m:math> sean las varianzas de la muestra. Supongamos que los tamaños de las muestras son <emphasis effect="italics">n</emphasis><sub>1</sub> y <emphasis effect="italics">n</emphasis><sub>2</sub>. Como nos interesa comparar las dos varianzas de la muestra, utilizamos el cociente <emphasis effect="italics">F</emphasis>:</para><para id="element-321"><m:math>
  <m:mrow>
   <m:mi>F</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -137,7 +137,7 @@
   </m:msubsup>
 
  </m:mrow>
-</m:math>, entonces el cociente de <emphasis effect="italics">F</emphasis>, el estadístico de prueba, se convierte en <m:math>
+</m:math>, entonces el cociente <emphasis effect="italics">F</emphasis>, el estadístico de prueba, se convierte en <m:math>
  <m:mrow>
   <m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -237,7 +237,7 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math></para><section id="fs-idm69171152" class="formula-review"><equation class="unnumbered" id="fs-id1164673614422">Los términos <m:math>
+</m:math></para><section id="fs-idm69171152" class="formula-review"><equation class="unnumbered" id="fs-id1164673614422"><label/><m:math>
 <m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo>
 
 <m:mfrac><m:mrow><m:msubsup><m:mi>σ</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:msubsup><m:mi>σ</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac>
@@ -245,7 +245,7 @@
 <m:mo>=</m:mo><m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub></m:math></equation>
 
 <equation id="fs-id1165392123987">
-Los términos <m:math>
+<m:math>
 <m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo>
 
 <m:mfrac><m:mrow><m:msubsup><m:mi>σ</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:msubsup><m:mi>σ</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac>
@@ -254,12 +254,12 @@ Los términos <m:math>
 
 <para id="fs-id1170065513678"> si δ<sub>0</sub> = 1, luego </para>
 
-<equation class="unnumbered" id="fs-id1172115089934">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:math></equation>
-<equation class="unnumbered" id="fs-id1170062880361">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>≠</m:mo><m:msub><m:mi>σ</m:mi><m:mn>2</m:mn></m:msub></m:math></equation>
-<para id="fs-id2968825"> La estadística de la prueba es: </para>
+<equation class="unnumbered" id="fs-id1172115089934"><label/><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:math></equation>
+<equation class="unnumbered" id="fs-id1170062880361"><label/><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>≠</m:mo><m:msub><m:mi>σ</m:mi><m:mn>2</m:mn></m:msub></m:math></equation>
+<para id="fs-id2968825"> El estadístico de prueba es: </para>
 
 <equation id="fs-id7583726">
-Los términos <m:math><m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>S</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:msubsup><m:mi>S</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac></m:math>
+<m:math><m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>S</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:msubsup><m:mi>S</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac></m:math>
 
 
 </equation>
@@ -291,7 +291,7 @@ Los términos <m:math><m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo
 
 
 </tgroup>
-</table><para id="eip-562">Una forma más general de las hipótesis nula y alternativa para una prueba de dos colas sería:</para><equation class="unnumbered" id="eip-139">Los términos <m:math>
+</table><para id="eip-562">Una forma más general de las hipótesis nula y alternativa para una prueba de dos colas sería:</para><equation class="unnumbered" id="eip-139"><label/><m:math>
 <m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
 <m:mo>:</m:mo>
 <m:mfrac>
@@ -301,7 +301,7 @@ Los términos <m:math><m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo
 </m:mfrac>
 <m:mo>=</m:mo>
 <m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub>
-</m:math></equation><equation class="unnumbered" id="eip-766">Los términos <m:math>
+</m:math></equation><equation class="unnumbered" id="eip-766"><label/><m:math>
 <m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub>
 <m:mo>:</m:mo>
 <m:mfrac>
@@ -311,7 +311,7 @@ Los términos <m:math><m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo
 </m:mfrac>
 <m:mo>≠</m:mo>
 <m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub>
-</m:math></equation><para id="eip-978">Donde si δ<sub>0</sub> = 1 es una simple prueba de la hipótesis de que las dos varianzas son iguales. Esta forma de la hipótesis tiene la ventaja de permitir pruebas que van más allá de las simples diferencias y puede dar cabida a pruebas de diferencias específicas, como hicimos con las diferencias de medias y las diferencias de proporciones. Esta forma de la hipótesis también muestra la relación entre la distribución F y la χ<sup>2</sup>: la F es un cociente de dos distribuciones de chi cuadrado, que vimos en el último capítulo. Esto sirve para determinar los grados de libertad de la distribución F resultante.   </para><para id="eip-666">Si las dos poblaciones tienen varianzas iguales, entonces <m:math>
+</m:math></equation><para id="eip-978">Donde si δ<sub>0</sub> = 1 es una simple prueba de la hipótesis de que las dos varianzas son iguales. Esta forma de la hipótesis tiene la ventaja de permitir pruebas que van más allá de las simples diferencias y puede dar cabida a pruebas de diferencias específicas, como hicimos con las diferencias de medias y las diferencias de proporciones. Esta forma de la hipótesis también muestra la relación entre la distribución F y la χ<sup>2</sup>: la F es un cociente de dos distribuciones de chi-cuadrado, que vimos en el capítulo anterior. Esto sirve para determinar los grados de libertad de la distribución F resultante.   </para><para id="eip-666">Si las dos poblaciones tienen varianzas iguales, entonces <m:math>
  <m:mrow>
   <m:msubsup>
    <m:mi>s</m:mi>
@@ -470,12 +470,12 @@ Los términos <m:math><m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo
   </m:mfrac>
 
  </m:mrow>
-</m:math> es un número grande.</para><para id="eip-657">Por lo tanto, si <emphasis effect="italics">F</emphasis> es cercano a uno, la evidencia favorece la hipótesis nula (las dos varianzas de la población son iguales). Pero si <emphasis effect="italics">F</emphasis> es mucho mayor que uno, entonces la evidencia es contraria a la hipótesis nula. En esencia, nos preguntamos si el valor calculado del estadístico de prueba F es significativamente diferente de uno.</para><para id="eip-415">Para determinar los puntos críticos tenemos que calcular F<sub>α</sub>, <sub>df1</sub>,<sub>df2</sub>. Consulte la tabla F en el Apéndice A. Esta tabla F tiene valores para varios niveles de significación de 0,1 a 0,001, designados como "p" en la primera columna. Elija el nivel de significación deseado y siga hacia abajo y a través para encontrar el valor crítico en la intersección de los dos grados de libertad diferentes. La distribución F tiene dos grados de libertad diferentes, uno asociado al numerador, <sub>df1</sub>, y otro asociado al denominador, <sub>df2</sub>. Para complicar las cosas, la distribución F no es simétrica y cambia el grado de asimetría a medida que cambian los grados de libertad. Los grados de libertad en el numerador son n<sub>1</sub>-1, donde n<sub>1</sub> es el tamaño de la muestra del grupo 1, y los grados de libertad en el denominador son n<sub>2</sub>-1, donde n<sub>2</sub> es el tamaño de la muestra del grupo 2. F<sub>α</sub>, <sub>df1</sub>, <sub>df2</sub> dará el valor crítico en el extremo <emphasis>superior</emphasis> de la distribución F. </para><para id="eip-918">Para encontrar el valor crítico para el extremo <emphasis>inferior</emphasis> de la distribución, invierta los grados de libertad y divida el valor F de la tabla entre el número uno.</para><list id="eip-379" list-type="bulleted" bullet-style="bullet"><item>Valor crítico superior de la cola: F<sub>α</sub>,<sub>df1</sub>,<sub>df2</sub></item>
+</m:math> es un número grande.</para><para id="eip-657">Por lo tanto, si <emphasis effect="italics">F</emphasis> es cercano a uno, la evidencia favorece la hipótesis nula (las dos varianzas de la población son iguales). Pero si <emphasis effect="italics">F</emphasis> es mucho mayor que uno, entonces la evidencia es contraria a la hipótesis nula. En esencia, nos preguntamos si el valor calculado del estadístico de prueba F es significativamente diferente de uno.</para><para id="eip-415">Para determinar los puntos críticos tenemos que calcular F<sub>α</sub>, <sub>df1</sub>,<sub>df2</sub>. Consulte la tabla F en el Apéndice A. Esta tabla F tiene valores para varios niveles de significación de 0,1 a 0,001, designados como "p" en la primera columna. Elija el nivel de significación deseado y siga hacia abajo y a través para encontrar el valor crítico en la intersección de los dos grados de libertad diferentes. La distribución F tiene dos grados de libertad diferentes, uno asociado al numerador, <sub>df1</sub>, y otro asociado al denominador, <sub>df2</sub>. Para complicar las cosas, la distribución F no es simétrica y cambia el grado de asimetría a medida que cambian los grados de libertad. Los grados de libertad en el numerador son n<sub>1</sub>-1, donde n<sub>1</sub> es el tamaño de la muestra del grupo 1, y los grados de libertad en el denominador son n<sub>2</sub>-1, donde n<sub>2</sub> es el tamaño de la muestra del grupo 2. F<sub>α</sub>, <sub>df1</sub>, <sub>df2</sub> dará el valor crítico en el extremo <emphasis>superior</emphasis> de la distribución F. </para><para id="eip-918">Para calcular el valor crítico para el extremo <emphasis>inferior</emphasis> de la distribución, invierta los grados de libertad y divida el valor F de la tabla entre el número uno.</para><list id="eip-379" list-type="bulleted" bullet-style="bullet"><item>Valor crítico superior de la cola: F<sub>α</sub>,<sub>df1</sub>,<sub>df2</sub></item>
 <item>Valor crítico inferior de la cola: 1/F<sub>α</sub>,<sub>df2</sub>,<sub>df1</sub></item>
-</list><para id="eip-600">Cuando el valor calculado de F está entre los valores críticos, no en la cola, no podemos rechazar la hipótesis nula de que las dos varianzas proceden de una población con la misma varianza. Si el valor F calculado está en cualquiera de las dos colas, no podemos aceptar la hipótesis nula, tal y como hemos hecho en todas las pruebas de hipótesis anteriores.</para><para id="eip-710">Una forma alternativa de encontrar los valores críticos de la distribución F facilita el uso de la tabla F. Observamos en la tabla F que todos los valores de F son mayores que uno, por lo que el valor crítico de F para la cola de la izquierda siempre será menor que uno, porque para encontrar el valor crítico en la cola de la izquierda dividimos un valor de F entre el número uno, como se muestra arriba. También observamos que si la varianza de la muestra en el numerador del estadístico de prueba es mayor que la varianza de la muestra en el denominador, el valor F resultante será mayor que uno. El método abreviado para esta prueba consiste en asegurarse de que la mayor de las dos varianzas de la muestra se coloque en el numerador para calcular el estadístico de prueba. Esto significará que solo habrá que encontrar el valor crítico de la cola derecha en la tabla F.</para><example id="element-315">
+</list><para id="eip-600">Cuando el valor calculado de F está entre los valores críticos, no en la cola, no podemos rechazar la hipótesis nula de que las dos varianzas proceden de una población con la misma varianza. Si el valor F calculado está en cualquiera de las dos colas, no podemos aceptar la hipótesis nula, tal y como hemos hecho en todas las pruebas de hipótesis anteriores.</para><para id="eip-710">Una forma alternativa de calcular los valores críticos de la distribución F facilita el uso de la tabla F. Observamos en la tabla F que todos los valores de F son mayores que uno, por lo que el valor crítico de F para la cola de la izquierda siempre será menor que uno, porque para calcular el valor crítico en la cola de la izquierda dividimos un valor de F entre el número uno, como se muestra arriba. También observamos que si la varianza de la muestra en el numerador del estadístico de prueba es mayor que la varianza de la muestra en el denominador, el valor F resultante será mayor que uno. El método abreviado para esta prueba consiste en asegurarse de que la mayor de las dos varianzas de la muestra se coloque en el numerador para calcular el estadístico de prueba. Esto significará que solo habrá que calcular el valor crítico de la cola derecha en la tabla F.</para><example id="element-315">
 <exercise id="element-888">
 <problem id="id17653959">
-<para id="element-33">Dos instructores de institutos universitarios están interesados en saber si existe alguna variación en la forma de calificar los exámenes de Matemáticas. Cada uno de ellos califica el mismo conjunto de 10 exámenes. Las calificaciones del primer instructor tienen una varianza de 52,3. Las calificaciones del segundo instructor tienen una varianza de 89,9. Pruebe la afirmación de que la varianza del primer instructor es menor (en la mayoría de los institutos universitarios es deseable que las varianzas de las calificaciones de los exámenes sean casi iguales entre los instructores). El nivel de significación es del 10 %.</para></problem>
+<para id="element-33">Dos instructores de institutos universitarios están interesados en saber si existe alguna variación en la forma de calificar los exámenes de Matemáticas. Cada uno de ellos califica el mismo conjunto de 10 exámenes. Las notas del primer instructor tienen una varianza de 52,3. Las notas del segundo instructor tienen una varianza de 89,9. Pruebe la afirmación de que la varianza del primer instructor es menor (en la mayoría de los institutos universitarios es deseable que las varianzas de las notas de los exámenes sean casi iguales entre los instructores). El nivel de significación es del 10 %.</para></problem>
 
 <solution id="id17653979">
 <para id="element-497">Supongamos que 1 y 2 son los subíndices que indican el primer y el segundo instructor, respectivamente.</para>
@@ -521,7 +521,7 @@ Los términos <m:math><m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo
   </m:msubsup>
   <m:mtext>)</m:mtext>
  </m:mrow>
-</m:math>, el estadístico <emphasis effect="italics">F</emphasis> es:</para><para id="element-932">Los términos <m:math>
+</m:math>, el estadístico <emphasis effect="italics">F</emphasis> es:</para><para id="element-932"><m:math>
  <m:mrow>
   <m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub>
   <m:mo>=</m:mo><m:mfrac>
@@ -564,16 +564,16 @@ Los términos <m:math><m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo
  </m:mrow>
 </m:math></para><para id="element-569"><emphasis>Valor crítico de la prueba:</emphasis> <emphasis effect="italics">F</emphasis><sub>9, 9</sub> = 5,35 donde <emphasis effect="italics">n</emphasis><sub>1</sub> – 1 = 9 y <emphasis effect="italics">n</emphasis><sub>2</sub> – 1 = 9.</para><figure id="anova_twotests"><media id="id18591379" alt="Este gráfico muestra una curva de distribución F no simétrica. La curva está ligeramente distorsionada hacia la derecha, pero es aproximadamente normal. El valor 0,5818 está marcado en el eje vertical a la derecha del pico de la curva. Una línea vertical ascendente se extiende desde 0,5818 hasta la curva, y el área a la izquierda de esta línea está sombreada para representar el valor p.">
 <image src="../../media/fig-ch13_04_01n.jpg" mime-type="image/png" width="380"/>
-</media></figure><para id="element-153"><emphasis>Tome una decisión:</emphasis> Dado que el valor F calculado no está en la cola, no podemos rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-760"><emphasis>Conclusión:</emphasis> Con un nivel de significación del 10 %, a partir de los datos, no hay pruebas suficientes para concluir que la varianza de las calificaciones del primer instructor sea menor.</para></solution>
+</media></figure><para id="element-153"><emphasis>Tome una decisión:</emphasis> Dado que el valor F calculado no está en la cola, no podemos rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-760"><emphasis>Conclusión:</emphasis> Con un nivel de significación del 10 %, a partir de los datos, no hay pruebas suficientes para concluir que la varianza de las notas del primer instructor sea menor.</para></solution>
 </exercise>
 </example>
 
 <note id="fs-idm172461040" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idp56175568">
 <problem id="fs-idm162549056">
-<para id="fs-idm215565200">La Sociedad Coral de Nueva York divide a los cantantes hombres en cuatro categorías, desde las voces más altas hasta las más bajas: Tenor1, Tenor2, Bass1, Bass2. En la tabla están las estaturas de los hombres de los grupos tenor 1 y bajo 2. Uno sospecha que los hombres más altos tendrán voces más graves, y que la varianza de la altura puede subir también con las voces más graves. ¿Tenemos pruebas fehacientes de que la varianza de las alturas de los cantantes en cada uno de estos dos grupos (tenor 1 y bajo 2) es diferente?</para>
+<para id="fs-idm215565200">La Sociedad Coral de Nueva York divide a los cantantes hombres en cuatro categorías, desde las voces más altas hasta las más bajas: tenor 1, tenor 2, bajo 1, bajo 2. En la tabla están las estaturas de los hombres de los grupos tenor 1 y bajo 2. Uno sospecha que los hombres más altos tendrán voces más graves, y que la varianza de la altura puede subir también con las voces más graves. ¿Tenemos pruebas fehacientes de que la varianza de las alturas de los cantantes en cada uno de estos dos grupos (tenor 1 y bajo 2) es diferente?</para>
 
 
 <table id="fs-idm140456080" summary=""><tgroup cols="2" align="center">
@@ -581,7 +581,7 @@ Los términos <m:math><m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo
 <colspec colnum="2" colname="c2"/>
 <thead>
 <row>
-<entry>Tenor1</entry>
+<entry>Tenor 1</entry>
 <entry>Bajo 2</entry>
 <entry>Tenor 1</entry>
 <entry>Bajo 2</entry>
@@ -668,11 +668,11 @@ Los términos <m:math><m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo
 
 <solution id="fs-idm100096912">
 <para id="fs-idp53306832">Los histogramas no son tan normales como uno quisiera. Dibújelos para comprobarlo. Sin embargo, seguimos con la prueba en cualquier caso.</para>
-<para id="fs-idp32163648">Subíndices: T1= tenor 1 y B2 = bajo 2</para>
-<para id="fs-idm128542192">Las desviaciones estándar de las muestras son <emphasis effect="italics">s</emphasis><sub><emphasis effect="italics">T</emphasis>1</sub> = 3,3302 y <emphasis effect="italics">s</emphasis><sub><emphasis effect="italics">B</emphasis>2</sub> = 2,7208.</para>
+<para id="fs-idp32163648">Subíndices: T1 = tenor 1 y B2 = bajo 2</para>
+<para id="fs-idm128542192">Las desviaciones típicas de las muestras son <emphasis effect="italics">s</emphasis><sub><emphasis effect="italics">T</emphasis>1</sub> = 3,3302 y <emphasis effect="italics">s</emphasis><sub><emphasis effect="italics">B</emphasis>2</sub> = 2,7208.</para>
 
 <para id="fs-idm112748448">Las hipótesis son:</para>
-<para id="fs-idm83587200">Los términos <m:math>
+<para id="fs-idm83587200"><m:math>
  <m:mrow>
   <m:msub>
    <m:mi>H</m:mi>
@@ -719,13 +719,13 @@ Los términos <m:math><m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo
 </m:math> (prueba de dos colas)</para>
 
 <para id="fs-idp8155440">La estadística <emphasis effect="italics">F</emphasis> es 1,4894 con 20 y 25 grados de libertad.</para>
-<para id="fs-idm183769392">El valor <emphasis effect="italics">p</emphasis> es de 0,3430. Si suponemos que alfa es 0,05, no podemos rechazar la hipótesis nula.</para><para id="fs-idm127655312">Los datos no demuestran que las alturas de los cantantes Tenor 1 y Bajo 2 tengan varianzas diferentes (a pesar de que hay una diferencia significativa en las alturas medias de unos 5 centímetros).</para>
+<para id="fs-idm183769392">El valor <emphasis effect="italics">p</emphasis> es de 0,3430. Si suponemos que alfa es 0,05, no podemos rechazar la hipótesis nula.</para><para id="fs-idm127655312">Los datos no demuestran que las alturas de los cantantes tenor 1 y bajo 2 tengan varianzas diferentes (a pesar de que hay una diferencia significativa en las alturas medias de unas 2,5 pulgadas).</para>
 </solution>
 </exercise>
 </note>
 
 <section id="eip-873" class="references"><title>Referencias</title><para id="eip-45">“MLB Vs. Division Standings – 2012” (MLB versus Clasificación de la División-2012) Disponible en línea en http://espn.go.com/mlb/standings/_/year/2012/type/vs-division/order/true.</para></section><section id="fs-idm88248672" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="eip-30">La prueba <emphasis effect="italics">F</emphasis> para la igualdad de dos varianzas se basa en gran medida en el supuesto de distribuciones normales. La prueba no es fiable si no se cumple este supuesto. Si ambas distribuciones son normales, el cociente de las dos varianzas muestrales se distribuye como un estadístico <emphasis effect="italics">F</emphasis>, con grados de libertad en el numerador y el denominador que son uno menos que los tamaños de las muestras de los dos grupos correspondientes. Una prueba de hipótesis de <emphasis>prueba de dos varianzas</emphasis> determina si dos varianzas son iguales. La distribución para la prueba de hipótesis es la distribución <emphasis effect="italics">F</emphasis> con dos grados de libertad diferentes.</para><list id="list2" list-type="enumerated"><title>Supuestos:</title><item>Las poblaciones de las que se extraen las dos muestras se distribuyen normalmente.</item>
 <item>Las dos poblaciones son independientes entre sí.</item>
 </list></section>
@@ -750,7 +750,7 @@ Los términos <m:math><m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo
 </problem>
 
 <solution id="eip-740">
-<para id="eip-911">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>σ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>σ</m:mi><m:mn>2</m:mn></m:msub></m:math></para><para id="eip-idm47075536">Los términos <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>σ</m:mi><m:mn>1</m:mn></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>σ</m:mi><m:mn>2</m:mn></m:msub></m:math></para><para id="eip-idm47075280">o</para>
+<para id="eip-911"><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>σ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>σ</m:mi><m:mn>2</m:mn></m:msub></m:math></para><para id="eip-idm47075536"><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>σ</m:mi><m:mn>1</m:mn></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>σ</m:mi><m:mn>2</m:mn></m:msub></m:math></para><para id="eip-idm47075280">o</para>
 <para id="eip-idm43789232"><emphasis effect="italics">H<sub>0</sub></emphasis>: <m:math>
  <m:mrow>
   <m:msubsup>
@@ -819,7 +819,7 @@ Los términos <m:math><m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo
   <para id="eip-345">No, al nivel de significación del 10 %, no podemos rechazar la hipótesis nula y afirmar que los datos no muestran que la variación de los tiempos de conducción del primer trabajador sea menor que la variación de los tiempos de conducción del segundo.</para></solution>
 </exercise>
 
-<para id="eip-896"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos cuatro ejercicios.</emphasis> Dos estudiantes están interesados en saber si hay o no variación en los resultados de sus exámenes en la clase de Matemáticas. En total son 15 los exámenes de Matemáticas que han presentado hasta ahora. Las calificaciones del primer estudiante tienen una desviación típica de 38,1. Las calificaciones del segundo estudiante tienen una desviación típica de 22,5. El segundo estudiante cree que sus resultados son más coherentes.</para><exercise id="eip-292"><problem id="eip-514">
+<para id="eip-896"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos cuatro ejercicios.</emphasis> Dos estudiantes están interesados en saber si hay o no variación en los resultados de sus exámenes en la clase de Matemáticas. En total son 15 los exámenes de Matemáticas que han presentado hasta ahora. Las notas del primer estudiante tienen una desviación típica de 38,1. Las notas del segundo estudiante tienen una desviación típica de 22,5. El segundo estudiante cree que sus resultados son más coherentes.</para><exercise id="eip-292"><problem id="eip-514">
   <para id="eip-548">Indique las hipótesis nula y alternativa.</para>
 </problem></exercise><exercise id="eip-932">
 <problem id="eip-69">
@@ -838,7 +838,7 @@ Los términos <m:math><m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo
 </problem>
 
 <solution id="eip-84">
-  <para id="eip-395">No se puede aceptar la hipótesis nula Hay pruebas suficientes para decir que la varianza de las calificaciones del primer estudiante es mayor que la del segundo.</para></solution>
+  <para id="eip-395">No se puede aceptar la hipótesis nula Hay pruebas suficientes para decir que la varianza de las notas del primer estudiante es mayor que la del segundo.</para></solution>
 </exercise>
 
 <para id="eip-225"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios.</emphasis> Dos ciclistas comparan las varianzas de sus ritmos globales en subidas. Cada ciclista registra su velocidad al subir 35 colinas. El primer ciclista tiene una varianza de 23,8 y el segundo de 32,1. Los ciclistas quieren ver si sus varianzas son iguales o diferentes. Supongamos que los tiempos de desplazamiento se distribuyen normalmente.</para><exercise id="eip-827"><problem id="eip-966">
@@ -907,7 +907,7 @@ Los términos <m:math><m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo
 </problem>
 
 <solution id="id19296291">
-<list id="eip-idm237758528" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math>
+<list id="eip-idm237758528" list-type="enumerated" number-style="lower-alpha"><item><m:math>
  <m:mrow>
   <m:msub>
    <m:mi>H</m:mi>
@@ -927,7 +927,7 @@ Los términos <m:math><m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo
  </m:mrow>
 </m:math>
 </item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:msub>
    <m:mi>H</m:mi>
@@ -1237,7 +1237,7 @@ Los términos <m:math><m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo
 <item><emphasis effect="italics">F</emphasis><sub>7,6</sub></item>
 <item>0,8117</item>
 <item>0,7825</item>
-<item>Compruebe la solución del estudiante</item>
+<item>Compruebe la solución del estudiante.</item>
 <item>
 <list id="eip-idm187473360" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
 <item>Decisión: No se puede rechazar la hipótesis nula.</item>
@@ -1450,7 +1450,7 @@ Los términos <m:math><m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo
     <entry>26,272</entry>
   </row>
   <row>
-    <entry>Error (intra)</entry>
+    <entry>Error (dentro)</entry>
     <entry>11,015</entry>
     <entry>27 – 4 = 23</entry>
     <entry>0,4789</entry>
@@ -1632,7 +1632,7 @@ Los términos <m:math><m:msub><m:mi>F</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo
     <entry/>
   </row>
   <row>
-    <entry>Error (intra)</entry>
+    <entry>Error (dentro)</entry>
     <entry>1.219,55</entry>
     <entry>14 – 3 = 11</entry>
     <entry>110,87</entry>

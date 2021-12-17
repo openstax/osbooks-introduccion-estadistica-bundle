@@ -33,7 +33,7 @@
 </list></para>
 
 <note id="eip-939">
-
+<label/>
 <title>Nota</title>
 <list id="eip-id1164926616686">
 <item>Si <emphasis effect="italics">r</emphasis> es significativo y el diagrama de dispersión muestra una tendencia lineal, la línea puede utilizarse para predecir el valor de la <emphasis effect="italics">y</emphasis> para los valores de la <emphasis effect="italics">x</emphasis> que están dentro del dominio de los valores observados de la <emphasis effect="italics">x</emphasis>.</item>
@@ -58,11 +58,11 @@
 </list>
 <para id="eip-870">En este capítulo de este libro de texto, utilizaremos siempre un nivel de significación del 5 %, <emphasis effect="italics">α</emphasis> = 0,05</para>
 
-<note id="eip-128"><title>Nota</title>
+<note id="eip-128"><label/><title>Nota</title>
 <para id="fs-idp138109680">Con el método del valor <emphasis effect="italics">p</emphasis>, puede elegir cualquier nivel de significación apropiado que desee; no está limitado a utilizar <emphasis effect="italics">α</emphasis> = 0,05. Sin embargo, la tabla de valores críticos proporcionada en este libro de texto supone que estamos utilizando un nivel de significación del 5 %, <emphasis effect="italics">α</emphasis> = 0,05. (Si quisiéramos utilizar un nivel de significación diferente al 5 % con el método del valor crítico, necesitaríamos diferentes tablas de valores críticos que no se proporcionan en este libro de texto).</para>
-</note><section id="fs-idp18638240"><title>MÉTODO 1: Utilizar un valor <emphasis effect="italics">p</emphasis>para tomar una decisión</title><note id="fs-idp16405840" class="statistics calculator">
-
-<para id="fs-idp82841104">Para calcular el valor <emphasis effect="italics">p</emphasis> con la función LinRegTTEST:<newline/> En la pantalla de entrada de LinRegTTEST, en la línea que pide <emphasis effect="italics">β</emphasis> o <emphasis effect="italics">ρ</emphasis>, resalte "<emphasis>≠ 0</emphasis>"<newline/> La pantalla de salida muestra el valor p en la línea que dice "p =".<newline/> (La mayoría de los programas informáticos de estadística pueden calcular el valor <emphasis effect="italics">p</emphasis>).
+</note><section id="fs-idp18638240"><title>MÉTODO 1: Utilizar un valor <emphasis effect="italics">p</emphasis> para tomar una decisión</title><note id="fs-idp16405840" class="statistics calculator">
+<label/>
+<para id="fs-idp82841104">Para calcular el valor <emphasis effect="italics">p</emphasis> con la función LinRegTTEST:<newline/> En la pantalla de entrada de LinRegTTEST, en la línea que pide <emphasis effect="italics">β</emphasis> o <emphasis effect="italics">ρ</emphasis>, resalte "<emphasis>≠ 0</emphasis>"<newline/> La pantalla de salida muestra el valor p en la línea que dice "p =".<newline/> (La mayoría de los softwares de estadística pueden calcular el valor <emphasis effect="italics">p</emphasis>).
 </para></note>
 
 <list id="eip-297">
@@ -76,7 +76,7 @@
 </list> <list id="eip-335" list-type="labeled-item">
 <title>Notas de cálculo:</title>
 <item>Utilizará la tecnología para calcular el valor <emphasis effect="italics">p</emphasis>. A continuación se describen los cálculos para estimar los estadísticos de prueba y el valor <emphasis effect="italics">p</emphasis>:</item>
-<item>El valor <emphasis effect="italics">p</emphasis> se calcula mediante una distribución <emphasis effect="italics">t</emphasis> con <emphasis effect="italics">n</emphasis> - 2 grados de libertad.</item>
+<item>El valor <emphasis effect="italics">p</emphasis> se calcula mediante una distribución <emphasis effect="italics">t</emphasis> con <emphasis effect="italics">n</emphasis> – 2 grados de libertad.</item>
 <item>  La fórmula para el estadístico de prueba es <m:math>
  <m:mrow>
   <m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac>
@@ -91,7 +91,7 @@
    <m:mrow>
     <m:msqrt>
      <m:mrow>
-      <m:mn>1</m:mn><m:mo>-</m:mo><m:msup>
+      <m:mn>1</m:mn><m:mo>–</m:mo><m:msup>
        <m:mi>r</m:mi>
        <m:mn>2</m:mn>
       </m:msup>
@@ -113,7 +113,7 @@
 <item>La línea de mejor ajuste es: ŷ = -173,51 + 4,83<emphasis effect="italics">x</emphasis> con <emphasis effect="italics">r</emphasis> = 0,6631 y hay <emphasis effect="italics">n</emphasis> = 11 puntos de datos.</item>
 <item>¿Se puede utilizar la línea de regresión para la predicción? <emphasis>Dada la puntuación del tercer examen (valor <emphasis effect="italics">x</emphasis>), ¿podemos utilizar la línea para predecir la puntuación del examen final (valor <emphasis effect="italics">y</emphasis> predicho)?</emphasis></item></list><para id="eip-714"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">ρ</emphasis> = 0</para><para id="eip-222"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">ρ</emphasis> ≠ 0</para><para id="eip-719"><emphasis effect="italics">α</emphasis> = 0,05</para>
 
-<list id="eip-933" list-type="bulleted"><item>El valor <emphasis effect="italics">p</emphasis> es de 0,026 (a partir de la prueba LinRegTT en su calculadora o del programa informático).</item>
+<list id="eip-933" list-type="bulleted"><item>El valor <emphasis effect="italics">p</emphasis> es de 0,026 (a partir de la prueba LinRegTT en su calculadora o del software).</item>
 <item>El valor <emphasis effect="italics">p</emphasis>, 0,026, es inferior al nivel de significación de <emphasis effect="italics">α</emphasis> = 0,05.</item>
 <item>Decisión: Rechazar la hipótesis nula <emphasis effect="italics">H<sub>0</sub></emphasis></item>
  <item>Conclusión: Hay pruebas suficientes para concluir que existe una relación lineal significativa entre la nota del tercer examen (<emphasis effect="italics">x</emphasis>) y la nota del examen final (<emphasis effect="italics">y</emphasis>) porque el coeficiente de correlación es significativamente diferente de cero.</item>
@@ -126,7 +126,7 @@
 </example>
 
 <note id="fs-idp24557360" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 
 <exercise id="eip-97">
@@ -142,7 +142,7 @@
 <para id="element-206">Suponga que ha calculado <emphasis effect="italics">r</emphasis> = -0,624 con 14 puntos de datos. <emphasis effect="italics">df</emphasis> = 14 - 2 = 12. Los valores críticos son -0,532 y 0,532. Dado que -0,624 &lt; -0,532, <emphasis effect="italics">r</emphasis> es significativo y la línea puede utilizarse para la predicción.</para><figure id="id1165447908929"><media id="id1165447908933" alt="Línea numérica horizontal con valores de -0,624, -0,532 y 0,532."><image src="../../media/fig-ch12_07_02.jpg" mime-type="image/jpeg" width="380"/></media><caption>r = -0,624 &lt; -0,532. Por lo tanto, <emphasis effect="italics">r</emphasis> es significativo.</caption></figure></example>
 
 <note id="fs-idp165498288" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 
 <exercise id="eip-847">
@@ -160,7 +160,7 @@ Para una línea de mejor ajuste dada, se calcula que <emphasis effect="italics">
 </example>
 
 <note id="fs-idp121877392" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="eip-610">
 <problem id="eip-276">
@@ -189,7 +189,7 @@ Para una línea de mejor ajuste dada, se calcula que <emphasis effect="italics">
 <item><emphasis effect="italics">r</emphasis> = 0,134 y el tamaño de la muestra, <emphasis effect="italics">n</emphasis>, es 14. Los <emphasis effect="italics">df</emphasis> = 14 - 2 = 12. El valor crítico es 0,532. 0,134 está entre -0,532 y 0,532 por lo que <emphasis effect="italics">r</emphasis> es despreciable.</item>
 <item><emphasis effect="italics">r</emphasis> = 0 y el tamaño de la muestra, <emphasis effect="italics">n</emphasis>, es cinco. No importa cuáles sean los dfs, <emphasis effect="italics">r</emphasis> = 0 está entre los dos valores críticos, por lo que <emphasis effect="italics">r</emphasis> es despreciable.</item>
 </list></example><note id="fs-idp56886288" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 
 <exercise id="eip-316">
@@ -223,7 +223,7 @@ Para una línea de mejor ajuste dada, se calcula que <emphasis effect="italics">
 </section>
 
 
-<section id="eip-724" class="summary"><title>Revisión del capítulo</title><para id="eip-idp150994848">La regresión lineal es un procedimiento para ajustar una línea recta de la forma <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis> a los datos. Las condiciones para la regresión son:</para>
+<section id="eip-724" class="summary"><title>Repaso del capítulo</title><para id="eip-idp150994848">La regresión lineal es un procedimiento para ajustar una línea recta de la forma <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis> a los datos. Las condiciones para la regresión son:</para>
 
 <list id="eip-idm157640544" list-type="bulleted" bullet-style="open-circle">
 <item><emphasis>Lineal</emphasis> En la población, existe una relación lineal que modela el valor promedio de la <emphasis effect="italics">y</emphasis> para distintos valores de la <emphasis effect="italics">x</emphasis>.</item>
@@ -249,10 +249,10 @@ Para una línea de mejor ajuste dada, se calcula que <emphasis effect="italics">
   </m:msqrt>
 
  </m:mrow>
-</m:math>. La variable <emphasis effect="italics">ρ</emphasis> (rho) es el coeficiente de correlación de la población. Para comprobar la hipótesis nula <emphasis effect="italics">H</emphasis><sub>0</sub>: <emphasis effect="italics">ρ</emphasis> = <emphasis effect="italics">valor hipotetizado</emphasis>, utilice una prueba t de regresión lineal. La hipótesis nula más común es <emphasis effect="italics">H</emphasis><sub>0</sub>: <emphasis effect="italics">ρ</emphasis> = 0, que indica que no existe una relación lineal entre la <emphasis effect="italics">x</emphasis> y la <emphasis effect="italics">y</emphasis> en la población. La función LinRegTTest de la calculadora TI-83, 83+, 84, 84+ puede realizar esta prueba (STATS TESTS LinRegTTest).</para></section><section id="eip-896" class="formula-review">
+</m:math>. La variable <emphasis effect="italics">ρ</emphasis> (rho) es el coeficiente de correlación de la población. Para comprobar la hipótesis nula <emphasis effect="italics">H</emphasis><sub>0</sub>: <emphasis effect="italics">ρ</emphasis> = <emphasis effect="italics">valor hipotetizado</emphasis>, utilice una prueba t de regresión lineal. La hipótesis nula más común es <emphasis effect="italics">H</emphasis><sub>0</sub>: <emphasis effect="italics">ρ</emphasis> = 0, que indica que no existe una relación lineal entre la <emphasis effect="italics">x</emphasis> y la <emphasis effect="italics">y</emphasis> en la población. La función LinRegTTest de las calculadoras TI-83, 83+, 84 u 84+ puede realizar esta prueba (STATS TESTS LinRegTTest).</para></section><section id="eip-896" class="formula-review">
 <title>Revisión de la fórmula</title>
 <para id="eip-388">Línea de mínimos cuadrados o línea de mejor ajuste: </para>
-<para id="eip-64">Los términos <m:math>
+<para id="eip-64"><m:math>
  <m:mrow>
   <m:mover accent="true">
    <m:mi>y</m:mi>
@@ -263,7 +263,7 @@ Para una línea de mejor ajuste dada, se calcula que <emphasis effect="italics">
 </m:math></para><para id="eip-716">donde </para>
 <para id="eip-574"><emphasis effect="italics">a</emphasis> = intersección en <emphasis effect="italics">y</emphasis></para><para id="eip-41"><emphasis effect="italics">b</emphasis> = pendiente</para>
 <para id="eip-484">Desviación típica de los residuales: </para>
-<para id="eip-496">Los términos <m:math>
+<para id="eip-496"><m:math>
  <m:mrow>
   <m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt>
    <m:mrow>
@@ -300,7 +300,7 @@ Al comprobar la significación del coeficiente de correlación, ¿cuál es la hi
   <para id="eip-880"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">ρ</emphasis> ≠ 0</para></solution>
 </exercise><exercise id="eip-59"><problem id="eip-960">
   <para id="eip-596">
-Si el nivel de significación es 0,05 y el valor <emphasis effect="italics">p</emphasis>es 0,04, ¿qué conclusión puede sacar?
+Si el nivel de significación es 0,05 y el valor <emphasis effect="italics">p</emphasis> es 0,04, ¿qué conclusión puede sacar?
   </para>
 </problem></exercise></section>
 

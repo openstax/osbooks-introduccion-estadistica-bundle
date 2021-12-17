@@ -64,13 +64,13 @@
 </m:math> estaban en los 90 o 100, un número bastante alto de calificaciones con A.</para>
 </example>
 
-<note id="fs-idp6114880" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idp6114880" class="statistics try"><label/><title>Ejercicio</title>
 
 <exercise id="fs-idp3142256">
 <problem id="fs-idm28250320">
 <para id="fs-idp29192512">Para el equipo de baloncesto de Park City los resultados de los últimos 30 partidos fueron los siguientes (de menor a mayor): <newline/> 32; 32; 33; 34; 38; 40; 42; 42; 43; 44; 46; 47; 47; 48; 48; 48; 49; 50; 50; 51; 52; 52; 52; 53; 54; 56; 57; 57; 60; 61 <newline/>Construya un diagrama de tallo para los datos.</para></problem>
 <solution id="fs-idm41489584" class="solutions">
-
+<label/>
 <table id="fs-idm19851440" summary="">
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
@@ -90,7 +90,7 @@
 </exercise></note><para id="eip-522">El diagrama de tallo es una forma rápida de representar datos gráficamente y ofrece una imagen exacta de la información. Hay que buscar un patrón general y los valores atípicos. Un <term id="term-00001">valor atípico</term> es una observación de datos que no se ajusta al resto de los datos. A veces se le llama <emphasis>valor extremo.</emphasis> Cuando grafique un valor atípico parecerá que no se ajusta al patrón del gráfico. Algunos valores atípicos se deben a errores (por ejemplo, anotar 50 en vez de 500), mientras que otros pueden indicar que está ocurriendo algo inusual. Para explicar los valores atípicos se necesita información de fondo, por lo que los trataremos con más detalle más adelante.</para><example id="element-798">
 <para id="element-534">Los datos son las distancias (en kilómetros) de un hogar a supermercados locales. Cree un diagrama de tallo con los datos: <newline/>1,1; 1,5; 2,3; 2,5; 2,7; 3,2; 3,3; 3,3; 3,5; 3,8; 4,0; 4,2; 4,5; 4,5; 4,7; 4,8; 5,5; 5,6; 6,5; 6,7; 12,3</para><exercise id="element-6923"><problem id="id8567884">
 <para id="fs-idp11807920">¿Los datos parecen tener alguna concentración de valores?</para>
-<note id="id8559724"><title>NOTA</title>
+<note id="id8559724"><label/><title>NOTA</title>
 <para id="fs-idp145995424">Las hojas están a la derecha del decimal.</para>
 </note></problem>
 <solution id="id8559734" print-placement="end">
@@ -146,14 +146,14 @@
 </exercise></example>
 
 <note id="fs-idp4001472" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm40603312"><problem id="fs-idm28790944">
 <para id="fs-idp73770272">Los siguientes datos muestran las distancias (en millas) desde los hogares de los estudiantes de Estadística fuera del campus hasta el instituto universitario. Cree un diagrama de tallo con los datos e identifique los valores atípicos:</para>
 <para id="fs-idp20460656">0,5; 0,7; 1,1; 1,2; 1,2; 1,3; 1,3; 1,5; 1,5; 1,7; 1,7; 1,8; 1,9; 2,0; 2,2; 2,5; 2,6; 2,8; 2,8; 2,8; 3,5; 3,8; 4,4; 4,8; 4,9; 5,2; 5,5; 5,7; 5,8; 8,0
 </para></problem>
 <solution id="fs-idp22705856" class="solutions">
-
+<label/>
 <table id="fs-idm52067568" summary="">
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
@@ -281,7 +281,7 @@
 <row><entry>Buchanan</entry><entry>77</entry><entry>Coolidge</entry><entry>60</entry><entry/><entry/></row>
 </tbody>
 </tgroup>
-</table></para><para id="eip-313">Otro tipo de gráfico que resulta útil para valores de datos específicos es el <emphasis>gráfico de líneas</emphasis>. En el gráfico de líneas en particular que se muestra en la <link target-id="example4"/>, el <emphasis>eje <emphasis effect="italics">x</emphasis></emphasis> (eje horizontal) está formado por los <emphasis>valores de los datos</emphasis> y el <emphasis>eje <emphasis effect="italics">y</emphasis></emphasis> (eje vertical) por <emphasis>puntos de frecuencia</emphasis>. Los puntos de frecuencia se conectan mediante segmentos de la línea.</para>
+</table></para><para id="eip-313">Otro tipo de gráfico que resulta útil para valores de datos específicos es el <emphasis>gráfico de líneas</emphasis>. En el gráfico de líneas en particular que se muestra en el <link target-id="example4"/>, el <emphasis>eje <emphasis effect="italics">x</emphasis></emphasis> (eje horizontal) está formado por los <emphasis>valores de los datos</emphasis> y el <emphasis>eje <emphasis effect="italics">y</emphasis></emphasis> (eje vertical) por <emphasis>puntos de frecuencia</emphasis>. Los puntos de frecuencia se conectan mediante segmentos de la línea.</para>
 
 <example id="example4">
 <para id="eip-682">En una encuesta, se preguntó a 40 madres cuántas veces a la semana hay que recordarle a un adolescente que haga sus tareas. Los resultados se muestran en la <link target-id="M01_Ch02_tbl008"/> y en la <link target-id="M01_Ch02_fig001"/>.</para><table id="M01_Ch02_tbl008" summary="The first column of the table consists of the number of times a teenager must be reminded to do his/her chores and the second column consists of frequency.">
@@ -327,7 +327,7 @@
 
 
 <note id="fs-idm28536512" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm95574864"><problem id="fs-idp19862832">
 
@@ -350,14 +350,14 @@
 </table>
 </problem>
 <solution id="fs-idp56781792" class="solutions">
-
+<label/>
 <figure id="eip-idp32593792"><media id="fs-idp61812880" alt="" display="block">
 <image src="../../media/CNX_Stats_C02_M03_tryit003.png" mime-type="image/png" width="380"/>
 </media>
 </figure></solution>
 </exercise></note>
 
-<para id="eip-136">Los <emphasis>gráficos de barras</emphasis> están formados por barras separadas entre sí. Las barras pueden ser rectángulos o recuadros rectangulares (usados en representaciones tridimensionales), y pueden ser verticales u horizontales. El <emphasis>gráfico de barras</emphasis> que se muestra en la <link target-id="example5"/> tiene los grupos de edad representados en el <emphasis>eje <emphasis effect="italics">x</emphasis></emphasis> y las proporciones en el <emphasis>eje <emphasis effect="italics">y</emphasis></emphasis>.</para><example id="example5">
+<para id="eip-136">Los <emphasis>gráficos de barras</emphasis> están formados por barras separadas entre sí. Las barras pueden ser rectángulos o recuadros rectangulares (usados en representaciones tridimensionales), y pueden ser verticales u horizontales. El <emphasis>gráfico de barras</emphasis> que se muestra en el <link target-id="example5"/> tiene los grupos de edad representados en el <emphasis>eje <emphasis effect="italics">x</emphasis></emphasis> y las proporciones en el <emphasis>eje <emphasis effect="italics">y</emphasis></emphasis>.</para><example id="example5">
 <exercise id="fs-idm7260336">
 <problem id="fs-idp99169968">
 <para id="eip-666">A finales de 2011, Facebook tenía más de 146 millones de usuarios en Estados Unidos. La <link target-id="M01_Ch02_tbl010"/> muestra tres grupos de edad, el número de usuarios en cada grupo de edad y la proporción (%) de usuarios en cada grupo de edad. Construya un gráfico de barras con estos datos.</para><table id="M01_Ch02_tbl010" summary="The information is from Facebook. The first row of the table displays age groups, the second row displays number of Facebook users and the third row displays percentages.">
@@ -373,19 +373,19 @@
 </row>
 </thead><tbody>
 <row>
-<entry>13–25</entry>
+<entry>13-25</entry>
 <entry>65.082.280</entry>
-<entry>45%</entry>
+<entry>45 %</entry>
 </row>
 <row>
-<entry>26–44</entry>
+<entry>26-44</entry>
 <entry>53.300.200</entry>
-<entry>36%</entry>
+<entry>36 %</entry>
 </row>
 <row>
-<entry>45–64</entry>
+<entry>45-64</entry>
 <entry>27.885.100</entry>
-<entry>19%</entry>
+<entry>19 %</entry>
 </row>
 </tbody>
 </tgroup>
@@ -400,7 +400,7 @@
 
 
 <note id="fs-idp2492880" class="statistics try">
-<title>Ejercicio</title>
+<label/><title>Ejercicio</title>
 <exercise id="fs-idm47906688">
 <problem id="fs-idm7708128">
 
@@ -415,16 +415,16 @@
 <row><entry>Grupos de edad</entry><entry>Número de personas</entry><entry>Proporción de la población</entry></row>
 </thead>
 <tbody>
-<row><entry>Niños</entry>	<entry>67.059</entry>	<entry>19%</entry></row>
-<row><entry>Adultos en edad de trabajar</entry>	<entry>152.198</entry>	<entry>43%</entry></row>
-<row><entry>Jubilados</entry>	<entry>131.662</entry>	<entry>38%</entry></row>
+<row><entry>Niños</entry>	<entry>67.059</entry>	<entry>19 %</entry></row>
+<row><entry>Adultos en edad de trabajar</entry>	<entry>152.198</entry>	<entry>43 %</entry></row>
+<row><entry>Jubilados</entry>	<entry>131.662</entry>	<entry>38 %</entry></row>
 </tbody>
 </tgroup>
 </table>
 </problem>
 
 <solution id="fs-idm119263088" class="solutions">
-
+<label/>
 <figure id="eip-idm94855488"><media id="fs-idm4405616" alt="Este es un gráfico de barras que coincide con los datos suministrados. El eje x muestra los grupos de edad y el eje y muestra los porcentajes de la población de Park City." display="block">
 <image src="../../media/CNX_Stats_C02_M03_tryit004.png" width="350" mime-type="image/png"/>
 </media>
@@ -447,32 +447,32 @@
 <tbody>
 <row>
 <entry>1 = asiático, asiático americano o isleño del Pacífico</entry>
-<entry>10,3%</entry>
-<entry>5,7%</entry>
+<entry>10,3 %</entry>
+<entry>5,7 %</entry>
 </row>
 <row>
 <entry>2 = negro o afroamericano</entry>
-<entry>9,0%</entry>
-<entry>14,7%</entry>
+<entry>9,0 %</entry>
+<entry>14,7 %</entry>
 </row>
 <row>
 <entry>3 = hispano o latino</entry>
-<entry>17,0%</entry>
-<entry>17,6%</entry>
+<entry>17,0 %</entry>
+<entry>17,6 %</entry>
 </row>
 <row>
 <entry>4 = amerindio o nativo de Alaska</entry>
-<entry>0,6%</entry>
-<entry>1,1%</entry>
+<entry>0,6 %</entry>
+<entry>1,1 %</entry>
 </row>
 <row>
 <entry>5 = blanco</entry>
-<entry>57,1%</entry>
-<entry>59,2%</entry>
+<entry>57,1 %</entry>
+<entry>59,2 %</entry>
 </row>
 <row>
-<entry>6 = No informado/otro</entry>
-<entry>6,0%</entry>
+<entry>6 = no informado/otro</entry>
+<entry>6,0 %</entry>
 <entry>1,7%</entry>
 </row>
 </tbody>
@@ -487,7 +487,7 @@
 </example>
 
 <note id="fs-idp41522672" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm43065520">
 <problem id="fs-idp3652336">
@@ -501,19 +501,19 @@
 <row><entry>Distrito</entry><entry>Población de votantes registrados</entry><entry>Población total de la ciudad</entry></row>
 </thead>
 <tbody>
-<row><entry>1</entry><entry>15,5%</entry><entry>19,4%</entry></row>
-<row><entry>2</entry><entry>12,2%</entry><entry>15,6%</entry></row>
-<row><entry>3</entry><entry>9,8%</entry><entry>9,0%</entry></row>
-<row><entry>4</entry><entry>17,4%</entry><entry>18,5%</entry></row>
-<row><entry>5</entry><entry>22,8%</entry><entry>20,7%</entry></row>
-<row><entry>6</entry><entry>22,3%</entry><entry>16,8%</entry></row>
+<row><entry>1</entry><entry>15,5 %</entry><entry>19,4 %</entry></row>
+<row><entry>2</entry><entry>12,2 %</entry><entry>15,6 %</entry></row>
+<row><entry>3</entry><entry>9,8 %</entry><entry>9,0 %</entry></row>
+<row><entry>4</entry><entry>17,4 %</entry><entry>18,5 %</entry></row>
+<row><entry>5</entry><entry>22,8 %</entry><entry>20,7 %</entry></row>
+<row><entry>6</entry><entry>22,3 %</entry><entry>16,8 %</entry></row>
 </tbody>
 </tgroup>
 </table>
 </problem>
 
 <solution id="fs-idm7917072" class="solutions">
-
+<label/>
 <figure id="M01_Ch02_fig004"><media id="fs-idm63847024" display="block" alt="Este es un gráfico de barras que coincide con los datos suministrados. El eje x muestra los distritos electorales de Park City, y el eje y muestra los porcentajes de la población votante registrada.">
 <image src="../../media/CNX_Stats_C02_M03_tryit005.png" mime-type="image/png" width="400"/>
 </media>
@@ -570,7 +570,7 @@
 <item><emphasis effect="italics">n</emphasis> = número total de valores de datos (o la suma de las frecuencias individuales) y</item>
 <item><emphasis effect="italics">RF</emphasis> = frecuencia relativa,</item>
 </list><para id="eip-151">entonces:
-<equation class="unnumbered" id="element-1000">Los términos <m:math>
+<equation class="unnumbered" id="element-1000"><label/><m:math>
 <m:semantics>
 <m:mrow>
 <m:mstyle fontsize="12pt">
@@ -585,7 +585,7 @@
 <m:mfrac>
 <m:mstyle fontsize="8pt">
 <m:mrow>
-<m:mi>f</m:mi>
+<m:mi>e</m:mi>
 </m:mrow>
 </m:mstyle>
 <m:mstyle fontsize="8pt">
@@ -601,11 +601,11 @@
 </m:mrow>
 </m:semantics>
 </m:math>
-</equation></para><para id="eip-296">Por ejemplo, si tres estudiantes de la clase de Inglés del Sr. Ahab compuesta por 40 estudiantes obtuvieron del 90 % al 100 %, entonces, <!--<newline count="1"/>--><emphasis effect="italics">f</emphasis> = 3, <emphasis effect="italics">n</emphasis> = 40 y <emphasis effect="italics">RF</emphasis> = <m:math> <m:mrow><m:mfrac><m:mi>f</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow></m:math> = <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>40</m:mn></m:mrow></m:mfrac></m:mrow></m:math> = 0,075. El 7,5 % de los estudiantes obtuvieron del 90 % al 100 %. Del 90 % al 100 % son medidas cuantitativas.</para><para id="eip-226"><emphasis>Para construir un histograma</emphasis>, primero hay que decidir cuántas <emphasis>barras</emphasis> o <emphasis>intervalos</emphasis> (también llamados clases) representan los datos. Muchos histogramas constan de cinco a 15 barras o clases para mayor claridad. Hay que elegir el número de barras. Elija un punto de partida para que el primer intervalo sea menor que el valor más pequeño de los datos. Un <emphasis>punto de partida conveniente</emphasis> es un valor inferior llevado a un decimal más que el valor con más decimales. Por ejemplo, si el valor con más decimales es 6,1 y este es el valor más pequeño, un punto de partida conveniente es 6,05 (6,1 – 0,05 = 6,05). Decimos que 6,05 tiene más precisión. Si el valor con más decimales es 2,23 y el valor más bajo es 1,5, un punto de partida conveniente es 1,495 (1,5 – 0,005 = 1,495). Si el valor con más decimales es 3,234 y el valor más bajo es 1,0, un punto de partida conveniente es 0,9995 (1,0 – 0,0005 = 0,9995). Si todos los datos son enteros y el valor más pequeño es dos, un punto de partida conveniente es 1,5 (2 – 0,5 = 1,5). Además, cuando el punto de partida y otros límites se llevan a un decimal adicional, ningún valor de los datos caerá en un límite. Los dos siguientes ejemplos detallan cómo construir un histograma utilizando datos continuos y cómo crear un histograma utilizando datos discretos.</para><example id="eip-266"><para id="eip-id1167909692911">Los siguientes datos son las estaturas (en pulgadas con una aproximación de media pulgada) de 100 jugadores masculinos de fútbol semiprofesional. Las alturas son datos <emphasis>continuos</emphasis>, ya que la altura se mide. <newline/>60; 60,5; 61; 61; 61,5 <newline/>63,5; 63,5; 63,5 <newline/>64; 64; 64; 64; 64; 64; 64; 64,5; 64,5; 64,5; 64,5; 64,5; 64,5; 64,5; 64,5 <newline/>66; 66; 66; 66; 66; 66; 66; 66; 66; 66; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67,5; 67,5; 67,5; 67,5; 67,5; 67,5; 67,5 <newline/>68; 68; 69; 69; 69; 69; 69; 69; 69; 69; 69; 69; 69,5; 69,5; 69,5; 69,5; 69,5 <newline/>70; 70; 70; 70; 70; 70; 70,5; 70,5; 70,5; 71; 71; 71 <newline/>72; 72; 72; 72,5; 72,5; 73; 73,5 <newline/>74
+</equation></para><para id="eip-296">Por ejemplo, si tres estudiantes de la clase de Inglés del Sr. Ahab compuesta por 40 estudiantes obtuvieron del 90 % al 100 %, entonces, <!--<newline count="1"/>--><emphasis effect="italics">f</emphasis> = 3, <emphasis effect="italics">n</emphasis> = 40 y <emphasis effect="italics">RF</emphasis> = <m:math> <m:mrow><m:mfrac><m:mi>e</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow></m:math> = <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>40</m:mn></m:mrow></m:mfrac></m:mrow></m:math> = 0,075. El 7,5 % de los estudiantes obtuvieron del 90 % al 100 %. Del 90 % al 100 % son medidas cuantitativas.</para><para id="eip-226"><emphasis>Para construir un histograma</emphasis>, primero hay que decidir cuántas <emphasis>barras</emphasis> o <emphasis>intervalos</emphasis> (también llamados clases) representan los datos. Muchos histogramas constan de cinco a 15 barras o clases para mayor claridad. Hay que elegir el número de barras. Elija un punto de partida para que el primer intervalo sea menor que el valor más pequeño de los datos. Un <emphasis>punto de partida conveniente</emphasis> es un valor inferior llevado a un decimal más que el valor con más decimales. Por ejemplo, si el valor con más decimales es 6,1 y este es el valor más pequeño, un punto de partida conveniente es 6,05 (6,1 – 0,05 = 6,05). Decimos que 6,05 tiene más precisión. Si el valor con más decimales es 2,23 y el valor más bajo es 1,5, un punto de partida conveniente es 1,495 (1,5 – 0,005 = 1,495). Si el valor con más decimales es 3,234 y el valor más bajo es 1,0, un punto de partida conveniente es 0,9995 (1,0 – 0,0005 = 0,9995). Si todos los datos son enteros y el valor más pequeño es dos, un punto de partida conveniente es 1,5 (2 – 0,5 = 1,5). Además, cuando el punto de partida y otros límites se llevan a un decimal adicional, ningún valor de los datos caerá en un límite. Los dos siguientes ejemplos detallan cómo construir un histograma utilizando datos continuos y cómo crear un histograma utilizando datos discretos.</para><example id="eip-266"><para id="eip-id1167909692911">Los siguientes datos son las estaturas (en pulgadas con una aproximación de media pulgada) de 100 jugadores hombres de fútbol semiprofesional. Las alturas son datos <emphasis>continuos</emphasis>, ya que la altura se mide. <newline/>60; 60,5; 61; 61; 61,5 <newline/>63,5; 63,5; 63,5 <newline/>64; 64; 64; 64; 64; 64; 64; 64,5; 64,5; 64,5; 64,5; 64,5; 64,5; 64,5; 64,5 <newline/>66; 66; 66; 66; 66; 66; 66; 66; 66; 66; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67,5; 67,5; 67,5; 67,5; 67,5; 67,5; 67,5 <newline/>68; 68; 69; 69; 69; 69; 69; 69; 69; 69; 69; 69; 69,5; 69,5; 69,5; 69,5; 69,5 <newline/>70; 70; 70; 70; 70; 70; 70,5; 70,5; 70,5; 71; 71; 71 <newline/>72; 72; 72; 72,5; 72,5; 73; 73,5 <newline/>74
 </para><para id="eip-id1167906875400">El valor de datos más pequeño es 60. Como los datos con más decimales tienen un decimal (por ejemplo, 61,5), queremos que nuestro punto de partida tenga dos decimales. Dado que los números 0,5, 0,05, 0,005, etc. son números convenientes, utilice 0,05 y réstelo a 60, el valor más pequeño, para el punto de partida conveniente.</para>
 <para id="eip-id1167909600123">60 – 0,05 = 59,95 que es más preciso que, por ejemplo, 61,5 por un decimal. El punto de partida es, pues, 59,95.</para><para id="eip-id1167909517627">El valor mayor es 74, por lo que 74 + 0,05 = 74,05 es el valor final.</para><para id="eip-id1167893220376">Luego, calcule el ancho de cada barra o intervalo de clase. Para calcular este ancho, reste el punto inicial del valor final y divídalo entre el número de barras (debe elegir el número de barras que desee). Suponga que elige ocho barras.</para>
 <equation class="unnumbered" id="eip-id1167906381248">
-Los términos <m:math>
+<m:math>
 <m:apply>
 <m:eq/>
 <m:apply>
@@ -623,7 +623,7 @@ Los términos <m:math>
 </equation>
 
 <note id="eip-id1167908046053">
-<title>NOTA</title>
+<label/><title>NOTA</title>
 <para id="eip-id1167907308537">Redondearemos a dos y haremos que cada barra o intervalo de clase tenga dos unidades de ancho. Redondear a dos es una forma de evitar que un valor caiga en un límite. El redondeo al número siguiente es a menudo necesario, incluso si va en contra de las reglas estándar de redondeo. Para este ejemplo, utilizar 1,76 como ancho también funcionaría. Una pauta que siguen algunos para el ancho de una barra o intervalo de clase es tomar la raíz cuadrada del número de valores de los datos y luego redondear al número entero más cercano, si es necesario. Por ejemplo, si hay 150 valores de datos, tome la raíz cuadrada de 150 y redondee a 12 barras o intervalos.</para></note>
 <para id="eip-id1167912963495">Los límites son:</para>
 <list id="eip-id1167895853518" list-type="bulleted">
@@ -638,27 +638,27 @@ Los términos <m:math>
 <item>73,95 + 2 = 75,95</item>
 </list>
 <para id="eip-id1167904896496">Las alturas de 60 a 61,5 pulgadas están en el intervalo de 59,95 a 61,95. Las alturas que son 63,5 están en el intervalo de 61,95 a 63,95. Las alturas que van de 64 a 64,5 están en el intervalo de 63,95 a 65,95. Las alturas de 66 a 67,5 están en el intervalo de 65,95 a 67,95. Las alturas de 68 a 69,5 están en el intervalo de 67,95 a 69,95. Las alturas de 70 a 71 están en el intervalo de 69,95 a 71,95. Las alturas de 72 a 73,5 están en el intervalo de 71,95 a 73,95. La altura 74 está en el intervalo de 73,95 a 75,95.</para>
-<para id="eip-id1167901580085">El siguiente histograma muestra las alturas en el eje <emphasis effect="italics">x</emphasis>y la frecuencia relativa en el eje <emphasis effect="italics">y</emphasis>.</para>
+<para id="eip-id1167901580085">El siguiente histograma muestra las alturas en el eje <emphasis effect="italics">x</emphasis> y la frecuencia relativa en el eje <emphasis effect="italics">y</emphasis>.</para>
 <figure id="eip-id1167910242965">
 <media id="eip-id8485603" alt="El histograma consta de 8 barras con el eje y en incrementos de 0,05 desde 0 hasta 0,4 y el eje x en intervalos de 2 desde 59,95 hasta 75,95." display="block"><image src="../../media/fig-ch_02_04_01.jpg" mime-type="image/png" width="350"/></media>
 </figure>
-</example><note id="eip-467" class="statistics try"><title>Ejercicio</title>
+</example><note id="eip-467" class="statistics try"><label/><title>Ejercicio</title>
 
 <exercise id="eip-id1167302010399">
 <problem id="eip-id1167302034000">
 <para id="eip-id1167305649518">Los siguientes datos son las tallas de los zapatos de 50 estudiantes hombres. Las tallas son datos continuos ya que se mide la talla de zapato. Construya un histograma y calcule el ancho de cada barra o intervalo de clase. Suponga que elige seis barras. <newline/>9; 9; 9,5; 9,5; 10; 10; 10; 10; 10; 10; 10,5; 10,5; 10,5; 10,5; 10,5; 10,5; 10,5; 10,5 <newline/>11; 11; 11; 11; 11; 11; 11; 11; 11; 11; 11; 11; 11; 11,5; 11,5; 11,5; 11,5; 11,5; 11,5; 11,5 <newline/>12; 12; 12; 12; 12; 12; 12; 12,5; 12,5; 12,5; 12,5; 14</para></problem>
 
 <solution id="eip-id1167295062995" class="solutions">
-
+<label/>
 <para id="eip-id1167306042977">El valor más pequeño es: 9</para>
 <para id="eip-id1167306631262">El valor más grande es: 14</para>
 <para id="eip-id1167309251362">El valor inicial conveniente es: 9 – 0,05 = 8,95</para>
 <para id="eip-id1167306585142">El valor final conveniente es: 14 + 0,05 = 14,05</para>
-<para id="eip-id1167295320191">Los términos <m:math>
+<para id="eip-id1167295320191"><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
-<m:mn>14,05</m:mn><m:mo>- −</m:mo><m:mn>8,95</m:mn>
+<m:mn>14,05</m:mn><m:mo>–</m:mo><m:mn>8,95</m:mn>
 </m:mrow>
 <m:mn>6</m:mn>
 </m:mfrac>
@@ -667,7 +667,7 @@ Los términos <m:math>
 </m:math></para>
 <para id="eip-id1167314615413">Los cálculos sugieren utilizar 0,85 para el ancho de cada barra o intervalo de clase. También puede utilizar un intervalo con un ancho igual a uno.</para></solution>
 </exercise>
-</note><example id="eip-220"><para id="eip-id1172534582317">Cree un histograma para los siguientes datos: el número de libros comprados por 50 estudiantes de institutos universitarios a tiempo parcial en el ABC College. El número de libros es un <emphasis>dato discreto</emphasis>, ya que los libros se cuentan. <newline/>1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1 <newline/>2; 2; 2; 2; 2; 2; 2; 2; 2; 2 <newline/>3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3 <newline/>4; 4; 4; 4; 4; 4 <newline/>5; 5; 5; 5; 5 <newline/>6; 6</para><para id="eip-id1172517659297">Once estudiantes compran un libro. Diez estudiantes compran dos libros. Dieciséis estudiantes compran tres libros. Seis estudiantes compran cuatro libros. Cinco estudiantes compran cinco libros. Dos estudiantes compran seis libros.</para>
+</note><example id="eip-220"><para id="eip-id1172534582317">Cree un histograma para los siguientes datos: el número de libros comprados por 50 estudiantes universitarios a tiempo parcial en el ABC College. El número de libros es un <emphasis>dato discreto</emphasis>, ya que los libros se cuentan. <newline/>1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1 <newline/>2; 2; 2; 2; 2; 2; 2; 2; 2; 2 <newline/>3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3 <newline/>4; 4; 4; 4; 4; 4 <newline/>5; 5; 5; 5; 5 <newline/>6; 6</para><para id="eip-id1172517659297">Once estudiantes compran un libro. Diez estudiantes compran dos libros. Dieciséis estudiantes compran tres libros. Seis estudiantes compran cuatro libros. Cinco estudiantes compran cinco libros. Dos estudiantes compran seis libros.</para>
 <para id="eip-id1172523309753">Como los datos son enteros, reste 0,5 a 1, el valor más pequeño de los datos, y sume 0,5 a 6, el valor más grande de los datos. Entonces el punto de partida es 0,5 y el valor final es 6,5.</para>
 
 <exercise id="eip-id1172522842880"><problem id="eip-id1172519384374">
@@ -683,7 +683,7 @@ Los términos <m:math>
 </solution>
 </exercise><para id="eip-id1172519284498">Calcule el número de barras de la siguiente manera: </para>
 <equation id="eip-id1172520578091">
-Los términos <m:math>
+<m:math>
 <m:apply>
 <m:eq/>
 <m:apply>
@@ -773,7 +773,7 @@ Los términos <m:math>
 <colspec colnum="3" colname="c3"/>
 <colspec colnum="4" colname="c4"/>
 <thead>
-<row><entry namest="c1" nameend="c4">Distribución de frecuencias de las calificaciones del examen final de cálculo</entry></row>
+<row><entry namest="c1" nameend="c4">Distribución de frecuencias de las calificaciones del examen final de Cálculo</entry></row>
 <row><entry>Límite inferior</entry><entry>Límite superior</entry>	<entry>Frecuencia</entry><entry>Frecuencia acumulada</entry></row>
 </thead>
 <tbody>
@@ -796,26 +796,26 @@ Los términos <m:math>
 
 
 <note id="eip-id1166383329059" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="eip-id1166383494238"><problem id="eip-id1166383496203">
 <para id="eip-id1166383495068">Construya un polígono de frecuencias de las edades de los presidentes de EE. UU. en el momento de la investidura que se muestra en la <link target-id="fs-idp36852784"/>.</para><table id="fs-idp36852784" summary="---">
 <tgroup cols="2" align="center"><thead>
-<row><entry>Edad en el momento de la toma de posesión</entry><entry>Frecuencia</entry></row>
+<row><entry>Edad en el momento de la investidura</entry><entry>Frecuencia</entry></row>
 </thead>
 <tbody>
-<row><entry>41,5–46,5</entry><entry>4</entry></row>
-<row><entry>46,5–51,5</entry><entry>11</entry></row>
-<row><entry>51,5–56,5</entry><entry>14</entry></row>
-<row><entry>56,5–61,5</entry><entry>9</entry></row>
-<row><entry>61,5–66,5</entry><entry>4</entry></row>
-<row><entry>66,5–71,5</entry><entry>2</entry></row>
+<row><entry>41,5-46,5</entry><entry>4</entry></row>
+<row><entry>46,5-51,5</entry><entry>11</entry></row>
+<row><entry>51,5-56,5</entry><entry>14</entry></row>
+<row><entry>56,5-61,5</entry><entry>9</entry></row>
+<row><entry>61,5-66,5</entry><entry>4</entry></row>
+<row><entry>66,5-71,5</entry><entry>2</entry></row>
 </tbody>
 
 </tgroup>
 </table></problem>
 <solution id="eip-id1166383507893" class="solutions">
-<para id="eip-id1166383508108">La primera marca del eje <emphasis effect="italics">x</emphasis> es 39. Esto representa un intervalo que va de 36,5 a 41,5. Dado que no hay edades inferiores a 41,5, este intervalo se utiliza solo para permitir que el gráfico toque el eje <emphasis effect="italics">x</emphasis>. El punto marcado como 44 representa el siguiente intervalo, o el primer intervalo "real" de la tabla, y contiene cuatro puntuaciones. Este razonamiento se sigue en cada uno de los intervalos restantes, con el punto 74 que representa el intervalo de 71,5 a 76,5. De nuevo, este intervalo no contiene datos y solo se utiliza para que el gráfico toque el eje <emphasis effect="italics">x</emphasis>. Observando el gráfico, decimos que esta distribución está distorsionada porque un lado del gráfico no es un espejo del otro.</para><figure id="eip-id1166383322340"><media id="eip-id1166383322232" alt="Esta figura muestra un gráfico titulado &quot;Edad del presidente en la toma de posesión&quot;. El eje x se denomina &quot;Edades&quot; y está marcado en 39, 44, 49, 54, 59, 64, 69 y 74. El eje y se denomina &quot;Frecuencia&quot; y está marcado en intervalos de 1 desde 0 a 15. Se trazan los siguientes puntos y una línea conecta uno con otro para crear el polígono de frecuencias: (39, 0), (44, 4), (49, 11), (54, 14), (59, 9), (64, 4), (69, 2), (74, 0).">
+<para id="eip-id1166383508108">La primera marca del eje <emphasis effect="italics">x</emphasis> es 39. Esto representa un intervalo que va de 36,5 a 41,5. Dado que no hay edades inferiores a 41,5, este intervalo se utiliza solo para permitir que el gráfico toque el eje <emphasis effect="italics">x</emphasis>. El punto marcado como 44 representa el siguiente intervalo, o el primer intervalo "real" de la tabla, y contiene cuatro puntuaciones. Este razonamiento se sigue en cada uno de los intervalos restantes, con el punto 74 que representa el intervalo de 71,5 a 76,5. De nuevo, este intervalo no contiene datos y solo se utiliza para que el gráfico toque el eje <emphasis effect="italics">x</emphasis>. Observando el gráfico, decimos que esta distribución está distorsionada porque un lado del gráfico no es un espejo del otro.</para><figure id="eip-id1166383322340"><media id="eip-id1166383322232" alt="Esta figura muestra un gráfico titulado “Edades de los presidentes en su investidura”. El eje x se denomina &quot;Edades&quot; y está marcado en 39, 44, 49, 54, 59, 64, 69 y 74. El eje y se denomina &quot;Frecuencia&quot; y está marcado en intervalos de 1 desde 0 a 15. Se trazan los siguientes puntos y una línea conecta uno con otro para crear el polígono de frecuencias: (39, 0), (44, 4), (49, 11), (54, 14), (59, 9), (64, 4), (69, 2), (74, 0).">
 <image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M02_001.jpg" width="400"/>
 </media>
 </figure></solution>
@@ -823,13 +823,13 @@ Los términos <m:math>
 
 <para id="eip-id1166383511149">Los polígonos de frecuencia son útiles para comparar distribuciones. Esto se consigue superponiendo los polígonos de frecuencia dibujados para diferentes conjuntos de datos.</para>
 
-<example id="eip-id1166383511860"><para id="eip-id1166383512002">Construiremos un polígono de frecuencias superpuestas comparando las puntuaciones del <link target-id="eip-id1166383300854"/> con la calificación numérica final de los alumnos.</para><table id="eip-id1166383512079" summary="---">
+<example id="eip-id1166383511860"><para id="eip-id1166383512002">Construiremos un polígono de frecuencias superpuestas comparando las calificaciones del <link target-id="eip-id1166383300854"/> con la nota numérica final de los estudiantes.</para><table id="eip-id1166383512079" summary="---">
 <tgroup cols="4" align="center"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
 <colspec colnum="4" colname="c4"/>
 <thead>
-<row><entry namest="c1" nameend="c4">Distribución de frecuencias de las calificaciones del examen final de cálculo</entry></row>
+<row><entry namest="c1" nameend="c4">Distribución de frecuencias de las calificaciones del examen final de Cálculo</entry></row>
 <row><entry>Límite inferior</entry><entry>Límite superior</entry>	<entry>Frecuencia</entry><entry>Frecuencia acumulada</entry></row>
 </thead>
 <tbody>
@@ -847,7 +847,7 @@ Los términos <m:math>
 <colspec colnum="3" colname="c3"/>
 <colspec colnum="4" colname="c4"/>
 <thead>
-<row><entry namest="c1" nameend="c4">Distribución de frecuencias de las notas finales de cálculo</entry></row>
+<row><entry namest="c1" nameend="c4">Distribución de frecuencias de las notas finales de Cálculo</entry></row>
 <row><entry>Límite inferior</entry>	<entry>Límite superior</entry>	<entry>Frecuencia</entry><entry>Frecuencia acumulada</entry></row>
 </thead>
 <tbody>
@@ -860,7 +860,7 @@ Los términos <m:math>
 
 </tgroup>
 </table><figure id="eip-id2253979">
-<media id="eip-id2606644" display="block" alt="Este es un polígono de frecuencia superpuesto que coincide con los datos suministrados. El eje x muestra las calificaciones y el eje y muestra la frecuencia.">
+<media id="eip-id2606644" display="block" alt="Este es un polígono de frecuencia superpuesto que coincide con los datos suministrados. El eje x muestra las notas y el eje y muestra la frecuencia.">
 <image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M05a_002N.jpg" width="350"/>
 </media></figure>
 </example></section><section id="eip-332"><title>Construcción de un gráfico de series temporales</title><para id="eip-321">Supongamos que queremos estudiar el rango de temperaturas de una región durante todo un mes. Todos los días a mediodía anotamos la temperatura y la anotamos en un registro. Con estos datos se podrían realizar diversos estudios estadísticos. Podemos hallar la media o la mediana de la temperatura del mes. Podemos construir un histograma que muestre el número de días en que las temperaturas alcanzan un determinado rango de valores. Sin embargo, todos estos métodos ignoran una parte de los datos que hemos recopilado.</para><para id="eip-946">Una característica de los datos que podemos considerar es la del tiempo. Dado que cada fecha se empareja con la lectura de la temperatura del día, no tenemos que pensar que los datos son aleatorios. En cambio, podemos utilizar los tiempos indicados para imponer un orden cronológico a los datos. Un gráfico que reconoce esta ordenación y muestra la evolución de la temperatura a medida que avanza el mes se denomina gráfico de series temporales.</para><para id="eip-id1170175727629">Para construir un gráfico de series temporales debemos observar las dos partes de nuestro <term id="term-00005">conjunto de datos emparejados</term>. Comenzamos con un sistema de coordenadas cartesianas estándar. El eje horizontal se utiliza para trazar la fecha o los incrementos de tiempo, y el eje vertical se utiliza para trazar los valores de la variable que estamos midiendo. De este modo, hacemos que cada punto del gráfico corresponda a una fecha y a una cantidad medida. Los puntos del gráfico suelen estar conectados por líneas rectas en el orden en que se producen.</para>
@@ -1027,7 +1027,7 @@ Los términos <m:math>
 
 </example>
 
-<note id="eip-id1170178622023" class="statistics try"><title>Ejercicio</title>
+<note id="eip-id1170178622023" class="statistics try"><label/><title>Ejercicio</title>
 
 <exercise id="eip-id1170189102780"><problem id="eip-id1170190162429">
 <para id="eip-id1170181886526">La siguiente tabla es una parte de un conjunto de datos de www.worldbank.org. Utilice la tabla para construir un gráfico de la serie temporal de las emisiones de CO<sub>2</sub> de Estados Unidos.</para>
@@ -1097,7 +1097,7 @@ Los términos <m:math>
 </table></problem>
 
 <solution id="eip-id1170183528009" class="solutions">
-
+<label/>
 <figure id="eip-id1170193302065"><media id="eip-id1170185012071" display="block" alt="Este es un gráfico de series temporales que coincide con los datos suministrados. El eje x muestra los años comprendidos entre 2003 y 2012, y el eje y muestra el IPC anual.">
 <image mime-type="image/png" src="../../media/CNX_Stats_C02_M05b_004.png" width="450"/>
 </media>
@@ -1107,7 +1107,7 @@ Los términos <m:math>
 </section></section><section id="eip-720"><title>Usos de un gráfico de series temporales</title><para id="eip-id1170191601646">Los gráficos de series temporales son herramientas importantes en diversas aplicaciones de la estadística. Cuando se registran los valores de una misma variable durante un largo periodo, a veces, es difícil discernir cualquier tendencia o patrón. Sin embargo, una vez que los mismos puntos de datos se muestran gráficamente, algunas características saltan a la vista. Los gráficos de series temporales facilitan la detección de tendencias.</para>
 
 </section><section id="eip-48"><title>Cómo NO mentir con las estadísticas</title><para id="eip-577">Es importante recordar que la razón por la que desarrollamos una variedad de métodos para presentar los datos es para comprender el tema de lo que las observaciones representan. Queremos tener una "sensación" de los datos. ¿Las observaciones son todas muy parecidas o están repartidas en un amplio rango de valores, están agrupadas en un extremo del espectro o están distribuidas uniformemente, etc.? Intentamos obtener una representación visual de los datos numéricos. En breve desarrollaremos medidas matemáticas formales de los datos, pero nuestra presentación gráfica visual puede decir mucho. Desgraciadamente, también puede decir muchas cosas que distraen, confunden y simplemente son erróneas en cuanto a la impresión que lo visual deja. Hace muchos años, Darrell Huff escribió el libro <emphasis effect="italics">How to Lie with Statistics [Cómo mentir con estadísticas]</emphasis>. Ha tenido más de 25 ediciones y ha vendido más de un millón y medio de ejemplares. Su perspectiva era dura y utilizaba muchos ejemplos reales destinados a engañar. Quería hacer que la gente fuera consciente de ese engaño, pero quizás lo más importante era educar para que otros no cometieran los mismos errores inadvertidamente.
-</para><para id="eip-133">De nuevo, el objetivo es ilustrar con imágenes que cuenten la historia de los datos. Los gráficos circulares tienen una serie de problemas comunes cuando se utilizan para transmitir el mensaje de los datos. Demasiados trozos del pastel abruman al lector. Más de quizás cinco o seis categorías deberían dar una idea de la importancia relativa de cada trozo. Al fin y al cabo, este es el objetivo de un gráfico circular: qué subconjunto importa más en relación con los demás. Si hay más componentes que esto, tal vez sea mejor un enfoque alternativo o tal vez algunos puedan consolidarse en una categoría "otros". Los gráficos circulares no pueden mostrar los cambios a lo largo del tiempo, aunque vemos que esto se intenta con demasiada frecuencia. En los documentos financieros federales, estatales y municipales se suelen presentar gráficos circulares para mostrar los componentes de los ingresos de los que dispone el órgano de gobierno para su consignación: impuesto sobre la renta, impuesto sobre las ventas, impuestos sobre los vehículos de motor, etc. En sí misma es una información interesante y se puede hacer muy bien con un gráfico circular. El error se produce cuando se ponen dos años uno al lado del otro. Como los ingresos totales cambian de un año a otro, pero el tamaño del pastel es fijo, no se proporciona ninguna información real y no se puede comparar de forma significativa el tamaño relativo de cada trozo del pastel. </para><para id="eip-961">Los histogramas pueden ser muy útiles para entender los datos. Si se presentan correctamente, pueden ser una forma visual rápida de presentar las probabilidades de las diferentes categorías mediante la simple visualización de la comparación de las áreas relativas en cada categoría. Aquí el error, intencionado o no, es variar la amplitud de las categorías. Por supuesto, esto hace imposible la comparación con las demás categorías. Adorna la importancia de la categoría con un ancho ampliado porque tiene un área mayor, de forma inapropiada, y así "dice" visualmente que esa categoría tiene una mayor probabilidad de ocurrencia. </para><para id="eip-670">Los gráficos de series temporales tal vez sean de los que más se abusa. Un gráfico de alguna variable a lo largo del tiempo nunca debe presentarse en ejes que cambien en parte de la página, ya sea en la dimensión vertical u horizontal. Tal vez se cambie el marco temporal de años a meses. Probablemente esto se haga para ahorrar espacio o porque los datos mensuales no estaban disponibles para los primeros años. En cualquier caso, esto confunde la presentación y destruye cualquier valor del gráfico. Si esto no se hace para confundir a propósito al lector, entonces ciertamente es un trabajo perezoso o descuidado.</para><para id="eip-123">Cambiar las unidades de medida del eje puede suavizar o acentuar una caída. Si quiere mostrar grandes cambios, mida la variable en unidades pequeñas, centavos en lugar de miles de dólares. Y, por supuesto, para continuar con el fraude, asegúrese de que el eje no comienza en cero, cero. Si comienza en cero, cero entonces se hace evidente que el eje ha sido manipulado.</para><para id="eip-958">Tal vez tenga un cliente al que le preocupa la volatilidad de la cartera que usted gestiona. Una forma fácil de presentar los datos es utilizar períodos largos en el gráfico de la serie temporal. Utilice meses o, mejor, trimestres en lugar de datos diarios o semanales. Si eso no consigue reducir la volatilidad, entonces separe el eje temporal en relación con el eje de la tasa de rendimiento o de la valoración de la cartera. Si quiere mostrar un crecimiento dramático "rápido", entonces reduzca el eje temporal. Cualquier crecimiento positivo mostrará tasas de crecimiento visualmente "altas". Tenga en cuenta que si el crecimiento es negativo, este truco mostrará que la cartera se está hundiendo a un ritmo dramático.</para><para id="eip-757">Una vez más, el objetivo de las estadísticas descriptivas es transmitir imágenes significativas que cuenten la historia de los datos. La manipulación intencionada es un fraude y una falta de ética en el peor de los casos, pero incluso en el mejor, cometer este tipo de errores llevará a la confusión del análisis.</para></section><section id="eip-617" class="references"><title>Referencias</title><para id="fs-idm29098416">Burbary, Ken. <emphasis effect="italics">Facebook Demographics Revisited–2001 Statistics,</emphasis> 2011. Disponible en línea en http://www.kenburbary.com/2011/03/facebook-demographics-revisited-2011-statistics-2/ (consultado el 21 de agosto de 2013).</para><para id="fs-idm29098160">“9th Annual AP Report to the Nation”. CollegeBoard, 2013. Disponible en línea en http://apreport.collegeboard.org/goals-and-findings/promoting-equity (consultado el 13 de septiembre de 2013).</para>
+</para><para id="eip-133">De nuevo, el objetivo es ilustrar con imágenes que cuenten la historia de los datos. Los gráficos circulares tienen una serie de problemas comunes cuando se utilizan para transmitir el mensaje de los datos. Demasiados trozos del pastel abruman al lector. Más de quizás cinco o seis categorías deberían dar una idea de la importancia relativa de cada trozo. Al fin y al cabo, este es el objetivo de un gráfico circular: qué subconjunto importa más en relación con los demás. Si hay más componentes que esto, tal vez sea mejor un enfoque alternativo o tal vez algunos puedan consolidarse en una categoría "otros". Los gráficos circulares no pueden mostrar los cambios a lo largo del tiempo, aunque vemos que esto se intenta con demasiada frecuencia. En los documentos financieros federales, estatales y municipales se suelen presentar gráficos circulares para mostrar los componentes de los ingresos de los que dispone el órgano de gobierno para su consignación: impuesto sobre la renta, impuesto sobre las ventas, impuestos sobre los vehículos de motor, etc. En sí misma es una información interesante y se puede hacer muy bien con un gráfico circular. El error se produce cuando se ponen dos años uno al lado del otro. Como los ingresos totales cambian de un año a otro, pero el tamaño del pastel es fijo, no se proporciona ninguna información real y no se puede comparar de forma significativa el tamaño relativo de cada trozo del pastel. </para><para id="eip-961">Los histogramas pueden ser muy útiles para entender los datos. Si se presentan correctamente, pueden ser una forma visual rápida de presentar las probabilidades de las diferentes categorías mediante la simple visualización de la comparación de las áreas relativas en cada categoría. Aquí el error, intencionado o no, es variar la amplitud de las categorías. Por supuesto, esto hace imposible la comparación con las demás categorías. Adorna la importancia de la categoría con un ancho ampliado porque tiene un área mayor, de forma inapropiada, y así "dice" visualmente que esa categoría tiene una mayor probabilidad de ocurrencia. </para><para id="eip-670">Los gráficos de series temporales tal vez sean de los que más se abusa. Un gráfico de alguna variable a lo largo del tiempo nunca debe presentarse en ejes que cambien en parte de la página, ya sea en la dimensión vertical u horizontal. Tal vez se cambie el marco temporal de años a meses. Probablemente esto se haga para ahorrar espacio o porque los datos mensuales no estaban disponibles para los primeros años. En cualquier caso, esto confunde la presentación y destruye cualquier valor del gráfico. Si esto no se hace para confundir a propósito al lector, entonces ciertamente es un trabajo perezoso o descuidado.</para><para id="eip-123">Cambiar las unidades de medida del eje puede suavizar o acentuar una caída. Si quiere mostrar grandes cambios, mida la variable en unidades pequeñas, centavos en lugar de miles de dólares. Y, por supuesto, para continuar con el fraude, asegúrese de que el eje no comienza en cero, cero. Si comienza en cero, cero entonces se hace evidente que el eje ha sido manipulado.</para><para id="eip-958">Tal vez tenga un cliente al que le preocupa la volatilidad de la cartera que usted gestiona. Una forma fácil de presentar los datos es utilizar periodos largos en el gráfico de la serie temporal. Utilice meses o, mejor, trimestres en lugar de datos diarios o semanales. Si eso no consigue reducir la volatilidad, entonces separe el eje temporal en relación con el eje de la tasa de rendimiento o de la valoración de la cartera. Si quiere mostrar un crecimiento dramático "rápido", entonces reduzca el eje temporal. Cualquier crecimiento positivo mostrará tasas de crecimiento visualmente "altas". Tenga en cuenta que si el crecimiento es negativo, este truco mostrará que la cartera se está hundiendo a un ritmo dramático.</para><para id="eip-757">Una vez más, el objetivo de la Estadística Descriptiva es transmitir imágenes significativas que cuenten la historia de los datos. La manipulación intencionada es un fraude y una falta de ética en el peor de los casos, pero incluso en el mejor, cometer este tipo de errores llevará a la confusión del análisis.</para></section><section id="eip-617" class="references"><title>Referencias</title><para id="fs-idm29098416">Burbary, Ken. <emphasis effect="italics">Facebook Demographics Revisited–2001 Statistics,</emphasis> 2011. Disponible en línea en http://www.kenburbary.com/2011/03/facebook-demographics-revisited-2011-statistics-2/ (consultado el 21 de agosto de 2013).</para><para id="fs-idm29098160">“9th Annual AP Report to the Nation”. CollegeBoard, 2013. Disponible en línea en http://apreport.collegeboard.org/goals-and-findings/promoting-equity (consultado el 13 de septiembre de 2013).</para>
 <para id="eip-id1164114791931">“Overweight and Obesity: Adult Obesity Facts”. Centers for Disease Control and Prevention. Disponible en línea en http://www.cdc.gov/obesity/data/adult.html (consultado el 13 de septiembre de 2013).</para>
 
 <para id="eip-id1164117989684">Datos sobre los homicidios anuales en Detroit, 1961-1973, extraídos del libro de Gunst &amp; Mason: “Regression Analysis and its Application”, Marcel Dekker</para><para id="eip-id1164130342859">“Timeline: Guide to the U.S. Presidents: Information on every president’s birthplace, political party, term of office, and more”. Scholastic, 2013. Disponible en línea en http://www.scholastic.com/teachers/article/timeline-guide-us-presidents (consultado el 3 de abril de 2013).</para>
@@ -1117,7 +1117,7 @@ Los términos <m:math>
 <para id="eip-id1164130534034">“CO2 emissions (kt)”. The World Bank, 2013. Disponible en línea en http://databank.worldbank.org/data/home.aspx (consultado el 3 de abril de 2013).</para>
 <para id="eip-id1164119394426">“Births Time Series Data”. General Register Office For Scotland, 2013. Disponible en línea en http://www.gro-scotland.gov.uk/statistics/theme/vital-events/births/time-series.html (consultado el 3 de abril de 2013).</para>
 <para id="eip-id1164137159335">“Demographics: Children under the age of 5 years underweight”. Indexmundi. Disponible en línea en http://www.indexmundi.com/g/r.aspx?t=50&amp;v=2224&amp;aml=en (consultado el 3 de abril de 2013).</para><para id="eip-id1164129524368">Gunst, Richard, Robert Mason. <emphasis effect="italics">Regression Analysis and Its Application: A Data-Oriented Approach</emphasis>. CRC Press: 1980.</para><para id="eip-id1164119697812">“Overweight and Obesity: Adult Obesity Facts”. Centers for Disease Control and Prevention. Disponible en línea en http://www.cdc.gov/obesity/data/adult.html (consultado el 13 de septiembre de 2013).</para>
-</section><section id="eip-397" class="summary"><title>Revisión del capítulo</title><para id="eip-id1169540486867">Un <emphasis>gráfico de tallo y hoja</emphasis> es una forma de representar los datos y observar la distribución. En un gráfico de tallo y hoja todos los valores de los datos de una clase son visibles. La ventaja de un gráfico de tallo y hoja es que se enumeran todos los valores, a diferencia de un histograma, que da clases de valores de datos. Un <emphasis>gráfico de líneas</emphasis> se suele usar para representar un conjunto de valores de datos en los que una cantidad varía con el tiempo. Estos gráficos son útiles para hallar tendencias. Es decir, hallar un patrón general en conjuntos de datos que incluyan temperatura, ventas, empleo, beneficios o costos de la compañía durante un periodo. Un <emphasis>gráfico de barras</emphasis> es un gráfico que utiliza barras horizontales o verticales para mostrar comparaciones entre categorías. Un eje del gráfico muestra las categorías específicas que se comparan, y el otro eje representa un valor discreto. Algunos gráficos de barras presentan las barras agrupadas en grupos de más de uno (gráficos de barras agrupados), y otros muestran las barras divididas en subpartes para mostrar el efecto acumulativo (gráficos de barras apilados). Los gráficos de barras son especialmente útiles cuando se utilizan datos categóricos.</para><para id="eip-650">Un <emphasis>histograma</emphasis> es una versión gráfica de una distribución de frecuencias. El gráfico consiste en barras de igual ancho dibujadas de forma adyacente. La escala horizontal representa clases de valores de datos cuantitativos y la escala vertical representa frecuencias. Las alturas de las barras corresponden a valores de frecuencia. Los histogramas se suelen utilizar para conjuntos de datos cuantitativos, continuos y de gran tamaño. Un polígono de frecuencias también se puede usar cuando se grafican grandes conjuntos de datos con puntos de datos que se repiten. Los datos suelen ir en el eje <emphasis effect="italics">y</emphasis>, y la frecuencia se representa en el eje <emphasis effect="italics">x</emphasis>. Los gráficos de series temporales pueden ser útiles cuando se observan grandes cantidades de datos de una variable durante un periodo.</para></section><section id="eip-333" class="practice"><title/><para id="eip-488"><newline/><emphasis effect="italics">Para los tres ejercicios siguientes utilice los datos para construir un gráfico de líneas.</emphasis></para><exercise id="fs-idp113295424">
+</section><section id="eip-397" class="summary"><title>Repaso del capítulo</title><para id="eip-id1169540486867">Un <emphasis>gráfico de tallo y hoja</emphasis> es una forma de representar los datos y observar la distribución. En un gráfico de tallo y hoja todos los valores de los datos de una clase son visibles. La ventaja de un gráfico de tallo y hoja es que se enumeran todos los valores, a diferencia de un histograma, que da clases de valores de datos. Un <emphasis>gráfico de líneas</emphasis> se suele usar para representar un conjunto de valores de datos en los que una cantidad varía con el tiempo. Estos gráficos son útiles para hallar tendencias. Es decir, hallar un patrón general en conjuntos de datos que incluyan temperatura, ventas, empleo, ganancias o costos de la compañía durante un periodo. Un <emphasis>gráfico de barras</emphasis> es un gráfico que utiliza barras horizontales o verticales para mostrar comparaciones entre categorías. Un eje del gráfico muestra las categorías específicas que se comparan, y el otro eje representa un valor discreto. Algunos gráficos de barras presentan las barras agrupadas en grupos de más de uno (gráficos de barras agrupados), y otros muestran las barras divididas en subpartes para mostrar el efecto acumulativo (gráficos de barras apilados). Los gráficos de barras son especialmente útiles cuando se utilizan datos categóricos.</para><para id="eip-650">Un <emphasis>histograma</emphasis> es una versión gráfica de una distribución de frecuencias. El gráfico consiste en barras de igual ancho dibujadas de forma adyacente. La escala horizontal representa clases de valores de datos cuantitativos y la escala vertical representa frecuencias. Las alturas de las barras corresponden a valores de frecuencia. Los histogramas se suelen utilizar para conjuntos de datos cuantitativos, continuos y de gran tamaño. Un polígono de frecuencias también se puede usar cuando se grafican grandes conjuntos de datos con puntos de datos que se repiten. Los datos suelen ir en el eje <emphasis effect="italics">y</emphasis>, y la frecuencia se representa en el eje <emphasis effect="italics">x</emphasis>. Los gráficos de series temporales pueden ser útiles cuando se observan grandes cantidades de datos de una variable durante un periodo.</para></section><section id="eip-333" class="practice"><title/><para id="eip-488"><newline/><emphasis effect="italics">Para los tres ejercicios siguientes utilice los datos para construir un gráfico de líneas.</emphasis></para><exercise id="fs-idp113295424">
 <problem id="fs-idp29821584">
 <para id="fs-idp29821712">En una encuesta se preguntó a 40 personas cuántas veces habían visitado una tienda antes de hacer una compra importante. Los resultados se muestran en la <link target-id="M01_Ch02_tbl018"/>.</para><table id="M01_Ch02_tbl018" summary="">
 <tgroup cols="2">
@@ -1195,10 +1195,10 @@ Los términos <m:math>
 <row><entry>Estaciones</entry>	<entry align="center">Número de estudiantes</entry>	<entry align="center">Proporción de la población</entry></row>
 </thead>
 <tbody>
-<row><entry>Primavera</entry>	<entry>8</entry>	<entry>24%</entry></row>
-<row><entry>Verano</entry>	<entry>9</entry>	<entry>26%</entry></row>
-<row><entry>Otoño</entry>	<entry>11</entry>	<entry>32%</entry></row>
-<row><entry>Invierno</entry>	<entry>6</entry>	<entry>18%</entry></row>
+<row><entry>Primavera</entry>	<entry>8</entry>	<entry>24 %</entry></row>
+<row><entry>Verano</entry>	<entry>9</entry>	<entry>26 %</entry></row>
+<row><entry>Otoño</entry>	<entry>11</entry>	<entry>32 %</entry></row>
+<row><entry>Invierno</entry>	<entry>6</entry>	<entry>18 %</entry></row>
 </tbody>
 </tgroup>
 </table>
@@ -1206,14 +1206,14 @@ Los términos <m:math>
 </exercise>
 
 <exercise id="fs-idp114173136">
-<problem id="fs-idp114173392"><para id="fs-idp114173520">Use los datos de la clase de Matemáticas de la Sra. Ramírez suministrados en la <link target-id="exercise13"/> y construya un gráfico de barras que muestre los porcentajes.</para></problem>
+<problem id="fs-idp114173392"><para id="fs-idp114173520">Use los datos de la clase de Matemáticas de la Sra. Ramírez suministrados en el <link target-id="exercise13"/> y construya un gráfico de barras que muestre los porcentajes.</para></problem>
 <solution id="fs-idp107574416">
 <figure id="fs-idp48344576"><media id="fs-idp74133360" display="block" alt="Este es un gráfico de barras que coincide con los datos suministrados. El eje x muestra las estaciones del año y el eje y muestra la proporción de cumpleaños."><image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M03_009.jpg" width="350"/></media></figure></solution>
 </exercise>
 
 <exercise id="exercise10">
 <problem id="fs-idm2655872">
-<para id="fs-idp32116368">El condado de David tiene seis escuelas secundarias. Cada escuela envió a sus estudiantes a participar en un concurso de ciencias de todo el condado. La <link target-id="M01_Ch02_tbl022"/> muestra el desglose porcentual de los competidores de cada escuela y el porcentaje de toda la población estudiantil del condado que va a cada escuela. Construya un gráfico de barras que muestre el porcentaje de población de los competidores de cada escuela.</para>
+<para id="fs-idp32116368">El condado de David tiene seis escuelas secundarias. Cada escuela envió a sus estudiantes a participar en un concurso de Ciencias de todo el condado. La <link target-id="M01_Ch02_tbl022"/> muestra el desglose porcentual de los competidores de cada escuela y el porcentaje de toda la población estudiantil del condado que va a cada escuela. Construya un gráfico de barras que muestre el porcentaje de población de los competidores de cada escuela.</para>
 
 <table id="M01_Ch02_tbl022" summary="---">
 <tgroup cols="3"><colspec colnum="1" align="center"/>
@@ -1221,12 +1221,12 @@ Los términos <m:math>
 <colspec colnum="3" align="left"/>
 <thead><row><entry>Escuela secundaria</entry><entry align="center">Población de la competición científica</entry><entry align="center">Población estudiantil total</entry></row></thead>
 <tbody>
-<row><entry>Alabaster</entry><entry>28,9%</entry><entry>8,6%</entry></row>
-<row><entry>Concordia</entry><entry>7,6%</entry><entry>23,2%</entry></row>
-<row><entry>Genoa</entry><entry>12,1%</entry><entry>15,0%</entry></row>
-<row><entry>Mocksville</entry><entry>18,5%</entry><entry>14,3%</entry></row>
-<row><entry>Tynneson</entry><entry>24,2%</entry><entry>10,1%</entry></row>
-<row><entry>West End</entry><entry>8,7%</entry><entry>28,8%</entry></row>
+<row><entry>Alabaster</entry><entry>28,9 %</entry><entry>8,6 %</entry></row>
+<row><entry>Concordia</entry><entry>7,6 %</entry><entry>23,2 %</entry></row>
+<row><entry>Genoa</entry><entry>12,1 %</entry><entry>15,0 %</entry></row>
+<row><entry>Mocksville</entry><entry>18,5 %</entry><entry>14,3 %</entry></row>
+<row><entry>Tynneson</entry><entry>24,2 %</entry><entry>10,1 %</entry></row>
+<row><entry>West End</entry><entry>8,7 %</entry><entry>28,8 %</entry></row>
 </tbody>
 
 </tgroup>
@@ -1235,13 +1235,13 @@ Los términos <m:math>
 
 <exercise id="fs-idp107146752">
 <problem id="fs-idp107568048">
-<para id="fs-idp107568176">Utilice los datos del concurso de ciencias del condado de David que se facilitan en la <link target-id="exercise10"/>. Construya un gráfico de barras que muestre el porcentaje de población de todo el condado de los estudiantes en cada escuela.</para></problem>
+<para id="fs-idp107568176">Utilice los datos del concurso de Ciencias del condado de David que se facilitan en el <link target-id="exercise10"/>. Construya un gráfico de barras que muestre el porcentaje de población de todo el condado de los estudiantes en cada escuela.</para></problem>
 <solution id="fs-idp4118704">
 <figure id="fs-idp86744448"><media id="fs-idp112012640" display="block" alt="Este es un gráfico de barras que coincide con los datos suministrados. El eje x muestra las escuelas secundarias del condado y el eje y muestra la proporción de estudiantes del condado."><image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M03_011.jpg" width="420"/></media></figure></solution>
 </exercise>
 <exercise id="eip-341">
 <problem id="fs-idp82639856">
-<para id="fs-idp82640112">Se preguntó a sesenta y cinco vendedores de automóviles seleccionados al azar el número de automóviles que suelen vender en una semana. Catorce personas respondieron que generalmente venden tres, diecinueve que venden cuatro, doce que venden cinco, nueve que venden seis y once que venden siete. Rellene la tabla.</para>
+<para id="fs-idp82640112">se preguntó a sesenta y cinco vendedores de automóviles seleccionados al azar el número de automóviles que suelen vender en una semana. Catorce personas respondieron que generalmente venden tres, diecinueve que venden cuatro, doce que venden cinco, nueve que venden seis y once que venden siete. Rellene la tabla.</para>
 <table id="table001" summary="Blank table where data can be reported with the first column designated for the data value, or number of cars, the second column for frequency, the third column for relative frequency, and the fourth column for cumulative frequency.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1249,7 +1249,7 @@ Los términos <m:math>
 <colspec colnum="4" colname="c4"/>
 <thead>
 <row>
-<entry>Valor de los datos (N.º de vehículos)</entry>
+<entry>Valor de los datos (n.º de vehículos)</entry>
 <entry>Frecuencia</entry>
 <entry>Frecuencia relativa</entry>
 <entry>Frecuencia relativa acumulada</entry>
@@ -1324,27 +1324,27 @@ Los términos <m:math>
 <row><entry>Pulsaciones de las mujeres</entry>	<entry>Frecuencia</entry></row>
 </thead>
 <tbody>
-<row><entry>60–69</entry><entry>12</entry></row>
-<row><entry>70–79</entry><entry>14</entry></row>
-<row><entry>80–89</entry><entry>11</entry></row>
-<row><entry>90–99</entry><entry>1</entry></row>
-<row><entry>100–109</entry><entry>1</entry></row>
-<row><entry>110–119</entry><entry>0</entry></row>
-<row><entry>120–129</entry><entry>1</entry></row>
+<row><entry>60-69</entry><entry>12</entry></row>
+<row><entry>70-79</entry><entry>14</entry></row>
+<row><entry>80-89</entry><entry>11</entry></row>
+<row><entry>90-99</entry><entry>1</entry></row>
+<row><entry>100-109</entry><entry>1</entry></row>
+<row><entry>110-119</entry><entry>0</entry></row>
+<row><entry>120-129</entry><entry>1</entry></row>
 </tbody>
 
 </tgroup>
 </table></item>
 <item><table id="fs-idp49451248" summary="---">
 <tgroup cols="2" align="center"><thead>
-<row><entry>Velocidad real en una zona de 30 millas por hora (mph) [48 km/h]</entry>	<entry>Frecuencia</entry></row>
+<row><entry>Velocidad real en una zona de 30 millas por hora (mph)</entry>	<entry>Frecuencia</entry></row>
 </thead>
 <tbody>
-<row><entry>42–45</entry><entry>25</entry></row>
-<row><entry>46–49</entry><entry>14</entry></row>
-<row><entry>50–53</entry><entry>7</entry></row>
-<row><entry>54–57</entry><entry>3</entry></row>
-<row><entry>58–61</entry><entry>1</entry></row>
+<row><entry>42-45</entry><entry>25</entry></row>
+<row><entry>46-49</entry><entry>14</entry></row>
+<row><entry>50-53</entry><entry>7</entry></row>
+<row><entry>54-57</entry><entry>3</entry></row>
+<row><entry>58-61</entry><entry>1</entry></row>
 </tbody>
 
 </tgroup>
@@ -1354,11 +1354,11 @@ Los términos <m:math>
 <row><entry>Alquitrán (mg) en cigarrillos sin filtro</entry>	<entry>Frecuencia</entry></row>
 </thead>
 <tbody>
-<row><entry>10–13</entry><entry>1</entry></row>
-<row><entry>14–17</entry><entry>0</entry></row>
-<row><entry>18–21</entry><entry>15</entry></row>
-<row><entry>22–25</entry><entry>7</entry></row>
-<row><entry>26–29</entry><entry>2</entry></row>
+<row><entry>10-13</entry><entry>1</entry></row>
+<row><entry>14-17</entry><entry>0</entry></row>
+<row><entry>18-21</entry><entry>15</entry></row>
+<row><entry>22-25</entry><entry>7</entry></row>
+<row><entry>26-29</entry><entry>2</entry></row>
 </tbody>
 
 </tgroup>
@@ -1372,13 +1372,13 @@ Los términos <m:math>
 <table id="fs-idp37785744" summary="---">
 <tgroup cols="2" align="center"><thead><row><entry>Magnitud del hambre</entry>	<entry>Frecuencia</entry></row></thead>
 <tbody>
-<row><entry>230–259</entry><entry>21</entry></row>
-<row><entry>260–289</entry><entry>13</entry></row>
-<row><entry>290–319</entry><entry>5</entry></row>
-<row><entry>320–349</entry><entry>7</entry></row>
-<row><entry>350–379</entry><entry>1</entry></row>
-<row><entry>380–409</entry><entry>1</entry></row>
-<row><entry>410–439</entry><entry>1</entry></row>
+<row><entry>230-259</entry><entry>21</entry></row>
+<row><entry>260-289</entry><entry>13</entry></row>
+<row><entry>290-319</entry><entry>5</entry></row>
+<row><entry>320-349</entry><entry>7</entry></row>
+<row><entry>350-379</entry><entry>1</entry></row>
+<row><entry>380-409</entry><entry>1</entry></row>
+<row><entry>410-439</entry><entry>1</entry></row>
 </tbody>
 
 </tgroup>
@@ -1398,12 +1398,12 @@ Los términos <m:math>
 <row><entry>Esperanza de vida al nacer: mujeres</entry>	<entry>Frecuencia</entry></row>
 </thead>
 <tbody>
-<row><entry>49–55</entry><entry>3</entry></row>
-<row><entry>56–62</entry><entry>3</entry></row>
-<row><entry>63–69</entry><entry>1</entry></row>
-<row><entry>70–76</entry><entry>3</entry></row>
-<row><entry>77–83</entry><entry>8</entry></row>
-<row><entry>84–90</entry><entry>2</entry></row>
+<row><entry>49-55</entry><entry>3</entry></row>
+<row><entry>56-62</entry><entry>3</entry></row>
+<row><entry>63-69</entry><entry>1</entry></row>
+<row><entry>70-76</entry><entry>3</entry></row>
+<row><entry>77-83</entry><entry>8</entry></row>
+<row><entry>84-90</entry><entry>2</entry></row>
 </tbody>
 
 </tgroup>
@@ -1412,12 +1412,12 @@ Los términos <m:math>
 <row><entry>Esperanza de vida al nacer: hombres</entry>	<entry>Frecuencia</entry>
 </row></thead>
 <tbody>
-<row><entry>49–55</entry><entry>3</entry></row>
-<row><entry>56–62</entry><entry>3</entry></row>
-<row><entry>63–69</entry><entry>1</entry></row>
-<row><entry>70–76</entry><entry>1</entry></row>
-<row><entry>77–83</entry><entry>7</entry></row>
-<row><entry>84–90</entry><entry>5</entry></row>
+<row><entry>49-55</entry><entry>3</entry></row>
+<row><entry>56-62</entry><entry>3</entry></row>
+<row><entry>63-69</entry><entry>1</entry></row>
+<row><entry>70-76</entry><entry>1</entry></row>
+<row><entry>77-83</entry><entry>7</entry></row>
+<row><entry>84-90</entry><entry>5</entry></row>
 </tbody>
 
 </tgroup>
@@ -1959,32 +1959,32 @@ Los términos <m:math>
 </thead>
 <tbody>
 <row>
-<entry>51–100</entry>
+<entry>51-100</entry>
 <entry>5</entry>
 <entry/>
 </row>
 <row>
-<entry>101–150</entry>
+<entry>101-150</entry>
 <entry>10</entry>
 <entry/>
 </row>
 <row>
-<entry>151–200</entry>
+<entry>151-200</entry>
 <entry>15</entry>
 <entry/>
 </row>
 <row>
-<entry>201–250</entry>
+<entry>201-250</entry>
 <entry>15</entry>
 <entry/>
 </row>
 <row>
-<entry>251–300</entry>
+<entry>251-300</entry>
 <entry>10</entry>
 <entry/>
 </row>
 <row>
-<entry>301–350</entry>
+<entry>301-350</entry>
 <entry>5</entry>
 <entry/>
 </row>
@@ -2001,52 +2001,52 @@ Los términos <m:math>
 </thead>
 <tbody>
 <row>
-<entry>100–150</entry>
+<entry>100-150</entry>
 <entry>5</entry>
 <entry/>
 </row>
 <row>
-<entry>201–250</entry>
+<entry>201-250</entry>
 <entry>5</entry>
 <entry/>
 </row>
 <row>
-<entry>251–300</entry>
+<entry>251-300</entry>
 <entry>5</entry>
 <entry/>
 </row>
 <row>
-<entry>301–350</entry>
+<entry>301-350</entry>
 <entry>5</entry>
 <entry/>
 </row>
 <row>
-<entry>351–400</entry>
+<entry>351-400</entry>
 <entry>10</entry>
 <entry/>
 </row>
 <row>
-<entry>401–450</entry>
+<entry>401-450</entry>
 <entry>10</entry>
 <entry/>
 </row>
 <row>
-<entry>451–500</entry>
+<entry>451-500</entry>
 <entry>10</entry>
 <entry/>
 </row>
 <row>
-<entry>501–550</entry>
+<entry>501-550</entry>
 <entry>10</entry>
 <entry/>
 </row>
 <row>
-<entry>551–600</entry>
+<entry>551-600</entry>
 <entry>5</entry>
 <entry/>
 </row>
 <row>
-<entry>601–650</entry>
+<entry>601-650</entry>
 <entry>5</entry>
 <entry/>
 </row>
@@ -2082,32 +2082,32 @@ Los términos <m:math>
 </thead>
 <tbody>
 <row>
-<entry>51–100</entry>
+<entry>51-100</entry>
 <entry>5</entry>
 <entry>0,08</entry>
 </row>
 <row>
-<entry>101–150</entry>
+<entry>101-150</entry>
 <entry>10</entry>
 <entry>0,17</entry>
 </row>
 <row>
-<entry>151–200</entry>
+<entry>151-200</entry>
 <entry>15</entry>
 <entry>0,25</entry>
 </row>
 <row>
-<entry>201–250</entry>
+<entry>201-250</entry>
 <entry>15</entry>
 <entry>0,25</entry>
 </row>
 <row>
-<entry>251–300</entry>
+<entry>251-300</entry>
 <entry>10</entry>
 <entry>0,17</entry>
 </row>
 <row>
-<entry>301–350</entry>
+<entry>301-350</entry>
 <entry>5</entry>
 <entry>0,08</entry>
 </row>
@@ -2127,59 +2127,59 @@ Los términos <m:math>
 </thead>
 <tbody>
 <row>
-<entry>100–150</entry>
+<entry>100-150</entry>
 <entry>5</entry>
 <entry>0,07</entry>
 </row>
 <row>
-<entry>201–250</entry>
+<entry>201-250</entry>
 <entry>5</entry>
 <entry>0,07</entry>
 </row>
 <row>
-<entry>251–300</entry>
+<entry>251-300</entry>
 <entry>5</entry>
 <entry>0,07</entry>
 </row>
 <row>
-<entry>301–350</entry>
+<entry>301-350</entry>
 <entry>5</entry>
 <entry>0,07</entry>
 </row>
 <row>
-<entry>351–400</entry>
+<entry>351-400</entry>
 <entry>10</entry>
 <entry>0,14</entry>
 </row>
 <row>
-<entry>401–450</entry>
+<entry>401-450</entry>
 <entry>10</entry>
 <entry>0,14</entry>
 </row>
 <row>
-<entry>451–500</entry>
+<entry>451-500</entry>
 <entry>10</entry>
 <entry>0,14</entry>
 </row>
 <row>
-<entry>501–550</entry>
+<entry>501-550</entry>
 <entry>10</entry>
 <entry>0,14</entry>
 </row>
 <row>
-<entry>551–600</entry>
+<entry>551-600</entry>
 <entry>5</entry>
 <entry>0,07</entry>
 </row>
 <row>
-<entry>601–650</entry>
+<entry>601-650</entry>
 <entry>5</entry>
 <entry>0,07</entry>
 </row>
 </tbody>
 
 </tgroup>
-</table><list id="fs-idp1651760" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Vea la <link target-id="Singles"/> y la <link target-id="Couples"/>.</item>
+</table><list id="fs-idp1651760" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Vea la <link target-id="Singles" document=""/> y la <link target-id="Couples" document=""/>.</item>
 <item>En el siguiente histograma los valores de los datos que caen en el límite de la derecha se cuentan en el intervalo de la clase, mientras que los valores que caen en el límite de la izquierda no se cuentan (con la excepción del primer intervalo en el que se incluyen ambos valores del límite).
 <figure id="eip-idp10303088">
 <media id="fs-idp32280736" display="block" alt="Este es un histograma que coincide con los datos suministrados para los solteros. El eje x muestra los cargos totales en intervalos de 50 desde 50 hasta 350, y el eje y muestra la frecuencia relativa en incrementos de 0,05 desde 0 hasta 0,3.">
@@ -2272,7 +2272,7 @@ Los términos <m:math>
 </list></problem>
 </exercise>
 
-<para id="fs-idp72793344"><emphasis effect="italics">Use la siguiente información para responder los dos próximos ejercicios:</emphasis> Supongamos que se les pregunta a ciento once personas que compran en una tienda especial de camisetas el número de camisetas que tienen y que cuestan más de 19 dólares cada una.</para><para id="fs-idp19635040"><media id="fs-idp52038080" alt="Un histograma que muestra los resultados de una encuesta. De los 111 encuestados, 5 tienen 1 camiseta que cuesta más de 19 dólares, 17 tienen 2, 23 tienen 3, 39 tienen 4, 25 tienen 5, 2 tienen 6 y entre los no encuestados tienen 7." display="block">
+<para id="fs-idp72793344"><emphasis effect="italics">Use la siguiente información para responder los dos próximos ejercicios:</emphasis> supongamos que se les pregunta a ciento once personas que compran en una tienda especial de camisetas el número de camisetas que tienen y que cuestan más de 19 dólares cada una.</para><para id="fs-idp19635040"><media id="fs-idp52038080" alt="Un histograma que muestra los resultados de una encuesta. De los 111 encuestados, 5 tienen 1 camiseta que cuesta más de 19 dólares, 17 tienen 2, 23 tienen 3, 39 tienen 4, 25 tienen 5, 2 tienen 6 y entre los no encuestados tienen 7." display="block">
 <image src="../../media/fig-ch02_13_11.jpg" mime-type="image/JPG" width="350"/>
 </media></para>
 

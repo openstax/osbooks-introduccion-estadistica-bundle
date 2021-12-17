@@ -9,14 +9,14 @@
 </metadata>
 
 <content>
-  <note id="fs-id1170646469482" class="statistics lab"><title>Laboratorio 1: Bondad de ajuste de chi-cuadrado</title>
+  <note id="fs-id1170646469482" class="statistics lab"><label/><title>Laboratorio 1: Bondad de ajuste de chi-cuadrado</title>
 <para id="id5380446">Hora de la clase: </para>
   <para id="id5380454">Nombres:</para>
    <list id="id5380464" list-type="bulleted"><title>Resultado de aprendizaje del estudiante</title><item>El estudiante evaluará los datos recogidos para determinar si se ajustan a las distribuciones uniforme o exponencial. </item>
    </list><para id="element-875862734">
     <title>Recopilación de datos</title>
     Vaya a su supermercado local. Pregunte a 30 personas al salir por el monto total de sus recibos de compra. (O bien, pregunte a tres cajeros por los últimos diez montos. Incluya la caja rápida, si está abierta).</para>
-   <note id="eip-665"><title>Nota</title>Es posible que tenga que combinar dos categorías para que cada celda tenga un valor esperado de al menos cinco.
+   <note id="eip-665"><label/><title>Nota</title>Es posible que tenga que combinar dos categorías para que cada celda tenga un valor esperado de al menos cinco.
  </note><list id="list-87585" list-type="enumerated" mark-suffix=".">
     <item>Anote los valores.
      <table id="table023865" summary="Blank table with 30 empty cells.">
@@ -70,7 +70,7 @@
     </item>
     <item>Construya un histograma de los datos. Haga de cinco a seis intervalos. Dibuje el gráfico con una regla y un lápiz. Escale los ejes. <figure id="id42008923"><media id="id42008927" alt="Gráfico en blanco con la frecuencia relativa en la vertical"><image src="../../media/fig-ch11_15_01.png" mime-type="image/png" width="380"/></media></figure></item>
     <item> Calcule lo siguiente: <list id="list3242" list-type="enumerated" number-style="lower-alpha">
-      <item>Los términos <m:math>
+      <item><m:math>
       <m:mrow>
        <m:mover accent="true">
         <m:mi>x</m:mi>
@@ -90,10 +90,10 @@
    <list id="list-897576324" mark-suffix="." list-type="enumerated"><item>Con sus valores más bajos y más altos, <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (_______, _______)</item>
     <item>Divida la distribución en quintos.</item>
     <item>Calcule lo siguiente: <list id="list45865" list-type="enumerated" number-style="lower-alpha"><item>valor más bajo = _________</item>
-      <item>20<sup>o</sup> percentil = _________</item>
-      <item>40<sup>o</sup> percentil = _________</item>
-      <item>60<sup>o</sup> percentil = _________</item>
-      <item>80<sup>o</sup> percentil = _________</item>
+      <item>percentil 20<sup/> = _________</item>
+      <item>percentil 40<sup/> = _________</item>
+      <item>percentil 60<sup/> = _________</item>
+      <item>percentil 80<sup/> = _________</item>
       <item>valor más alto = _________</item>
      </list></item>
     <item>Para cada quinto, cuente el número observado de recibos y anótelo. Luego, determine el número previsto de recibos y anótelo.
@@ -175,10 +175,10 @@
     <item>Calcule lo siguiente: <list id="list3248" list-type="enumerated" number-style="lower-alpha">
       <item>valor más bajo = ________</item>
       <item>primer cuartil = ________</item>
-      <item>37<sup>o</sup> percentil = ________</item>
+      <item>percentil 37<sup/> = ________</item>
       <item>mediana = ________</item>
-      <item>63<sup>o</sup> percentil = ________</item>
-      <item>3<sup>o</sup> cuartil = ________</item>
+      <item>percentil 63<sup/> = ________</item>
+      <item>cuartil 3<sup/> = ________</item>
       <item>valor más alto = ________</item>
      </list>
     </item>

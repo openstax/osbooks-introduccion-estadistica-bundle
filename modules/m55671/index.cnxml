@@ -8,18 +8,18 @@
 </metadata>
 
 <content>
-<para id="eip-8888">La comparación de dos medias poblacionales independientes es muy común y proporciona una forma de probar la hipótesis de que los dos grupos difieren entre sí. ¿Es el turno de noche menos productivo que el de día, las tasas de rendimiento de las inversiones en activos fijos son diferentes a las de las inversiones en acciones ordinarias, etc.? Una diferencia observada entre dos medias muestrales depende tanto de las medias como de las desviaciones estándar de la muestra. Pueden producirse medias muy diferentes por azar si hay una gran variación entre cada una de las muestras. La estadística de la prueba tendrá que tener en cuenta este hecho. La prueba que compara dos medias poblacionales independientes con desviaciones típicas poblacionales desconocidas y posiblemente desiguales se denomina prueba t de Aspin-Welch. Aspin-Welch ideó la fórmula de los grados de libertad que veremos más adelante.</para><para id="eip-808">Cuando desarrollamos la prueba de hipótesis para la media y las proporciones, comenzamos con el teorema del límite central. Reconocemos que la media muestral procede de una distribución de medias muestrales, y las proporciones muestrales proceden de la distribución muestral de las proporciones muestrales. Esto convirtió nuestros parámetros, las medias y las proporciones muestrales, en variables aleatorias. Era importante para nosotros conocer la distribución de la que procedían estas variables aleatorias. El teorema del límite central nos dio la respuesta: la distribución normal. Nuestras estadísticas Z y t provienen de este teorema. Esto nos proporcionó la solución a nuestra pregunta de cómo medir la probabilidad de que la media muestral provenga de una distribución con un valor hipotético particular de la media o proporción. En ambos casos esa era la pregunta: ¿Cuál es la probabilidad de que la media (o proporción) de nuestros datos muestrales proceda de una distribución poblacional con el valor hipotético que nos interesa? </para><para id="eip-725">Ahora nos interesa saber si dos muestras tienen o no la misma media. Nuestra pregunta no ha cambiado: ¿Proceden estas dos muestras de la misma distribución poblacional? Para abordar este problema creamos una nueva variable aleatoria. Reconocemos que tenemos dos medias muestrales: una de cada conjunto de datos. Así, tenemos dos variables aleatorias, procedentes de dos distribuciones desconocidas. Para resolver el problema creamos una nueva variable aleatoria: la diferencia entre las medias muestrales. Dicha variable también tiene una distribución. Nuevamente, el teorema del límite central nos indica que esta nueva distribución se distribuye normalmente, sin importar las distribuciones subyacentes de los datos originales. Un gráfico despejaría este concepto.  </para><figure id="fs-id1166777206486"><media id="fs-id1166779043303" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch10_01_01m.jpg" width="500"/></media></figure><para id="eip-942">En la imagen aparecen dos distribuciones de datos, X<sub>1</sub> y X<sub>2</sub>, con medias y desviaciones estándar desconocidas. El segundo panel muestra la distribución muestral de la variable aleatoria recién creada (<m:math><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover></m:mrow><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msub></m:math>). This distribution is the theoretical distribution of many sample means from population 1 minus sample means from population 2. El teorema del límite central señala que esta distribución muestral teórica de las diferencias de las medias muestrales se distribuye normalmente, sin importar la distribución de los datos reales de la población qeu se muestran en el panel superior. Dado que la distribución del muestreo se distribuye normalmente, podemos desarrollar una fórmula de estandarización y calcular las probabilidades a partir de la distribución normal estándar del panel inferior, la distribución Z. Ya hemos visto este mismo análisis en la <link document="m54534" target-id="fs-id7367289">Figura 7.2</link> del Capítulo 7.</para><para id="eip-83">El teorema del límite central, como antes, nos proporciona la desviación estándar de la distribución muestral y, además, que el valor previsto de la media de la distribución de las diferencias de las medias muestrales es igual a las diferencias de las medias poblacionales. Matemáticamente, esto se formula de la siguiente manera:</para><equation class="unnumbered" id="eip-413">Los términos <m:math>
+<para id="eip-8888">La comparación de dos medias poblacionales independientes es muy común y proporciona una forma de probar la hipótesis de que los dos grupos difieren entre sí. ¿Es el turno de noche menos productivo que el de día, las tasas de rendimiento de las inversiones en activos fijos son diferentes a las de las inversiones en acciones ordinarias, etc.? Una diferencia observada entre dos medias muestrales depende tanto de las medias como de las desviaciones típicas de la muestra. Pueden producirse medias muy diferentes por azar si hay una gran variación entre cada una de las muestras. El estadístico de prueba tendrá que tener en cuenta este hecho. La prueba que compara dos medias poblacionales independientes con desviaciones típicas poblacionales desconocidas y posiblemente desiguales se denomina prueba t de Aspin-Welch. Aspin-Welch ideó la fórmula de los grados de libertad que veremos más adelante.</para><para id="eip-808">Cuando desarrollamos la prueba de hipótesis para la media y las proporciones, comenzamos con el teorema del límite central. Reconocemos que la media muestral procede de una distribución de medias muestrales, y las proporciones muestrales proceden de la distribución muestral de las proporciones muestrales. Esto convirtió nuestros parámetros, las medias y las proporciones muestrales, en variables aleatorias. Era importante para nosotros conocer la distribución de la que procedían estas variables aleatorias. El teorema del límite central nos dio la respuesta: la distribución normal. Nuestras estadísticas Z y t provienen de este teorema. Esto nos proporcionó la solución a nuestra pregunta de cómo medir la probabilidad de que la media muestral provenga de una distribución con un valor hipotético particular de la media o proporción. En ambos casos esa era la pregunta: ¿Cuál es la probabilidad de que la media (o proporción) de nuestros datos muestrales proceda de una distribución poblacional con el valor hipotético que nos interesa? </para><para id="eip-725">Ahora nos interesa saber si dos muestras tienen o no la misma media. Nuestra pregunta no ha cambiado: ¿Proceden estas dos muestras de la misma distribución poblacional? Para abordar este problema creamos una nueva variable aleatoria. Reconocemos que tenemos dos medias muestrales: una de cada conjunto de datos. Así, tenemos dos variables aleatorias, procedentes de dos distribuciones desconocidas. Para resolver el problema creamos una nueva variable aleatoria: la diferencia entre las medias muestrales. Dicha variable también tiene una distribución. Nuevamente, el teorema del límite central nos indica que esta nueva distribución se distribuye normalmente, sin importar las distribuciones subyacentes de los datos originales. Un gráfico despejaría este concepto.  </para><figure id="fs-id1166777206486"><media id="fs-id1166779043303" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch10_01_01m.jpg" width="500"/></media></figure><para id="eip-942">En la imagen aparecen dos distribuciones de datos, X<sub>1</sub> y X<sub>2</sub>, con medias y desviaciones típicas desconocidas. El segundo panel muestra la distribución muestral de la variable aleatoria recién creada (<m:math><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>1</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msub></m:math>). Esta es la distribución teórica de muchas medias muestrales de la población 1 menos las medias muestrales de la población 2. El teorema del límite central señala que esta distribución muestral teórica de las diferencias de las medias muestrales se distribuye normalmente, sin importar la distribución de los datos reales de la población que se muestran en el panel superior. Dado que la distribución del muestreo se distribuye normalmente, podemos desarrollar una fórmula de estandarización y calcular las probabilidades a partir de la distribución normal estándar del panel inferior, la distribución Z. Ya hemos visto este mismo análisis en la <link document="m54534" target-id="fs-id7367289">Figura 7.2</link> del Capítulo 7.</para><para id="eip-83">El teorema del límite central, como antes, nos proporciona la desviación típica de la distribución muestral y, además, que el valor previsto de la media de la distribución de las diferencias de las medias muestrales es igual a las diferencias de las medias poblacionales. Matemáticamente, esto se formula de la siguiente manera:</para><equation class="unnumbered" id="eip-413"><label/><m:math>
 <m:mi>E</m:mi>
 <m:mo>(</m:mo>
-<m:msub><m:mi>µ</m:mi><m:mrow><m:msub><m:mover><m:mi>x</m:mi><m:mo>-</m:mo></m:mover><m:mn>1</m:mn></m:msub></m:mrow></m:msub>
-<m:mo>-</m:mo>
-<m:msub><m:mi>µ</m:mi><m:mrow><m:msub><m:mover><m:mi>x</m:mi><m:mo>-</m:mo></m:mover><m:mn>2</m:mn></m:msub></m:mrow></m:msub>
+<m:msub><m:mi>µ</m:mi><m:mrow><m:msub><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover><m:mn>1</m:mn></m:msub></m:mrow></m:msub>
+<m:mo>–</m:mo>
+<m:msub><m:mi>µ</m:mi><m:mrow><m:msub><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover><m:mn>2</m:mn></m:msub></m:mrow></m:msub>
 <m:mo>)</m:mo>
 <m:mo>=</m:mo>
 <m:msub><m:mi>µ</m:mi><m:mn>1</m:mn></m:msub>
-<m:mo>-</m:mo>
+<m:mo>–</m:mo>
 <m:msub><m:mi>µ</m:mi><m:mn>2</m:mn></m:msub>
-</m:math></equation><para id="element-254">Ya que desconocemos las desviaciones estándar de la población, las calculamos con las dos desviaciones estándar de nuestras muestras independientes. En la prueba de hipótesis, calculamos la desviación estándar o el <term id="term-00001">error estándar</term>, de la <emphasis>diferencia de las medias muestrales</emphasis>, <m:math>
+</m:math></equation><para id="element-254">Ya que desconocemos las desviaciones típicas de la población, las calculamos con las dos desviaciones típicas de nuestras muestras independientes. En la prueba de hipótesis, calculamos la desviación típica o el <term id="term-00001">error estándar</term>, de la <emphasis>diferencia de las medias muestrales</emphasis>, <m:math>
   <m:msub>
    <m:mover accent="true">
     <m:mi>X</m:mi>
@@ -37,8 +37,8 @@
 
    <m:mn>2</m:mn>
   </m:msub>
-</m:math>
-<equation class="unnumbered" id="std_err"><title>El error estándar es:</title>Los términos <m:math>
+</m:math>.
+<equation class="unnumbered" id="std_err"><label/><title>El error estándar es:</title><m:math>
 <m:msqrt>
 <m:mfrac>
 <m:mrow>
@@ -80,8 +80,8 @@
 </m:mrow>
 </m:mfrac>
 </m:msqrt>
-</m:math></equation></para><para id="element-817">Recordemos que la sustitución de la varianza de la muestra por la varianza de la población cuando no teníamos la varianza de la población fue la técnica que utilizamos al construir el intervalo de confianza y el estadístico de prueba para comprobar la hipótesis con respecto a una sola media en <link document="m55460">Intervalos de confianza</link> y <link document="m55603">Pruebas de hipótesis con una muestra</link>. <emphasis>La estadística de la prueba (puntuación <emphasis effect="italics">t</emphasis>) se calcula como sigue:</emphasis>
-  <equation class="unnumbered" id="t-score2"><m:math display="block">
+</m:math></equation></para><para id="element-817">Recordemos que la sustitución de la varianza de la muestra por la varianza de la población cuando no teníamos la varianza de la población fue la técnica que utilizamos al construir el intervalo de confianza y el estadístico de prueba para comprobar la hipótesis con respecto a una sola media en <link document="m55460">Intervalos de confianza</link> y <link document="m55603">Pruebas de hipótesis con una muestra</link>. <emphasis>El estadístico de prueba (puntuación <emphasis effect="italics">t</emphasis>) se calcula como sigue:</emphasis>
+  <equation class="unnumbered" id="t-score2"><label/><m:math display="block">
 <m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo>
  <m:mrow>
   <m:mfrac>
@@ -159,9 +159,9 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math></equation><list id="list1"><title>donde:</title><item><emphasis effect="italics">s</emphasis><sub>1</sub> y <emphasis effect="italics">s</emphasis><sub>2</sub>, las desviaciones estándar de la muestra, son estimaciones de <emphasis effect="italics">σ</emphasis><sub>1</sub> y <emphasis effect="italics">σ</emphasis><sub>2</sub>, respectivamente, y</item>
-  <item><emphasis effect="italics">σ</emphasis><sub>1</sub> y <emphasis effect="italics">σ</emphasis><sub>2</sub> son las desviaciones estándar desconocidas de la población.</item>
-<item>Los términos <m:math>
+</m:math></equation><list id="list1"><title>donde:</title><item><emphasis effect="italics">s</emphasis><sub>1</sub> y <emphasis effect="italics">s</emphasis><sub>2</sub>, las desviaciones típicas de la muestra, son estimaciones de <emphasis effect="italics">σ</emphasis><sub>1</sub> y <emphasis effect="italics">σ</emphasis><sub>2</sub>, respectivamente, y</item>
+  <item><emphasis effect="italics">σ</emphasis><sub>1</sub> y <emphasis effect="italics">σ</emphasis><sub>2</sub> son las desviaciones típicas desconocidas de la población.</item>
+<item><m:math>
   <m:msub>
    <m:mover accent="true">
     <m:mi>x</m:mi>
@@ -180,8 +180,8 @@
    <m:mn>2</m:mn>
   </m:msub>
 </m:math> son las medias muestrales. <emphasis effect="italics">μ</emphasis><sub>1</sub> y <emphasis effect="italics">μ</emphasis><sub>2</sub> son las medias poblacionales desconocidas.</item>
-</list></para><para id="element-256" class="finger">El número de <term id="term-00002">grados de libertad (<emphasis effect="italics">df</emphasis>)</term> requiere un cálculo algo complicado. Los <emphasis effect="italics">df</emphasis> no son siempre un número entero. La anterior estadística de la prueba se calcula aproximadamente mediante la distribución <emphasis effect="italics">t</emphasis> de Student con <emphasis effect="italics">df</emphasis> de la siguiente manera:
-<equation class="unnumbered" id="eq_df"><title>El error estándar es:</title><m:math display="block">
+</list></para><para id="element-256" class="finger">El número de <term id="term-00002">grados de libertad (<emphasis effect="italics">df</emphasis>)</term> requiere un cálculo algo complicado. Los <emphasis effect="italics">df</emphasis> no son siempre un número entero. El anterior estadístico de prueba se calcula aproximadamente mediante la distribución <emphasis effect="italics">t</emphasis> de Student con <emphasis effect="italics">df</emphasis> de la siguiente manera:
+<equation class="unnumbered" id="eq_df"><label/><title>El error estándar es:</title><m:math display="block">
  <m:mrow>
   <m:mi>d</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -335,30 +335,30 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math></equation></para><para id="element-316">Cuando los tamaños de las muestras <emphasis effect="italics">n</emphasis><sub>1</sub> y <emphasis effect="italics">n</emphasis><sub>2</sub> son de 30 o más, la aproximación de la <emphasis effect="italics">t</emphasis> de Student es muy buena. Si cada muestra tiene más de 30 observaciones, los grados de libertad pueden calcularse como n1 + n2 - 2. </para><para id="eip-617">El formato de la distribución muestral, las diferencias de medias muestrales, especifica que el formato de las hipótesis nula y alternativa es:</para><equation class="unnumbered" id="eip-253">Los términos <m:math>
+</m:math></equation></para><para id="element-316">Cuando los tamaños de las muestras <emphasis effect="italics">n</emphasis><sub>1</sub> y <emphasis effect="italics">n</emphasis><sub>2</sub> son de 30 o más, la aproximación de la <emphasis effect="italics">t</emphasis> de Student es muy buena. Si cada muestra tiene más de 30 observaciones, los grados de libertad pueden calcularse como n1 + n2 - 2. </para><para id="eip-617">El formato de la distribución muestral, las diferencias de medias muestrales, especifica que el formato de las hipótesis nula y alternativa es:</para><equation class="unnumbered" id="eip-253"><label/><m:math>
 <m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
 <m:mo>:</m:mo>
 <m:msub><m:mi>µ</m:mi><m:mn>1</m:mn></m:msub>
-<m:mo>-</m:mo>
+<m:mo>–</m:mo>
 <m:msub><m:mi>µ</m:mi><m:mn>2</m:mn></m:msub>
 <m:mo>=</m:mo>
 <m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub>
-</m:math></equation><equation class="unnumbered" id="eip-933">Los términos <m:math>
+</m:math></equation><equation class="unnumbered" id="eip-933"><label/><m:math>
 <m:msub><m:mi>H</m:mi><m:mn>a</m:mn></m:msub>
 <m:mo>:</m:mo>
 <m:msub><m:mi>µ</m:mi><m:mn>1</m:mn></m:msub>
-<m:mo>-</m:mo>
+<m:mo>–</m:mo>
 <m:msub><m:mi>µ</m:mi><m:mn>2</m:mn></m:msub>
 <m:mo>≠</m:mo>
 <m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub>
-</m:math></equation><para id="eip-330">donde <emphasis effect="italics">δ</emphasis><sub>0</sub> es la diferencia hipotética entre las dos medias. Si la pregunta es simplemente: "¿Hay alguna diferencia entre las medias?", entonces <emphasis effect="italics">δ</emphasis><sub>0</sub> = 0 y las hipótesis nula y alternativa pasan a ser:</para><equation class="unnumbered" id="eip-102">Los términos <m:math>
+</m:math></equation><para id="eip-330">donde <emphasis effect="italics">δ</emphasis><sub>0</sub> es la diferencia hipotética entre las dos medias. Si la pregunta es simplemente: "¿Hay alguna diferencia entre las medias?", entonces <emphasis effect="italics">δ</emphasis><sub>0</sub> = 0 y las hipótesis nula y alternativa pasan a ser:</para><equation class="unnumbered" id="eip-102"><label/><m:math>
 <m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
 <m:mo>:</m:mo>
 <m:msub><m:mi>µ</m:mi><m:mn>1</m:mn></m:msub>
 <m:mo>=</m:mo>
 <m:msub><m:mi>µ</m:mi><m:mn>2</m:mn></m:msub>
 
-</m:math></equation><equation class="unnumbered" id="eip-692">Los términos <m:math>
+</m:math></equation><equation class="unnumbered" id="eip-692"><label/><m:math>
 <m:msub><m:mi>H</m:mi><m:mn>a</m:mn></m:msub>
 <m:mo>:</m:mo>
 <m:msub><m:mi>µ</m:mi><m:mn>1</m:mn></m:msub>
@@ -375,7 +375,7 @@
 <entry align="center"/>
 <entry align="center">Tamaño de la muestra</entry>
 <entry align="center">Promedio de horas para procesar 100 libras de cocos</entry>
-<entry align="center">Desviación estándar de la muestra</entry>
+<entry align="center">Desviación típica de la muestra</entry>
 </row>
 </thead>
 <tbody valign="top">
@@ -383,7 +383,7 @@
 <entry>Turno G</entry>
 <entry>9</entry>
 <entry>2</entry>
-<entry>Los términos <m:math><m:mn>0,866</m:mn></m:math></entry>
+<entry><m:math><m:mn>0,866</m:mn></m:math></entry>
 </row>
 <row>
 <entry>Turno B</entry>
@@ -399,7 +399,7 @@
 </table><exercise id="element-114"><problem id="id6322791">
 <para id="element-939">¿Existe alguna diferencia en el tiempo medio de cada turno para procesar 100 libras de cocos? Prueba al nivel de significación del 5 %.</para></problem>
 <solution id="id21329984">
-  <para id="element-296"><emphasis>Las desviaciones estándar de la población no se conocen y no se supone que sean iguales.</emphasis> Supongamos que <emphasis effect="italics">g</emphasis> es el subíndice del turno G y <emphasis effect="italics">b</emphasis> es el subíndice del turno B. Entonces, <emphasis effect="italics">μ<sub>g</sub></emphasis> es la media poblacional para el turno G y <emphasis effect="italics">μ<sub>b</sub></emphasis> es la media poblacional para el turno B. Se trata de una prueba de dos <emphasis>grupos independientes</emphasis> y dos <emphasis>medias</emphasis> poblacionales.</para><para id="element-221"><term id="term-00003">Variable aleatoria</term>: <m:math display="">
+  <para id="element-296"><emphasis>Las desviaciones típicas de la población no se conocen y no se supone que sean iguales.</emphasis> Supongamos que <emphasis effect="italics">g</emphasis> es el subíndice del turno G y <emphasis effect="italics">b</emphasis> es el subíndice del turno B. Entonces, <emphasis effect="italics">μ<sub>g</sub></emphasis> es la media poblacional para el turno G y <emphasis effect="italics">μ<sub>b</sub></emphasis> es la media poblacional para el turno B. Se trata de una prueba de dos <emphasis>grupos independientes</emphasis> y dos <emphasis>medias</emphasis> poblacionales.</para><para id="element-221"><term id="term-00003">Variable aleatoria</term>: <m:math display="">
  <m:mrow>
   <m:msub>
    <m:mrow>
@@ -411,7 +411,7 @@
    </m:mrow>
    <m:mi>g</m:mi>
   </m:msub>
-  <m:mo>- −</m:mo><m:msub>
+  <m:mo>–</m:mo><m:msub>
    <m:mrow>
     <m:mover accent="true">
      <m:mi>X</m:mi>
@@ -425,13 +425,13 @@
  </m:mrow>
 </m:math> = diferencia en la media de tiempo de la muestra entre el Turno G y el Turno B para procesar los cocos. <newline/><emphasis effect="italics">H</emphasis><sub>0</sub>: <emphasis effect="italics">μ<sub>g</sub></emphasis> = <emphasis effect="italics">μ<sub>b</sub></emphasis> <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>g</sub></emphasis> – <emphasis effect="italics">μ<sub>b</sub></emphasis> = 0 <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ<sub>g</sub></emphasis> ≠ <emphasis effect="italics">μ<sub>b</sub></emphasis> <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ<sub>g</sub></emphasis> – <emphasis effect="italics">μ<sub>b</sub></emphasis> ≠ 0 <newline/>Las palabras <emphasis>“igual que”</emphasis> le dicen que <emphasis effect="italics">H<sub>0</sub></emphasis> tiene un “=”. Ya que no hay otras palabras para indicar <emphasis effect="italics">H<sub>a</sub></emphasis>, es más rápido o más lento. Se trata de una prueba de dos colas.
 </para><para id="element-529"><emphasis>Distribución para la prueba:</emphasis> Utilice <emphasis effect="italics">t<sub>df</sub></emphasis> donde <emphasis effect="italics">df</emphasis> se calcula con la fórmula <emphasis effect="italics">df</emphasis> para grupos independientes, dos medias poblacionales arriba. Con el empleo de la calculadora, los <emphasis effect="italics">df</emphasis> son aproximadamente 18,8462. </para><para id="element-90"><emphasis>Gráfico:</emphasis></para>
-<para id="element-210"><figure id="hyptest22_cmp1"><media id="id18963169" alt="Esta es una curva de distribución normal que representa la diferencia en la media de tiempo que las niñas y los niños practican deportes durante todo el día. La media es igual a cero, y los valores -1,2, 0 y 1,2 están marcados en el eje horizontal. Dos líneas verticales se extienden desde -1,2 y 1,2 hasta la curva. La región a la izquierda de x = -1,2 y la región a la derecha de x = 1,2 están sombreadas para representar el valor p. El área de cada región es de 0,0028.">
+<para id="element-210"><figure id="hyptest22_cmp1"><media id="id18963169" alt="Esta es una curva de distribución normal que representa la diferencia en el promedio de tiempo que las niñas y los niños practican deportes durante todo el día. La media es igual a cero, y los valores -1,2, 0 y 1,2 están marcados en el eje horizontal. Dos líneas verticales se extienden desde -1,2 y 1,2 hasta la curva. La región a la izquierda de x = –1,2 y la región a la derecha de x = 1,2 están sombreadas para representar el valor p. El área de cada región es de 0,0028.">
 <image mime-type="image/jpg" src="../../media/fig-ch10_01_02m.jpg" width="380"/>
 </media>
-</figure><equation class="unnumbered" id="eip-id1166871343209">Los términos <m:math><m:msub><m:mtext>t</m:mtext><m:mtext>c</m:mtext></m:msub>
+</figure><equation class="unnumbered" id="eip-id1166871343209"><label/><m:math><m:msub><m:mtext>t</m:mtext><m:mtext>c</m:mtext></m:msub>
 <m:mo>=</m:mo>
 <m:mfrac>
-<m:mrow><m:mo>(</m:mo><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover></m:mrow><m:mn>1</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msub><m:mo>)</m:mo><m:mo>- −</m:mo><m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>1</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msub><m:mo>)</m:mo><m:mo>–</m:mo><m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub></m:mrow>
 <m:mrow>
 <m:msqrt><m:mrow><m:mfrac><m:msubsup><m:mi>S</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mfrac></m:mrow>
 <m:mo>+</m:mo>
@@ -443,20 +443,20 @@
 <m:mo>=</m:mo>
 
 <m:mn>-3,01</m:mn>
-</m:math></equation></para><para id="eip-id1163882983053">A continuación, hallamos el valor crítico en la tabla t con los grados de libertad anteriores. El valor crítico, 2,093, se encuentra en la columna 0,025, es decir, α/2, con 19 grados de libertad. (La convención es redondear los grados de libertad para que la conclusión sea más conservadora). A continuación, calculamos el estadístico de prueba y lo marcamos en el gráfico de la distribución t. </para><para id="element-823"><emphasis>Tome una decisión:</emphasis> Ya que el valor t calculado está en la cola, no podemos aceptar la hipótesis nula de que no hay diferencia entre los dos grupos. Las medias son diferentes.</para><para id="eip-id1168432132959">En el gráfico se incluye la distribución muestral de las diferencias de las medias muestrales para indicar cómo se alinea la distribución t con los datos de la distribución muestral. Vemos en el panel superior que la diferencia calculada en las dos medias es de -1,2 y el panel inferior muestra que es de 3,01 desviaciones estándar a partir de la media. Normalmente no necesitamos mostrar el gráfico de la distribución muestral y nos basamos en el gráfico del estadístico de prueba, la distribución t en este caso, para llegar a nuestra conclusión.</para><para id="element-914"><emphasis>Conclusión:</emphasis> A un nivel de significación del 5 %, los datos de la muestra apuntan a que hay pruebas suficientes para concluir que la media de horas que el turno G tarda en procesar 100 libras de cocos es diferente de la del turno B (la media de horas del turno B es mayor que la del turno G).</para></solution>
+</m:math></equation></para><para id="eip-id1163882983053">A continuación, hallamos el valor crítico en la tabla t con los grados de libertad anteriores. El valor crítico, 2,093, se encuentra en la columna 0,025, es decir, α/2, con 19 grados de libertad. (La convención es redondear los grados de libertad para que la conclusión sea más conservadora). A continuación, calculamos el estadístico de prueba y lo marcamos en el gráfico de la distribución t. </para><para id="element-823"><emphasis>Tome una decisión:</emphasis> Ya que el valor t calculado está en la cola, no podemos aceptar la hipótesis nula de que no hay diferencia entre los dos grupos. Las medias son diferentes.</para><para id="eip-id1168432132959">En el gráfico se incluye la distribución muestral de las diferencias de las medias muestrales para indicar cómo se alinea la distribución t con los datos de la distribución muestral. Vemos en el panel superior que la diferencia calculada en las dos medias es de –1,2 y el panel inferior muestra que es de 3,01 desviaciones típicas a partir de la media. Normalmente no necesitamos mostrar el gráfico de la distribución muestral y nos basamos en el gráfico del estadístico de prueba, la distribución t en este caso, para llegar a nuestra conclusión.</para><para id="element-914"><emphasis>Conclusión:</emphasis> A un nivel de significación del 5 %, los datos de la muestra apuntan a que hay pruebas suficientes para concluir que la media de horas que el turno G tarda en procesar 100 libras de cocos es diferente de la del turno B (la media de horas del turno B es mayor que la del turno G).</para></solution>
 </exercise></example><note id="fs-idm50414208">
-
+<label/>
 <title>NOTA</title>
 <para id="fs-idm204425680">Cuando la suma de los tamaños de las muestras es mayor que 30 (<emphasis effect="italics">n</emphasis><sub>1</sub> + <emphasis effect="italics">n</emphasis><sub>2</sub> > 30), se puede utilizar la distribución normal para calcular aproximadamente la <emphasis effect="italics">t</emphasis> de Student.</para></note>
 
-<example id="element-968"><para id="eip-813">Se realiza un estudio para determinar si la empresa A conserva a sus trabajadores durante más tiempo que la empresa B. Se cree que la empresa A tiene mayor retención que la empresa B. El estudio determina que el tiempo promedio en una muestra de 11 trabajadores de la empresa A es de cuatro años, con una desviación estándar de 1,5 años. Una muestra de 9 trabajadores de la empresa B revela que el promedio del tiempo de permanencia fue de 3,5 años, con una desviación estándar de 1 año. Ensaye esta proposición al nivel de significación del 1 %.</para><exercise id="fs-idm178911728"><problem id="fs-idm177203296">
+<example id="element-968"><para id="eip-813">Se realiza un estudio para determinar si la compañía A conserva a sus trabajadores durante más tiempo que la compañía B. Se cree que la compañía A tiene mayor retención que la compañía B. El estudio determina que el tiempo promedio en una muestra de 11 trabajadores de la compañía A es de cuatro años, con una desviación típica de 1,5 años. Una muestra de 9 trabajadores de la compañía B revela que el promedio del tiempo de permanencia fue de 3,5 años, con una desviación típica de 1 año. Pruebe esta proposición al nivel de significación del 1 %.</para><exercise id="fs-idm178911728"><problem id="fs-idm177203296">
 <para id="fs-idm171395200">a. ¿Se trata de una prueba de dos medias o de dos proporciones?</para>
 </problem>
 <solution id="fs-idm36568576">
 <para id="fs-idm78962816">a. Dos medias porque el tiempo es una variable aleatoria continua.<newline count="2"/></para></solution>
 </exercise><exercise id="fs-idm194746624">
 <problem id="fs-idm227630576">
-<para id="fs-idm227630448">b. ¿Las desviaciones estándar de las poblaciones son conocidas o desconocidas?</para></problem>
+<para id="fs-idm227630448">b. ¿Las desviaciones típicas de las poblaciones son conocidas o desconocidas?</para></problem>
 <solution id="fs-idm217237904">
 <para id="fs-idm217237776">b. desconocidas<newline count="2"/></para>
 </solution>
@@ -481,7 +481,7 @@
         </m:mover>
         <m:mi>A</m:mi>
       </m:msub>
-      <m:mo>¯</m:mo><m:msub>
+      <m:mo>–</m:mo><m:msub>
         <m:mover accent="true">
           <m:mi>X</m:mi>
           <m:mo>¯</m:mo>
@@ -497,7 +497,7 @@
 </problem>
 <solution id="fs-idm147502464">
 <para id="fs-idm206451408">e <list id="fs-idp21552016" list-type="bulleted"><item>
-  Los términos <m:math>
+  <m:math>
     <m:mrow>
       <m:msub>
         <m:mi>H</m:mi>
@@ -515,7 +515,7 @@
   </m:math>
 </item>
 <item>
-  Los términos <m:math>
+  <m:math>
     <m:mrow>
       <m:msub>
         <m:mi>H</m:mi>
@@ -544,10 +544,10 @@
 
 <exercise id="fs-idm146752960">
 <problem id="fs-idm148661808"><para id="fs-idm148661680">g. ¿Cuál es el valor del estadístico de prueba?</para></problem>
-<solution id="fs-idm79675952"><para id="fs-idm106536048">Los términos <m:math><m:msub><m:mtext>t</m:mtext><m:mtext>c</m:mtext></m:msub>
+<solution id="fs-idm79675952"><para id="fs-idm106536048"><m:math><m:msub><m:mtext>t</m:mtext><m:mtext>c</m:mtext></m:msub>
 <m:mo>=</m:mo>
 <m:mfrac>
-<m:mrow><m:mo>(</m:mo><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover></m:mrow><m:mn>1</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msub><m:mo>)</m:mo><m:mo>- −</m:mo><m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>1</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msub><m:mo>)</m:mo><m:mo>–</m:mo><m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub></m:mrow>
 <m:mrow>
 <m:msqrt><m:mrow><m:mfrac><m:msubsup><m:mi>S</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mfrac></m:mrow>
 <m:mo>+</m:mo>
@@ -564,26 +564,26 @@
 
 <exercise id="fs-idm176691440">
 <problem id="fs-idp29101808"><para id="fs-idp29101936">h. ¿Puede aceptar o rechazar la hipótesis nula?</para></problem>
-<solution id="fs-idm36842944"><para id="fs-idm36842816">h. No se puede rechazar la hipótesis nula de que no hay diferencia entre los dos grupos. La estadística de la prueba no está en la cola. El valor crítico de la distribución <emphasis effect="italics">t</emphasis> es de 2,764 con 10 grados de libertad. Este ejemplo pone de manifiesto lo difícil que es rechazar una hipótesis nula con una muestra muy pequeña. Los valores críticos requieren estadísticas de la prueba muy grandes para alcanzar la cola. <newline count="2"/> </para></solution>
+<solution id="fs-idm36842944"><para id="fs-idm36842816">h. No se puede rechazar la hipótesis nula de que no hay diferencia entre los dos grupos. El estadístico de prueba no está en la cola. El valor crítico de la distribución <emphasis effect="italics">t</emphasis> es de 2,764 con 10 grados de libertad. Este ejemplo pone de manifiesto lo difícil que es rechazar una hipótesis nula con una muestra muy pequeña. Los valores críticos requieren estadísticas de la prueba muy grandes para alcanzar la cola. <newline count="2"/> </para></solution>
 </exercise>
 
 <exercise id="fs-idm65144592">
 <problem id="fs-idm153855872"><para id="fs-idm41056320">i. <emphasis>Conclusión:</emphasis></para></problem>
-<solution id="fs-idm31976880"><para id="fs-idm31976752">i. Al nivel de significación del 1 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que la retención de los trabajadores en la empresa A sea más grande que la de la empresa B, en promedio.</para></solution>
+<solution id="fs-idm31976880"><para id="fs-idm31976752">i. Al nivel de significación del 1 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que la retención de los trabajadores en la compañía A sea más grande que la de la compañía B, en promedio.</para></solution>
 </exercise></example><example id="fs-id1166111878381"><exercise id="eip-417"><problem id="eip-121">
-  <para id="eip-708">Una pregunta interesante de la investigación es el efecto, si es que lo hay, que tienen los diferentes tipos de formatos de enseñanza en las calificaciones de los estudiantes. Para investigar esta cuestión, se tomó una muestra de las calificaciones en una clase híbrida y otra muestra de una típica clase magistral. Ambas clases eran para la misma asignatura. La calificación media porcentual para los 35 estudiantes híbridos es de 74, con desviación estándar de 16. La media de las calificaciones de los 40 alumnos de la típica clase magistral fue del 76 %, con desviación estándar de 9. Pruebe al 5 % para ver si hay alguna diferencia significativa en las media de calificaciones entre la típica clase magistral y la clase híbrida.
+  <para id="eip-708">Una pregunta interesante de la investigación es el efecto, si es que lo hay, que tienen los diferentes tipos de formatos de enseñanza en las calificaciones de los estudiantes. Para investigar esta cuestión se tomó una muestra de las notas en una clase híbrida y otra muestra de una clase magistral regular. Ambas clases eran para la misma asignatura. La calificación media porcentual para los 35 estudiantes híbridos es de 74, con una desviación típica de 16. La media de las notas de los 40 estudiantes de la clase magistral regular fue del 76 %, con desviación típica de 9. Pruebe al 5 % para ver si hay alguna diferencia significativa en las media de notas entre la clase magistral regular y la clase híbrida.
   </para></problem>
 
 <solution id="eip-878">
 
-  <para id="eip-id5615881">Comenzamos por destacar que tenemos dos grupos: estudiantes de una clase híbrida y estudiantes de una típica clase magistral. También observamos que la variable aleatoria, lo que nos interesa, son las calificaciones de los alumnos, esto es, una variable aleatoria continua. Podríamos haber formulado la pregunta de investigación de otra manera y tener una variable aleatoria binaria. Por ejemplo, podríamos haber estudiado el porcentaje de alumnos reprobados o con una calificación de sobresaliente. Ambos serían binarios y, por lo tanto, sería una prueba de proporciones y no una de medias, como es el caso. Por último, no hay ninguna presunción sobre qué formato podría conducir a calificaciones más altas, por lo que la hipótesis se plantea como una prueba de dos colas.
+  <para id="eip-id5615881">Comenzamos por destacar que tenemos dos grupos: estudiantes de una clase híbrida y estudiantes de una clase magistral regular. También observamos que la variable aleatoria, lo que nos interesa, son las notas de los estudiantes, esto es, una variable aleatoria continua. Podríamos haber formulado la pregunta de investigación de otra manera y tener una variable aleatoria binaria. Por ejemplo, podríamos haber estudiado el porcentaje de estudiantes reprobados o con una calificación de A. Ambos serían binarios y, por lo tanto, sería una prueba de proporciones y no una de medias, como es el caso. Por último, no hay ninguna presunción sobre qué formato podría conducir a notas más altas, por lo que la hipótesis se plantea como una prueba de dos colas.
 </para>
 <para id="eip-id5615887">H<sub>0</sub>: <emphasis effect="italics">µ</emphasis><sub>1</sub> = <emphasis effect="italics">µ</emphasis><sub>2</sub> <newline/>H<sub>a</sub>: <emphasis effect="italics">µ</emphasis><sub>1</sub> ≠ <emphasis effect="italics">µ</emphasis><sub>2</sub>
-</para><para id="eip-id5665209">Como ocurre casi siempre, desconocemos las varianzas poblacionales de las dos distribuciones; por ende, nuestra estadística de la prueba es:
-</para><equation class="unnumbered" id="eip-id5635102">Los términos <m:math><m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>(</m:mo><m:msub><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mn>2</m:mn></m:msub><m:mo>)</m:mo><m:mo>- −</m:mo><m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:msqrt><m:mrow><m:mfrac><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mfrac><m:mo>+</m:mo><m:mfrac><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mfrac></m:mrow></m:msqrt></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>74</m:mn><m:mo>- −</m:mo><m:mn>76</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>0</m:mn></m:mrow><m:msqrt><m:mrow><m:mfrac><m:msup><m:mn>16</m:mn><m:mn>2</m:mn></m:msup><m:mn>35</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:msup><m:mn>9</m:mn><m:mn>2</m:mn></m:msup><m:mn>40</m:mn></m:mfrac></m:mrow></m:msqrt></m:mfrac><m:mo>=</m:mo><m:mn>-0,65</m:mn></m:math>
+</para><para id="eip-id5665209">Como ocurre casi siempre, desconocemos las varianzas poblacionales de las dos distribuciones; por ende, nuestro estadístico de prueba es:
+</para><equation class="unnumbered" id="eip-id5635102"><label/><m:math><m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>(</m:mo><m:msub><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mn>1</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mn>2</m:mn></m:msub><m:mo>)</m:mo><m:mo>–</m:mo><m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:msqrt><m:mrow><m:mfrac><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mfrac><m:mo>+</m:mo><m:mfrac><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mfrac></m:mrow></m:msqrt></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>74</m:mn><m:mo>–</m:mo><m:mn>76</m:mn><m:mo>)</m:mo><m:mo>–</m:mo><m:mn>0</m:mn></m:mrow><m:msqrt><m:mrow><m:mfrac><m:msup><m:mn>16</m:mn><m:mn>2</m:mn></m:msup><m:mn>35</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:msup><m:mn>9</m:mn><m:mn>2</m:mn></m:msup><m:mn>40</m:mn></m:mfrac></m:mrow></m:msqrt></m:mfrac><m:mo>=</m:mo><m:mn>–0,65</m:mn></m:math>
 </equation><para id="eip-id5324791">
-Para determinar el valor crítico de la t de Student necesitamos los grados de libertad. En este caso utilizamos: df = n1 + n2 - 2 = 35 + 40 -2 = 73. Esto es lo suficientemente grande como para considerarla la distribución normal, por lo que t<sub>a/2</sub> = 1,96. De nuevo, como siempre, determinamos si el valor calculado está en la cola definida por el valor crítico. En este caso, ni siquiera es necesario buscar el valor crítico: el cálculo de la diferencia entre las dos medias de calificaciones no tiene ni siquiera una desviación estándar. Ciertamente no en la cola.
-</para><para id="eip-id5325128"><emphasis>Conclusión: No se puede rechazar la nulidad a α=5 %. Por consiguiente, no existen pruebas que demuestren que las calificaciones de la clase híbrida y las de la típica clase magistral sean diferentes.</emphasis></para></solution>
+Para determinar el valor crítico de la t de Student necesitamos los grados de libertad. En este caso utilizamos: df = n1 + n2 – 2 = 35 + 40 –2 = 73. Esto es lo suficientemente grande como para considerarla la distribución normal, por lo que t<sub>a/2</sub> = 1,96. De nuevo, como siempre, determinamos si el valor calculado está en la cola definida por el valor crítico. En este caso, ni siquiera es necesario buscar el valor crítico: el cálculo de la diferencia entre los dos promedios de notas no tiene ni siquiera una desviación típica. Ciertamente no en la cola.
+</para><para id="eip-id5325128"><emphasis>Conclusión: No se puede rechazar la nulidad a α=5 %. Por consiguiente, no existen pruebas que demuestren que las notas de la clase híbrida y las de la clase magistral regular sean diferentes.</emphasis></para></solution>
 </exercise></example><section id="eip-137" class="references">
 <title>Referencias</title>
 <para id="eip-204">Datos de las carreras de Ingeniería e Informática. Disponible en línea en http://www.graduatingengineer.com</para><para id="fs-idp6735712">Datos de <emphasis effect="italics">Microsoft Bookshelf</emphasis>.</para><para id="fs-idm54110288">Datos del sitio web del Senado de Estados Unidos, disponibles en línea en www.Senate.gov (consultado el 17 de junio de 2013).</para>
@@ -596,7 +596,7 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 </section>
 <section id="fs-idm178063424" class="summary">
 <title>Repaso del capítulo</title>
-<para id="fs-idm116979232">Dos medias poblacionales de muestras independientes en las que se desconocen las desviaciones estándar de la población.</para>
+<para id="fs-idm116979232">Dos medias poblacionales de muestras independientes en las que se desconocen las desviaciones típicas de la población.</para>
 <list id="fs-idm111534432" list-type="bulleted"><item>Variable aleatoria: <m:math>
  <m:mrow>
   <m:msub>
@@ -618,7 +618,7 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 
  </m:mrow>
 </m:math> = la diferencia de las medias muestrales</item>
-<item>Distribución: Distribución-t de Student con grados de libertad (varianzas sin agrupar).</item>
+<item>Distribución: Distribución <emphasis effect="italics">t</emphasis> de Student con grados de libertad (varianzas sin agrupar).</item>
 </list></section>
 <section id="fs-idm147993376" class="formula-review">
 <title>Repaso de la fórmula</title>
@@ -677,7 +677,7 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
     </m:mrow>
   </m:math>
     </para>
-<para id="fs-idm105811424">Estadística de la prueba (puntuación <emphasis effect="italics">t</emphasis>): <emphasis effect="italics">t<sub>c</sub></emphasis> = <m:math>
+<para id="fs-idm105811424">Estadístico de prueba (puntuación <emphasis effect="italics">t</emphasis>): <emphasis effect="italics">t<sub>c</sub></emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -689,7 +689,7 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 
      <m:mn>1</m:mn>
     </m:msub>
-    <m:mo>-</m:mo><m:msub>
+    <m:mo>–</m:mo><m:msub>
      <m:mover accent="true">
       <m:mi>x</m:mi>
       <m:mo>¯</m:mo>
@@ -697,7 +697,7 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 
      <m:mn>2</m:mn>
     </m:msub>
-    <m:mo stretchy="false">)</m:mo><m:mo>- −</m:mo><m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub>
+    <m:mo stretchy="false">)</m:mo><m:mo>–</m:mo><m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub>
    </m:mrow>
    <m:mrow>
     <m:msqrt>
@@ -825,7 +825,7 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
          <m:mi>n</m:mi>
          <m:mn>1</m:mn>
         </m:msub>
-        <m:mo>-</m:mo><m:mn>1</m:mn>
+        <m:mo>–</m:mo><m:mn>1</m:mn>
        </m:mrow>
       </m:mfrac>
 
@@ -909,8 +909,8 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 
  </m:mrow>
 </m:math></para><para id="fs-idm98284352">donde:</para>
-<para id="fs-idm92032864">Los términos <m:math><m:msub><m:mi>s</m:mi><m:mn>1</m:mn></m:msub></m:math> y <m:math><m:msub><m:mi>s</m:mi><m:mn>2</m:mn></m:msub></m:math> son las desviaciones estándar de la muestra, y <m:math><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:math> y <m:math><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:math> son los tamaños de las muestras.</para>
-<para id="fs-idm32210368">Los términos <m:math>
+<para id="fs-idm92032864"><m:math><m:msub><m:mi>s</m:mi><m:mn>1</m:mn></m:msub></m:math> y <m:math><m:msub><m:mi>s</m:mi><m:mn>2</m:mn></m:msub></m:math> son las desviaciones típicas de la muestra, y <m:math><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:math> y <m:math><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:math> son los tamaños de las muestras.</para>
+<para id="fs-idm32210368"><m:math>
 <m:mrow>
 <m:msub>
 <m:mover accent="true">
@@ -936,8 +936,8 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 
 <section id="fs-idm9464368" class="practice">
 <para id="fs-idm124875168"><emphasis effect="italics">Use la siguiente información para responder los próximos 15 ejercicios:</emphasis> Indique si la prueba de hipótesis es para:</para><list id="fs-idm45665008" list-type="enumerated" number-style="lower-alpha">
-<item>medias de grupos independientes, desviaciones estándar de la población o varianzas conocidas</item>
-<item>medias de grupos independientes, desviaciones estándar de la población o varianzas desconocidas</item>
+<item>medias de grupos independientes, desviaciones típicas de la población o varianzas conocidas</item>
+<item>medias de grupos independientes, desviaciones típicas de la población o varianzas desconocidas</item>
 <item>muestras coincidentes o emparejadas</item>
 <item>media simple</item>
 <item>dos proporciones</item>
@@ -969,13 +969,13 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 </exercise>
 <exercise id="fs-idm120536064">
 <problem id="fs-idm68027168">
-<para id="fs-idm68026912">La desviación estándar conocida del salario de todos los profesionales de nivel intermedio en el sector financiero es de 11.000 dólares. La empresa A y la empresa B pertenecen al sector financiero. Supongamos que se toman muestras de profesionales de nivel intermedio en las empresas A y B. El salario en la media muestral de los profesionales de nivel intermedio en la empresa A es de 80.000 dólares. El salario medio de la muestra para los profesionales de nivel intermedio en la empresa B es de 96.000 dólares. Las direcciones de las empresas A y B quieren saber si la remuneración de sus profesionales de nivel intermedio es diferente, en promedio.</para>
+<para id="fs-idm68026912">La desviación típica conocida del salario de todos los profesionales de nivel intermedio en el sector financiero es de 11.000 dólares. La compañía A y la compañía B pertenecen al sector financiero. Supongamos que se toman muestras de profesionales de nivel intermedio en las compañías A y B. El salario en la media muestral de los profesionales de nivel intermedio en la compañía A es de 80.000 dólares. El salario medio de la muestra para los profesionales de nivel intermedio en la compañía B es de 96.000 dólares. Las gerencias de las compañías A y B quieren saber si la remuneración de sus profesionales de nivel intermedio es diferente, en promedio.</para>
 </problem>
 </exercise>
 
 <exercise id="fs-idp21825264">
 <problem id="fs-idp21825520">
-<para id="fs-idm175592768">El trabajador medio en Alemania cuenta con ocho semanas de vacaciones remuneradas.</para>
+<para id="fs-idm175592768">El trabajador promedio en Alemania cuenta con ocho semanas de vacaciones remuneradas.</para>
 </problem>
 <solution id="fs-idm81349024">
 <para id="fs-idm81348768">media sencilla</para>
@@ -989,15 +989,15 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 
 <exercise id="fs-idp3576048">
 <problem id="fs-idm27505984">
-<para id="fs-idm27505728">Se cree que el promedio de calificación en un ensayo en inglés en un sistema escolar concreto es más alto en las mujeres que en los hombres. La muestra aleatoria de 31 mujeres obtuvo una puntuación media de 82 con desviación estándar de 3, mientras que la muestra aleatoria de 25 hombres obtuvo una puntuación media de 76 con desviación estándar de 4.</para>
+<para id="fs-idm27505728">Se cree que el promedio de calificación en un ensayo en inglés en un sistema escolar concreto es más alto en las mujeres que en los hombres. La muestra aleatoria de 31 mujeres obtuvo una puntuación media de 82 con desviación típica de tres, mientras que la muestra aleatoria de 25 hombres obtuvo una puntuación media de 76 con desviación típica de cuatro.</para>
 </problem>
 <solution id="fs-idm27710704">
-<para id="fs-idm54785888">medias de grupos independientes, desviaciones estándar de la población o varianzas desconocidas</para>
+<para id="fs-idm54785888">medias de grupos independientes, desviaciones típicas de la población o varianzas desconocidas</para>
 </solution>
 </exercise>
 <exercise id="fs-idm32687376">
 <problem id="fs-idm32687120">
-  <para id="fs-idm32686864">El promedio de bateo de la liga es de 0,280 con desviación estándar conocida de 0,06. Los Rattlers y los Vikingos pertenecen a la liga. La media de bateo de una muestra de ocho jugadores de los Rattlers es de 0,210, mientras que la de los Vikingos es de 0,260. Hay 24 jugadores en el equipo de los Rattlers y 19 en el de los Vikingos. ¿Es el promedio de bateo de los Rattlers y de los Vikingos estadísticamente diferente?</para>
+  <para id="fs-idm32686864">El promedio de bateo de la liga es de 0,280 con desviación típica conocida de 0,06. Los Rattlers y los Vikingos pertenecen a la liga. El promedio de bateo de una muestra de ocho jugadores de los Rattlers es de 0,210, mientras que el de los Vikingos es de 0,260. Hay 24 jugadores en el equipo de los Rattlers y 19 en el de los Vikingos. ¿Es el promedio de bateo de los Rattlers y de los Vikingos estadísticamente diferente?</para>
 </problem>
 </exercise>
 
@@ -1015,10 +1015,10 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 
 <exercise id="fs-idm111997184">
 <problem id="fs-idm111996928">
-<para id="fs-idm35434864">Se cree que los adolescentes duermen más que los adultos en promedio. Se realiza un experimento para comprobarlo. Una muestra de 16 adolescentes tiene una media de 8,9 horas de sueño con desviación estándar de 1,2. Una muestra de 12 adultos tiene una media de 6,9 horas de sueño con una desviación estándar de 0,6.</para>
+<para id="fs-idm35434864">Se cree que los adolescentes duermen más que los adultos en promedio. Se realiza un experimento para comprobarlo. Una muestra de 16 adolescentes tiene una media de 8,9 horas de sueño con desviación típica de 1,2. Una muestra de 12 adultos tiene una media de 6,9 horas de sueño con una desviación típica de 0,6.</para>
 </problem>
 <solution id="fs-idm5318624">
-<para id="fs-idm5318368">medias de grupos independientes, desviaciones estándar de la población o varianzas desconocidas</para>
+<para id="fs-idm5318368">medias de grupos independientes, desviaciones típicas de la población o varianzas desconocidas</para>
 </solution>
 </exercise>
 <exercise id="fs-idm83613168">
@@ -1029,10 +1029,10 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 
 <exercise id="fs-idm155074576">
 <problem id="fs-idm187988384">
-<para id="fs-idm187988128">Una muestra de 12 programas de posgrado en el estado de la escuela A tiene una matrícula media de 64.000 dólares con desviación estándar de 8.000 dólares. En la escuela B, una muestra de 16 programas de posgrado en el estado tiene una media de 80.000 dólares con desviación estándar de 6.000 dólares. En promedio, ¿son diferentes las matrículas medias?</para>
+<para id="fs-idm187988128">Una muestra de 12 programas de posgrado en el estado de la escuela A tiene una matrícula media de 64.000 dólares con desviación típica de 8.000 dólares. En la escuela B, una muestra de 16 programas de posgrado en el estado tiene una media de 80.000 dólares con desviación típica de 6.000 dólares. En promedio, ¿son diferentes las matrículas medias?</para>
 </problem>
 <solution id="fs-idm63313632">
-<para id="fs-idm86332592">medias de grupos independientes, desviaciones estándar de la población o varianzas desconocidas</para>
+<para id="fs-idm86332592">medias de grupos independientes, desviaciones típicas de la población o varianzas desconocidas</para>
 </solution>
 </exercise>
 
@@ -1051,9 +1051,9 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 </solution>
 </exercise>
 
-<para id="eip-980"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios:</emphasis> Se realiza un experimento para determinar cuál de dos bebidas gaseosas tiene más azúcar. Hay 13 latas de la bebida A en una muestra y seis latas de la bebida B. La cantidad media de azúcar en la Bebida A es de 36 gramos con desviación estándar de 0,6 gramos. La cantidad media de azúcar en la bebida B es de 38 gramos con desviación estándar de 0,8 gramos. Los investigadores creen que la bebida B tiene más azúcar que la bebida A, en promedio. Ambas poblaciones tienen distribuciones normales.</para><exercise id="fs-idm174647808">
+<para id="eip-980"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios:</emphasis> se realiza un experimento para determinar cuál de dos bebidas gaseosas tiene más azúcar. Hay 13 latas de la bebida A en una muestra y seis latas de la bebida B. La cantidad media de azúcar en la bebida A es de 36 gramos con desviación típica de 0,6 gramos. La cantidad media de azúcar en la bebida B es de 38 gramos con desviación típica de 0,8 gramos. Los investigadores creen que la bebida B tiene más azúcar que la bebida A, en promedio. Ambas poblaciones tienen distribuciones normales.</para><exercise id="fs-idm174647808">
 <problem id="fs-idm80739952">
-<para id="fs-idm174134640">¿Las desviaciones estándar son conocidas o desconocidas?</para></problem>
+<para id="fs-idm174134640">¿Las desviaciones típicas son conocidas o desconocidas?</para></problem>
 </exercise>
 
 <exercise id="fs-idm213711120">
@@ -1070,7 +1070,7 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 </problem>
 </exercise>
 
- <para id="eip-356"><emphasis effect="italics">Utilice la siguiente información para responder los siguientes 12 ejercicios:</emphasis> The U.S. Center for Disease Control reports that the mean life expectancy was 47.6 years for White people born in 1900 and 33.0 years for non-White people. Supongamos que usted realiza un estudio aleatorio de los registros de defunción de las personas nacidas en 1900 en un determinado condado. Of the 124 White people, the mean life span was 45.3 years with a standard deviation of 12.7 years. Of the 82 non-White people, the mean life span was 34.1 years with a standard deviation of 15.6 years. Conduct a hypothesis test to see if the mean life spans in the county were the same for White and non-White people.</para><exercise id="fs-idm77134224">
+ <para id="eip-356"><emphasis effect="italics">Utilice la siguiente información para responder los siguientes 12 ejercicios:</emphasis> El Centro para el Control y la Prevención de Enfermedades de EE. UU. informa que la esperanza de vida media era de 47,6 años para personas blancas nacidas en 1900 y de 33,0 años para las personas que no son blancas. Supongamos que usted realiza un estudio aleatorio de los registros de defunción de las personas nacidas en 1900 en un determinado condado. De las 124 personas blancas, la media de vida era de 45,3 años, con una desviación típica de 12,7 años. De las 82 personas que no son blancas, la media de vida era de 34,1 años, con una desviación típica de 15,6 años. Realice una prueba de hipótesis para ver si la media de vida en el condado es la misma para las personas blancas y las que no son blancas.</para><exercise id="fs-idm77134224">
 <problem id="fs-idm77133968">
 <para id="fs-idm82811296">¿Se trata de una prueba de medias o de proporciones?</para>
 </problem>
@@ -1109,20 +1109,20 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 <para id="fs-idm147821728">En palabras, defina la variable aleatoria de interés para esta prueba.</para>
 </problem>
 <solution id="fs-idm2327840">
-<para id="fs-idm2327584">the difference between the mean life spans of White and non-White people</para>
+<para id="fs-idm2327584">la diferencia entre la duración media de la vida de personas blancas y personas que no son blancas</para>
 </solution>
 </exercise>
 
 <exercise id="fs-idm17957104">
 <problem id="fs-idm17956848">
-<para id="fs-idm100280816">¿Qué distribución (normal o <emphasis effect="italics">t</emphasis>de Student) utilizaría para esta prueba de hipótesis?</para></problem>
+<para id="fs-idm100280816">¿Qué distribución (normal o <emphasis effect="italics">t</emphasis> de Student) utilizaría para esta prueba de hipótesis?</para></problem>
 </exercise>
 
 <exercise id="fs-idm121049024">
 <problem id="fs-idm121048768">
-  <para id="fs-idm121048512">Explique por qué eligió la distribución que hizo para <link target-id="fs-idm17957104"/>.</para></problem>
+  <para id="fs-idm121048512">Explique por qué eligió la distribución que hizo para el <link target-id="fs-idm17957104"/>.</para></problem>
 <solution id="eip-idp105137344">
-<para id="eip-idp105137600">Se trata de una comparación de dos medias poblacionales con desviaciones estándar poblacionales desconocidas.</para>
+<para id="eip-idp105137600">Se trata de una comparación de dos medias poblacionales con desviaciones típicas poblacionales desconocidas.</para>
 </solution>
 </exercise>
 
@@ -1136,7 +1136,7 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 <para id="fs-idm120924176">Dibuje un gráfico de la situación. Etiquete el eje horizontal. Marque la diferencia hipotética y la diferencia muestral. Sombree el área correspondiente al valor <emphasis effect="italics">p</emphasis>.</para>
 </problem>
   <solution id="fs-idp104610560">
-    <para id="fs-idp104610816">Compruebe la solución del estudiante</para>
+    <para id="fs-idp104610816">Compruebe la solución del estudiante.</para>
   </solution>
 </exercise>
 
@@ -1153,7 +1153,7 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
   <list id="fs-idp229240368" list-type="enumerated" number-style="lower-alpha">
     <item>No se puede aceptar la hipótesis nula</item>
       <item>valor <emphasis effect="italics">p</emphasis> &lt; 0,05</item>
-      <item>There is not enough evidence at the 5% level of significance to support the claim that life expectancy in the 1900s is different between White and non-White people.</item>
+      <item>No hay pruebas suficientes al nivel de significación del 5 % para respaldar la afirmación de que la esperanza de vida en la década de 1900 es diferente entre los blancos y los no blancos.</item>
   </list>
   </solution>
 </exercise>
@@ -1167,19 +1167,19 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 <section id="fs-idm173509824" class="free-response">
 <title>Tarea para la casa</title>
 <exercise id="fs-idm164128"><problem id="fs-idm163872">
-<para id="fs-idm163616">Se cree que el número medio de cursos de inglés realizados en un periodo de dos años por los estudiantes de educación superior hombres y mujeres es aproximadamente igual. Se realiza un experimento y se recopilan datos de 29 hombres y 16 mujeres. Los hombres tomaron una media de tres cursos de inglés, con desviación estándar de 0,8. Las mujeres tomaron una media de cuatro cursos de inglés, con desviación estándar de 1,0. ¿Son las medias estadísticamente iguales?</para>
+<para id="fs-idm163616">Se cree que el número medio de cursos de inglés realizados en un periodo de dos años por los estudiantes de educación superior hombres y mujeres es aproximadamente igual. Se realiza un experimento y se recopilan datos de 29 hombres y 16 mujeres. Los hombres tomaron tres cursos de inglés en promedio, con desviación típica de 0,8. Las mujeres tomaron cuatro cursos de inglés en promedio, con desviación típica de 1,0. ¿Son las medias estadísticamente iguales?</para>
 </problem>
 </exercise>
 
 
 <exercise id="fs-idm8894688">
 <problem id="fs-idm8894432">
-<para id="fs-idm185269312">Un estudiante de una universidad de cuatro años afirma que la media de matriculación en las universidades de cuatro años es mayor que en los colegios universitarios de dos años en Estados Unidos. Se realizan dos encuestas. De los 35 colegios universitarios de dos años encuestados, la media de matriculación era de 5.068, con desviación estándar de 4.777. De las 35 universidades de cuatro años encuestadas, la media de matriculación era de 5.466, con desviación estándar de 8.191.</para></problem>
+<para id="fs-idm185269312">Un estudiante de una universidad de cuatro años afirma que la media de matriculación en las universidades de cuatro años es mayor que en los colegios universitarios de dos años en Estados Unidos. Se realizan dos encuestas. De los 35 institutos universitarios de dos años encuestados la media de matriculación era de 5.068, con desviación típica de 4.777. De los 35 institutos universitarios de cuatro años encuestados, la media de matriculación era de 5.466, con desviación típica de 8.191.</para></problem>
 <solution id="fs-idp138385488">
   <para id="fs-idm89316432">Subíndices: 1: colegios universitarios de dos años; 2: universidades de cuatro años</para>
-  <list id="fs-idm89316048" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≥</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
-    <item>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
-    <item>Los términos <m:math>
+  <list id="fs-idm89316048" list-type="enumerated" number-style="lower-alpha"><item><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≥</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+    <item><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+    <item><m:math>
  <m:mrow>
   <m:msub>
    <m:mover accent="true">
@@ -1199,16 +1199,16 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
   </m:msub>
 
  </m:mrow>
-</m:math> es la diferencia entre la media de matriculación en los colegios universitarios de dos años y en nlas universidades de cuatro años.</item>
+</m:math> es la diferencia entre la media de matriculación en los institutos universitarios de dos años y en las universidades de cuatro años.</item>
     <item><emphasis effect="italics">t</emphasis> de Student</item>
-    <item>estadística de la prueba: -0,2480</item>
+    <item>estadístico de prueba: –0,2480</item>
     <item>valor <emphasis effect="italics">p</emphasis>: 0,4019</item>
-    <item>Verifique la solución del estudiante.</item>
+    <item>Compruebe la solución del estudiante.</item>
     <item>
       <list id="fs-idp113692848" list-type="enumerated" number-style="lower-roman">
         <item>Alfa: 0,05</item>
         <item>Decisión: No se puede rechazar.</item>
-        <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>> alfa</item>
+        <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> > alfa</item>
         <item>Conclusión: A un nivel de significación del 5 %, hay pruebas suficientes para concluir que la media de matriculación en las universidades de cuatro años es mayor que en los colegios universitarios de dos años.</item>
       </list>
     </item>
@@ -1269,13 +1269,13 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 
 <exercise id="fs-idm122985232">
 <problem id="fs-idm122984976">
-<para id="fs-idm122984720">Se cree que la media de los salarios iniciales de los graduados universitarios con títulos de Ingeniería Mecánica y de Ingeniería Eléctrica es aproximadamente igual. Una oficina de contratación cree que el salario medio de los ingenieros mecánicos es en realidad más bajo que el de los ingenieros eléctricos. La oficina de contratación encuesta aleatoriamente a 50 ingenieros mecánicos de y a 60 ingenieros eléctricos de nivel inicial. Sus salarios medios fueron de 46.100 dólares y 46.700 dólares, respectivamente. Sus desviaciones estándar fueron de 3.450 dólares y 4.210 dólares, respectivamente. Realice una prueba de hipótesis para determinar si está de acuerdo en que el salario medio inicial de los ingenierios mecánicos es inferior al de los ingenieros eléctricos.</para>
+<para id="fs-idm122984720">Se cree que la media de los salarios iniciales de los graduados universitarios con títulos de Ingeniería Mecánica y de Ingeniería Eléctrica es aproximadamente igual. Una oficina de contratación cree que el salario medio de los ingenieros mecánicos es en realidad más bajo que el de los ingenieros eléctricos. La oficina de contratación encuesta aleatoriamente a 50 ingenieros mecánicos de y a 60 ingenieros eléctricos de nivel inicial. Sus salarios medios fueron de 46.100 dólares y 46.700 dólares, respectivamente. Sus desviaciones típicas fueron de 3.450 dólares y 4.210 dólares, respectivamente. Realice una prueba de hipótesis para determinar si está de acuerdo en que el salario medio inicial de los ingenieros mecánicos es inferior al de los ingenieros eléctricos.</para>
 </problem>
 <solution id="fs-idm188189904">
   <para id="fs-idp57225296">Subíndices: 1: ingeniería mecánica; 2: ingeniería eléctrica</para>
-  <list id="fs-idp195702880" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≥</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
-    <item>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
-    <item>Los términos <m:math>
+  <list id="fs-idp195702880" list-type="enumerated" number-style="lower-alpha"><item><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≥</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+    <item><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+    <item><m:math>
  <m:mrow>
   <m:msub>
    <m:mover accent="true">
@@ -1299,12 +1299,12 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
     <item><emphasis effect="italics">t</emphasis><sub>108</sub></item>
     <item>estadístico de prueba: <emphasis effect="italics">t</emphasis> = –0,82</item>
     <item>valor <emphasis effect="italics">p</emphasis>: 0,2061</item>
-    <item>Verifique la solución del estudiante.</item>
+    <item>Compruebe la solución del estudiante.</item>
     <item>
     <list id="fs-idp3469344" list-type="enumerated" number-style="lower-roman">
       <item>Alfa: 0,05</item>
       <item>Decisión: No se puede rechazar la hipótesis nula.</item>
-      <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis>> alfa</item>
+      <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> > alfa</item>
       <item>Conclusión: A un nivel de significación del 5 % no hay pruebas suficientes para concluir que la media de los salarios iniciales de los ingenieros mecánicos es inferior a la de los ingenieros eléctricos.</item>
     </list>
     </item>
@@ -1314,19 +1314,19 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 
  <exercise id="fs-idm62206688">
 <problem id="fs-idm62206432">
-<para id="fs-idm105723088">Compañías de mercadeo han recopilado datos que implican que las adolescentes utilizan más tonos de llamada en sus teléfonos móviles que sus pares masculinos. En un estudio particular de 40 adolescentes elegidos al azar (20 de cada sexo) con teléfonos móviles, el número medio de tonos de llamada para las adolescentes era de 3,2 con desviación estándar de 1,5. La media de los varones fue de 1,7 con desviación estándar de 0,8. Realice una prueba de hipótesis para determinar si las medias son aproximadamente iguales o si la media de las chicas es mayor que la de los chicos.</para>
+<para id="fs-idm105723088">Compañías de mercadeo han recopilado datos que implican que las adolescentes utilizan más tonos de llamada en sus teléfonos móviles que sus pares masculinos. En un estudio particular de 40 adolescentes elegidos al azar (20 de cada sexo) con teléfonos móviles, el número medio de tonos de llamada para las chicas era de 3,2 con desviación típica de 1,5. La media de los chicos fue de 1,7 con desviación típica de 0,8. Realice una prueba de hipótesis para determinar si las medias son aproximadamente iguales o si la media de las chicas es mayor que la de los chicos.</para>
 </problem>
   </exercise>
 
 
-<para id="eip-21"><emphasis effect="italics">Use the information from Data Sets in <link document="m56641">Appendix A: Statistical Tables</link> to answer the next four exercises.</emphasis></para><exercise id="fs-idm50796704">
+<para id="eip-21"><emphasis effect="italics">Utilice la información del Conjunto de datos del <link document="m56641">Apéndice A: Tablas de estadísticas</link> para responder los siguientes cuatro ejercicios.</emphasis></para><exercise id="fs-idm50796704">
 <problem id="fs-idm50796448">
 <para id="fs-idm98236496">Con solo los datos de la vuelta 1, realice una prueba de hipótesis para determinar si el tiempo medio para completar una vuelta en las carreras es el mismo que en los entrenamientos.</para>
 </problem>
 <solution id="fs-idm73210192">
-  <list id="fs-idp184583584" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
-    <item>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≠</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
-    <item>Los términos <m:math>
+  <list id="fs-idp184583584" list-type="enumerated" number-style="lower-alpha"><item><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+    <item><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≠</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+    <item><m:math>
  <m:mrow>
   <m:msub>
    <m:mover accent="true">
@@ -1348,9 +1348,9 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
  </m:mrow>
 </m:math> es la diferencia entre los tiempos medios para completar una vuelta en las carreras y en los entrenamientos.</item>
       <item><emphasis effect="italics">t</emphasis><sub>20,32</sub></item>
-      <item>estadística de la prueba: -4,70</item>
+      <item>estadístico de prueba: –4,70</item>
       <item>valor <emphasis effect="italics">p</emphasis>: 0,0001</item>
-      <item>Verifique la solución del estudiante. </item>
+      <item>Compruebe la solución del estudiante. </item>
       <item>
         <list id="fs-idp173433584" list-type="enumerated" number-style="lower-roman">
           <item>Alfa: 0,05</item>
@@ -1372,13 +1372,13 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 <problem id="fs-idm54834800">
   <para id="fs-idm54834544">Repita la prueba en el <link target-id="fs-idm50796704"/>, pero esta vez combine los datos de las vueltas 1 y 5.</para></problem>
 <solution id="fs-idm39528240">
-  <list id="fs-idp172770560" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
-    <item>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≠</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+  <list id="fs-idp172770560" list-type="enumerated" number-style="lower-alpha"><item><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+    <item><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>≠</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
       <item>es la diferencia entre los tiempos medios para completar una vuelta en las carreras y en los entrenamientos.</item>
       <item><emphasis effect="italics">t</emphasis><sub>40,94</sub></item>
-      <item>estadística de la prueba: -5,08</item>
+      <item>estadístico de prueba: –5,08</item>
       <item>valor <emphasis effect="italics">p</emphasis>: cero</item>
-      <item>Verifique la solución del estudiante.</item>
+      <item>Compruebe la solución del estudiante.</item>
       <item>
       <list id="fs-idp77676896" list-type="enumerated" number-style="lower-roman"><item>Alfa: 0,05</item>
         <item>Decisión: No se puede aceptar la hipótesis nula</item>
@@ -1458,7 +1458,7 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 </exercise>
 
 <exercise id="fs-idm108118736"><problem id="fs-idm122622576">
-<para id="eip-idp273849808">Supongamos que un instructor de estadística cree que no hay ninguna diferencia significativa entre las puntuaciones medias de clase de los estudiantes de diurnos en el examen 2 y los estudiantes nocturnos en el examen 2. Toma muestras aleatorias de cada una de las poblaciones. La media y la desviación estándar de los 35 estudiantes diurnos de Estadística fueron de 75,86 y 16,91. La media y la desviación estándar de 37 estudiantes nocturnos de Estadística fueron de 75,41 y 19,73. El subíndice “día” se refiere a los estudiantes diurnos. El subíndice “noche” se refiere a los estudiantes nocturnos. La conclusión es:</para><list id="fs-idm122621936" list-type="enumerated" number-style="lower-alpha">
+<para id="eip-idp273849808">Supongamos que un instructor de estadística cree que no hay ninguna diferencia significativa entre las puntuaciones medias de clase de los estudiantes de diurnos en el examen 2 y los estudiantes nocturnos en el examen 2. Toma muestras aleatorias de cada una de las poblaciones. La media y la desviación típica de los 35 estudiantes diurnos de Estadística fueron de 75,86 y 16,91. La media y la desviación típica de 37 estudiantes nocturnos de Estadística fueron de 75,41 y 19,73. El subíndice “día” se refiere a los estudiantes diurnos. El subíndice “noche” se refiere a los estudiantes nocturnos. La conclusión es:</para><list id="fs-idm122621936" list-type="enumerated" number-style="lower-alpha">
     <item>Hay pruebas suficientes para concluir que la media de los estudiantes nocturnos de Estadística en el examen 2 sea mejor que la de los estudiantes diurnos.</item>
     <item>No hay pruebas suficientes para concluir que la media de los estudiantes diurnos de Estadística en el examen 2 sea mejor que la de los estudiantes nocturnos.</item>
     <item>No hay pruebas suficientes para concluir que exista una diferencia significativa entre las medias de los estudiantes diurnos de Estadística y los nocturnos en el examen 2.</item>
@@ -1470,29 +1470,29 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 
   <exercise id="fs-idm81478720">
         <problem id="fs-idp12884432">
-          <para id="fs-idp12884688">Elijah wants to know whether textbook costs are different for different courses of study. He selects a random sample of 33 sociology textbooks offered on a popular online site. The mean price of his sample is $74.64 with a standard deviation of $49.36. He then selects a random sample of 33 math and science textbooks from the same site. The mean price of this sample is $111.56 with a standard deviation of $66.90. Is the mean price of a sociology textbook lower than the mean price of a math or science textbook? Pruebe con un nivel de significación del 1 %.</para></problem>
+          <para id="fs-idp12884688">Elijah quiere saber si los costos de los libros de texto son diferentes para las distintas carreras. Selecciona una muestra aleatoria de 33 libros de texto de Sociología ofrecidos en un popular sitio web. El precio medio de su muestra es de 74,64 dólares, con una desviación típica de 49,36 dólares. A continuación, selecciona una muestra aleatoria de 33 libros de texto de Matemáticas y Ciencias del mismo sitio. El precio medio de esta muestra es de 111,56 dólares, con una desviación típica de 66,90 dólares. ¿El precio medio de un libro de texto de Sociología es inferior al de un libro de Matemáticas o Ciencias? Pruebe con un nivel de significación del 1 %.</para></problem>
         <solution id="fs-idm189266736">
-          <para id="fs-idm189266480">Ejercicio: dos medias muestrales independientes, desviaciones estándar poblacionales desconocidas.</para>
-          <para id="fs-idm7792944"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub></m:math> = the mean price of a sociology text on the selected site.</para>
-          <para id="fs-idm77929441"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math> = the mean price of a math/science text on the selected site.</para>
-          <para id="fs-idm77929442">Variable aleatoria: <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mover><m:msub><m:mi>X</m:mi><m:mn>1</m:mn></m:msub><m:mo>¯</m:mo></m:mover><m:mo>-</m:mo><m:mover><m:msub><m:mi>X</m:mi><m:mn>1</m:mn></m:msub><m:mo>¯</m:mo></m:mover></m:math> = the difference in the sample mean textbook price between sociology texts and math/science texts.</para>
-          <para id="fs-idm77929443">Hypotheses: <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo> </m:mo><m:mo>:</m:mo><m:mo> </m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo> </m:mo><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo> </m:mo><m:mo>:</m:mo><m:mo> </m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo> </m:mo><m:mo>-</m:mo><m:mo> </m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub><m:mo> </m:mo><m:mo>&lt;</m:mo><m:mo> </m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math> which can be expressed as <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi mathvariant="normal">H</m:mi><m:mn>0</m:mn><m:mi mathvariant="normal">s</m:mi><m:mo>:</m:mo><m:mo> </m:mo><m:mi mathvariant="normal">μ</m:mi><m:mn>1</m:mn><m:mo>-</m:mo><m:mi mathvariant="normal">μ</m:mi><m:mn>2</m:mn><m:mo>,</m:mo><m:mo> </m:mo><m:mi>Ha</m:mi><m:mo> </m:mo><m:mi mathvariant="normal">μ</m:mi><m:mn>1</m:mn><m:mo> </m:mo><m:mo>&lt;</m:mo><m:mo> </m:mo><m:mi mathvariant="normal">μ</m:mi><m:mn>2</m:mn></m:math>.</para>
-          <para id="fs-idm77929444">Distribución para la prueba: Utilice la sustitución en <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>t</m:mi><m:mrow><m:mi>d</m:mi><m:mi>f</m:mi></m:mrow></m:msub></m:math>; because each sample has more than 30 observations, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>d</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>33</m:mn><m:mo>+</m:mo><m:mn>33</m:mn><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>64</m:mn></m:math>.</para>
-          <para id="fs-idm77929445">Estimate the critical value on the <m:math><m:mi>t</m:mi></m:math>-table using the nearest available degrees of freedom, 60. The critical value, 2.660, is found in the .0005 column. </para>
-          <para id="fs-idm77929446">Calculate the test statistic: <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>(</m:mo><m:msub><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mn>2</m:mn></m:msub><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>0</m:mn></m:mrow><m:msqrt><m:mstyle displaystyle="true"><m:mfrac><m:msup><m:msub><m:mi>s</m:mi><m:mn>1</m:mn></m:msub><m:mn>2</m:mn></m:msup><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mfrac></m:mstyle><m:mo>+</m:mo><m:mstyle displaystyle="true"><m:mfrac><m:msup><m:msub><m:mi>s</m:mi><m:mn>2</m:mn></m:msub><m:mn>2</m:mn></m:msup><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mfrac></m:mstyle></m:msqrt></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>74</m:mn><m:mo>.</m:mo><m:mn>64</m:mn><m:mo>-</m:mo><m:mn>111</m:mn><m:mo>.</m:mo><m:mn>56</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>0</m:mn></m:mrow><m:msqrt><m:mstyle displaystyle="true"><m:mfrac><m:mrow><m:mn>49</m:mn><m:mo>.</m:mo><m:msup><m:mn>36</m:mn><m:mn>2</m:mn></m:msup></m:mrow><m:mn>33</m:mn></m:mfrac></m:mstyle><m:mo>+</m:mo><m:mstyle displaystyle="true"><m:mfrac><m:mrow><m:mn>66</m:mn><m:mo>.</m:mo><m:msup><m:mn>90</m:mn><m:mn>2</m:mn></m:msup></m:mrow><m:mn>33</m:mn></m:mfrac></m:mstyle></m:msqrt></m:mfrac><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:mn>55</m:mn></m:math>.</para>
-          <para id="fs-idm77929447">Using a calculator with <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:mn>55</m:mn></m:math> y <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>d</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>64</m:mn></m:math>, the left-tailed <m:math><m:mi>p</m:mi></m:math>-value: Decisión: Reject <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>. Conclusión: At the 1% level of significance, from the sample data, there is sufficient evidence to conclude that the mean price of sociology textbooks is less than the mean price of textbooks for math/science.</para>
+          <para id="fs-idm189266480">Ejercicio: dos medias muestrales independientes, desviaciones típicas poblacionales desconocidas.</para>
+          <para id="fs-idm7792944"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub></m:math> = el precio medio de un libro de texto de Sociología en el sitio seleccionado.</para>
+          <para id="fs-idm77929441"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math> = el precio medio de un libro de texto de Matemáticas/Ciencias en el sitio seleccionado.</para>
+          <para id="fs-idm77929442">Variable aleatoria: <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mover><m:msub><m:mi>X</m:mi><m:mn>1</m:mn></m:msub><m:mo>¯</m:mo></m:mover><m:mo>–</m:mo><m:mover><m:msub><m:mi>X</m:mi><m:mn>1</m:mn></m:msub><m:mo>¯</m:mo></m:mover></m:math> = la diferencia en el precio medio de los libros de texto de la muestra entre los libros de texto de Sociología y los de Matemáticas y Ciencias.</para>
+          <para id="fs-idm77929443">Hipótesis: <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo> </m:mo><m:mo>:</m:mo><m:mo> </m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo> </m:mo><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo> </m:mo><m:mo>:</m:mo><m:mo> </m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo> </m:mo><m:mo>–</m:mo><m:mo> </m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub><m:mo> </m:mo><m:mo>&lt;</m:mo><m:mo> </m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math> que puede expresarse como <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi mathvariant="normal">H</m:mi><m:mn>0</m:mn><m:mi mathvariant="normal">s</m:mi><m:mo>:</m:mo><m:mo> </m:mo><m:mi mathvariant="normal">μ</m:mi><m:mn>1</m:mn><m:mo>–</m:mo><m:mi mathvariant="normal">μ</m:mi><m:mn>2</m:mn><m:mo>,</m:mo><m:mo> </m:mo><m:mi>Ha</m:mi><m:mo> </m:mo><m:mi mathvariant="normal">μ</m:mi><m:mn>1</m:mn><m:mo> </m:mo><m:mo>&lt;</m:mo><m:mo> </m:mo><m:mi mathvariant="normal">μ</m:mi><m:mn>2</m:mn></m:math>.</para>
+          <para id="fs-idm77929444">Distribución para la prueba: Utilice la sustitución en <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>t</m:mi><m:mrow><m:mi>d</m:mi><m:mi>f</m:mi></m:mrow></m:msub></m:math>; porque cada muestra tiene más de 30 observaciones, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>d</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>–</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>33</m:mn><m:mo>+</m:mo><m:mn>33</m:mn><m:mo>–</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>64</m:mn></m:math>.</para>
+          <para id="fs-idm77929445">Estime el valor crítico en la tabla <m:math><m:mi>t</m:mi></m:math>utilizando los grados de libertad disponibles más próximos, 60. El valor crítico, 2,660, se halla en la columna de 0,0005. </para>
+          <para id="fs-idm77929446">Calcule el estadístico de prueba:<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>(</m:mo><m:msub><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mn>1</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mn>2</m:mn></m:msub><m:mo>)</m:mo><m:mo>–</m:mo><m:mn>0</m:mn></m:mrow><m:msqrt><m:mstyle displaystyle="true"><m:mfrac><m:msup><m:msub><m:mi>s</m:mi><m:mn>1</m:mn></m:msub><m:mn>2</m:mn></m:msup><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mfrac></m:mstyle><m:mo>+</m:mo><m:mstyle displaystyle="true"><m:mfrac><m:msup><m:msub><m:mi>s</m:mi><m:mn>2</m:mn></m:msub><m:mn>2</m:mn></m:msup><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mfrac></m:mstyle></m:msqrt></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>74</m:mn><m:mo>.</m:mo><m:mn>64</m:mn><m:mo>–</m:mo><m:mn>111</m:mn><m:mo>.</m:mo><m:mn>56</m:mn><m:mo>)</m:mo><m:mo>–</m:mo><m:mn>0</m:mn></m:mrow><m:msqrt><m:mstyle displaystyle="true"><m:mfrac><m:mrow><m:mn>49</m:mn><m:mo>.</m:mo><m:msup><m:mn>36</m:mn><m:mn>2</m:mn></m:msup></m:mrow><m:mn>33</m:mn></m:mfrac></m:mstyle><m:mo>+</m:mo><m:mstyle displaystyle="true"><m:mfrac><m:mrow><m:mn>66</m:mn><m:mo>.</m:mo><m:msup><m:mn>90</m:mn><m:mn>2</m:mn></m:msup></m:mrow><m:mn>33</m:mn></m:mfrac></m:mstyle></m:msqrt></m:mfrac><m:mo>=</m:mo><m:mo>–</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:mn>55</m:mn></m:math>.</para>
+          <para id="fs-idm77929447">Utilizando una calculadora con <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mo>–</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:mn>55</m:mn></m:math> y <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>d</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>64</m:mn></m:math>, el valor <m:math><m:mi>p</m:mi></m:math>: Decisión: Rechazar <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>. Conclusión: Al nivel de significación del 1 %, a partir de los datos de la muestra, hay suficientes pruebas para concluir que el precio medio de los libros de texto de Sociología es inferior al precio medio de los libros de texto de Matemáticas/Ciencias.</para>
         </solution>
       </exercise>
 
     <exercise id="fs-idm65734896">
       <problem id="fs-idm65734640">
-        <para id="fs-idp44866512">Se prueba una dieta en polvo en 49 personas, y una dieta líquida en 36 personas diferentes. Es interesante saber si la dieta líquida produce una mayor pérdida de peso media que la dieta en polvo. El grupo de la dieta en polvo tuvo una media de pérdida de peso de 42 libras con desviación estándar de 12 libras. El grupo de la dieta líquida tuvo una media de pérdida de peso de 45 libras con desviación estándar de 14 libras.</para>
+        <para id="fs-idp44866512">Se prueba una dieta en polvo en 49 personas, y una dieta líquida en 36 personas diferentes. Es interesante saber si la dieta líquida produce una mayor pérdida de peso media que la dieta en polvo. El grupo de la dieta en polvo tuvo una media de pérdida de peso de 42 libras con desviación típica de 12 libras. El grupo de la dieta líquida tuvo una media de pérdida de peso de 45 libras con desviación típica de 14 libras.</para>
       </problem>
     </exercise>
 
     <exercise id="eip-17">
       <problem id="eip-334">
-        <para id="eip-853">Supongamos que una instructora de Estadística cree que no hay ninguna diferencia significativa entre las puntuaciones medias de clase de los estudiantes de diurnos en el examen 2 y los estudiantes nocturnos. Toma muestras aleatorias de cada una de las poblaciones. La media y la desviación estándar de los 35 estudiantes diurnos de Estadística fueron 75,86 y 16,91, respectivamente. La media y la desviación estándar de 37 estudiantes nocturnos de Estadística fueron de 75,41 y 19,73. El subíndice “día” se refiere a los estudiantes diurnos. El subíndice “noche” se refiere a los estudiantes nocturnos. Otra hipótesis adecuada para la prueba de hipótesis es:</para>
+        <para id="eip-853">Supongamos que una instructora de Estadística cree que no hay ninguna diferencia significativa entre las puntuaciones medias de clase de los estudiantes de diurnos en el examen 2 y los estudiantes nocturnos. Toma muestras aleatorias de cada una de las poblaciones. La media y la desviación típica de los 35 estudiantes diurnos de Estadística fueron 75,86 y 16,91, respectivamente. La media y la desviación típica de 37 estudiantes nocturnos de Estadística fueron de 75,41 y 19,73. El subíndice “día” se refiere a los estudiantes diurnos. El subíndice “noche” se refiere a los estudiantes nocturnos. Otra hipótesis adecuada para la prueba de hipótesis es:</para>
 
         <list id="eip-idp47881856" list-type="enumerated" number-style="lower-alpha">
           <item><emphasis effect="italics">μ</emphasis><sub>día</sub> > <emphasis effect="italics">μ</emphasis><sub>noche</sub></item>
@@ -1511,7 +1511,7 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 <meaning id="fs-id1167519290117">medida del tamaño del efecto basada en las diferencias entre dos medias. Si <emphasis effect="italics">d</emphasis> está entre 0 y 0,2, el efecto es pequeño. Si <emphasis effect="italics">d</emphasis> se acerca a 0,5, el efecto es medio, y si <emphasis effect="italics">d</emphasis> se aproxima a 0,8, es un efecto grande.</meaning></definition>
 
 <definition id="fs-id1167531977030"><term>Varianza agrupada</term>
-<meaning id="fs-id1167534042120">media ponderada de dos varianzas, que se utiliza para calcular el error estándar.  </meaning></definition>
+<meaning id="fs-id1167534042120">promedio ponderado de dos varianzas, que se utiliza para calcular el error estándar.  </meaning></definition>
 </glossary>
 
 </document>

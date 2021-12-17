@@ -10,11 +10,11 @@
 
 <content>
 <para id="eip-806">Hemos visto que el tamaño de la muestra tiene un efecto importante en la varianza y, por tanto, en la desviación típica de la distribución muestral. También es interesante la proporción de la población total que ha sido muestreada. Hemos asumido que la población es extremadamente grande y que hemos muestreado una pequeña parte de ella. A medida que la población se hace más pequeña y muestreamos un mayor número de observaciones, las observaciones de la muestra no son independientes entre sí. Para corregir el impacto de esto, se puede utilizar el factor de corrección finito para ajustar la varianza de la distribución de muestreo. Es apropiado cuando se muestrea más del 5 % de la población y esta tiene un tamaño poblacional conocido. Hay casos en los que se conoce la población, por lo que hay que aplicar el factor de corrección. El problema se plantea tanto para la distribución muestral de las medias como para la distribución muestral de las proporciones. El factor de corrección de la población finita para la varianza de las medias que aparece en la fórmula de normalización es: 
-<equation class="unnumbered" id="eip-id1167115536024">Los términos <m:math><m:mi>Z</m:mi><m:mo>=</m:mo>
+<equation class="unnumbered" id="eip-id1167115536024"><label/><m:math><m:mi>Z</m:mi><m:mo>=</m:mo>
 <m:mfrac>
 <m:mrow>
 <m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover>
-<m:mo>- −</m:mo>
+<m:mo>–</m:mo>
 <m:mi>µ</m:mi>
 </m:mrow>
 <m:mrow>
@@ -23,15 +23,15 @@
 </m:mfrac>
 <m:mo>·</m:mo>
 <m:msqrt>
-<m:mfrac><m:mrow><m:mi>N</m:mi><m:mo>- −</m:mo><m:mi>n</m:mi></m:mrow>
-<m:mrow><m:mi>N</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow>
+<m:mfrac><m:mrow><m:mi>N</m:mi><m:mo>–</m:mo><m:mi>n</m:mi></m:mrow>
+<m:mrow><m:mi>N</m:mi><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow>
 </m:mfrac>
 </m:msqrt>
 </m:mrow>
 </m:mfrac>
 </m:math>
 </equation>y para la varianza de las proporciones es:<equation id="eip-id1167116249847">
-Los términos <m:math>
+<m:math>
 <m:msub><m:mi>σ</m:mi><m:mi>p'</m:mi></m:msub>
 <m:mo>=</m:mo>
 <m:msqrt>
@@ -43,30 +43,30 @@ Los términos <m:math>
 <m:msqrt>
 <m:mfrac>
 <m:mrow>
-<m:mi>N</m:mi><m:mo>- −</m:mo><m:mi>n</m:mi></m:mrow>
-<m:mrow><m:mi>N</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow>
+<m:mi>N</m:mi><m:mo>–</m:mo><m:mi>n</m:mi></m:mrow>
+<m:mrow><m:mi>N</m:mi><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow>
 </m:mfrac>
 </m:msqrt>
 </m:math>
-</equation></para><para id="eip-728">Los siguientes ejemplos muestran cómo aplicar el factor. Las varianzas muestrales se ajustan mediante la fórmula anterior. </para><example id="eip-935"><para id="eip-136">Se sabe que la población de pastores alemanes blancos en EE. UU. es de 4000 perros y el peso medio de los pastores alemanes es de 75,45 libras (34,22 kilogramos). También se sabe que la desviación típica de la población es de 10,37 libras (4,70 kilogramos). 
+</equation></para><para id="eip-728">Los siguientes ejemplos muestran cómo aplicar el factor. Las varianzas muestrales se ajustan mediante la fórmula anterior. </para><example id="eip-935"><para id="eip-136">Se sabe que la población de pastores alemanes blancos en EE. UU. es de 4.000 perros y el peso medio de los pastores alemanes es de 75,45 libras. También se sabe que la desviación típica de la población es de 10,37 libras. 
 </para><exercise id="eip-620"><problem id="eip-408">
-  <para id="eip-366">Si el tamaño de la muestra es de 100 perros, halle la probabilidad de que una muestra tenga una media que difiera de la verdadera media probabilística en menos de 2 libras (0,91 kilogramos).</para></problem>
+  <para id="eip-366">Si el tamaño de la muestra es de 100 perros, halle la probabilidad de que una muestra tenga una media que difiera de la verdadera media probabilística en menos de 2 libras.</para></problem>
 
 <solution id="eip-99">
-  <para id="eip-156">Los términos <m:math><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>4.000</m:mn><m:mo>,</m:mo><m:mspace width="1.0em"/>
+  <para id="eip-156"><m:math><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>4.000</m:mn><m:mo>,</m:mo><m:mspace width="1.0em"/>
 <m:mi>n</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mo>,</m:mo><m:mspace width="1.0em"/> 
 <m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>10,37</m:mn><m:mo>,</m:mo><m:mspace width="1.0em"/>
 <m:mi>µ</m:mi><m:mo>=</m:mo><m:mn>75,45</m:mn><m:mo>,</m:mo><m:mspace width="1.0em"/>
-<m:mo>(</m:mo><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>- −</m:mo><m:mi>µ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>2</m:mn></m:math> <newline/>
-<equation class="unnumbered" id="eip-id1170375284175">Los términos <m:math><m:mi>Z</m:mi><m:mo>=</m:mo>
+<m:mo>(</m:mo><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>–</m:mo><m:mi>µ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>2</m:mn></m:math> <newline/>
+<equation class="unnumbered" id="eip-id1170375284175"><label/><m:math><m:mi>Z</m:mi><m:mo>=</m:mo>
 <m:mfrac>
-<m:mrow><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>- −</m:mo><m:mi>µ</m:mi></m:mrow>
+<m:mrow><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>–</m:mo><m:mi>µ</m:mi></m:mrow>
 <m:mrow>
 <m:mfrac><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac>
 <m:mo>·</m:mo>
 <m:msqrt>
-<m:mfrac><m:mrow><m:mi>N</m:mi><m:mo>- −</m:mo><m:mn>n</m:mn></m:mrow>
-<m:mrow><m:mi>N</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow>
+<m:mfrac><m:mrow><m:mi>N</m:mi><m:mo>–</m:mo><m:mn>n</m:mn></m:mrow>
+<m:mrow><m:mi>N</m:mi><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow>
 </m:mfrac>
 </m:msqrt>
 </m:mrow>
@@ -79,14 +79,14 @@ Los términos <m:math>
 <m:mrow>
 <m:mfrac><m:mn>10,37</m:mn><m:msqrt><m:mn>100</m:mn></m:msqrt></m:mfrac>
 <m:mo>·</m:mo>
-<m:msqrt><m:mfrac><m:mrow><m:mn>4.000</m:mn><m:mo>- −</m:mo><m:mn>100</m:mn></m:mrow>
-<m:mrow><m:mn>4.000</m:mn><m:mo>- −</m:mo><m:mn>1</m:mn></m:mrow>
+<m:msqrt><m:mfrac><m:mrow><m:mn>4.000</m:mn><m:mo>–</m:mo><m:mn>100</m:mn></m:mrow>
+<m:mrow><m:mn>4.000</m:mn><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow>
 </m:mfrac></m:msqrt>
 </m:mrow>
 </m:mfrac>
 <m:mo>=</m:mo>
 <m:mo>±</m:mo><m:mn>1,95</m:mn>
-</m:math></equation><equation class="unnumbered" id="eip-id1172107488931">Los términos <m:math>
+</m:math></equation><equation class="unnumbered" id="eip-id1172107488931"><label/><m:math>
 <m:mi>f</m:mi><m:mo>(</m:mo><m:mi>Z</m:mi><m:mo>)</m:mo><m:mo>=</m:mo>
 <m:mn>0,4744</m:mn>
 <m:mo>·</m:mo>
@@ -95,21 +95,21 @@ Los términos <m:math>
 <m:mn>0,9488</m:mn>
 </m:math></equation>
 
-Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de la media dentro de 2 libras (0,91 kilogramos) a la derecha o a la izquierda.</para></solution>
+Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de la media dentro de 2 libras a la derecha o a la izquierda.</para></solution>
 </exercise>
 </example><example id="eip-503"><para id="eip-321">
   Cuando un cliente hace un pedido a Rudy's On-Line Office Supplies, un sistema informático de información contable (accounting information system, AIS) comprueba automáticamente si el cliente ha superado su límite de crédito. Los registros anteriores indican que la probabilidad de que los clientes superen su límite de crédito es de 0,06. 
 </para><exercise id="eip-525"><problem id="eip-350">
   <para id="eip-399">
-    Supongamos que en un día determinado se realizan 3000 pedidos en total. Si seleccionamos al azar 360 pedidos, ¿cuál es la probabilidad de que entre 10 y 20 clientes superen su límite de crédito? 
+    Supongamos que en un día determinado se realizan 3.000 pedidos en total. Si seleccionamos al azar 360 pedidos, ¿cuál es la probabilidad de que entre 10 y 20 clientes superen su límite de crédito? 
   </para>
 </problem>
 
 <solution id="eip-767">
-  <para id="eip-355">Los términos <m:math><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>3000</m:mn><m:mo>,</m:mo><m:mspace width="1.0em"/>
+  <para id="eip-355"><m:math><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>3.000</m:mn><m:mo>,</m:mo><m:mspace width="1.0em"/>
 <m:mi>n</m:mi><m:mo>=</m:mo><m:mn>360</m:mn><m:mo>,</m:mo><m:mspace width="1.0em"/>
 <m:mi>p</m:mi><m:mo>=</m:mo><m:mn>0,06</m:mn></m:math>
-<equation class="unnumbered" id="eip-id1169346645985">Los términos <m:math>
+<equation class="unnumbered" id="eip-id1169346645985"><label/><m:math>
 <m:msub><m:mi>σ</m:mi><m:mi>p'</m:mi></m:msub><m:mo>=</m:mo>
 <m:msqrt>
 <m:mfrac><m:mrow><m:mi>p</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow>
@@ -119,27 +119,27 @@ Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de
 <m:mo>×</m:mo>
 <m:msqrt>
 <m:mfrac>
-<m:mrow><m:mi>N</m:mi><m:mo>- −</m:mo><m:mi>n</m:mi></m:mrow>
-<m:mrow><m:mi>N</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow>
+<m:mrow><m:mi>N</m:mi><m:mo>–</m:mo><m:mi>n</m:mi></m:mrow>
+<m:mrow><m:mi>N</m:mi><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow>
 </m:mfrac>
 </m:msqrt>
 <m:mo>=</m:mo>
 <m:msqrt>
-<m:mfrac><m:mrow><m:mn>0,06</m:mn><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>- −</m:mo><m:mn>0,06</m:mn><m:mo>)</m:mo></m:mrow>
+<m:mfrac><m:mrow><m:mn>0,06</m:mn><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mn>0,06</m:mn><m:mo>)</m:mo></m:mrow>
 <m:mrow><m:mn>360</m:mn></m:mrow>
 </m:mfrac>
 </m:msqrt>
 <m:mo>×</m:mo>
 <m:msqrt>
 <m:mfrac>
-<m:mrow><m:mn>3000</m:mn><m:mo>- −</m:mo><m:mn>360</m:mn></m:mrow>
-<m:mrow><m:mn>3000</m:mn><m:mo>- −</m:mo><m:mn>1</m:mn></m:mrow>
+<m:mrow><m:mn>3.000</m:mn><m:mo>–</m:mo><m:mn>360</m:mn></m:mrow>
+<m:mrow><m:mn>3.000</m:mn><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow>
 </m:mfrac>
 </m:msqrt>
 <m:mo>=</m:mo>
 <m:mn>0,0117</m:mn>
 </m:math>
-</equation><equation class="unnumbered" id="eip-id1166518467981">Los términos <m:math><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>10</m:mn><m:mn>360</m:mn></m:mfrac>
+</equation><equation class="unnumbered" id="eip-id1166518467981"><label/><m:math><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>10</m:mn><m:mn>360</m:mn></m:mfrac>
 <m:mo>=</m:mo>
 <m:mn>0,0278</m:mn>
 <m:mo>,</m:mo><m:mspace width="1.0em"/>
@@ -149,11 +149,11 @@ Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de
 <m:mo>=</m:mo>
 <m:mn>0,0556</m:mn>
 </m:math></equation>
-<equation class="unnumbered" id="eip-id1166529871916">Los términos <m:math>
+<equation class="unnumbered" id="eip-id1166529871916"><label/><m:math>
 <m:mi>Z</m:mi><m:mo>=</m:mo>
 <m:mfrac>
 <m:mrow>
-<m:mi>p</m:mi><m:mo>'</m:mo><m:mo>- −</m:mo><m:mi>p</m:mi></m:mrow>
+<m:mi>p</m:mi><m:mo>'</m:mo><m:mo>–</m:mo><m:mi>p</m:mi></m:mrow>
 <m:mrow>
 <m:msqrt><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow>
 <m:mrow><m:mi>n</m:mi></m:mrow>
@@ -162,22 +162,22 @@ Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de
 <m:mo>·</m:mo>
 <m:msqrt>
 <m:mfrac>
-<m:mrow><m:mi>N</m:mi><m:mo>- −</m:mo><m:mi>n</m:mi></m:mrow>
-<m:mrow><m:mi>N</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow>
+<m:mrow><m:mi>N</m:mi><m:mo>–</m:mo><m:mi>n</m:mi></m:mrow>
+<m:mrow><m:mi>N</m:mi><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow>
 </m:mfrac></m:msqrt>
 </m:mrow>
 </m:mfrac>
 <m:mo>=</m:mo>
 <m:mfrac>
-<m:mrow><m:mn>0,0278</m:mn><m:mo>- −</m:mo><m:mn>0,06</m:mn></m:mrow>
+<m:mrow><m:mn>0,0278</m:mn><m:mo>–</m:mo><m:mn>0,06</m:mn></m:mrow>
 <m:mrow><m:mn>0,011744</m:mn></m:mrow>
 </m:mfrac>
 <m:mo>=</m:mo>
 <m:mn>−2,74</m:mn>
 </m:math>
-</equation><equation class="unnumbered" id="eip-id8375126">Los términos <m:math><m:mi>Z</m:mi><m:mo>=</m:mo>
+</equation><equation class="unnumbered" id="eip-id8375126"><label/><m:math><m:mi>Z</m:mi><m:mo>=</m:mo>
 <m:mfrac>
-<m:mrow><m:mi>p</m:mi><m:mo>'</m:mo><m:mo>- −</m:mo><m:mi>p</m:mi></m:mrow>
+<m:mrow><m:mi>p</m:mi><m:mo>'</m:mo><m:mo>–</m:mo><m:mi>p</m:mi></m:mrow>
 <m:mrow>
 <m:msqrt>
 <m:mfrac><m:mrow><m:mi>p</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow>
@@ -187,30 +187,30 @@ Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de
 <m:mo>·</m:mo>
 <m:msqrt>
 <m:mfrac>
-<m:mrow><m:mi>N</m:mi><m:mo>- −</m:mo><m:mi>n</m:mi></m:mrow>
-<m:mrow><m:mi>N</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow>
+<m:mrow><m:mi>N</m:mi><m:mo>–</m:mo><m:mi>n</m:mi></m:mrow>
+<m:mrow><m:mi>N</m:mi><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow>
 </m:mfrac>
 </m:msqrt>
 </m:mrow>
 </m:mfrac>
 <m:mo>=</m:mo>
-<m:mfrac><m:mrow><m:mn>0,0556</m:mn><m:mo>- −</m:mo><m:mn>0,06</m:mn></m:mrow>
+<m:mfrac><m:mrow><m:mn>0,0556</m:mn><m:mo>–</m:mo><m:mn>0,06</m:mn></m:mrow>
 <m:mrow><m:mn>0,011744</m:mn></m:mrow>
 </m:mfrac>
 <m:mo>=</m:mo>
 <m:mn>−0,38</m:mn>
 </m:math>
-</equation><equation class="unnumbered" id="eip-id1169387147873">Los términos <m:math>
+</equation><equation class="unnumbered" id="eip-id1169387147873"><label/><m:math>
 <m:mi>p</m:mi>
 <m:mo>(</m:mo>
-<m:mfrac><m:mrow><m:mn>0,0278</m:mn><m:mo>- −</m:mo><m:mn>0,06</m:mn></m:mrow>
+<m:mfrac><m:mrow><m:mn>0,0278</m:mn><m:mo>–</m:mo><m:mn>0,06</m:mn></m:mrow>
 <m:mrow><m:mn>0,011744</m:mn></m:mrow>
 </m:mfrac>
 <m:mo>&lt;</m:mo>
 <m:mi>z</m:mi>
 <m:mo>&lt;</m:mo>
 <m:mfrac>
-<m:mrow><m:mn>0,0556</m:mn><m:mo>- −</m:mo><m:mn>0,06</m:mn></m:mrow>
+<m:mrow><m:mn>0,0556</m:mn><m:mo>–</m:mo><m:mn>0,06</m:mn></m:mrow>
 <m:mrow><m:mn>0,011744</m:mn></m:mrow>
 </m:mfrac>
 <m:mo>)</m:mo>
@@ -225,13 +225,13 @@ Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de
 <m:mo>)</m:mo>
 <m:mo>=</m:mo>
 <m:mn>0,4969</m:mn>
-<m:mo>- −</m:mo><m:mn>0,1480</m:mn><m:mo>=</m:mo><m:mn>0,3489</m:mn>
+<m:mo>–</m:mo><m:mn>0,1480</m:mn><m:mo>=</m:mo><m:mn>0,3489</m:mn>
 </m:math>
 </equation></para></solution>
 </exercise>
 </example><section id="fs-idm1588934752" class="practice"><exercise id="eip-565"><problem id="eip-447">
   <para id="eip-665">
-    Un barco pesquero lleva 1000 peces a bordo, con un peso medio de 120 libras (54,43 kilogramos) y una desviación típica de 6,0 libras (2,72 kilogramos). Si se comprueban tamaños de muestra de 50 peces, ¿cuál es la probabilidad de que los peces de una muestra tengan un peso medio dentro de 2,8 libras (1,27 kilogramos) de la media real de la población?
+    Un barco pesquero lleva 1.000 peces a bordo, con un peso promedio de 120 libras  y una desviación típica de 6,0 libras. Si se revisan tamaños de muestra de 50 peces, ¿cuál es la probabilidad de que los peces de una muestra tengan un peso medio dentro de 2,8 libras de la media real de la población?
   </para>
 </problem>
 
@@ -242,7 +242,7 @@ Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de
 </solution>
 </exercise><exercise id="eip-841"><problem id="eip-660">
   <para id="eip-148">
-    Un jardín experimental cuenta con 500 plantas de girasol. Las plantas están siendo tratadas para que crezcan a alturas inusuales. La altura media es de 9,3 pies (2,83 metros) con una desviación típica de 0,5 pies (0,15 metros). Si se toman muestras de 60 plantas, ¿cuál es la probabilidad de que las plantas de una muestra determinada tengan una altura media dentro de 0,1 pies de la media real de la población?
+    Un jardín experimental cuenta con 500 plantas de girasol. Las plantas están siendo tratadas para que crezcan a alturas inusuales. La altura promedio es de 9,3 pies con una desviación típica de 0,5 pies. Si se toman muestras de 60 plantas, ¿cuál es la probabilidad de que las plantas de una muestra determinada tengan una altura promedio dentro de 0,1 pies de la media real de la población?
   </para>
 </problem>
 
@@ -254,7 +254,7 @@ Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de
 </solution>
 </exercise><exercise id="eip-95"><problem id="eip-31">
   <para id="eip-825">
-    Una empresa tiene 800 empleados. El número medio de días de trabajo entre ausencias por enfermedad es de 123, con una desviación típica de 14 días. Se examinan muestras de 50 empleados. ¿Cuál es la probabilidad de que una muestra tenga una media de días de trabajo sin ausencia por enfermedad de al menos 124 días?
+    Una compañía tiene 800 empleados. El número promedio de días de trabajo entre ausencias por enfermedad es de 123, con una desviación típica de 14 días. Se examinan muestras de 50 empleados. ¿Cuál es la probabilidad de que una muestra tenga una media de días de trabajo sin ausencia por enfermedad de al menos 124 días?
   </para>
 </problem>
 
@@ -265,7 +265,7 @@ Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de
 </solution>
 </exercise><exercise id="eip-537"><problem id="eip-642">
   <para id="eip-566">
-    Unos automóviles pasan por un dispositivo automático de control de velocidad que supervisa 2000 automóviles en un día determinado. Esta población de automóviles tiene una velocidad media de 67 millas por hora (107,83 kilómetros por hora) con una desviación típica de 2 millas por hora (3,22 kilómetros por hora). Si se toman muestras de 30 automóviles, ¿cuál es la probabilidad de que una muestra dada tenga una velocidad media dentro de 0,50 millas (0,80 kilómetros por hora).por hora de la media de la población?
+    Unos automóviles pasan por un dispositivo automático de control de velocidad que monitorea 2.000 automóviles en un día determinado. Esta población de automóviles tiene una velocidad media de 67 millas por hora con una desviación típica de 2 millas por hora. Si se toman muestras de 30 automóviles, ¿cuál es la probabilidad de que una muestra dada tenga una velocidad promedio dentro de 0,50 millas por hora de la media de la población?
   </para>
 </problem>
 
@@ -277,7 +277,7 @@ Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de
 </solution>
 </exercise><exercise id="eip-870"><problem id="eip-426">
   <para id="eip-751">
-    Un pueblo lleva un registro meteorológico. A partir de estos registros se ha determinado que llueve una media del 37 % de los días al año. Si se seleccionan 30 días al azar de un año, ¿cuál es la probabilidad de que hayan llovido al menos 5 y como máximo 11 días?
+    Un pueblo lleva un registro meteorológico. A partir de estos registros se ha determinado que llueve un promedio del 37 % de los días al año. Si se seleccionan 30 días al azar de un año, ¿cuál es la probabilidad de que hayan llovido al menos 5 y como máximo 11 días?
   </para>
 </problem>
 
@@ -288,7 +288,7 @@ Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de
 </solution>
 </exercise><exercise id="eip-508"><problem id="eip-672">
   <para id="eip-967">
-    Un fabricante de varas de medir tiene un problema de tinta que hace que las marcas se corran en el 4 % de las varas. La producción diaria es de 2000 varas de medir. ¿Cuál es la probabilidad de que si se comprueba una muestra de 100 varas de medir, haya tinta corrida como máximo en 4 varas de medir?
+    Un fabricante de varas de medir tiene un problema de tinta que hace que las marcas se corran en el 4 % de las varas. La producción diaria es de 2.000 varas de medir. ¿Cuál es la probabilidad de que si se comprueba una muestra de 100 varas de medir, haya tinta corrida como máximo en 4 varas de medir?
   </para>
 </problem>
 
@@ -299,7 +299,7 @@ Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de
 </solution>
 </exercise><exercise id="eip-546"><problem id="eip-404">
   <para id="eip-501">
-    Un colegio tiene 300 alumnos. Normalmente, hay una media de 21 estudiantes que se ausentan. Si se toma una muestra de 30 estudiantes en un día determinado, ¿cuál es la probabilidad de que como máximo 2 estudiantes de la muestra estén ausentes?
+    Una escuela tiene 300 estudiantes. Normalmente, hay un promedio de 21 estudiantes que se ausentan. Si se toma una muestra de 30 estudiantes en un día determinado, ¿cuál es la probabilidad de que como máximo 2 estudiantes de la muestra estén ausentes?
   </para>
 </problem>
 
@@ -310,7 +310,7 @@ Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de
 </solution>
 </exercise><exercise id="eip-913"><problem id="eip-329">
   <para id="eip-24">
-    Una universidad hace una prueba de nivelación a 5000 estudiantes de nuevo ingreso cada año. Una media de 1.213 queda en uno o más cursos de desarrollo. Si se toma una muestra de 50 de los 5000, ¿cuál es la probabilidad de que como máximo 12 de los incluidos en la muestra tengan que hacer al menos un curso de desarrollo?
+    Una universidad hace una prueba de nivelación a 5.000 estudiantes de nuevo ingreso cada año. En promedio, 1.213 quedan en uno o más cursos de desarrollo. Si se toma una muestra de 50 de los 5.000, ¿cuál es la probabilidad de que como máximo 12 de los incluidos en la muestra tengan que hacer al menos un curso de desarrollo?
   </para>
 </problem>
 
@@ -320,12 +320,12 @@ Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de
 
   </para>
 </solution>
-</exercise></section><section id="fs-idm164256400" class="free-response"><title>Tarea para la casa</title><exercise id="fs-idm216555072"><problem id="fs-idm1531589632"><para id="fs-idm216437184">Una empresa tiene 1.000 empleados. El número medio de días de trabajo entre ausencias por enfermedad es de 80, con una desviación típica de 11 días. Se examinan muestras de 80 empleados. ¿Cuál es la probabilidad de que una muestra tenga una media de días de trabajo sin ausencia por enfermedad de al menos 78 días y como máximo 84 días?
+</exercise></section><section id="fs-idm164256400" class="free-response"><title>Tarea para la casa</title><exercise id="fs-idm216555072"><problem id="fs-idm1531589632"><para id="fs-idm216437184">Una compañía tiene 1.000 empleados. El número promedio de días de trabajo entre ausencias por enfermedad es de 80, con una desviación típica de 11 días. Se examinan muestras de 80 empleados. ¿Cuál es la probabilidad de que una muestra tenga una media de días de trabajo sin ausencia por enfermedad de al menos 78 días y como máximo 84 días?
 </para></problem>
 
 <solution id="eip-idm329934192"><para id="eip-idm285530048">0,955</para></solution></exercise><exercise id="eip-348"><problem id="eip-104">
   <para id="eip-593">
-   Unos camiones pasan por una báscula automática que controla 2.000 camiones. Esta población de camiones tiene un peso medio de 20 toneladas con una desviación típica de 2 toneladas. Si se toma una muestra de 50 camiones, ¿cuál es la probabilidad de que la muestra tenga un peso medio dentro de la media de la población?
+   Unos camiones pasan por una báscula automática que controla 2.000 camiones. Esta población de camiones tiene un peso promedio de 20 toneladas con una desviación típica de 2 toneladas. Si se toma una muestra de 50 camiones, ¿cuál es la probabilidad de que la muestra tenga un peso promedio dentro de la media de la población?
 
   </para>
 </problem>
@@ -337,7 +337,7 @@ Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de
 </solution>
 </exercise><exercise id="eip-586"><problem id="eip-353">
   <para id="eip-284">
-    Un pueblo lleva un registro meteorológico. A partir de estos registros se ha determinado que llueve una media del 12 % de los días al año. Si se seleccionan 30 días al azar de un año, ¿cuál es la probabilidad de que como máximo 3 días hayan llovido?
+    Un pueblo lleva un registro meteorológico. A partir de estos registros se ha determinado que llueve un promedio del 12 % de los días al año. Si se seleccionan 30 días al azar de un año, ¿cuál es la probabilidad de que como máximo 3 días hayan llovido?
 
   </para>
 </problem>
@@ -361,7 +361,7 @@ Tenga en cuenta que "difiere en menos" hace referencia al área a ambos lados de
 </solution>
 </exercise><exercise id="eip-932"><problem id="eip-397">
   <para id="eip-360">
-    Un colegio tiene 500 alumnos. Por lo general, hay una media de 20 estudiantes que se ausentan. Si se toma una muestra de 30 alumnos en un día determinado, ¿cuál es la probabilidad de que al menos 2 alumnos de la muestra estén ausentes?
+    Una escuela tiene 500 estudiantes. Por lo general, hay un promedio de 20 estudiantes que se ausentan. Si se toma una muestra de 30 estudiantes en un día determinado, ¿cuál es la probabilidad de que al menos 2 estudiantes de la muestra estén ausentes?
 
   </para>
 </problem>

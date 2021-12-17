@@ -51,7 +51,7 @@
 </exercise>
 </example>
 
-<note id="fs-idm112699744" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm112699744" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idm3161264"><problem id="fs-idp72756304">
 <para id="fs-idp107407200">Una bolsa contiene fichas de letras. Cuarenta y cuatro de las fichas son vocales y 56 son consonantes. Se eligen siete fichas al azar. Quiere saber la probabilidad de que cuatro de las siete fichas sean vocales. ¿Cuál es el grupo de interés, el tamaño del grupo de interés y el tamaño de la muestra?</para></problem>
 </exercise></note><example id="element-968">
@@ -64,7 +64,7 @@
 </exercise>
 </example>
 
-<note id="fs-idm96082960" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm96082960" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idp7372528"><problem id="fs-idp85406816">
 <para id="fs-idp85729168">Una caja de huevos contiene 144 huevos. Se sabe que una caja en particular tiene 12 huevos rotos. Un inspector elige al azar 15 para la inspección. Quiere saber la probabilidad de que, entre los 15, a lo sumo tres estén agrietados. ¿Qué es <emphasis effect="italics">X</emphasis> y qué valores adquiere?</para></problem>
 </exercise></note><example id="element-582">
@@ -87,7 +87,7 @@
  <para id="element-0836">f. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 4)</para></solution>
 </exercise></example>
 
-<note id="fs-idm11539184" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm11539184" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idm40312064">
 <problem id="fs-idp112379936">
 <para id="fs-idm31607136">Una paleta tiene 200 cartones de leche. De los 200 cartones, se sabe que diez de ellos se filtraron y no se pueden vender. Un empleado de almacén elige al azar 18 para su inspección. Quiere saber la probabilidad de que entre los 18, no haya más de dos cartones con fugas. Dé cinco razones por las que este es un problema hipergeométrico.</para></problem>
@@ -108,11 +108,11 @@
 <para id="element-876"><emphasis effect="italics">X</emphasis> toma los valores 0, 1, 2, 3, 4, donde <emphasis effect="italics">r = 6</emphasis>, <emphasis effect="italics">b = 5</emphasis> y <emphasis effect="italics">n = 4</emphasis>. <emphasis effect="italics">X ~ H</emphasis>(6, 5, 4)</para>
 
 <para id="element-877" class="finger">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 2). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 2) = 0,4545 (calculadora o computadora)</para><note id="id43780917" class="finger">
-<title>NOTA</title>
+<label/><title>NOTA</title>
 <para id="fs-idm9108464">Actualmente, la TI-83+ y la TI-84 no tienen funciones de probabilidad hipergeométrica. Hay varios paquetes informáticos, como Microsoft Excel, que lo hacen.</para>
 </note><para id="element-879">La probabilidad de que haya dos hombres en el comité es de aproximadamente 0,45.</para>
 
-<para id="element-136">La gráfica de <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">H</emphasis>(6, 5, 4) es:</para><figure id="fs-idp36734864"><media id="id43780967" display="block" alt="Este gráfico muestra una distribución de probabilidad hipergeométrica. Tiene cinco barras con una distribución ligeramente normal. El eje x muestra valores de 0 a 4 en incrementos de 1, que representan el número de hombres en el comité de cuatro personas. El eje y va de 0 a 0,5 en incrementos de 0,1."><image src="../../media/fig-ch04_07_01N.jpg" mime-type="image/jpg" width="400"/></media>
+<para id="element-136">El gráfico de <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">H</emphasis>(6, 5, 4) es:</para><figure id="fs-idp36734864"><media id="id43780967" display="block" alt="Este gráfico muestra una distribución de probabilidad hipergeométrica. Tiene cinco barras con una distribución ligeramente normal. El eje x muestra valores de 0 a 4 en incrementos de 1, que representan el número de hombres en el comité de cuatro personas. El eje y va de 0 a 0,5 en incrementos de 0,1."><image src="../../media/fig-ch04_07_01N.jpg" mime-type="image/jpg" width="400"/></media>
 </figure><para id="element-704">El eje <emphasis effect="italics">y</emphasis>contiene la probabilidad de <emphasis effect="italics">X</emphasis>, donde <emphasis effect="italics">X</emphasis> = el número de hombres en el comité.</para>
 
 <para id="element-369">Es de esperar que haya <emphasis effect="italics">m</emphasis> = 2,18 (unos dos) hombres en el comité.</para>
@@ -139,13 +139,13 @@
  </m:mrow>
 </m:math></para></example>
 
-<note id="fs-idm54957120" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm54957120" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idm10553104">
 <problem id="fs-idm142583216">
 <para id="fs-idp43780624">Se elegirá un equipo de baloncesto intramuros al azar entre 15 chicos y 12 chicas. El equipo tiene diez plazas. Quiere saber la probabilidad de que ocho de los jugadores sean chicos. ¿Cuál es el grupo de interés y la muestra?</para></problem>
 </exercise>
 </note><section id="fs-idp20462736" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idm26047632">Un experimento <term id="term-00002">hipergeométrico</term> es un experimento estadístico con las siguientes propiedades:</para>
 <list id="fs-idp5636464" list-type="enumerated">
 <item>Toma muestras de dos grupos.</item>
@@ -172,7 +172,7 @@
    <m:mrow>
     <m:mfrac>
      <m:mrow>
-      <m:mi>r</m:mi><m:mi>b</m:mi><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mtext> + </m:mtext><m:mi>b</m:mi><m:mtext> - </m:mtext><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
+      <m:mi>r</m:mi><m:mi>b</m:mi><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mtext> + </m:mtext><m:mi>b</m:mi><m:mtext> – </m:mtext><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
      </m:mrow>
      <m:mrow>
       <m:msup>
@@ -181,7 +181,7 @@
        </m:mrow>
        <m:mn>2</m:mn>
       </m:msup>
-      <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mtext> + </m:mtext><m:mi>b</m:mi><m:mo>- −</m:mo><m:mtext>1)</m:mtext>
+      <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mtext> + </m:mtext><m:mi>b</m:mi><m:mo>–</m:mo><m:mtext>1)</m:mtext>
      </m:mrow>
     </m:mfrac>
 
@@ -212,7 +212,7 @@
    <m:mrow>
     <m:mfrac>
      <m:mrow>
-      <m:mi>r</m:mi><m:mi>b</m:mi><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mtext> + </m:mtext><m:mi>b</m:mi><m:mo>-</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
+      <m:mi>r</m:mi><m:mi>b</m:mi><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mtext> + </m:mtext><m:mi>b</m:mi><m:mo>–</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
      </m:mrow>
      <m:mrow>
       <m:msup>
@@ -221,7 +221,7 @@
        </m:mrow>
        <m:mn>2</m:mn>
       </m:msup>
-      <m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mtext> + </m:mtext><m:mi>b</m:mi><m:mo>- −</m:mo><m:mtext>1)</m:mtext>
+      <m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mtext> + </m:mtext><m:mi>b</m:mi><m:mo>–</m:mo><m:mtext>1)</m:mtext>
      </m:mrow>
     </m:mfrac>
 
@@ -229,7 +229,7 @@
   </m:msqrt>
 
  </m:mrow>
-</m:math></para></section>
+</m:math>.</para></section>
 
 
 <section id="fs-idp90772672" class="practice">
@@ -673,7 +673,7 @@
 <item>Other group = non-hearts; <emphasis effect="italics">b</emphasis> = 39</item>
 <item><emphasis effect="italics">X</emphasis> = the number of cards that are hearts; <emphasis effect="italics">x</emphasis> = 0, 1, 2, 3, &#8230; , 13</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 0)</item>
-</list><note id="eip-idp114013328" class="finger"><title>NOTE</title>
+</list><note id="eip-idp114013328" class="finger"><label/><title>NOTE</title>
 <para id="fs-idm27875232">If you have access to it, use Microsoft Excel HYPERGEOM.DIST function with the following syntax: = HYPGEOM.DIST(x, sample size, size of group of interest, size of total population, FALSE)</para>
 </note></solution> --></exercise></section>
 

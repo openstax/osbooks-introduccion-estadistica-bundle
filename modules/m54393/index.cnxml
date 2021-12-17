@@ -8,11 +8,11 @@
 </metadata>
 
 <content>
-<para id="eip-587">La función de densidad de probabilidad más sencilla es la hipergeométrica. Es la más básica porque se crea combinando nuestro conocimiento de las probabilidades a partir de los diagramas de Venn, las reglas de adición y multiplicación y la fórmula de recuento combinatorio.</para><para id="eip-166">Para hallar el número de formas de obtener 2 ases de los cuatro que hay en la baraja, calculamos:</para><para id="eip-162"><equation class="unnumbered" id="eip-id2102494">Los términos <m:math><m:mfenced><m:mtable><m:mtr><m:mtd><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mfenced>
-<m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mo>!</m:mo></m:mrow><m:mrow><m:mn>2</m:mn><m:mo>!</m:mo><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>!</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6</m:mn></m:math></equation></para><para id="eip-169">Y si no nos importara qué más tenemos en la mano para las otras tres cartas calcularíamos:</para><para id="eip-640"><equation class="unnumbered" id="eip-id1166135700017">Los términos <m:math><m:mfenced><m:mtable><m:mtr><m:mtd><m:mn>48</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mfenced>
+<para id="eip-587">La función de densidad de probabilidad más sencilla es la hipergeométrica. Es la más básica porque se crea combinando nuestro conocimiento de las probabilidades a partir de los diagramas de Venn, las reglas de adición y multiplicación y la fórmula de recuento combinatorio.</para><para id="eip-166">Para hallar el número de formas de obtener 2 ases de los cuatro que hay en la baraja, calculamos:</para><para id="eip-162"><equation class="unnumbered" id="eip-id2102494"><label/><m:math><m:mfenced><m:mtable><m:mtr><m:mtd><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mfenced>
+<m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mo>!</m:mo></m:mrow><m:mrow><m:mn>2</m:mn><m:mo>!</m:mo><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>–</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>!</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6</m:mn></m:math></equation></para><para id="eip-169">Y si no nos importara qué más tenemos en la mano para las otras tres cartas calcularíamos:</para><para id="eip-640"><equation class="unnumbered" id="eip-id1166135700017"><label/><m:math><m:mfenced><m:mtable><m:mtr><m:mtd><m:mn>48</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mfenced>
 <m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>48</m:mn><m:mo>!</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mo>!</m:mo><m:mn>45</m:mn><m:mo>!</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>17.296</m:mn></m:math></equation></para><para id="eip-176">Uniendo todo esto, podemos calcular la probabilidad de obtener exactamente dos ases en una mano de póquer de 5 cartas como:</para><para id="eip-826"><equation id="eip-id1165014254077">
-Los términos <m:math><m:mfrac><m:mrow><m:mfenced><m:mtable><m:mtr><m:mtd><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mfenced><m:mfenced><m:mtable><m:mtr><m:mtd><m:mn>48</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mfenced></m:mrow><m:mfenced><m:mtable><m:mtr><m:mtd><m:mn>52</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mfenced></m:mfrac><m:mo>=</m:mo><m:mn>0,0399</m:mn></m:math>
-</equation></para><para id="eip-201">Esta solución es en realidad la distribución de probabilidad conocida como hipergeométrica. La fórmula generalizada es:</para><para id="eip-541"><equation class="unnumbered" id="eip-id1169130681338">Los términos <m:math>
+<m:math><m:mfrac><m:mrow><m:mfenced><m:mtable><m:mtr><m:mtd><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mfenced><m:mfenced><m:mtable><m:mtr><m:mtd><m:mn>48</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:mfenced></m:mrow><m:mfenced><m:mtable><m:mtr><m:mtd><m:mn>52</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mfenced></m:mfrac><m:mo>=</m:mo><m:mn>0,0399</m:mn></m:math>
+</equation></para><para id="eip-201">Esta solución es en realidad la distribución de probabilidad conocida como hipergeométrica. La fórmula generalizada es:</para><para id="eip-541"><equation class="unnumbered" id="eip-id1169130681338"><label/><m:math>
    <m:mi>h</m:mi><m:mo maxsize="100%">(</m:mo><m:mi>x</m:mi><m:mo maxsize="100%">)</m:mo>
   <m:mo>=</m:mo>
  <m:mfrac>
@@ -35,12 +35,12 @@ Los términos <m:math><m:mfrac><m:mrow><m:mfenced><m:mtable><m:mtr><m:mtd><m:mn>
     <m:mtable> 
      <m:mtr>
       <m:mtd>
-        <m:mi>N</m:mi><m:mo>-</m:mo><m:mi>A</m:mi>
+        <m:mi>N</m:mi><m:mo>–</m:mo><m:mi>A</m:mi>
       </m:mtd>
      </m:mtr>
      <m:mtr>
       <m:mtd>
-       <m:mi>n</m:mi><m:mo>-</m:mo><m:mi>x</m:mi>
+       <m:mi>n</m:mi><m:mo>–</m:mo><m:mi>x</m:mi>
       </m:mtd>
      </m:mtr>
     </m:mtable>
@@ -62,17 +62,17 @@ Los términos <m:math><m:mfrac><m:mrow><m:mfenced><m:mtable><m:mtr><m:mtd><m:mn>
 </exercise> 
 </example>
 
-<note id="fs-idm112699744" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm112699744" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idm3161264"><problem id="fs-idp72756304">
 <para id="fs-idp107407200">Una bolsa contiene fichas de letras. Cuarenta y cuatro de las fichas son vocales y 56 son consonantes. Se eligen siete fichas al azar. Quiere saber la probabilidad de que cuatro de las siete fichas sean vocales. ¿Cuál es el grupo de interés, el tamaño del grupo de interés y el tamaño de la muestra?</para></problem>
 <solution id="fs-idp36651984" class="solutions">
-
+<label/>
 <para id="fs-idp8803120">El grupo de interés son las fichas de letras vocales. El tamaño del grupo de interés es de 44. El tamaño de la muestra es de siete.</para></solution>
 </exercise></note><section id="fs-idp20462736" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="eip-625">La fórmula combinatoria puede proporcionar el número de subconjuntos únicos de tamaño x que se pueden crear a partir de n objetos únicos para ayudarnos a calcular las probabilidades. La fórmula combinatoria es <m:math><m:mfenced><m:mtable><m:mtr><m:mtd><m:mi>n</m:mi></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:mfenced><m:mo> </m:mo><m:mo>=</m:mo>
 <m:msub><m:mtext/><m:mi>n</m:mi></m:msub><m:msub><m:mi>C</m:mi><m:mi>x</m:mi></m:msub>
-<m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>!</m:mo><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>!</m:mo></m:mrow></m:mfrac></m:math></para><para id="fs-idm26047632">Un experimento <term id="term-00001">hipergeométrico</term> es un experimento estadístico con las siguientes propiedades:</para>
+<m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>!</m:mo><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>–</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>!</m:mo></m:mrow></m:mfrac></m:math></para><para id="fs-idm26047632">Un experimento <term id="term-00001">hipergeométrico</term> es un experimento estadístico con las siguientes propiedades:</para>
 <list id="fs-idp5636464" list-type="enumerated"><item>Toma muestras de dos grupos.</item>
 <item>Le interesa un grupo de interés, llamado primer grupo.</item>
 <item>Toma una muestra sin reemplazo de los grupos combinados.</item>
@@ -101,12 +101,12 @@ Los términos <m:math><m:mfrac><m:mrow><m:mfenced><m:mtable><m:mtr><m:mtd><m:mn>
     <m:mtable> 
      <m:mtr>
       <m:mtd>
-        <m:mi>N</m:mi><m:mo>-</m:mo><m:mi>A</m:mi>
+        <m:mi>N</m:mi><m:mo>–</m:mo><m:mi>A</m:mi>
       </m:mtd>
      </m:mtr>
      <m:mtr>
       <m:mtd>
-       <m:mi>n</m:mi><m:mo>-</m:mo><m:mi>x</m:mi>
+       <m:mi>n</m:mi><m:mo>–</m:mo><m:mi>x</m:mi>
       </m:mtd>
      </m:mtr>
     </m:mtable>
@@ -115,12 +115,12 @@ Los términos <m:math><m:mfrac><m:mrow><m:mfenced><m:mtable><m:mtr><m:mtd><m:mn>
   <m:mfenced>
    <m:mtable>
     <m:mtr>
-     <m:mtd><m:mi>N</m:mi></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>n</m:mi></m:mtd></m:mtr></m:mtable></m:mfenced></m:mfrac></m:math>
+     <m:mtd><m:mi>N</m:mi></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>n</m:mi></m:mtd></m:mtr></m:mtable></m:mfenced></m:mfrac></m:math>.
 </para></section>
 
 <section id="fs-idm29445280" class="formula-review">
 <title>Revisión de la fórmula</title>
-<para id="fs-idm63887360">Los términos <m:math>
+<para id="fs-idm63887360"><m:math>
    <m:mi>h</m:mi><m:mo maxsize="100%">(</m:mo><m:mi>x</m:mi><m:mo maxsize="100%">)</m:mo>
   <m:mo>=</m:mo>
  <m:mfrac>
@@ -143,12 +143,12 @@ Los términos <m:math><m:mfrac><m:mrow><m:mfenced><m:mtable><m:mtr><m:mtd><m:mn>
     <m:mtable> 
      <m:mtr>
       <m:mtd>
-        <m:mi>N</m:mi><m:mo>-</m:mo><m:mi>A</m:mi>
+        <m:mi>N</m:mi><m:mo>–</m:mo><m:mi>A</m:mi>
       </m:mtd>
      </m:mtr>
      <m:mtr>
       <m:mtd>
-       <m:mi>n</m:mi><m:mo>-</m:mo><m:mi>x</m:mi>
+       <m:mi>n</m:mi><m:mo>–</m:mo><m:mi>x</m:mi>
       </m:mtd>
      </m:mtr>
     </m:mtable>
@@ -505,7 +505,7 @@ Los términos <m:math><m:mfrac><m:mrow><m:mfenced><m:mtable><m:mtr><m:mtd><m:mn>
 <item>Other group = non-hearts; <emphasis effect="italics">b</emphasis> = 39</item>
 <item><emphasis effect="italics">X</emphasis> = the number of cards that are hearts; <emphasis effect="italics">x</emphasis> = 0, 1, 2, 3, &#8230; , 13</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 0)</item>
-</list><note id="eip-idp114013328" class="finger"><title>NOTE</title>
+</list><note id="eip-idp114013328" class="finger"><label/><title>NOTE</title>
 <para id="fs-idm27875232">If you have access to it, use Microsoft Excel HYPERGEOM.DIST function with the following syntax: = HYPGEOM.DIST(x, sample size, size of group of interest, size of total population, FALSE)</para>
 </note></solution> --></exercise></section>
 

@@ -284,12 +284,12 @@
 <para id="element-892">Hay 9 + 24 resultados que tienen <emphasis effect="italics">R</emphasis> en la primera extracción (9 <emphasis effect="italics">RR</emphasis> y 24 <emphasis effect="italics">RB</emphasis>). El espacio muestral es entonces 9 + 24 = 33. 24 de los 33 resultados tienen <emphasis effect="italics">B</emphasis> en la segunda extracción. La probabilidad es entonces <m:math><m:mfrac>
     <m:mn>24</m:mn>
     <m:mn>33</m:mn>
-  </m:mfrac></m:math></para></solution>
+  </m:mfrac></m:math>.</para></solution>
 </exercise>
 </example>
 
 <note id="fs-idp102479616" class="statistics try">
-<title>Ejercicio</title>
+<label/><title>Ejercicio</title>
 <exercise id="fs-idm22506096"><problem id="fs-idp17589872">
 <para id="fs-idp67142992">En un mazo estándar hay 52 cartas. 12 cartas son de figura (evento <emphasis effect="italics">F</emphasis>) y 40 cartas no lo son (evento <emphasis effect="italics">N</emphasis>). Saque dos cartas, una a la vez, con reemplazo. Todos los resultados posibles se muestran en el diagrama de árbol como frecuencias. Use el diagrama de árbol y calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">FF</emphasis>).</para>
 <figure id="eip-idp41385280"><media id="fs-idm2866400" alt="Se trata de un diagrama de árbol con ramas que muestran las frecuencias de cada vez que saca una. La primera rama muestra dos líneas: 12F y 40N. La segunda rama tiene un conjunto de dos líneas (12F y 40N) para cada línea de la primera rama. Multiplique a lo largo de cada línea para hallar 144FF, 480FN, 480NF y 1.600NN." display="block"><image src="../../media/CNX_Stats_C03_M07_tryit001N.jpg" mime-type="image/jpg" width="380"/></media>
@@ -351,7 +351,7 @@
 </m:math></caption></figure>
 
 <note id="id47078390">
-
+<label/>
 <title>NOTA</title>
 <para id="eip-idp61215856">Si saca una roja en la primera extracción de las tres posibilidades rojas, quedan dos canicas rojas para sacar en la segunda extracción. No se vuelve a colocar o reemplazar la primera canica después de haberla sacado. Extraiga <emphasis>sin reemplazo</emphasis>, de modo que en la segunda extracción quedan diez canicas en la urna.</para></note>
 <para id="element-993"><newline/>Calcule las siguientes probabilidades y use el diagrama de árbol.<newline count="2"/></para><exercise id="element-366">
@@ -595,12 +595,12 @@
 <media id="id46086747" alt="Este es un diagrama de árbol para un experimento de dos pasos. La primera rama muestra el primer resultado: P(B) y P(R). La segunda rama tiene un conjunto de 2 líneas para cada línea de la primera rama: la probabilidad de B dado que B = P(BB), la probabilidad de R dado que B = P(RB), la probabilidad de B dado que R = P(BR) y la probabilidad de R dado que R = P(RR)." display="block">
 <image src="../../media/fig-ch03_07_03N.jpg" mime-type="image/jpg" width="400"/></media>
 <list id="element-425" list-type="bulleted">
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>|<emphasis effect="italics">R</emphasis>) significa aquí <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis> en la 2.ª|<emphasis effect="italics">R</emphasis> en la 1.°)</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>|<emphasis effect="italics">R</emphasis>) significa aquí <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> en la 2.ª|<emphasis effect="italics">R</emphasis> en la 1.°)</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>|<emphasis effect="italics">B</emphasis>) significa aquí <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis> en la 2.ª|<emphasis effect="italics">B</emphasis> en la 1.°)</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>|<emphasis effect="italics">B</emphasis>) significa aquí <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> en la 2.ª|<emphasis effect="italics">B</emphasis> en la 1.°)</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>|<emphasis effect="italics">R</emphasis>) significa aquí <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis> en la 2.ª|<emphasis effect="italics">R</emphasis> en la 1.ª)</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>|<emphasis effect="italics">R</emphasis>) significa aquí <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> en la 2.ª|<emphasis effect="italics">R</emphasis> en la 1.ª)</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>|<emphasis effect="italics">B</emphasis>) significa aquí <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis> en la 2.ª|<emphasis effect="italics">B</emphasis> en la 1.ª)</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>|<emphasis effect="italics">B</emphasis>) significa aquí <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> en la 2.ª|<emphasis effect="italics">B</emphasis> en la 1.ª)</item>
 </list>
-</example><note id="fs-idp64832640" class="statistics try"><title>Ejercicio</title>
+</example><note id="fs-idp64832640" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idp40630704"><problem id="fs-idp516608">
 <para id="fs-idp47082864">En un mazo estándar hay 52 cartas. Doce cartas son de figura (<emphasis effect="italics">F</emphasis>) y 40 cartas no lo son (<emphasis effect="italics">N</emphasis>). Saque dos cartas, una a la vez, sin reemplazo. El diagrama de árbol está identificado con todas las probabilidades posibles.</para>
 <figure id="eip-idm127200928"><media id="fs-idp88881552" alt="Se trata de un diagrama de árbol con ramas que muestran las frecuencias de cada vez que saca una. La primera rama muestra 2 líneas: F 12/52 y N 40/52. La segunda rama tiene un conjunto de 2 líneas (F 11/52 y N 40/51) para cada línea de la primera rama. Multiplique a lo largo de cada línea para hallar FF 121/2.652, FN 480/2.652, NF 480/2.652 y NN 1.560/2.652." display="block"><image src="../../media/CNX_Stats_C03_M07_tryit002.jpg" mime-type="image/jpg" width="400" print-width="4in"/></media></figure>
@@ -880,7 +880,7 @@
 </solution>
 </exercise></example>
 <note id="fs-idp64465776" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm62426848">
 <problem id="fs-idp61299152">
@@ -894,13 +894,13 @@
 <para id="eip-9222">Un <term id="term-00003">diagrama de Venn</term> es una imagen que representa los resultados de un experimento. Generalmente consiste en un recuadro que representa el espacio muestral S junto con círculos u óvalos. Los círculos u óvalos representan eventos.</para>
 <example id="element-513"><para id="element-756">Supongamos que un experimento tiene los resultados 1, 2, 3, ..., 12 donde cada resultado tiene la misma probabilidad de ocurrir. Supongamos que el evento <emphasis effect="italics">A</emphasis> = {1, 2, 3, 4, 5, 6} y el evento <emphasis effect="italics">B</emphasis> = {6, 7, 8, 9}. Entonces <emphasis effect="italics">A</emphasis> Y <emphasis effect="italics">B</emphasis> = {6} y <emphasis effect="italics">A</emphasis> O <emphasis effect="italics">B</emphasis> = {1, 2, 3, 4, 5, 6, 7, 8, 9}. El diagrama de Venn es el siguiente:</para>
 <figure id="eip-idm17287840"><media id="id18119489" alt="Un diagrama de Venn. Un óvalo que representa el conjunto A contiene los valores 1, 2, 3, 4, 5 y 6. Un óvalo que representa el conjunto B también contiene el 6, junto con el 7, el 8 y el 9. Los valores 10, 11 y 12 están presentes pero no están contenidos en ninguno de los dos conjuntos." display="block"><image src="../../media/fig-ch03_06_01.jpg" mime-type="image/png" width="380"/></media>
-</figure></example><note id="fs-idp42923984" class="statistics try"><title>Ejercicio</title>
+</figure></example><note id="fs-idp42923984" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idp129832272"><problem id="fs-idp89658416">
 <para id="fs-idp136729728">Supongamos que un experimento tiene los resultados negro, blanco, rojo, anaranjado, amarillo, verde, azul y morado, donde cada resultado tiene la misma probabilidad de ocurrir. Supongamos que el evento <emphasis effect="italics">C</emphasis> = {verde, azul, morado} y el evento <emphasis effect="italics">P</emphasis> = {rojo, amarillo, azul}. Entonces <emphasis effect="italics">C</emphasis> Y <emphasis effect="italics">P</emphasis> = {azul} y <emphasis effect="italics">C</emphasis> O <emphasis effect="italics">P</emphasis> = {verde, azul, morado, rojo, amarillo}. Dibuje un diagrama de Venn que represente esta situación.</para></problem>
 </exercise></note><example id="element-872"><para id="element-491">Lance dos monedas imparciales Supongamos que <emphasis effect="italics">A</emphasis> = cruz en la primera moneda. Supongamos que <emphasis effect="italics">B</emphasis> = cruz en la segunda moneda. Entonces <emphasis effect="italics">A</emphasis> = {<emphasis effect="italics">TT</emphasis>, <emphasis effect="italics">TH</emphasis>} y <emphasis effect="italics">B</emphasis> = {<emphasis effect="italics">TT</emphasis>, <emphasis effect="italics">HT</emphasis>}. Por lo tanto, <emphasis effect="italics">A</emphasis> Y <emphasis effect="italics">B</emphasis> = {<emphasis effect="italics">TT</emphasis>}. <emphasis effect="italics">A</emphasis> O <emphasis effect="italics">B</emphasis> = {<emphasis effect="italics">TH</emphasis>, <emphasis effect="italics">TT</emphasis>, <emphasis effect="italics">HT</emphasis>}.</para><para id="element-245">El espacio muestral al lanzar dos monedas imparciales es <emphasis effect="italics">X</emphasis> = {<emphasis effect="italics">HH</emphasis>, <emphasis effect="italics">HT</emphasis>, <emphasis effect="italics">TH</emphasis>, <emphasis effect="italics">TT</emphasis>}. El resultado <emphasis effect="italics">HH</emphasis> no es NI <emphasis effect="italics">A</emphasis> NI <emphasis effect="italics">B</emphasis>. El diagrama de Venn es el siguiente:</para>
 <figure id="eip-idm154602320"><media id="id18154607" alt="Esto es un diagrama de Venn. Un óvalo que representa el conjunto A contiene cruz + cara y cruz + cruz. Un óvalo que representa el conjunto B también contiene cruz + cruz, junto con cara + cruz. El universo S contiene cara + cara, pero este valor no está contenido ni en el conjunto A ni en el B." display="block">
 <image src="../../media/fig-ch03_06_02.jpg" mime-type="image/jpg" width="400"/></media>
-</figure></example><note id="fs-idm20878064" class="statistics try"><title>Ejercicio</title>
+</figure></example><note id="fs-idm20878064" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="eip-idm77418224">
 <problem id="eip-idm66827488">
 <para id="eip-idp2578208">Usted lanza un dado imparcial de seis lados. Supongamos que <emphasis effect="italics">A</emphasis> = se obtiene un número primo de puntos. Supongamos que <emphasis effect="italics">B</emphasis> = se obtiene un número impar de puntos. Entonces <emphasis effect="italics">A</emphasis> = {2, 3, 5} y <emphasis effect="italics">B</emphasis> = {1, 3, 5}. Por lo tanto, <emphasis effect="italics">A</emphasis> Y <emphasis effect="italics">B</emphasis> = {3, 5}. <emphasis effect="italics">A</emphasis> O <emphasis effect="italics">B</emphasis> = {1, 2, 3, 5}. El espacio muestral para lanzar un dado imparcial es <emphasis effect="italics">S</emphasis> = {1, 2, 3, 4, 5, 6}. Dibuje un diagrama de Venn que represente esta situación.</para></problem>
@@ -937,7 +937,7 @@
 </m:math></item>
 <item>la probabilidad de que el estudiante pertenezca a un club <emphasis>O</emphasis> trabaje a tiempo parcial. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis> O <emphasis effect="italics">PT</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">PT</emphasis>) - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis> Y <emphasis effect="italics">PT</emphasis>) = 0,40 + 0,50 - 0,05 = 0,85</item>
 </list></example>
-<note id="fs-idm55345616" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm55345616" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idp89579120">
 <problem id="fs-idp89636640">
 <para id="fs-idp120162528">El cincuenta por ciento de los trabajadores de una fábrica tiene un segundo empleo, el 25 % tiene un cónyuge que también trabaja, el 5 % tiene un segundo empleo y un cónyuge que también trabaja. Dibuje un diagrama de Venn que muestre las relaciones. Supongamos que <emphasis effect="italics">W</emphasis> = trabaja en un segundo empleo y <emphasis effect="italics">S</emphasis> = el cónyuge también trabaja.</para>
@@ -962,7 +962,7 @@
 </exercise>
 </example>
 <note id="fs-idp47601696" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idp85340096"><problem id="fs-idp129244656">
 <para id="fs-idp200572912">En una librería, la probabilidad de que el cliente compre una novela es de 0,6, y la de que compre un libro que no es de ficción es de 0,4. Supongamos que la probabilidad de que el cliente compre ambos es de 0,2.</para>
@@ -984,7 +984,7 @@
 </section>
 
 <section id="fs-idp73675888" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idp59827120">Un diagrama de árbol utiliza ramas para mostrar los diferentes resultados de los experimentos y facilita la visualización de preguntas de probabilidad complejas.</para>
 <para id="fs-idp49604256">Un diagrama de Venn es una imagen que representa los resultados de un experimento. Generalmente consiste en una caja que representa el espacio muestral <emphasis effect="italics">S</emphasis> junto con círculos u óvalos. Los círculos u óvalos representan eventos. Un diagrama de Venn es especialmente útil para visualizar el evento O, el evento Y y el complemento de un evento, y para entender las probabilidades condicionales.</para>
 </section>
@@ -1023,7 +1023,7 @@
 </m:math> donde <emphasis effect="italics">H</emphasis> es cara y <emphasis effect="italics">T</emphasis> es cruz.</para><figure id="id43573084"><media id="id43573089" alt="Diagrama de árbol con 2 ramas. La primera rama consta de 2 líneas de H = 2/3 y T = 1/3. La segunda rama consta de 2 conjuntos de 3 líneas cada uno con los dos conjuntos que contienen R = 3/12, Y = 4/12 y B = 5/12."><image src="../../media/fig-ch_03_11_01.jpg" mime-type="image/jpg" width="180"/></media></figure><exercise id="element-92"><problem id="id43573133">
   <para id="element-4">Calcule <emphasis effect="italics">P</emphasis>(lanzando una cara en la moneda Y una cuenta roja)</para>
 <list id="element-67" list-type="enumerated" number-style="lower-alpha">
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>2</m:mn>
@@ -1031,7 +1031,7 @@
   </m:mfrac>
  </m:mrow>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>5</m:mn>
@@ -1040,7 +1040,7 @@
 
  </m:mrow>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>6</m:mn>
@@ -1049,7 +1049,7 @@
 
  </m:mrow>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>5</m:mn>
@@ -1063,7 +1063,7 @@
 </exercise><exercise id="element-684"><problem id="id43573398">
   <para id="element-573">Calcule <emphasis effect="italics">P</emphasis>(cuenta azul).</para>
 <list id="element-161" list-type="enumerated" number-style="lower-alpha">
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -1076,7 +1076,7 @@
 
  </m:mrow>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -1089,7 +1089,7 @@
 
  </m:mrow>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -1102,7 +1102,7 @@
 
  </m:mrow>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -1121,7 +1121,7 @@
 </solution>
 </exercise>
 <exercise id="eip-346"><problem id="eip-id1171744729232">
-  <para id="eip-id1171737024994">Una caja de galletas contiene tres de chocolate y siete de mantequilla. Miguel elige al azar una galleta y se la come. Luego selecciona al azar otra galleta y se la come. (¿Cuántas galletas ha tomado?)</para>
+  <para id="eip-id1171737024994">Una caja de galletas contiene tres de chocolate y siete de mantequilla. Miguel elige al azar una galleta y se la come. Luego selecciona al azar otra galleta y se la come (¿cuántas galletas ha tomado?).</para>
 <list id="eip-id1171740927516" list-type="enumerated" number-style="lower-alpha">
 <item>Dibuje el árbol que representa las posibilidades de las selecciones de galletas. Escriba las probabilidades a lo largo de cada rama del árbol.</item>
 <item>¿Las probabilidades del sabor de la SEGUNDA galleta que elige Miguel es independientes de su primera selección? Explique.</item>
@@ -1144,7 +1144,7 @@
 <item>Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">G</emphasis><sub>1</sub> Y <emphasis effect="italics">G</emphasis><sub>2</sub>).</item>
 <item>Calcule <emphasis effect="italics">P</emphasis>(al menos una verde).</item>
 <item>Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">G</emphasis><sub>2</sub>|<emphasis effect="italics">G</emphasis><sub>1</sub>).</item>
-<item>¿<emphasis effect="italics">G</emphasis><sub>2</sub> y <emphasis effect="italics">G</emphasis><sub>1</sub> son eventos independientes? Explique por qué o por qué no.</item>
+<item>¿<emphasis effect="italics">G</emphasis><sub>2</sub> y <emphasis effect="italics">G</emphasis><sub>1</sub> son eventos independientes? Explique por qué sí o por qué no.</item>
 </list></problem>
 <solution id="fs-idp20236912">
 <list id="fs-idp23896432" list-type="enumerated" number-style="lower-alpha"><item><figure id="eip-idp101566032">
@@ -1255,10 +1255,10 @@
 <item>Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">G<sub>1</sub></emphasis> Y <emphasis effect="italics">G<sub>2</sub></emphasis>).</item>
 <item>Calcule <emphasis effect="italics">P</emphasis>(al menos una verde).</item>
 <item>Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">G<sub>2</sub></emphasis>|<emphasis effect="italics">G<sub>1</sub></emphasis>).</item>
-<item>¿<emphasis effect="italics">G<sub>2</sub></emphasis> y <emphasis effect="italics">G<sub>1</sub></emphasis> son eventos independientes? Explique por qué o por qué no.</item>
+<item>¿<emphasis effect="italics">G<sub>2</sub></emphasis> y <emphasis effect="italics">G<sub>1</sub></emphasis> son eventos independientes? Explique por qué sí o por qué no.</item>
 </list>
 </problem>
-</exercise><para id="fs-idp143517536"><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios.</emphasis> El porcentaje de conductores de EE. UU. con licencia (de un año reciente) que son mujeres es del 48,60. De las mujeres, el 5,03 % tienen 19 años o menos; el 81,36 % tienen entre 20 y 64 años; el 13,61 % tienen 65 años o más. De los conductores masculinos con licencia en EE. UU., el 5,04 % tiene 19 años o menos; el 81,43 % tiene entre 20 y 64 años; el 13,53 % tiene 65 años o más.</para>
+</exercise><para id="fs-idp143517536"><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios.</emphasis> El porcentaje de conductores de EE. UU. con licencia (de un año reciente) que son mujeres es del 48,60. De las mujeres, el 5,03 % tienen 19 años o menos; el 81,36 % tienen entre 20 y 64 años; el 13,61 % tienen 65 años o más. De los conductores hombres con licencia en EE. UU., el 5,04 % tiene 19 años o menos; el 81,43 % tiene entre 20 y 64 años; el 13,53 % tiene 65 años o más.</para>
 <exercise id="element-950">
 <problem id="eip-idm29557008">
   <para id="element-591">Complete lo siguiente.</para>
@@ -1484,32 +1484,32 @@
     <entry>463</entry>
     <entry>60</entry>
     <entry>135</entry>
-    <entry><emphasis>2,804</emphasis></entry>
+    <entry><emphasis>2.804</emphasis></entry>
   </row>
   <row>
     <entry>Totales</entry>
-    <entry><emphasis>2,146</emphasis></entry>
+    <entry><emphasis>2.146</emphasis></entry>
       <entry><emphasis>533</emphasis></entry>
     <entry><emphasis>196</emphasis></entry>
     <entry><emphasis>184</emphasis></entry>
-    <entry><emphasis>3,059</emphasis></entry>
+    <entry><emphasis>3.059</emphasis></entry>
   </row>
 </tbody>
 
 </tgroup>
-</table><list id="element-424" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math>
+</table><list id="element-424" list-type="enumerated" number-style="lower-alpha"><item><m:math>
  <m:mfrac>
     <m:mn>255</m:mn>
     <m:mn>3.059</m:mn>
   </m:mfrac>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mfrac>
     <m:mn>196</m:mn>
     <m:mn>3.059</m:mn>
   </m:mfrac>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mfrac>
     <m:mn>718</m:mn>
     <m:mn>3.059</m:mn>
@@ -1517,11 +1517,11 @@
 </m:math>
     </item>
 <item>0</item>
-<item>Los términos <m:math><m:mfrac>
+<item><m:math><m:mfrac>
     <m:mn>463</m:mn>
     <m:mn>3.059</m:mn>
   </m:mfrac></m:math></item>
-<item>Los términos <m:math><m:mfrac>
+<item><m:math><m:mfrac>
     <m:mn>136</m:mn>
     <m:mn>196</m:mn>
   </m:mfrac></m:math></item>

@@ -1,8 +1,8 @@
 ﻿<document xmlns="http://cnx.rice.edu/cnxml">
-  <title>Distorsión y la media, la mediana y la moda</title>
+  <title>Distorsión y media, mediana y moda</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m46931</md:content-id>
-  <md:title>Distorsión y la media, la mediana y la moda</md:title>
+  <md:title>Distorsión y media, mediana y moda</md:title>
   <md:abstract/>
   <md:uuid>2404ff21-41a9-4acf-8acf-82f7cb997333</md:uuid>
 </metadata>
@@ -12,9 +12,9 @@
 <figure id="M06_Ch02_fig001"><media id="id16811614" alt="Este histograma coincide con los datos suministrados. Consta de 7 barras adyacentes con el eje x dividido en intervalos de 1 de 4 a 10. Las alturas de las barras alcanzan su pico máximo en el centro y se estrechan simétricamente hacia la derecha y la izquierda." display="block"><image src="../../media/fig-ch02_08_01.jpg" mime-type="image/jpg" width="350"/></media>
 </figure><para id="element-247">El histograma muestra una distribución <emphasis>simétrica</emphasis> de los datos. Una distribución es simétrica si se puede trazar una línea vertical en algún punto del histograma de manera que la forma a la izquierda y a la derecha de la línea vertical sean imágenes una espejo de la otra. La media, la mediana y la moda son siete para estos datos. <emphasis>En una distribución perfectamente simétrica, la media y la mediana son iguales.</emphasis> Este ejemplo tiene una moda (unimodal), y la moda es la misma que la media y la mediana. En una distribución simétrica que tiene dos modas (bimodal), las dos modas serían diferentes de la media y la mediana.</para>
 <para id="element-687">El histograma de los datos: <list list-type="labeled-item" display="inline" id="set-00016s">
-<item>4</item><item>5</item><item>6</item><item>6</item><item>6</item><item>7</item><item>7</item><item>7</item><item>7</item><item>8 (que se muestra en la <link target-id="M06_Ch02_fig002"/>)</item></list> no es simétrico. El lado derecho parece “cortado” en comparación con el lado izquierdo. Una distribución de este tipo se denomina <emphasis>distorsión a la izquierda</emphasis> porque se desplaza hacia la izquierda.</para><figure id="M06_Ch02_fig002"><media id="id17014514" alt="Este histograma coincide con los datos suministrados. Consta de 5 barras adyacentes con el eje x dividido en intervalos de 1 de 4 a 8. El pico está a la derecha, y las alturas de las barras disminuyen hacia la izquierda." display="block"><image src="../../media/fig-ch02_08_02.jpg" mime-type="image/jpg" width="350"/></media>
+<item>4</item><item>5</item><item>6</item><item>6</item><item>6</item><item>7</item><item>7</item><item>7</item><item>7</item><item>8 (que se muestra en la <link target-id="M06_Ch02_fig002"/>)</item></list> no es simétrico. El lado derecho parece “cortado” en comparación con el lado izquierdo. Una distribución de este tipo se denomina <emphasis>distorsionada a la izquierda</emphasis> porque se desplaza hacia la izquierda.</para><figure id="M06_Ch02_fig002"><media id="id17014514" alt="Este histograma coincide con los datos suministrados. Consta de 5 barras adyacentes con el eje x dividido en intervalos de 1 de 4 a 8. El pico está a la derecha, y las alturas de las barras disminuyen hacia la izquierda." display="block"><image src="../../media/fig-ch02_08_02.jpg" mime-type="image/jpg" width="350"/></media>
 </figure><para id="element-431">La media es 6,3, la mediana es 6,5 y la moda es siete. <emphasis>Observe que la media es menor que la mediana y ambas son menores que la moda.</emphasis> Tanto la media como la mediana reflejan la distorsión, pero la media lo refleja más.</para><para id="element-391">El histograma de los datos: <list list-type="labeled-item" display="inline" id="set-00017">
-<item>6</item><item>7</item><item>7</item><item>7</item><item>7</item><item>8</item><item>8</item><item>8</item><item>9</item><item>10 <link target-id="M06_Ch02_fig003"/></item></list>, tampoco es simétrico. Es con <emphasis>distorsión a la derecha</emphasis>.</para>
+<item>6</item><item>7</item><item>7</item><item>7</item><item>7</item><item>8</item><item>8</item><item>8</item><item>9</item><item>10 <link target-id="M06_Ch02_fig003"/></item></list>, tampoco es simétrico. Es <emphasis>distorsionada a la derecha</emphasis>.</para>
 
 <figure id="M06_Ch02_fig003"><media id="id17014699" alt="Este histograma coincide con los datos suministrados. Consta de 5 barras adyacentes con el eje x dividido en intervalos de 1 de 6 a 10. El pico está a la izquierda, y las alturas de las barras disminuyen hacia la derecha." display="block"><image src="../../media/fig-ch02_08_03.jpg" mime-type="image/jpg" width="350"/></media>
 </figure><para id="element-434">La media es 7,7, la mediana es 7,5 y la moda es siete. De las tres estadísticas, <emphasis>la media es la mayor, mientras que la moda es la menor</emphasis>. De nuevo, la media es la que más refleja la distorsión.</para>
@@ -46,7 +46,7 @@
 <figure id="fs-idm19521120"><media id="fs-idm131679008" alt="Este gráfico de puntos coincide con los datos Davi suministró. El diagrama utiliza una línea numérica del 1 al 10. Se muestran dos x sobre 1, una x sobre 2, cinco x sobre 3 y dos x sobre 4. No hay x sobre los números 5, 6, 7, 8, 9 y 10.">
         <image mime-type="image/png" src="../../media/CNX_Stats_C02_M08_031.jpg" width="450"/>
     </media>
-        <caption>La distribución de Davis tiene una distorsión hacia la izquierda (negativo).</caption></figure><figure id="fs-idm18855792"><media id="fs-idm56353744" alt="Este gráfico de puntos coincide con los datos suministrados para Mari. El diagrama utiliza una línea numérica del 1 al 10. Se muestra una x sobre 2, dos x sobre 3, tres x sobre 4, tres x sobre 6 y una x sobre 8. No hay x sobre los números 1, 5, 7, 9 y 10.">
+        <caption>La distribución de Davis tiene una distorsión a la izquierda (negativo).</caption></figure><figure id="fs-idm18855792"><media id="fs-idm56353744" alt="Este gráfico de puntos coincide con los datos suministrados para Mari. El diagrama utiliza una línea numérica del 1 al 10. Se muestra una x sobre 2, dos x sobre 3, tres x sobre 4, tres x sobre 6 y una x sobre 8. No hay x sobre los números 1, 5, 7, 9 y 10.">
             <image mime-type="image/png" src="../../media/CNX_Stats_C02_M08_032.jpg" width="450"/>
         </media>
             <caption>La distribución de Maris tiene una forma simétrica.</caption></figure>
@@ -57,7 +57,7 @@
     </list>
 </solution>
 
-</exercise></example><note id="fs-idm10131056" class="statistics try"><title>Ejercicio</title>
+</exercise></example><note id="fs-idm10131056" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idm4859600"><problem id="fs-idm31997616">
 <para id="fs-idm76707328">Analice la media, la mediana y la moda para cada uno de los siguientes problemas. ¿Existe un patrón entre la forma y la medida del centro?</para>
 <para id="eip-idp44372864">a. <figure id="fs-idp12578240"><media id="fs-idp12578368" alt="Este gráfico de puntos coincide con los datos suministrados. El gráfico utiliza una línea numérica de 0 a 14. Se muestran dos x sobre el 0, cuatro x sobre el 1, tres x sobre el 2, una x sobre el 3, dos x sobre los números 4, 5, 6 y 9, y 1 x sobre el 10 y el 14. No hay x sobre los números 7, 8, 11, 12 y 13.">
@@ -71,7 +71,7 @@
 <colspec colnum="2" colname="c2"/>
 <thead>
 <row>
-<entry namest="c1" nameend="c2">Las edades en que murieron los expresidentes de EE.UU.</entry>
+<entry namest="c1" nameend="c2">Las edades en que murieron los expresidentes de EE. UU.</entry>
 </row>
 </thead>
 <tbody>
@@ -111,11 +111,11 @@
 <image mime-type="image/png" src="../../media/CNX_Stats_C02_M08_034.png" width="400"/>
 </media></figure></para></problem>
 </exercise></note><section id="fs-idm5546880" class="summary">
-<title>Revisión del capítulo</title>
-<para id="fs-idm70567904">Observar la distribución de los datos puede revelar mucho sobre la relación entre la media, la mediana y la moda. Hay <emphasis effect="underline">tres tipos de distribuciones</emphasis>. Una distribución <emphasis effect="bold">distorsionada a la izquierda (o negativa)</emphasis> tiene una forma como en la <link target-id="M06_Ch02_fig002"/>. Una distribución <emphasis effect="bold">con distorsión a la derecha (o positiva)</emphasis> tiene una forma como <link target-id="M06_Ch02_fig003"/>. Una distribución <emphasis effect="bold">simétrica</emphasis> se parece a <link target-id="M06_Ch02_fig001"/>.</para></section>
+<title>Repaso del capítulo</title>
+<para id="fs-idm70567904">Observar la distribución de los datos puede revelar mucho sobre la relación entre la media, la mediana y la moda. Hay <emphasis effect="underline">tres tipos de distribuciones</emphasis>. Una distribución <emphasis effect="bold">distorsionada a la izquierda (o negativa)</emphasis> tiene una forma como la <link target-id="M06_Ch02_fig002"/>. Una distribución <emphasis effect="bold">distorsionada a la derecha (o positiva)</emphasis> tiene una forma como la <link target-id="M06_Ch02_fig003"/>. Una distribución <emphasis effect="bold">simétrica</emphasis> se parece a la <link target-id="M06_Ch02_fig001"/>.</para></section>
 
 <section id="fs-idp2369408" class="practice">
-<para id="eip-45"><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios:</emphasis> Indique si los datos son simétricos, con distorsión a la izquierda o con distorsión a la derecha.</para><exercise id="fs-idm89697712">
+<para id="eip-45"><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios:</emphasis> Indique si los datos son simétricos, distorsionados a la izquierda o distorsionados a la derecha.</para><exercise id="fs-idm89697712">
 <problem id="fs-idm18359408">
 <para id="fs-idm47149136">
 <list list-type="labeled-item" display="inline" id="list-00001"><item>1</item><item>1</item><item>1</item><item>2</item><item>2</item><item>2</item><item>2</item><item>3</item><item>3</item><item>3</item><item>3</item><item>3</item><item>3</item><item>3</item><item>3</item><item>4</item><item>4</item><item>4</item><item>5</item><item>5</item></list></para>
@@ -154,7 +154,7 @@
 <para id="fs-idm34119056">Describa la forma de esta distribución.</para>
 <figure id="fs-idm14476592"><media id="fs-idm61579104" alt="Se trata de un histograma que consta de 5 barras adyacentes con el eje x dividido en intervalos de 1 de 3 a 7. La altura de las barras alcanza su pico máximo en la primera barra y disminuye hacia la derecha."><image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M08_007.jpg" width="380"/></media></figure></problem>
 <solution id="fs-idp2236688">
-<para id="fs-idm40053200">La distribución está distrocionada a la derecha porque luce desplazada hacia la derecha.</para>
+<para id="fs-idm40053200">La distribución está distorsionada a la derecha porque luce desplazada hacia la derecha.</para>
 </solution>
 </exercise>
 
@@ -187,7 +187,7 @@
 
 <exercise id="fs-idm42189536">
 <problem id="fs-idm1742112">
-<para id="fs-idm2423344">¿La media y la mediana son exactamente iguales en esta distribución? ¿Por qué o por qué no?</para><figure id="fs-idm34380208"><media id="fs-idm44543696" alt="Se trata de un histograma que consta de 5 barras adyacentes con el eje x dividido en intervalos de 1 de 3 a 7. Las alturas de las barras, de izquierda a derecha, son: 2, 4, 8, 5, 2."><image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M08_010.jpg" width="380"/></media></figure></problem>
+<para id="fs-idm2423344">¿La media y la mediana son exactamente iguales en esta distribución? ¿Por qué sí o por qué no?</para><figure id="fs-idm34380208"><media id="fs-idm44543696" alt="Se trata de un histograma que consta de 5 barras adyacentes con el eje x dividido en intervalos de 1 de 3 a 7. Las alturas de las barras, de izquierda a derecha, son: 2, 4, 8, 5, 2."><image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M08_010.jpg" width="380"/></media></figure></problem>
 </exercise>
 
 <exercise id="fs-idm44509184">
@@ -195,7 +195,7 @@
 <para id="fs-idm13088944">Describa la forma de esta distribución.</para>
 <figure id="fs-idp2366192"><media id="fs-idm41242224" alt="Se trata de un histograma que consta de 5 barras adyacentes sobre un eje x dividido en intervalos de 1 de 3 a 7. Las alturas de las barras, de izquierda a derecha, son: 1, 1, 2, 4, 7."><image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M08_013.jpg" width="380"/></media></figure></problem>
 <solution id="fs-idm34197072">
-<para id="fs-idm64532304">La distribución está distrocionada a la izquierda porque luce desplazada hacia la izquierda.</para>
+<para id="fs-idm64532304">La distribución está distorsionada a la izquierda porque luce desplazada hacia la izquierda.</para>
 </solution>
 </exercise>
 
@@ -216,7 +216,7 @@
 <problem id="fs-idm50126800">
 <para id="fs-idm41982048">La media y la mediana de los datos son iguales.</para>
 <para id="fs-idm89655728"><list list-type="labeled-item" display="inline" id="list-00004"><item>3</item><item>4</item><item>5</item><item>5</item><item>6</item><item>6</item><item>6</item><item>6</item><item>7</item><item>7</item><item>7</item><item>7</item><item>7</item><item>7</item><item>7</item></list></para>
-<para id="fs-idm81347168">¿Los datos son perfectamente simétricos? ¿Por qué o por qué no?</para>
+<para id="fs-idm81347168">¿Los datos son perfectamente simétricos? ¿Por qué sí o por qué no?</para>
 </problem>
 </exercise>
 
@@ -259,7 +259,7 @@
 <para id="element-702">La edad media de la población de EE. UU. en 1980 era de 30,0 años. En 1991, la edad media era de 33,1 años.</para>
 <list id="id12488392" list-type="enumerated" number-style="lower-alpha"><item>¿Qué significa que la edad media aumente?</item>
 <item>Dé dos razones por las que la edad media podría aumentar.</item>
-<item>Para que la edad media aumente, ¿el número real de niños es menor en 1991 que en 1980? ¿Por qué o por qué no?</item>
+<item>Para que la edad media aumente, ¿el número real de niños es menor en 1991 que en 1980? ¿Por qué sí o por qué no?</item>
 </list></problem>
 </exercise>
 </section>

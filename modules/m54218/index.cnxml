@@ -29,7 +29,7 @@
    <m:mn>6</m:mn>
   </m:mfrac>
  </m:mrow>
-</m:math>. Si lanzara el dado solo unas pocas veces, no se sorprendería si los resultados observados no coinciden con la probabilidad. Si se lanzara el dado un gran número de veces, se esperaría eso, en general, <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> de las lanzadas daría un resultado de “al menos cinco”. No se puede esperar exactamente <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> La frecuencia relativa a largo plazo de obtener este resultado se acerca a la probabilidad teórica de <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> a medida que el número de repeticiones aumenta.</para>
+</m:math>. Si lanzara el dado solo unas pocas veces, no se sorprendería si los resultados observados no coinciden con la probabilidad. Si se lanzara el dado un gran número de veces, se esperaría eso, en general, <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> de las lanzadas daría un resultado de “al menos cinco”. No se puede esperar exactamente <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math>. La frecuencia relativa a largo plazo de obtener este resultado se acerca a la probabilidad teórica de <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> a medida que el número de repeticiones aumenta.</para>
 
 <para id="eip-664">Esta importante característica de los experimentos probabilísticos se conoce como la <term id="term-00009">ley de los grandes números</term>, que establece que, a medida que aumenta el número de repeticiones de un experimento, la frecuencia relativa obtenida tiende a acercarse cada vez más a la probabilidad teórica. Aunque los resultados no se produzcan según un patrón u orden determinado, en general, la frecuencia relativa observada a largo plazo se acerca a la probabilidad teórica (a menudo se utiliza la palabra <emphasis>empírica</emphasis> en vez de la palabra observado).</para>
 
@@ -108,7 +108,7 @@
 
  </m:mrow>
 </m:math>
-</para><para id="eip-674"><title>Posibilidad</title>Las probabilidades de un evento presentan la probabilidad como un cociente entre el éxito y el fracaso. Esto es común en varios formatos de juego. Matemáticamente, la posibilidad de un evento se define como:</para><equation id="fs-id1165082858741" class="unnumbered">Los términos <m:math>
+</para><para id="eip-674"><title>Posibilidad</title>Las probabilidades de un evento presentan la probabilidad como un cociente entre el éxito y el fracaso. Esto es común en varios formatos de juego. Matemáticamente, la posibilidad de un evento se define como:</para><equation id="fs-id1165082858741" class="unnumbered"><label/><m:math>
 <m:mfrac>
 <m:mrow>
 <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo>
@@ -207,7 +207,7 @@
 </example>
 
 <note id="fs-idm38461776" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idp18521824">
 <problem id="fs-idp8232288">
@@ -220,7 +220,7 @@
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A′</emphasis>) = ____________</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">B</emphasis>) = ___________, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">A</emphasis>) = _____________; ¿las probabilidades son iguales?</item></list></problem>
 <solution id="fs-idp35881808">
-
+<label/>
 <list id="fs-idp18543008" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">S</emphasis> = {(1,1), (1,2), (1,3), (1,4), (2,1), (2,2), (2,3), (2,4), (3,1), (3,2), (3,3), (3,4)}</item>
 <item><emphasis effect="italics">A</emphasis> = {(1,1), (1,3), (2,2), (2,4), (3,1), (3,3)} <newline count="2"/><emphasis effect="italics">B</emphasis> = {(2,1), (2,2), (2,3), (2,4), (3,1), (3,2), (3,3), (3,4)}</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = <m:math>
@@ -326,7 +326,7 @@
 </example>
 
 <example id="fs-idp6753008">
-<para id="fs-idp15243376"><link target-id="ch03_M02-tbl001"/> describe la distribución de una muestra aleatoria <emphasis effect="italics">S</emphasis> de 100 personas, organizada por sexo y por si son diestros o zurdos.
+<para id="fs-idp15243376">La <link target-id="ch03_M02-tbl001"/> describe la distribución de una muestra aleatoria <emphasis effect="italics">S</emphasis> de 100 personas, organizada por sexo y por si son diestras o zurdas.
 <table id="ch03_M02-tbl001" summary="Example 3 Table">
 <tgroup cols="3"><thead>
 <row>
@@ -388,7 +388,7 @@
 </section>
 
 <section id="fs-idp18168192" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idp7404384">En este módulo hemos aprendido la terminología básica de la probabilidad. El conjunto de todos los resultados posibles de un experimento se denomina espacio muestral. Los eventos son subconjuntos del espacio muestral y se les asigna una probabilidad que es un número entre cero y uno, ambos inclusive.</para>
 </section>
 
@@ -515,7 +515,7 @@
     </m:mrow>
    </m:mfrac>
    </m:mrow>
-  </m:math> = 0.13</para>
+  </m:math> = 0,13</para>
 </solution>
 </exercise>
 
@@ -565,7 +565,7 @@
    <m:mrow>
    <m:mfrac>
     <m:mrow>
-     <m:mn>150</m:mn><m:mo>-</m:mo><m:mn>22</m:mn><m:mo>–</m:mo><m:mn>38</m:mn><m:mo>–</m:mo><m:mn>20</m:mn><m:mo>–</m:mo><m:mn>28</m:mn><m:mo>–</m:mo><m:mn>26</m:mn>
+     <m:mn>150</m:mn><m:mo>–</m:mo><m:mn>22</m:mn><m:mo>–</m:mo><m:mn>38</m:mn><m:mo>–</m:mo><m:mn>20</m:mn><m:mo>–</m:mo><m:mn>28</m:mn><m:mo>–</m:mo><m:mn>26</m:mn>
     </m:mrow>
     <m:mrow>
      <m:mn>150</m:mn>
@@ -593,7 +593,7 @@
    </m:mfrac>
 
   </m:mrow>
-  </m:math> = 0.11</para></solution>
+  </m:math> = 0,11</para></solution>
 </exercise>
 
 <para id="fs-idm25754160"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos seis ejercicios.</emphasis> Hay 23 países en América del Norte, 12 en América del Sur, 47 en Europa, 44 en Asia, 54 en África y 14 en Oceanía (región del Océano Pacífico). <newline/>Supongamos que <emphasis effect="italics">A</emphasis> = el evento en el que un país esté en Asia. <newline/>Supongamos que <emphasis effect="italics">E</emphasis> = el evento en el que un país esté en Europa. <newline/>Supongamos que <emphasis effect="italics">F</emphasis> = el evento en el que un país esté en África. <newline/>Supongamos que <emphasis effect="italics">N</emphasis> = el evento en el que un país esté en América del Norte. <newline/>Supongamos que <emphasis effect="italics">O</emphasis> = el evento en el que un país esté en Oceanía. <newline/>Supongamos que <emphasis effect="italics">S</emphasis> = el evento en el que un país esté en América del Sur.</para>
@@ -615,7 +615,7 @@
     </m:mrow>
    </m:mfrac>
     </m:mrow>
-  </m:math> = 0.24</para></solution>
+  </m:math> = 0,24</para></solution>
 </exercise>
 
 <exercise id="fs-idm79250496"><problem id="fs-idm80555184"><para id="fs-idm66849952">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis>).</para></problem>
@@ -663,7 +663,7 @@
     </m:mrow>
    </m:mfrac>
     </m:mrow>
-  </m:math> = 0.06</para></solution>
+  </m:math> = 0,06</para></solution>
 </exercise>
 
 <exercise id="fs-idm24247104"><problem id="fs-idm21936736">
@@ -674,7 +674,7 @@
 <exercise id="fs-idm28330400">
 <problem id="fs-idp20091712">
 <para id="fs-idm24866720">¿Cuál es la probabilidad de sacar un trébol en un mazo estándar de 52 cartas?</para></problem>
-<solution id="fs-idm10488336"><para id="fs-idm169440">Los términos <m:math>
+<solution id="fs-idm10488336"><para id="fs-idm169440"><m:math>
    <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -692,7 +692,7 @@
     <m:mn>4</m:mn>
    </m:mfrac>
     </m:mrow>
-  </m:math> = 0.25</para></solution>
+  </m:math> = 0,25</para></solution>
 </exercise>
 
 <exercise id="fs-idm3623360"><problem id="fs-idm62001312"><para id="fs-idm85725360">¿Cuál es la probabilidad de sacar un número par de puntos con un dado imparcial de seis lados numerados del uno al seis?</para></problem>
@@ -700,7 +700,7 @@
 
 <exercise id="fs-idm61066160">
 <problem id="fs-idm109071856"><para id="fs-idm92474096">¿Cuál es la probabilidad de sacar un número primo de puntos con un dado imparcial de seis lados numerados del uno al seis?</para></problem>
-<solution id="fs-idm86034528"><para id="fs-idp53515360">Los términos <m:math>
+<solution id="fs-idm86034528"><para id="fs-idp53515360"><m:math>
   <m:mrow>
    <m:mfrac>
     <m:mn>3</m:mn>
@@ -715,7 +715,7 @@
     <m:mn>2</m:mn>
    </m:mfrac>
     </m:mrow>
-  </m:math> = 0.5</para>
+  </m:math> = 0,5</para>
 </solution>
 </exercise>
 
@@ -737,7 +737,7 @@
 <para id="fs-idm60563664">Si cae en rojo, no recibe premio. ¿Qué es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>)?</para>
 </problem>
 <solution id="fs-idm86444976">
-<para id="fs-idm10991472">Los términos <m:math>
+<para id="fs-idm10991472"><m:math>
  <m:mrow>
   <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
    <m:mn>4</m:mn>
@@ -893,7 +893,7 @@
 
 <definition id="eqlikly">
 <term>Igual de probable</term>
-<meaning id="id3651637">Cada resultado de un experimento tiene la misma probabilidad.</meaning>
+<meaning id="id3651637">cada resultado de un experimento tiene la misma probabilidad</meaning>
   </definition>
 
 <definition id="event">
@@ -917,7 +917,7 @@
 <term>Probabilidad</term>
 <meaning id="id17934331">un número entre cero y uno, inclusive, que da la probabilidad de que ocurra un evento específico; el fundamento de la estadística viene dado por los siguientes 3 axiomas (por A. N. Kolmogorov, década de los años 30 del siglo XX): Supongamos que <emphasis effect="italics">S</emphasis> es el espacio muestral y <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son dos eventos en <emphasis effect="italics">S</emphasis>. Entonces <list id="fs-id6987848" list-type="bulleted">
 <item>0 ≤ <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) ≤ 1</item>
-<item>Si <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son dos eventos mutuamente exclusivos, entonces <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∪</m:mo></m:math> <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(B).</item>
+<item>Si <emphasis effect="italics">A</emphasis> y <emphasis effect="italics">B</emphasis> son dos eventos mutuamente excluyentes, entonces <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∪</m:mo></m:math> <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(B).</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">S</emphasis>) = 1</item>
 </list>
 </meaning>
@@ -929,13 +929,13 @@
 </definition>
 
  <definition id="fs-idp211856">
-<term>La intersección: la <m:math><m:mo>∩</m:mo></m:math> Evento</term>
-<meaning id="fs-idp35849872">Un resultado es en el caso <emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis> si el resultado está en ambos <emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis> al mismo tiempo.</meaning>
+<term>La intersección: el evento <m:math><m:mo>∩</m:mo></m:math> </term>
+<meaning id="fs-idp35849872">un resultado es en el caso <emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis> si el resultado está en ambos <emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis> al mismo tiempo.</meaning>
 </definition>
 
 <definition id="fs-idp6248000">
-<term>El complemento del evento</term>
-<meaning id="fs-idp20218352">El complemento del evento <emphasis effect="italics">A</emphasis> consiste en todos los resultados que NO están en <emphasis effect="italics">A</emphasis>.</meaning>
+<term>Complemento del evento</term>
+<meaning id="fs-idp20218352">el complemento del evento <emphasis effect="italics">A</emphasis> consiste en todos los resultados que NO están en <emphasis effect="italics">A</emphasis>.</meaning>
 </definition>
 
 <definition id="fs-idm8780960">
@@ -944,8 +944,8 @@
 </definition>
 
 <definition id="fs-idp40744624">
-<term>La Unión: la <m:math><m:mo>∪</m:mo></m:math> Evento</term>
-<meaning id="fs-idp93196512">Un resultado es en el caso <emphasis effect="italics">A</emphasis> <m:math><m:mo>∪</m:mo></m:math> <emphasis effect="italics">B</emphasis> si el resultado está en <emphasis effect="italics">A</emphasis> o está en <emphasis effect="italics">B</emphasis> o está tanto en <emphasis effect="italics">A</emphasis> como en <emphasis effect="italics">B</emphasis>.</meaning>
+<term>La Unión: el evento <m:math><m:mo>∪</m:mo></m:math> </term>
+<meaning id="fs-idp93196512">un resultado es en el caso <emphasis effect="italics">A</emphasis> <m:math><m:mo>∪</m:mo></m:math> <emphasis effect="italics">B</emphasis> si el resultado está en <emphasis effect="italics">A</emphasis> o está en <emphasis effect="italics">B</emphasis> o está tanto en <emphasis effect="italics">A</emphasis> como en <emphasis effect="italics">B</emphasis>.</meaning>
 </definition>
 </glossary>
 </document>

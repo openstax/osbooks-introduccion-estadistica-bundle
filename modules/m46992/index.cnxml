@@ -8,8 +8,8 @@
 </metadata>
 
 <content>
-    <para id="fs-idp59629922">Es importante que entienda cuándo utilizar el <term id="term-00001">teorema del límite central</term>. Si se le pide que encuentre la probabilidad de la media, utilice el TLC para la media. Si se le pide que encuentre la probabilidad de una suma o un total, utilice el TLC para sumas. Esto también se aplica a los percentiles para las medias y las sumas.</para><note id="id11030776"><title>NOTA</title>
-<para id="fs-idm90223456">Si se le pide que encuentre la probabilidad de un valor <emphasis>individual</emphasis>, <emphasis>no</emphasis> utilice el TLC. <emphasis>Utilice la distribución de su variable aleatoria.</emphasis></para></note><section id="element-733">
+    <para id="fs-idp59629922">Es importante que entienda cuándo utilizar el <term id="term-00001">teorema del límite central</term>. Si se le pide que halle la probabilidad de la media, utilice el TLC para la media. Si se le pide que halle la probabilidad de una suma o un total, utilice el TLC para sumas. Esto también se aplica a los percentiles para las medias y las sumas.</para><note id="id11030776"><label/><title>NOTA</title>
+<para id="fs-idm90223456">Si se le pide que halle la probabilidad de un valor <emphasis>individual</emphasis>, <emphasis>no</emphasis> utilice el TLC. <emphasis>Utilice la distribución de su variable aleatoria.</emphasis></para></note><section id="element-733">
 <title>Ejemplos del teorema del límite central</title>
 <section id="fs-idp5962992">
 <title>Ley de los grandes números</title>
@@ -53,7 +53,7 @@
 <item>El percentil 90<sup/> de la <emphasis>puntuación total de estrés</emphasis> de los 75 estudiantes.</item>
 </list><para id="element-294">Supongamos que <emphasis effect="italics">X</emphasis> = una puntuación de estrés.</para>
 
-<para id="element-632">En los problemas a y b se pide encontrar una probabilidad o un percentil para una <term id="term-00004">media</term>. En los problemas c y d se pide encontrar una probabilidad o un percentil para un <emphasis>total o una suma</emphasis>. El tamaño de la muestra, <emphasis effect="italics">n</emphasis>, es igual a 75.</para>
+<para id="element-632">En los problemas a y b se pide calcular una probabilidad o un percentil para una <term id="term-00004">media</term>. En los problemas c y d se pide calcular una probabilidad o un percentil para un <emphasis>total o una suma</emphasis>. El tamaño de la muestra, <emphasis effect="italics">n</emphasis>, es igual a 75.</para>
 
 <para id="element-494">Dado que las puntuaciones individuales de estrés siguen una distribución uniforme, <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(1, 5) donde <emphasis effect="italics">a</emphasis> = 1 y <emphasis effect="italics">b</emphasis> = 5 (vea <link document="m46967">Variables aleatorias continuas</link> para una explicación de la distribución uniforme).</para><para id="element-35"><emphasis effect="italics">μ<sub>X</sub></emphasis> = <m:math>
  <m:mrow>
@@ -129,7 +129,7 @@
   <m:mo>¯</m:mo>
  </m:mover>
 
-</m:math> = la puntuación media de estrés de los 75 estudiantes. Entonces,</para><para id="element-257">Los términos <m:math>
+</m:math> = la puntuación media de estrés de los 75 estudiantes. Entonces,</para><para id="element-257"><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
@@ -181,7 +181,7 @@
 <image src="../../media/fig-ch07_04_01.jpg" mime-type="image/jpg" width="380"/></media>
 </figure>
 
-<para id="fs-idm29706432"><code>normalcdf</code> Los términos <m:math>
+<para id="fs-idm29706432"><code>normalcdf</code> <m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -204,7 +204,7 @@
  </m:mrow>
 </m:math> = 0
 </para><note id="note-1" type="Reminder">
-
+<label/>
 <title>Recordatorio</title>
 <para id="fs-idm90269648">La menor puntuación de estrés es uno.</para>
 </note>
@@ -231,7 +231,7 @@
 </figure>
 
 <para id="element-776">El percentil 90<sup/> de la media de las 75 puntuaciones es de aproximadamente 3,2. Esto nos indica que el 90 % de todas las medias de 75 puntuaciones de estrés son como máximo 3,2, y que el 10 % son como mínimo 3,2.</para>
-<para id="element-992"><code>invNorm</code>Los términos <m:math>
+<para id="element-992"><code>invNorm</code><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -298,7 +298,7 @@
   <m:mo stretchy="false">)</m:mo>
  </m:mrow>
 </m:math>(1,15)).</para><note id="note-2" type="Reminder">
-
+<label/>
 <title>Recordatorio</title>
 <para id="fs-idm105410608">El total más pequeño de 75 puntuaciones de estrés es 75, porque la puntuación individual más pequeña es uno.</para></note>
 
@@ -307,7 +307,7 @@
 
 <exercise id="element-681">
 <problem id="id10985710">
-  <para id="element-698">d. Encuentre el percentil 90<sup/> para el total de las 75 puntuaciones de estrés. Dibuje un gráfico.</para></problem>
+  <para id="element-698">d. Calcule el percentil 90<sup/> para el total de las 75 puntuaciones de estrés. Dibuje un gráfico.</para></problem>
 
 <solution id="id10985728">
   <para id="element-308">d. Supongamos que <emphasis effect="italics">k</emphasis> = el percentil 90<sup/>.</para>
@@ -333,11 +333,11 @@
 </exercise></example>
 
 <note id="fs-idm56169616" class="statistics try">
-<title>Ejercicio</title>
+<label/><title>Ejercicio</title>
 
 <exercise id="fs-idm127013136">
 <problem id="fs-idm53684704">
-<para id="fs-idm54565472">Utilice la información de <link target-id="element-482"/>, pero utilice un tamaño de muestra de 55 para responder las siguientes preguntas.</para>
+<para id="fs-idm54565472">Utilice la información del <link target-id="element-482" document=""/>, pero utilice un tamaño de muestra de 55 para responder las siguientes preguntas.</para>
 
 <list id="fs-idm68188624" list-type="enumerated" number-style="lower-alpha">
 <item>Halle <emphasis effect="italics">P</emphasis>(<m:math>
@@ -348,11 +348,11 @@
 </m:math> &lt; 7).</item>
 <item>Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> > 170).</item>
 <item>Calcule el percentil 80<sup/> para la media de 55 puntuaciones.</item>
-<item>Encuentre el percentil 85<sup/> para la suma de 55 puntuaciones.</item>
+<item>Calcule el percentil 85<sup/> para la suma de 55 puntuaciones.</item>
 </list>
 </problem>
 </exercise></note><example id="example2">
-<para id="eip-id1171180958925">Supongamos que un analista de investigación de mercado de una empresa de telefonía móvil realiza un estudio sobre sus clientes que superan el tiempo incluido en su contrato básico de telefonía móvil; el analista descubre que, para las personas que superan el tiempo incluido en su contrato básico, el <emphasis>exceso de tiempo utilizado</emphasis> sigue una <term id="term-00005">distribución exponencial</term> con una media de 22 minutos.</para><para id="eip-id1171181431405">Consideremos una muestra aleatoria de 80 clientes que superan el límite de tiempo incluido en su contrato básico de telefonía móvil.</para>
+<para id="eip-id1171180958925">Supongamos que un analista de investigación de mercado de una compañía de telefonía móvil realiza un estudio sobre sus clientes que superan el tiempo incluido en su contrato básico de telefonía móvil; el analista descubre que, para las personas que superan el tiempo incluido en su contrato básico, el <emphasis>exceso de tiempo utilizado</emphasis> sigue una <term id="term-00005">distribución exponencial</term> con una media de 22 minutos.</para><para id="eip-id1171181431405">Consideremos una muestra aleatoria de 80 clientes que superan el límite de tiempo incluido en su contrato básico de telefonía móvil.</para>
 
 <para id="eip-id1171181123857">Supongamos que <emphasis effect="italics">X</emphasis> = el exceso de tiempo utilizado por un cliente de telefonía móvil INDIVIDUAL que supera su asignación de tiempo contratada.</para>
 
@@ -370,14 +370,14 @@
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math> Por los capítulos anteriores, sabemos que <emphasis effect="italics">μ</emphasis> = 22 y <emphasis effect="italics">σ</emphasis> = 22.</para><para id="eip-id1171180995295">Supongamos que <m:math>
+</m:math>. Por los capítulos anteriores, sabemos que <emphasis effect="italics">μ</emphasis> = 22 y <emphasis effect="italics">σ</emphasis> = 22.</para><para id="eip-id1171180995295">Supongamos que <m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
 </m:math> = el exceso de la media de tiempo utilizado por una muestra de <emphasis effect="italics">n</emphasis> = 80 clientes que superan el tiempo contratado.</para>
 
-<para id="eip-id1171181077126">Los términos <m:math>
+<para id="eip-id1171181077126"><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
@@ -408,14 +408,14 @@
 
 <exercise id="eip-id8136792"><problem id="eip-id8760885">
   <list id="eip-id1171180795181" list-type="enumerated" number-style="lower-alpha">
-<title><emphasis>Utilice el TLC para encontrar la probabilidad</emphasis></title>
-<item>Encuentre la probabilidad de que el exceso de la media de tiempo utilizado por los 80 clientes de la muestra sea superior a 20 minutos. Esto nos pide encontrar <emphasis effect="italics">P(</emphasis><m:math>
+<title><emphasis>Utilice el TLC para calcular la probabilidad</emphasis></title>
+<item>Calcule la probabilidad de que el exceso de la media de tiempo utilizado por los 80 clientes de la muestra sea superior a 20 minutos. Esto nos pide calcular <emphasis effect="italics">P(</emphasis><m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
 </m:math> > 20). Dibuje el gráfico.</item>
-<item>Supongamos que se selecciona aleatoriamente un cliente que supera el límite de tiempo de su contrato de telefonía móvil. Calcule la probabilidad de que el exceso de tiempo de este cliente individual sea superior a 20 minutos. Esto nos pide encontrar <emphasis effect="italics">P</emphasis><emphasis effect="italics">(x</emphasis> > 20).</item>
+<item>Supongamos que se selecciona aleatoriamente un cliente que supera el límite de tiempo de su contrato de telefonía móvil. Calcule la probabilidad de que el exceso de tiempo de este cliente individual sea superior a 20 minutos. Esto nos pide calcular <emphasis effect="italics">P</emphasis><emphasis effect="italics">(x</emphasis> > 20).</item>
 <item>Explique por qué las probabilidades de las partes a y b son diferentes.</item>
 </list></problem>
 
@@ -433,7 +433,7 @@
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-</m:math> > 20) = 0,79199 utilizando <code>normalcdf</code>Los términos <m:math>
+</m:math> > 20) = 0,79199 utilizando <code>normalcdf</code><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -462,7 +462,7 @@
 </figure>
 
 <note id="note-5" class="finger" type="Reminder">
-
+<label/>
 <title>Recordatorio</title>
 <para id="fs-idm69813456"><emphasis>1E99 = 10<sup>99</sup> y –1E99 = –10<sup>99</sup></emphasis>. Pulse <code>EE</code> la tecla para la E. O simplemente utilice 10<sup>99</sup> en lugar de 1E99.</para></note>
 </item>
@@ -489,7 +489,7 @@
    <m:mrow>
     <m:mrow><m:mo>(</m:mo>
      <m:mrow>
-      <m:mo>- −</m:mo><m:mrow><m:mo>(</m:mo>
+      <m:mo>–</m:mo><m:mrow><m:mo>(</m:mo>
        <m:mrow>
         <m:mfrac>
          <m:mn>1</m:mn>
@@ -520,14 +520,14 @@
 
 </m:math> > 20) = 0,7919</item>
 <item>Las probabilidades no son iguales porque utilizamos diferentes distribuciones para calcular la probabilidad de los individuos y de las medias.</item>
-<item>Cuando se le pida que encuentre la probabilidad de un valor individual, utilice la distribución indicada de su variable aleatoria; no utilice el TLC. Utilice el TLC con la distribución normal cuando le pidan calcular la probabilidad de una media.</item></list>
+<item>Cuando se le pida que calcule la probabilidad de un valor individual, utilice la distribución indicada de su variable aleatoria; no utilice el TLC. Utilice el TLC con la distribución normal cuando le pidan calcular la probabilidad de una media.</item></list>
 </item>
 </list></solution>
 </exercise>
 
 <exercise id="eip-id1171180910907">
 <problem id="eip-id1171181151372">
-<para id="eip-id1171180876381"><title><emphasis>Uso del TLC para encontrar percentiles</emphasis></title>Calcule el percentil 95<sup/> de la <emphasis>media muestral del exceso de tiempo</emphasis> para las muestras de 80 clientes que exceden sus asignaciones de tiempo de contrato básico. Dibuje un gráfico.</para></problem>
+<para id="eip-id1171180876381"><title><emphasis>Uso del TLC para calcular percentiles</emphasis></title>Calcule el percentil 95<sup/> de la <emphasis>media muestral del exceso de tiempo</emphasis> para las muestras de 80 clientes que exceden sus asignaciones de tiempo de contrato básico. Dibuje un gráfico.</para></problem>
 
 <solution id="eip-id1171181126592">
   <para id="eip-id1171181699771">Supongamos que <emphasis effect="italics">k</emphasis> = el percentil 95<sup/>. Calcule <emphasis effect="italics">k</emphasis> donde <emphasis effect="italics">P</emphasis>(<m:math>
@@ -536,7 +536,7 @@
   <m:mo>¯</m:mo>
  </m:mover>
 </m:math> &lt; <emphasis effect="italics">k</emphasis>) = 0,95</para>
-<para id="eip-id1171180867272" class="finger"><emphasis effect="italics">k</emphasis> = 26,0 utilizando <code>invNorm</code>Los términos <m:math>
+<para id="eip-id1171180867272" class="finger"><emphasis effect="italics">k</emphasis> = 26,0 utilizando <code>invNorm</code><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -571,11 +571,11 @@
 
 
 <note id="fs-idm50063488" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm113638352"><problem id="fs-idm60469088">
-<para id="eip-823">Utilice la información del <link target-id="example2"/>, pero cambie el tamaño de la muestra a 144.</para>
-<list id="fs-idm72056816" list-type="enumerated" number-style="lower-alpha"><item>Encuentre <emphasis effect="italics">P</emphasis>(20 &lt; <m:math>
+<para id="eip-823">Utilice la información del <link target-id="example2" document=""/>, pero cambie el tamaño de la muestra a 144.</para>
+<list id="fs-idm72056816" list-type="enumerated" number-style="lower-alpha"><item>Calcule <emphasis effect="italics">P</emphasis>(20 &lt; <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
@@ -589,11 +589,11 @@
 </exercise></note>
 
 <example id="fs-idm153949776">
-<para id="fs-idp5363584">En Estados Unidos, alguien sufre una agresión sexual cada dos minutos, por término medio, según varios estudios. Supongamos que la desviación típica es de 0,5 minutos y el tamaño de la muestra es de 100.</para><exercise id="fs-idm67039584">
+<para id="fs-idp5363584">En Estados Unidos, alguien sufre una agresión sexual cada dos minutos, en promedio, según varios estudios. Supongamos que la desviación típica es de 0,5 minutos y el tamaño de la muestra es de 100.</para><exercise id="fs-idm67039584">
 <problem id="fs-idm9526400">
 <list id="fs-idm184397680" list-type="enumerated" number-style="lower-alpha"><item>Calcule la mediana, el primer cuartil y el tercer cuartil para la media de tiempo de la muestra de las agresiones sexuales en Estados Unidos.</item>
 <item>Calcule la mediana, el primer cuartil y el tercer cuartil para la suma de los tiempos de muestra de las agresiones sexuales en Estados Unidos.</item>
-<item>Calcule la probabilidad de que una agresión sexual se produzca en una media de entre 1,75 y 1,85 minutos.</item>
+<item>Calcule la probabilidad de que una agresión sexual se produzca en un promedio de entre 1,75 y 1,85 minutos.</item>
 <item>Calcule el valor que está dos desviaciones típicas por encima de la media de la muestra.</item>
 <item>Calcule el <emphasis effect="italics">IQR</emphasis> para la suma de los tiempos de la muestra.</item>
 </list></problem>
@@ -682,13 +682,13 @@
 </example>
 
 <note id="fs-idm67893584" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm59759104">
 <problem id="fs-idm113132656">
-<para id="fs-idm69144496">Según los datos de la Encuesta Nacional de Salud, las mujeres de entre 18 y 24 años tienen una presión arterial sistólica media (en mm Hg) de 114,8 con una desviación típica de 13,1. La presión arterial sistólica de las mujeres de entre 18 y 24 años sigue una distribución normal.</para><list id="fs-idm115059504" list-type="enumerated" number-style="lower-alpha">
+<para id="fs-idm69144496">Según los datos de la Encuesta Nacional de Salud, las mujeres de entre 18 y 24 años tienen una presión arterial sistólica promedio (en mm Hg) de 114,8 con una desviación típica de 13,1. La presión arterial sistólica de las mujeres de entre 18 y 24 años sigue una distribución normal.</para><list id="fs-idm115059504" list-type="enumerated" number-style="lower-alpha">
 <item>Si se selecciona aleatoriamente una mujer de esta población, calcule la probabilidad de que su presión arterial sistólica sea superior a 120.</item>
-<item>Si se seleccionan aleatoriamente 40 mujeres de esta población, encuentre la probabilidad de que su presión arterial sistólica media sea superior a 120.</item>
+<item>Si se seleccionan aleatoriamente 40 mujeres de esta población, calcule la probabilidad de que su presión arterial sistólica media sea superior a 120.</item>
 <item>Si la muestra fuera de cuatro mujeres de entre 18 y 24 años y no conociéramos la distribución original, ¿se podría utilizar el teorema del límite central?</item>
 </list>
 </problem>
@@ -722,7 +722,7 @@
   <m:mo>¯</m:mo>
  </m:mover>
 
-</m:math> > 50) = <code>normalcdf</code>(50, <emphasis effect="italics">E</emphasis>99,30.9,1.8) ≈ 0. Para este grupo de muestra, es casi imposible que la media de edad del grupo sea superior a 50 años. Sin embargo, todavía es posible que un individuo de este grupo tenga una edad superior a los 50 años.</item>
+</m:math> > 50) = <code>normalcdf</code>(50, <emphasis effect="italics">E</emphasis>99,30.9,1.8) ≈ 0. Para este grupo de muestra es casi imposible que el promedio de edad del grupo sea superior a 50 años. Sin embargo, todavía es posible que un individuo de este grupo tenga una edad superior a los 50 años.</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> ≥ 1.600) = <code>normalcdf</code>(1600,E99,1514.10,63) = 0,0864</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> ≤ 1.595) = <code>normalcdf</code>(-E99,1595,1514.10,63) = 0,9005. Esto significa que hay un 90 % de posibilidades de que la suma de las edades para el grupo de muestra <emphasis effect="italics">n</emphasis> = 49 sea como máximo 1595.</item>
 <item>El percentil 95 = <code>invNorm</code>(0.95,30.9,1.1) = 32,7. Esto indica que el 95 % de las prostitutas de la muestra de 65 son menores de 32,7 años, en promedio.</item>
@@ -732,7 +732,7 @@
 </example>
 
 <note id="fs-idm102859984" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm123966224">
 <problem id="fs-idm146706672">
@@ -743,16 +743,16 @@
 </exercise>
 </note>
 
-<note id="eip-713"><title>NOTA HISTÓRICA</title>
+<note id="eip-713"><label/><title>NOTA HISTÓRICA</title>
 
-<para id="fs-idm36895584"><emphasis>: Aproximación normal a la binomial</emphasis></para>
+<para id="fs-idm36895584"><emphasis> Aproximación normal a la binomial</emphasis></para>
 <para id="eip-614">Históricamente, poder calcular las probabilidades binomiales era una de las aplicaciones más importantes del teorema del límite central. Las probabilidades binomiales con un valor pequeño para <emphasis effect="italics">n</emphasis>(digamos, 20) se mostraban en una tabla en un libro. Para calcular las probabilidades con valores grandes de <emphasis effect="italics">n</emphasis>, había que utilizar la fórmula binomial, que podía ser muy complicada. El uso de la <term id="term-00006">aproximación normal a la distribución binomial</term> simplificó el proceso. Para calcular la aproximación normal a la distribución binomial, tome una muestra aleatoria simple de una población. Debe cumplir las condiciones de una <term id="term-00007">distribución binomial</term>:</para>
 <list id="norm_bi_approx" list-type="bulleted" bullet-style="bullet">
 <item>hay un cierto número <emphasis effect="italics">n</emphasis> de ensayos independientes</item>
 <item>los resultados de cualquier ensayo son aciertos o fallos</item>
 <item>cada ensayo tiene la misma probabilidad de un acierto <emphasis effect="italics">p</emphasis></item>
 </list>
-<para id="fs-idm101632">Recordemos que si <emphasis effect="italics">X</emphasis> es la variable aleatoria binomial, entonces <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n, p</emphasis>). La forma de la distribución binomial debe ser similar a la de la distribución normal. Para ello, las cantidades <emphasis effect="italics">np</emphasis> y <emphasis effect="italics">nq</emphasis> deben ser mayores que cinco (<emphasis effect="italics">np</emphasis> > 5 y <emphasis effect="italics">nq</emphasis> > 5; la aproximación es mejor si ambas son mayores o iguales a 10). Entonces la binomial puede ser aproximada por la distribución normal con media <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> y desviación estándar <emphasis effect="italics">σ</emphasis> = <m:math>
+<para id="fs-idm101632">Recordemos que si <emphasis effect="italics">X</emphasis> es la variable aleatoria binomial, entonces <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n, p</emphasis>). La forma de la distribución binomial debe ser similar a la de la distribución normal. Para ello, las cantidades <emphasis effect="italics">np</emphasis> y <emphasis effect="italics">nq</emphasis> deben ser mayores que cinco (<emphasis effect="italics">np</emphasis> > 5 y <emphasis effect="italics">nq</emphasis> > 5; la aproximación es mejor si ambas son mayores o iguales a 10). Entonces la binomial puede ser aproximada por la distribución normal con media <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> y desviación típica <emphasis effect="italics">σ</emphasis> = <m:math>
  <m:mrow>
   <m:msqrt>
    <m:mrow>
@@ -761,31 +761,31 @@
   </m:msqrt>
 
  </m:mrow>
-</m:math> Recuerde que <emphasis effect="italics">q</emphasis> = 1 - <emphasis effect="italics">p</emphasis>. Para obtener la mejor aproximación, sume 0,5 a <emphasis effect="italics">x</emphasis> o reste 0,5 a <emphasis effect="italics">x</emphasis> (utilice <emphasis effect="italics">x</emphasis> + 0,5 o <emphasis effect="italics">x</emphasis> - 0,5). El número 0,5 se denomina <term id="term-00008">factor de corrección de continuidad</term> y se utiliza en el siguiente ejemplo.</para></note><example id="eip-831">
-<para id="eip-926">Supongamos que en un distrito escolar local desde el jardín de infancia hasta 12.<sup>º</sup> grado (K-12), el 53 % de la población está a favor de una escuela subvencionada para el jardín de infancia hasta 5.º grado (K-5). Se realiza una encuesta con una muestra aleatoria simple de 300 personas.</para><list id="eip-306" list-type="enumerated" number-style="lower-alpha"><item>Calcule la probabilidad de que <emphasis>al menos 150</emphasis> estén a favor de una escuela subvencionada.</item>
-<item>Calcule la probabilidad de que <emphasis>como máximo 160</emphasis> estén a favor de una escuela subvencionada.</item>
-<item>Calcule la probabilidad de que <emphasis>más de 155</emphasis> estén a favor de una escuela subvencionada.</item>
-<item>Calcule la probabilidad de que <emphasis>menos de 147</emphasis> estén a favor de una escuela subvencionada.</item>
-<item>Calcule la probabilidad de que <emphasis>exactamente 175</emphasis> estén a favor de una escuela subvencionada.</item>
- </list><para id="eip-778">Supongamos que <emphasis effect="italics">X</emphasis> = el número de los que están a favor de una escuela subvencionada para los grados K a 5. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n, p</emphasis>) donde <emphasis effect="italics">n</emphasis> = 300 y <emphasis effect="italics">p</emphasis> = 0,53. Como <emphasis effect="italics">np</emphasis> > 5 y <emphasis effect="italics">nq</emphasis> > 5, utilice la aproximación normal a la binomial. Las fórmulas para la media y la desviación típica son <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> y <emphasis effect="italics">σ</emphasis> = <m:math>
+</m:math>. Recuerde que <emphasis effect="italics">q</emphasis> = 1 - <emphasis effect="italics">p</emphasis>. Para obtener la mejor aproximación, sume 0,5 a <emphasis effect="italics">x</emphasis> o reste 0,5 a <emphasis effect="italics">x</emphasis> (utilice <emphasis effect="italics">x</emphasis> + 0,5 o <emphasis effect="italics">x</emphasis> - 0,5). El número 0,5 se denomina <term id="term-00008">factor de corrección de continuidad</term> y se utiliza en el siguiente ejemplo.</para></note><example id="eip-831">
+<para id="eip-926">Supongamos que en un distrito escolar local desde kínder hasta 12.<sup>º</sup> grado (K-12), el 53 % de la población está a favor de una escuela chárter de kínder a 5.º grado (K-5). Se realiza una encuesta con una muestra aleatoria simple de 300 personas.</para><list id="eip-306" list-type="enumerated" number-style="lower-alpha"><item>Calcule la probabilidad de que <emphasis>al menos 150</emphasis> estén a favor de una escuela chárter.</item>
+<item>Calcule la probabilidad de que <emphasis>como máximo 160</emphasis> estén a favor de una escuela chárter.</item>
+<item>Calcule la probabilidad de que <emphasis>más de 155</emphasis> estén a favor de una escuela chárter.</item>
+<item>Calcule la probabilidad de que <emphasis>menos de 147</emphasis> estén a favor de una escuela chárter.</item>
+<item>Calcule la probabilidad de que <emphasis>exactamente 175</emphasis> estén a favor de una escuela chárter.</item>
+ </list><para id="eip-778">Supongamos que <emphasis effect="italics">X</emphasis> = el número de los que están a favor de una escuela chárter de K-5. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n, p</emphasis>) donde <emphasis effect="italics">n</emphasis> = 300 y <emphasis effect="italics">p</emphasis> = 0,53. Como <emphasis effect="italics">np</emphasis> > 5 y <emphasis effect="italics">nq</emphasis> > 5, utilice la aproximación normal a la binomial. Las fórmulas para la media y la desviación típica son <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> y <emphasis effect="italics">σ</emphasis> = <m:math>
  <m:mrow> <m:msqrt><m:mrow>
     <m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
    </m:mrow>
   </m:msqrt>
  </m:mrow>
-</m:math> La media es de 159 desviación típica es de 8,6447. La variable aleatoria de la distribución normal es <emphasis effect="italics">Y</emphasis>. <emphasis effect="italics">Y</emphasis> ~ <emphasis effect="italics">N</emphasis>(159; 8,6447). Consulte <link document="m46977">La distribución normal</link> para obtener ayuda con las instrucciones de la calculadora.</para><para id="eip-214" class="finger">Para la parte a, <emphasis>se incluye 150</emphasis> por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) tiene aproximación normal <emphasis effect="italics">P</emphasis><emphasis effect="italics">(Y</emphasis> ≥ 149,5) = 0,8641.</para>
+</m:math>. La media es de 159 desviación típica es de 8,6447. La variable aleatoria de la distribución normal es <emphasis effect="italics">Y</emphasis>. <emphasis effect="italics">Y</emphasis> ~ <emphasis effect="italics">N</emphasis>(159; 8,6447). Consulte <link document="m46977">La distribución normal</link> para obtener ayuda con las instrucciones de la calculadora.</para><para id="eip-214" class="finger">Para la parte a, <emphasis>se incluye 150</emphasis> por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) tiene aproximación normal <emphasis effect="italics">P</emphasis><emphasis effect="italics">(Y</emphasis> ≥ 149,5) = 0,8641.</para>
 <para id="eip-554"><code>normalcdf</code>(149,5,10^99,159,8.6447) = 0,8641.</para><para id="eip-323">Para la parte b, <emphasis>se incluye 160</emphasis> por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 160) tiene una aproximación normal <emphasis effect="italics">P</emphasis><emphasis effect="italics">(Y</emphasis> ≤ 160,5) = 0,5689.</para>
 
 <para id="eip-162"><code>normalcdf</code>(0,160.5,159,8.6447) = 0,5689</para><para id="eip-630">Para la parte c, se <emphasis>excluye 155</emphasis> por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 155) tiene una aproximación normal <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">y</emphasis> > 155,5) = 0,6572.</para>
 
 <para id="eip-763"><code>normalcdf</code>(155,5,10^99,159,8.6447) = 0,6572.</para><para id="eip-955">Para la parte d, se <emphasis>excluye 147</emphasis> por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 147) tiene una aproximación normal <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Y</emphasis> &lt; 146,5) = 0,0741.</para><para id="eip-555"><code>normalcdf</code>(0,146.5,159,8.6447) = 0,0741</para><para id="eip-788">Para la parte e,<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = 175) tiene una aproximación normal <emphasis effect="italics">P</emphasis>(174,5 &lt; <emphasis effect="italics">Y</emphasis> &lt; 175,5) = 0,0083.</para>
-<para id="eip-680"><code>normalcdf</code>(174.5,175.5,159,8.6447) = 0,0083</para><para id="eip-863" class="finger"><emphasis>Gracias a las calculadoras y a los programas informáticos</emphasis> que permiten calcular fácilmente las probabilidades binomiales para grandes valores de <emphasis effect="italics">n</emphasis>, no es necesario utilizar la aproximación normal a la distribución binomial, siempre que se tenga acceso a estas herramientas tecnológicas. La mayoría de los laboratorios escolares disponen de Microsoft Excel, un ejemplo de programa informático que calcula probabilidades binomiales. Muchos estudiantes tienen acceso a las calculadoras de la serie TI-83 u 84, y calculan fácilmente las probabilidades de la distribución binomial. Si escribe "cálculo de la distribución de probabilidad binomial" en un navegador de Internet, podrá encontrar al menos una calculadora en línea para la binomial.</para>
+<para id="eip-680"><code>normalcdf</code>(174.5,175.5,159,8.6447) = 0,0083</para><para id="eip-863" class="finger"><emphasis>Gracias a las calculadoras y a los softwares</emphasis> que permiten calcular fácilmente las probabilidades binomiales para grandes valores de <emphasis effect="italics">n</emphasis>, no es necesario utilizar la aproximación normal a la distribución binomial, siempre que se tenga acceso a estas herramientas tecnológicas. La mayoría de los laboratorios escolares disponen de Microsoft Excel, un ejemplo de software que calcula probabilidades binomiales. Muchos estudiantes tienen acceso a las calculadoras de la serie TI-83 u 84, y calculan fácilmente las probabilidades de la distribución binomial. Si escribe "cálculo de la distribución de probabilidad binomial" en un navegador de internet, podrá encontrar al menos una calculadora en línea para la binomial.</para>
 
-<para id="eip-251">Para el <link target-id="fs-idm153949776"/>, las probabilidades se calculan utilizando la siguiente distribución binomial: (<emphasis effect="italics">n</emphasis> = 300 y <emphasis effect="italics">p</emphasis> = 0,53). Compare las respuestas de la distribución binomial y la normal. Vea <link document="m46955">Variables aleatorias discretas</link> para ayudar con las instrucciones de la calculadora para la binomial.</para><para id="eip-67"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) :<code>1 – binomialcdf</code>(300,0.53,149) = 0,8641</para><para id="eip-560"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 160) :<code>binomialcdf</code>(300,0.53,160) = 0,5684</para><para id="eip-727"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 155) :<code>1 – binomialcdf</code>(300,0.53,155) = 0,6576</para><para id="eip-122"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 147) :<code>binomialcdf</code>(300,0.53,146) = 0,0742</para><para id="eip-267"><emphasis effect="italics">P</emphasis><emphasis effect="italics">(X</emphasis> = 175) : (Se utiliza la función de densidad de probabilidad [probability density function, pdf] binomial).<code>binomialpdf</code>(300,0.53,175) = 0,0083</para></example>
+<para id="eip-251">Para el <link target-id="fs-idm153949776" document=""/>, las probabilidades se calculan utilizando la siguiente distribución binomial: (<emphasis effect="italics">n</emphasis> = 300 y <emphasis effect="italics">p</emphasis> = 0,53). Compare las respuestas de la distribución binomial y la normal. Vea <link document="m46955">Variables aleatorias discretas</link> para ayudar con las instrucciones de la calculadora para la binomial.</para><para id="eip-67"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) :<code>1 – binomialcdf</code>(300,0.53,149) = 0,8641</para><para id="eip-560"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 160) :<code>binomialcdf</code>(300,0.53,160) = 0,5684</para><para id="eip-727"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 155) :<code>1 – binomialcdf</code>(300,0.53,155) = 0,6576</para><para id="eip-122"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 147) :<code>binomialcdf</code>(300,0.53,146) = 0,0742</para><para id="eip-267"><emphasis effect="italics">P</emphasis><emphasis effect="italics">(X</emphasis> = 175) : (Se utiliza la función de densidad de probabilidad [probability density function, pdf] binomial).<code>binomialpdf</code>(300,0.53,175) = 0,0083</para></example>
 
 
 <note id="fs-idm31488240" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm78234832"><problem id="fs-idm12123632">
 <para id="fs-idm152181632">En una ciudad, el 46 % de la población está a favor del titular, Dawn Morgan, para la alcaldía. Se toma una muestra aleatoria simple de 500 personas. Utilizando el factor de corrección de la continuidad, halle la probabilidad de que al menos 250 favorezcan a Dawn Morgan como alcaldesa.</para>
@@ -801,7 +801,7 @@
 </section>
 
 <section id="fs-idm72155760" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idm147861760">El teorema del límite central puede utilizarse para ilustrar la ley de los grandes números. La ley de los grandes números establece que cuanto mayor sea el tamaño de la muestra que se tome de una población, más se acercará la media muestral <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
@@ -811,7 +811,7 @@
 </m:math> llega a <emphasis effect="italics">μ</emphasis>.</para>
 </section>
 
-<section id="fs-idm65344016" class="practice"><para id="fs-idp5239552"><emphasis effect="italics">Use la siguiente información para responder los próximos diez ejercicios:</emphasis> Un fabricante produce pesas de 25 libras. El peso real más bajo es de 24 libras, y el más alto de 26 libras. Cada pesa tiene la misma probabilidad, por lo que la distribución de los pesos es uniforme. Se toma una muestra de 100 pesas.</para>
+<section id="fs-idm65344016" class="practice"><para id="fs-idp5239552"><emphasis effect="italics">Use la siguiente información para responder los próximos diez ejercicios:</emphasis> un fabricante produce pesas de 25 libras. El peso real más bajo es de 24 libras, y el más alto de 26 libras. Cada pesa tiene la misma probabilidad, por lo que la distribución de los pesos es uniforme. Se toma una muestra de 100 pesas.</para>
 
 <exercise id="exercise4">
 <problem id="fs-idm108112736">
@@ -830,7 +830,7 @@
 </exercise>
 
 <exercise id="fs-idm84240544"><problem id="fs-idp8363072">
-<para id="fs-idm117442736">Dibuje el gráfico de la <link target-id="exercise4"/></para></problem>
+<para id="fs-idm117442736">Dibuje el gráfico del <link target-id="exercise4" document=""/></para></problem>
 
 <!-- <solution id="fs-idm124774096">
 <figure id="fs-idm129645712"><media id="fs-idm66137264" alt="This is a normal distribution curve which extends from 24 to 26. The peak of the curve  coincides with the point 25 on the horizontal axis. An arrow points to 25 showing P(x-bar &lt; 24.9).">
@@ -848,7 +848,7 @@
 
 
 <exercise id="fs-idm30735600"><problem id="fs-idm87184416">
-<para id="fs-idm68751264">Dibuje el gráfico de la <link target-id="exercise6"/></para></problem>
+<para id="fs-idm68751264">Dibuje el gráfico de la <link target-id="exercise6" document=""/></para></problem>
 
 <!-- <solution id="fs-idm90694544">
 <figure id="eip-idp936112">
@@ -868,7 +868,7 @@
 
 
 <exercise id="fs-idm167897040"><problem id="fs-idm61920032">
-<para id="fs-idm111847536">Dibuje el gráfico de la <link target-id="exercise8"/></para></problem>
+<para id="fs-idm111847536">Dibuje el gráfico de la <link target-id="exercise8" document=""/></para></problem>
 
 <!-- <solution id="fs-idm110267328">
 <figure id="eip-idp3873008"><media id="fs-idm113411344" alt="This is a normal distribution curve which extends from 24 to 26. The peak of the curve  coincides with the point 25 on the horizontal axis. A point, k, is labeled to the right of 25. A vertical line extends from k to the curve. An arrow points to 25 showing P(x-bar &lt; k) = 0.90.">
@@ -890,7 +890,7 @@
 </exercise>
 
 <exercise id="exercise11"><problem id="fs-idm29117824">
-<para id="fs-idm110263040">Dibuje el gráfico de la <link target-id="exercise10"/></para></problem>
+<para id="fs-idm110263040">Dibuje el gráfico de la <link target-id="exercise10" document=""/></para></problem>
 
 <!-- <solution id="fs-idp11678144">
 <figure id="eip-idm64321520">
@@ -907,7 +907,7 @@
 </exercise>
 
 <exercise id="fs-idm54084400"><problem id="fs-idm58526640">
-<para id="fs-idp2153120">Dibuje el gráfico de la <link target-id="exercise12"/></para></problem>
+<para id="fs-idp2153120">Dibuje el gráfico de la <link target-id="exercise12" document=""/></para></problem>
 
 <!-- <solution id="fs-idm17187952">
 <figure id="eip-idp76755600">
@@ -926,7 +926,7 @@
 <solution id="fs-idm119290064">
 <list id="fs-idp20993168" list-type="enumerated" number-style="lower-alpha">
 <item>10</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>
@@ -1011,7 +1011,7 @@
 </problem>
 
 <!-- <solution id="fs-idm72677136"><para id="fs-idm12285840">205.05</para></solution> -->
-</exercise><para id="fs-idm65293824"><emphasis effect="italics"><newline/>Use la siguiente información para responder los próximos ocho ejercicios:</emphasis> Una distribución uniforme tiene un mínimo de seis y un máximo de diez. Se toma una muestra de 50 personas.</para><exercise id="fs-idm1612656">
+</exercise><para id="fs-idm65293824"><emphasis effect="italics"><newline/>Use la siguiente información para responder los próximos ocho ejercicios:</emphasis> una distribución uniforme tiene un mínimo de seis y un máximo de diez. Se toma una muestra de 50 personas.</para><exercise id="fs-idm1612656">
 <problem id="fs-idm47127360">
 <para id="fs-idm47127232">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> > 420).</para>
 </problem>
@@ -1061,7 +1061,7 @@
  </m:mover>
 
 </m:math> = ____________</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
@@ -1070,7 +1070,7 @@
 </m:math> ~ _____(_____,_____)</item>
 <item>Antes de hacer cálculos, ¿cuál cree que será más alta? Explique por qué. <list id="sublist1" list-type="enumerated" number-style="lower-roman">
 <item>La probabilidad de que la capacidad de atención de un individuo sea inferior a diez minutos.</item>
-<item>¿La probabilidad de que la media de atención de los 60 niños sea inferior a diez minutos?</item>
+<item>¿La probabilidad de que el promedio de atención de los 60 niños sea inferior a diez minutos?</item>
 </list>
 </item>
 <item>Calcule las probabilidades en la parte e.</item>
@@ -1177,7 +1177,7 @@
 
 <list id="madeup9" list-type="enumerated" number-style="lower-alpha"><item>En palabras, <emphasis effect="italics">Χ</emphasis> = ______________</item>
 	<item><list id="list234325" list-type="enumerated" number-style="lower-roman">
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
@@ -1187,10 +1187,10 @@
 <item><emphasis effect="italics">n</emphasis> = _____</item>
 </list>
 </item>
-<item>Construya un histograma de la distribución de las medias. Comience en <emphasis effect="italics">x</emphasis> = 0,0005. Utilice anchos de barra de diez.</item>
+<item>Construya un histograma de la distribución de los promedios. Comience en <emphasis effect="italics">x</emphasis> = 0,0005. Utilice anchos de barra de diez.</item>
 <item>En palabras, describa la distribución de los precios de las acciones.</item>
 <item>Promedio aleatorio de los precios de cinco acciones (utilice un generador de números aleatorios). Continúe promediando cinco piezas juntas hasta que tenga diez promedios. Enumere esos diez promedios.</item>
-<item>Utilice las diez medias de la parte e para calcular lo siguiente. <list id="listhgklasdlfh11" list-type="enumerated" number-style="lower-roman"><item>Los términos <m:math>
+<item>Utilice los diez promedios de la parte e para calcular lo siguiente. <list id="listhgklasdlfh11" list-type="enumerated" number-style="lower-roman"><item><m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
@@ -1198,7 +1198,7 @@
 </m:math> = _____</item>
 <item><emphasis effect="italics">s<sub>x</sub></emphasis> = _____</item>
 </list></item>
-<item>Construya un histograma de la distribución de las medias. Comience en <emphasis effect="italics">x</emphasis> = -0,0005. Utilice anchos de barra de diez.</item>
+<item>Construya un histograma de la distribución de los promedios. Comience en <emphasis effect="italics">x</emphasis> = -0,0005. Utilice anchos de barra de diez.</item>
 <item>¿Este histograma se parece al gráfico de la parte c?</item>
 <item>En una o dos frases completas, explique por qué los gráficos son iguales o diferentes</item>
 <item>Basado en la teoría del <emphasis>teorema central del límite</emphasis>, <m:math>
@@ -1286,7 +1286,7 @@
 
 <exercise id="element-191"><problem id="id11298162">
 <para id="fs-idp19107664">Supongamos que es pasado el mediodía de un día de entrega. La probabilidad de que una persona deba esperar al menos una hora y media <emphasis>más</emphasis> es:</para><list id="fs-idp191113008" list-type="enumerated" number-style="lower-alpha">
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>
@@ -1295,7 +1295,7 @@
 
  </m:mrow>
 </m:math></item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>
@@ -1305,7 +1305,7 @@
  </m:mrow>
 </m:math>
 </item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>3</m:mn>
@@ -1315,7 +1315,7 @@
  </m:mrow>
 </m:math>
 </item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>3</m:mn>
@@ -1370,7 +1370,7 @@
   <para id="element-931">a</para>
 </solution>
 </exercise><exercise id="eip-415"><problem id="eip-id1164882896740">
-  <para id="eip-id1164888343606">Calcule la probabilidad de que el precio medio de 30 gasolineras sea inferior a 4,55 dólares.</para>
+  <para id="eip-id1164888343606">Calcule la probabilidad de que el precio promedio de 30 gasolineras sea inferior a 4,55 dólares.</para>
 <list id="element-193" list-type="enumerated" number-style="lower-alpha">
 <item>0,6554</item>
 <item>0,3446</item>
@@ -1384,14 +1384,14 @@
 </solution> -->
 </exercise><exercise id="eip-786">
 <problem id="eip-371">
-  <para id="eip-975">Supongamos que en un distrito escolar local desde el jardín de infancia hasta 12.<sup>º</sup> grado (K-12), el 53 % de la población está a favor de una escuela subvencionada para el jardín de infancia hasta 5.º grado (K-5). Se realiza una encuesta con una muestra aleatoria simple de 300 personas. Calcule lo siguiente utilizando la aproximación normal a la distribución binomial.</para><list id="Charter_School" list-type="enumerated" number-style="lower-alpha">
-<item>Calcule la probabilidad de que menos de 100 estén a favor de una escuela subvencionada para los grados K a 5.</item>
-<item>Calcule la probabilidad de que 170 o más estén a favor de una escuela subvencionada para los grados K a 5.</item>
-<item>Calcule la probabilidad de que no más de 140 estén a favor de una escuela subvencionada para los grados K a 5.</item>
-<item>Calcule la probabilidad de que haya menos de 130 que estén a favor de una escuela subvencionada para los grados K a 5.</item>
-<item>Calcule la probabilidad de que exactamente 150 estén a favor de una escuela subvencionada para los grados K a 5.</item>
+  <para id="eip-975">Supongamos que en un distrito escolar local desde kínder hasta 12.<sup>º</sup> grado (K-12), el 53 % de la población está a favor de una escuela chárter de kínder a 5.º grado (K-5). Se realiza una encuesta con una muestra aleatoria simple de 300 personas. Calcule lo siguiente utilizando la aproximación normal a la distribución binomial.</para><list id="Charter_School" list-type="enumerated" number-style="lower-alpha">
+<item>Calcule la probabilidad de que menos de 100 estén a favor de una escuela chárter de K-5.</item>
+<item>Calcule la probabilidad de que 170 o más estén a favor de una escuela chárter de K-5.</item>
+<item>Calcule la probabilidad de que no más de 140 estén a favor de una escuela chárter de K-5.</item>
+<item>Calcule la probabilidad de que haya menos de 130 que estén a favor de una escuela chárter de K-5.</item>
+<item>Calcule la probabilidad de que exactamente 150 estén a favor de una escuela chárter de K-5.</item>
 </list>
-<para id="fs-idm85678016" class="finger">Si tiene acceso a una calculadora o a un programa informático adecuado, intente calcular estas probabilidades con esta tecnología.</para>
+<para id="fs-idm85678016" class="finger">Si tiene acceso a una calculadora o a un software adecuado, intente calcular estas probabilidades con esta tecnología.</para>
 </problem>
 <solution id="eip-350">
 <list id="Charter_school_answers" list-type="enumerated" number-style="lower-alpha">
@@ -1443,7 +1443,7 @@
  </m:mover>
 
 </m:math> en el mismo gráfico.</item>
-	<item>Los términos <m:math>
+	<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
@@ -1478,8 +1478,8 @@
 </list></problem>
 
 <solution id="id6009706">
-<list id="element-209" list-type="enumerated" number-style="lower-alpha"><item>Compruebe la solución del estudiante</item>
-<item>Los términos <m:math>
+<list id="element-209" list-type="enumerated" number-style="lower-alpha"><item>Compruebe la solución del estudiante.</item>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
@@ -1527,7 +1527,7 @@
  </m:mover>
 
 </m:math> = ______________</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
@@ -1538,7 +1538,7 @@
 	<item><emphasis effect="italics">ΣX</emphasis> ~ _____(_____,_____)</item>
 	<item>Sin hacer ningún cálculo, ¿cree que es probable que el profesor tenga que leer un total de más de 1.050 páginas? ¿Por qué?</item>
 	<item>Calcule la probabilidad de que el profesor tenga que leer un total de más de 1.050 páginas.</item>
-	<item>¿Por qué es tan improbable que la longitud media de los trabajos sea inferior a 12 páginas?</item>
+	<item>¿Por qué es tan improbable que la longitud promedio de los trabajos sea inferior a 12 páginas?</item>
 </list></problem>
 
 <!-- <solution id="id6534744">
@@ -1594,7 +1594,7 @@
  </m:mover>
 
 </m:math> = ___________________</item>
-	<item>Los términos <m:math>
+	<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
@@ -1645,7 +1645,7 @@
 </list></solution> --></exercise><!--inserted from patch file-->
 <para id="fs-idm4142592"><newline/><emphasis effect="italics">Para cada problema, siempre que sea posible, proporcione gráficos y utilice la calculadora.</emphasis></para><exercise id="fs-idm4142208">
 <problem id="fs-idm4141952">
-<para id="fs-idm4141696">Las baterías NeverReady han diseñado una nueva batería AAA de mayor duración. La empresa afirma que esta batería tiene una duración media de 17 horas con una desviación típica de 0,8 horas. Su clase de estadística cuestiona esta afirmación. Como clase, selecciona aleatoriamente 30 baterías y descubre que la media de vida de la muestra es de 16,7 horas. Si el proceso funciona correctamente, ¿cuál es la probabilidad de obtener una muestra aleatoria de 30 baterías en la que la vida media de la muestra sea de 16,7 horas o menos? ¿Es razonable la reclamación de la empresa?</para>
+<para id="fs-idm4141696">Las baterías NeverReady han diseñado una nueva batería AAA de mayor duración. La compañía afirma que esta batería tiene una duración promedio de 17 horas con una desviación típica de 0,8 horas. Su clase de estadística cuestiona esta afirmación. Como clase, selecciona aleatoriamente 30 baterías y descubre que la media de vida de la muestra es de 16,7 horas. Si el proceso funciona correctamente, ¿cuál es la probabilidad de obtener una muestra aleatoria de 30 baterías en la que la vida media de la muestra sea de 16,7 horas o menos? ¿Es razonable la reclamación de la compañía?</para>
 </problem>
 <solution id="fs-idm4141184">
 <list id="fs-idm24476240" list-type="bulleted"><item>Tenemos <emphasis effect="italics">μ</emphasis> = 17, σ = 0,8, <m:math>
@@ -1665,7 +1665,7 @@
    </m:mrow>
   </m:mfrac>
  </m:mrow>
-</m:math>) = <code>normalcdf</code>Los términos <m:math>
+</m:math>) = <code>normalcdf</code><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1692,9 +1692,9 @@
 </exercise>
 
 <exercise id="fs-idm165833488"><problem id="fs-idm165833232">
-<para id="fs-idm165832976">Los hombres tienen un peso medio de 172 libras con una desviación típica de 29 libras.</para>
+<para id="fs-idm165832976">Los hombres tienen un peso promedio de 172 libras con una desviación típica de 29 libras.</para>
 <list id="fs-idm165831968" list-type="enumerated" number-style="lower-alpha">
-<item>Calcule la probabilidad de que 20 hombres seleccionados aleatoriamente tengan una suma de peso superior a 3600 lbs.</item>
+<item>Calcule la probabilidad de que 20 hombres seleccionados aleatoriamente tengan una suma de peso superior a 3.600 lb.</item>
 <item>Si la suma de 20 hombres es superior a 3500 libras, su peso total supera los límites de seguridad para los taxis acuáticos. Basándose en (a), ¿es esto un problema de seguridad? Explique.</item>
 </list>
 </problem>
@@ -1947,7 +1947,7 @@
 <list id="fs-idm5281504" list-type="enumerated" number-style="lower-alpha"><item>Calcule el peso de la media de la muestra y la desviación típica de los pesos de las muestras de caramelos en la tabla.</item>
 <item>Calcule la suma de los pesos de la muestra en la tabla y la desviación típica de la suma de los pesos.</item>
 <item>Si se seleccionan 465 M&amp;M aleatoriamente, calcule la probabilidad de que sus pesos sumen al menos 396,9.</item>
-<item>¿Es correcto el etiquetado de los M&amp;M de la empresa Mars?</item>
+<item>¿Es correcto el etiquetado de los M&amp;M de la compañía Mars?</item>
 </list></problem>
 <solution id="fs-idm20614304">
 <list id="fs-idm20614048" list-type="enumerated" number-style="lower-alpha"><item>Para la muestra, tenemos <emphasis effect="italics">n</emphasis> = 100, <m:math>
@@ -1957,7 +1957,7 @@
  </m:mover>
 
 </m:math> = 0,862, <emphasis effect="italics">s</emphasis> = 0,05</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mi>Σ</m:mi><m:mover accent="true">
    <m:mi>x</m:mi>
@@ -1981,7 +1981,7 @@
 </exercise>
 
 <exercise id="fs-idp89909664"><problem id="fs-idp89909920">
-<para id="fs-idp54889200">La empresa Screw Right afirma que sus tornillos de <m:math>
+<para id="fs-idp54889200">La compañía Screw Right afirma que sus tornillos de <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>3</m:mn>
@@ -2069,7 +2069,7 @@
 <para id="fs-idm59306496">Los tornillos se seleccionaron aleatoriamente en la tienda local de reparaciones domésticas.</para>
 <list id="fs-idm59306112" list-type="enumerated" number-style="lower-alpha">
 <item>Calcule el diámetro de la media y la desviación típica de la muestra</item>
-<item>Calcule la probabilidad de que 50 tornillos seleccionados al azar estén dentro de los niveles de tolerancia establecidos. ¿Es creíble la afirmación del diámetro de la empresa?</item>
+<item>Calcule la probabilidad de que 50 tornillos seleccionados al azar estén dentro de los niveles de tolerancia establecidos. ¿Es creíble la afirmación del diámetro de la compañía?</item>
 </list>
 </problem>
 
@@ -2106,10 +2106,10 @@
 </list></solution> -->
 </exercise><exercise id="fs-idm3642992">
 <problem id="fs-idm3642736">
-<para id="fs-idm3642480">Su empresa tiene un contrato para realizar el mantenimiento preventivo de miles de aparatos de aire acondicionado en una gran ciudad. Según los registros de servicio de años anteriores, el tiempo que un técnico dedica a la revisión de una unidad en promedio es de una hora, con una desviación típica de una hora. En la próxima semana, su empresa prestará servicio a una muestra aleatoria simple de 70 unidades en la ciudad. Tiene previsto presupuestar una media de 1,1 horas por técnico para completar el trabajo. ¿Será suficiente tiempo?</para>
+<para id="fs-idm3642480">Su compañía tiene un contrato para realizar el mantenimiento preventivo de miles de aparatos de aire acondicionado en una gran ciudad. Según los registros de servicio de años anteriores, el tiempo que un técnico dedica a la revisión de una unidad en promedio es de una hora, con una desviación típica de una hora. En la próxima semana, su compañía prestará servicio a una muestra aleatoria simple de 70 unidades en la ciudad. Tiene previsto presupuestar un promedio de 1,1 horas por técnico para completar el trabajo. ¿Será suficiente tiempo?</para>
 </problem>
 <solution id="fs-idm3641488">
-<para id="fs-idm22918992">Utilice <code>normalcdf</code>Los términos <m:math>
+<para id="fs-idm22918992">Utilice <code>normalcdf</code><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -2132,7 +2132,7 @@
 </exercise>
 
 <exercise id="fs-idm37303792"><problem id="fs-idm37303536">
-<para id="fs-idm37303280">Un adulto típico tiene una puntuación media de IQ de 105 con una desviación típica de 20. If 20 randomly selected adults are given an IQ test, what is the probability that the sample mean scores will be between 85 and 125 points?</para>
+<para id="fs-idm37303280">Un adulto típico tiene una puntuación promedio de IQ de 105 con una desviación típica de 20. Si se somete a 20 adultos seleccionados aleatoriamente a una prueba de IQ, ¿cuál es la probabilidad de que las puntuaciones medias de la muestra estén entre 85 y 125 puntos?</para>
 </problem>
 
 <!-- <solution id="fs-idm37302528">
@@ -2160,10 +2160,10 @@
 </m:math> = 0.9999. Therefore, it is almost a guarantee that a well selected sample of 20 adults will have an average score between 85 and 125.</para></solution> -->
 </exercise><exercise id="fs-idm31585616">
 <problem id="fs-idm31585360">
-<para id="fs-idm31585104">Algunas monedas tienen un peso medio de 5,201 gramos con una desviación típica de 0,065 g. Si una máquina expendedora está diseñada para aceptar monedas cuyo peso oscila entre 5,111 g y 5,291 g, ¿cuál es el número esperado de monedas rechazadas cuando se introducen en la máquina 280 monedas seleccionadas al azar?</para>
+<para id="fs-idm31585104">Algunas monedas tienen un peso promedio de 5,201 gramos con una desviación típica de 0,065 g. Si una máquina expendedora está diseñada para aceptar monedas cuyo peso oscila entre 5,111 g y 5,291 g, ¿cuál es el número esperado de monedas rechazadas cuando se introducen en la máquina 280 monedas seleccionadas al azar?</para>
 </problem>
 <solution id="fs-idm31584288">
-<para id="fs-idp55181072">Suponemos que los pesos de las monedas se distribuyen normalmente en la población. Ya que tenemos <code>normalcdf</code>Los términos <m:math>
+<para id="fs-idp55181072">Suponemos que los pesos de las monedas se distribuyen normalmente en la población. Ya que tenemos <code>normalcdf</code><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -2209,7 +2209,7 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math> La función de densidad de probabilidad es <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = me<sup>-mx</sup>, <emphasis effect="italics">x</emphasis> ≥ 0 y la función de distribución acumulativa es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ <emphasis effect="italics">x</emphasis>) = 1 - e<sup>-mx</sup>.</meaning>
+</m:math>. La función de densidad de probabilidad es <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = me<sup>-mx</sup>, <emphasis effect="italics">x</emphasis> ≥ 0 y la función de distribución acumulativa es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ <emphasis effect="italics">x</emphasis>) = 1 - e<sup>-mx</sup>.</meaning>
   </definition>
 
 <definition id="mean">
@@ -2248,14 +2248,14 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math></meaning>
+</m:math>.</meaning>
   </definition>
 
 <definition id="fs-idm63436704">
 <term>Distribución normal</term>
 <meaning id="fs-idm63436064">una variable aleatoria (RV) continua con pdf <m:math>
  <m:mrow>
-  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> = </m:mtext><m:mfrac>
+  <m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> = </m:mtext><m:mfrac>
    <m:mn>1</m:mn>
    <m:mrow>
     <m:mi>σ</m:mi><m:msqrt>
@@ -2332,9 +2332,9 @@
   </m:msqrt>
 
  </m:mrow>
-</m:math> La función de densidad de probabilidad es <m:math>
+</m:math>. La función de densidad de probabilidad es <m:math>
  <m:mrow>
-  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> = </m:mtext><m:mfrac>
+  <m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> = </m:mtext><m:mfrac>
    <m:mn>1</m:mn>
    <m:mrow>
     <m:mi>b</m:mi><m:mo>–</m:mo><m:mi>a</m:mi>
@@ -2354,7 +2354,7 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math></meaning>
+</m:math>.</meaning>
   </definition>
 </glossary>
 </document>

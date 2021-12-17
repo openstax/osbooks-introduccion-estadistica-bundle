@@ -29,7 +29,7 @@
 <caption>(a) <emphasis effect="italics">H<sub>0</sub></emphasis> es verdadero. Todas las medias son iguales; las diferencias se deben a la variación aleatoria. (b) <emphasis effect="italics">H<sub>0</sub></emphasis> no es verdadero. Todas las medias no son iguales; las diferencias son demasiado grandes para deberse a una variación aleatoria.</caption></figure></section>
 
 <section id="eip-60" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="eip-981">El análisis de varianza amplía la comparación de dos grupos a varios, cada uno de ellos un nivel de una variable categórica (factor). Las muestras de cada grupo son independientes y se deben seleccionar al azar a partir de poblaciones normales con varianzas iguales. Probamos la hipótesis nula de que las medias de la respuesta son iguales en todos los grupos versus la hipótesis alternativa de que las medias de uno o más grupos son diferentes a las de los demás. Una prueba de hipótesis de ANOVA de una vía determina si varias medias poblacionales son iguales. La distribución para la prueba es la distribución <emphasis effect="italics">F</emphasis> con dos grados de libertad diferentes.</para>
 
 <list id="fs-idm125719248" list-type="enumerated">
@@ -108,7 +108,7 @@
 
 <exercise id="eip-213">
 <problem id="eip-272">
-<para id="eip-950">Se han probado tres rutas de tráfico diferentes para el tiempo medio de conducción. Las entradas de la <link target-id="eip-24"/> son los tiempos de conducción en minutos en las tres rutas diferentes.
+<para id="eip-950">Se han probado tres rutas de tráfico diferentes para el tiempo medio de conducción. Las entradas de la <link target-id="eip-24" document=""/> son los tiempos de conducción en minutos en las tres rutas diferentes.
 <table id="eip-24" summary="..">
 <tgroup cols="3">
 <thead>
@@ -189,7 +189,7 @@
 </row>
 <row>
 <entry>
- Los términos <m:math>
+ <m:math>
 <m:mrow>
 <m:mover accent="true">
 <m:mi>x</m:mi>
@@ -206,7 +206,7 @@
 </row>
 <row>
 <entry>
- Los términos <m:math>
+ <m:math>
 <m:mrow>
 <m:msup>
 <m:mi>s</m:mi>
@@ -242,7 +242,7 @@
 <item>las poblaciones tienen desviaciones típicas iguales.</item>
 <item>las muestras (no necesariamente del mismo tamaño) se seleccionan de forma aleatoria e independiente de cada población.</item>
 </list>
-<para id="fs-idp106136800">El estadístico de prueba para el análisis de varianza es el cociente de <emphasis effect="italics">F</emphasis>.</para></meaning>
+<para id="fs-idp106136800">El estadístico de prueba para el análisis de varianza es el cociente <emphasis effect="italics">F</emphasis>.</para></meaning>
   </definition>
 
 <definition id="fs-idp127655040">
@@ -253,7 +253,7 @@
 <item>las muestras (no necesariamente del mismo tamaño) se seleccionan de forma aleatoria e independiente de cada población.</item>
 <item>hay una variable independiente y una variable dependiente.</item>
 </list>
-<para id="fs-idp134835456">El estadístico de prueba para el análisis de varianza es el cociente de <emphasis effect="italics">F</emphasis>.</para></meaning>
+<para id="fs-idp134835456">El estadístico de prueba para el análisis de varianza es el cociente <emphasis effect="italics">F</emphasis>.</para></meaning>
 </definition>
 
 <definition id="variance">

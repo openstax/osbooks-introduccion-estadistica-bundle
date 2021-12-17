@@ -8,19 +8,19 @@
 </metadata>
 
 <content>
-<para id="s-idm1221053442">El <term id="term-00001">valor esperado</term> suele denominarse <emphasis>media o promedio "a largo plazo".</emphasis> Esto significa que a largo plazo de hacer un experimento una y otra vez, <emphasis>se esperaría</emphasis> esta media.</para>
+<para id="s-idm1221053442">El <term id="term-00001">valor esperado</term> suele denominarse <emphasis>media o promedio "a largo plazo".</emphasis> Esto significa que a largo plazo de hacer un experimento una y otra vez, <emphasis>se esperaría</emphasis> este promedio.</para>
 
-<para id="fs-idm122105344">Se lanza una moneda y se anota el resultado. ¿Cuál es la probabilidad de que el resultado sea cara? Si lanza una moneda dos veces, ¿la probabilidad le dice que estos lanzamientos darán como resultado una cara y una cruz? Puede lanzar una moneda diez veces y registrar nueve caras. Como aprendió en el <link document="m46938"/>, la probabilidad no describe los resultados a corto plazo de un experimento. Ofrece información sobre lo que cabe esperar a largo plazo. ¡Para demostrarlo, Karl Pearson lanzó una vez una moneda justa 24.000 veces! Registró los resultados de cada lanzamiento, obteniendo cara 12.012 veces. <emphasis effect="bold">En su experimento, Pearson ilustró la ley de los grandes números</emphasis>.</para><para id="fs-idm32245968"><emphasis effect="bold">La ley de los grandes números</emphasis> establece que, a medida que aumenta el número de ensayos en un experimento de probabilidad, la diferencia entre la probabilidad teórica de un suceso y la frecuencia relativa se aproxima a cero <emphasis effect="bold">(la probabilidad teórica y la frecuencia relativa se acercan cada vez más)</emphasis>. Al evaluar los resultados a largo plazo de los experimentos estadísticos, a menudo queremos conocer el resultado de la “media". Esta "media a largo plazo" se conoce como la <term id="term-00002">media</term> o <term id="term-00003">valor esperado</term> del experimento y se denota con la letra griega <emphasis effect="italics">μ</emphasis>. En otras palabras, después de realizar muchos ensayos de un experimento, se esperaría este valor medio.</para>
+<para id="fs-idm122105344">Se lanza una moneda y se anota el resultado. ¿Cuál es la probabilidad de que el resultado sea cara? Si lanza una moneda dos veces, ¿la probabilidad le dice que estos lanzamientos darán como resultado una cara y una cruz? Puede lanzar una moneda diez veces y registrar nueve caras. Como aprendió en el <link document="m46938"/>, la probabilidad no describe los resultados a corto plazo de un experimento. Ofrece información sobre lo que cabe esperar a largo plazo. ¡Para demostrarlo, Karl Pearson lanzó una vez una moneda justa 24.000 veces! Registró los resultados de cada lanzamiento, obteniendo cara 12.012 veces. <emphasis effect="bold">En su experimento, Pearson ilustró la ley de los grandes números</emphasis>.</para><para id="fs-idm32245968"><emphasis effect="bold">La ley de los grandes números</emphasis> establece que, a medida que aumenta el número de ensayos en un experimento de probabilidad, la diferencia entre la probabilidad teórica de un evento y la frecuencia relativa se aproxima a cero <emphasis effect="bold">(la probabilidad teórica y la frecuencia relativa se acercan cada vez más)</emphasis>. Al evaluar los resultados a largo plazo de los experimentos estadísticos, a menudo queremos conocer el resultado del “promedio". Este “promedio a largo plazo” se conoce como la <term id="term-00002">media</term> o <term id="term-00003">valor esperado</term> del experimento y se denota con la letra griega <emphasis effect="italics">μ</emphasis>. En otras palabras, después de realizar muchos ensayos de un experimento, se esperaría este valor promedio.</para>
 
-<note id="id8737934"><title>NOTA</title>
-<para id="eip-idp95250624">Para hallar el valor esperado o media a largo plazo, <emphasis effect="italics">μ</emphasis>, basta con multiplicar cada valor de la variable aleatoria por su probabilidad y sumar los productos.</para></note>
+<note id="id8737934"><label/><title>NOTA</title>
+<para id="eip-idp95250624">Para hallar el valor esperado o promedio a largo plazo, <emphasis effect="italics">μ</emphasis>, basta con multiplicar cada valor de la variable aleatoria por su probabilidad y sumar los productos.</para></note>
 
 <example id="fs-idp56252608">
-<para id="fs-idm190895152">Un equipo de fútbol masculino juega al fútbol en cero, en uno o en dos días a la semana. La probabilidad de que jueguen cero días es de 0,2, la de que jueguen un día es de 0,5 y la de que jueguen dos días es de 0,3. Calcule la media a largo plazo o el valor esperado, <emphasis effect="italics">μ</emphasis>, del número de días por semana que el equipo de fútbol masculino juega al fútbol.</para>
+<para id="fs-idm190895152">Un equipo de fútbol masculino juega al fútbol en cero, en uno o en dos días a la semana. La probabilidad de que jueguen cero días es de 0,2, la de que jueguen un día es de 0,5 y la de que jueguen dos días es de 0,3. Calcule el promedio a largo plazo o el valor esperado, <emphasis effect="italics">μ</emphasis>, del número de días por semana que el equipo de fútbol masculino juega al fútbol.</para>
 
 <para id="element-126">Para resolver el problema, primero dejemos la variable aleatoria <emphasis effect="italics">X</emphasis> = el número de días que el equipo de fútbol masculino juega al fútbol por semana. <emphasis effect="italics">X</emphasis> toma los valores 0, 1, 2 Construya una tabla PDF añadiendo una columna <emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>). En esta columna, multiplicará cada valor de <emphasis effect="italics">x</emphasis> por su probabilidad.</para>
 
-<table id="element-749" summary="The PDF table contains the number of days a men's soccer team plays soccer per week and thir probabilities."><title>Tabla de valores esperados Esta tabla se denomina tabla de valores esperados. La tabla le ayuda a calcular el valor esperado o la media a largo plazo.</title>
+<table id="element-749" summary="The PDF table contains the number of days a men's soccer team plays soccer per week and thir probabilities."><title>Tabla de valores esperados Esta tabla se denomina tabla de valores esperados. La tabla le ayuda a calcular el valor esperado o promedio a largo plazo.</title>
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -35,27 +35,27 @@
   <row>
     <entry>0</entry>
     <entry>0,2</entry>
-    <entry>(0)(0.2) = 0</entry>
+    <entry>(0)(0,2) = 0</entry>
   </row>
   <row>
     <entry>1</entry>
     <entry>0,5</entry>
-    <entry>(1)(0.5) = 0.5</entry>
+    <entry>(1)(0,5) = 0,5</entry>
   </row>
 <row>
     <entry>2</entry>
     <entry>0,3</entry>
-    <entry>(2)(0.3) = 0.6</entry>
+    <entry>(2)(0,3) = 0,6</entry>
   </row>
 </tbody>
 
 </tgroup>
-</table><para id="fs-idm87467792">Añada la última columna <emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) para hallar las intersecciones en la media a largo plazo o el valor esperado: (0)(0.2) + (1)(0.5) + (2)(0.3) = 0 + 0.5 + 0.6 = 1.1.</para><para id="element-353">El valor esperado es 1,1. El equipo de fútbol masculino tendría, por término medio, que jugar al fútbol 1,1 días por semana. El número 1,1 es la media a largo plazo o el valor esperado si el equipo de fútbol masculino juega al fútbol semana tras semana. Decimos que <emphasis effect="italics">μ</emphasis> = 1,1.</para></example>
+</table><para id="fs-idm87467792">Añada la última columna <emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) para hallar las intersecciones en el promedio a largo plazo o el valor esperado: (0)(0,2) + (1)(0,5) + (2)(0,3) = 0 + 0,5 + 0,6 = 1,1.</para><para id="element-353">El valor esperado es 1,1. El equipo de fútbol masculino tendría, en promedio, que jugar al fútbol 1,1 días por semana. El número 1,1 es el promedio a largo plazo o el valor esperado si el equipo de fútbol masculino juega al fútbol semana tras semana. Decimos que <emphasis effect="italics">μ</emphasis> = 1,1.</para></example>
 
 <example id="fs-idm82770544">
 <para id="fs-idm122112">Calcule el valor esperado del número de veces que el llanto de un recién nacido despierta a su madre después de medianoche. El valor esperado es el número de veces por semana que el llanto de un recién nacido despierta a su madre después de medianoche. Calcule también la desviación típica de la variable.
 
-<table id="element-740" summary="The PDF table contains the number of times a newborn wakes its mother after midnight, their probabilities and a column for each number multiplied by its probability."><title>Se espera que un recién nacido despierte a su madre después de la medianoche 2,1 veces a la semana, por término medio.</title>
+<table id="element-740" summary="The PDF table contains the number of times a newborn wakes its mother after midnight, their probabilities and a column for each number multiplied by its probability."><title>Se espera que un recién nacido despierte a su madre después de la medianoche 2,1 veces a la semana, en promedio.</title>
 <tgroup cols="4"><thead>
   <row>
     <entry><emphasis effect="italics">x</emphasis></entry>
@@ -92,7 +92,7 @@
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math> = 0</entry>
-<entry>(0 – 2.1)<sup>2</sup> ⋅ 0.04 = 0.1764</entry>
+<entry>(0 – 2,1)<sup>2</sup> ⋅ 0,04 = 0,1764</entry>
 </row>
   <row>
     <entry>1</entry>
@@ -141,7 +141,7 @@
   </m:mfrac>
  </m:mrow>
 </m:math></entry>
-<entry>(1 – 2.1)<sup>2</sup> ⋅ 0.22 = 0.2662</entry>
+<entry>(1 – 2,1)<sup>2</sup> ⋅ 0,22 = 0,2662</entry>
   </row>
   <row>
     <entry>2</entry>
@@ -184,7 +184,7 @@
   </m:mfrac>
  </m:mrow>
 </m:math></entry>
-<entry>(2 – 2.1)<sup>2</sup> ⋅ 0.46 = 0.0046</entry>
+<entry>(2 – 2,1)<sup>2</sup> ⋅ 0,46 = 0,0046</entry>
 </row>
 <row>
     <entry>3</entry>
@@ -225,7 +225,7 @@
   </m:mfrac>
  </m:mrow>
 </m:math></entry>
-    <entry>(3 – 2.1)<sup>2</sup> ⋅ 0.18 = 0.1458</entry>
+    <entry>(3 – 2,1)<sup>2</sup> ⋅ 0,18 = 0,1458</entry>
   </row>
   <row>
     <entry>4</entry>
@@ -264,7 +264,7 @@
   </m:mfrac>
  </m:mrow>
 </m:math></entry>
-    <entry>(4 – 2.1)<sup>2</sup> ⋅ 0.08 = 0.2888</entry>
+    <entry>(4 – 2,1)<sup>2</sup> ⋅ 0,08 = 0,2888</entry>
   </row>
   <row>
     <entry>5</entry>
@@ -301,7 +301,7 @@
   </m:mfrac>
  </m:mrow>
 </m:math></entry>
-<entry>(5 – 2.1)<sup>2</sup> ⋅ 0.02 = 0.1682</entry>
+<entry>(5 – 2,1)<sup>2</sup> ⋅ 0,02 = 0,1682</entry>
 </row>
 </tbody>
 
@@ -323,9 +323,9 @@
    </m:mrow>
   </m:mfrac>
  </m:mrow>
-</m:math> = 2.1</para><para id="fs-idm128391792">Utilice <emphasis effect="italics">μ</emphasis> para completar la tabla. La cuarta columna de esta tabla le proporcionará los valores que necesita para calcular la desviación típica. Para cada valor <emphasis effect="italics">x</emphasis>, multiplique el cuadrado de su desviación por su probabilidad. (Cada desviación tiene el formato <emphasis effect="italics">x</emphasis> – <emphasis effect="italics">μ</emphasis>).</para><para id="fs-idm66531168">Añada los valores en la cuarta columna de la tabla:</para>
+</m:math> = 2,1</para><para id="fs-idm128391792">Utilice <emphasis effect="italics">μ</emphasis> para completar la tabla. La cuarta columna de esta tabla le proporcionará los valores que necesita para calcular la desviación típica. Para cada valor <emphasis effect="italics">x</emphasis>, multiplique el cuadrado de su desviación por su probabilidad. (Cada desviación tiene el formato <emphasis effect="italics">x</emphasis> – <emphasis effect="italics">μ</emphasis>).</para><para id="fs-idm66531168">Añada los valores en la cuarta columna de la tabla:</para>
 
-<para id="fs-idm70422448">0.1764 + 0.2662 + 0.0046 + 0.1458 + 0.2888 + 0.1682 = 1.05</para>
+<para id="fs-idm70422448">0,1764 + 0,2662 + 0,0046 + 0,1458 + 0,2888 + 0,1682 = 1,05</para>
 
 <para id="fs-idm146103552">La desviación típica de <emphasis effect="italics">X</emphasis> es la raíz cuadrada de esta suma: <emphasis effect="italics">σ</emphasis> = <m:math>
  <m:mrow>
@@ -335,13 +335,13 @@
    </m:mrow>
   </m:msqrt>
  </m:mrow>
-</m:math> ≈ 1.0247
+</m:math> ≈ 1,0247
 </para><para id="eip-332">La media, <emphasis effect="italics">μ</emphasis>, de una función de probabilidad discreta es el valor esperado. </para>
-<equation class="unnumbered" id="eip-226">
-Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>∙</m:mo><m:mi>P</m:mi><m:mfenced separators="|"><m:mrow><m:mi>x</m:mi></m:mrow></m:mfenced><m:mo>)</m:mo></m:mrow></m:mrow></m:math></equation><para id="eip-436">La desviación típica, Σ, de la PDF es la raíz cuadrada de la varianza.</para><equation class="unnumbered" id="eip-365">Los términos <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow><m:mo>[</m:mo><m:msup><m:mrow><m:mfenced separators="|"><m:mrow><m:mi>x</m:mi><m:mi> </m:mi><m:mo>–</m:mo><m:mi> </m:mi><m:mi>μ</m:mi></m:mrow></m:mfenced></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi> </m:mi><m:mo>∙</m:mo><m:mi> </m:mi><m:mi>Ρ</m:mi><m:mfenced separators="|"><m:mrow><m:mi>x</m:mi></m:mrow></m:mfenced><m:mo>]</m:mo><m:mi> </m:mi></m:mrow></m:mrow></m:msqrt></m:math></equation><para id="eip-988">Cuando todos los resultados de la distribución de probabilidad son igualmente probables, estas fórmulas coinciden con la media y la desviación típica del conjunto de resultados posibles.</para></example>
+<equation class="unnumbered" id="eip-226"><label/>
+<m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>∙</m:mo><m:mi>P</m:mi><m:mfenced separators="|"><m:mrow><m:mi>x</m:mi></m:mrow></m:mfenced><m:mo>)</m:mo></m:mrow></m:mrow></m:math></equation><para id="eip-436">La desviación típica, Σ, de la PDF es la raíz cuadrada de la varianza.</para><equation class="unnumbered" id="eip-365"><m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow><m:mo>[</m:mo><m:msup><m:mrow><m:mfenced separators="|"><m:mrow><m:mi>x</m:mi><m:mi> </m:mi><m:mo>–</m:mo><m:mi> </m:mi><m:mi>μ</m:mi></m:mrow></m:mfenced></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi> </m:mi><m:mo>∙</m:mo><m:mi> </m:mi><m:mi>Ρ</m:mi><m:mfenced separators="|"><m:mrow><m:mi>x</m:mi></m:mrow></m:mfenced><m:mo>]</m:mo><m:mi> </m:mi></m:mrow></m:mrow></m:msqrt></m:math></equation><para id="eip-988">Cuando todos los resultados de la distribución de probabilidad son igualmente probables, estas fórmulas coinciden con la media y la desviación típica del conjunto de resultados posibles.</para></example>
 
 
-<note id="fs-idm80414512" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm80414512" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idm131173600">
 <problem id="fs-idm112686784">
 <para id="fs-idm86997008">Un investigador de un hospital se interesa por el número de veces que el paciente promedio de posoperatorio llama al personal de enfermería durante un turno de 12 horas. Para una muestra aleatoria de 50 pacientes se obtuvo la siguiente información. ¿Cuál es el valor esperado?</para>
@@ -438,13 +438,13 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 </tgroup>
 </table></problem>
 </exercise></note><example id="element-116">
-<para id="element-117">Suponga que juega a un juego de azar en el que se eligen cinco números entre 0, 1, 2, 3, 4, 5, 6, 7, 8 y 9. Una computadora selecciona al azar cinco números del cero al nueve con reemplazo. Usted paga 2 dólares para jugar y podría ganar 100.000 dólares si acierta los cinco números en orden (recupera sus 2 dólares más 100.000 dólares). A largo plazo, ¿cuál es el beneficio que <emphasis>espera</emphasis> obtener del juego?</para>
+<para id="element-117">Suponga que juega a un juego de azar en el que se eligen cinco números entre 0, 1, 2, 3, 4, 5, 6, 7, 8 y 9. Una computadora selecciona al azar cinco números del cero al nueve con reemplazo. Usted paga 2 dólares para jugar y podría ganar 100.000 dólares si acierta los cinco números en orden (recupera sus 2 dólares más 100.000 dólares). A largo plazo, ¿cuál es el ganancia que <emphasis>espera</emphasis> obtener del juego?</para>
 <para id="element-481">Para resolver este problema, establezca una tabla de valor esperado para la cantidad de dinero que puede ganar.</para>
-<para id="element-382">Supongamos que <emphasis effect="italics">X</emphasis> = la cantidad de dinero que se gana. Los valores de <emphasis effect="italics">x</emphasis> no son 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Como le interesa su beneficio (o pérdida), los valores de <emphasis effect="italics">x</emphasis> son 100.000 dólares y -2 dólares.</para>
+<para id="element-382">Supongamos que <emphasis effect="italics">X</emphasis> = la cantidad de dinero que se gana. Los valores de <emphasis effect="italics">x</emphasis> no son 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Como le interesa su ganancia (o pérdida), los valores de <emphasis effect="italics">x</emphasis> son 100.000 dólares y –2 dólares.</para>
 
 <para id="element-996">Para ganar, debe acertar los cinco números, en orden. La probabilidad de elegir un número correcto es <m:math><m:mfrac><m:mn>1</m:mn><m:mn>10</m:mn></m:mfrac></m:math> porque hay diez números. Puede elegir un número más de una vez. La probabilidad de elegir los cinco números correctamente y en orden es</para>
 
-<equation class="unnumbered" id="eip-10">Los términos <m:math>
+<equation class="unnumbered" id="eip-10"><label/><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -504,21 +504,21 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
     <m:mo>–</m:mo><m:mn>5</m:mn>
    </m:mrow>
   </m:msup>
-  <m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.00001.</m:mn>
+  <m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0,00001.</m:mn>
  </m:mrow>
 </m:math></equation>
 
 <para id="element-800">Por lo tanto, la probabilidad de ganar es 0,00001 y la de perder es</para>
-<equation class="unnumbered" id="eip-755">Los términos <m:math>
+<equation class="unnumbered" id="eip-755"><label/><m:math>
  <m:mrow>
-  <m:mn>1</m:mn><m:mo>–</m:mo><m:mn>0,00001</m:mn><m:mo>=</m:mo><m:mn>0.99999.</m:mn>
+  <m:mn>1</m:mn><m:mo>–</m:mo><m:mn>0,00001</m:mn><m:mo>=</m:mo><m:mn>0,99999.</m:mn>
  </m:mrow>
 </m:math></equation>
 
 
 <para id="element-839">La tabla de valores esperados es la siguiente:</para>
 
-<table id="element-480" summary="In the table, to find the expected value, add the last column."><title>Sume la última columna. -1,99998 + 1 = -0,99998</title>
+<table id="element-480" summary="In the table, to find the expected value, add the last column."><title>Sume la última columna. –1,99998 + 1 = –0,99998</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -535,25 +535,25 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
     <entry>Pérdidas</entry>
     <entry>-2</entry>
     <entry>0,99999</entry>
-    <entry>(–2)(0.99999) = –1.99998</entry>
+    <entry>(-2)(0,99999) = -1,99998</entry>
   </row>
   <row>
     <entry>Ganancias</entry>
     <entry>100.000</entry>
     <entry>0,00001</entry>
-    <entry>(100000)(0.00001) = 1</entry>
+    <entry>(100000)(0,00001) = 1</entry>
   </row>
 </tbody>
 
 
 </tgroup>
-</table><para id="element-406">Dado que -0,99998 es aproximadamente -1, esperaría, en promedio, perder aproximadamente $1 por cada juego que juegue. Sin embargo, cada vez que juega, pierde 2 dólares o gana 100.000 dólares. Un dólar es la media o la PÉRDIDA esperada por partida después de jugar este juego una y otra vez.</para></example>
+</table><para id="element-406">Dado que -0,99998 es aproximadamente -1, esperaría, en promedio, perder aproximadamente $1 por cada juego que juegue. Sin embargo, cada vez que juega, pierde 2 dólares o gana 100.000 dólares. Un dólar es el promedio o la PÉRDIDA esperada por partida después de jugar este juego una y otra vez.</para></example>
 
-<note id="fs-idm7487840" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm7487840" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idm58858880"><problem id="fs-idm58346384">
-<para id="fs-idm147804448">Está jugando a un juego de azar en el que se extraen cuatro cartas de una baraja estándar de 52 cartas. Adivine el palo de cada carta antes de que se extraiga. Las cartas se sustituyen en la baraja en cada sorteo. Paga un dólar para jugar. Si adivina el palo correcto todas las veces, le devuelven el dinero y 256 dólares. ¿Cuál es el beneficio que espera obtener del juego a largo plazo?</para></problem>
+<para id="fs-idm147804448">Está jugando a un juego de azar en el que se extraen cuatro cartas de una baraja estándar de 52 cartas. Adivine el palo de cada carta antes de que se extraiga. Las cartas se sustituyen en la baraja en cada sorteo. Paga un dólar para jugar. Si adivina el palo correcto todas las veces, le devuelven el dinero y 256 dólares. ¿Cuál es el ganancia que espera obtener del juego a largo plazo?</para></problem>
 </exercise></note><example id="element-341">
-<para id="element-408">Supongamos que juega una partida con una moneda trucada. Se juega cada partida lanzando la moneda una vez. <emphasis effect="italics">P</emphasis>(caras) = <m:math>
+<para id="element-408">Supongamos que juega una partida con una moneda sesgada. Se juega cada partida lanzando la moneda una vez. <emphasis effect="italics">P</emphasis>(caras) = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>2</m:mn>
@@ -567,7 +567,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
    <m:mn>3</m:mn>
   </m:mfrac>
  </m:mrow>
-</m:math> Si lanza una cara, paga 6 dólares. Si lanza una cruz, gana 10 dólares. Si juega muchas veces a este juego, ¿saldrá ganando?<newline count="2"/>
+</m:math>. Si lanza una cara, paga 6 dólares. Si lanza una cruz, gana 10 dólares. Si juega muchas veces a este juego, ¿saldrá ganando?<newline count="2"/>
 </para>
 <exercise id="element-193">
 <problem id="id14631763">
@@ -589,14 +589,14 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 <row>
     <entry>GANA</entry>
     <entry>10</entry>
-    <entry>Los términos <m:math><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
+    <entry><m:math><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
     <entry>____</entry>
   </row>
   <row>
     <entry>PIERDE</entry>
     <entry>____</entry>
     <entry>____</entry>
-    <entry>Los términos <m:math><m:mfrac><m:mn>–12</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
+    <entry><m:math><m:mfrac><m:mn>–12</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
   </row>
 </tbody></tgroup>
 </table>
@@ -605,7 +605,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 
 </problem>
 <solution id="id14631784">
-  <para id="element-548">a. <emphasis effect="italics">X</emphasis> = monto del beneficio</para>
+  <para id="element-548">a. <emphasis effect="italics">X</emphasis> = monto de la ganancia</para>
   <para id="fs-idm44109456">b.
 <table id="element-644s" summary="In the PDF table, the outcomes (money you win or lose) of a game played with a biased coin are recorded. There is a column to record the probability and a column to record the outcome multiplied by its probability.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
@@ -624,13 +624,13 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
   <row>
     <entry>GANA</entry>
     <entry>10</entry>
-    <entry>Los términos <m:math><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry> <entry>Los términos <m:math><m:mfrac><m:mn>10</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
+    <entry><m:math><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry> <entry><m:math><m:mfrac><m:mn>10</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
   </row>
   <row>
     <entry>PIERDE</entry>
     <entry>-6</entry>
-    <entry>Los términos <m:math><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
-    <entry>Los términos <m:math><m:mfrac><m:mn>–12</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
+    <entry><m:math><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
+    <entry><m:math><m:mfrac><m:mn>–12</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
   </row></tbody></tgroup>
 </table></para>
   <para id="element-535">c. Sume la última columna de la tabla. El valor esperado <emphasis effect="italics">μ</emphasis> = <m:math>
@@ -642,10 +642,10 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
    <m:mn>3</m:mn>
   </m:mfrac>
  </m:mrow>
-</m:math> Pierde, una media de aproximadamente 67 céntimos cada vez que juega, por lo que no sale ganando.</para></solution>
+</m:math>. Pierde, en promedio, aproximadamente 67 céntimos cada vez que juega, por lo que no sale ganando.</para></solution>
 </exercise></example>
 
-<note id="fs-idp157498240" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idp157498240" class="statistics try"><label/><title>Ejercicio</title>
 
 <exercise id="fs-idm123810544"><problem id="fs-idm43455984">
 <para id="fs-idm133743184">Supongamos que juega un juego con una ruleta. Se juega cada partida haciendo girar la ruleta una vez. <emphasis effect="italics">P</emphasis>(rojo) = <m:math>
@@ -671,7 +671,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
   </m:mfrac>
 
  </m:mrow>
-</m:math> Si cae en rojo, paga 10 dólares. Si cae en azul, no paga ni gana nada. Si cae en verde, gana 10 dólares. Rellene la siguiente tabla de valores esperados.</para>
+</m:math>. Si cae en rojo, paga 10 dólares. Si cae en azul, no paga ni gana nada. Si cae en verde, gana 10 dólares. Rellene la siguiente tabla de valores esperados.</para>
 <table id="fs-idm71508016" summary="Exercise 3 Table 1">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -689,7 +689,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 <entry>Rojo</entry>
 <entry/>
 <entry/>
-<entry>Los términos <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mtext>–</m:mtext><m:mfrac>
    <m:mrow>
@@ -704,7 +704,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 <row>
 <entry>Azul</entry>
 <entry/>
-<entry>Los términos <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>2</m:mn>
@@ -727,7 +727,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 
 </tgroup>
 </table></problem>
-</exercise></note><para id="element-903">Al igual que los datos, las distribuciones de probabilidad tienen desviaciones típicas. Para calcular la desviación típica<emphasis effect="italics">(σ</emphasis>) de una distribución de probabilidad, halle cada desviación de su valor esperado, elévela al cuadrado, multiplíquela por su probabilidad, sume los productos y calcule la raíz cuadrada. Para entender cómo hacer el cálculo, observe la tabla del número de días por semana que un equipo de fútbol masculino juega al fútbol. Para encontrar la desviación típica, sume las entradas de la columna marcada como (<emphasis effect="italics">x</emphasis> – <emphasis effect="italics">μ</emphasis>)<sup>2</sup><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) y calcule la raíz cuadrada.
+</exercise></note><para id="element-903">Al igual que los datos, las distribuciones de probabilidad tienen desviaciones típicas. Para calcular la desviación típica<emphasis effect="italics">(σ</emphasis>) de una distribución de probabilidad, halle cada desviación de su valor esperado, elévela al cuadrado, multiplíquela por su probabilidad, sume los productos y calcule la raíz cuadrada. Para entender cómo hacer el cálculo, observe la tabla del número de días por semana que un equipo de fútbol masculino juega al fútbol. Para calcular la desviación típica, sume las entradas de la columna marcada como (<emphasis effect="italics">x</emphasis> – <emphasis effect="italics">μ</emphasis>)<sup>2</sup><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) y calcule la raíz cuadrada.
 
 <table id="element-226" summary="PDF table with the added columns for expected value and variance.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
@@ -746,27 +746,27 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
     <row>
     <entry>0</entry>
     <entry>0,2</entry>
-    <entry>(0)(0.2) = 0</entry>
-    <entry>(0 – 1.1)<sup>2</sup>(0.2) = 0.242</entry>
+    <entry>(0)(0,2) = 0</entry>
+    <entry>(0 – 1,1)<sup>2</sup>(0,2) = 0,242</entry>
   </row>
   <row>
     <entry>1</entry>
     <entry>0,5</entry>
-    <entry>(1)(0.5) = 0.5</entry>
-    <entry>(1 – 1.1)<sup>2</sup>(0.5) = 0.005</entry>
+    <entry>(1)(0,5) = 0,5</entry>
+    <entry>(1 – 1,1)<sup>2</sup>(0,5) = 0,005</entry>
   </row>
   <row>
     <entry>2</entry>
     <entry>0,3</entry>
-    <entry>(2)(0.3) = 0.6</entry>
-    <entry>(2 – 1.1)<sup>2</sup>(0.3) = 0.243</entry>
+    <entry>(2)(0,3) = 0,6</entry>
+    <entry>(2 – 1,1)<sup>2</sup>(0,3) = 0,243</entry>
   </row>
 </tbody>
 
 
 
 </tgroup>
-</table></para><para id="eip-127">Sume la última columna de la tabla. 0.242 + 0.005 + 0.243 = 0.490. La desviación típica es la raíz cuadrada de 0,49, es decir, <emphasis effect="italics">σ</emphasis> = <m:math>
+</table></para><para id="eip-127">Sume la última columna de la tabla. 0,242 + 0,005 + 0,243 = 0,490. La desviación típica es la raíz cuadrada de 0,49, es decir, <emphasis effect="italics">σ</emphasis> = <m:math>
  <m:mrow>
   <m:msqrt>
    <m:mrow>
@@ -774,9 +774,9 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
    </m:mrow>
   </m:msqrt>
  </m:mrow>
-</m:math> = 0.7</para><para id="element-873" class="finger">Generalmente, para las distribuciones de probabilidad, utilizamos una calculadora o una computadora para calcular <emphasis effect="italics">μ</emphasis> y <emphasis effect="italics">σ</emphasis> para reducir el error de redondeo. Para algunas distribuciones de probabilidad, existen fórmulas abreviadas para calcular <emphasis effect="italics">μ</emphasis> y <emphasis effect="italics">σ</emphasis>.</para><example id="fs-idp4384592"><exercise id="fs-idm87291728"><problem id="fs-idm69882560">
+</m:math> = 0,7</para><para id="element-873" class="finger">Generalmente, para las distribuciones de probabilidad, utilizamos una calculadora o una computadora para calcular <emphasis effect="italics">μ</emphasis> y <emphasis effect="italics">σ</emphasis> para reducir el error de redondeo. Para algunas distribuciones de probabilidad, existen fórmulas abreviadas para calcular <emphasis effect="italics">μ</emphasis> y <emphasis effect="italics">σ</emphasis>.</para><example id="fs-idp4384592"><exercise id="fs-idm87291728"><problem id="fs-idm69882560">
 
-<para id="fs-idm82328592">Lance un dado justo de seis caras dos veces. Supongamos que <emphasis effect="italics">X</emphasis> = el número de caras que muestran un número par. Construya una tabla como la <link target-id="fs-idm71508016"/> y calcule la media <emphasis effect="italics">μ</emphasis> y la desviación típica <emphasis effect="italics">σ</emphasis> de <emphasis effect="italics">X</emphasis>.</para></problem>
+<para id="fs-idm82328592">Lance un dado justo de seis caras dos veces. Supongamos que <emphasis effect="italics">X</emphasis> = el número de caras que muestran un número par. Construya una tabla como la <link target-id="fs-idm71508016" document=""/> y calcule la media <emphasis effect="italics">μ</emphasis> y la desviación típica <emphasis effect="italics">σ</emphasis> de <emphasis effect="italics">X</emphasis>.</para></problem>
 <solution id="fs-idm46332752">
 <para id="fs-idm86008592">Lanzar dos veces un dado justo de seis caras tiene el mismo espacio muestral que lanzar dos dados justos de seis caras. El espacio muestral tiene 36 resultados:</para>
 <table id="fs-idm21999584" summary="">
@@ -816,7 +816,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 <tbody>
 <row>
 <entry>0</entry>
-<entry>Los términos <m:math>
+<entry><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>9</m:mn>
@@ -850,7 +850,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
  </m:mrow>
 </m:math></entry></row>
 <row>
-<entry>1</entry>	<entry>Los términos <m:math>
+<entry>1</entry>	<entry><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -862,7 +862,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
   </m:mfrac>
 
  </m:mrow>
-</m:math></entry>	<entry>Los términos <m:math>
+</m:math></entry>	<entry><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -888,7 +888,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
  </m:mrow>
 </m:math> = 0</entry></row>
 <row>
-<entry>2</entry>	<entry>Los términos <m:math>
+<entry>2</entry>	<entry><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>9</m:mn>
@@ -899,7 +899,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 
  </m:mrow>
 </m:math>
-</entry>	<entry>Los términos <m:math>
+</entry>	<entry><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>18</m:mn>
@@ -952,7 +952,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 <para id="fs-idm151081888">Sume los valores de la cuarta columna y calcule la raíz cuadrada de la suma: σ = <m:math><m:mrow><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>18</m:mn></m:mrow><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow> </m:math> ≈ 0.7071.</para></solution>
 </exercise></example><example id="example1.8"><exercise id="fs-idm71286192"><problem id="fs-idm79685344">
 <para id="fs-idm64926544">El 11 de mayo de 2013 a las 09:30 p. m., la probabilidad de que se produjera una actividad sísmica moderada (un terremoto moderado) en las próximas 48 horas en Irán era de aproximadamente el 21,42 %. Suponga que hace una apuesta a que se producirá un terremoto moderado en Irán durante este periodo. Si gana la apuesta, gana 50 dólares. Si pierde la apuesta, paga 20 dólares. Supongamos que <emphasis effect="italics">X</emphasis> = el monto de ganancia de una apuesta.</para><para id="fs-idm74848144"><emphasis effect="italics">P</emphasis>(ganar) = <emphasis effect="italics">P</emphasis>(se producirá un terremoto moderado) = 21,42 %</para>
-<para id="fs-idm122921568"><emphasis effect="italics">P</emphasis>(pérdida) = <emphasis effect="italics">P</emphasis>( <emphasis effect="italics">no</emphasis> se producirá un terremoto moderado) = 100 % - 21,42 %</para><para id="fs-idm135341424">Si apuesta muchas veces, ¿saldrá ganando? Explique su respuesta en una frase completa utilizando números. ¿Cuál es la desviación típica de <emphasis effect="italics">X</emphasis>? Construya una tabla similar a la <link target-id="element-226"/> y la <link target-id="fs-idm21999584"/> para ayudarse a responder a estas preguntas.</para></problem>
+<para id="fs-idm122921568"><emphasis effect="italics">P</emphasis>(pérdida) = <emphasis effect="italics">P</emphasis>( <emphasis effect="italics">no</emphasis> se producirá un terremoto moderado) = 100 % - 21,42 %</para><para id="fs-idm135341424">Si apuesta muchas veces, ¿saldrá ganando? Explique su respuesta en una frase completa utilizando números. ¿Cuál es la desviación típica de <emphasis effect="italics">X</emphasis>? Construya una tabla similar a la <link target-id="element-226" document=""/> y la <link target-id="fs-idm21999584" document=""/> para ayudarse a responder a estas preguntas.</para></problem>
 
 <solution id="fs-idm128877280">
 <table id="fs-idm70673696" summary="">
@@ -977,19 +977,19 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 <entry>50</entry>
 <entry>0,2142</entry>
 <entry>10,71</entry>
-<entry>[50 – (–5.006)]<sup>2</sup>(0.2142) = 648.0964</entry>
+<entry>[50 – (-5,006)]<sup>2</sup>(0,2142) = 648,0964</entry>
 </row>
 <row>
 <entry>pérdida</entry>
-<entry>–20</entry>
+<entry>-20</entry>
 <entry>0,7858</entry>
-<entry>–15.716</entry>
-<entry>[–20 – (–5.006)]<sup>2</sup>(0.7858) = 176.6636</entry></row>
+<entry>-15,716</entry>
+<entry>[-20 – (-5,006)]<sup>2</sup>(0,7858) = 176,6636</entry></row>
 </tbody>
 </tgroup>
 </table>
-<para id="fs-idm111908496">Media = Valor esperado = 10,71 + (-15,716) = -5,006.</para><para id="fs-idm85218944">Si hace esta apuesta muchas veces en las mismas condiciones, su resultado a largo plazo será una <emphasis effect="italics">pérdida</emphasis> media de 5,01 dólares por apuesta.</para>
-<para id="fs-idm50457088">Los términos <m:math>
+<para id="fs-idm111908496">Media = Valor esperado = 10,71 + (-15,716) = -5,006.</para><para id="fs-idm85218944">Si hace esta apuesta muchas veces en las mismas condiciones, su resultado a largo plazo será una <emphasis effect="italics">pérdida</emphasis> promedio de 5,01 dólares por apuesta.</para>
+<para id="fs-idm50457088"><m:math>
  <m:mrow>
   <m:mtext>Desviación típica = </m:mtext><m:msqrt>
    <m:mrow>
@@ -999,9 +999,9 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
   <m:mo>≈</m:mo><m:mn>28,7186</m:mn>
  </m:mrow>
 </m:math></para></solution>
-</exercise></example><note id="fs-idp152488176" class="statistics try"><title>Ejercicio</title>
+</exercise></example><note id="fs-idp152488176" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idm88593344"><problem id="eip-idp52574576">
-<para id="eip-idp52574832">El 11 de mayo de 2013 a las 9:30 p. m., la probabilidad de que se produjera una actividad sísmica moderada (un terremoto moderado) en las próximas 48 horas en Japón era de aproximadamente 1,08 %. Al igual que en el <link target-id="example1.8"/>, se apuesta por que se produzca un terremoto moderado en Japón durante este periodo. Si gana la apuesta, gana 100 dólares. Si pierde la apuesta, paga 10 dólares. Supongamos que <emphasis effect="italics">X</emphasis> = el monto de ganancia de una apuesta. Calcule la media y la desviación típica de <emphasis effect="italics">X</emphasis>.</para>
+<para id="eip-idp52574832">El 11 de mayo de 2013 a las 9:30 p. m., la probabilidad de que se produjera una actividad sísmica moderada (un terremoto moderado) en las próximas 48 horas en Japón era de aproximadamente 1,08 %. Al igual que en el <link target-id="example1.8" document=""/>, se apuesta por que se produzca un terremoto moderado en Japón durante este periodo. Si gana la apuesta, gana 100 dólares. Si pierde la apuesta, paga 10 dólares. Supongamos que <emphasis effect="italics">X</emphasis> = el monto de ganancia de una apuesta. Calcule la media y la desviación típica de <emphasis effect="italics">X</emphasis>.</para>
 </problem>
 </exercise></note><para id="element-1">Algunas de las funciones de probabilidad discreta más comunes son la binomial, la geométrica, la hipergeométrica y la de Poisson. La mayoría de los cursos elementales no cubren la geométrica, la hipergeométrica y la Poisson. Su instructor le hará saber si desea cubrir estas distribuciones.</para>
 
@@ -1015,7 +1015,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 
 
 <section id="fs-idp17559008" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idm56942800">El valor esperado, o media, de una variable aleatoria discreta predice los resultados a largo plazo de un experimento estadístico que se ha repetido muchas veces. La desviación típica de una distribución de probabilidad se utiliza para medir la variabilidad de los posibles resultados.</para></section>
 
 <section id="fs-idp161572768" class="formula-review">
@@ -1117,16 +1117,16 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
 <entry><emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry></row></thead>
 <tbody>
-<row><entry>2</entry><entry>0,1</entry><entry>2(0.1) = 0.2</entry></row>
-<row><entry>4</entry><entry>0,3</entry><entry>4(0.3) = 1.2</entry></row>
-<row><entry>6</entry><entry>0,4</entry><entry>6(0.4) = 2.4</entry></row>
-<row><entry>8</entry><entry>0,2</entry><entry>8(0.2) = 1.6</entry></row>
+<row><entry>2</entry><entry>0,1</entry><entry>2(0,1) = 0,2</entry></row>
+<row><entry>4</entry><entry>0,3</entry><entry>4(0,3) = 1,2</entry></row>
+<row><entry>6</entry><entry>0,4</entry><entry>6(0,4) = 2,4</entry></row>
+<row><entry>8</entry><entry>0,2</entry><entry>8(0,2) = 1,6</entry></row>
 </tbody>
 </tgroup>
 </table>
 </problem>
 <solution id="fs-idp8231488">
-<para id="fs-idm57490144">0.2 + 1.2 + 2.4 + 1.6 = 5.4</para>
+<para id="fs-idm57490144">0,2 + 1,2 + 2,4 + 1,6 = 5,4</para>
 </solution>
 </exercise>
 
@@ -1148,24 +1148,24 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 <row>
 <entry>2</entry>
 <entry>0,1</entry>
-<entry>2(0.1) = 0.2</entry>
-<entry>(2–5.4)<sup>2</sup>(0.1) = 1.156</entry>
+<entry>2(0,1) = 0,2</entry>
+<entry>(2–5,4)<sup>2</sup>(0,1) = 1,156</entry>
 </row>
 <row>
 <entry>4</entry>
 <entry>0,3</entry>
-<entry>4(0.3) = 1.2</entry>
-<entry>(4–5.4)<sup>2</sup>(0.3) = 0.588</entry></row>
+<entry>4(0,3) = 1,2</entry>
+<entry>(4–5,4)<sup>2</sup>(0,3) = 0,588</entry></row>
 <row>
 <entry>6</entry>
 <entry>0,4</entry>
-<entry>6(0.4) = 2.4</entry>
-<entry>(6–5.4)<sup>2</sup>(0.4) = 0.144</entry></row>
+<entry>6(0,4) = 2,4</entry>
+<entry>(6–5,4)<sup>2</sup>(0,4) = 0,144</entry></row>
 <row>
 <entry>8</entry>
 <entry>0,2</entry>
-<entry>8(0.2) = 1.6</entry>
-<entry>(8–5.4)<sup>2</sup>(0.2) = 1.352</entry></row>
+<entry>8(0,2) = 1,6</entry>
+<entry>(8–5,4)<sup>2</sup>(0,2) = 1,352</entry></row>
 </tbody>
 </tgroup>
 </table>
@@ -1285,7 +1285,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 <problem id="fs-idp81310336">
 <para id="fs-idp110219840">Halle la probabilidad de que un estudiante de física haga investigación de posgrado durante cuatro años. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 4) = _______</para></problem>
 <solution id="fs-idm6915408">
-<para id="fs-idm41700928">1 – 0.35 – 0.20 – 0.15 – 0.10 – 0.05 = 0.15</para></solution>
+<para id="fs-idm41700928">1 – 0,35 – 0,20 – 0,15 – 0,10 – 0,05 = 0,15</para></solution>
 </exercise>
 
 <exercise id="fs-idm517184"><problem id="fs-idp85965280">
@@ -1304,13 +1304,13 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 </exercise>
 
 <para id="fs-idp155133792"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos siete ejercicios:</emphasis> A una profesora de ballet le interesa saber qué porcentaje de la clase de cada año continuará en el siguiente, para poder planificar qué clases ofrecer. A lo largo de los años, ha establecido la siguiente distribución de probabilidad.</para><list id="list-24215" list-type="bulleted">
-<item>Supongamos que <emphasis effect="italics">X</emphasis> = el número de años que un alumno estudiará ballet con la profesora.</item>
-<item>Supongamos que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) = la probabilidad de que un alumno estudie ballet <emphasis effect="italics">x</emphasis> años.</item>
+<item>Supongamos que <emphasis effect="italics">X</emphasis> = el número de años que un estudiante estudiará ballet con la maestra.</item>
+<item>Supongamos que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) = la probabilidad de que un estudiante estudie ballet <emphasis effect="italics">x</emphasis> años.</item>
 </list>
 
 <exercise id="fs-idp129333088">
 <problem id="fs-idm75363680">
-<para id="fs-idp78893136">Complete la <link target-id="M02_Ch04_tbl021"/> con los datos proporcionados.</para>
+<para id="fs-idp78893136">Complete la <link target-id="M02_Ch04_tbl021" document=""/> con los datos proporcionados.</para>
 <table id="M02_Ch04_tbl021" summary="PDF table for the number of years a student will study ballet with the teacher. It contains columns for the number of years and their probabilities with third column for each number multiplied by its probability.">
 <tgroup cols="3">
 <colspec colnum="1" colname="c1"/>
@@ -1370,7 +1370,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 </problem>
 
 <solution id="fs-idp118291792">
-<para id="fs-idp92658144"><emphasis effect="italics">X</emphasis> es el número de años que un alumno estudia ballet con la profesora.</para></solution>
+<para id="fs-idp92658144"><emphasis effect="italics">X</emphasis> es el número de años que un estudiante estudia ballet con la maestra.</para></solution>
 </exercise><exercise id="exercisetwo"><problem id="id26516605">
 <para id="prob_2"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 4) = _______</para>
 </problem>
@@ -1381,12 +1381,12 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 <problem id="id17831251">
 <para id="prob_3"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 4) = _______</para></problem>
 <solution id="fs-idp138936192">
-<para id="fs-idp138936448">0.10 + 0.05 + 0.10 = 0.25</para>
+<para id="fs-idp138936448">0,10 + 0,05 + 0,10 = 0,25</para>
 </solution>
 </exercise>
 
 <exercise id="exercisefour"><problem id="id11755417">
-<para id="prob_4">Como media, ¿cuántos años espera que un niño estudie ballet con esta profesora?</para>
+<para id="prob_4">En promedio, ¿cuántos años espera que un niño estudie ballet con esta maestra?</para>
 </problem>
 
 <!-- <solution id="fs-idp209095920">
@@ -1409,9 +1409,9 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 <problem id="fs-idm79058544">
 <para id="fs-idm77353440">Está en un juego de cartas en el que saca una carta de un mazo estándar y la sustituye. Si la carta es de figura, gana 30 dólares. Si no es una carta de figura, paga 2 dólares. En un mazo de 52 cartas hay 12 cartas de figura. ¿Cuál es el valor esperado del juego?</para></problem>
 <solution id="fs-idm10944544">
-<para id="fs-idm57969456">Los términos <m:math>
+<para id="fs-idm57969456"><m:math>
  <m:mrow>
-  <m:mo>-</m:mo><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
+  <m:mo>–</m:mo><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
    <m:mrow>
     <m:mfrac>
      <m:mrow>
@@ -1455,7 +1455,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 <item>Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</item>
 <item>Enumere los valores que puede tomar <emphasis effect="italics">X</emphasis>.</item>
 <item>Construya una PDF.</item>
-<item>Si esta recaudación de fondos se repite a menudo y siempre se compran cuatro boletos, ¿cuál sería la media de ganancias esperada por rifa?</item>
+<item>Si esta recaudación de fondos se repite a menudo y siempre se compran cuatro boletos, ¿cuál sería el promedio de ganancias esperada por rifa?</item>
 </list></problem>
 <!-- <solution id="fs-idp146807296">
 <list id="fs-idp146807552" list-type="enumerated" number-style="lower-alpha"><item>I am interested in the average profit or loss.</item>
@@ -1540,7 +1540,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 <item>Si la carta no es de figura, pierde 2 dólares, sin importar lo que muestre la moneda.</item>
 </list> <list id="eip-idm175700160" list-type="enumerated" number-style="lower-alpha">
 <item>Calcule el valor esperado para este juego (ganancia o pérdida neta esperada).</item>
-<item>Explique lo que indican sus cálculos sobre sus ganancias y pérdidas medias a largo plazo en este juego.</item>
+<item>Explique lo que indican sus cálculos sobre sus ganancias y pérdidas promedio a largo plazo en este juego.</item>
 <item>¿Debe jugar a este juego para ganar dinero?</item>
 </list>
 </problem>
@@ -1563,7 +1563,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
   <row>
     <entry>Carta de figura y cara</entry>
     <entry>6</entry>
-    <entry>Los términos <m:math>
+    <entry><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1603,7 +1603,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
   <row>
     <entry>Carta de figura y cruz</entry>
     <entry>2</entry>
-    <entry>Los términos <m:math>
+    <entry><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1643,7 +1643,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
   <row>
     <entry>(No es una carta de figura) y (H o T)</entry>
     <entry>-2</entry>
-    <entry>Los términos <m:math>
+    <entry><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1684,7 +1684,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 </tgroup>
 </table>
 
-<list id="eip-id1164900807448" list-type="bulleted"><item>Los términos <m:math>
+<list id="eip-id1164900807448" list-type="bulleted"><item><m:math>
  <m:mrow>
   <m:mtext>Valor esperado</m:mtext><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1730,8 +1730,8 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
  </m:mrow>
 </m:math></item>
 <item>Valor esperado = -0,62 dólares, redondeados al céntimo más cercano</item>
-<item>Si juega a este juego repetidamente, durante una larga serie de partidas, esperaría perder 62 céntimos por partida, de media.</item>
-<item>No debe jugar a este juego para ganar dinero porque el valor esperado indica una pérdida media esperada.</item>
+<item>Si juega a este juego repetidamente, durante una larga serie de partidas, esperaría perder 62 céntimos por partida, en promedio.</item>
+<item>No debe jugar a este juego para ganar dinero porque el valor esperado indica una pérdida promedio esperada.</item>
 </list></solution>
 </exercise><exercise id="eip-945"><problem id="eip-id1170608817668">
 <para id="eip-id1170601642785">Compra un billete de lotería que cuesta 10 dólares. Solo hay 100 boletos a la venta en esta lotería. Hay un premio de 500 dólares, dos premios de 100 dólares y cuatro premios de 25 dólares. Calcule su ganancia o pérdida esperada.</para></problem>
@@ -1912,7 +1912,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 <item>Defina la variable aleatoria <emphasis effect="italics">X</emphasis> en palabras.</item>
 <item>Enumere los valores que puede tomar <emphasis effect="italics">X</emphasis>.</item>
 <item>Construya una PDF.</item>
-<item>A lo largo de este juego, ¿cuál es la media de ganancias que espera obtener por partida?</item>
+<item>A lo largo de este juego, ¿cuál es el promedio de ganancias que espera obtener por partida?</item>
 <item>Con base en los valores numéricos, ¿debería aceptar el trato? Explique su decisión con frases completas.</item></list>
 </problem>
 
@@ -2007,13 +2007,13 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 <item>Yes, the expected value is 33 cents</item>
 </list></solution> -->
 </exercise><exercise id="element-725"><problem id="id19288031">
-  <para id="element-866">Un inversionista de capital de riesgo, dispuesto a invertir 1.000.000 de dólares, tiene tres inversiones para elegir. La primera inversión, una empresa de software, tiene un 10 % de posibilidades de devolver 5.000.000 de dólares de ganancia, un 30 % de posibilidades de devolver 1.000.000 de dólares de beneficio y un 60 % de posibilidades de perder el millón de dólares. La segunda empresa, una empresa de hardware, tiene un 20 % de posibilidades de obtener 3.000.000 de dólares de ganancia, un 40 % de posibilidades de obtener 1.000.000 de dólares de ganancia y un 40 % de posibilidades de perder el millón de dólares. La tercera empresa, una empresa de biotecnología, tiene un 10 % de posibilidades de obtener 6.000.000 de dólares de beneficio, un 70 % de no obtener beneficios ni pérdidas y un 20 % de perder el millón de dólares.</para>
+  <para id="element-866">Un inversionista de capital de riesgo, dispuesto a invertir 1.000.000 de dólares, tiene tres inversiones para elegir. La primera inversión, una compañía de software, tiene un 10 % de posibilidades de devolver 5.000.000 de dólares de ganancia, un 30 % de posibilidades de devolver 1.000.000 de dólares de ganancia y un 60 % de posibilidades de perder el millón de dólares. La segunda compañía, una compañía de hardware, tiene un 20 % de posibilidades de obtener 3.000.000 de dólares de ganancia, un 40 % de posibilidades de obtener 1.000.000 de dólares de ganancia y un 40 % de posibilidades de perder el millón de dólares. La tercera compañía, una compañía de biotecnología, tiene un 10 % de posibilidades de obtener 6.000.000 de dólares de ganancia, un 70 % de no obtener ganancias ni pérdidas y un 20 % de perder el millón de dólares.</para>
 <list id="element-723" list-type="enumerated" number-style="lower-alpha">
 <item>Construya una PDF para cada inversión.</item>
 <item>Calcule el valor esperado para cada inversión.</item>
 <item>¿Cuál es la inversión más segura? ¿Por qué cree que es así?</item>
 <item>¿Cuál es la inversión más arriesgada? ¿Por qué cree que es así?</item>
-<item>¿Qué inversión tiene la mayor rentabilidad esperada, por término medio?</item></list>
+<item>¿Qué inversión tiene la mayor rentabilidad esperada, en promedio?</item></list>
 </problem>
 
 <solution id="id19291349">
@@ -2022,16 +2022,16 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <thead>
-<row><entry namest="c1" nameend="c2">Empresa de software</entry></row>
+<row><entry namest="c1" nameend="c2">Compañía de software</entry></row>
 <row>
 <entry><emphasis effect="italics">x</emphasis></entry>
 <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
 </row>
 </thead>
 <tbody>
-<row><entry>5000000</entry><entry>0,10</entry></row>
+<row><entry>5.000.000</entry><entry>0,10</entry></row>
 <row><entry>1.000.000</entry><entry>0,30</entry></row>
-<row><entry>–1,000,000</entry><entry>0,60</entry></row>
+<row><entry>–1.000.000</entry><entry>0,60</entry></row>
 </tbody>
 </tgroup>
 </table>
@@ -2041,7 +2041,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <thead>
-<row><entry namest="c1" nameend="c2">Empresa de hardware</entry></row>
+<row><entry namest="c1" nameend="c2">Compañía de hardware</entry></row>
 <row>
 <entry><emphasis effect="italics">x</emphasis></entry>
 <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
@@ -2069,12 +2069,12 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 <tbody>
 <row><entry>6,00,000</entry><entry>0,10</entry></row>
 <row><entry>0</entry><entry>0,70</entry></row>
-<row><entry>–1,000,000</entry><entry>0,20</entry></row>
+<row><entry>–1.000.000</entry><entry>0,20</entry></row>
 </tbody>
 </tgroup>
 </table>
 </item>
-<item>$200,000; $600,000; $400,000</item>
+<item>$200.000; $600.000; $400.000</item>
 <item>La tercera inversión porque tiene la menor probabilidad de pérdida</item>
 <item>La primera inversión porque tiene la mayor probabilidad de pérdida</item>
 <item>La segunda inversión</item></list></solution>
@@ -2149,7 +2149,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 <item>two of three children</item>
 </list></solution> -->
 </exercise><exercise id="fs-idp33692128"><problem id="fs-idm139132608">
-  <para id="fs-idp13631152">Supongamos que la PDF del número de años que se tarda en obtener un título de licenciado en ciencias (Bachelor of Science, B.S.) se da en la <link target-id="id488jhjhj72479"/>.</para>
+  <para id="fs-idp13631152">Supongamos que la PDF del número de años que se tarda en obtener un título de licenciado en ciencias (Bachelor of Science, B.S.) se da en la <link target-id="id488jhjhj72479" document=""/>.</para>
 
 <table id="id488jhjhj72479" summary="">
 <tgroup cols="2">
@@ -2186,7 +2186,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 </tgroup>
 </table>
 
-<para id="eip-idp142551264">Como media, ¿cuántos años cree que tarda una persona en obtener una licenciatura en ciencias?</para>
+<para id="eip-idp142551264">En promedio, ¿cuántos años cree que tarda una persona en obtener una licenciatura en Ciencias?</para>
 </problem>
 <solution id="fs-idp175439088">
 <para id="fs-idp126181696">4,85 años</para>
@@ -2267,8 +2267,8 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 </solution>
 </exercise>
 
-<exercise id="fs-idm63057856"><problem id="fs-idp361456"><para id="fs-idm71157472">La Universidad Estatal de Florida tiene 14 clases de Estadística programadas para su trimestre de verano 2013. Una clase tiene cupos para 30 alumnos, ocho clases tienen espacio para 60 alumnos, una clase tiene cupos para 70 alumnos y cuatro clases tienen cupos para 100 alumnos.</para>
-<list id="fs-idm80083648" list-type="enumerated" number-style="lower-alpha"><item>¿Cuál es el tamaño medio de las clases, suponiendo que cada una de ellas esté llena?</item>
+<exercise id="fs-idm63057856"><problem id="fs-idp361456"><para id="fs-idm71157472">La Universidad Estatal de Florida tiene 14 clases de Estadística programadas para su trimestre de verano 2013. Una clase tiene cupos para 30 estudiantes, ocho clases tienen cupos para 60 estudiantes, una clase tiene cupos para 70 estudiantes y cuatro clases tienen cupos para 100 estudiantes.</para>
+<list id="fs-idm80083648" list-type="enumerated" number-style="lower-alpha"><item>¿Cuál es el tamaño promedio de las clases, suponiendo que cada una de ellas esté llena?</item>
 <item>Hay cupos para 980 estudiantes. Supongamos que el cupo de cada clase está completo y seleccionamos un estudiante de Estadística al azar. Supongamos que la variable aleatoria <emphasis effect="italics">X</emphasis> igual al tamaño de la clase del estudiante. Definir la PDF para <emphasis effect="italics">X</emphasis>.</item>
 <item>Calcule la media de <emphasis effect="italics">X</emphasis>.</item>
 <item>Calcule la desviación típica de <emphasis effect="italics">X</emphasis>.</item>
@@ -2627,7 +2627,7 @@ Los términos <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false
 <tbody>
 <row><entry>0</entry><entry>0,969</entry></row>
 <row><entry>5</entry><entry>
-Los términos <m:math>
+<m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -2639,8 +2639,8 @@ Los términos <m:math>
   </m:mfrac>
 
  </m:mrow>
-</m:math> = 0.025</entry></row>
-<row><entry>25</entry><entry>Los términos <m:math>
+</m:math> = 0,025</entry></row>
+<row><entry>25</entry><entry><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -2652,8 +2652,8 @@ Los términos <m:math>
   </m:mfrac>
 
  </m:mrow>
-</m:math> = 0.005</entry></row>
-<row><entry>100</entry><entry>Los términos <m:math>
+</m:math> = 0,005</entry></row>
+<row><entry>100</entry><entry><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -2665,13 +2665,13 @@ Los términos <m:math>
   </m:mfrac>
 
  </m:mrow>
-</m:math> = 0.001</entry></row>
+</m:math> = 0,001</entry></row>
 </tbody>
 </tgroup>
 </table>
 </para>
 <para id="fs-idm41233712">Calcule el valor esperado de <emphasis effect="italics">X</emphasis>.</para>
-<para id="fs-idm86179776">0(0.969) + 5(0.025) + 25(0.005) + 100(0.001) = 0.35</para>
+<para id="fs-idm86179776">0(0,969) + 5(0,025) + 25(0,005) + 100(0,001) = 0,35</para>
 <para id="fs-idm45715696">El precio justo de un billete es de 0,35 dólares. Cualquier precio superior a 0,35 dólares permitirá a la lotería recaudar dinero.</para>
 </solution>
 </exercise>
@@ -2680,7 +2680,7 @@ Los términos <m:math>
 <glossary>
 <definition id="expectedv">
 <term>Valor esperado</term>
-<meaning id="id10864394">media aritmética esperada cuando un experimento se repite muchas veces; también se denomina media. Notaciones: <emphasis effect="italics">μ</emphasis>. En una variable aleatoria discreta (RV) con función de distribución de probabilidad <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>), la definición también puede escribirse en la forma <emphasis effect="italics">μ</emphasis> = <m:math>
+<meaning id="id10864394">promedio aritmético esperado cuando un experimento se repite muchas veces; también se denomina media. Notaciones: <emphasis effect="italics">μ</emphasis>. En una variable aleatoria discreta (RV) con función de distribución de probabilidad <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>), la definición también puede escribirse en la forma <emphasis effect="italics">μ</emphasis> = <m:math>
  <m:mrow>
   <m:mstyle displaystyle="true">
    <m:mo>∑</m:mo> <m:mrow/>
@@ -2708,12 +2708,12 @@ Los términos <m:math>
    <m:mrow>    <m:mi>Suma</m:mi><m:mo> </m:mo><m:mi>de</m:mi><m:mo> </m:mo><m:mi>todo</m:mi><m:mo> </m:mo><m:mi>valores</m:mi><m:mo> </m:mo><m:mi>en</m:mi><m:mo> </m:mo><m:mi>la</m:mi><m:mo> </m:mo><m:mi>población</m:mi></m:mrow>
 <m:mrow>    <m:mi>Número</m:mi><m:mo> </m:mo><m:mi>de</m:mi><m:mo> </m:mo><m:mi>valores</m:mi><m:mo> </m:mo><m:mi>en</m:mi><m:mo> </m:mo><m:mi>la</m:mi><m:mo> </m:mo><m:mi>población</m:mi></m:mrow></m:mfrac>
  </m:mrow>
-</m:math></meaning>
+</m:math>.</meaning>
   </definition>
 
 <definition id="fs-idm144391840">
 <term>Media de una distribución de probabilidad</term>
-<meaning id="fs-idp39061776">la media a largo plazo de muchos ensayos de un experimento estadístico</meaning>
+<meaning id="fs-idp39061776">el promedio a largo plazo de muchos ensayos de un experimento estadístico</meaning>
 </definition>
 
 <definition id="fs-idm82850224">
@@ -2723,7 +2723,7 @@ Los términos <m:math>
 
 <definition id="fs-idm140669088">
 <term>La ley de los grandes números</term>
-<meaning id="fs-idp31486048">A medida que aumenta el número de ensayos en un experimento de probabilidad, la diferencia entre la probabilidad teórica de un suceso y la probabilidad de frecuencia relativa se aproxima a cero.</meaning>
+<meaning id="fs-idp31486048">A medida que aumenta el número de ensayos en un experimento de probabilidad, la diferencia entre la probabilidad teórica de un evento y la probabilidad de frecuencia relativa se aproxima a cero.</meaning>
 </definition>
 </glossary>
 </document>

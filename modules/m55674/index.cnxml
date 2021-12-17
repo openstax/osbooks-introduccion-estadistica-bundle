@@ -8,19 +8,19 @@
 </metadata>
 
 <content>
-<para id="eip-772">En la mayoría de los casos de datos económicos o empresariales tenemos poco o ningún control sobre la recopilación de los datos. En este sentido, los datos no son el resultado de un experimento controlado y planificado. Sin embargo, en algunos casos podemos generar datos que forman parte de un experimento controlado. Esto se da con frecuencia en situaciones de control de calidad. Imagine que las tasas de producción de dos máquinas construidas con el mismo diseño, pero en diferentes plantas de fabricación, se prueban para detectar diferencias en algún sistema de medición de la producción, como la velocidad de salida o el cumplimiento con alguna especificación, como la resistencia del producto. La prueba tiene el mismo formato que la que hemos estado probando, pero aquí podemos tener pares emparejados para los que podemos verificar si existen diferencias. Cada observación tiene su par emparejado con el que se calculan las diferencias. En primer lugar, hay que calcular las diferencias del indicador que se va a probar entre las dos listas de observaciones, lo que se suele etiquetar con la letra "d". A continuación, la media de estas diferencias emparejadas, <m:math><m:msub><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mi>d</m:mi></m:msub></m:math> se calcula al igual que su desviación estándar, <emphasis effect="italics">S</emphasis><sub>d</sub>. Esperamos que la desviación estándar de las diferencias de los pares emparejados sea menor que la de los pares no emparejados porque presumiblemente deberían existir menos diferencias debido a la correlación entre los dos grupos.</para><para id="fs-idp164310080">Cuando se utiliza una prueba de hipótesis para muestras emparejadas o pareadas, pueden darse las siguientes características:</para><list id="element-139" list-type="enumerated"><item>Se utiliza un muestreo aleatorio simple.</item>
+<para id="eip-772">En la mayoría de los casos de datos económicos o empresariales tenemos poco o ningún control sobre la recopilación de los datos. En este sentido, los datos no son el resultado de un experimento controlado y planificado. Sin embargo, en algunos casos podemos generar datos que forman parte de un experimento controlado. Esto se da con frecuencia en situaciones de control de calidad. Imagine que las tasas de producción de dos máquinas construidas con el mismo diseño, pero en diferentes plantas de fabricación, se prueban para detectar diferencias en algún sistema de medición de la producción, como la velocidad de salida o el cumplimiento con alguna especificación, como la resistencia del producto. La prueba tiene el mismo formato que la que hemos estado probando, pero aquí podemos tener pares emparejados para los que podemos verificar si existen diferencias. Cada observación tiene su par emparejado con el que se calculan las diferencias. En primer lugar, hay que calcular las diferencias del indicador que se va a probar entre las dos listas de observaciones, lo que se suele etiquetar con la letra "d". A continuación, el promedio de estas diferencias emparejadas, <m:math><m:msub><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mi>d</m:mi></m:msub></m:math> se calcula al igual que su desviación típica, <emphasis effect="italics">S</emphasis><sub>d</sub>. Esperamos que la desviación típica de las diferencias de los pares emparejados sea menor que la de los pares no emparejados porque presumiblemente deberían existir menos diferencias debido a la correlación entre los dos grupos.</para><para id="fs-idp164310080">Cuando se utiliza una prueba de hipótesis para muestras emparejadas o pareadas, pueden darse las siguientes características:</para><list id="element-139" list-type="enumerated"><item>Se utiliza un muestreo aleatorio simple.</item>
 <item>El tamaño de las muestras suele ser pequeño.</item>
 <item>Se toman dos medidas (muestras) del mismo par de personas u objetos.</item>
 <item>Las diferencias se calculan a partir de las muestras coincidentes o emparejadas.</item>
 <item>Las diferencias forman la muestra que se utiliza para la prueba de hipótesis.</item>
 <item>O bien los pares coincidentes tienen diferencias que provienen de una población que es normal o el número de diferencias es lo suficientemente grande como para que la distribución de la media muestral de las diferencias sea aproximadamente normal.</item>
-</list><para id="eip-8888">En una prueba de hipótesis para muestras coincidentes o emparejadas los sujetos son coincidentes en pares y se calculan las diferencias. Las diferencias son los datos. A continuación, la media poblacional de las diferencias, <emphasis effect="italics">μ<sub>d</sub></emphasis>, se verifica con la prueba t de Student para una única media poblacional con <emphasis effect="italics">n</emphasis> – 1 grados de libertad, donde <emphasis effect="italics">n</emphasis> es el número de diferencias, es decir, el número de pares, no el número de observaciones.</para><equation class="unnumbered" id="eip-467"><title>Las hipótesis nula y alternativa para esta prueba son:</title>Los términos <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
+</list><para id="eip-8888">En una prueba de hipótesis para muestras coincidentes o emparejadas los sujetos son coincidentes en pares y se calculan las diferencias. Las diferencias son los datos. A continuación, la media poblacional de las diferencias, <emphasis effect="italics">μ<sub>d</sub></emphasis>, se verifica con la prueba t de Student para una única media poblacional con <emphasis effect="italics">n</emphasis> – 1 grados de libertad, donde <emphasis effect="italics">n</emphasis> es el número de diferencias, es decir, el número de pares, no el número de observaciones.</para><equation class="unnumbered" id="eip-467"><label/><title>Las hipótesis nula y alternativa para esta prueba son:</title><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
 <m:mo>:</m:mo> 
 <m:msub><m:mi>µ</m:mi><m:mi>d</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn>
-</m:math></equation><equation class="unnumbered" id="eip-724">Los términos <m:math>
+</m:math></equation><equation class="unnumbered" id="eip-724"><label/><m:math>
 <m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub>
 <m:mo>:</m:mo> 
-<m:msub><m:mi>µ</m:mi><m:mi>d</m:mi></m:msub><m:mo>≠</m:mo><m:mn>0</m:mn></m:math></equation><equation class="unnumbered" id="element-403"><title>El estadístico de prueba es:</title>Los términos <m:math>
+<m:msub><m:mi>µ</m:mi><m:mi>d</m:mi></m:msub><m:mo>≠</m:mo><m:mn>0</m:mn></m:math></equation><equation class="unnumbered" id="element-403"><label/><title>El estadístico de prueba es:</title><m:math>
 <m:mrow>
 <m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -32,7 +32,7 @@
 
 <m:mi>d</m:mi>
 </m:msub>
-<m:mo>- −</m:mo><m:msub>
+<m:mo>–</m:mo><m:msub>
 <m:mi>μ</m:mi>
 <m:mi>d</m:mi>
 </m:msub>
@@ -65,11 +65,11 @@
 </m:mrow>
 </m:math></equation><example id="eip-825"><exercise id="eip-id4058037">
 <problem id="eip-id4058042">
-<para id="eip-id4058073">Una empresa ha desarrollado un programa de formación para sus nuevos empleados porque le preocupa los resultados de la revisión semestral de los empleados. Esperan que el programa de formación dé lugar a mejores revisiones semestrales. Cada aprendiz constituye un "par", la puntuación de entrada que el empleado recibió al ingresar en la empresa y la puntuación otorgada en la revisión de los seis meses. Se calculó la diferencia de las dos puntuaciones de cada empleado y se calcularon las medias de antes y después del programa de formación. La media muestral antes del programa de formación era de 20,4 y la media muestral después del programa de formación fue de 23,9. La desviación estándar de las diferencias entre las dos puntuaciones de los 20 empleados fue de 3,8 puntos. Compruebe al nivel de significación del 10 % la hipótesis nula de que las dos medias poblacionales son iguales frente a la alternativa de que el programa de formación mejora las puntuaciones de los empleados.   </para></problem>
+<para id="eip-id4058073">Una compañía ha desarrollado un programa de formación para sus nuevos empleados porque le preocupa los resultados de la revisión semestral de los empleados. Esperan que el programa de formación dé lugar a mejores revisiones semestrales. Cada aprendiz constituye un "par", la puntuación de entrada que el empleado recibió al ingresar en la empresa y la puntuación otorgada en la revisión de los seis meses. Se calculó la diferencia de las dos puntuaciones de cada empleado y se calcularon las medias de antes y después del programa de formación. La media muestral antes del programa de formación era de 20,4 y la media muestral después del programa de formación fue de 23,9. La desviación típica de las diferencias entre las dos puntuaciones de los 20 empleados fue de 3,8 puntos. Compruebe al nivel de significación del 10 % la hipótesis nula de que las dos medias poblacionales son iguales frente a la alternativa de que el programa de formación mejora las puntuaciones de los empleados.   </para></problem>
 <solution id="eip-id4058108">
 <para id="eip-id4058113"><emphasis/>El primer paso es identificar este caso como de dos muestras: antes y después de la formación. Esto diferencia este problema de los simples problemas de una muestra. En segundo lugar, determinamos que las dos muestras están "emparejadas". Cada observación de la primera muestra tiene una observación emparejada en la segunda muestra. Esta información nos revela que las hipótesis nula y alternativa deberían ser:
 <equation id="eip-id1171814090314">
-Los términos <m:math>
+<m:math>
 <m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
 <m:mo>:</m:mo> 
 <m:msub><m:mi>µ</m:mi><m:mi>d</m:mi></m:msub>
@@ -78,7 +78,7 @@ Los términos <m:math>
 </m:math>
 </equation>
 <equation id="eip-id1166400026916">
-Los términos <m:math>
+<m:math>
 <m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub>
 <m:mo>:</m:mo> 
 <m:msub><m:mi>µ</m:mi><m:mi>d</m:mi></m:msub>
@@ -87,13 +87,13 @@ Los términos <m:math>
 </m:math>
 </equation>
 Esta forma refleja la afirmación implícita de que el curso de formación mejora las puntuaciones; la prueba es de una cola y la afirmación está en la hipótesis alternativa. Dado que el experimento se llevó a cabo como una muestra emparejada, en lugar de tomar simplemente las puntuaciones de las personas que realizaron el curso de formación de las que no lo hicieron, utilizamos el estadístico de prueba de pares emparejados:
-<equation class="unnumbered" id="eip-id1476519">Los términos <m:math><m:mtext>Estadística de la prueba: </m:mtext><m:mspace width="0.2em"/>
+<equation class="unnumbered" id="eip-id1476519"><label/><m:math><m:mtext>Estadístico de prueba: </m:mtext><m:mspace width="0.2em"/>
 <m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub>
 <m:mo>=</m:mo>
-<m:mfrac><m:mrow><m:msub><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mi>d</m:mi></m:msub><m:mo>- −</m:mo><m:msub><m:mi>µ</m:mi><m:mi>d</m:mi></m:msub></m:mrow>
+<m:mfrac><m:mrow><m:msub><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mi>d</m:mi></m:msub><m:mo>–</m:mo><m:msub><m:mi>µ</m:mi><m:mi>d</m:mi></m:msub></m:mrow>
 <m:mrow><m:mfrac><m:msub><m:mi>S</m:mi><m:mi>d</m:mi></m:msub><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:mrow></m:mfrac>
 <m:mo>=</m:mo>
-<m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>23,9</m:mn><m:mo>- −</m:mo><m:mn>20,4</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>0</m:mn></m:mrow>
+<m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>23,9</m:mn><m:mo>–</m:mo><m:mn>20,4</m:mn><m:mo>)</m:mo><m:mo>–</m:mo><m:mn>0</m:mn></m:mrow>
 <m:mrow><m:mo>(</m:mo><m:mfrac><m:mrow><m:mn>3,8</m:mn></m:mrow><m:mrow><m:msqrt><m:mn>20</m:mn></m:msqrt></m:mrow></m:mfrac><m:mo>)</m:mo></m:mrow></m:mfrac>
 <m:mo>=</m:mo>
 <m:mn>4,12</m:mn>
@@ -101,14 +101,14 @@ Esta forma refleja la afirmación implícita de que el curso de formación mejor
 </equation>
 Para resolver esta ecuación, hay que utilizar cada una las puntuaciones, el curso previo a la formación y el curso posterior a la formación para calcular cada una de las diferencias. A continuación, se promedian estas puntuaciones y se calcula la diferencia promedio:
 <equation id="eip-id2017645">
-Los términos <m:math><m:msub><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mi>d</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mn>2</m:mn></m:msub></m:math>
+<m:math><m:msub><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mi>d</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mn>1</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mn>2</m:mn></m:msub></m:math>
 </equation>
-A partir de estas diferencias podemos calcular la desviación estándar de cada una de las diferencias:
-<equation class="unnumbered" id="eip-id4727950">Los términos <m:math><m:msub><m:mi>S</m:mi><m:mi>d</m:mi></m:msub><m:mo>=</m:mo>
-<m:mfrac><m:mrow><m:mi>Σ</m:mi><m:mo>(</m:mo><m:msub><m:mi>d</m:mi><m:mi>i</m:mi></m:msub><m:mo>- −</m:mo><m:msub><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mi>d</m:mi></m:msub><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup></m:mrow>
+A partir de estas diferencias podemos calcular la desviación típica de cada una de las diferencias:
+<equation class="unnumbered" id="eip-id4727950"><label/><m:math><m:msub><m:mi>S</m:mi><m:mi>d</m:mi></m:msub><m:mo>=</m:mo>
+<m:mfrac><m:mrow><m:mi>Σ</m:mi><m:mo>(</m:mo><m:msub><m:mi>d</m:mi><m:mi>i</m:mi></m:msub><m:mo>–</m:mo><m:msub><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mi>d</m:mi></m:msub><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup></m:mrow>
 <m:mrow><m:mi>n</m:mi><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac>
 <m:mtext> donde </m:mtext><m:mspace width="0.2em"/>
-<m:msub><m:mi>d</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mi>1i</m:mi></m:msub><m:mo>- −</m:mo><m:msub><m:mi>x</m:mi><m:mi>2i</m:mi></m:msub></m:math>
+<m:msub><m:mi>d</m:mi><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mi>1i</m:mi></m:msub><m:mo>–</m:mo><m:msub><m:mi>x</m:mi><m:mi>2i</m:mi></m:msub></m:math>
 </equation>
 Ahora podemos comparar el valor calculado del estadístico de prueba, 4,12, con el valor crítico. El valor crítico es una t de Student con grados de libertad iguales al número de pares, no de observaciones, menos 1. En este caso 20 pares y con un nivel de confianza del 90% t<sub>a/2</sub> = ±1,729 con <emphasis effect="italics">df</emphasis> = 20 - 1 = 19. El valor calculado del estadístico de prueba se encuentra con toda seguridad en la cola de la distribución; por ende, no podemos aceptar la hipótesis nula de que no hay diferencias con el programa de formación. Las pruebas parecen indicar que la formación permite a los empleados a obtener mejores puntuaciones.</para></solution>
 </exercise>
@@ -167,7 +167,7 @@ Ahora podemos comparar el valor calculado del estadístico de prueba, 4,12, con 
 
 </problem>
 <solution id="id24601284">
-<para id="element-215">Los valores correspondientes de “antes” y “después” forman pares coincidentes. (Calcule “después” – “antes”)</para>
+<para id="element-215">Los valores correspondientes de “antes” y “después” forman pares coincidentes (calcule “después” – “antes”).</para>
 <table id="table-25832" summary="This table shows the after data in the first column, before data in the second column, and the difference in the third column.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -274,7 +274,7 @@ Ahora podemos comparar el valor calculado del estadístico de prueba, 4,12, con 
 <figure id="hyptest22_samp1"><media id="id11476386" alt="Curva de distribución normal de la diferencia promedio de las mediciones sensoriales con valores de –3,13 y 0. Una línea vertical ascendente se extiende desde –3,13 hasta la curva, y el valor p se indica en el área a la izquierda de este valor.">
 <image src="../../media/fig-ch10_01_11n.jpg" mime-type="image/jpg"/>
 </media>
-</figure><para id="element-281">Los términos <m:math>
+</figure><para id="element-281"><m:math>
 <m:mrow>
 <m:msub>
 <m:mover accent="true">
@@ -287,7 +287,7 @@ Ahora podemos comparar el valor calculado del estadístico de prueba, 4,12, con 
 
 </m:mrow>
 </m:math> es la variable aleatoria de las diferencias.</para><para id="element-213">La media muestral y la desviación típica de la muestra de las diferencias son:</para>
-<para id="element-357">Los términos <m:math>
+<para id="element-357"><m:math>
 <m:mrow>
 <m:msub>
 <m:mover accent="true">
@@ -299,7 +299,7 @@ Ahora podemos comparar el valor calculado del estadístico de prueba, 4,12, con 
 </m:msub>
 
 </m:mrow>
-</m:math> = -3,13</para><para id="element-909">Los términos <m:math>
+</m:math> = -3,13</para><para id="element-909"><m:math>
 <m:mrow>
 <m:msub>
 <m:mover accent="true">
@@ -348,7 +348,7 @@ Ahora podemos comparar el valor calculado del estadístico de prueba, 4,12, con 
 </tbody>
 
 </tgroup>
-</table><para id="element-651"><emphasis>El entrenador quiere saber si la clase de desarrollo de fuerza hace que sus jugadores sean más fuertes, en promedio.</emphasis> <newline/>Registre los datos de las <emphasis>diferencias</emphasis>. Para calcular las diferencias reste la cantidad de peso levantado antes de la clase del peso levantado después de terminar la clase. Los datos de las diferencias son: {90, 11, –8, –8}. </para><para id="element-258">Los términos <m:math>
+</table><para id="element-651"><emphasis>El entrenador quiere saber si la clase de desarrollo de fuerza hace que sus jugadores sean más fuertes, en promedio.</emphasis> <newline/>Registre los datos de las <emphasis>diferencias</emphasis>. Para calcular las diferencias reste la cantidad de peso levantado antes de la clase del peso levantado después de terminar la clase. Los datos de las diferencias son: {90, 11, –8, –8}. </para><para id="element-258"><m:math>
 <m:mrow>
 <m:msub>
 <m:mover accent="true">
@@ -380,7 +380,7 @@ Ahora podemos comparar el valor calculado del estadístico de prueba, 4,12, con 
 </example>
 
 <section id="fs-idp51883760" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idp192128">Una prueba de hipótesis para muestras coincidentes o emparejadas (prueba t) tiene estas características:</para>
 <list id="fs-idp192512" list-type="bulleted"><item>Compruebe las diferencias restando una medida de la otra</item>
 <item>Variable aleatoria: <m:math>
@@ -402,7 +402,7 @@ Ahora podemos comparar el valor calculado del estadístico de prueba, 4,12, con 
 
 <section id="fs-idm5585024" class="formula-review">
 <title>Revisión de la fórmula</title>
-<para id="fs-idp95152944">Estadística de la prueba (puntuación <emphasis effect="italics">t</emphasis>): <emphasis effect="italics">t<sub>c</sub></emphasis> = <m:math>
+<para id="fs-idp95152944">Estadístico de prueba (puntuación <emphasis effect="italics">t</emphasis>): <emphasis effect="italics">t<sub>c</sub></emphasis> = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -414,7 +414,7 @@ Ahora podemos comparar el valor calculado del estadístico de prueba, 4,12, con 
 
 <m:mi>d</m:mi>
 </m:msub>
-<m:mo>- −</m:mo><m:msub>
+<m:mo>–</m:mo><m:msub>
 <m:mi>μ</m:mi>
 <m:mi>d</m:mi>
 </m:msub>
@@ -447,7 +447,7 @@ Ahora podemos comparar el valor calculado del estadístico de prueba, 4,12, con 
 </m:mrow>
 </m:math></para>
 <para id="fs-idm30659744">donde:</para>
-<para id="fs-idm8251264">Los términos <m:math>
+<para id="fs-idm8251264"><m:math>
 <m:mrow>
 <m:msub>
 <m:mover accent="true">
@@ -712,7 +712,7 @@ Ahora podemos comparar el valor calculado del estadístico de prueba, 4,12, con 
 </table>
 </problem>
 <solution id="fs-idp21115136">
-<para id="fs-idp6749856">valor <emphasis effect="italics">p</emphasis>= 0,1494</para><para id="fs-idp164535872">Con un nivel de significación del 5 %, no hay pruebas suficientes para concluir que el medicamento reduzca los niveles de colesterol después de 12 semanas.</para>
+<para id="fs-idp6749856">valor <emphasis effect="italics">p</emphasis> = 0,1494</para><para id="fs-idp164535872">Con un nivel de significación del 5 %, no hay pruebas suficientes para concluir que el medicamento reduzca los niveles de colesterol después de 12 semanas.</para>
 </solution>
 </exercise>
 
@@ -813,7 +813,7 @@ La decisión correcta es:
 
 <exercise id="fs-idp31663264">
 <problem id="fs-idp31663520">
-<para id="fs-idm44180368">Un grupo local de apoyo al cáncer cree que la estimación de nuevos casos de cáncer de mama femenino en el sur es mayor en 2013 que en 2012. El grupo comparó las estimaciones de nuevos casos de cáncer de mama femenino por estados del sur en 2012 y en 2013. Los resultados están en la <link target-id="fs-idp20856160"/>.</para><table id="fs-idp20856160" summary=".">
+<para id="fs-idm44180368">Un grupo local de apoyo al cáncer cree que la estimación de nuevos casos de cáncer de mama en mujeres en el sur es mayor en 2013 que en 2012. El grupo comparó las estimaciones de nuevos casos de cáncer de mama en mujeres por estados del sur en 2012 y en 2013. Los resultados están en la <link target-id="fs-idp20856160"/>.</para><table id="fs-idp20856160" summary=".">
 <tgroup cols="3"><thead>
 <row>
 <entry>Estados del sur</entry>
@@ -905,11 +905,11 @@ La decisión correcta es:
 </m:math></para>
 <para id="fs-idp45658064">Distribución: <emphasis effect="italics">t</emphasis><sub>12</sub></para>
 <para id="fs-idp85679904"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis><emphasis effect="italics"><sub>d</sub></emphasis> = 0 <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis><emphasis effect="italics"><sub>d</sub></emphasis> > 0</para>
-<para id="fs-idm70033392">La media de las diferencias de nuevos casos de cáncer de mama femenino en el sur entre 2013 y 2012 es mayor de cero. La estimación de nuevos casos de cáncer de mama femenino en el sur es mayor en 2013 que en 2012.</para>
+<para id="fs-idm70033392">La media de las diferencias de nuevos casos de cáncer de mama en mujeres en el sur entre 2013 y 2012 es mayor de cero. La estimación de nuevos casos de cáncer de mama en mujeres en el sur es mayor en 2013 que en 2012.</para>
 <para id="fs-idp16018656">Gráfico: cola derecha</para>
 <para id="fs-idp14099296">valor <emphasis effect="italics">p</emphasis>: 0,0004</para>
 <para id="fs-idp11877696">Decisión: No se puede aceptar <emphasis effect="italics">H<sub>0</sub></emphasis></para>
-<para id="fs-idp84781280">Conclusión: Con un nivel de significación del 5 %, a partir de los datos de la muestra, hay pruebas suficientes para concluir que hubo una mayor estimación de nuevos casos de cáncer de mama femenino en 2013 que en 2012.</para>
+<para id="fs-idp84781280">Conclusión: Con un nivel de significación del 5 %, a partir de los datos de la muestra, hay pruebas suficientes para concluir que hubo una mayor estimación de nuevos casos de cáncer de mama en mujeres en 2013 que en 2012.</para>
 </solution>
 </exercise>
 
@@ -1140,7 +1140,7 @@ La decisión correcta es:
 <para id="fs-idm80698432">Según un boletín del Centro de Crisis por Violación de la Asociación Cristiana de Mujeres Jóvenes (Young Women's Christian Association, YWCA), el 75 % de las víctimas de violación conocen a sus agresores. Se realiza un estudio para comprobarlo.</para>
 </problem>
 <solution id="fs-idm10304768">
-<para id="fs-idm10304512">f</para>
+<para id="fs-idm10304512">e</para>
 </solution>
 </exercise>
 <exercise id="fs-idm63898096">
@@ -1179,14 +1179,14 @@ La decisión correcta es:
 </row>
 <row>
 <entry>1010</entry>
-<entry>1100</entry>
+<entry>1.100</entry>
 </row>
 <row>
 <entry>840</entry>
 <entry>880</entry>
 </row>
 <row>
-<entry>1100</entry>
+<entry>1.100</entry>
 <entry>1070</entry>
 </row>
 <row>
@@ -1211,7 +1211,7 @@ La decisión correcta es:
 </row>
 <row>
 <entry>1110</entry>
-<entry>1200</entry>
+<entry>1.200</entry>
 </row>
 <row>
 <entry>740</entry>
@@ -1228,7 +1228,7 @@ La decisión correcta es:
 <para id="fs-idm15629152">Investigadores de la Universidad de Michigan informaron en la <cite id="cite-00001"><cite-title>Revista del Instituto Nacional del Cáncer</cite-title></cite> que dejar de fumar es especialmente beneficioso para los menores de 49 años. En este estudio de la Sociedad Americana del Cáncer, el riesgo (probabilidad) de morir de cáncer de pulmón era prácticamente igual que el de quienes nunca habían fumado.</para>
 </problem>
 <solution id="fs-idp58402592">
-<para id="fs-idp58402848">f</para></solution>
+<para id="fs-idp58402848">e</para></solution>
 </exercise>
 <exercise id="eip-787">
 <problem id="eip-435">

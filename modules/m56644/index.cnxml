@@ -1,15 +1,15 @@
 ﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
-<title>Cálculo del tamaño de la muestra n: Variables aleatorias continuas y binarias</title>
+<title>Cálculo del tamaño de la muestra n: variables aleatorias continuas y binarias</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m56644</md:content-id>
-  <md:title>Cálculo del tamaño de la muestra n: Variables aleatorias continuas y binarias</md:title>
+  <md:title>Cálculo del tamaño de la muestra n: variables aleatorias continuas y binarias</md:title>
   <md:abstract/>
   <md:uuid>08cc51f8-512f-4eff-8fb5-543e89fd7da8</md:uuid>
 </metadata>
 
 <content>
-  <para id="eip-660"><title>Variables aleatorias continuas</title>Normalmente no tenemos control sobre el tamaño de la muestra de un conjunto de datos. Sin embargo, si podemos fijar el tamaño de la muestra, como en los casos en los que realizamos una encuesta, es muy útil saber cuál debe ser su tamaño para proporcionar la máxima información. El muestreo puede ser muy costoso, tanto en tiempo como en producto. Las simples encuestas telefónicas cuestan aproximadamente 30 dólares cada una, por ejemplo, y algunos muestreos requieren la destrucción del producto.</para><para id="eip-715">Si volvemos a nuestra fórmula de normalización de la distribución muestral para las medias, podemos ver que es posible resolverla para n. Si hacemos esto tenemos <m:math><m:mo>(</m:mo><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover><m:mo>–</m:mo><m:mi>μ</m:mi><m:mo>)</m:mo></m:math> en el denominador.</para><equation class="unnumbered" id="eip-43">Los términos <m:math>
+  <para id="eip-660"><title>Variables aleatorias continuas</title>Normalmente no tenemos control sobre el tamaño de la muestra de un conjunto de datos. Sin embargo, si podemos fijar el tamaño de la muestra, como en los casos en los que realizamos una encuesta, es muy útil saber cuál debe ser su tamaño para proporcionar la máxima información. El muestreo puede ser muy costoso, tanto en tiempo como en producto. Las simples encuestas telefónicas cuestan aproximadamente 30 dólares cada una, por ejemplo, y algunos muestreos requieren la destrucción del producto.</para><para id="eip-715">Si volvemos a nuestra fórmula de normalización de la distribución muestral para las medias, podemos ver que es posible resolverla para n. Si hacemos esto tenemos <m:math><m:mo>(</m:mo><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover><m:mo>–</m:mo><m:mi>μ</m:mi><m:mo>)</m:mo></m:math> en el denominador.</para><equation class="unnumbered" id="eip-43"><label/><m:math>
 <m:mi>n</m:mi>
 <m:mo>=</m:mo>
 <m:mfrac>
@@ -69,7 +69,7 @@
 
 
 
-</m:math></equation><para id="eip-554">Como aún no hemos tomado una muestra, no conocemos ninguna de las variables de la fórmula, excepto que podemos establecer Z<sub>α</sub> al nivel de confianza que deseamos, tal como hicimos al determinar los intervalos de confianza. Si establecemos un error aceptable predeterminado, o tolerancia, para la diferencia entre <m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:math> y μ, denominado e en la fórmula, estamos mucho más lejos en la resolución del tamaño de la muestra n. Todavía no conocemos la desviación típica de la población, σ. En la práctica, se suele hacer una encuesta previa que permite afinar el cuestionario y que da una desviación típica de la muestra que se puede utilizar. En otros casos, se puede utilizar la información previa de otras encuestas para σ en la fórmula. Aunque es rudimentario, este método para determinar el tamaño de la muestra puede ayudar a reducir los costos de forma significativa. Serán los datos reales recogidos los que determinen las inferencias sobre la población, por lo que conviene ser cauteloso con el tamaño de la muestra exigiendo altos niveles de confianza y pequeños errores de muestreo.</para><para id="eip-469"><title>Variables aleatorias binarias</title>Lo que se hizo en los casos en los que se buscaba la media de una distribución también se puede hacer cuando se hace un muestreo para determinar el parámetro poblacional p de las proporciones. La manipulación de la fórmula de normalización de las proporciones da como resultado:</para><equation class="unnumbered" id="eip-769">Los términos <m:math>
+</m:math></equation><para id="eip-554">Como aún no hemos tomado una muestra, no conocemos ninguna de las variables de la fórmula, excepto que podemos establecer Z<sub>α</sub> al nivel de confianza que deseamos, tal como hicimos al determinar los intervalos de confianza. Si establecemos un error aceptable predeterminado, o tolerancia, para la diferencia entre <m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:math> y μ, denominado e en la fórmula, estamos mucho más lejos en la resolución del tamaño de la muestra n. Todavía no conocemos la desviación típica de la población, σ. En la práctica, se suele hacer una encuesta previa que permite afinar el cuestionario y que da una desviación típica de la muestra que se puede utilizar. En otros casos, se puede utilizar la información previa de otras encuestas para σ en la fórmula. Aunque es rudimentario, este método para determinar el tamaño de la muestra puede ayudar a reducir los costos de forma significativa. Serán los datos reales recogidos los que determinen las inferencias sobre la población, por lo que conviene ser cauteloso con el tamaño de la muestra exigiendo altos niveles de confianza y pequeños errores de muestreo.</para><para id="eip-469"><title>Variables aleatorias binarias</title>Lo que se hizo en los casos en los que se buscaba la media de una distribución también se puede hacer cuando se hace un muestreo para determinar el parámetro poblacional p de las proporciones. La manipulación de la fórmula de normalización de las proporciones da como resultado:</para><equation class="unnumbered" id="eip-769"><label/><m:math>
 <m:mi>n</m:mi>
 <m:mo>=</m:mo>
 <m:mfrac>
@@ -130,7 +130,7 @@
      </m:msub>
    </m:mrow>
    </m:math> <emphasis effect="italics">z</emphasis><sub>0,05</sub> = 1.645 porque el nivel de confianza es del 90 %. El error aceptable, <emphasis effect="italics">e</emphasis>, es la diferencia entre la proporción poblacional real <emphasis effect="italics">p</emphasis>, y la proporción muestral que esperamos obtener de la muestra.</para><para id="eip-35">Sin embargo, para hallar <emphasis effect="italics">n</emphasis>, necesitamos conocer la proporción (muestra) estimada <emphasis effect="italics">p</emphasis>′. Recuerde que <emphasis effect="italics">q</emphasis>′ = 1 – <emphasis effect="italics">p</emphasis>′. Pero, aun no conocemos <emphasis effect="italics">p</emphasis>′. Como multiplicamos <emphasis effect="italics">p</emphasis>′ y <emphasis effect="italics">q</emphasis>′ juntos, hacemos que ambos sean iguales a 0,5 porque <emphasis effect="italics">p</emphasis>′<emphasis effect="italics">q</emphasis>′ = (0,5)(0,5) = 0,25 da como resultado el mayor producto posible. (Pruebe otros productos: (0,6)(0,4) = 0,24; (0,3)(0,7) = 0,21; (0,2)(0,8) = 0,16 y así sucesivamente). El mayor producto posible nos da el mayor <emphasis effect="italics">n</emphasis>. Esto nos da una muestra lo suficientemente grande como para que podamos tener el 90 % de confianza de que estamos dentro de los tres puntos porcentuales de la verdadera proporción de la población. Para calcular el tamaño de la muestra <emphasis effect="italics">n</emphasis>, utilice la fórmula y haga las sustituciones.</para>
-  <para id="eip-812">Los términos <m:math>
+  <para id="eip-812"><m:math>
  <m:mrow>
   <m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -187,7 +187,7 @@
 
 
  </exercise></example><note id="fs-idp13131184" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
       <exercise id="eip-143">
     <problem id="eip-26">
@@ -200,8 +200,8 @@
    </exercise>
  </note>
 <section id="eip-330" class="summary">
-    <title>Revisión del capítulo</title>
-    <para id="eip-211">A veces, los investigadores saben de antemano que quieren estimar una media poblacional dentro de un margen de error específico para un nivel de confianza dado. En ese caso, resuelva la fórmula del intervalo de confianza correspondiente para <emphasis effect="italics">n</emphasis> a fin de descubrir el tamaño de la muestra que se necesita para lograr este objetivo:</para><para id="fs-idm4091408">Los términos <m:math>
+    <title>Repaso del capítulo</title>
+    <para id="eip-211">A veces, los investigadores saben de antemano que quieren estimar una media poblacional dentro de un margen de error específico para un nivel de confianza dado. En ese caso, resuelva la fórmula del intervalo de confianza correspondiente para <emphasis effect="italics">n</emphasis> a fin de descubrir el tamaño de la muestra que se necesita para lograr este objetivo:</para><para id="fs-idm4091408"><m:math>
      <m:mrow>
       <m:mi>n</m:mi><m:mo>=</m:mo><m:mo> </m:mo><m:mfrac>
        <m:mrow>
@@ -225,7 +225,7 @@
       </m:mfrac>
 
      </m:mrow>
-    </m:math></para><para id="eip-12">Si la variable aleatoria es binaria, la fórmula para el tamaño de muestra adecuado a fin de que se mantenga un nivel de confianza determinado con un nivel de tolerancia específico viene dada por</para><para id="eip-809">Los términos <m:math>
+    </m:math></para><para id="eip-12">Si la variable aleatoria es binaria, la fórmula para el tamaño de muestra adecuado a fin de que se mantenga un nivel de confianza determinado con un nivel de tolerancia específico viene dada por</para><para id="eip-809"><m:math>
 <m:mi>n</m:mi>
 <m:mo>=</m:mo>
 <m:mfrac>
@@ -262,7 +262,7 @@
       </m:mfrac>
 
      </m:mrow>
-    </m:math> = fórmula utilizada para determinar el tamaño de la muestra<emphasis effect="italics">(n</emphasis>) necesario para alcanzar un margen de error deseado con un nivel de confianza determinado para una variable aleatoria continua</para><para id="eip-46">Los términos <m:math>
+    </m:math> = fórmula utilizada para determinar el tamaño de la muestra<emphasis effect="italics">(n</emphasis>) necesario para alcanzar un margen de error deseado con un nivel de confianza determinado para una variable aleatoria continua</para><para id="eip-46"><m:math>
 <m:mi>n</m:mi>
 <m:mo>=</m:mo>
 <m:mfrac>
@@ -275,14 +275,14 @@
 </m:mfrac>
 </m:math> = la fórmula utilizada para determinar el tamaño de la muestra si la variable aleatoria es binaria</para></section>
     <section id="eip-673" class="practice">
-<para id="eip-93"><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios:</emphasis> Se sabe que la desviación típica del peso de los elefantes es de 15 libras aproximadamente. Queremos construir un intervalo de confianza del 95 % para el peso medio de las crías de elefante recién nacidas. Se pesan cincuenta elefantes recién nacidos. La media muestral es de 244 libras. La desviación típica de la muestra es de 11 libras.</para>
+<para id="eip-93"><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios:</emphasis> se sabe que la desviación típica del peso de los elefantes es de 15 libras aproximadamente. Queremos construir un intervalo de confianza del 95 % para el peso medio de las crías de elefante recién nacidas. Se pesan cincuenta elefantes recién nacidos. La media muestral es de 244 libras. La desviación típica de la muestra es de 11 libras.</para>
     <exercise id="eip-499">
     <problem id="eip-759">
     <para id="eip-836">Identifique lo siguiente:</para>
     <list id="fs-idm9196736" list-type="enumerated" number-style="lower-alpha">
-    <item>Los términos <m:math>
+    <item><m:math>
      <m:mover accent="true">
-      <m:mi>intersecciones en x</m:mi>
+      <m:mi>x</m:mi>
       <m:mo>–</m:mo>
      </m:mover>
 
@@ -315,7 +315,7 @@
     <para id="eip-935">¿Qué distribución debería utilizar para este problema?</para>
     </problem>
     <solution id="eip-466">
-      <para id="eip-224">Los términos <m:math>
+      <para id="eip-224"><m:math>
      <m:mrow>
       <m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
        <m:mrow>
@@ -350,13 +350,13 @@
       <para id="eip-827">A medida que aumenta el tamaño de la muestra, habrá menos variabilidad en la media, por lo que el tamaño del intervalo disminuye.</para>
     </solution>
     </exercise>
-<para id="eip-526"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos siete ejercicios:</emphasis> La Oficina del Censo de EE. UU. realiza un estudio para determinar el tiempo necesario para rellenar el formulario corto. La oficina encuesta a 200 personas. La media muestral es de 8,2 minutos. Se conoce una desviación típica de 2,2 minutos. Se supone que la distribución de la población es normal.</para><exercise id="eip-250"><problem id="eip-951">
+<para id="eip-526"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos siete ejercicios:</emphasis> la Oficina del Censo de EE. UU. realiza un estudio para determinar el tiempo necesario para rellenar el formulario corto. La oficina encuesta a 200 personas. La media muestral es de 8,2 minutos. Se conoce una desviación típica de 2,2 minutos. Se supone que la distribución de la población es normal.</para><exercise id="eip-250"><problem id="eip-951">
     <para id="eip-idm61282736">Identifique lo siguiente:</para>
 
     <list id="fs-idm21105152" list-type="enumerated" number-style="lower-alpha">
-    <item>Los términos <m:math>
+    <item><m:math>
      <m:mover accent="true">
-      <m:mi>intersecciones en x</m:mi>
+      <m:mi>x</m:mi>
       <m:mo>–</m:mo>
      </m:mover>
 
@@ -413,13 +413,13 @@
     <exercise id="eip-838"><problem id="eip-429">
     <para id="eip-193">Supongamos que el censo necesita tener un 98 % de confianza en la duración media de la población. ¿El censo tendría que encuestar a más personas? ¿Por qué sí o por qué no?</para>
     </problem>
-    </exercise><para id="eip-98"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos diez ejercicios:</emphasis> Se seleccionó una muestra de 20 cabezas de lechuga. Supongamos que la distribución poblacional del peso de la cabeza es normal. Luego se registró el peso de cada cabeza de lechuga. El peso medio era de 2,2 libras con una desviación típica de 0,1 libras. Se sabe que la desviación típica de la población es de 0,2 libras.</para><exercise id="eip-924">
+    </exercise><para id="eip-98"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos diez ejercicios:</emphasis> se seleccionó una muestra de 20 cabezas de lechuga. Supongamos que la distribución poblacional del peso de la cabeza es normal. Luego se registró el peso de cada cabeza de lechuga. El peso medio era de 2,2 libras con una desviación típica de 0,1 libras. Se sabe que la desviación típica de la población es de 0,2 libras.</para><exercise id="eip-924">
     <problem id="eip-495">
     <para id="eip-997">Identifique lo siguiente:</para>
     <list id="fs-idm74017152" list-type="enumerated" number-style="lower-alpha">
-    <item>Los términos <m:math>
+    <item><m:math>
      <m:mover accent="true">
-      <m:mi>intersecciones en x</m:mi>
+      <m:mi>x</m:mi>
       <m:mo>–</m:mo>
      </m:mover>
 
@@ -429,9 +429,9 @@
     </list>
     </problem>
     <solution id="eip-697">
-    <list id="fs-idm35892368" list-type="enumerated" number-style="lower-alpha"><item>Los términos <m:math>
+    <list id="fs-idm35892368" list-type="enumerated" number-style="lower-alpha"><item><m:math>
      <m:mover accent="true">
-      <m:mi>intersecciones en x</m:mi>
+      <m:mi>x</m:mi>
       <m:mo>–</m:mo>
      </m:mover>
 
@@ -454,7 +454,7 @@
     </problem>
     <solution id="eip-778">
     <para id="eip-692">
-    Los términos <m:math>
+    <m:math>
      <m:mover accent="true">
       <m:mi>X</m:mi>
       <m:mo>–</m:mo>
@@ -485,13 +485,13 @@
     </problem>
     </exercise><exercise id="eip-656">
     <problem id="eip-643">
-      <para id="eip-363">Explique en oraciones completas por qué el intervalo de confianza en el <link target-id="eip-833"/> es mayor que en el <link target-id="eip-342"/>.</para></problem>
+      <para id="eip-363">Explique en oraciones completas por qué el intervalo de confianza en el <link target-id="eip-833" document=""/> es mayor que en el <link target-id="eip-342" document=""/>.</para></problem>
     <solution id="eip-352">
       <para id="eip-564">El intervalo es mayor porque el nivel de confianza aumentó. Si el único cambio realizado en el análisis es un cambio en el nivel de confianza, entonces todo lo que estamos haciendo es cambiar la cantidad de área que se calcula para la distribución normal. Por lo tanto, un nivel de confianza mayor genera áreas e intervalos más amplios.</para>
     </solution>
     </exercise>
     <exercise id="eip-598"><problem id="eip-866">
-      <para id="eip-323">Interprete en oraciones completas lo que significa el intervalo en el <link target-id="eip-342"/>.</para></problem>
+      <para id="eip-323">Interprete en oraciones completas lo que significa el intervalo en el <link target-id="eip-342" document=""/>.</para></problem>
     </exercise><exercise id="eip-909">
     <problem id="eip-553">
     <para id="eip-711">¿Qué pasaría si se tomaran muestras de 40 cabezas de lechuga en vez de 20, y el límite de error siguiera siendo el mismo?</para>
@@ -503,11 +503,11 @@
     <exercise id="eip-602"><problem id="eip-174">
     <para id="eip-3">¿Qué pasaría si se tomaran muestras de 40 cabezas de lechuga en vez de 20, y el nivel de confianza siguiera siendo el mismo?</para>
     </problem>
-    </exercise><para id="element-797"><emphasis effect="italics">Utilice la siguiente información para responder a los siguientes 14 ejercicios:</emphasis> La edad media de todos los estudiantes del Foothill College en el trimestre de otoño pasado fue de 33,2 años. La desviación típica de la población ha sido bastante constante en 15. Supongamos que se seleccionan al azar veinticinco estudiantes del semestre de invierno. La edad media de la muestra era de 30,4 años. Estamos interesados en la verdadera edad media de los estudiantes del semestre de invierno del Foothill College. Supongamos que <emphasis effect="italics">X</emphasis> = la edad de un estudiante del semestre de invierno del Foothill College.</para><exercise id="element-463"><problem id="id27460377">
+    </exercise><para id="element-797"><emphasis effect="italics">Utilice la siguiente información para responder a los siguientes 14 ejercicios:</emphasis> la edad media de todos los estudiantes del Foothill College en el trimestre de otoño pasado fue de 33,2 años. La desviación típica de la población ha sido bastante constante en 15. Supongamos que se seleccionan al azar veinticinco estudiantes del semestre de invierno. La edad media de la muestra era de 30,4 años. Estamos interesados en la verdadera edad media de los estudiantes del semestre de invierno del Foothill College. Supongamos que <emphasis effect="italics">X</emphasis> = la edad de un estudiante del semestre de invierno del Foothill College.</para><exercise id="element-463"><problem id="id27460377">
 
-      <para id="element-111">Los términos <m:math>
+      <para id="element-111"><m:math>
         <m:mover accent="true">
-          <m:mi>intersecciones en x</m:mi>
+          <m:mi>x</m:mi>
           <m:mo>–</m:mo>
         </m:mover>
       </m:math> = _____</para>
@@ -567,7 +567,7 @@
     </problem>
 
     </exercise><exercise id="element-524"><problem id="id27077775">
-      <para id="element-334">Como resultado de su respuesta en el <link target-id="element-440"/>, indique la distribución exacta que se debe usar para calcular el intervalo de confianza.</para>
+      <para id="element-334">Como resultado de su respuesta en el <link target-id="element-440" document=""/>, indique la distribución exacta que se debe usar para calcular el intervalo de confianza.</para>
     </problem>
 
     <solution id="id27077795">
@@ -623,16 +623,16 @@
     </exercise><exercise id="element-395"><problem id="id27481777">
       <para id="element-630">Utilizando las mismas media, desviación típica y tamaño de la muestra, ¿cómo cambiaría el límite de error si el nivel de confianza se redujera al 90 %? ¿Por qué?</para>
     </problem>
-      <solution id="fs-idm23029072"><para id="fs-idm23028944">El límite de error para la media disminuiría porque a medida que el nivel de confianza (confidence level, CL) disminuye, se necesita menos área debajo de la curva normal (lo que se traduce en un intervalo más pequeño) para capturar la verdadera media de la población.</para></solution>
+      <solution id="fs-idm23029072"><para id="fs-idm23028944">El límite de error para la media disminuiría porque a medida que el nivel de confianza (Confidence Level, CL) disminuye, se necesita menos área debajo de la curva normal (lo que se traduce en un intervalo más pequeño) para capturar la verdadera media de la población.</para></solution>
     </exercise><exercise id="eip-671"><problem id="eip-263">
   <para id="eip-534">
-    Find the value of the sample size needed to be 90% confident that the sample proportion and the population proportion are within 4% of each other. La proporción de la muestra es de 0,60. Nota: Redondee todas las fracciones para <emphasis effect="italics">n</emphasis>.
+    Calcule el valor del tamaño de la muestra necesario para que, si el intervalo de confianza es del 90 %, la proporción de la muestra y la proporción de la población se encuentren dentro del 4 % de cada una. La proporción de la muestra es de 0,60. Nota: Redondee todas las fracciones para <emphasis effect="italics">n</emphasis>.
   </para>
 </problem>
 
 </exercise><exercise id="eip-958"><problem id="eip-226">
   <para id="eip-911">
-    Find the value of the sample size needed to be 95% confident that the sample proportion and the population proportion are within 2% of each other. La proporción de la muestra es de 0,650. Nota: Redondee todas las fracciones para <emphasis effect="italics">n</emphasis>.
+    Calcule el valor del tamaño de la muestra necesario para que, si el intervalo de confianza es del 95 %, la proporción de la muestra y la proporción de la población se encuentren dentro del 2 % de cada una. La proporción de la muestra es de 0,650. Nota: Redondee todas las fracciones para <emphasis effect="italics">n</emphasis>.
 
   </para>
 </problem>
@@ -643,7 +643,7 @@
 </solution>
 </exercise><exercise id="eip-589"><problem id="eip-425">
   <para id="eip-750">
-    Find the value of the sample size needed to be 96% confident that the sample proportion and the population proportion are within 5% of each other. La proporción de la muestra es de 0,70. Nota: Redondee todas las fracciones para <emphasis effect="italics">n</emphasis>.
+    Calcule el valor del tamaño de la muestra necesario para que, si el intervalo de confianza es del 96 %, la proporción de la muestra y la proporción de la población se encuentren dentro del 5 % de cada una. La proporción de la muestra es de 0,70. Nota: Redondee todas las fracciones para <emphasis effect="italics">n</emphasis>.
 
   </para>
 </problem>
@@ -651,7 +651,7 @@
 
 </exercise><exercise id="eip-784"><problem id="eip-101">
   <para id="eip-929">
-Find the value of the sample size needed to be 90% confident that the sample proportion and the population proportion are within 1% of each other. La proporción de la muestra es de 0,50. Nota: Redondee todas las fracciones para <emphasis effect="italics">n</emphasis>.
+Calcule el valor del tamaño de la muestra necesario para que, si el intervalo de confianza es del 90 %, la proporción de la muestra y la proporción de la población se encuentren dentro del 1 % de cada una. La proporción de la muestra es de 0,50. Nota: Redondee todas las fracciones para <emphasis effect="italics">n</emphasis>.
 
   </para>
 </problem>
@@ -663,13 +663,13 @@ Find the value of the sample size needed to be 90% confident that the sample pro
 </solution>
 </exercise><exercise id="eip-734"><problem id="eip-108">
   <para id="eip-987">
-    Find the value of the sample size needed to be 94% confident that the sample proportion and the population proportion are within 2% of each other. La proporción de la muestra es de 0,65. Nota: Redondee todas las fracciones para <emphasis effect="italics">n</emphasis>.
+    Calcule el valor del tamaño de la muestra necesario para que, si el intervalo de confianza es del 94 %, la proporción de la muestra y la proporción de la población se encuentren dentro del 2 % de cada una. La proporción de la muestra es de 0,65. Nota: Redondee todas las fracciones para <emphasis effect="italics">n</emphasis>.
 
   </para>
 </problem>
 </exercise><exercise id="eip-944"><problem id="eip-53">
   <para id="eip-792">
-   Find the value of the sample size needed to be 95% confident that the sample proportion and the population proportion are within 4% of each other. La proporción de la muestra es de 0,45. Nota: Redondee todas las fracciones para <emphasis effect="italics">n</emphasis>.
+   Calcule el valor del tamaño de la muestra necesario para que, si el intervalo de confianza es del 95 %, la proporción de la muestra y la proporción de la población se encuentren dentro del 4 % de cada una. La proporción de la muestra es de 0,45. Nota: Redondee todas las fracciones para <emphasis effect="italics">n</emphasis>.
 
   </para>
 </problem>
@@ -681,7 +681,7 @@ Find the value of the sample size needed to be 90% confident that the sample pro
 </solution>
 </exercise><exercise id="eip-760"><problem id="eip-355">
   <para id="eip-590">
-    Find the value of the sample size needed to be 90% confident that the sample proportion and the population proportion are within 2% of each other. La proporción de la muestra es de 0,3. Nota: Redondee todas las fracciones para <emphasis effect="italics">n</emphasis>.
+    Calcule el valor del tamaño de la muestra necesario para que, si el intervalo de confianza es del 90 %, la proporción de la muestra y la proporción de la población se encuentren dentro del 2 % de cada una. La proporción de la muestra es de 0,3. Nota: Redondee todas las fracciones para <emphasis effect="italics">n</emphasis>.
   </para>
 </problem>
 </exercise></section>
@@ -692,9 +692,9 @@ Find the value of the sample size needed to be 90% confident that the sample pro
     <problem id="id4953529"><para id="para1">Se sabe que la desviación típica de las alturas entre los distintos grupos étnicos es de tres pulgadas aproximadamente. Queremos construir un intervalo de confianza del 95 % para la altura media de los hombres suecos. Se encuestaron cuarenta y ocho hombres suecos. La media muestral es de 71 pulgadas. La desviación típica de la muestra es de 2,8 pulgadas. <list id="list1" list-type="enumerated" number-style="lower-alpha">
         <item>
          <list id="list2" list-type="enumerated" number-style="lower-roman">
-           <item>Los términos <m:math>
+           <item><m:math>
              <m:mover accent="true">
-               <m:mi>intersecciones en x</m:mi>
+               <m:mi>x</m:mi>
                <m:mo>–</m:mo>
              </m:mover>
            </m:math> =________</item>
@@ -753,9 +753,9 @@ Find the value of the sample size needed to be 90% confident that the sample pro
     <list id="list15a" list-type="enumerated" number-style="lower-alpha">
         <item>
           <list id="list16" list-type="enumerated" number-style="lower-roman">
-            <item>Los términos <m:math>
+            <item><m:math>
               <m:mover accent="true">
-                <m:mi>intersecciones en x</m:mi>
+                <m:mi>x</m:mi>
                 <m:mo>–</m:mo>
               </m:mover>
             </m:math> =________</item>
@@ -781,13 +781,13 @@ Find the value of the sample size needed to be 90% confident that the sample pro
 <solution id="eip-idm99051168">
     <list id="list15" list-type="enumerated" number-style="lower-alpha"><item>
 <list id="list1a6" list-type="enumerated" number-style="lower-roman">
-<item>Los términos <m:math><m:mover accent="true"><m:mi>intersecciones en x</m:mi><m:mo>–</m:mo></m:mover></m:math> = 23,6</item>
-<item>Los términos <m:math><m:mi>σ</m:mi></m:math> = 7</item>
+<item><m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:math> = 23,6</item>
+<item><m:math><m:mi>σ</m:mi></m:math> = 7</item>
 <item>n = 100</item>
 </list></item>
 <item><emphasis effect="italics">X</emphasis> es el tiempo necesario para rellenar un formulario de impuestos individual. <m:math>
 <m:mover accent="true"><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:math> es el tiempo medio para rellenar los formularios de impuestos de una muestra de 100 clientes.</item>
-<item>Los términos <m:math><m:mrow><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
+<item><m:math><m:mrow><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
    <m:mrow>
     <m:mn>23,6</m:mn><m:mo>,</m:mo><m:mfrac>
      <m:mn>7</m:mn>
@@ -815,9 +815,9 @@ Find the value of the sample size needed to be 90% confident that the sample pro
 
         <list id="list19" list-type="enumerated" number-style="lower-alpha"><item>
         <list id="list35" list-type="enumerated" number-style="lower-roman">
-          <item>Los términos <m:math>
+          <item><m:math>
  <m:mover accent="true">
-  <m:mi>intersecciones en x</m:mi>
+  <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
 
@@ -854,9 +854,9 @@ Find the value of the sample size needed to be 90% confident that the sample pro
     <list id="list39" list-type="enumerated" number-style="lower-alpha">
         <item>
         <list id="list39_5" list-type="enumerated" number-style="lower-roman">
-          <item>Los términos <m:math>
+          <item><m:math>
             <m:mover accent="true">
-              <m:mi>intersecciones en x</m:mi>
+              <m:mi>x</m:mi>
               <m:mo>–</m:mo>
             </m:mover>
           </m:math> =________</item>
@@ -911,7 +911,7 @@ Find the value of the sample size needed to be 90% confident that the sample pro
     <item>Si tomáramos muestras repetidas, la media muestral sería igual a la media de la población en el 90 % de las muestras aproximadamente.</item></list>
     </problem>
 </exercise><exercise id="eip-217"><problem id="eip-629">
-      <para id="eip-315">La Comisión Federal de Elecciones recopila información sobre los aportes y los desembolsos para la campaña de los candidatos y los comités políticos en cada ciclo electoral. Durante la temporada de campaña de 2012, hubo 1.619 candidatos a la Cámara de Representantes en Estados Unidos que recibieron aportes de particulares. La <link target-id="M02_CH08-tbl003"/> muestra el total de ingresos procedentes de particulares para una selección aleatoria de 40 candidatos a la Cámara de Representantes, redondeado a los 100 dólares más cercanos. La desviación típica de estos datos a la centena más cercana es <emphasis effect="italics">σ</emphasis> = 909.200 dólares.</para>
+      <para id="eip-315">La Comisión Federal de Elecciones recopila información sobre los aportes y los desembolsos para la campaña de los candidatos y los comités políticos en cada ciclo electoral. Durante la temporada de campaña de 2012, hubo 1.619 candidatos a la Cámara de Representantes en Estados Unidos que recibieron aportes de particulares. La <link target-id="M02_CH08-tbl003" document=""/> muestra el total de ingresos procedentes de particulares para una selección aleatoria de 40 candidatos a la Cámara de Representantes, redondeado a los 100 dólares más cercanos. La desviación típica de estos datos a la centena más cercana es <emphasis effect="italics">σ</emphasis> = 909.200 dólares.</para>
       <table id="M02_CH08-tbl003" summary="The total receipts from individuals for a random selection of 40 House candidates rounded to the nearest  00.">
 <tgroup cols="5"><tbody>
     <row>
@@ -982,9 +982,9 @@ Find the value of the sample size needed to be 90% confident that the sample pro
     </problem>
     <solution id="eip-480">
       <list id="fs-idm93426480" list-type="enumerated" number-style="lower-alpha">
-    <item>Los términos <m:math>
+    <item><m:math>
      <m:mover accent="true">
-      <m:mi>intersecciones en x</m:mi>
+      <m:mi>x</m:mi>
       <m:mo>–</m:mo>
      </m:mover>
 
@@ -1040,9 +1040,9 @@ Find the value of the sample size needed to be 90% confident that the sample pro
 
      </m:mrow>
     </m:math> = $281.764</item>
-    <item>Los términos <m:math>
+    <item><m:math>
      <m:mover accent="true">
-      <m:mi>intersecciones en x</m:mi>
+      <m:mi>x</m:mi>
       <m:mo>–</m:mo>
      </m:mover>
 
@@ -1109,7 +1109,7 @@ Find the value of the sample size needed to be 90% confident that the sample pro
 <para id="eip-idm1193926768">Sí</para>
 </solution></exercise><exercise id="eip-15"><problem id="eip-113">
   <para id="eip-743">
-    Una empresa tiene una cadena de montaje en la que el 97,42 % de los productos fabricados son aceptables. Entonces, una pieza crítica se rompió. Después de las reparaciones se decidió ver si el número de productos defectuosos fabricados seguía siendo lo suficientemente cercano a la calidad de producción de siempre. Se seleccionaron muestras de 500 piezas al azar, y se comprobó que la tasa de defectos era del 0,025 % <list id="eip-idm378026000" list-type="enumerated" number-style="lower-alpha"><item>¿Es este tamaño de muestra adecuado para afirmar que la empresa está comprobando dentro del intervalo de confianza del 90 %?</item><item> ¿Y dentro del intervalo de confianza del 95 %?</item></list></para>
+    Una compañía tiene una cadena de montaje en la que el 97,42 % de los productos fabricados son aceptables. Entonces, una pieza crítica se rompió. Después de las reparaciones se decidió ver si el número de productos defectuosos fabricados seguía siendo lo suficientemente cercano a la calidad de producción de siempre. Se seleccionaron muestras de 500 piezas al azar, y se comprobó que la tasa de defectos era del 0,025 % <list id="eip-idm378026000" list-type="enumerated" number-style="lower-alpha"><item>¿Es este tamaño de muestra adecuado para afirmar que la compañía está comprobando dentro del intervalo de confianza del 90 %?</item><item> ¿Y dentro del intervalo de confianza del 95 %?</item></list></para>
 </problem>
 
 <solution id="eip-908">

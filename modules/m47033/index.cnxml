@@ -34,13 +34,13 @@
 </tbody>
 </tgroup>
 </table>
-</para><note id="id1168218302693"><title>Nota</title>
+</para><note id="id1168218302693"><label/><title>Nota</title>
 <para id="eip-idp37732128"><emphasis effect="italics">H<sub>0</sub></emphasis> siempre tiene un símbolo con un igual. <emphasis effect="italics">H<sub>a</sub></emphasis> nunca tiene un símbolo con un igual en él. La elección del símbolo depende del enunciado de la prueba de hipótesis. Sin embargo, tenga en cuenta que muchos investigadores (incluyendo uno de los coautores del trabajo de investigación) utilizan = en la hipótesis nula, incluso con > o &lt; como símbolo en la hipótesis alternativa. Esta práctica es aceptable porque solo tomamos la decisión de rechazar o no rechazar la hipótesis nula.</para></note>
 
 <example id="element-183">
 <para id="element-283"><emphasis effect="italics">H<sub>0</sub></emphasis>: No más del 30 % de los votantes registrados en el condado de Santa Clara votaron en las elecciones primarias. <emphasis effect="italics">p</emphasis> ≤ 30 <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: Más del 30 % de los votantes registrados en el condado de Santa Clara votaron en las elecciones primarias. <emphasis effect="italics">p</emphasis> > 30</para></example>
 <note id="fs-idp10178800" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="eip-665">
 <problem id="eip-803">
@@ -53,7 +53,7 @@
 <para id="element-508">Queremos comprobar si la media del GPA de los estudiantes de los institutos universitarios estadounidenses es diferente de 2,0 (sobre 4,0). Las hipótesis nula y alternativa son: <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 2,0 <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≠ 2,0</para></example>
 
 <note id="fs-idp91068816" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm576512">
 <problem id="fs-idm16416">
@@ -65,7 +65,7 @@
 <example id="element-296">
 <para id="element-114">Queremos comprobar si los estudiantes de institutos universitarios tardan menos de cinco años en graduarse, en promedio. Las hipótesis nula y alternativa son: <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≥ 5 <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &lt; 5</para></example>
 <note id="fs-idp119641264" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm2856320">
 <problem id="fs-idp126181968">
@@ -79,7 +79,7 @@
 <para id="fs-idm30028400">En un número de <emphasis effect="italics">U. S. News and World Report</emphasis>, un artículo sobre los estándares escolares afirmaba que aproximadamente la mitad de los estudiantes de Francia, Alemania e Israel se presentan a exámenes de nivel avanzado y un tercio los aprueba. El mismo artículo afirma que el 6,6 % de los estudiantes estadounidenses se presentan a los exámenes de nivel avanzado y el 4,4 % los aprueba. Pruebe si el porcentaje de estudiantes estadounidenses que realizan exámenes de nivel avanzado es superior al 6,6 %. Indique las hipótesis nula y alternativa. <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≤ 0,066 <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> > 0,066
 </para></example>
 <note id="fs-idm2566848" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idm126344352">
 <problem id="fs-idm54604944">
@@ -93,11 +93,11 @@
 </note>
 
 <!-- ??? -->
-<note id="fs-idm73791920" class="statistics collab"> 
-<para id="element-171">Traiga a clase un periódico, algunas revistas de noticias y algunos artículos de Internet. En grupos, busquen artículos a partir de los cuales su grupo pueda escribir las hipótesis nula y alternativa. Discuta sus hipótesis con el resto de la clase.</para>
+<note id="fs-idm73791920" class="statistics collab"><label/> 
+<para id="element-171">Traiga a clase un periódico, algunas revistas de noticias y algunos artículos de internet. En grupos, busquen artículos a partir de los cuales su grupo pueda escribir las hipótesis nula y alternativa. Discuta sus hipótesis con el resto de la clase.</para>
 
 </note><section id="eip-591" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="eip-593">En una <emphasis>prueba de hipótesis</emphasis> se evalúan los datos de la muestra para llegar a una decisión sobre algún tipo de afirmación. Si se cumplen determinadas condiciones sobre la muestra, la afirmación se puede evaluar para una población. En una prueba de hipótesis, nosotros: <list id="eip-idp72518864" list-type="enumerated" number-style="arabic"><item>Evalúe la <emphasis>hipótesis nula</emphasis>, normalmente denotada con <emphasis effect="italics">H<sub>0</sub></emphasis>. La nulidad no se rechaza, a menos que la prueba de hipótesis demuestre lo contrario. La declaración nula debe contener siempre alguna forma de igualdad (=, ≤ o ≥)</item>
 
 <item>Escriba siempre la <emphasis>hipótesis alternativa</emphasis>, generalmente denotada con <emphasis effect="italics">H<sub>a</sub></emphasis> o <emphasis effect="italics">H<sub>1</sub></emphasis>, utilizando los símbolos de diferente, mayor que, o menor que (es decir, ≠, >, o &lt;).</item>

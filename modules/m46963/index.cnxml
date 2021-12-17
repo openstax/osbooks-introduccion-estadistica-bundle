@@ -124,7 +124,7 @@
 <item>La suma de las probabilidades es uno, es decir, </item></list>
 
 <para id="fs-idm17614256">
-<equation class="unnumbered" id="fifsum">Los términos <m:math>
+<equation class="unnumbered" id="fifsum"><label/><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>2</m:mn>
@@ -172,7 +172,7 @@
 </equation></para>
 </example>
 
-<note id="fs-idm96796576" class="statistics try"><title>Ejercicio</title>
+<note id="fs-idm96796576" class="statistics try"><label/><title>Ejercicio</title>
 
 <exercise id="fs-idp42457440">
 <problem id="fs-idp103638368">
@@ -224,7 +224,7 @@
 <problem id="eip-idp158961632">
   <para id="eip-idp110729456">a. Supongamos que <emphasis effect="italics">X</emphasis> = el número de días que Nancy ____________________.</para>
 <para id="eip-idm52442560">b. ¿Qué valores asume<emphasis effect="italics">X</emphasis>?</para>
-  <para id="eip-idm2356304">c. Supongamos que se elige una semana al azar. Construya una tabla de distribución de probabilidades (llamada tabla PDF) como la que aparece en el <link target-id="example1"/>. La tabla debe tener dos columnas denominadas <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>). ¿A cuánto asciende la columna <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)?</para>
+  <para id="eip-idm2356304">c. Supongamos que se elige una semana al azar. Construya una tabla de distribución de probabilidades (llamada tabla PDF) como la que aparece en el <link target-id="example1" document=""/>. La tabla debe tener dos columnas denominadas <emphasis effect="italics">x</emphasis> y <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>). ¿A cuánto asciende la columna <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)?</para>
 </problem>
 
 <solution id="eip-idp214323360">
@@ -264,13 +264,13 @@
 </table>
 </para>
 </solution>
-</exercise></example><note id="fs-idm157100592" class="statistics try"><title>Ejercicio</title>
+</exercise></example><note id="fs-idm157100592" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idp17767152">
 <problem id="fs-idm59642592">
 <para id="fs-idp10711280">Jeremiah tiene entrenamiento de baloncesto dos días a la semana. El noventa por ciento de las veces, asiste a ambos entrenamientos. El 8 % de las veces, asiste a un entrenamiento. El 2 % de las veces no asiste a ninguno de los dos entrenamientos. ¿Qué es <emphasis effect="italics">X</emphasis> y qué valores adquiere?</para></problem>
 </exercise>
 </note><section id="fs-idp97044640" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idm43618304">Las características de una función de distribución de probabilidad (PDF) para una variable aleatoria discreta son las siguientes:</para>
 <list id="fs-idm39706128" list-type="enumerated" number-style="arabic">
 <item>Cada probabilidad está entre cero y uno, ambos inclusive (<emphasis effect="italics">inclusive</emphasis> significa incluir el cero y el uno).</item>
@@ -287,7 +287,7 @@
 
 <exercise id="fs-idm11913472">
 <problem id="fs-idm62074368">
-<para id="fs-idm17761312">Complete la <link target-id="M02_Ch03_tbl004"/> con los datos proporcionados.</para><table id="M02_Ch03_tbl004" summary="">
+<para id="fs-idm17761312">Complete la <link target-id="M02_Ch03_tbl004" document=""/> con los datos proporcionados.</para><table id="M02_Ch03_tbl004" summary="">
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -486,7 +486,7 @@
 
 <exercise id="fs-idp971520">
 <problem id="fs-idp65369008">
-  <para id="fs-idp99566944">Supongamos que la PDF del número de años que se tarda en obtener una licenciatura en ciencias (Bachelor of Science B.S.) se da en la <link target-id="M03_Ch04_tbl010"/>.</para>
+  <para id="fs-idp99566944">Supongamos que la PDF del número de años que se tarda en obtener una licenciatura en ciencias (Bachelor of Science B.S.) se da en la <link target-id="M03_Ch04_tbl010" document=""/>.</para>
 
 <table id="M03_Ch04_tbl010" summary="Exercise 30 Table">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
@@ -528,7 +528,7 @@
 
   <glossary>
  <definition id="pdfelab">
-<term>Función de Distribución de Probabilidad (PDF)</term>
+<term>Función de distribución de probabilidad (PDF)</term>
 <meaning id="id1165407642895">una descripción matemática de una variable aleatoria (<emphasis effect="italics">RV</emphasis>) discreta, dada en forma de ecuación (fórmula) o en forma de tabla que enumera todos los resultados posibles de un experimento y la probabilidad asociada a cada resultado.</meaning></definition>
 </glossary>
 </document>

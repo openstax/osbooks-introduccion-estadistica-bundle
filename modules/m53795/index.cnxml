@@ -17,7 +17,7 @@
 
 
 <para id="element-681">La <term id="term-00003">mediana</term> es un número que mide el “centro” de los datos. Se puede pensar en la mediana como el “valor medio”, pero no tiene por qué ser uno de los valores observados. Es un número que separa los datos ordenados en mitades. La mitad de los valores son iguales o menores que la mediana, y la mitad de los valores son iguales o mayores. Por ejemplo, considere los siguientes datos. <newline/>1; 11,5; 6; 7,2; 4; 8; 9; 10; 6,8; 8,3; 2; 2; 10; 1 <newline/>Ordenado de menor a mayor: <newline/>1; 1; 2; 2; 4; 6; 6,8; 7,2; 8; 8,3; 9; 10; 10; 11,5</para><para id="element-546">Como hay 14 observaciones, la mediana está entre el séptimo valor, 6,8, y el octavo, 7,2. Para hallar la mediana, sume los dos valores y divídalos entre dos.</para><equation id="element-293">
-Los términos <m:math>
+<m:math>
 <m:apply>
 <m:eq/>
 <m:apply>
@@ -42,7 +42,7 @@ Los términos <m:math>
 
 <para id="eip-8888"><emphasis effect="italics">IQR</emphasis> = <emphasis effect="italics">Q</emphasis><sub>3</sub> – <emphasis effect="italics">Q</emphasis><sub>1</sub></para><para id="element-847">El <emphasis effect="italics">IQR</emphasis> puede ayudar a determinar posibles <emphasis>valores atípicos</emphasis>. <emphasis>Se sospecha que un valor es un posible valor atípico si está menos de (1,5)(<emphasis effect="italics">IQR</emphasis>) por debajo del primer cuartil o más de (1,5)(<emphasis effect="italics">IQR</emphasis>) por encima del tercer cuartil</emphasis>. Los posibles valores atípicos siempre requieren una investigación más profunda.</para>
 
-<note id="fs-idm10803744"><title>NOTA</title>
+<note id="fs-idm10803744"><label/><title>NOTA</title>
 <para id="fs-idp4345696">Un valor atípico potencial es un punto de datos que es significativamente diferente de los otros puntos de datos. Estos puntos de datos especiales pueden ser errores o algún tipo de anormalidad o pueden ser una clave para entender los datos.</para></note>
 
 <example id="element-826">
@@ -75,7 +75,7 @@ Los términos <m:math>
 
 <example id="element-17">
 <exercise id="element-889"><problem id="id45587381">
-<para id="element-880">Para los dos conjuntos de datos del <link document="m55672" target-id="element-583">ejemplo de las puntuaciones de los exámenes</link>, halle lo siguiente:</para><list id="element-971" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>El rango intercuartil. Compare los dos rangos intercuartiles.</item>
+<para id="element-880">Para los dos conjuntos de datos del <link document="m55672" target-id="element-583">ejemplo de las calificaciones de los exámenes</link>, halle lo siguiente:</para><list id="element-971" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>El rango intercuartil. Compare los dos rangos intercuartiles.</item>
 <item>Cualquier valor atípico en cualquier conjunto.</item>
 </list></problem>
 <solution id="fs-idm13740032">
@@ -192,7 +192,7 @@ Los términos <m:math>
 </example>
 
 <note id="fs-idm52647472" class="statistics try">
-<title>Ejercicio</title>
+<label/><title>Ejercicio</title>
 <exercise id="fs-idm18606176"><problem id="fs-idm21314496">
 <para id="fs-idm44305856">Se les ha preguntado a cuarenta conductores de autobús cuántas horas dedican cada día a recorrer sus rutas (redondeadas a la hora más cercana). Calcule el percentil 65<sup/>.</para>
 <table id="fs-idm24649760" summary="">
@@ -212,22 +212,22 @@ Los términos <m:math>
 </problem>
 
 <solution id="fs-idp48716496">
-<para id="fs-idp39790768">El percentil 65.<sup>°</sup> está entre los tres últimos y los cuatro primeros.</para>
-<para id="fs-idp5264992">El percentil 65.<sup>°</sup> es de 3,5.</para>
+<para id="fs-idp39790768">El percentil 65<sup/> está entre los tres últimos y los cuatro primeros.</para>
+<para id="fs-idp5264992">El percentil 65<sup/> es de 3,5.</para>
 </solution>
 </exercise></note>
 
 
 <example id="element-572">
 <exercise id="element-2353"><problem id="id45288379">
-<para id="element-23532">Mediante <link target-id="id4431204"/>:</para><list id="element-6" list-type="enumerated" number-style="lower-alpha"><item>Calcule el percentil 80<sup/>.</item>
+<para id="element-23532">Mediante la <link target-id="id4431204"/>:</para><list id="element-6" list-type="enumerated" number-style="lower-alpha"><item>Calcule el percentil 80<sup/>.</item>
 <item>Calcule el percentil 90<sup/>.</item>
 <item>Calcule el primer cuartil. ¿Cuál es otro nombre para el primer cuartil?</item>
 
 </list></problem>
 <solution id="fs-idp60869984">
 <para id="fs-idp15042704">Al usar los datos de la tabla de frecuencias, tenemos:</para>
-<list id="fs-idm54301152" list-type="enumerated" number-style="lower-alpha"><item>El percentil 80<sup/> está entre los ocho últimos y los nueve primeros de la tabla (entre los valores 40<sup/> y 41<sup/>). Therefore, we need to take the mean of the 40<sup>th</sup> and 41<sup>st</sup> values. El percentil 80<sup/><m:math>
+<list id="fs-idm54301152" list-type="enumerated" number-style="lower-alpha"><item>El percentil 80<sup/> está entre los ocho últimos y los nueve primeros de la tabla (entre los valores 40<sup/> y 41<sup/>). Por lo tanto, tenemos que tomar la media de los valores 40<sup/> y 41<sup/>. El percentil 80 <sup/><m:math>
 <m:mrow>
 <m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -312,7 +312,7 @@ Los términos <m:math>
   </m:mfrac>
 
  </m:mrow>
-</m:math> (<emphasis effect="italics">n</emphasis> + 1) = (<m:math>
+</m:math> (<emphasis effect="italics">n</emphasis> + 1) = (<m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -326,13 +326,13 @@ Los términos <m:math>
  </m:mrow>
 </m:math>)(29 + 1) = 24,9, que NO es un número entero. Redondee a 24 hacia abajo y a 25 hacia arriba. La edad en el puesto 24<sup/> es de 71 años y la edad en el puesto 25<sup/> es de 72 años. Promedio 71 y 72. El percentil 83<sup/> es de 71,5 años.</item>
 </list></solution>
-</exercise></example><note id="fs-idm16529696" class="statistics try"><title>Ejercicio</title>
+</exercise></example><note id="fs-idm16529696" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="fs-idm3894192">
 <problem id="fs-idp25866864">
 <para id="fs-idp25866992">Se enumeran 29 edades de los mejores actores ganadores del Oscar <emphasis effect="italics">en orden de menor a mayor.</emphasis></para>
 <para id="fs-idm19734064">18; 21; 22; 25; 26; 27; 29; 30; 31; 33; 36; 37; 41; 42; 47; 52; 55; 57; 58; 62; 64; 67; 69; 71; 72; 73; 74; 76; 77 <newline/>Calcule el percentil 20<sup/> y el percentil 55<sup/>.</para></problem>
 <solution id="fs-idp26576896">
-
+<label/>
 <para id="fs-idp26577152"><emphasis effect="italics">k</emphasis> = 20. Índice = <emphasis effect="italics">i</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
@@ -351,7 +351,7 @@ Los términos <m:math>
   </m:mfrac>
 
  </m:mrow>
-</m:math>(29 + 1) = 6. La edad en la sexta posición es de 27 años. El percentil 20.<sup>°</sup> es de 27 años.</para><para id="fs-idm12885232"><emphasis effect="italics">k</emphasis> = 55. Índice = <emphasis effect="italics">i</emphasis> = <m:math>
+</m:math>(29 + 1) = 6. La edad en la sexta posición es de 27 años. El percentil 20<sup/> es de 27 años.</para><para id="fs-idm12885232"><emphasis effect="italics">k</emphasis> = 55. Índice = <emphasis effect="italics">i</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mi>k</m:mi>
@@ -369,7 +369,7 @@ Los términos <m:math>
   </m:mfrac>
 
  </m:mrow>
-</m:math>(29 + 1) = 16,5. Redondee hacia abajo a 16 y hacia arriba a 17. La edad en el puesto 16.<sup>°</sup> es de 52 años y la edad en el puesto 17<sup>°</sup> es de 55 años. La media de 52 y 55 es de 53,5. El percentil 55<sup>°</sup> es de 53,5 años.</para></solution>
+</m:math>(29 + 1) = 16,5. Redondee hacia abajo a 16 y hacia arriba a 17. La edad en el puesto 16<sup/> es de 52 años y la edad en el puesto 17<sup/> es de 55 años. El promedio de 52 y 55 es 53,5. El percentil 55<sup/> es de 53,5 años.</para></solution>
 </exercise></note></section><section id="fs-idp2972176">
 <title>Una fórmula para hallar el percentil de un valor en un conjunto de datos</title>
 <list id="fs-idm17756640" list-type="bulleted">
@@ -455,7 +455,7 @@ Contando desde el final de la lista hay tres valores de datos inferiores a 25. H
 <para id="fs-idm23920480">Entender cómo interpretar correctamente los percentiles es importante no solo a la hora de describir los datos, sino también a la hora de calcular las probabilidades en capítulos posteriores de este texto.</para>
 </section>
 
-<note id="fs-idm106923680"><title>NOTA</title>
+<note id="fs-idm106923680"><label/><title>NOTA</title>
 
 <para id="fs-idm20251376">Al escribir la interpretación de un percentil en el contexto de los datos dados, la oración debe contener la siguiente información.</para>
 <list id="eip-id1168197264788" list-type="bulleted">
@@ -479,20 +479,20 @@ Contando desde el final de la lista hay tres valores de datos inferiores a 25. H
 <example id="eip-id1170441826663">
 <exercise id="fs-idm148596320">
 <problem id="fs-idm170402432"><para id="eip-id1170436117670">En un examen de Matemáticas de 20 preguntas, el percentil 70<sup/> del número de respuestas correctas fue de 16. Interprete el percentil 70<sup/> en el contexto de esta situación.</para></problem>
-<solution id="fs-idm129791472"><list id="element-616" list-type="bulleted"><item>El setenta por ciento de los estudiantes respondió correctamente a 16 o menos preguntas.</item>
-<item>El treinta por ciento de los estudiantes respondió correctamente a 16 o más preguntas.</item>
-<item>Un percentil más alto podría considerarse bueno, ya que es deseable responder correctamente a más preguntas.</item>
+<solution id="fs-idm129791472"><list id="element-616" list-type="bulleted"><item>El setenta por ciento de los estudiantes respondió correctamente 16 o menos preguntas.</item>
+<item>El treinta por ciento de los estudiantes respondió correctamente 16 o más preguntas.</item>
+<item>Un percentil más alto podría considerarse bueno, ya que es deseable responder correctamente más preguntas.</item>
 </list></solution></exercise>
 </example>
 
 <note id="fs-idp77029680" class="statistics try">
-<title>Ejercicio</title>
+<label/><title>Ejercicio</title>
 <exercise id="fs-idp34034288">
 <problem id="fs-idp48692144">
 <para id="fs-idp55037680">En una asignación escrita de 60 puntos, el percentil 80<sup/> del número de puntos obtenidos fue de 49. Interprete el percentil 80<sup/> en el contexto de esta situación.</para>
 </problem>
 <solution id="fs-idp89340800">
-
+<label/>
 <para id="fs-idp75133760">El 80 % de los estudiantes obtuvo 49 puntos o menos. El 20 % de los estudiantes obtuvo 49 o más puntos. Un percentil más alto es bueno porque obtener más puntos en una tarea es deseable.</para></solution>
 </exercise>
 </note>
@@ -503,9 +503,9 @@ Contando desde el final de la lista hay tres valores de datos inferiores a 25. H
 <para id="eip-id1170610063171">En un colegio comunitario se comprobó que el percentil 30<sup/> de unidades de crédito en las que se inscriben los estudiantes es de siete unidades. Interprete el percentil 30<sup/> en el contexto de esta situación.</para>
 </problem>
 <solution id="fs-idm167613888">
-<list id="element-410" list-type="bulleted"><item>El treinta por ciento de los estudiantes está matriculados en siete o menos unidades de crédito.</item>
-<item>El setenta por ciento de los estudiantes está matriculados en siete o más unidades de crédito.</item>
-<item>En este ejemplo, no hay un juicio de valor "bueno" o "malo" asociado a un percentil más alto o más bajo. Los estudiantes acuden a los institutos universitarios comunitarios por razones y necesidades diversas, y su carga lectiva varía en función de sus necesidades.</item>
+<list id="element-410" list-type="bulleted"><item>El treinta por ciento de los estudiantes están inscritos en siete o menos unidades de crédito.</item>
+<item>El setenta por ciento de los estudiantes están inscritos en siete o más unidades de crédito.</item>
+<item>En este ejemplo, no hay un juicio de valor "bueno" o "malo" asociado a un percentil más alto o más bajo. Los estudiantes acuden a los colegios comunitarios por razones y necesidades diversas y su carga lectiva varía según sus necesidades.</item>
 </list></solution>
 </exercise>
 </example>
@@ -520,7 +520,7 @@ Contando desde el final de la lista hay tres valores de datos inferiores a 25. H
 <item>Med. = 40</item>
 <item><emphasis effect="italics">Q</emphasis><sub>3</sub> = 60</item>
 <item>Máx. = 300</item>
-</list><para id="fs-idp83565376">Si usted fuera el director, ¿se justificaría la compra de nuevos equipos de acondicionamiento físico? Dado que el 75 % de los estudiantes hace ejercicio durante 60 minutos o menos al día, y que el <emphasis effect="italics">IQR</emphasis> es de 40 minutos (60 – 20 = 40), sabemos que la mitad de los estudiantes encuestados hace ejercicio entre 20 y 60 minutos al día. Esto parece una cantidad razonable de tiempo de ejercicio, por lo que el director estaría justificado en la compra del nuevo equipamiento.</para><para id="fs-idm77236544">Sin embargo, el director debe tener cuidado. El valor 300 parece ser un posible valor atípico.</para>
+</list><para id="fs-idp83565376">Si usted fuera el director, ¿se justificaría la compra de nuevos equipos de acondicionamiento físico? Dado que el 75 % de los estudiantes hacen ejercicio durante 60 minutos o menos al día, y que el <emphasis effect="italics">IQR</emphasis> es de 40 minutos (60 – 20 = 40), sabemos que la mitad de los estudiantes encuestados hacen ejercicio entre 20 y 60 minutos al día. Esto parece una cantidad razonable de tiempo de ejercicio, por lo que el director estaría justificado en la compra del nuevo equipamiento.</para><para id="fs-idm77236544">Sin embargo, el director debe tener cuidado. El valor 300 parece ser un posible valor atípico.</para>
 <para id="fs-idm9669376"><emphasis effect="italics">Q</emphasis><sub>3</sub> + 1,5(<emphasis effect="italics">IQR</emphasis>) = 60 + (1,5)(40) = 120.</para><para id="fs-idp13270336">El valor 300 es mayor que 120, por lo que es un posible valor atípico. Si lo eliminamos y calculamos los cinco valores, obtenemos los siguientes valores:</para>
 <list id="fs-idm2894688" list-type="labeled-item">
 <item>Mín. = 0</item>
@@ -534,14 +534,14 @@ Contando desde el final de la lista hay tres valores de datos inferiores a 25. H
 <section id="fs-idm63224784" class="references"><title>Referencias</title><para id="fs-idm63224288">Cauchon, Dennis, Paul Overberg. “Census data shows minorities now a majority of U.S. births”. USA Today, 2012. Disponible en línea en http://usatoday30.usatoday.com/news/nation/story/2012-05-17/minority-birthscensus/55029100/1 (consultado el 3 de abril de 2013).</para>
 <para id="fs-idm76887104">Datos del Departamento de Comercio de Estados Unidos: Oficina del Censo de Estados Unidos. Disponible en línea en http://www.census.gov/ (consultado el 3 de abril de 2013).</para>
 <para id="fs-idm76886560">“1990 Census”. United States Department of Commerce: Oficina del Censo de Estados Unidos. Disponible en línea en http://www.census.gov/main/www/cen1990.html (consultado el 3 de abril de 2013).</para>
-<para id="fs-idm76885984">Datos del <emphasis effect="italics">Mercury News de San José</emphasis>.</para><para id="fs-idm76885600">Datos de la <emphasis effect="italics">Revista Time</emphasis>; encuesta de Yankelovich Partners, Inc.</para></section><section id="fs-idm13790128" class="summary">
-<title>Revisión del capítulo</title><para id="fs-idp1397504">Los valores que dividen un conjunto de datos ordenados en 100 partes iguales se llaman percentiles. Los percentiles se utilizan para comparar e interpretar datos. Por ejemplo, una observación en el percentil 50<sup/> sería mayor que el 50 % de las demás observaciones del conjunto. Los cuartiles dividen los datos en cuartos. El primer cuartil (<emphasis effect="italics">Q</emphasis><sub>1</sub>) es el percentil 25, el segundo cuartil (<emphasis effect="italics">Q</emphasis><sub>2</sub> o mediana) es el percentil 50 y el tercer cuartil (<emphasis effect="italics">Q</emphasis><sub>3</sub>) es el percentil 75. El rango intercuartil, o <emphasis effect="italics">IQR</emphasis>, es el rango del 50 % del centro de los valores de los datos. El <emphasis effect="italics">IQR</emphasis> se encuentra restando <emphasis effect="italics">Q</emphasis><sub>1</sub> de <emphasis effect="italics">Q</emphasis><sub>3</sub>, y puede ayudar a determinar los valores atípicos utilizando las dos expresiones siguientes.</para><list id="fs-idp12766560" list-type="bulleted"><item><emphasis effect="italics">Q</emphasis><sub>3</sub> + <emphasis effect="italics">IQR</emphasis>(1,5)</item>
+<para id="fs-idm76885984">Datos de <emphasis effect="italics">The Mercury News</emphasis> de San José.</para><para id="fs-idm76885600">Datos de la <emphasis effect="italics">Revista Time</emphasis>; encuesta de Yankelovich Partners, Inc.</para></section><section id="fs-idm13790128" class="summary">
+<title>Repaso del capítulo</title><para id="fs-idp1397504">Los valores que dividen un conjunto de datos ordenados en 100 partes iguales se llaman percentiles. Los percentiles se utilizan para comparar e interpretar datos. Por ejemplo, una observación en el percentil 50<sup/> sería mayor que el 50 % de las demás observaciones del conjunto. Los cuartiles dividen los datos en cuartos. El primer cuartil (<emphasis effect="italics">Q</emphasis><sub>1</sub>) es el percentil 25, el segundo cuartil (<emphasis effect="italics">Q</emphasis><sub>2</sub> o mediana) es el percentil 50 y el tercer cuartil (<emphasis effect="italics">Q</emphasis><sub>3</sub>) es el percentil 75. El rango intercuartil, o <emphasis effect="italics">IQR</emphasis>, es el rango del 50 % del centro de los valores de los datos. El <emphasis effect="italics">IQR</emphasis> se encuentra restando <emphasis effect="italics">Q</emphasis><sub>1</sub> de <emphasis effect="italics">Q</emphasis><sub>3</sub>, y puede ayudar a determinar los valores atípicos utilizando las dos expresiones siguientes.</para><list id="fs-idp12766560" list-type="bulleted"><item><emphasis effect="italics">Q</emphasis><sub>3</sub> + <emphasis effect="italics">IQR</emphasis>(1,5)</item>
 <item><emphasis effect="italics">Q</emphasis><sub>1</sub> – <emphasis effect="italics">IQR</emphasis>(1,5)</item>
 </list></section>
 
 <section id="fs-idm202752" class="formula-review">
 <title>Revisión de la fórmula</title>
-<para id="fs-idp5126816">Los términos <m:math>
+<para id="fs-idp5126816"><m:math>
  <m:mrow>
   <m:mi>i</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -710,7 +710,7 @@ Contando desde el final de la lista hay tres valores de datos inferiores a 25. H
 </solution>
 </exercise>
 
-<para id="element-726">Use la siguiente información para responder los próximos seis ejercicios. Se preguntó a sesenta y cinco vendedores de automóviles seleccionados al azar el número de automóviles que suelen vender en una semana. Catorce personas respondieron que generalmente venden tres, diecinueve que venden cuatro, doce que venden cinco, nueve que venden seis y once que venden siete.</para><exercise id="exercisenine">
+<para id="element-726">Use la siguiente información para responder los próximos seis ejercicios. se preguntó a sesenta y cinco vendedores de automóviles seleccionados al azar el número de automóviles que suelen vender en una semana. Catorce personas respondieron que generalmente venden tres, diecinueve que venden cuatro, doce que venden cinco, nueve que venden seis y once que venden siete.</para><exercise id="exercisenine">
 <problem id="id21439538">
 <para id="prob_9">Primer cuartil = _______</para>
 </problem>
@@ -757,10 +757,10 @@ Contando desde el final de la lista hay tres valores de datos inferiores a 25. H
 <title>Tarea para la casa</title>
 <exercise id="fs-idp61512400">
 <problem id="fs-idp61512656">
-<para id="fs-idm5042080">The median age for U.S. Black people currently is 30.9 years; for U.S. White people it is 42.3 years. <list id="fs-idm33581296" list-type="enumerated" number-style="lower-alpha">
-<item>Based upon this information, give two reasons why the Black median age could be lower than the White median age.</item>
-<item>Does the lower median age for Black people necessarily mean that Black people die younger than White people? ¿Por qué o por qué no?</item>
-<item>How might it be possible for Black people and White people to die at approximately the same age, but for the median age for White people to be higher?</item>
+<para id="fs-idm5042080">La edad media de las personas negras en Estados Unidos es actualmente de 30,9 años; la de las personas blancas es de 42,3 años.<list id="fs-idm33581296" list-type="enumerated" number-style="lower-alpha">
+<item>Basándose en esta información, indique dos razones por las que la edad media de las personas negras podría ser inferior a la de las personas blancas.</item>
+<item>¿La menor edad media de las personas negras significa necesariamente que estas mueren más jóvenes que las personas blancas? ¿Por qué sí o por qué no?</item>
+<item>¿Cómo es posible que las personas negras y las blancas mueran aproximadamente a la misma edad, pero que la edad media de las personas blancas sea mayor?</item>
 </list></para></problem>
 </exercise>
 
@@ -780,27 +780,27 @@ Contando desde el final de la lista hay tres valores de datos inferiores a 25. H
 <entry>0,02</entry>
 </row>
 <row>
-<entry>20,000–25,000</entry>
+<entry>20.000-25.000</entry>
 <entry>0,09</entry>
 </row>
 <row>
-<entry>25,000–30,000</entry>
+<entry>25.000-30.000</entry>
 <entry>0,19</entry>
 </row>
 <row>
-<entry>30,000–40,000</entry>
+<entry>30.000-40.000</entry>
 <entry>0,26</entry>
 </row>
 <row>
-<entry>40,000–50,000</entry>
+<entry>40.000-50.000</entry>
 <entry>0,18</entry>
 </row>
 <row>
-<entry>50,000–75,000</entry>
+<entry>50.000-75.000</entry>
 <entry>0,17</entry>
 </row>
 <row>
-<entry>75,000–99,999</entry>
+<entry>75.000-99.999</entry>
 <entry>0,02</entry>
 </row>
 <row>
@@ -813,7 +813,7 @@ Contando desde el final de la lista hay tres valores de datos inferiores a 25. H
 </table><list id="element-295" list-type="enumerated" number-style="lower-alpha">
 <item>¿Qué porcentaje de la encuesta respondió “no estoy seguro”?</item>
 <item>¿Qué porcentaje cree que la clase media es de 25.000 a 50.000 dólares?</item>
-<item>Construya un histograma de los datos. <list id="nestlist3" mark-suffix="." list-type="enumerated" number-style="lower-roman"><item>¿Según los datos, todas las barras deben tener el mismo ancho? ¿Por qué o por qué no?</item>
+<item>Construya un histograma de los datos. <list id="nestlist3" mark-suffix="." list-type="enumerated" number-style="lower-roman"><item>¿Según los datos, todas las barras deben tener el mismo ancho? ¿Por qué sí o por qué no?</item>
 <item>¿Cómo se deben tratar los intervalos &lt;20.000 y más de 100.000? ¿Por qué?</item>
 </list></item>
 <item>Calcule el percentil 40<sup/> y el percentil 80<sup/></item>
@@ -821,12 +821,12 @@ Contando desde el final de la lista hay tres valores de datos inferiores a 25. H
 
 <solution id="eip-idp78472880">
 <list id="element-295a" list-type="enumerated" number-style="lower-alpha">
-<item>1 – (0.02+0.09+0.19+0.26+0.18+0.17+0.02+0,01) = 0,06</item>
-<item>0.19+0.26+0,18 = 0,63</item>
-<item>Compruebe la solución del estudiante</item>
+<item>1 – (0,02 + 0,09 + 0,19 + 0,26 + 0,18 + 0,17 + 0,02 + 0,01) = 0,06</item>
+<item>0,19 + 0, 26 + 0,18 = 0,63</item>
+<item>Compruebe la solución del estudiante.</item>
 <item><para id="eip-idp139654864">El percentil 40<sup/> se situará entre 30.000 y 40.000</para>
 <para id="eip-idp139655632">El percentil 80<sup/> estará entre 50.000 y 75.000</para></item>
-<item>Compruebe la solución del estudiante</item>
+<item>Compruebe la solución del estudiante.</item>
 </list>
 </solution></exercise>
 

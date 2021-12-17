@@ -9,7 +9,7 @@
 </metadata>
 
 <content>
-<para id="fs-idp71600">La <term id="term-00001">distribución normal estándar</term> es una distribución normal de <emphasis>valores estandarizados</emphasis> llamados <term id="term-00002">puntuaciones <emphasis effect="italics">z</emphasis></term>. <emphasis>Una puntuación <emphasis effect="italics">z</emphasis> se mide en unidades de la desviación típica.</emphasis> Por ejemplo, si la media de una distribución normal es cinco y la desviación estándar es dos, el valor 11 está tres desviaciones estándar por encima (o a la derecha) de la media. El cálculo es el siguiente:</para>
+<para id="fs-idp71600">La <term id="term-00001">distribución normal estándar</term> es una distribución normal de <emphasis>valores estandarizados</emphasis> llamados <term id="term-00002">puntuaciones <emphasis effect="italics">z</emphasis></term>. <emphasis>Una puntuación <emphasis effect="italics">z</emphasis> se mide en unidades de la desviación típica.</emphasis> Por ejemplo, si la media de una distribución normal es cinco y la desviación típica es dos, el valor 11 está tres desviaciones típicas por encima (o a la derecha) de la media. El cálculo es el siguiente:</para>
 
 <para id="fs-idp80744096"><emphasis effect="italics">x</emphasis> = <emphasis effect="italics">μ</emphasis> + (<emphasis effect="italics">z</emphasis>)(<emphasis effect="italics">σ</emphasis>) = 5 + (3)(2) = 11</para>
 
@@ -24,10 +24,10 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math> produce la distribución <emphasis effect="italics">Z</emphasis> ~ <emphasis effect="italics">N</emphasis>(0, 1). El valor <emphasis effect="italics">x</emphasis> en la ecuación dada proviene de una distribución normal con una media <emphasis effect="italics">μ</emphasis> y una desviacióntípica <emphasis effect="italics">σ</emphasis>.</para><section id="fs-idp52480624">
+</m:math> produce la distribución <emphasis effect="italics">Z</emphasis> ~ <emphasis effect="italics">N</emphasis>(0, 1). El valor <emphasis effect="italics">x</emphasis> en la ecuación dada proviene de una distribución normal con una media <emphasis effect="italics">μ</emphasis> y una desviación típica <emphasis effect="italics">σ</emphasis>.</para><section id="fs-idp52480624">
 <title>Puntuaciones <emphasis effect="italics">z</emphasis></title>
  <para id="fs-idm81546736">Si <emphasis effect="italics">X</emphasis> es una variable aleatoria normalmente distribuida y <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N(μ, σ)</emphasis>, entonces la puntuación <emphasis effect="italics">z</emphasis> es:</para>
- <equation id="element-521" class="unnumbered">Los términos <m:math>
+ <equation id="element-521" class="unnumbered"><label/><m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -37,11 +37,11 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math></equation><para id="element-272"><emphasis>La puntuación <emphasis effect="italics">z</emphasis> indica cuántas desviaciones típicas tiene el valor <emphasis effect="italics">x</emphasis> por encima (a la derecha) o por debajo (a la izquierda) de la media, <emphasis effect="italics">μ</emphasis>.</emphasis> Los valores de <emphasis effect="italics">x</emphasis> que son mayores que la media tienen calificaciones <emphasis effect="italics">z</emphasis> positivas, y los valores de <emphasis effect="italics">x</emphasis> que son menores que la media tienen calificaciones <emphasis effect="italics">z</emphasis> negativas. Si <emphasis effect="italics">x</emphasis> es igual a la media, entonces <emphasis effect="italics">x</emphasis> tiene una puntuación <emphasis effect="italics">z</emphasis> de cero.</para>
+</m:math></equation><para id="element-272"><emphasis>La puntuación <emphasis effect="italics">z</emphasis> indica cuántas desviaciones típicas tiene el valor <emphasis effect="italics">x</emphasis> por encima (a la derecha) o por debajo (a la izquierda) de la media, <emphasis effect="italics">μ</emphasis>.</emphasis> Los valores de <emphasis effect="italics">x</emphasis> que son mayores que la media tienen puntuaciones <emphasis effect="italics">z</emphasis> positivas, y los valores de <emphasis effect="italics">x</emphasis> que son menores que la media tienen puntuaciones <emphasis effect="italics">z</emphasis> negativas. Si <emphasis effect="italics">x</emphasis> es igual a la media, entonces <emphasis effect="italics">x</emphasis> tiene una puntuación <emphasis effect="italics">z</emphasis> de cero.</para>
 
 <example id="element-49">
 <para id="element-161">Supongamos que <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N(5, 6)</emphasis>. Esto dice que <emphasis effect="italics">X</emphasis> es una variable aleatoria normalmente distribuida, con media <emphasis effect="italics">μ</emphasis> = 5 y desviación típica <emphasis effect="italics">σ</emphasis> = 6. Supongamos que <emphasis effect="italics">x</emphasis> = 17. Entonces:</para>
-<equation id="element-160" class="unnumbered">Los términos <m:math>
+<equation id="element-160" class="unnumbered"><label/><m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -77,12 +77,12 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math> = –0,67 (redondeado a dos decimales)</para><para id="element-468"><emphasis>Esto significa que <emphasis effect="italics">x</emphasis> = 1 está 0,67 desviaciones estándar (-0,67<emphasis effect="italics">σ</emphasis>) por debajo o a la izquierda de la media <emphasis effect="italics">μ</emphasis> = 5. Observe que:</emphasis> 5 + (-0,67)(6) es aproximadamente igual a uno (esto presenta el patrón <emphasis effect="italics">μ</emphasis> + (-0,67)σ = 1)</para><para id="element-588">Resumiendo, cuando <emphasis effect="italics">z</emphasis> es positiva, <emphasis effect="italics">x</emphasis> está por encima o a la derecha de <emphasis effect="italics">μ</emphasis> y cuando <emphasis effect="italics">z</emphasis> es negativa, <emphasis effect="italics">x</emphasis> está a la izquierda o por debajo de <emphasis effect="italics">μ</emphasis>. O bien, cuando <emphasis effect="italics">z</emphasis> es positiva, <emphasis effect="italics">x</emphasis> es mayor que <emphasis effect="italics">μ</emphasis>, y cuando <emphasis effect="italics">z</emphasis> es negativa <emphasis effect="italics">x</emphasis> es menor que <emphasis effect="italics">μ</emphasis>.</para>
+</m:math> = –0,67 (redondeado a dos decimales)</para><para id="element-468"><emphasis>Esto significa que <emphasis effect="italics">x</emphasis> = 1 está 0,67 desviaciones típicas (–0,67<emphasis effect="italics">σ</emphasis>) por debajo o a la izquierda de la media <emphasis effect="italics">μ</emphasis> = 5. Observe que:</emphasis> 5 + (-0,67)(6) es aproximadamente igual a uno (esto presenta el patrón <emphasis effect="italics">μ</emphasis> + (-0,67)σ = 1)</para><para id="element-588">Resumiendo, cuando <emphasis effect="italics">z</emphasis> es positiva, <emphasis effect="italics">x</emphasis> está por encima o a la derecha de <emphasis effect="italics">μ</emphasis> y cuando <emphasis effect="italics">z</emphasis> es negativa, <emphasis effect="italics">x</emphasis> está a la izquierda o por debajo de <emphasis effect="italics">μ</emphasis>. O bien, cuando <emphasis effect="italics">z</emphasis> es positiva, <emphasis effect="italics">x</emphasis> es mayor que <emphasis effect="italics">μ</emphasis>, y cuando <emphasis effect="italics">z</emphasis> es negativa <emphasis effect="italics">x</emphasis> es menor que <emphasis effect="italics">μ</emphasis>.</para>
 </example>
 
 
 <note id="fs-idp69782784" class="statistics try">
-<title>Ejercicio</title>
+<label/><title>Ejercicio</title>
 <exercise id="eip-949">
 <problem id="eip-264">
   <para id="eip-653">¿Cuál es la puntuación <emphasis effect="italics">z</emphasis> de <emphasis effect="italics">x</emphasis>, cuando <emphasis effect="italics">x</emphasis> = 1 y <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(12,3)?</para>
@@ -91,20 +91,20 @@
 </note>
 
 <example id="element-305">
-<para id="element-979">Algunos médicos creen que una persona puede perder dos kilos, en promedio, en un mes si reduce su consumo de grasas y hace ejercicio de manera consistente. Supongamos que la pérdida de peso tiene una distribución normal. Supongamos que <emphasis effect="italics">X</emphasis> = la cantidad de peso perdida (en libras) por una persona en un mes. Utilice una desviación típica de dos libras. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(5, 2). Complete los espacios en blanco.<newline count="2"/></para><exercise id="element-984">
+<para id="element-979">Algunos médicos creen que una persona puede perder cinco libras, en promedio, en un mes si reduce su consumo de grasas y hace ejercicio de manera constante. Supongamos que la pérdida de peso tiene una distribución normal. Supongamos que <emphasis effect="italics">X</emphasis> = la cantidad de peso perdida (en libras) por una persona en un mes. Utilice una desviación típica de dos libras. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(5, 2). Complete los espacios en blanco.<newline count="2"/></para><exercise id="element-984">
 <problem id="id1167373890535">
-  <para id="fs-idm105387200">a. Supongamos que una persona <emphasis>pierde</emphasis> cinco kilos en un mes. La puntuación <emphasis effect="italics">z</emphasis> cuando <emphasis effect="italics">x</emphasis> = 10 libras es <emphasis effect="italics">z</emphasis> = 2,5 (verifique). Esta puntuación <emphasis effect="italics">z</emphasis> le indica que <emphasis effect="italics">x</emphasis> = 10 está a ________ desviaciones típicas a la ________ (derecha o izquierda) de la media _____ (¿Cuál es la media?).</para></problem>
+  <para id="fs-idm105387200">a. Supongamos que una persona <emphasis>pierde</emphasis> diez libras en un mes. La puntuación <emphasis effect="italics">z</emphasis> cuando <emphasis effect="italics">x</emphasis> = 10 libras es <emphasis effect="italics">z</emphasis> = 2,5 (verifique). Esta puntuación <emphasis effect="italics">z</emphasis> le indica que <emphasis effect="italics">x</emphasis> = 10 está a ________ desviaciones típicas a la ________ (derecha o izquierda) de la media _____ (¿Cuál es la media?).</para></problem>
 
 <solution id="id1167373888670">
-  <para id="element-603">a. Esta <emphasis effect="italics">puntuación z</emphasis>le indica que <emphasis effect="italics">x</emphasis> = 10 está a <emphasis>2,5</emphasis> desviaciones típicas a la <emphasis>derecha</emphasis> de la media <emphasis>cinco</emphasis>.<newline count="2"/></para></solution>
+  <para id="element-603">a. Esta puntuación <emphasis effect="italics">z</emphasis>le indica que <emphasis effect="italics">x</emphasis> = 10 está a <emphasis>2,5</emphasis> desviaciones típicas a la <emphasis>derecha</emphasis> de la media <emphasis>cinco</emphasis>.<newline count="2"/></para></solution>
 </exercise>
 
 <exercise id="element-369">
 <problem id="id1167373888705">
-  <para id="element-195">b. Supongamos que una persona ha <emphasis>ganado</emphasis> tres libras (una pérdida de peso negativa). Entonces <emphasis effect="italics">z</emphasis> = __________. Esta puntuación <emphasis effect="italics">z</emphasis> le indica que <emphasis effect="italics">x</emphasis> = -3 está a ________ desviaciones típicas a la __________ (derecha o izquierda) de la media.</para></problem>
+  <para id="element-195">b. Supongamos que una persona ha <emphasis>ganado</emphasis> tres libras (una pérdida de peso negativa). Entonces <emphasis effect="italics">z</emphasis> = __________. Esta puntuación <emphasis effect="italics">z</emphasis> le indica que <emphasis effect="italics">x</emphasis> = –3 está a ________ desviaciones típicas a la __________ (derecha o izquierda) de la media.</para></problem>
 
 <solution id="id1167373884020" print-placement="end">
-  <para id="element-639">b. <emphasis effect="italics">z</emphasis> = <emphasis>-4</emphasis>. Esta puntuación <emphasis effect="italics">z</emphasis> le indica que <emphasis effect="italics">x</emphasis> = -3 está a <emphasis>cuatro</emphasis> desviaciones típicas a la <emphasis>izquierda</emphasis> de la media.<newline count="2"/></para></solution>
+  <para id="element-639">b. <emphasis effect="italics">z</emphasis> = <emphasis>-4</emphasis>. Esta puntuación <emphasis effect="italics">z</emphasis> le indica que <emphasis effect="italics">x</emphasis> = –3 está a <emphasis>cuatro</emphasis> desviaciones típicas a la <emphasis>izquierda</emphasis> de la media.<newline count="2"/></para></solution>
 </exercise>
 
 <exercise id="eip-681"><problem id="eip-335">
@@ -139,7 +139,7 @@
 
 
 <note id="fs-idp126867120" class="statistics try">
-<title>Ejercicio</title>
+<label/><title>Ejercicio</title>
 <exercise id="eip-24">
 <problem id="eip-151">
 <para id="eip-idm83673168">Complete los espacios en blanco.</para>
@@ -182,15 +182,15 @@
 </example>
 
 <note id="fs-idp103857616" class="statistics try">
-<title>Ejercicio</title>
+<label/><title>Ejercicio</title>
 <exercise id="eip-893">
 <problem id="eip-929">
-<para id="fs-idp74289648">Utilice la información del <link target-id="eip-736"/> para responder a las siguientes preguntas.</para>
+<para id="fs-idp74289648">Utilice la información del <link target-id="eip-736" document=""/> para responder a las siguientes preguntas.</para>
 
 
 <list id="eip-idm24917152" list-type="enumerated" number-style="lower-alpha"><item>Supongamos que un hombre de 15 a 18 años de Chile mide 176 cm entre 2009 y 2010. La puntuación <emphasis effect="italics">z</emphasis> cuando <emphasis effect="italics">x</emphasis> = 176 cm es <emphasis effect="italics">z</emphasis> = _______. Esta puntuación <emphasis effect="italics">z</emphasis> le indica que <emphasis effect="italics">x</emphasis> = 176 cm está a ________ desviaciones típicas a la ________ (derecha o izquierda) de la media _____ (¿Cuál es la media?).</item>
 
-<item>Supongamos que la estatura de un hombre de 15 a 18 años de Chile de 2009 a 2010 tiene una puntuación <emphasis effect="italics">z</emphasis> de <emphasis effect="italics">z</emphasis> = -2. ¿Cuál es la altura de los hombres? La puntuación <emphasis effect="italics">z</emphasis> (<emphasis effect="italics">z</emphasis> = –2) indica que la estatura del varón está a ________ desviaciones típicas a la __________ (derecha o izquierda) de la media.</item>
+<item>Supongamos que la estatura de un hombre de 15 a 18 años de Chile de 2009 a 2010 tiene una puntuación <emphasis effect="italics">z</emphasis> de <emphasis effect="italics">z</emphasis> = –2. ¿Cuál es la altura del hombre? La puntuación <emphasis effect="italics">z</emphasis> (<emphasis effect="italics">z</emphasis> = –2) indica que la estatura del hombre está a ________ desviaciones típicas a la __________ (derecha o izquierda) de la media.</item>
 </list></problem>
 
 
@@ -207,12 +207,12 @@
 <para id="eip-329">Halle las puntuaciones <emphasis effect="italics">z</emphasis> para <emphasis effect="italics">x</emphasis> = 160,58 cm y <emphasis effect="italics">y</emphasis> = 162,85 cm. Interprete cada puntuación <emphasis effect="italics">z</emphasis>. ¿Qué puede decir sobre <emphasis effect="italics">x</emphasis> = 160,58 cm e <emphasis effect="italics">y</emphasis> = 162,85 cm en comparación con sus respectivas medias y desviaciones típicas?</para></problem>
 
 <solution id="eip-526">
-  <para id="eip-768">La puntuación <emphasis effect="italics">z</emphasis> para <emphasis effect="italics">x</emphasis> = -160,58 es <emphasis effect="italics">z</emphasis> = -1,5. <newline/>La puntuación <emphasis effect="italics">z</emphasis> para <emphasis effect="italics">y</emphasis> = 162,85 es <emphasis effect="italics">z</emphasis> = -1,5. <newline/>Tanto <emphasis effect="italics">x</emphasis> = 160,58 como <emphasis effect="italics">y</emphasis> = 162,85 desvían el mismo número de desviaciones típicas de sus respectivas medias y en la misma dirección.</para></solution>
+  <para id="eip-768">La puntuación <emphasis effect="italics">z</emphasis> para <emphasis effect="italics">x</emphasis> = -160,58 es <emphasis effect="italics">z</emphasis> = –1,5. <newline/>La puntuación <emphasis effect="italics">z</emphasis> para <emphasis effect="italics">y</emphasis> = 162,85 es <emphasis effect="italics">z</emphasis> = –1,5. <newline/>Tanto <emphasis effect="italics">x</emphasis> = 160,58 como <emphasis effect="italics">y</emphasis> = 162,85 desvían el mismo número de desviaciones típicas de sus respectivas medias y en la misma dirección.</para></solution>
 </exercise>
 </example>
 
 <note id="fs-idp90060128" class="statistics try">
-<title>Ejercicio</title>
+<label/><title>Ejercicio</title>
 <exercise id="eip-11">
 <problem id="eip-695">
 <para id="eip-881">En 2012, 1.664.479 estudiantes realizaron la Prueba de Aptitud Académica (Scholastic Aptitude Test, SAT). La distribución de las puntuaciones en la sección verbal del SAT tenía una media <emphasis effect="italics">µ</emphasis> = 496 y una desviación típica <emphasis effect="italics">σ</emphasis> = 114. Supongamos que <emphasis effect="italics">X</emphasis> = la puntuación de la sección verbal de la prueba SAT en 2012. Entonces <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(496, 114).</para>
@@ -228,7 +228,7 @@
 </list></example>
 
 <note id="fs-idp63750176" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="eip-897">
 <problem id="eip-714">
@@ -250,14 +250,14 @@
 
 <solution id="eip-214">
 <list id="fs-idp84281088" list-type="enumerated" number-style="lower-alpha"><item>Aproximadamente el 68 % de los valores se sitúan entre 166,02 cm y 178,7 cm. Las puntuaciones <emphasis effect="italics">z</emphasis> son –1 y 1.</item>
-<item>Aproximadamente el 95 % de los valores se sitúan entre 159,68 cm y 185,04 cm. Las puntuaciones <emphasis effect="italics">z</emphasis>son –2 y 2.</item>
+<item>Aproximadamente el 95 % de los valores se sitúan entre 159,68 cm y 185,04 cm. Las puntuaciones <emphasis effect="italics">z</emphasis> son –2 y 2.</item>
 <item>Aproximadamente el 99,7 % de los valores se sitúan entre 153,34 cm y 191,38 cm. Las puntuaciones <emphasis effect="italics">z</emphasis> son –3 y 3.</item>
 </list></solution>
 </exercise>
 </example>
 
 <note id="fs-idp139717168" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="eip-188">
 <problem id="eip-401">
@@ -275,12 +275,12 @@
 <para id="fs-idm49032560">“Blood Pressure of Males and Females”. StatCruch, 2013. Disponible en línea en http://www.statcrunch.com/5.0/viewreport.php?reportid=11960 (consultado el 14 de mayo de 2013).</para>
 <para id="fs-idm16230832">“The Use of Epidemiological Tools in Conflict-affected populations: Open-access educational resources for policy-makers: Calculation of z-scores”. London School of Hygiene and Tropical Medicine, 2009. Disponible en línea en http://conflict.lshtm.ac.uk/page_125.htm (consultado el 14 de mayo de 2013).</para><para id="fs-idp3576896">“2012 College-Bound Seniors Total Group Profile Report”. CollegeBoard, 2012. Disponible en línea en http://media.collegeboard.com/digitalServices/pdf/research/TotalGroup-2012.pdf (consultado el 14 de mayo de 2013).</para>
 <para id="fs-idm63215776">“Digest of Education Statistics: ACT score average and standard deviations by sex and race/ethnicity and percentage of ACT test takers, by selected composite score ranges and planned fields of study: Selected years, 1995 through 2009”. National Center for Education Statistics. Disponible en línea en http://nces.ed.gov/programs/digest/d09/tables/dt09_147.asp (consultado el 14 de mayo de 2013).</para>
-<para id="fs-idm36569680">Datos del <emphasis effect="italics">Mercury News de San José</emphasis>.</para><para id="fs-idp110586896">Datos de <emphasis effect="italics">The World Almanac and Book of Facts</emphasis>.</para><para id="fs-idm16015264">“List of stadiums by capacity”. Wikipedia. Disponible en línea en https://en.wikipedia.org/wiki/List_of_stadiums_by_capacity (consultado el 14 de mayo de 2013).</para>
+<para id="fs-idm36569680">Datos de <emphasis effect="italics">The Mercury News</emphasis> de San José.</para><para id="fs-idp110586896">Datos de <emphasis effect="italics">The World Almanac and Book of Facts</emphasis>.</para><para id="fs-idm16015264">“List of stadiums by capacity”. Wikipedia. Disponible en línea en https://en.wikipedia.org/wiki/List_of_stadiums_by_capacity (consultado el 14 de mayo de 2013).</para>
 <para id="fs-idp17697408">Datos de la Asociación Nacional de Baloncesto. Disponible en línea en www.nba.com (consultado el 14 de mayo de 2013).</para>
 </section>
 
 <section id="fs-idp33285824" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="eip-512">Una puntuación <emphasis effect="italics">z</emphasis> es un valor estandarizado. Su distribución es la normal estándar, <emphasis effect="italics">Z</emphasis> ~ <emphasis effect="italics">N</emphasis>(0, 1). La media de las puntuaciones <emphasis effect="italics">z</emphasis> es cero y la desviación típica es uno. Si <emphasis effect="italics">z</emphasis> es la puntuación <emphasis effect="italics">z</emphasis> para un valor <emphasis effect="italics">x</emphasis> de la distribución normal <emphasis effect="italics">N</emphasis>(<emphasis effect="italics">µ</emphasis>, <emphasis effect="italics">σ</emphasis>), entonces <emphasis effect="italics">z</emphasis> indica cuántas desviaciones típicas está <emphasis effect="italics">x</emphasis> por encima (mayor que) o por debajo (menor que) de <emphasis effect="italics">µ</emphasis>.</para>
 </section>
 
@@ -377,7 +377,7 @@
 </exercise>
 
 <exercise id="fs-idm126130944"><problem id="fs-idp37871552">
-<para id="fs-idm121847760">¿<emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(0, 1) es una distribución normal estandarizada? ¿Por qué o por qué no?</para>
+<para id="fs-idm121847760">¿<emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(0, 1) es una distribución normal estandarizada? ¿Por qué sí o por qué no?</para>
 </problem>
 
 <!-- <solution id="fs-idp48272224">
@@ -435,7 +435,7 @@
 </exercise>
 
 <exercise id="fs-idm69709296"><problem id="fs-idm125097440">
-<para id="fs-idm114104400">Supongamos que <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(2, 3). ¿Qué valor de <emphasis effect="italics">x</emphasis> tiene una puntuación <emphasis effect="italics">z</emphasis>de –0,67?</para></problem>
+<para id="fs-idm114104400">Supongamos que <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(2, 3). ¿Qué valor de <emphasis effect="italics">x</emphasis> tiene una puntuación <emphasis effect="italics">z</emphasis> de –0,67?</para></problem>
 
 <!-- <solution id="fs-idp31923120">
 <para id="fs-idm104570832"><emphasis effect="italics">x</emphasis> = &#8211;0.01</para></solution> -->
@@ -592,12 +592,12 @@
 </exercise>
 
 <exercise id="fs-idp72804864"><problem id="fs-idp72805120">
-<para id="fs-idp193808192">About what percent of <emphasis effect="italics">x</emphasis> values lie between the first and third standard deviations(both sides)?</para></problem>
+<para id="fs-idp193808192">¿Qué porcentaje de los valores de <emphasis effect="italics">x</emphasis> están entre la primera y la tercera desviación típica (en ambos lados)?</para></problem>
 
 <!-- <solution id="fs-idp56159920">
 <para id="fs-idp56160176">about 34.46%</para>
 </solution> -->
-</exercise><para id="fs-idp107376208"><emphasis effect="italics">Use la siguiente información para responder los dos próximos ejercicios:</emphasis> La vida de los reproductores de CD de Sunshine se distribuye normalmente, con una media de 4,1 años y una desviación típica de 1,3 años. El reproductor de CD tiene una garantía de tres años. Nos interesa la duración de un reproductor de CD.</para>
+</exercise><para id="fs-idp107376208"><emphasis effect="italics">Use la siguiente información para responder los dos próximos ejercicios:</emphasis> la vida de los reproductores de CD de Sunshine se distribuye normalmente, con una media de 4,1 años y una desviación típica de 1,3 años. El reproductor de CD tiene una garantía de tres años. Nos interesa la duración de un reproductor de CD.</para>
 <exercise id="fs-idm143086848">
 <problem id="fs-idm63716512">
   <para id="fs-idm74092160">Defina la variable aleatoria <emphasis effect="italics">X</emphasis> con palabras. <emphasis effect="italics">X</emphasis> = _______________.</para>
@@ -618,7 +618,7 @@
 
 <section id="fs-idm58670224" class="free-response">
 <title>Tarea para la casa</title>
-<para id="fs-idp104712416"><emphasis effect="italics">Use la siguiente información para responder los dos próximos ejercicios:</emphasis> El tiempo de recuperación del paciente de un procedimiento quirúrgico en particular se distribuye normalmente, con una media de 5,3 días y una desviación típica de 2,1 días.</para>
+<para id="fs-idp104712416"><emphasis effect="italics">Use la siguiente información para responder los dos próximos ejercicios:</emphasis> el tiempo de recuperación del paciente de un procedimiento quirúrgico en particular se distribuye normalmente, con una media de 5,3 días y una desviación típica de 2,1 días.</para>
 
 <exercise id="fs-idp12375792"><problem id="fs-idm51776288">
   <para id="fs-idm49796352">¿Cuál es la mediana del tiempo de recuperación?</para>
@@ -810,7 +810,7 @@
  </m:mrow>
 </m:math> = 1,74. La calificación del examen de 720 está 1,74 desviaciones típicas por encima de la media de 520.</item>
 <item><emphasis effect="italics">z</emphasis> = 1,5. <newline/>La calificación de la SAT de Matemáticas es 520 + 1,5(115) ≈ 692,5. La calificación del examen de 692,5 está 1,5 desviaciones típicas por encima de la media de 520.</item>
-<item>Los términos <m:math>
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -854,7 +854,7 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math> ≈ 1,70, las calificaciones <emphasis effect="italics">z</emphasis> del ACT. Con respecto a la prueba que tomaron, la persona que presentó el ACT obtuvo mejores resultados (tiene la puntuación <emphasis effect="italics">z</emphasis> más alta).</item>
+</m:math> ≈ 1,70, las puntuaciones <emphasis effect="italics">z</emphasis> del ACT. Con respecto a la prueba que tomaron, la persona que presentó el ACT obtuvo mejores resultados (tiene la puntuación <emphasis effect="italics">z</emphasis> más alta).</item>
 </list></solution>
 </exercise>
 

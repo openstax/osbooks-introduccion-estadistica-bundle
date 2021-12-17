@@ -11,8 +11,8 @@
         <figure id="fs-idp163541072" class="splash"><media id="fs-idp141532880" alt="Esta foto muestra un rayo que sale de una nube oscura y llega al suelo.">
 <image mime-type="image/jpg" src="../../media/CNX_Stats_C04_CON.jpg" width="500"/>
 </media>
-<caption>Puede utilizar probabilidad y variables aleatorias discretas para calcular la probabilidad de que un rayo llegue al suelo cinco veces durante una tormenta de media hora (crédito: Leszek Leszczynski).</caption></figure><note id="fs-idp120416736" class="chapter-objectives">
-
+<caption>Puede utilizar probabilidad y variables aleatorias discretas para calcular la probabilidad de que un rayo llegue al suelo cinco veces durante una tormenta de media hora (créditos: Leszek Leszczynski).</caption></figure><note id="fs-idp120416736" class="chapter-objectives">
+<label/>
 <title>Objetivos del capítulo</title>
 <para id="element-959">Al final de este capítulo el estudiante podrá:</para>
 <list id="list14235"><item>Reconocer y comprender las funciones de distribución de probabilidad discreta, en general.</item>
@@ -25,7 +25,7 @@
 </list>
 </note>
 
-<para id="introch04">Un estudiante responde un cuestionario de diez preguntas de verdadero-falso. Como el estudiante tenía una agenda tan apretada, no podía estudiar y estimaba al azar cada respuesta. ¿Cuál es la probabilidad de que el estudiante apruebe el examen con, al menos, el 70 %?</para><para id="element-804">Hay pequeñas compañías que pueden estar interesadas en el número de llamadas telefónicas de larga distancia que hacen sus empleados en las horas pico del día. Supongamos que la media es de 20 llamadas. ¿Cuál es la probabilidad de que los empleados hagan más de 20 llamadas de larga distancia durante las horas pico?</para>
+<para id="introch04">Un estudiante responde un cuestionario de diez preguntas de verdadero-falso. Como el estudiante tenía una agenda tan apretada, no podía estudiar y estimaba al azar cada respuesta. ¿Cuál es la probabilidad de que el estudiante apruebe el examen con, al menos, el 70 %?</para><para id="element-804">Hay pequeñas compañías que pueden estar interesadas en el número de llamadas telefónicas de larga distancia que hacen sus empleados en las horas pico del día. Supongamos que el promedio es de 20 llamadas. ¿Cuál es la probabilidad de que los empleados hagan más de 20 llamadas de larga distancia durante las horas pico?</para>
 
 <para id="element-919">Estos dos ejemplos ilustran dos tipos diferentes de problemas de probabilidad que implican variables aleatorias discretas. Recordemos que los datos discretos son datos que se pueden contar. Una <term id="term-00001">variable aleatoria</term> describe con palabras los resultados de un experimento estadístico. Los valores de una variable aleatoria pueden variar con cada repetición de un experimento.</para>
 
@@ -37,9 +37,9 @@
 <para id="element-109">Por ejemplo, supongamos que <emphasis effect="italics">X</emphasis> = el número de caras que se obtiene al lanzar tres monedas imparciales. El espacio muestral para el lanzamiento de tres monedas imparciales es <emphasis effect="italics">TTT</emphasis>; <emphasis effect="italics">THH</emphasis>; <emphasis effect="italics">HTH</emphasis>; <emphasis effect="italics">HHT</emphasis>; <emphasis effect="italics">HTT</emphasis>; <emphasis effect="italics">THT</emphasis>; <emphasis effect="italics">TTH</emphasis>; <emphasis effect="italics">HHH</emphasis>. Entonces, <emphasis effect="italics">x</emphasis> = 0, 1, 2, 3. <emphasis effect="italics">X</emphasis> está en palabras y <emphasis effect="italics">x</emphasis> es un número. Observe que para este ejemplo los valores de <emphasis effect="italics">x</emphasis> son resultados contables. Como se pueden contar los posibles valores que puede tomar <emphasis effect="italics">X</emphasis> y los resultados son aleatorios (los valores de <emphasis effect="italics">x</emphasis> 0, 1, 2, 3), <emphasis effect="italics">X</emphasis> es una variable aleatoria discreta.</para></section>
 
 <note id="fs-idp37582368" class="statistics collab">
-
+<label/>
  
-<para id="element-607">Lance una moneda diez veces y anote el número de caras. Después de que todos los miembros de la clase hayan realizado el experimento (lanzar una moneda diez veces y contar el número de caras), rellene la <link target-id="M01_Ch04_tbl001"/>. Supongamos que <emphasis effect="italics">X</emphasis> = el número de caras en diez lanzamientos de la moneda.</para>
+<para id="element-607">Lance una moneda diez veces y anote el número de caras. Después de que todos los miembros de la clase hayan realizado el experimento (lanzar una moneda diez veces y contar el número de caras), rellene la <link target-id="M01_Ch04_tbl001" document=""/>. Supongamos que <emphasis effect="italics">X</emphasis> = el número de caras en diez lanzamientos de la moneda.</para>
 
 <table id="M01_Ch04_tbl001" summary="Table showing x, frequency of x and relative frequency of x. x = the number of heads in 10 tosses of a fair coin.">
 <tgroup cols="3"><thead>

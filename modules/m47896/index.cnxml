@@ -1,9 +1,9 @@
 ﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="appendix">
 
-<title>Notas para las calculadoras TI-83, 83+, 84, 84+</title>
+<title>Notas para las calculadoras TI-83, 83+, 84 y 84+</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m47896</md:content-id>
-  <md:title>Notas para las calculadoras TI-83, 83+, 84, 84+</md:title>
+  <md:title>Notas para las calculadoras TI-83, 83+, 84 y 84+</md:title>
   <md:abstract/>
   <md:uuid>d0ba1833-f0d2-4195-8765-3c436745f0fb</md:uuid>
 </metadata>
@@ -93,7 +93,7 @@
               <image mime-type="image/png" src="../../media/ti83-enter.png"/>
         
             </media>.</item>
-</list></para><note id="eip-623"><title>Nota</title>
+</list></para><note id="eip-623"><label/><title>Nota</title>
 <para id="eip-idp123049456">ERROR 35 LINK significa generalmente que los cables no se han conectado correctamente.</para>
 </note><para id="eip-432"><emphasis>Ambas calculadoras:</emphasis> Inserte su extremo correspondiente del cable de enlace en ambas calculadoras: pulse la <media id="fs-id4481246" display="inline" alt="tecla 2nd">
               <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
@@ -101,7 +101,7 @@
             </media>, luego <code>[QUIT]</code> para salir cuando haya terminado.</para></section>
     <section id="eip-367">
       <title>Manipulación de estadísticas con una sola variable</title>
-      <note id="builtinprogram"><title>Nota</title>
+      <note id="builtinprogram"><label/><title>Nota</title>
 <para id="eip-idp125210352">Estas instrucciones son para introducir datos con el programa estadístico incorporado.</para></note><table id="eip-886" summary="A table of sample data used throughout the rest of this section. The first column is data, while the second column represents the frequency of that data."><title>Datos de la muestra Estamos manipulando estadísticas de una variable.</title>
 <tgroup cols="2"><thead valign="top">
             <row>
@@ -262,7 +262,7 @@
 <item>Deberían aparecer las estadísticas. Puede bajar la flecha para obtener las estadísticas restantes. Repita la operación si es necesario.</item></list></para></section>
     <section id="fs-id15737311">
       <title>Dibujar histogramas</title>
-      <note id="fs-id14426441"><title>Nota</title>
+      <note id="fs-id14426441"><label/><title>Nota</title>
 <para id="eip-idp35239360">Suponemos que ya se introdujeron los datos.</para></note><para id="fs-id15680349">Construiremos dos histogramas con la aplicación incorporada STATPLOT. La primera forma utilizará el ZOOM por defecto. La segunda forma implicará la personalización de un nuevo gráfico.</para>
       <list id="fs-id15742651" list-type="enumerated" number-style="arabic"><item>
 <para id="fs-id15419737">Acceda a modo para graficar.<newline/>
@@ -382,7 +382,7 @@ Utilice las flechas para ir a la imagen del histograma y seleccione el histogram
 <item>
 <list id="fs-id15770367" list-type="bulleted" bullet-style="bullet">
 <item>
-Los términos <m:math><m:mrow>
+<m:math><m:mrow>
   <m:msub>
    <m:mi>X</m:mi>
    <m:mrow>
@@ -394,7 +394,7 @@ Los términos <m:math><m:mrow>
 </m:math>
 </item>
             <item>
-              Los términos <m:math>
+              <m:math>
  <m:mrow>
   <m:msub>
    <m:mi>X</m:mi>
@@ -408,7 +408,7 @@ Los términos <m:math><m:mrow>
 
             </item>
             <item>
-              Los términos <m:math>
+              <m:math>
  <m:mrow>
   <m:msub>
    <m:mi>X</m:mi>
@@ -421,7 +421,7 @@ Los términos <m:math><m:mrow>
 </m:math> (anchura de las barras)
             </item>
             <item>
-              Los términos <m:math>
+              <m:math>
  <m:mrow>
   <m:msub>
    <m:mi>Y</m:mi>
@@ -435,7 +435,7 @@ Los términos <m:math><m:mrow>
 
             </item>
             <item>
-              Los términos <m:math>
+              <m:math>
  <m:mrow>
   <m:msub>
    <m:mi>Y</m:mi>
@@ -449,7 +449,7 @@ Los términos <m:math><m:mrow>
 
             </item>
             <item>
-              Los términos <m:math>
+              <m:math>
  <m:mrow>
   <m:msub>
    <m:mi>Y</m:mi>
@@ -462,7 +462,7 @@ Los términos <m:math><m:mrow>
 </m:math> (espaciado de las marcas de verificación en el eje <emphasis effect="italics">y</emphasis>)
             </item>
             <item>
-              Los términos <m:math>
+              <m:math>
  <m:mrow>
   <m:msub>
    <m:mi>X</m:mi>
@@ -609,7 +609,7 @@ Los términos <m:math><m:mrow>
             <image mime-type="image/png" src="../../media/CNX_Stats_Appendix_ART_Figure_14.6.jpg" width="350"/>
           </media>
           
-        <caption>A mano, verifique el diagrama de dispersión anterior.</caption></figure><note id="fs-id15648837"><title>Nota</title>
+        <caption>A mano, verifique el diagrama de dispersión anterior.</caption></figure><note id="fs-id15648837"><label/><title>Nota</title>
 <para id="eip-idp56972304">La TI-83 incorpora una función de regresión lineal que permite editar los datos. Los valores <emphasis effect="italics">x</emphasis> estarán en <code>[L1]</code>; los valores <emphasis effect="italics">y</emphasis> en <code>[L2]</code>.</para></note><para id="eip-901"><title>Para introducir datos y hacer una regresión lineal:</title><list id="eip-idp244900032" list-type="enumerated" number-style="arabic"><item><para id="fs-id5077977">Encienda la calculadora con ON.<newline/>
 <media id="fs-id7330302" display="inline" alt="tecla ON">
 <image mime-type="image/png" src="../../media/ti83-on.png"/>
@@ -713,7 +713,7 @@ Los términos <m:math><m:mrow>
 </item>
 
 <item>
-Los términos <m:math>
+<m:math>
 <m:ci>r</m:ci>
 </m:math> y <m:math>
 <m:apply>
@@ -838,7 +838,7 @@ Si <code>[L1]</code> no está seleccionada, pulse la
 </media>
 <list id="fs-id4833843" list-type="bulleted" bullet-style="bullet">
 <item>
-Los términos <m:math>
+<m:math>
 <m:mrow>
 <m:msub>
 <m:mi>X</m:mi>
@@ -851,7 +851,7 @@ Los términos <m:math>
 </m:math>
 </item>
 <item>
-Los términos <m:math>
+<m:math>
 <m:mrow>
 <m:msub>
 <m:mi>X</m:mi>
@@ -864,7 +864,7 @@ Los términos <m:math>
 </m:math>
 </item>
 <item>
-Los términos <m:math>
+<m:math>
 <m:mrow>
 <m:msub>
 <m:mi>X</m:mi>
@@ -877,7 +877,7 @@ Los términos <m:math>
 </m:math> (espaciado de las marcas de verificación en el eje <emphasis effect="italics">x</emphasis>)
 </item>
 <item>
-Los términos <m:math>
+<m:math>
 <m:mrow>
 <m:msub>
 <m:mi>Y</m:mi>
@@ -890,7 +890,7 @@ Los términos <m:math>
 </m:math>
 </item>
 <item>
-Los términos <m:math>
+<m:math>
 <m:mrow>
 <m:msub>
 <m:mi>Y</m:mi>
@@ -903,7 +903,7 @@ Los términos <m:math>
 </m:math>
 </item>
 <item>
-Los términos <m:math>
+<m:math>
 <m:mrow>
 <m:msub>
 <m:mi>Y</m:mi>
@@ -916,7 +916,7 @@ Los términos <m:math>
 </m:math> (espaciado de las marcas de verificación en el eje <emphasis effect="italics">y</emphasis>)
 </item>
 <item>
-Los términos <m:math>
+<m:math>
 <m:mrow>
 <m:msub>
 <m:mi>X</m:mi>
@@ -1011,17 +1011,17 @@ Los términos <m:math>
 </m:apply>
 </m:math> donde: <list id="fs-id13668874">
 <item>
-Los términos <m:math>
+<m:math>
 <m:ci>n</m:ci>
 </m:math> = número de pares de datos
 </item>
 <item>
-Los términos <m:math>
+<m:math>
 <m:ci>SSE</m:ci>
 </m:math> = suma de errores cuadrados (sum of squared errors)
 </item>
 <item>
-Los términos <m:math>
+<m:math>
 <m:apply>
 <m:sum/>
 <m:apply>
@@ -1175,13 +1175,13 @@ Los términos <m:math>
         </list></para>
         <para id="eip-283"><title>Distribuciones continuas (en general)</title><list id="eip-idp115972320">
 <item>
-            Los términos <m:math>
+            <m:math>
  <m:mrow>
   <m:mo>–</m:mo><m:mi>∞</m:mi>
  </m:mrow>
 </m:math> utiliza el valor -1EE99 para el límite izquierdo</item>
           <item>
-            Los términos <m:math>
+            <m:math>
               <m:apply>
                 <m:plus/>
                 <m:infinity/>
@@ -1214,7 +1214,7 @@ Los términos <m:math>
       <section id="fs-id15677913">
         <title>Pruebas e intervalos de confianza</title>
         <para id="fs-id15287935">Acceda a <code display="inline">STAT</code> y <code display="inline">TESTS</code>.</para>
-        <para id="fs-id14324569">Para los intervalos de confianza y las pruebas de hipótesis, puede introducir los datos en las listas correspondientes y pulsar <code display="inline">DATA</code> para que la calculadora encuentre las medias muestrales y las desviaciones estándar, o puede introducir directamente las medias muestrales y las desviaciones típicas pulsando <code display="inline">STAT</code> una vez en las pruebas correspondientes.</para>
+        <para id="fs-id14324569">Para los intervalos de confianza y las pruebas de hipótesis, puede introducir los datos en las listas correspondientes y pulsar <code display="inline">DATA</code> para que la calculadora halle las medias muestrales y las desviaciones típicas, o puede introducir directamente las medias muestrales y las desviaciones típicas pulsando <code display="inline">STAT</code> una vez en las pruebas correspondientes.</para>
 <para id="fs-idp96939616">
 <title>Intervalos de confianza</title>
 <list id="fs-id14324572"><item><code display="inline">ZInterval</code> es el intervalo de confianza para la media cuando se conoce σ.</item>
@@ -1223,7 +1223,7 @@ Los términos <m:math>
 
 <item><code display="inline">1-PropZInt</code> es el intervalo de confianza de la proporción.</item>
         </list></para>
-        <note id="fs-id14799914"><title>Nota</title>
+        <note id="fs-id14799914"><label/><title>Nota</title>
 <para id="eip-idp1918880">Los niveles de confianza deben indicarse en porcentajes (por ejemplo, introduzca "<code display="inline">95</code>" o "<code display="inline">0,95</code>" para un nivel de confianza del 95 %).</para></note>
 
 <para id="fs-idp36667376"><title>Pruebas de hipótesis</title>
@@ -1236,7 +1236,7 @@ Los términos <m:math>
 <item><code display="inline">Χ<sup>2</sup>-Test</code> es la prueba de hipótesis de independencia.</item>
 <item><code display="inline">Χ<sup>2</sup>GOF-Test</code> es la prueba de hipótesis de bondad de ajuste (solo en la TI-84+).</item>
 <item><code display="inline">LinRegTTEST</code> es la prueba de hipótesis para la Regresión Lineal (solo en la TI-84+).</item></list></para>
-        <note id="fs-id15374930"><title>Nota</title>
+        <note id="fs-id15374930"><label/><title>Nota</title>
 <para id="eip-idp140444871127008">Introduzca el valor de la hipótesis nula en la fila de abajo "<code display="inline">Inpt</code>." En una prueba de una sola media, "<code display="inline">μ∅</code>“ representa la hipótesis nula. En una prueba de una sola proporción, "<code display="inline">p∅</code>“ representa la hipótesis nula. Introduzca la hipótesis alternativa en la fila inferior.</para></note></section>
     </section>
    </content>

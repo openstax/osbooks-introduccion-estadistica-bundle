@@ -9,7 +9,7 @@
 </metadata>
 
 <content>
-  <note id="fs-id1170238033322" class="statistics lab"><title>Laboratorio 2: prueba de independencia de chi-cuadrado</title>
+  <note id="fs-id1170238033322" class="statistics lab"><label/><title>Laboratorio 2: prueba de independencia de chi-cuadrado</title>
     <para id="id8363924">Hora de la clase: </para>
   <para id="id7668722">Nombres:</para>
   <list id="id3831121" list-type="bulleted">
@@ -18,7 +18,7 @@
    </list> <list id="list-8652384" list-type="enumerated">
    <title>Recopilación de datos</title>
    <item>Utilizando su clase como muestra, complete el siguiente cuadro. Pregúntense mutuamente cuál es su merienda favorita y sume los resultados.
-    <para id="fs-idm375259168"><emphasis>Note</emphasis>You may need to combine two food categories so that each cell has an expected value of at least five.
+    <para id="fs-idm375259168"><emphasis>Nota</emphasis> Es posible que tenga que combinar dos categorías de alimentos para que cada celda tenga un valor esperado de al menos cinco.
     </para><table id="id89871qw3984l8" summary="This table presents the favorite type of snack in columns 2-5 and the total in the sixth column. The first row is male, the second row is female, and the third row is total.">
      <title>Tipo de merienda favorita</title>
      <tgroup cols="6"><colspec colnum="1" colname="c1"/>
@@ -33,7 +33,7 @@
         <entry>dulces (caramelos y productos de pastelería)</entry>
         <entry>helado</entry>
         <entry>papas fritas y pretzels</entry>
-        <entry>frutas y verduras</entry>
+        <entry>frutas y vegetales</entry>
         <entry>Total</entry>
        </row>
       </thead>
@@ -65,7 +65,7 @@
       </tbody>
      </tgroup>
     </table></item>
-   <item>Al observar la <link target-id="id89871qw3984l8"/>, ¿le parece que hay una dependencia entre el género y el tipo de merienda favorita? ¿Por qué o por qué no?</item>
+   <item>Al observar la <link target-id="id89871qw3984l8"/>, ¿le parece que hay una dependencia entre el género y el tipo de merienda favorita? ¿Por qué sí o por qué no?</item>
   </list>
      <para id="element-52">
      <title>Prueba de hipótesis</title>

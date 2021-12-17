@@ -29,7 +29,7 @@
    <m:mn>6</m:mn>
   </m:mfrac>
  </m:mrow>
-</m:math>. Si lanzara el dado solo unas pocas veces, no se sorprendería si los resultados observados no coinciden con la probabilidad. Si se lanzara el dado un gran número de veces, se esperaría eso, en general, <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> de las lanzadas daría un resultado de “al menos cinco”. No se puede esperar exactamente <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> La frecuencia relativa a largo plazo de obtener este resultado se acerca a la probabilidad teórica de <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> a medida que el número de repeticiones aumenta.</para>
+</m:math>. Si lanzara el dado solo unas pocas veces, no se sorprendería si los resultados observados no coinciden con la probabilidad. Si se lanzara el dado un gran número de veces, se esperaría eso, en general, <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> de las lanzadas daría un resultado de “al menos cinco”. No se puede esperar exactamente <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math>. La frecuencia relativa a largo plazo de obtener este resultado se acerca a la probabilidad teórica de <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> a medida que el número de repeticiones aumenta.</para>
 
 <para id="eip-664">Esta importante característica de los experimentos probabilísticos se conoce como la <term id="term-00009">ley de los grandes números</term>, que establece que, a medida que aumenta el número de repeticiones de un experimento, la frecuencia relativa obtenida tiende a acercarse cada vez más a la probabilidad teórica. Aunque los resultados no se produzcan según un patrón u orden determinado, en general, la frecuencia relativa observada a largo plazo se acerca a la probabilidad teórica (a menudo se utiliza la palabra <emphasis>empírica</emphasis> en vez de la palabra observado).</para>
 
@@ -204,7 +204,7 @@
 </example>
 
 <note id="fs-idm38461776" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 <exercise id="fs-idp18521824">
 <problem id="fs-idp8232288">
@@ -253,7 +253,7 @@
 </example>
 
 <example id="fs-idp6753008">
-<para id="fs-idp15243376"><link target-id="ch03_M02-tbl001"/> describe la distribución de una muestra aleatoria <emphasis effect="italics">S</emphasis> de 100 personas, organizada por sexo y por si son diestros o zurdos.
+<para id="fs-idp15243376">La <link target-id="ch03_M02-tbl001"/> describe la distribución de una muestra aleatoria <emphasis effect="italics">S</emphasis> de 100 personas, organizada por sexo y por si son diestras o zurdas.
 <table id="ch03_M02-tbl001" summary="Example 3 Table">
 <tgroup cols="3"><thead>
 <row>
@@ -315,7 +315,7 @@
 </section>
 
 <section id="fs-idp18168192" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idp7404384">En este módulo hemos aprendido la terminología básica de la probabilidad. El conjunto de todos los resultados posibles de un experimento se denomina espacio muestral. Los eventos son subconjuntos del espacio muestral y se les asigna una probabilidad que es un número entre cero y uno, ambos inclusive.</para>
 </section>
 
@@ -447,7 +447,7 @@
     </m:mrow>
    </m:mfrac>
    </m:mrow>
-  </m:math> = 0.13</para>
+  </m:math> = 0,13</para>
 </solution>
 </exercise>
 
@@ -497,7 +497,7 @@
    <m:mrow>
    <m:mfrac>
     <m:mrow>
-     <m:mn>150</m:mn><m:mo>-</m:mo><m:mn>22</m:mn><m:mo>–</m:mo><m:mn>38</m:mn><m:mo>–</m:mo><m:mn>20</m:mn><m:mo>–</m:mo><m:mn>28</m:mn><m:mo>–</m:mo><m:mn>26</m:mn>
+     <m:mn>150</m:mn><m:mo>–</m:mo><m:mn>22</m:mn><m:mo>–</m:mo><m:mn>38</m:mn><m:mo>–</m:mo><m:mn>20</m:mn><m:mo>–</m:mo><m:mn>28</m:mn><m:mo>–</m:mo><m:mn>26</m:mn>
     </m:mrow>
     <m:mrow>
      <m:mn>150</m:mn>
@@ -525,7 +525,7 @@
    </m:mfrac>
 
   </m:mrow>
-  </m:math> = 0.11</para></solution>
+  </m:math> = 0,11</para></solution>
 </exercise>
 
 <para id="fs-idm25754160"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos seis ejercicios.</emphasis> Hay 23 países en América del Norte, 12 en América del Sur, 47 en Europa, 44 en Asia, 54 en África y 14 en Oceanía (región del Océano Pacífico). <newline/>Supongamos que <emphasis effect="italics">A</emphasis> = el evento en el que un país esté en Asia. <newline/>Supongamos que <emphasis effect="italics">E</emphasis> = el evento en el que un país esté en Europa. <newline/>Supongamos que <emphasis effect="italics">F</emphasis> = el evento en el que un país esté en África. <newline/>Supongamos que <emphasis effect="italics">N</emphasis> = el evento en el que un país esté en América del Norte. <newline/>Supongamos que <emphasis effect="italics">O</emphasis> = el evento en el que un país esté en Oceanía. <newline/>Supongamos que <emphasis effect="italics">S</emphasis> = el evento en el que un país esté en América del Sur.</para>
@@ -547,7 +547,7 @@
     </m:mrow>
    </m:mfrac>
     </m:mrow>
-  </m:math> = 0.24</para></solution>
+  </m:math> = 0,24</para></solution>
 </exercise>
 
 <exercise id="fs-idm79250496"><problem id="fs-idm80555184"><para id="fs-idm66849952">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis>).</para></problem>
@@ -595,7 +595,7 @@
     </m:mrow>
    </m:mfrac>
     </m:mrow>
-  </m:math> = 0.06</para></solution>
+  </m:math> = 0,06</para></solution>
 </exercise>
 
 <exercise id="fs-idm24247104"><problem id="fs-idm21936736">
@@ -606,7 +606,7 @@
 <exercise id="fs-idm28330400">
 <problem id="fs-idp20091712">
 <para id="fs-idm24866720">¿Cuál es la probabilidad de sacar un trébol en un mazo estándar de 52 cartas?</para></problem>
-<solution id="fs-idm10488336"><para id="fs-idm169440">Los términos <m:math>
+<solution id="fs-idm10488336"><para id="fs-idm169440"><m:math>
    <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -624,7 +624,7 @@
     <m:mn>4</m:mn>
    </m:mfrac>
     </m:mrow>
-  </m:math> = 0.25</para></solution>
+  </m:math> = 0,25</para></solution>
 </exercise>
 
 <exercise id="fs-idm3623360"><problem id="fs-idm62001312"><para id="fs-idm85725360">¿Cuál es la probabilidad de sacar un número par de puntos con un dado imparcial de seis lados numerados del uno al seis?</para></problem>
@@ -632,7 +632,7 @@
 
 <exercise id="fs-idm61066160">
 <problem id="fs-idm109071856"><para id="fs-idm92474096">¿Cuál es la probabilidad de sacar un número primo de puntos con un dado imparcial de seis lados numerados del uno al seis?</para></problem>
-<solution id="fs-idm86034528"><para id="fs-idp53515360">Los términos <m:math>
+<solution id="fs-idm86034528"><para id="fs-idp53515360"><m:math>
   <m:mrow>
    <m:mfrac>
     <m:mn>3</m:mn>
@@ -647,7 +647,7 @@
     <m:mn>2</m:mn>
    </m:mfrac>
     </m:mrow>
-  </m:math> = 0.5</para>
+  </m:math> = 0,5</para>
 </solution>
 </exercise>
 
@@ -669,7 +669,7 @@
 <para id="fs-idm60563664">Si cae en rojo, no recibe premio. ¿Qué es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>)?</para>
 </problem>
 <solution id="fs-idm86444976">
-<para id="fs-idm10991472">Los términos <m:math>
+<para id="fs-idm10991472"><m:math>
  <m:mrow>
   <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
    <m:mn>4</m:mn>
@@ -830,7 +830,7 @@
 
 <definition id="eqlikly">
 <term>Igual de probable</term>
-<meaning id="id3651637">Cada resultado de un experimento tiene la misma probabilidad.</meaning>
+<meaning id="id3651637">cada resultado de un experimento tiene la misma probabilidad</meaning>
   </definition>
 
 <definition id="event">
@@ -871,8 +871,8 @@
 </definition>
 
 <definition id="fs-idp6248000">
-<term>El complemento del evento</term>
-<meaning id="fs-idp20218352">El complemento del evento <emphasis effect="italics">A</emphasis> consiste en todos los resultados que NO están en <emphasis effect="italics">A</emphasis>.</meaning>
+<term>Complemento del evento</term>
+<meaning id="fs-idp20218352">el complemento del evento <emphasis effect="italics">A</emphasis> consiste en todos los resultados que NO están en <emphasis effect="italics">A</emphasis>.</meaning>
 </definition>
 
 <definition id="fs-idm8780960">

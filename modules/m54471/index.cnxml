@@ -17,7 +17,7 @@
 <item><emphasis effect="italics">P(x = c) =</emphasis> 0 significa que es la probabilidad de que <emphasis effect="italics">x</emphasis> tome cualquier valor individual es cero. El área por debajo de la curva, por encima del eje <emphasis effect="italics">x</emphasis> y entre <emphasis effect="italics">x</emphasis> = <emphasis effect="italics">c</emphasis> y <emphasis effect="italics">x</emphasis> = <emphasis effect="italics">c</emphasis> no tiene ancho, y por tanto no tiene área (área = 0). Como la probabilidad es igual al área, la probabilidad también es cero.</item>
 <item><emphasis effect="italics">P(c &lt; x &lt; d)</emphasis> es lo mismo que <emphasis effect="italics">P(c ≤ x ≤ d)</emphasis> porque la probabilidad es igual al área.</item>
 </list></para>
-<para id="eip-423">Hallaremos el área que representa la probabilidad mediante geometría, fórmulas, tecnología o tablas de probabilidad. En general, el cálculo integral es necesario para encontrar el área bajo la curva de muchas funciones de densidad de probabilidad. Cuando usamos fórmulas para hallar el área en este libro de texto, las fórmulas fueron halladas mediante técnicas del cálculo integral.</para><para id="eip-335">Hay muchas distribuciones de probabilidad continuas. Cuando se utiliza una distribución de probabilidad continua para modelar la probabilidad, la distribución utilizada se selecciona para modelar y ajustarse a la situación particular de la mejor manera.</para>
+<para id="eip-423">Hallaremos el área que representa la probabilidad mediante geometría, fórmulas, tecnología o tablas de probabilidad. En general, el cálculo integral es necesario para hallar el área bajo la curva de muchas funciones de densidad de probabilidad. Cuando usamos fórmulas para hallar el área en este libro de texto, las fórmulas fueron halladas mediante técnicas del cálculo integral.</para><para id="eip-335">Hay muchas distribuciones de probabilidad continuas. Cuando se utiliza una distribución de probabilidad continua para modelar la probabilidad, la distribución utilizada se selecciona para modelar y ajustarse a la situación particular de la mejor manera.</para>
 <para id="eip-94">En este capítulo y en el siguiente estudiaremos la distribución uniforme, la exponencial y la normal. Los siguientes gráficos ilustran estas distribuciones.</para><para id="eip-114">
 <figure id="id4131243">
 <media id="id1164320264037" alt="Este gráfico muestra una distribución uniforme. El eje horizontal va de 0 a 10. La distribución se modela mediante un rectángulo que se extiende desde x = 2 hasta x = 8,8. En el interior del rectángulo está sombreada una región desde x = 3 hasta x = 6. El área sombreada representa P(3 x &lt; 6).">
@@ -42,7 +42,7 @@
 <para id="element-630">Consideremos la función <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math> para 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 20. <emphasis effect="italics">x</emphasis> = un número real. El gráfico de <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math> es una línea horizontal. Sin embargo, como 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 20, <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) se restringe a la porción entre <emphasis effect="italics">x</emphasis> = 0 y <emphasis effect="italics">x</emphasis> = 20, inclusive.</para><figure id="fs-idm76319168"><media id="id39758796" alt="Esto muestra el gráfico de la función f(x) = 1/20. Una línea horizontal va desde el punto (0, 1/20) hasta el punto (20, 1/20). Una línea vertical se extiende desde el eje x hasta el final de la línea en el punto (20, 1/20) y crea un rectángulo.">
 <image src="../../media/fig-ch05_02_01.jpg" mime-type="image/jpg" width="380"/></media></figure>
 
-<para id="element-37"><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math> <emphasis>para</emphasis> 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 20.</para><para id="element-951">El gráfico de <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math> es un segmento de línea horizontal cuando 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 20.</para><para id="element-515">El área entre <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math> donde 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 20 y el eje <emphasis effect="italics">x</emphasis>es el área de un rectángulo con base = 20 y altura = <m:math><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math>.</para><equation class="unnumbered" id="eip-771"><m:math display="block">
+<para id="element-37"><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math> <emphasis>para</emphasis> 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 20.</para><para id="element-951">El gráfico de <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math> es un segmento de línea horizontal cuando 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 20.</para><para id="element-515">El área entre <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math> donde 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 20 y el eje <emphasis effect="italics">x</emphasis> es el área de un rectángulo con base = 20 y altura = <m:math><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math>.</para><equation class="unnumbered" id="eip-771"><label/><m:math display="block">
 <m:mrow>
 <m:mtext>ÁREA</m:mtext><m:mo>=</m:mo><m:mn>20</m:mn><m:mrow><m:mo>(</m:mo>
 <m:mrow>
@@ -81,8 +81,8 @@
   <m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>–</m:mo><m:mtext> </m:mtext><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> base de un rectángulo</m:mtext>
  </m:mrow>
 </m:math>
-</para><note id="eip-259" type="Reminder"><title>Recordatorio</title>
-<para id="eip-idp74119024">área de un rectángulo = (base)(altura).</para></note><para id="element-961">El área corresponde a una probabilidad. La probabilidad de que <emphasis effect="italics">x</emphasis> esté entre cero y dos es 0,1, lo que se puede escribir matemáticamente como <emphasis effect="italics">P</emphasis>(0 &lt; <emphasis effect="italics">x</emphasis> &lt; 2) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 2) = 0,1.</para><para id="eip-553"><emphasis>Supongamos que queremos hallar el área entre <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math> y el eje <emphasis effect="italics">x</emphasis>donde 4 &lt; <emphasis effect="italics">x</emphasis> &lt; 15.</emphasis></para><figure id="fs-idm39582736"><media id="id40137735" alt="Esto muestra el gráfico de la función f(x) = 1/20. Una línea horizontal va desde el punto (0, 1/20) hasta el punto (20, 1/20). Una línea vertical se extiende desde el eje x hasta el final de la línea en el punto (20, 1/20) y crea un rectángulo. En el interior del rectángulo hay una región sombreada desde x = 4 hasta x = 15.">
+</para><note id="eip-259" type="Reminder"><label/><title>Recordatorio</title>
+<para id="eip-idp74119024">área de un rectángulo = (base)(altura).</para></note><para id="element-961">El área corresponde a una probabilidad. La probabilidad de que <emphasis effect="italics">x</emphasis> esté entre cero y dos es 0,1, lo que se puede escribir matemáticamente como <emphasis effect="italics">P</emphasis>(0 &lt; <emphasis effect="italics">x</emphasis> &lt; 2) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 2) = 0,1.</para><para id="eip-553"><emphasis>Supongamos que queremos hallar el área entre <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math> y el eje <emphasis effect="italics">x</emphasis> donde 4 &lt; <emphasis effect="italics">x</emphasis> &lt; 15.</emphasis></para><figure id="fs-idm39582736"><media id="id40137735" alt="Esto muestra el gráfico de la función f(x) = 1/20. Una línea horizontal va desde el punto (0, 1/20) hasta el punto (20, 1/20). Una línea vertical se extiende desde el eje x hasta el final de la línea en el punto (20, 1/20) y crea un rectángulo. En el interior del rectángulo hay una región sombreada desde x = 4 hasta x = 15.">
 <image src="../../media/fig-ch05_02_03.jpg" mime-type="image/jpg" width="380"/></media></figure>
 
 <para id="fs-idm75475104"><m:math display="">
@@ -100,7 +100,7 @@
   <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>0,55</m:mn>
  </m:mrow>
 </m:math>
-</para><para id="element-376">Los términos <m:math>
+</para><para id="element-376"><m:math>
  <m:mrow>
   <m:mo stretchy="false">(</m:mo><m:mn>15</m:mn><m:mtext> </m:mtext><m:mo>–</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>11</m:mn><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> la base de un rectángulo</m:mtext>
  </m:mrow>
@@ -137,9 +137,9 @@
 </m:mrow>
 </m:math>, 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 20.</para><para id="fs-idp36326688">Para calcular la probabilidad de que <emphasis effect="italics">x</emphasis> esté entre dos valores, observe el siguiente gráfico. Sombree la región entre <emphasis effect="italics">x</emphasis> = 2,3 y <emphasis effect="italics">x</emphasis> = 12,7. Luego, calcule el área sombreada de un rectángulo.</para>
 <figure id="fs-idp96750640"><media id="id40140418" alt="Esto muestra el gráfico de la función f(x) = 1/20. Una línea horizontal va desde el punto (0, 1/20) hasta el punto (20, 1/20). Una línea vertical se extiende desde el eje x hasta el final de la línea en el punto (20, 1/20) y crea un rectángulo. En el interior del rectángulo se sombrea una región desde x = 2,3 hasta x = 12,7"><image src="../../media/fig-ch05_02_06.jpg" mime-type="image/jpg" width="380"/></media></figure>
-<para id="element-979">Los términos <m:math>
+<para id="element-979"><m:math>
  <m:mrow>
-  <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2,3</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>12,7</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>base</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>altura</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>12,7</m:mn><m:mo>- −</m:mo><m:mn>2,3</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+  <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2,3</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>12,7</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>base</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>altura</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>12,7</m:mn><m:mo>–</m:mo><m:mn>2,3</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
     <m:mfrac>
      <m:mn>1</m:mn>
@@ -154,7 +154,7 @@
 </m:math></para></example>
 
 <note id="fs-idm47598048" class="statistics try">
-
+<label/>
 <title>Ejercicio</title>
 
 <exercise id="fs-idm81426464">
@@ -179,7 +179,7 @@
 </exercise>
 </note>
 <section id="fs-idp147304960" class="summary">
-<title>Revisión del capítulo</title>
+<title>Repaso del capítulo</title>
 <para id="fs-idp147305600">La función de densidad de probabilidad (pdf) se utiliza para describir probabilidades de variables aleatorias continuas. El área debajo de la curva de densidad entre dos puntos corresponde a la probabilidad de que la variable se sitúe entre esos dos valores. En otras palabras, el área debajo de la curva de densidad entre los puntos <emphasis effect="italics">a</emphasis> y <emphasis effect="italics">b</emphasis> es igual a <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">a</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">b</emphasis>). La función de distribución acumulativa (cdf) da la probabilidad como un área. Si <emphasis effect="italics">X</emphasis> es una variable aleatoria continua, la función de densidad de probabilidad (pdf), <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) se utiliza para dibujar el gráfico de la distribución de probabilidad. El área total debajo del gráfico de <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) es uno. El área debajo del gráfico de <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) y entre los valores <emphasis effect="italics">a</emphasis> y <emphasis effect="italics">b</emphasis> da la probabilidad <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">a</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">b</emphasis>).</para><figure id="fs-idm60245824"><media id="fs-idp150656848" alt="El gráfico de la izquierda muestra una curva de densidad general, y = f(x). La región debajo de la curva y por encima del eje x está sombreada. El área de la región sombreada es igual a 1. Esto demuestra que todos los resultados posibles están representados por la curva. El gráfico de la derecha muestra la misma curva de densidad. Las líneas verticales x = a y x = b se extienden desde el eje hasta la curva, y el área entre las líneas está sombreada. El área de la región sombreada representa la probabilidad de que un valor x se encuentre entre a y b.">
 <image mime-type="image/jpg" src="../../media/CNX_Stats_C05_M02_001.jpg" width="380"/></media></figure><para id="fs-idp108663296">La función de distribución acumulativa (cdf) de <emphasis effect="italics">X</emphasis> se define por <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">X</emphasis> ≤ <emphasis effect="italics">x</emphasis>). Es una función de <emphasis effect="italics">x</emphasis> que da la probabilidad de que la variable aleatoria sea menor o igual que <emphasis effect="italics">x</emphasis>.</para>
 </section>
@@ -251,7 +251,7 @@
 
 <exercise id="fs-idm118866416">
 <problem id="fs-idm94113008">
-<para id="fs-idm186932672">For a continuous probability distribution, 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15. ¿Qué es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 15)?</para></problem>
+<para id="fs-idm186932672">Para una distribución de probabilidad continua, 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15. ¿Qué es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 15)?</para></problem>
 </exercise>
 
 <exercise id="fs-idm154014752">
@@ -375,7 +375,7 @@
 <m:mn>3</m:mn>
 </m:mfrac>
 </m:mrow>
-</m:math></para></solution>
+</m:math>.</para></solution>
 </exercise>
 </section>
 
@@ -403,7 +403,7 @@
 <glossary>
 <definition id="fs-idm138335264">
 <term>Distribución uniforme</term>
-<meaning id="fs-idm102638224">variable aleatoria (RV) continua que tiene resultados igualmente probables sobre el dominio, <emphasis effect="italics">a</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">b</emphasis>; a menudo se denomina <emphasis>distribución rectangular</emphasis> porque la gráfica de la pdf tiene la forma de un rectángulo. La media es <emphasis effect="italics">μ</emphasis> = <m:math display="">
+<meaning id="fs-idm102638224">variable aleatoria (RV) continua que tiene resultados igualmente probables sobre el dominio, <emphasis effect="italics">a</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">b</emphasis>; a menudo se denomina <emphasis>distribución rectangular</emphasis> porque el gráfico de la pdf tiene la forma de un rectángulo. La media es <emphasis effect="italics">μ</emphasis> = <m:math display="">
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -436,7 +436,7 @@
 </m:mrow>
 </m:msqrt>
 </m:mrow>
-</m:math> La función de densidad de probabilidad es <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math display="">
+</m:math>. La función de densidad de probabilidad es <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math display="">
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -475,7 +475,7 @@
 <m:mi>m</m:mi>
 </m:mfrac>
 </m:mrow>
-</m:math>. La función de densidad de probabilidad es <m:math><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo> <m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mo>-</m:mo><m:mi>m</m:mi><m:mi>x</m:mi></m:mrow></m:msup></m:math> o <m:math> <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mo>-</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:mi>x</m:mi></m:mrow></m:msup></m:math>, <emphasis effect="italics">x</emphasis> ≥ 0 y la función de distribución acumulativa es <m:math><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mo>–</m:mo><m:mi>m</m:mi><m:mi>x</m:mi></m:mrow></m:msup></m:math> o <m:math><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mo>-</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:mi>x</m:mi></m:mrow></m:msup></m:math>.</meaning>
+</m:math>. La función de densidad de probabilidad es <m:math><m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo> <m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mo>–</m:mo><m:mi>m</m:mi><m:mi>x</m:mi></m:mrow></m:msup></m:math> o <m:math> <m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mo>–</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:mi>x</m:mi></m:mrow></m:msup></m:math>, <emphasis effect="italics">x</emphasis> ≥ 0 y la función de distribución acumulativa es <m:math><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mo>–</m:mo><m:mi>m</m:mi><m:mi>x</m:mi></m:mrow></m:msup></m:math> o <m:math><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mo>–</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:mi>x</m:mi></m:mrow></m:msup></m:math>.</meaning>
 </definition>
 </glossary>
 
