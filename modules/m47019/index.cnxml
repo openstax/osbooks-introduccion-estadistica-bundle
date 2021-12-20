@@ -380,7 +380,8 @@ Para este problema, <m:math>
 <exercise id="eip-454">
 <problem id="eip-806">
 <para id="eip-idm59977568">Se cree que el precio de las acciones de una determinada compañía crecerá a un ritmo de 5 dólares por semana con una desviación típica de 1 dólar. Un inversor cree que las acciones no crecerán tan rápido. Las variaciones en el precio de las acciones se registran durante diez semanas y son las siguientes: 4, 3, 2, 3, 1, 7, 2, 1, 1 y 2 dólares. Realice una prueba de hipótesis con un nivel de significación del 5 %. Plantee las hipótesis nula y alternativa, halle el valor <emphasis effect="italics">p</emphasis>, exponga su conclusión e identifique los errores de tipo I y tipo II.</para></problem>
-</exercise></note><example id="element-940">
+</exercise></note>
+<example id="element-940">
 <exercise id="element-366"><problem id="id5304801">
   <para id="element-904">Joon cree que el 50 % de las novias primerizas en Estados Unidos son más jóvenes que sus novios. Realice una prueba de hipótesis para determinar si el porcentaje es <emphasis>igual o diferente del 50 %</emphasis>. Joon toma muestras de <emphasis>100 novias primerizas</emphasis> y <emphasis>53</emphasis> responden que son más jóvenes que sus novios. Para la prueba de la hipótesis, utilice un nivel de significación del 1 %.</para>
 </problem>
@@ -440,7 +441,7 @@ Para este problema, <m:math>
  <m:mo>)</m:mo></m:mrow>
 </m:math></para><para id="fs-idm107085552">donde <emphasis effect="italics">p</emphasis> = 0,50, <emphasis effect="italics">q</emphasis> = 1−<emphasis effect="italics">p</emphasis> = 0,50 y <emphasis effect="italics">n</emphasis> = 100</para>
 <para id="fs-idp14246672">Calcule el valor <emphasis effect="italics">p</emphasis> con la distribución normal para las proporciones:</para>
- <para id="element-518">valor <emphasis effect="italics">p</emphasis>= <emphasis effect="italics">P<emphasis effect="italics"> (p′</emphasis> &lt; 0,47 o <emphasis effect="italics">p′</emphasis> > 0,53) = 0,5485
+ <para id="element-518">valor <emphasis effect="italics">p</emphasis>= <emphasis effect="italics">P</emphasis><emphasis effect="italics"> (p′</emphasis> &lt; 0,47 o <emphasis effect="italics">p′</emphasis> > 0,53) = 0,5485</para>
 <para id="fs-idp133040416">donde <emphasis effect="italics">x</emphasis> = 53, <emphasis effect="italics">p′</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
@@ -460,7 +461,9 @@ Para este problema, <m:math>
 <para id="element-360"><emphasis effect="italics">p′</emphasis> = 0,53. Dado que la curva es simétrica y la prueba es de dos colas, la <emphasis effect="italics">p′</emphasis> de la cola izquierda es igual a 0,50 - 0,03 = 0,47, donde <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">p</emphasis> = 0,50. (0,03 es la diferencia entre 0,53 y 0,50).</para><para id="element-140">Compare <emphasis effect="italics">α</emphasis> y el valor <emphasis effect="italics">p</emphasis>:</para>
 <para id="element-576">Dado que <emphasis effect="italics">α</emphasis> = 0,01 y el valor <emphasis effect="italics">p</emphasis> = 0,5485. <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis>.</para><para id="element-293"><emphasis>Tome una decisión:</emphasis> Como <emphasis effect="italics">α</emphasis> &lt; valor <emphasis effect="italics">p</emphasis>, no se puede rechazar <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
 <para id="element-962"><emphasis>Conclusión:</emphasis> Al nivel de significación del 1 %, los datos de la muestra no muestran pruebas suficientes de que el porcentaje de novias primerizas que son más jóvenes que sus novios sea diferente del 50 %.</para>
-
+</solution>
+</exercise>
+</example>
 <para id="element-990">El valor <emphasis effect="italics">p</emphasis> se calcula fácilmente.</para>
 <note id="fs-idm35225600" class="statistics calculator">
 <label/>
@@ -1606,58 +1609,61 @@ Dibuje el gráfico de una prueba de dos colas.
 <para id="eip-363">Johansen, C., J. Boice, Jr., J. McLaughlin, J. Olsen. “Cellular Telephones and Cancer—a Nationwide Cohort Study in Denmark”. Institute of Cancer Epidemiology and the Danish Cancer Society, 93(3):203-7. Disponible en línea en http://www.ncbi.nlm.nih.gov/pubmed/11158188 (consultado el 27 de junio de 2013).</para>
 <para id="eip-215">Rape, Abuse &amp; Incest National Network. “How often does sexual assault occur?”. RAINN, 2009. Disponible en línea en http://www.rainn.org/get-information/statistics/frequency-of-sexual-assault (consultado el 27 de junio de 2013).</para></section> 
 
-<glossary>
- <definition id="centlimit">
-    <term>Teorema del límite central</term>
-    <meaning id="id43867050">
-     Dada una variable aleatoria (RV) con media conocida <m:math><m:mi>μ</m:mi></m:math> y la desviación típica conocida σ. Estamos muestreando con un tamaño <emphasis effect="italics">n</emphasis> y nos interesan dos nuevas RV: la media muestral, <m:math>
- <m:mover accent="true">
-  <m:mi>X</m:mi>
-  <m:mo>¯</m:mo>
- </m:mover>
+</content>
 
-</m:math>, y la suma de la muestra, <m:math><m:mrow><m:mi>Σ</m:mi><m:mi>X</m:mi></m:mrow></m:math>. Si el tamaño <emphasis effect="italics">n</emphasis> de la muestra es suficientemente grande, entonces <m:math>
- <m:mrow>
+<glossary>
+  <definition id="centlimit">
+     <term>Teorema del límite central</term>
+     <meaning id="id43867050">
+      Dada una variable aleatoria (RV) con media conocida <m:math><m:mi>μ</m:mi></m:math> y la desviación típica conocida σ. Estamos muestreando con un tamaño <emphasis effect="italics">n</emphasis> y nos interesan dos nuevas RV: la media muestral, <m:math>
   <m:mover accent="true">
    <m:mi>X</m:mi>
    <m:mo>¯</m:mo>
   </m:mover>
-  <m:mo>~</m:mo><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
-   <m:mrow>
-    <m:mi>μ</m:mi><m:mtext>,</m:mtext><m:mfrac>
-     <m:mi>σ</m:mi>
-     <m:mrow>
-      <m:msqrt>
-       <m:mi>n</m:mi>
-      </m:msqrt>
+ 
+ </m:math>, y la suma de la muestra, <m:math><m:mrow><m:mi>Σ</m:mi><m:mi>X</m:mi></m:mrow></m:math>. Si el tamaño <emphasis effect="italics">n</emphasis> de la muestra es suficientemente grande, entonces <m:math>
+  <m:mrow>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+   <m:mo>~</m:mo><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mi>μ</m:mi><m:mtext>,</m:mtext><m:mfrac>
+      <m:mi>σ</m:mi>
+      <m:mrow>
+       <m:msqrt>
+        <m:mi>n</m:mi>
+       </m:msqrt>
+ 
+      </m:mrow>
+     </m:mfrac>
+ 
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow>
+  </m:mrow>
+ </m:math> y <m:math>
+  <m:mrow>
+   <m:mi>Σ</m:mi><m:mi>X</m:mi><m:mo>~</m:mo><m:mi>N</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mi>μ</m:mi><m:mo>,</m:mo><m:msqrt>
+    <m:mi>n</m:mi>
+   </m:msqrt>
+   <m:mi>σ</m:mi><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ </m:math>. Si el tamaño <emphasis effect="italics">n</emphasis> de la muestra es suficientemente grande, la distribución de las medias muestrales y la distribución de las sumas muestrales se aproximarán a una distribución normal, independientemente de la forma de la población. La media de las medias muestrales será igual a la media de la población, y la media de las sumas muestrales será igual a <emphasis effect="italics">n</emphasis> veces la media de la población. La desviación típica de la distribución de las medias muestrales, <m:math>
+  <m:mrow>
+   <m:mfrac>
+    <m:mi>σ</m:mi>
+    <m:mrow>
+     <m:msqrt>
+      <m:mi>n</m:mi>
+     </m:msqrt>
+    </m:mrow>
+   </m:mfrac>
+  </m:mrow>
+ </m:math>, se denomina error estándar de la media.</meaning>
+   </definition>
+ 
+ 
+ </glossary>
 
-     </m:mrow>
-    </m:mfrac>
-
-   </m:mrow>
-  <m:mo>)</m:mo></m:mrow>
- </m:mrow>
-</m:math> y <m:math>
- <m:mrow>
-  <m:mi>Σ</m:mi><m:mi>X</m:mi><m:mo>~</m:mo><m:mi>N</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mi>μ</m:mi><m:mo>,</m:mo><m:msqrt>
-   <m:mi>n</m:mi>
-  </m:msqrt>
-  <m:mi>σ</m:mi><m:mo stretchy="false">)</m:mo>
- </m:mrow>
-</m:math>. Si el tamaño <emphasis effect="italics">n</emphasis> de la muestra es suficientemente grande, la distribución de las medias muestrales y la distribución de las sumas muestrales se aproximarán a una distribución normal, independientemente de la forma de la población. La media de las medias muestrales será igual a la media de la población, y la media de las sumas muestrales será igual a <emphasis effect="italics">n</emphasis> veces la media de la población. La desviación típica de la distribución de las medias muestrales, <m:math>
- <m:mrow>
-  <m:mfrac>
-   <m:mi>σ</m:mi>
-   <m:mrow>
-    <m:msqrt>
-     <m:mi>n</m:mi>
-    </m:msqrt>
-   </m:mrow>
-  </m:mfrac>
- </m:mrow>
-</m:math>, se denomina error estándar de la media.</meaning>
-  </definition>
-
-
-</glossary>
-</emphasis></para></solution></exercise></example></content></document>
+</document>
