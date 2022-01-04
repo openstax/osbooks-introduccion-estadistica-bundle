@@ -493,7 +493,8 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 
 
 </tgroup>
-</table></section></section><section id="fs-idm111076336"><title>Desviación típica de las tablas de frecuencia agrupadas</title><para id="fs-idm31040688">Recordemos que para los datos agrupados no conocemos los valores individuales de los datos, por lo que no podemos describir el valor típico de los datos con precisión. En otras palabras, no podemos hallar la media, la mediana ni la moda exactas. Sin embargo, podemos determinar la mejor estimación de las medidas de centro al hallar la media de los datos agrupados con la fórmula <m:math><m:mrow><m:mi>M</m:mi><m:mi>e</m:mi><m:mi>a</m:mi><m:mi>n</m:mi><m:mtext> </m:mtext><m:mi>o</m:mi><m:mi>f</m:mi><m:mtext> </m:mtext><m:mi>F</m:mi><m:mi>r</m:mi><m:mi>e</m:mi><m:mi>q</m:mi><m:mi>u</m:mi><m:mi>e</m:mi><m:mi>n</m:mi><m:mi>c</m:mi><m:mi>y</m:mi><m:mtext> </m:mtext><m:mi>T</m:mi><m:mi>a</m:mi><m:mi>b</m:mi><m:mi>l</m:mi><m:mi>e</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow>
+</table></section></section><section id="fs-idm111076336"><title>Desviación típica de las tablas de frecuencia agrupadas</title><para id="fs-idm31040688">Recordemos que para los datos agrupados no conocemos los valores individuales de los datos, por lo que no podemos describir el valor típico de los datos con precisión. En otras palabras, no podemos hallar la media, la mediana ni la moda exactas. Sin embargo, podemos determinar la mejor estimación de las medidas de centro al hallar la media de los datos agrupados con la fórmula <m:math><m:mrow><m:mtext mathvariant="italic">Tabla de media de la frecuencia</m:mtext>
+  <m:mo>=</m:mo><m:mfrac><m:mrow>
      <m:mstyle displaystyle="true">
       <m:mo>∑</m:mo> <m:mrow>
        <m:mi>f</m:mi><m:mi>m</m:mi>
