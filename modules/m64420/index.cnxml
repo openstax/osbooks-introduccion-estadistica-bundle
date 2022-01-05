@@ -9,7 +9,7 @@
 </metadata>
 
 <content>
-  <para id="eip-8888"><!-- Insert module text here -->
+  <para id="eip-8888">
   La <term id="term-00001"><emphasis effect="italics">d</emphasis> de Cohen</term> es una medida del "tamaño del efecto", basada en las diferencias entre dos medias. La <emphasis effect="italics">d</emphasis> de Cohen, llamada así por el estadístico estadounidense Jacob Cohen, mide la fuerza relativa de las diferencias entre las medias de dos poblaciones a partir de los datos de la muestra. El valor calculado del tamaño del efecto se compara entonces con los criterios de Cohen de efecto de tamaño pequeño, mediano y grande.</para><table id="eip-357" summary="-"><title>Tamaños de los efectos de los criterios de Cohen</title>
 <tgroup cols="2"><thead>
 <row>
@@ -60,8 +60,7 @@
 <m:msub>
 <m:mi>s</m:mi>
 <m:mrow>
-<m:mi>p</m:mi><m:mi>o</m:mi><m:mi>o</m:mi><m:mi>l</m:mi><m:mi>e</m:mi><m:mi>d</m:mi>
-</m:mrow>
+<m:mtext mathvariant="italic">combinada</m:mtext></m:mrow>
 </m:msub>
 </m:mrow>
 </m:mfrac>
@@ -71,7 +70,7 @@
 <m:msub>
 <m:mi>s</m:mi>
 <m:mrow>
-<m:mi>p</m:mi><m:mi>o</m:mi><m:mi>o</m:mi><m:mi>l</m:mi><m:mi>e</m:mi><m:mi>d</m:mi>
+  <m:mtext mathvariant="italic">combinada</m:mtext>
 </m:mrow>
 </m:msub>
 <m:mo>=</m:mo><m:msqrt>

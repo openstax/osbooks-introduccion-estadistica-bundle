@@ -472,7 +472,7 @@
 </table><para id="fs-idp93901056"><emphasis effect="italics">s</emphasis><sub>1</sub> = 16,5, <emphasis effect="italics">s</emphasis><sub>2</sub> =15, <emphasis effect="italics">s</emphasis><sub>3</sub> = 15,5</para><para id="fs-idp76691888">A continuación se presentan los cálculos necesarios para completar la tabla de ANOVA de una vía. La tabla se utiliza para realizar una prueba de hipótesis.</para>
 <equation id="fs-idp76692400"> <m:math>
 <m:mrow>
-<m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mi>e</m:mi><m:mi>t</m:mi><m:mi>w</m:mi><m:mi>e</m:mi><m:mi>e</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>∑</m:mo><m:mrow><m:mo>[</m:mo> <m:mrow>
+<m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mtext mathvariant="italic">entre</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>∑</m:mo><m:mrow><m:mo>[</m:mo> <m:mrow>
 <m:mfrac>
 <m:mrow>
 <m:msup>
@@ -667,7 +667,7 @@
 </equation><equation id="fs-idp47211392">
  <m:math>
 <m:mrow>
-<m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mi>e</m:mi><m:mi>t</m:mi><m:mi>w</m:mi><m:mi>e</m:mi><m:mi>e</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2,2458</m:mn>
+<m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mtext mathvariant="italic">entre</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2,2458</m:mn>
 </m:mrow>
 </m:math> 
 </equation>
@@ -807,7 +807,7 @@
 <equation id="fs-idp85849072">
  <m:math>
 <m:mrow>
-<m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>w</m:mi><m:mi>i</m:mi><m:mi>t</m:mi><m:mi>h</m:mi><m:mi>i</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mi>o</m:mi><m:mi>t</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mo stretchy="false">)</m:mo><m:mo>–</m:mo><m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mi>e</m:mi><m:mi>t</m:mi><m:mi>w</m:mi><m:mi>e</m:mi><m:mi>e</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
+<m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mtext mathvariant="italic">dentro</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mi>o</m:mi><m:mi>t</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mo stretchy="false">)</m:mo><m:mo>–</m:mo><m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mtext mathvariant="italic">entre</m:mtext><m:mo stretchy="false">)</m:mo>
 </m:mrow>
 </m:math> </equation>
 
@@ -822,7 +822,7 @@
 <equation id="fs-idp19006144">
  <m:math>
 <m:mrow>
-<m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>w</m:mi><m:mi>i</m:mi><m:mi>t</m:mi><m:mi>h</m:mi><m:mi>i</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>20,8542</m:mn>
+<m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mtext mathvariant="italic">dentro</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>20,8542</m:mn>
 </m:mrow>
 </m:math> 
 </equation>
