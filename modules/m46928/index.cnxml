@@ -463,9 +463,9 @@
 <title>Cálculo de la media de las tablas de frecuencias agrupadas</title>
  <para id="fs-idp16870784">Cuando solo se dispone de datos agrupados no se conocen los valores individuales de los datos (solo conocemos los intervalos y las frecuencias de los intervalos); por lo tanto, no se puede calcular una media exacta para el conjunto de datos. Lo que debemos hacer es estimar la media real calculando la media de una tabla de frecuencias. Una tabla de frecuencias es una representación de datos en la que se muestran datos agrupados junto con las frecuencias correspondientes. Para calcular la media de una tabla de frecuencias agrupadas podemos aplicar la definición básica de media: <emphasis effect="italics">media</emphasis> = <m:math><m:mrow>
   <m:mfrac>
-   <m:mrow>    <m:mi>d</m:mi><m:mi>a</m:mi><m:mi>t</m:mi><m:mi>a</m:mi><m:mtext> </m:mtext><m:mi>s</m:mi><m:mi>u</m:mi><m:mi>m</m:mi>
+   <m:mrow>    <m:mtext>suma de los datos</m:mtext>
    </m:mrow>
-   <m:mrow>    <m:mi>n</m:mi><m:mi>u</m:mi><m:mi>m</m:mi><m:mi>b</m:mi><m:mi>e</m:mi><m:mi>r</m:mi><m:mtext> </m:mtext><m:mi>o</m:mi><m:mi>e</m:mi><m:mtext> </m:mtext><m:mi>d</m:mi><m:mi>a</m:mi><m:mi>t</m:mi><m:mi>a</m:mi><m:mtext> </m:mtext><m:mi>v</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mi>u</m:mi><m:mi>e</m:mi><m:mi>s</m:mi>
+   <m:mrow>    <m:mtext>número de los valores de los datos</m:mtext>
    </m:mrow>
   </m:mfrac>
  </m:mrow>
@@ -473,7 +473,7 @@
 <para id="fs-idp28261664">Como no conocemos los valores individuales de los datos podemos hallar el punto medio de cada intervalo. El punto medio es <m:math>
  <m:mrow>
   <m:mfrac>
-   <m:mrow> <m:mi>l</m:mi><m:mi>o</m:mi><m:mi>w</m:mi><m:mi>e</m:mi><m:mi>r</m:mi><m:mtext> </m:mtext><m:mi>b</m:mi><m:mi>o</m:mi><m:mi>u</m:mi><m:mi>n</m:mi><m:mi>d</m:mi><m:mi>a</m:mi><m:mi>r</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>u</m:mi><m:mi>p</m:mi><m:mi>p</m:mi><m:mi>e</m:mi><m:mi>r</m:mi><m:mtext> </m:mtext><m:mi>b</m:mi><m:mi>o</m:mi><m:mi>u</m:mi><m:mi>n</m:mi><m:mi>d</m:mi><m:mi>a</m:mi><m:mi>r</m:mi><m:mi>y</m:mi>
+   <m:mrow> <m:mtext>límite inferior + límite superior</m:mtext>
    </m:mrow>
    <m:mn>2</m:mn>
   </m:mfrac>
