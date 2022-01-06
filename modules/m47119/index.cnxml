@@ -17,14 +17,14 @@
 <image src="../../media/OSX_Spec_StatisticsTEA_Figure_13_03_01.jpg" mime-type="image/png" width="450"/></media></figure><example id="eip-353">
 <exercise id="eip-334">
 <problem id="eip-98">
-<para id="eip-924">Volvamos al ejercicio de los tomates bola en la sección <link document="m47128" target-id="fs-idp19091024"/>. Las medias de los rendimientos de los tomates en las cinco condiciones de cubierta están representadas por <emphasis effect="italics">μ</emphasis><sub>1</sub>, <emphasis effect="italics">μ</emphasis><sub>2</sub>, <emphasis effect="italics">μ</emphasis><sub>3</sub>, <emphasis effect="italics">μ</emphasis><sub>4</sub>, <emphasis effect="italics">μ</emphasis><sub>5</sub>. Realizaremos una prueba de hipótesis para determinar si todas las medias son iguales o al menos una es diferente. Use un nivel de significación del 5 % y pruebe la hipótesis nula de que no hay diferencia en los rendimientos medios entre los cinco grupos contra la hipótesis alternativa de que, al menos, una media es diferente del resto.</para></problem>
+<para id="eip-924">Volvamos al ejercicio de los tomates bola en la sección <link document="m47128" target-id="fs-idp19091024">INTÉNTELO 13.1</link>. Las medias de los rendimientos de los tomates en las cinco condiciones de cubierta están representadas por <emphasis effect="italics">μ</emphasis><sub>1</sub>, <emphasis effect="italics">μ</emphasis><sub>2</sub>, <emphasis effect="italics">μ</emphasis><sub>3</sub>, <emphasis effect="italics">μ</emphasis><sub>4</sub>, <emphasis effect="italics">μ</emphasis><sub>5</sub>. Realizaremos una prueba de hipótesis para determinar si todas las medias son iguales o al menos una es diferente. Use un nivel de significación del 5 % y pruebe la hipótesis nula de que no hay diferencia en los rendimientos medios entre los cinco grupos contra la hipótesis alternativa de que, al menos, una media es diferente del resto.</para></problem>
 
 <solution id="eip-829">
 <para id="eip-573">Las hipótesis nula y alternativa son:</para>
 
 <para id="eip-idp93603520"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> = <emphasis effect="italics">μ<sub>2</sub></emphasis> = <emphasis effect="italics">μ<sub>3</sub></emphasis> = <emphasis effect="italics">μ<sub>4</sub></emphasis> = <emphasis effect="italics">μ<sub>5</sub></emphasis></para>
 
-<para id="eip-idp134625200"><emphasis effect="italics">H<sub>a</sub>: μ<sub>i</sub> ≠ μ<sub>j</sub></emphasis> alguna <emphasis effect="italics">i ≠ j</emphasis></para><para id="eip-idm22822112">Los resultados del ANOVA de una vía se muestran en la <link target-id="eip-idp3797520"/></para><table id="eip-632" summary="..">
+<para id="eip-idp134625200"><emphasis effect="italics">H<sub>a</sub>: μ<sub>i</sub> ≠ μ<sub>j</sub></emphasis> alguna <emphasis effect="italics">i ≠ j</emphasis></para><para id="eip-idm22822112">Los resultados del ANOVA de una vía se muestran en la <link target-id="fs-idm170381520"/></para><table id="eip-632" summary="..">
 <tgroup cols="5"><thead>
 <row>
 <entry align="center">Fuente de variación</entry>
@@ -507,7 +507,7 @@
 <note id="element-866" class="statistics collab">
 <label/>
  
-<para id="element-746">A partir de la clase, cree cuatro grupos del mismo tamaño como sigue: hombres menores de 22 años, hombres de al menos 22 años, mujeres menores de 22 años, mujeres de al menos 22 años. Haga que cada miembro de cada grupo registre el número de estados de Estados Unidos que ha visitado. Realice un ANOVA para determinar si el promedio de estados visitados en los cuatro grupos es el mismo. Pruebe con un nivel de significación del 1 %. Utilice una de las hojas de solución en el <link document="m47882"/>.</para></note>
+<para id="element-746">A partir de la clase, cree cuatro grupos del mismo tamaño como sigue: hombres menores de 22 años, hombres de al menos 22 años, mujeres menores de 22 años, mujeres de al menos 22 años. Haga que cada miembro de cada grupo registre el número de estados de Estados Unidos que ha visitado. Realice un ANOVA para determinar si el promedio de estados visitados en los cuatro grupos es el mismo. Pruebe con un nivel de significación del 1 %. Utilice una de las hojas de solución en el <link document="m47882">E - HOJAS DE SOLUCIONES</link>.</para></note>
 
 
 <section id="eip-712" class="references">
@@ -526,7 +526,7 @@
 <title>Repaso del capítulo</title>
 <para id="eip-684">El gráfico de la distribución <emphasis effect="italics">F</emphasis> es siempre positivo y es asimétrico hacia la derecha, aunque la forma puede ser redondeada o exponencial dependiendo de la combinación de grados de libertad del numerador y del denominador. El estadístico <emphasis effect="italics">F</emphasis> es el cociente entre una medida de la variación de las medias de los grupos y una medida similar de la variación dentro de los grupos. Si la hipótesis nula es correcta, el numerador debe ser pequeño en comparación con el denominador. El resultado será un estadístico <emphasis effect="italics">F</emphasis> pequeño y el área debajo de la curva <emphasis effect="italics">F</emphasis> a la derecha será grande, lo que representa un valor <emphasis effect="italics">p</emphasis> grande. Cuando la hipótesis nula de la igualdad de las medias de los grupos es incorrecta, el numerador debe ser grande comparado con el denominador, lo que da un estadístico <emphasis effect="italics">F</emphasis> grande y un área pequeña (valor <emphasis effect="italics">p</emphasis> pequeño) a la derecha del estadístico debajo de la curva <emphasis effect="italics">F</emphasis>.</para>
 
-<para id="eip-833">Cuando los datos tienen tamaños de grupo desiguales (datos no equilibrados), hay que utilizar las técnicas de la <link document="m47128"/> para los cálculos manuales. Sin embargo, en el caso de datos equilibrados (los grupos tienen el mismo tamaño), se pueden utilizar cálculos simplificados basados en las medias y varianzas de los grupos. En la práctica, por supuesto, se suelen emplear softwares en el análisis. Como en cualquier análisis, se deben usar gráficos de diversa índole junto con técnicas numéricas. ¡Mire siempre con cuidado sus datos!</para></section>
+<para id="eip-833">Cuando los datos tienen tamaños de grupo desiguales (datos no equilibrados), hay que utilizar las técnicas de la <link document="m47128">13.2 La distribución F y el cociente de F</link> para los cálculos manuales. Sin embargo, en el caso de datos equilibrados (los grupos tienen el mismo tamaño), se pueden utilizar cálculos simplificados basados en las medias y varianzas de los grupos. En la práctica, por supuesto, se suelen emplear softwares en el análisis. Como en cualquier análisis, se deben usar gráficos de diversa índole junto con técnicas numéricas. ¡Mire siempre con cuidado sus datos!</para></section>
 
 <section id="fs-idp110212080" class="practice">
 
@@ -794,7 +794,7 @@ Este
 
 <section id="fs-idp159138080" class="free-response"><title>Tarea para la casa</title><note id="fs-idm3376448"><label/><title>INSTRUCCIONES</title>
 
-<para id="eip-660">Utilice una hoja de soluciones para realizar las siguientes pruebas de hipótesis. La hoja de soluciones se encuentra en el <link document="m47882"/>.</para></note><exercise id="element-240">
+<para id="eip-660">Utilice una hoja de soluciones para realizar las siguientes pruebas de hipótesis. La hoja de soluciones se encuentra en el <link document="m47882">E - HOJAS DE SOLUCIONES</link>.</para></note><exercise id="element-240">
 <problem id="id19304316">
 <para id="element-106">Tres estudiantes, Linda, Tuan y Javier, reciben cinco ratas de laboratorio cada uno para un experimento nutricional. El peso de cada rata se registra en gramos. Linda alimenta sus ratas con la fórmula A, Tuan alimenta las suyas con la fórmula B y Javier con la fórmula C. Al final de un periodo determinado se pesa de nuevo cada rata y se registra el aumento neto en gramos. Use un nivel de significación del 10 % y pruebe la hipótesis de que las tres fórmulas producen el mismo aumento de peso medio.</para>
 <para id="element-800"><table id="id348a5492" summary="This table presents the net weight in grams of each rat with Linda's rats in the first column, Tuan's rats in the second column, and Javier's rats in the third column.">
