@@ -107,7 +107,7 @@
 
 <para id="element-876"><emphasis effect="italics">X</emphasis> toma los valores 0, 1, 2, 3, 4, donde <emphasis effect="italics">r = 6</emphasis>, <emphasis effect="italics">b = 5</emphasis> y <emphasis effect="italics">n = 4</emphasis>. <emphasis effect="italics">X ~ H</emphasis>(6, 5, 4)</para>
 
-<para id="element-877" class="finger">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 2). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 2) = 0,4545 (calculadora o computadora)</para><note id="id43780917" class="finger">
+<para id="element-877">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 2). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 2) = 0,4545 (calculadora o computadora)</para><note id="id43780917">
 <label/><title>NOTA</title>
 <para id="fs-idm9108464">Actualmente, la TI-83+ y la TI-84 no tienen funciones de probabilidad hipergeométrica. Hay varios paquetes informáticos, como Microsoft Excel, que lo hacen.</para>
 </note><para id="element-879">La probabilidad de que haya dos hombres en el comité es de aproximadamente 0,45.</para>
@@ -673,7 +673,7 @@
 <item>Other group = non-hearts; <emphasis effect="italics">b</emphasis> = 39</item>
 <item><emphasis effect="italics">X</emphasis> = the number of cards that are hearts; <emphasis effect="italics">x</emphasis> = 0, 1, 2, 3, &#8230; , 13</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 0)</item>
-</list><note id="eip-idp114013328" class="finger"><label/><title>NOTE</title>
+</list><note id="eip-idp114013328" ><label/><title>NOTE</title>
 <para id="fs-idm27875232">If you have access to it, use Microsoft Excel HYPERGEOM.DIST function with the following syntax: = HYPGEOM.DIST(x, sample size, size of group of interest, size of total population, FALSE)</para>
 </note></solution> --></exercise></section>
 

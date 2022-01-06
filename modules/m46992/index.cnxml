@@ -288,7 +288,7 @@
 
 <para id="element-456">La probabilidad de que el total de 75 puntuaciones sea inferior a 200 es aproximadamente cero.</para>
 
-<para id="element-273" class="finger"><code>normalcdf</code> (75.200,(75)(3),<m:math>
+<para id="element-273"><code>normalcdf</code> (75.200,(75)(3),<m:math>
  <m:mrow>
   <m:mo stretchy="false">(</m:mo><m:msqrt>
    <m:mrow>
@@ -461,7 +461,7 @@
 <image src="../../media/fig-ch07_04_05N.jpg" mime-type="image/jpg" width="380"/></media>
 </figure>
 
-<note id="note-5" class="finger" type="Reminder">
+<note id="note-5" type="Reminder">
 <label/>
 <title>Recordatorio</title>
 <para id="fs-idm69813456"><emphasis>1E99 = 10<sup>99</sup> y –1E99 = –10<sup>99</sup></emphasis>. Pulse <code>EE</code> la tecla para la E. O simplemente utilice 10<sup>99</sup> en lugar de 1E99.</para></note>
@@ -536,7 +536,7 @@
   <m:mo>¯</m:mo>
  </m:mover>
 </m:math> &lt; <emphasis effect="italics">k</emphasis>) = 0,95</para>
-<para id="eip-id1171180867272" class="finger"><emphasis effect="italics">k</emphasis> = 26,0 utilizando <code>invNorm</code><m:math>
+<para id="eip-id1171180867272"><emphasis effect="italics">k</emphasis> = 26,0 utilizando <code>invNorm</code><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -597,7 +597,7 @@
 <item>Calcule el valor que está dos desviaciones típicas por encima de la media de la muestra.</item>
 <item>Calcule el <emphasis effect="italics">IQR</emphasis> para la suma de los tiempos de la muestra.</item>
 </list></problem>
-<solution id="fs-idm110029216" class="finger">
+<solution id="fs-idm110029216">
 <list id="fs-idm113256736" list-type="enumerated" number-style="lower-alpha"><item>Tenemos, <emphasis effect="italics">μ<sub>x</sub></emphasis> = <emphasis effect="italics">μ</emphasis> = 2 y <emphasis effect="italics">σ<sub>x</sub></emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
@@ -708,7 +708,7 @@
 <item>Calcule el percentil 90<sup/> de la suma de las edades de 65 prostitutas. Interprete los resultados.</item>
 </list>
 </problem>
-<solution id="fs-idm138994048" class="finger">
+<solution id="fs-idm138994048">
 <list id="fs-idm86323200" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
@@ -773,13 +773,13 @@
    </m:mrow>
   </m:msqrt>
  </m:mrow>
-</m:math>. La media es de 159 desviación típica es de 8,6447. La variable aleatoria de la distribución normal es <emphasis effect="italics">Y</emphasis>. <emphasis effect="italics">Y</emphasis> ~ <emphasis effect="italics">N</emphasis>(159; 8,6447). Consulte <link document="m46977">La distribución normal</link> para obtener ayuda con las instrucciones de la calculadora.</para><para id="eip-214" class="finger">Para la parte a, <emphasis>se incluye 150</emphasis> por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) tiene aproximación normal <emphasis effect="italics">P</emphasis><emphasis effect="italics">(Y</emphasis> ≥ 149,5) = 0,8641.</para>
+</m:math>. La media es de 159 desviación típica es de 8,6447. La variable aleatoria de la distribución normal es <emphasis effect="italics">Y</emphasis>. <emphasis effect="italics">Y</emphasis> ~ <emphasis effect="italics">N</emphasis>(159; 8,6447). Consulte <link document="m46977">La distribución normal</link> para obtener ayuda con las instrucciones de la calculadora.</para><para id="eip-214">Para la parte a, <emphasis>se incluye 150</emphasis> por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) tiene aproximación normal <emphasis effect="italics">P</emphasis><emphasis effect="italics">(Y</emphasis> ≥ 149,5) = 0,8641.</para>
 <para id="eip-554"><code>normalcdf</code>(149,5,10^99,159,8.6447) = 0,8641.</para><para id="eip-323">Para la parte b, <emphasis>se incluye 160</emphasis> por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 160) tiene una aproximación normal <emphasis effect="italics">P</emphasis><emphasis effect="italics">(Y</emphasis> ≤ 160,5) = 0,5689.</para>
 
 <para id="eip-162"><code>normalcdf</code>(0,160.5,159,8.6447) = 0,5689</para><para id="eip-630">Para la parte c, se <emphasis>excluye 155</emphasis> por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 155) tiene una aproximación normal <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">y</emphasis> > 155,5) = 0,6572.</para>
 
 <para id="eip-763"><code>normalcdf</code>(155,5,10^99,159,8.6447) = 0,6572.</para><para id="eip-955">Para la parte d, se <emphasis>excluye 147</emphasis> por lo que <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 147) tiene una aproximación normal <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Y</emphasis> &lt; 146,5) = 0,0741.</para><para id="eip-555"><code>normalcdf</code>(0,146.5,159,8.6447) = 0,0741</para><para id="eip-788">Para la parte e,<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = 175) tiene una aproximación normal <emphasis effect="italics">P</emphasis>(174,5 &lt; <emphasis effect="italics">Y</emphasis> &lt; 175,5) = 0,0083.</para>
-<para id="eip-680"><code>normalcdf</code>(174.5,175.5,159,8.6447) = 0,0083</para><para id="eip-863" class="finger"><emphasis>Gracias a las calculadoras y a los softwares</emphasis> que permiten calcular fácilmente las probabilidades binomiales para grandes valores de <emphasis effect="italics">n</emphasis>, no es necesario utilizar la aproximación normal a la distribución binomial, siempre que se tenga acceso a estas herramientas tecnológicas. La mayoría de los laboratorios escolares disponen de Microsoft Excel, un ejemplo de software que calcula probabilidades binomiales. Muchos estudiantes tienen acceso a las calculadoras de la serie TI-83 u 84, y calculan fácilmente las probabilidades de la distribución binomial. Si escribe "cálculo de la distribución de probabilidad binomial" en un navegador de internet, podrá encontrar al menos una calculadora en línea para la binomial.</para>
+<para id="eip-680"><code>normalcdf</code>(174.5,175.5,159,8.6447) = 0,0083</para><para id="eip-863"><emphasis>Gracias a las calculadoras y a los softwares</emphasis> que permiten calcular fácilmente las probabilidades binomiales para grandes valores de <emphasis effect="italics">n</emphasis>, no es necesario utilizar la aproximación normal a la distribución binomial, siempre que se tenga acceso a estas herramientas tecnológicas. La mayoría de los laboratorios escolares disponen de Microsoft Excel, un ejemplo de software que calcula probabilidades binomiales. Muchos estudiantes tienen acceso a las calculadoras de la serie TI-83 u 84, y calculan fácilmente las probabilidades de la distribución binomial. Si escribe "cálculo de la distribución de probabilidad binomial" en un navegador de internet, podrá encontrar al menos una calculadora en línea para la binomial.</para>
 
 <para id="eip-251">Para el <link target-id="fs-idm153949776" document=""/>, las probabilidades se calculan utilizando la siguiente distribución binomial: (<emphasis effect="italics">n</emphasis> = 300 y <emphasis effect="italics">p</emphasis> = 0,53). Compare las respuestas de la distribución binomial y la normal. Vea <link document="m46955">Variables aleatorias discretas</link> para ayudar con las instrucciones de la calculadora para la binomial.</para><para id="eip-67"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) :<code>1 – binomialcdf</code>(300,0.53,149) = 0,8641</para><para id="eip-560"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 160) :<code>binomialcdf</code>(300,0.53,160) = 0,5684</para><para id="eip-727"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 155) :<code>1 – binomialcdf</code>(300,0.53,155) = 0,6576</para><para id="eip-122"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 147) :<code>binomialcdf</code>(300,0.53,146) = 0,0742</para><para id="eip-267"><emphasis effect="italics">P</emphasis><emphasis effect="italics">(X</emphasis> = 175) : (Se utiliza la función de densidad de probabilidad [probability density function, pdf] binomial).<code>binomialpdf</code>(300,0.53,175) = 0,0083</para></example>
 
@@ -1391,7 +1391,7 @@
 <item>Calcule la probabilidad de que haya menos de 130 que estén a favor de una escuela chárter de K-5.</item>
 <item>Calcule la probabilidad de que exactamente 150 estén a favor de una escuela chárter de K-5.</item>
 </list>
-<para id="fs-idm85678016" class="finger">Si tiene acceso a una calculadora o a un software adecuado, intente calcular estas probabilidades con esta tecnología.</para>
+<para id="fs-idm85678016">Si tiene acceso a una calculadora o a un software adecuado, intente calcular estas probabilidades con esta tecnología.</para>
 </problem>
 <solution id="eip-350">
 <list id="Charter_school_answers" list-type="enumerated" number-style="lower-alpha">

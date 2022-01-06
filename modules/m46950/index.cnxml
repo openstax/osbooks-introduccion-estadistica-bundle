@@ -81,7 +81,7 @@
 
 <para id="element-992">Supongamos que <emphasis effect="italics">X</emphasis> = el número de trabajadores que tienen un diploma de secundaria, pero que no siguen ningún tipo de educación.</para>
 
-<para id="element-570"><emphasis effect="italics">X</emphasis> toma los valores 0, 1, 2, ..., 20 donde <emphasis effect="italics">n</emphasis> = 20, <emphasis effect="italics">p</emphasis> = 0,41 y <emphasis effect="italics">q</emphasis> = 1 - 0,41 = 0,59. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(20, 0,41)</para><para id="fs-idm48754320" class="finger">Halle <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12) = 0,9738. (calculadora o computadora)</para>
+<para id="element-570"><emphasis effect="italics">X</emphasis> toma los valores 0, 1, 2, ..., 20 donde <emphasis effect="italics">n</emphasis> = 20, <emphasis effect="italics">p</emphasis> = 0,41 y <emphasis effect="italics">q</emphasis> = 1 - 0,41 = 0,59. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(20, 0,41)</para><para id="fs-idm48754320">Halle <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12) = 0,9738. (calculadora o computadora)</para>
 
 
 <note id="fs-idm73072400" class="statistics calculator"><label/>
@@ -129,7 +129,7 @@
  </m:mrow>
 </m:math> = 2.20.</para></example>
 
-<note id="fs-idm83776992" class="statistics try finger"><label/><title>Ejercicio</title>
+<note id="fs-idm83776992" class="statistics try "><label/><title>Ejercicio</title>
 <exercise id="fs-idm41424160">
 <problem id="fs-idp5897264">
 <para id="fs-idm41014848">Alrededor del 32 % de los estudiantes participan en un programa de voluntariado comunitario fuera de la escuela. Si se seleccionan 30 estudiantes al azar, calcule la probabilidad de que como máximo 14 de ellos participen en un programa de voluntariado comunitario fuera de la escuela. Utilice la calculadora TI-83+ o TI-84 para hallar la respuesta.</para></problem>
@@ -308,7 +308,7 @@
 <list id="fs-idm74773968" list-type="enumerated" number-style="lower-alpha">
 <item>¿Cuál es la distribución de probabilidad de <emphasis effect="italics">X</emphasis>?</item>
 <item>Use las fórmulas y calcule (i) la media y (ii) la desviación típica de <emphasis effect="italics">X</emphasis>.</item>
-<item class="finger">Utilice su calculadora para hallar la probabilidad de que como máximo ocho personas desarrollen cáncer de páncreas</item>
+<item>Utilice su calculadora para hallar la probabilidad de que como máximo ocho personas desarrollen cáncer de páncreas</item>
 <item>¿Es más probable que cinco o seis personas desarrollen un cáncer de páncreas? Justifique su respuesta numéricamente.</item>
 </list></problem>
 
@@ -325,7 +325,7 @@
 <list id="fs-idm69954960" list-type="enumerated" number-style="lower-alpha">
 <item>¿Cuál es la distribución de probabilidad de <emphasis effect="italics">X</emphasis>?</item>
 <item>Use las fórmulas y calcule (i) la media y (ii) la desviación típica de <emphasis effect="italics">X</emphasis>.</item>
-<item class="finger">Utilice su calculadora para hallar la probabilidad de que DeAndre marque con 60 de estos tiros.</item>
+<item>Utilice su calculadora para hallar la probabilidad de que DeAndre marque con 60 de estos tiros.</item>
 <item>Calcule la probabilidad de que DeAndre acierte más de 50 de estos tiros.</item>
 </list>
 </problem>

@@ -109,14 +109,14 @@
 </m:math>(6) = 0,75 llamadas durante 15 minutos, en promedio. Por tanto, <emphasis effect="italics">μ</emphasis> = 0,75 para este problema.</para>
 <para id="element-696"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(0,75)</para>
 
-<para id="element-697" class="finger">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1) = 0,1734 (calculadora o computadora)</para>
+<para id="element-697">Calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1) = 0,1734 (calculadora o computadora)</para>
 
 <note id="fs-idm23681840" class="statistics calculator"><label/>
 <list id="fs-idp1265216" list-type="bulleted"><item>Pulse 1 y luego pulse 2.<sup>º</sup> DISTR.</item>
 <item>Pulse la flecha hacia abajo y seleccione poissoncdf. Pulse ENTER.</item>
 <item>Introduzca (0,75,1).</item>
 <item>El resultado es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1) = 0,1734.</item>
-</list><note id="eip-706" class="finger"><label/><title>Nota</title>
+</list><note id="eip-706"><label/><title>Nota</title>
 <para id="fs-idm154468640">Las calculadoras de TI utilizan <emphasis effect="italics">λ</emphasis> (lambda) para la media.</para>
 </note></note><para id="element-886">La probabilidad de que Leah reciba más de una llamada telefónica en los próximos 15 minutos es de 0,1734: <newline count="1"/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1) = 1 - poissoncdf(0,75, 1).</para><para id="element-89">El gráfico de <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">P</emphasis>(0,75) es:</para>
 
@@ -125,9 +125,9 @@
 </media></figure><para id="element-869">El eje <emphasis effect="italics">y</emphasis> contiene la probabilidad de <emphasis effect="italics">x</emphasis>, donde <emphasis effect="italics">X</emphasis> = el número de llamadas durante 15 minutos.</para></example>
 
 
-<note id="fs-idm14071904" class="statistics try finger"><label/><title>Ejercicio</title>
+<note id="fs-idm14071904" class="statistics try "><label/><title>Ejercicio</title>
 
-<exercise id="fs-idm114328016" class="finger">
+<exercise id="fs-idm114328016">
 <problem id="fs-idm126244848">
 <para id="fs-idm2292064">Un centro de atención al cliente recibe unos diez correos electrónicos cada media hora. ¿Cuál es la probabilidad de que el centro de atención al cliente reciba más de cuatro correos electrónicos en los próximos seis minutos? Utilice la calculadora TI-83+ o TI-84 para hallar la respuesta.</para></problem>
 </exercise>

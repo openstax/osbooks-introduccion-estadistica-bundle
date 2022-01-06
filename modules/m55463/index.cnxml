@@ -167,7 +167,7 @@
 <m:mo>=</m:mo>
 <m:mn>1,96</m:mn>
 </m:math></para>
- <para id="element-88" class="finger">Esto se puede calcular utilizando la tabla de probabilidad normal estándar del <link document="m56641">A - CUADROS ESTADÍSTICOS</link>. Esto también se puede encontrar en la tabla t de los estudiantes en la columna de 0,025 y en infinitos grados de libertad porque en infinitos grados de libertad la distribución <emphasis effect="italics">t</emphasis>de los estudiantes se convierte en la distribución normal estándar, Z.</para><para id="element-144">El intervalo de confianza para la proporción poblacional binomial verdadera es <equation class="unnumbered" id="eip-id1169963537277"><label/><m:math>
+ <para id="element-88">Esto se puede calcular utilizando la tabla de probabilidad normal estándar del <link document="m56641">A - CUADROS ESTADÍSTICOS</link>. Esto también se puede encontrar en la tabla t de los estudiantes en la columna de 0,025 y en infinitos grados de libertad porque en infinitos grados de libertad la distribución <emphasis effect="italics">t</emphasis>de los estudiantes se convierte en la distribución normal estándar, Z.</para><para id="element-144">El intervalo de confianza para la proporción poblacional binomial verdadera es <equation class="unnumbered" id="eip-id1169963537277"><label/><m:math>
 <m:mi>p'</m:mi>
 <m:mo>–</m:mo>
 <m:msub>
@@ -297,7 +297,7 @@ Supongamos que se encuestan 250 personas seleccionadas al azar para determinar s
       </m:mfrac>
     </m:msub>
     </m:math> = <emphasis effect="italics">Z</emphasis><sub>0,05</sub> = 1,645</para>
- <para id="element-803" class="finger">Este valor Z se puede hallar utilizando una tabla de probabilidad normal. También se puede utilizar la tabla t de Student entrando en la tabla en la columna de 0,05 y leyendo en la línea de infinitos grados de libertad. La distribución t es la distribución normal con infinitos grados de libertad. Se trata de un truco práctico que hay que recordar para calcular los valores Z de los niveles de confianza más utilizados. Utilizamos esta fórmula para un intervalo de confianza para una proporción:</para><equation class="unnumbered" id="eip-id1167998436031"><label/><m:math>
+ <para id="element-803">Este valor Z se puede hallar utilizando una tabla de probabilidad normal. También se puede utilizar la tabla t de Student entrando en la tabla en la columna de 0,05 y leyendo en la línea de infinitos grados de libertad. La distribución t es la distribución normal con infinitos grados de libertad. Se trata de un truco práctico que hay que recordar para calcular los valores Z de los niveles de confianza más utilizados. Utilizamos esta fórmula para un intervalo de confianza para una proporción:</para><equation class="unnumbered" id="eip-id1167998436031"><label/><m:math>
 <m:mi>p'</m:mi>
 <m:mo>–</m:mo>
 <m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub>
@@ -382,7 +382,7 @@ El 68 % de los estudiantes posee un iPod y un teléfono inteligente.</para>
 
    <para id="eip-idp73380688">El área a la izquierda de <emphasis effect="italics">z</emphasis><sub>0,015</sub> es 0,015, y el área a la derecha de <emphasis effect="italics">z</emphasis><sub>0,015</sub> es 1 - 0,015 = 0,985.</para>
 
-    <para id="fs-idm106841376" class="finger">Utilizar la función InvNorm(.985,0,1) de las calculadoras TI 83, 83+ u 84+,</para>
+    <para id="fs-idm106841376">Utilizar la función InvNorm(.985,0,1) de las calculadoras TI 83, 83+ u 84+,</para>
 
  <para id="eip-idm10150800"><m:math>
   <m:mrow>

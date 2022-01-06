@@ -428,7 +428,7 @@
 </tbody>
 </tgroup>
 </table>
-<para id="element-whatever" class="finger">Por lo tanto, las frecuencias esperadas son 60, 96, 330, 66 y 48. En las calculadoras TI, puede dejar que estas hagan los cálculos. Por ejemplo, en lugar de 60, introduzca 0,10*600.</para><para id="element-239"><emphasis effect="italics">H<sub>0</sub></emphasis>: La distribución del “número de televisores” de las familias del extremo oeste de Estados Unidos es igual a la distribución del “número de televisores” de la población estadounidense.</para><para id="element-2"><emphasis effect="italics">H<sub>a</sub></emphasis>: La distribución del “número de televisores” de las familias del extremo oeste de Estados Unidos es diferente de la distribución del “número de televisores” de la población estadounidense.</para><para id="element-228">Distribución para la prueba: <m:math>
+<para id="element-whatever">Por lo tanto, las frecuencias esperadas son 60, 96, 330, 66 y 48. En las calculadoras TI, puede dejar que estas hagan los cálculos. Por ejemplo, en lugar de 60, introduzca 0,10*600.</para><para id="element-239"><emphasis effect="italics">H<sub>0</sub></emphasis>: La distribución del “número de televisores” de las familias del extremo oeste de Estados Unidos es igual a la distribución del “número de televisores” de la población estadounidense.</para><para id="element-2"><emphasis effect="italics">H<sub>a</sub></emphasis>: La distribución del “número de televisores” de las familias del extremo oeste de Estados Unidos es diferente de la distribución del “número de televisores” de la población estadounidense.</para><para id="element-228">Distribución para la prueba: <m:math>
  <m:mrow>
   <m:msubsup>
    <m:mi>χ</m:mi>
@@ -511,7 +511,7 @@
 <code>5</code>. Debería ver <code>"sum"</code>.<code>Introduzca L3</code>. Redondeado a dos decimales, debería ver <code>2,14</code>. Pulse <code>2nd DISTR</code>. Flecha hacia abajo <code>7:χ2cdf</code> (o pulse <code>7</code>). Pulse
 <code>ENTER</code>. Enter <code>2,14, 1E99,2)</code>. Redondeado a cuatro cifras, debería ver <code>0,3430</code>, que es el valor p.</para><para id="eip-idp7978272">Las nuevas calculadoras TI-84 tienen en <code>STAT TESTS</code> la prueba <code>Chi2 GOF</code>. Para ejecutar la prueba, ponga los valores observados (los datos) en una primera lista y los valores esperados (los valores que espera si la hipótesis nula es verdadera) en una segunda lista. Pulse <code>STAT TESTS</code> y <code>Chi2 GOF</code>. Introduzca los nombres de la lista observada y de la lista esperada. Introduzca los grados de libertad y pulse <code>calculate (calcular)</code> o <code>draw (dibujar)</code>. Asegúrese de borrar cualquier lista antes de empezar.</para></note></solution>
     </exercise></example>
-  <note id="fs-idm153122384" class="statistics try finger"><label/><title>Ejercicio</title>
+  <note id="fs-idm153122384" class="statistics try "><label/><title>Ejercicio</title>
 
     <exercise id="eip-860"><problem id="eip-476">
         <para id="eip-907">Los estudiantes de una clase de estudios sociales plantean la hipótesis de que las tasas de alfabetización en todo el mundo para cada región son del 82 %. La <link target-id="fs-idm84960960"/> muestra las tasas reales de alfabetización en todo el mundo desglosadas por regiones. ¿Cuáles son el estadístico de prueba y los grados de libertad?</para><table id="fs-idm84960960" summary="">

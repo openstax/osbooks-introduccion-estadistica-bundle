@@ -18,12 +18,12 @@
 <title>Identificar los valores atípicos</title>
 <para id="eip-511">Podríamos adivinar los valores atípicos al observar un gráfico del diagrama de dispersión y la línea de mejor ajuste. Sin embargo, nos gustaría contar con alguna directriz sobre la distancia que debe tener un punto para considerarse un valor atípico. <emphasis> Como regla general, podemos señalar como valor atípico cualquier punto que esté situado más de dos desviaciones típicas por encima o por debajo de la línea de mejor ajuste.</emphasis> La desviación típica utilizada es la de los residuales o errores.</para>
 
-<para id="eip-526" class="finger">Podemos hacerlo visualmente en el diagrama de dispersión al dibujar un par de líneas adicionales que estén dos desviaciones típicas por encima y por debajo de la línea de mejor ajuste. Todos los puntos de datos que se encuentren fuera de este par de líneas adicionales se marcan como posibles valores atípicos. Alternativamente, podemos hacerlo numéricamente, al calcular cada residual y compararlo con el doble de la desviación típica. En la TI-83, 83+ u 84+, el enfoque gráfico es más fácil. En primer lugar se muestra el procedimiento gráfico, seguido de los cálculos numéricos. Por lo general, solo tendrá que utilizar uno de estos métodos.</para><example id="eip-837"><exercise id="element-12987">
+<para id="eip-526">Podemos hacerlo visualmente en el diagrama de dispersión al dibujar un par de líneas adicionales que estén dos desviaciones típicas por encima y por debajo de la línea de mejor ajuste. Todos los puntos de datos que se encuentren fuera de este par de líneas adicionales se marcan como posibles valores atípicos. Alternativamente, podemos hacerlo numéricamente, al calcular cada residual y compararlo con el doble de la desviación típica. En la TI-83, 83+ u 84+, el enfoque gráfico es más fácil. En primer lugar se muestra el procedimiento gráfico, seguido de los cálculos numéricos. Por lo general, solo tendrá que utilizar uno de estos métodos.</para><example id="eip-837"><exercise id="element-12987">
 <problem id="id1170949520848">
 <para id="element-631">En el <link document="m47117" target-id="element-22">ejemplo del tercer examen o examen final</link>, se puede determinar si hay un valor atípico o no. Si hay un valor atípico, como ejercicio, elimínelo y ajuste los datos restantes a una nueva línea. En este ejemplo, la nueva línea debería ajustarse mejor a los datos restantes. Esto significa que el <emphasis>SSE</emphasis> debería ser menor y el coeficiente de correlación debería estar más cerca de 1 o –1.</para></problem>
 
 <solution id="id1170917505276">
-<para id="element-435" class="finger">
+<para id="element-435">
 <title>Identificación gráfica de los valores atípicos</title>Con las calculadoras gráficas TI-83, 83+ u 84+ es fácil identificar los valores atípicos de forma gráfica y visual. Si midiéramos la distancia vertical de cualquier punto de datos al punto correspondiente de la línea de mejor ajuste y esa distancia fuera igual a 2<emphasis effect="italics">s</emphasis> o más, entonces consideraríamos que el punto de datos está "demasiado lejos" de la línea de mejor ajuste. Tenemos que calcular y graficar las líneas que están dos desviaciones típicas por debajo y por encima de la línea de regresión. Los puntos que estén fuera de estas dos líneas son valores atípicos. Llamaremos a estas líneas Y2 y Y3:</para>
 
 <para id="element-20965">Al igual que hicimos con la ecuación de la línea de regresión y el coeficiente de correlación, utilizaremos la tecnología para calcular esta desviación típica. Utilizando la función <emphasis>LinRegTTest</emphasis> con estos datos, desplácese por las pantallas de salida hasta hallar <emphasis><emphasis effect="italics">s</emphasis> = 16,412</emphasis>.</para>
@@ -80,7 +80,7 @@
 <title>Nota</title>
 <para id="fs-idp95645280">Dividimos entre (<emphasis effect="italics">n</emphasis> - 2) porque el modelo de regresión implica dos estimaciones.</para></note>
 
-<para id="element-42" class="finger">En vez de calcular el valor de <emphasis effect="italics">s</emphasis> nosotros mismos, podemos calcular <emphasis effect="italics">s</emphasis> con la computadora o la calculadora. Para este ejemplo, la función de la calculadora LinRegTTest calculó <emphasis effect="italics">s</emphasis> = 16,4 como la desviación típica de los residuales <list id="set-list2" list-type="labeled-item" display="inline"><item>35</item>
+<para id="element-42">En vez de calcular el valor de <emphasis effect="italics">s</emphasis> nosotros mismos, podemos calcular <emphasis effect="italics">s</emphasis> con la computadora o la calculadora. Para este ejemplo, la función de la calculadora LinRegTTest calculó <emphasis effect="italics">s</emphasis> = 16,4 como la desviación típica de los residuales <list id="set-list2" list-type="labeled-item" display="inline"><item>35</item>
 <item>-17</item>
 <item>16</item>
 <item>-6</item>
@@ -191,7 +191,7 @@
 <title>¿Cómo afecta el valor atípico la línea de mejor ajuste?</title>
 <para id="element-8021">Numérica y gráficamente, hemos identificado el punto (65, 175) como un valor atípico. Deberíamos repasar los datos de este punto para ver si hay algún problema con estos. Si hay un error, debemos corregirlo si es posible o eliminar los datos. Si son correctos, los dejaríamos en el conjunto de datos. Para este problema, supondremos que examinamos y descubrimos que estos datos atípicos son un error. Por lo tanto, seguiremos adelante y eliminaremos el valor atípico, para poder explorar cómo afecta los resultados, como experiencia de aprendizaje.</para>
 
-<para id="element-6691" class="finger"><title>Calcule una nueva línea de mejor ajuste y el coeficiente de correlación con los diez puntos restantes:</title>
+<para id="element-6691"><title>Calcule una nueva línea de mejor ajuste y el coeficiente de correlación con los diez puntos restantes:</title>
 En las calculadoras TI-83, TI-83+ y TI-84+, elimine el valor atípico de L1 y L2. Con la función LinRegTTest, la nueva línea de mejor ajuste y el coeficiente de correlación son:</para>
 <para id="element-669"><emphasis effect="italics">ŷ</emphasis> = –355,19 + 7,39<emphasis effect="italics">x</emphasis> y <emphasis effect="italics">r</emphasis> = 0,9121</para><para id="element-101">La nueva línea con <emphasis effect="italics">r</emphasis> = 0,9121 es una correlación más fuerte que la original (<emphasis effect="italics">r</emphasis> = 0,6631) porque <emphasis effect="italics">r</emphasis> = 0,9121 está más cerca de uno. Esto significa que la nueva línea se ajusta mejor a los diez valores de datos restantes. La línea puede predecir mejor la puntuación del examen final, dada la puntuación del tercer examen.</para>
 </section>
@@ -657,7 +657,7 @@ En las calculadoras TI-83, TI-83+ y TI-84+, elimine el valor atípico de L1 y L2
 <para id="eip-idm84869328">Datos del Departamento del Trabajo de Estados Unidos, Oficina de Estadísticas Laborales.</para>
 <para id="eip-idm84868944">Datos del Manual de Médico, 1990.</para>
 <para id="eip-idm84868560">Datos del Departamento del Trabajo de Estados Unidos, Oficina de Estadísticas Laborales.</para></section><section id="eip-380" class="summary"><title>Repaso del capítulo</title><para id="eip-idm88717792">
-Para determinar si un punto es un valor atípico, realice una de las siguientes acciones: <list id="eip-idp16278896" list-type="enumerated" number-style="arabic"><item class="finger">Introduzca las siguientes ecuaciones en la TI 83, 83+, 84, 84+:
+Para determinar si un punto es un valor atípico, realice una de las siguientes acciones: <list id="eip-idp16278896" list-type="enumerated" number-style="arabic"><item>Introduzca las siguientes ecuaciones en la TI 83, 83+, 84, 84+:
         <para id="eip-idp42255472"><m:math>
          <m:mrow>
           <m:mtable columnalign="left">

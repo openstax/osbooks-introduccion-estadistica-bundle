@@ -214,7 +214,7 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math> donde <emphasis effect="italics">σ</emphasis> es la desviación típica de la población y n es el tamaño de la muestra.</para><note id="id7166567" class="finger"><label/><title>NOTA</title>
+</m:math> donde <emphasis effect="italics">σ</emphasis> es la desviación típica de la población y n es el tamaño de la muestra.</para><note id="id7166567"><label/><title>NOTA</title>
 <para id="eip-idp582096">
 <emphasis>En la práctica, UTILICE UNA CALCULADORA O UN SOFTWARE DE COMPUTADORA PARA CALCULAR LA DESVIACIÓN TÍPICA. Si está utilizando una calculadora TI-83, 83+ u 84+, debe seleccionar la desviación típica <emphasis effect="italics">σ<sub>x</sub></emphasis> o <emphasis effect="italics">s<sub>x</sub></emphasis> correspondiente de las estadísticas de resumen.</emphasis> Nos centraremos en la utilización e interpretación de la información que nos proporciona la desviación típica. Sin embargo, debería estudiar el siguiente ejemplo paso a paso para entender cómo la desviación típica mide la variación de la media. (Las instrucciones de la calculadora aparecen al final de este ejemplo).</para>
 </note><example id="element-655"><para id="element-440">En una clase de quinto grado la maestra estaba interesada en la edad promedio y la desviación típica de la muestra de las edades de sus estudiantes. Los siguientes datos son las edades de una MUESTRA de <emphasis effect="italics">n</emphasis> = 20 estudiantes de quinto grado. Las edades están redondeadas al medio año más cercano: </para>
@@ -402,7 +402,7 @@
     </list></problem>
 
     <solution id="id1167261579717">
-      <list id="eip-idm6421744" list-type="enumerated" number-style="lower-alpha"><item><note id="fs-idm22381712" class="statistics calculator finger"><label/>
+      <list id="eip-idm6421744" list-type="enumerated" number-style="lower-alpha"><item><note id="fs-idm22381712" class="statistics calculator "><label/>
         <list id="fs-idm96652896" list-type="bulleted">
           <item>Borre las listas L1 y L2. Pulse STAT 4:ClrList. Introduzca el 2nd 1 para L1, la coma (,), y el 2nd 2 para L2.</item>
           <item>Introduzca los datos en el editor de listas. Pulse STAT 1:EDIT. Si es necesario, borre las listas subiendo con la flecha hasta el nombre. Pulse CLEAR y mueva la flecha hacia abajo.</item>
@@ -450,7 +450,7 @@
       </list>
       </item>
     </list></solution>
-  </exercise></example><note id="fs-idp2767424" class="statistics try finger">
+  </exercise></example><note id="fs-idp2767424" class="statistics try ">
 <label/><title>Ejercicio</title>
 <exercise id="fs-idm106330688">
 <problem id="fs-idm106330432">
@@ -463,7 +463,7 @@
 
 <para id="eip-880">Observe que en vez de dividir entre <emphasis effect="italics">n</emphasis> = 20, el cálculo divide entre <emphasis effect="italics">n</emphasis> – 1 = 20 – 1 = 19 porque los datos son una muestra. Para la varianza de la <emphasis>muestra</emphasis>, se divide entre el tamaño de la muestra menos uno (<emphasis effect="italics">n</emphasis> – 1). ¿Por qué no dividir entre <emphasis effect="italics">n</emphasis>? La respuesta tiene que ver con la varianza de la población. <emphasis>La varianza de la muestra es una estimación de la varianza de la población.</emphasis> Basándose en la matemática teórica que hay detrás de estos cálculos, al dividir entre (<emphasis effect="italics">n</emphasis> – 1) da una mejor estimación de la varianza de la población.</para>
 
-<note id="eip-718" class="finger"><label/><title>NOTA</title>
+<note id="eip-718"><label/><title>NOTA</title>
 <para id="eip-idp106491856">Debe concentrarse en lo que la desviación típica nos dice sobre los datos. La desviación típica es un número que mide la dispersión de los datos con respecto a la media. Efectúe la aritmética con una calculadora o una computadora.</para>
 </note><para id="eip-323">La desviación típica, <emphasis effect="italics">s</emphasis> o <emphasis effect="italics">σ</emphasis>, es cero o mayor que cero. La descripción de los datos con referencia a la dispersión se denomina “variabilidad”. La variabilidad de los datos depende del método con el que se obtienen los resultados; por ejemplo, por medición o por muestreo aleatorio. Cuando la desviación típica es cero, no hay dispersión; es decir, todos los valores de los datos son iguales entre sí. La desviación típica es pequeña cuando todos los datos se concentran cerca de la media, y es mayor cuando los valores de los datos muestran más variación con respecto a la media. Cuando la desviación típica es mucho mayor que cero, los valores de los datos están muy dispersos alrededor de la media; los valores atípicos pueden hacer que <emphasis effect="italics">s</emphasis> o <emphasis effect="italics">σ</emphasis> sean muy grandes.</para><para id="element-789">La desviación típica, cuando se presenta por primera vez, puede parecer poco clara. Al graficar los datos, puede tener una mejor "percepción" de las desviaciones y la desviación típica. Encontrará que en las distribuciones simétricas la desviación típica puede ser muy útil, pero en las distribuciones sesgadas, es posible que la desviación típica no sea de mucha ayuda. La razón es que los dos lados de una distribución sesgada tienen diferentes márgenes. En una distribución sesgada, es mejor fijarse en el primer cuartil, la mediana, el tercer cuartil, el valor más pequeño y el valor más grande. Como los números pueden ser confusos, <emphasis>siempre hay que hacer un gráfico de los datos</emphasis>. Visualice sus datos en un histograma o un diagrama de caja y bigotes.</para>
 
@@ -471,7 +471,7 @@
 <exercise id="exer2"><problem id="id6379302">
 <para id="element-592">Utilice los siguientes datos (calificaciones del primer examen) de la clase de Precálculo de primavera de Susan Dean:</para>
 <para id="element-961">33; 42; 49; 49; 53; 55; 55; 61; 63; 67; 68; 68; 69; 69; 72; 73; 74; 78; 80; 83; 88; 88; 88; 90; 92; 94; 94; 94; 94; 96; 100</para><list id="element-744" list-type="enumerated" number-style="lower-alpha"><item>Cree un gráfico que contenga los datos, las frecuencias, las frecuencias relativas y las frecuencias relativas acumuladas con tres decimales.</item>
-<item class="finger">Calcule lo siguiente con un decimal utilizando una calculadora TI-83+ o TI-84: <list id="element-9170" list-type="enumerated" number-style="lower-roman"><item>La media muestral</item>
+<item>Calcule lo siguiente con un decimal utilizando una calculadora TI-83+ o TI-84: <list id="element-9170" list-type="enumerated" number-style="lower-roman"><item>La media muestral</item>
 <item>La desviación típica de la muestra</item>
 <item>La mediana</item>
 <item>El primer cuartil</item>
@@ -648,7 +648,7 @@
 </example>
 
 
-<note id="fs-idp3274832" class="statistics try finger"><label/><title>Ejercicio</title>
+<note id="fs-idp3274832" class="statistics try "><label/><title>Ejercicio</title>
 <exercise id="fs-idm22220656">
 <problem id="fs-idm22220400">
 <para id="fs-idm125056">Los siguientes datos muestran los diferentes tipos de alimentos para mascotas que tienen las tiendas de la zona. <newline/>6; 6; 6; 6; 7; 7; 7; 7; 7; 8; 9; 9; 9; 9; 10; 10; 10; 10; 10; 11; 11; 11; 11; 12; 12; 12; 12; 12; 12; <newline/>Calcule la media muestral y la desviación típica de la muestra con un decimal utilizando una calculadora TI-83+ o TI-84.</para>
@@ -726,7 +726,7 @@
 
 </m:math> = media muestral, los cálculos son tediosos. Por lo general, lo mejor es utilizar la tecnología para realizar los cálculos.</para></example>
 
-<note id="fs-idm15915776" class="statistics try finger">
+<note id="fs-idm15915776" class="statistics try ">
 <label/><title>Ejercicio</title>
 <para id="fs-idm104856336">Calcule la desviación típica de los datos del ejemplo anterior</para>
 <table id="fs-idm8420544" summary="">
@@ -1089,8 +1089,8 @@
 
 <section id="fs-idm102658016" class="practice">
 
-<para id="fs-idp12495840"><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios</emphasis>: Los siguientes datos son las distancias entre 20 tiendas minoristas y un gran centro de distribución. Las distancias están en millas. <newline/>29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150</para><exercise id="fs-idm25484256" class="finger"><problem id="fs-idm25484000">
-<para id="fs-idm83184320" class="finger">Utilice una calculadora gráfica o una computadora para hallar la desviación típica y redondee a la décima más cercana.</para></problem>
+<para id="fs-idp12495840"><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios</emphasis>: Los siguientes datos son las distancias entre 20 tiendas minoristas y un gran centro de distribución. Las distancias están en millas. <newline/>29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150</para><exercise id="fs-idm25484256"><problem id="fs-idm25484000">
+<para id="fs-idm83184320">Utilice una calculadora gráfica o una computadora para hallar la desviación típica y redondee a la décima más cercana.</para></problem>
 <solution id="fs-idm109784640">
 <para id="fs-idm109784384"><emphasis effect="italics">s</emphasis> = 34,5</para>
 </solution>
@@ -1151,7 +1151,7 @@
 </list></problem>
 </exercise>
 
-<para id="eip-370" class="finger"><newline/><emphasis effect="italics">Calcule la desviación típica de las siguientes tablas de frecuencias utilizando la fórmula. Compruebe los cálculos con la TI 83/84</emphasis>.</para><exercise id="fs-idm109676912"><problem id="fs-idm109676656"><para id="eip-id1166677427293">Calcule la desviación típica de las siguientes tablas de frecuencias utilizando la fórmula. Compruebe los cálculos con la TI 83/84</para>
+<para id="eip-370"><newline/><emphasis effect="italics">Calcule la desviación típica de las siguientes tablas de frecuencias utilizando la fórmula. Compruebe los cálculos con la TI 83/84</emphasis>.</para><exercise id="fs-idm109676912"><problem id="fs-idm109676656"><para id="eip-id1166677427293">Calcule la desviación típica de las siguientes tablas de frecuencias utilizando la fórmula. Compruebe los cálculos con la TI 83/84</para>
 <list id="fs-idp11094096" list-type="enumerated" number-style="lower-alpha"><item><table id="fs-idm103039104" summary="">
 <tgroup cols="2">
 <thead><row><entry>Grado</entry><entry>Frecuencia</entry></row></thead>
@@ -1410,7 +1410,7 @@
    <m:mo>=</m:mo><m:mn>23,32</m:mn>
   </m:mrow>
   </m:math></item>
-<item class="finger">Utilizando la TI 83/84, obtenemos una desviación típica de: <m:math>
+<item>Utilizando la TI 83/84, obtenemos una desviación típica de: <m:math>
  <m:mrow>
   <m:msub>
    <m:mi>s</m:mi>

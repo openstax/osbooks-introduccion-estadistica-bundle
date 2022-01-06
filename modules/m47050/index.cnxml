@@ -209,7 +209,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
   </m:msub>
 </m:math> son las medias muestrales. <emphasis effect="italics">μ</emphasis><sub>1</sub> y <emphasis effect="italics">μ</emphasis><sub>2</sub> son las medias poblacionales.</item>
 </list></para>
-<para id="element-256" class="finger">El número de <term id="term-00002">grados de libertad (<emphasis effect="italics">df</emphasis>)</term> requiere un cálculo algo complicado. Sin embargo, la computadora o la calculadora lo calculan fácilmente. Los <emphasis effect="italics">df</emphasis> no son siempre un número entero. El estadístico de prueba calculado anteriormente se determina aproximadamente mediante la distribución <emphasis effect="italics">t</emphasis> de Student con <emphasis effect="italics">df</emphasis> de la siguiente manera:
+<para id="element-256">El número de <term id="term-00002">grados de libertad (<emphasis effect="italics">df</emphasis>)</term> requiere un cálculo algo complicado. Sin embargo, la computadora o la calculadora lo calculan fácilmente. Los <emphasis effect="italics">df</emphasis> no son siempre un número entero. El estadístico de prueba calculado anteriormente se determina aproximadamente mediante la distribución <emphasis effect="italics">t</emphasis> de Student con <emphasis effect="italics">df</emphasis> de la siguiente manera:
 <equation class="unnumbered" id="eq_df"><label/><title>Grados de libertad</title><m:math>
  <m:mrow>
   <m:mi>d</m:mi><m:mi>e</m:mi><m:mo>=</m:mo><m:mfrac>
@@ -365,7 +365,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
 
  </m:mrow>
 </m:math></equation></para><para id="element-316">Cuando los tamaños de las muestras <emphasis effect="italics">n</emphasis><sub>1</sub> y <emphasis effect="italics">n</emphasis><sub>2</sub> son cinco o más, la aproximación <emphasis effect="italics">t</emphasis> de Student es bastante apropiada. Observe que las varianzas muestrales (<emphasis effect="italics">s</emphasis><sub>1</sub>)<sup>2</sup> y (<emphasis effect="italics">s</emphasis><sub>2</sub>)<sup>2</sup> no están agrupadas. (Si se plantea la cuestión, no agrupe las varianzas).</para>
-<note id="fs-idm74088160" class="finger"><label/><title>NOTA</title><para id="fs-idm378573120">No es necesario calcularlo a mano. La calculadora o la computadoras lo harán fácilmente.</para></note>
+<note id="fs-idm74088160"><label/><title>NOTA</title><para id="fs-idm378573120">No es necesario calcularlo a mano. La calculadora o la computadoras lo harán fácilmente.</para></note>
 <example id="element-208">
 <title>Grupos independientes</title>
   <para id="element-687">Se cree que el promedio de tiempo que los niños y niñas de entre siete y once años practican deportes cada día es la misma. Se hace un estudio y se recopilan datos, lo que da como resultado los datos en la <link target-id="uid888"/>. Cada población tiene una distribución normal.</para>

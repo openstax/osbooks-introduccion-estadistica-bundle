@@ -77,7 +77,7 @@
 <figure id="eip-idm440920048">
 <media id="id1164262330756" alt="Este es un diagrama de dispersión de los datos proporcionados. La calificación del tercer examen se representa en el eje x y la del examen final en el eje y. Los puntos forman un patrón fuerte, positivo y lineal."><image src="../../media/fig-ch12_05_01.jpg" mime-type="image/jpeg" width="380"/></media>
 <caption>Diagrama de dispersión que muestra las calificaciones del examen final con base en las del tercer examen.</caption>
-</figure></example><note id="fs-idp122176240" class="statistics try finger">
+</figure></example><note id="fs-idp122176240" class="statistics try ">
 <label/>
 <title>Ejercicio</title>
 <exercise id="eip-397"><problem id="eip-266">
@@ -265,7 +265,7 @@
 <title>Criterio de mínimos cuadrados para el mejor ajuste</title>
 <para id="eip-996">El proceso de ajuste de la línea de mejor ajuste se denomina <emphasis>regresión lineal</emphasis>. La idea de hallar la línea de mejor ajuste se basa en la suposición de que los datos están dispersos alrededor de una línea recta. El criterio para la línea de mejor ajuste es que la suma de errores al cuadrado (SSE) se minimice, es decir, que sea lo más pequeña posible. Cualquier otra línea que se elija tendrá una SSE mayor que la línea de mejor ajuste. Esta línea de mejor ajuste se denomina <emphasis> línea de regresión por mínimos cuadrados </emphasis>.</para>
 
-<note id="id1164273503037" class="finger"><label/><title>Nota</title>
+<note id="id1164273503037"><label/><title>Nota</title>
 <para id="fs-idp15798576">Las hojas de cálculo, los softwares estadísticos y muchas calculadoras pueden calcular rápidamente la línea de mejor ajuste y crear los gráficos. Los cálculos suelen ser tediosos si se hacen a mano. Al final de esta sección se muestran las instrucciones para utilizar las calculadoras TI-83, TI-83+ y TI-84+ para hallar la línea de mejor ajuste y crear un diagrama de dispersión.</para></note><para id="element-27">
 <title>EJEMPLO DEL TERCER EXAMEN versus el EXAMEN FINAL:</title>
 El gráfico de la línea de mejor ajuste para el ejemplo del tercer examen o examen final es el siguiente:</para>

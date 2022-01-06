@@ -180,7 +180,7 @@
    <m:mn>2</m:mn>
   </m:msub>
 </m:math> son las medias muestrales. <emphasis effect="italics">μ</emphasis><sub>1</sub> y <emphasis effect="italics">μ</emphasis><sub>2</sub> son las medias poblacionales desconocidas.</item>
-</list></para><para id="element-256" class="finger">El número de <term id="term-00002">grados de libertad (<emphasis effect="italics">df</emphasis>)</term> requiere un cálculo algo complicado. Los <emphasis effect="italics">df</emphasis> no son siempre un número entero. El anterior estadístico de prueba se calcula aproximadamente mediante la distribución <emphasis effect="italics">t</emphasis> de Student con <emphasis effect="italics">df</emphasis> de la siguiente manera:
+</list></para><para id="element-256">El número de <term id="term-00002">grados de libertad (<emphasis effect="italics">df</emphasis>)</term> requiere un cálculo algo complicado. Los <emphasis effect="italics">df</emphasis> no son siempre un número entero. El anterior estadístico de prueba se calcula aproximadamente mediante la distribución <emphasis effect="italics">t</emphasis> de Student con <emphasis effect="italics">df</emphasis> de la siguiente manera:
 <equation class="unnumbered" id="eq_df"><label/><title>El error estándar es:</title><m:math display="block">
  <m:mrow>
   <m:mi>d</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>

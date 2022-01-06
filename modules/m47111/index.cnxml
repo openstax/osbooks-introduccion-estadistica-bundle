@@ -107,7 +107,7 @@
 <item>El valor <emphasis effect="italics">p</emphasis> es el área combinada en ambas colas.</item>
 </list>
 
-<para id="fs-idp203218208" class="finger">Otra manera de calcular el valor <emphasis effect="italics">p</emphasis> <emphasis>(p)</emphasis> dado por LinRegTTest es el comando 2*tcdf(abs(t),10^99, n-2) en 2nd DISTR.</para>
+<para id="fs-idp203218208">Otra manera de calcular el valor <emphasis effect="italics">p</emphasis> <emphasis>(p)</emphasis> dado por LinRegTTest es el comando 2*tcdf(abs(t),10^99, n-2) en 2nd DISTR.</para>
 
 <list id="eip-76"><title>EJEMPLO DE TERCER EXAMEN vs. EXAMEN FINAL: método del valor <emphasis effect="italics">p</emphasis></title><item>Considere el <link document="m47117" target-id="element-22">ejemplo del tercer examen/examen final</link>.</item>
 <item>La línea de mejor ajuste es: ŷ = -173,51 + 4,83<emphasis effect="italics">x</emphasis> con <emphasis effect="italics">r</emphasis> = 0,6631 y hay <emphasis effect="italics">n</emphasis> = 11 puntos de datos.</item>

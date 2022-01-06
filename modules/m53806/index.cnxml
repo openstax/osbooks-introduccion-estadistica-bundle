@@ -316,7 +316,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 <exercise id="exer2"><problem id="id6379302">
 <para id="element-592">Utilice los siguientes datos (calificaciones del primer examen) de la clase de Precálculo de primavera de Susan Dean:</para>
 <para id="element-961">33; 42; 49; 49; 53; 55; 55; 61; 63; 67; 68; 68; 69; 69; 72; 73; 74; 78; 80; 83; 88; 88; 88; 90; 92; 94; 94; 94; 94; 96; 100</para><list id="element-744" list-type="enumerated" number-style="lower-alpha"><item>Cree un gráfico que contenga los datos, las frecuencias, las frecuencias relativas y las frecuencias relativas acumuladas con tres decimales.</item>
-<item class="finger">Calcule lo siguiente con un decimal: <list id="element-9170" list-type="enumerated" number-style="lower-roman"><item>La media muestral</item>
+<item>Calcule lo siguiente con un decimal: <list id="element-9170" list-type="enumerated" number-style="lower-roman"><item>La media muestral</item>
 <item>La desviación típica de la muestra</item>
 <item>La mediana</item>
 <item>El primer cuartil</item>
@@ -1044,8 +1044,8 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 
 <section id="fs-idm102658016" class="practice">
 <title/>
-<para id="fs-idp12495840"><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios</emphasis>: Los siguientes datos son las distancias entre 20 tiendas minoristas y un gran centro de distribución. Las distancias están en millas. <newline/>29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150</para><exercise id="fs-idm25484256" class="finger"><problem id="fs-idm25484000">
-<para id="fs-idm83184320" class="finger">Utilice una calculadora gráfica o una computadora para hallar la desviación típica y redondee a la décima más cercana.</para></problem>
+<para id="fs-idp12495840"><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios</emphasis>: Los siguientes datos son las distancias entre 20 tiendas minoristas y un gran centro de distribución. Las distancias están en millas. <newline/>29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150</para><exercise id="fs-idm25484256"><problem id="fs-idm25484000">
+<para id="fs-idm83184320">Utilice una calculadora gráfica o una computadora para hallar la desviación típica y redondee a la décima más cercana.</para></problem>
 <solution id="fs-idm109784640">
 <para id="fs-idm109784384"><emphasis effect="italics">s</emphasis> = 34,5</para>
 </solution>
@@ -1107,7 +1107,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 </problem>
 </exercise>
 
-<para id="eip-370" class="finger"><newline/><emphasis effect="italics">Calcule la desviación típica de las siguientes tablas de frecuencias utilizando la fórmula. Compruebe los cálculos con la TI 83/84</emphasis>.</para><exercise id="fs-idm109676912"><problem id="fs-idm109676656"><para id="eip-id1166677427293">Calcule la desviación típica de las siguientes tablas de frecuencias utilizando la fórmula. Compruebe los cálculos con la TI 83/84</para>
+<para id="eip-370"><newline/><emphasis effect="italics">Calcule la desviación típica de las siguientes tablas de frecuencias utilizando la fórmula. Compruebe los cálculos con la TI 83/84</emphasis>.</para><exercise id="fs-idm109676912"><problem id="fs-idm109676656"><para id="eip-id1166677427293">Calcule la desviación típica de las siguientes tablas de frecuencias utilizando la fórmula. Compruebe los cálculos con la TI 83/84</para>
 <list id="fs-idp11094096" list-type="enumerated" number-style="lower-alpha"><item><table id="fs-idm103039104" summary="">
 <tgroup cols="2">
 <thead><row><entry>Grado</entry><entry>Frecuencia</entry></row></thead>
@@ -1359,7 +1359,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
    <m:mo>=</m:mo><m:mn>23,32</m:mn>
   </m:mrow>
   </m:math></item>
-<item class="finger">Utilizando la TI 83/84, obtenemos una desviación típica de: <m:math>
+<item>Utilizando la TI 83/84, obtenemos una desviación típica de: <m:math>
  <m:mrow>
   <m:msub>
    <m:mi>s</m:mi>
