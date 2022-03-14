@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>Cómo utilizar Microsoft Excel® para el análisis de regresión</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -96,7 +96,7 @@
 </para></section><section id="eip-0" class="practice"><exercise id="eip-901"><problem id="eip-484">
   <para id="eip-900">Se ha utilizado un programa computarizado de regresión múltiple para ajustar <m:math><m:msub><m:mover><m:mi>y</m:mi><m:mn>^</m:mn></m:mover><m:mi>j</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>b</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:mo>⋅</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mn>1</m:mn><m:mi>j</m:mi></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub><m:mo>⋅</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mn>2</m:mn><m:mi>j</m:mi></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>b</m:mi><m:mn>3</m:mn></m:msub><m:mo>⋅</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mn>3</m:mn><m:mi>j</m:mi></m:mrow></m:msub></m:math>.
   </para><para id="eip-idm1945664496">Parte del resultado de la computadora incluye:</para>
-<table id="eip-idm236212336" summary="b(i) and S(b(i)) values for i = 0, 1, 2, and 3. The values of b(i) and S(b(i)) are, respectively, 8 and 1.6, 2.2 and .24, -.72 and .32, and .005 and .002.">
+<table id="eip-idm236212336" summary="valores b(i) y S(b(i)) para i = 0, 1, 2 y 3. Los valores de b(i) y S(b(i)) son, respectivamente, 8 y 1,6, 2,2 y 0,24, –0,72 y 0,32 y 0,005 y 0,002.">
 <tgroup cols="3"><tbody>
   <row>
     <entry><emphasis>i</emphasis></entry>
@@ -147,7 +147,7 @@ Un investigador ha utilizado un programa de regresión múltiple sobre 20 puntos
   </para>
 
 
-<table id="eip-idm350525312" summary="'Coefficients' and 'Standard Errors of b(i)' for variables 1, 2, and 3. The respective coefficient/standard error values are 0.45 and 0.21, 0.80 and 0.10, and 3.10 and 0.86.">
+<table id="eip-idm350525312" summary="'Coeficientes' y 'Errores estándar de b(i)' para las variables 1, 2 y 3. Los valores respectivos del coeficiente/error estándar son 0,45 y 0,21, 0,80 y 0,10, y 3,10 y 0,86.">
 <tgroup cols="3"><tbody>
   <row>
     <entry><emphasis>Variable</emphasis></entry>

@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>La distribución F y el cociente F</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m55712</md:content-id>
@@ -391,7 +391,7 @@
 </m:math> = la varianza de las medias muestrales</item>
 </list><para id="eip-580">Los datos se suelen poner en una tabla para facilitar su visualización. Los resultados del ANOVA de una vía suelen mostrarse de esta manera en softwares.
 
-<table id="eip-id1172021872456" summary="General One-Way ANOVA Table with 3 rows and 4 columns.">
+<table id="eip-id1172021872456" summary="Tabla general de análisis de varianza (ANalysis Of VAriance, ANOVA) de una vía con 3 filas y 4 columnas.">
 <tgroup cols="5"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -434,7 +434,7 @@
 </tgroup>
 </table></para>
 
-<example id="eip-546"><para id="eip-125">Se van a probar tres planes de dieta diferentes para la pérdida media de peso. Las entradas de la tabla son las pérdidas de peso de los diferentes planes. Los resultados del ANOVA de una vía se muestran en la <link target-id="eip-id2754369"/>.</para><table id="eip-id2754369" summary="The Table consists of 3 columns: CNN, Fox and Local. The table entries are the mean time, in minutes, that people watch their favorite news station on CNN, Fox or the local station.">
+<example id="eip-546"><para id="eip-125">Se van a probar tres planes de dieta diferentes para la pérdida media de peso. Las entradas de la tabla son las pérdidas de peso de los diferentes planes. Los resultados del ANOVA de una vía se muestran en la <link target-id="eip-id2754369"/>.</para><table id="eip-id2754369" summary="La tabla consta de 3 columnas: CNN, Fox y local. Las entradas de la tabla son el tiempo medio, en minutos, que la gente ve su estación de noticias favorita: CNN, Fox o la estación local.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -828,7 +828,7 @@
 </equation>
 
 
-<table id="eip-id1172005012068" summary="General One-Way ANOVA Table with 3 rows and 4 columns.">
+<table id="eip-id1172005012068" summary="Tabla general de análisis de varianza (ANalysis Of VAriance, ANOVA) de una vía con 3 filas y 4 columnas.">
 <tgroup cols="5"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1211,7 +1211,7 @@
 <example id="element-810">
 <para id="element-726">Cuatro hermandades de mujeres tomaron una muestra aleatoria de hermanas en relación con su media de calificaciones para el último trimestre. Los resultados se muestran en la <link target-id="table-1"/>.</para>
 
-<table id="table-1" summary="This table presents the grade averages for sororities with the first sorority in the first column, second in the second column, third in the third column, and fourth in the fourth column."><title>Media de notas de las cuatro hermandades</title>
+<table id="table-1" summary="Esta tabla presenta los promedios de calificaciones de las sororidades con la primera sororidad en la primera columna, la segunda en la segunda columna, la tercera en la tercera columna y la cuarta en la cuarta columna."><title>Media de notas de las cuatro hermandades</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1318,7 +1318,7 @@
 <example id="element-349">
 <para id="element-149">Una clase de cuarto grado está estudiando el ambiente. Una de las tareas consiste en cultivar plantas de judías en diferentes suelos. Tommy eligió cultivar sus plantas de judías en la tierra que encontró fuera de su aula mezclada con pelusa de secadora. Tara decidió cultivar sus plantas de judías en tierra para macetas comprada en el vivero local. Nick decidió cultivar sus plantas de judías en la tierra del jardín de su madre. No se utilizó ningún producto químico en las plantas, solo agua. Se cultivaron en el interior del aula junto a un gran ventanal. Cada niño cultivó cinco plantas. Al final del periodo de crecimiento se midió cada planta y se obtuvieron los datos (en pulgadas) que están en la <link target-id="table-234"/>.
 
-<table id="table-234" summary="This table presents Tommy's plant heights in inches in the first column, Tara's plant heights in inches in the second column, and Nick's plant heights in inches in the third column.">
+<table id="table-234" summary="Esta tabla presenta las alturas de las plantas de Tommy en pulgadas en la primera columna, las alturas de las plantas de Tara en pulgadas en la segunda y las alturas de las plantas de Nick en pulgadas en la tercera.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1403,7 +1403,7 @@
 </m:math>.</para>
 
 <para id="element-599">Primero, calcule la media muestral y la varianza de cada grupo.</para>
-<table id="table-9634" summary="This table presents Tommy's plant heights in the first column, Tara's plant heights in the second column, and Nick's plant heights in the third column. The first row represents the sample mean and the second row represents the sample variance.">
+<table id="table-9634" summary="Esta tabla presenta las alturas de las plantas de Tommy en la primera columna, las de Tara en la segunda y las de Nick en la tercera. La primera fila representa la media de la muestra y la segunda la varianza de la muestra.">
 <tgroup cols="4"><colspec colnum="1" colname="header_c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>

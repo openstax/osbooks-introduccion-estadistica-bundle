@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Histogramas, polígonos de frecuencia y gráficos de series temporales</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m46924</md:content-id>
@@ -607,7 +607,7 @@
 <exercise id="eip-341">
 <problem id="fs-idp82639856">
 <para id="fs-idp82640112">se preguntó a sesenta y cinco vendedores de automóviles seleccionados al azar el número de automóviles que suelen vender en una semana. Catorce personas respondieron que generalmente venden tres, diecinueve que venden cuatro, doce que venden cinco, nueve que venden seis y once que venden siete. Rellene la tabla.</para>
-<table id="table001" summary="Blank table where data can be reported with the first column designated for the data value, or number of cars, the second column for frequency, the third column for relative frequency, and the fourth column for cumulative frequency.">
+<table id="table001" summary="Tabla en blanco en la que se pueden comunicar los datos con la primera columna designada para el valor de los datos, o el número de automóviles, la segunda columna para la frecuencia, la tercera para la frecuencia relativa y la cuarta para la frecuencia acumulada.">
 <tgroup cols="4">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -990,7 +990,7 @@
 <title>Tarea para la casa</title>
 <exercise id="fs-idp53668112">
 <problem id="fs-idp53668368">
-<para id="fs-idp71468496">Supongamos que tres editoriales se interesan por el número de libros de ficción de tapa blanda que compran los consumidores adultos al mes. Cada editorial realizó una encuesta. En la encuesta se les preguntó a los consumidores adultos el número de libros de ficción de tapa blanda que compraron el mes anterior. Los resultados son los siguientes:</para><table id="fs-idp71816400" summary="The tables presents the number of books purchased by adults by three different publishers. Publisher A is the first table with number of books in the first column, from 0-8, frequency in the second column, and relative frequency in the third column which is blank.">
+<para id="fs-idp71468496">Supongamos que tres editoriales se interesan por el número de libros de ficción de tapa blanda que compran los consumidores adultos al mes. Cada editorial realizó una encuesta. En la encuesta se les preguntó a los consumidores adultos el número de libros de ficción de tapa blanda que compraron el mes anterior. Los resultados son los siguientes:</para><table id="fs-idp71816400" summary="Las tablas presentan el número de libros comprados por adultos en tres editoriales diferentes. La editorial A es la primera tabla con el número de libros en la primera columna, de 0 a 8, la frecuencia en la segunda columna y la frecuencia relativa en la tercera, que está en blanco.">
 <title>Editorial A</title>
 <tgroup cols="3">
 <colspec colnum="1" colname="c1"/>
@@ -1047,7 +1047,7 @@
 </tbody>
 </tgroup>
 </table>
-<table id="fs-idp43657824" summary="Publisher B is the second table with number of books in the first column, from 0-5, 7, 9, frequency in the second column, and relative frequency in the third column which is blank.">
+<table id="fs-idp43657824" summary="La editorial B es la segunda tabla con el número de libros en la primera columna, de 0 a 5, 7, 9, la frecuencia en la segunda columna y la frecuencia relativa en la tercera columna que está en blanco.">
 <title>Editorial B</title>
 <tgroup cols="3"><thead>
 <row>
@@ -1101,7 +1101,7 @@
 </tgroup>
 </table>
 
-<table id="fs-idm93843856" summary="Publisher C is the first table with number of books in the first column, 0-1, 2-3, 4-5, 6-7, 8-9, frequency in the second column, and relative frequency in the third column which is blank.">
+<table id="fs-idm93843856" summary="La editorial C es la primera tabla con el número de libros en la primera columna, de 0 a 1, de 2 a 3, de 4 a 5, de 6 a 7 y de 8 a 9, la frecuencia en la segunda columna y la frecuencia relativa en la tercera columna que está en blanco.">
 <title>Editorial C</title>
 <tgroup cols="3"><thead>
 <row>
@@ -1148,7 +1148,7 @@
 </exercise>
 
 <exercise id="eip-457"><problem id="fs-idp16459264">
-<para id="fs-idp16459520">A menudo, los cruceros realizan todas las transacciones a bordo sin dinero en efectivo, a excepción de los juegos de azar. Al final del crucero, los huéspedes pagan una sola factura que cubre todas las transacciones a bordo. Supongamos que se encuestaron 60 viajeros solteros y 70 parejas sobre sus facturas a bordo para un crucero de siete días desde Los Ángeles a la riviera mexicana. A continuación, un resumen de las facturas de cada grupo.</para><table id="fs-idp40233520" summary="This table presents the amount of cruise bills by guest type. The first table is for singles with the first column listing the bill amount, the second column listing the frequency, and the third column labeled for relative frequency which is blank.">
+<para id="fs-idp16459520">A menudo, los cruceros realizan todas las transacciones a bordo sin dinero en efectivo, a excepción de los juegos de azar. Al final del crucero, los huéspedes pagan una sola factura que cubre todas las transacciones a bordo. Supongamos que se encuestaron 60 viajeros solteros y 70 parejas sobre sus facturas a bordo para un crucero de siete días desde Los Ángeles a la riviera mexicana. A continuación, un resumen de las facturas de cada grupo.</para><table id="fs-idp40233520" summary="Esta tabla presenta el monto de las facturas de los cruceros por tipo de huésped. La primera tabla es para solteros con la primera columna que indica el monto de la factura, la segunda columna que indica la frecuencia y la tercera columna etiquetada para la frecuencia relativa que está en blanco.">
 <title>Solteros</title>
 <tgroup cols="3"><thead>
 <row>
@@ -1192,7 +1192,7 @@
 </tgroup>
 </table>
 
-<table id="fs-idp2601840" summary="The second table is for couples with the first column listing the bill amount, the second column listing the frequency, and the third column labeled for relative frequency which is blank.">
+<table id="fs-idp2601840" summary="La segunda tabla es para las parejas, con la primera columna con el monto de la factura, la segunda con la frecuencia y la tercera con la frecuencia relativa, que está en blanco.">
 <title>Parejas</title>
 <tgroup cols="3"><thead>
 <row>
@@ -1427,7 +1427,7 @@
 <item>Las respuestas pueden variar. Las posibles respuestas son: Según los histogramas, parece que el gasto no varía mucho entre los solteros y las personas que forman parte de una pareja. Los patrones generales son iguales. El rango de gasto de las parejas es aproximadamente el doble que el de personas individuales.</item>
 </list></solution></exercise><exercise id="fs-idp73179824"><problem id="fs-idp73180080">
 <para id="fs-idp2917520">Se les preguntó a veinticinco estudiantes seleccionados al azar el número de películas que habían visto la semana anterior. Los resultados son los siguientes.
-<table id="fs-idp75182816" summary="The table presents the number of movies 25 students watched in the previous week. The first column lists the number of movies from 0-4, the second column lists the frequency with the values of 5, 9, 6, 4, 1, the third column is for relative frequency and is blank, and the fourth column is for cumulative relative frequency and is blank.">
+<table id="fs-idp75182816" summary="La tabla presenta el número de películas que 25 estudiantes vieron la semana anterior. La primera columna enumera el número de películas de 0 a 4, la segunda enumera la frecuencia con los valores de 5, 9, 6, 4, 1, la tercera es para la frecuencia relativa y está en blanco y la cuarta es para la frecuencia relativa acumulada y está en blanco.">
 
 <tgroup cols="4"><thead>
  <row>
@@ -1508,7 +1508,7 @@
 <exercise id="fs-idp13768528">
 <problem id="fs-idm31496800">
 <para id="fs-idm31496544">A continuación se muestran las tasas de obesidad de 2010 por estados de EE. UU. y Washington, DC.</para>
-<table id="Obesity_Rates_2008" summary="The tables represents United States states and Obesity Rates. The first column and third columns list the names of the states and the second and fourth columns list Obesity Rates.">
+<table id="Obesity_Rates_2008" summary="Las tablas representan los estados de los Estados Unidos y las tasas de obesidad. La primera y la tercera columnas indican los nombres de los estados y la segunda y cuarta columnas las tasas de obesidad.">
 <tgroup cols="6"><thead>
         <row>
           <entry>Estado</entry>

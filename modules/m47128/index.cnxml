@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>La distribución F y el cociente F</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m47128</md:content-id>
@@ -401,7 +401,7 @@
 </m:math> = la varianza de las medias muestrales</item>
 </list><para id="eip-580">Los datos se suelen poner en una tabla para facilitar su visualización. Los resultados del ANOVA de una vía suelen mostrarse de esta manera en softwares.
 
-<table id="eip-id1172021872456" summary="General One-Way ANOVA Table with 3 rows and 4 columns.">
+<table id="eip-id1172021872456" summary="Tabla general de análisis de varianza (ANalysis Of VAriance, ANOVA) de una vía con 3 filas y 4 columnas.">
 <tgroup cols="5">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -443,7 +443,7 @@
 </tgroup>
 </table></para>
 
-<example id="eip-546"><para id="eip-125">Se van a probar tres planes de dieta diferentes para la pérdida media de peso. Las entradas de la tabla son las pérdidas de peso de los diferentes planes. Los resultados del ANOVA de una vía se muestran en la <link target-id="eip-id2754369"/>.</para><table id="eip-id2754369" summary="The Table consists of 3 columns: CNN, Fox and Local. The table entries are the mean time, in minutes, that people watch their favorite news station on CNN, Fox or the local station.">
+<example id="eip-546"><para id="eip-125">Se van a probar tres planes de dieta diferentes para la pérdida media de peso. Las entradas de la tabla son las pérdidas de peso de los diferentes planes. Los resultados del ANOVA de una vía se muestran en la <link target-id="eip-id2754369"/>.</para><table id="eip-id2754369" summary="La tabla consta de 3 columnas: CNN, Fox y local. Las entradas de la tabla son el tiempo medio, en minutos, que la gente ve su estación de noticias favorita: CNN, Fox o la estación local.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -843,7 +843,7 @@
 <label/>
 <para id="eip-786">Tabla de ANOVA de una vía: Las fórmulas para <emphasis effect="italics">SS</emphasis>(total), <emphasis effect="italics">SS</emphasis>(factor) = <emphasis effect="italics">SS</emphasis>(entre) y <emphasis effect="italics">SS</emphasis>(error) = <emphasis effect="italics">SS</emphasis>(dentro) como se ha mostrado anteriormente. La misma información es proporcionada por la función de prueba de hipótesis de la calculadora TI ANOVA en STAT TESTS (la sintaxis es ANOVA(L1, L2, L3) donde L1, L2, L3 tienen los datos del Plan 1, Plan 2, Plan 3 respectivamente).</para></note>
 
-<table id="eip-id1172005012068" summary="General One-Way ANOVA Table with 3 rows and 4 columns.">
+<table id="eip-id1172005012068" summary="Tabla general de análisis de varianza (ANalysis Of VAriance, ANOVA) de una vía con 3 filas y 4 columnas.">
 <tgroup cols="5">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>

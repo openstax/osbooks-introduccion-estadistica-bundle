@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Valores atípicos</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m47107</md:content-id>
@@ -93,7 +93,7 @@
 <item>-1</item>
 </list>.</para>
 
-<table id="element-4662" summary="The table contains 4 columns and 11 rows of calculation. The first two columns contain the x and y data values. The third column contains the values predicted by the regression line. The fourth column contains the errors or residuals, calculated as the observed y value minus the predicted value.">
+<table id="element-4662" summary="La tabla contiene 4 columnas y 11 filas de cálculos. Las dos primeras columnas contienen los valores de los datos x y y. La tercera columna contiene los valores predichos por la línea de regresión. La cuarta columna contiene los errores o residuos, calculados como el valor observado de y menos el valor predicho.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
  <colspec colnum="2" colname="c2"/>
  <colspec colnum="3" colname="c3"/>
@@ -488,7 +488,7 @@ En las calculadoras TI-83, TI-83+ y TI-84+, elimine el valor atípico de L1 y L2
 <section id="eip-518">
 <title>Valores críticos al 95 % de la tabla de coeficientes de correlación de la muestra</title>
 
-<table id="eip-idm31993488" summary="This table presents the 95% Critical Values of the Sample Correlation Coefficient with Degrees of Freedom in the first column and Critical Values in the second column.">
+<table id="eip-idm31993488" summary="Esta tabla presenta los valores críticos al 95 % del coeficiente de correlación muestral con los grados de libertad en la primera columna y los valores críticos en la segunda columna.">
 <tgroup cols="2"><thead>
   <row>
     <entry>Grados de libertad: <emphasis effect="italics">n</emphasis> - 2</entry>
@@ -741,7 +741,7 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 
 <exercise id="element-957"><problem id="id44886916">
   <para id="element-678">La altura (de la acera al tejado) de los edificios altos más notables de Estados Unidos se compara con el número de pisos del edificio (empezando por el nivel de la calle).</para>
-<table id="id1aa0827143" summary="This table presents building heights (in feet) in the first column and building stories in the second column.">
+<table id="id1aa0827143" summary="Esta tabla presenta las alturas de los edificios (en pies) en la primera columna y las plantas de los edificios en la segunda columna.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <thead>
@@ -1154,7 +1154,7 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 <item>¿Cuál es la pendiente de la línea de mínimos cuadrados (de mejor ajuste)? Interprete la pendiente.</item>
 </list></problem></exercise><exercise id="element-402">
 <problem id="id44890157">
-  <para id="element-674">El porcentaje de trabajadoras asalariadas que cobran tarifas por hora se indica en la <link target-id="id8522228278"/> para los años 1979 a 1992.</para><table id="id8522228278" summary="This table presents the year in the first column and percent of workers paid hourly rates in the second column.">
+  <para id="element-674">El porcentaje de trabajadoras asalariadas que cobran tarifas por hora se indica en la <link target-id="id8522228278"/> para los años 1979 a 1992.</para><table id="id8522228278" summary="Esta tabla presenta el año en la primera columna y el porcentaje de trabajadores que cobran por hora en la segunda.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <thead>
@@ -1236,7 +1236,7 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 </list></solution>
 </exercise>
 
-<para id="id9018511"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios.</emphasis> El costo de un detergente líquido líder en el mercado en diferentes tamaños se indica en la <link target-id="id10105430" document=""/>.</para><table id="id10105430" summary="This table presents the size of laundry detergent in ounces in the first column and cost in the second column. The third column is left blank for you to calculate the cost per ounce.">
+<para id="id9018511"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios.</emphasis> El costo de un detergente líquido líder en el mercado en diferentes tamaños se indica en la <link target-id="id10105430" document=""/>.</para><table id="id10105430" summary="Esta tabla presenta el tamaño del detergente para ropa en onzas en la primera columna y el costo en la segunda. La tercera columna se deja en blanco para que usted calcule el costo por onza.">
 
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
@@ -1356,7 +1356,7 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 </exercise><exercise id="element-574"><problem id="id44895425">
   <para id="element-35">Según un folleto de un representante de la compañía de seguros Prudential, los costos aproximados de los honorarios e impuestos sucesorios para determinados patrimonios netos gravables son los siguientes:</para>
 
-<table id="id1kkk0457049" summary="This table presents the net taxable estate in the first column and the approximate probate fees and taxes in the second column.">
+<table id="id1kkk0457049" summary="Esta tabla presenta el patrimonio neto gravable en la primera columna y las tasas e impuestos de sucesión aproximados en la segunda.">
 
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
@@ -1415,7 +1415,7 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 <problem id="id44844693">
 <para id="element-224">Los siguientes son los precios de venta anunciados de televisores a color en Anderson's.</para>
 
-<table id="id90742asdgfa85" summary="This table presents the size of color televisions in inches in the first column and the sale price in the second column.">
+<table id="id90742asdgfa85" summary="Esta tabla presenta el tamaño de los televisores a color en pulgadas en la primera columna y el precio de venta en la segunda.">
 
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
@@ -1484,7 +1484,7 @@ Para determinar si un punto es un valor atípico, realice una de las siguientes 
 </exercise>
 
 <exercise id="element-188"><problem id="id44845835">
-  <para id="element-654">La <link target-id="id797832aawwee6" document=""/> muestra la estatura promedio de los niños estadounidenses en 1990.</para><table id="id797832aawwee6" summary="This table presents the boys' ages in years in the first column and average heights in centimeters in the second column.">
+  <para id="element-654">La <link target-id="id797832aawwee6" document=""/> muestra la estatura promedio de los niños estadounidenses en 1990.</para><table id="id797832aawwee6" summary="Esta tabla presenta las edades de los niños en años en la primera columna y las alturas promedio en centímetros en la segunda.">
 
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>

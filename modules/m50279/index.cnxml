@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>Laboratorio 1: Bondad de ajuste de chi-cuadrado</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -19,7 +19,7 @@
    <note id="eip-665"><label/><title>Nota</title>Es posible que tenga que combinar dos categorías para que cada celda tenga un valor esperado de al menos cinco.
  </note><list id="list-87585" list-type="enumerated" mark-suffix=".">
     <item>Anote los valores.
-     <table id="table023865" summary="Blank table with 30 empty cells.">
+     <table id="table023865" summary="Tabla en blanco con 30 celdas vacías.">
       <tgroup cols="5">
        <tbody>
         <row>
@@ -97,7 +97,7 @@
       <item>valor más alto = _________</item>
      </list></item>
     <item>Para cada quinto, cuente el número observado de recibos y anótelo. Luego, determine el número previsto de recibos y anótelo.
-     <table id="id58758asdfa533062" summary="The partially filled table presents each fifth in the first column, observed in the blank second column, and expected in the blank third column. There are 5 rows.">
+     <table id="id58758asdfa533062" summary="La tabla parcialmente rellenada presenta cada quinto en la primera columna, lo observado en la segunda columna en blanco y lo esperado en la tercera columna en blanco. Hay 5 filas.">
       <tgroup cols="3"><colspec colnum="1" colname="c1"/>
        <colspec colnum="2" colname="c2"/>
        <colspec colnum="3" colname="c3"/>
@@ -182,7 +182,7 @@
       <item>valor más alto = ________</item>
      </list>
     </item>
-    <item>Para cada celda, cuente el número observado de recibos y anótelo. Luego, determine el número previsto de recibos y anótelo.<table id="id5asd875fasssff533783" summary="The partially filled table presents the cell in the first column, observed in the blank second column, and the expected in the blank third column. There are 6 rows.">
+    <item>Para cada celda, cuente el número observado de recibos y anótelo. Luego, determine el número previsto de recibos y anótelo.<table id="id5asd875fasssff533783" summary="La tabla parcialmente rellenada presenta la celda en la primera columna, lo observado en la segunda columna en blanco y lo esperado en la tercera columna en blanco. Hay 6 filas.">
      <tgroup cols="3"><colspec colnum="1" colname="c1"/>
       <colspec colnum="2" colname="c2"/>
       <colspec colnum="3" colname="c3"/>

@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Distribución binomial</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m54267</md:content-id>
@@ -206,7 +206,7 @@
 
 <exercise id="exercisefour"><problem id="id7617683">
 <para id="prob_4">Construya la Función de Distribución de Probabilidad (PDF).</para>
-<table id="id7383862" summary="PDF table with number of full-time freshmen that believes that same sex-couples should have the right to legal marital status and probabilities.">
+<table id="id7383862" summary="Tabla PDF con el número de estudiantes de primer año a tiempo completo que creen que las parejas del mismo sexo deberían tener derecho a un estado civil legal y las probabilidades.">
 <tgroup cols="2">
         <colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
@@ -375,7 +375,7 @@
 </exercise><exercise id="fs-idp24682912"><problem id="fs-idp24683040">
   <para id="fs-idm1731712">Las personas que acuden a los videoclubs suelen alquilar más de un DVD a la vez. La distribución de probabilidad de los alquileres de DVD por cliente en Video To Go es <link target-id="M04_Ch04_tbl005" document=""/>. En esta tienda hay un límite de cinco videos por cliente, por lo que nadie alquila nunca más de cinco DVD.</para>
 
-<table id="M04_Ch04_tbl005" summary="The table lists the number of video rentals (1, 2, 3, 4, 5) and the respective probabilities.">
+<table id="M04_Ch04_tbl005" summary="La tabla indica el número de videos alquilados (1, 2, 3, 4 y 5) y las respectivas probabilidades.">
 <tgroup cols="2"><thead>
 <row>
 <entry><emphasis effect="italics">x</emphasis></entry>

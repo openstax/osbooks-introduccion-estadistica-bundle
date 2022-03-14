@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Prueba de dos varianzas</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m55703</md:content-id>
@@ -958,7 +958,7 @@
 
 <exercise id="element-958"><problem id="id19296523">
 <para id="fs-idm161766800">Un grupo de base que se opone a la propuesta de aumentar el impuesto sobre la gasolina afirma que el aumento perjudicaría sobre todo a la clase trabajadora, ya que es la que se desplaza más lejos para ir a trabajar. Supongamos que el grupo encuestó aleatoriamente a 24 personas y les preguntó cuál es su millaje diario en un solo sentido. Los resultados son los siguientes.</para>
-    <table id="fs-idm45305648" summary=".">
+    <table id="fs-idm45305648" summary=" ">
 <tgroup cols="3"><thead>
 <row>
 <entry>Clase trabajadora</entry>
@@ -1014,7 +1014,7 @@
 </table><para id="element-421">Determine si la varianza del millaje conducido es estadísticamente igual entre los grupos de clase trabajadora y los de profesionales (ingresos medios). Utilice un nivel de significación del 5 %.</para>
 </problem></exercise>
 <para id="eip-idm130829600"><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios.</emphasis> La siguiente tabla muestra el número de páginas de cuatro tipos diferentes de revistas.</para>
-<table id="id7236751" summary="This table presents the number of pages in some types of magazines with home decorating in the first column, news in the second column, health in the third column, and computer in the fourth column.">
+<table id="id7236751" summary="Esta tabla presenta el número de páginas de algunos tipos de revistas con decoración del hogar en la primera columna, noticias en la segunda, salud en la tercera e informática en la cuarta.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <colspec colnum="3" colname="c3"/>
@@ -1073,7 +1073,7 @@
 </exercise><exercise id="eip-743"><problem id="eip-76">
   <para id="eip-744">¿La varianza de la cantidad de dinero, en dólares, que los compradores gastan los sábados en el centro comercial es igual a la que gastan los domingos en el centro comercial? Supongamos que la <link target-id="eip-id1164421796243"/> muestra los resultados de un estudio.
 
-<table id="eip-id1164421796243" summary="The Table contains the amount of money shoppers spend on Saturday (first column) and Sunday (second column)."><tgroup cols="2">
+<table id="eip-id1164421796243" summary="La tabla contiene la cantidad de dinero que los compradores gastan el sábado (primera columna) y el domingo (segunda columna)."><tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
         <thead>
@@ -1133,7 +1133,7 @@
 </problem>
 
 </exercise><exercise id="eip-578"><problem id="eip-310">
-  <para id="eip-31">¿Las varianzas de los ingresos en la costa este y en la costa oeste son iguales? Supongamos que la <link target-id="eip-id1170625876754"/> muestra los resultados de un estudio. Los ingresos se indican en miles de dólares. Supongamos que ambas distribuciones son normales. Utilice un nivel de significación de 0,05.</para><table id="eip-id1170625876754" summary="The Table contains the amount of money shoppers spend on Saturday (first column) and Sunday (second column).">
+  <para id="eip-31">¿Las varianzas de los ingresos en la costa este y en la costa oeste son iguales? Supongamos que la <link target-id="eip-id1170625876754"/> muestra los resultados de un estudio. Los ingresos se indican en miles de dólares. Supongamos que ambas distribuciones son normales. Utilice un nivel de significación de 0,05.</para><table id="eip-id1170625876754" summary="La tabla contiene la cantidad de dinero que los compradores gastan el sábado (primera columna) y el domingo (segunda columna).">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
 

@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Dos medias poblacionales con desviaciones típicas conocidas</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m55673</md:content-id>
@@ -170,7 +170,7 @@
 </m:math>
 </equation><example id="element-364">
 <para id="element-384"><emphasis>Grupos independientes, desviaciones típicas de la población conocidas:</emphasis> Se va a comparar el tiempo medio de duración de dos ceras para suelos de la competencia. Se asignan al azar <emphasis>veinte pisos</emphasis> <emphasis>para probar cada cera</emphasis>. Ambas poblaciones tienen una distribución normal. Los datos se registran en la <link target-id="table-12"/>.
-<table id="table-12" summary="This table has wax in the first column, sample mean in the second column, and standard deviation in the third column. There are two rows.">
+<table id="table-12" summary="Esta tabla tiene la cera en la primera columna, la media de la muestra en la segunda columna y la desviación típica en la tercera columna. Hay dos filas.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -291,7 +291,7 @@
 
 <exercise id="fs-idm106881952">
 <problem id="fs-idm49756528">
- <para id="fs-idm99590512">Hay que comparar las medias del número de revoluciones por minuto de dos motores en competencia. Treinta motores son asignados al azar para ser probados. Ambas poblaciones tienen distribuciones normales. La <link target-id="fs-idm13177248"/> muestra el resultado. ¿Los datos indican que el motor 2 tiene más RPM que el motor 1? Pruebe con un nivel de significación del 5 %.</para><table id="fs-idm13177248" summary=".">
+ <para id="fs-idm99590512">Hay que comparar las medias del número de revoluciones por minuto de dos motores en competencia. Treinta motores son asignados al azar para ser probados. Ambas poblaciones tienen distribuciones normales. La <link target-id="fs-idm13177248"/> muestra el resultado. ¿Los datos indican que el motor 2 tiene más RPM que el motor 1? Pruebe con un nivel de significación del 5 %.</para><table id="fs-idm13177248" summary=" ">
 <tgroup cols="3"><colspec colname="c1" colnum="1"/>
 <colspec colname="c2" colnum="2"/>
 <colspec colname="c3" colnum="3"/>
@@ -496,7 +496,7 @@
 <section id="fs-idm106403600" class="practice">
 <para id="fs-idm82036368"><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios.</emphasis> Se van a comparar las velocidades medias de los lanzamientos de pelotas rápidas de dos lanzadores de béisbol diferentes. Se mide una muestra de 14 lanzamientos de pelotas rápidas de cada lanzador. Las poblaciones tienen distribuciones normales. La <link target-id="fs-idm34247936"/> muestra el resultado. Los cazatalentos creen que Rodríguez lanza una pelota rápida más rápida.</para>
 
-<table id="fs-idm34247936" summary=".">
+<table id="fs-idm34247936" summary=" ">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -540,7 +540,7 @@
 </solution>
 </exercise>
 
- <para id="fs-idm29321648"><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios.</emphasis> Un investigador está probando los efectos de los alimentos para plantas en su crecimiento. Nueve plantas han recibido el alimento para plantas. Otras nueve plantas no han recibido el alimento para plantas. Las alturas de las plantas se registran después de ocho semanas. Las poblaciones tienen distribuciones normales. El resultado está en la siguiente tabla. El investigador cree que la comida hace que las plantas crezcan más altas.</para><table id="fs-idm112897184" summary=".">
+ <para id="fs-idm29321648"><emphasis effect="italics">Use la siguiente información para responder los próximos cinco ejercicios.</emphasis> Un investigador está probando los efectos de los alimentos para plantas en su crecimiento. Nueve plantas han recibido el alimento para plantas. Otras nueve plantas no han recibido el alimento para plantas. Las alturas de las plantas se registran después de ocho semanas. Las poblaciones tienen distribuciones normales. El resultado está en la siguiente tabla. El investigador cree que la comida hace que las plantas crezcan más altas.</para><table id="fs-idm112897184" summary=" ">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -573,7 +573,7 @@
 </exercise>
 
  <para id="fs-idm129338912"><newline/><emphasis effect="italics">Use la siguiente información para responder los siguientes cinco ejercicios.</emphasis> Se están considerando dos aleaciones metálicas como material para los rodamientos de pelotas. Hay que comparar el punto de fusión medio de las dos aleaciones. Se están probando 15 piezas de cada metal. Ambas poblaciones tienen distribuciones normales. El resultado está en la siguiente tabla. Se cree que la aleación zeta tiene un punto de fusión diferente.</para>
-<table id="fs-idm150132352" summary="table">
+<table id="fs-idm150132352" summary="tabla">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>

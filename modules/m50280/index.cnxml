@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml">
+<document xmlns="http://cnx.rice.edu/cnxml">
 
 <title>Laboratorio 2: prueba de independencia de chi-cuadrado</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -19,7 +19,7 @@
    <title>Recopilación de datos</title>
    <item>Utilizando su clase como muestra, complete el siguiente cuadro. Pregúntense mutuamente cuál es su merienda favorita y sume los resultados.
     <para id="fs-idm375259168"><emphasis>Nota</emphasis> Es posible que tenga que combinar dos categorías de alimentos para que cada celda tenga un valor esperado de al menos cinco.
-    </para><table id="id89871qw3984l8" summary="This table presents the favorite type of snack in columns 2-5 and the total in the sixth column. The first row is male, the second row is female, and the third row is total.">
+    </para><table id="id89871qw3984l8" summary="Esta tabla presenta el tipo de bocadillo favorito en las columnas de la 2 a la 5 y el total en la sexta columna. La primera fila indica hombres, la segunda mujeres y la tercera el total.">
      <title>Tipo de merienda favorita</title>
      <tgroup cols="6"><colspec colnum="1" colname="c1"/>
       <colspec colnum="2" colname="c2"/>

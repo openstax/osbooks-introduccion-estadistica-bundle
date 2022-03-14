@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>Prueba de homogeneidad</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -17,7 +17,7 @@
 <example id="eip-101"><exercise id="eip-790">
 <problem id="eip-886">
 <para id="eip-520">¿Los estudiantes de institutos universitarios hombres y mujeres tienen la misma distribución en cuanto a viviendas? Utilice un nivel de significación de 0,05. Supongamos que se les pregunta a 250 estudiantes universitarios y a 300 estudiantes universitarias seleccionados al azar por su tipo de vivienda: residencia universitaria, apartamento, con los padres, otra. Los resultados se muestran en la <link target-id="eip-924"/>. ¿Los estudiantes de institutos universitarios hombres y mujeres tienen la misma distribución en cuanto a viviendas?</para>
-<table id="eip-924" summary="The table contains the distribution of living conditions for college males and college females. First row: Males 72 Dorm; 84 Apt.; 49 Parents; 45 Other; Second row: Females, 91 Dorm; 86 Apt.; 88 Parents; 35 Other;"><title>Distribución del tipo de vivienda para los hombres y mujeres universitarios</title>
+<table id="eip-924" summary="La tabla contiene la distribución de las condiciones de vida de hombres y mujeres universitarios. Primera fila: hombres: 72 en dormitorios, 84 en apartamentos, 49 con los padres, 45 en otros; segunda fila: mujeres: 91 en dormitorios, 86 en apartamentos, 88 con los padres, 35 en otros."><title>Distribución del tipo de vivienda para los hombres y mujeres universitarios</title>
 <tgroup cols="5"><tbody>
   <row>
     <entry/>
@@ -214,7 +214,7 @@
 <title>Tarea para la casa</title>
   <exercise id="eip-533"><problem id="eip-715">
     <para id="eip-637">Un psicólogo está interesado en comprobar si existe una diferencia en la distribución de los tipos de personalidad de los estudiantes de Negocios y de Ciencias Sociales. Los resultados del estudio se muestran en la <link target-id="eip-280"/>. Realice una prueba de homogeneidad. Pruebe con un nivel de significación del 5 %.</para>
-<table id="eip-280" summary="The table presents personality types along the top from columns 2-6 and major (business and social science) in the first column. There are 3 rows."> <tgroup cols="6"><tbody> <row><entry/> <entry><emphasis>Abierto</emphasis></entry> <entry><emphasis>Meticuloso</emphasis></entry> <entry><emphasis>Extrovertido</emphasis></entry> <entry><emphasis>Agradable</emphasis></entry> <entry><emphasis>Neurótico</emphasis></entry> </row> <row> <entry><emphasis>Negocios</emphasis></entry> <entry>41</entry> <entry>52</entry> <entry>46</entry> <entry>61</entry> <entry>58</entry> </row> <row> <entry><emphasis>Ciencias Sociales</emphasis></entry> <entry>72</entry> <entry>75</entry> <entry>63</entry> <entry>80</entry> <entry>65</entry> </row> </tbody> </tgroup> </table>
+<table id="eip-280" summary="La tabla presenta los tipos de personalidad a lo largo de la parte superior de las columnas de la 2 a la 6 y la especialidad (negocios y ciencias sociales) en la primera columna. Hay 3 filas."> <tgroup cols="6"><tbody> <row><entry/> <entry><emphasis>Abierto</emphasis></entry> <entry><emphasis>Meticuloso</emphasis></entry> <entry><emphasis>Extrovertido</emphasis></entry> <entry><emphasis>Agradable</emphasis></entry> <entry><emphasis>Neurótico</emphasis></entry> </row> <row> <entry><emphasis>Negocios</emphasis></entry> <entry>41</entry> <entry>52</entry> <entry>46</entry> <entry>61</entry> <entry>58</entry> </row> <row> <entry><emphasis>Ciencias Sociales</emphasis></entry> <entry>72</entry> <entry>75</entry> <entry>63</entry> <entry>80</entry> <entry>65</entry> </row> </tbody> </tgroup> </table>
 </problem>
 <solution id="eip-667">
   <list id="fs-idp8692528" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: La distribución de los tipos de personalidad es la misma para ambas especialidades.</item>
@@ -232,7 +232,7 @@
   </list></solution>
 </exercise><exercise id="eip-302"><problem id="eip-252">
   <para id="eip-617">¿Los hombres y las mujeres seleccionan desayunos diferentes? Los desayunos pedidos por hombres y mujeres seleccionados al azar en un lugar popular de desayunos se muestran en la <link target-id="eip-id1167950422174"/>. Realice una prueba de homogeneidad con un nivel de significación del 5 %. 
-  <table id="eip-id1167950422174" summary="The table presents personality types along the top from columns 2-6 and major (business and social science) in the first column. There are 3 rows.">
+  <table id="eip-id1167950422174" summary="La tabla presenta los tipos de personalidad a lo largo de la parte superior de las columnas de la 2 a la 6 y la especialidad (negocios y ciencias sociales) en la primera columna. Hay 3 filas.">
 <tgroup cols="5"><tbody> <row> <entry/> <entry><emphasis>Tostadas francesas</emphasis></entry> <entry><emphasis>Panqueques</emphasis></entry> <entry><emphasis>Waffles</emphasis></entry> <entry><emphasis>Tortillas</emphasis></entry> </row> <row> <entry><emphasis>Hombres</emphasis></entry> <entry>47</entry> <entry>35</entry> <entry>28</entry> <entry>53</entry> </row> <row> <entry><emphasis>Mujeres</emphasis></entry> <entry>65</entry> <entry>59</entry> <entry>55</entry> <entry>60</entry> </row> </tbody>
 </tgroup>
 </table></para></problem>
@@ -257,7 +257,7 @@
 </exercise>
 <exercise id="eip-495"><problem id="eip-784">
       <para id="eip-70">En 2007, EE. UU. contaba con 1,5 millones de estudiantes educados en casa, según el Centro Nacional de Estadísticas Educativas de EE. UU. En la <link target-id="eip-idm1189216"/> se puede ver que los padres deciden educar a sus hijos en casa por diferentes razones, y algunas razones son clasificadas por los padres como más importantes que otras. Según los resultados de la encuesta que se muestran en la tabla, ¿la distribución de las razones aplicables es la misma que la distribución de la razón más importante? Proporcione su evaluación con un nivel de significación del 5 %. ¿Esperaba el resultado que ha obtenido?</para>
-      <table id="eip-idm1189216" summary=".">
+      <table id="eip-idm1189216" summary="">
 <tgroup cols="4"><colspec colnum="1" colname="c1" colwidth="180"/>
     <colspec colnum="2" colname="c2" colwidth="180"/>
     <colspec colnum="3" colname="c3" colwidth="180"/>
@@ -298,7 +298,7 @@
 </tgroup>
 </table></problem>
     </exercise><exercise id="eip-316"><problem id="eip-962">
-      <para id="eip-421">Al examinar el consumo de energía, a menudo nos interesa detectar las tendencias a lo largo del tiempo y su correlación entre los distintos países. La información de la <link target-id="eip-idp102538544"/> muestra el uso promedio de energía (en unidades de kg de equivalente de petróleo per cápita) en EE. UU. y los países conjuntos de la Unión Europea (UE) para el periodo de seis años de 2005 a 2010. ¿Los valores de uso de energía en estas dos áreas provienen de la misma distribución? Haga el análisis al nivel de significación del 5 %.</para><table id="eip-idp102538544" summary="placeholder">
+      <para id="eip-421">Al examinar el consumo de energía, a menudo nos interesa detectar las tendencias a lo largo del tiempo y su correlación entre los distintos países. La información de la <link target-id="eip-idp102538544"/> muestra el uso promedio de energía (en unidades de kg de equivalente de petróleo per cápita) en EE. UU. y los países conjuntos de la Unión Europea (UE) para el periodo de seis años de 2005 a 2010. ¿Los valores de uso de energía en estas dos áreas provienen de la misma distribución? Haga el análisis al nivel de significación del 5 %.</para><table id="eip-idp102538544" summary="--">
 <tgroup cols="4"><thead>
 <row>
 <entry>Año</entry>

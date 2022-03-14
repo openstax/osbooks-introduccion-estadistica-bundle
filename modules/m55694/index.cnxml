@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Prueba de una sola varianza</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m55694</md:content-id>
@@ -359,7 +359,7 @@ El valor calculado del estadístico de prueba <m:math><m:msup><m:mi>χ</m:mi><m:
  </exercise>
  <exercise id="element-559"><problem id="id21087650">
   <para id="element-641">El número de nacimientos por mujer en China es de 1,6, versus los 5,91 de 1966. Esta tasa de fecundidad se ha atribuido a la ley aprobada en 1979 que restringe los nacimientos a uno por mujer. Supongamos que un grupo de estudiantes estudia si la desviación típica de los nacimientos por mujer es o no superior a 0,75. Les preguntaron a 50 mujeres de toda China el número de partos que habían tenido. Los resultados se muestran en la <link target-id="id6106431"/>. ¿La encuesta de los estudiantes indica que la desviación típica es superior a 0,75?
-  </para><table id="id6106431" summary="The table has the number of births in the first column and the frequency in the second column. There are 4 rows.">
+  </para><table id="id6106431" summary="La tabla tiene el número de nacimientos en la primera columna y la frecuencia en la segunda columna. Hay 4 filas.">
    <tgroup cols="2"><colspec colnum="1" colname="c1"/>
     <colspec colnum="2" colname="c2"/>
     <thead>

@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Prueba de bondad de ajuste</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m55696</md:content-id>
@@ -51,7 +51,7 @@
  </m:mrow>
 </m:math>.</para>
 <para id="element-304">El número de grados de libertad es <emphasis effect="italics">df</emphasis> = (número de categorías – 1).</para><para id="element-838"><emphasis>La <term id="term-00003">prueba de bondad de ajuste</term> es casi siempre de cola derecha.</emphasis> Si los valores observados y los correspondientes valores esperados no se aproximan entre sí, el estadístico de prueba puede ser muy grande y se situará en la cola derecha de la curva de chi-cuadrado.</para><note id="eip-587"><label/><title>Nota</title>
-<para id="fs-idm98728224">El número de valores esperados dentro de cada celda debe ser al menos cinco para poder utilizar esta prueba.</para></note><example id="element-719"><para id="element-615">El ausentismo de los estudiantes universitarios a las clases de Matemáticas es una de las principales preocupaciones de los instructores de Matemáticas, ya que ausentarse de clase parece aumentar la tasa de abandono. Supongamos que se realiza un estudio para determinar si la tasa real de ausentismo de los estudiantes sigue la percepción del profesorado. El profesorado esperaba que un grupo de 100 estudiantes se ausentara de clase según se indica en la <link target-id="M03_Ch03_tbl001"/>.</para><table id="M03_Ch03_tbl001" summary="The table consists of two columns with headings Number of absences and Expected number of students. There are 5 entries under each heading. Under Number of absences are the entries 0 to 2, 3 to 5, 6 to 8, 9 to 11, 12 plus. Under Expected number of students are the entries 50, 30, 12, 6, 2.">
+<para id="fs-idm98728224">El número de valores esperados dentro de cada celda debe ser al menos cinco para poder utilizar esta prueba.</para></note><example id="element-719"><para id="element-615">El ausentismo de los estudiantes universitarios a las clases de Matemáticas es una de las principales preocupaciones de los instructores de Matemáticas, ya que ausentarse de clase parece aumentar la tasa de abandono. Supongamos que se realiza un estudio para determinar si la tasa real de ausentismo de los estudiantes sigue la percepción del profesorado. El profesorado esperaba que un grupo de 100 estudiantes se ausentara de clase según se indica en la <link target-id="M03_Ch03_tbl001"/>.</para><table id="M03_Ch03_tbl001" summary="La tabla consta de dos columnas con los encabezados Número de ausencias y Número previsto de estudiantes. Hay 5 entradas en cada encabezado. En Número de ausencias están las entradas de 0 a 2, de 3 a 5, de 6 a 8, de 9 a 11 y 12 o más. En Número esperado de estudiantes están las entradas 50, 30, 12, 6 y 2.">
 <tgroup cols="2"><thead>
   <row>
     <entry>Número de ausencias por trimestre</entry>
@@ -82,7 +82,7 @@
 </tbody>
 </tgroup>
 </table><para id="eip-952">Luego, se realizó una encuesta aleatoria en todos los cursos de Matemáticas para determinar el número real <emphasis>(observado)</emphasis> de ausencias en un curso. El gráfico de la <link target-id="M03_Ch03_tbl002"/> muestra los resultados de esa encuesta.
-<table id="M03_Ch03_tbl002" summary="The table consists of two columns with headings Number of absences per term and Actual number of students. There are 5 entries under each heading. Under Number of absences per term are the entries 0 to 2, 3 to 5, 6 to 8, 9 to 11, 12 plus. Under Expected number of students are the entries 35, 40, 20, 1, 4">
+<table id="M03_Ch03_tbl002" summary="La tabla consta de dos columnas con los encabezados Número de ausencias por trimestre y Número real de estudiantes. Hay 5 entradas en cada encabezado. En Número de ausencias por trimestre están las entradas de 0 a 2, de 3 a 5, de 6 a 8, de 9 a 11 y 12 o más. En Número esperado de estudiantes están las entradas 35, 40, 20, 1 y 4">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <thead>
@@ -120,7 +120,7 @@
   <para id="element-451">a. ¿Puede utilizar la información tal y como aparece en los gráficos para realizar la prueba de bondad de ajuste? </para></problem>
 <solution id="id6198852">
   <para id="element-600">a. <emphasis>No.</emphasis> Tome nota que el número de ausencias previsto para la entrada “más de 12” es inferior a cinco (es dos). Combine ese grupo con el de “9-11” para crear nuevas tablas en las que el número de estudiantes de cada entrada sea de cinco como mínimo. Los nuevos resultados están en la <link target-id="M03_Ch03_tbl003"/> y la <link target-id="M03_Ch03_tbl004"/>. <newline/>
-<table id="M03_Ch03_tbl003" summary="The new table consists of two columns with headings Number of absences per term and Expected number of students. There are 4 entries under each heading. Under Number of absences per term are the entries 0 to 2, 3 to 5, 6 to 8, 9+ plus. Under Expected number of students are the entries 50, 30, 12, 8.">
+<table id="M03_Ch03_tbl003" summary="La nueva tabla consta de dos columnas con los títulos Número de ausencias por trimestre y Número previsto de estudiantes. Hay 4 entradas bajo cada encabezado. En Número de ausencias por trimestre están las entradas de 0 a 2, de 3 a 5, de 6 a 8 y 9 y más. En Número esperado de estudiantes están las entradas 50, 30, 12 y 8.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <thead>
@@ -149,7 +149,7 @@
 
 </tbody>
 </tgroup>
-</table><table id="M03_Ch03_tbl004" summary="The table consists of two columns with headings Number of absences per term and Actual number of students. There are 5 entries under each heading. Under Number of absences per term are the entries 0 to 2, 3 to 5, 6 to 8, 9+ plus. Under Actual number of students are the entries 35, 40, 20, 5.">
+</table><table id="M03_Ch03_tbl004" summary="La tabla consta de dos columnas con los encabezados Número de ausencias por trimestre y Número real de estudiantes. Hay 5 entradas en cada encabezado. En Número de ausencias por trimestre están las entradas de 0 a 2, de 3 a 5, de 6 a 8 y 9 y más. En Número real de estudiantes están las entradas 35, 40, 20 y 5.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <thead>
@@ -243,7 +243,7 @@
 <para id="eip-412"><emphasis effect="italics">H<sub>0</sub></emphasis>: El número de impagos se ajusta a las expectativas.</para><para id="eip-idp65453568"><emphasis effect="italics">H<sub>a</sub></emphasis>: El número de impagos no se ajusta a las expectativas.<newline/><emphasis effect="italics">df</emphasis> = 4</para></solution>
 </exercise></note><example id="element-962"><exercise id="element-811"><problem id="id6215628">
 <para id="element-733">Los empleadores quieren saber qué días de la semana se ausentan los empleados en una semana laboral de cinco días. La mayoría de los empleadores quiere creer que los empleados se ausentan por igual durante la semana. Supongamos que se pregunta a una muestra aleatoria de 60 gerentes qué día de la semana tienen el mayor número de ausencias de empleados. Los resultados se distribuyeron como en la <link target-id="M03_Ch03_tbl007"/>. Para la población de empleados, ¿los días de mayor número de ausencias se producen con igual frecuencia durante una semana laboral de cinco días? Pruebe con un nivel de significación del 5 %.</para>
-<table id="M03_Ch03_tbl007" summary="This table presents the number of students absent by days of the week. Monday is in the second column, Tuesday is in the third column, Wednesday is in the fourth column, Thursday is in the fifth column, and Friday is in the sixth column. There is only one row of data for the number of students absent."><title>Día de la semana en que los empleados estuvieron más ausentes</title>
+<table id="M03_Ch03_tbl007" summary="Esta tabla presenta el número de estudiantes ausentes por días de la semana. El lunes está en la segunda columna, el martes en la tercera, el miércoles en la cuarta, el jueves en la quinta y el viernes en la sexta. Solo hay una fila de datos para el número de estudiantes ausentes."><title>Día de la semana en que los empleados estuvieron más ausentes</title>
 <tgroup cols="6"><colspec colnum="1" colname="header_c1"/>
 	<colspec colnum="2" colname="c2"/>
 	<colspec colnum="3" colname="c3"/>
@@ -328,7 +328,7 @@
 </m:math></equation><para id="element-545">La decisión es no rechazar la hipótesis nula porque el valor calculado del estadístico de prueba no está en la cola de la distribución.</para><para id="element-1000"><emphasis>Conclusión:</emphasis> A un nivel de significación del 5 %, a partir de los datos de la muestra, no hay pruebas suficientes para concluir que los días de ausencia no se producen con igual frecuencia.</para></solution>
 </exercise></example><note id="fs-idm3127168" class="statistics try"><label/><title>Ejercicio</title>
 <exercise id="eip-723"><problem id="eip-375">
-  <para id="eip-426">Los maestros quieren saber qué noche de la semana sus estudiantes hacen la mayor parte de las tareas para la casa. La mayoría de los maestros piensan que los estudiantes hacen las tareas para la casa por igual a lo largo de la semana. Supongamos que se pregunta a una muestra aleatoria de 56 estudiantes en qué noche de la semana hacen más tareas para la casa. Los resultados se distribuyeron como en la <link target-id="M03_Ch03_tbl008"/>.</para><table id="M03_Ch03_tbl008" summary=".">
+  <para id="eip-426">Los maestros quieren saber qué noche de la semana sus estudiantes hacen la mayor parte de las tareas para la casa. La mayoría de los maestros piensan que los estudiantes hacen las tareas para la casa por igual a lo largo de la semana. Supongamos que se pregunta a una muestra aleatoria de 56 estudiantes en qué noche de la semana hacen más tareas para la casa. Los resultados se distribuyeron como en la <link target-id="M03_Ch03_tbl008"/>.</para><table id="M03_Ch03_tbl008" summary="">
 <tgroup cols="8"><thead><row><entry/><entry>Domingo</entry>	<entry>Lunes</entry>	<entry>Martes</entry>	<entry>Miércoles</entry>	<entry>Jueves</entry>	<entry>Viernes</entry>	<entry>Sábado</entry></row></thead>
 <tbody><row><entry><emphasis>Número de estudiantes</emphasis></entry>	<entry>11</entry>	<entry>8</entry>	<entry>10</entry>	<entry>7</entry>	<entry>10</entry>	<entry>5</entry>	<entry>5</entry></row></tbody>
 
@@ -338,7 +338,7 @@
 <solution id="eip-idm3076880">
   <para id="eip-475"><emphasis effect="italics">df</emphasis> = 6</para>
   <para id="eip-idp249187184">valor <emphasis effect="italics">p</emphasis> = 0,6093 <newline/>No rechazamos la hipótesis nula. No hay pruebas suficientes que demuestren que los estudiantes no hacen la mayoría de los deberes por igual a lo largo de la semana.</para></solution>
-</exercise></note><example id="example3"><para id="element-59">Un estudio indica que el número de televisores que tienen las familias estadounidenses se distribuye (esta es la distribución <emphasis>dada</emphasis> para la población estadounidense) como en la <link target-id="M03_Ch03_tbl009"/>.</para><table id="M03_Ch03_tbl009" summary="This table presents the number of televisions that American families have is in the first column, and the expected percentage is in the second column.">
+</exercise></note><example id="example3"><para id="element-59">Un estudio indica que el número de televisores que tienen las familias estadounidenses se distribuye (esta es la distribución <emphasis>dada</emphasis> para la población estadounidense) como en la <link target-id="M03_Ch03_tbl009"/>.</para><table id="M03_Ch03_tbl009" summary="Esta tabla presenta el número de televisores que tienen las familias estadounidenses en la primera columna y el porcentaje esperado en la segunda columna.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <thead valign="top">
@@ -372,7 +372,7 @@
 </tgroup>
 </table>
 <para id="element-23563">La tabla contiene los porcentajes esperados (<emphasis effect="italics">E</emphasis>).</para>
-<para id="element-236">Una muestra aleatoria de 600 familias del extremo oeste de Estados Unidos dio como resultado los datos que figuran en la <link target-id="M03_Ch03_tbl010"/>.</para><table id="M03_Ch03_tbl010" summary="This table presents the number of televisions that American families have is in the first column, and the observed frequency is in the second column.">
+<para id="element-236">Una muestra aleatoria de 600 familias del extremo oeste de Estados Unidos dio como resultado los datos que figuran en la <link target-id="M03_Ch03_tbl010"/>.</para><table id="M03_Ch03_tbl010" summary="Esta tabla presenta el número de televisores que tienen las familias estadounidenses en la primera columna y la frecuencia observada en la segunda columna.">
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -415,7 +415,7 @@
 </problem>
 <solution id="id6229434">
   <para id="element-538">Este problema le pide que compruebe si la distribución de las familias del extremo oeste de Estados Unidos se ajusta a la distribución de las familias del resto del país. Esta prueba es siempre de cola derecha.</para>
-<para id="element-788">La primera tabla contiene los porcentajes previstos. Para obtener las frecuencias esperadas (<emphasis effect="italics">E</emphasis>), multiplique el porcentaje por 600. Las frecuencias esperadas se muestran en la <link target-id="M03_Ch03_tbl011"/>.</para><table id="M03_Ch03_tbl011" summary="This table is the same as above except for an additional third column listing th expected frequencies.">
+<para id="element-788">La primera tabla contiene los porcentajes previstos. Para obtener las frecuencias esperadas (<emphasis effect="italics">E</emphasis>), multiplique el porcentaje por 600. Las frecuencias esperadas se muestran en la <link target-id="M03_Ch03_tbl011"/>.</para><table id="M03_Ch03_tbl011" summary="Esta tabla es la misma que la anterior, excepto por una tercera columna adicional que indica las frecuencias esperadas.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -472,7 +472,7 @@
 
     <exercise id="eip-521">
       <problem id="eip-211">
-        <para id="eip-938">El porcentaje esperado del número de mascotas que tienen los estudiantes en sus hogares se distribuye (es la distribución dada para la población estudiantil de Estados Unidos) como en la <link target-id="fs-idm147763264"/>.</para><table id="fs-idm147763264" summary=".">
+        <para id="eip-938">El porcentaje esperado del número de mascotas que tienen los estudiantes en sus hogares se distribuye (es la distribución dada para la población estudiantil de Estados Unidos) como en la <link target-id="fs-idm147763264"/>.</para><table id="fs-idm147763264" summary="">
 <tgroup cols="2"><thead><row><entry>Número de mascotas</entry>	<entry>Porcentaje</entry></row></thead>
 <tbody>
 <row><entry>0</entry>	<entry>18</entry></row>
@@ -483,7 +483,7 @@
 </tbody>
 
 </tgroup>
-</table><para id="eip-idp91504704">Una muestra aleatoria de 1.000 estudiantes del este de Estados Unidos dio como resultado los datos que figuran en la <link target-id="fs-idm64242624"/>.</para><table id="fs-idm64242624" summary=".">
+</table><para id="eip-idp91504704">Una muestra aleatoria de 1.000 estudiantes del este de Estados Unidos dio como resultado los datos que figuran en la <link target-id="fs-idm64242624"/>.</para><table id="fs-idm64242624" summary="">
 <tgroup cols="2"><thead>
 <row><entry>Número de mascotas</entry>	<entry>Frecuencia</entry></row>
 </thead>
@@ -634,7 +634,7 @@
 <solution id="eip-841">
   <para id="eip-360">No rechazamos la hipótesis nula. No hay pruebas suficientes que sugieran que las calificaciones observadas en las pruebas sean significativamente diferentes de las esperadas.</para></solution>
 </exercise>
-  <para id="element-666"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos nueve ejercicios:</emphasis> los siguientes datos son reales. El número acumulado de casos de SIDA notificados en el condado de Santa Clara se desglosa por grupos étnicos como en la <link target-id="element-974"/>.</para><table id="element-974" summary="This table shows the ethnicity in the first column and the number of cases in the second column. There are 5 rows.">
+  <para id="element-666"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos nueve ejercicios:</emphasis> los siguientes datos son reales. El número acumulado de casos de SIDA notificados en el condado de Santa Clara se desglosa por grupos étnicos como en la <link target-id="element-974"/>.</para><table id="element-974" summary="Esta tabla muestra el origen étnico en la primera columna y el número de casos en la segunda. Hay 5 filas.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <thead>
@@ -672,7 +672,7 @@
 
 </tgroup>
 </table><para id="element-726">El porcentaje de cada grupo étnico en el condado de Santa Clara es el que figura en la <link target-id="element-174"/>.</para>
-<table id="element-174" summary="This is a partially filled table with ethnicity in the first column, percentage of total county population in the second column, and expected number in the third column. Only the first row of the third column is filled up.">
+<table id="element-174" summary="Se trata de una tabla parcialmente rellenada con el origen étnico en la primera columna, el porcentaje de la población total del condado en la segunda y el número previsto en la tercera. Solo se rellena la primera fila de la tercera columna.">
 <tgroup cols="3"><colspec colnum="1" colname="header_c1"/>
         <colspec colnum="2" colname="c2"/>
         <colspec colnum="3" colname="c3"/>
@@ -760,7 +760,7 @@
 <section id="fs-idp86765760" class="free-response">
 <title>Tarea para la casa</title>
   <exercise id="fs-idp12253472"><problem id="id20683006">
-  <para id="element-662">Se lanza un dado de seis caras 120 veces. Rellene la columna de frecuencia prevista. Luego, realice una prueba de hipótesis para determinar si el dado es imparcial. Los datos de la <link target-id="id6180063"/> son el resultado de las 120 lanzamientos.</para><table id="id6180063" summary="This partially filled table presents face value in the first column, frequency in the second column, and relative frequency in the blank third column. There are 6 rows.">
+  <para id="element-662">Se lanza un dado de seis caras 120 veces. Rellene la columna de frecuencia prevista. Luego, realice una prueba de hipótesis para determinar si el dado es imparcial. Los datos de la <link target-id="id6180063"/> son el resultado de las 120 lanzamientos.</para><table id="id6180063" summary="Esta tabla parcialmente rellenada presenta el valor nominal en la primera columna, la frecuencia en la segunda y la frecuencia relativa en la tercera columna en blanco. Hay 6 filas.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <colspec colnum="3" colname="c3"/>
@@ -809,7 +809,7 @@
 </table></problem>
 </exercise><exercise id="element-340"><problem id="id20662365">
       <para id="element-912">La distribución del estado civil de la población de hombres de EE. UU. de 15 años o más es la que se muestra en la <link target-id="id7856744"/>.
-  </para><table id="id7856744" summary="This table presents the marital status in the first column, the percent in the second column, and the expected frequency in the blank third column. There are 4 rows.">
+  </para><table id="id7856744" summary="Esta tabla presenta el estado civil en la primera columna, el porcentaje en la segunda y la frecuencia esperada en la tercera columna en blanco. Hay 4 filas.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <colspec colnum="3" colname="c3"/>
@@ -847,7 +847,7 @@
 
 
 </tgroup>
-</table><para id="id7879714">Supongamos que una muestra aleatoria de 400 hombres adultos jóvenes de EE. UU. de 18 a 24 años arroja la siguiente distribución de frecuencias. Nos interesa saber si este grupo de edad de hombres se ajusta a la distribución de la población adulta de EE. UU. Calcule la frecuencia que cabría esperar al encuestar a 400 personas. Rellene la <link target-id="id7856744"/>, redondeando a dos decimales.</para><table id="id6962175" summary="This table presents the marital status in the first column and the frequency in the second column. There are 4 rows.">
+</table><para id="id7879714">Supongamos que una muestra aleatoria de 400 hombres adultos jóvenes de EE. UU. de 18 a 24 años arroja la siguiente distribución de frecuencias. Nos interesa saber si este grupo de edad de hombres se ajusta a la distribución de la población adulta de EE. UU. Calcule la frecuencia que cabría esperar al encuestar a 400 personas. Rellene la <link target-id="id7856744"/>, redondeando a dos decimales.</para><table id="id6962175" summary="Esta tabla presenta el estado civil en la primera columna y la frecuencia en la segunda. Hay 4 filas.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <thead>
@@ -934,7 +934,7 @@
 <item>Conclusión: Los datos no se ajustan a la distribución.</item>
 </list></item></list></solution>
 </exercise>
-  <para id="id7851160"><emphasis effect="italics">Use la siguiente información para responder los dos próximos ejercicios:</emphasis> las columnas de la <link target-id="id6962388"/> contienen la raza/etnia de escuelas públicas de EE. UU. para un año reciente, los porcentajes de la población de examinados de Colocación Avanzada para esa clase y la población estudiantil general. Supongamos que la columna de la derecha contiene el resultado de una encuesta realizada a 1.000 estudiantes locales de ese año que presentaron un examen de AP.</para><table id="id6962388" summary="This table presents the Race/Ethnicity in the first column, AP Examinee Population in percentages in the second column, Overall Student Population in percentages in the third column, and Survey Frequency in the fourth column. There are six rows.">
+  <para id="id7851160"><emphasis effect="italics">Use la siguiente información para responder los dos próximos ejercicios:</emphasis> las columnas de la <link target-id="id6962388"/> contienen la raza/etnia de escuelas públicas de EE. UU. para un año reciente, los porcentajes de la población de examinados de Colocación Avanzada para esa clase y la población estudiantil general. Supongamos que la columna de la derecha contiene el resultado de una encuesta realizada a 1.000 estudiantes locales de ese año que presentaron un examen de AP.</para><table id="id6962388" summary="Esta tabla presenta la raza/origen étnico en la primera columna, la población de examinados de Colocación Avanzada en la segunda, la población total de estudiantes en porcentajes en la tercera y la frecuencia de las encuestas en la cuarta. Hay seis filas.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <colspec colnum="3" colname="c3"/>
@@ -1014,7 +1014,7 @@
 </exercise>
 
     <exercise id="element-371"><problem id="id19496210">
-      <para id="element-268">La ciudad de South Lake Tahoe, California tiene una población asiática de 1.419 personas, de una población total de 23.609. Supongamos que una encuesta realizada a 1.419 asiáticos autodeclarados en el área de Manhattan (Nueva York) arroja los datos de la <link target-id="id7017535"/>. Haga una prueba de bondad de ajuste para determinar si los subgrupos de asiáticos autodeclarados en el área de Manhattan se ajustan a los de la zona del Lake Tahoe.</para><table id="id7017535" summary="The table shows race in the first column, Lake Tahoe frequency in the second column, and Manhattan frequency in the blank third column. There are 7 rows.">
+      <para id="element-268">La ciudad de South Lake Tahoe, California tiene una población asiática de 1.419 personas, de una población total de 23.609. Supongamos que una encuesta realizada a 1.419 asiáticos autodeclarados en el área de Manhattan (Nueva York) arroja los datos de la <link target-id="id7017535"/>. Haga una prueba de bondad de ajuste para determinar si los subgrupos de asiáticos autodeclarados en el área de Manhattan se ajustan a los de la zona del Lake Tahoe.</para><table id="id7017535" summary="La tabla muestra la raza en la primera columna, la frecuencia del lago Tahoe en la segunda y la frecuencia de Manhattan en la tercera columna en blanco. Hay 7 filas.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <colspec colnum="3" colname="c3"/>
@@ -1071,7 +1071,7 @@
   <problem id="id20689459">
     <para id="fs-idm7756464">Haga una prueba de bondad de ajuste para determinar si las especialidades universitarias reales de las mujeres que se gradúan se ajustan a la distribución de sus especialidades esperadas.
   </para>
-    <table id="id5962699" summary="The table consists of college majors in the first column, expected major percentages for women in the second column and the actual number of women that chose that major in the third column.">
+    <table id="id5962699" summary="La tabla se compone de carreras universitarias en la primera columna, porcentajes previstos de carreras para mujeres en la segunda columna y el número real de mujeres que eligieron esa carrera en la tercera columna.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <colspec colnum="3" colname="c3"/>
@@ -1161,7 +1161,7 @@
 </exercise>
 <exercise id="element-100"><problem id="id20689953">
   <para id="eip-idp76093152">Haga una prueba de bondad de ajuste para determinar si las especialidades universitarias reales de los hombres que se gradúan se ajustan a la distribución de sus especialidades esperadas.</para>
- <table id="id7788155" summary="The table consists of college majors in the first column, expected major percentages for men in the second column and the actual number of men that chose that major in the third column.">
+ <table id="id7788155" summary="La tabla se compone de carreras universitarias en la primera columna, porcentajes previstos de las carreras para hombres en la segunda columna y el número real de hombres que eligieron esa carrera en la tercera columna.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1265,7 +1265,7 @@
 </exercise>
 
         <exercise id="eip-173"><problem id="eip-295">
-        <para id="eip-267">Se encuestó una muestra de 212 compañías comerciales para el reciclaje de una materia prima; una materia prima significa aquí cualquier tipo de material reciclable como plástico o aluminio. La <link target-id="fs-idm103073456"/> muestra las categorías de compañías en la encuesta, el tamaño de la muestra de cada categoría y el número de compañías en cada categoría que reciclan una materia prima. Según el estudio, se espera que un promedio de la mitad de las compañías reciclen una materia prima. Como resultado, la última columna muestra el número esperado de compañías de cada categoría que reciclan una materia prima. Al nivel de significación del 5 % realice una prueba de hipótesis para determinar si el número observado de compañías que reciclan una materia prima sigue la distribución uniforme de los valores esperados.</para><table id="fs-idm103073456" summary=".">
+        <para id="eip-267">Se encuestó una muestra de 212 compañías comerciales para el reciclaje de una materia prima; una materia prima significa aquí cualquier tipo de material reciclable como plástico o aluminio. La <link target-id="fs-idm103073456"/> muestra las categorías de compañías en la encuesta, el tamaño de la muestra de cada categoría y el número de compañías en cada categoría que reciclan una materia prima. Según el estudio, se espera que un promedio de la mitad de las compañías reciclen una materia prima. Como resultado, la última columna muestra el número esperado de compañías de cada categoría que reciclan una materia prima. Al nivel de significación del 5 % realice una prueba de hipótesis para determinar si el número observado de compañías que reciclan una materia prima sigue la distribución uniforme de los valores esperados.</para><table id="fs-idm103073456" summary="">
 <tgroup cols="4"><thead>
               <row>
                 <entry>Tipo de negocio</entry>   <entry>Número en la clase</entry>   <entry>Número observado que recicla una materia prima </entry>   <entry>Número esperado que reciclan una materia prima</entry>

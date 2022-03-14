@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>Distribución discreta (experimento con cartas)</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -27,7 +27,7 @@
 <item>Anote el número de diamantes extraídos.</item>
 <item>Supongamos que <emphasis effect="italics">X</emphasis> = número de diamantes. Teóricamente, <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(_____,_____)</item>
 </list><list id="list-23562621" list-type="enumerated"><title id="OrgData">Organice los datos</title><item>Registre el número de diamantes extraídos para su clase con las cartas en la <link target-id="lab1_tbl001" document=""/>. A continuación, calcule la frecuencia relativa.
-<table id="lab1_tbl001" summary="Table for recording values with. The first column is for number of diamonds picked (x) from 0-10, blank second column is for frequency, and the blank third column is for relative frequency.">
+<table id="lab1_tbl001" summary="Tabla con la que se registran los valores. La primera columna es para el número de diamantes recogidos (x) de 0 a 10, la segunda columna en blanco es para la frecuencia y la tercera columna en blanco es para la frecuencia relativa.">
 <tgroup cols="3">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -113,7 +113,7 @@
 </figure>
 </item>
 </list><list id="list-742309876" list-type="enumerated" number-style="lower-alpha"><title id="TheoDist">Distribución teórica</title><item>Construya el gráfico PDF teórico basado en la distribución de la sección <link target-id="proceduresec" document="">Procedimiento</link>.
-<table id="lab1_tbl002" summary="The experiment is for each class member or group to shuffle a 52-card deck of cards, pick one card and record if it is a diamond. This is done 10 times. The table shows the results of the number of diamonds picked and the relative frequency."><label/>
+<table id="lab1_tbl002" summary="El experimento consiste en que cada miembro de la clase o grupo mezcle una baraja de 52 cartas, elija una carta y anote si es un diamante. Esto se hace 10 veces. La tabla muestra los resultados del número de diamantes recogidos y la frecuencia relativa."><label/>
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>

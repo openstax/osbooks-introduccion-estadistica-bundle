@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 <title>Datos mostrados</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m53791</md:content-id>
@@ -10,7 +10,7 @@
 <content><section id="fs-id1166876023750">
 <title>Gráficos de tallo y hoja (gráfico de tallo), gráficos de líneas y gráficos de barras</title><para id="id6999853">Un gráfico sencillo, el <emphasis>gráfico de tallo y hoja</emphasis> o <emphasis>gráfico de tallo</emphasis>, procede del campo del análisis exploratorio de datos. Es una buena opción cuando los conjuntos de datos son pequeños. Para crear el gráfico, divida cada observación de datos en un tallo y una hoja. La hoja consta de un <emphasis>último dígito significativo</emphasis>. Por ejemplo, 23 tiene el tallo dos y la hoja tres. El número 432 tiene el tallo 43 y la hoja dos. Asimismo, el número 5.432 tiene el tallo 543 y la hoja dos. El decimal 9,3 tiene el tallo nueve y la hoja tres. Escriba los tallos en una línea vertical de menor a mayor. Dibuje una línea vertical a la derecha de los tallos. Luego, escriba las hojas en orden creciente junto a su correspondiente tallo.</para>
 <example id="element-696">
-<para id="element-948">En la clase de Precálculo de primavera de Susan Dean las calificaciones del primer examen fueron las siguientes (de menor a mayor): <newline/> 33; 42; 49; 49; 53; 55; 55; 61; 63; 67; 68; 68; 69; 69; 72; 73; 74; 78; 80; 83; 88; 88; 88; 90; 92; 94; 94; 94; 94; 96; 100</para><table id="element-185" summary="Table displaying stem in first column and leaf in second column for the values listed above."><title>Gráfico de tallo y hoja</title>
+<para id="element-948">En la clase de Precálculo de primavera de Susan Dean las calificaciones del primer examen fueron las siguientes (de menor a mayor): <newline/> 33; 42; 49; 49; 53; 55; 55; 61; 63; 67; 68; 68; 69; 69; 72; 73; 74; 78; 80; 83; 88; 88; 88; 90; 92; 94; 94; 94; 94; 96; 100</para><table id="element-185" summary="Tabla que muestra el tallo en la primera columna y la hoja en la segunda columna para los valores indicados anteriormente."><title>Gráfico de tallo y hoja</title>
 <tgroup cols="2"><thead>
 <row>
 <entry>Tallo</entry>
@@ -95,7 +95,7 @@
 </note></problem>
 <solution id="id8559734" print-placement="end">
 <para id="element-23523">El valor 12,3 puede ser un valor atípico. Los valores parecen concentrarse en los tres y cuatro kilómetros.</para>
-<table id="element-533" summary="This is a Stem-Leaf graph with stems 1, 2, 3, 4, 5, 6, 12 and leaves to the right of the decimal point.">
+<table id="element-533" summary="Este es un gráfico tallo-hoja con los tallos 1, 2, 3, 4, 5, 6, 12 y las hojas a la derecha del punto decimal.">
 <tgroup cols="2"><thead>
 <row>
 <entry>Tallo</entry>
@@ -183,7 +183,7 @@
 <para id="fs-idp93832256">El <emphasis>diagrama de tallo y hoja bilateral</emphasis> permite comparar los dos conjuntos de datos en dos columnas. En el diagrama de tallo y hoja bilateral dos conjuntos de hojas comparten el mismo tallo. Las hojas están a la izquierda y a la derecha de los tallos. La <link target-id="M01_Ch02_tbl005"/> y la <link target-id="M01_Ch02_tbl006"/> muestran las edades de los presidentes en su investidura y al momento de su muerte. Construya un diagrama de tallo y hoja bilateral utilizando estos datos.</para>
 </problem>
 <solution id="fs-idp107817952">
-<table id="M01_Ch02_tbl007" summary="stem and leaf plot">
+<table id="M01_Ch02_tbl007" summary="gráfico de tallo y hoja">
 <tgroup cols="3"><colspec colnum="1" colname="c1" align="right"/>
 <colspec colnum="2" colname="c2" align="center"/>
 <colspec colnum="3" colname="c3" align="left"/>
@@ -284,7 +284,7 @@
 </table></para><para id="eip-313">Otro tipo de gráfico que resulta útil para valores de datos específicos es el <emphasis>gráfico de líneas</emphasis>. En el gráfico de líneas en particular que se muestra en el <link target-id="example4"/>, el <emphasis>eje <emphasis effect="italics">x</emphasis></emphasis> (eje horizontal) está formado por los <emphasis>valores de los datos</emphasis> y el <emphasis>eje <emphasis effect="italics">y</emphasis></emphasis> (eje vertical) por <emphasis>puntos de frecuencia</emphasis>. Los puntos de frecuencia se conectan mediante segmentos de la línea.</para>
 
 <example id="example4">
-<para id="eip-682">En una encuesta, se preguntó a 40 madres cuántas veces a la semana hay que recordarle a un adolescente que haga sus tareas. Los resultados se muestran en la <link target-id="M01_Ch02_tbl008"/> y en la <link target-id="M01_Ch02_fig001"/>.</para><table id="M01_Ch02_tbl008" summary="The first column of the table consists of the number of times a teenager must be reminded to do his/her chores and the second column consists of frequency.">
+<para id="eip-682">En una encuesta, se preguntó a 40 madres cuántas veces a la semana hay que recordarle a un adolescente que haga sus tareas. Los resultados se muestran en la <link target-id="M01_Ch02_tbl008"/> y en la <link target-id="M01_Ch02_fig001"/>.</para><table id="M01_Ch02_tbl008" summary="La primera columna de la tabla consiste en el número de veces que hay que recordar a un adolescente que haga sus tareas y la segunda columna consiste en la frecuencia.">
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -360,7 +360,7 @@
 <para id="eip-136">Los <emphasis>gráficos de barras</emphasis> están formados por barras separadas entre sí. Las barras pueden ser rectángulos o recuadros rectangulares (usados en representaciones tridimensionales), y pueden ser verticales u horizontales. El <emphasis>gráfico de barras</emphasis> que se muestra en el <link target-id="example5"/> tiene los grupos de edad representados en el <emphasis>eje <emphasis effect="italics">x</emphasis></emphasis> y las proporciones en el <emphasis>eje <emphasis effect="italics">y</emphasis></emphasis>.</para><example id="example5">
 <exercise id="fs-idm7260336">
 <problem id="fs-idp99169968">
-<para id="eip-666">A finales de 2011, Facebook tenía más de 146 millones de usuarios en Estados Unidos. La <link target-id="M01_Ch02_tbl010"/> muestra tres grupos de edad, el número de usuarios en cada grupo de edad y la proporción (%) de usuarios en cada grupo de edad. Construya un gráfico de barras con estos datos.</para><table id="M01_Ch02_tbl010" summary="The information is from Facebook. The first row of the table displays age groups, the second row displays number of Facebook users and the third row displays percentages.">
+<para id="eip-666">A finales de 2011, Facebook tenía más de 146 millones de usuarios en Estados Unidos. La <link target-id="M01_Ch02_tbl010"/> muestra tres grupos de edad, el número de usuarios en cada grupo de edad y la proporción (%) de usuarios en cada grupo de edad. Construya un gráfico de barras con estos datos.</para><table id="M01_Ch02_tbl010" summary="La información procede de Facebook. La primera fila de la tabla muestra los grupos de edad, la segunda el número de usuarios de Facebook y la tercera los porcentajes.">
 <tgroup cols="3">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -436,7 +436,7 @@
 <example id="eip-708">
 <exercise id="fs-idm25526448">
 <problem id="fs-idm19535184">
-<para id="eip-655">Las columnas de la <link target-id="M01_Ch02_tbl012"/> contienen la raza o el origen étnico de los estudiantes de escuelas públicas de EE. UU. para la clase de 2011, los porcentajes para la población examinada de Colocación Avanzada para esa clase y los porcentajes para la población estudiantil en general. Cree un gráfico de barras con la raza o el origen étnico de los estudiantes (datos cualitativos) en el eje <emphasis effect="italics">x</emphasis> y los porcentajes de la población de examinados de Colocación Avanzada en el eje <emphasis effect="italics">y</emphasis>.</para><table id="M01_Ch02_tbl012" summary="The table shows Race and Ethnicity in the first column, Advanced Placement Examinee Population in the second column and Overall Student Population in the third column.">
+<para id="eip-655">Las columnas de la <link target-id="M01_Ch02_tbl012"/> contienen la raza o el origen étnico de los estudiantes de escuelas públicas de EE. UU. para la clase de 2011, los porcentajes para la población examinada de Colocación Avanzada para esa clase y los porcentajes para la población estudiantil en general. Cree un gráfico de barras con la raza o el origen étnico de los estudiantes (datos cualitativos) en el eje <emphasis effect="italics">x</emphasis> y los porcentajes de la población de examinados de Colocación Avanzada en el eje <emphasis effect="italics">y</emphasis>.</para><table id="M01_Ch02_tbl012" summary="La tabla muestra la raza y el origen étnico en la primera columna, la población de examinados de Colocación Avanzada en la segunda y la población total de estudiantes en la tercera.">
 <tgroup cols="3"><thead>
 <row>
 <entry>Raza/etnia</entry>
@@ -522,7 +522,7 @@
 </note><example id="eip-605"><exercise id="eip-20"><problem id="eip-223">
   <para id="eip-8">A continuación, se presenta una tabla de dos vías que muestra los tipos de mascotas que poseen los hombres y las mujeres:
   </para>
-<table id="eip-638" summary="This table has four columns labelled dogs, cats, fish, and total. It has three rows labelled men, women, and total. The men row indicates four dogs, two cats, and two fish for a total of eight pets. The women row indicates four dogs, six cats, and two fish for a total of 12 pets. The total row indicates eight dogs, eight cats, and four fish for a total of 20 pets.">
+<table id="eip-638" summary="Esta tabla tiene cuatro columnas etiquetadas como perros, gatos, peces y total. Tiene tres filas etiquetadas como hombres, mujeres y total. La fila de hombres indica cuatro perros, dos gatos y dos peces para un total de ocho mascotas. La fila de mujeres indica cuatro perros, seis gatos y dos peces para un total de 12 mascotas. La fila total indica ocho perros, ocho gatos y cuatro peces para un total de 20 mascotas.">
 <tgroup cols="5"><tbody>
   <row>
     <entry/>
@@ -799,7 +799,7 @@
 <label/>
 <title>Ejercicio</title>
 <exercise id="eip-id1166383494238"><problem id="eip-id1166383496203">
-<para id="eip-id1166383495068">Construya un polígono de frecuencias de las edades de los presidentes de EE. UU. en el momento de la investidura que se muestra en la <link target-id="fs-idp36852784"/>.</para><table id="fs-idp36852784" summary="---">
+<para id="eip-id1166383495068">Construya un polígono de frecuencias de las edades de los presidentes de EE. UU. en el momento de la investidura que se muestra en la <link target-id="fs-idp36852784"/>.</para><table id="fs-idp36852784" summary="">
 <tgroup cols="2" align="center"><thead>
 <row><entry>Edad en el momento de la investidura</entry><entry>Frecuencia</entry></row>
 </thead>
@@ -1242,7 +1242,7 @@
 <exercise id="eip-341">
 <problem id="fs-idp82639856">
 <para id="fs-idp82640112">se preguntó a sesenta y cinco vendedores de automóviles seleccionados al azar el número de automóviles que suelen vender en una semana. Catorce personas respondieron que generalmente venden tres, diecinueve que venden cuatro, doce que venden cinco, nueve que venden seis y once que venden siete. Rellene la tabla.</para>
-<table id="table001" summary="Blank table where data can be reported with the first column designated for the data value, or number of cars, the second column for frequency, the third column for relative frequency, and the fourth column for cumulative frequency.">
+<table id="table001" summary="Tabla en blanco en la que se pueden comunicar los datos con la primera columna designada para el valor de los datos, o el número de automóviles, la segunda columna para la frecuencia, la tercera para la frecuencia relativa y la cuarta para la frecuencia acumulada.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1319,7 +1319,7 @@
 
 <exercise id="fs-idm40930928">
 <problem id="fs-idp54569920">
-<para id="fs-idp5729024">Construya un polígono de frecuencias para lo siguiente:</para><list id="eip-idm132789024" list-type="enumerated" number-style="lower-alpha"><item><table id="fs-idp20313088" summary="---">
+<para id="fs-idp5729024">Construya un polígono de frecuencias para lo siguiente:</para><list id="eip-idm132789024" list-type="enumerated" number-style="lower-alpha"><item><table id="fs-idp20313088" summary="">
 <tgroup cols="2" align="center"><thead>
 <row><entry>Pulsaciones de las mujeres</entry>	<entry>Frecuencia</entry></row>
 </thead>
@@ -1335,7 +1335,7 @@
 
 </tgroup>
 </table></item>
-<item><table id="fs-idp49451248" summary="---">
+<item><table id="fs-idp49451248" summary="">
 <tgroup cols="2" align="center"><thead>
 <row><entry>Velocidad real en una zona de 30 millas por hora (mph)</entry>	<entry>Frecuencia</entry></row>
 </thead>
@@ -1349,7 +1349,7 @@
 
 </tgroup>
 </table></item>
-<item><table id="fs-idm48042480" summary="---">
+<item><table id="fs-idm48042480" summary="">
 <tgroup cols="2" align="center"><thead>
 <row><entry>Alquitrán (mg) en cigarrillos sin filtro</entry>	<entry>Frecuencia</entry></row>
 </thead>
@@ -1369,7 +1369,7 @@
 <exercise id="fs-idp36783568">
 <problem id="fs-idp28008576">
 <para id="fs-idm58193856">Construya un polígono de frecuencias a partir de la distribución de frecuencias para los 50 países con más puntos en cuanto a la magnitud del hambre.</para>
-<table id="fs-idp37785744" summary="---">
+<table id="fs-idp37785744" summary="">
 <tgroup cols="2" align="center"><thead><row><entry>Magnitud del hambre</entry>	<entry>Frecuencia</entry></row></thead>
 <tbody>
 <row><entry>230-259</entry><entry>21</entry></row>
@@ -1393,7 +1393,7 @@
 
 <exercise id="fs-idm37056320"><problem id="fs-idp1515264">
 <para id="fs-idp2742000">Utilice las dos tablas de frecuencia para comparar la esperanza de vida de hombres y mujeres de 20 países seleccionados al azar. Incluya un polígono de frecuencias superpuesto y analice las formas de las distribuciones, el centro, la dispersión y cualquier valor atípico. ¿Qué podemos concluir sobre la esperanza de vida de las mujeres en comparación con la de los hombres?</para>
-<table id="fs-idm38094912" summary="---">
+<table id="fs-idm38094912" summary="">
 <tgroup cols="2" align="center"><thead>
 <row><entry>Esperanza de vida al nacer: mujeres</entry>	<entry>Frecuencia</entry></row>
 </thead>
@@ -1407,7 +1407,7 @@
 </tbody>
 
 </tgroup>
-</table><table id="fs-idm37006144" summary="---">
+</table><table id="fs-idm37006144" summary="">
 <tgroup cols="2" align="center"><thead>
 <row><entry>Esperanza de vida al nacer: hombres</entry>	<entry>Frecuencia</entry>
 </row></thead>
@@ -1425,7 +1425,7 @@
 </exercise>
 
 <exercise id="eip-583"><problem id="eip-945">
-  <para id="eip-408">Construya un gráfico de series temporales para (a) el número de nacimientos de hombres; (b) el número de nacimientos de mujeres; y (c) el número total de nacimientos.</para><table id="fs-idp121703664" summary="---">
+  <para id="eip-408">Construya un gráfico de series temporales para (a) el número de nacimientos de hombres; (b) el número de nacimientos de mujeres; y (c) el número total de nacimientos.</para><table id="fs-idp121703664" summary="">
 <tgroup cols="8"><colspec colnum="1" colname="header_c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1454,7 +1454,7 @@
 </tbody>
 
 </tgroup>
-</table><table id="fs-idp98414384" summary="---">
+</table><table id="fs-idp98414384" summary="">
 <tgroup cols="9"><colspec colnum="1" colname="header_c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1512,7 +1512,7 @@
 </tbody>
 
 </tgroup>
-</table><table id="fs-idp108871120" summary="Table">
+</table><table id="fs-idp108871120" summary="---">
 <tgroup cols="7"><colspec colnum="1" colname="header_c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1561,7 +1561,7 @@
 </figure>
 </solution>
 </exercise><exercise id="eip-301"><problem id="eip-753">
-<para id="eip-345">Los siguientes conjuntos de datos enumeran los policías a tiempo completo por cada 100.000 ciudadanos junto con los homicidios por cada 100.000 ciudadanos para la ciudad de Detroit, Michigan, durante el periodo de 1961 a 1973.</para><table id="fs-idm6896512" summary="---">
+<para id="eip-345">Los siguientes conjuntos de datos enumeran los policías a tiempo completo por cada 100.000 ciudadanos junto con los homicidios por cada 100.000 ciudadanos para la ciudad de Detroit, Michigan, durante el periodo de 1961 a 1973.</para><table id="fs-idm6896512" summary="">
 <tgroup cols="8"><colspec colnum="1" colname="header_c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1580,7 +1580,7 @@
 </tbody>
 
 </tgroup>
-</table><table id="fs-idp13023344" summary="---">
+</table><table id="fs-idp13023344" summary="">
 <tgroup cols="7"><colspec colnum="1" colname="header_c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1608,7 +1608,7 @@
 </problem>
 </exercise></section><section id="eip-616" class="free-response"><title>Tarea para la casa</title><exercise id="eip-440"><problem id="eip-765">
 <para id="eip-929">La <link target-id="M01_Ch02_tbl024"/> contiene las tasas de obesidad de 2010 en estados de EE. UU. y en Washington, DC.</para>
-<table id="M01_Ch02_tbl024" summary="The tables represents United States states and Obesity Rates. The first column and third columns list the names of the states and the second and fourth columns list Obesity Rates.">
+<table id="M01_Ch02_tbl024" summary="Las tablas representan los estados de los Estados Unidos y las tasas de obesidad. La primera y la tercera columnas indican los nombres de los estados y la segunda y cuarta columnas las tasas de obesidad.">
 <tgroup cols="4">
 <thead>
 <row>
@@ -1796,7 +1796,7 @@
 
 <exercise id="fs-idp53668112">
 <problem id="fs-idp53668368">
-<para id="fs-idp71468496">Supongamos que tres editoriales se interesan por el número de libros de ficción de tapa blanda que compran los consumidores adultos al mes. Cada editorial realizó una encuesta. En la encuesta se les preguntó a los consumidores adultos el número de libros de ficción de tapa blanda que compraron el mes anterior. Los resultados son los siguientes:</para><table id="fs-idp71816400" summary="The tables presents the number of books purchased by adults by three different publishers. Publisher A is the first table with number of books in the first column, from 0-8, frequency in the second column, and relative frequency in the third column which is blank."><title>Editorial A</title>
+<para id="fs-idp71468496">Supongamos que tres editoriales se interesan por el número de libros de ficción de tapa blanda que compran los consumidores adultos al mes. Cada editorial realizó una encuesta. En la encuesta se les preguntó a los consumidores adultos el número de libros de ficción de tapa blanda que compraron el mes anterior. Los resultados son los siguientes:</para><table id="fs-idp71816400" summary="Las tablas presentan el número de libros comprados por adultos en tres editoriales diferentes. La editorial A es la primera tabla con el número de libros en la primera columna, de 0 a 8, la frecuencia en la segunda columna y la frecuencia relativa en la tercera, que está en blanco."><title>Editorial A</title>
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1851,7 +1851,7 @@
 </tbody>
 
 </tgroup>
-</table><table id="fs-idp43657824" summary="Publisher B is the second table with number of books in the first column, from 0-5, 7, 9, frequency in the second column, and relative frequency in the third column which is blank."><title>Editorial B</title>
+</table><table id="fs-idp43657824" summary="La editorial B es la segunda tabla con el número de libros en la primera columna, de 0 a 5, 7, 9, la frecuencia en la segunda columna y la frecuencia relativa en la tercera columna que está en blanco."><title>Editorial B</title>
 <tgroup cols="3"><thead>
 <row>
 <entry>N.º de libros</entry>
@@ -1903,7 +1903,7 @@
 </tbody>
 
 </tgroup>
-</table><table id="fs-idm93843856" summary="Publisher C is the first table with number of books in the first column, 0-1, 2-3, 4-5, 6-7, 8-9, frequency in the second column, and relative frequency in the third column which is blank."><title>Editorial C</title>
+</table><table id="fs-idm93843856" summary="La editorial C es la primera tabla con el número de libros en la primera columna, de 0 a 1, de 2 a 3, de 4 a 5, de 6 a 7 y de 8 a 9, la frecuencia en la segunda columna y la frecuencia relativa en la tercera columna que está en blanco."><title>Editorial C</title>
 <tgroup cols="3"><thead>
 <row>
 <entry>N.º de libros</entry>
@@ -1949,7 +1949,7 @@
 </exercise>
 
 <exercise id="eip-457"><problem id="fs-idp16459264">
-<para id="fs-idp16459520">A menudo, los cruceros realizan todas las transacciones a bordo sin dinero en efectivo, a excepción de los juegos de azar. Al final del crucero, los huéspedes pagan una sola factura que cubre todas las transacciones a bordo. Supongamos que se encuestaron 60 viajeros solteros y 70 parejas sobre sus facturas a bordo para un crucero de siete días desde Los Ángeles a la riviera mexicana. A continuación, un resumen de las facturas de cada grupo.</para><table id="fs-idp40233520" summary="This table presents the amount of cruise bills by guest type. The first table is for singles with the first column listing the bill amount, the second column listing the frequency, and the third column labeled for relative frequency which is blank."><title>Solteros</title>
+<para id="fs-idp16459520">A menudo, los cruceros realizan todas las transacciones a bordo sin dinero en efectivo, a excepción de los juegos de azar. Al final del crucero, los huéspedes pagan una sola factura que cubre todas las transacciones a bordo. Supongamos que se encuestaron 60 viajeros solteros y 70 parejas sobre sus facturas a bordo para un crucero de siete días desde Los Ángeles a la riviera mexicana. A continuación, un resumen de las facturas de cada grupo.</para><table id="fs-idp40233520" summary="Esta tabla presenta el monto de las facturas de los cruceros por tipo de huésped. La primera tabla es para solteros con la primera columna que indica el monto de la factura, la segunda columna que indica la frecuencia y la tercera columna etiquetada para la frecuencia relativa que está en blanco."><title>Solteros</title>
 <tgroup cols="3"><thead>
 <row>
 <entry>Monto (en dólares)</entry>
@@ -1991,7 +1991,7 @@
 </tbody>
 
 </tgroup>
-</table><table id="fs-idp2601840" summary="The second table is for couples with the first column listing the bill amount, the second column listing the frequency, and the third column labeled for relative frequency which is blank."><title>Parejas</title>
+</table><table id="fs-idp2601840" summary="La segunda tabla es para las parejas, con la primera columna con el monto de la factura, la segunda con la frecuencia y la tercera con la frecuencia relativa, que está en blanco."><title>Parejas</title>
 <tgroup cols="3"><thead>
 <row>
 <entry>Monto (en dólares)</entry>
@@ -2069,7 +2069,7 @@
 </list></problem>
 
 <solution id="fs-idp34240">
-<table id="Singles" summary="---"><title>Solteros</title>
+<table id="Singles" summary=""><title>Solteros</title>
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -2114,7 +2114,7 @@
 </tbody>
 
 </tgroup>
-</table><table id="Couples" summary="---"><title>Parejas</title>
+</table><table id="Couples" summary=""><title>Parejas</title>
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -2221,7 +2221,7 @@
 <item>Las respuestas pueden variar. Las posibles respuestas son: Según los histogramas, parece que el gasto no varía mucho entre los solteros y las personas que forman parte de una pareja. Los patrones generales son iguales. El rango de gasto de las parejas es aproximadamente el doble que el de personas individuales.</item>
 </list></solution></exercise><exercise id="fs-idp73179824"><problem id="fs-idp73180080">
 <para id="fs-idp2917520">Se les preguntó a veinticinco estudiantes seleccionados al azar el número de películas que habían visto la semana anterior. Los resultados son los siguientes.
-<table id="fs-idp75182816" summary="The table presents the number of movies 25 students watched in the previous week. The first column lists the number of movies from 0-4, the second column lists the frequency with the values of 5, 9, 6, 4, 1, the third column is for relative frequency and is blank, and the fourth column is for cumulative relative frequency and is blank.">
+<table id="fs-idp75182816" summary="La tabla presenta el número de películas que 25 estudiantes vieron la semana anterior. La primera columna enumera el número de películas de 0 a 4, la segunda enumera la frecuencia con los valores de 5, 9, 6, 4, 1, la tercera es para la frecuencia relativa y está en blanco y la cuarta es para la frecuencia relativa acumulada y está en blanco.">
 <tgroup cols="4"><thead>
  <row>
     <entry>N.º de películas</entry>
@@ -2301,7 +2301,7 @@
 <exercise id="fs-idp13768528">
 <problem id="fs-idm31496800">
 <para id="fs-idm31496544">A continuación se muestran las tasas de obesidad de 2010 por estados de EE. UU. y Washington, DC.</para>
-<table id="Obesity_Rates_2008" summary="The tables represents United States states and Obesity Rates. The first column and third columns list the names of the states and the second and fourth columns list Obesity Rates.">
+<table id="Obesity_Rates_2008" summary="Las tablas representan los estados de los Estados Unidos y las tasas de obesidad. La primera y la tercera columnas indican los nombres de los estados y la segunda y cuarta columnas las tasas de obesidad.">
 <tgroup cols="6"><thead>
         <row>
           <entry>Estado</entry>

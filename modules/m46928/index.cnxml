@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Medidas del centro de los datos</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m46928</md:content-id>
@@ -369,7 +369,7 @@
 <section id="eip-529">
 <title>Distribuciones muestrales y estadística de una distribución muestral</title>
 <para id="eip-568">Se puede pensar en una <term id="term-00004">distribución de muestreo</term> como una <emphasis> distribución de frecuencia relativa</emphasis> con un gran número de muestras (vea la sección <emphasis>Muestreo y datos</emphasis> para hacer un repaso de la frecuencia relativa). Supongamos que se pregunta a treinta estudiantes seleccionados al azar el número de películas que vieron la semana anterior. Los resultados se encuentran en la <emphasis>tabla de frecuencias relativas</emphasis> que se muestra a continuación.</para>
-<table id="rel_freq_table" summary="The table presents the number of movies 30 students watched in the previous week. The first column lists the number of movies from 0-4 and the second column lists the relative frequencies.">
+<table id="rel_freq_table" summary="La tabla presenta el número de películas que 30 estudiantes vieron la semana anterior. La primera columna indica el número de películas de 0 a 4 y la segunda columna indica las frecuencias relativas.">
 <tgroup cols="2"><thead>
 <row>
 <entry>N.º de películas</entry>
@@ -498,7 +498,7 @@
 <exercise id="fs-idp61839840">
 <problem id="fs-idp47622112">
 <para id="fs-idm6896112">Se presenta una tabla de frecuencias que muestra la prueba estadística anterior del profesor Blount. Calcule la mejor estimación de la media de la clase.</para>
-<table id="fs-idp32456976" summary="">
+<table id="fs-idp32456976" summary="---">
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -523,7 +523,7 @@
 <list id="fs-idp26414448" list-type="bulleted">
 <item>Calcule los puntos medios de todos los intervalos</item>
 </list>
-<table id="fs-idp15194576" summary="">
+<table id="fs-idp15194576" summary="---">
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -593,7 +593,7 @@
 <exercise id="fs-idp22476928">
 <problem id="fs-idp50951968">
 <para id="fs-idm11216000">Maris realizó un estudio sobre el efecto que tiene jugar videojuegos en el recuerdo. Como parte de su estudio recopiló los siguientes datos:</para>
-<table id="fs-idm6918832" summary="">
+<table id="fs-idm6918832" summary="---">
 <tgroup cols="2">
 <thead><row><entry>Horas que los adolescentes dedican a los videojuegos</entry>	<entry>Número de adolescentes</entry></row></thead>
 <tbody>
@@ -662,7 +662,7 @@
 </tgroup>
 </table>
 </item>
-<item><table id="fs-idp21318848" summary="">
+<item><table id="fs-idp21318848" summary="---">
 <tgroup cols="2">
 <thead><row><entry>Temperatura mínima diaria</entry>
 <entry>Frecuencia</entry></row></thead>
@@ -676,7 +676,7 @@
 </tgroup>
 </table>
 </item>
-<item><table id="fs-idp49142800" summary="">
+<item><table id="fs-idp49142800" summary="---">
 <tgroup cols="2">
 <thead><row><entry>Puntos por partido</entry>
 <entry>Frecuencia</entry></row></thead>
@@ -756,7 +756,7 @@
 <exercise id="eip-735"><problem id="eip-618">
 <para id="eip-506">Los países más obesos del mundo tienen tasas de obesidad que van del 11,4 % al 74,6 %. Estos datos se resumen en el siguiente cuadro.</para>
 
-<table id="eip-456" summary="Table....">
+<table id="eip-456" summary="Tabla....">
 <tgroup cols="2"><thead>
   <row>
     <entry>Porcentaje de población obesa</entry>
@@ -809,7 +809,7 @@
 <exercise id="eip-17">
 <problem id="eip-369">
   <para id="eip-474">La <link target-id="eip-456s" document=""/> da el porcentaje de niños menores de cinco años considerados con bajo peso. ¿Cuál es la mejor estimación del porcentaje medio de niños con bajo peso?</para>
-<table id="eip-456s" summary="Table....">
+<table id="eip-456s" summary="Tabla....">
 <tgroup cols="2"><thead>
   <row>
     <entry>Porcentaje de niños con bajo peso</entry>
@@ -874,7 +874,7 @@
 <exercise id="element-832">
 <problem id="id6092616">
 <para id="JavErc">Javier y Ercilia son supervisores en un centro comercial. A cada uno se le encomendó la tarea de estimar la distancia media a la que viven los compradores del centro comercial. Cada uno de ellos encuestó al azar a 100 compradores. Las muestras arrojaron la siguiente información.</para>
-<table id="element-72" summary="This table presents two shopping mall supervisors and their estimations of the mean distance shoppers live from the mall. Javier's data is in the second column and Ercilia is in the third column. The first row is for sample means and the second row is for standard deviations.">
+<table id="element-72" summary="Esta tabla presenta a dos supervisores de centros comerciales y sus estimaciones de la distancia media a la que viven los compradores del centro comercial. Los datos de Javier están en la segunda columna y los de Ercilia en la tercera. La primera fila corresponde a las medias muestrales y la segunda a las desviaciones típicas.">
 <tgroup cols="3">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -920,7 +920,7 @@
 </exercise>
 
 <para id="fs-idm4887840"><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios</emphasis>: estamos interesados en el número de años que han vivido en California los estudiantes de una determinada clase de Estadística Elemental. La información de la siguiente tabla es de toda la sección.
-  </para><table id="element-368" summary="This table presents the number of years students in a statistics class have lived in California. The first column lists the number of years and the second column lists the frequency.">
+  </para><table id="element-368" summary="Esta tabla presenta el número de años que los estudiantes de una clase de estadística han vivido en California. La primera columna indica el número de años y la segunda columna la frecuencia.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>

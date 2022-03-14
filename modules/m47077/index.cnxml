@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Prueba de independencia</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m47077</md:content-id>
@@ -109,7 +109,7 @@
  <para id="eip-935">Se toma una muestra de 300 estudiantes. De los estudiantes encuestados, 50 estudiaban música, mientras que 250 no. Un total de 97 estaban en el cuadro de honor, mientras que 203 no. Si suponemos que ser estudiante de música y estar en el cuadro de honor son hechos independientes, ¿cuál es el número esperado de estudiantes de música que también están en el cuadro de honor?</para></problem>
 </exercise>
 </note><example id="element-272">
- <para id="element-84">En un grupo de voluntariado, los adultos de 21 años o más se ofrecen como voluntarios de una a nueve horas cada semana para pasar el tiempo con una persona mayor discapacitada. El programa recluta entre estudiantes de colegios comunitarios, estudiantes de institutos universitarios de cuatro años y no estudiantes. En la <link target-id="table-73248"/> se encuentra una <emphasis>muestra</emphasis> de los voluntarios adultos y el número de horas que ofrecen a la semana. </para><table id="table-73248" summary="This table presents the observed hours per week volunteered by type of volunteer. The first row represents community-college students, the second row represents four-year college students, and the third row represents non-students. The second column is 1-3 hours per week, the third column is 4-6 hours per week, and the fourth column is 7-9 hours per week."><title>Número de horas trabajadas por semana por tipo de voluntario (observado). La tabla contiene valores (datos) <emphasis>observados (O)</emphasis>. </title>
+ <para id="element-84">En un grupo de voluntariado, los adultos de 21 años o más se ofrecen como voluntarios de una a nueve horas cada semana para pasar el tiempo con una persona mayor discapacitada. El programa recluta entre estudiantes de colegios comunitarios, estudiantes de institutos universitarios de cuatro años y no estudiantes. En la <link target-id="table-73248"/> se encuentra una <emphasis>muestra</emphasis> de los voluntarios adultos y el número de horas que ofrecen a la semana. </para><table id="table-73248" summary="Esta tabla presenta las horas de voluntariado por tipo de voluntario observadas por semana. La primera fila representa a estudiantes de colegios universitarios comunitarios, la segunda a los de institutos universitarios de cuatro años y la tercera a los que no son estudiantes. La segunda columna es de 1 a 3 horas por semana, la tercera es de 4 a 6 horas por semana y la cuarta es de 7 a 9 horas por semana."><title>Número de horas trabajadas por semana por tipo de voluntario (observado). La tabla contiene valores (datos) <emphasis>observados (O)</emphasis>. </title>
 <tgroup cols="5"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -162,7 +162,7 @@
 <solution id="id8698856">
 <para id="element-8768798723">La <emphasis>tabla observada</emphasis> y la pregunta al final del problema: “¿El número de horas de voluntariado es independiente del tipo de voluntario?”, le indican que se trata de una prueba de independencia. Los dos factores son el <emphasis>número de horas de voluntariado</emphasis> y el <emphasis>tipo de voluntario</emphasis>. Esta prueba es siempre de cola derecha.</para>
 <para id="element-945"><emphasis effect="italics">H<sub>0</sub></emphasis>: El número de horas de voluntariado es <emphasis>independiente</emphasis> del tipo de voluntario.</para><para id="element-255"><emphasis effect="italics">H<sub>a</sub></emphasis>: El número de horas de voluntariado <emphasis>depende</emphasis> del tipo de voluntario.</para><para id="element-455">Los resultados esperados están en la <link target-id="table-73248a"/>.
- <table id="table-73248a" summary="This table presents the expected hours per week volunteered by type of volunteer. The first row represents community-college students, the second row represents four-year college students, and the third row represents non-students. The second column is 1-3 hours per week, the third column is 4-6 hours per week, and the fourth column is 7-9 hours per week."><title>Número de horas trabajadas por semana por tipo de voluntario (previsto)</title>
+ <table id="table-73248a" summary="Esta tabla presenta las horas semanales previstas de voluntariado por tipo de voluntario. La primera fila representa a estudiantes de colegios universitarios comunitarios, la segunda a los de institutos universitarios de cuatro años y la tercera a los que no son estudiantes. La segunda columna es de 1 a 3 horas por semana, la tercera es de 4 a 6 horas por semana y la cuarta es de 7 a 9 horas por semana."><title>Número de horas trabajadas por semana por tipo de voluntario (previsto)</title>
 <tgroup cols="4"><colspec colnum="1" colname="header_c1"/>
    <colspec colnum="2" colname="c2"/>
    <colspec colnum="3" colname="c5"/>
@@ -288,7 +288,7 @@
 <para id="eip-idp2741344">Queremos saber si el cambio en el número de empleos es independiente del cambio en los años. Indique las hipótesis nula y alternativa y los grados de libertad.</para>
 </problem>
 </exercise></note><example id="element-505">
- <para id="element-311">El De Anza College está interesado en la relación entre el nivel de ansiedad y la necesidad de tener éxito en la escuela. Una muestra aleatoria de 400 estudiantes realizó una prueba que medía el nivel de ansiedad y la necesidad de tener éxito en la escuela. La <link target-id="element-875"/> muestra los resultados. El De Anza College quiere saber si el nivel de ansiedad y la necesidad de tener éxito en la escuela son eventos independientes.</para><table id="element-875" summary="This table presents the need to succeed in school in the first column and the various anxiety levels (high to low) and the row total in the second to seventh columns. The first row is for high need, the second row is for medium need, third row is for low need, and the column total is in the fourth row.">
+ <para id="element-311">El De Anza College está interesado en la relación entre el nivel de ansiedad y la necesidad de tener éxito en la escuela. Una muestra aleatoria de 400 estudiantes realizó una prueba que medía el nivel de ansiedad y la necesidad de tener éxito en la escuela. La <link target-id="element-875"/> muestra los resultados. El De Anza College quiere saber si el nivel de ansiedad y la necesidad de tener éxito en la escuela son eventos independientes.</para><table id="element-875" summary="Esta tabla presenta la necesidad de tener éxito en la escuela en la primera columna y los distintos niveles de ansiedad (de alto a bajo) y el total de la fila en las columnas de la segunda a la séptima. La primera fila corresponde a la necesidad alta, la segunda a la necesidad media y la tercera a la necesidad baja, y el total de la columna está en la cuarta fila.">
 <title>Necesidad de tener éxito en la escuela versus nivel de ansiedad</title>
 <tgroup cols="7"><colspec colnum="1" colname="header_c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -524,7 +524,7 @@
  </problem>
 </exercise><para id="element-538"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos ocho ejercicios:</emphasis> en un artículo publicado en el New England Journal of Medicine, se habla de un estudio sobre los fumadores de California y Hawái. En una parte del informe se indicaba el origen étnico autodeclarado y la cantidad de cigarrillos por día. De las personas que fumaban como máximo diez cigarrillos al día, había 9.886 afroamericanos, 2.745 nativos de Hawái, 12.831 latinos, 8.378 japoneses americanos y 7.650 blancos. De las personas que fumaban como máximo diez cigarrillos al día, había 6.514 afroamericanos, 3.062 nativos de Hawái, 4.932 latinos, 10.680 japoneses americanos y 9.877 blancos. De las personas que fumaban como máximo diez cigarrillos al día, había 1.671 afroamericanos, 1.419 nativos de Hawái, 1.406 latinos, 4.715 japoneses americanos y 6.062 blancos. De las personas que fumaban al menos 31 cigarrillos al día, había 759 afroamericanos, 788 nativos de Hawái, 800 latinos, 2.305 japoneses americanos y 3.970 blancos.</para>
 <exercise id="fs-idm12518016"><problem id="fs-idp16845632">
-<para id="eip-idp205148416">Rellene la tabla.<table id="element-894" summary="This is a partially filled observation table with Ethnicity for the columns (2nd to 6th) and Total for the seventh column. The smoking level (4 rows) and the total constitute the rows of the table. 30 blank cells are available."><title>Hábito de fumar por grupo étnico (observado)</title>
+<para id="eip-idp205148416">Rellene la tabla.<table id="element-894" summary="Se trata de una tabla de observación parcialmente rellenada con el origen étnico para las columnas (de la 2.ª a la 6.ª) y el total para la séptima columna. El nivel de hábito de fumar (4 filas) y el total constituyen las filas de la tabla. Hay 30 celdas en blanco disponibles."><title>Hábito de fumar por grupo étnico (observado)</title>
 <tgroup cols="7">
 <colspec colnum="1" colname="header_c1" colwidth="150"/>
 <colspec colnum="2" colname="c2" colwidth="120"/>
@@ -791,7 +791,7 @@ TOTALES
 <title>Tarea para la casa</title>
 <para id="fs-idp19244768"><emphasis effect="italics">Para cada problema use una hoja de soluciones para resolver el problema de la prueba de hipótesis. Vaya al <link document="m47882">Apéndice E</link> para ver la hoja de soluciones de chi-cuadrado. Redondee la frecuencia esperada a dos decimales.</emphasis></para><exercise id="element-241"><problem id="id20690433">
  <para id="element-506"> Un reciente debate sobre dónde los esquiadores creen que se esquía mejor en Estados Unidos generó la siguiente encuesta. Pruebe para ver si la mejor área de esquí es independiente del nivel del esquiador. </para>
- <table id="id7787415" summary="The table has the level of the skier from second to fourth column with the first column as being U.S. Ski Area. There are three rows.">
+ <table id="id7787415" summary="La tabla tiene el nivel del esquiador de la segunda a la cuarta columnas con la primera columna como área de esquí de los EE. UU. Hay tres filas.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
  <colspec colnum="2" colname="c2"/>
  <colspec colnum="3" colname="c3"/>
@@ -828,7 +828,7 @@ TOTALES
 </table>
 </problem>
 </exercise><exercise id="fs-idm133556096"><problem id="id20690775">
-  <para id="element-887">Hay fabricantes de automóviles que están interesados en saber si hay una relación entre el tamaño del automóvil que conduce una persona y el número de personas que componen su familia (es decir, si el tamaño del automóvil y el de la familia son independientes). Para comprobarlo, supongamos que se encuestó aleatoriamente a 800 propietarios de automóviles, lo cual arrojó los resultados que están en la <link target-id="id6178445"/>. Haga una prueba de independencia. </para><table id="id6178445" summary="This table has family size in the first column and car size from columns 2-5. There are 4 rows.">
+  <para id="element-887">Hay fabricantes de automóviles que están interesados en saber si hay una relación entre el tamaño del automóvil que conduce una persona y el número de personas que componen su familia (es decir, si el tamaño del automóvil y el de la familia son independientes). Para comprobarlo, supongamos que se encuestó aleatoriamente a 800 propietarios de automóviles, lo cual arrojó los resultados que están en la <link target-id="id6178445"/>. Haga una prueba de independencia. </para><table id="id6178445" summary="Esta tabla tiene el tamaño de la familia en la primera columna y el tamaño del automóvil en las columnas de la 2 a la 5. Hay 4 filas.">
 <tgroup cols="5"><colspec colnum="1" colname="c1"/>
  <colspec colnum="2" colname="c2"/>
  <colspec colnum="3" colname="c3"/>
@@ -896,7 +896,7 @@ TOTALES
 </exercise>
  <exercise id="element-650"><problem id="id20691133">
   <para id="element-99"> Los estudiantes universitarios pueden estar interesados en saber si sus especialidades tienen algún efecto sobre los salarios iniciales después de graduarse. Supongamos que se ha encuestado a 300 recién graduados sobre sus especialidades universitarias y sus salarios iniciales tras la graduación. La <link target-id="id7852811"/> muestra los datos. Haga una prueba de independencia. </para>
-<table id="id7852811" summary="The table has the starting salary along the top from column 2-4 and the major in the first column. There are 5 rows.">
+<table id="id7852811" summary="La tabla tiene el salario inicial en la parte superior de las columnas de la 2 a la 4 y la especialidad en la primera columna. Hay 5 filas.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
  <colspec colnum="2" colname="c2"/>
  <colspec colnum="3" colname="c3"/>
@@ -945,7 +945,7 @@ TOTALES
 </table>
  </problem>
 </exercise><exercise id="element-8d1"><problem id="id20691551">
- <para id="element-47aa7">Algunas agencias de viajes afirman que los lugares más visitados para la luna de miel varían según la edad de la novia. Supongamos que se entrevista a 280 novias recientes para saber dónde han pasado su luna de miel. La información se ofrece en la <link target-id="id78334ss42"/>. Haga una prueba de independencia. </para><table id="id78334ss42" summary="This table has the age of the bride along the top from columns 2-4 and the location in the first column. There are 4 rows.">
+ <para id="element-47aa7">Algunas agencias de viajes afirman que los lugares más visitados para la luna de miel varían según la edad de la novia. Supongamos que se entrevista a 280 novias recientes para saber dónde han pasado su luna de miel. La información se ofrece en la <link target-id="id78334ss42"/>. Haga una prueba de independencia. </para><table id="id78334ss42" summary="Esta tabla tiene la edad de la novia a lo largo de la parte superior de las columnas de la 2 a la 4 y la ubicación en la primera columna. Hay 4 filas.">
 <tgroup cols="5"><colspec colnum="1" colname="c1"/>
  <colspec colnum="2" colname="c2"/>
  <colspec colnum="3" colname="c3"/>
@@ -1012,7 +1012,7 @@ TOTALES
   </list></solution>
 </exercise>
  <exercise id="element-656"><problem id="id20691902">
- <para id="element-870">El gerente de un club deportivo guarda información sobre el deporte principal en el que participan los socios y sus edades. Para comprobar si existe una relación entre la edad de un socio y su elección de deporte se seleccionan aleatoriamente 643 socios del club deportivo. Haga una prueba de independencia. </para><table id="id7834002" summary="The table has the age from columns 2-5 and sport in the first column. There are three rows.">
+ <para id="element-870">El gerente de un club deportivo guarda información sobre el deporte principal en el que participan los socios y sus edades. Para comprobar si existe una relación entre la edad de un socio y su elección de deporte se seleccionan aleatoriamente 643 socios del club deportivo. Haga una prueba de independencia. </para><table id="id7834002" summary="La tabla tiene la edad en las columnas de la 2 a la 5 y el deporte en la primera columna. Hay tres filas.">
 <tgroup cols="5"><colspec colnum="1" colname="c1"/>
  <colspec colnum="2" colname="c2"/>
  <colspec colnum="3" colname="c3"/>
@@ -1054,7 +1054,7 @@ TOTALES
 </table>
 </problem>
 </exercise><exercise id="fs-idm153473104"><problem id="id20692285">
- <para id="element-497">Un importante fabricante de alimentos está preocupado porque las ventas de sus papas fritas delgadas han disminuido. Como parte de un estudio de viabilidad, la compañía realiza una investigación sobre los tipos de papas fritas que se venden en todo el país para determinar si el tipo de papas fritas que se venden es independiente de la zona del país. Los resultados del estudio se muestran en la <link target-id="id6092701"/>. Haga una prueba de independencia.</para><table id="id6092701" summary="The table has area of country along the top from columns 2-5 and type of fries in the first column. There are three rows.">
+ <para id="element-497">Un importante fabricante de alimentos está preocupado porque las ventas de sus papas fritas delgadas han disminuido. Como parte de un estudio de viabilidad, la compañía realiza una investigación sobre los tipos de papas fritas que se venden en todo el país para determinar si el tipo de papas fritas que se venden es independiente de la zona del país. Los resultados del estudio se muestran en la <link target-id="id6092701"/>. Haga una prueba de independencia.</para><table id="id6092701" summary="La tabla tiene el área del país en la parte superior de las columnas de la 2 a la 5 y el tipo de papas fritas en la primera columna. Hay tres filas.">
 <tgroup cols="5"><colspec colnum="1" colname="c1"/>
  <colspec colnum="2" colname="c2"/>
  <colspec colnum="3" colname="c3"/>
@@ -1114,7 +1114,7 @@ TOTALES
  </list></solution>
 </exercise>
  <exercise id="element-598"><problem id="id20692592">
- <para id="fs-idm168518032">De acuerdo con los datos suministrados por Dan Lenard, agente de seguros independiente de la zona de Buffalo (Nueva York), a continuación se desglosa el monto de los seguros de vida adquiridos por hombres de los siguientes grupos de edad. Le interesa saber si la edad del hombre y el monto del seguro de vida adquirido son hechos independientes. Haga una prueba de independencia.</para><table id="id7819090" summary="The table presents the amount of life insurance purchased along the top from columns 2-6 and age of males in the first column. There are 4 rows.">
+ <para id="fs-idm168518032">De acuerdo con los datos suministrados por Dan Lenard, agente de seguros independiente de la zona de Buffalo (Nueva York), a continuación se desglosa el monto de los seguros de vida adquiridos por hombres de los siguientes grupos de edad. Le interesa saber si la edad del hombre y el monto del seguro de vida adquirido son hechos independientes. Haga una prueba de independencia.</para><table id="id7819090" summary="La tabla presenta el monto del seguro de vida adquirido en la parte superior de las columnas de la 2 a la 6 y la edad de los hombres en la primera columna. Hay 4 filas.">
 <tgroup cols="6"><colspec colnum="1" colname="c1"/>
  <colspec colnum="2" colname="c2"/>
  <colspec colnum="3" colname="c3"/>
@@ -1169,7 +1169,7 @@ TOTALES
 </table></problem>
 </exercise><exercise id="element-619"><problem id="id21086869">
  <para id="element-186"> Supongamos que se encuestaron 600 personas de treinta años para determinar si existe o no una relación entre el nivel de estudios de una persona y su salario. Haga una prueba de independencia. </para>
-<table id="id7819454" summary="The table presents the level of education along the top from columns 2-5 and annual salary in the first column. There are 5 rows.">
+<table id="id7819454" summary="La tabla presenta el nivel de estudios en la parte superior de las columnas de la 2 a la 5 y el salario anual en la primera columna. Hay 5 filas.">
 <tgroup cols="5"><colspec colnum="1" colname="c1"/>
  <colspec colnum="2" colname="c2"/>
  <colspec colnum="3" colname="c3"/>

@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Datos, muestreo y variación de datos y muestreo</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m46885</md:content-id>
@@ -83,7 +83,7 @@
 <image src="../../media/CNX_Stats_C01_M05_002.png" mime-type="image/png" width="380"/>
 </media></figure>
 <newline/> ¿Qué tipo de datos muestra este gráfico?</para></problem>
-</exercise></note><section id="eip-312"><title>Discusión de datos cualitativos</title><para id="eip-298">A continuación se muestran tablas que comparan el número de estudiantes a tiempo parcial y a tiempo completo en De Anza College y Foothill College inscritos para el trimestre de primavera de 2010. Las tablas muestran recuentos (frecuencias) y porcentajes o proporciones (frecuencias relativas). Las columnas de porcentajes facilitan la comparación de las mismas categorías en los institutos universitarios. Suele ser útil mostrar porcentajes junto con números, pero es especialmente importante cuando se comparan conjuntos de datos que no tienen los mismos totales, como las inscripciones totales de ambos institutos universitarios en este ejemplo. Observe que el porcentaje de estudiantes a tiempo parcial del Foothill College es mucho mayor que el del De Anza College.</para><table id="eip-953" summary="Fall Term 2007 (Census day)"><title>Otoño 2007 (día del censo)</title>
+</exercise></note><section id="eip-312"><title>Discusión de datos cualitativos</title><para id="eip-298">A continuación se muestran tablas que comparan el número de estudiantes a tiempo parcial y a tiempo completo en De Anza College y Foothill College inscritos para el trimestre de primavera de 2010. Las tablas muestran recuentos (frecuencias) y porcentajes o proporciones (frecuencias relativas). Las columnas de porcentajes facilitan la comparación de las mismas categorías en los institutos universitarios. Suele ser útil mostrar porcentajes junto con números, pero es especialmente importante cuando se comparan conjuntos de datos que no tienen los mismos totales, como las inscripciones totales de ambos institutos universitarios en este ejemplo. Observe que el porcentaje de estudiantes a tiempo parcial del Foothill College es mucho mayor que el del De Anza College.</para><table id="eip-953" summary="Otoño 2007 (día del censo)"><title>Otoño 2007 (día del censo)</title>
 <tgroup cols="6"><colspec colname="col1" colnum="1"/>
 <colspec colname="col2" colnum="2"/>
 <colspec colname="col3" colnum="3"/>
@@ -147,7 +147,7 @@
 <image mime-type="image/jpg" src="../../media/fig-ch01_patchfile_03.jpg" width="380"/>
 </media>
 </figure><section id="eip-558"><title>Porcentajes que suman más (o menos) que el 100 %</title><para id="eip-613">A veces, los porcentajes suman más del 100 % (o menos del 100 %). En el gráfico, los porcentajes suman más del 100 % porque los estudiantes pueden estar en más de una categoría. Un gráfico de barras es apropiado para comparar el tamaño relativo de las categorías. No se puede utilizar un gráfico circular. Tampoco podía utilizarse si los porcentajes sumaban menos del 100 %.
-</para><table id="eip-451" summary="De Anza College Spring 2010"><title>De Anza College, primavera de 2010</title>
+</para><table id="eip-451" summary="De Anza College, primavera de 2010"><title>De Anza College, primavera de 2010</title>
 <tgroup cols="2"><thead>
   <row>
     <entry>Característica/Categoría</entry>
@@ -179,7 +179,7 @@
 <media id="eip-idm13986336" alt="Un gráfico de barras. El eje vertical marca valores del 0 % al 100 % en intervalos del 20 %. Las categorías del eje horizontal son menores de 25 años (la altura de la barra muestra el 61,0 %), con intención de transferirse (la altura de la barra muestra el 48,6 %), a tiempo completo (la altura de la barra muestra el 40,9 %) y todos los estudiantes (la altura de la barra muestra el 100 %).">
 <image mime-type="image/jpg" src="../../media/fig-ch01_patchfile_04.jpg" width="380"/>
 </media>
-</figure></section><section id="eip-993"><title>Omisión de categorías/falta de datos</title><para id="eip-145">La tabla muestra el origen étnico de los estudiantes pero falta la categoría “otros/desconocidos”. En esta categoría se ubican las personas que no se consideraron incluidas en ninguna de las categorías étnicas o que se negaron a responder. Observe que las frecuencias no suman el número total de estudiantes. En esta situación, cree un gráfico de barras y no un gráfico circular.</para><table id="eip-251" summary="The table displays Ethnicity of Students"><title>Origen étnico de los estudiantes del De Anza College, otoño de 2007 (día del censo)</title>
+</figure></section><section id="eip-993"><title>Omisión de categorías/falta de datos</title><para id="eip-145">La tabla muestra el origen étnico de los estudiantes pero falta la categoría “otros/desconocidos”. En esta categoría se ubican las personas que no se consideraron incluidas en ninguna de las categorías étnicas o que se negaron a responder. Observe que las frecuencias no suman el número total de estudiantes. En esta situación, cree un gráfico de barras y no un gráfico circular.</para><table id="eip-251" summary="La tabla muestra el origen étnico de los estudiantes"><title>Origen étnico de los estudiantes del De Anza College, otoño de 2007 (día del censo)</title>
 <tgroup cols="3"><thead>
   <row>
     <entry/>
@@ -249,7 +249,7 @@
 <image mime-type="image/jpg" src="../../media/OSX_Stats_Figure_01_98_ethnicity.jpg" width="300"/>
 </media>
 </figure></section></section><section id="eip-49"><title>Muestreo</title>
-<para id="id12361474">Recopilar información sobre toda una población suele ser demasiado costoso o prácticamente imposible. En cambio, utilizamos una muestra de la población. <emphasis>Una muestra debe tener las mismas características que la población que representa.</emphasis> La mayoría de los estadísticos utilizan varios métodos de muestreo aleatorio para intentar alcanzar esta meta. En esta sección se describen algunos de los métodos más comunes. Existen varios métodos de <emphasis>muestreo aleatorio</emphasis>. En cada forma de muestreo aleatorio, cada miembro de una población tiene inicialmente la misma probabilidad de que lo seleccionen para la muestra. Cada método tiene sus pros y sus contras. El método más fácil de describir se llama <emphasis>muestra aleatoria simple</emphasis>. Cualquier grupo de <emphasis effect="italics">n</emphasis> personas tiene la misma probabilidad de que lo seleccionen que cualquier otro grupo de <emphasis effect="italics">n</emphasis> personas si se utiliza la técnica de muestreo aleatorio simple. En otras palabras, cada muestra del mismo tamaño tiene la misma probabilidad de que la seleccionen. Por ejemplo, supongamos que Lisa quiere formar un grupo de estudio de cuatro personas (ella y otras tres) de su clase de precálculo, que tiene 31 miembros sin incluir a Lisa. Para elegir una muestra aleatoria simple de tamaño tres entre los demás miembros de su clase, Lisa podría poner los 31 nombres en un sombrero, agitar el sombrero, cerrar los ojos y elegir tres nombres. Una forma más tecnológica es que Lisa enumere primero los apellidos de los miembros de su clase junto con un número de dos dígitos, como en la <link target-id="element-621" document=""/>:</para><table id="element-621" summary="This table presents a class roster arranged in alphabetical order.  The first column lists a unique two-digit ID number for each student, with the second column displaying the student's last name.">
+<para id="id12361474">Recopilar información sobre toda una población suele ser demasiado costoso o prácticamente imposible. En cambio, utilizamos una muestra de la población. <emphasis>Una muestra debe tener las mismas características que la población que representa.</emphasis> La mayoría de los estadísticos utilizan varios métodos de muestreo aleatorio para intentar alcanzar esta meta. En esta sección se describen algunos de los métodos más comunes. Existen varios métodos de <emphasis>muestreo aleatorio</emphasis>. En cada forma de muestreo aleatorio, cada miembro de una población tiene inicialmente la misma probabilidad de que lo seleccionen para la muestra. Cada método tiene sus pros y sus contras. El método más fácil de describir se llama <emphasis>muestra aleatoria simple</emphasis>. Cualquier grupo de <emphasis effect="italics">n</emphasis> personas tiene la misma probabilidad de que lo seleccionen que cualquier otro grupo de <emphasis effect="italics">n</emphasis> personas si se utiliza la técnica de muestreo aleatorio simple. En otras palabras, cada muestra del mismo tamaño tiene la misma probabilidad de que la seleccionen. Por ejemplo, supongamos que Lisa quiere formar un grupo de estudio de cuatro personas (ella y otras tres) de su clase de precálculo, que tiene 31 miembros sin incluir a Lisa. Para elegir una muestra aleatoria simple de tamaño tres entre los demás miembros de su clase, Lisa podría poner los 31 nombres en un sombrero, agitar el sombrero, cerrar los ojos y elegir tres nombres. Una forma más tecnológica es que Lisa enumere primero los apellidos de los miembros de su clase junto con un número de dos dígitos, como en la <link target-id="element-621" document=""/>:</para><table id="element-621" summary="Esta tabla presenta una lista de clases por orden alfabético.  La primera columna contiene un número de identificación único de dos dígitos para cada estudiante y la segunda muestra el apellido del estudiante.">
 <title>Lista de clases</title>
 <tgroup cols="6">
 <colspec colnum="1" colname="c1"/>
@@ -596,7 +596,7 @@ Supongamos que el ABC College tiene 10.000 estudiantes a tiempo parcial (la pobl
 <section id="id-191351579127"><title>Tamaño de la muestra</title><para id="id10291271">El tamaño de la muestra (a menudo llamado número de observaciones) es importante. Los ejemplos que ha visto en este libro hasta ahora han sido pequeños. Muestras de solo unos cientos de observaciones, o incluso más pequeñas, son suficientes para muchos propósitos. En los sondeos, las muestras que van de 1.200 a 1.500 observaciones se consideran suficientemente grandes y buenas si la encuesta es aleatoria y está bien hecha. Aprenderá por qué cuando estudie intervalos de confianza.</para><para id="eip-idp48192112">Tenga en cuenta que muchas muestras grandes están sesgadas. Por ejemplo, las encuestas con llamadas están invariablemente sesgadas porque la gente decide responder o no.</para>
 
 <note id="fs-idm85528320" class="statistics collab"><label/>
-<para id="fs-idp60280064">Divídanse en grupos de dos, tres o cuatro. El instructor dará a cada grupo un dado de seis caras. Pruebe este experimento dos veces. Tire un dado justo (de seis caras) 20 veces. Anote el número de unos, dos, tres, cuatro, cinco y seis que obtiene en la <link target-id="element-497" document=""/> y la <link target-id="fs-idm76511248" document=""/> ("frecuencia" es el número de veces que aparece una cara concreta del dado):</para><table id="element-497" summary="This table provides a blank template for recording the results of an experimental trial involving the roll of a die.  The first column contains the values 1 through 6, representing the possible outcomes of a single throw of a die.  The second column is to be used by the student to tally the number of times the die lands on that value during the experiment.">
+<para id="fs-idp60280064">Divídanse en grupos de dos, tres o cuatro. El instructor dará a cada grupo un dado de seis caras. Pruebe este experimento dos veces. Tire un dado justo (de seis caras) 20 veces. Anote el número de unos, dos, tres, cuatro, cinco y seis que obtiene en la <link target-id="element-497" document=""/> y la <link target-id="fs-idm76511248" document=""/> ("frecuencia" es el número de veces que aparece una cara concreta del dado):</para><table id="element-497" summary="Esta tabla proporciona una plantilla en blanco para registrar los resultados de un ensayo experimental que implique el lanzamiento de un dado.  La primera columna contiene los valores del 1 al 6, que representan los posibles resultados de un solo lanzamiento de un dado.  La segunda columna debe ser utilizada por el estudiante para contar el número de veces que el dado cae en ese valor durante el experimento.">
 <title>Primer experimento (20 tiradas)</title>
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
@@ -635,7 +635,7 @@ Supongamos que el ABC College tiene 10.000 estudiantes a tiempo parcial (la pobl
 </tbody>
 </tgroup>
 </table>
-<table id="fs-idm76511248" summary="A duplicate of the previous table, this table provides a blank template for recording the results of an experimental trial involving the roll of a die.  The first column contains the values 1 through 6, representing the possible outcomes of a single throw of a die.  The second column is to be used by the student to tally the number of times the die lands on that value during the experiment.">
+<table id="fs-idm76511248" summary="Esta tabla, que es un duplicado de la anterior, proporciona una plantilla en blanco para registrar los resultados de un ensayo experimental que implique el lanzamiento de un dado.  La primera columna contiene los valores del 1 al 6, que representan los posibles resultados de un solo lanzamiento de un dado.  La segunda columna debe ser utilizada por el estudiante para contar el número de veces que el dado cae en ese valor durante el experimento.">
 <title>Segundo experimento (20 tiradas)</title>
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
@@ -846,7 +846,7 @@ Supongamos que el ABC College tiene 10.000 estudiantes a tiempo parcial (la pobl
   <para id="eip-233">
     Complete las tablas con los datos proporcionados:
   </para>
-<table id="id6060586" summary="This table provides a blank template for calculating the results of a study using the data set provided. For each survival length range provided in the first column, students are to calculate and write down the frequency (second column), relative frequency (third column), and cumulative relative frequency (fourth column)."><title>Investigador A</title>
+<table id="id6060586" summary="Esta tabla proporciona una plantilla en blanco para calcular los resultados de un estudio utilizando el conjunto de datos proporcionado. Para cada intervalo de duración de la supervivencia proporcionado en la primera columna, los estudiantes deben calcular y anotar la frecuencia (segunda columna), la frecuencia relativa (tercera columna) y la frecuencia relativa acumulada (cuarta columna)."><title>Investigador A</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2" colwidth="4*"/>
 <colspec colnum="3" colname="c3" colwidth="4*"/>
@@ -912,7 +912,7 @@ Supongamos que el ABC College tiene 10.000 estudiantes a tiempo parcial (la pobl
 </tbody>
 
 </tgroup>
-</table><table id="id6990964" summary="A duplicate of the previous table, this table provides a blank template for calculating the results of a study using the data set provided. For each survival length range provided in the first column, students are to calculate and write down the frequency (second column), relative frequency (third column), and cumulative relative frequency (fourth column)."><title>Investigador B</title>
+</table><table id="id6990964" summary="Esta tabla, que es un duplicado de la anterior, proporciona una plantilla en blanco para calcular los resultados de un estudio utilizando el conjunto de datos proporcionado. Para cada intervalo de duración de la supervivencia proporcionado en la primera columna, los estudiantes deben calcular y anotar la frecuencia (segunda columna), la frecuencia relativa (tercera columna) y la frecuencia relativa acumulada (cuarta columna)."><title>Investigador B</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1" colwidth="2*"/>
 <colspec colnum="2" colname="c2" colwidth="1*"/>
 <colspec colnum="3" colname="c3" colwidth="2*"/>
@@ -1025,7 +1025,7 @@ Supongamos que el ABC College tiene 10.000 estudiantes a tiempo parcial (la pobl
 <para id="eip-idm417504"><emphasis effect="italics">Use los siguientes datos para responder los próximos cinco ejercicios:</emphasis> Dos investigadores están recopilando datos sobre las horas de videojuegos que juegan los niños en edad escolar y los adultos jóvenes. Cada uno de ellos toma una muestra aleatoria de diferentes grupos de 150 estudiantes de la misma escuela. Recopilan los siguientes datos.</para>
 
 
-<table id="fs-idp67465568" summary="Researcher A Table"><title>Investigador A</title>
+<table id="fs-idp67465568" summary="Tabla del investigador A"><title>Investigador A</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1080,7 +1080,7 @@ Supongamos que el ABC College tiene 10.000 estudiantes a tiempo parcial (la pobl
 
 </tgroup>
 </table>
-<table id="fs-idm16196000" summary="Researcher B Table"><title>Investigador B</title>
+<table id="fs-idm16196000" summary="Tabla del investigador B"><title>Investigador B</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1520,7 +1520,7 @@ Self-Funded or Self-Interest Studies: This question was generated to support one
 <section id="eip-166" class="bring-together-homework"><title>Resúmalo todo</title><exercise id="eip-219"><problem id="id30201877">
 <para id="element-740">Setecientos setenta y un estudiantes de educación a distancia del Long Beach City College respondieron a las encuestas en el año académico 2010-11. Los aspectos más destacados del informe de síntesis figuran en la <link target-id="fs-idp27381216" document=""/>.</para>
 
-<table id="fs-idp27381216" summary="This table presents a list of survey responses by Long Beach City College students in the first column, with percentages in the second column."><title>Resultados de la encuesta sobre el aprendizaje a distancia de Long Beach City College (LBCC)</title>
+<table id="fs-idp27381216" summary="Esta tabla presenta una lista de respuestas de la encuesta por parte de los estudiantes del Long Beach City College en la primera columna, con porcentajes en la segunda columna."><title>Resultados de la encuesta sobre el aprendizaje a distancia de Long Beach City College (LBCC)</title>
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <tbody>

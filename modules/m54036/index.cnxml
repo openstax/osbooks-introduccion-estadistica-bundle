@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Datos, muestreo y variación de datos y muestreo</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m54036</md:content-id>
@@ -105,7 +105,7 @@ Los ítems a, d y g son cuantitativamente discretos; los ítems c, f y h son cua
 <label/>
 <title>Ejercicio Soluciones</title>
 <para id="fs-idm82473472">El histograma se utiliza para mostrar datos cuantitativos: el número de horas de crédito completadas. Dado que los estudiantes solo pueden completar un número entero de horas (no se permiten fracciones de horas), estos datos son cuantitativamente distintos.</para></solution>
-</exercise></note><section id="eip-312"><title>Discusión de datos cualitativos</title><para id="eip-298">A continuación se muestran tablas que comparan el número de estudiantes a tiempo parcial y a tiempo completo en De Anza College y Foothill College inscritos para el trimestre de primavera de 2010. Las tablas muestran recuentos (frecuencias) y porcentajes o proporciones (frecuencias relativas). Las columnas de porcentajes facilitan la comparación de las mismas categorías en los institutos universitarios. Suele ser útil mostrar porcentajes junto con números, pero es especialmente importante cuando se comparan conjuntos de datos que no tienen los mismos totales, como las inscripciones totales de ambos institutos universitarios en este ejemplo. Observe que el porcentaje de estudiantes a tiempo parcial del Foothill College es mucho mayor que el del De Anza College.</para><table id="eip-953" summary="Fall Term 2007 (Census day)"><title>Otoño 2007 (día del censo)</title>
+</exercise></note><section id="eip-312"><title>Discusión de datos cualitativos</title><para id="eip-298">A continuación se muestran tablas que comparan el número de estudiantes a tiempo parcial y a tiempo completo en De Anza College y Foothill College inscritos para el trimestre de primavera de 2010. Las tablas muestran recuentos (frecuencias) y porcentajes o proporciones (frecuencias relativas). Las columnas de porcentajes facilitan la comparación de las mismas categorías en los institutos universitarios. Suele ser útil mostrar porcentajes junto con números, pero es especialmente importante cuando se comparan conjuntos de datos que no tienen los mismos totales, como las inscripciones totales de ambos institutos universitarios en este ejemplo. Observe que el porcentaje de estudiantes a tiempo parcial del Foothill College es mucho mayor que el del De Anza College.</para><table id="eip-953" summary="Otoño 2007 (día del censo)"><title>Otoño 2007 (día del censo)</title>
 <tgroup cols="7"><colspec colname="col1" colnum="1"/>
 <colspec colname="col2" colnum="2"/>
 <colspec colname="col3" colnum="3"/>
@@ -174,7 +174,7 @@ Los ítems a, d y g son cuantitativamente discretos; los ítems c, f y h son cua
 <image mime-type="image/jpg" src="../../media/fig-ch01_patchfile_03.jpg" width="380"/>
 </media>
 </figure><section id="eip-558"><title>Porcentajes que suman más (o menos) que el 100 %</title><para id="eip-613">A veces, los porcentajes suman más del 100 % (o menos del 100 %). En el gráfico, los porcentajes suman más del 100 % porque los estudiantes pueden estar en más de una categoría. Un gráfico de barras es apropiado para comparar el tamaño relativo de las categorías. No se puede utilizar un gráfico circular. Tampoco podía utilizarse si los porcentajes sumaban menos del 100 %.
-</para><table id="eip-451" summary="De Anza College Spring 2010"><title>De Anza College, primavera de 2010</title>
+</para><table id="eip-451" summary="De Anza College, primavera de 2010"><title>De Anza College, primavera de 2010</title>
 <tgroup cols="2"><thead>
   <row>
     <entry>Característica/categoría</entry>
@@ -208,7 +208,7 @@ Los ítems a, d y g son cuantitativamente discretos; los ítems c, f y h son cua
 <media id="eip-idm13986336" alt="Un gráfico de barras. El eje vertical marca valores del 0 % al 100 % en intervalos del 20 %. Las categorías del eje horizontal son menores de 25 años (la altura de la barra muestra el 61,0 %), con intención de transferirse (la altura de la barra muestra el 48,6 %), a tiempo completo (la altura de la barra muestra el 40,9 %) y todos los estudiantes (la altura de la barra muestra el 100 %).">
 <image mime-type="image/jpg" src="../../media/fig-ch01_patchfile_04.jpg" width="380"/>
 </media>
-</figure></section><section id="eip-993"><title>Omisión de categorías/falta de datos</title><para id="eip-145">La tabla muestra el origen étnico de los estudiantes pero falta la categoría “otros/desconocidos”. En esta categoría se ubican las personas que no se consideraron incluidas en ninguna de las categorías étnicas o que se negaron a responder. Observe que las frecuencias no suman el número total de estudiantes. En esta situación, cree un gráfico de barras y no un gráfico circular.</para><table id="eip-251" summary="The table displays Ethnicity of Students"><title>Origen étnico de los estudiantes del De Anza College, otoño de 2007 (día del censo)</title>
+</figure></section><section id="eip-993"><title>Omisión de categorías/falta de datos</title><para id="eip-145">La tabla muestra el origen étnico de los estudiantes pero falta la categoría “otros/desconocidos”. En esta categoría se ubican las personas que no se consideraron incluidas en ninguna de las categorías étnicas o que se negaron a responder. Observe que las frecuencias no suman el número total de estudiantes. En esta situación, cree un gráfico de barras y no un gráfico circular.</para><table id="eip-251" summary="La tabla muestra el origen étnico de los estudiantes"><title>Origen étnico de los estudiantes del De Anza College, otoño de 2007 (día del censo)</title>
 <tgroup cols="3"><thead>
   <row>
     <entry/>

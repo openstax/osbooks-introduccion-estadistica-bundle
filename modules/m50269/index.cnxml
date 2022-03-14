@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>Teorema del límite central (recetas de galletas)</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -22,7 +22,7 @@
 <para id="element-743">
 <title>Dado</title><emphasis effect="italics">X</emphasis> = tiempo (en días) que duró una receta de galletas en el Olmstead Homestead. (Supongamos que cada una de las diferentes recetas resulta en la misma cantidad de galletas).</para>
 
-<table id="tableones23" summary="This table presents recipe data in the first column and X length of days data in the second column of 15 rows. These two columns repeat three more times in the same table.">
+<table id="tableones23" summary="Esta tabla presenta los datos de la receta en la primera columna y los datos de la duración X de días en la segunda columna de 15 filas. Estas dos columnas se repiten tres veces más en la misma tabla.">
 <tgroup cols="11">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -257,7 +257,7 @@
 <para id="element-453">
 <title>Recopilación de datos</title>Utilice un generador de números aleatorios para seleccionar al azar cuatro muestras de tamaño <emphasis effect="italics">n</emphasis> = 5 de la población dada. Registre sus muestras en la <link target-id="Ch07_lab2_tbl002" document=""/>. A continuación, para cada muestra, calcule la media a la décima más cercana. Anótelos en los espacios previstos. Anote las medias muestrales para el resto de la clase.</para>
 <list id="list-98698565" list-type="enumerated"><item> Rellene la tabla:
-<table id="Ch07_lab2_tbl002" summary="Partially filled table with samples (4) in columns and 5 blank rows plus a blank Means row.">
+<table id="Ch07_lab2_tbl002" summary="Tabla parcialmente rellenada con muestras (4) en columnas y 5 filas en blanco más una fila en blanco de medias.">
 
 <tgroup cols="6">
 <colspec colnum="1" colname="c1"/>
@@ -371,7 +371,7 @@
 </item>
 
 <item>De nuevo, utilice un generador de números aleatorios para seleccionar al azar cuatro muestras de la población. Esta vez, haga las muestras de tamaño <emphasis effect="italics">n</emphasis> = 10. Registre las muestras en la <link target-id="Ch07_lab2_tbl003" document=""/>. Como ya lo hizo, calcule la media a la décima más cercana en cada ejemplo. Anótelos en los espacios previstos. Anote las medias muestrales para el resto de la clase.
-<table id="Ch07_lab2_tbl003" summary="Same as the above table except with 10 blank rows and a means row.">
+<table id="Ch07_lab2_tbl003" summary="Igual que la tabla anterior, pero con 10 filas en blanco y una fila de medias.">
 <tgroup cols="6" align="center">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>

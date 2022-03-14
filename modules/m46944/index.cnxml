@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Diagramas de árbol y de Venn</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m46944</md:content-id>
@@ -1273,7 +1273,7 @@
 </problem>
 <solution id="fs-idp149290096">
 <list id="fs-idp149290352" list-type="enumerated" number-style="lower-alpha"><item>
-<table id="fs-idp154688496" summary="">
+<table id="fs-idp154688496" summary="---">
 <tgroup cols="5">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1332,7 +1332,7 @@
 <item>Supongamos que se seleccionan aleatoriamente 1.000 trabajadores. ¿Cuántos espera que conduzcan un automóvil compartido?</item></list></problem>
 <solution id="fs-idp100614736">
 <list id="fs-idp77575584" list-type="enumerated" number-style="lower-alpha"><item>
-<table id="fs-idp116055648" summary="">
+<table id="fs-idp116055648" summary="---">
 <tgroup cols="6">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1394,7 +1394,7 @@
 </exercise><exercise id="element-456">
 <problem id="eip-idp1286960">
   <para id="fs-idm23436880"><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios.</emphasis> Los siguientes son datos reales del condado de Santa Clara, CA. Hasta cierto momento, había un total de 3059 casos documentados de SIDA en el condado. Se agruparon en las siguientes categorías:
-<table id="element-436" summary="This table presents data of documented cases of AIDS with risk factor by gender. The first row lists the female values and the second row lists the male values. The first column lists the gender, the second column lists homosexual/bisexual, the third column lists IV drug user, the fourth column lists heterosexual contact, and the fifth column lists other."><title>* incluye consumidores de drogas intravenosas homosexuales/bisexuales</title>
+<table id="element-436" summary="Esta tabla presenta los datos de los casos documentados de sida con factor de riesgo por sexo. La primera fila indica los valores femeninos y la segunda fila los masculinos. En la primera columna se indica el sexo, en la segunda homosexual/bisexual, en la tercera consumidor de drogas por vía intravenosa (IV), en la cuarta contacto heterosexual y en la quinta otros."><title>* incluye consumidores de drogas intravenosas homosexuales/bisexuales</title>
 <tgroup cols="6"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1452,7 +1452,7 @@
 </problem>
 <solution id="id43568576">
 <para id="element-436p">La tabla de contingencia completada es la siguiente:</para>
-<table id="element-436s" summary="This table is similar to above except all blank values are now filled in."><title>* incluye consumidores de drogas intravenosas homosexuales/bisexuales</title>
+<table id="element-436s" summary="Esta tabla es similar a la anterior, salvo que ahora se rellenan todos los valores en blanco."><title>* incluye consumidores de drogas intravenosas homosexuales/bisexuales</title>
 <tgroup cols="6"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>

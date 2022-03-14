@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Tablas de contingencia y árboles de probabilidad</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m54259</md:content-id>
@@ -12,7 +12,7 @@
 
 <example id="element-775">
 <para id="element-557">Supongamos que un estudio sobre infracciones de velocidad y conductores que utilizan teléfonos móviles arroja los siguientes datos ficticios:
-<table id="element-838" summary="A study of speeding violations">
+<table id="element-838" summary="Tabla en blanco de 40 celdas vacías.">
 <tgroup cols="4"><thead>
 <row>
 <entry/>
@@ -597,7 +597,7 @@ La <link target-id="M05_ch03-tbl003"/> presenta una muestra aleatoria de 100 exc
 <m:mn>1</m:mn>
 <m:mn>3</m:mn>
 </m:mfrac>
-</m:math>.</para><table id="element-666" summary="---"><title>Elección de la puerta</title>
+</m:math>.</para><table id="element-666" summary="La tabla es una muestra de la capacidad de 60 estadios deportivos ordenada por el número máximo de espectadores. No se incluyen los estadios de carreras de caballos ni de automóviles."><title>Elección de la puerta</title>
 <tgroup cols="5"><thead>
 <row>
 <entry>Atrapado o no</entry>
@@ -701,7 +701,7 @@ La <link target-id="M05_ch03-tbl003"/> presenta una muestra aleatoria de 100 exc
 <problem id="id41669984">
 <para id="element-910">a. Rellene la tabla de contingencia de probabilidades. Calcule las entradas para los totales. Compruebe que la entrada de la esquina inferior derecha es 1.</para>
 </problem>
-<solution id="id41670004" print-placement="end"><para id="fs-idm19141920">a. <table id="element-6166" summary="Displayed is a contingency table showing all the entries for the Muddy Mouse problem."><title>Elección de la puerta</title>
+<solution id="id41670004" print-placement="end"><para id="fs-idm19141920">a. <table id="element-6166" summary="Se muestra una tabla de contingencia con todas las entradas del problema de Muddy Mouse."><title>Elección de la puerta</title>
 <tgroup cols="5"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -791,7 +791,7 @@ La <link target-id="M05_ch03-tbl003"/> presenta una muestra aleatoria de 100 exc
 </exercise>
 </example>
 <example id="fs-idm73418960">
-<para id="fs-idm37807440">La <link target-id="Ch03_M04_tbl007"/> contiene el número de delitos por cada 100.000 habitantes de 2008 a 2011 en EE. UU.</para><table id="Ch03_M04_tbl007" summary="United States Crime Index Rates Per 100,000 Inhabitants 2008 – 2011"><title>Índices de criminalidad en Estados Unidos por cada 100.000 habitantes de 2008 a 2011</title>
+<para id="fs-idm37807440">La <link target-id="Ch03_M04_tbl007"/> contiene el número de delitos por cada 100.000 habitantes de 2008 a 2011 en EE. UU.</para><table id="Ch03_M04_tbl007" summary="Índices de criminalidad en los Estados Unidos por cada 100.000 habitantes de 2008 a 2011"><title>Índices de criminalidad en Estados Unidos por cada 100.000 habitantes de 2008 a 2011</title>
 <tgroup cols="6">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -870,7 +870,7 @@ La <link target-id="M05_ch03-tbl003"/> presenta una muestra aleatoria de 100 exc
 <label/><title>Ejercicio</title>
 <exercise id="fs-idm30200592">
 <problem id="fs-idm54491920">
-<para id="fs-idm50410048">La <link target-id="M05_ch03-tbl009"/> relaciona los pesos y las alturas de un grupo de personas que participan en un estudio de observación.</para><table id="M05_ch03-tbl009" summary="---">
+<para id="fs-idm50410048">La <link target-id="M05_ch03-tbl009"/> relaciona los pesos y las alturas de un grupo de personas que participan en un estudio de observación.</para><table id="M05_ch03-tbl009" summary="Tabla de datos teóricos parcialmente rellenada. La primera columna indica el color (6 filas) y la segunda columna en blanco indica los valores de la cantidad.">
 <tgroup cols="5"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>

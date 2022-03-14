@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Medidas de la ubicación de los datos</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m53795</md:content-id>
@@ -128,7 +128,7 @@
 
 <example id="element-84">
 <para id="element-913">Se les preguntó a cincuenta estudiantes de Estadística cuánto dormían por noche de escuela (redondeado a la hora más cercana). Los resultados fueron:</para>
-<table id="id4431204" summary="This table presents the amount of sleep per school night in hours in the first column, from 4-10 hours, frequency in the second column, relative frequency in the third column, and cumulative relative frequency in the fourth column.">
+<table id="id4431204" summary="Esta tabla presenta la cantidad de sueño por noche escolar en horas en la primera columna, de 4 a 10 horas, la frecuencia en la segunda columna, la frecuencia relativa en la tercera y la frecuencia relativa acumulada en la cuarta.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -765,7 +765,7 @@ Contando desde el final de la lista hay tres valores de datos inferiores a 25. H
 </exercise>
 
 <exercise id="element-927"><problem id="id3483376">
-<para id="element-746">A seiscientos estadounidenses adultos se les preguntó mediante un sondeo telefónico: “¿Qué cree usted que constituye un ingreso de clase media?”. Los resultados están en la <link target-id="element-588"/>. Además, se incluye el extremo izquierdo, pero no el derecho.</para><table id="element-588" summary="This table presents the results from a poll on what Americans thought constituted middle class. The first column lists the salary and the second column lists the relative frequency. There are 8 rows.">
+<para id="element-746">A seiscientos estadounidenses adultos se les preguntó mediante un sondeo telefónico: “¿Qué cree usted que constituye un ingreso de clase media?”. Los resultados están en la <link target-id="element-588"/>. Además, se incluye el extremo izquierdo, pero no el derecho.</para><table id="element-588" summary="Esta tabla presenta los resultados de una encuesta sobre lo que los estadounidenses consideran que constituye la clase media. La primera columna indica el salario y la segunda la frecuencia relativa. Hay 8 filas.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <thead>

@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml">
+<document xmlns="http://cnx.rice.edu/cnxml">
   <title>Notación sigma y cálculo de la media aritmética</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m53799</md:content-id>
@@ -29,7 +29,7 @@
 <m:mi>n</m:mi>
 </m:munderover>
 <m:msub><m:mi>x</m:mi><m:mi>i</m:mi></m:msub>
-</m:math></equation></para><para id="eip-275">Esta unidad está aquí para recordarle el material que una vez estudió y en su momento dijo: “¡Estoy seguro de que nunca necesitaré esto!”.</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-21">Estas son las fórmulas de la media poblacional y de la media muestral. La letra griega μ es el símbolo de la media poblacional y <m:math><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:math> es el símbolo de la media muestral. Ambas fórmulas tienen un símbolo matemático que nos indica cómo hacer los cálculos. Se llama notación Sigma porque el símbolo es la letra griega mayúscula sigma: Σ. Como todos los símbolos matemáticos nos dice lo que hay que hacer: igual que el signo más nos dice que hay que sumar y la x nos dice que hay que multiplicar. Se denominan operadores matemáticos. El símbolo Σ nos dice que hay que añadir una lista específica de números. </para><para id="eip-489">Supongamos que tenemos una muestra de animales del refugio de animales local y nos interesa su edad promedio. Si enumeramos cada valor, u observación, en una columna, se puede dar a cada uno un número de índice. El primer número será el número 1 y el segundo el número 2 y así sucesivamente. </para><table id="eip-471" summary="A table with 11 rows and 2 columns. Animal with the age: 1-9; 2-1; 3-8.5; 4-10.5; 5-10; 6-8.5; 7-12; 8-8; 9-1; 10-9.5">
+</m:math></equation></para><para id="eip-275">Esta unidad está aquí para recordarle el material que una vez estudió y en su momento dijo: “¡Estoy seguro de que nunca necesitaré esto!”.</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-21">Estas son las fórmulas de la media poblacional y de la media muestral. La letra griega μ es el símbolo de la media poblacional y <m:math><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:math> es el símbolo de la media muestral. Ambas fórmulas tienen un símbolo matemático que nos indica cómo hacer los cálculos. Se llama notación Sigma porque el símbolo es la letra griega mayúscula sigma: Σ. Como todos los símbolos matemáticos nos dice lo que hay que hacer: igual que el signo más nos dice que hay que sumar y la x nos dice que hay que multiplicar. Se denominan operadores matemáticos. El símbolo Σ nos dice que hay que añadir una lista específica de números. </para><para id="eip-489">Supongamos que tenemos una muestra de animales del refugio de animales local y nos interesa su edad promedio. Si enumeramos cada valor, u observación, en una columna, se puede dar a cada uno un número de índice. El primer número será el número 1 y el segundo el número 2 y así sucesivamente. </para><table id="eip-471" summary="Una tabla con 11 filas y 2 columnas. Animal con la edad: 1-9; 2-1; 3-8,5; 4-10,5; 5-10; 6-8,5; 7-12; 8-8; 9-1; 10-9,5">
 <tgroup cols="2"><tbody>
   <row>
     <entry><emphasis>Animal</emphasis></entry>
@@ -86,7 +86,7 @@
 <section id="fs-idm379716000" class="practice"><exercise id="eip-51"><problem id="eip-707">
   <para id="eip-517">
     Un grupo de 10 niños están en una búsqueda del tesoro para encontrar rocas de diferentes colores. Los resultados se muestran en la <link target-id="eip-58"/>. La columna de la derecha muestra el número de colores de las piedras que tiene cada niño. ¿Cuál es el número medio de piedras?
-<table id="eip-58" summary=".">
+<table id="eip-58" summary=" ">
 <tgroup cols="2"><tbody>
   <row>
     <entry><emphasis>Niño</emphasis></entry>
@@ -460,7 +460,7 @@ Un equipo de fútbol anotó los siguientes puntos en sus primeros 8 partidos de 
 <item>¿Cuál es la mejora promedio?</item>
 <item>¿Importa si se restan las medias o si se restan los valores individuales?</item>
 </list>
-<table id="eip-222" summary="---">
+<table id="eip-222" summary="..">
 <tgroup cols="3"><tbody>
   <row>
     <entry><emphasis>Estudiante</emphasis></entry>

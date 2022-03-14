@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Función de Distribución de Probabilidad (PDF) para una variable aleatoria discreta</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m46963</md:content-id>
@@ -15,7 +15,7 @@
 </list><example id="example1">
 <para id="element-165">Un psicólogo infantil se interesa por el número de veces que el llanto de un recién nacido despierta a su madre después de la medianoche. Para una muestra aleatoria de 50 madres, se obtuvo la siguiente información. Supongamos que <emphasis effect="italics">X</emphasis> = el número de veces por semana que el llanto de un recién nacido despierta a su madre después de la medianoche. En este ejemplo, <emphasis effect="italics">x</emphasis> = 0, 1, 2, 3, 4, 5.</para>
 
-<para id="fs-idp70402976"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) = probabilidad de que <emphasis effect="italics">X</emphasis> tome un valor <emphasis effect="italics">x</emphasis>.</para><table id="M02_Ch04_tbl001" summary="PDF table for the the number of times a newborn wakes its mother after midnight and probabilities.">
+<para id="fs-idp70402976"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) = probabilidad de que <emphasis effect="italics">X</emphasis> tome un valor <emphasis effect="italics">x</emphasis>.</para><table id="M02_Ch04_tbl001" summary="Tabla PDF para el número de veces que un recién nacido despierta a su madre después de medianoche y las probabilidades.">
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -178,7 +178,7 @@
 <problem id="fs-idp103638368">
 <para id="fs-idp104932624">Un investigador de un hospital se interesa por el número de veces que el paciente promedio de posoperatorio llama al personal de enfermería durante un turno de 12 horas. Para una muestra aleatoria de 50 pacientes se obtuvo la siguiente información. Supongamos que <emphasis effect="italics">X</emphasis> = el número de veces que un paciente llama al personal de enfermería durante un turno de 12 horas. Para este ejercicio, <emphasis effect="italics">x</emphasis> = 0, 1, 2, 3, 4, 5. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) = la probabilidad de que <emphasis effect="italics">X</emphasis> tome el valor <emphasis effect="italics">x</emphasis>. ¿Por qué esta es una función de distribución de probabilidad discreta (dos razones)?</para>
 
-<table id="fs-idp71433824" summary="Exercise 1 Table">
+<table id="fs-idp71433824" summary="Tabla del ejercicio 1">
 <tgroup cols="2" align="center"><colspec colname="c1" colnum="1"/>
 <colspec colname="c2" colnum="2"/>
 <thead>
@@ -231,7 +231,7 @@
 <para id="eip-idp133021120">a. Supongamos que <emphasis effect="italics">X</emphasis> = el número de días que Nancy asiste a clase por semana<newline count="2"/></para>
   <para id="eip-idm11988624">b. 0, 1, 2 y 3<newline count="2"/></para>
   <para id="eip-idp146953184">c.
-  <table id="eip-idp64719200" summary="PDF table of the number of times Nancy attends class per week and probabilities.">
+  <table id="eip-idp64719200" summary="Tabla PDF del número de veces que Nancy asiste a clase por semana y las probabilidades.">
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -406,7 +406,7 @@
 <problem id="fs-idp98145520">
 <para id="fs-idp107988576">Construya una tabla de distribución de probabilidades para los datos.</para></problem>
 <solution id="fs-idp99205248">
-<table id="fs-idp25484752" summary="Table...">
+<table id="fs-idp25484752" summary="Tabla...">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <thead>
@@ -449,7 +449,7 @@
 <para id="fs-idp106732192">Construir una tabla de PDF.</para>
 </problem>
 <solution id="fs-idp9913600">
-<table id="fs-idm82394208" summary="Table...">
+<table id="fs-idm82394208" summary="Tabla...">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <thead><row><entry><emphasis effect="italics">x</emphasis></entry><entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry></row></thead>
@@ -488,7 +488,7 @@
 <problem id="fs-idp65369008">
   <para id="fs-idp99566944">Supongamos que la PDF del número de años que se tarda en obtener una licenciatura en ciencias (Bachelor of Science B.S.) se da en la <link target-id="M03_Ch04_tbl010" document=""/>.</para>
 
-<table id="M03_Ch04_tbl010" summary="Exercise 30 Table">
+<table id="M03_Ch04_tbl010" summary="Tabla del ejercicio 30">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <thead>

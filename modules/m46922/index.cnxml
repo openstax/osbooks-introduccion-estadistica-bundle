@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Medidas de la dispersión de los datos</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m46922</md:content-id>
@@ -241,7 +241,7 @@
 
 <para id="element-442">La varianza se puede calcular mediante una tabla. A continuación se calcula la desviación típica tomando la raíz cuadrada de la varianza. Explicaremos las partes de la tabla después de calcular <emphasis effect="italics">s</emphasis>.</para>
 
-<table id="element-978" summary="This table presents the formulas and calculations of various values. The first column has the data, second column has frequency, third column has deviations, fourth column has deviations squared, fifth column has frequency times deviations squared. There are 6 rows of values.">
+<table id="element-978" summary="Esta tabla presenta las fórmulas y los cálculos de varios valores. La primera columna tiene los datos, la segunda la frecuencia, la tercera las desviaciones, la cuarta las desviaciones al cuadrado y la quinta la frecuencia por las desviaciones al cuadrado. Hay 6 filas de valores.">
 <tgroup cols="5"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -493,7 +493,7 @@
 <item>El eje <emphasis effect="italics">x</emphasis> va de 32,5 a 100,5; el eje <emphasis effect="italics">y</emphasis> va de –2,4 a 15 en el histograma. El número de intervalos es cinco, por lo que la anchura de un intervalo es (100,5 – 32,5) dividida entre cinco, es igual a 13,6. Los puntos finales de los intervalos son los siguientes: el punto de partida es 32,5, 32,5 + 13,6 = 46,1, 46,1 + 13,6 = 59,7, 59,7 + 13,6 = 73,3, 73,3 + 13,6 = 86,9, 86,9 + 13,6 = 100,5 = el valor final; ningún valor de los datos cae en un límite de intervalo.</item></list><figure id="id6380826"><media id="id6380831" alt="Una imagen híbrida que muestra tanto un histograma como un diagrama de caja y bigotes descrito en detalle en la respuesta de la solución anterior.">
 <image src="../../media/fig-ch02_09_02.jpg" mime-type="image/jpg" width="350"/>
 </media></figure>
-<table id="id6947804" summary="This table presents the values listed above arranged with the data in the first column, frequency in the second column, relative frequency in the third column, and cumulative relative frequency in the fourth column.">
+<table id="id6947804" summary="Esta tabla presenta los valores anteriores ordenados con los datos en la primera columna, la frecuencia en la segunda columna, la frecuencia relativa en la tercera y la frecuencia relativa acumulada en la cuarta.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <colspec colnum="3" colname="c3"/>
@@ -783,7 +783,7 @@
 </m:math></item>
 <item>Compare los resultados de este cálculo.</item>
 </list><para id="eip-946">N.º de STDEV suele llamarse “puntuación <emphasis effect="italics">z</emphasis>”; podemos utilizar el símbolo <emphasis effect="italics">z</emphasis>. En símbolos, las fórmulas se convierten en:</para>
-<table id="eip-329" summary="The table shows the z-score formula.">
+<table id="eip-329" summary="La tabla muestra la fórmula de la puntuación z.">
 <tgroup cols="3"><tbody>
   <row>
     <entry>Muestra</entry>
@@ -834,7 +834,7 @@
 <problem id="id6380897">
 <para id="element-928">Dos estudiantes, John y Ali, de diferentes escuelas secundarias, querían averiguar quién tenía el mejor GPA en comparación con su escuela. ¿Cuál estudiante tiene el mejor GPA en comparación con su escuela?
 
-<table id="element-798" summary="This table provides two students and their GPAs. The first row represents John and the second row represents Ali. The first column lists students, second column lists GPA, third column lists school mean GPA, and the fourth column list the school standard deviation.">
+<table id="element-798" summary="Esta tabla muestra a dos estudiantes y sus promedios de calificaciones (Grade Point Average, GPA). La primera fila representa a John y la segunda a Ali. La primera columna contiene la lista de estudiantes, la segunda contiene el promedio de calificaciones, la tercera contiene la media del GPA de la escuela y la cuarta contiene la desviación típica de la escuela.">
 
 <tgroup cols="4"><thead>
   <row>
@@ -1268,7 +1268,7 @@
     <exercise id="exercisetwentyfive">
       <problem id="id8181927">
         <para id="prob_25">¿A cuántas desviaciones típicas de la media está la mediana?</para>
-        <para id="eip-4"><emphasis effect="italics">Información adicional:</emphasis> La población FTES para 2005-2006 hasta 2010-2011 se dio en un informe actualizado. Los datos se presentan aquí.</para><table id="eip-395" summary="This is a table of FTES for 2005-06 through 2010-2011.">
+        <para id="eip-4"><emphasis effect="italics">Información adicional:</emphasis> La población FTES para 2005-2006 hasta 2010-2011 se dio en un informe actualizado. Los datos se presentan aquí.</para><table id="eip-395" summary="Esta es una tabla de FTES de 2005-2006 a 2010-2011.">
           <tgroup cols="7">
             <tbody>
               <row>
@@ -1324,7 +1324,7 @@
   <exercise id="element-844">
 <problem id="id3734385">
 <para id="element-228">Tres estudiantes solicitaban el ingreso en la misma escuela de posgrado. Venían de escuelas con sistemas de calificación diferentes. ¿Cuál estudiante tiene el mejor GPA en comparación con otros estudiantes de su escuela? Explique cómo ha determinado su respuesta.</para>
-<table id="element-814" summary="This table presents three students and their GPAs. The first column lists the students, the second column lists the GPA, the third column lists the school average GPA, and the fourth column lists the school standard deviations. The first row represents Thuy, the second row represents Vichet, and the third row represents Kamala.">
+<table id="element-814" summary="Esta tabla presenta a tres estudiantes y sus GPA. La primera columna enumera los estudiantes, la segunda indica el GPA, la tercera indica el promedio de GPA de la escuela y la cuarta enumera las desviaciones típicas de la escuela. La primera fila representa a Thuy, la segunda a Vichet y la tercera a Kamala.">
 <tgroup cols="4">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1450,7 +1450,7 @@
 <exercise id="element-833">
 <problem id="id3776067">
 <para id="element-202">Se les preguntó a veinticinco estudiantes seleccionados al azar el número de películas que habían visto la semana anterior. Los resultados son los siguientes:</para>
-<table id="element-681" summary="The table presents the number of movies 25 students watched in the previous week. The first column lists the number of movies from 0-4, the second column lists the frequency with the values of 5, 9, 6, 4, 1, the third column is for relative frequency and is blank, and the fourth column is for cumulative relative frequency and is blank.">
+<table id="element-681" summary="La tabla presenta el número de películas que 25 estudiantes vieron la semana anterior. La primera columna enumera el número de películas de 0 a 4, la segunda enumera la frecuencia con los valores de 5, 9, 6, 4, 1, la tercera es para la frecuencia relativa y está en blanco y la cuarta es para la frecuencia relativa acumulada y está en blanco.">
 <tgroup cols="2"><thead>
  <row>
     <entry>N.º de películas</entry>
@@ -1499,7 +1499,7 @@
 
 <exercise id="element-976"><problem id="id6006371">
 <para id="element-567">Se preguntó a cuarenta estudiantes seleccionados al azar el número de pares de zapatillas que tenían. Supongamos que <emphasis effect="italics">X</emphasis> = el número de pares de zapatillas que tienen. Los resultados son los siguientes:</para>
-<table id="element-130" summary="The table presents the number of pairs of sneakers forty students own. The first column lists the number of pairs of sneakers owned from 0-7, the second column lists the frequency, the third column is relative frequency and is blank, and the fourth column is cumulative relative frequency and is blank.">
+<table id="element-130" summary="La tabla presenta el número de pares de zapatos deportivos que poseen cuarenta estudiantes. La primera columna indica el número de pares de zapatos deportivos que se poseen de 0 a 7, la segunda enumera la frecuencia, la tercera es la frecuencia relativa y está en blanco y la cuarta es la frecuencia relativa acumulada y está en blanco.">
 <tgroup cols="2"><thead>
 <row>
 <entry><emphasis effect="italics">X</emphasis></entry>
@@ -1663,7 +1663,7 @@
 <item>8628,74</item>
 <item>6943,88</item>
 <item>-0,09</item>
-</list></solution></exercise><para id="element-225"><newline/> <emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios.</emphasis> <emphasis effect="italics">X</emphasis> = el número de días a la semana que 100 clientes utilizan un determinado centro de ejercicio.</para><table id="element-813" summary="This table presents the number of days a week clients use a particular exercise facility. The first column lists the number of days from 0-6 and the second column lists the frequency.">
+</list></solution></exercise><para id="element-225"><newline/> <emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios.</emphasis> <emphasis effect="italics">X</emphasis> = el número de días a la semana que 100 clientes utilizan un determinado centro de ejercicio.</para><table id="element-813" summary="Esta tabla presenta el número de días a la semana que los clientes utilizan un determinado centro de ejercicios. La primera columna indica el número de días de 0 a 6 y la segunda la frecuencia.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <thead>
@@ -1726,7 +1726,7 @@
 
 <exercise id="eip-961">
 <problem id="eip-175">
-<para id="eip-902">Supongamos que una editorial realiza una encuesta en la que pregunta a consumidores adultos el número de libros de ficción de tapa blanda que compraron el mes anterior. Los resultados se resumen en la <link target-id="table23"/>.</para><table id="table23" summary="Publisher B is the table with number of books in the first column, from 0-5, 7, 9, frequency in the second column, and relative frequency in the third column which is blank.">
+<para id="eip-902">Supongamos que una editorial realiza una encuesta en la que pregunta a consumidores adultos el número de libros de ficción de tapa blanda que compraron el mes anterior. Los resultados se resumen en la <link target-id="table23"/>.</para><table id="table23" summary="La editorial B es la tabla con el número de libros en la primera columna, de 0 a 5, 7, 9, la frecuencia en la segunda columna y la frecuencia relativa en la tercera columna que está en blanco.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>

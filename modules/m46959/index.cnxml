@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Media o valor esperado y desviación típica</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m46959</md:content-id>
@@ -20,7 +20,7 @@
 
 <para id="element-126">Para resolver el problema, primero dejemos la variable aleatoria <emphasis effect="italics">X</emphasis> = el número de días que el equipo de fútbol masculino juega al fútbol por semana. <emphasis effect="italics">X</emphasis> toma los valores 0, 1, 2 Construya una tabla PDF añadiendo una columna <emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>). En esta columna, multiplicará cada valor de <emphasis effect="italics">x</emphasis> por su probabilidad.</para>
 
-<table id="element-749" summary="The PDF table contains the number of days a men's soccer team plays soccer per week and thir probabilities."><title>Tabla de valores esperados Esta tabla se denomina tabla de valores esperados. La tabla le ayuda a calcular el valor esperado o promedio a largo plazo.</title>
+<table id="element-749" summary="La tabla PDF contiene el número de días que un equipo de fútbol masculino juega fútbol por semana y sus probabilidades."><title>Tabla de valores esperados Esta tabla se denomina tabla de valores esperados. La tabla le ayuda a calcular el valor esperado o promedio a largo plazo.</title>
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -55,7 +55,7 @@
 <example id="fs-idm82770544">
 <para id="fs-idm122112">Calcule el valor esperado del número de veces que el llanto de un recién nacido despierta a su madre después de medianoche. El valor esperado es el número de veces por semana que el llanto de un recién nacido despierta a su madre después de medianoche. Calcule también la desviación típica de la variable.
 
-<table id="element-740" summary="The PDF table contains the number of times a newborn wakes its mother after midnight, their probabilities and a column for each number multiplied by its probability."><title>Se espera que un recién nacido despierte a su madre después de la medianoche 2,1 veces a la semana, en promedio.</title>
+<table id="element-740" summary="La tabla PDF contiene el número de veces que un recién nacido despierta a su madre después de medianoche, sus probabilidades y una columna para cada número multiplicado por su probabilidad."><title>Se espera que un recién nacido despierte a su madre después de la medianoche 2,1 veces a la semana, en promedio.</title>
 <tgroup cols="4"><thead>
   <row>
     <entry><emphasis effect="italics">x</emphasis></entry>
@@ -345,7 +345,7 @@
 <exercise id="fs-idm131173600">
 <problem id="fs-idm112686784">
 <para id="fs-idm86997008">Un investigador de un hospital se interesa por el número de veces que el paciente promedio de posoperatorio llama al personal de enfermería durante un turno de 12 horas. Para una muestra aleatoria de 50 pacientes se obtuvo la siguiente información. ¿Cuál es el valor esperado?</para>
-<table id="fs-idm56815952" summary="The number of times the average post-op patient will ring the nurse during a 12-hour shift">
+<table id="fs-idm56815952" summary="El número de veces que el paciente posoperatorio promedio llamará al enfermero durante un turno de 12 horas">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <thead>
@@ -518,7 +518,7 @@
 
 <para id="element-839">La tabla de valores esperados es la siguiente:</para>
 
-<table id="element-480" summary="In the table, to find the expected value, add the last column."><title>Sume la última columna. –1,99998 + 1 = –0,99998</title>
+<table id="element-480" summary="En la tabla, para hallar el valor esperado, hay que sumar la última columna."><title>Sume la última columna. –1,99998 + 1 = –0,99998</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -572,7 +572,7 @@
 <exercise id="element-193">
 <problem id="id14631763">
 <para id="element-653">a. Defina una variable aleatoria <emphasis effect="italics">X</emphasis>.</para>
-<para id="element-597">b. Rellene la siguiente tabla de valores esperados.</para><table id="element-644" summary="Problem 2 Table">
+<para id="element-597">b. Rellene la siguiente tabla de valores esperados.</para><table id="element-644" summary="Tabla del problema 2">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -607,7 +607,7 @@
 <solution id="id14631784">
   <para id="element-548">a. <emphasis effect="italics">X</emphasis> = monto de la ganancia</para>
   <para id="fs-idm44109456">b.
-<table id="element-644s" summary="In the PDF table, the outcomes (money you win or lose) of a game played with a biased coin are recorded. There is a column to record the probability and a column to record the outcome multiplied by its probability.">
+<table id="element-644s" summary="En la tabla PDF se registran los resultados (el dinero que se gana o se pierde) de una partida jugada con una moneda truncada. Hay una columna para registrar la probabilidad y otra para registrar el resultado multiplicado por su probabilidad.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -672,7 +672,7 @@
 
  </m:mrow>
 </m:math>. Si cae en rojo, paga 10 dólares. Si cae en azul, no paga ni gana nada. Si cae en verde, gana 10 dólares. Rellene la siguiente tabla de valores esperados.</para>
-<table id="fs-idm71508016" summary="Exercise 3 Table 1">
+<table id="fs-idm71508016" summary="Tabla 1 del ejercicio 3">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -729,7 +729,7 @@
 </table></problem>
 </exercise></note><para id="element-903">Al igual que los datos, las distribuciones de probabilidad tienen desviaciones típicas. Para calcular la desviación típica<emphasis effect="italics">(σ</emphasis>) de una distribución de probabilidad, halle cada desviación de su valor esperado, elévela al cuadrado, multiplíquela por su probabilidad, sume los productos y calcule la raíz cuadrada. Para entender cómo hacer el cálculo, observe la tabla del número de días por semana que un equipo de fútbol masculino juega al fútbol. Para calcular la desviación típica, sume las entradas de la columna marcada como (<emphasis effect="italics">x</emphasis> – <emphasis effect="italics">μ</emphasis>)<sup>2</sup><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) y calcule la raíz cuadrada.
 
-<table id="element-226" summary="PDF table with the added columns for expected value and variance.">
+<table id="element-226" summary="Tabla PDF con las columnas añadidas para el valor esperado y la varianza.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -799,7 +799,7 @@
 </table>
 
 <para id="fs-idm130208640">Utilice el espacio muestral para completar la siguiente tabla:</para>
-<table id="fs-idp385088" summary="Calculating"><title>Cálculo de <emphasis effect="italics">μ</emphasis> y <emphasis effect="italics">σ</emphasis>.</title>
+<table id="fs-idp385088" summary="Calcular"><title>Cálculo de <emphasis effect="italics">μ</emphasis> y <emphasis effect="italics">σ</emphasis>.</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1132,7 +1132,7 @@
 
 <exercise id="fs-idp39629888"><problem id="fs-idm40222912">
 <para id="fs-idm134246528">Calcule la desviación típica.</para>
-<table id="fs-idm133091552" summary="table of standard deviation">
+<table id="fs-idm133091552" summary="tabla de la desviación típica">
 <tgroup cols="4">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1311,7 +1311,7 @@
 <exercise id="fs-idp129333088">
 <problem id="fs-idm75363680">
 <para id="fs-idp78893136">Complete la <link target-id="M02_Ch04_tbl021" document=""/> con los datos proporcionados.</para>
-<table id="M02_Ch04_tbl021" summary="PDF table for the number of years a student will study ballet with the teacher. It contains columns for the number of years and their probabilities with third column for each number multiplied by its probability.">
+<table id="M02_Ch04_tbl021" summary="Tabla PDF para el número de años que un estudiante estudiará ballet con el maestro. Contiene columnas para el número de años y sus probabilidades con una tercera columna para cada número multiplicado por su probabilidad.">
 <tgroup cols="3">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1548,7 +1548,7 @@
 <solution id="eip-id1164886786848">
   <para id="eip-id1164900324701">La variable de interés es <emphasis effect="italics">X</emphasis>, es decir, la ganancia o pérdida, en dólares.</para><para id="eip-id1164893101611">Las cartas de figura sota, reina y rey. Hay (3)(4) = 12 cartas de figura y 52 - 12 = 40 cartas que no son de figura.</para><para id="eip-id1164889621862">Primero tenemos que construir la distribución de probabilidad para <emphasis effect="italics">X</emphasis>. Utilizamos los eventos de la tarjeta y la moneda para determinar la probabilidad de cada resultado, pero utilizamos el valor monetario de <emphasis effect="italics">X</emphasis> para determinar el valor esperado.</para>
 
-<table id="eip-id1164878717794" summary="Table..">
+<table id="eip-id1164878717794" summary="Tabla..">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -2193,7 +2193,7 @@
 </solution>
 </exercise><exercise id="fs-idp126182336"><problem id="fs-idp126182592">
 <para id="fs-idp126182848">Las personas que acuden a los videoclubs suelen alquilar más de un DVD a la vez. En la siguiente tabla se da la distribución de probabilidad de los alquileres de DVD por cliente en Video To Go. En esta tienda hay un límite de cinco videos por cliente, por lo que nadie alquila nunca más de cinco DVD.</para>
-<table id="fs-idp126183520" summary=".">
+<table id="fs-idp126183520" summary=" ">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <thead><row>

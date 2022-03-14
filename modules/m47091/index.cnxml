@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>Prueba de homogeneidad</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -17,7 +17,7 @@
 <example id="eip-101"><exercise id="eip-790">
 <problem id="eip-886">
 <para id="eip-520">¿Los estudiantes de institutos universitarios hombres y mujeres tienen la misma distribución en cuanto a viviendas? Utilice un nivel de significación de 0,05. Supongamos que se les pregunta a 250 estudiantes universitarios y a 300 estudiantes universitarias seleccionados al azar por su tipo de vivienda: residencia universitaria, apartamento, con los padres, otra. Los resultados se muestran en la <link target-id="eip-924"/>. ¿Los estudiantes de institutos universitarios hombres y mujeres tienen la misma distribución en cuanto a viviendas?</para>
-<table id="eip-924" summary="The table contains the distribution of living conditions for college males and college females. First row: Males 72 Dorm; 84 Apt.; 49 Parents; 45 Other; Second row: Females, 91 Dorm; 86 Apt.; 88 Parents; 35 Other;">
+<table id="eip-924" summary="La tabla contiene la distribución de las condiciones de vida de hombres y mujeres universitarios. Primera fila: hombres: 72 en dormitorios, 84 en apartamentos, 49 con los padres, 45 en otros; segunda fila: mujeres: 91 en dormitorios, 86 en apartamentos, 88 con los padres, 35 en otros.">
 <title>Distribución de la situación de vivienda de hombres y mujeres universitarios</title>
 <tgroup cols="5"><tbody>
   <row>
@@ -88,7 +88,7 @@
 </exercise>
 </note><example id="eip-151"><exercise id="eip-692"><problem id="eip-44">
 <para id="eip-558">Tanto antes como después de un reciente terremoto, se realizaron encuestas en las que se preguntaba a los votantes por cuál de los tres candidatos pensaban votar en las próximas elecciones al ayuntamiento. ¿Hubo algún cambio después del terremoto? Utilice un nivel de significación de 0,05. La <link target-id="eip-422"/> muestra los resultados de la encuesta. ¿Ha habido un cambio en la distribución de las preferencias de los votantes desde el terremoto?</para>
-<table id="eip-422" summary="The table contains the number of votes 3 candidates (Perez, Chung, Stevens) could receive before and after an earthquake from a survey. First row: 167; 128; 135; Second row: 214; 197; 225;">
+<table id="eip-422" summary="La tabla contiene el número de votos que podrían recibir 3 candidatos (Pérez, Chung y Stevens) antes y después de un terremoto a partir de una encuesta. Primera fila: 167; 128; 135; segunda fila: 214; 197; 225.">
 <tgroup cols="4"><tbody>
   <row>
     <entry/>
@@ -242,7 +242,7 @@
 <title>Tarea para la casa</title>
   <para id="fs-idm2453104"><emphasis effect="italics">Para cada problema de palabras use una hoja de soluciones para resolver el problema de la prueba de hipótesis. Vaya al <link document="m47882">E - HOJAS DE SOLUCIONES</link> para ver la hoja de soluciones de chi-cuadrado. Redondee la frecuencia esperada a dos decimales.</emphasis></para><exercise id="eip-533"><problem id="eip-715">
     <para id="eip-637">Un psicólogo está interesado en comprobar si existe una diferencia en la distribución de los tipos de personalidad de los estudiantes de Negocios y de Ciencias Sociales. Los resultados del estudio se muestran en la <link target-id="eip-280"/>. Realice una prueba de homogeneidad. Pruebe con un nivel de significación del 5 %.</para>
-<table id="eip-280" summary="The table presents personality types along the top from columns 2-6 and major (business and social science) in the first column. There are 3 rows."> <tgroup cols="6"><tbody> <row><entry/> <entry><emphasis>Abierto</emphasis></entry> <entry><emphasis>Meticuloso</emphasis></entry> <entry><emphasis>Extrovertido</emphasis></entry> <entry><emphasis>Agradable</emphasis></entry> <entry><emphasis>Neurótico</emphasis></entry> </row> <row> <entry><emphasis>Negocios</emphasis></entry> <entry>41</entry> <entry>52</entry> <entry>46</entry> <entry>61</entry> <entry>58</entry> </row> <row> <entry><emphasis>Ciencias Sociales</emphasis></entry> <entry>72</entry> <entry>75</entry> <entry>63</entry> <entry>80</entry> <entry>65</entry> </row> </tbody> </tgroup> </table>
+<table id="eip-280" summary="La tabla presenta los tipos de personalidad a lo largo de la parte superior de las columnas de la 2 a la 6 y la especialidad (negocios y ciencias sociales) en la primera columna. Hay 3 filas."> <tgroup cols="6"><tbody> <row><entry/> <entry><emphasis>Abierto</emphasis></entry> <entry><emphasis>Meticuloso</emphasis></entry> <entry><emphasis>Extrovertido</emphasis></entry> <entry><emphasis>Agradable</emphasis></entry> <entry><emphasis>Neurótico</emphasis></entry> </row> <row> <entry><emphasis>Negocios</emphasis></entry> <entry>41</entry> <entry>52</entry> <entry>46</entry> <entry>61</entry> <entry>58</entry> </row> <row> <entry><emphasis>Ciencias Sociales</emphasis></entry> <entry>72</entry> <entry>75</entry> <entry>63</entry> <entry>80</entry> <entry>65</entry> </row> </tbody> </tgroup> </table>
 </problem>
 <solution id="eip-667">
   <list id="fs-idp8692528" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: La distribución de los tipos de personalidad es la misma para ambas especialidades.</item>
@@ -263,7 +263,7 @@
   </list></solution>
 </exercise><exercise id="eip-302"><problem id="eip-252">
   <para id="eip-617">¿Los hombres y las mujeres seleccionan desayunos diferentes? Los desayunos pedidos por hombres y mujeres seleccionados al azar en un lugar popular de desayunos se muestran en la <link target-id="eip-id1167950422174"/>. Realice una prueba de homogeneidad con un nivel de significación del 5 %. 
-  <table id="eip-id1167950422174" summary="The table presents personality types along the top from columns 2-6 and major (business and social science) in the first column. There are 3 rows."><tgroup cols="5"> <tbody> <row> <entry/> <entry><emphasis>Tostadas francesas</emphasis></entry> <entry><emphasis>Panqueques</emphasis></entry> <entry><emphasis>Waffles</emphasis></entry> <entry><emphasis>Tortillas</emphasis></entry> </row> <row> <entry><emphasis>Hombres</emphasis></entry> <entry>47</entry> <entry>35</entry> <entry>28</entry> <entry>53</entry> </row> <row> <entry><emphasis>Mujeres</emphasis></entry> <entry>65</entry> <entry>59</entry> <entry>55</entry> <entry>60</entry> </row> </tbody> </tgroup> </table> </para></problem>
+  <table id="eip-id1167950422174" summary="La tabla presenta los tipos de personalidad a lo largo de la parte superior de las columnas de la 2 a la 6 y la especialidad (negocios y ciencias sociales) en la primera columna. Hay 3 filas."><tgroup cols="5"> <tbody> <row> <entry/> <entry><emphasis>Tostadas francesas</emphasis></entry> <entry><emphasis>Panqueques</emphasis></entry> <entry><emphasis>Waffles</emphasis></entry> <entry><emphasis>Tortillas</emphasis></entry> </row> <row> <entry><emphasis>Hombres</emphasis></entry> <entry>47</entry> <entry>35</entry> <entry>28</entry> <entry>53</entry> </row> <row> <entry><emphasis>Mujeres</emphasis></entry> <entry>65</entry> <entry>59</entry> <entry>55</entry> <entry>60</entry> </row> </tbody> </tgroup> </table> </para></problem>
 </exercise><exercise id="eip-561">
   <problem id="eip-737">
 <para id="eip-224">Un pescador está interesado en saber si la distribución de los peces capturados en el lago Green Valley es la misma que la de los peces capturados en el lago Echo. De los 191 peces capturados al azar en el lago Green Valley, 105 eran truchas arco iris, 27 otras truchas, 35 lubinas y 24 bagres. De los 293 peces capturados al azar en el lago Echo, 115 eran truchas arco iris, 58 otras truchas, 67 lubinas y 53 bagres. Realice una prueba de homogeneidad con un nivel de significación del 5 %.</para></problem>

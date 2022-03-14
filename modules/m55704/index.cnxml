@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Datos sobre la distribución F</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m55704</md:content-id>
@@ -299,7 +299,7 @@ Este
 <section id="fs-idp159138080" class="free-response"><title>Tarea para la casa</title><exercise id="element-240">
 <problem id="id19304316">
 <para id="element-106">Tres estudiantes, Linda, Tuan y Javier, reciben cinco ratas de laboratorio cada uno para un experimento nutricional. El peso de cada rata se registra en gramos. Linda alimenta sus ratas con la fórmula A, Tuan alimenta las suyas con la fórmula B y Javier con la fórmula C. Al final de un periodo determinado se pesa de nuevo cada rata y se registra el aumento neto en gramos. Use un nivel de significación del 10 % y pruebe la hipótesis de que las tres fórmulas producen el mismo aumento de peso medio.</para>
-<para id="element-800"><table id="id348a5492" summary="This table presents the net weight in grams of each rat with Linda's rats in the first column, Tuan's rats in the second column, and Javier's rats in the third column."><title>Peso de las ratas de laboratorio de los estudiantes</title>
+<para id="element-800"><table id="id348a5492" summary="Esta tabla presenta el peso neto en gramos de cada rata con las ratas de Linda en la primera columna, las de Tuan en la segunda y las de Javier en la tercera."><title>Peso de las ratas de laboratorio de los estudiantes</title>
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -356,7 +356,7 @@ Este
 <exercise id="element-60"><problem id="id18508281">
 <para id="element-987">Un grupo de base que se opone a la propuesta de aumentar el impuesto sobre la gasolina afirma que el aumento perjudicaría sobre todo a la clase trabajadora, ya que es la que se desplaza más lejos para ir a trabajar. Supongamos que el grupo encuestó aleatoriamente a 24 personas y les preguntó cuál es su millaje diario en un solo sentido. Los resultados están en la <link target-id="idgh7333173"/>.  Use un nivel de significación del 5 % y pruebe la hipótesis de que las tres medias de las millas de desplazamiento son iguales.</para>
 <para id="element-719">
-<table id="idgh7333173" summary=".">
+<table id="idgh7333173" summary="">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -417,7 +417,7 @@ Este
 
 <para id="element-333"><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios.</emphasis> La <link target-id="id7236751"/> recopila el número de páginas de cuatro tipos diferentes de revistas.</para>
 
-<table id="id7236751" summary="This table presents the number of pages in some types of magazines with home decorating in the first column, news in the second column, health in the third column, and computer in the fourth column.">
+<table id="id7236751" summary="Esta tabla presenta el número de páginas de algunos tipos de revistas con decoración del hogar en la primera columna, noticias en la segunda, salud en la tercera e informática en la cuarta.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -495,7 +495,7 @@ Este
 <exercise id="eip-431"><problem id="eip-515">
 <para id="eip-629">Un investigador quiere saber si los tiempos medios (en minutos) que las personas ven su canal de noticias favorito son iguales. Supongamos que la <link target-id="eip-id2754369"/> muestra los resultados de un estudio.</para>
 
-<table id="eip-id2754369" summary="The Table consists of 3 columns: CNN, Fox and Local. The table entries are the mean time, in minutes, that people watch their favorite news station on CNN, Fox or the local station.">
+<table id="eip-id2754369" summary="La tabla consta de 3 columnas: CNN, Fox y local. Las entradas de la tabla son el tiempo medio, en minutos, que la gente ve su estación de noticias favorita: CNN, Fox o la estación local.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -543,7 +543,7 @@ Este
 </table><para id="fs-idm8691760">Supongamos que todas las distribuciones son normales, que las cuatro desviaciones típicas de la población son aproximadamente iguales y que los datos se recogieron de forma independiente y aleatoria. Utilice un nivel de significación de 0,05.</para>
 </problem></exercise><exercise id="eip-1000"><problem id="eip-311">
 <para id="eip-13">¿Las medias de los exámenes finales son iguales para todos los tipos de clases de Estadística? La <link target-id="eip-id1164473001430"/> muestra las calificaciones de los exámenes finales de varias clases seleccionadas al azar que utilizaron los diferentes tipos de entrega.</para>
-<table id="eip-id1164473001430" summary="The Table consists of 3 columns: Online, Hybrid and Face-to-Face. The table entries are the mean scores on the final exam for Online, Hybrid and Face-to-Face delivery types for statistics.">
+<table id="eip-id1164473001430" summary="La tabla consta de 3 columnas: En línea, híbrida y presencial. Las entradas de la tabla son las calificaciones medias en el examen final para los tipos de entrega en línea, híbrida y presencial para Estadística.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -612,7 +612,7 @@ Este
 </list></item>
 </list>
 </solution></exercise><exercise id="fs-idm81211824"><problem id="fs-idm81211696">
-<para id="fs-idm81211440">¿El número medio de veces al mes que una persona come fuera es el mismo para personas blancas, negras, hispanas y asiáticas? Supongamos que la <link target-id="fs-idm13269984"/> muestra los resultados de un estudio.</para><table id="fs-idm13269984" summary="The Table consists of 4 columns: White, Black, Hispanic and Asian. The table entries are the mean number of times a month that people who are White, Black, Hispanic and Asian eat out.">
+<para id="fs-idm81211440">¿El número medio de veces al mes que una persona come fuera es el mismo para personas blancas, negras, hispanas y asiáticas? Supongamos que la <link target-id="fs-idm13269984"/> muestra los resultados de un estudio.</para><table id="fs-idm13269984" summary="La tabla consta de 4 columnas: Blanco, negro, hispano y asiático. Las entradas de la tabla son el número medio de veces al mes que personas blancas, negras, hispanas y asiáticas comen fuera de casa.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -666,7 +666,7 @@ Este
 </problem></exercise><exercise id="fs-idp113565584"><problem id="fs-idp113565712">
 <para id="fs-idp113565968">¿Los números medios de visitantes diarios a una estación de esquí son iguales para los tres tipos de condiciones de nieve? Supongamos que la <link target-id="fs-idp109843184"/> muestra los resultados de un estudio.</para>
 
-<table id="fs-idp109843184" summary="The Table consists of 3 columns with snow conditions Powder, Machine Made and Hard Packed. The table entries are the mean number of visitors to a ski resort for the 3 types of snow conditions.">
+<table id="fs-idp109843184" summary="La tabla consta de 3 columnas con las condiciones de nieve en polvo, hecha a máquina y comprimida. Las entradas de la tabla son el número medio de visitantes a una estación de esquí para los 3 tipos de condiciones de nieve.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>

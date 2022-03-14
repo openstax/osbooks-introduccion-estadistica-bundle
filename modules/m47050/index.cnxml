@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 <title>Medias de dos poblaciones con desviaciones típicas desconocidas</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m47050</md:content-id>
@@ -370,7 +370,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
 <title>Grupos independientes</title>
   <para id="element-687">Se cree que el promedio de tiempo que los niños y niñas de entre siete y once años practican deportes cada día es la misma. Se hace un estudio y se recopilan datos, lo que da como resultado los datos en la <link target-id="uid888"/>. Cada población tiene una distribución normal.</para>
 
-<table id="uid888" summary="This table presents the sample size in the second column, average hours a day in the third column, and the sample standard deviation in the fourth column. The first row is for girls and the second row is for boys.">
+<table id="uid888" summary="Esta tabla presenta el tamaño de la muestra en la segunda columna, el promedio de horas diarias en la tercera columna y la desviación típica de la muestra en la cuarta columna. La primera fila es para las niñas y la segunda fila para los niños.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1792,7 +1792,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
 <exercise id="fs-idm39083984">
 <problem id="fs-idm39083728">
 <para id="fs-idm53880736">En la fiesta del 11.<sup>º</sup> cumpleaños de Rachel se cronometró el tiempo (en segundos) que ocho niñas podían aguantar la respiración en posición relajada. Tras un descanso de dos minutos, se cronometraron mientras saltaban. Las niñas pensaron que la diferencia media entre sus tiempos de salto y de relajación sería cero. Compruebe su hipótesis.</para>
-<table id="fs-idm53880480" summary="The table presents the first column as the relaxed time in seconds and the second column as the jumping time in seconds.">
+<table id="fs-idm53880480" summary="La tabla presenta la primera columna como el tiempo de relajación en segundos y la segunda columna como el tiempo de salto en segundos.">
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1971,7 +1971,7 @@ La prueba que compara dos medias poblacionales independientes con desviaciones t
 
   <para id="eip-566"><emphasis effect="italics">Utilice la siguiente información para responder los dos ejercicios siguientes.</emphasis> Las conferencias Este y Oeste de la Liga Mayor de Fútbol cuentan con una nueva división de reserva que permite a los nuevos jugadores desarrollar sus habilidades. Los datos de una fecha elegida al azar mostraron los siguientes objetivos anuales.</para>
 
-<table id="eip-843" summary="Eastern and Western Major League Soccer">
+<table id="eip-843" summary="Liga mayor de fútbol del este y del oeste">
 
 
 <tgroup cols="2">

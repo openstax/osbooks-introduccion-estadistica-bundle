@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Niveles de medición</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m54038</md:content-id>
@@ -14,7 +14,7 @@
 <item><emphasis>Nivel de escala de cociente</emphasis></item></list><para id="eip-925">Los datos que se miden mediante una <term id="term-00002">escala nominal</term> son <emphasis>cualitativos (categóricos)</emphasis>. Categorías, colores, nombres, etiquetas y alimentos favoritos junto con las respuestas de sí o no son ejemplos de datos de nivel nominal. Los datos de escala nominal no están ordenados. Por ejemplo, intentar clasificar a las personas según su comida favorita no tiene ningún sentido. Poner la pizza en primer lugar y el sushi en segundo no tiene sentido.</para><para id="eip-817">Las compañías de teléfonos inteligentes son otro ejemplo de datos de escala nominal. Los datos son los nombres de las compañías que fabrican teléfonos inteligentes, pero no hay un orden consensuado de estas marcas, aunque la gente pueda tener preferencias personales. Los datos de escala nominal no se pueden usar en cálculos.</para><para id="eip-369">Los datos que se miden con una <term id="term-00003">escala ordinal</term> son similares a los datos de la escala nominal, pero hay una gran diferencia. Los datos de la escala ordinal se pueden ordenar. Un ejemplo de datos de escala ordinal es una lista de los cinco mejores parques nacionales de Estados Unidos. Los cinco principales parques nacionales de Estados Unidos se pueden clasificar del uno al cinco, pero no podemos medir las diferencias entre los datos.</para><para id="eip-289">Otro ejemplo de uso de la escala ordinal es una encuesta sobre un crucero en la que las respuestas son “excelente”, “bueno”, “satisfactorio” e “insatisfactorio”. Estas respuestas están ordenadas de la respuesta más deseada a la menos deseada. Pero las diferencias entre dos datos no se pueden medir. Al igual que los datos de la escala nominal, los datos de la escala ordinal no se pueden usar en cálculos.</para><para id="eip-158">Los datos que se miden con la <term id="term-00004">escala de intervalos</term> son similares a los datos de nivel ordinal porque tienen un orden definido, pero hay una diferencia entre los datos. Las diferencias entre los datos de la escala de intervalos se pueden medir aunque los datos no tengan un punto de partida.</para><para id="eip-134">Las escalas de temperatura como Celsius (C) y Fahrenheit (F) se miden utilizando la escala de intervalos. En ambas medidas de temperatura, 40° es igual a 100° menos 60°. Las diferencias tienen sentido. Pero los 0 grados no porque, en ambas escalas, el 0 no es la temperatura mínima absoluta. Existen temperaturas como –10 °F y –15 °C que son más frías que el 0.</para><para id="eip-435">Los datos a nivel de intervalo pueden utilizarse en cálculos, pero no se puede hacer un tipo de comparación. 80 °C no es cuatro veces más caliente que 20 °C (ni 80 °F es cuatro veces más caliente que 20 °F). El cociente de 80 a 20 (o de cuatro a uno) no tiene sentido.</para><para id="eip-558">Los datos que se miden con la <term id="term-00005">escala de cociente</term> se encargan del problema de las proporciones y ofrecen más información. Los datos de la escala de cociente son como los datos de la escala de intervalos, pero tienen un punto 0 y se pueden calcular cocientes. Por ejemplo, las calificaciones de cuatro exámenes finales de Estadística de opción múltiple son 80, 68, 20 y 92 (sobre 100 puntos posibles). Los exámenes son calificados por máquina.</para><para id="eip-53">Los datos se pueden ordenar de menor a mayor: 20, 68, 80, 92.</para><para id="eip-750">Las diferencias entre los datos tienen un significado. La calificación de 92 es superior a la de 68 por 24 puntos. Se pueden calcular cocientes. La calificación más baja es 0. Así que 80 es cuatro veces 20. La calificación de 80 es cuatro veces mejor que la de 20.</para></section><section id="eip-959"><title>Frecuencia</title><para id="id7489802">Se les preguntó a veinte estudiantes cuántas horas trabajaban al día. Sus respuestas, en horas, son las siguientes: <list id="set-element-244" list-type="labeled-item" display="inline"><item>5</item><item>6</item><item>3</item><item>3</item><item>2</item><item>4</item><item>7</item><item>5</item><item>2</item><item>3</item><item>5</item><item>6</item><item>5</item><item>4</item><item>4</item><item>3</item><item>5</item><item>2</item><item>5</item><item>3</item></list>.</para><para id="id9267444">La <link target-id="id10383738" document=""/> enumera los diferentes valores de los datos en orden ascendente y sus frecuencias. </para>
 
 
-<table id="id10383738" summary="This table presents the values provided in the previously given data set in the first column, and the frequency of each value in the second column."><title>Tabla de frecuencias de las horas de trabajo de los estudiantes</title>
+<table id="id10383738" summary="Esta tabla presenta los valores proporcionados en el conjunto de datos previamente dado en la primera columna y la frecuencia de cada valor en la segunda."><title>Tabla de frecuencias de las horas de trabajo de los estudiantes</title>
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
           <thead>
@@ -52,7 +52,7 @@
 
 
 </tgroup>
-</table><para id="element-118">Una <term id="term-00006">frecuencia</term> es el número de veces que se produce un valor de los datos. Según la <link target-id="id10383738" document=""/>, hay tres estudiantes que trabajan dos horas, cinco estudiantes que trabajan tres horas y así sucesivamente. La suma de los valores de la columna de frecuencia, 20, representa el número total de estudiantes incluidos en la muestra.</para><para id="id8007492">Una <term id="term-00007">frecuencia relativa</term> es el cociente (fracción o proporción) entre el número de veces que se produce un valor de los datos en el conjunto de todos los resultados y el número total de resultados. Para hallar las frecuencias relativas, divida cada frecuencia entre el número total de estudiantes de la muestra, en este caso, 20. Las frecuencias relativas se pueden escribir como fracciones, porcentajes o decimales.</para><table id="id11177380" summary="Frequency Table of Student Work Hours with Relative Frequencies"><title>Tabla de frecuencias de las horas de trabajo de los estudiantes con frecuencias relativas</title>
+</table><para id="element-118">Una <term id="term-00006">frecuencia</term> es el número de veces que se produce un valor de los datos. Según la <link target-id="id10383738" document=""/>, hay tres estudiantes que trabajan dos horas, cinco estudiantes que trabajan tres horas y así sucesivamente. La suma de los valores de la columna de frecuencia, 20, representa el número total de estudiantes incluidos en la muestra.</para><para id="id8007492">Una <term id="term-00007">frecuencia relativa</term> es el cociente (fracción o proporción) entre el número de veces que se produce un valor de los datos en el conjunto de todos los resultados y el número total de resultados. Para hallar las frecuencias relativas, divida cada frecuencia entre el número total de estudiantes de la muestra, en este caso, 20. Las frecuencias relativas se pueden escribir como fracciones, porcentajes o decimales.</para><table id="id11177380" summary="Tabla de frecuencias de las horas de trabajo de los estudiantes con frecuencias relativas"><title>Tabla de frecuencias de las horas de trabajo de los estudiantes con frecuencias relativas</title>
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -170,7 +170,7 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math>, o 1.</para><para id="id7575466">La <term id="term-00008">frecuencia relativa acumulada</term> es la acumulación de las frecuencias relativas anteriores. Para hallar las frecuencias relativas acumuladas se suman todas las frecuencias relativas anteriores a la frecuencia relativa de la fila actual, como se muestra en la <link target-id="id10564302" document=""/>.</para><table id="id10564302" summary="Table shows data, frequency, relative frequency and cumulative relative frequency."><title>Tabla de frecuencias de las horas de trabajo de los estudiantes con frecuencias relativas y acumuladas</title>
+</m:math>, o 1.</para><para id="id7575466">La <term id="term-00008">frecuencia relativa acumulada</term> es la acumulación de las frecuencias relativas anteriores. Para hallar las frecuencias relativas acumuladas se suman todas las frecuencias relativas anteriores a la frecuencia relativa de la fila actual, como se muestra en la <link target-id="id10564302" document=""/>.</para><table id="id10564302" summary="La tabla muestra los datos, la frecuencia, la frecuencia relativa y la frecuencia relativa acumulada."><title>Tabla de frecuencias de las horas de trabajo de los estudiantes con frecuencias relativas y acumuladas</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -294,7 +294,7 @@
 </tgroup>
 </table><para id="id3561407">La última entrada de la columna de frecuencia relativa acumulada es uno, lo que indica que se ha acumulado el cien por ciento de los datos.</para>
 <note id="id16479556"><label/><title>NOTA</title>
-<para id="eip-idp27462880">Debido al redondeo, es posible que la columna de frecuencia relativa no sume siempre uno, y que la última entrada de la columna de frecuencia relativa acumulada no sea uno. Sin embargo, cada uno de ellos debería estar cerca de uno.</para></note><para id="element-305">La <link target-id="id9703284" document=""/> representa las alturas, en pulgadas, de una muestra de 100 hombres jugadores de fútbol semiprofesionales.</para><table id="id9703284" summary="This table presents a range of heights in inches in the first column, the number of students whose height falls within that range in the second column, the relative frequency of students in this range (expressed as both a fraction and a decimal) in the third column, and the cumulative relative frequency (expressed as a sum of current and previous relative frequency values) in the fourth column."><title>Tabla de frecuencias de la altura de los jugadores de fútbol</title>
+<para id="eip-idp27462880">Debido al redondeo, es posible que la columna de frecuencia relativa no sume siempre uno, y que la última entrada de la columna de frecuencia relativa acumulada no sea uno. Sin embargo, cada uno de ellos debería estar cerca de uno.</para></note><para id="element-305">La <link target-id="id9703284" document=""/> representa las alturas, en pulgadas, de una muestra de 100 hombres jugadores de fútbol semiprofesionales.</para><table id="id9703284" summary="Esta tabla presenta un rango de estaturas en pulgadas en la primera columna, el número de estudiantes cuya estatura se encuentra dentro de ese rango en la segunda columna, la frecuencia relativa de los estudiantes en este rango (expresada como fracción y como decimal) en la tercera columna y la frecuencia relativa acumulada (expresada como suma de los valores de frecuencia relativa actuales y anteriores) en la cuarta columna."><title>Tabla de frecuencias de la altura de los jugadores de fútbol</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -514,7 +514,7 @@
 <!--1-->
 <exercise id="fs-idp57790448"><problem id="fs-idm58055472">
 <para id="fs-idm72824256">La <link target-id="fs-idm82680048" document=""/> muestra la cantidad, en pulgadas, de precipitaciones anuales en una muestra de ciudades.</para>
-<table id="fs-idm82680048" summary="Table shows the amount in inches, of annual rainfallin a sample towns">
+<table id="fs-idm82680048" summary="La tabla muestra la cantidad en pulgadas de precipitaciones anuales en una muestra de pueblos">
 <tgroup cols="4"><thead>
  <row><entry>Precipitaciones (en pulgadas)</entry>	<entry>Frecuencia</entry>	<entry>Frecuencia relativa</entry>	<entry>Frecuencia relativa acumulada</entry></row>
 </thead>
@@ -667,7 +667,7 @@
 <item>4</item>
 <item>5</item>
 <item>10</item></list>. Se produjo la <link target-id="id9833287" document=""/>:</para>
-<table id="id9833287" summary="This table presents the number of miles driven by survey respondents in the first column, the frequency of each response in the second column, the relative frequency (expressed as a fraction) in the third column, and the cumulative relative frequency (expressed as a decimal) in the fourth column."><title>Frecuencia de las distancias de desplazamiento</title>
+<table id="id9833287" summary="Esta tabla presenta el número de millas conducidas por los encuestados en la primera columna, la frecuencia de cada respuesta en la segunda, la frecuencia relativa (expresada como fracción) en la tercera y la frecuencia relativa acumulada (expresada como decimal) en la cuarta."><title>Frecuencia de las distancias de desplazamiento</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -836,7 +836,7 @@
 </m:math></para>
 </solution>
 </exercise></note><example id="fs-idm64477536">
-<para id="fs-idm39829664">La <link target-id="fs-idm52810848" document=""/> contiene el número total de muertes en todo el mundo a causa de terremotos en el periodo comprendido entre 2000 y 2012.</para><table id="fs-idm52810848" summary="placeholder">
+<para id="fs-idm39829664">La <link target-id="fs-idm52810848" document=""/> contiene el número total de muertes en todo el mundo a causa de terremotos en el periodo comprendido entre 2000 y 2012.</para><table id="fs-idm52810848" summary="marcador de posición">
 <tgroup cols="2"><thead>
 <row><entry>Año</entry>	<entry>Número total de muertes</entry></row>
 </thead>
@@ -961,7 +961,7 @@
 <item><emphasis>Nivel de escala de cociente:</emphasis> datos con un punto de partida que se puede ordenar; las diferencias tienen significado y se pueden calcular cocientes.</item>
 </list><para id="fs-idm83721584">Al organizar los datos, es importante saber cuántas veces aparece un valor. ¿Cuántos estudiantes de Estadística estudian cinco horas o más para un examen? ¿Qué porcentaje de familias de nuestra manzana tiene dos mascotas? La frecuencia, la frecuencia relativa y la frecuencia relativa acumulada son medidas que responden preguntas como estas.</para></section>
 <section id="fs-idm8238960" class="free-response"><title>TAREA PARA LA CASA</title><exercise id="eip-idp18600336"><problem id="id29870590">
-<para id="element-782">Se les preguntó a cincuenta estudiantes a tiempo parcial cuántos cursos estaban tomando este trimestre. Los resultados (incompletos) se muestran a continuación:</para><table id="element-795" summary="This incomplete table will be completed by the student as an exercise using the values provided. Fifty students were asked how many courses they were taking; for every value in the first column, students are given or must calculate the frequency of responses in the second column, the relative frequency in the third column, and the cumulative relative frequency in the fourth column."><title>Carga lectiva de los estudiantes a tiempo parcial</title>
+<para id="element-782">Se les preguntó a cincuenta estudiantes a tiempo parcial cuántos cursos estaban tomando este trimestre. Los resultados (incompletos) se muestran a continuación:</para><table id="element-795" summary="Esta tabla incompleta será completada por el estudiante como un ejercicio utilizando los valores proporcionados. Se les preguntó a cincuenta estudiantes cuántos cursos estaban tomando; para cada valor de la primera columna los estudiantes reciben o deben calcular la frecuencia de respuestas en la segunda columna, la frecuencia relativa en la tercera columna y la frecuencia relativa acumulada en la cuarta columna."><title>Carga lectiva de los estudiantes a tiempo parcial</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1059,7 +1059,7 @@ Frecuencia relativa acumulada
 </solution> -->
 </exercise><exercise id="eip-idp1177440"><problem id="id29870923">
 <para id="element-426">Antes de emitir el diagnóstico se les preguntó a sesenta adultos con enfermedades de las encías el número de veces por semana que utilizaban el hilo dental. Los resultados (incompletos) se muestran en la <link target-id="element-619" document=""/>.
-</para><table id="element-619" summary="Flossing Frequency for Adults with Gum Disease"><title>Frecuencia de uso del hilo dental en adultos con enfermedades de las encías</title>
+</para><table id="element-619" summary="Frecuencia de uso del hilo dental en adultos con enfermedades de las encías"><title>Frecuencia de uso del hilo dental en adultos con enfermedades de las encías</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1123,7 +1123,7 @@ Frecuencia relativa acumulada
 
 <solution id="id30125528">
 <list id="element-26434" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item><newline/>
-<table id="eip-93" summary="Filled Flossing Frequency for Adults with Gum Disease">
+<table id="eip-93" summary="Frecuencia de uso del hilo dental en adultos con enfermedades de las encías">
 <tgroup cols="4"><thead>
   <row>
     <entry>N.º de usos del hilo dental a la semana</entry>
@@ -1192,7 +1192,7 @@ Se les preguntó a diecinueve inmigrantes en EE. UU. cuántos años, con una apr
 <item>4</item>
 <item>5</item>
 <item>10</item>
-</list>.</para><para id="element-20">Se produjo la <link target-id="element-9" document=""/>.</para><table id="element-9" summary="This table presents the frequencies associated with the given data set, with the first column containing the data value, the second column containing the frequency, the third column containing the relative frequency (expressed as a fraction), and the fourth column expressing the cumulative relative frequency (expressed as a decimal)."><title>Frecuencia de las respuestas de los inmigrantes a la encuesta</title>
+</list>.</para><para id="element-20">Se produjo la <link target-id="element-9" document=""/>.</para><table id="element-9" summary="Esta tabla presenta las frecuencias asociadas al conjunto de datos dado; la primera columna contiene el valor del dato, la segunda columna la frecuencia y la tercera columna la frecuencia relativa (expresada como fracción), la cuarta columna expresa la frecuencia relativa acumulada (expresada como decimal)."><title>Frecuencia de las respuestas de los inmigrantes a la encuesta</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1487,7 +1487,7 @@ Frecuencia relativa acumulada
 
 <exercise id="eip-idm71401488"><problem id="eip-idm71401232">
 <para id="fs-idm72637568">La revista <emphasis effect="italics">Forbes</emphasis> publicó datos sobre las mejores pequeñas compañías en 2012. Se trata de compañías que cotizan en la bolsa desde hace al menos un año, con un precio de las acciones de al menos 5 dólares por acción y con unos ingresos anuales entre 5 millones de dólares y 1 mil millones de dólares. La <link target-id="fs-idm84109040" document=""/> muestra la edad de los directores generales de las primeras 60 compañías clasificadas.</para>
-<table id="fs-idm84109040" summary="Table shows the ages of the chief executive officers for the first 60 ranked firms">
+<table id="fs-idm84109040" summary="La tabla muestra la edad de los directores generales de las 60 primeras firmas clasificadas">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2" align="right"/>
 <colspec colnum="3" colname="c3"/>
@@ -1525,7 +1525,7 @@ Frecuencia relativa acumulada
 <item>14/60; 0.23; 23%</item>
 <item>0.45</item>
 <item>Graph A represents the cumulative relative frequency, and Graph B shows the relative frequency.</item>
-</list></solution> --></exercise><para id="id5096156"><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios:</emphasis> la <link target-id="id9247047" document=""/> contiene datos sobre los huracanes que han impactado directamente a EE. UU. entre 1851 y 2004. Un huracán recibe una categoría de fuerza basada en la velocidad mínima del viento generada por la tormenta.</para><table id="id9247047" summary="This incomplete table presents frequency data related to hurricane activity. The first column displays the hurricane category, the second column displays the frequency of direct hits, the third column presents the relative frequency (expressed as a decimal), and the fourth column presents the cumulative relative frequency (expressed as a decimal). The two missing values are to be caluculated by the students in the upcoming exercises."><title>Frecuencia de los impactos directos de los huracanes</title>
+</list></solution> --></exercise><para id="id5096156"><emphasis effect="italics">Use la siguiente información para responder los próximos dos ejercicios:</emphasis> la <link target-id="id9247047" document=""/> contiene datos sobre los huracanes que han impactado directamente a EE. UU. entre 1851 y 2004. Un huracán recibe una categoría de fuerza basada en la velocidad mínima del viento generada por la tormenta.</para><table id="id9247047" summary="Esta tabla incompleta presenta datos de frecuencia relacionados con la actividad de los huracanes. La primera columna muestra la categoría del huracán, la segunda la frecuencia de impactos directos, la tercera la frecuencia relativa (expresada como decimal) y la cuarta la frecuencia relativa acumulada (expresada como decimal). Los dos valores que faltan deben ser calculados por los estudiantes en los próximos ejercicios."><title>Frecuencia de los impactos directos de los huracanes</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
           <colspec colnum="2" colname="c2"/>
           <colspec colnum="3" colname="c3"/>

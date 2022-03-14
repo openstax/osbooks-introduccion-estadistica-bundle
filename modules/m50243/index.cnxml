@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml">
+<document xmlns="http://cnx.rice.edu/cnxml">
 
 <title>Experimento de muestreo</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -23,7 +23,7 @@
 
 <note id="id11521709"><label/><title>Nota</title>
 <para id="fs-idp40181216">La siguiente sección contiene restaurantes estratificados por ciudad en columnas y agrupados horizontalmente por costo de entrada (conglomerados).</para>
-</note><table id="id9894hh324636" pgwide="1" class="top-titled" summary="This table provides a sample of restaurants.  Each cell contains a list of restaurants that correspond to the given location and price range.  The first column lists the location, the second column contains restaurants with entrees under $10, the third column contains restaurants with entrees between $10 and $15, the fourth column between $15 and $20, and the fifth column restaurants with entrees over $20.">
+</note><table id="id9894hh324636" pgwide="1" class="top-titled" summary="Esta tabla ofrece una muestra de restaurantes.  Cada celda contiene una lista de restaurantes que corresponden a la ubicación y al rango de precios dados.  La primera columna indica la ubicación, la segunda contiene los restaurantes con platos principales de menos de 10 dólares, la tercera los que tienen platos principales entre 10 y 15 dólares, la cuarta los que los tienen entre 15 y 20 dólares y la quinta cuyos platos principales sobrepasan los 20 dólares.">
 <title>Restaurantes utilizados en la muestra</title>
 <tgroup cols="5">
 <colspec colnum="1" colname="c1"/>
@@ -98,7 +98,7 @@
 </table>
 <para id="element-23513616999"><title>Muestra aleatoria simple</title>Elija una <emphasis>muestra aleatoria simple</emphasis> de 15 restaurantes.</para><list id="list-23562" list-type="enumerated"><item>Describa su procedimiento.</item>
 <item>Rellene la tabla con su muestra.
-<table id="tableone" summary="This table is presented as a template for collecting data and contains a total of 15 blank cells.">
+<table id="tableone" summary="Esta tabla se presenta como una plantilla para recolección de datos y contiene un total de 15 celdas en blanco.">
 <tgroup cols="3">
 <tbody>
 <row>
@@ -133,7 +133,7 @@
 </list>
 <para id="element-235975691"><title>Muestra sistemática</title>Elija una <emphasis>muestra sistemática</emphasis> de 15 restaurantes.</para><list id="list-235562" list-type="enumerated"><item>Describa su procedimiento.</item>
 <item>Rellene la tabla con su muestra.
-<table id="tabletwo" summary="This table is presented as a template for collecting data and contains a total of 15 blank cells.">
+<table id="tabletwo" summary="Esta tabla se presenta como una plantilla para recolección de datos y contiene un total de 15 celdas en blanco.">
 <tgroup cols="3">
 <tbody>
 <row>
@@ -168,7 +168,7 @@
 </list>
 <para id="element-2466992"><title>Una muestra estratificada</title>Elija una <emphasis>muestra estratificada</emphasis>, por ciudad, de 20 restaurantes. Use el 25 % de los restaurantes de cada estrato. Redondee al número natural más cercano.</para><list id="list-23566372" list-type="enumerated"><item>Describa su procedimiento.</item>
 <item>Rellene la tabla con su muestra.
-<table id="tablethree" summary="This table is presented as a template for collecting data and contains a total of 20 blank cells.">
+<table id="tablethree" summary="Esta tabla se presenta como una plantilla para recolección de datos y contiene un total de 20 celdas en blanco.">
 <tgroup cols="4">
 <tbody>
 <row>
@@ -208,7 +208,7 @@
 </list>
 <para id="element-2359869125"><title>Muestra estratificada</title>Elija una <emphasis>muestra estratificada</emphasis>, por el costo del plato principal, de 21 restaurantes. Use el 25 % de los restaurantes de cada estrato. Redondee al número natural más cercano.</para><list id="list-235966372" list-type="enumerated"><item>Describa su procedimiento.</item>
 <item>Rellene la tabla con su muestra.
-<table id="tablefour" summary="This table is presented as a template for collecting data and contins a total of 21 blank cells.">
+<table id="tablefour" summary="Esta tabla se presenta como una plantilla para recolección de datos y contiene un total de 21 celdas en blanco.">
 <tgroup cols="4">
 <tbody>
 <row>
@@ -254,7 +254,7 @@
 </list>
 <para id="element-252976925"><title>Muestra por conglomerados</title>Elija una <emphasis>muestra por conglomerados</emphasis> de restaurantes de dos ciudades. El número de restaurantes variará.</para><list id="list-2359669372" list-type="enumerated"><item>Describa su procedimiento.</item>
 <item>Rellene la tabla con su muestra.
-<table id="tablefive" summary="This table is presented as a template for collecting data and contains a total of 25 blank cells.">
+<table id="tablefive" summary="Esta tabla se presenta como una plantilla para recolección de datos y contiene un total de 25 celdas en blanco.">
 <tgroup cols="5">
 <tbody>
 <row>

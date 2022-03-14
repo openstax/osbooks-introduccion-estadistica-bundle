@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Predicción</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m47105</md:content-id>
@@ -110,7 +110,7 @@
 </solution>
 </exercise>
 
-<para id="element-532">La <link target-id="element-806" document=""/> contiene datos reales de las dos primeras décadas de notificación de casos de gripe.</para><table id="element-806" summary="This table presents the year of reporting flu cases and deaths in the first column, number of flu cases diagnosed in the second column, and number of flu deaths in the third column."><title>Solo adultos y adolescentes, Estados Unidos </title>
+<para id="element-532">La <link target-id="element-806" document=""/> contiene datos reales de las dos primeras décadas de notificación de casos de gripe.</para><table id="element-806" summary="Esta tabla presenta el año de notificación de los casos y muertes por gripe en la primera columna, el número de casos de gripe diagnosticados en la segunda y el número de muertes por gripe en la tercera."><title>Solo adultos y adolescentes, Estados Unidos </title>
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <colspec colnum="3" colname="c3"/>
@@ -434,7 +434,7 @@
 </list>
 </problem>
 <solution id="fs-idm44998864">
-<list id="fs-idp19420064" list-type="enumerated" number-style="lower-alpha"><item><table id="id108047k45" summary="This table presents the age groups in the first column and the number of driver deaths per 100,000 in the second column.">
+<list id="fs-idp19420064" list-type="enumerated" number-style="lower-alpha"><item><table id="id108047k45" summary="Esta tabla presenta los grupos de edad en la primera columna y el número de muertes de conductores por cada 100.000 en la segunda.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <thead>
@@ -479,7 +479,7 @@
 
 
 <exercise id="element-213"><problem id="id44888890">
-  <para id="element-635">La <link target-id="idasdgf10411945"/> señala la expectativa de vida de alguien nacido en Estados Unidos en determinados años. </para><table id="idasdgf10411945" summary="This table presents year of birth in the first column and life expectancy in the second column.">
+  <para id="element-635">La <link target-id="idasdgf10411945"/> señala la expectativa de vida de alguien nacido en Estados Unidos en determinados años. </para><table id="idasdgf10411945" summary="Esta tabla presenta el año de nacimiento en la primera columna y la esperanza de vida en la segunda.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <thead>
@@ -541,7 +541,7 @@
 <item>¿Cuál es la pendiente de la línea de mínimos cuadrados (de mejor ajuste)? Interprete la pendiente.</item>
 </list></problem></exercise><exercise id="element-682">
 <problem id="id44892027">
-  <para id="element-350">El valor máximo de descuento de la tarjeta Entertainment® para la sección "Alta Cocina", décima edición, para varias páginas se da en la <link target-id="id9216hh080"/></para><table id="id9216hh080" summary="This table presents the page number in the first column and the maximum value ($) in the second column.">
+  <para id="element-350">El valor máximo de descuento de la tarjeta Entertainment® para la sección "Alta Cocina", décima edición, para varias páginas se da en la <link target-id="id9216hh080"/></para><table id="id9216hh080" summary="Esta tabla presenta el número de página en la primera columna y el valor máximo ($) en la segunda.">
 
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
@@ -615,7 +615,7 @@
 
 
 <exercise id="element-263a"><problem id="id44847508">
-<para id="element-49">La <link target-id="id9978lok311"/> da los tiempos de las medallas de oro de todos los demás Juegos Olímpicos de Verano para los 100 metros libres femeninos (natación).</para><table id="id9978lok311" summary="This table presents the summer olympics year in the first column and the women's 100 meter freestyle time in seconds in the second column.">
+<para id="element-49">La <link target-id="id9978lok311"/> da los tiempos de las medallas de oro de todos los demás Juegos Olímpicos de Verano para los 100 metros libres femeninos (natación).</para><table id="id9978lok311" summary="Esta tabla presenta el año de los juegos olímpicos de verano en la primera columna y el tiempo en segundos de los 100 metros libres femeninos en la segunda.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <thead>
@@ -690,7 +690,7 @@
 </exercise><exercise id="element-512">
 <problem id="id44850206">
 
-<table id="id10945556" summary="This table presents the state names in the first column, number of letters in the state name in the second column, year entered in the union in the third column, rank for entering the union in the fourth column, and state area in square miles in the last column.">
+<table id="id10945556" summary="Esta tabla presenta los nombres de los estados en la primera columna, el número de letras del nombre del estado en la segunda, el año de entrada en la unión en la tercera, el rango de entrada en la unión en la cuarta y el área del estado en millas cuadradas en la última.">
 
 <tgroup cols="5"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>

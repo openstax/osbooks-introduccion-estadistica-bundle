@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 <title>Comparación de las medias de dos poblaciones independientes</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m55671</md:content-id>
@@ -365,7 +365,7 @@
 <m:mo>≠</m:mo>
 <m:msub><m:mi>µ</m:mi><m:mn>2</m:mn></m:msub>
 
-</m:math></equation><para id="eip-445">Un ejemplo de cuándo <emphasis effect="italics">δ</emphasis><sub>0</sub> puede no ser cero es cuando la comparación de los dos grupos requiere una diferencia específica para que la decisión sea significativa. Imagine que está haciendo una inversión de capital. Piensa en cambiar su modelo de máquina actual por otro. La productividad de sus máquinas se mide por la velocidad a la que producen el producto. Puede ser que un contendiente para sustituir al modelo antiguo sea más rápido en términos de rendimiento del producto, pero también es más caro. La segunda máquina también puede tener más costes de mantenimiento, de instalación, etc. La hipótesis nula se establecería de forma que la nueva máquina tendría que ser mejor que la antigua en la medida suficiente para cubrir estos costes adicionales en términos de velocidad y coste de producción. Esta forma de las hipótesis nula y alternativa muestra lo valiosa que puede ser esta comprobación de la hipótesis en particular. Para la mayor parte de nuestro trabajo, comprobaremos hipótesis simples al indagar si hay alguna diferencia entre las dos medias de distribución. </para><example id="element-208"><title>Grupos independientes</title><para id="eip-470">La empresa Kona Iki Corporation produce leche de coco. Toman los cocos, perforan un agujero, extraen la leche y la vierten en una cuba para su procesamiento. Disponen de un turno de día (el turno B) y otro de noche (el turno G) para realizar esta parte del proceso. Les gustaría saber si ambos turnos son igual de eficaces en el procesamiento de los cocos. Se realiza un estudio de muestreo de 9 turnos G y 16 turnos B. Los resultados del número de horas necesarias para procesar 100 libras de cocos se presentan en la <link target-id="uid888"/>. Se hace un estudio y se recopilan datos, lo que da como resultado los datos en la <link target-id="uid888"/>.</para><table id="uid888" summary="This table presents the sample size in the second column, average hours a day in the third column, and the sample standard deviation in the fourth column. The first row is for girls and the second row is for boys.">
+</m:math></equation><para id="eip-445">Un ejemplo de cuándo <emphasis effect="italics">δ</emphasis><sub>0</sub> puede no ser cero es cuando la comparación de los dos grupos requiere una diferencia específica para que la decisión sea significativa. Imagine que está haciendo una inversión de capital. Piensa en cambiar su modelo de máquina actual por otro. La productividad de sus máquinas se mide por la velocidad a la que producen el producto. Puede ser que un contendiente para sustituir al modelo antiguo sea más rápido en términos de rendimiento del producto, pero también es más caro. La segunda máquina también puede tener más costes de mantenimiento, de instalación, etc. La hipótesis nula se establecería de forma que la nueva máquina tendría que ser mejor que la antigua en la medida suficiente para cubrir estos costes adicionales en términos de velocidad y coste de producción. Esta forma de las hipótesis nula y alternativa muestra lo valiosa que puede ser esta comprobación de la hipótesis en particular. Para la mayor parte de nuestro trabajo, comprobaremos hipótesis simples al indagar si hay alguna diferencia entre las dos medias de distribución. </para><example id="element-208"><title>Grupos independientes</title><para id="eip-470">La empresa Kona Iki Corporation produce leche de coco. Toman los cocos, perforan un agujero, extraen la leche y la vierten en una cuba para su procesamiento. Disponen de un turno de día (el turno B) y otro de noche (el turno G) para realizar esta parte del proceso. Les gustaría saber si ambos turnos son igual de eficaces en el procesamiento de los cocos. Se realiza un estudio de muestreo de 9 turnos G y 16 turnos B. Los resultados del número de horas necesarias para procesar 100 libras de cocos se presentan en la <link target-id="uid888"/>. Se hace un estudio y se recopilan datos, lo que da como resultado los datos en la <link target-id="uid888"/>.</para><table id="uid888" summary="Esta tabla presenta el tamaño de la muestra en la segunda columna, el promedio de horas diarias en la tercera columna y la desviación típica de la muestra en la cuarta columna. La primera fila es para las niñas y la segunda fila para los niños.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1218,7 +1218,7 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 <exercise id="fs-idm39083984">
 <problem id="fs-idm39083728">
 <para id="fs-idm53880736">En la fiesta del 11.<sup>º</sup> cumpleaños de Rachel se cronometró el tiempo (en segundos) que ocho niñas podían aguantar la respiración en posición relajada. Tras un descanso de dos minutos, se cronometraron mientras saltaban. Las niñas pensaron que la diferencia media entre sus tiempos de salto y de relajación sería cero. Compruebe su hipótesis.</para>
-<table id="fs-idm53880480" summary="The table presents the first column as the relaxed time in seconds and the second column as the jumping time in seconds.">
+<table id="fs-idm53880480" summary="La tabla presenta la primera columna como el tiempo de relajación en segundos y la segunda columna como el tiempo de salto en segundos.">
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1397,7 +1397,7 @@ Para determinar el valor crítico de la t de Student necesitamos los grados de l
 
   <para id="eip-566"><emphasis effect="italics">Utilice la siguiente información para responder los dos ejercicios siguientes.</emphasis> Las conferencias Este y Oeste de la Liga Mayor de Fútbol cuentan con una nueva división de reserva que permite a los nuevos jugadores desarrollar sus habilidades. Los datos de una fecha elegida al azar mostraron los siguientes objetivos anuales.</para>
 
-<table id="eip-843" summary="Eastern and Western Major League Soccer">
+<table id="eip-843" summary="Liga mayor de fútbol del este y del oeste">
 
 
 <tgroup cols="2">

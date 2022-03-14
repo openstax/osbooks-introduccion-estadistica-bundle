@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 <title>Muestras coincidentes o emparejadas</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m47045</md:content-id>
@@ -69,7 +69,7 @@
 <exercise id="element-366">
 <problem id="id24601264">
 <para id="element-889"><emphasis/> Se realizó un estudio para investigar la eficacia del hipnotismo en la reducción del dolor. Los resultados de los sujetos seleccionados al azar se muestran en la <link target-id="table-2345"/>. Una calificación más baja indica menos dolor. El valor “antes” es coincidente con un valor “después” y se calculan las diferencias. Las diferencias tienen una distribución normal. ¿Las medidas sensoriales son, en promedio, más bajas después del hipnotismo? Pruebe con un nivel de significación del 5 %.</para>
-<table id="table-2345" summary="This table presents results of subjects and effect of hypnotism in reducing pain. The second through ninth column are all subjects. The first row is for before and the second row is for after.">
+<table id="table-2345" summary="Esta tabla presenta los resultados de los sujetos y el efecto del hipnotismo en la reducción del dolor. Desde la segunda hasta la novena columnas son todos los sujetos. La primera fila es para el antes y la segunda para el después.">
 <tgroup cols="9">
 <colspec colnum="1" colname="header_c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -123,7 +123,7 @@
 </problem>
 <solution id="id24601284">
 <para id="element-215">Los valores correspondientes de “antes” y “después” forman pares coincidentes (calcule “después” – “antes”).</para>
-<table id="table-25832" summary="This table shows the after data in the first column, before data in the second column, and the difference in the third column.">
+<table id="table-25832" summary="Esta tabla muestra los datos del después en la primera columna, los del antes en la segunda y la diferencia en la tercera.">
 <tgroup cols="3">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -337,7 +337,7 @@
 
 <example id="element-752">
 <para id="element-486">Un entrenador de fútbol universitario estaba interesado en saber si la clase de desarrollo de fuerza del instituto universitario aumentaba el levantamiento máximo (en libras) de sus jugadores en el ejercicio de empuje en banca. Les pidió a cuatro de sus jugadores que participaran en un estudio. La cantidad de peso que podía levantar cada uno se registró antes de que tomaran la clase de desarrollo de fuerza. Tras completar la clase, se midió de nuevo la cantidad de peso que podía levantar cada uno. Los datos son los siguientes:</para>
-<table id="table-234678" summary="This table shows players and the amount of weight they are able to lift. The first column is the weight lifted and the second through the sixth columns represent the players. The first row is the amount of weight lifted before the class and the second row is the amount of weight lifted after the class.">
+<table id="table-234678" summary="Esta tabla muestra los jugadores y la cantidad de peso que son capaces de levantar. La primera columna es el peso levantado y las columnas de la segunda a la sexta representan a los jugadores. La primera fila es la cantidad de peso levantado antes de la clase y la segunda es la cantidad de peso levantado después de la clase.">
 <tgroup cols="5"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -453,7 +453,7 @@
 </note><example id="element-241">
 <para id="element-70">Siete estudiantes de octavo grado de la escuela Media Kennedy midieron hasta dónde podían empujar el lanzamiento de peso con su mano dominante (la que escribe) y su mano más débil (la que no escribe). Pensaban que podían empujar distancias iguales con cualquier mano. Los datos se recogieron y registraron en la <link target-id="table-2535678"/>.</para>
 
-<table id="table-2535678" summary="This table presents the students shot-put distances by their dominant and non-dominant hand. The first column lists the hand type and the second through the eighth column represent the students. The first row is for the dominant hand and the second row is for the weaker hand.">
+<table id="table-2535678" summary="Esta tabla presenta las distancias de lanzamiento de los estudiantes por su mano dominante y la no dominante. La primera columna indica el tipo de mano y las columnas de la segunda a la octava representan a los estudiantes. La primera fila es para la mano dominante y la segunda para la mano más débil.">
 <tgroup cols="8">
 <colspec colnum="1" colname="header_c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -932,7 +932,7 @@
 <exercise id="fs-idp64398288">
 <problem id="fs-idp64398544">
 <para id="fs-idp64398800">Diez personas siguieron una dieta baja en grasas durante 12 semanas para reducir el colesterol. Los datos se registran en la <link target-id="fs-idp16051952"/>. ¿Cree que sus niveles de colesterol se redujeron significativamente?</para>
-<table id="fs-idp16051952" summary="The table presents the starting cholesterol level in the first row and the ending cholesterol level in the second row.">
+<table id="fs-idp16051952" summary="La tabla presenta el nivel de colesterol inicial en la primera fila y el nivel de colesterol final en la segunda fila.">
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1116,7 +1116,7 @@ La decisión correcta es:
 
 <exercise id="fs-idp31663264">
 <problem id="fs-idp31663520">
-<para id="fs-idm44180368">Un grupo local de apoyo al cáncer cree que la estimación de nuevos casos de cáncer de mama en mujeres en el sur es mayor en 2013 que en 2012. El grupo comparó las estimaciones de nuevos casos de cáncer de mama en mujeres por estados del sur en 2012 y en 2013. Los resultados están en la <link target-id="fs-idp20856160"/>.</para><table id="fs-idp20856160" summary="">
+<para id="fs-idm44180368">Un grupo local de apoyo al cáncer cree que la estimación de nuevos casos de cáncer de mama en mujeres en el sur es mayor en 2013 que en 2012. El grupo comparó las estimaciones de nuevos casos de cáncer de mama en mujeres por estados del sur en 2012 y en 2013. Los resultados están en la <link target-id="fs-idp20856160"/>.</para><table id="fs-idp20856160" summary=" ">
 <tgroup cols="3">
 <thead>
 <row>
@@ -1292,7 +1292,7 @@ La decisión correcta es:
 <exercise id="fs-idp111440192">
 <problem id="fs-idp111440448">
 <para id="fs-idp14986256">Un político les pidió a sus colaboradores que determinaran si la tasa de subempleo en el noreste disminuyó de 2011 a 2012. Los resultados están en la <link target-id="fs-idp10131504"/>.</para>
-<table id="fs-idp10131504" summary="">
+<table id="fs-idp10131504" summary=" ">
 <tgroup cols="3">
 <thead>
 <row>
@@ -1579,7 +1579,7 @@ La decisión correcta es:
 
 <exercise id="fs-idp144471136">
 <problem id="fs-idp144471392">
-<para id="eip-407">Una instructora de golf está interesada en determinar si su nueva técnica para mejorar los resultados de los jugadores de golf es eficaz. Lleva a cuatro (4) nuevos estudiantes. Registra sus calificaciones de 18 hoyos antes de aprender la técnica y después de haber tomado su clase. Realiza una prueba de hipótesis. Los datos son los siguientes: <link target-id="fs-idp136885584"/>.</para><table id="fs-idp136885584" summary="table question">
+<para id="eip-407">Una instructora de golf está interesada en determinar si su nueva técnica para mejorar los resultados de los jugadores de golf es eficaz. Lleva a cuatro (4) nuevos estudiantes. Registra sus calificaciones de 18 hoyos antes de aprender la técnica y después de haber tomado su clase. Realiza una prueba de hipótesis. Los datos son los siguientes: <link target-id="fs-idp136885584"/>.</para><table id="fs-idp136885584" summary="pregunta de la tabla">
 <tgroup cols="5"><thead>
 <row>
 <entry/>

@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Un intervalo de confianza para una desviación típica de población desconocida, caso de una muestra pequeña</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m55462</md:content-id>
@@ -488,7 +488,7 @@
 </exercise><exercise id="eip-793"><problem id="eip-727">
   <para id="eip-524">¿Por qué cambiaría el límite de error si el nivel de confianza se redujera al 95 %?</para>
 </problem>
-</exercise><para id="element-59"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos 13 ejercicios:</emphasis> los datos que figuran en la <link target-id="element-181" document=""/> son el resultado de una encuesta aleatoria de 39 banderas nacionales (con reemplazo entre selecciones) de varios países. Estamos interesados en hallar un intervalo de confianza para el verdadero número medio de colores en una bandera nacional. Supongamos que <emphasis effect="italics">X</emphasis> = el número de colores de una bandera nacional.</para><table id="element-181" summary="This table presents the X values (1-5) in the first column and the frequency in the second column.">
+</exercise><para id="element-59"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos 13 ejercicios:</emphasis> los datos que figuran en la <link target-id="element-181" document=""/> son el resultado de una encuesta aleatoria de 39 banderas nacionales (con reemplazo entre selecciones) de varios países. Estamos interesados en hallar un intervalo de confianza para el verdadero número medio de colores en una bandera nacional. Supongamos que <emphasis effect="italics">X</emphasis> = el número de colores de una bandera nacional.</para><table id="element-181" summary="Esta tabla presenta los valores X (del 1 al 5) en la primera columna y la frecuencia en la segunda.">
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>

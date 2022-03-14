@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>La ecuación de regresión</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m55838</md:content-id>
@@ -541,7 +541,7 @@ El modelo de los MCO supone que todas las variables son independientes entre sí
 </m:math>
  
  </equation><para id="eip-406">Se trata de una prueba t que utiliza el estadístico de prueba para el parámetro β<sub>3</sub>. Si no podemos aceptar la hipótesis nula de que β<sub>3</sub> = 0, concluiremos que existe una diferencia entre la tasa de aumento del grupo para el que el valor de la variable binaria se fija en 1, los hombres en este ejemplo. Esta ecuación de estimación puede combinarse con la anterior, que solo probaba un desplazamiento paralelo en la línea estimada. Las funciones de ingresos/experiencia en la <link target-id="eip-id1169482715033"/> se dibujan para este caso con un desplazamiento en la función de ingresos y una diferencia en la pendiente de la función con respecto a los años totales de experiencia.</para></section><example id="element-22">
-<para id="element-998">Una muestra aleatoria de 11 estudiantes de Estadística produjo los siguientes datos, donde <emphasis effect="italics">x</emphasis> es la calificación del tercer examen sobre 80, y <emphasis effect="italics">y</emphasis> es la calificación del examen final sobre 200. ¿Puede predecir la calificación del examen final de un estudiante seleccionado al azar si conoce la calificación del tercer examen?</para><table id="eip-112" summary="Table showing the scores on the final exam based on scores from the third exam.">
+<para id="element-998">Una muestra aleatoria de 11 estudiantes de Estadística produjo los siguientes datos, donde <emphasis effect="italics">x</emphasis> es la calificación del tercer examen sobre 80, y <emphasis effect="italics">y</emphasis> es la calificación del examen final sobre 200. ¿Puede predecir la calificación del examen final de un estudiante seleccionado al azar si conoce la calificación del tercer examen?</para><table id="eip-112" summary="Tabla que muestra las calificaciones del examen final basadas en las calificaciones del tercer examen.">
 <tgroup cols="2"><thead>
   <row>
     <entry>x (calificación del tercer examen)</entry>
