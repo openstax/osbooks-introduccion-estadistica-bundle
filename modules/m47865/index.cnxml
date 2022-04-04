@@ -334,7 +334,7 @@
 
 <section id="eip-id1168071310533">
 <title>2.7: Medidas de la dispersión de los datos</title>
-<para id="fs-idp95565424"><emphasis>52</emphasis>. Media: 15 <newline/>Desviación típica: 4,3 <newline count="2"/><m:math display="">
+<para id="fs-idp95565424"><emphasis>52</emphasis>. Media: 15 <newline/>Desviación típica: 4,3 <newline count="2"/><m:math>
 <m:mrow>
 <m:mi>μ</m:mi><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -1017,7 +1017,7 @@
 </m:mfrac>
 
 </m:mrow>
-</m:math> para <m:math display="">
+</m:math> para <m:math>
 <m:mrow>
 <m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> así que </m:mtext><m:mi>e</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
 <m:mn>1</m:mn>
@@ -1026,7 +1026,7 @@
 </m:mrow>
 </m:mfrac>
 </m:mrow>
-</m:math> para <m:math display="">
+</m:math> para <m:math>
 <m:mrow>
 <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>30</m:mn><m:mo stretchy="false">)</m:mo>
 </m:mrow>
@@ -1502,7 +1502,7 @@
 </m:math> por lo que cabría esperar que el 68 % de las medias muestrales estuvieran entre 69,1 y 70,9. Observe que se trata de un intervalo más estrecho debido al mayor tamaño de la muestra.</para>
 </section><section id="fs-idp9921552"><title>7.2: El teorema del límite central para las sumas</title><para id="fs-idm32049712"><emphasis>81</emphasis>. Para una variable aleatoria <emphasis effect="italics">X</emphasis>, la variable aleatoria <emphasis effect="italics">ΣX</emphasis> tenderá a una distribución normal a medida que aumenta el tamaño n de las muestras utilizadas para calcular la suma.</para>
 <para id="fs-idm155707904"><emphasis>82</emphasis>. Ambas reglas establecen que la distribución de una cantidad (la media o la suma) calculada sobre muestras extraídas de una población tenderá a tener una distribución normal, a medida que aumenta el tamaño de la muestra, independientemente de la distribución poblacional de la que se extraen las muestras.</para>
-<para id="fs-idm143218272"><emphasis>83</emphasis>. <m:math display="">
+<para id="fs-idm143218272"><emphasis>83</emphasis>. <m:math>
 <m:mrow>
 <m:mi>Σ</m:mi><m:mi>X</m:mi><m:mo>∼</m:mo><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
 <m:mrow>
@@ -1525,7 +1525,7 @@
 </m:mrow>
 <m:mo>)</m:mo></m:mrow>
 </m:mrow>
-</m:math> así que <m:math display="">
+</m:math> así que <m:math>
 <m:mrow>
 <m:mi>Σ</m:mi><m:mi>X</m:mi><m:mo>∼</m:mo><m:mi>N</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4.000</m:mn><m:mo>,</m:mo><m:mn>28,3</m:mn><m:mo stretchy="false">)</m:mo>
 </m:mrow>
@@ -3456,7 +3456,7 @@
 <section id="fs-idp463936">
 <title>12.6: Comprobación de la importancia del coeficiente de correlación</title>
 
-<para id="fs-idp48207152"><emphasis>19</emphasis>. <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">ρ</emphasis> = 0 <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">ρ</emphasis> ≠ 0</para><para id="fs-idp36904992"><emphasis>20</emphasis>. <m:math display="">
+<para id="fs-idp48207152"><emphasis>19</emphasis>. <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">ρ</emphasis> = 0 <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">ρ</emphasis> ≠ 0</para><para id="fs-idp36904992"><emphasis>20</emphasis>. <m:math>
 <m:mrow>
 <m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac>
 <m:mrow>

@@ -18,19 +18,19 @@
 
 <para id="element-681">La <term id="term-00003">mediana</term> es un número que mide el “centro” de los datos. Se puede pensar en la mediana como el “valor medio”, pero no tiene por qué ser uno de los valores observados. Es un número que separa los datos ordenados en mitades. La mitad de los valores son iguales o menores que la mediana, y la mitad de los valores son iguales o mayores. Por ejemplo, considere los siguientes datos. <newline/>1; 11,5; 6; 7,2; 4; 8; 9; 10; 6,8; 8,3; 2; 2; 10; 1 <newline/>Ordenado de menor a mayor: <newline/>1; 1; 2; 2; 4; 6; 6,8; 7,2; 8; 8,3; 9; 10; 10; 11,5</para><para id="element-546">Como hay 14 observaciones, la mediana está entre el séptimo valor, 6,8, y el octavo, 7,2. Para hallar la mediana, sume los dos valores y divídalos entre dos.</para><equation id="element-293">
 <m:math>
-<m:apply>
+
 <m:eq/>
-<m:apply>
+
 <m:divide/>
-<m:apply>
+
 <m:plus/>
 <m:cn>6,8</m:cn>
 <m:cn>7,2</m:cn>
-</m:apply>
+
 <m:cn>2</m:cn>
-</m:apply>
+
 <m:cn>7</m:cn>
-</m:apply>
+
 </m:math>
 </equation>
 <para id="element-995">La mediana es siete. La mitad de los valores son menores que siete y la mitad de los valores son mayores que siete.</para>

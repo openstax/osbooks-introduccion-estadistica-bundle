@@ -245,7 +245,7 @@
 <problem id="id10265850">
 <para id="element-170">a. Consulte el <link target-id="element-229"/>. ¿Cuál es la probabilidad de que un bebé de ocho semanas elegido al azar sonría entre dos y 18 segundos?</para></problem>
 <solution id="id10265871">
-<para id="element-178"><emphasis effect="italics">P</emphasis>(2 &lt; <emphasis effect="italics">x</emphasis> &lt; 18) = (base)(altura) = (18 - 2)<m:math display="">
+<para id="element-178"><emphasis effect="italics">P</emphasis>(2 &lt; <emphasis effect="italics">x</emphasis> &lt; 18) = (base)(altura) = (18 - 2)<m:math>
 <m:mrow>
 <m:mrow><m:mo>(</m:mo>
 <m:mrow>
@@ -258,7 +258,7 @@
 </m:mrow>
 <m:mo>)</m:mo></m:mrow>
 </m:mrow>
-</m:math> = <m:math display="">
+</m:math> = <m:math>
 <m:mrow>
 <m:mrow>
 <m:mrow>
@@ -332,7 +332,7 @@
 <problem id="id9694925">
 <para id="element-503">c. Halle la probabilidad de que un bebé de ocho semanas elegido al azar sonría más de 12 segundos <emphasis>SABIENDO</emphasis> que el bebé sonríe <emphasis>MÁS DE OCHO SEGUNDOS</emphasis>.</para></problem>
 <solution id="id15390803">
-<para id="fs-idp106518000">c. Esta pregunta de probabilidad es un <emphasis>condicional</emphasis>. Se le pide que halle la probabilidad de que un bebé de ocho semanas sonría más de 12 segundos cuando <emphasis>ya sabe</emphasis> que el bebé ha sonreído durante más de ocho segundos.</para><para id="element-836">Halle <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 12|<emphasis effect="italics">x</emphasis> > 8) Hay dos maneras de efectuar el problema. <emphasis>En la primera forma</emphasis>, utilice el hecho de que se trata de un <emphasis>condicional</emphasis> y esto cambia el espacio muestral. El gráfico ilustra el nuevo espacio muestral. Ya sabe que el bebé sonrió más de ocho segundos.</para><para id="element-837"><emphasis>Escriba una nueva</emphasis> <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>): <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math display="">
+<para id="fs-idp106518000">c. Esta pregunta de probabilidad es un <emphasis>condicional</emphasis>. Se le pide que halle la probabilidad de que un bebé de ocho semanas sonría más de 12 segundos cuando <emphasis>ya sabe</emphasis> que el bebé ha sonreído durante más de ocho segundos.</para><para id="element-836">Halle <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 12|<emphasis effect="italics">x</emphasis> > 8) Hay dos maneras de efectuar el problema. <emphasis>En la primera forma</emphasis>, utilice el hecho de que se trata de un <emphasis>condicional</emphasis> y esto cambia el espacio muestral. El gráfico ilustra el nuevo espacio muestral. Ya sabe que el bebé sonrió más de ocho segundos.</para><para id="element-837"><emphasis>Escriba una nueva</emphasis> <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>): <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -341,7 +341,7 @@
 </m:mrow>
 </m:mfrac>
 </m:mrow>
-</m:math> = <m:math display="">
+</m:math> = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -350,7 +350,7 @@
 </m:mrow>
 </m:mfrac>
 </m:mrow>
-</m:math> para 8 &lt; <emphasis effect="italics">x</emphasis> &lt; 23</para><para id="element-400"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 12|<emphasis effect="italics">X</emphasis> > 8) = (23 - 12)<m:math display="">
+</m:math> para 8 &lt; <emphasis effect="italics">x</emphasis> &lt; 23</para><para id="element-400"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 12|<emphasis effect="italics">X</emphasis> > 8) = (23 - 12)<m:math>
 <m:mrow>
 <m:mrow><m:mo>(</m:mo>
 <m:mrow>
@@ -363,7 +363,7 @@
 </m:mrow>
 <m:mo>)</m:mo></m:mrow>
 </m:mrow>
-</m:math> = <m:math display="">
+</m:math> = <m:math>
 <m:mrow>
 <m:mrow>
 <m:mrow>
@@ -477,7 +477,7 @@
 
 </problem>
 <solution id="id12074926">
-<para id="element-438">a. Supongamos que <emphasis effect="italics">X</emphasis> = el número de minutos que una persona debe esperar el autobús. <emphasis effect="italics">a</emphasis> = 0 y <emphasis effect="italics">b</emphasis> = 15. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(0, 15). Escriba la función de densidad de probabilidad. <emphasis effect="italics">f</emphasis> (<emphasis effect="italics">x</emphasis>) = <m:math display="">
+<para id="element-438">a. Supongamos que <emphasis effect="italics">X</emphasis> = el número de minutos que una persona debe esperar el autobús. <emphasis effect="italics">a</emphasis> = 0 y <emphasis effect="italics">b</emphasis> = 15. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(0, 15). Escriba la función de densidad de probabilidad. <emphasis effect="italics">f</emphasis> (<emphasis effect="italics">x</emphasis>) = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -486,7 +486,7 @@
 </m:mrow>
 </m:mfrac>
 </m:mrow>
-</m:math> = <m:math display="">
+</m:math> = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -777,12 +777,11 @@
 </m:mrow>
 </m:msqrt>
 </m:mrow>
-</m:math> <newline/><m:math><m:reln><m:eq/>
-<m:reln><m:eq/>
+</m:math> <newline/><m:math>
 <m:mrow><m:mi>μ</m:mi></m:mrow>
 <m:mrow><m:mfrac><m:mrow><m:mn>1,5</m:mn><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow>
-<m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:reln>
-<m:mrow><m:mn>2,75</m:mn></m:mrow></m:reln>
+<m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow>
+<m:mrow><m:mn>2,75</m:mn></m:mrow>
 </m:math> horas y <m:math>
  <m:mrow>
   <m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt>
@@ -1455,7 +1454,7 @@
  </m:mrow>
 </m:math>
 </item>
-<item><m:math display="">
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -1469,7 +1468,7 @@
  </m:mrow>
 </m:math>
 </item>
-<item><m:math display="">
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>2</m:mn>
@@ -1890,7 +1889,7 @@
 
  </m:mrow>
 </m:math> = 0,125.</item>
-<item><emphasis effect="italics">P</emphasis>(400 &lt; <emphasis effect="italics">X</emphasis> &lt; 650) = <m:math display="">
+<item><emphasis effect="italics">P</emphasis>(400 &lt; <emphasis effect="italics">X</emphasis> &lt; 650) = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>

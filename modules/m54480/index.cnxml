@@ -918,7 +918,7 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
 </list>
 </problem>
 <solution id="fs-idm172049056">
-<list id="fs-idm172048800" list-type="enumerated" number-style="lower-alpha"><item><m:math display="">
+<list id="fs-idm172048800" list-type="enumerated" number-style="lower-alpha"><item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -930,7 +930,7 @@ Una forma visual de mostrar tanto las similitudes como las diferencias entre est
  </m:mrow>
 </m:math> = 11,11</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 10) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 10) = 1 – Poissoncdf(11,11; 10) ≈ 0,5532.</item>
-<item>El número de personas con sangre de tipo B encontradas sigue más o menos la distribución de Poisson, por lo que el número de personas <emphasis effect="italics">X</emphasis> que llegan entre las sucesivas llegadas de tipo B es aproximadamente exponencial con media <emphasis effect="italics">μ</emphasis> = 9 y <emphasis effect="italics">m</emphasis> = <m:math display="">
+<item>El número de personas con sangre de tipo B encontradas sigue más o menos la distribución de Poisson, por lo que el número de personas <emphasis effect="italics">X</emphasis> que llegan entre las sucesivas llegadas de tipo B es aproximadamente exponencial con media <emphasis effect="italics">μ</emphasis> = 9 y <emphasis effect="italics">m</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>

@@ -126,7 +126,7 @@
 <para id="element-697">La cantidad de tiempo, en minutos, que una persona debe esperar un autobús se distribuye uniformemente entre cero y 15 minutos, ambos inclusive.<newline/></para><exercise id="element-351"><problem id="id12074907">
 <para id="element-447">a. ¿Cuál es la probabilidad de que una persona espere menos de 12,5 minutos?</para></problem>
 <solution id="id12074926">
-<para id="element-438">a. Supongamos que <emphasis effect="italics">X</emphasis> = el número de minutos que una persona debe esperar el autobús. <emphasis effect="italics">a</emphasis> = 0 y <emphasis effect="italics">b</emphasis> = 15. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(0, 15). Escriba la función de densidad de probabilidad. <emphasis effect="italics">f</emphasis> (<emphasis effect="italics">x</emphasis>) = <m:math display="">
+<para id="element-438">a. Supongamos que <emphasis effect="italics">X</emphasis> = el número de minutos que una persona debe esperar el autobús. <emphasis effect="italics">a</emphasis> = 0 y <emphasis effect="italics">b</emphasis> = 15. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(0, 15). Escriba la función de densidad de probabilidad. <emphasis effect="italics">f</emphasis> (<emphasis effect="italics">x</emphasis>) = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -135,7 +135,7 @@
 </m:mrow>
 </m:mfrac>
 </m:mrow>
-</m:math> = <m:math display="">
+</m:math> = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -873,7 +873,7 @@
  </m:mrow>
 </m:math>
 </item>
-<item><m:math display="">
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -887,7 +887,7 @@
  </m:mrow>
 </m:math>
 </item>
-<item><m:math display="">
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>2</m:mn>
@@ -1240,7 +1240,7 @@
   
  </m:mrow>
 </m:math> = 0,125.</item>
-<item><emphasis effect="italics">P</emphasis>(400 &lt; <emphasis effect="italics">X</emphasis> &lt; 650) = <m:math display="">
+<item><emphasis effect="italics">P</emphasis>(400 &lt; <emphasis effect="italics">X</emphasis> &lt; 650) = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>

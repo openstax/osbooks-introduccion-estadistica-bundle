@@ -15,35 +15,21 @@
 </list>
 <para id="element-700">entonces:
 <equation class="unnumbered" id="element-1000"><label/><m:math>
-<m:semantics>
 <m:mrow>
-<m:mstyle fontsize="12pt">
-<m:mrow>
-<m:mrow>
-<m:mstyle fontstyle="italic">
-<m:mrow>
-<m:mtext>RF</m:mtext>
+<m:mrow><m:mstyle fontstyle="italic">
+<m:mtext>RF</m:mtext></m:mstyle>
+
 </m:mrow>
-</m:mstyle>
 <m:mo stretchy="false">=</m:mo>
 <m:mfrac>
-<m:mstyle fontsize="8pt">
 <m:mrow>
 <m:mi>e</m:mi>
 </m:mrow>
-</m:mstyle>
-<m:mstyle fontsize="8pt">
 <m:mrow>
 <m:mi>n</m:mi>
 </m:mrow>
-</m:mstyle>
 </m:mfrac>
 </m:mrow>
-</m:mrow>
-</m:mstyle>
-<m:mrow/>
-</m:mrow>
-</m:semantics>
 </m:math>
 </equation></para>
 
@@ -53,19 +39,19 @@
 <para id="element-906">60 – 0,05 = 59,95 que es más preciso que, por ejemplo, 61,5 por un decimal. El punto de partida es, pues, 59,95.</para><para id="element-291">El valor mayor es 74, por lo que 74 + 0,05 = 74,05 es el valor final.</para><para id="element-236">Luego, calcule el ancho de cada barra o intervalo de clase. Para calcular este ancho, reste el punto inicial del valor final y divídalo entre el número de barras (debe elegir el número de barras que desee). Suponga que elige ocho barras.</para>
 <equation class="unnumbered" id="element-2133"><label/>
 <m:math>
-<m:apply>
+
 <m:eq/>
-<m:apply>
+
 <m:divide/>
-<m:apply>
+
 <m:minus/>
 <m:cn>74,05</m:cn>
 <m:cn>59,95</m:cn>
-</m:apply>
+
 <m:cn>8</m:cn>
-</m:apply>
+
 <m:cn>1,76</m:cn>
-</m:apply>
+
 </m:math>
 </equation>
 
@@ -118,19 +104,19 @@
 </exercise><para id="element-20">Calcule el número de barras de la siguiente manera: </para>
 <equation class="unnumbered" id="element-48"><label/>
 <m:math>
-<m:apply>
+
 <m:eq/>
-<m:apply>
+
 <m:divide/>
-<m:apply>
+
 <m:minus/>
 <m:cn>6,5</m:cn>
 <m:cn>0,5</m:cn>
-</m:apply>
+
 <m:ci>número de barras</m:ci>
-</m:apply>
+
 <m:cn>1</m:cn>
-</m:apply>
+
 </m:math>
 </equation>
 <para id="element-600">donde 1 es el ancho de una barra. Por lo tanto, barras = 6.</para>

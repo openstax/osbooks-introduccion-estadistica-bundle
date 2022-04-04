@@ -62,10 +62,10 @@
 </m:math>
 </item>
 </list> La letra minúscula <emphasis effect="italics">s</emphasis> representa la desviación típica de la muestra y la letra griega <emphasis effect="italics">σ</emphasis> (sigma, minúscula) representa la desviación típica de la población. <newline/> <newline/> El símbolo <m:math>
-<m:apply>
-  <m:conjugate/>
+
+  
   <m:ci>x</m:ci>
-</m:apply>
+
 </m:math> es la media muestral y el símbolo griego <m:math><m:mi>μ</m:mi></m:math> es la media de la población.</para></section>
 
 <section id="fs-idm36185184">
@@ -788,10 +788,10 @@
   <row>
     <entry>Muestra</entry>
     <entry><m:math><m:mi>x</m:mi></m:math> = <m:math>
-<m:apply>
-  <m:conjugate/>
+
+  
   <m:ci>x</m:ci>
-</m:apply>
+
 </m:math> + <emphasis effect="italics">zs</emphasis> </entry>
     <entry><m:math>
  <m:mrow>
@@ -882,7 +882,7 @@
 
  </m:mrow>
 </m:math>
-</para><para id="element-378">Para John, <m:math display="">
+</para><para id="element-378">Para John, <m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mo>n.º</m:mo><m:mi>o</m:mi><m:mi>e</m:mi><m:mi>S</m:mi><m:mi>T</m:mi><m:mi>D</m:mi><m:mi>E</m:mi><m:mi>V</m:mi><m:mi>s</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -1483,10 +1483,10 @@
 
 </tgroup>
 </table><list id="element-113" list-type="enumerated" number-style="lower-alpha"><item>Calcule la media muestral <m:math>
-<m:apply>
-  <m:conjugate/>
+
+  
   <m:ci>x</m:ci>
-</m:apply>
+
 </m:math>.</item>
 <item>Calcule la desviación típica aproximada de la muestra, <emphasis effect="italics">s</emphasis>.</item>
 </list></problem>
@@ -1538,7 +1538,7 @@
 </tbody>
 
 </tgroup>
-</table><list id="element-277" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Calcule la media muestral <m:math><m:apply><m:conjugate/><m:ci>x</m:ci></m:apply></m:math></item>
+</table><list id="element-277" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Calcule la media muestral <m:math><m:ci>x</m:ci></m:math></item>
 <item>Calcule la desviación típica de la muestra, <emphasis effect="italics">s</emphasis></item>
 <item>Construya un histograma de los datos.</item>
 <item>Rellene las columnas del cuadro.</item>

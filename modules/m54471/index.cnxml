@@ -85,7 +85,7 @@
 <para id="eip-idp74119024">área de un rectángulo = (base)(altura).</para></note><para id="element-961">El área corresponde a una probabilidad. La probabilidad de que <emphasis effect="italics">x</emphasis> esté entre cero y dos es 0,1, lo que se puede escribir matemáticamente como <emphasis effect="italics">P</emphasis>(0 &lt; <emphasis effect="italics">x</emphasis> &lt; 2) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 2) = 0,1.</para><para id="eip-553"><emphasis>Supongamos que queremos hallar el área entre <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math> y el eje <emphasis effect="italics">x</emphasis> donde 4 &lt; <emphasis effect="italics">x</emphasis> &lt; 15.</emphasis></para><figure id="fs-idm39582736"><media id="id40137735" alt="Esto muestra el gráfico de la función f(x) = 1/20. Una línea horizontal va desde el punto (0, 1/20) hasta el punto (20, 1/20). Una línea vertical se extiende desde el eje x hasta el final de la línea en el punto (20, 1/20) y crea un rectángulo. En el interior del rectángulo hay una región sombreada desde x = 4 hasta x = 15.">
 <image src="../../media/fig-ch05_02_03.jpg" mime-type="image/jpg" width="380"/></media></figure>
 
-<para id="fs-idm75475104"><m:math display="">
+<para id="fs-idm75475104"><m:math>
  <m:mrow>
   <m:mtext>ÁREA </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>15</m:mn><m:mtext> </m:mtext><m:mo>–</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -361,14 +361,14 @@
 </m:mrow>
 </m:math></para></problem>
 <solution id="fs-idm63500944">
-<para id="fs-idm21180864">La probabilidad es igual al área desde <emphasis effect="italics">x</emphasis> = <m:math display="">
+<para id="fs-idm21180864">La probabilidad es igual al área desde <emphasis effect="italics">x</emphasis> = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mn>3</m:mn>
 <m:mn>2</m:mn>
 </m:mfrac>
 </m:mrow>
-</m:math> hasta <emphasis effect="italics">x</emphasis> = 4 por encima del eje x y hasta <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math display="">
+</m:math> hasta <emphasis effect="italics">x</emphasis> = 4 por encima del eje x y hasta <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -403,7 +403,7 @@
 <glossary>
 <definition id="fs-idm138335264">
 <term>Distribución uniforme</term>
-<meaning id="fs-idm102638224">variable aleatoria (RV) continua que tiene resultados igualmente probables sobre el dominio, <emphasis effect="italics">a</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">b</emphasis>; a menudo se denomina <emphasis>distribución rectangular</emphasis> porque el gráfico de la pdf tiene la forma de un rectángulo. La media es <emphasis effect="italics">μ</emphasis> = <m:math display="">
+<meaning id="fs-idm102638224">variable aleatoria (RV) continua que tiene resultados igualmente probables sobre el dominio, <emphasis effect="italics">a</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">b</emphasis>; a menudo se denomina <emphasis>distribución rectangular</emphasis> porque el gráfico de la pdf tiene la forma de un rectángulo. La media es <emphasis effect="italics">μ</emphasis> = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -412,7 +412,7 @@
 <m:mn>2</m:mn>
 </m:mfrac>
 </m:mrow>
-</m:math> y la desviación típica es <m:math display="">
+</m:math> y la desviación típica es <m:math>
 <m:mrow>
 <m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt>
 <m:mrow>
@@ -436,7 +436,7 @@
 </m:mrow>
 </m:msqrt>
 </m:mrow>
-</m:math>. La función de densidad de probabilidad es <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math display="">
+</m:math>. La función de densidad de probabilidad es <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -445,7 +445,7 @@
 </m:mrow>
 </m:mfrac>
 </m:mrow>
-</m:math> para <emphasis effect="italics">a</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">b</emphasis> o <emphasis effect="italics">a</emphasis> ≤ <emphasis effect="italics">x</emphasis> ≤ <emphasis effect="italics">b</emphasis>. La distribución acumulativa es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ <emphasis effect="italics">x</emphasis>) = <m:math display="">
+</m:math> para <emphasis effect="italics">a</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">b</emphasis> o <emphasis effect="italics">a</emphasis> ≤ <emphasis effect="italics">x</emphasis> ≤ <emphasis effect="italics">b</emphasis>. La distribución acumulativa es <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ <emphasis effect="italics">x</emphasis>) = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -461,14 +461,14 @@
 </definition>
 <definition id="fs-idm29977280">
 <term>Distribución exponencial</term>
-<meaning id="fs-idm115662720">variable aleatoria continua (RV) que aparece cuando nos interesamos por los intervalos de tiempo entre algunos eventos aleatorios, por ejemplo, el tiempo entre las llegadas de emergencia a un hospital. La media es <emphasis effect="italics">μ</emphasis> = <m:math display="">
+<meaning id="fs-idm115662720">variable aleatoria continua (RV) que aparece cuando nos interesamos por los intervalos de tiempo entre algunos eventos aleatorios, por ejemplo, el tiempo entre las llegadas de emergencia a un hospital. La media es <emphasis effect="italics">μ</emphasis> = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
 <m:mi>m</m:mi>
 </m:mfrac>
 </m:mrow>
-</m:math> y la desviación típica es σ = <m:math display="">
+</m:math> y la desviación típica es σ = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>

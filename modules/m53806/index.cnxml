@@ -625,10 +625,10 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
   <row>
     <entry><emphasis>Muestra</emphasis></entry>
     <entry><m:math><m:mi>x</m:mi></m:math> = <m:math>
-<m:apply>
-  <m:conjugate/>
+
+  
   <m:ci>x</m:ci>
-</m:apply>
+
 </m:math> + <emphasis effect="italics">zs</emphasis> </entry>
     <entry><m:math>
  <m:mrow>
@@ -719,7 +719,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 
  </m:mrow>
 </m:math>
-</para><para id="element-378">Para John, <m:math display="">
+</para><para id="element-378">Para John, <m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mo>n.º</m:mo><m:mi>d</m:mi><m:mi>e</m:mi><m:mi>S</m:mi><m:mi>T</m:mi><m:mi>D</m:mi><m:mi>E</m:mi><m:mi>V</m:mi><m:mi> </m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -1431,10 +1431,10 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 
 </tgroup>
 </table><list id="element-113" list-type="enumerated" number-style="lower-alpha"><item>Calcule la media muestral <m:math>
-<m:apply>
-  <m:conjugate/>
+
+  
   <m:ci>x</m:ci>
-</m:apply>
+
 </m:math>.</item>
 <item>Calcule la desviación típica aproximada de la muestra, <emphasis effect="italics">s</emphasis>.</item>
 </list></problem>
@@ -1486,7 +1486,7 @@ Cuando se trata de estudiar una población, a menudo se utiliza una muestra, ya 
 </tbody>
 
 </tgroup>
-</table><list id="element-277" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Calcule la media muestral <m:math><m:apply><m:conjugate/><m:ci>x</m:ci></m:apply></m:math></item>
+</table><list id="element-277" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Calcule la media muestral <m:math><m:ci>x</m:ci></m:math></item>
 <item>Calcule la desviación típica de la muestra, <emphasis effect="italics">s</emphasis></item>
 <item>Construya un histograma de los datos.</item>
 <item>Rellene las columnas del cuadro.</item>

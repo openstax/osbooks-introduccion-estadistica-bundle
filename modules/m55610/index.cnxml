@@ -21,7 +21,7 @@
 <para id="element-895"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≥ 16,43 <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &lt; 16,43</para><para id="element-241">Para que Jeffrey nade más rápido, su tiempo debiera ser inferior a 16,43 segundos. El “&lt;” indica que es de cola izquierda.</para>
 
 <para id="element-496">Determine la distribución necesaria:</para>
-<para id="element-67"><emphasis>Variable aleatoria:</emphasis> <m:math><m:apply><m:conjugate/><m:mi>X</m:mi></m:apply></m:math> = el tiempo medio para nadar las 25 yardas de estilo libre.</para>
+<para id="element-67"><emphasis>Variable aleatoria:</emphasis> <m:math><m:mi>X</m:mi></m:math> = el tiempo medio para nadar las 25 yardas de estilo libre.</para>
 <para id="element-58"><emphasis> Distribución para el estadístico de prueba: </emphasis></para>
 <para id="element-681">El tamaño de la muestra es inferior a 30 y no conocemos la desviación típica de la población, por lo que se trata de una prueba t y la fórmula adecuada es: <m:math>
 <m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub>
@@ -857,7 +857,7 @@ Dibuje el gráfico de una prueba de dos colas.
 <solution id="fs-idm11266464">
 <list id="fs-idm126211024" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 69.110</item>
 <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 69.110</item>
-<item>Supongamos que <m:math display="">
+<item>Supongamos que <m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>

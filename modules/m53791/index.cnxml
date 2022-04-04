@@ -571,7 +571,7 @@
 <item><emphasis effect="italics">RF</emphasis> = frecuencia relativa,</item>
 </list><para id="eip-151">entonces:
 <equation class="unnumbered" id="element-1000"><label/><m:math>
-<m:semantics>
+
 <m:mrow>
 <m:mstyle fontsize="12pt">
 <m:mrow>
@@ -599,26 +599,26 @@
 </m:mstyle>
 <m:mrow/>
 </m:mrow>
-</m:semantics>
+
 </m:math>
 </equation></para><para id="eip-296">Por ejemplo, si tres estudiantes de la clase de Inglés del Sr. Ahab compuesta por 40 estudiantes obtuvieron del 90 % al 100 %, entonces, <!--<newline count="1"/>--><emphasis effect="italics">f</emphasis> = 3, <emphasis effect="italics">n</emphasis> = 40 y <emphasis effect="italics">RF</emphasis> = <m:math> <m:mrow><m:mfrac><m:mi>e</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow></m:math> = <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>40</m:mn></m:mrow></m:mfrac></m:mrow></m:math> = 0,075. El 7,5 % de los estudiantes obtuvieron del 90 % al 100 %. Del 90 % al 100 % son medidas cuantitativas.</para><para id="eip-226"><emphasis>Para construir un histograma</emphasis>, primero hay que decidir cuántas <emphasis>barras</emphasis> o <emphasis>intervalos</emphasis> (también llamados clases) representan los datos. Muchos histogramas constan de cinco a 15 barras o clases para mayor claridad. Hay que elegir el número de barras. Elija un punto de partida para que el primer intervalo sea menor que el valor más pequeño de los datos. Un <emphasis>punto de partida conveniente</emphasis> es un valor inferior llevado a un decimal más que el valor con más decimales. Por ejemplo, si el valor con más decimales es 6,1 y este es el valor más pequeño, un punto de partida conveniente es 6,05 (6,1 – 0,05 = 6,05). Decimos que 6,05 tiene más precisión. Si el valor con más decimales es 2,23 y el valor más bajo es 1,5, un punto de partida conveniente es 1,495 (1,5 – 0,005 = 1,495). Si el valor con más decimales es 3,234 y el valor más bajo es 1,0, un punto de partida conveniente es 0,9995 (1,0 – 0,0005 = 0,9995). Si todos los datos son enteros y el valor más pequeño es dos, un punto de partida conveniente es 1,5 (2 – 0,5 = 1,5). Además, cuando el punto de partida y otros límites se llevan a un decimal adicional, ningún valor de los datos caerá en un límite. Los dos siguientes ejemplos detallan cómo construir un histograma utilizando datos continuos y cómo crear un histograma utilizando datos discretos.</para><example id="eip-266"><para id="eip-id1167909692911">Los siguientes datos son las estaturas (en pulgadas con una aproximación de media pulgada) de 100 jugadores hombres de fútbol semiprofesional. Las alturas son datos <emphasis>continuos</emphasis>, ya que la altura se mide. <newline/>60; 60,5; 61; 61; 61,5 <newline/>63,5; 63,5; 63,5 <newline/>64; 64; 64; 64; 64; 64; 64; 64,5; 64,5; 64,5; 64,5; 64,5; 64,5; 64,5; 64,5 <newline/>66; 66; 66; 66; 66; 66; 66; 66; 66; 66; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 66,5; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67,5; 67,5; 67,5; 67,5; 67,5; 67,5; 67,5 <newline/>68; 68; 69; 69; 69; 69; 69; 69; 69; 69; 69; 69; 69,5; 69,5; 69,5; 69,5; 69,5 <newline/>70; 70; 70; 70; 70; 70; 70,5; 70,5; 70,5; 71; 71; 71 <newline/>72; 72; 72; 72,5; 72,5; 73; 73,5 <newline/>74
 </para><para id="eip-id1167906875400">El valor de datos más pequeño es 60. Como los datos con más decimales tienen un decimal (por ejemplo, 61,5), queremos que nuestro punto de partida tenga dos decimales. Dado que los números 0,5, 0,05, 0,005, etc. son números convenientes, utilice 0,05 y réstelo a 60, el valor más pequeño, para el punto de partida conveniente.</para>
 <para id="eip-id1167909600123">60 – 0,05 = 59,95 que es más preciso que, por ejemplo, 61,5 por un decimal. El punto de partida es, pues, 59,95.</para><para id="eip-id1167909517627">El valor mayor es 74, por lo que 74 + 0,05 = 74,05 es el valor final.</para><para id="eip-id1167893220376">Luego, calcule el ancho de cada barra o intervalo de clase. Para calcular este ancho, reste el punto inicial del valor final y divídalo entre el número de barras (debe elegir el número de barras que desee). Suponga que elige ocho barras.</para>
 <equation class="unnumbered" id="eip-id1167906381248">
 <m:math>
-<m:apply>
+
 <m:eq/>
-<m:apply>
+
 <m:divide/>
-<m:apply>
+
 <m:minus/>
 <m:cn>74,05</m:cn>
 <m:cn>59,95</m:cn>
-</m:apply>
+
 <m:cn>8</m:cn>
-</m:apply>
+
 <m:cn>1,76</m:cn>
-</m:apply>
+
 </m:math>
 </equation>
 
@@ -684,19 +684,19 @@
 </exercise><para id="eip-id1172519284498">Calcule el número de barras de la siguiente manera: </para>
 <equation id="eip-id1172520578091">
 <m:math>
-<m:apply>
+
 <m:eq/>
-<m:apply>
+
 <m:divide/>
-<m:apply>
+
 <m:minus/>
 <m:cn>6,5</m:cn>
 <m:cn>0,5</m:cn>
-</m:apply>
+
 <m:ci>número de barras</m:ci>
-</m:apply>
+
 <m:cn>1</m:cn>
-</m:apply>
+
 </m:math>
 </equation>
 <para id="eip-id1172522416147">donde 1 es el ancho de una barra. Por lo tanto, barras = 6.</para>

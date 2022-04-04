@@ -379,7 +379,7 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math> <newline/><emphasis effect="italics">k</emphasis> = <m:math display="">
+</m:math> <newline/><emphasis effect="italics">k</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -678,7 +678,7 @@
 
 <item>desviación típica <emphasis effect="italics">σ</emphasis> = <emphasis effect="italics">µ</emphasis></item>
 
-<item>percentil <emphasis effect="italics">k</emphasis>: <emphasis effect="italics">k</emphasis> = <m:math display="">
+<item>percentil <emphasis effect="italics">k</emphasis>: <emphasis effect="italics">k</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -1163,7 +1163,7 @@
   </m:msup>
 
  </m:mrow>
-</m:math></para><list id="fs-idp58814560" list-type="enumerated" number-style="lower-alpha"><item>Por lo tanto, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &lt; 1) = 1 – e<sup><m:math display="">
+</m:math></para><list id="fs-idp58814560" list-type="enumerated" number-style="lower-alpha"><item>Por lo tanto, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &lt; 1) = 1 – e<sup><m:math>
  <m:mrow>
   <m:mo>–</m:mo><m:mfrac>
    <m:mn>1</m:mn>
@@ -1171,7 +1171,7 @@
   </m:mfrac>
  </m:mrow>
 </m:math></sup> ≈ 0,1175.</item>
-<item>Queremos calcular <emphasis effect="italics">P</emphasis>(6 &lt; <emphasis effect="italics">t</emphasis> &lt; 10). <newline/>Para ello, <emphasis effect="italics">P</emphasis>(6 &lt; <emphasis effect="italics">t</emphasis> &lt; 10) – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">t</emphasis> &lt; 6) <newline/>= <m:math display="">
+<item>Queremos calcular <emphasis effect="italics">P</emphasis>(6 &lt; <emphasis effect="italics">t</emphasis> &lt; 10). <newline/>Para ello, <emphasis effect="italics">P</emphasis>(6 &lt; <emphasis effect="italics">t</emphasis> &lt; 10) – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">t</emphasis> &lt; 6) <newline/>= <m:math>
  <m:mrow>
   <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1208,7 +1208,7 @@
 <image mime-type="png/jpg" src="../../media/soln_04bF.jpg" width="380"/>
 </media>
 </figure></item>
-<item>Queremos calcular 0,70 <m:math display="">
+<item>Queremos calcular 0,70 <m:math>
  <m:mrow>
   <m:mo>=</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>T</m:mi><m:mo>></m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1236,7 +1236,7 @@
   </m:msup>
   <m:mo>.</m:mo>
  </m:mrow>
-</m:math> <newline/>Al resolver <emphasis effect="italics">t</emphasis>, e<sup><m:math display="">
+</m:math> <newline/>Al resolver <emphasis effect="italics">t</emphasis>, e<sup><m:math>
  <m:mrow>
   <m:mo>–</m:mo><m:mfrac>
    <m:mi>t</m:mi>
@@ -1244,7 +1244,7 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math></sup> = 0,70, por lo que <m:math display="">
+</m:math></sup> = 0,70, por lo que <m:math>
  <m:mrow>
   <m:mo>–</m:mo><m:mfrac>
    <m:mi>t</m:mi>
@@ -1289,7 +1289,7 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math></sup>. <newline/>Al resolver <emphasis effect="italics">t</emphasis>, <emphasis effect="italics">e</emphasis><sup><m:math display="">
+</m:math></sup>. <newline/>Al resolver <emphasis effect="italics">t</emphasis>, <emphasis effect="italics">e</emphasis><sup><m:math>
  <m:mrow>
   <m:mo>–</m:mo><m:mfrac>
    <m:mi>t</m:mi>
@@ -1297,7 +1297,7 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math></sup> = 0,98, por lo que <m:math display="">
+</m:math></sup> = 0,98, por lo que <m:math>
  <m:mrow>
   <m:mo>–</m:mo><m:mfrac>
    <m:mi>t</m:mi>
@@ -1462,7 +1462,7 @@
 </list>
 </problem>
 <solution id="fs-idm172049056">
-<list id="fs-idm172048800" list-type="enumerated" number-style="lower-alpha"><item><m:math display="">
+<list id="fs-idm172048800" list-type="enumerated" number-style="lower-alpha"><item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -1474,7 +1474,7 @@
  </m:mrow>
 </m:math> = 11,11</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 10) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 10) = 1 – Poissoncdf(11,11; 10) ≈ 0,5532.</item>
-<item>El número de personas con sangre de tipo B encontradas sigue más o menos la distribución de Poisson, por lo que el número de personas <emphasis effect="italics">X</emphasis> que llegan entre las sucesivas llegadas de tipo B es aproximadamente exponencial con media <emphasis effect="italics">μ</emphasis> = 9 y <emphasis effect="italics">m</emphasis> = <m:math display="">
+<item>El número de personas con sangre de tipo B encontradas sigue más o menos la distribución de Poisson, por lo que el número de personas <emphasis effect="italics">X</emphasis> que llegan entre las sucesivas llegadas de tipo B es aproximadamente exponencial con media <emphasis effect="italics">μ</emphasis> = 9 y <emphasis effect="italics">m</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>

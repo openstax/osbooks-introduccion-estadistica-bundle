@@ -716,11 +716,11 @@ Utilice las flechas para ir a la imagen del histograma y seleccione el histogram
 <m:math>
 <m:ci>r</m:ci>
 </m:math> y <m:math>
-<m:apply>
+
 <m:power/>
 <m:ci>r</m:ci>
 <m:cn>2</m:cn>
-</m:apply>
+
 </m:math> se mostrarán durante los cálculos de regresión.
 </item>
 
@@ -995,20 +995,20 @@ Si <code>[L1]</code> no está seleccionada, pulse la
 </item>
 
 <item>El punto crítico para un valor atípico es: <m:math>
-<m:apply>
+
 <m:times/>
 <m:cn>1,9</m:cn>
 <m:ci>V</m:ci>
-<m:apply>
+
 <m:divide/>
 <m:ci>SSE</m:ci>
-<m:apply>
+
 <m:minus/>
 <m:ci>n</m:ci>
 <m:cn>2</m:cn>
-</m:apply>
-</m:apply>
-</m:apply>
+
+
+
 </m:math> donde: <list id="fs-id13668874">
 <item>
 <m:math>
@@ -1022,14 +1022,14 @@ Si <code>[L1]</code> no está seleccionada, pulse la
 </item>
 <item>
 <m:math>
-<m:apply>
+
 <m:sum/>
-<m:apply>
+
 <m:power/>
 <m:ci>residual</m:ci>
 <m:cn>2</m:cn>
-</m:apply>
-</m:apply>
+
+
 </m:math>
 </item>
 </list>
@@ -1051,29 +1051,29 @@ Si <code>[L1]</code> no está seleccionada, pulse la
 
 <item>
 <para id="fs-id15734182">Calcule el <m:math>
-<m:apply>
+
 <m:divide/>
-<m:apply>
+
 <m:power/>
 <m:ci>(residuo)</m:ci>
 <m:cn>2</m:cn>
-</m:apply>
-<m:apply>
+
+
 <m:minus/>
 <m:ci>n</m:ci>
 <m:cn>2</m:cn>
-</m:apply>
-</m:apply>
+
+
 </m:math>. Observe que <m:math>
-<m:apply>
+
 <m:eq/>
-<m:apply>
+
 <m:minus/>
 <m:ci>n</m:ci>
 <m:cn>2</m:cn>
-</m:apply>
+
 <m:cn>8</m:cn>
-</m:apply>
+
 </m:math> <newline/>
 <media id="fs-id15680372" display="inline" alt="tecla 2nd">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
@@ -1182,10 +1182,10 @@ Si <code>[L1]</code> no está seleccionada, pulse la
 </m:math> utiliza el valor -1EE99 para el límite izquierdo</item>
           <item>
             <m:math>
-              <m:apply>
+              
                 <m:plus/>
                 <m:infinity/>
-              </m:apply>
+              
             </m:math> utiliza el valor 1EE99 para el límite derecho</item>
 </list></para><para id="eip-402"><title>Distribución normal</title><list id="eip-idp89416480">
 
