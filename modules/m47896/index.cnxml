@@ -714,13 +714,12 @@ Utilice las flechas para ir a la imagen del histograma y seleccione el histogram
 
 <item>
 <m:math>
-<m:ci>r</m:ci>
+<m:mi>r</m:mi>
 </m:math> y <m:math>
 
-<m:power/>
-<m:ci>r</m:ci>
-<m:cn>2</m:cn>
-
+<m:msup><m:mi>r</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
 </m:math> se mostrarán durante los cálculos de regresión.
 </item>
 
@@ -994,43 +993,17 @@ Si <code>[L1]</code> no está seleccionada, pulse la
 </para>
 </item>
 
-<item>El punto crítico para un valor atípico es: <m:math>
+<item>El punto crítico para un valor atípico es:
 
-<m:times/>
-<m:cn>1,9</m:cn>
-<m:ci>V</m:ci>
-
-<m:divide/>
-<m:ci>SSE</m:ci>
-
-<m:minus/>
-<m:ci>n</m:ci>
-<m:cn>2</m:cn>
-
-
-
+<m:math><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mi>V</m:mi><m:mfrac><m:mi>SSE</m:mi><m:mrow><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac>
 </m:math> donde: <list id="fs-id13668874">
 <item>
 <m:math>
-<m:ci>n</m:ci>
+<m:mi>n</m:mi>
 </m:math> = número de pares de datos
 </item>
 <item>
-<m:math>
-<m:ci>SSE</m:ci>
-</m:math> = suma de errores cuadrados (sum of squared errors)
-</item>
-<item>
-<m:math>
-
-<m:sum/>
-
-<m:power/>
-<m:ci>residual</m:ci>
-<m:cn>2</m:cn>
-
-
-</m:math>
+<m:math><m:mi>Σ</m:mi><m:msup><m:mi>residual</m:mi><m:mn>2</m:mn></m:msup></m:math>
 </item>
 </list>
 </item>
@@ -1050,31 +1023,10 @@ Si <code>[L1]</code> no está seleccionada, pulse la
 </item>
 
 <item>
-<para id="fs-id15734182">Calcule el <m:math>
-
-<m:divide/>
-
-<m:power/>
-<m:ci>(residuo)</m:ci>
-<m:cn>2</m:cn>
-
-
-<m:minus/>
-<m:ci>n</m:ci>
-<m:cn>2</m:cn>
-
-
-</m:math>. Observe que <m:math>
-
-<m:eq/>
-
-<m:minus/>
-<m:ci>n</m:ci>
-<m:cn>2</m:cn>
-
-<m:cn>8</m:cn>
-
-</m:math> <newline/>
+<para id="fs-id15734182">Calcule el 
+<m:math><m:mfrac><m:msup><m:mi>Σresiduo</m:mi><m:mn>2</m:mn></m:msup><m:mrow><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:math>. Observe que
+<m:math><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>8</m:mn></m:math>
+<newline/>
 <media id="fs-id15680372" display="inline" alt="tecla 2nd">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[L3]</code> ,
@@ -1176,17 +1128,13 @@ Si <code>[L1]</code> no está seleccionada, pulse la
         <para id="eip-283"><title>Distribuciones continuas (en general)</title><list id="eip-idp115972320">
 <item>
             <m:math>
- <m:mrow>
   <m:mo>–</m:mo><m:mi>∞</m:mi>
- </m:mrow>
 </m:math> utiliza el valor -1EE99 para el límite izquierdo</item>
           <item>
             <m:math>
-              
-                <m:plus/>
-                <m:infinity/>
-              
+                <m:mi>∞</m:mi>
             </m:math> utiliza el valor 1EE99 para el límite derecho</item>
+            
 </list></para><para id="eip-402"><title>Distribución normal</title><list id="eip-idp89416480">
 
 <item><code display="inline">normalpdf(<emphasis effect="italics">x</emphasis>,<emphasis effect="italics">μ</emphasis>,<emphasis effect="italics">σ</emphasis>)</code>  produce un valor de la función de densidad de probabilidad (solo es útil para trazar la curva normal, en cuyo caso "<code display="inline"><emphasis effect="italics">x</emphasis></code>“ es la variable)</item>

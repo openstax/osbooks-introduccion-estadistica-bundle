@@ -455,7 +455,7 @@
 
   </m:mrow>
 
-</m:math> Donde <emphasis effect="italics">f</emphasis> = frecuencias de intervalo y <emphasis effect="italics">m</emphasis> = puntos medios de intervalo.</para><para id="eip-709">La media aritmética de una muestra (denominada <m:math><m:ci>x</m:ci></m:math>) es <m:math>
+</m:math> Donde <emphasis effect="italics">f</emphasis> = frecuencias de intervalo y <emphasis effect="italics">m</emphasis> = puntos medios de intervalo.</para><para id="eip-709">La media aritmética de una muestra (denominada <m:math><m:mi>x</m:mi></m:math>) es <m:math>
  <m:mrow>
   <m:mover accent="true">
    <m:mi>x</m:mi>
@@ -564,8 +564,7 @@
 <problem id="id5461618">
 <para id="prob_4">media muestral = <m:math>
 
-  
-  <m:ci>x</m:ci>
+  <m:menclose notation="top"><m:mi>x</m:mi></m:menclose>
 
 </m:math> = _______
 </para></problem>
@@ -722,12 +721,8 @@
 </thead>
 <tbody>
   <row>
-    <entry><m:math>
-
-  
-  <m:ci>x</m:ci>
-
-</m:math></entry>
+    
+<entry><m:math><m:menclose notation="top"><m:mi>x</m:mi></m:menclose></m:math></entry>
     <entry>6,0 millas</entry>
     <entry>6,0 millas</entry>
   </row>
@@ -855,7 +850,7 @@
 
 <definition id="mean">
 <term>Media (aritmética)</term>
-<meaning id="id10578364"> un número que mide la tendencia central de los datos; un nombre común para la media es 'promedio'. El término “media” es una forma abreviada de “media aritmética”. Por definición, la media de una muestra (denotada por <m:math><m:ci>x</m:ci></m:math>) es <m:math>
+<meaning id="id10578364"> un número que mide la tendencia central de los datos; un nombre común para la media es 'promedio'. El término “media” es una forma abreviada de “media aritmética”. Por definición, la media de una muestra (denotada por <m:math><m:mi>x</m:mi></m:math>) es <m:math>
  <m:mrow>
   <m:mover accent="true">
    <m:mi>x</m:mi>

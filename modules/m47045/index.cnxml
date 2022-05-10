@@ -180,12 +180,12 @@
 </tgroup>
 </table>
 <para id="element-445">Los datos <emphasis>para la prueba</emphasis> son las diferencias: {0,2; –4,1; –1,6; –1,8; –3,2; –2; –2,9; –9,6}</para><para id="element-214">La media muestral y la desviación típica de la muestra de las diferencias son: <m:math>
-<m:mspace width="20pt"/>
-
 
 <m:msub>
-<m:ci>x</m:ci>
-<m:mi>d</m:mi>
+  <m:menclose notation="top">
+    <m:mi>x</m:mi>
+    <m:mi>d</m:mi>
+</m:menclose>
 </m:msub>
 
 <m:mo>=</m:mo>
