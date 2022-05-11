@@ -748,7 +748,7 @@
 <image src="../../media/fig-ch05_03_11N.jpg" mime-type="image/jpeg" width="380"/>
 </media>
 <caption>Distribución uniforme entre 1,5 y 4 con un área de 0,25 sombreada a la derecha que representa el 25 % más largo de los tiempos de reparación.</caption></figure></para><para id="fs-idp80199408"><newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > <emphasis effect="italics">k</emphasis>) = 0,25 <newline/> <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > <emphasis effect="italics">k</emphasis>) = (base)(altura) = (4 – <emphasis effect="italics">k</emphasis>)(0,4) <newline/><emphasis>0,25 = (4 – <emphasis effect="italics">k</emphasis>)(0,4)</emphasis>; resuelva para <emphasis effect="italics">k</emphasis>: <newline/>0,625 = 4 − <emphasis effect="italics">k</emphasis>, <newline/>que se obtuvo dividiendo ambos lados entre 0,4 <newline/>−3,375 = −<emphasis effect="italics">k</emphasis>, <newline/>que se obtuvo restando cuatro a ambos lados: <emphasis> <emphasis effect="italics">k</emphasis> = 3,375</emphasis> <newline/>El 25 % de las reparaciones de hornos más largas tardan al menos 3,375 horas (3,375 horas o más). <newline/><emphasis>Nota:</emphasis> Dado que el 25 % de los tiempos de reparación es de 3,375 horas o más, eso significa que el 75 % de los tiempos de reparación son de 3,375 horas o menos. 3,375 horas es el <emphasis>percentil 75<sup/></emphasis> de los tiempos de reparación de hornos.</para>
-<para id="fs-idp136143312">e <m:math>
+<para id="fs-idp136143312">e. <m:math>
 <m:mrow>
 <m:mi>μ</m:mi><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -778,10 +778,13 @@
 </m:msqrt>
 </m:mrow>
 </m:math> <newline/><m:math>
-<m:mrow><m:mi>μ</m:mi></m:mrow>
-<m:mrow><m:mfrac><m:mrow><m:mn>1,5</m:mn><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow>
-<m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow>
-<m:mrow><m:mn>2,75</m:mn></m:mrow>
+<m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo>
+<m:mfrac>
+  <m:mrow><m:mn>1,5</m:mn><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow>
+  <m:mrow><m:mn>2</m:mn></m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mn>2,75</m:mn></m:mrow>
 </m:math> horas y <m:math>
  <m:mrow>
   <m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt>
