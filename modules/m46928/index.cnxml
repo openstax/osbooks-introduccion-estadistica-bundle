@@ -14,7 +14,7 @@
 <title>NOTA</title>
 <para id="fs-idp62684352">Las palabras “media” y “promedio” se suelen usar indistintamente. La sustitución de una palabra por otra es una práctica habitual. El término técnico es “media aritmética” y “promedio” es técnicamente un lugar central. Sin embargo, en la práctica, entre los no estadísticos, se suele aceptar “promedio” por “media aritmética”.</para></note>
 
-<para id="element-44">Cuando cada valor del conjunto de datos no es único, la media se puede calcular multiplicando cada valor distinto por su frecuencia y dividiendo después la suma por el número total de valores de los datos. La letra utilizada para representar la <emphasis>media muestral</emphasis> es una <emphasis effect="italics">x</emphasis> con una barra encima (se pronuncia “barra de <emphasis effect="italics">x</emphasis>”): <m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:math>.</para><para id="element-705">La letra griega <emphasis effect="italics">μ</emphasis> (se pronuncia “mu”) representa la <emphasis>media de la población</emphasis>. Uno de los requisitos para que la <emphasis>media muestral</emphasis> sea una buena estimación de la <emphasis>media de la población</emphasis> es que la muestra tomada sea realmente aleatoria.</para>
+<para id="element-44">Cuando cada valor del conjunto de datos no es único, la media se puede calcular multiplicando cada valor distinto por su frecuencia y dividiendo después la suma por el número total de valores de los datos. La letra utilizada para representar la <emphasis>media muestral</emphasis> es una <emphasis effect="italics">x</emphasis> con una barra encima (se pronuncia “barra de <emphasis effect="italics">x</emphasis>”): <m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math>.</para><para id="element-705">La letra griega <emphasis effect="italics">μ</emphasis> (se pronuncia “mu”) representa la <emphasis>media de la población</emphasis>. Uno de los requisitos para que la <emphasis>media muestral</emphasis> sea una buena estimación de la <emphasis>media de la población</emphasis> es que la muestra tomada sea realmente aleatoria.</para>
 
 <para id="element-228">Para ver que ambas formas de calcular la media son iguales, considere la muestra: <newline/>1; 1; 1; 2; 2; 3; 4; 4; 4; 4; 4</para><equation class="unnumbered" id="element-46"><label/><m:math>
 <m:mover>
@@ -724,7 +724,7 @@
 <para id="fs-idp43142960"><newline/><emphasis effect="italics">Use la siguiente información para responder los próximos tres ejercicios:</emphasis> se preguntó a sesenta y cinco vendedores de automóviles seleccionados al azar el número de automóviles que suelen vender en una semana. Catorce personas respondieron que generalmente venden tres, diecinueve que venden cuatro, doce que venden cinco, nueve que venden seis y once que venden siete. Calcule lo siguiente:</para><exercise id="exercisefour">
 <problem id="id5461618">
 <para id="prob_4">media muestral = 
-  <m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:math> = _______
+  <m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math> = _______
 </para></problem>
 </exercise>
 
@@ -882,7 +882,7 @@
 </thead>
 <tbody>
   <row>
-<entry><m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:math></entry>
+<entry><m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math></entry>
     <entry>6,0 millas</entry>
     <entry>6,0 millas</entry>
   </row>
@@ -1013,7 +1013,7 @@
 
 <definition id="mean">
 <term>Media</term>
-<meaning id="id10578364"> un número que mide la tendencia central de los datos; un nombre común para la media es 'promedio'. El término “media” es una forma abreviada de “media aritmética”. Por definición, la media de una muestra (denotada por <m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:math>) es <m:math>
+<meaning id="id10578364"> un número que mide la tendencia central de los datos; un nombre común para la media es 'promedio'. El término “media” es una forma abreviada de “media aritmética”. Por definición, la media de una muestra (denotada por <m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math>) es <m:math>
  <m:mrow>
   <m:mover accent="true">
    <m:mi>x</m:mi>
