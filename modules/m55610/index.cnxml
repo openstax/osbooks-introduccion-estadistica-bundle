@@ -111,9 +111,9 @@ Dado que el problema se refiere a una media, se trata de una prueba de una únic
   </para>
 
 <para id="eip-idm108002480"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 40</para>
-<para id="eip-idm216373056"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 40</para><para id="eip-idm58633744"><emphasis effect="italics">p</emphasis> = 0,0062</para>
+<para id="eip-idm216373056"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 40</para><para id="eip-idm58633744"><emphasis effect="italics">p</emphasis> = 0,0062</para>
 
-<figure id="fs-idm152825344"><media id="eip-idm58633360" alt="">
+<figure id="fs-idm152825344"><media id="eip-idm58633360" alt="Curva de distribución normal que muestra el valor p, con un promedio de 40 y un punto de corte en 45.">
   <image mime-type="image/jpeg" src="../../media/CNX_Stats_C09_M11_tryit001annoN.jpg" width="380"/>
 </media></figure><para id="eip-idm24608304">Como <emphasis effect="italics">p</emphasis> &lt; <emphasis effect="italics">α</emphasis>, rechazamos la hipótesis nula. Hay pruebas suficientes para sugerir que el cambio de agarre mejoró la distancia de lanzamiento de Marco.</para>
 </solution></exercise>
@@ -124,12 +124,12 @@ Dado que el problema se refiere a una media, se trata de una prueba de una únic
 
 <solution id="eip-186">
   <para id="eip-693">
-    <list id="eip-id1168265727937" list-type="enumerated" number-style="arabic"><item>H<sub>0</sub>: µ ≤ 100 <newline/>H<sub>a</sub>: µ > 100 <newline/> Las hipótesis nula y alternativa son para el parámetro µ porque el número de dólares de los contratos es una variable aleatoria continua. Además, se trata de una prueba de una cola porque a la compañía solo le interesa si el número de dólares por contacto está por debajo de una cifra determinada, no de una cifra "demasiado alta". Esto se considera una afirmación de que el requisito se cumple; por ende, está en la hipótesis alternativa.
+    <list id="eip-id1168265727937" list-type="enumerated" number-style="arabic"><item>H<sub>0</sub>: µ ≤ 100 <newline/>H<sub>a</sub>: µ &gt; 100 <newline/> Las hipótesis nula y alternativa son para el parámetro µ porque el número de dólares de los contratos es una variable aleatoria continua. Además, se trata de una prueba de una cola porque a la compañía solo le interesa si el número de dólares por contacto está por debajo de una cifra determinada, no de una cifra "demasiado alta". Esto se considera una afirmación de que el requisito se cumple; por ende, está en la hipótesis alternativa.
  </item>
 <item>Estadístico de prueba: <m:math><m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>–</m:mo><m:msub><m:mi>µ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mfrac><m:mi>s</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>108</m:mn><m:mo>–</m:mo><m:mn>100</m:mn></m:mrow><m:mrow><m:mo>(</m:mo><m:mfrac><m:mn>12</m:mn><m:msqrt><m:mn>16</m:mn></m:msqrt></m:mfrac><m:mo>)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2,67</m:mn></m:math></item>
 <item>Valor crítico: <m:math><m:msub><m:mi>t</m:mi><m:mi>a</m:mi></m:msub><m:mo>=</m:mo><m:mn>1,753</m:mn></m:math> con n-1 grados de libertad = 15</item>
 </list></para>
-<para id="eip-id1165105401617">El estadístico de prueba es una t de Student porque el tamaño de la muestra es inferior a 30; por ende, no podemos utilizar la distribución normal. Al comparar el valor calculado del estadístico de prueba y el valor crítico de <m:math><m:mi>t</m:mi></m:math> <m:math><m:mo>(</m:mo><m:msub><m:mi>t</m:mi><m:mi>a</m:mi></m:msub><m:mo>)</m:mo></m:math> a un nivel de significación del 5 %, vemos que el valor calculado está en la cola de la distribución. Así, concluimos que 108 dólares por contrato es significativamente mayor que el valor hipotético de 100; por ende, no podemos aceptar la hipótesis nula. Hay pruebas que apoyan que el desempeño de Jane cumple con los estándares de la compañía.</para><figure id="eip-id1169369014682"><media id="eip-id1169342879021" alt=""><image src="../../media/fig-ch09_01_08.jpg" mime-type="image/png"/></media></figure></solution>
+<para id="eip-id1165105401617">El estadístico de prueba es una t de Student porque el tamaño de la muestra es inferior a 30; por ende, no podemos utilizar la distribución normal. Al comparar el valor calculado del estadístico de prueba y el valor crítico de <m:math><m:mi>t</m:mi></m:math> <m:math><m:mo>(</m:mo><m:msub><m:mi>t</m:mi><m:mi>a</m:mi></m:msub><m:mo>)</m:mo></m:math> a un nivel de significación del 5 %, vemos que el valor calculado está en la cola de la distribución. Así, concluimos que 108 dólares por contrato es significativamente mayor que el valor hipotético de 100; por ende, no podemos aceptar la hipótesis nula. Hay pruebas que apoyan que el desempeño de Jane cumple con los estándares de la compañía.</para><figure id="eip-id1169369014682"><media id="eip-id1169342879021" alt="Distribución t de Student. La región sombreada indica el nivel de significancia alfa=0,05. El valor crítico es 1,753 y el estadístico t_c=2,67."><image src="../../media/fig-ch09_01_08.jpg" mime-type="image/png"/></media></figure></solution>
 </exercise></example><note id="fs-idm186895712" class="statistics try"><label/><title>Ejercicio</title>
 
 <exercise id="eip-454">
@@ -237,7 +237,7 @@ Dado que el problema se refiere a una media, se trata de una prueba de una únic
 </para></solution></exercise></example></section>
 
 <section id="eip-100"><title>Prueba de hipótesis para las proporciones</title><para id="eip-493">Al igual que existían intervalos de confianza para las proporciones, o más formalmente, el parámetro poblacional <emphasis effect="italics">p</emphasis> de la distribución binomial, existe la posibilidad de contrastar hipótesis relativas a <emphasis effect="italics">p</emphasis>. 
-</para><para id="eip-319">El parámetro poblacional para la binomial es <emphasis effect="italics">p</emphasis>. El valor estimado (estimación puntual) para <emphasis effect="italics">p</emphasis> es <emphasis effect="italics">p′</emphasis> donde <emphasis effect="italics">p′ = x/n</emphasis>, <emphasis effect="italics">x</emphasis> es el número de aciertos en la muestra y <emphasis effect="italics">n</emphasis> es el tamaño de la muestra.</para><para id="eip-24">Cuando se realiza una prueba de hipótesis de una proporción poblacional <emphasis effect="italics">p</emphasis>, se toma una muestra aleatoria simple de la población. Deberán cumplirse las condiciones de la <term id="term-00001">distribución binomial</term>, a saber: que haya un cierto número <emphasis effect="italics">n</emphasis> de ensayos independientes, lo que significa un muestreo aleatorio; que los resultados de cualquier ensayo sean binarios, éxito o fracaso, y que cada ensayo tenga la misma probabilidad de éxito <emphasis effect="italics">p</emphasis>. La forma de la distribución binomial debe ser similar a la forma de la distribución normal. Para ello, las cantidades <emphasis effect="italics">np′</emphasis> y <emphasis effect="italics">nq′</emphasis> deben ser ambas mayores que cinco (<emphasis effect="italics">np′</emphasis> > 5 y <emphasis effect="italics">nq′</emphasis> > 5). En este caso, la distribución binomial de una proporción muestral (estimada) se calcula aproximadamente por la distribución normal con <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mi>np</m:mi></m:math> y <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mi>npq</m:mi></m:msqrt></m:math>. Recuerde que <m:math><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi></m:math>. No hay ninguna distribución que corrija este pequeño sesgo de la muestra; por ende, si no se cumplen estas condiciones, simplemente no podemos probar la hipótesis con los datos disponibles en ese momento. Cumplimos esta condición cuando estimamos por primera vez los intervalos de confianza para <emphasis effect="italics">p</emphasis>. 
+</para><para id="eip-319">El parámetro poblacional para la binomial es <emphasis effect="italics">p</emphasis>. El valor estimado (estimación puntual) para <emphasis effect="italics">p</emphasis> es <emphasis effect="italics">p′</emphasis> donde <emphasis effect="italics">p′ = x/n</emphasis>, <emphasis effect="italics">x</emphasis> es el número de aciertos en la muestra y <emphasis effect="italics">n</emphasis> es el tamaño de la muestra.</para><para id="eip-24">Cuando se realiza una prueba de hipótesis de una proporción poblacional <emphasis effect="italics">p</emphasis>, se toma una muestra aleatoria simple de la población. Deberán cumplirse las condiciones de la <term id="term-00001">distribución binomial</term>, a saber: que haya un cierto número <emphasis effect="italics">n</emphasis> de ensayos independientes, lo que significa un muestreo aleatorio; que los resultados de cualquier ensayo sean binarios, éxito o fracaso, y que cada ensayo tenga la misma probabilidad de éxito <emphasis effect="italics">p</emphasis>. La forma de la distribución binomial debe ser similar a la forma de la distribución normal. Para ello, las cantidades <emphasis effect="italics">np′</emphasis> y <emphasis effect="italics">nq′</emphasis> deben ser ambas mayores que cinco (<emphasis effect="italics">np′</emphasis> &gt; 5 y <emphasis effect="italics">nq′</emphasis> &gt; 5). En este caso, la distribución binomial de una proporción muestral (estimada) se calcula aproximadamente por la distribución normal con <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mi>np</m:mi></m:math> y <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mi>npq</m:mi></m:msqrt></m:math>. Recuerde que <m:math><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi></m:math>. No hay ninguna distribución que corrija este pequeño sesgo de la muestra; por ende, si no se cumplen estas condiciones, simplemente no podemos probar la hipótesis con los datos disponibles en ese momento. Cumplimos esta condición cuando estimamos por primera vez los intervalos de confianza para <emphasis effect="italics">p</emphasis>. 
 </para><para id="eip-383">Nuevamente, comenzamos con la fórmula normalizadora modificada porque se trata de la distribución de una binomial.</para>
 <equation id="fs-id1170343275188" class="unnumbered"><label/><m:math>
 <m:mi>Z</m:mi>
@@ -318,7 +318,7 @@ Dado que el problema se refiere a una media, se trata de una prueba de una únic
   </row>
   <row>
     <entry align="center">H<sub>a</sub>: p ≠ p<sub>0</sub></entry>
-    <entry align="center">H<sub>a</sub>: p > p<sub>0</sub></entry>
+    <entry align="center">H<sub>a</sub>: p &gt; p<sub>0</sub></entry>
     <entry align="center">H<sub>a</sub>: p &lt; p<sub>0</sub></entry>
   </row>
 </tbody>
@@ -404,9 +404,9 @@ Dado que el problema se refiere a una media, se trata de una prueba de una únic
 <para id="eip-idp139727615275152">Ya que el problema es de porcentajes, se trata de una prueba de proporciones de una sola población.</para>
 <para id="eip-idp139727615275648"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> = 0,85</para>
 <para id="eip-idp139727615276416"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≠ 0,85</para><para id="eip-idp139727615277216"><emphasis effect="italics">p</emphasis> = 0,7554</para>
-<figure id="fs-idp11874016"><media id="eip-idp139727615277600" alt="">
+<figure id="fs-idp11874016"><media id="eip-idp139727615277600" alt="Gráfico de distribución normal mostrando un valor p de dos colas. Las áreas sombreadas en los extremos representan 1/2 del valor p, con un centro en 0,85 y un límite de 0,78.">
   <image mime-type="image/jpeg" src="../../media/CNX_Stats_C09_M11_tryit002annoN.jpg" width="380"/>
-</media></figure><para id="eip-idp95887808">Como <emphasis effect="italics">p</emphasis> > <emphasis effect="italics">α</emphasis>, no rechazamos la hipótesis nula. No hay pruebas suficientes que indiquen que la proporción de estudiantes que quieren ir al zoológico no sea del 85 %.</para>
+</media></figure><para id="eip-idp95887808">Como <emphasis effect="italics">p</emphasis> &gt; <emphasis effect="italics">α</emphasis>, no rechazamos la hipótesis nula. No hay pruebas suficientes que indiquen que la proporción de estudiantes que quieren ir al zoológico no sea del 85 %.</para>
 </solution>
 </exercise></note><example id="element-577"><exercise id="element-312"><problem id="id5318755">
   <para id="element-451">Supongamos que un grupo de consumidores estima que la proporción de hogares que tienen tres o más teléfonos móviles es del 30 %. Una compañía de telefonía móvil tiene razones para creer que la proporción no es del 30 %. Antes de iniciar una gran campaña publicitaria realizan una prueba de hipótesis. Su personal de mercadeo realiza una encuesta en 150 hogares, con el resultado de que 43 tienen tres o más teléfonos móviles.</para></problem>
@@ -519,7 +519,7 @@ Dado que el problema se refiere a una media, se trata de una prueba de una únic
 <solution id="eip-974">
 <para id="eip-idp69766080">Sigamos un proceso de cuatro pasos para responder esta pregunta estadística. <list id="eip-idp69766512" list-type="enumerated" number-style="arabic"><item><emphasis>Plantee la pregunta</emphasis>: Tenemos que determinar si, a un nivel de significación de 0,05, la conductividad promedio del vidrio seleccionado es mayor que uno. Nuestras hipótesis serán <list id="eip-idp129554720" list-type="enumerated" number-style="lower-alpha">
 <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 1</item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 1</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 1</item>
 </list></item>
 <item><emphasis>Plan</emphasis>: Estamos probando una media muestral sin una desviación típica poblacional conocida con menos de 30 observaciones. Por consiguiente, tenemos que utilizar una distribución de la t de Student. Supongamos que la población subyacente es normal.</item>
 <item><emphasis>Haga los cálculos y dibuje el gráfico</emphasis>.
@@ -536,7 +536,7 @@ Dado que el problema se refiere a una media, se trata de una prueba de una únic
 <solution id="eip-749">
 
 <list id="eip-idp191218624" list-type="enumerated" number-style="arabic"><item>Tenemos que realizar una prueba de hipótesis sobre la tasa de cáncer declarada. Nuestras hipótesis serán <list id="eip-idp171226608" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≤ 0,00034</item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> > 0,00034</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> &gt; 0,00034</item>
 </list><para id="eip-idm39752176">Si cometemos un error tipo I, estamos aceptando esencialmente una afirmación falsa. Dado que la afirmación describe entornos cancerígenos, queremos minimizar las posibilidades de identificar incorrectamente las causas del cáncer.</para>
 </item>
 
@@ -579,7 +579,7 @@ Estadística de una prueba de hipótesis de proporciones:
 </exercise>
 
 <exercise id="eip-815"><problem id="eip-286">
-  <para id="eip-480">Supongamos que <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 6 y <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 6. ¿Es una prueba de cola izquierda, de cola derecha o de dos colas?</para>
+  <para id="eip-480">Supongamos que <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 6 y <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 6. ¿Es una prueba de cola izquierda, de cola derecha o de dos colas?</para>
 </problem>
 </exercise><exercise id="fs-idp45725152">
 <problem id="eip-116">
@@ -600,7 +600,7 @@ Dibuje el gráfico de una prueba de dos colas.
 
 <solution id="eip-841">
 
-<figure id="fs-idm149132800"><media id="eip-idp62459136" alt="">
+<figure id="fs-idm149132800"><media id="eip-idp62459136" alt="Ilustración de una curva de campana con la media (µ) y dos áreas sombreadas que representan la mitad del valor p en cada cola, indicando una prueba de hipótesis bilateral.">
   <image mime-type="image/jpeg" src="../../media/CNX_Stats_C09_M09_item002annoN.jpg" width="380"/>
 </media></figure></solution>
 </exercise>
@@ -857,7 +857,7 @@ Dibuje el gráfico de una prueba de dos colas.
   </para></problem>
 <solution id="fs-idm11266464">
 <list id="fs-idm126211024" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 69.110</item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 69.110</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 69.110</item>
 <item>Supongamos que <m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
@@ -987,7 +987,7 @@ Dibuje el gráfico de una prueba de dos colas.
 
 <solution id="eip-586">
 <list id="eip-idp114932976" list-type="enumerated" number-style="lower-alpha">
-<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ</emphasis> ≤ 5,8 <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ</emphasis> > 5,8</item>
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ</emphasis> ≤ 5,8 <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ</emphasis> &gt; 5,8</item>
 <item>valor <emphasis effect="italics">p</emphasis> = 0,9987</item>
 <item>alfa = 0,05</item>
 <item>no rechazar la hipótesis nula.</item>

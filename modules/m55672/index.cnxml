@@ -52,7 +52,7 @@
 </m:mrow>
 </m:mfrac>
 </m:msub>
-</m:math> son las proporciones de la muestra para los dos conjuntos de datos en cuestión. X<sub>A</sub> y X<sub>B</sub> son el número de aciertos en cada grupo de la muestra, respectivamente, y n<sub>A</sub> y n<sub>B</sub> son los tamaños de muestra respectivos de los dos grupos. De nuevo acudimos al teorema del límite central para hallar la distribución muestral con respecto a las diferencias en las proporciones de la muestra. También nos encontramos con que esta distribución muestral, al igual que las anteriores, se distribuye normalmente, tal y como demuestra el teorema del límite central, como se ve en la <link target-id="fs-id1171052108018"/>.</para><figure id="fs-id1171052108018"><media id="fs-id1171049570695" alt=""><image src="../../media/fig-ch10_01_02.jpg" mime-type="image/png"/></media></figure><para id="eip-50">En general, la hipótesis nula permite probar una diferencia de un valor determinado, 𝛿<sub>0</sub>, tal como hicimos para el caso de las diferencias de medias.</para><equation id="eip-671" class="unnumbered"><label/><m:math>
+</m:math> son las proporciones de la muestra para los dos conjuntos de datos en cuestión. X<sub>A</sub> y X<sub>B</sub> son el número de aciertos en cada grupo de la muestra, respectivamente, y n<sub>A</sub> y n<sub>B</sub> son los tamaños de muestra respectivos de los dos grupos. De nuevo acudimos al teorema del límite central para hallar la distribución muestral con respecto a las diferencias en las proporciones de la muestra. También nos encontramos con que esta distribución muestral, al igual que las anteriores, se distribuye normalmente, tal y como demuestra el teorema del límite central, como se ve en la <link target-id="fs-id1171052108018"/>.</para><figure id="fs-id1171052108018"><media id="fs-id1171049570695" alt="Ilustración de la distribución muestral de la diferencia de proporciones entre dos poblaciones y las hipótesis nula y alternativa."><image src="../../media/fig-ch10_01_02.jpg" mime-type="image/png"/></media></figure><para id="eip-50">En general, la hipótesis nula permite probar una diferencia de un valor determinado, 𝛿<sub>0</sub>, tal como hicimos para el caso de las diferencias de medias.</para><equation id="eip-671" class="unnumbered"><label/><m:math>
 <m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
 <m:mo>:</m:mo>
 <m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub>
@@ -624,7 +624,7 @@
         <list id="fs-idp6439728" list-type="enumerated" number-style="lower-roman">
           <item>Alfa: 0,05</item>
           <item>Decisión: No se puede aceptar la hipótesis nula</item>
-          <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> > alfa</item>
+          <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> &gt; alfa</item>
           <item>Conclusión: Al nivel de significación del 5 %, no hay pruebas suficientes para concluir que las proporciones de mujeres blancas y negras víctimas de suicidio, de entre 15 y 24 años, sean diferentes. </item>
         </list>
       </item>
@@ -703,7 +703,7 @@
           <item><emphasis effect="italics">p<sub>2011</sub></emphasis> ≤ <emphasis effect="italics">p<sub>2010</sub></emphasis></item>
           <item><emphasis effect="italics">p<sub>2011</sub></emphasis> ≥ <emphasis effect="italics">p<sub>2010</sub></emphasis></item>
           <item><emphasis effect="italics">μ<sub>2011</sub></emphasis> ≤ <emphasis effect="italics">μ<sub>2010</sub></emphasis></item>
-          <item><emphasis effect="italics">p<sub>2011</sub></emphasis> > <emphasis effect="italics">p<sub>2010</sub></emphasis></item>
+          <item><emphasis effect="italics">p<sub>2011</sub></emphasis> &gt; <emphasis effect="italics">p<sub>2010</sub></emphasis></item>
         </list>
       </problem>
 
@@ -761,7 +761,7 @@
         <para id="fs-idp35036048">Prueba: dos proporciones de muestras independientes</para>
         <para id="fs-idp35036432">Variable aleatoria: <emphasis effect="italics">p′<sub>1</sub></emphasis> − <emphasis effect="italics">p′<sub>2</sub></emphasis></para>
         <para id="fs-idm9404992">Distribución:</para>
-        <para id="fs-idp46050528"><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math><newline/><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>></m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></para>
+        <para id="fs-idp46050528"><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math><newline/><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></para>
         <para id="fs-idm39674464">La proporción de propietarios de tabletas es mayor entre 16 y 29 años que entre 30 y más.</para>
         <para id="fs-idm39673968">Gráfico: cola derecha</para>
 
@@ -784,7 +784,7 @@
       <para id="fs-idp35259328">Subíndices: 1: hombres; 2: mujeres</para>
       <list id="fs-idp66491504" list-type="enumerated" number-style="lower-alpha">
         <item><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>≤</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
-        <item><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>></m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+        <item><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
         <item><m:math>
  <m:mrow>
   <m:msub>
@@ -814,7 +814,7 @@
           <list id="fs-idp134826688" list-type="enumerated" number-style="lower-roman">
             <item>Alfa: 0,05</item>
             <item>Decisión: No se puede rechazar la hipótesis nula.</item>
-            <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> > alfa</item>
+            <item>Motivo de la decisión: valor <emphasis effect="italics">p</emphasis> &gt; alfa</item>
             <item>Conclusión: Con un nivel de significación del 5 % no hay pruebas suficientes para concluir que la proporción de hombres que disfrutan comprando equipos electrónicos es mayor que la de mujeres.</item>
           </list>
         </item>
@@ -934,7 +934,7 @@
     </problem>
 <solution id="eip-idp83945904">
 <list id="eip-idp83946160" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ<sub>d</sub></emphasis> = 0</item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ<sub>d</sub></emphasis> > 0</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ<sub>d</sub></emphasis> &gt; 0</item>
 <item>La variable aleatoria <emphasis effect="italics">X<sub>d</sub></emphasis> es la diferencia media de los tiempos de trabajo en los días en que se desayuna y en los días en que no se desayuna.</item>
 <item><emphasis effect="italics">t</emphasis><sub>9</sub></item>
 <item>estadístico de prueba: 4,8963</item>

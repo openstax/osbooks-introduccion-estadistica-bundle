@@ -20,11 +20,11 @@
 <solution id="eip-id1169348112781">
 <para id="eip-id1169348112783">Si suponemos que la coloración de un perro es independiente de la de los demás, una suposición un poco valiente, esto se convierte en un problema clásico de probabilidad binomial.</para>
 <para id="eip-id1169348078984">El enunciado de la probabilidad solicitada es 1 - [<emphasis effect="italics">p</emphasis>(<emphasis effect="italics">X</emphasis> = 0) + <emphasis effect="italics">p</emphasis>(<emphasis effect="italics">X</emphasis> = 1) + <emphasis effect="italics">p</emphasis>(<emphasis effect="italics">X</emphasis> = 2) + ... + <emphasis effect="italics">p</emphasis>(<emphasis effect="italics">X</emphasis> = 16)]. Para ello debemos calcular 17 fórmulas binomiales y sumarlas y luego restar a una para obtener la parte derecha de la distribución. Como alternativa, podemos utilizar la distribución normal para obtener una respuesta aceptable y en mucho menos tiempo.</para>
-<para id="eip-id1166526633458">En primer lugar, tenemos que comprobar si la distribución binomial es lo suficientemente simétrica como para utilizar la distribución normal. Sabemos que la binomial de este problema está sesgada porque la probabilidad de éxito, 0,1, no es la misma que la probabilidad de fracaso, 0,9. Sin embargo, tanto <m:math><m:mi>np</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:math> como <m:math><m:mi>n</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>90</m:mn></m:math> son mayores que 5, el límite para utilizar la distribución normal para estimar la binomial.</para><para id="eip-id1166519577499">La <link target-id="eip-id1165089732504"/> a continuación muestra la distribución binomial y se marca el área que queremos conocer. También se marca la media de la binomial, 10, y se escribe la desviación típica en el lateral del gráfico: <emphasis effect="italics">σ</emphasis> = <m:math><m:msqrt><m:mrow><m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi></m:mrow></m:msqrt></m:math> = 3. El área bajo la distribución de cero a 16 es la probabilidad solicitada, y se ha sombreado. Debajo de la distribución binomial hay una distribución normal que se utiliza para estimar esta probabilidad. Esa probabilidad también ha sido sombreada.</para><figure id="eip-id1165089732504"><media id="eip-id1165091348310" alt="Un histograma que muestra la distribución de frecuencias de una distribución binomial con p = 0,1 y n = 100. La variable aleatoria X representa el número de aciertos. El eje vertical y representa la probabilidad P(X). Las barras superiores a 16 están sombreadas. Debajo del histograma está el gráfico de una distribución normal con media m = 10. El área bajo la curva para x > 16 está sombreada (correspondiente al área sombreada en el histograma anterior). Debajo del gráfico de la curva normal está la fórmula de la puntuación z: z 1 = (x - mu)/sigma y el cálculo: z 1 = (16 – 10)/3 = 2."><image src="../../media/fig-06_07_05.jpg" mime-type="image/png"/></media></figure><para id="eip-id1169348120694">Al estandarizar de la distribución binomial a la normal, como se hizo en el pasado, se muestra que estamos pidiendo la probabilidad de 16 a infinito positivo, o 100 en este caso. Tenemos que calcular el número de desviaciones típicas que 16 se aleja de la media: 10.</para>
+<para id="eip-id1166526633458">En primer lugar, tenemos que comprobar si la distribución binomial es lo suficientemente simétrica como para utilizar la distribución normal. Sabemos que la binomial de este problema está sesgada porque la probabilidad de éxito, 0,1, no es la misma que la probabilidad de fracaso, 0,9. Sin embargo, tanto <m:math><m:mi>np</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:math> como <m:math><m:mi>n</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>90</m:mn></m:math> son mayores que 5, el límite para utilizar la distribución normal para estimar la binomial.</para><para id="eip-id1166519577499">La <link target-id="eip-id1165089732504"/> a continuación muestra la distribución binomial y se marca el área que queremos conocer. También se marca la media de la binomial, 10, y se escribe la desviación típica en el lateral del gráfico: <emphasis effect="italics">σ</emphasis> = <m:math><m:msqrt><m:mrow><m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi></m:mrow></m:msqrt></m:math> = 3. El área bajo la distribución de cero a 16 es la probabilidad solicitada, y se ha sombreado. Debajo de la distribución binomial hay una distribución normal que se utiliza para estimar esta probabilidad. Esa probabilidad también ha sido sombreada.</para><figure id="eip-id1165089732504"><media id="eip-id1165091348310" alt="Un histograma que muestra la distribución de frecuencias de una distribución binomial con p = 0,1 y n = 100. La variable aleatoria X representa el número de aciertos. El eje vertical y representa la probabilidad P(X). Las barras superiores a 16 están sombreadas. Debajo del histograma está el gráfico de una distribución normal con media m = 10. El área bajo la curva para x &gt; 16 está sombreada (correspondiente al área sombreada en el histograma anterior). Debajo del gráfico de la curva normal está la fórmula de la puntuación z: z 1 = (x - mu)/sigma y el cálculo: z 1 = (16 – 10)/3 = 2."><image src="../../media/fig-06_07_05.jpg" mime-type="image/png"/></media></figure><para id="eip-id1169348120694">Al estandarizar de la distribución binomial a la normal, como se hizo en el pasado, se muestra que estamos pidiendo la probabilidad de 16 a infinito positivo, o 100 en este caso. Tenemos que calcular el número de desviaciones típicas que 16 se aleja de la media: 10.</para>
 <equation class="unnumbered" id="fs-id1167119657987"><label/><m:math><m:mi>Z</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>–</m:mo><m:mi>μ</m:mi></m:mrow><m:mrow><m:mi>σ</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>16</m:mn><m:mo>–</m:mo><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn></m:math></equation>
 <para id="eip-id1169348075004">Estamos preguntando por la probabilidad más allá de dos desviaciones típicas, un evento muy improbable. Buscamos dos desviaciones típicas en la tabla normal estándar y encontramos que el área de cero a dos desviaciones típicas es 0,4772. Sin embargo, nos interesa la cola, así que restamos 0,4772 de 0,5 y así encontramos el área de la cola. Nuestra conclusión es que la probabilidad de que un criadero tenga 16 perros con "simetría perfecta" es de 0,0228. Dundee Kennels tiene un historial extraordinario en este sentido.</para>
 <para id="eip-id1169348067774">Matemáticamente, lo escribimos como:</para>
-<equation class="unnumbered" id="fs-id1167119941861"><label/><m:math><m:mn>1</m:mn><m:mo>–</m:mo><m:mo>[</m:mo><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mo>…</m:mo><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mn>16</m:mn><m:mo>)</m:mo><m:mo>]</m:mo><m:mo>=</m:mo><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>></m:mo><m:mn>16</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>Z</m:mi><m:mo>></m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0,0228</m:mn></m:math></equation>
+<equation class="unnumbered" id="fs-id1167119941861"><label/><m:math><m:mn>1</m:mn><m:mo>–</m:mo><m:mo>[</m:mo><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mo>…</m:mo><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>=</m:mo><m:mn>16</m:mn><m:mo>)</m:mo><m:mo>]</m:mo><m:mo>=</m:mo><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>&gt;</m:mo><m:mn>16</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>p</m:mi><m:mo>(</m:mo><m:mi>Z</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0,0228</m:mn></m:math></equation>
 </solution>
 </exercise></example>
 <section id="eip-424" class="summary">
@@ -45,7 +45,7 @@
 <problem id="fs-idp3823216">
 <para id="fs-idp81012528">¿Cómo representaría el área a la izquierda de uno en un enunciado de probabilidad?</para>
 <figure id="eip-idp74682384">
-<media id="fs-idp31643648" alt="">
+<media id="fs-idp31643648" alt="Gráfico de una curva de campana, representando una distribución normal, con una línea vertical en x=1.">
 <image mime-type="image/jpg" print-width="3in" src="../../media/CNX_Stats_C06_M04_item001.jpg"/>
 </media>
 </figure>
@@ -59,7 +59,7 @@
 <exercise id="fs-idm18365728"><problem id="fs-idp30641696">
 <para id="fs-idp68913872">¿Cuál es el área a la derecha de uno?</para>
 <figure id="eip-idm26567824">
-<media id="fs-idp76787840" alt="" display="block">
+<media id="fs-idp76787840" alt="Gráfico de una curva de campana, representando una distribución normal, con una línea vertical en x=1." display="block">
 <image mime-type="image/jpg" print-width="3in" src="../../media/CNX_Stats_C06_M04_item001.jpg"/>
 </media></figure>
 </problem>
@@ -77,7 +77,7 @@
 
 <exercise id="fs-idp16475344"><problem id="fs-idm13017216">
 <para id="fs-idp83647168">¿Cómo representaría el área a la izquierda de tres en un enunciado de probabilidad?</para>
-<figure id="eip-idm45345808"><media id="fs-idp128136336" alt="">
+<figure id="eip-idm45345808"><media id="fs-idp128136336" alt="Curva de campana de una distribución normal, con una línea vertical que indica el valor 3 en el eje x.">
 <image mime-type="image/jpg" print-width="3in" src="../../media/CNX_Stats_C06_M04_item002.jpg"/>
 </media></figure>
 </problem>
@@ -88,12 +88,12 @@
 </exercise><exercise id="fs-idp103778720">
 <problem id="fs-idp147171280">
 <para id="fs-idp41528880">¿Cuál es el área a la derecha de tres?</para>
-<figure id="eip-idp19359872"><media id="fs-idp2060576" alt="">
+<figure id="eip-idp19359872"><media id="fs-idp2060576" alt="Curva de campana de una distribución normal, con una línea vertical que indica el valor 3 en el eje x.">
 <image mime-type="image/jpg" print-width="3in" src="../../media/CNX_Stats_C06_M04_item002.jpg"/>
 </media></figure>
 </problem>
 <solution id="fs-idp5045104">
-<para id="fs-idp110734480">1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 3) o <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 3)</para></solution>
+<para id="fs-idp110734480">1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 3) o <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 3)</para></solution>
 </exercise><exercise id="fs-idp880816"><problem id="fs-idp154035488">
 <para id="fs-idm221600">Si el área a la izquierda de <emphasis effect="italics">x</emphasis> en una distribución normal es 0,123, ¿cuál es el área a la derecha de <emphasis effect="italics">x</emphasis>?</para></problem>
 
@@ -111,7 +111,7 @@
 <para id="eip-926"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(54, 8)</para>
 
 <exercise id="fs-idp83610000"><problem id="fs-idp149250384">
-<para id="fs-idp151137280">Calcule la probabilidad de que <emphasis effect="italics">x</emphasis> > 56.</para></problem>
+<para id="fs-idp151137280">Calcule la probabilidad de que <emphasis effect="italics">x</emphasis> &gt; 56.</para></problem>
 
 <!-- <solution id="fs-idp74510448">
 <para id="fs-idp25510144">0.4013</para>
@@ -637,7 +637,7 @@ the average for his school, which is typically a passing GPA.</item>
 </m:math> = 5,5136</item>
 </list><list id="eip-idp139727617865536s" list-type="enumerated" number-style="lower-alpha"><item>Para este problema: <emphasis effect="italics">P</emphasis>(34 &lt; <emphasis effect="italics">x</emphasis> &lt; 54) = 0,7641</item>
 <item>Para este problema: <emphasis effect="italics">P</emphasis>(54 &lt; <emphasis effect="italics">x</emphasis> &lt; 64) = 0,0018</item>
-<item>Para este problema: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 64) = 0,0000012 (aproximadamente 0)</item>
+<item>Para este problema: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 64) = 0,0000012 (aproximadamente 0)</item>
 </list></solution></exercise>
 
 <exercise id="eip-291"><problem id="eip-455">

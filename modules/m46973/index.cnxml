@@ -11,7 +11,7 @@
 <para id="fs-idm68176912">El área sombreada en el siguiente gráfico indica el área a la izquierda de <emphasis effect="italics">x</emphasis>. Esta área está representada por la probabilidad <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">x</emphasis>). Las tablas normales, las computadoras y las calculadoras proporcionan o calculan la probabilidad <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">x</emphasis>).</para><figure id="fs-idm109348848"><media id="fs-idm158141984" alt="Este diagrama muestra una curva en forma de campana con la X mayúscula en el extremo derecho del eje X. El eje X también contiene una x minúscula a un cuarto del camino a través del eje X desde la derecha. El área bajo la curva de campana a la derecha de la x minúscula está sombreada. La etiqueta indica: el área sombreada representa la probabilidad P(X &lt; x).">
 <image mime-type="image/jpg" src="../../media/fig-ch_06_04_01.jpg" width="420"/>
 </media>
-</figure><para id="fs-idm95835008">El área a la derecha es entonces <emphasis effect="italics">P </emphasis>( <emphasis effect="italics">X </emphasis> > <emphasis effect="italics">x </emphasis>) = 1 - <emphasis effect="italics">P </emphasis>( <emphasis effect="italics">X </emphasis> &lt; <emphasis effect="italics">x </emphasis>). Recuerde que <emphasis effect="italics">P </emphasis>( <emphasis effect="italics">X </emphasis> &lt; <emphasis effect="italics">x </emphasis>) = <term id="term-00001">Área a la izquierda </term> de la línea vertical que pasa por <emphasis effect="italics">x </emphasis>. <emphasis effect="italics">P </emphasis>( <emphasis effect="italics">X </emphasis> > <emphasis effect="italics">x </emphasis>) = 1 - <emphasis effect="italics">P </emphasis>( <emphasis effect="italics">X </emphasis> &lt; <emphasis effect="italics">x </emphasis>) = <term id="term-00002">Área a la derecha </term> de la línea vertical que pasa por <emphasis effect="italics">x </emphasis>. <emphasis effect="italics">P </emphasis>( <emphasis effect="italics">X </emphasis> &lt; <emphasis effect="italics">x </emphasis>) es lo mismo que <emphasis effect="italics">P </emphasis>( <emphasis effect="italics">X </emphasis> ≤ <emphasis effect="italics">x </emphasis>) y <emphasis effect="italics">P </emphasis>( <emphasis effect="italics">X </emphasis> > <emphasis effect="italics">x </emphasis>) es lo mismo que <emphasis effect="italics">P </emphasis>( <emphasis effect="italics">X </emphasis> ≥ <emphasis effect="italics">x </emphasis>) para distribuciones continuas.</para><section id="fs-idm123993536">
+</figure><para id="fs-idm95835008">El área a la derecha es entonces <emphasis effect="italics">P </emphasis>( <emphasis effect="italics">X </emphasis> &gt; <emphasis effect="italics">x </emphasis>) = 1 - <emphasis effect="italics">P </emphasis>( <emphasis effect="italics">X </emphasis> &lt; <emphasis effect="italics">x </emphasis>). Recuerde que <emphasis effect="italics">P </emphasis>( <emphasis effect="italics">X </emphasis> &lt; <emphasis effect="italics">x </emphasis>) = <term id="term-00001">Área a la izquierda </term> de la línea vertical que pasa por <emphasis effect="italics">x </emphasis>. <emphasis effect="italics">P </emphasis>( <emphasis effect="italics">X </emphasis> &gt; <emphasis effect="italics">x </emphasis>) = 1 - <emphasis effect="italics">P </emphasis>( <emphasis effect="italics">X </emphasis> &lt; <emphasis effect="italics">x </emphasis>) = <term id="term-00002">Área a la derecha </term> de la línea vertical que pasa por <emphasis effect="italics">x </emphasis>. <emphasis effect="italics">P </emphasis>( <emphasis effect="italics">X </emphasis> &lt; <emphasis effect="italics">x </emphasis>) es lo mismo que <emphasis effect="italics">P </emphasis>( <emphasis effect="italics">X </emphasis> ≤ <emphasis effect="italics">x </emphasis>) y <emphasis effect="italics">P </emphasis>( <emphasis effect="italics">X </emphasis> &gt; <emphasis effect="italics">x </emphasis>) es lo mismo que <emphasis effect="italics">P </emphasis>( <emphasis effect="italics">X </emphasis> ≥ <emphasis effect="italics">x </emphasis>) para distribuciones continuas.</para><section id="fs-idm123993536">
 <title>Cálculo de probabilidades</title>
 <para id="eip-idp126141922">Las probabilidades se calculan mediante la tecnología. Se dan las instrucciones necesarias para las calculadoras TI-83+ y TI-84.</para>
 
@@ -36,11 +36,11 @@
 <solution id="id1168986723026">
 <para id="element-83">a. Supongamos que <emphasis effect="italics">X</emphasis> = una calificación en el examen final. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(63, 5), donde <emphasis effect="italics">μ</emphasis> = 63 y <emphasis effect="italics">σ</emphasis> = 5.</para><para id="element-449">Dibuje un gráfico.</para>
 
-<para id="element-389">Entonces, calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 65).</para>
+<para id="element-389">Entonces, calcule <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 65).</para>
 
-<para id="element-294"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 65) = 0,3446</para>
+<para id="element-294"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 65) = 0,3446</para>
 
-<figure id="fs-idm5159232"><media id="id1168988266495" alt="Este diagrama muestra una curva en forma de campana con 63 situado en el centro del eje X y 65 situado a poca distancia a la derecha de 63. El área bajo la curva de campana a la derecha de 65 está sombreada. La etiqueta indica: el área sombreada representa la probabilidad en mayúsculas P(X > 65) = 0,3446">
+<figure id="fs-idm5159232"><media id="id1168988266495" alt="Este diagrama muestra una curva en forma de campana con 63 situado en el centro del eje X y 65 situado a poca distancia a la derecha de 63. El área bajo la curva de campana a la derecha de 65 está sombreada. La etiqueta indica: el área sombreada representa la probabilidad en mayúsculas P(X &gt; 65) = 0,3446">
 <image src="../../media/fig-ch_06_05_01.jpg" mime-type="image/png" width="380"/>
 </media>
 </figure><para id="element-45">La probabilidad de que cualquier estudiante seleccionado al azar obtenga una calificación superior a 65 es de 0,3446.
@@ -66,7 +66,7 @@
 </m:math> = 0,4</para>
 
 <para id="fs-idm33523184">El área de la izquierda es 0,6554.</para>
-<para id="fs-idm125027840"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 65) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">z</emphasis> >  0,4) = 1 - 0,6554 = 0,3446</para></solution>
+<para id="fs-idm125027840"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 65) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">z</emphasis> &gt;  0,4) = 1 - 0,6554 = 0,3446</para></solution>
 </exercise>
 
 <note id="fs-idm98690992" class="statistics calculator"><label/>
@@ -300,7 +300,7 @@
 <problem id="fs-idp3823216">
 <para id="fs-idp81012528">¿Cómo representaría el área a la izquierda de uno en un enunciado de probabilidad?</para>
 <figure id="eip-idp74682384">
-<media id="fs-idp31643648" alt="">
+<media id="fs-idp31643648" alt="Gráfico de una curva de campana, representando una distribución normal, con una línea vertical en x=1.">
 <image mime-type="image/jpg" print-width="3in" src="../../media/CNX_Stats_C06_M04_item001.jpg"/>
 </media>
 </figure>
@@ -314,7 +314,7 @@
 <exercise id="fs-idm18365728"><problem id="fs-idp30641696">
 <para id="fs-idp68913872">¿Cuál es el área a la derecha de uno?</para>
 <figure id="eip-idm26567824">
-<media id="fs-idp76787840" alt="" display="block">
+<media id="fs-idp76787840" alt="Gráfico de una curva de campana, representando una distribución normal, con una línea vertical en x=1." display="block">
 <image mime-type="image/jpg" print-width="3in" src="../../media/CNX_Stats_C06_M04_item001.jpg"/>
 </media></figure>
 </problem>
@@ -332,7 +332,7 @@
 
 <exercise id="fs-idp16475344"><problem id="fs-idm13017216">
 <para id="fs-idp83647168">¿Cómo representaría el área a la izquierda de tres en un enunciado de probabilidad?</para>
-<figure id="eip-idm45345808"><media id="fs-idp128136336" alt="">
+<figure id="eip-idm45345808"><media id="fs-idp128136336" alt="Curva de campana de una distribución normal, con una línea vertical que indica el valor 3 en el eje x.">
 <image mime-type="image/jpg" print-width="3in" src="../../media/CNX_Stats_C06_M04_item002.jpg"/>
 </media></figure>
 </problem>
@@ -343,12 +343,12 @@
 </exercise><exercise id="fs-idp103778720">
 <problem id="fs-idp147171280">
 <para id="fs-idp41528880">¿Cuál es el área a la derecha de tres?</para>
-<figure id="eip-idp19359872"><media id="fs-idp2060576" alt="">
+<figure id="eip-idp19359872"><media id="fs-idp2060576" alt="Curva de campana de una distribución normal, con una línea vertical que indica el valor 3 en el eje x.">
 <image mime-type="image/jpg" print-width="3in" src="../../media/CNX_Stats_C06_M04_item002.jpg"/>
 </media></figure>
 </problem>
 <solution id="fs-idp5045104">
-<para id="fs-idp110734480">1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 3) o <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 3)</para></solution>
+<para id="fs-idp110734480">1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 3) o <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 3)</para></solution>
 </exercise><exercise id="fs-idp880816"><problem id="fs-idp154035488">
 <para id="fs-idm221600">Si el área a la izquierda de <emphasis effect="italics">x</emphasis> en una distribución normal es 0,123, ¿cuál es el área a la derecha de <emphasis effect="italics">x</emphasis>?</para></problem>
 
@@ -366,7 +366,7 @@
 <para id="eip-926"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(54, 8)</para>
 
 <exercise id="fs-idp83610000"><problem id="fs-idp149250384">
-<para id="fs-idp151137280">Calcule la probabilidad de que <emphasis effect="italics">x</emphasis> > 56.</para></problem>
+<para id="fs-idp151137280">Calcule la probabilidad de que <emphasis effect="italics">x</emphasis> &gt; 56.</para></problem>
 
 <!-- <solution id="fs-idp74510448">
 <para id="fs-idp25510144">0.4013</para>
@@ -966,7 +966,7 @@ the average for his school, which is typically a passing GPA.</item>
 </m:math> = 5,5136</item>
 </list><list id="eip-idp139727617865536s" list-type="enumerated" number-style="lower-alpha"><item>Para este problema: <emphasis effect="italics">P</emphasis>(34 &lt; <emphasis effect="italics">x</emphasis> &lt; 54) = normalcdf(34;54;48;5,5136) = 0,7641</item>
 <item>Para este problema: <emphasis effect="italics">P</emphasis>(54 &lt; <emphasis effect="italics">x</emphasis> &lt; 64) = normalcdf(54;64;48;5,5136) = 0,0018</item>
-<item>Para este problema: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 64) = normalcdf(64,10<sup>99</sup>,48,5.5136) = 0,0000012 (aproximadamente 0)</item>
+<item>Para este problema: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 64) = normalcdf(64,10<sup>99</sup>,48,5.5136) = 0,0000012 (aproximadamente 0)</item>
 </list></solution></exercise>
 
 <exercise id="eip-291"><problem id="eip-455">

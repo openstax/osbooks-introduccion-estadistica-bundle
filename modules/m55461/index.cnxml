@@ -1,4 +1,4 @@
-﻿<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Un intervalo de confianza para una desviación típica de la población, con un tamaño de muestra conocido o grande</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m55461</md:content-id>
@@ -438,7 +438,7 @@ Aquí está de nuevo la fórmula para un intervalo de confianza para una media p
 <example id="element-1217"><exercise id="element-971"><problem id="id1164450104012">
     <para id="element-214">Supongamos que cambiamos el problema original en el <link target-id="eip-id1171257291379"/> utilizando un nivel de confianza del 95 %. Calcule un intervalo de confianza del 95 % para la calificación media real (poblacional) del examen estadístico.</para></problem>
     <solution id="id1164461631257">
-<figure id="eip-idm1377941360"><media id="eip-idm1377941232" alt=" ">
+<figure id="eip-idm1377941360"><media id="eip-idm1377941232" alt="Las curvas de distribución normal ilustran un intervalo de confianza del 95% para la media muestral (X-barra) con los valores Z correspondientes. Los extremos son 67.02 y 68.98, centrados en 68, con Z entre -1.96 y 1.96.">
     <image src="../../media/fig-ch08_02_06.jpg" mime-type="image/jpg"/>
     </media>
     </figure>
@@ -503,7 +503,7 @@ Aquí está de nuevo la fórmula para un intervalo de confianza para una media p
 
 <para id="eip-id1171269427461"><m:math><m:msub><m:mi>Z</m:mi><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>/</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:msub></m:math> se encuentra en la tabla normal estándar buscando 0,46 en el cuerpo de la tabla y encontrando el número de desviaciones típicas en el lado y la parte superior de la tabla; 1,75. La solución para el intervalo es así:</para>
 <equation id="eip-id4668626" class="unnumbered"><label/><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>593,84</m:mn><m:mo>±</m:mo><m:mn>72,2636</m:mn><m:mo>=</m:mo><m:mo>(</m:mo><m:mn>521,57</m:mn><m:mo>,</m:mo><m:mn>666,10</m:mn><m:mo>)</m:mo></m:math></equation>
-<equation id="eip-id1172209000261" class="unnumbered"><label/><m:math><m:mo>$</m:mo><m:mn>521,58</m:mn><m:mo>≤</m:mo><m:mi>μ</m:mi><m:mo>≤</m:mo><m:mo>$</m:mo><m:mn>666,10</m:mn></m:math></equation><figure id="eip-id2862705"><media id="eip-id2880186" alt=""><image src="../../media/fig-ch08_02_05.jpg" mime-type="image/png"/></media></figure></solution>
+<equation id="eip-id1172209000261" class="unnumbered"><label/><m:math><m:mo>$</m:mo><m:mn>521,58</m:mn><m:mo>≤</m:mo><m:mi>μ</m:mi><m:mo>≤</m:mo><m:mo>$</m:mo><m:mn>666,10</m:mn></m:math></equation><figure id="eip-id2862705"><media id="eip-id2880186" alt="Representación de un intervalo de confianza con dos distribuciones normales: una para la media muestral ($) y otra estandarizada (z), indicando valores críticos y áreas de probabilidad."><image src="../../media/fig-ch08_02_05.jpg" mime-type="image/png"/></media></figure></solution>
 </exercise></example></section><section id="eip-493" class="references"><title>Referencias</title><para id="eip-idp49185344">“American Fact Finder”. U.S. Census Bureau. Disponible en línea en http://factfinder2.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t (consultado el 2 de julio de 2013).</para>
 <para id="eip-idp49186128">“Disclosure Data Catalog: Candidate Summary Report 2012”. U.S. Federal Election Commission. Disponible en línea en http://www.fec.gov/data/index.jsp (consultado el 2 de julio de 2013).</para>
 <para id="eip-idp131915104">“Headcount Enrollment Trends by Student Demographics Ten-Year Fall Trends to Most Recently Completed Fall”. Foothill De Anza Community College District. Disponible en línea en http://research.fhda.edu/factbook/FH_Demo_Trends/FoothillDemographicTrends.htm (consultado el 30 de septiembre de 2013).</para>
