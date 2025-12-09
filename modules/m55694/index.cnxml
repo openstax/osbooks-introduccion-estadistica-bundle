@@ -32,7 +32,7 @@
   <para id="element-219">Aunque se nos da la desviación típica de la población podemos establecer la prueba utilizando la varianza de la población de la siguiente manera.</para>
 <list id="element-660" list-type="bulleted"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> ≤ 5<sup>2</sup>
  </item>
- <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> > 5<sup>2</sup></item>
+ <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> &gt; 5<sup>2</sup></item>
  </list></solution>
 </exercise>
  </example>
@@ -131,7 +131,7 @@ La prueba está configurada como de dos colas porque el profesor Hadley ha expre
 El valor calculado del estadístico de prueba <m:math><m:msup><m:mi>χ</m:mi><m:mn>2</m:mn></m:msup></m:math> de 6,96 está en la cola y, por ende, a un nivel de significación de 0,05. No podemos aceptar la hipótesis nula de que la varianza en el relleno de las donas es igual a 0,04 tazas. Parece que el profesor Hadley está destinado a encontrarse con la decepción en cada bocado.</para></solution>
 </exercise>
 
-<figure id="eip-id1165734451518"><media id="eip-id1165743440253" alt=".">
+<figure id="eip-id1165734451518"><media id="eip-id1165743440253" alt="Esta distribución chi-cuadrado muestra un intervalo central del 95% entre 11.69 y 38.08, con un 0.025 de probabilidad en cada cola lateral (α/2).">
 <image mime-type="image/jpeg" src="../../media/fig-ch11_04_06.jpg"/>
 </media>
 </figure></example><note id="fs-idp108749600" class="statistics try"><label/><title>Ejercicio</title>
@@ -140,7 +140,7 @@ El valor calculado del estadístico de prueba <m:math><m:msup><m:mi>χ</m:mi><m:
   <para id="eip-37">La Comisión Federal de Comunicaciones (Federal Communications Commission, FCC) hace pruebas de velocidad de banda ancha para medir cuántos datos por segundo pasan entre la computadora de un consumidor e internet. En agosto de 2012, la desviación típica de las velocidades de internet entre los proveedores de servicios de internet (PSI) era del 12,2 %. Supongamos que se toma una muestra de 15 PSI y que la desviación típica es de 13,2. Un analista afirma que la desviación típica de las velocidades es mayor que la comunicada. Plantee las hipótesis nula y alternativa, calcule los grados de libertad, el estadístico de prueba, trace el gráfico de la distribución, marque el área asociada al nivel de confianza y extraiga una conclusión. Prueba al nivel de significación del 1 %.</para></problem>
 <solution id="eip-idp33472464">
 <label/>
- <para id="eip-546"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 12,2<sup>2</sup></para><para id="eip-idm82917168"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> > 12,2<sup>2</sup> <newline/><emphasis effect="italics">df</emphasis> = 14 estadístico de prueba <newline/>chi<sup>2</sup> = 16,39</para><figure id="fs-idp135068032"><media id="eip-idm127786800" alt="" display="block">
+ <para id="eip-546"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 12,2<sup>2</sup></para><para id="eip-idm82917168"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> &gt; 12,2<sup>2</sup> <newline/><emphasis effect="italics">df</emphasis> = 14 estadístico de prueba <newline/>chi<sup>2</sup> = 16,39</para><figure id="fs-idp135068032"><media id="eip-idm127786800" alt="Gráfico de la distribución chi-cuadrado con 14 grados de libertad. El valor de chi-cuadrado es 16.39, y el p-valor de 0.2902 está representado por el área sombreada a la derecha." display="block">
   <image mime-type="image/jpeg" src="../../media/CNX_Stats_C11_M08_tryit001.jpg" width="380"/>
 </media></figure><para id="eip-idm175783712">El valor <emphasis effect="italics">p</emphasis> es de 0,2902, por lo que rechazamos la hipótesis nula. No hay pruebas suficientes para sugerir que la varianza sea superior al 12,2<sup>2</sup>.</para>
 <note id="eip-idp106427424" class="statistics calculator">
@@ -237,7 +237,7 @@ El valor calculado del estadístico de prueba <m:math><m:msup><m:mi>χ</m:mi><m:
   </para>
 </problem>
 <solution id="eip-401">
- <para id="eip-306"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 0,81<sup>2</sup>;</para><para id="eip-idm138366848"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> > 0,81<sup>2</sup> </para></solution>
+ <para id="eip-306"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 0,81<sup>2</sup>;</para><para id="eip-idm138366848"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> &gt; 0,81<sup>2</sup> </para></solution>
   </exercise>
   <exercise id="eip-179"><problem id="eip-132">
     <para id="eip-957"><emphasis effect="italics">df</emphasis> = ________</para></problem>
@@ -321,7 +321,7 @@ El valor calculado del estadístico de prueba <m:math><m:msup><m:mi>χ</m:mi><m:
  </problem>
   <solution id="fs-idp8292400">
    <list id="fs-idm38743456" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis> = 15</item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis> > 15</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis> &gt; 15</item>
 <item><emphasis effect="italics">df</emphasis> = 42</item>
 <item>chi-cuadrado con <emphasis effect="italics">df</emphasis> = 42</item>
 <item>estadístico de prueba = 26,88</item>
@@ -344,7 +344,7 @@ El valor calculado del estadístico de prueba <m:math><m:msup><m:mi>χ</m:mi><m:
   </para></problem>
   <solution id="fs-idp2191872">
    <list id="fs-idm74960368" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis> ≤ 3</item>
-    <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis> > 3</item>
+    <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis> &gt; 3</item>
     <item><emphasis effect="italics">df</emphasis> = 17</item>
     <item>distribución chi-cuadrado con <emphasis effect="italics">df</emphasis> = 17</item>
     <item>estadístico de prueba = 28,73</item>
@@ -417,7 +417,7 @@ El valor calculado del estadístico de prueba <m:math><m:msup><m:mi>χ</m:mi><m:
   </problem>
    <solution id="fs-idp46489456">
     <para id="fs-idp77058224">La desviación típica de la muestra es de 34,29 dólares.</para>
-    <para id="fs-idp77058608"><emphasis effect="italics">H<sub>0</sub></emphasis> : <emphasis effect="italics">σ</emphasis><sup>2</sup> = 25<sup>2</sup><newline/> <emphasis effect="italics">H<sub>a</sub></emphasis> : <emphasis effect="italics">σ</emphasis><sup>2</sup> > 25<sup>2</sup></para><para id="fs-idp53015088"><newline/><emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> – 1 = 7.</para><para id="fs-idp75015024"><newline/>estadístico de prueba: <m:math>
+    <para id="fs-idp77058608"><emphasis effect="italics">H<sub>0</sub></emphasis> : <emphasis effect="italics">σ</emphasis><sup>2</sup> = 25<sup>2</sup><newline/> <emphasis effect="italics">H<sub>a</sub></emphasis> : <emphasis effect="italics">σ</emphasis><sup>2</sup> &gt; 25<sup>2</sup></para><para id="fs-idp53015088"><newline/><emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> – 1 = 7.</para><para id="fs-idp75015024"><newline/>estadístico de prueba: <m:math>
  <m:mrow>
   <m:msup>
    <m:mi>x</m:mi>
